@@ -6105,10 +6105,10 @@ country = {
 			}
 			
 			own_control_core = 	{
-				501	502	503	504 507 508 509 510 511 512 513 514 515 516 517 518 519
-				520 521	522	523	524	525 526 527 528 529 530 531 532 533 534 535 536 537 538 539
+				501	502	503	504 507 508 509 510 511 513 515 516 517 518 519
+				520 521	522	523	524	525 526 527 528 529 530 531 532 533 534 535 538 539
 				540 541 542 543 544 545 546 547 548 550
-				655 5549
+				655
 				453 445 3478 3477 3476 3380 3379 3378 3377 3376 3375 3374 3373 3372 3371 3370 3369 3368 
 				
 				656 657 658 659 694 695 696 697 701 #Philistia
@@ -6140,7 +6140,7 @@ country = {
 			government = aristocratic_monarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = egyptian
-			religion = roman_pantheon
+			religion = egyptian_pantheon
 			capital = 500 #Menfer
 			succession_law=egyption_succession_law
 			succession=old_egyptian_succession
@@ -6155,7 +6155,7 @@ country = {
 			}
 
 			own_control_core =  {
-				500
+				500 537 5549 536 512 514
 			}
 		}
 		
