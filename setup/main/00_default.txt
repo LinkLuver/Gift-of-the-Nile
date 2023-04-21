@@ -6105,7 +6105,7 @@ country = {
 			}
 			
 			own_control_core = 	{
-				501	502	503	504 507 508 509 510 511 513 515 516 517 518 519
+				502	504 508 509 510 511 513 515 516 517 518 519
 				520 521	522	523	524	525 526 527 528 529 530 531 532 533 534 535 538 539
 				540 541 542 543 544 545 546 547 548 550
 				655
@@ -6123,7 +6123,7 @@ country = {
 				5537 5555 5538 5539 5540 5551 5550 5554 5552 5553 5556 5536 #ammon_region
 				5544 5542 5543 5541 5531 5535 5533 5532 5548 5546 5547 5534 #parva_region
 				5526 5525 5524 5523 5528 5545 5527 5529 5530 5514 #farfara_region
-				7668 7688 7689 7690 7691 #new in 1.1
+				7688 7689 7690 7691 #new in 1.1
 				8003 # Sikyon
 			}
 
@@ -6134,6 +6134,29 @@ country = {
 				{ deity = 453 }
 			}
 			
+		}
+
+		IUN = {
+			government = aristocratic_monarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = egyptian
+			religion = egyptian_pantheon
+			capital = 501 #Iunu
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core =  {
+				501 507 7668 503
+			}
 		}
 
 		MEM = {
