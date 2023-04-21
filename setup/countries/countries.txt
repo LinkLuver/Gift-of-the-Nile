@@ -323,7 +323,6 @@ IBA = "setup/countries/iberia/ibasim.txt"
 #African
 
 CAR = "setup/countries/africa/carthage.txt"
-EGY = "setup/countries/africa/egypt.txt"
 MSS = "setup/countries/africa/massaesylia.txt"
 MSY = "setup/countries/africa/massylia.txt"
 CYR = "setup/countries/africa/cyrenaica.txt"
@@ -681,3 +680,7 @@ OML = "setup/countries/anatolia/ormelia.txt"
 TYM = "setup/countries/anatolia/tymandia.txt"
 KAK = "setup/countries/anatolia/kaukonia.txt"
 OBE = "setup/countries/anatolia/olbe.txt"
+
+### GotN
+EGY = "setup/countries/africa/egypt.txt"
+MEM = "setup/countries/africa/menfer.txt"
