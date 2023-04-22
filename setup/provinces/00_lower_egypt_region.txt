@@ -3,7 +3,7 @@
 {
 	barbarian_power=0
 	civilization_value=28
-	culture="egyptian"
+	culture="akhenite_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="desert"
@@ -30,7 +30,7 @@
 {
 	barbarian_power=0
 	civilization_value=33
-	culture="egyptian"
+	culture="akhenite_egyptian"
 	province_rank="city"
 	religion="egyptian_pantheon"
 	terrain="desert"
@@ -154,7 +154,7 @@
 {
 	barbarian_power=0
 	civilization_value=33
-	culture="egyptian"
+	culture="avarite_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="farmland"
@@ -177,7 +177,7 @@
 {
 	barbarian_power=0
 	civilization_value=38
-	culture="egyptian"
+	culture="danetic_egyptian"
 	holy_site="omen_sekhmet"
 	province_rank="city"
 	religion="egyptian_pantheon"
@@ -225,7 +225,7 @@
 {
 	barbarian_power=0
 	civilization_value=28
-	culture="egyptian"
+	culture="mafkatian_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="desert"
@@ -284,7 +284,7 @@
 {
 	barbarian_power=0
 	civilization_value=27
-	culture="egyptian"
+	culture="danetic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="marsh"
@@ -307,7 +307,7 @@
 {
 	barbarian_power=0
 	civilization_value=32
-	culture="egyptian"
+	culture="avarite_egyptian"
 	port_building=1
 	province_rank="city"
 	religion="egyptian_pantheon"
@@ -341,7 +341,7 @@
 {
 	barbarian_power=0
 	civilization_value=33
-	culture="egyptian"
+	culture="danetic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="farmland"
@@ -370,7 +370,7 @@
 {
 	barbarian_power=0
 	civilization_value=33
-	culture="egyptian"
+	culture="avarite_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="farmland"
@@ -432,7 +432,7 @@
 {
 	barbarian_power=0
 	civilization_value=33
-	culture="egyptian"
+	culture="danetic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="farmland"
@@ -484,9 +484,9 @@
 {
 	barbarian_power=0
 	civilization_value=38
-	culture="macedonian"
+	culture="neithic_egyptian"
 	province_rank="city"
-	religion="roman_pantheon"
+	religion="egyptian_pantheon"
 	terrain="farmland"
 	trade_goods="glass"
 	nobles=
@@ -524,7 +524,7 @@
 	civilization_value=61
 	commerce_building=2
 	court_building=1
-	culture="macedonian"
+	culture="akhenite_egyptian"
 	holy_site="omen_alexander"
 	library_building=3
 	port_building=3
@@ -584,10 +584,10 @@
 {
 	barbarian_power=0
 	civilization_value=38
-	culture="egyptian"
+	culture="akhenite_egyptian"
 	port_building=1
 	province_rank="city"
-	religion="egyptian_pantheon"
+	religion="wadjetic_egyptian"
 	terrain="farmland"
 	trade_goods="earthware"
 	citizen=
@@ -608,7 +608,7 @@
 {
 	barbarian_power=0
 	civilization_value=32
-	culture="egyptian"
+	culture="wadjetic_egyptian"
 	province_rank="city"
 	religion="egyptian_pantheon"
 	terrain="marsh"
@@ -631,7 +631,7 @@
 {
 	barbarian_power=0
 	civilization_value=38
-	culture="egyptian"
+	culture="neithic_egyptian"
 	port_building=1
 	province_rank="city"
 	religion="egyptian_pantheon"
@@ -655,7 +655,7 @@
 {
 	barbarian_power=0
 	civilization_value=33
-	culture="egyptian"
+	culture="neithic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="farmland"
@@ -678,7 +678,7 @@
 {
 	barbarian_power=0
 	civilization_value=38
-	culture="egyptian"
+	culture="neithic_egyptian"
 	port_building=1
 	province_rank="city"
 	religion="egyptian_pantheon"
@@ -702,7 +702,7 @@
 {
 	barbarian_power=0
 	civilization_value=27
-	culture="egyptian"
+	culture="neithic_egyptian"
 	port_building=1
 	province_rank="settlement"
 	religion="egyptian_pantheon"
@@ -726,7 +726,7 @@
 {
 	barbarian_power=0
 	civilization_value=27
-	culture="egyptian"
+	culture="wadjetic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="marsh"
@@ -749,7 +749,7 @@
 {
 	barbarian_power=0
 	civilization_value=33
-	culture="egyptian"
+	culture="danetic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="farmland"
@@ -772,7 +772,7 @@
 {
 	barbarian_power=0
 	civilization_value=28
-	culture="egyptian"
+	culture="avarite_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="desert"
@@ -795,7 +795,7 @@
 {
 	barbarian_power=0
 	civilization_value=33
-	culture="egyptian"
+	culture="neithic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="farmland"
@@ -818,7 +818,7 @@
 {
 	barbarian_power=0
 	civilization_value=33
-	culture="macedonian"
+	culture="neithic_egyptian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="farmland"
@@ -841,7 +841,7 @@
 {
 	barbarian_power=0
 	civilization_value=33
-	culture="egyptian"
+	culture="neithic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="farmland"
@@ -864,7 +864,7 @@
 {
 	barbarian_power=0
 	civilization_value=33
-	culture="egyptian"
+	culture="wadjetic_egyptian"
 	port_building=1
 	province_rank="settlement"
 	religion="egyptian_pantheon"
@@ -888,7 +888,7 @@
 {
 	barbarian_power=0
 	civilization_value=27
-	culture="egyptian"
+	culture="wadjetic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="marsh"
@@ -911,7 +911,7 @@
 {
 	barbarian_power=0
 	civilization_value=33
-	culture="egyptian"
+	culture="akhenite_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="farmland"
@@ -934,7 +934,7 @@
 {
 	barbarian_power=0
 	civilization_value=33
-	culture="egyptian"
+	culture="wadjetic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="farmland"
@@ -963,7 +963,7 @@
 {
 	barbarian_power=0
 	civilization_value=27
-	culture="egyptian"
+	culture="wadjetic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="marsh"
@@ -986,7 +986,7 @@
 {
 	barbarian_power=0
 	civilization_value=38
-	culture="egyptian"
+	culture="danetic_egyptian"
 	province_rank="city"
 	religion="egyptian_pantheon"
 	terrain="farmland"
@@ -1021,7 +1021,7 @@
 {
 	barbarian_power=0
 	civilization_value=28
-	culture="egyptian"
+	culture="akhenite_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="desert"
@@ -1453,7 +1453,7 @@
 {
 	barbarian_power=0
 	civilization_value=28
-	culture="macedonian"
+	culture="avarite_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="desert"
@@ -1548,7 +1548,7 @@
 {
 	barbarian_power=0
 	civilization_value=28
-	culture="nabatean"
+	culture="mafkatian_egyptian"
 	province_rank="settlement"
 	religion="arabian_pantheon"
 	terrain="desert"
@@ -1567,7 +1567,7 @@
 {
 	barbarian_power=0
 	civilization_value=28
-	culture="egyptian"
+	culture="mafkatian_egyptian"
 	province_rank="settlement"
 	religion="arabian_pantheon"
 	terrain="desert"
@@ -1586,7 +1586,7 @@
 {
 	barbarian_power=0
 	civilization_value=29
-	culture="nabatean"
+	culture="mafkatian_egyptian"
 	province_rank="settlement"
 	religion="arabian_pantheon"
 	terrain="hills"
@@ -1609,7 +1609,7 @@
 {
 	barbarian_power=0
 	civilization_value=28
-	culture="nabatean"
+	culture="mafkatian_egyptian"
 	province_rank="settlement"
 	religion="arabian_pantheon"
 	terrain="desert"
@@ -1670,7 +1670,7 @@
 {
 	barbarian_power=0
 	civilization_value=29
-	culture="nabatean"
+	culture="mafkatian_egyptian"
 	holy_site="omen_moses"
 	province_rank="settlement"
 	religion="arabian_pantheon"
@@ -1981,7 +1981,7 @@
 {
 	barbarian_power=0
 	civilization_value=27
-	culture="egyptian"
+	culture="danetic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="marsh"
@@ -2004,7 +2004,7 @@
 {
 	barbarian_power=0
 	civilization_value=33
-	culture="egyptian"
+	culture="akhenite_egyptian"
 	province_rank="settlement"
 	religion="aten_religion"
 	terrain="farmland"
@@ -2027,7 +2027,7 @@
 {
 	barbarian_power=0
 	civilization_value=27
-	culture="egyptian"
+	culture="danetic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="marsh"
@@ -2050,7 +2050,7 @@
 {
 	barbarian_power=0
 	civilization_value=27
-	culture="egyptian"
+	culture="wadjetic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="marsh"

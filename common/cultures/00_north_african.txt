@@ -59,9 +59,16 @@
 	}
 
 	culture = {
-		egyptian = {} #Memphite
+		egyptian = {  } #Memphite
 		upper_egyptian = { } #Wasetic
 		middle_egyptian = { } #Faiyumic
+		avarite_egyptian = {  } #Avarite
+		danetic_egyptian = {  } #Danetic
+		neithic_egyptian = {  } #Neithic
+		wadjetic_egyptian = {  } #Wadjetic
+		siwan_egyptian = {  } #Siwan
+		akhenite_egyptian = {  } #Akhenite
+		mafkatian_egyptian = {  } #Mafkatian
 
 	}
 	
