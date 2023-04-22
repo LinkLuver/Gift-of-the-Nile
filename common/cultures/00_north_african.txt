@@ -59,17 +59,22 @@
 	}
 
 	culture = {
+		### LOWER EGYPTIAN ###
 		egyptian = {  } #Memphite
-		upper_egyptian = { } #Wasetic
 		middle_egyptian = { } #Faiyumic
 		avarite_egyptian = {  } #Avarite
 		danetic_egyptian = {  } #Danetic
 		neithic_egyptian = {  } #Neithic
 		wadjetic_egyptian = {  } #Wadjetic
-		siwan_egyptian = {  } #Siwan
-		akhenite_egyptian = {  } #Akhenite
 		mafkatian_egyptian = {  } #Mafkatian
+		siwan_egyptian = {  } #Siwan
+		tenuwan_egyptian = {  } #Tenuwan
 
+		### UPPER EGYPTIAN ###
+		upper_egyptian = {  } #Wasetic
+		akhenite_egyptian = {  } #Akhenite
+		hethedetian = {  } #Het-Hedetan
+		deshretic_egyptian = {  } #Deshretic
 	}
 	
 	barbarian_names = { GARAMANTES NASSAMONES ASBYSTAE ADYRMACHIDAE GILLIGAMAE AUSCHISAE TROGLODYTAE PSYLLI LAGUATANI MESHWESH }

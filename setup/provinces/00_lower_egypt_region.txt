@@ -3,7 +3,7 @@
 {
 	barbarian_power=0
 	civilization_value=28
-	culture="akhenite_egyptian"
+	culture="tenuwan_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="desert"
@@ -30,7 +30,7 @@
 {
 	barbarian_power=0
 	civilization_value=33
-	culture="akhenite_egyptian"
+	culture="tenuwan_egyptian"
 	province_rank="city"
 	religion="egyptian_pantheon"
 	terrain="desert"
@@ -524,7 +524,7 @@
 	civilization_value=61
 	commerce_building=2
 	court_building=1
-	culture="akhenite_egyptian"
+	culture="tenuwan_egyptian"
 	holy_site="omen_alexander"
 	library_building=3
 	port_building=3
@@ -911,7 +911,7 @@
 {
 	barbarian_power=0
 	civilization_value=33
-	culture="akhenite_egyptian"
+	culture="tenuwan_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="farmland"
@@ -1197,7 +1197,7 @@
 {
 	barbarian_power=0
 	civilization_value=33
-	culture="macedonian"
+	culture="middle_egyptian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="farmland"
@@ -1735,7 +1735,7 @@
 {
 	barbarian_power=0
 	civilization_value=28
-	culture="libyan"
+	culture="deshretic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="desert"
@@ -1822,7 +1822,7 @@
 {
 	barbarian_power=0
 	civilization_value=28
-	culture="libyan"
+	culture="deshretic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="desert"
@@ -1837,7 +1837,7 @@
 {
 	barbarian_power=0
 	civilization_value=28
-	culture="libyan"
+	culture="deshretic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="desert"
@@ -1856,7 +1856,7 @@
 {
 	barbarian_power=0
 	civilization_value=28
-	culture="libyan"
+	culture="deshretic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="desert"
@@ -1871,7 +1871,7 @@
 {
 	barbarian_power=0
 	civilization_value=28
-	culture="libyan"
+	culture="deshretic_egyptian"
 	province_rank="settlement"
 	religion="egyptian_pantheon"
 	terrain="desert"
@@ -1901,7 +1901,7 @@
 {
 	barbarian_power=0
 	civilization_value=31
-	culture="macedonian"
+	culture="middle_egyptian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="plains"
@@ -2004,7 +2004,7 @@
 {
 	barbarian_power=0
 	civilization_value=33
-	culture="akhenite_egyptian"
+	culture="danetic_egyptian"
 	province_rank="settlement"
 	religion="aten_religion"
 	terrain="farmland"
