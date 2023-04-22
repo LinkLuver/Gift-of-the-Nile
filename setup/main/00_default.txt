@@ -7526,7 +7526,7 @@ country = {
 			}
 		}
 
-		MEM = {
+		MEN = {
 			government = aristocratic_monarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = egyptian
@@ -7546,7 +7546,6 @@ country = {
 
 			own_control_core =  {
 				500 537 5549 536 512 514
-				8601 8602 8603 8604 8605 #Hawad
 			}
 		}
 
@@ -14930,6 +14929,19 @@ country = {
 
 			own_control_core = {
 				8106 8107 8108 8109 8110 8111 8112 8113 8114 #gezira
+			}
+		}
+
+		MEM = {
+			government = tribal_chiefdom
+			primary_culture = nubian
+			religion = egyptian_pantheon
+
+
+			capital = 8604
+
+			own_control_core = {
+				8601 8602 8603 8604 8605 #Hawad
 			}
 		}
 
