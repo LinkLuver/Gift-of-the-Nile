@@ -1319,8 +1319,8 @@
 
 5528={ #Elassa
 	terrain="desert"
-	culture="libyan"
-	religion="deshretic_egyptian"
+	culture="deshretic_egyptian"
+	religion="egyptian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=28
 	barbarian_power=0

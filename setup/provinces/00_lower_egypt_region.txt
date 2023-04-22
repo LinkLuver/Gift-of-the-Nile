@@ -870,7 +870,7 @@
 
 535={ #Ostrakine
 	terrain="desert"
-	culture="akhenite_egyptian"
+	culture="retenuan"
 	religion="egyptian_pantheon"
 	trade_goods="cattle"
 	civilization_value=28
@@ -1067,8 +1067,8 @@
 
 542={ #Ankyronpolis
 	terrain="flood_plain"
-	culture="aten_religion"
-	religion="egyptian_pantheon"
+	culture="middle_egyptian"
+	religion="aten_religion"
 	trade_goods="grain"
 	civilization_value=31
 	barbarian_power=0
@@ -1086,8 +1086,8 @@
 
 543={ #Neiloupolis
 	terrain="flood_plain"
-	culture="aten_religion"
-	religion="egyptian_pantheon"
+	culture="middle_egyptian"
+	religion="aten_religion"
 	trade_goods="wine"
 	civilization_value=36
 	barbarian_power=0
@@ -1250,7 +1250,7 @@
 
 656={ #Rhinokoloura
 	terrain="desert"
-	culture="phoenician"
+	culture="retenuan"
 	religion="carthaginian_pantheon"
 	trade_goods="salt"
 	civilization_value=33
@@ -1278,7 +1278,7 @@
 
 701={ #Maghara
 	terrain="desert"
-	culture="phoenician"
+	culture="retenuan"
 	religion="egyptian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=28
@@ -1609,7 +1609,7 @@
 
 5547={ #Philoteris
 	terrain="oasis"
-	culture="macedonian"
+	culture="middle_egyptian"
 	religion="roman_pantheon"
 	trade_goods="dates"
 	civilization_value=31

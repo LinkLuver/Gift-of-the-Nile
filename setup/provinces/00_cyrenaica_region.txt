@@ -975,14 +975,13 @@
 
 3369={ #Gonia
 	terrain="desert"
-	culture="libyan"
+	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="egyptian"
 		amount=2
 	}
 	freemen={
@@ -992,7 +991,7 @@
 
 3370={ #Antipyrgos
 	terrain="desert"
-	culture="libyan"
+	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="olive"
 	civilization_value=28
@@ -1012,14 +1011,13 @@
 
 3371={ #Kyrthanion
 	terrain="desert"
-	culture="libyan"
+	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="olive"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="egyptian"
 		amount=2
 	}
 	slaves={
@@ -1029,7 +1027,7 @@
 
 3372={ #Menelaos
 	terrain="desert"
-	culture="libyan"
+	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="fish"
 	civilization_value=28
@@ -1050,7 +1048,7 @@
 
 3373={ #Plynos Limen
 	terrain="desert"
-	culture="libyan"
+	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="salt"
 	civilization_value=33
@@ -1073,7 +1071,7 @@
 
 3374={ #Ainesisphyra
 	terrain="desert"
-	culture="libyan"
+	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="fish"
 	civilization_value=28
@@ -1089,7 +1087,7 @@
 
 3375={ #Chettaia
 	terrain="desert"
-	culture="libyan"
+	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="olive"
 	civilization_value=28
@@ -1108,7 +1106,7 @@
 
 3376={ #Selenis
 	terrain="desert"
-	culture="libyan"
+	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="leather"
 	civilization_value=28
@@ -1124,7 +1122,7 @@
 
 3377={ #Apis
 	terrain="desert"
-	culture="libyan"
+	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="leather"
 	civilization_value=28
@@ -1140,7 +1138,7 @@
 
 3378={ #Paraitonion
 	terrain="desert"
-	culture="libyan"
+	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="salt"
 	civilization_value=33
@@ -1160,7 +1158,7 @@
 
 3379={ #Kallias
 	terrain="desert"
-	culture="libyan"
+	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="cattle"
 	civilization_value=28
@@ -1176,7 +1174,7 @@
 
 3380={ #Leuke Akte Kyrenaike
 	terrain="desert"
-	culture="egyptian"
+	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="fish"
 	civilization_value=28
@@ -1192,7 +1190,7 @@
 
 3476={ #Pnigeus
 	terrain="desert"
-	culture="egyptian"
+	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="cattle"
 	civilization_value=28
@@ -1208,7 +1206,7 @@
 
 3477={ #Pedonia
 	terrain="desert"
-	culture="egyptian"
+	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="fish"
 	civilization_value=28
@@ -1224,7 +1222,7 @@
 
 3478={ #Derrhas
 	terrain="desert"
-	culture="egyptian"
+	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="fish"
 	civilization_value=28
