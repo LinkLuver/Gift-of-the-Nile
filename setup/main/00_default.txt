@@ -7267,20 +7267,13 @@ country = {
 			family = 7
 			government = aristocratic_monarchy
 			diplomatic_stance=appeasement_stance
-			primary_culture = macedonian
-			religion = roman_pantheon
-			capital = 516 #Alexandria
+			primary_culture = upper_egyptian
+			religion = egyptian_pantheon
+			capital = 569 #Waset
 			succession_law=egyption_succession_law
 			succession=old_egyptian_succession
 			monarchy_citizen_law = foreign_law_for_minorities
 			monarchy_military_reforms = work_for_the_best
-			
-			poptype_rights = { 
-				{
-					culture = egyptian 
-					type = citizen
-				}
-			}
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -7290,10 +7283,7 @@ country = {
 			}
 			
 			own_control_core = 	{
-				515 516 517
-				520 521	522 526 527 528 529 530 531 532 538 539
-				540 541 542 543 544 545 546 547 548 550
-				453 445 3478 3477 3476 3380 3379 3378 3377 3376 3375 3374 3373 3372 3371 3370 3369 3368 
+				3478 3477 3476 3380 3379 3378 3377 3376 3375 3374 3373 3372 3371 3370 3369 3368 
 				
 				657 658 659 694 695 696 697 #Philistia
 				576 577 #aswan_region
@@ -7304,7 +7294,7 @@ country = {
 				5501 5502 5500 5503 5504 5505 5512 5509 5510 5511 5522 #kharga_region
 				5513 5507 5516 5508 5515 5517 5506 #khargana_region
 				5537 5555 5538 5539 5540 5551 5550 5554 5552 5553 5556 5536 #ammon_region
-				5544 5542 5543 5541 5531 5535 5533 5532 5548 5546 5547 5534 #parva_region
+				5544 5542 5543 5541 5531 #parva_region
 				5526 5525 5524 5523 5528 5545 5527 5529 5530 5514 #farfara_region
 				#new in 1.1
 				8003 # Sikyon
@@ -7319,10 +7309,194 @@ country = {
 			
 		}
 
+		PMD = {
+			government = aristocratic_monarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = middle_egyptian
+			religion = aten_religion
+			capital = 545 #Per-Medjed
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core =  {
+				545 546 547 548 550
+			}
+		}
+
+		PSN = {
+			government = aristocratic_monarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = middle_egyptian
+			religion = egyptian_pantheon
+			capital = 5546 #Pseneros
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core =  {
+				5546 5532 5533 5535 5534 5548
+			}
+		}
+
+		HNT = {
+			government = aristocratic_monarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = middle_egyptian
+			religion = aten_religion
+			capital = 544 #Henen-Nesut
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core =  {
+				544 539 5547 540 541 538 543 542
+			}
+		}
+
+		RHA = {
+			government = aristocratic_monarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = tenuwan_egyptian
+			religion = egyptian_pantheon
+			capital = 516 #Rhakote
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core =  {
+				516 531 453 445
+			}
+		}
+
+		KHA = {
+			government = aristocratic_monarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = neithic_egyptian
+			religion = egyptian_pantheon
+			capital = 520 #Khasut
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core =  {
+				520 528 526
+			}
+		}
+
+		DMN = {
+			government = aristocratic_monarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = wadjetic_egyptian
+			religion = egyptian_pantheon
+			capital = 517 #Damanhur
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core =  {
+				517 532 529 530
+			}
+		}
+
+		PMR = {
+			government = aristocratic_monarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = neithic_egyptian
+			religion = egyptian_pantheon
+			capital = 515 #Piemro
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core =  {
+				515 527
+			}
+		}
+
+		NJR = {
+			government = aristocratic_monarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = neithic_egyptian
+			religion = egyptian_pantheon
+			capital = 521 #Tjeb-Netjer
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core =  {
+				521 522
+			}
+		}
+
 		AMN = {
 			government = aristocratic_monarchy
 			diplomatic_stance=appeasement_stance
-			primary_culture = avarite_egyptian
+			primary_culture = retenuan
 			religion = egyptian_pantheon
 			capital = 509 #Per-Amun
 			succession_law=egyption_succession_law
