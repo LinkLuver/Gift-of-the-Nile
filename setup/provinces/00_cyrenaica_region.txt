@@ -975,7 +975,7 @@
 
 3369={ #Gonia
 	terrain="desert"
-	culture="tenuwan_egyptian"
+	culture="libyan"
 	religion="egyptian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=28
@@ -991,14 +991,14 @@
 
 3370={ #Antipyrgos
 	terrain="desert"
-	culture="tenuwan_egyptian"
+	culture="libyan"
 	religion="egyptian_pantheon"
 	trade_goods="olive"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="egyptian"
+		culture="tenuwan_egyptian"
 		amount=1
 	}
 	freemen={
@@ -1011,7 +1011,7 @@
 
 3371={ #Kyrthanion
 	terrain="desert"
-	culture="tenuwan_egyptian"
+	culture="libyan"
 	religion="egyptian_pantheon"
 	trade_goods="olive"
 	civilization_value=28
@@ -1027,7 +1027,7 @@
 
 3372={ #Menelaos
 	terrain="desert"
-	culture="tenuwan_egyptian"
+	culture="libyan"
 	religion="egyptian_pantheon"
 	trade_goods="fish"
 	civilization_value=28
@@ -1048,7 +1048,7 @@
 
 3373={ #Plynos Limen
 	terrain="desert"
-	culture="tenuwan_egyptian"
+	culture="libyan"
 	religion="egyptian_pantheon"
 	trade_goods="salt"
 	civilization_value=33
@@ -1071,7 +1071,7 @@
 
 3374={ #Ainesisphyra
 	terrain="desert"
-	culture="tenuwan_egyptian"
+	culture="libyan"
 	religion="egyptian_pantheon"
 	trade_goods="fish"
 	civilization_value=28
@@ -1087,7 +1087,7 @@
 
 3375={ #Chettaia
 	terrain="desert"
-	culture="tenuwan_egyptian"
+	culture="libyan"
 	religion="egyptian_pantheon"
 	trade_goods="olive"
 	civilization_value=28

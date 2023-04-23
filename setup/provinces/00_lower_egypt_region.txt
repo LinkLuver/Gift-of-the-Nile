@@ -1554,7 +1554,7 @@
 
 5542={ #Murta
 	terrain="desert"
-	culture="deshretic_egyptian"
+	culture="meshweshi"
 	religion="egyptian_pantheon"
 	trade_goods="fur"
 	civilization_value=28
@@ -1570,7 +1570,7 @@
 
 5543={ #Magrab
 	terrain="desert"
-	culture="deshretic_egyptian"
+	culture="meshweshi"
 	religion="egyptian_pantheon"
 	trade_goods="dates"
 	civilization_value=28
@@ -1583,7 +1583,7 @@
 
 5544={ #Gheron
 	terrain="desert"
-	culture="deshretic_egyptian"
+	culture="meshweshi"
 	religion="egyptian_pantheon"
 	trade_goods="leather"
 	civilization_value=28
