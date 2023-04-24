@@ -2,4 +2,6 @@ version="1.0.3"
 tags={
 	"Historical"
 }
-name="Alt-hist project"
+name="Gift of the Nile"
+supported_version=""
+remote_file_id="2966832869"
