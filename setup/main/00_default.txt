@@ -7974,6 +7974,29 @@ country = {
 			}
 		}
 
+		ASK = {
+			government = aristocratic_monarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = retenuan
+			religion = egyptian_pantheon
+			capital = 500 #Menfer
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core =  {
+				660 662 661 690 693
+			}
+		}
+
 		CYR = {
 			family = 66
 			government = despotic_monarchy
@@ -13476,7 +13499,7 @@ country = {
 			capital = 680
 
 			own_control_core = 	{
-				671 676 678 679 680 682 719
+				671 676 678 679 680 682 719 663 664 665
 			}
 		}
 
