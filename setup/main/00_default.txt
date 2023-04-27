@@ -7979,7 +7979,7 @@ country = {
 			diplomatic_stance=appeasement_stance
 			primary_culture = retenuan
 			religion = aten_religion
-			capital = 660 #Ascalon Nome
+			capital = 660 #Ascalon
 			succession_law=egyption_succession_law
 			succession=old_egyptian_succession
 			monarchy_citizen_law = foreign_law_for_minorities
@@ -13173,7 +13173,6 @@ country = {
 				826 827 828 829 #euphrates_region
 				648 669 672 674 666 668 667 670 677 #galilee_region
 				663 664 665 #samaria_region
-				660 662 661 690 693 #philistia_region
 				817 818 819 820 844 848 849 854 853 879 #osroene_region
 				334 338 333 336 332 335 331 330 6431 6433 #Cyprus
 				249 218 7938 7939 7941 7954 # Prokonnesos + New Anatolia
