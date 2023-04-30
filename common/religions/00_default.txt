@@ -24,7 +24,7 @@ aten_religion = { #Atenic
 		character_loyalty = -3
 	}
 	religion_category = prophets
-	can_deify_ruler = no
+	can_deify_ruler = yes
 	sacrifice_icon = sacrifice_incense
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
