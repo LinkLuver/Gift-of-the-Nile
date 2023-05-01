@@ -2076,7 +2076,7 @@ family={
 		#Egypt
 		6={
 			key="Lagid"
-			owner=EGY
+			owner=MAC
 			culture = macedonian
 			prestige=200
 			color = 0
@@ -2084,7 +2084,7 @@ family={
 		7={
 			key = "Magid"
 			culture = macedonian
-			owner=EGY
+			owner=MAC
 			prestige=200
 			color = 1
 		}
@@ -7261,8 +7261,6 @@ country = {
 		}
 
 		EGY = {
-			family = 6
-			family = 7
 			government = theocratic_monarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = upper_egyptian
