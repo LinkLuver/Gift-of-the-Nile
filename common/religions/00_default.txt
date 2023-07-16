@@ -16,18 +16,6 @@ egyptian_pantheon = { # Kemetic
 	}
 	religion_category = pantheon
 }
-aten_religion = { #Atenic
-	color = hsv { 0.2  0.5  1 }
-	modifier = { 
-		ruler_popularity_gain = 0.08
-		global_monthly_civilization = 0.02
-		character_loyalty = -3
-	}
-	religion_category = prophets
-	can_deify_ruler = yes
-	sacrifice_icon = sacrifice_incense
-	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
-}
 carthaginian_pantheon = { # Canaanite
 	color = hsv { 0.75 0.9 0.73 }
 	modifier = { 
