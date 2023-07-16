@@ -784,9 +784,6 @@ country = {
 			}
 
 			own_control_core = 	{
-				6551 6561 6552 6570 #pactya_area
-				6645 6621 6639 6640 6641 6609 6615 6624 6623 6612 #sattagydia
-				6643 6644 6642 6628 6631 6638 6614 6608 6611 6625 6626 #bamyan
 				900 902 903 904 909 901 910 915 917 918 919 922 #babylonia_region
 				898 899 911 912 913 914 916 924 926 927 929 960 #asoristan_region
 				824 825 905 906 907 908 953 954 #euphrates_region
@@ -801,23 +798,6 @@ country = {
 				940 941 942 944 964 965 969 971 963 #meshan_region
 				951 952 966 4779 4780 #pars_region
 				858 859 860 877 878 1855 #sophene_region
-				1594 1596 1597 1598 1599 1601 1602 3393 4965 4968 4966 4967 4971 4970 #kossioi
-				1595 4963 4964 4981 4982 4980 4979 3391 4976 4974 3392 4975 #ecbatana
-				4991 4999 3381 3396 3382 4983 3395 3394 3452 4993 3453 # rhagai
-				3442 3443 6509 3433 3398 4973 6510 6507 3432 3397 4972 #aspadana
-				4977 3399 3431 6508 3419 3418 3417 3428 3420 3430 #media_felix
-				3407 3422 3423 3421 3429 3414 3413 3412 3416 3473 #ardashir
-				6500 6501 6505 6502 6503 6504 3475 3474 3472 3471 3470 3460 #namek
-				4994 3459 3458 4995 3457 3456 3439 #parthia_komishene
-				6587 6576 6528 6529 4961 4959 3415 3426 3427 3424 3425 #carmania
-				6605 6562 6566 6604 6606 6599 6597 6603 6600 6598 6601 6602 #sagartia
-				4997 4998 4996 3434 7638 7639 #hyrcania
-				6574 6586 6584 6577 6575 6585 6589 6591 6588 6590 6607 6560 #Drangiana
-				6559 6558 6565 6557 6564 6646 6647 6596 6568 6567 6563 # Aria
-				6518 # Aria
-				6954 6955 6956 6957 6958 6959 6960 6961 6962 6963 6964 #Media Choromithrene
-				3461 3463 7224 7225 7223 7723  #New
-				235 8007 8009 821
 			}
 
 			pantheon = {
@@ -828,6 +808,71 @@ country = {
 			}
 
 			treasures = { 102 }
+		}
+
+		ARS = {
+			government = despotic_monarchy
+			primary_culture = pactyan
+			religion = roman_pantheon
+			diplomatic_stance=warmongering_stance
+			monarchy_citizen_law = foreign_law_for_minorities
+			capital = 6541 #Alexandria Arachosia
+			family = 100
+
+			poptype_rights = {
+				{
+					culture = parecanian
+					type = citizen
+				}
+			}
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				6541 6555 6610 6554 6548 6573 6547 6632 6553 6572 6622 6633 #arachosia
+				6645 6621 6639 6640 6641 6609 6615 6624 6623 6612 #sattagydia
+				6643 6644 6642 6628 6631 6638 6614 6608 6611 6625 6626 #bamyan
+				6551 6561 6552 6570 6550 6569 6549 6594 6595 6546 #pactya
+			}
+		}
+
+		PES = {
+			government = despotic_monarchy
+			primary_culture = pasargadi
+			religion = zoroaster
+			diplomatic_stance = appeasement_stance
+			capital = 4799
+
+			technology={
+			military_tech={ level=2 progress=0 }
+			civic_tech={ level=2 progress=0 }
+			oratory_tech={ level=2 progress=0 }
+			religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				4799 4953 4950 4948 4949 4798 4951 3405 3406 6511 4978 #persepolis
+				4781 4796 4792 4794 4795 4788 4789 4793 4790 4797 4962 #veshapur
+				4956 4957 4955 3411 3410 3408 3409 3402 3400 3401 3404 3403#utia
+				4787 4786 4782
+				4791 4958
+				4785 4784 4960
+				4977 3399 3431 6508 3419 3418 3417 3428 3420 3430 #media_felix
+				3407 3422 3423 3421 3429 3414 3413 3412 3416 3473 #ardashir
+				6500 6501 6505 6502 6503 6504 3475 3474 3472 3471 3470 3460 #namek
+				6587 6576 6528 6529 4961 4959 3415 3426 3427 3424 3425 #carmania
+				6605 6562 6566 6604 6606 6599 6597 6603 6600 6598 6601 6602 #sagartia
+				6574 6586 6584 6577 6575 6585 6589 6591 6588 6590 6607 6560 #Drangiana
+				6559 6558 6565 6557 6564 6646 6647 6596 6568 6567 6563 # Aria
+				6518 # Aria
+				3461 3463 7224 7225 7223 7723  #New
+				235 8007 8009 821
+			}
 		}
 
 		MAP = {
@@ -854,6 +899,13 @@ country = {
 				1618 1619 1630 1631 1632 1638 1648 1649 1652 1654 #paytankert_region
 				1505 1506 1507 1508 1509 1511 1518 1519 #parskahayk_region
 				4985 4986 4987 4989 3389 4988 3383 3388 4984 3385 3384 4990 # Amardioi
+				4997 4998 4996 3434 7638 7639 #hyrcania
+				6954 6955 6956 6957 6958 6959 6960 6961 6962 6963 6964 #Media Choromithrene
+				1594 1596 1597 1598 1599 1601 1602 3393 4965 4968 4966 4967 4971 4970 #kossioi
+				4991 4999 3381 3396 3382 4983 3395 3394 3452 4993 3453 # rhagai
+				4994 3459 3458 4995 3457 3456 3439 #parthia_komishene
+				1595 4963 4964 4981 4982 4980 4979 3391 4976 4974 3392 4975 #ecbatana
+				3442 3443 6509 3433 3398 4973 6510 6507 3432 3397 4972 #aspadana
 			}
 
 			pantheon = {
@@ -7697,30 +7749,6 @@ country = {
 		}
 		#Mesopotamia
 
-		PES = {
-			government = despotic_monarchy
-			primary_culture = pasargadi
-			religion = zoroaster
-			diplomatic_stance = appeasement_stance
-			capital = 4799
-
-			technology={
-			military_tech={ level=2 progress=0 }
-			civic_tech={ level=2 progress=0 }
-			oratory_tech={ level=2 progress=0 }
-			religious_tech= { level=2 progress=0  }
-			}
-
-			own_control_core = 	{
-				4799 4953 4950 4948 4949 4798 4951 3405 3406 6511 4978 #persepolis
-				4781 4796 4792 4794 4795 4788 4789 4793 4790 4797 4962 #veshapur
-				4956 4957 4955 3411 3410 3408 3409 3402 3400 3401 3404 3403#utia
-				4787 4786 4782
-				4791 4958
-				4785 4784 4960
-			}
-		}
-
 		BAC = { #Seleukid Subject State
 			family = 61
 			government = despotic_monarchy
@@ -7767,35 +7795,6 @@ country = {
 			}
 
 			treasures = { 82 }
-		}
-
-		ARS = {
-			government = despotic_monarchy
-			primary_culture = macedonian
-			religion = roman_pantheon
-			diplomatic_stance=warmongering_stance
-			monarchy_citizen_law = foreign_law_for_minorities
-			capital = 6541 #Alexandria Arachosia
-			family = 100
-
-			poptype_rights = {
-				{
-					culture = parecanian
-					type = citizen
-				}
-			}
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			own_control_core = 	{
-				6541 6555 6610 6554 6548 6573 6547 6632 6553 6572 6622 6633 #arachosia
-				6550 6569 6549 6594 6595 6546 #pactya
-			}
 		}
 
 		PAR = {
