@@ -1,0 +1,21 @@
+﻿aten_religion = { # Atenic
+	color = hsv { 0.2  0.5  1 }
+	modifier = { 
+		ruler_popularity_gain = 0.08
+		global_monthly_civilization = 0.02
+		character_loyalty = -3
+	}
+	religion_category = prophets
+	can_deify_ruler = yes
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+kushite_pantheon = { # Kushitic
+	color = rgb { 130 50 10 }
+	modifier = { 
+		build_cost = -0.05
+		country_civilization_value = 3.0
+		fort_maintenance_cost = 0.05
+	}
+	religion_category = pantheon
+}
