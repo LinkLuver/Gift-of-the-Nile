@@ -6,12 +6,13 @@ diplomacy = {
 
 	#Achaemenid Kingdom
 	dependency = { first = PES second = ARS subject_type = satrapy }
-	dependency = { first = PES second = GHA subject_type = client_state }
 	dependency = { first = PES second = GED subject_type = satrapy }
 	dependency = { first = PES second = ELM subject_type = satrapy }
+	dependency = { first = PES second = MAK subject_type = client_state }
 
 	#Median Empire
 	dependency = { first = MAP second = PAR subject_type = satrapy }
+	dependency = { first = MAP second = SAG subject_type = satrapy }
 
 	### VANILLA DIPLOMACY ###
 

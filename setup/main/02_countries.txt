@@ -54,6 +54,7 @@ country = {
 				619 620 622 621 624 623 625 7586 7585 626 646 645 # Napata
 				8063 8064 8065 8066 8067 8068 8069 8070 # Bayuda
 				627 7584 628 629 630 631 632 634 635 637 638 636 # Alana
+				8099 8100 # Muqaddam
 			}
 		}
 
@@ -76,10 +77,10 @@ country = {
 
 			own_control_core = {
 				639 640 641 642 7592 3321 # Meroe
-				8099 8100 # Muqaddam
 				8590 8591 8592 8593 8594 8595 8596 8597 #Awateib
 				8598 8599 8600 #Hawad
 				8616 8617 #Kartub
+				644 643 #old alut provinces
 			}
 		}
 
@@ -841,7 +842,7 @@ country = {
 				905 906 907 908 953 954 #euphrates_region
 				896 897 979 925 928 933 934 961 962 973 974 976 #beth_daraye_region
 				920 921 923 930 931 932 935 936 939 937 938 968 #veh_kavad_region
-				940 941 942 944 964 965 969 971 963 #meshan_region
+				940 941 942 944 964 965 969 971 963 7723 #meshan_region
 			}
 
 			pantheon = {
@@ -975,11 +976,29 @@ country = {
 				4791 4958 4960
 				3407 3422 3423 3421 3429 3414 3413 3412 3416 3473 #ardashir
 				6587 6576 6528 6529 4961 4959 3415 3426 3427 3424 3425 #carmania
-				6605 6562 6566 6604 6606 6599 6597 6603 6600 6598 6601 #sagartia
 				6574 6586 6584 6577 6575 6585 6589 6591 6588 6590 6607 6560 #Drangiana
+				6514 6580 6583 6581 6515 6578 6579 6516 6512 6582 #harmozeia/Rudiana
+			}
+		}
+
+		SAG = {
+			government = despotic_monarchy
+			primary_culture = sagartian
+			religion = zoroaster
+			diplomatic_stance = appeasement_stance
+			capital = 4799
+
+			technology={
+			military_tech={ level=2 progress=0 }
+			civic_tech={ level=2 progress=0 }
+			oratory_tech={ level=2 progress=0 }
+			religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				6605 6562 6566 6604 6606 6599 6597 6603 6600 6598 6601 #sagartia
 				6559 6558 6565 6557 6564 6646 6647 6596 6568 6567 6563 6518 # Aria
 				7224 7225 7223  #New
-				6514 6580 6583 6581 6515 6578 6579 6516 6512 6582 #harmozeia/Rudiana
 			}
 		}
 
@@ -9384,7 +9403,6 @@ country = {
 			own_control_core = {
 				3314 3320 3319 3317 3318 3315 3312 3313 3311 3310
 				8101 8102 8103 8104 8105 #Muqaddam
-				644 643 #old alut provinces
 			}
 		}
 
