@@ -759,7 +759,7 @@ country = {
 			}
 		}
 		#Mesopotamia
-				SEL = {
+		SEL = {
 			family = 30
 			family = 70
 			government = aristocratic_monarchy
@@ -829,7 +829,41 @@ country = {
 
 			treasures = { 102 }
 		}
-		
+
+		MAP = {
+			family = 31
+			government = despotic_monarchy
+			primary_culture = median
+			religion = zoroaster
+			capital = 1515
+			diplomatic_stance=appeasement_stance
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			treasures = { 192 }
+
+			own_control_core = 	{
+				1514 1515 1516 1517 1520 1521 1522 1523 1524 1525 1526 1565 #media_atropatene_region
+				1620 1621 1622 1624 1625 1626 1627 1628 1629 1593 3390 3387 #kadousioi_region
+				1510 1512 1513 1552 1553 1554 1555 1556 1557 1558 1574 3386 #media_region
+				1618 1619 1630 1631 1632 1638 1648 1649 1652 1654 #paytankert_region
+				1505 1506 1507 1508 1509 1511 1518 1519 #parskahayk_region
+				4985 4986 4987 4989 3389 4988 3383 3388 4984 3385 3384 4990 # Amardioi
+			}
+
+			pantheon = {
+				{ deity = 307 } # Atar
+				{ deity = 301 } # Sraosha
+				{ deity = 302 } # Zoroaster
+				{ deity = 303 } # Tishtrya
+			}
+		}
+
 ### Vanilla ###
 
 		#Italia
@@ -7858,40 +7892,6 @@ country = {
 				483 4037 7844 7845 1733 1858 1775 1856 1857 8008 8010
 			}
 
-		}
-
-		MAP = {
-			family = 31
-			government = despotic_monarchy
-			primary_culture = median
-			religion = zoroaster
-			capital = 1515
-			diplomatic_stance=appeasement_stance
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			treasures = { 192 }
-
-			own_control_core = 	{
-				1514 1515 1516 1517 1520 1521 1522 1523 1524 1525 1526 1565 #media_atropatene_region
-				1620 1621 1622 1624 1625 1626 1627 1628 1629 1593 3390 3387 #kadousioi_region
-				1510 1512 1513 1552 1553 1554 1555 1556 1557 1558 1574 3386 #media_region
-				1618 1619 1630 1631 1632 1638 1648 1649 1652 1654 #paytankert_region
-				1505 1506 1507 1508 1509 1511 1518 1519 #parskahayk_region
-				4985 4986 4987 4989 3389 4988 3383 3388 4984 3385 3384 4990 # Amardioi
-			}
-
-			pantheon = {
-				{ deity = 307 } # Atar
-				{ deity = 301 } # Sraosha
-				{ deity = 302 } # Zoroaster
-				{ deity = 303 } # Tishtrya
-			}
 		}
 
 		IBR = {
