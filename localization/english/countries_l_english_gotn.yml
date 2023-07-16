@@ -1,5 +1,5 @@
 ﻿l_english:
- # EGYPT
+ # EGYPT NUBIA
  DOD:0 "Kerma"
  DOD_ADJ:0 "Kerman"
  KSH:0 "Meroe"
@@ -71,7 +71,7 @@
  ASK:0 "Ascalon Nome"
  ASK_desc:0 "Ascalian"
 
- # MESOPOTAMIA
+ # PERSIA MESOPOTAMIA
  MAP:0 "Median Empire"
  MAP_ADJ:0 "Median"
  PES:0 "Achaemenid Kingdom"
@@ -88,5 +88,23 @@
  SAT_ADJ:0 "Sattagydian"
  SAG:0 "Sagartia"
  SAG_ADJ:0 "Sagartian"
+ KDR:0 "Carduchia"
+ KDR_ADJ:0 "Carduchii"
+
+ # ARABIA
  MAK:0 "Maka"
  MAK_ADJ:0 "Makan"
+ TYO:0 "Dilmun"
+ TYO_ADJ:0 "Dilmuan"
+ AX4:0 "Samad"
+ AX4_ADJ:0 "Samadan"
+
+ # ANATOLIA
+ HIT:0 "Neo Hittite League"
+ HIT_ADJ:0 "Hittite"
+ LYD:0 "Lydian Kingdom"
+ LYD_ADJ:0 "Lydian"
+ PHR:0 "Phrygia"
+ PHR_ADJ:0 "Phrygian"
+ AR2:0 "Upper Armenia"
+ AR2_ADJ:0 "Upper Armenian"

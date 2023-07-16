@@ -8,11 +8,17 @@ diplomacy = {
 	dependency = { first = PES second = ARS subject_type = satrapy }
 	dependency = { first = PES second = GED subject_type = satrapy }
 	dependency = { first = PES second = ELM subject_type = satrapy }
-	dependency = { first = PES second = MAK subject_type = client_state }
+	dependency = { first = PES second = MAK subject_type = tributary }
 
 	#Median Empire
 	dependency = { first = MAP second = PAR subject_type = satrapy }
 	dependency = { first = MAP second = SAG subject_type = satrapy }
+	dependency = { first = MAP second = CAP subject_type = satrapy }
+	dependency = { first = MAP second = ARM subject_type = satrapy }
+	dependency = { first = MAP second = AR2 subject_type = tributary }
+
+	#Lydian Kingdom
+	dependency = { first = LYD second = PHR subject_type = client_state }
 
 	### VANILLA DIPLOMACY ###
 
