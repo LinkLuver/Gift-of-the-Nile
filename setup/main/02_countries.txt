@@ -765,7 +765,7 @@ country = {
 			government = aristocratic_monarchy
 			primary_culture = macedonian
 			religion = roman_pantheon
-			capital = 911
+			capital = 918
 			diplomatic_stance=warmongering_stance
 			monarchy_military_reforms = work_for_the_best
 
@@ -786,18 +786,11 @@ country = {
 			own_control_core = 	{
 				900 902 903 904 909 901 910 915 917 918 919 922 #babylonia_region
 				898 899 911 912 913 914 916 924 926 927 929 960 #asoristan_region
-				824 825 905 906 907 908 953 954 #euphrates_region
+				905 906 907 908 953 954 #euphrates_region
 				896 897 979 925 928 933 934 961 962 973 974 976 #beth_daraye_region
 				920 921 923 930 931 932 935 936 939 937 938 968 #veh_kavad_region
-				943 945 946 947 948 949 950 967 970 972 975 980 4969 #susiana_region
-				885 888 889 890 959 981 982 983 1603 #garamig_region
-				835 883 891 892 893 894 895 955 956 977 #tigris_region
-				822 823 830 831 832 855 871 872 873 874 875 876 #upper_mesopotamia_region
-				773 861 862 863 864 866 867 868 882 986 #niniveh_region
-				833 834 841 842 843 845 856 857 869 870 #corduene_region
 				940 941 942 944 964 965 969 971 963 #meshan_region
-				951 952 966 4779 4780 #pars_region
-				858 859 860 877 878 1855 #sophene_region
+				235 8007 8009
 			}
 
 			pantheon = {
@@ -810,10 +803,60 @@ country = {
 			treasures = { 102 }
 		}
 
+		ELM = {
+			government = despotic_monarchy
+			primary_culture = elamite
+			religion = mesopotamian_religion
+
+			capital = 946
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				943 945 946 947 948 949 950 967 970 972 975 980 4969 #susiana_region
+				951 952 966 4779 4780 #pars_region
+				4787 4786 4782 4785 4784
+			}
+
+		}
+
+		ADI = {
+			family = 14
+			family = 15
+			family = 16
+			family = 17
+
+			government = despotic_monarchy
+			primary_culture = assyrian
+			religion = zoroaster
+
+			capital = 880
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				865 880 881 884 886 887 957 958 984 985 1578 #adiabene_region
+				773 861 862 863 864 866 867 868 882 986 #niniveh_region
+				835 883 891 892 893 894 895 955 956 977 #tigris_region
+				885 888 889 890 959 981 982 983 1603 #garamig_region
+			}
+
+		}
+
 		ARS = {
 			government = despotic_monarchy
 			primary_culture = pactyan
-			religion = roman_pantheon
+			religion = zoroaster
 			diplomatic_stance=warmongering_stance
 			monarchy_citizen_law = foreign_law_for_minorities
 			capital = 6541 #Alexandria Arachosia
@@ -835,9 +878,28 @@ country = {
 
 			own_control_core = 	{
 				6541 6555 6610 6554 6548 6573 6547 6632 6553 6572 6622 6633 #arachosia
+				6551 6561 6552 6570 6550 6569 6549 6594 6595 6546 #pactya
+			}
+		}
+
+		SAT = {
+			government = tribal_kingdom
+			primary_culture = sattagydian
+			religion = zoroaster
+			diplomatic_stance=warmongering_stance
+			monarchy_citizen_law = foreign_law_for_minorities
+			capital = 6612
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
 				6645 6621 6639 6640 6641 6609 6615 6624 6623 6612 #sattagydia
 				6643 6644 6642 6628 6631 6638 6614 6608 6611 6625 6626 #bamyan
-				6551 6561 6552 6570 6550 6569 6549 6594 6595 6546 #pactya
 			}
 		}
 
@@ -859,9 +921,8 @@ country = {
 				4799 4953 4950 4948 4949 4798 4951 3405 3406 6511 4978 #persepolis
 				4781 4796 4792 4794 4795 4788 4789 4793 4790 4797 4962 #veshapur
 				4956 4957 4955 3411 3410 3408 3409 3402 3400 3401 3404 3403#utia
-				4787 4786 4782
 				4791 4958
-				4785 4784 4960
+				4960
 				4977 3399 3431 6508 3419 3418 3417 3428 3420 3430 #media_felix
 				3407 3422 3423 3421 3429 3414 3413 3412 3416 3473 #ardashir
 				6500 6501 6505 6502 6503 6504 3475 3474 3472 3471 3470 3460 #namek
@@ -870,8 +931,7 @@ country = {
 				6574 6586 6584 6577 6575 6585 6589 6591 6588 6590 6607 6560 #Drangiana
 				6559 6558 6565 6557 6564 6646 6647 6596 6568 6567 6563 # Aria
 				6518 # Aria
-				3461 3463 7224 7225 7223 7723  #New
-				235 8007 8009 821
+				3461 3463 7224 7225 7223  #New
 			}
 		}
 
@@ -7319,6 +7379,10 @@ country = {
 				1945 1948 1946 1947 1962 1963 1966 295 1952
 				1938 1940 1888 1951 173 1978 1925 1985
 				1969 7934 1873 1877 1878
+				822 823 830 831 832 855 871 872 873 874 875 876 #upper_mesopotamia_region
+				833 834 841 842 843 845 856 857 869 870 #corduene_region
+				824 825 821
+				858 859 860 877 878 1855 #sophene_region
 			}
 
 			pantheon = {
@@ -7824,31 +7888,6 @@ country = {
 				3468 3467 3462 3444 3465 3466 3451 3464 #vishpauzatis
 				3436 3437 3438 3440 3449 3455 3469
 				6556 6545 6542 6543 6544 6663 6664 #oxiana
-			}
-
-		}
-
-		ADI = { #Seleukid Subject State
-			family = 14
-			family = 15
-			family = 16
-			family = 17
-
-			government = despotic_monarchy
-			primary_culture = assyrian
-			religion = zoroaster
-
-			capital = 880
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			own_control_core = 	{
-				865 880 881 884 886 887 957 958 984 985 1578 #adiabene_region
 			}
 
 		}

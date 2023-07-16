@@ -3,6 +3,53 @@ PIR = "setup/countries/pirates.txt"
 BAR = "setup/countries/barbarians.txt"
 MER = "setup/countries/mercenaries.txt"
 
+### GotN
+
+# Egypt
+EGY = "setup/countries/africa/egypt.txt"
+MEN = "setup/countries/africa/menfer.txt"
+IUN = "setup/countries/africa/iunu.txt"
+HUT = "setup/countries/africa/hut_waret.txt"
+DJA = "setup/countries/africa/dja_net.txt"
+SAU = "setup/countries/africa/sau.txt"
+BTO = "setup/countries/africa/buto.txt"
+TRU = "setup/countries/africa/taremu.txt"
+DJD = "setup/countries/africa/djedet.txt"
+MAF = "setup/countries/africa/mafkat.txt"
+AMN = "setup/countries/africa/peramun.txt"
+NJR = "setup/countries/africa/netjer.txt"
+PMR = "setup/countries/africa/piemro.txt"
+DMN = "setup/countries/africa/damanhur.txt"
+KHA = "setup/countries/africa/khasut.txt"
+RHA = "setup/countries/africa/rhakote.txt"
+HNT = "setup/countries/africa/nesut.txt"
+PSN = "setup/countries/africa/pseneros.txt"
+PMD = "setup/countries/africa/medjed.txt"
+MRT = "setup/countries/africa/meshweshia.txt"
+ATN = "setup/countries/africa/aten.txt"
+HHT = "setup/countries/africa/hethedet.txt"
+DSH = "setup/countries/africa/deshretia.txt"
+SWA = "setup/countries/africa/siwa.txt"
+TEH = "setup/countries/africa/tehu.txt"
+TEW = "setup/countries/africa/tenuwia.txt"
+APS = "setup/countries/africa/tehenewia.txt"
+SEM = "setup/countries/africa/semna.txt"
+SUK = "setup/countries/africa/sukkari.txt"
+RET = "setup/countries/africa/ghazzah.txt"
+SIQ = "setup/countries/africa/siqdit.txt"
+ASK = "setup/countries/africa/ascalon.txt"
+
+# Persia-Mesopotamia
+SEL = "setup/countries/persiamesopotamia/seleucid empire.txt"
+ADI = "setup/countries/persiamesopotamia/adiabene.txt"
+MAP = "setup/countries/persiamesopotamia/media atropatene.txt"
+PES = "setup/countries/persiamesopotamia/persis.txt"
+ARS = "setup/countries/persiamesopotamia/arachosia.txt"
+ELM = "setup/countries/persiamesopotamia/elam.txt"
+SAT = "setup/countries/persiamesopotamia/sattagydia.txt"
+
+### Vanilla
+
 # Greece/Macedonia
 #CRT = "setup/countries/crete.txt"
 
@@ -113,10 +160,8 @@ PON = "setup/countries/anatolia/pontus.txt"
 PAP = "setup/countries/anatolia/paphlagonia.txt"
 
 #New
-SEL = "setup/countries/caucasiamesopotamia/seleucid empire.txt"
-ADI = "setup/countries/caucasiamesopotamia/adiabene.txt"
+
 ARM = "setup/countries/caucasiamesopotamia/armenia.txt"
-MAP = "setup/countries/caucasiamesopotamia/media atropatene.txt"
 IBR = "setup/countries/caucasiamesopotamia/iberia.txt"
 COL = "setup/countries/caucasiamesopotamia/colchis.txt"
 ALB = "setup/countries/caucasiamesopotamia/albania.txt"
@@ -574,7 +619,6 @@ PRN = "setup/countries/bactria/parni.txt"
 ZNT = "setup/countries/bactria/zanthi.txt"
 PSS = "setup/countries/bactria/pissuri.txt"
 KRZ = "setup/countries/bactria/kharesmia.txt"
-ARS = "setup/countries/bactria/arachosia.txt"
 
 #Extra Crimea
 SCY = "setup/countries/greece/scythia_europea.txt"
@@ -818,7 +862,6 @@ GAE = "setup/countries/africa/gaetulia.txt"
 
 #Seleukid Satraps
 GED = "setup/countries/bactria/gedrosia.txt"
-PES = "setup/countries/caucasiamesopotamia/persis.txt"
 
 #New Tarim
 XIW = "setup/countries/bactria/xiaowan.txt"
@@ -843,37 +886,3 @@ SHN = "setup/countries/burma/shan.txt"
 
 #Removed
 #LOL = "setup/countries/india/loulan.txt"
-
-### GotN
-EGY = "setup/countries/africa/egypt.txt"
-MEN = "setup/countries/africa/menfer.txt"
-IUN = "setup/countries/africa/iunu.txt"
-HUT = "setup/countries/africa/hut_waret.txt"
-DJA = "setup/countries/africa/dja_net.txt"
-SAU = "setup/countries/africa/sau.txt"
-BTO = "setup/countries/africa/buto.txt"
-TRU = "setup/countries/africa/taremu.txt"
-DJD = "setup/countries/africa/djedet.txt"
-MAF = "setup/countries/africa/mafkat.txt"
-AMN = "setup/countries/africa/peramun.txt"
-NJR = "setup/countries/africa/netjer.txt"
-PMR = "setup/countries/africa/piemro.txt"
-DMN = "setup/countries/africa/damanhur.txt"
-KHA = "setup/countries/africa/khasut.txt"
-RHA = "setup/countries/africa/rhakote.txt"
-HNT = "setup/countries/africa/nesut.txt"
-PSN = "setup/countries/africa/pseneros.txt"
-PMD = "setup/countries/africa/medjed.txt"
-MRT = "setup/countries/africa/meshweshia.txt"
-ATN = "setup/countries/africa/aten.txt"
-HHT = "setup/countries/africa/hethedet.txt"
-DSH = "setup/countries/africa/deshretia.txt"
-SWA = "setup/countries/africa/siwa.txt"
-TEH = "setup/countries/africa/tehu.txt"
-TEW = "setup/countries/africa/tenuwia.txt"
-APS = "setup/countries/africa/tehenewia.txt"
-SEM = "setup/countries/africa/semna.txt"
-SUK = "setup/countries/africa/sukkari.txt"
-RET = "setup/countries/africa/ghazzah.txt"
-SIQ = "setup/countries/africa/siqdit.txt"
-ASK = "setup/countries/africa/ascalon.txt"
