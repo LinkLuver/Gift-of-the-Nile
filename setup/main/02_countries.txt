@@ -825,9 +825,9 @@ country = {
 
 			government = despotic_monarchy
 			primary_culture = assyrian
-			religion = zoroaster
+			religion = mesopotamian_religion
 
-			capital = 880
+			capital = 883
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -920,7 +920,7 @@ country = {
 				6574 6586 6584 6577 6575 6585 6589 6591 6588 6590 6607 6560 #Drangiana
 				6559 6558 6565 6557 6564 6646 6647 6596 6568 6567 6563 6518 # Aria
 				7224 7225 7223  #New
-				6514 6580 6583 6581 6515 6578 6579 6516 #harmozeia/Rudiana
+				6514 6580 6583 6581 6515 6578 6579 6516 6512 6582 #harmozeia/Rudiana
 			}
 		}
 
@@ -8842,7 +8842,6 @@ country = {
 				6513 6530 6592 6517 6520 6521 6522 6523 6524 6620 6525 6593 #Mauryan Gedrosia
 				6540 6571 6616 6539 6538 6617 6537 6618 6535 6534 6619 6533 #Parecania
 				6531 6532 6536
-				6512 6582
 			}
 		}
 
