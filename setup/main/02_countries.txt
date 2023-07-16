@@ -2,8 +2,8 @@ country = {
 	countries = {
 
 ### GOTN ###
-		#Egypt
-			DOD = {
+		#Egypt and Nubia
+		DOD = {
 			family = 57
 			government = theocratic_monarchy
 			primary_culture = lower_nubian
@@ -20,8 +20,67 @@ country = {
 			}
 			own_control_core = 	{
 				597 598 599 5519 5521 5520 5518
+				600 601 603 602 7580 604 7579 606 7581 605 7582 607 # North Nubia
+				7583 608 609 610 611 612 613 618 617 616 615 614 # South Nubia
 			}
 
+		}
+
+		NAP = {
+			family=72
+			government = despotic_monarchy
+			primary_culture = napatan
+			religion = kushite_pantheon
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			poptype_rights = {
+				{
+					culture = napatan
+					type = citizen
+				}
+			}
+
+			treasures = { 225 226 }
+
+			capital = 626
+
+			own_control_core = {
+				619 620 622 621 624 623 625 7586 7585 626 646 645 # Napata
+				8063 8064 8065 8066 8067 8068 8069 8070 # Bayuda
+				627 7584 628 629 630 631 632 634 635 637 638 636 # Alana
+			}
+		}
+
+		KSH = {
+			family=72
+			government = despotic_monarchy
+			primary_culture = meroitic
+			religion = kushite_pantheon
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			treasures = { 225 226 }
+
+			capital = 641
+
+			own_control_core = {
+				639 640 641 642 7592 3321 # Meroe
+				8099 8100 # Muqaddam
+				8590 8591 8592 8593 8594 8595 8596 8597 #Awateib
+				8598 8599 8600 #Hawad
+				8616 8617 #Kartub
+			}
 		}
 
 		EGY = {
@@ -9179,45 +9238,6 @@ country = {
 
 		# Ethiopia and Nubia
 
-		KSH = {
-			family=72
-			government = despotic_monarchy
-			primary_culture = meroitic
-			religion = egyptian_pantheon
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			poptype_rights = {
-				{
-					culture = napatan
-					type = citizen
-				}
-			}
-
-			treasures = { 225 226 }
-
-			capital = 641
-
-			own_control_core = {
-				600 601 603 602 7580 604 7579 606 7581 605 7582 607 # North Nubia
-				7583 608 609 610 611 612 613 618 617 616 615 614 # South Nubia
-				619 620 622 621 624 623 625 7586 7585 626 646 645 # Napata
-				627 7584 628 629 630 631 632 634 635 637 638 636 # Alana
-				639 640 641 642 7592 3321 # Meroe
-				8063 8064 8065 8066 8067 8068 8069 8070 # Bayuda
-				8099 8100 # Muqaddam
-				8590 8591 8592 8593 8594 8595 8596 8597 #Awateib
-				644 643 #old alut provinces
-				8598 8599 8600 #Hawad
-				8616 8617 #Kartub
-			}
-		}
-
 		AXM = {
 			government = despotic_monarchy
 			primary_culture = aksumite
@@ -9364,6 +9384,7 @@ country = {
 			own_control_core = {
 				3314 3320 3319 3317 3318 3315 3312 3313 3311 3310
 				8101 8102 8103 8104 8105 #Muqaddam
+				644 643 #old alut provinces
 			}
 		}
 

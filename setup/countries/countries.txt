@@ -5,7 +5,7 @@ MER = "setup/countries/mercenaries.txt"
 
 ### GotN
 
-# Egypt
+# Egypt-Nubia
 EGY = "setup/countries/africa/egypt.txt"
 MEN = "setup/countries/africa/menfer.txt"
 IUN = "setup/countries/africa/iunu.txt"
@@ -38,6 +38,7 @@ SUK = "setup/countries/africa/sukkari.txt"
 RET = "setup/countries/africa/ghazzah.txt"
 SIQ = "setup/countries/africa/siqdit.txt"
 ASK = "setup/countries/africa/ascalon.txt"
+NAP = "setup/countries/africa/napata.txt"
 
 # Persia-Mesopotamia
 SEL = "setup/countries/persiamesopotamia/seleucid empire.txt"
