@@ -85,7 +85,7 @@ country = {
 		}
 
 		EGY = {
-			government = theocratic_monarchy
+			government = egyptian_dynasty
 			diplomatic_stance=appeasement_stance
 			primary_culture = upper_egyptian
 			religion = egyptian_pantheon
@@ -117,7 +117,7 @@ country = {
 		}
 
 		SIQ = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = upper_egyptian
 			religion = egyptian_pantheon
@@ -140,7 +140,7 @@ country = {
 		}
 
 		RET = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = retenuan
 			religion = egyptian_pantheon
@@ -163,7 +163,7 @@ country = {
 		}
 
 		SUK = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = upper_egyptian
 			religion = egyptian_pantheon
@@ -186,7 +186,7 @@ country = {
 		}
 
 		SEM = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = upper_egyptian
 			religion = egyptian_pantheon
@@ -254,7 +254,7 @@ country = {
 		}
 
 		TEH = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = siwan_egyptian
 			religion = egyptian_pantheon
@@ -277,7 +277,7 @@ country = {
 		}
 
 		SWA = {
-			government = theocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = siwan_egyptian
 			religion = egyptian_pantheon
@@ -300,7 +300,7 @@ country = {
 		}
 
 		DSH = {
-			government = tribal_federation
+			government = nomarchy
 			primary_culture = deshretic_egyptian
 			religion = egyptian_pantheon
 			capital = 5514 #'Siwa'
@@ -318,7 +318,7 @@ country = {
 		}
 
 		HHT = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = hethedetian
 			religion = egyptian_pantheon
@@ -342,7 +342,7 @@ country = {
 		}
 
 		ATN = {
-			government = aristocratic_monarchy
+			government = egyptian_dynasty
 			diplomatic_stance=appeasement_stance
 			primary_culture = akhenite_egyptian
 			religion = aten_religion
@@ -383,7 +383,7 @@ country = {
 		}
 
 		PMD = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = middle_egyptian
 			religion = aten_religion
@@ -406,7 +406,7 @@ country = {
 		}
 
 		PSN = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = middle_egyptian
 			religion = egyptian_pantheon
@@ -429,7 +429,7 @@ country = {
 		}
 
 		HNT = {
-			government = aristocratic_monarchy
+			government = egyptian_dynasty
 			diplomatic_stance=appeasement_stance
 			primary_culture = middle_egyptian
 			religion = aten_religion
@@ -452,7 +452,7 @@ country = {
 		}
 
 		RHA = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = tenuwan_egyptian
 			religion = egyptian_pantheon
@@ -475,7 +475,7 @@ country = {
 		}
 
 		KHA = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = neithic_egyptian
 			religion = egyptian_pantheon
@@ -498,7 +498,7 @@ country = {
 		}
 
 		DMN = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = wadjetic_egyptian
 			religion = egyptian_pantheon
@@ -521,7 +521,7 @@ country = {
 		}
 
 		PMR = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = neithic_egyptian
 			religion = egyptian_pantheon
@@ -544,7 +544,7 @@ country = {
 		}
 
 		NJR = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = neithic_egyptian
 			religion = egyptian_pantheon
@@ -567,7 +567,7 @@ country = {
 		}
 
 		AMN = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = avarite_egyptian
 			religion = egyptian_pantheon
@@ -613,7 +613,7 @@ country = {
 		}
 
 		TRU = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = danetic_egyptian
 			religion = egyptian_pantheon
@@ -636,7 +636,7 @@ country = {
 		}
 
 		DJD = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = danetic_egyptian
 			religion = egyptian_pantheon
@@ -659,7 +659,7 @@ country = {
 		}
 
 		BTO = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = wadjetic_egyptian
 			religion = egyptian_pantheon
@@ -682,7 +682,7 @@ country = {
 		}
 
 		SAU = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = avarite_egyptian
 			religion = egyptian_pantheon
@@ -705,7 +705,7 @@ country = {
 		}
 
 		DJA = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = danetic_egyptian
 			religion = egyptian_pantheon
@@ -728,7 +728,7 @@ country = {
 		}
 
 		HUT = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = avarite_egyptian
 			religion = egyptian_pantheon
@@ -751,7 +751,7 @@ country = {
 		}
 
 		IUN = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = egyptian
 			religion = egyptian_pantheon
@@ -774,7 +774,7 @@ country = {
 		}
 
 		MEN = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = egyptian
 			religion = egyptian_pantheon
@@ -797,7 +797,7 @@ country = {
 		}
 
 		ASK = {
-			government = aristocratic_monarchy
+			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = retenuan
 			religion = aten_religion
@@ -884,7 +884,7 @@ country = {
 			family = 16
 			family = 17
 
-			government = despotic_monarchy
+			government = assyrian_imperium
 			primary_culture = assyrian
 			religion = mesopotamian_religion
 
@@ -999,15 +999,6 @@ country = {
 			own_control_core = 	{
 				7209 7208 7210 7211 7207 7216 5429 5430 5415 5416 5417
 				8867 8871
-			}
-		}
-
-		AX4 = { #Samad
-			government = tribal_federation
-			primary_culture = samad
-			religion = arabian_pantheon
-			capital = 5419
-			own_control_core = {
 				5418 5419 5420 5421 7212 7213 7214 7215 7217
 				8851 8865 8866 8879
 			}
@@ -1108,7 +1099,7 @@ country = {
 
 			government = despotic_monarchy
 			primary_culture = armenian
-			religion = new_armenian_religion
+			religion = anahitic_religion
 
 			historical_regnal_numbers = {
 				Orontes = 2
@@ -1138,7 +1129,7 @@ country = {
 
 			government = despotic_monarchy
 			primary_culture = armenian
-			religion = new_armenian_religion
+			religion = anahitic_religion
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -1151,6 +1142,9 @@ country = {
 
 			own_control_core = 	{
 				1698 1744 1747 1751 1759 1760 1761 1762 1764 #upper_armenia_region
+				1763 1765 1766 1767 1768 1769 1770 1771 1772 1773 1775 1776 1778 #armenia_major_region
+				7844 1733 #armenia_major_region
+				1779 1781 1782 1783 1842 1843 1844 1848 1850 1851 7845 #armenia_minor_region
 			}
 		}
 
@@ -1178,11 +1172,7 @@ country = {
 				155 172 1802 1803 1893 1902 1976 1983 1994 1999 #cappadocia_cataonia_region
 				1794 1796 1799 1800 1805 1912 6420 #cappadocia_region
 				1866 1853 1979 1982
-				1763 1765 1766 1767 1768 1769 1770 1771 1772 1773 1775 1776 1778 #armenia_major_region
-				1779 1781 1782 1783 1842 1843 1844 1848 1850 1851 #armenia_minor_region
-				7844 7845 1733 1858 1856 1857 8008 8010
 				1849 1891 1899
-				858 859 860 877 878 1855 235 8007 8009 #sophene_region
 			}
 
 			pantheon = {
@@ -1193,9 +1183,29 @@ country = {
 			}
 		}
 
+		SPH = {
+			government = despotic_monarchy
+			primary_culture = armenian
+			religion = mithra_religion
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 858
+
+			own_control_core = {
+				858 859 860 877 878 1855 235 8007 8009 #sophene_region
+				1858 1856 1857 8008 8010
+			}
+		}
+
 		HIT = {
 			government = despotic_monarchy
-			primary_culture = cappadocian
+			primary_culture = hittite
 			religion = anatolian_religion
 
 			technology={
@@ -1215,7 +1225,7 @@ country = {
 		}
 
 		LYD = {
-			government = despotic_monarchy
+			government = aristocratic_monarchy
 			primary_culture = lydian
 			religion = anatolian_religion
 

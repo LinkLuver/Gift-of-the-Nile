@@ -1,0 +1,121 @@
+﻿namespace = gotn_events
+
+gotn_events.1 = {
+    type = country_event
+
+    title = gotn_events_1_title
+    desc = gotn_events_1_desc
+    picture = diadochi_coronation
+    left_portrait = c:SEL.current_ruler
+    left_portrait = c:TYO.current_ruler
+    right_portrait = c:MAK.current_ruler
+    right_portrait = c:PES.current_ruler
+
+    trigger = {
+        OR = {
+            tag = MAK
+            tag = TYO
+        }
+    }
+    fire_only_once = yes
+
+    option = {
+        name = "gotn_events_4.a"
+    }
+}
+
+gotn_events.2 = { # 4th Intermediatary Period
+    
+    type = country_event
+    title = "gotn_events_2_title"
+    desc = "gotn_events_2_desc"
+    picture = interesting_histories_kush_capital
+    goto_location = root
+    left_portrait = c:EGY.current_ruler
+    left_portrait = c:ATN.current_ruler
+    left_portrait = c:HNT.current_ruler
+    right_portrait = current_ruler
+    right_portrait = c:MEN.current_ruler
+    right_portrait = c:DOD.current_ruler
+
+    trigger = {
+        is_ai = no
+        OR = {
+            country_culture_group = north_african
+            country_culture_group = lower_nubian
+        }
+        capital_scope = {
+            OR = {
+                is_in_region = syria_region
+                is_in_region = palestine_region
+                is_in_region = upper_egypt_region
+                is_in_region = lower_egypt_region
+                is_in_region = lower_nubia_region
+                is_in_region = nubia_region
+                is_in_region = cyrenaica_region
+            }
+        }
+    }
+    fire_only_once = yes
+    
+    option = {
+        name = "gotn_events_2.a"
+        if = {
+            limit = {
+                tag = EGY
+            }
+            trigger_event = {
+                id = nile_flavor.1
+                days = { 5 10 }
+            }
+        }
+    }
+}
+
+gotn_events.3 = {
+    type = country_event
+
+    title = gotn_events_4_title
+    desc = gotn_events_4_desc
+    picture = Event_massive_naval_battle
+    left_portrait = c:SEL.current_ruler
+    left_portrait = c:TYO.current_ruler
+    right_portrait = c:MAK.current_ruler
+    right_portrait = c:PES.current_ruler
+
+    trigger = {
+        OR = {
+            tag = MAK
+            tag = TYO
+        }
+    }
+    fire_only_once = yes
+
+    option = {
+        name = "gotn_events_4.a"
+    }
+}
+
+gotn_events.4 = {
+    type = country_event
+
+    title = gotn_events_4_title
+    desc = gotn_events_4_desc
+    picture = Event_massive_naval_battle
+    left_portrait = c:SEL.current_ruler
+    left_portrait = c:TYO.current_ruler
+    right_portrait = c:MAK.current_ruler
+    right_portrait = c:PES.current_ruler
+
+    trigger = {
+        OR = {
+            tag = MAK
+            tag = TYO
+        }
+    }
+    fire_only_once = yes
+
+    option = {
+        name = "gotn_events_4.a"
+    }
+}

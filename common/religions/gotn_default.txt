@@ -19,3 +19,7 @@ kushite_pantheon = { # Kushitic
 	}
 	religion_category = pantheon
 }
+zorvan_religion = { # Zurvanism
+	color = { 20 10 250 }
+	religion_category = firetemples
+}
