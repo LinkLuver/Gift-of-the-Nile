@@ -10,6 +10,15 @@
 	sacrifice_icon = sacrifice_incense
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
+ashur_religion = { # Asshuric
+	color = hsv { 0.05 1.0 0.5 }
+	modifier = { 
+		agressive_expansion_impact = -0.1
+		global_defensive = 0.1
+		general_loyalty = -3
+	}
+	religion_category = prophets
+}
 kushite_pantheon = { # Kushitic
 	color = rgb { 120 60 10 }
 	modifier = { 
@@ -22,4 +31,13 @@ kushite_pantheon = { # Kushitic
 zorvan_religion = { # Zurvanism
 	color = { 20 10 250 }
 	religion_category = firetemples
+}
+elamite_pantheon = { # Elamite
+	color = rgb { 190 35 30 }
+	modifier = {
+		global_monthly_civilization = 0.03
+		build_time = -0.05
+		agressive_expansion_impact = 0.05
+	}
+	religion_category = pantheon
 }

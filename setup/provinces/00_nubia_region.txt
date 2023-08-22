@@ -113,7 +113,7 @@
 	}
 	slaves={
 		culture="blemmyan"
-		religion="egyptian_pantheon"
+		religion="kushite_pantheon"
 		amount=2
 	}
 	slaves={
@@ -130,7 +130,7 @@
 	}
 	tribesmen={
 		culture="blemmyan"
-		religion="egyptian_pantheon"
+		religion="kushite_pantheon"
 		amount=3
 	}
 	holy_site=omen_mandulis
@@ -198,12 +198,12 @@
 	}
 	slaves={
 		culture="blemmyan"
-		religion="egyptian_pantheon"
+		religion="kushite_pantheon"
 		amount=1
 	}
 	slaves={
 		culture="meroitic"
-		religion="egyptian_pantheon"
+		religion="kushite_pantheon"
 		amount=1
 	}
 }
@@ -294,7 +294,7 @@
 	}
 	slaves={
 		culture="blemmyan"
-		religion="egyptian_pantheon"
+		religion="kushite_pantheon"
 		amount=1
 	}
 	tribesmen={
@@ -746,7 +746,7 @@
 	}
 	slaves={
 		culture="meroitic"
-		religion="egyptian_pantheon"
+		religion="kushite_pantheon"
 		amount=1
 	}
 }
@@ -773,7 +773,7 @@
 	}
 	slaves={
 		culture="meroitic"
-		religion="egyptian_pantheon"
+		religion="kushite_pantheon"
 		amount=1
 	}
 	holy_site=omen_wepwawet

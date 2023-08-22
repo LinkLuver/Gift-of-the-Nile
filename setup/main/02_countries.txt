@@ -8032,18 +8032,9 @@ country = {
 		BAC = { #Seleukid Subject State
 			family = 61
 			government = despotic_monarchy
-			primary_culture = macedonian
-			religion = roman_pantheon
-			diplomatic_stance=warmongering_stance
-			monarchy_citizen_law = foreign_law_for_minorities
+			primary_culture = bactrian
+			religion = vaksh_religion
 			capital = 6678 #Bactra
-
-			poptype_rights = {
-				{
-					culture = bactrian
-					type = citizen
-				}
-			}
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -8067,29 +8058,14 @@ country = {
 				#6731 6732 6730 6734 6735 6739 #Ferghana
 			}
 
-			pantheon = {
-				{ deity = 102 }
-				{ deity = 111 }
-				{ deity = 116 }
-				{ deity = 107 }
-			}
-
 			treasures = { 82 }
 		}
 
 		PAR = {
 			government = despotic_monarchy
-			primary_culture = macedonian
-			religion = roman_pantheon
-			diplomatic_stance=warmongering_stance
+			primary_culture = parthian
+			religion = mithra_religion
 			capital = 3435
-
-			poptype_rights = {
-				{
-					culture = pactyan
-					type = citizen
-				}
-			}
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -9070,8 +9046,8 @@ country = {
 
 		TAY = {
 			government = despotic_monarchy
-			primary_culture = ionian
-			religion = roman_pantheon
+			primary_culture = tayuan
+			religion = vaksh_religion
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -9117,7 +9093,7 @@ country = {
 		SOG = {
 			government = despotic_monarchy
 			primary_culture = sogdian
-			religion = eastern_animism
+			religion = vaksh_religion
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -9615,7 +9591,7 @@ country = {
 		ADA = {
 			government = tribal_chiefdom
 			primary_culture = adabulian
-			religion = egyptian_pantheon
+			religion = kushite_pantheon
 
 
 			capital = 8607

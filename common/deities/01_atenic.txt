@@ -1,7 +1,6 @@
 ﻿### General Deity Checks ###
 deity_aten = {
 	trigger = {
-		polytheistic_check_religion_trigger = yes
 		OR = {
 			very_common_deity_trigger = {
 				RELIGION = aten_religion
@@ -26,7 +25,6 @@ deity_aten = {
 }
 deity_nefertiti = {
 	trigger = {
-		polytheistic_check_religion_trigger = yes
 		OR = {
 			very_common_deity_trigger = {
 				RELIGION = aten_religion
@@ -51,7 +49,6 @@ deity_nefertiti = {
 }
 deity_tutankhaten = {
 	trigger = {
-		polytheistic_check_religion_trigger = yes
 		OR = {
 			rare_deity_trigger = {
 				RELIGION = aten_religion
@@ -76,7 +73,6 @@ deity_tutankhaten = {
 }
 deity_atenhep = {
 	trigger = {
-		polytheistic_check_religion_trigger = yes
 		OR = {
 			very_common_deity_trigger = {
 				RELIGION = aten_religion
@@ -101,7 +97,6 @@ deity_atenhep = {
 }
 deity_aten = {
 	trigger = {
-		polytheistic_check_religion_trigger = yes
 		OR = {
 			very_common_deity_trigger = {
 				RELIGION = aten_religion

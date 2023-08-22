@@ -6,21 +6,30 @@ gotn_events.1 = {
     title = gotn_events_1_title
     desc = gotn_events_1_desc
     picture = diadochi_coronation
-    left_portrait = c:SEL.current_ruler
-    left_portrait = c:TYO.current_ruler
-    right_portrait = c:MAK.current_ruler
-    right_portrait = c:PES.current_ruler
+    left_portrait = current_ruler
+    left_portrait = c:PES.current_ruler
+    left_portrait = c:ELM.current_ruler
+    right_portrait = c:MAP.current_ruler
+    right_portrait = c:SEL.current_ruler
+    right_portrait = c:ADI.current_ruler
 
     trigger = {
         OR = {
-            tag = MAK
-            tag = TYO
+            tag = PES
+            tag = ELM
+            tag = MAP
+            tag = SEL
+            tag = ADI
+            tag = GED
+            tag = ARS
+            tag = SAG
+            tag = PAR
         }
     }
     fire_only_once = yes
 
     option = {
-        name = "gotn_events_4.a"
+        name = "gotn_events_1.a"
     }
 }
 
@@ -31,10 +40,10 @@ gotn_events.2 = { # 4th Intermediatary Period
     desc = "gotn_events_2_desc"
     picture = interesting_histories_kush_capital
     goto_location = root
-    left_portrait = c:EGY.current_ruler
+    left_portrait = current_ruler
     left_portrait = c:ATN.current_ruler
     left_portrait = c:HNT.current_ruler
-    right_portrait = current_ruler
+    right_portrait = c:EGY.current_ruler
     right_portrait = c:MEN.current_ruler
     right_portrait = c:DOD.current_ruler
 
@@ -75,8 +84,8 @@ gotn_events.2 = { # 4th Intermediatary Period
 gotn_events.3 = {
     type = country_event
 
-    title = gotn_events_4_title
-    desc = gotn_events_4_desc
+    title = gotn_events_3_title
+    desc = gotn_events_3_desc
     picture = Event_massive_naval_battle
     left_portrait = c:SEL.current_ruler
     left_portrait = c:TYO.current_ruler
@@ -92,7 +101,7 @@ gotn_events.3 = {
     fire_only_once = yes
 
     option = {
-        name = "gotn_events_4.a"
+        name = "gotn_events_3.a"
     }
 }
 
