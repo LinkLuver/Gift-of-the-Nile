@@ -11,7 +11,7 @@
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
 kushite_pantheon = { # Kushitic
-	color = rgb { 130 50 10 }
+	color = rgb { 120 60 10 }
 	modifier = { 
 		build_cost = -0.05
 		country_civilization_value = 3.0

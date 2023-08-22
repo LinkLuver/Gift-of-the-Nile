@@ -1569,14 +1569,14 @@ treasure_manager = {
 				local_happiness_for_same_religion_modifier = 0.05
 			}
 		}
-		825 = { # KSH
+		825 = { # MRE
 			key = "treasure_it_divine_vessel_of_isis"
 			icon = "treasure_it_divine_vessel_of_isis"
 			state_modifier = {
 				local_happiness_for_same_religion_modifier = 0.03
 			}
 		}
-		826 = { # KSH
+		826 = { # MRE
 			key = "treasure_it_sphinx_of_taharqo"
 			icon = "treasure_it_sphinx_of_taharqo"
 			state_modifier = {

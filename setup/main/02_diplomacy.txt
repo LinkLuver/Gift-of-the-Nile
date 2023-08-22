@@ -137,7 +137,7 @@ diplomacy = {
 	dependency = { first = EGY second = KOS subject_type = feudatory }
 
 	#Kush
-	dependency = { first = KSH second = DOD subject_type = client_state }
+	#dependency = { first = MRE second = DOD subject_type = client_state }
 
 	#Crete
 	alliance = { first = LYT second = IEP }
