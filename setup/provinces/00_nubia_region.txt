@@ -69,12 +69,12 @@
 		amount=11
 	}
 	citizen={
-		religion="kushite_religion"
+		religion="kushite_pantheon"
 		culture="napatan"
 		amount=2
 	}
 	citizen={
-		religion="kushite_religion"
+		religion="kushite_pantheon"
 		culture="lower_nubian"
 		amount=1
 	}
@@ -100,7 +100,7 @@
 		amount=10
 	}
 	freemen={
-		religion="kushite_religion"
+		religion="kushite_pantheon"
 		culture="napatan"
 		amount=3
 	}

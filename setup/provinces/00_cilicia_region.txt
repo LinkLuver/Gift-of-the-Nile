@@ -583,7 +583,7 @@
 
 795={ #Alexandreia Issos
 	terrain="plains"
-	culture="cilician"
+	culture="hittite"
 	religion="roman_pantheon"
 	trade_goods="cedar"
 	civilization_value=36
@@ -625,7 +625,7 @@
 
 796={ #Issos
 	terrain="plains"
-	culture="cilician"
+	culture="hittite"
 	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=24
@@ -705,7 +705,7 @@
 		amount=1
 	}
 	freemen={
-		culture="cilician"
+		culture="hittite"
 		religion="roman_pantheon"
 		amount=2
 	}
@@ -719,7 +719,7 @@
 
 1874={ #Oiniandos
 	terrain="farmland"
-	culture="cilician"
+	culture="hittite"
 	religion="roman_pantheon"
 	trade_goods="grain"
 	civilization_value=28
@@ -751,7 +751,7 @@
 
 1875={ #Hierapolis Kastabala
 	terrain="plains"
-	culture="cilician"
+	culture="hittite"
 	religion="roman_pantheon"
 	trade_goods="honey"
 	civilization_value=31
@@ -788,7 +788,7 @@
 
 1877={ #Anazarbos
 	terrain="plains"
-	culture="cilician"
+	culture="hittite"
 	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=10
@@ -840,7 +840,7 @@
 		amount=2
 	}
 	freemen={
-		culture="cilician"
+		culture="hittite"
 		amount=1
 	}
 	freemen={
@@ -869,7 +869,7 @@
 
 1879={ #Aigaiai
 	terrain="plains"
-	culture="cilician"
+	culture="hittite"
 	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=26
@@ -897,7 +897,7 @@
 
 1880={ #Mopsou Hestia
 	terrain="farmland"
-	culture="cilician"
+	culture="hittite"
 	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=33
@@ -926,7 +926,7 @@
 
 1881={ #Mallos
 	terrain="farmland"
-	culture="cilician"
+	culture="hittite"
 	religion="roman_pantheon"
 	trade_goods="base_metals"
 	civilization_value=35
@@ -989,7 +989,7 @@
 
 1882={ #Adana
 	terrain="plains"
-	culture="cilician"
+	culture="hittite"
 	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=33
@@ -1182,7 +1182,7 @@
 
 1889={ #Magarsa
 	terrain="marsh"
-	culture="cilician"
+	culture="hittite"
 	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=22

@@ -1212,9 +1212,22 @@ country = {
 			capital = 1872
 
 			own_control_core = 	{
-				1872 1882 1883 1887 1889 #cilicia_trachea_region
+				1882 1889 #cilicia_trachea_region
 				795 796 1874 1875 1879 1880 1881 #cilicia_pedias_region
 				1969 7934 1873 1877 1878
+			}
+		}
+
+		ISU = { # Isauria
+			government = tribal_kingdom
+			primary_culture = isaurian
+			religion = anatolian_religion
+
+			capital = 1919
+
+			own_control_core = {
+				1919 1785 1780 169 1955 7964 1784 7963
+				1918 1920 7961 1922
 			}
 		}
 
@@ -1243,7 +1256,7 @@ country = {
 				250 265 269 271 272 273 303 304 306 337 320 321 #mysia_abrettene_region
 				251 253 254 264 #mysia_region
 				294 #ionia_region
-				1935 1953 #milyas_region
+				1953 #milyas_region
 				174 176 177 180 181 191 1914 1916 1934 1965 1971 #lycaonia_region
 				1924 1950 1975 #isauria_region
 				442 #Aigina
@@ -1251,7 +1264,7 @@ country = {
 				178 182 230 1777 1926 1928 1930 1937 1939 #phrygia_parorea_region
 				183 227 302 312 313 314 315 316 317 318 319 328#phrygia_epiktetos
 				184 185 186 187 309 311 339 1936 1941 1942 1943 1944 #phrygia_region
-				1904 179 1956 7956 7968
+				179 1956
 				249 218 7938 7939 7941 # Prokonnesos + New Anatolia
 				1945 1948 1946 1947 1962 1963 1966 295 1952
 				1938 1940 1888 1951 173 1978 1925 1985 1788
@@ -1297,7 +1310,7 @@ country = {
 			own_control_core = {
 				1993 1998 156 161 162 1995 1992 7948 7949
 				160 159 7942 171 1991 1990 1960 7947 7954
-				1958 1997 1986 1961 1959 7971
+				1958 1997 1986 1961 1959 7971 164 7951
 			}
 		}
 
@@ -1326,8 +1339,6 @@ country = {
 			currency_data = {
 				aggressive_expansion=10.000
 			}
-			family = 4
-			family = 5
 			government = aristocratic_monarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = macedonian
@@ -1392,8 +1403,8 @@ country = {
 			capital = 1911
 
 			own_control_core = {
-				166 165 164 168 1910 1905 1911 # Pamphylia
-				7958 1908 7951 1906 7962
+				166 168 1910 1905 1911 # Pamphylia
+				7958 1908 1906 7962
 			}
 		}
 
@@ -2857,8 +2868,9 @@ country = {
 		}
 
 		CYR = {
-			family = 66
-			government = spartan_monarchy
+			family = 6
+			family = 7
+			government = piratical_diarchy
 			primary_culture = cyrenaican
 			religion = roman_pantheon
 			capital = 3360
@@ -11347,7 +11359,7 @@ country = {
 			capital = 1885
 
 			own_control_core = {
-				1885 1931 1927
+				1885 1931 1927 1921
 			}
 		}
 
@@ -11359,7 +11371,7 @@ country = {
 			capital = 170
 
 			own_control_core = {
-				170
+				170 7956 167 165
 			}
 		}
 
@@ -11371,55 +11383,7 @@ country = {
 			capital = 1949
 
 			own_control_core = {
-				1949 1988
-			}
-		}
-
-		PDL = { # Pednelissia
-			government = tribal_federation
-			primary_culture = pisidian
-			religion = anatolian_religion
-
-			capital = 167
-
-			own_control_core = {
-				167
-			}
-		}
-
-		HMD = { # Homonadia
-			government = tribal_federation
-			primary_culture = isaurian
-			religion = anatolian_religion
-
-			capital = 1918
-
-			own_control_core = {
-				1918
-			}
-		}
-
-		ISU = { # Isauria
-			government = tribal_federation
-			primary_culture = isaurian
-			religion = anatolian_religion
-
-			capital = 1919
-
-			own_control_core = {
-				1919 1785 1780
-			}
-		}
-
-		LAR = { # Larandia
-			government = tribal_federation
-			primary_culture = isaurian
-			religion = anatolian_religion
-
-			capital = 169
-
-			own_control_core = {
-				169 1955 7964
+				1949 1988 7760 1933 1935
 			}
 		}
 
@@ -11473,30 +11437,6 @@ country = {
 			}
 		}
 
-		ORO = { # Oroandia
-			government = tribal_federation
-			primary_culture = oroandian
-			religion = anatolian_religion
-
-			capital = 1920
-
-			own_control_core = 	{
-				1920 7961
-			}
-		}
-
-		ABL = { # Ambladia
-			government = tribal_federation
-			primary_culture = oroandian
-			religion = anatolian_religion
-
-			capital = 1921
-
-			own_control_core = 	{
-				1921 1922
-			}
-		}
-
 		LAL = { # Lalasia
 			government = tribal_federation
 			primary_culture = lalasian
@@ -11505,19 +11445,7 @@ country = {
 			capital = 1784
 
 			own_control_core = {
-				1784 7963 1917 1901 1897
-			}
-		}
-
-		TYM = { # Tymandia
-			government = tribal_federation
-			primary_culture = milyadian
-			religion = anatolian_religion
-
-			capital = 7760
-
-			own_control_core = {
-				7760 1933
+				1901 1897 1904
 			}
 		}
 
@@ -11541,7 +11469,7 @@ country = {
 			capital = 1894
 
 			own_control_core = {
-				1894 1896 1890 1892
+				1894 1896 1890 1892 1872 1883 1887 7968
 			}
 		}
 
