@@ -62,6 +62,18 @@ PHR = "setup/countries/anatolia/phrygian kingdom.txt"
 AR2 = "setup/countries/anatolia/upper armenia.txt"
 SPH = "setup/countries/anatolia/sophene.txt"
 
+# Levant
+TR1 = "setup/countries/levant/tyros.txt"
+DOR = "setup/countries/levant/dor.txt"
+AKE = "setup/countries/levant/akko.txt"
+TR2 = "setup/countries/levant/tripoli.txt"
+AKH = "setup/countries/levant/alalakh.txt"
+UGR = "setup/countries/levant/ugarit.txt"
+SAL = "setup/countries/levant/salamis.txt"
+KIT = "setup/countries/levant/kition.txt"
+LTS = "setup/countries/levant/lapetos.txt"
+BEI = "setup/countries/levant/beirut.txt"
+
 ### Vanilla
 
 # Greece/Macedonia

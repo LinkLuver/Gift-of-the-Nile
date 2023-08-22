@@ -465,7 +465,7 @@
 		amount=7
 	}
 	citizen={
-		culture="phoenician"
+		culture="hyksos"
 		religion="carthaginian_pantheon"
 		amount=4
 	}
@@ -886,11 +886,11 @@
 		amount=2
 	}
 	slaves={
-		culture="phoenician"
+		culture="hyksos"
 		amount=2
 	}
 	tribesmen={
-		culture="phoenician"
+		culture="hyksos"
 		religion="carthaginian_pantheon"
 		amount=2
 	}

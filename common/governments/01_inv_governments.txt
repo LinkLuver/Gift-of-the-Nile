@@ -19,7 +19,7 @@ spartan_monarchy = {
 
 	has_co_ruler = yes
 
-	color = hsv { 0.2  0.5  0.2 }
+	color = rgb { 10 10 10 }
 }
 
 spartan_imperium = {
@@ -155,7 +155,7 @@ punic_republic = { #Carthage Republic
 
 	has_co_ruler = yes
 
-	color = hsv { 0.1  0.8  0.6 }
+	color = rgb { 200 40 120 }
 
 	can_deify_ruler = no
 }
