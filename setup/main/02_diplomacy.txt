@@ -15,10 +15,14 @@ diplomacy = {
 	dependency = { first = MAP second = SAG subject_type = satrapy }
 	dependency = { first = MAP second = CAP subject_type = satrapy }
 	dependency = { first = MAP second = ARM subject_type = satrapy }
+	dependency = { first = MAP second = SPH subject_type = satrapy }
 	dependency = { first = MAP second = AR2 subject_type = tributary }
 
 	#Lydian Kingdom
-	dependency = { first = LYD second = PHR subject_type = client_state }
+	dependency = { first = LYD second = PHR subject_type = satrapy }
+	dependency = { first = LYD second = IOA subject_type = subject_league_city_state }
+	dependency = { first = LYD second = ION subject_type = subject_league_city_state }
+	dependency = { first = LYD second = MLO subject_type = subject_league_city_state }
 
 	### VANILLA DIPLOMACY ###
 
@@ -133,8 +137,8 @@ diplomacy = {
 	#alliance = { first = MSY second = MSL }
 
 	#Egypt
-	dependency = { first = EGY second = ADR subject_type = feudatory }
-	dependency = { first = EGY second = KOS subject_type = feudatory }
+	#dependency = { first = EGY second = ADR subject_type = feudatory }
+	#dependency = { first = EGY second = KOS subject_type = feudatory }
 
 	#Kush
 	#dependency = { first = MRE second = DOD subject_type = client_state }
@@ -191,26 +195,26 @@ diplomacy = {
 	#guarantee = { first = PRY second = BOE } #Boetia, switch sides to Antigonus in 304. (REMOVED BY INVICTUS)
 	guarantee = { first = PRY second = AET } #Aetolia, switch sides to Antigonus in 304.
 	#Nominal Vassals that should stay as Tributaries:
-	dependency = { first = PRY second = COM subject_type = tributary } #Commagene
-	dependency = { first = PRY second = BMB subject_type = tributary } #Bambyce, theocratic vassal in northern Syria
-	dependency = { first = PRY second = JUD subject_type = tributary } #Judea, could be vassal, but now tributary as while it expected to be protected it did not help offensively.
-	dependency = { first = PRY second = SMA subject_type = tributary } #Samaria, could be vassal, but now tributary as while it expected to be protected it did not help offensively.
-	dependency = { first = PRY second = BYB subject_type = tributary } #Byblos
-	dependency = { first = PRY second = SID subject_type = tributary } #Sidon
-	dependency = { first = PRY second = ARA subject_type = tributary } #Arados
-	dependency = { first = PRY second = KIO subject_type = tributary } #Kios
+	#dependency = { first = PRY second = COM subject_type = tributary } #Commagene
+	#dependency = { first = PRY second = BMB subject_type = tributary } #Bambyce, theocratic vassal in northern Syria
+	#dependency = { first = PRY second = JUD subject_type = tributary } #Judea, could be vassal, but now tributary as while it expected to be protected it did not help offensively.
+	#dependency = { first = PRY second = SMA subject_type = tributary } #Samaria, could be vassal, but now tributary as while it expected to be protected it did not help offensively.
+	#dependency = { first = PRY second = BYB subject_type = tributary } #Byblos
+	#dependency = { first = PRY second = SID subject_type = tributary } #Sidon
+	#dependency = { first = PRY second = ARA subject_type = tributary } #Arados
+	#dependency = { first = PRY second = KIO subject_type = tributary } #Kios
 	#Vassals:
-	dependency	= { first = PRY second = CAP subject_type = satrapy } #Cappadocia
-	dependency = { first = PRY second = MGA subject_type = feudatory } #Megara
-	dependency = { first = PRY second = ATH subject_type = feudatory } #Athens
-	dependency = { first = PRY second = DEL subject_type = feudatory } #Nesiotic League
-	dependency = { first = PRY second = ION subject_type = feudatory } #Ionian League - It is unclear if Antigonus actually restored the Ionian league or if Lysimachos did just after taking over the region. Much speaks for the fact that he did however.
-	dependency = { first = PRY second = IOA subject_type = feudatory } #Aeolia
-	dependency = { first = PRY second = KNI subject_type = feudatory } #Knidos
-	dependency = { first = PRY second = AST subject_type = feudatory } #Astakos
-	dependency = { first = PRY second = KZK subject_type = feudatory } #Kyzikos
-	dependency = { first = PRY second = KAO subject_type = tributary } #Kaounos
-	dependency = { first = PRY second = PYK subject_type = tributary } #Physkos
+	#dependency	= { first = PRY second = CAP subject_type = satrapy } #Cappadocia
+	#dependency = { first = PRY second = MGA subject_type = feudatory } #Megara
+	#dependency = { first = PRY second = ATH subject_type = feudatory } #Athens
+	#dependency = { first = PRY second = DEL subject_type = feudatory } #Nesiotic League
+	#dependency = { first = PRY second = ION subject_type = feudatory } #Ionian League - It is unclear if Antigonus actually restored the Ionian league or if Lysimachos did just after taking over the region. Much speaks for the fact that he did however.
+	#dependency = { first = PRY second = IOA subject_type = feudatory } #Aeolia
+	#dependency = { first = PRY second = KNI subject_type = feudatory } #Knidos
+	#dependency = { first = PRY second = AST subject_type = feudatory } #Astakos
+	#dependency = { first = PRY second = KZK subject_type = feudatory } #Kyzikos
+	#dependency = { first = PRY second = KAO subject_type = tributary } #Kaounos
+	#dependency = { first = PRY second = PYK subject_type = tributary } #Physkos
 
 	#Mauryans
 	dependency = { first = MRY second = ATV subject_type = tributary } #Atavis
