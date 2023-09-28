@@ -1686,8 +1686,8 @@ country = {
 			}
 
 			own_control_core = 	{
-				687 688 689 691 692 711 713 715 #judea_region
-				710 714 716 717 720 700 698
+				687 688 689 691 692 711 #judea_region
+				710
 			}
 		}
 
@@ -1716,7 +1716,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				681 731 712
+				681 731 712 717
 			}
 		} 
 
@@ -1759,6 +1759,26 @@ country = {
 
 			own_control_core =  {
 				729 700 702 699 709 708 730 703 707 728 706 705 704 699 709
+			}
+		}
+
+		AMM = {
+			government = aristocratic_monarchy
+			primary_culture = hebrew
+			religion = judaism
+			monarchy_military_reforms = recruit_from_nobles
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 718
+
+			own_control_core =  {
+				718 721 675 733 722 720 714 715 716 713
 			}
 		}
 
