@@ -136,7 +136,7 @@ country = {
 		RET = {
 			government = nomarchy
 			diplomatic_stance=appeasement_stance
-			primary_culture = retenuan
+			primary_culture = hyksos
 			religion = egyptian_pantheon
 			capital = 659
 			succession_law=egyption_succession_law
@@ -563,7 +563,7 @@ country = {
 		AMN = {
 			government = nomarchy
 			diplomatic_stance=appeasement_stance
-			primary_culture = avarite_egyptian
+			primary_culture = retenuan
 			religion = egyptian_pantheon
 			capital = 509 #Per-Amun
 			succession_law=egyption_succession_law
@@ -793,7 +793,7 @@ country = {
 		ASK = {
 			government = nomarchy
 			diplomatic_stance=appeasement_stance
-			primary_culture = retenuan
+			primary_culture = hyksos
 			religion = aten_religion
 			capital = 660 #Ascalon
 			succession_law=egyption_succession_law
@@ -1380,7 +1380,7 @@ country = {
 				738 750 751 752 753 757 758 759 760 763 764 765 #syria_coele_region
 				772 761 762 770 774 776 777 778 781 782 799 816 #apamene_region
 				754 755 756 775 800 801 802 803 804 806 815 850 #palmyra_region
-				673 675 718 721 722 723 732 733 734 735 736 737 739 #decapolis_region
+				673 675 718 721 722 733 734 735 736 737 #decapolis_region
 				648 669 672 674 666 668 677 #galilee_region
 				817 818 819 820 844 848 849 854 853 879 #osroene_region
 				334 333 6431 #Cyprus
@@ -1425,7 +1425,7 @@ country = {
 			capital = 743
 
 			own_control_core = {
-				743
+				743 744 745
 			}
 		}
 		LTS = {
@@ -1497,7 +1497,7 @@ country = {
 			capital = 670
 
 			own_control_core = {
-				670
+				670 666
 			}
 		}
 		DOR = {
@@ -1515,7 +1515,7 @@ country = {
 			capital = 667
 
 			own_control_core = {
-				667
+				667 668
 			}
 		}
 		KIT = {
@@ -1779,6 +1779,28 @@ country = {
 
 			own_control_core =  {
 				718 721 675 733 722 720 714 715 716 713
+			}
+		}
+		QAY = {
+			government = despotic_monarchy
+			primary_culture = qedarite
+			religion = arabian_pantheon
+
+			capital = 732
+
+			own_control_core = 	{
+				739 723 648 674 648 733 722 737 735 734 732 736
+			}
+		}
+		GAL = {
+			government = plutocratic_monarchy
+			primary_culture = hebrew
+			religion = judaism
+
+			capital = 672
+
+			own_control_core = 	{
+				669 672 677 673 674 623 648
 			}
 		}
 
