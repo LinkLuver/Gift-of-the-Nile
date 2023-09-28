@@ -61,6 +61,7 @@ HIT = "setup/countries/anatolia/hittite.txt"
 PHR = "setup/countries/anatolia/phrygian kingdom.txt"
 AR2 = "setup/countries/anatolia/upper armenia.txt"
 SPH = "setup/countries/anatolia/sophene.txt"
+CYP = "setup/countries/anatolia/paphos.txt"
 
 # Levant
 TR1 = "setup/countries/levant/tyros.txt"
@@ -89,6 +90,7 @@ GAL = "setup/countries/levant/galilee.txt"
 PAL = "setup/countries/levant/palmyra.txt"
 HAM = "setup/countries/levant/hamath.txt"
 LHT = "setup/countries/levant/luash.txt"
+HT2 = "setup/countries/levant/samal.txt"
 
 ### Vanilla
 

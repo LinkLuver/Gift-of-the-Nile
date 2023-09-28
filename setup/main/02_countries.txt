@@ -1327,8 +1327,41 @@ country = {
 			}
 		}
 
-		HIT = {
+		CYP = {
+			government = plutocratic_republic
+			primary_culture = cypriot
+			religion = roman_pantheon
+			diplomatic_stance = trading_stance
+			capital = 334
+
+			own_control_core = 	{
+				334 333 6431 7990 #Cyprus
+			}
+		}
+
+		COM = {
 			government = despotic_monarchy
+			primary_culture = syriac
+			religion = mithra_religion
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 836
+
+			own_control_core = 	{
+				836 838 839 1862 1863 1864 #commagene_region
+				1860 6397 837 1895 840 1847
+			}
+
+		}
+
+		HIT = {
+			government = oligarchic_republic
 			primary_culture = hittite
 			religion = anatolian_religion
 
@@ -1345,15 +1378,36 @@ country = {
 				1882 1889 #cilicia_trachea_region
 				795 796 1874 1875 1879 1880 1881 #cilicia_pedias_region
 				1969 7934 1873 1877 1878
-				792 794 805 808 811 812 852 #syria_cyrrestice_region
+				792 794 805 811 812 852 1871 #syria_cyrrestice_region
+				1867 1868
 			}
 		}
 
 		#Levant
+		HT2 = {
+			government = despotic_monarchy
+			primary_culture = hittite
+			religion = anatolian_religion
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 1872
+
+			own_control_core = 	{
+				792 794 805 808 811 812 852 1871 #syria_cyrrestice_region
+				1867 1868
+			}
+		}
+
 		LHT = {
 			government = despotic_monarchy
 			primary_culture = syriac
-			religion = anatolian_religion
+			religion = carthaginian_pantheon
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -1365,11 +1419,11 @@ country = {
 			capital = 798
 
 			own_control_core = 	{
-				787 791 793 797 798 813 814 847 851 #syria_region
+				787 791 793 797 798 813 814 847 851 7985 #syria_region
 			}
 		}
 
-		PRY = { # Damskos
+		PRY = { # Darmeshq
 			government = aristocratic_monarchy
 			primary_culture = aramaic
 			religion = carthaginian_pantheon
@@ -1392,9 +1446,6 @@ country = {
 				740 741 742 744 745 749 #north_phoenicia
 				738 750 751 752 753 757 758 759 760 763 764 765 #syria_coele_region
 				673 675 718 721 722 733 734 735 736 737 #decapolis_region
-				648 669 672 674 666 668 677 #galilee_region
-				334 333 6431 #Cyprus
-				1847 1871 7985 7990 840 8011
 			}
 
 			pantheon = {
@@ -1408,7 +1459,7 @@ country = {
 		HAM = {
 			government = aristocratic_monarchy
 			primary_culture = aramaic
-			religion = hurrian_pantheon
+			religion = carthaginian_pantheon
 
 			capital = 777
 
@@ -1420,7 +1471,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				772 761 762 770 774 776 777 778 781 782 799 816 #apamene_region
+				772 761 762 770 774 776 777 778 781 782 799 816 8011 #apamene_region
 			}
 		}
 
@@ -1440,7 +1491,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				807 809 810 1869 847 805
+				807 809 810 1869 847 805 808
 				817 818 819 820 844 848 849 854 853 879 #osroene_region
 			}
 
@@ -1528,7 +1579,7 @@ country = {
 		UGR = {
 			government = despotic_monarchy
 			primary_culture = syrion
-			religion = carthaginian_pantheon
+			religion = hurrian_pantheon
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -1861,7 +1912,7 @@ country = {
 			capital = 672
 
 			own_control_core = 	{
-				669 672 677 673 674 623 648
+				669 672 677 673 674 648
 			}
 		}
 
@@ -8329,29 +8380,6 @@ country = {
 			own_control_core = 	{
 				4615 4714 4716 4616 4622 4609 4607 4605 4604 4715 4713 4611 4720 4617 4619 4603 4606 4608 4610 4621 4618 4719 4620 4625
 			}
-		}
-
-
-		#Syria
-		COM = { #Commagene, Satrapy under Antigonids, later Seleukids.
-			government = despotic_monarchy
-			primary_culture = aramaic
-			religion = zoroaster
-
-			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
-			}
-
-			capital = 836
-
-			own_control_core = 	{
-				836 838 839 1862 1863 1864 1867 1868 #commagene_region
-				1860 6397 837 1895
-			}
-
 		}
 
 		#Mesopotamia

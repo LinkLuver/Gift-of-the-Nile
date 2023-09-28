@@ -38,8 +38,8 @@
 
 817={ #Batnai
 	terrain="plains"
-	culture="aramaic"
-	religion="carthaginian_pantheon"
+	culture="syriac"
+	religion="hurrian_pantheon"
 	trade_goods="honey"
 	civilization_value=31
 	barbarian_power=0
@@ -57,8 +57,8 @@
 
 818={ #Adma
 	terrain="plains"
-	culture="aramaic"
-	religion="carthaginian_pantheon"
+	culture="syriac"
+	religion="hurrian_pantheon"
 	trade_goods="glass"
 	civilization_value=31
 	barbarian_power=0
@@ -114,8 +114,8 @@
 
 819={ #Karrhai
 	terrain="plains"
-	culture="aramaic"
-	religion="carthaginian_pantheon"
+	culture="syriac"
+	religion="hurrian_pantheon"
 	trade_goods="grain"
 	civilization_value=26
 	barbarian_power=0
@@ -139,8 +139,8 @@
 
 820={ #Kommisimbela
 	terrain="hills"
-	culture="aramaic"
-	religion="carthaginian_pantheon"
+	culture="syriac"
+	religion="hurrian_pantheon"
 	trade_goods="cattle"
 	civilization_value=24
 	barbarian_power=0
@@ -193,7 +193,7 @@
 		amount=2
 	}
 	tribesmen={
-		culture="aramaic"
+		culture="syriac"
 		religion="carthaginian_pantheon"
 		amount=1
 	}
@@ -362,7 +362,7 @@
 
 836={ #Semsath
 	terrain="plains"
-	culture="aramaic"
+	culture="syriac"
 	religion="mithra_religion"
 	trade_goods="grain"
 	civilization_value=20
@@ -381,7 +381,7 @@
 		amount=1
 	}
 	citizen={
-		culture="aramaic"
+		culture="syriac"
 		religion="carthaginian_pantheon"
 		amount=2
 	}
@@ -407,8 +407,8 @@
 
 837={ #Tarsa
 	terrain="plains"
-	culture="aramaic"
-	religion="carthaginian_pantheon"
+	culture="syriac"
+	religion="hurrian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=20
 	barbarian_power=0
@@ -470,12 +470,12 @@
 		amount=1
 	}
 	slaves={
-		culture="aramaic"
+		culture="syriac"
 		religion="arabian_pantheon"
 		amount=1
 	}
 	slaves={
-		culture="aramaic"
+		culture="syriac"
 		religion="carthaginian_pantheon"
 		amount=1
 	}
@@ -486,7 +486,7 @@
 
 839={ #Nymphaios
 	terrain="hills"
-	culture="aramaic"
+	culture="syriac"
 	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=18
@@ -541,7 +541,7 @@
 		amount=1
 	}
 	slaves={
-		culture="aramaic"
+		culture="syriac"
 		religion="carthaginian_pantheon"
 		amount=1
 	}
@@ -645,8 +645,8 @@
 
 844={ #Antiocheia Mesopotamias
 	terrain="plains"
-	culture="aramaic"
-	religion="carthaginian_pantheon"
+	culture="syriac"
+	religion="hurrian_pantheon"
 	trade_goods="earthware"
 	civilization_value=31
 	barbarian_power=0
@@ -695,8 +695,8 @@
 
 848={ #Alagma
 	terrain="desert"
-	culture="aramaic"
-	religion="carthaginian_pantheon"
+	culture="syriac"
+	religion="hurrian_pantheon"
 	trade_goods="horses"
 	civilization_value=23
 	barbarian_power=0
@@ -711,8 +711,8 @@
 
 849={ #Ballatha
 	terrain="plains"
-	culture="aramaic"
-	religion="carthaginian_pantheon"
+	culture="syriac"
+	religion="hurrian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=26
 	barbarian_power=0
@@ -737,7 +737,7 @@
 		amount=3
 	}
 	slaves={
-		culture="aramaic"
+		culture="syriac"
 		religion="carthaginian_pantheon"
 		amount=2
 	}
@@ -745,7 +745,7 @@
 
 854={ #Ganaba
 	terrain="plains"
-	culture="aramaic"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="wild_game"
 	civilization_value=26
@@ -1291,7 +1291,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		culture="aramaic"
+		culture="syriac"
 		religion="carthaginian_pantheon"
 		amount=1
 	}
@@ -1325,8 +1325,8 @@
 
 879={ #Barbare
 	terrain="plains"
-	culture="aramaic"
-	religion="carthaginian_pantheon"
+	culture="syriac"
+	religion="hurrian_pantheon"
 	trade_goods="grain"
 	civilization_value=26
 	barbarian_power=0
@@ -1617,8 +1617,8 @@
 
 1847={ #Bithias
 	terrain="plains"
-	culture="aramaic"
-	religion="carthaginian_pantheon"
+	culture="syriac"
+	religion="hurrian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=26
 	barbarian_power=0
@@ -1776,7 +1776,7 @@
 
 1864={ #Nisos
 	terrain="plains"
-	culture="aramaic"
+	culture="syriac"
 	religion="anahitic_religion"
 	trade_goods="earthware"
 	civilization_value=20
@@ -1812,7 +1812,7 @@
 		amount=4
 	}
 	citizen={
-		culture="aramaic"
+		culture="syriac"
 		religion="roman_pantheon"
 		amount=3
 	}
@@ -1825,7 +1825,7 @@
 		amount=1
 	}
 	freemen={
-		culture="aramaic"
+		culture="syriac"
 		religion="roman_pantheon"
 		amount=4
 	}
@@ -1834,7 +1834,7 @@
 		religion="anatolian_religion"
 	}
 	slaves={
-		culture="aramaic"
+		culture="syriac"
 		religion="carthaginian_pantheon"
 		amount=2
 	}
@@ -1850,8 +1850,8 @@
 
 1868={ #Tyba
 	terrain="hills"
-	culture="aramaic"
-	religion="carthaginian_pantheon"
+	culture="syriac"
+	religion="hurrian_pantheon"
 	trade_goods="wood"
 	civilization_value=18
 	barbarian_power=0
@@ -1897,7 +1897,7 @@
 		amount=1
 	}
 	freemen={
-		culture="aramaic"
+		culture="syriac"
 		amount=1
 	}
 	slaves={
