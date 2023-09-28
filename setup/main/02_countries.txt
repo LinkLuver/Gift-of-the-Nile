@@ -152,7 +152,7 @@ country = {
 			}
 
 			own_control_core = {
-				657 658 659 694 695 696 697
+				657 658 659 694 695 696 697 698
 			}
 		}
 
@@ -602,7 +602,7 @@ country = {
 			}
 
 			own_control_core = {
-				1600 1604 506 505 1675 1693 1682 1684 1709 1710 580
+				1600 1604 506 505 1675 1693 1682 1684 1709 1710 580 1688 1708
 			}
 		}
 
@@ -1645,6 +1645,120 @@ country = {
 
 			own_control_core = 	{
 				766
+			}
+		}
+
+		NBT = {
+			government = despotic_monarchy
+			primary_culture = nabatean
+			religion = arabian_pantheon
+
+			capital = 729
+
+			own_control_core = 	{
+				727 4600 724 725 726 4602 4613 4612 4601
+			}
+		}
+
+		JUD	= { #Judean Subject State, at the start loyal to the Antigonids. Would later be a Ptolemaic subject.
+			family = 60
+			government = theocratic_monarchy
+			primary_culture = hebrew
+			religion = judaism
+			monarchy_military_reforms = recruit_from_nobles
+
+			capital = 687
+
+			pantheon = {
+
+				{ deity = 907 }
+				{ deity = 902 }
+				{ deity = 905 }
+				{ deity = 909 }
+
+			}
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = 	{
+				687 688 689 691 692 711 713 715 #judea_region
+				710 714 716 717 720 700 698
+			}
+		}
+
+		MOA = {
+			government = theocratic_monarchy
+			primary_culture = hebrew
+			religion = judaism
+			monarchy_military_reforms = recruit_from_nobles
+
+			capital = 681
+
+			pantheon = {
+
+				{ deity = 907 }
+				{ deity = 902 }
+				{ deity = 905 }
+				{ deity = 909 }
+
+			}
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = 	{
+				681 731 712
+			}
+		} 
+
+		SMA	= { #Samarian Subject State, at the start loyal to the Antigonids. Would later be a Ptolemaic subject.
+			family = 58
+			government = nomarchy
+			primary_culture = hebrew
+			religion = judaism
+			monarchy_military_reforms = recruit_from_nobles
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 680
+
+			own_control_core = 	{
+				671 676 678 679 680 682 719 663 664 665
+				683 684 685 686
+			}
+		}
+
+		EDO = {
+			government = aristocratic_monarchy
+			primary_culture = hebrew
+			religion = judaism
+			monarchy_military_reforms = recruit_from_nobles
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 729
+
+			own_control_core =  {
+				729 700 702 699 709 708 730 703 707 728 706 705 704 699 709
 			}
 		}
 
@@ -8095,18 +8209,6 @@ country = {
 			}
 		}
 
-		NBT = {
-			government = despotic_monarchy
-			primary_culture = nabatean
-			religion = arabian_pantheon
-
-			capital = 729
-
-			own_control_core = 	{
-				729 700 698 702 699 709 708 730 703 707 728 706 705 704 727 4600 724 725 726 4602 4613 4612 4601 1688 1708
-			}
-		}
-
 		LHY = {
 			government = despotic_monarchy
 			primary_culture = qedarite
@@ -8128,57 +8230,6 @@ country = {
 
 
 		#Syria
-		JUD	= { #Judean Subject State, at the start loyal to the Antigonids. Would later be a Ptolemaic subject.
-			family = 60
-			government = theocratic_monarchy
-			primary_culture = hebrew
-			religion = judaism
-			monarchy_military_reforms = recruit_from_nobles
-
-			capital = 687
-
-			pantheon = {
-
-				{ deity = 907 }
-				{ deity = 902 }
-				{ deity = 905 }
-				{ deity = 909 }
-
-			}
-
-			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
-			}
-
-			own_control_core = 	{
-				683 684 685 686 687 688 689 691 692 711 713 715 #judea_region
-				681 710 712 714 716 717 720 731
-			}
-		}
-		SMA	= { #Samarian Subject State, at the start loyal to the Antigonids. Would later be a Ptolemaic subject.
-			family = 58
-			government = theocratic_monarchy
-			primary_culture = hebrew
-			religion = judaism
-			monarchy_military_reforms = recruit_from_nobles
-
-			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
-			}
-
-			capital = 680
-
-			own_control_core = 	{
-				671 676 678 679 680 682 719 663 664 665
-			}
-		}
-
 		COM = { #Commagene, Satrapy under Antigonids, later Seleukids.
 			government = despotic_monarchy
 			primary_culture = aramaic
@@ -11390,12 +11441,12 @@ country = {
 		MYD = { # Mariandynia
 			government = tribal_chiefdom
 			primary_culture = mariandynian
-			religion = roman_pantheon
+			religion = anatolian_religion
 
 			capital = 219
 
 			own_control_core = {
-				219 233 237 326 215 214
+				219 233 237 326 215 214 210 212 213
 			}
 		}
 
@@ -11446,18 +11497,6 @@ country = {
 
 			own_control_core = {
 				1901 1897 1904
-			}
-		}
-
-		KAK = { # Kaukonia
-			government = tribal_chiefdom
-			primary_culture = mariandynian
-			religion = roman_pantheon
-
-			capital = 210
-
-			own_control_core = {
-				210 212 213
 			}
 		}
 

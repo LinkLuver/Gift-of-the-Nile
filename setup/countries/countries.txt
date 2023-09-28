@@ -73,6 +73,17 @@ SAL = "setup/countries/levant/salamis.txt"
 KIT = "setup/countries/levant/kition.txt"
 LTS = "setup/countries/levant/lapetos.txt"
 BEI = "setup/countries/levant/beirut.txt"
+COM = "setup/countries/syria/commagene.txt"
+JUD = "setup/countries/syria/judea.txt"
+SMA = "setup/countries/syria/samaria.txt"
+BYB = "setup/countries/syria/byblos.txt"
+ARA = "setup/countries/syria/arados.txt"
+SID = "setup/countries/syria/sidon.txt"
+BMB = "setup/countries/syria/bambyce.txt"
+ISR = "setup/countries/syria/israel.txt"
+MOA = "setup/countries/levant/moab.txt"
+AMM = "setup/countries/levant/ammon.txt"
+EDO = "setup/countries/levant/edom.txt"
 
 ### Vanilla
 
@@ -194,16 +205,6 @@ ALB = "setup/countries/caucasiamesopotamia/albania.txt"
 TRZ = "setup/countries/caucasiamesopotamia/trapezous.txt"
 BAC = "setup/countries/bactria/bactria.txt"
 PAR = "setup/countries/caucasiamesopotamia/parthia.txt"
-
-#Syria
-COM = "setup/countries/syria/commagene.txt"
-JUD = "setup/countries/syria/judea.txt"
-SMA = "setup/countries/syria/samaria.txt"
-BYB = "setup/countries/syria/byblos.txt"
-ARA = "setup/countries/syria/arados.txt"
-SID = "setup/countries/syria/sidon.txt"
-BMB = "setup/countries/syria/bambyce.txt"
-ISR = "setup/countries/syria/israel.txt"
 
 ####SULLA####
 
@@ -747,7 +748,7 @@ OEO = "setup/countries/anatolia/oenoandia.txt"
 KIB = "setup/countries/anatolia/kibyratia.txt"
 OML = "setup/countries/anatolia/ormelia.txt"
 TYM = "setup/countries/anatolia/tymandia.txt"
-KAK = "setup/countries/anatolia/kaukonia.txt"
+#KAK = "setup/countries/anatolia/kaukonia.txt"
 OBE = "setup/countries/anatolia/olbe.txt"
 
 #Barbaricum

@@ -20,9 +20,21 @@ diplomacy = {
 
 	#Lydian Kingdom
 	dependency = { first = LYD second = PHR subject_type = satrapy }
+	dependency = { first = LYD second = PAP subject_type = satrapy }
 	dependency = { first = LYD second = IOA subject_type = subject_league_city_state }
 	dependency = { first = LYD second = ION subject_type = subject_league_city_state }
 	dependency = { first = LYD second = MLO subject_type = subject_league_city_state }
+	dependency = { first = LYD second = MYD subject_type = tributary }
+	dependency = { first = LYD second = BIT subject_type = tributary }
+
+	#Hellespontine League
+	defensive_league = {
+		member = BYZ
+		member = KZK
+		member = KIO
+		member = AST
+		member = CDD
+	}
 
 	### VANILLA DIPLOMACY ###
 
@@ -193,7 +205,7 @@ diplomacy = {
 
 	#Antigonids
 	#guarantee = { first = PRY second = BOE } #Boetia, switch sides to Antigonus in 304. (REMOVED BY INVICTUS)
-	guarantee = { first = PRY second = AET } #Aetolia, switch sides to Antigonus in 304.
+	#guarantee = { first = PRY second = AET } #Aetolia, switch sides to Antigonus in 304.
 	#Nominal Vassals that should stay as Tributaries:
 	#dependency = { first = PRY second = COM subject_type = tributary } #Commagene
 	#dependency = { first = PRY second = BMB subject_type = tributary } #Bambyce, theocratic vassal in northern Syria
@@ -222,7 +234,7 @@ diplomacy = {
 	dependency = { first = MRY second = PLD subject_type = tributary } #Paladas
 	dependency = { first = MRY second = YDD subject_type = feudatory } #Yadheuya
 	dependency = { first = MRY second = PRA subject_type = tributary } #Pauravas
-	dependency = { first = PRY second = EUB subject_type = feudatory } #Freed by Demetrios in 304
+	#dependency = { first = PRY second = EUB subject_type = feudatory } #Freed by Demetrios in 304
 
 	#Opuntians
 	dependency = { first = MAC second = OPU subject_type = feudatory } #Opus
@@ -231,8 +243,8 @@ diplomacy = {
 	dependency = { first = BOE second = TAN subject_type = feudatory } #Tanagra
 
 	# More Antigonid
-	dependency = { first = PRY second = BIT subject_type = tributary } #Bithynia
-	dependency = { first = PRY second = CDD subject_type = tributary } #Chalcedon
+	#dependency = { first = PRY second = BIT subject_type = tributary } #Bithynia
+	#dependency = { first = PRY second = CDD subject_type = tributary } #Chalcedon
 
 	#Issa and co
 	defensive_league = {
@@ -250,10 +262,10 @@ diplomacy = {
 	guarantee = { first = TLN second = APO } #
 
 	# Marius Anatolians
-	dependency = { first = PRY second = LYC subject_type = tributary } # Lycia
-	dependency = { first = PRY second = OBE subject_type = tributary } # Olbe
-	dependency = { first = PRY second = MLO subject_type = tributary } # Miletos
-	dependency = { first = PRY second = HKS subject_type = tributary } # Halikarnassos
+	#dependency = { first = PRY second = LYC subject_type = tributary } # Lycia
+	#dependency = { first = PRY second = OBE subject_type = tributary } # Olbe
+	#dependency = { first = PRY second = MLO subject_type = tributary } # Miletos
+	#dependency = { first = PRY second = HKS subject_type = tributary } # Halikarnassos
 
 	#Nasamones
 	dependency = { first = NAS second = PSY subject_type = tributary } #Psylli
@@ -293,37 +305,37 @@ diplomacy = {
 	dependency = { first = X01 second = X24 subject_type = tributary }
 	dependency = { first = CRS second = FOS subject_type = tributary }
 
-	MAC = {
-		EGY = {
-			trade_access=yes
-		}
-	}
-	EGY = {
-		MAC = {
-			trade_access=yes
-		}
-	}
-	RHO = {
-		MAC = {
-			trade_access=yes
-		}
-	}
-
-	MAC = {
-		RHO = {
-			trade_access=yes
-		}
-	}
-	KOS = {
-		PRY = {
-			trade_access=yes
-		}
-	}
-	PRY = {
-		KOS = {
-			trade_access=yes
-		}
-	}
+	#MAC = {
+	#	EGY = {
+	#		trade_access=yes
+	#	}
+	#}
+	#EGY = {
+	#	MAC = {
+	#		trade_access=yes
+	#	}
+	#}
+	#RHO = {
+	#	MAC = {
+	#		trade_access=yes
+	#	}
+	#}
+#
+	#MAC = {
+	#	RHO = {
+	#		trade_access=yes
+	#	}
+	#}
+	#KOS = {
+	#	PRY = {
+	#		trade_access=yes
+	#	}
+	#}
+	#PRY = {
+	#	KOS = {
+	#		trade_access=yes
+	#	}
+	#}
 	SYR = {
 		ROM = {
 			trade_access=yes
@@ -334,16 +346,16 @@ diplomacy = {
 			trade_access=yes
 		}
 	}
-	SYR = {
-		PRY = {
-			trade_access=yes
-		}
-	}
-	PRY = {
-		SYR = {
-			trade_access=yes
-		}
-	}
+	#SYR = {
+	#	PRY = {
+	#		trade_access=yes
+	#	}
+	#}
+	#PRY = {
+	#	SYR = {
+	#		trade_access=yes
+	#	}
+	#}
 	SYR = {
 		CAR = {
 			trade_access=yes
@@ -354,19 +366,19 @@ diplomacy = {
 			trade_access=yes
 		}
 	}
-	PON = {
-		CAR = {
-			trade_access=yes
-		}
-	}
-	CAR = {
-		PON = {
-			trade_access=yes
-		}
-	}
-	GRT = {
-		PRY = {
-			trade_access=yes
-		}
-	}
+	#PON = {
+	#	CAR = {
+	#		trade_access=yes
+	#	}
+	#}
+	#CAR = {
+	#	PON = {
+	#		trade_access=yes
+	#	}
+	#}
+	#GRT = {
+	#	PRY = {
+	#		trade_access=yes
+	#	}
+	#}
 }
