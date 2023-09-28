@@ -1,12 +1,21 @@
 ﻿l_english:
  #ONLY for heritages with a specific tag(list) as trigger
- #GOTN
+###GOTN
+ #EGYPT
  ptolemys_heritage:0 "Heritage of the 29th Dynasty"
  ptolemys_heritage_desc:0 "The #E Dynasty of Waset#! remains a bulwark of #E Kemetic#! faith for the #E Egyptian#! people. It was able to assert claim and influence over the old possessions of the #E 27th Dynasty#! in Nubian lands. However, the #E Nubians#! just up the Nile are none too keen of the upstart #E Wasetans#!. #E The 27th Dynasty#! also retains influence over the Nomes east of the Nile, putting serious strain on the #E Wasetic#! influence over the east. Reuniting #E Upper Egypt#! under their banner would surely legitimize their proper rule over #E Egypt#!."
+ Dodekaschoinos_heritage:0 "Heritage of Kerma"
+ Dodekaschoinos_heritage_desc:0 "todo"
+ kushite_heritage:0 "Heritage of Meroe"
+ kushite_heritage_desc:0 "todo\n\nWhile the Upper Nile has been our home for generations the Kushite people were once the masters of Egypt, and even Judea. With the lower Nile in Greek hands we remain the custodians of the native Egyptian legacy as well the traditions of our own."
+ napata_heritage:0 "Heritage of Napata"
+ napata_heritage_desc:0 "todo"
+
  seleucus_heritage:0 "Heritage of Babylon"
  seleucus_heritage_desc:0 "Todo"
  atropatenian_heritage:0 "Median Heritage"
  atropatenian_heritage_desc:0 "As one of the few Persian lords to survive in power after both the conquest of Alexander the Great and the successor wars that followed, Atropatene is in many ways the last guardian of the now lost Achaemenid Empire."
+
  #Vanilla
  roman_heritage:0 "Roman Heritage"
  roman_heritage_desc:0 "Born where the Greek south meets the Etruscan north, Rome has quickly risen to be the dominant force of central Italy and the leader of the a league of allies that stand ready to do their every bidding. Rome's unfailing capacity to mobilize its population and acquire the loyalty of the city states under its protection has over time grown into a strong imperialistic heritage."
@@ -56,8 +65,6 @@
  massalian_heritage_desc:0 "Massilia was the leading colony of the Ionian city of Phocaea, whose people abandoned their homes rather than submit to Persian rule. The refugees settled here and in their other colonies, turning the isolated port into one of the foremost trading powers and colonizers in the west, all the while defending their strongholds from the barbarians that surround them."
  minoan_heritage:0 "Minoan Heritage"
  minoan_heritage_desc:0 "The Minoans were the masters of Crete, once the overlords of all the Greeks. After the devastating volcanic eruption of Thera, the civilization fell into obscurity."
- kushite_heritage:0 "Kushite Heritage"
- kushite_heritage_desc:0 "While the Upper Nile has been our home for generations the Kushite people were once the masters of Egypt, and even Judea. With the lower Nile in Greek hands we remain the custodians of the native Egyptian legacy as well the traditions of our own."
  kalingan_heritage:0 "Kalingan Heritage"
  kalingan_heritage_desc:0 "In a distant past it is said that the Kalingas were brothers with neighboring tribes, and to this day we have maintained closer relations than most with the tribes of the jungles that surround our coastal kingdom. Perhaps this is why we still cherish many of our own tribal traditions ourselves. With the oppressive Nanda rule in this region gone we are the natural leaders of our region, though our riches can easily attract unwanted attention from other states on the rise."
  nabatean_heritage:0 "Nabatean Heritage"
@@ -420,9 +427,6 @@
  aggadir_heritage_desc:0 "Settled in the Archaic era like many of the early Phoenician trading ports in North Africa, Aggadir (alternatively known equally as Gadir and Agadir) may seem to some to have been at the edge of the world - the known world that is. Neighboring the Lixitae tribe who gave Hanno the Navigator his translator, the port of Aggadir was responsible for receiving and sending traders further down the mysterious African coast, waiting for the natives to lay goods along the beaches and trade these for a bargain price. Their profits would sail north, past Arambys and into the wealthy Circle of Gadir, crossing the twin pillars of Melqart before dispersing into the greater Mediterranean. The most confusing and unknown things could come up into this port-colony. Everything was foreign - everything was interesting. It filled the dreams of explorers."
 
 ## East African Heritages
- ###Dodekaschoinos
- Dodekaschoinos_heritage:0 "Heritage of Religious Peace"
- Dodekaschoinos_heritage_desc:0 "A frontier state created between the Ptolemies and Kushites which acted as a cultural and political buffer between a Greek Egypt and the Nubian (Meroe) sphere, the Dodekaschoinos, or the 12 cities, was meant to help integrate and regulate relations with the upper Egyptian and Nubian populations which did not appreciate the existence of foreign interference. The ancient temples built in the area, especially the one at Philae, dedicated to Isis, were the main focus for the garrison regent’s activities and, upon its conquest, several of the Ptolemies began a tradition of giving all the income of the 12 cities to the temples of both Egyptian and Nubian gods such as that of Mandulis. When the people were pacified, their societal needs met by the appeasement of their gods, this buffer state allowed for continuous long-distance trade along the Nile with the Nubian world, which would result in many exotic goods and war elephants find their way up through the 12 cities and into Ptolemaic Egypt itself where they would assist in the war efforts against the other Diadochi."
  ###Blemmia
  Blemmian_heritage:0 "Blemmian Heritage"
  Blemmian_heritage_desc:0 "It is known from writings that the Blemmyes existed at least as early as the Nubian king Anlamani in the 7th century BCE, but they are likely far older, having been continuous inhabitants of the desert-laden region east of the Nile and on the coast of the Red Sea. Influenced by a mixture of Egyptian and Meroitic cultures, the Blemmyes, at a time, worshiped well-known gods like Isis at Philae as well as southern divinities like Mandulis at Kalabsha. While outsiders have often referred to the Blemmyes as nomadic raiders, they controlled wealthy gold mines and mineral-rich regions and built many well-fortified and prosperous cities which may have housed a royal king or two."
