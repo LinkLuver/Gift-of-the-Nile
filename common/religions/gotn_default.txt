@@ -59,12 +59,21 @@ zorvan_religion = { # Zurvanism
 	color = { 20 10 250 }
 	religion_category = firetemples
 }
-elamite_pantheon = { # Elamite
+elamite_pantheon = { # Haltamic
 	color = rgb { 190 35 30 }
 	modifier = {
 		global_monthly_civilization = 0.03
 		build_time = -0.05
 		agressive_expansion_impact = 0.05
+	}
+	religion_category = pantheon
+}
+hurrian_pantheon = { # Teshubic
+	color = rgb { 36 36 36 }
+	modifier = {
+		global_monthly_food_modifier = 0.1
+		global_freemen_desired_pop_ratio = 0.1
+		general_loyalty = -5
 	}
 	religion_category = pantheon
 }

@@ -1197,27 +1197,6 @@ country = {
 			}
 		}
 
-		HIT = {
-			government = despotic_monarchy
-			primary_culture = hittite
-			religion = anatolian_religion
-
-			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
-			}
-
-			capital = 1872
-
-			own_control_core = 	{
-				1882 1889 #cilicia_trachea_region
-				795 796 1874 1875 1879 1880 1881 #cilicia_pedias_region
-				1969 7934 1873 1877 1878
-			}
-		}
-
 		ISU = { # Isauria
 			government = tribal_kingdom
 			primary_culture = isaurian
@@ -1335,66 +1314,6 @@ country = {
 			}
 		}
 
-		PRY = { #The Antigonid Domain
-			currency_data = {
-				aggressive_expansion=10.000
-			}
-			government = aristocratic_monarchy
-			diplomatic_stance=appeasement_stance
-			primary_culture = macedonian
-			religion = roman_pantheon
-			monarchy_military_reforms = work_for_the_best
-			#monarchy_religious_laws = encourage_cults_monarchy
-			#monarchy_legitimacy_laws = reminting_policy
-
-			poptype_rights = {
-				{
-					culture = aramaic
-					type = citizen
-				}
-				{
-					culture = cilician
-					type = citizen
-				}
-				{
-					culture = phrygian
-					type = citizen
-				}
-			}
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			capital = 334 #Antigonia
-
-			treasures = { 193 95 }
-
-			own_control_core = 	{
-				792 794 805 808 811 812 852 #syria_cyrrestice_region
-				787 791 793 797 798 813 814 847 851 #syria_region
-				740 741 742 744 745 749 #north_phoenicia
-				738 750 751 752 753 757 758 759 760 763 764 765 #syria_coele_region
-				772 761 762 770 774 776 777 778 781 782 799 816 #apamene_region
-				754 755 756 775 800 801 802 803 804 806 815 850 #palmyra_region
-				673 675 718 721 722 733 734 735 736 737 #decapolis_region
-				648 669 672 674 666 668 677 #galilee_region
-				817 818 819 820 844 848 849 854 853 879 #osroene_region
-				334 333 6431 #Cyprus
-				1847 1871 7985 7990 840 8011
-			}
-
-			pantheon = {
-				{ deity = 110 }
-				{ deity = 353 }
-				{ deity = 102 }
-				{ deity = 104 }
-			}
-		}
-
 		KTN = {
 			government = tribal_federation
 			primary_culture = pamphylian
@@ -1408,7 +1327,149 @@ country = {
 			}
 		}
 
+		HIT = {
+			government = despotic_monarchy
+			primary_culture = hittite
+			religion = anatolian_religion
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 1872
+
+			own_control_core = 	{
+				1882 1889 #cilicia_trachea_region
+				795 796 1874 1875 1879 1880 1881 #cilicia_pedias_region
+				1969 7934 1873 1877 1878
+				792 794 805 808 811 812 852 #syria_cyrrestice_region
+			}
+		}
+
 		#Levant
+		LHT = {
+			government = despotic_monarchy
+			primary_culture = syriac
+			religion = anatolian_religion
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 798
+
+			own_control_core = 	{
+				787 791 793 797 798 813 814 847 851 #syria_region
+			}
+		}
+
+		PRY = { # Damskos
+			government = aristocratic_monarchy
+			primary_culture = aramaic
+			religion = carthaginian_pantheon
+			monarchy_military_reforms = work_for_the_best
+			#monarchy_religious_laws = encourage_cults_monarchy
+			#monarchy_legitimacy_laws = reminting_policy
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 750 #Antigonia
+
+			treasures = { 193 95 }
+
+			own_control_core = 	{
+				740 741 742 744 745 749 #north_phoenicia
+				738 750 751 752 753 757 758 759 760 763 764 765 #syria_coele_region
+				673 675 718 721 722 733 734 735 736 737 #decapolis_region
+				648 669 672 674 666 668 677 #galilee_region
+				334 333 6431 #Cyprus
+				1847 1871 7985 7990 840 8011
+			}
+
+			pantheon = {
+				{ deity = 110 }
+				{ deity = 353 }
+				{ deity = 102 }
+				{ deity = 104 }
+			}
+		}
+
+		HAM = {
+			government = aristocratic_monarchy
+			primary_culture = aramaic
+			religion = hurrian_pantheon
+
+			capital = 777
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = 	{
+				772 761 762 770 774 776 777 778 781 782 799 816 #apamene_region
+			}
+		}
+
+		BMB = {
+			family = 59
+			government = theocratic_monarchy
+			primary_culture = syriac
+			religion = hurrian_pantheon
+
+			capital = 807
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = 	{
+				807 809 810 1869 847 805
+				817 818 819 820 844 848 849 854 853 879 #osroene_region
+			}
+
+			pantheon = {
+				{ deity = 404 } # El
+				{ deity = 401 } # Melqart
+				{ deity = 405 } # Baal
+				{ deity = 409 } # Atargatis
+			}
+		}
+
+		PAL = {
+			government = despotic_monarchy
+			primary_culture = aramaic
+			religion = arabian_pantheon
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 754
+
+			own_control_core = {
+				754 755 756 775 800 801 802 803 804 806 815 850 #palmyra_region
+			}
+		}
 
 		TR1 = {
 			government = despotic_monarchy
@@ -8293,32 +8354,6 @@ country = {
 
 		}
 
-		BMB = { #Bambyce, Religious State under Antigonids, later Seleukids.
-			family = 59
-			government = theocratic_monarchy
-			primary_culture = aramaic
-			religion = carthaginian_pantheon
-
-			capital = 807
-
-			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
-			}
-
-			own_control_core = 	{
-				807 809 810 1869
-			}
-
-			pantheon = {
-				{ deity = 404 } # El
-				{ deity = 401 } # Melqart
-				{ deity = 405 } # Baal
-				{ deity = 409 } # Atargatis
-			}
-		}
 		#Mesopotamia
 
 		BAC = { #Seleukid Subject State

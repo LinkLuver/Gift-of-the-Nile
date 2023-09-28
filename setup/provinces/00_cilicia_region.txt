@@ -1,7 +1,7 @@
 ﻿156={ #Myra
 	terrain="hills"
 	culture="lycian"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="wine"
 	civilization_value=29
 	barbarian_power=0
@@ -11,7 +11,7 @@
 	}
 	citizen={
 		culture="pasargadi"
-		religion="zoroaster"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	freemen={
@@ -49,12 +49,12 @@
 	}
 	freemen={
 		culture="lycian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	slaves={
 		culture="lycian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	tribesmen={
@@ -75,7 +75,7 @@
 	}
 	citizen={
 		culture="lycian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	freemen={
@@ -83,7 +83,7 @@
 	}
 	freemen={
 		culture="lycian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -91,7 +91,7 @@
 	}
 	slaves={
 		culture="lycian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	tribesmen={
@@ -102,7 +102,7 @@
 161={ #Limyra
 	terrain="hills"
 	culture="lycian"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="dye"
 	civilization_value=29
 	barbarian_power=0
@@ -130,7 +130,7 @@
 162={ #Olympos
 	terrain="hills"
 	culture="lycian"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="fish"
 	civilization_value=24
 	barbarian_power=0
@@ -157,7 +157,7 @@
 164={ #Phaselis
 	terrain="hills"
 	culture="pamphylian"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -195,7 +195,7 @@
 165={ #Olbia Pamphylias
 	terrain="plains"
 	culture="pamphylian"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="cloth"
 	civilization_value=26
 	barbarian_power=0
@@ -221,7 +221,7 @@
 166={ #Perge
 	terrain="plains"
 	culture="pamphylian"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="cedar"
 	civilization_value=31
 	barbarian_power=0
@@ -272,7 +272,7 @@
 	}
 	freemen={
 		culture="pamphylian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=2
 	}
 	slaves={
@@ -286,7 +286,7 @@
 168={ #Aspendos
 	terrain="plains"
 	culture="pamphylian"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="hemp"
 	civilization_value=29
 	barbarian_power=0
@@ -329,7 +329,7 @@
 	}
 	freemen={
 		culture="pamphylian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -408,7 +408,7 @@
 	province_rank="city"
 	nobles={
 		culture="cypriot"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	nobles={
@@ -471,7 +471,7 @@
 333={ #Soloi Kypriai
 	terrain="hills"
 	culture="cypriot"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
@@ -487,14 +487,14 @@
 334={ #Paphos
 	terrain="hills"
 	culture="cypriot"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="cedar"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="city"
 	nobles={
 		culture="macedonian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	citizen={
@@ -543,7 +543,7 @@
 336={ #Tamassos
 	terrain="hills"
 	culture="cypriot"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
@@ -573,7 +573,7 @@
 	province_rank="settlement"
 	citizen={
 		culture="cypriot"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=2
 	}
 	slaves={
@@ -584,7 +584,7 @@
 795={ #Alexandreia Issos
 	terrain="plains"
 	culture="hittite"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="cedar"
 	civilization_value=36
 	barbarian_power=0
@@ -626,7 +626,7 @@
 796={ #Issos
 	terrain="plains"
 	culture="hittite"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="olive"
 	civilization_value=24
 	barbarian_power=0
@@ -706,7 +706,7 @@
 	}
 	freemen={
 		culture="hittite"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=2
 	}
 	slaves={
@@ -720,7 +720,7 @@
 1874={ #Oiniandos
 	terrain="farmland"
 	culture="hittite"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="grain"
 	civilization_value=28
 	barbarian_power=0
@@ -752,7 +752,7 @@
 1875={ #Hierapolis Kastabala
 	terrain="plains"
 	culture="hittite"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="honey"
 	civilization_value=31
 	barbarian_power=0
@@ -789,7 +789,7 @@
 1877={ #Anazarbos
 	terrain="plains"
 	culture="hittite"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="olive"
 	civilization_value=10
 	barbarian_power=0
@@ -870,7 +870,7 @@
 1879={ #Aigaiai
 	terrain="plains"
 	culture="hittite"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="fish"
 	civilization_value=26
 	barbarian_power=0
@@ -898,7 +898,7 @@
 1880={ #Mopsou Hestia
 	terrain="farmland"
 	culture="hittite"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="wine"
 	civilization_value=33
 	barbarian_power=0
@@ -927,14 +927,14 @@
 1881={ #Mallos
 	terrain="farmland"
 	culture="hittite"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=35
 	barbarian_power=0
 	province_rank="city"
 	nobles={
 		culture="macedonian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	citizen={
@@ -946,7 +946,7 @@
 	}
 	citizen={
 		culture="pasargadi"
-		religion="zoroaster"
+		religion="hurrian_pantheon"
 		amount=2
 	}
 	freemen={
@@ -968,7 +968,7 @@
 	}
 	freemen={
 		culture="pasargadi"
-		religion="zoroaster"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -990,14 +990,14 @@
 1882={ #Adana
 	terrain="plains"
 	culture="hittite"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="olive"
 	civilization_value=33
 	barbarian_power=0
 	province_rank="city"
 	nobles={
 		culture="macedonian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	citizen={
@@ -1009,7 +1009,7 @@
 	}
 	citizen={
 		culture="pasargadi"
-		religion="zoroaster"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	freemen={
@@ -1057,14 +1057,14 @@
 1883={ #Tarsos
 	terrain="plains"
 	culture="cilician"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=31
 	barbarian_power=0
 	province_rank="city"
 	nobles={
 		culture="pasargadi"
-		religion="zoroaster"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	citizen={
@@ -1076,7 +1076,7 @@
 	}
 	citizen={
 		culture="pasargadi"
-		religion="zoroaster"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	freemen={
@@ -1128,7 +1128,7 @@
 	}
 	citizen={
 		culture="pamphylian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	freemen={
@@ -1136,7 +1136,7 @@
 	}
 	freemen={
 		culture="pamphylian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -1150,7 +1150,7 @@
 1887={ #Soloi
 	terrain="hills"
 	culture="cilician"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="wine"
 	civilization_value=24
 	barbarian_power=0
@@ -1183,7 +1183,7 @@
 1889={ #Magarsa
 	terrain="marsh"
 	culture="hittite"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="fish"
 	civilization_value=22
 	barbarian_power=0
@@ -1217,12 +1217,12 @@
 	province_rank="settlement"
 	citizen={
 		culture="cilician"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	citizen={
 		culture="ionian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	freemen={
@@ -1234,7 +1234,7 @@
 	}
 	freemen={
 		culture="ionian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -1261,12 +1261,12 @@
 		amount=1
 	}
 	freemen={
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	freemen={
 		culture="ionian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -1288,7 +1288,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	citizen={
@@ -1303,11 +1303,11 @@
 		amount=1
 	}
 	freemen={
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=2
 	}
 	slaves={
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -1335,7 +1335,7 @@
 	}
 	freemen={
 		culture="cilician"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=2
 	}
 	slaves={
@@ -1343,7 +1343,7 @@
 	}
 	slaves={
 		culture="cilician"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	tribesmen={
@@ -1364,7 +1364,7 @@
 	}
 	freemen={
 		culture="ionian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -1404,17 +1404,17 @@
 	province_rank="city"
 	citizen={
 		culture="pamphylian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=2
 	}
 	freemen={
 		culture="ionian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	freemen={
 		culture="pamphylian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=2
 	}
 	freemen={
@@ -1425,7 +1425,7 @@
 	}
 	slaves={
 		culture="pamphylian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	tribesmen={
@@ -1437,7 +1437,7 @@
 1905={ #Korakesion
 	terrain="hills"
 	culture="pamphylian"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="cloth"
 	civilization_value=26
 	barbarian_power=0
@@ -1468,7 +1468,7 @@
 1906={ #Laertes
 	terrain="hills"
 	culture="pamphylian"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="hemp"
 	civilization_value=24
 	barbarian_power=0
@@ -1509,7 +1509,7 @@
 	}
 	freemen={
 		culture="pamphylian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -1531,7 +1531,7 @@
 1910={ #Side
 	terrain="plains"
 	culture="pamphylian"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="dye"
 	civilization_value=31
 	barbarian_power=0
@@ -1544,7 +1544,7 @@
 	}
 	citizen={
 		culture="pasargadi"
-		religion="zoroaster"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	citizen={
@@ -1586,7 +1586,7 @@
 1911={ #Sillyon
 	terrain="plains"
 	culture="pamphylian"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="cloth"
 	civilization_value=29
 	barbarian_power=0
@@ -1922,7 +1922,7 @@
 	}
 	freemen={
 		culture="cretan"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -2012,14 +2012,14 @@
 1992={ #Telmessos
 	terrain="hills"
 	culture="lycian"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="cloth"
 	civilization_value=31
 	barbarian_power=0
 	province_rank="city"
 	nobles={
 		culture="pasargadi"
-		religion="zoroaster"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	citizen={
@@ -2031,7 +2031,7 @@
 	}
 	citizen={
 		culture="pasargadi"
-		religion="zoroaster"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	freemen={
@@ -2060,14 +2060,14 @@
 1993={ #Tlos
 	terrain="hills"
 	culture="lycian"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="cedar"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="city"
 	nobles={
 		culture="pasargadi"
-		religion="zoroaster"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	nobles={
@@ -2078,7 +2078,7 @@
 	}
 	citizen={
 		culture="pasargadi"
-		religion="zoroaster"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	citizen={
@@ -2115,7 +2115,7 @@
 1995={ #Xanthos
 	terrain="hills"
 	culture="lycian"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="marble"
 	civilization_value=29
 	barbarian_power=0
@@ -2125,7 +2125,7 @@
 	}
 	citizen={
 		culture="pasargadi"
-		religion="zoroaster"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	freemen={
@@ -2137,7 +2137,7 @@
 	}
 	freemen={
 		culture="pasargadi"
-		religion="zoroaster"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -2179,7 +2179,7 @@
 1998={ #Patara
 	terrain="hills"
 	culture="lycian"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="glass"
 	civilization_value=29
 	barbarian_power=0
@@ -2208,7 +2208,7 @@
 6431={ #Marion
 	terrain="hills"
 	culture="cypriot"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
@@ -2274,7 +2274,7 @@
 7942={ #Daidala
 	terrain="hills"
 	culture="ionian"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="hemp"
 	civilization_value=26
 	barbarian_power=0
@@ -2338,7 +2338,7 @@
 7948={ #Kadyanda
 	terrain="hills"
 	culture="lycian"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="cattle"
 	civilization_value=24
 	barbarian_power=0
@@ -2365,7 +2365,7 @@
 7949={ #Kandyba
 	terrain="hills"
 	culture="lycian"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=24
 	barbarian_power=0
@@ -2400,12 +2400,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	freemen={
 		culture="lycian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -2458,7 +2458,7 @@
 	}
 	freemen={
 		culture="pamphylian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -2485,7 +2485,7 @@
 	}
 	freemen={
 		culture="pamphylian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -2510,7 +2510,7 @@
 	province_rank="settlement"
 	freemen={
 		culture="pamphylian"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -2599,7 +2599,7 @@
 7990={ #Kourion
 	terrain="forest"
 	culture="cypriot"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="cedar"
 	civilization_value=24
 	barbarian_power=0
@@ -2615,7 +2615,7 @@
 7991={ #Idalion
 	terrain="plains"
 	culture="cypriot"
-	religion="roman_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="olive"
 	civilization_value=26
 	barbarian_power=0

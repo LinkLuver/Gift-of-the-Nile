@@ -66,7 +66,6 @@
 		mysian = {}
 		#pontic = { levy_template = levy_pontus }
 		cilician = { levy_template = levy_cilician }
-		hittite = { levy_template = levy_cilician }
 		lydian = {}
 		armenian = {
 			levy_template = levy_armenian
