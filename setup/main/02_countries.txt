@@ -2040,11 +2040,67 @@ country = {
 			own_control_core = 	{
 				4309 4311 484 4313 478 485 486 487 488 3853 496
 				479 491 493 4307 4310 4312
-				342 346 347 348 349 350 352 353 354 #Europa
-				357 360 362 1774 490 492 494 #Rhodope
+				352 353 348 342 #Europa
+				357 360 490 492 494 #Rhodope
 				343 4314 4154 489 495 #Haemimontus
 				 #Parts of Moesia Orientalis
 				4520 4519 4518 4517 4514 #Scythia
+			}
+
+		}
+
+		ATH = {
+			family = 11
+			family = 12
+			family = 13
+			government = democratic_republic
+			primary_culture = athenian
+			religion = roman_pantheon
+			diplomatic_stance=trading_stance
+			capital = 416
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			pantheon = {
+
+			{ deity = 164 }
+			{ deity = 165 }
+			{ deity = 105 }
+			{ deity = 167 }
+
+			}
+
+			own_control_core = 	{
+				413 416 7799 7897 7898
+				270 297 #Islands of Imbros and Lemnos granted by Antigonus to Athens after liberation.
+				1774 362 350 349 354 357
+			}
+
+			treasures = { 55 79 211 }
+
+		}
+
+		BYZ = {
+			government = plutocratic_republic
+			primary_culture = thracian
+			religion = roman_pantheon
+			diplomatic_stance=trading_stance
+			capital = 1453
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = {
+				341 345 1453 346 347
 			}
 
 		}
@@ -6694,26 +6750,6 @@ country = {
 
 		#Greece, Macedonia & Thrace/West-Pontic Cities
 
-		BYZ = {
-			government = plutocratic_republic
-			primary_culture = thracian
-			religion = roman_pantheon
-			diplomatic_stance=trading_stance
-			capital = 1453
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			own_control_core = {
-				341 345 1453
-			}
-
-		}
-
 		ORG = {
 			government = plutocratic_republic
 			primary_culture = bosporan
@@ -6908,41 +6944,6 @@ country = {
 				498 4153 #macedonia_salutaris_area
 				4306 #chalkidiki_area
 			}
-
-		}
-
-		ATH = {
-			family = 11
-			family = 12
-			family = 13
-			government = democratic_republic
-			primary_culture = athenian
-			religion = roman_pantheon
-			diplomatic_stance=trading_stance
-			capital = 416
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			pantheon = {
-
-			{ deity = 164 }
-			{ deity = 165 }
-			{ deity = 105 }
-			{ deity = 167 }
-
-			}
-
-			own_control_core = 	{
-				413 416 7799 7897 7898
-				270 297 #Islands of Imbros and Lemnos granted by Antigonus to Athens after liberation.
-			}
-
-			treasures = { 55 79 211 }
 
 		}
 

@@ -27,14 +27,12 @@ diplomacy = {
 	dependency = { first = LYD second = MYD subject_type = tributary }
 	dependency = { first = LYD second = BIT subject_type = tributary }
 
-	#Hellespontine League
-	defensive_league = {
-		member = BYZ
-		member = KZK
-		member = KIO
-		member = AST
-		member = CDD
-	}
+	#Neo-Dellian League
+	dependency = { first = ATH second = BYZ subject_type = subject_league_city_state }
+	dependency = { first = ATH second = KZK subject_type = subject_league_city_state }
+	dependency = { first = ATH second = KIO subject_type = subject_league_city_state }
+	dependency = { first = ATH second = AST subject_type = subject_league_city_state }
+	dependency = { first = ATH second = CDD subject_type = subject_league_city_state }
 
 	### VANILLA DIPLOMACY ###
 
