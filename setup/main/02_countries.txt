@@ -833,11 +833,9 @@ country = {
 			own_control_core = 	{
 				900 902 903 904 909 901 910 915 917 918 919 922 #babylonia_region
 				898 899 911 912 913 914 916 924 926 927 929 960 #asoristan_region
-				905 906 907 908 953 954 #euphrates_region
 				896 897 979 925 928 933 934 961 962 973 974 976 #beth_daraye_region
 				920 921 923 930 931 932 935 936 939 937 938 968 #veh_kavad_region
 				940 941 942 969 971 963 7723 #meshan_region
-				824 825 826 827 828 829 #euphrates_region
 			}
 
 			pantheon = {
@@ -1519,6 +1517,7 @@ country = {
 
 			own_control_core = {
 				754 755 756 775 800 801 802 803 804 806 815 850 #palmyra_region
+				824 825 826 827 828 829 905 906 907 908 953 954 #euphrates_region
 			}
 		}
 
@@ -1915,6 +1914,141 @@ country = {
 				669 672 677 673 674 648
 			}
 		}
+
+	# Macedonia-Greece
+		MAC = {
+			family = 22
+			family = 23
+			government = aristocratic_monarchy
+			primary_culture = macedonian
+			religion = roman_pantheon
+			diplomatic_stance=warmongering_stance
+			monarchy_military_reforms = work_for_the_best
+			capital = 379
+			poptype_rights = {
+				{
+					culture = thessalian
+					type = citizen
+				}
+			}
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			#is_antagonist = yes
+
+			pantheon = {
+
+			{ deity = 102 }
+			{ deity = 112 }
+			{ deity = 110 }
+			{ deity = 108 }
+
+			}
+
+			treasures = { 62 90 91 104 }
+
+			historical_regnal_numbers = {
+				Perdikkas = 3
+				Alexandros = 2
+				Philippos = 1
+				Amyntas = 3
+				Aeropos = 2
+				Krateros = 1
+				Orestes = 1
+				Archelaos = 2
+				Pausanias = 1
+				Antipatros = 1
+			}
+
+			own_control_core = 	{
+				371 373 379 381 382 383 384 385 386 380 428 369 #Macedonia
+				393 400 405 408 411 412 3125 3175 3356 #Upper Macedonia
+				356 363 364 365 366 374 376 377 378 #Chalkidiki
+				399 #Lamia
+				469 #Thaumakoi
+				401 #Hypate
+				466 #Oichalia
+				475 #Kallipolis
+				7896 # Nikaia Locriai, Thermopylai.
+				418 #Corinth, stronghold in Peleponese.
+				277  #Aegean Islands
+				6399 # Pydna
+				497 4302 414
+			}
+
+		}
+		TRE = {
+			family = 8
+			government = aristocratic_monarchy
+			religion = roman_pantheon
+			diplomatic_stance=warmongering_stance
+			primary_culture = thessalian #Ruled by Macedonian King
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			#is_antagonist = yes
+			capital = 389 #Larisa
+
+			own_control_core = {
+				388 389 390 391 392 394 395 396 398 404 420 #Thessaly
+			}
+
+			pantheon = {
+				{ deity = 110 }
+				{ deity = 102 }
+				{ deity = 651 }
+				{ deity = 117 }
+			}
+
+			treasures = { 120 }
+		}
+		ODR = {
+			family = 51
+			government = tribal_kingdom
+			primary_culture = odrysi
+			diplomatic_stance=warmongering_stance
+			religion = shamanism
+
+			historical_regnal_numbers = {
+				Seuthes = 2
+				Amatokos = 2
+				Kotys = 1
+				Teres = 2
+				Ketriporis = 1
+				Hebryzelmis = 1
+				Maisades = 1
+				Kersobleptes = 1
+				Ketriporis = 1
+				Berisades = 1
+				Skostodokos = 1
+				Sparadokos = 1
+			}
+
+			capital = 478
+
+			own_control_core = 	{
+				4309 4311 484 4313 478 485 486 487 488 3853 496
+				479 491 493 4307 4310 4312
+				342 346 347 348 349 350 352 353 354 #Europa
+				357 360 362 1774 490 492 494 #Rhodope
+				343 4314 4154 489 495 #Haemimontus
+				 #Parts of Moesia Orientalis
+				4520 4519 4518 4517 4514 #Scythia
+			}
+
+		}
+
 
 ### Vanilla ###
 
@@ -6748,81 +6882,6 @@ country = {
 
 		}
 
-		TRE = {
-			family = 8
-			government = aristocratic_monarchy
-			religion = roman_pantheon
-			diplomatic_stance=warmongering_stance
-			primary_culture = macedonian #Ruled by Macedonian King
-			monarchy_military_reforms = work_for_the_best
-
-			poptype_rights = {
-				{
-					culture = thracian
-					type = citizen
-				}
-			}
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			#is_antagonist = yes
-			capital = 350 #Lysimachea
-
-			own_control_core = {
-				342 346 347 348 349 350 352 353 354 #Europa
-				357 360 362 1774 490 492 494 #Rhodope
-				343 4314 4154 489 495 #Haemimontus
-				 #Parts of Moesia Orientalis
-				4520 4519 4518 4517 4514 #Scythia
-			}
-
-			pantheon = {
-				{ deity = 110 }
-				{ deity = 102 }
-				{ deity = 651 }
-				{ deity = 117 }
-			}
-
-			treasures = { 120 }
-		}
-
-
-		ODR = {
-			family = 51
-			government = tribal_kingdom
-			primary_culture = odrysi
-			diplomatic_stance=warmongering_stance
-			religion = shamanism
-
-			historical_regnal_numbers = {
-				Seuthes = 2
-				Amatokos = 2
-				Kotys = 1
-				Teres = 2
-				Ketriporis = 1
-				Hebryzelmis = 1
-				Maisades = 1
-				Kersobleptes = 1
-				Ketriporis = 1
-				Berisades = 1
-				Skostodokos = 1
-				Sparadokos = 1
-			}
-
-			capital = 478
-
-			own_control_core = 	{
-				4309 4311 484 4313 478 485 486 487 488 3853 496
-				479 491 493 4307 4310 4312
-			}
-
-		}
-
 		PAA = {
 			family = 50
 			government = tribal_kingdom
@@ -6848,74 +6907,6 @@ country = {
 			own_control_core = 	{
 				498 4153 #macedonia_salutaris_area
 				4306 #chalkidiki_area
-			}
-
-		}
-
-		MAC = {
-			family = 22
-			family = 23
-			government = aristocratic_monarchy
-			primary_culture = macedonian
-			religion = roman_pantheon
-			diplomatic_stance=warmongering_stance
-			monarchy_military_reforms = work_for_the_best
-			capital = 379
-			poptype_rights = {
-				{
-					culture = thessalian
-					type = citizen
-				}
-			}
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			#is_antagonist = yes
-
-			pantheon = {
-
-			{ deity = 102 }
-			{ deity = 112 }
-			{ deity = 110 }
-			{ deity = 108 }
-
-			}
-
-			treasures = { 62 90 91 104 }
-
-			historical_regnal_numbers = {
-				Perdikkas = 3
-				Alexandros = 2
-				Philippos = 1
-				Amyntas = 3
-				Aeropos = 2
-				Krateros = 1
-				Orestes = 1
-				Archelaos = 2
-				Pausanias = 1
-				Antipatros = 1
-			}
-
-			own_control_core = 	{
-				371 373 379 381 382 383 384 385 386 380 428 369 #Macedonia
-				393 400 405 408 411 412 3125 3175 3356 #Upper Macedonia
-				356 363 364 365 366 374 376 377 378 #Chalkidiki
-				388 389 390 391 392 394 395 396 398 404 420 #Thessaly
-				399 #Lamia
-				469 #Thaumakoi
-				401 #Hypate
-				466 #Oichalia
-				475 #Kallipolis
-				7896 # Nikaia Locriai, Thermopylai.
-				418 #Corinth, stronghold in Peleponese.
-				277  #Aegean Islands
-				6399 # Pydna
-				497 4302 414
 			}
 
 		}

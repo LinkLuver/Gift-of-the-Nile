@@ -92,6 +92,11 @@ HAM = "setup/countries/levant/hamath.txt"
 LHT = "setup/countries/levant/luash.txt"
 HT2 = "setup/countries/levant/samal.txt"
 
+# Greco-Macedon
+MAC = "setup/countries/greece/macedonia.txt"
+TRE = "setup/countries/greece/thrace.txt"
+ODR = "setup/countries/greece/odrysia.txt"
+
 ### Vanilla
 
 # Greece/Macedonia
@@ -121,7 +126,6 @@ EPD = "setup/countries/greece/epidauros.txt"
 PRI = "setup/countries/greece/prasiai.txt"
 HRA = "setup/countries/greece/heraia.txt"
 LPR = "setup/countries/greece/lepreon.txt"
-MAC = "setup/countries/greece/macedonia.txt"
 STP = "setup/countries/greece/stymphalia.txt"
 MGA = "setup/countries/greece/megara.txt"
 THE = "setup/countries/greece/thebes.txt"
@@ -187,9 +191,7 @@ TRA = "setup/countries/greece/tarra.txt"
 PRE = "setup/countries/greece/praesos.txt"
 ELT = "setup/countries/greece/eleutherna.txt"
 
-## Thracia/Illyria
-TRE = "setup/countries/greece/thrace.txt"
-ODR = "setup/countries/greece/odrysia.txt"
+
 
 ## Asia Minor
 COR = "setup/countries/syria/corduene.txt"
