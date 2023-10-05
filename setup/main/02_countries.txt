@@ -2044,7 +2044,7 @@ country = {
 				357 360 490 492 494 #Rhodope
 				343 4314 4154 489 495 #Haemimontus
 				 #Parts of Moesia Orientalis
-				4520 4519 4518 4517 4514 #Scythia
+				4235 4234 4236 4237 4244 4245 4259 4258 4247 481
 			}
 
 		}
@@ -2078,11 +2078,62 @@ country = {
 			own_control_core = 	{
 				413 416 7799 7897 7898
 				270 297 #Islands of Imbros and Lemnos granted by Antigonus to Athens after liberation.
-				1774 362 350 349 354 357
+				1774 354 349
 			}
 
 			treasures = { 55 79 211 }
 
+		}
+
+		CRD = {
+			government = democratic_republic
+			primary_culture = thracian
+			religion = roman_pantheon
+			diplomatic_stance=trading_stance
+			capital = 350
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			own_control_core =  {
+				350 347
+			}
+		}
+
+		ABD = {
+			government = democratic_republic
+			primary_culture = thracian
+			religion = roman_pantheon
+			diplomatic_stance=trading_stance
+			capital = 362
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			own_control_core =  {
+				362
+			}
+		}
+
+		AEN = {
+			government = democratic_republic
+			primary_culture = thracian
+			religion = roman_pantheon
+			diplomatic_stance=trading_stance
+			capital = 354
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			own_control_core =  {
+				354
+			}
 		}
 
 		BYZ = {
@@ -2100,7 +2151,7 @@ country = {
 			}
 
 			own_control_core = {
-				341 345 1453 346 347
+				341 345 1453 346
 			}
 
 		}
@@ -6584,7 +6635,7 @@ country = {
 			capital = 4227
 
 			own_control_core = 	{
-				4227 4226 4224 4223 4217 4220 4221 4222 4115 4116 4230 4228 4225 4232 4229 4234 4235 4233 4231
+				4227 4226 4224 4223 4217 4220 4221 4222 4115 4116 4230 4228 4225 4232 4229 4233 4231
 			}
 		}
 
@@ -6596,7 +6647,7 @@ country = {
 			capital = 4241
 
 			own_control_core = 	{
-				4237 4236 4238 4239 4245 4240 4241 4259 4244 4253 4252 4246 4242 4243 4258 4251 4256 4257
+				4238 4239 4240 4241 4253 4252 4246 4242 4243 4251 4256 4257
 			}
 		}
 
@@ -6766,7 +6817,7 @@ country = {
 			capital = 4516
 
 			own_control_core = {
-				4516
+				4516 4520 4519 4518 4517 4514 #Scythia
 			}
 
 		}
@@ -6871,7 +6922,7 @@ country = {
 			capital = 4248
 
 			own_control_core = {
-				4248 4247
+				4248
 			}
 
 		}
@@ -6913,7 +6964,7 @@ country = {
 			capital = 482
 
 			own_control_core = {
-				482 481
+				482
 			}
 
 		}
