@@ -30,22 +30,14 @@ family={
 			# culture = roman
 			# prestige=300
 		# }
-		#Phrygia:
+		#Cyrenaica
 		4={
 			key="Antigonid"
-			owner=PRY
+			owner=CYR
 			culture = macedonian
 			prestige=300
 			color = 0
 		}
-		5={
-			key="Aleuadid"
-			culture = thessalian
-			owner = PRY
-			prestige=300
-			color = 1
-		}
-		#Egypt
 		6={
 			key="Lagid"
 			owner=MAC
@@ -60,13 +52,20 @@ family={
 			prestige=200
 			color = 1
 		}
-		#Thrace
+		#Thesally
 		8={
 			key = "Alkimachid"
 			culture=thessalian
 			prestige=300
 			owner=TRE
 			color = 0
+		}
+		5={
+			key="Aleuadid"
+			culture = thessalian
+			owner = TRE
+			prestige=300
+			color = 1
 		}
 		#Sparta
 		9={

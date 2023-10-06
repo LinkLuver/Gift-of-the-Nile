@@ -750,7 +750,7 @@
 		amount=2
 	}
 	freemen={
-		culture="lesser_armenian"
+		culture="sophene"
 		amount=1
 	}
 	slaves={
@@ -760,14 +760,14 @@
 		amount=2
 	}
 	tribesmen={
-		culture="lesser_armenian"
+		culture="sophene"
 		amount=2
 	}
 }
 
 1853={ #Kiakis
 	terrain="forest"
-	culture="lesser_armenian"
+	culture="sophene"
 	religion="anatolian_religion"
 	trade_goods="wood"
 	civilization_value=18
@@ -801,7 +801,7 @@
 		amount=2
 	}
 	citizen={
-		culture="lesser_armenian"
+		culture="sophene"
 		religion="anahitic_religion"
 		amount=1
 	}
@@ -810,7 +810,7 @@
 		amount=2
 	}
 	freemen={
-		culture="lesser_armenian"
+		culture="sophene"
 		religion="anahitic_religion"
 		amount=2
 	}
@@ -831,7 +831,7 @@
 		amount=3
 	}
 	tribesmen={
-		culture="lesser_armenian"
+		culture="sophene"
 		religion="anahitic_religion"
 		amount=1
 	}
@@ -859,7 +859,7 @@
 		amount=2
 	}
 	tribesmen={
-		culture="lesser_armenian"
+		culture="sophene"
 		religion="zoroaster"
 		amount=1
 	}
@@ -877,7 +877,7 @@
 		amount=1
 	}
 	freemen={
-		culture="lesser_armenian"
+		culture="sophene"
 		religion="zoroaster"
 		amount=1
 	}
@@ -891,7 +891,7 @@
 
 1865={ #Miasena
 	terrain="hills"
-	culture="lesser_armenian"
+	culture="sophene"
 	religion="zoroaster"
 	trade_goods="fruits"
 	civilization_value=18
@@ -912,7 +912,7 @@
 
 1866={ #Korne
 	terrain="mountain"
-	culture="lesser_armenian"
+	culture="sophene"
 	religion="zoroaster"
 	trade_goods="wood"
 	civilization_value=16
@@ -1325,7 +1325,7 @@
 		amount=1
 	}
 	freemen={
-		culture="lesser_armenian"
+		culture="sophene"
 		amount=1
 	}
 	slaves={
@@ -1335,7 +1335,7 @@
 		amount=2
 	}
 	tribesmen={
-		culture="lesser_armenian"
+		culture="sophene"
 		amount=1
 	}
 }

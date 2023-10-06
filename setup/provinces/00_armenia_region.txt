@@ -1,6 +1,6 @@
 ﻿483={ #Arda
 	terrain="mountain"
-	culture="armenian"
+	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="stone"
 	civilization_value=16
@@ -16,7 +16,7 @@
 
 846={ #Balesh
 	terrain="hills"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="vegetables"
 	civilization_value=18
@@ -45,7 +45,7 @@
 
 978={ #Datvan
 	terrain="hills"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="fish"
 	civilization_value=18
@@ -66,7 +66,7 @@
 
 987={ #Zoaranda
 	terrain="hills"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="grain"
 	civilization_value=18
@@ -89,7 +89,7 @@
 
 988={ #Tosp
 	terrain="forest"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="horses"
 	civilization_value=18
@@ -109,7 +109,7 @@
 
 989={ #Aparank
 	terrain="hills"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="stone"
 	civilization_value=18
@@ -129,7 +129,7 @@
 
 990={ #Archesh
 	terrain="plains"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="vegetables"
 	civilization_value=20
@@ -151,7 +151,7 @@
 
 991={ #Arest
 	terrain="forest"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="honey"
 	civilization_value=18
@@ -171,7 +171,7 @@
 
 992={ #Balalesh
 	terrain="mountain"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="vegetables"
 	civilization_value=16
@@ -194,7 +194,7 @@
 
 993={ #Khlat
 	terrain="plains"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="vegetables"
 	civilization_value=20
@@ -217,7 +217,7 @@
 
 994={ #Ashtishat
 	terrain="plains"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="wood"
 	civilization_value=20
@@ -235,7 +235,7 @@
 
 995={ #Bogunik
 	terrain="forest"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="fish"
 	civilization_value=18
@@ -252,7 +252,7 @@
 
 996={ #Alouaka
 	terrain="hills"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="wood"
 	civilization_value=18
@@ -268,7 +268,7 @@
 
 997={ #Kotorox
 	terrain="mountain"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="honey"
 	civilization_value=16
@@ -295,7 +295,7 @@
 
 998={ #Artamet
 	terrain="hills"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="vegetables"
 	civilization_value=18
@@ -315,7 +315,7 @@
 
 999={ #Eruandunik
 	terrain="forest"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="wood"
 	civilization_value=18
@@ -335,7 +335,7 @@
 
 1500={ #Her
 	terrain="plains"
-	culture="sophene"
+	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="cattle"
 	civilization_value=20
@@ -354,7 +354,7 @@
 
 1501={ #Nakhchawan
 	terrain="hills"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="steppe_horses"
 	civilization_value=18
@@ -377,7 +377,7 @@
 
 1502={ #Tasuk
 	terrain="hills"
-	culture="sophene"
+	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="grain"
 	civilization_value=18
@@ -393,7 +393,7 @@
 
 1503={ #Salamat
 	terrain="plains"
-	culture="sophene"
+	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="horses"
 	civilization_value=20
@@ -414,7 +414,7 @@
 
 1504={ #Gazrik
 	terrain="plains"
-	culture="sophene"
+	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="cattle"
 	civilization_value=20
@@ -441,7 +441,7 @@
 
 1505={ #Karenis
 	terrain="plains"
-	culture="sophene"
+	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="fish"
 	civilization_value=21
@@ -460,7 +460,7 @@
 
 1506={ #Ormi
 	terrain="plains"
-	culture="sophene"
+	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="grain"
 	civilization_value=21
@@ -479,7 +479,7 @@
 
 1507={ #Surenapati
 	terrain="plains"
-	culture="sophene"
+	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="leather"
 	civilization_value=21
@@ -498,7 +498,7 @@
 
 1508={ #Balajuk
 	terrain="hills"
-	culture="sophene"
+	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="vegetables"
 	civilization_value=19
@@ -548,7 +548,7 @@
 
 1518={ #Araskh
 	terrain="plains"
-	culture="sophene"
+	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="vegetables"
 	civilization_value=21
@@ -565,7 +565,7 @@
 
 1519={ #Mari
 	terrain="hills"
-	culture="sophene"
+	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="fish"
 	civilization_value=19
@@ -587,7 +587,7 @@
 
 1527={ #Parsk
 	terrain="plains"
-	culture="sophene"
+	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="cattle"
 	civilization_value=20
@@ -606,7 +606,7 @@
 
 1528={ #Marand
 	terrain="hills"
-	culture="sophene"
+	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="leather"
 	civilization_value=18
@@ -625,7 +625,7 @@
 
 1529={ #Gabit'ean
 	terrain="hills"
-	culture="sophene"
+	culture="arzasha"
 	religion="mithra_religion"
 	trade_goods="cattle"
 	civilization_value=18
@@ -644,7 +644,7 @@
 
 1530={ #Bakurakert
 	terrain="mountain"
-	culture="sophene"
+	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="vegetables"
 	civilization_value=16
@@ -663,7 +663,7 @@
 
 1531={ #Malejin
 	terrain="hills"
-	culture="sophene"
+	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="horses"
 	civilization_value=18
@@ -745,7 +745,7 @@
 
 1535={ #Qiz Chakhlu
 	terrain="hills"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="stone"
 	civilization_value=18
@@ -766,7 +766,7 @@
 
 1536={ #Maku
 	terrain="mountain"
-	culture="sophene"
+	culture="arzasha"
 	religion="mithra_religion"
 	trade_goods="wood"
 	civilization_value=16
@@ -1127,7 +1127,7 @@
 
 1559={ #Aladagh Qal'eh
 	terrain="hills"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="leather"
 	civilization_value=18
@@ -1148,7 +1148,7 @@
 
 1560={ #Andzevatsik
 	terrain="hills"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="wood"
 	civilization_value=18
@@ -1168,7 +1168,7 @@
 
 1561={ #Mardastan
 	terrain="hills"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="vegetables"
 	civilization_value=18
@@ -1893,7 +1893,7 @@
 
 1698={ #Sinara
 	terrain="hills"
-	culture="armenian"
+	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="leather"
 	civilization_value=18
@@ -1931,7 +1931,7 @@
 
 1744={ #Karana
 	terrain="hills"
-	culture="armenian"
+	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="stone"
 	civilization_value=18
@@ -1954,7 +1954,7 @@
 
 1747={ #Basean
 	terrain="hills"
-	culture="armenian"
+	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="horses"
 	civilization_value=18
@@ -2068,7 +2068,7 @@
 
 1762={ #Bagariza
 	terrain="hills"
-	culture="armenian"
+	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="fruits"
 	civilization_value=18
@@ -2088,7 +2088,7 @@
 
 1763={ #Tareina
 	terrain="hills"
-	culture="armenian"
+	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="wood"
 	civilization_value=18
@@ -2115,7 +2115,7 @@
 
 1764={ #Bizana
 	terrain="hills"
-	culture="armenian"
+	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="vegetables"
 	civilization_value=18
@@ -2131,7 +2131,7 @@
 
 1765={ #Koubina
 	terrain="hills"
-	culture="armenian"
+	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="vegetables"
 	civilization_value=18
@@ -2147,7 +2147,7 @@
 
 1770={ #Satal
 	terrain="mountain"
-	culture="armenian"
+	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="horses"
 	civilization_value=16
@@ -2170,7 +2170,7 @@
 
 4037={ #Kitharizon
 	terrain="hills"
-	culture="sophene"
+	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="wood"
 	civilization_value=18

@@ -62,8 +62,8 @@ mithridates_in_phrygia = {
 	}
 }
 
-"PRY"={
-	country="PRY"
+"CYR"={
+	country="CYR"
 	17={
 		first_name="Eurydike"
 		family_name="Miltiadid"
@@ -105,7 +105,7 @@ mithridates_in_phrygia = {
 	37={
 		first_name="Antigonos"
 		nickname="NICKNAME_MONOPHTHALMUS"
-		family = c:PRY.fam:Antigonid
+		family = c:CYR.fam:Antigonid
 		birth_date=372.3.24
 		culture="macedonian"
 		religion="roman_pantheon"
@@ -132,7 +132,7 @@ mithridates_in_phrygia = {
 	38={
 		first_name="Demetrios"
 		nickname="NICKNAME_POLIORCETES"
-		family = c:PRY.fam:Antigonid
+		family = c:CYR.fam:Antigonid
 		birth_date=416.9.12
 		culture="macedonian"
 		religion="roman_pantheon"
@@ -258,7 +258,7 @@ mithridates_in_phrygia = {
 	}
 	148={
 		first_name="Korragos" # Bastard son of Demetrios
-		family = c:PRY.fam:Antigonid
+		family = c:CYR.fam:Antigonid
 		birth_date=448.10.18
 		culture="macedonian"
 		religion="roman_pantheon"
@@ -278,7 +278,7 @@ mithridates_in_phrygia = {
 	190={
 		first_name="Antigonos" # Son of Demetrios, Antigonos II
 		nickname="NICKNAME_GONATAS"
-		family = c:PRY.fam:Antigonid
+		family = c:CYR.fam:Antigonid
 		birth_date=435.7.26
 		culture="macedonian"
 		religion="roman_pantheon"
@@ -300,7 +300,7 @@ mithridates_in_phrygia = {
 	}
 	191={
 		first_name="Stratonike" # Daughter of Demetrios, married Seleukos + Antiochos
-		family = c:PRY.fam:Antigonid
+		family = c:CYR.fam:Antigonid
 		female=yes
 		birth_date=436.11.19
 		culture="macedonian"
@@ -356,7 +356,7 @@ mithridates_in_phrygia = {
 	}
 	246={
 		first_name="Medeios"
-		family = c:PRY.fam:Aleuadid
+		family = c:TRE.fam:Aleuadid
 		birth_date=400.4.7
 		culture="thessalian"
 		religion="roman_pantheon"
@@ -458,7 +458,7 @@ mithridates_in_phrygia = {
 	}
 	372={
 		first_name="Telesphoros" # Nephew of Antigonos
-		family = c:PRY.fam:Antigonid
+		family = c:CYR.fam:Antigonid
 		father="char:262"
 		birth_date=414.11.17
 		culture="macedonian"
