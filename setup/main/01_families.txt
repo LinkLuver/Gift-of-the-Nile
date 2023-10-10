@@ -651,5 +651,12 @@ family={
 			culture=carthaginian
 			owner=GAD
 		}
+		#GOTN Egypt
+		2000 = {
+			key = "Thutmosid"
+			prestige=500
+			culture=akhenite_egyptian
+			owner=ATN
+		}
 	}
 }

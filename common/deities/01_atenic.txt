@@ -1,5 +1,5 @@
 ﻿### General Deity Checks ###
-deity_aten = {
+deity_akhenaten = {
 	trigger = {
 		OR = {
 			very_common_deity_trigger = {
@@ -10,7 +10,7 @@ deity_aten = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_kemetic_eloquence
 	passive_modifier = { global_pop_assimilation_speed_modifier = deity_global_pop_assimilation_speed_modifier_svalue }
 	omen = { global_pop_conversion_speed_modifier = omen_global_pop_conversion_speed_modifier_svalue } #Bonus from Omen
 	religion = aten_religion
@@ -26,7 +26,7 @@ deity_aten = {
 deity_nefertiti = {
 	trigger = {
 		OR = {
-			very_common_deity_trigger = {
+			common_deity_trigger = {
 				RELIGION = aten_religion
 			}
 			deity:omen_nefertiti = {
@@ -34,7 +34,7 @@ deity_nefertiti = {
 			}
 		}
 	}
-	icon = deity_love
+	icon = deity_kemetic_love
 	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
 	omen = { ruler_popularity_gain = omen_ruler_popularity_gain_svalue } #Bonus from Omen
 	religion = aten_religion
@@ -44,7 +44,7 @@ deity_nefertiti = {
 	}
 
 	on_activate = {
-		culture_apotheosis_assimilate_effect = yes
+		fertility_apotheosis_capital_slaves_effect = yes
 	}
 }
 deity_tutankhaten = {
@@ -58,23 +58,23 @@ deity_tutankhaten = {
 			}
 		}
 	}
-	icon = deity_culture
-	passive_modifier = { global_pop_assimilation_speed_modifier = deity_global_pop_assimilation_speed_modifier_svalue }
+	icon = deity_kemetic_wealth
+	passive_modifier = { global_tax_modifier = deity_global_tax_modifier_svalue }
 	omen = { global_pop_conversion_speed_modifier = omen_global_pop_conversion_speed_modifier_svalue } #Bonus from Omen
 	religion = aten_religion
-	deity_category = culture #This Deity uses a Culture slot.
+	deity_category = economy #This Deity uses a Culture slot.
 	deification_trigger = {
 		can_deify_trigger = no
 	}
 
 	on_activate = {
-		culture_apotheosis_assimilate_effect = yes
+		economy_income_effect = yes
 	}
 }
-deity_atenhep = {
+deity_atenhotep = {
 	trigger = {
 		OR = {
-			very_common_deity_trigger = {
+			common_deity_trigger = {
 				RELIGION = aten_religion
 			}
 			deity:omen_aten = {
@@ -82,40 +82,16 @@ deity_atenhep = {
 			}
 		}
 	}
-	icon = deity_culture
-	passive_modifier = { global_pop_assimilation_speed_modifier = deity_global_pop_assimilation_speed_modifier_svalue }
-	omen = { global_pop_conversion_speed_modifier = omen_global_pop_conversion_speed_modifier_svalue } #Bonus from Omen
+	icon = deity_kemetic_war
+	passive_modifier = { general_loyalty = 3 }
+	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
 	religion = aten_religion
-	deity_category = culture #This Deity uses a Culture slot.
+	deity_category = war #This Deity uses a Culture slot.
 	deification_trigger = {
 		can_deify_trigger = no
 	}
 
 	on_activate = {
-		culture_apotheosis_assimilate_effect = yes
-	}
-}
-deity_aten = {
-	trigger = {
-		OR = {
-			very_common_deity_trigger = {
-				RELIGION = aten_religion
-			}
-			deity:omen_aten = {
-				holy_site_deity_check_trigger = yes
-			}
-		}
-	}
-	icon = deity_culture
-	passive_modifier = { global_pop_assimilation_speed_modifier = deity_global_pop_assimilation_speed_modifier_svalue }
-	omen = { global_pop_conversion_speed_modifier = omen_global_pop_conversion_speed_modifier_svalue } #Bonus from Omen
-	religion = aten_religion
-	deity_category = culture #This Deity uses a Culture slot.
-	deification_trigger = {
-		can_deify_trigger = no
-	}
-
-	on_activate = {
-		culture_apotheosis_assimilate_effect = yes
+		war_apotheosis_martial_tech_effect = yes
 	}
 }

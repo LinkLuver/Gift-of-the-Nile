@@ -1,0 +1,60 @@
+﻿"Duat_ATN"={
+	country="ATN"
+	#18th Dynasty Pharoahs
+	512={
+		first_name="Akhenaten"
+		family = c:ATN.fam:Thutmosid
+		father="char:515"
+		birth_date=2127.1.1
+		death_date=2088.10.1
+		religion="aten_religion"
+		culture="akhenite_egyptian"
+		add_trait="thutmosid"
+		add_zeal=20
+		add_martial=7
+		add_charisma=5
+		add_finesse=11
+	}
+	513={
+		first_name="Neferneferuaten"
+		family = Nefertitid
+		is_female=yes
+		birth_date=2109.8.4
+		death_date=2086.12.29
+		religion="aten_religion"
+		culture="akhenite_egyptian"
+		add_zeal=11
+		add_martial=8
+		add_charisma=12
+		add_finesse=8
+	}
+	514={
+		first_name="Tutankhaten"
+		family = c:ATN.fam:Thutmosid
+		father="char:512"
+		mother="char:513"
+		birth_date=2095.9.22
+		death_date=2077.11.9
+		religion="aten_religion"
+		culture="akhenite_egyptian"
+		add_trait="thutmosid"
+		add_zeal=6
+		add_martial=4
+		add_charisma=8
+		add_finesse=7
+	}
+	515={
+		first_name="Amenhotep III"
+		family = c:ATN.fam:Thutmosid
+		nickname="dazzling"
+		birth_date=2192.8.4
+		death_date=2140.7.12
+		religion="egyptian_pantheon"
+		culture="upper_egyptian"
+		add_trait="thutmosid"
+		add_zeal=20
+		add_martial=15
+		add_charisma=11
+		add_finesse=13
+	}
+}

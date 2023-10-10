@@ -1,9 +1,32 @@
 deity_manager = {
     deities_database = { ### KEYS 30000 - 30200 ###
     	30000 = {
-    		key = omen_aten
-    		deity = deity_aten
+    		key = omen_akhenaten
+    		deity = deity_akhenaten
+    		deify_ruler = 512
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
     	}
-
+    	30001 = {
+    		key = omen_nefertiti
+    		deity = deity_nefertiti
+    		deify_ruler = 513
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+    	}
+    	30002 = {
+    		key = omen_tutankhaten
+    		deity = deity_tutankhaten
+    		deify_ruler = 514
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+    	}
+    	30003 = {
+    		key = omen_atenhotep
+    		deity = deity_atenhotep
+    		deify_ruler = 515
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+    	}
 	}
 }
