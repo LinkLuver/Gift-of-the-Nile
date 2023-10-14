@@ -1,0 +1,108 @@
+﻿#######################################
+#GOTN
+#######################################
+
+
+ATN = {
+	pattern = "pattern_solid.tga"
+	color1 = "pitch_black"
+	color2 = "roman_red"
+
+	colored_emblem = {
+		texture = "ce_egypt_aten_sun.dds"
+		color1 = "ck2_yellow"
+		color2 = "roman_red"
+	}
+}
+ATN_REVOLT = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_macedon"
+	color2 = "roman_red"
+
+	colored_emblem = {
+		texture = "ce_egypt_aten_sun.dds"
+		color1 = "ck2_yellow"
+		color2 = "roman_red"
+	}
+}
+
+
+EGY = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 58 51 7 }
+	color2 = rgb { 58 51 7 }
+
+	colored_emblem = {
+		texture = "ce_egypt_udjat_eye.dds"
+		color1 = "roman_gold"
+		color2 = rgb { 58 51 7 }
+	}
+	
+	colored_emblem = {
+		texture = "ce_border_ancient_egyptian_pattern_01.dds"
+		color1 = "roman_gold"
+		color2 = rgb { 58 51 7 }
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+}
+
+EGY_REVOLT = {
+	pattern = "pattern_solid.tga"
+	color1 = "roman_gold"
+	color2 = "pitch_black"
+
+	colored_emblem = {
+		texture = "ce_egypt_udjat_eye.dds"
+		color1 = "roman_gold"
+		color2 = rgb { 58 51 7 }
+	}
+	
+	colored_emblem = {
+		texture = "ce_border_ancient_egyptian_pattern_01.dds"
+		color1 = "pitch_black"
+		color2 = rgb { 158 151 17 }
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+}
+
+HNT = {
+	pattern = "pattern_solid.tga"
+	color1 = "ck2_blue"
+	color2 = "ck2_black"
+
+	colored_emblem = {
+		texture = "ce_egypt_aten_sun.dds"
+		color1 = "ck2_yellow"
+		color2 = "mint_green"
+		instance = { position { 0.5 0.5 } scale { 1 1 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_egypt.dds"
+		color1 = "ck2_yellow"
+		color2 = "roman_red"
+		instance = { position { 0.5 0.2 } scale { 1 1 } }
+	}
+}
+
+HNT_REVOLT = {
+	pattern = "pattern_solid.tga"
+	color1 = "roman_red"
+	color2 = "ck2_black"
+
+	colored_emblem = {
+		texture = "ce_egypt_aten_sun.dds"
+		color1 = "ck2_yellow"
+		color2 = "roman_red"
+		instance = { position { 0.5 0.5 } scale { 1 1 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_egypt.dds"
+		color1 = "ck2_yellow"
+		color2 = "roman_red"
+		instance = { position { 0.5 0.2 } scale { 1 1 } }
+	}
+}

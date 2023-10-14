@@ -5,7 +5,7 @@
 		first_name="Amenhotep III"
 		family = c:ATN.fam:Thutmosid
 		nickname="dazzling"
-		birth_date=20.8.4
+		birth_date=0.8.4
 		death_date=80.7.12
 		religion="egyptian_pantheon"
 		culture="upper_egyptian"
@@ -21,8 +21,8 @@
 		first_name="Akhenaten"
 		family = c:ATN.fam:Thutmosid
 		father="char:513"
-		birth_date=40.1.1
-		death_date=120.10.1
+		birth_date=70.1.1
+		death_date=110.10.1
 		religion="aten_religion"
 		culture="akhenite_egyptian"
 		no_traits=yes
@@ -38,8 +38,8 @@
 		first_name="Neferneferuaten"
 		family_name = "Nefertiti"
 		female=yes
-		birth_date=90.8.4
-		death_date=130.12.29
+		birth_date=69.8.4
+		death_date=114.12.29
 		religion="aten_religion"
 		culture="akhenite_egyptian"
 		no_stats=yes
@@ -53,8 +53,8 @@
 		family = c:ATN.fam:Thutmosid
 		father="char:514"
 		mother="char:515"
-		birth_date=110.9.22
-		death_date=135.11.9
+		birth_date=100.9.22
+		death_date=117.11.9
 		religion="aten_religion"
 		culture="akhenite_egyptian"
 		no_traits=yes

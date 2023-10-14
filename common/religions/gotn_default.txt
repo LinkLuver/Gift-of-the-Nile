@@ -11,39 +11,39 @@ aten_religion = { # Atenic
 	sacrifice_icon = sacrifice_incense
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
-sobek_religion = { # Sobekite
-	color = hsv { 0.4 0.9 0.3 }
-	modifier = { 
-		ruler_popularity_gain = 0.08
-		global_monthly_civilization = 0.02
-		character_loyalty = -3
-	}
-	religion_category = prophets
-	can_deify_ruler = yes
-	sacrifice_icon = sacrifice_incense
-	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
-}
-isis_religion = { # Assetic
-	color = hsv { 0.3  0.8  1 }
-	modifier = { 
-		ruler_popularity_gain = 0.08
-		global_monthly_civilization = 0.02
-		character_loyalty = -3
-	}
-	religion_category = prophets
-	can_deify_ruler = yes
-	sacrifice_icon = sacrifice_incense
-	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
-}
-ashur_religion = { # Asshuric
-	color = hsv { 0.5 1.0 0.5 }
-	modifier = { 
-		agressive_expansion_impact = -0.1
-		global_defensive = 0.1
-		general_loyalty = -3
-	}
-	religion_category = prophets
-}
+#sobek_religion = { # Sobekite
+#	color = hsv { 0.4 0.9 0.3 }
+#	modifier = { 
+#		ruler_popularity_gain = 0.08
+#		global_monthly_civilization = 0.02
+#		character_loyalty = -3
+#	}
+#	religion_category = prophets
+#	can_deify_ruler = yes
+#	sacrifice_icon = sacrifice_incense
+#	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+#}
+#isis_religion = { # Assetic
+#	color = hsv { 0.3  0.8  1 }
+#	modifier = { 
+#		ruler_popularity_gain = 0.08
+#		global_monthly_civilization = 0.02
+#		character_loyalty = -3
+#	}
+#	religion_category = prophets
+#	can_deify_ruler = yes
+#	sacrifice_icon = sacrifice_incense
+#	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+#}
+#ashur_religion = { # Asshuric
+#	color = hsv { 0.5 1.0 0.5 }
+#	modifier = { 
+#		agressive_expansion_impact = -0.1
+#		global_defensive = 0.1
+#		general_loyalty = -3
+#	}
+#	religion_category = prophets
+#}
 
 #Polytheist
 kushite_pantheon = { # Kushitic
@@ -55,10 +55,10 @@ kushite_pantheon = { # Kushitic
 	}
 	religion_category = pantheon
 }
-zorvan_religion = { # Zurvanism
-	color = { 20 10 250 }
-	religion_category = firetemples
-}
+#zorvan_religion = { # Zurvanism
+#	color = { 20 10 250 }
+#	religion_category = firetemples
+#}
 elamite_pantheon = { # Haltamic
 	color = rgb { 190 35 30 }
 	modifier = {

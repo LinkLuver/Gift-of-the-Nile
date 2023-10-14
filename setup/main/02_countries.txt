@@ -337,6 +337,7 @@ country = {
 
 		ATN = {
 			family = 2000
+			family = 2001
 			government = egyptian_dynasty
 			diplomatic_stance=appeasement_stance
 			primary_culture = akhenite_egyptian
@@ -346,6 +347,14 @@ country = {
 			succession=old_egyptian_succession
 			monarchy_citizen_law = foreign_law_for_minorities
 			monarchy_military_reforms = work_for_the_best
+
+			historical_regnal_numbers = {
+				Iqrefaten  = 3
+				Meriaten = 3
+				Nefertiti = 5
+				Akhenaten = 8
+				Ankhsenebaten = 1
+			}
 
 			technology={
 				military_tech={ level=2 progress=0 }
