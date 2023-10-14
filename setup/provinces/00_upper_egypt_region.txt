@@ -73,13 +73,13 @@
 	freemen={
 		culture="lower_nubian"
 		religion="egyptian_pantheon"
-		amount=1
-	}
-	slaves={
 		amount=2
 	}
+	slaves={
+		amount=4
+	}
 	tribesmen={
-		amount=1
+		amount=3
 	}
 }
 
@@ -156,16 +156,16 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=1
-	}
-	freemen={
 		amount=3
 	}
+	freemen={
+		amount=6
+	}
 	slaves={
-		amount=2
+		amount=10
 	}
 	tribesmen={
-		amount=2
+		amount=5
 	}
 }
 
@@ -173,21 +173,21 @@
 	terrain="flood_plain"
 	culture="akhenite_egyptian"
 	religion="aten_religion"
-	trade_goods="vegetables"
+	trade_goods="stone"
 	civilization_value=31
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=6
+	}
 	citizen={
-		amount=1
+		amount=15
 	}
 	freemen={
-		amount=1
+		amount=17
 	}
 	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
+		amount=20
 	}
 }
 
@@ -203,10 +203,10 @@
 		amount=2
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
@@ -214,7 +214,7 @@
 	terrain="flood_plain"
 	culture="akhenite_egyptian"
 	religion="aten_religion"
-	trade_goods="stone"
+	trade_goods="vegetables"
 	civilization_value=31
 	barbarian_power=0
 	province_rank="settlement"
@@ -222,7 +222,7 @@
 		amount=3
 	}
 	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
@@ -238,13 +238,13 @@
 		amount=1
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
-		amount=1
+		amount=2
 	}
 	holy_site=omen_anhur
 }
@@ -261,10 +261,10 @@
 		amount=3
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
-		amount=1
+		amount=2
 	}
 	holy_site=omen_osiris
 }
@@ -280,8 +280,11 @@
 	citizen={
 		amount=3
 	}
+	freemen={
+		amount=10
+	}
 	slaves={
-		amount=2
+		amount=7
 	}
 	tribesmen={
 		amount=1
@@ -300,7 +303,10 @@
 		amount=3
 	}
 	slaves={
-		amount=1
+		amount=10
+	}
+	freemen={
+		amount=7
 	}
 	tribesmen={
 		amount=3
@@ -317,10 +323,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -336,10 +342,10 @@
 		amount=1
 	}
 	slaves={
-		amount=2
+		amount=4
 	}
 	tribesmen={
-		amount=3
+		amount=6
 	}
 }
 
@@ -352,7 +358,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=3
+		amount=6
 	}
 }
 
@@ -368,10 +374,10 @@
 		amount=1
 	}
 	slaves={
-		amount=2
+		amount=4
 	}
 	tribesmen={
-		amount=1
+		amount=4
 	}
 }
 
@@ -384,10 +390,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
-		amount=2
+		amount=6
 	}
 	tribesmen={
-		amount=2
+		amount=6
 	}
 }
 
@@ -400,10 +406,10 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=1
+		amount=6
 	}
 	citizen={
-		amount=1
+		amount=12
 	}
 	citizen={
 		culture="hebrew"
@@ -416,7 +422,10 @@
 		amount=4
 	}
 	freemen={
-		amount=3
+		amount=13
+	}
+	slaves={
+		amount=15
 	}
 	tribesmen={
 		amount=2
@@ -436,10 +445,10 @@
 		amount=1
 	}
 	slaves={
-		amount=1
+		amount=6
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -455,10 +464,10 @@
 		amount=1
 	}
 	slaves={
-		amount=2
+		amount=4
 	}
 	tribesmen={
-		amount=1
+		amount=6
 	}
 }
 
@@ -471,10 +480,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
-		amount=1
+		amount=6
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -490,10 +499,10 @@
 		amount=1
 	}
 	slaves={
-		amount=1
+		amount=6
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -506,21 +515,21 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=2
+		amount=4
 	}
 	citizen={
 		culture="lower_nubian"
 		religion="egyptian_pantheon"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
-		amount=1
+		amount=8
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 	holy_site=omen_neith
 }

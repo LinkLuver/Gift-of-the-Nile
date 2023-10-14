@@ -1,0 +1,24 @@
+deity_manager = {
+    deities_database = { ### KEYS 30200 - 3299 ###
+    	30200 = {
+    		key = omen_sobekra
+    		deity = deity_sobekra
+    	}
+    	30201 = {
+    		key = omen_sobekaten
+    		deity = deity_sobekaten
+    	}
+    	30202 = {
+    		key = omen_sobekamun
+    		deity = deity_sobekamun
+    	}
+    	30203 = {
+    		key = omen_sobekatum
+    		deity = deity_sobekatum
+    	}
+    	30204 = {
+    		key = omen_renenutet
+    		deity = deity_renenutet
+    	}
+	}
+}

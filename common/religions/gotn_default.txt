@@ -11,18 +11,18 @@ aten_religion = { # Atenic
 	sacrifice_icon = sacrifice_incense
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
-#sobek_religion = { # Sobekite
-#	color = hsv { 0.4 0.9 0.3 }
-#	modifier = { 
-#		ruler_popularity_gain = 0.08
-#		global_monthly_civilization = 0.02
-#		character_loyalty = -3
-#	}
-#	religion_category = prophets
-#	can_deify_ruler = yes
-#	sacrifice_icon = sacrifice_incense
-#	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
-#}
+sobek_religion = { # Sobekite
+	color = hsv { 0.4 0.9 0.35 }
+	modifier = { 
+		ruler_popularity_gain = 0.08
+		global_monthly_civilization = 0.02
+		character_loyalty = -3
+	}
+	religion_category = pantheon
+	can_deify_ruler = yes
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
 #isis_religion = { # Assetic
 #	color = hsv { 0.3  0.8  1 }
 #	modifier = { 
