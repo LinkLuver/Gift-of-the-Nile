@@ -1,5 +1,5 @@
 ﻿east_levantine = {	
-	color = hsv { 0.05 1.0 0.5 }
+	color = rgb { 36 36 36 }
 	
 	primary = heavy_cavalry
 	second = heavy_infantry
@@ -448,8 +448,6 @@
 				Maghdali
 			}
 		}
-		assyrian = {}
-		babylonian = { levy_template = levy_babylonian }
 		carduchi = { levy_template = levy_anatolian }
 		hittite = { levy_template = levy_west_levantine }
 	}

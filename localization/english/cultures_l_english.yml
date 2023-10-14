@@ -10,6 +10,7 @@
  celto_pannonian_group:0 "Galatian"
  dacia_group:1 "Dacian"
  east_levantine:0 "Aramaic"
+ mesopotamian:0 "Mesopotamian"
  gaelic:0 "Gaelic"
  gallic:0 "Gallic"
  germanic:0 "Germanic"
@@ -418,9 +419,11 @@
  #East Levantine
  aramaic:0 "Aramaic"
  syriac:0 "Syriac"
+ carduchi:0 "Cardukoi"
+ #Mesopotamian
  assyrian:0 "Assyrian"
  babylonian:0 "Babylonian"
- carduchi:0 "Cardukoi"
+ dilmunite:0 "Dilmunite"
  #South Levantine
  hadhrami:0 "Hadhrami"
  qatabanian:0 "Qatabanian"
