@@ -40,7 +40,7 @@ family={
 		}
 		6={
 			key="Lagid"
-			owner=MAC
+			owner=CYR
 			culture = macedonian
 			prestige=200
 			color = 0
@@ -48,7 +48,7 @@ family={
 		7={
 			key = "Magid"
 			culture = macedonian
-			owner=MAC
+			owner=CYR
 			prestige=200
 			color = 1
 		}
@@ -650,6 +650,31 @@ family={
 			prestige=250
 			culture=carthaginian
 			owner=GAD
+		}
+		#Arabia
+		300 = {
+			key = "Tasmid"
+			prestige=300
+			culture=yamama
+			owner=AX0
+		}
+		301 = {
+			key = "al-Yamama"
+			prestige=300
+			culture=yamama
+			owner=AX3
+		}
+		302 = {
+			key = "Jadisid"
+			prestige=300
+			culture=yamama
+			owner=AX3
+		}
+		303 = {
+			key = "Aaditid"
+			prestige=300
+			culture=adite
+			owner=AX6
 		}
 		#GOTN Egypt
 		2000 = {

@@ -1,0 +1,11 @@
+﻿
+thutmosid = {    
+	type = status
+	
+	prominence = 20
+	country = {
+		omen_power = 0.1
+		improve_relation_impact = 0.15
+	}
+}
+

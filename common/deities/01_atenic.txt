@@ -5,7 +5,7 @@ deity_akhenaten = {
 			very_common_deity_trigger = {
 				RELIGION = aten_religion
 			}
-			deity:omen_aten = {
+			deity:omen_akhenaten = {
 				holy_site_deity_check_trigger = yes
 			}
 		}
@@ -77,7 +77,7 @@ deity_atenhotep = {
 			common_deity_trigger = {
 				RELIGION = aten_religion
 			}
-			deity:omen_aten = {
+			deity:omen_atenhotep = {
 				holy_site_deity_check_trigger = yes
 			}
 		}

@@ -40,7 +40,7 @@ country = {
 				}
 			}
 
-			treasures = { 225 226 }
+			treasures = { 225 }
 
 			capital = 626
 
@@ -65,7 +65,7 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
-			treasures = { 225 226 }
+			treasures = { 226 }
 
 			capital = 641
 
@@ -336,6 +336,7 @@ country = {
 		}
 
 		ATN = {
+			family = 2000
 			government = egyptian_dynasty
 			diplomatic_stance=appeasement_stance
 			primary_culture = akhenite_egyptian
@@ -1441,7 +1442,6 @@ country = {
 			own_control_core = 	{
 				740 741 742 749 #north_phoenicia
 				738 750 751 752 753 757 758 759 760 763 764 765 #syria_coele_region
-				673 675 718 721 722 733 734 735 736 737 #decapolis_region
 			}
 
 			pantheon = {
@@ -1487,7 +1487,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				807 809 810 1869 847 805 808
+				807 809 810 1869
 				817 818 819 820 844 848 849 854 853 879 #osroene_region
 			}
 
@@ -1867,7 +1867,7 @@ country = {
 			capital = 729
 
 			own_control_core =  {
-				729 700 702 699 709 708 730 703 707 728 706 705 704 709
+				729 700 702 699 709 708 730 703 707 728 706 705 704
 			}
 		}
 
@@ -1887,7 +1887,7 @@ country = {
 			capital = 718
 
 			own_control_core =  {
-				718 721 675 733 722 720 714 715 716 713
+				718 721 675 720 714 715 716 713
 			}
 		}
 		QAY = {
@@ -1898,7 +1898,7 @@ country = {
 			capital = 732
 
 			own_control_core = 	{
-				739 723 648 674 648 733 722 737 735 734 732 736
+				739 723 733 722 737 735 734 732 736
 			}
 		}
 		GAL = {
@@ -1923,12 +1923,6 @@ country = {
 			diplomatic_stance=warmongering_stance
 			monarchy_military_reforms = work_for_the_best
 			capital = 379
-			poptype_rights = {
-				{
-					culture = thessalian
-					type = citizen
-				}
-			}
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -1982,6 +1976,7 @@ country = {
 		}
 		TRE = {
 			family = 8
+			family = 5
 			government = aristocratic_monarchy
 			religion = roman_pantheon
 			diplomatic_stance=warmongering_stance
@@ -3377,6 +3372,8 @@ country = {
 		CYR = {
 			family = 6
 			family = 7
+			family = 4
+			family = 66
 			government = piratical_diarchy
 			primary_culture = cyrenaican
 			religion = roman_pantheon
@@ -8334,15 +8331,15 @@ country = {
 		}
 
 		QDA = {
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = qedarite
 			religion = arabian_pantheon
-			centralization=-30
+			centralization=20
 
 			capital = 4718
 
 			own_control_core = 	{
-				4717 4718 4721 7559 7560
+				4717 4718 4721 7559 7560 7561
 			}
 		}
 
@@ -8363,6 +8360,7 @@ country = {
 
 			own_control_core = 	{
 				4668 4700 4672 4674 4673 4690 4701 4702 4640 4699 4639 4671 4670 4669 4638 4636 3480 3479 7601 4635 4634 7578 4633
+				8838 8839 8841
 			}
 		}
 
@@ -8381,7 +8379,7 @@ country = {
 			capital = 4678
 
 			own_control_core = 	{
-				4676 4677 4712 4657 4658 4685 4679 4678 4710 4711 4675 4703 4704 4705
+				4676 4677 4712 4657 4658 4685 4679 4678 4710 4711 4675 4703 4704 4705 4706 4707 4708
 			}
 		}
 
@@ -9832,7 +9830,7 @@ country = {
 			capital = 7575
 
 			own_control_core = {
-				7575 7574 4631 4629 4628 4653 4624 4626 4627 4630 4632 4623 7576 7577
+				7575 7574 4631 4629 4628 4653 4624 4626 4627 4630 4632 4623 7576 7577 8890 8891 8892
 			}
 		}
 
@@ -13562,6 +13560,65 @@ country = {
 			capital = 6749
 			own_control_core = {
 				6749 6752
+			}
+		}
+
+		AX0 = { #Tasm
+			family = 300
+			government = tribal_kingdom
+			primary_culture = yamama
+			religion = arabian_pantheon
+			capital = 8824
+			own_control_core = {
+				8823 8824 8825 8826 8827 8828 8875
+			}
+		}
+		
+		AX1 = { #Kindah
+			government = tribal_federation
+			primary_culture = kindite
+			religion = arabian_pantheon
+			#Vassal of Ma'in
+			
+			capital = 8837
+			own_control_core = {
+				8835 8836 8837 8840 8842
+			}
+		}
+		
+		
+		AX3 = { #Jadis
+			family = 301
+			family = 302
+			government = tribal_kingdom
+			primary_culture = yamama
+			religion = arabian_pantheon
+			#Vassal of Tasm
+			
+			capital = 8831
+			own_control_core = {
+				8829 8830 8831 8832 8833
+			}
+		}
+		
+		AX5 = { #Jubbah
+			government = tribal_kingdom
+			primary_culture = qedarite
+			religion = arabian_pantheon
+			capital = 8815
+			own_control_core = {
+				8815
+			}
+		}
+		
+		AX6 = { #Aad
+			family = 303
+			government = tribal_kingdom
+			primary_culture = adite
+			religion = arabian_pantheon
+			capital = 8852
+			own_control_core = {
+				8852 8853 8862 8863 8864
 			}
 		}
 		

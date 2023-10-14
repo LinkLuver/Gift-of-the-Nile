@@ -25,7 +25,7 @@ deity_inshushinak = { # FERTILITY
 		fertility_apotheosis_food_effect = yes
 	}
 }
-deity_napirisha = { # WISDOM
+deity_napirisha = { # culture
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 
@@ -38,11 +38,11 @@ deity_napirisha = { # WISDOM
 			}
 		}
 	}
-	icon = deity_wisdom
+	icon = deity_culture
 	passive_modifier = { global_citizen_output = deity_global_citizen_output_svalue }
 	omen = { global_monthly_civilization = omen_global_monthly_civilization_svalue }
 	religion = elamite_pantheon
-	deity_category = wisdom
+	deity_category = culture
 	deification_trigger = {
 		can_deify_trigger = yes
 	}
@@ -169,11 +169,11 @@ deity_tirutur = { # CULTURE
 			}
 		}
 	}
-	icon = deity_wisdom
+	icon = deity_culture
 	passive_modifier = { global_pop_assimilation_speed_modifier = deity_global_pop_assimilation_speed_modifier_svalue }
 	omen = { monthly_political_influence_modifier = deity_monthly_political_influence_modifier_svalue }
 	religion = elamite_pantheon
-	deity_category = wisdom 
+	deity_category = culture 
 	deification_trigger = {
 		can_deify_trigger = yes
 	}
@@ -338,7 +338,7 @@ deity_narundi = { # WAR
 		military_apotheosis_manpower_effect = yes
 	}
 }
-deity_nahiti = { # JUSTICE
+deity_nahiti = { # economy
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 
@@ -355,7 +355,7 @@ deity_nahiti = { # JUSTICE
 	passive_modifier = { global_capital_trade_routes = deity_global_capital_trade_routes_svalue }
 	omen = { global_commerce_modifier = omen_global_commerce_modifier_svalue }
 	religion = elamite_pantheon
-	deity_category = justice 
+	deity_category = economy 
 	deification_trigger = {
 		can_deify_trigger = yes
 	}
@@ -364,7 +364,7 @@ deity_nahiti = { # JUSTICE
 		economy_apotheosis_capital_citizens_effect = yes
 	}
 }
-deity_humban = { # JUSTICE
+deity_humban = { # economy
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
@@ -390,11 +390,11 @@ deity_humban = { # JUSTICE
 			}
 		}
 	}
-	icon = deity_justice
+	icon = deity_economy
 	passive_modifier = { monthly_corruption = deity_monthly_corruption_svalue }
 	omen = { ruler_popularity_gain = omen_ruler_popularity_gain_svalue }
 	religion = elamite_pantheon
-	deity_category = justice 
+	deity_category = economy 
 	deification_trigger = {
 		can_deify_trigger = yes
 	}
@@ -559,7 +559,7 @@ deity_napir = { # CULTURE
 		economy_apotheosis_province_improvement_effect = yes
 	}
 }
-deity_ishmekarab = { # JUSTICE
+deity_ishmekarab = { # economy
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 
@@ -572,11 +572,11 @@ deity_ishmekarab = { # JUSTICE
 			}
 		}
 	}
-	icon = deity_justice
+	icon = deity_economy
 	passive_modifier = { stability_monthly_change = deity_stability_monthly_change }
 	omen = { monthly_corruption = omen_monthly_corruption }
 	religion = elamite_pantheon
-	deity_category = justice 
+	deity_category = economy 
 	deification_trigger = {
 		can_deify_trigger = yes
 	}
@@ -891,11 +891,11 @@ deity_shipak = { # CULTURE
 			}
 		}
 	}
-	icon = deity_justice
+	icon = deity_economy
 	passive_modifier = { monthly_political_influence_modifier = deity_monthly_political_influence_modifier_svalue }
 	omen = { global_monthly_state_loyalty = omen_global_monthly_state_loyalty }
 	religion = mesopotamian_religion
-	deity_category = justice 
+	deity_category = economy 
 	deification_trigger = {
 		can_deify_trigger = yes
 	}
@@ -982,7 +982,7 @@ deity_maruttash = { # CULTURE
 		military_apotheosis_defensive_effect = yes
 	}
 }
-deity_kamulla = { # WISDOM
+deity_kamulla = { # culture
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		primary_culture = cossian
@@ -995,11 +995,11 @@ deity_kamulla = { # WISDOM
 			}
 		}
 	}
-	icon = deity_wisdom
+	icon = deity_culture
 	passive_modifier = { global_citizen_happyness = deity_global_citizen_happiness_svalue }
 	omen = { religious_tech_investment = omen_religious_tech_investment_svalue } #Bonus from Omen
 	religion = mesopotamian_religion
-	deity_category = wisdom #This Deity uses a Wisdom Slot
+	deity_category = culture #This Deity uses a culture Slot
 	deification_trigger = {
 		can_deify_trigger = yes
 	}
@@ -1256,7 +1256,7 @@ deity_apku = { # ECONOMY
 	passive_modifier = { global_nobles_happyness = deity_global_nobles_happiness_svalue }
 	omen = { civic_tech_investment = omen_civic_tech_investment_svalue }
 	religion = mesopotamian_religion
-	deity_category = wisdom 
+	deity_category = culture 
 	deification_trigger = {
 		can_deify_trigger = yes
 	}
