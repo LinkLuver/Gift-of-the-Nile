@@ -23,7 +23,7 @@
 453={ #Taposiris Megale
 	terrain="desert"
 	culture="tenuwan_egyptian"
-	religion="egyptian_pantheon"
+	religion="aten_religion"
 	trade_goods="salt"
 	civilization_value=33
 	barbarian_power=0
@@ -83,7 +83,7 @@
 501={ #Heliopolis
 	terrain="flood_plain"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="aten_religion"
 	trade_goods="cloth"
 	civilization_value=42
 	barbarian_power=0
@@ -145,14 +145,17 @@
 	civilization_value=33
 	barbarian_power=0
 	province_rank="city"
-	citizen={
+	nobles={
 		amount=6
 	}
+	citizen={
+		amount=16
+	}
 	freemen={
-		amount=2
+		amount=15
 	}
 	slaves={
-		amount=9
+		amount=19
 	}
 }
 
@@ -179,7 +182,7 @@
 505={ #Klysma
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="aten_religion"
 	trade_goods="cloth"
 	civilization_value=33
 	barbarian_power=0
@@ -597,7 +600,7 @@
 521={ #Sebennytos
 	terrain="flood_plain"
 	culture="neithic_egyptian"
-	religion="egyptian_pantheon"
+	religion="aten_religion"
 	trade_goods="hemp"
 	civilization_value=38
 	barbarian_power=0
@@ -956,7 +959,12 @@
 		amount=5
 	}
 	freemen={
-		amount=3
+		religion="sobek_religion"
+		amount=2
+	}
+	freemen={
+		religion="aten_religion"
+		amount=2
 	}
 	slaves={
 		amount=4
@@ -981,7 +989,8 @@
 		amount=14
 	}
 	tribesmen={
-		amount=1
+		religion="sobek_religion"
+		amount=4
 	}
 }
 
@@ -994,12 +1003,12 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=2
+		amount=3
 	}
 	nobles={
 		culture="akhenite_egyptian"
 		religion="aten_religion"
-		amount=1
+		amount=2
 	}
 	citizen={
 		culture="hebrew"
@@ -1007,12 +1016,12 @@
 		amount=3
 	}
 	citizen={
-		amount=4
+		amount=6
 	}
 	freemen={
 		culture="hebrew"
 		religion="judaism"
-		amount=3
+		amount=6
 	}
 	freemen={
 		amount=22
@@ -1026,7 +1035,7 @@
 540={ #Dionysias
 	terrain="oasis"
 	culture="middle_egyptian"
-	religion="aten_religion"
+	religion="sobek_religion"
 	trade_goods="grain"
 	civilization_value=33
 	barbarian_power=0
@@ -1057,7 +1066,7 @@
 541={ #Karanis
 	terrain="oasis"
 	culture="middle_egyptian"
-	religion="aten_religion"
+	religion="sobek_religion"
 	trade_goods="grain"
 	civilization_value=33
 	barbarian_power=0
@@ -1068,6 +1077,7 @@
 		amount=6
 	}
 	freemen={
+		religion="aten_religion"
 		amount=6
 	}
 	slaves={
@@ -1087,6 +1097,7 @@
 		amount=4
 	}
 	freemen={
+		religion="sobek_religion"
 		amount=3
 	}
 	slaves={
@@ -1106,7 +1117,11 @@
 		amount=10
 	}
 	freemen={
-		amount=8
+		amount=4
+	}
+	freemen={
+		religion="sobek_religion"
+		amount=4
 	}
 	slaves={
 		amount=19
@@ -1135,14 +1150,15 @@
 		amount=10
 	}
 	freemen={
-		religion="egyptian_pantheon"
-		amount=2
+		religion="sobek_religion"
+		amount=4
 	}
 	slaves={
 		religion="egyptian_pantheon"
 		amount=10
 	}
 	slaves={
+		religion="sobek_religion"
 		amount=3
 	}
 	holy_site=omen_set
@@ -1171,6 +1187,7 @@
 		amount=8
 	}
 	tribesmen={
+		religion="sobek_religion"
 		amount=3
 	}
 }
@@ -1184,6 +1201,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		religion="sobek_religion"
 		amount=4
 	}
 	slaves={
@@ -1200,9 +1218,11 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		religion="egyptian_pantheon"
 		amount=2
 	}
 	freemen={
+		religion="sobek_religion"
 		amount=2
 	}
 	slaves={
@@ -1222,6 +1242,7 @@
 		amount=3
 	}
 	freemen={
+		religion="sobek_religion"
 		amount=2
 	}
 	slaves={
@@ -1241,9 +1262,11 @@
 		amount=3
 	}
 	freemen={
+		religion="egyptian_pantheon"
 		amount=1
 	}
 	slaves={
+		religion="sobek_religion"
 		amount=3
 	}
 	tribesmen={
@@ -1512,10 +1535,11 @@
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
+		religion="sobek_religion"
 		amount=1
 	}
 	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
@@ -1528,9 +1552,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
+		religion="sobek_religion"
 		amount=2
 	}
 }
@@ -1544,7 +1569,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
@@ -1557,10 +1582,11 @@
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
+		religion="aten_religion"
 		amount=1
 	}
 	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
@@ -1622,20 +1648,28 @@
 5546={ #Pseneros
 	terrain="desert"
 	culture="middle_egyptian"
-	religion="egyptian_pantheon"
+	religion="sobek_religion"
 	trade_goods="dates"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=8
+	}
 	tribesmen={
-		amount=1
+		religion="aten_religion"
+		amount=4
+	}
+	slaves={
+		religion="egyptian_pantheon"
+		amount=3
 	}
 }
 
 5547={ #Philoteris
 	terrain="oasis"
 	culture="middle_egyptian"
-	religion="aten_religion"
+	religion="sobek_religion"
 	trade_goods="dates"
 	civilization_value=31
 	barbarian_power=0
@@ -1644,6 +1678,7 @@
 		amount=2
 	}
 	tribesmen={
+		religion="egyptian_pantheon"
 		amount=1
 	}
 }
@@ -1657,7 +1692,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
@@ -1673,10 +1708,15 @@
 		amount=7
 	}
 	freemen={
+		religion="sobek_religion"
 		amount=3
 	}
 	slaves={
 		amount=7
+	}
+	slaves={
+		religion=aten_religion
+		amount=1
 	}
 }
 

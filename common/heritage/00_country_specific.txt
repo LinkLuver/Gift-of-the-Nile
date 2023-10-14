@@ -42,6 +42,20 @@ Dodekaschoinos_heritage = {
         tag = DOD
     }
 }
+aten_heritage = {
+    modifier = {
+        #good
+        omen_power = 0.15
+        discipline = 0.05
+
+        #bad
+        monthly_corruption = 0.03
+    }
+
+    trigger = {
+        tag = ATN
+    }
+}
 
 
 #ONLY for heritages with a specific tag(list) as trigger
