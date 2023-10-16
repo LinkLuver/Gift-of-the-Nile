@@ -115,7 +115,7 @@
 		religion="judaism"
 		amount=1
 	}
-	holy_site=omen_ra
+	holy_site=omen_atenhotep
 }
 
 502={ #Heroopolis
@@ -157,6 +157,7 @@
 	slaves={
 		amount=19
 	}
+	holy_site=omen_bastet
 }
 
 504={ #Leontopolis
@@ -197,6 +198,7 @@
 		amount=1
 	}
 	port_building=1
+	holy_site=omen_tutankhaten
 }
 
 506={ #Arsinoe
@@ -460,6 +462,7 @@
 	slaves={
 		amount=11
 	}
+	holy_site=omen_nefertiti
 }
 
 516={ #Alexandreia
@@ -526,6 +529,7 @@
 		amount=25
 	}
 	port_building=1
+	holy_site=omen_ra
 }
 
 518={ #Boutos
@@ -569,6 +573,7 @@
 		amount=22
 	}
 	port_building=1
+	holy_site=omen_neith
 }
 
 520={ #Xois
@@ -1029,7 +1034,7 @@
 	slaves={
 		amount=10
 	}
-	holy_site=omen_sobek
+	holy_site=omen_sobekaten
 }
 
 540={ #Dionysias
@@ -1161,7 +1166,7 @@
 		religion="sobek_religion"
 		amount=3
 	}
-	holy_site=omen_set
+	#holy_site=omen_atenhotep
 }
 
 545={ #Oxyrrhynchos
@@ -1190,6 +1195,7 @@
 		religion="sobek_religion"
 		amount=3
 	}
+	holy_site=omen_medjed
 }
 
 546={ #Kynopolis
@@ -1605,7 +1611,7 @@
 
 5542={ #Murta
 	terrain="desert"
-	culture="meshweshi"
+	culture="libyan"
 	religion="egyptian_pantheon"
 	trade_goods="fur"
 	civilization_value=28
@@ -1621,7 +1627,7 @@
 
 5543={ #Magrab
 	terrain="desert"
-	culture="meshweshi"
+	culture="libyan"
 	religion="egyptian_pantheon"
 	trade_goods="dates"
 	civilization_value=28
@@ -1634,7 +1640,7 @@
 
 5544={ #Gheron
 	terrain="desert"
-	culture="meshweshi"
+	culture="libyan"
 	religion="egyptian_pantheon"
 	trade_goods="leather"
 	civilization_value=28
@@ -1664,6 +1670,7 @@
 		religion="egyptian_pantheon"
 		amount=3
 	}
+	holy_site=omen_sobek
 }
 
 5547={ #Philoteris
@@ -1718,6 +1725,7 @@
 		religion=aten_religion
 		amount=1
 	}
+	holy_site=omen_sobekra
 }
 
 7668={ #Bilbeis

@@ -1,20 +1,20 @@
 ﻿### General Deity Checks ###
-deity_sobekra = {
+deity_sobekra = { # WAR
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = {
-				RELIGION = egyptian_pantheon
+				RELIGION = sobek_religion
 			}
 			deity:omen_sobekra = {
 				holy_site_deity_check_trigger = yes
 			}
 		}
 	}
-	icon = deity_kemetic_culture
+	icon = deity_kemetic_war
 	passive_modifier = { monthly_military_experience_modifier = deity_monthly_military_experience_modifier_svalue }
-	omen = { agressive_expansion_monthly_change = omen_aggressive_expansion_monthly_change_svalue } #Bonus from Omen
-	religion = egyptian_pantheon
+	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
+	religion = sobek_religion
 	deity_category = culture #This Deity uses a War slot.
 
 	deification_trigger = {
@@ -25,12 +25,12 @@ deity_sobekra = {
 		military_apotheosis_manpower_effect = yes
 	}
 }
-deity_sobekaten = {
+deity_sobekaten = { # CULTURE
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = {
-				RELIGION = egyptian_pantheon
+				RELIGION = sobek_religion
 			}
 			deity:omen_sobekra = {
 				holy_site_deity_check_trigger = yes
@@ -38,9 +38,9 @@ deity_sobekaten = {
 		}
 	}
 	icon = deity_kemetic_culture
-	passive_modifier = { monthly_military_experience_modifier = deity_monthly_military_experience_modifier_svalue }
-	omen = { agressive_expansion_monthly_change = omen_aggressive_expansion_monthly_change_svalue } #Bonus from Omen
-	religion = egyptian_pantheon
+	passive_modifier = { happiness_for_same_culture_modifier = deity_happiness_for_same_culture_modifier_svalue }
+	omen = { monthly_military_experience_modifier = deity_monthly_military_experience_modifier_svalue } #Bonus from Omen
+	religion = sobek_religion
 	deity_category = war #This Deity uses a War slot.
 
 	deification_trigger = {
@@ -48,25 +48,25 @@ deity_sobekaten = {
 	}
 
 	on_activate = {
-		military_apotheosis_manpower_effect = yes
+		culture_apotheosis_assimilate_effect = yes
 	}
 }
-deity_sobekamun = {
+deity_sobekamun = { # ECONOMY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = {
-				RELIGION = egyptian_pantheon
+				RELIGION = sobek_religion
 			}
-			deity:omen_sobekra = {
+			deity:omen_sobekamun = {
 				holy_site_deity_check_trigger = yes
 			}
 		}
 	}
 	icon = deity_kemetic_culture
-	passive_modifier = { monthly_military_experience_modifier = deity_monthly_military_experience_modifier_svalue }
-	omen = { agressive_expansion_monthly_change = omen_aggressive_expansion_monthly_change_svalue } #Bonus from Omen
-	religion = egyptian_pantheon
+	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
+	omen = { global_nobles_desired_pop_ratio = 0.07 } #Bonus from Omen
+	religion = sobek_religion
 	deity_category = economy #This Deity uses a War slot.
 
 	deification_trigger = {
@@ -74,50 +74,54 @@ deity_sobekamun = {
 	}
 
 	on_activate = {
-		military_apotheosis_manpower_effect = yes
+		economy_income_effect = yes
 	}
 }
-deity_sobekatum = {
+deity_sobekatum = { # FERTILITY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = {
-				RELIGION = egyptian_pantheon
+				RELIGION = sobek_religion
 			}
-			deity:omen_sobekra = {
+			deity:omen_sobekatum = {
 				holy_site_deity_check_trigger = yes
 			}
 		}
 	}
-	icon = deity_kemetic_culture
-	passive_modifier = { monthly_military_experience_modifier = deity_monthly_military_experience_modifier_svalue }
-	omen = { agressive_expansion_monthly_change = omen_aggressive_expansion_monthly_change_svalue } #Bonus from Omen
-	religion = egyptian_pantheon
-	deity_category = economy #This Deity uses a War slot.
+	icon = deity_kemetic_fertility
+	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
+	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier } #Bonus from Omen
+	religion = sobek_religion
+	deity_category = fertility #This Deity uses a War slot.
 
 	deification_trigger = {
 		can_deify_trigger = yes
 	}
 
 	on_activate = {
-		military_apotheosis_manpower_effect = yes
+		fertility_apotheosis_capital_effect = yes
 	}
 }
-deity_renenutet = {
+### General Deity Checks ###
+deity_renenutet_nefertiti = { # FERTILITY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = {
+				RELIGION = sobek_religion
+			}
+			common_deity_trigger = {
 				RELIGION = egyptian_pantheon
 			}
-			deity:omen_sobekra = {
+			deity:omen_renenutet = {
 				holy_site_deity_check_trigger = yes
 			}
 		}
 	}
-	icon = deity_kemetic_culture
-	passive_modifier = { monthly_military_experience_modifier = deity_monthly_military_experience_modifier_svalue }
-	omen = { agressive_expansion_monthly_change = omen_aggressive_expansion_monthly_change_svalue } #Bonus from Omen
+	icon = deity_kemetic_fertility
+	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
+	omen = { global_population_growth = omen_global_population_growth } #Bonus from Omen
 	religion = egyptian_pantheon
 	deity_category = fertility #This Deity uses a War slot.
 
@@ -126,6 +130,6 @@ deity_renenutet = {
 	}
 
 	on_activate = {
-		military_apotheosis_manpower_effect = yes
+		fertility_apotheosis_capital_slaves_effect = yes
 	}
 }

@@ -20,5 +20,9 @@ deity_manager = {
     		key = omen_renenutet
     		deity = deity_renenutet
     	}
+    	30205 = {
+    		key = omen_medjed
+    		deity = deity_medjed
+    	}
 	}
 }

@@ -1,0 +1,196 @@
+﻿country_decisions = {
+	form_dynasty_dazzling_crocodile = {
+		potential = {
+			num_of_cities >= 1
+			government = nomarchy
+			primary_culture = middle_egyptian
+			religion = sobek_religion
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 539
+					province_id = 544
+					province_id = 5546
+					province_id = 5549
+					province_id = 438
+					province_id = 543
+					province_id = 545
+					province_id = 550
+				}
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = formable_not_dynasty_exists
+				NOT = {
+					any_country = {
+						tag = FD1
+					}
+				}
+			}
+			c:HNT = { has_land = no }
+			can_form_nation_trigger = yes
+			owns_or_subject_owns_area = heptanomis_area
+		}
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			custom_tooltip = "egyptian_dynasty_formed_tooltip"
+			change_government = egyptian_dynasty
+			change_country_name = "FD1_NAME"
+			hidden_effect = {
+				change_country_adjective = "FD1_ADJ"
+				change_country_tag = FD1
+			}
+			capital_scope = {
+				capital_formable_small_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_political_influence = influence_large
+			add_2_free_province_investments = yes
+			change_global_variable = {
+				name = egyptian_dynasty_counter
+				add = 1
+			}
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+
+	form_dynasty_crocodile_oasis = {
+		potential = {
+			num_of_cities >= 1
+			government = nomarchy
+			primary_culture = middle_egyptian
+			religion = egyptian_pantheon
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 540
+					province_id = 541
+					province_id = 539
+					province_id = 5546
+					province_id = 5547
+					province_id = 544
+					province_id = 545
+				}
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = formable_not_dynasty_exists
+				NOT = {
+					any_country = {
+						tag = FD2
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns_area = heptanomis_area
+		}
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			custom_tooltip = "egyptian_dynasty_formed_tooltip"
+			change_government = egyptian_dynasty
+			change_country_name = "FD2_NAME"
+			hidden_effect = {
+				change_country_adjective = "FD2_ADJ"
+				change_country_tag = FD2
+			}
+			if = {
+				limit = {
+					OR = {
+						p:539 = { is_capital = no }
+						p:544 = { is_capital = no }
+					}
+				}
+				set_capital = p:540
+			}
+			p:540 = {
+				change_province_name = "merwer"
+			}
+			capital_scope = {
+				capital_formable_small_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_political_influence = influence_large
+			add_1_free_province_investments = yes
+			change_global_variable = {
+				name = egyptian_dynasty_counter
+				add = 1
+			}
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	form_dynasty_medjed = {
+		potential = {
+			num_of_cities >= 1
+			government = nomarchy
+			primary_culture = middle_egyptian
+			religion = aten_religion
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		highlight = {
+			scope:province = {
+				is_in_area = heptanomis_area
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = formable_not_dynasty_exists
+				NOT = {
+					any_country = {
+						tag = FD3
+					}
+				}
+			}
+			c:HNT = { has_land = no }
+			can_form_nation_trigger = yes
+			owns_or_subject_owns_area = heptanomis_area
+		}
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			custom_tooltip = "egyptian_dynasty_formed_tooltip"
+			change_government = egyptian_dynasty
+			change_country_name = "FD3_NAME"
+			hidden_effect = {
+				change_country_adjective = "FD3_ADJ"
+				change_country_tag = FD3
+			}
+			capital_scope = {
+				capital_formable_small_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_political_influence = influence_large
+			add_2_free_province_investments = yes
+			change_global_variable = {
+				name = egyptian_dynasty_counter
+				add = 1
+			}
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+} 
+

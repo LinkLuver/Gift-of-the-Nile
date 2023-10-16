@@ -1,0 +1,70 @@
+﻿country_decisions = {
+	become_nome = {
+		potential = {
+			is_ai = yes
+			NOR = {
+				tag = EGY
+				tag = ATN
+				tag = HNT
+			}
+			OR = {
+				capital_scope = { is_in_region = lower_egypt_region }
+				capital_scope = { is_in_region = upper_egypt_region }
+				#has_variable = become_nome_pass
+			}
+			country_culture_group = north_african
+			is_monarchy = yes
+			NOR = {
+				government = egyptian_dynasty
+				government = nomarchy
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			change_government = nomarchy
+			switch_government_type_event_clearup_effect = yes
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+	revolt_dynasty = {
+		potential = {
+			is_ai = yes
+			war = no
+			OR = {
+				tag = EGY
+				tag = ATN
+				tag = HNT
+			}
+			OR = {
+				capital_scope = { is_in_region = lower_egypt_region }
+				capital_scope = { is_in_region = upper_egypt_region }
+				#has_variable = become_nome_pass
+			}
+			country_culture_group = north_african
+			is_monarchy = yes
+			NOR = {
+				government = egyptian_dynasty
+				government = nomarchy
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			change_government = egyptian_dynasty
+			switch_government_type_event_clearup_effect = yes
+			change_global_variable = {
+				name = egyptian_dynasty_counter
+				add = 1
+			}
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+} 
+

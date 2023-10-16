@@ -1,0 +1,153 @@
+﻿country_decisions = {
+	
+	form_egypt = { #Shouldn't be formed by subjects
+		
+		potential = {
+			num_of_cities >= 1
+			OR = {
+				country_culture_group = north_african #Egyptian
+				country_culture_group = meroitic_group
+			}
+			is_monarchy = yes
+			#NOT = {
+			#	tag = EGY
+			#}
+			NOT = {
+				tag = EGT
+			}
+			NOT = {
+				tag = KSH
+			}			
+			OR = {
+				is_ai = no
+				num_of_cities >= 20
+			}
+			NOT = {
+				is_endgame_tag_trigger = yes
+				is_tier_2_formable_trigger = yes
+			}
+		}
+		
+		highlight = {
+		scope:province = {
+				OR = {
+					province_id = 500 #Memphis
+					province_id = 503 #Bubastis
+					province_id = 509 #Pelusium
+					province_id = 534 #Mendes
+					province_id = 516 #Alexandria
+					province_id = 539 #Krokodilopolis
+					province_id = 561 #Abydos
+					province_id = 569 #Diospolis Magna
+					province_id = 591 #Syene
+					province_id = 519 #Sais
+					province_id = 504 #Taremu
+					province_id = 5537 #Siwa
+					province_id = 5514 #Farafra
+					province_id = 544 #Henen-Hesut
+					province_id = 517 #Hermopolis
+					province_id = 515 #Per-Merit
+					province_id = 520 #Xois
+					province_id = 518 #Buto
+					province_id = 521 #Tjeb-Netjer
+					province_id = 511 #Hut-Waret
+					province_id = 501 #Awnu
+					province_id = 502 #Per-Atum
+					province_id = 505 #Per-Aten
+					province_id = 545 #Per-Medjed
+					province_id = 557 #Akhetaton
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = egypt_not_existing
+				NOT = {
+					any_country = {
+						tag = EGT
+					}
+				}
+				#NOT = {
+				#	any_country = {
+				#		tag = EGY
+				#	}
+				#}
+			}
+			is_subject = no
+			can_form_nation_trigger = yes
+			owns_or_subject_owns = 500 #Memphis
+			owns_or_subject_owns = 503 #Bubastis
+			owns_or_subject_owns = 509 #Pelusium
+			owns_or_subject_owns = 534 #Mendes
+			owns_or_subject_owns = 516 #Alexandria
+			owns_or_subject_owns = 539 #Krokodilopolis
+			owns_or_subject_owns = 561 #Abydos
+			owns_or_subject_owns = 569 #Diospolis Magna
+			owns_or_subject_owns = 591 #Syene
+			owns_or_subject_owns = 519 #Sais
+			owns_or_subject_owns = 504 #Taremu
+			owns_or_subject_owns = 5537 #Siwa
+			owns_or_subject_owns = 5514 #Farafra
+			owns_or_subject_owns = 544 #Henen-Hesut
+			owns_or_subject_owns = 517 #Hermopolis
+			owns_or_subject_owns = 515 #Per-Merit
+			owns_or_subject_owns = 520 #Xois
+			owns_or_subject_owns = 518 #Buto
+			owns_or_subject_owns = 521 #Tjeb-Netjer
+			owns_or_subject_owns = 511 #Hut-Waret
+			owns_or_subject_owns = 501 #Awnu
+			owns_or_subject_owns = 502 #Per-Atum
+			owns_or_subject_owns = 505 #Per-Aten
+			owns_or_subject_owns = 545 #Per-Medjed
+			owns_or_subject_owns = 557 #Akhetaton
+		}
+		
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government = egyptian_dynasty }
+				}
+				change_government = egyptian_dynasty
+				switch_government_type_event_clearup_effect = yes
+			}
+			change_country_name = "KEMET_NAME"
+			hidden_effect = {
+				change_country_flag = EGYPTIAN_FLAG
+				change_country_adjective = "KEMET_ADJECTIVE"
+				change_country_color = "egypt_color"
+				change_country_tag = EGT
+			}
+			custom_tooltip = egypt_claims_tooltip
+			hidden_effect = {
+				region:lower_egypt_region = { formable_region_province_effect = yes }
+				region:upper_egypt_region = { formable_region_province_effect = yes }
+			}
+			capital_scope = {
+				capital_formable_large_effect = yes
+				formable_capital_modifier_large_effect = yes
+			}
+			hidden_effect = {
+				set_variable = {
+					name = ach_new_kingdom_var
+				}
+			}
+			add_5_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+}
+

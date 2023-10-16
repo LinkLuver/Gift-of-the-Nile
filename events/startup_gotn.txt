@@ -128,3 +128,17 @@ gotn_events.4 = {
         name = "gotn_events_4.a"
     }
 }
+
+gotn_events.5 = {
+    type = country_event
+    hidden = yes
+    picture = elephant_battle
+
+    immediate = {
+        set_global_variable = {
+            name = egyptian_dynasty_counter
+            value = 30
+        }
+    }
+    fire_only_once = yes
+}

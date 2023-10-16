@@ -1,0 +1,774 @@
+﻿country_decisions = {
+	form_dynasty_red_sands = {
+		potential = {
+			num_of_cities >= 1
+			government = nomarchy
+			primary_culture = deshretic_egyptian
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 5514
+					province_id = 5513
+					province_id = 5504
+					province_id = 5542
+					province_id = 5532
+				}
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = formable_not_dynasty_exists
+				NOT = {
+					any_country = {
+						tag = RSD
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns = 5514
+			owns_or_subject_owns = 5513
+			owns_or_subject_owns = 5504
+			owns_or_subject_owns = 5542
+			owns_or_subject_owns = 5532
+		}
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			custom_tooltip = "egyptian_dynasty_formed_tooltip"
+			change_government = egyptian_dynasty
+			change_country_color = desheret_red
+			change_country_name = "RSD_NAME"
+			hidden_effect = {
+				change_country_adjective = "RSD_ADJ"
+				change_country_tag = RSD
+			}
+			capital_scope = {
+				capital_formable_small_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_political_influence = influence_large
+			add_1_free_province_investments = yes
+			change_global_variable = {
+				name = egyptian_dynasty_counter
+				add = 1
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						has_city_status = no
+					}
+				}
+				capital_scope = { set_city_status = city }
+			}
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	form_dynasty_of_white_sands = {
+		potential = {
+			num_of_cities >= 1
+			government = nomarchy
+			primary_culture = hethedetian
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 5514
+					province_id = 5513
+					province_id = 5504
+					province_id = 5542
+					province_id = 5532
+				}
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = formable_not_dynasty_exists
+				NOT = {
+					any_country = {
+						tag = WSD
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns = 5514
+			owns_or_subject_owns = 5513
+			owns_or_subject_owns = 5504
+			owns_or_subject_owns = 5542
+			owns_or_subject_owns = 5532
+		}
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			custom_tooltip = "egyptian_dynasty_formed_tooltip"
+			change_government = egyptian_dynasty
+			change_country_name = "WSD_NAME"
+			change_country_color = hedjet_white
+			hidden_effect = {
+				change_country_adjective = "WSD_ADJ"
+				change_country_tag = WSD
+			}
+			capital_scope = {
+				capital_formable_small_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_political_influence = influence_large
+			add_1_free_province_investments = yes
+			change_global_variable = {
+				name = egyptian_dynasty_counter
+				add = 1
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						has_city_status = no
+					}
+				}
+				capital_scope = { set_city_status = city }
+			}
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	form_dynasty_oases = {
+		potential = {
+			num_of_cities >= 1
+			government = nomarchy
+			primary_culture = siwan_egyptian
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 5537
+					province_id = 5550
+					province_id = 5552
+					province_id = 5547
+					province_id = 5514
+				}
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = formable_not_dynasty_exists
+				NOT = {
+					any_country = {
+						tag = DN3
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns = 5537
+			owns_or_subject_owns = 5550
+			owns_or_subject_owns = 5552
+			owns_or_subject_owns = 5547
+			owns_or_subject_owns = 5514
+		}
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			custom_tooltip = "egyptian_dynasty_formed_tooltip"
+			change_government = egyptian_dynasty
+			change_country_color = kemet_black
+			change_country_name = "DN3_NAME"
+			hidden_effect = {
+				change_country_adjective = "DN3_ADJ"
+				change_country_tag = DN3
+			}
+			capital_scope = {
+				capital_formable_small_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_political_influence = influence_large
+			add_1_free_province_investments = yes
+			change_global_variable = {
+				name = egyptian_dynasty_counter
+				add = 1
+			}
+			if = {
+				limit = {
+					p:5537 = {
+						is_capital = no
+					}
+				}
+				set_capital = p:5537
+			}
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	form_dynasty_memphis = {
+		potential = {
+			num_of_cities >= 1
+			government = nomarchy
+			primary_culture = egyptian
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = western_delta_area
+					is_in_area = central_delta_area
+					is_in_area = eastern_delta_area
+					is_in_area = memphis_area
+				}
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = formable_not_dynasty_exists
+				NOT = {
+					any_country = {
+						tag = DN4
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns_area = western_delta_area
+			owns_or_subject_owns_area = central_delta_area
+			owns_or_subject_owns_area = eastern_delta_area
+			owns_or_subject_owns_area = memphis_area
+		}
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			custom_tooltip = "egyptian_dynasty_formed_tooltip"
+			change_government = egyptian_dynasty
+			capital_scope = {
+				capital_formable_large_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_political_influence = influence_large
+			add_3_free_province_investments = yes
+			change_global_variable = {
+				name = egyptian_dynasty_counter
+				add = 1
+			}
+			if = {
+				limit = {
+					tag = MEN
+				}
+				change_country_name = "DN4_MEN_NAME"
+			}
+			if = {
+				limit = {
+					tag = IUN
+				}
+				change_country_name = "DN4_IUN_NAME"
+			}
+			if = {
+				limit = {
+					religion = aten_religion
+				}
+				change_country_flag = "DELTA_ATN_FLAG"
+			}
+			if = {
+				limit = {
+					religion = egyptian_pantheon
+				}
+				change_country_flag = "DELTA_KEM_FLAG"
+			}
+			hidden_effect = {
+				change_country_tag = DN4
+			}
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	form_dynasty_avaris = {
+		potential = {
+			num_of_cities >= 1
+			government = nomarchy
+			primary_culture = avarite_egyptian
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = western_delta_area
+					is_in_area = central_delta_area
+					is_in_area = eastern_delta_area
+					is_in_area = memphis_area
+				}
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = formable_not_dynasty_exists
+				NOT = {
+					any_country = {
+						tag = DN5
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns_area = western_delta_area
+			owns_or_subject_owns_area = central_delta_area
+			owns_or_subject_owns_area = eastern_delta_area
+			owns_or_subject_owns_area = memphis_area
+		}
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			custom_tooltip = "egyptian_dynasty_formed_tooltip"
+			change_government = egyptian_dynasty
+			capital_scope = {
+				capital_formable_large_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_political_influence = influence_large
+			add_3_free_province_investments = yes
+			change_global_variable = {
+				name = egyptian_dynasty_counter
+				add = 1
+			}
+			if = {
+				limit = {
+					tag = BUB
+				}
+				change_country_name = "DN5_BUB_NAME"
+			}
+			if = {
+				limit = {
+					tag = HUT
+				}
+				change_country_name = "DN5_HUT_NAME"
+			}
+			if = {
+				limit = {
+					religion = aten_religion
+				}
+				change_country_flag = "DELTA_ATN_FLAG"
+			}
+			if = {
+				limit = {
+					religion = egyptian_pantheon
+				}
+				change_country_flag = "DELTA_KEM_FLAG"
+			}
+			hidden_effect = {
+				change_country_tag = DN5
+			}
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	form_dynasty_danetic = {
+		potential = {
+			num_of_cities >= 1
+			government = nomarchy
+			primary_culture = danetic_egyptian
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = western_delta_area
+					is_in_area = central_delta_area
+					is_in_area = eastern_delta_area
+					is_in_area = memphis_area
+				}
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = formable_not_dynasty_exists
+				NOT = {
+					any_country = {
+						tag = DN6
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns_area = western_delta_area
+			owns_or_subject_owns_area = central_delta_area
+			owns_or_subject_owns_area = eastern_delta_area
+			owns_or_subject_owns_area = memphis_area
+		}
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			custom_tooltip = "egyptian_dynasty_formed_tooltip"
+			change_government = egyptian_dynasty
+			capital_scope = {
+				capital_formable_large_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_political_influence = influence_large
+			add_3_free_province_investments = yes
+			change_global_variable = {
+				name = egyptian_dynasty_counter
+				add = 1
+			}
+			if = {
+				limit = {
+					tag = DJA
+				}
+				change_country_name = "DN6_DJA_NAME"
+			}
+			if = {
+				limit = {
+					tag = DJD
+				}
+				change_country_name = "DN6_DJD_NAME"
+			}
+			if = {
+				limit = {
+					tag = TRU
+				}
+				change_country_name = "DN6_TRU_NAME"
+			}
+			if = {
+				limit = {
+					religion = aten_religion
+				}
+				change_country_flag = "DELTA_ATN_FLAG"
+			}
+			if = {
+				limit = {
+					religion = egyptian_pantheon
+				}
+				change_country_flag = "DELTA_KEM_FLAG"
+			}
+			hidden_effect = {
+				change_country_tag = DN6
+			}
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	form_dynasty_neith = {
+		potential = {
+			num_of_cities >= 1
+			government = nomarchy
+			primary_culture = neithic_egyptian
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = western_delta_area
+					is_in_area = central_delta_area
+					is_in_area = eastern_delta_area
+					is_in_area = memphis_area
+				}
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = formable_not_dynasty_exists
+				NOT = {
+					any_country = {
+						tag = DN7
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns_area = western_delta_area
+			owns_or_subject_owns_area = central_delta_area
+			owns_or_subject_owns_area = eastern_delta_area
+			owns_or_subject_owns_area = memphis_area
+		}
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			custom_tooltip = "egyptian_dynasty_formed_tooltip"
+			change_government = egyptian_dynasty
+			capital_scope = {
+				capital_formable_large_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_political_influence = influence_large
+			add_3_free_province_investments = yes
+			change_global_variable = {
+				name = egyptian_dynasty_counter
+				add = 1
+			}
+			if = {
+				limit = {
+					tag = NJR
+				}
+				change_country_name = "DN7_NJR_NAME"
+			}
+			if = {
+				limit = {
+					tag = KHA
+				}
+				change_country_name = "DN7_KHA_NAME"
+			}
+			if = {
+				limit = {
+					tag = SAU
+				}
+				change_country_name = "DN7_SAU_NAME"
+			}
+			if = {
+				limit = {
+					tag = PMR
+				}
+				change_country_name = "DN7_PMR_NAME"
+			}
+			if = {
+				limit = {
+					religion = aten_religion
+				}
+				change_country_flag = "DELTA_ATN_FLAG"
+			}
+			if = {
+				limit = {
+					religion = egyptian_pantheon
+				}
+				change_country_flag = "DELTA_KEM_FLAG"
+			}
+			hidden_effect = {
+				change_country_tag = DN7
+			}
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	form_dynasty_wadjet = {
+		potential = {
+			num_of_cities >= 1
+			government = nomarchy
+			primary_culture = wadjetic_egyptian
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = western_delta_area
+					is_in_area = central_delta_area
+					is_in_area = eastern_delta_area
+					is_in_area = memphis_area
+				}
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = formable_not_dynasty_exists
+				NOT = {
+					any_country = {
+						tag = DN8
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns_area = western_delta_area
+			owns_or_subject_owns_area = central_delta_area
+			owns_or_subject_owns_area = eastern_delta_area
+			owns_or_subject_owns_area = memphis_area
+		}
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			custom_tooltip = "egyptian_dynasty_formed_tooltip"
+			change_government = egyptian_dynasty
+			capital_scope = {
+				capital_formable_large_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_political_influence = influence_large
+			add_3_free_province_investments = yes
+			change_global_variable = {
+				name = egyptian_dynasty_counter
+				add = 1
+			}
+			if = {
+				limit = {
+					tag = DMN
+				}
+				change_country_name = "DN8_DMN_NAME"
+			}
+			if = {
+				limit = {
+					tag = BTO
+				}
+				change_country_name = "DN8_BTO_NAME"
+			}
+			if = {
+				limit = {
+					religion = aten_religion
+				}
+				change_country_flag = "DELTA_ATN_FLAG"
+			}
+			if = {
+				limit = {
+					religion = egyptian_pantheon
+				}
+				change_country_flag = "DELTA_KEM_FLAG"
+			}
+			hidden_effect = {
+				change_country_tag = DN8
+			}
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	form_dynasty_green_sea = {
+		potential = {
+			num_of_cities >= 1
+			government = nomarchy
+			primary_culture = tenuwan_egyptian
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = western_delta_area
+					is_in_area = central_delta_area
+					is_in_area = eastern_delta_area
+					is_in_area = marmarica_orientalis_area
+				}
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = formable_not_dynasty_exists
+				NOT = {
+					any_country = {
+						tag = DN9
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns_area = western_delta_area
+			owns_or_subject_owns_area = central_delta_area
+			owns_or_subject_owns_area = eastern_delta_area
+			owns_or_subject_owns_area = marmarica_orientalis_area
+		}
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			custom_tooltip = "egyptian_dynasty_formed_tooltip"
+			change_government = egyptian_dynasty
+			change_country_name = "DN9_NAME"
+			hidden_effect = {
+				change_country_adjective = "DN9_ADJ"
+				change_country_tag = DN9
+			}
+			capital_scope = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_political_influence = influence_large
+			add_3_free_province_investments = yes
+			change_global_variable = {
+				name = egyptian_dynasty_counter
+				add = 1
+			}
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	form_dynasty_turquoise = {
+		potential = {
+			num_of_cities >= 1
+			government = nomarchy
+			primary_culture = mafkatian_egyptian
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = sinai_area
+					is_in_area = central_delta_area
+					is_in_area = eastern_delta_area
+					is_in_area = memphis_area
+				}
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = formable_not_dynasty_exists
+				NOT = {
+					any_country = {
+						tag = EX1
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns_area = sinai_area
+			owns_or_subject_owns_area = central_delta_area
+			owns_or_subject_owns_area = eastern_delta_area
+			owns_or_subject_owns_area = memphis_area
+		}
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			custom_tooltip = "egyptian_dynasty_formed_tooltip"
+			change_government = egyptian_dynasty
+			change_country_name = "EX1_NAME"
+			hidden_effect = {
+				change_country_adjective = "EX1_ADJ"
+				change_country_tag = EX1
+			}
+			capital_scope = {
+				capital_formable_large_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_political_influence = influence_large
+			add_3_free_province_investments = yes
+			change_global_variable = {
+				name = egyptian_dynasty_counter
+				add = 1
+			}
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+} 
+

@@ -817,7 +817,7 @@
 623={ #Dumuna
 	terrain="flood_plain"
 	culture="napatan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=20
 	barbarian_power=0
@@ -839,7 +839,7 @@
 624={ #Mambil
 	terrain="desert"
 	culture="napatan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="spices"
 	civilization_value=17
 	barbarian_power=0
@@ -878,7 +878,7 @@
 626={ #Napata
 	terrain="flood_plain"
 	culture="napatan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="cloth"
 	civilization_value=22
 	barbarian_power=0
@@ -1373,7 +1373,7 @@
 7586={ #Kuru
 	terrain="flood_plain"
 	culture="napatan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="stone"
 	civilization_value=17
 	barbarian_power=0
@@ -1578,7 +1578,7 @@
 8080={ #Hairiri
 	terrain="desert_hills"
 	culture="blemmyan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="wild_game"
 	civilization_value=8
 	barbarian_power=0
@@ -1591,7 +1591,7 @@
 8081={ #Dhahab
 	terrain="desert_hills"
 	culture="blemmyan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=8
 	barbarian_power=0
@@ -1609,7 +1609,7 @@
 8082={ #Heimur
 	terrain="desert_hills"
 	culture="blemmyan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="precious_metals"
 	civilization_value=8
 	barbarian_power=0
@@ -1627,7 +1627,7 @@
 8083={ #Garaiyat
 	terrain="desert_hills"
 	culture="blemmyan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="stone"
 	civilization_value=8
 	barbarian_power=0
@@ -1640,7 +1640,7 @@
 8084={ #Seiga
 	terrain="desert_hills"
 	culture="blemmyan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="camel"
 	civilization_value=8
 	barbarian_power=0
@@ -1653,7 +1653,7 @@
 8085={ #Shoshoba
 	terrain="desert_hills"
 	culture="blemmyan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=8
 	barbarian_power=0
@@ -1666,7 +1666,7 @@
 8086={ #Allaqi
 	terrain="desert_hills"
 	culture="blemmyan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="wild_game"
 	civilization_value=8
 	barbarian_power=0
@@ -1679,7 +1679,7 @@
 8087={ #Fas
 	terrain="desert_hills"
 	culture="blemmyan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="leather"
 	civilization_value=8
 	barbarian_power=0
@@ -1692,7 +1692,7 @@
 8088={ #Eigat
 	terrain="desert_hills"
 	culture="blemmyan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="leather"
 	civilization_value=8
 	barbarian_power=0
@@ -1759,7 +1759,7 @@
 8092={ #Duweb
 	terrain="desert"
 	culture="blemmyan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="wild_game"
 	civilization_value=7
 	barbarian_power=0
@@ -1772,7 +1772,7 @@
 8093={ #Hidiglib
 	terrain="desert"
 	culture="blemmyan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=7
 	barbarian_power=0
@@ -1785,7 +1785,7 @@
 8094={ #Murrat
 	terrain="desert_hills"
 	culture="blemmyan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="precious_metals"
 	civilization_value=7
 	barbarian_power=0
@@ -1803,7 +1803,7 @@
 8095={ #Sufar
 	terrain="desert_hills"
 	culture="blemmyan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="gems"
 	civilization_value=7
 	barbarian_power=0
@@ -1837,7 +1837,7 @@
 8097={ #Gabgaba
 	terrain="desert"
 	culture="blemmyan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="precious_metals"
 	civilization_value=7
 	barbarian_power=0
@@ -1853,7 +1853,7 @@
 8098={ #Dayyub
 	terrain="desert"
 	culture="blemmyan"
-	religion="kushite_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="leather"
 	civilization_value=7
 	barbarian_power=0
@@ -1939,11 +1939,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		religion="nilotic_pantheon"
-		amount=1
+		amount=2
 	}
 }
 
@@ -1990,11 +1986,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		religion="nilotic_pantheon"
-		amount=1
+		amount=2
 	}
 }
 
@@ -2050,11 +2042,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		religion="nilotic_pantheon"
-		amount=1
+		amount=2
 	}
 }
 

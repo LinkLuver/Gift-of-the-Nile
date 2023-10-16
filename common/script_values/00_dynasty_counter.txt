@@ -1,0 +1,68 @@
+﻿dynasty_number_svalue = {
+	value = global_var:egyptian_dynasty_counter
+}
+
+dynasty_number_divided_svalue = {
+	value = global_var:egyptian_dynasty_counter
+	divide = 10
+}
+
+dynasty_number_divided_floor_svalue = {
+	value = global_var:egyptian_dynasty_counter
+	divide = 10
+	floor = yes
+}
+
+dynasty_number_divided_1_svalue = {
+	value = global_var:egyptian_dynasty_counter
+	subtract = 1
+	divide = 10
+}
+
+dynasty_number_divided_2_svalue = {
+	value = global_var:egyptian_dynasty_counter
+	subtract = 2 
+	divide = 10
+}
+
+dynasty_number_divided_3_svalue = {
+	value = global_var:egyptian_dynasty_counter
+	subtract = 3
+	divide = 10
+}
+
+dynasty_number_divided_4_svalue = {
+	value = global_var:egyptian_dynasty_counter
+	subtract = 4
+	divide = 10
+}
+
+dynasty_number_divided_5_svalue = {
+	value = global_var:egyptian_dynasty_counter
+	subtract = 5
+	divide = 10
+}
+
+dynasty_number_divided_6_svalue = {
+	value = global_var:egyptian_dynasty_counter
+	subtract = 6
+	divide = 10
+}
+
+dynasty_number_divided_7_svalue = {
+	value = global_var:egyptian_dynasty_counter
+	subtract = 7
+	divide = 10
+}
+
+dynasty_number_divided_8_svalue = {
+	value = global_var:egyptian_dynasty_counter
+	subtract = 8
+	divide = 10
+}
+
+dynasty_number_divided_9_svalue = {
+	value = global_var:egyptian_dynasty_counter
+	subtract = 9
+	divide = 10
+}

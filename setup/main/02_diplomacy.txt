@@ -27,6 +27,7 @@ diplomacy = {
 	dependency = { first = LYD second = MYD subject_type = tributary }
 	dependency = { first = LYD second = BIT subject_type = tributary }
 
+	##Greek Leagues
 	#Neo-Dellian League
 	defensive_league = {
 		member = ATH
@@ -91,6 +92,57 @@ diplomacy = {
 	#dependency = { first = MAC second = KOR subject_type = subject_league_city_state }
 	dependency = { first = MAC second = TRE subject_type = client_state }
 	dependency = { first = MAC second = ODR subject_type = tributary }
+
+	##Deltan Leagues
+	#Sunset League
+	defensive_league = {
+		member = RHA
+		member = PMR
+		member = NJR
+		member = IUN
+	}
+
+	#Danetic League
+	defensive_league = {
+		member = TRU
+		member = DJD
+		member = DJA
+	}
+
+	#Memphis League
+	defensive_league = {
+		member = BUB
+		member = HUT
+		member = MEN
+	}
+
+	#Sau League
+	defensive_league = {
+		member = SAU
+		member = KHA
+		member = BTO
+		member = DMN
+	}
+
+	#Hyksos League
+	defensive_league = {
+		member = AMN
+		member = RET
+		member = ASK
+	}
+
+	#Arab League
+	defensive_league = {
+		member = NBT
+		member = MAF
+		member = SIQ
+	}
+
+	#Henen-Hesut
+	dependency = { first = HNT second = SHE subject_type = client_state }
+
+	#Waset
+	dependency = { first = EGY second = SUK subject_type = client_state }
 
 	### VANILLA DIPLOMACY ###
 

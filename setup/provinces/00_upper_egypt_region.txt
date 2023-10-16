@@ -189,6 +189,7 @@
 	slaves={
 		amount=20
 	}
+	holy_site=omen_akhenaten
 }
 
 558={ #Triphion
@@ -332,7 +333,7 @@
 
 565={ #Berkou
 	terrain="desert_hills"
-	culture="upper_egyptian"
+	culture="nabatean"
 	religion="egyptian_pantheon"
 	trade_goods="marble"
 	civilization_value=29
@@ -531,7 +532,6 @@
 	tribesmen={
 		amount=4
 	}
-	holy_site=omen_neith
 }
 
 575={ #Eileithyias Polis
@@ -568,7 +568,7 @@
 
 579={ #Pyle Indiai
 	terrain="desert_hills"
-	culture="upper_egyptian"
+	culture="nabatean"
 	religion="egyptian_pantheon"
 	trade_goods="marble"
 	civilization_value=29
@@ -584,8 +584,8 @@
 
 580={ #Myos Hormos
 	terrain="desert_hills"
-	culture="upper_egyptian"
-	religion="egyptian_pantheon"
+	culture="nabatean"
+	religion="arabian_pantheon"
 	trade_goods="marble"
 	civilization_value=31
 	barbarian_power=0
@@ -611,7 +611,7 @@
 
 581={ #Semne
 	terrain="desert_hills"
-	culture="upper_egyptian"
+	culture="nabatean"
 	religion="egyptian_pantheon"
 	trade_goods="precious_metals"
 	civilization_value=29
@@ -649,7 +649,7 @@
 
 583={ #Berenike Troglodytike
 	terrain="desert_hills"
-	culture="upper_egyptian"
+	culture="mafkatian_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="earthware"
 	civilization_value=36
@@ -703,7 +703,7 @@
 
 585={ #Lahami
 	terrain="desert"
-	culture="upper_egyptian"
+	culture="mafkatian_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="fish"
 	civilization_value=28
@@ -735,7 +735,7 @@
 
 587={ #Nechesia
 	terrain="desert"
-	culture="upper_egyptian"
+	culture="mafkatian_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=28
@@ -805,21 +805,35 @@
 
 647={ #Koueoi
 	terrain="desert"
-	culture="upper_egyptian"
-	religion="egyptian_pantheon"
+	culture="mafkatian_egyptian"
+	religion="arabian_pantheon"
 	trade_goods="fish"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	citizen={
+		amount=3
+	}
+	citizen={
+		culture="hebrew"
+		religion="judaism"
 		amount=2
 	}
+	freemen={
+		culture="hebrew"
+		religion="judaism"
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	port_building=1
 }
 
 649={ #Porphyrites
 	terrain="desert_hills"
-	culture="upper_egyptian"
-	religion="egyptian_pantheon"
+	culture="nabatean"
+	religion="arabian_pantheon"
 	trade_goods="stone"
 	civilization_value=29
 	barbarian_power=0
@@ -842,8 +856,8 @@
 
 650={ #Drepanon
 	terrain="desert"
-	culture="upper_egyptian"
-	religion="egyptian_pantheon"
+	culture="mafkatian_egyptian"
+	religion="arabian_pantheon"
 	trade_goods="fish"
 	civilization_value=28
 	barbarian_power=0
@@ -1387,7 +1401,7 @@
 7500={ #Ptolemais Theron
 	terrain="plains"
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="kushite_pantheon"
 	trade_goods="elephants"
 	civilization_value=10
 	barbarian_power=0
@@ -1404,7 +1418,7 @@
 7501={ #Elephanton Chora
 	terrain="desert"
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="kushite_pantheon"
 	trade_goods="elephants"
 	civilization_value=7
 	barbarian_power=0
@@ -1423,7 +1437,7 @@
 7594={ #Sabraiton
 	terrain="desert"
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="kushite_pantheon"
 	trade_goods="dates"
 	civilization_value=7
 	barbarian_power=0
@@ -1439,7 +1453,7 @@
 7595={ #Arachos
 	terrain="desert"
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="kushite_pantheon"
 	trade_goods="incense"
 	civilization_value=7
 	barbarian_power=0
@@ -1452,7 +1466,7 @@
 7596={ #Canarbis
 	terrain="desert"
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="kushite_pantheon"
 	trade_goods="fish"
 	civilization_value=7
 	barbarian_power=0
@@ -1468,7 +1482,7 @@
 7597={ #Erascum
 	terrain="desert"
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="kushite_pantheon"
 	trade_goods="dates"
 	civilization_value=7
 	barbarian_power=0
@@ -1500,7 +1514,7 @@
 7599={ #Setronon
 	terrain="desert"
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="kushite_pantheon"
 	trade_goods="gems"
 	civilization_value=7
 	barbarian_power=0
@@ -1512,7 +1526,7 @@
 
 8071={ #Ileigha
 	terrain="desert_hills"
-	culture="upper_egyptian"
+	culture="mafkatian_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="precious_metals"
 	civilization_value=12
@@ -1549,7 +1563,7 @@
 
 8072={ #Abraq
 	terrain="desert_hills"
-	culture="upper_egyptian"
+	culture="mafkatian_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="camel"
 	civilization_value=12
