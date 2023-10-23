@@ -147,11 +147,11 @@ province_siege.2 = {
 
 	trigger = {
 		OR = {
-			tag = PRY
+			tag = MAP
+			tag = ELM
+			tag = PES
 			tag = SEL
-			tag = TRE
-			tag = MAC
-			tag = EGY
+			tag = ADI
 		}
 	}
 

@@ -114,7 +114,10 @@ egyptian_unification_wargoal = {
 		government = egyptian_dynasty
 		country_culture_group = north_african
 		scope:defender = {
-			country_culture_group = north_african
+			OR = {
+				government = nomarchy
+				government = egyptian_dynasty
+			}
 		}
 	}
 	
