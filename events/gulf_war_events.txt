@@ -181,24 +181,6 @@ gulf_war.105 = { # Persia Enters the Cold War
 
     option = { # Declare War
         name = "gulf_war_105.a"
-        hidden_effect = {
-        	random_country = {
-        		limit = {
-        			tag = PES
-        		}
-        		save_scope_as = persia_scope
-        	}
-        	area:omana_area = {
-        		every_area_province = {
-        			add_claim = root
-        		}
-        	}
-        }
-        declare_war_with_wargoal = {
-        	target = c:MAK
-        	province = 8868
-        	war_goal = conquer_wargoal
-        }
     }
 
     option = { # give up
@@ -214,33 +196,28 @@ gulf_war.105 = { # Persia Enters the Cold War
     }
 }
 
-gulf_war.106 = { # Samnium peace deal, without lucania
+gulf_war.106 = { # Babylonian Entry ?
     type = country_event
-    hidden = yes
+    title = gulf_war_106_title
+    desc = gulf_war_106_desc
+    left_portrait = c:SEL.current_ruler
 
-    trigger = {
-        NOT = {
-            has_global_variable = war_303_end
-        }
-    }
+    right_portrait = c:TYO.current_ruler
+    right_portrait = c:MAK.current_ruler
 
-    immediate = {
-        #SAMNIUM SCRIPTED PEACE DEAL
-        samnium_separate_peace_effect = yes
-        random_in_global_list = {
-            variable = gulf_war_list
-            limit = {
-                tag = SAM
-            }
-            remove_from_list = this
+    option = {
+    	hidden_effect = {
+        	area:omana_area = {
+        		every_area_province = {
+        			add_claim = root
+        		}
+        	}
         }
-        every_in_global_list = {
-            variable = gulf_war_list
-            trigger_event = {
-                id = gulf_war.105 # notif about samnium peace out
-            }
+        declare_war_with_wargoal = {
+        	target = c:MAK
+        	province = 8868
+        	war_goal = conquer_wargoal
         }
-        remove_global_variable = war_303_samnium_out 
     }
 }
 
@@ -283,6 +260,61 @@ gulf_war.107 = { # End of War if Lucania surrenders
         }
         remove_global_variable = war_303_end
         set_global_variable = lucania_lost_war # used in mission. yes, I know there are other variables already, but I don't want to fuck anything up
+    }
+}
+
+gulf_war.109 = { # Elamite Compromise
+    type = country_event
+    title = gulf_war_109_title
+    desc = gulf_war_109_desc
+    left_portrait = c:ELM.current_ruler
+
+    right_portrait = c:SEL.current_ruler
+    right_portrait = c:PES.current_ruler
+
+    option = {
+    	name = "gulf_war_109.a"
+    	hidden_effect = {
+			p:8868 = {
+				random_pops_in_province = {
+					set_pop_culture = elamite
+					set_pop_religion = elamite_pantheon
+				}
+				create_country = {
+					name = {
+						name = "DAL"
+						adjective = "DAL_ADJ"
+					}
+					change_country_tag = DAL
+					#change_country_flag = DAL
+					change_country_color = antigonid_yellow
+					if = {
+						limit = {
+							NOT = {
+								primary_culture = elamite
+							}
+						}
+						set_primary_culture_cleanup_effect = {
+							NEW_PRIMARY_CULTURE = elamite
+							MAKE_OLD_CULTURE_INTEGRATED = yes
+						}
+					}
+					set_country_religion = elamite_pantheon
+					change_government = oligarchic_republic
+					add_treasury = 50.0
+					save_scope_as = dala_aal
+				}
+			}
+			make_subject = {
+				target = scope:dala_aal
+				type = client_state
+			}
+			area:omana_area = {
+				every_area_province = {
+					set_owned_by = scope:dala_aal
+				}
+			}
+		}
     }
 }
 

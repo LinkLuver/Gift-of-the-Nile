@@ -10,11 +10,16 @@
  kushite_heritage_desc:0 "The Kushites of Meroe sit at the uppermost point of the Nubian controlled Nile. And it was here where the Kushitic faith of was first forged as a distinct entity to the old Egyptian faith. The Kingdom of Meroe aims to reunite with its lost sister kingdoms to reform the legendary Kingdom of Kush."
  napata_heritage:0 "Heritage of Napata"
  napata_heritage_desc:0 "The city of Napata was the great city that would facilitate a period of Egyptian revivalism during the 25th Dynasty, or the Nubian Dynasty, of Egypt. However, Napata now is a former shell of its greatness, with Meroe and Kerma threatening her hegemony, the Napatan Kingdom will need to fight to survive, and only then will it thrive."
+ 
 
  seleucus_heritage:0 "Heritage of Babylon"
- seleucus_heritage_desc:0 "Todo"
+ seleucus_heritage_desc:0 "The city of Babylon is arguably the greatest of the ancient world, and it remains great in this new era. The current Kingdom of Babylonia resides over the entirety of lower Mesopotamia. Although they remain in a diplomatically difficult area with little room for easy expansion, the ancient cities of the Tigris and Euphrates provide it with a formiddable powerbase regardless."
  atropatenian_heritage:0 "Median Heritage"
- atropatenian_heritage_desc:0 "The Median Empire once stretched lands as far as the gulf of Persia and the heights of Asia Minor. However, in the times since, it has strengthened its core lands, and Media propsered... however the Achaemenid Kingdom has been a consistent thorn in its sides. Now, with the Median Empire facing internal strife and rebellions in Armenia, it may spell doom for the once great state."
+ atropatenian_heritage_desc:0 "The Median Empire once stretched lands as far as the gulf of Persia and the heights of Asia Minor. However, in the times since, it has strengthened its core lands, and Media propsered... however the Achaemenid Kingdom has been a consistent thorn in its sides. Now, with the Median Empire facing internal strife and rebellions in Armenia, and its everlasting struggle against the Achaemenid Persians. It may spell doom for the once great state."
+ heritage_of_persis:0 "Heritage of Persia"
+ heritage_of_persis_desc:0 "The home to the Persians, the spawn place of Cyrus Achaemenid himself. The Persians were once part of the loyal satrap of Persis under the Median Empire, however, the dastardly Medians betrayed Cyrus of Persia. In a twist of faith, half the army sent to kill Cyrus would turncoat and fight for him instead. This would result in the independent Achaemenid Kingdom, and a never ending struggle between the Medians and Persians."
+ tylosian_heritage:0 "Dilmunite Heritage"
+ tylosian_heritage_desc:0 "The Dilmunites are settlers of the coasts across from Elam and Babylon. Their extensive trading with the two would result in many cultural and religious adoptions from the regions they trade with. Eventually, they would fall under the patronage of Babylon, becoming a formal trade colony of theirs, and enterring into closer cultural relations with them. It has paid off thus far, but how long will Dilmun be happy giving away their autonomy?"
 
  #Vanilla
  roman_heritage:0 "Roman Heritage"
@@ -299,8 +304,6 @@
  heritage_of_sinhapura_desc:0 "Hundreds of years ago, our ancestor, the demon-slayer and mighty warrior Vijaya, was banished from his homeland by his father Sinhapura. What seemed like a curse at the time would soon prove to be a blessing from the gods. Forced to wander land and sea, Vijaya had soon established himself in a fertile land by the force of his deeds alone; the Vijaya Dynasty, once banished under shame, became the lords of faraway lands. The Old Ways, embodied by the example of Sinhapura, will be the ways of our people forevermore."
  heritage_of_anuradhapura:0 "Heritage of Anuradhapura"
  heritage_of_anuradhapura_desc:0 "Anuradhapura, the sacred and ancient city that reclines meditatively beneath the holy structure of the Sigiriya, is home to a proud and mighty people that inhabit the northern shores of the island of Lanka. It was here at Anuradhapura that the mighty Raja Devanampiya Tissa would build the first stupa, a giant architectural reliquary for the safekeeping of sacred treasures, marking this city as holy among the Buddhists. Despite countless invasions from the mainland, the seat of power at Anuradhapura will remain a player on the chessboard for another thousand years, a testament to the genius of its people."
- heritage_of_persis:0 "Heritage of Persis"
- heritage_of_persis_desc:0 "It is only fitting that the region of Persis, which gave birth to the mighty, world-conquering Achaemenids, would one day itself be contested by powerful empires, each greedily seeking to subsume its heritage and claim it for their own. Yet the people of Persis have always maintained their own distinct identity, and there are hopes that the spark of this ancient people has not been extinguished by the conqueror's wrath."
  #From Various Invictus Heritages
  ## Leftover Anatolian Heritages
  ###Kaounos
@@ -555,9 +558,6 @@
 #Samad
  samad_heritage:0 "Heritage of the Date Farmers"
  samad_heritage_desc:0 "At times nomads and at others settled peoples, the southeastern Omani tribes of Samad herded no animal beyond the stubborn date, eating it with so high a frequency that their diet was considered disastrous yet delectable. Some say the Achaemenids had come to dominate this place prior for the sole purpose of consuming the fruit."
- ###Tylos
- tylosian_heritage:0 "Tylosian Heritage"
- tylosian_heritage_desc:0 "Tylos is an island off the coast of East Arabia. Famed for its cotton products, they are sold as far away as the Indian courts and even on the other side of the Arabian desert."
 ##Scythian Greek Missions Heritages
  thyssagetia_heritage:0 "Heritage of the Lonely Nomads"
  thyssagetia_heritage_desc:0 "Separated from their neighbors by a vast, deserted stretch of land in many directions, the Thyssagetae lived almost in the realm of mythology when thought of by their neighbors. An Iranian-speaking tribe likely of Sarmatian stock, the Thyssagetae seasonally traveled along the river called Thisageta to pasture their horses."

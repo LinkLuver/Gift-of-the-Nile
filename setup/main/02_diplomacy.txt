@@ -144,6 +144,13 @@ diplomacy = {
 	#Waset
 	dependency = { first = EGY second = SUK subject_type = client_state }
 
+	## Qedarite Confederacy
+	defensive_league = {
+		member = QDA
+		member = QAY
+		member = PAL
+	}
+
 	### VANILLA DIPLOMACY ###
 
 	defensive_league = {
