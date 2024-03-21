@@ -81,7 +81,7 @@ gotn_events.2 = { # 4th Intermediatary Period
     }
 }
 
-gotn_events.3 = {
+gotn_events.3 = { # The Burning Waters
     type = country_event
 
     title = gotn_events_3_title
@@ -102,32 +102,36 @@ gotn_events.3 = {
 
     option = {
         name = "gotn_events_3.a"
-    }
-}
-
-gotn_events.4 = {
-    type = country_event
-
-    title = gotn_events_4_title
-    desc = gotn_events_4_desc
-    picture = Event_massive_naval_battle
-    left_portrait = c:SEL.current_ruler
-    left_portrait = c:TYO.current_ruler
-    right_portrait = c:MAK.current_ruler
-    right_portrait = c:PES.current_ruler
-
-    trigger = {
-        OR = {
-            tag = MAK
-            tag = TYO
+        trigger_event = {
+            id = gulf_war.100
+            days = { 180 365 }
         }
     }
-    fire_only_once = yes
-
-    option = {
-        name = "gotn_events_4.a"
-    }
 }
+
+#gotn_events.4 = {
+#    type = country_event
+#
+#    title = gotn_events_4_title
+#    desc = gotn_events_4_desc
+#    picture = Event_massive_naval_battle
+#    left_portrait = c:SEL.current_ruler
+#    left_portrait = c:TYO.current_ruler
+#    right_portrait = c:MAK.current_ruler
+#    right_portrait = c:PES.current_ruler
+#
+#    trigger = {
+#        OR = {
+#            tag = MAK
+#            tag = TYO
+#        }
+#    }
+#    fire_only_once = yes
+#
+#    option = {
+#        name = "gotn_events_4.a"
+#    }
+#}
 
 gotn_events.5 = {
     type = country_event

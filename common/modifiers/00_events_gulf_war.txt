@@ -1,0 +1,8 @@
+﻿winner_of_gulf_war = {
+	global_commerce_modifier = 0.10
+	global_goods_from_slaves = -1
+}
+loser_of_gulf_war = {
+	global_commerce_modifier = -0.05
+	land_morale_modifier = -0.05
+}

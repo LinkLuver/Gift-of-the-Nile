@@ -1,0 +1,36 @@
+﻿l_english:
+
+# Tooltips
+ gw_escalation:0 "This action will #R Escalate#! the current situation."
+ gw_deescalation:0 "This action will #G De-Escalate#! the current situation."
+
+# Modifier
+ winner_of_gulf_war:0 "Domination of Gulf"
+ loser_of_gulf_war:0 "Lost Gulf Influence"
+
+
+# Events
+ gulf_war_101_title:0 "Behind Their Backs"
+ gulf_war_101_desc:0 "The #E Makanis#! have conquested the land of #E Samad#!! While they relish in their victory, they have their backs turned. We should quickly colonize the territories of #E West Omana#! that they do not have direct control over."
+ gulf_war_101.a:0 "It's ours for the taking!"
+ gulf_war_101.b:0 "We shouldn't stoke the flames of war."
+
+ gulf_war_102_title:0 "Conquest of Samad"
+ gulf_war_102_desc:0 "Just a month ago, we successfully conquered the #E Samadis#!. The #E Yemeni#! people number many in our nation now, and the decision was made to give them citizenship rights. With this conquest completed, we now hold both the narrow straight of the #E Persian Straight#!, and the closest point in all of #E Arabia#! to the land of #E Hindus#! to the east. This is something the dastardly #E Dilmunites#! will never have!"
+ gulf_war_102.a:0 "Eat that!"
+
+ gulf_war_103_title:0 "Seizure of West Omana"
+ gulf_war_103_desc:0 "The #E Dilmunites#! have taken the opportunity to seize the oasis of #E Liwa#!, putting us in a dangerous position, threatening our position in #E West Omana#!. We cannot allow them to steal land from us! What can we do?"
+ gulf_war_103.a:0 "We cannot risk stoking the flames of war."
+ gulf_war_103.b:0 "We must ask the #E Achaemenids#! for help."
+ gulf_war_103.c:0 "We will seize ALL of West Omana for ourselves then!"
+
+ gulf_war_104_title:0 "Seizure of West Omana"
+ gulf_war_104_desc:0 "The #E Makanis#! have gone way too far. They have seized ALL of our colonies in #E West Omana#!! We have no choice but to back down, or double down. We must ask #E Babylon#! to declare war!"
+ gulf_war_104.a:0 "We must surrender..."
+ gulf_war_104.b:0 "We must ask the #E Babylonians#! for help."
+
+ gulf_war_105_title:0 "The Achaemenid Entry?"
+ gulf_war_105_desc:0 "The #E Makanis#! have begun to lose their influence over the #E Persian Sea#!. They have asked us to intervene! Doing so will mean a war against #E Babylonia#!..."
+ gulf_war_105.a:0 "We cannot afford war with #E Babylon#!."
+ gulf_war_105.b:0 "This cold war can go on no longer!"

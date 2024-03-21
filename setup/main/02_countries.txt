@@ -880,7 +880,7 @@ country = {
 		SEL = {
 			family = 30
 			family = 70
-			government = aristocratic_monarchy
+			government = plutocratic_monarchy
 			primary_culture = babylonian
 			religion = mesopotamian_religion
 			capital = 918
@@ -899,7 +899,7 @@ country = {
 				898 899 911 912 913 914 916 924 926 927 929 960 #asoristan_region
 				896 897 979 925 928 933 934 961 962 973 974 976 #beth_daraye_region
 				920 921 923 930 931 932 935 936 939 937 938 968 #veh_kavad_region
-				940 941 942 969 971 963 7723 #meshan_region
+				940 941 942 971 7723 #meshan_region
 			}
 
 			pantheon = {
@@ -913,9 +913,9 @@ country = {
 		}
 
 		ELM = {
-			government = despotic_monarchy
+			government = aristocratic_monarchy
 			primary_culture = elamite
-			religion = mesopotamian_religion
+			religion = elamite_pantheon
 
 			capital = 946
 
@@ -929,7 +929,7 @@ country = {
 			own_control_core = 	{
 				943 945 946 947 948 949 950 967 970 972 975 980 4969 #susiana_region
 				951 952 966 4779 4780 #pars_region
-				4787 4786 4782 4785 4784
+				4787 4786 4782 4785 4784 969
 			}
 
 		}
@@ -1053,8 +1053,8 @@ country = {
 			capital = 7209
 
 			own_control_core = 	{
-				7209 7208 7210 7211 7207 7216 5429 5430 5415 5416 5417
-				8867 8871
+				7209 7208 7210 7211 7216 5429 5430 5415 5416 5417
+				8867 8871 8870 8869 8868
 				5418 5419 5420 5421 7212 7213 7214 7215 7217
 				8851 8865 8866 8879
 			}
@@ -1075,8 +1075,8 @@ country = {
 			capital = 7202
 
 			own_control_core = 	{
-				7202 8872 7205 7206 944 964 965
-				7199 7200 7201 7204 7203 7198 7197 7196 5408 5409 5410
+				7202 8872 963 964 965 944
+				7199 7204 7203 7196 7197 7198 7200 7201
 			}
 		}
 
@@ -1103,9 +1103,9 @@ country = {
 
 		MAP = {
 			family = 31
-			government = despotic_monarchy
+			government = aristocratic_monarchy
 			primary_culture = median
-			religion = zoroaster
+			religion = mithra_religion
 			capital = 1515
 			diplomatic_stance=appeasement_stance
 
