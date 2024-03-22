@@ -1358,7 +1358,7 @@ country = {
 
 		KDR = {
 			government = tribal_federation
-			primary_culture = carduchi
+			primary_culture = cardukoi
 			religion = mesopotamian_religion
 
 			technology={
@@ -1460,7 +1460,7 @@ country = {
 			capital = 1872
 
 			own_control_core = 	{
-				792 794 805 808 811 812 852 1871 #syria_cyrrestice_region
+				792 794 811 812 852 1871 #syria_cyrrestice_region
 				1867 1868
 			}
 		}
@@ -1480,7 +1480,7 @@ country = {
 			capital = 798
 
 			own_control_core = 	{
-				787 791 793 797 798 813 814 847 851 7985 #syria_region
+				787 791 793 797 798 813 814 847 851 7985 805 808 #syria_region
 			}
 		}
 
