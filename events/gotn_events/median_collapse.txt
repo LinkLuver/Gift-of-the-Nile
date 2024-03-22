@@ -1,0 +1,312 @@
+﻿namespace = median_collapse
+
+median_collapse.1 = { # Initial
+    type = country_event
+    hidden = yes
+    fire_only_once = yes
+    trigger = {
+        any_country = {
+            tag = MAP
+            OR = {
+                war_with = c:PES
+                any_region_province = {
+                    is_in_region = armenia_region
+                    state_loyalty <= 50
+                }
+                AND = {
+                    current_date > 458.10.10
+                    war_exhaustion >= 5
+                }
+            }
+        }
+    }
+
+    immediate = {
+        random_country = {
+            limit = {
+                tag = ARM
+            }
+            save_scope_as = armenia_scope
+        }
+        random_country = {
+            limit = {
+                tag = MAP
+            }
+            set_global_variable = median_collapse_Var
+        }
+        if = {
+            limit = {
+                tag = MAP
+            }
+            trigger_event = {
+                id = median_collapse.2
+                days = 1
+            }
+        }
+        if = {
+            limit = {
+                OR = {
+                    tag = ARM
+                    tag = AR2
+                    tag = SPH
+                }
+            }
+            trigger_event = {
+                id = median_collapse.2
+                days = 25
+            }
+        }
+        if = {
+            limit = {
+                NOR = {
+                    tag = MAP
+                    tag = ARM
+                    tag = AR2
+                    tag = SPH
+                }
+            }
+            trigger_event = {
+                id = median_collapse.6
+                days = 35
+            }
+        }
+        if = {
+            limit = {
+                tag = CAP
+            }
+            trigger_event = {
+                id = median_collapse.4
+                days = 180
+            }
+        }
+    }
+}
+median_collapse.2 = {
+    type = country_event
+    title = median_collapse_2_title
+    desc = median_collapse_2_desc
+    picture = natural_disaster
+
+    left_portrait = current_ruler
+    right_portrait = c:ARM.current_ruler
+    right_portrait = c:AR2.current_ruler
+    right_portrait = c:SPH.current_ruler
+
+    immediate = {
+        hidden_effect = {
+            area:tarawn_area = {
+                every_area_province = {
+                    limit = {
+                        owner = ROOT
+                    }
+                    set_owned_by = c:ARM
+                }
+            }
+            area:vaspurakan_area = {
+                every_area_province = {
+                    limit = {
+                        owner = ROOT
+                    }
+                    set_owned_by = c:ARM
+                }
+            }
+            release_subject = c:ARM
+            release_subject = c:AR2
+            release_subject = c:SPH
+            c:ARM = {
+                make_subject = {
+                    target = c:AR2
+                    type = feudatory
+                }
+                make_subject = {
+                    target = c:SPH
+                    type = feudatory
+                }
+            }
+        }
+    }
+
+    option = {
+        name = "median_collapse_2.a"
+        hidden_effect = {
+            random_owned_province = {
+                limit = {
+                    OR = {
+                        is_in_area = parsatunik_area
+                        is_in_area = parskahayk_area
+                    }    
+                }
+                create_country = {
+                    name = {
+                        name = ARZ
+                        adjective = ARZ_ADJ
+                    }
+                    change_country_tag = ARZ
+                    change_country_color = ocean_blue
+                    change_government = despotic_monarchy
+                    set_country_heritage = arzashi_heritage
+                    set_country_religion = zoroaster
+                    set_primary_culture = arzasha
+                    save_scope_as = arzashi_revolt
+                    set_variable = {
+                        name = is_not_allowed_to_go_broke
+                        days = 9125
+                    }
+                    set_variable = {
+                        name = is_ignoring_ae
+                        days = 3650
+                    }
+                }
+            }
+            every_province = {
+                limit = {
+                    is_in_region = armenia_region
+                    owned_or_subject_owned = MAP
+                }
+                set_owned_by = scope:arzashi_revolt
+            }
+        }
+    }
+    option = {
+        name = "median_collapse_2.b"
+        hidden_effect = {
+            random_owned_province = {
+                limit = {
+                    OR = {
+                        is_in_area = parsatunik_area
+                        is_in_area = parskahayk_area
+                    }    
+                }
+                create_country = {
+                    name = {
+                        name = ARZ
+                        adjective = ARZ_ADJ
+                    }
+                    change_country_tag = ARZ
+                    change_country_color = ocean_blue
+                    change_government = despotic_monarchy
+                    set_country_heritage = arzashi_heritage
+                    set_country_religion = zoroaster
+                    set_primary_culture = arzasha
+                    save_scope_as = arzashi_revolt
+                    set_variable = {
+                        name = is_not_allowed_to_go_broke
+                        days = 9125
+                    }
+                    set_variable = {
+                        name = is_ignoring_ae
+                        days = 3650
+                    }
+                }
+            }
+            every_province = {
+                limit = {
+                    is_in_region = armenia_region
+                    owned_or_subject_owned = MAP
+                }
+                set_owned_by = scope:arzashi_revolt
+            }
+        }
+        custom_tooltip = declare_war_tt
+        trigger_event = {
+            id = median_collapse.5
+            days = 30
+        }
+    }
+}
+median_collapse.3 = {
+    type = country_event
+    title = median_collapse_3_title
+    desc = median_collapse_3_desc
+    picture = steppe_cavalry_honor
+
+    right_portrait = c:ARM.current_ruler
+    right_portrait = c:AR2.current_ruler
+    right_portrait = c:SPH.current_ruler
+
+    immediate = {
+        show_as_tooltip = {
+            custom_tooltip = armenia_big_success
+        }
+        random_country = {
+            limit = {
+                tag = ARZ
+            }
+            save_scope_as = arzashi_scope
+        }
+    }
+
+    option = {
+        if = {
+            limit = {
+                tag = ARM
+            }
+            make_subject = {
+                target = scope:arzashi_scope
+                type = feudatory
+            }
+        }
+        if = {
+            limit = {
+                NOT = { tag = ARM }
+            }
+            show_as_tooltip = {
+                c:ARM = {
+                    make_subject = {
+                        target = scope:arzashi_scope
+                        type = feudatory
+                    }
+                }
+            }
+        }
+    }
+}
+median_collapse.4 = {
+    type = country_event
+    title = median_collapse_4_title
+    desc = median_collapse_4_desc
+    picture = persepolis
+
+    option = {
+        name = "median_collapse_4.a"
+        c:MAP = {
+            release_subject = root
+        }
+    }
+}
+median_collapse.5 = {
+    type = country_event
+    hidden = yes
+
+    immediate = {
+        declare_war_with_wargoal = {
+            target = c:ARM
+            war_goal = conquer_wargoal
+            province = 1570
+        }
+    }
+}
+median_collapse.6 = {
+    type = country_event
+    title = median_collapse_6_title
+    desc = median_collapse_6_desc
+    picture = successors
+    right_portrait = c:MAP.current_ruler
+    left_portrait = c:ARM.current_ruler
+
+    option = {
+        name = "median_collapse_6.a"
+    }
+    option = {
+        exclusive = yes
+        trigger = {
+            OR = {
+                tag = PES
+                tag = GED
+                tag = ARS
+                tag = MAK
+            }
+        }
+        name = "median_collapse_6.b"
+    }
+}

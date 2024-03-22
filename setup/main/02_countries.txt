@@ -895,11 +895,13 @@ country = {
 			}
 
 			own_control_core = 	{
-				900 902 903 904 909 901 910 915 917 918 919 922 #babylonia_region
+				900 903 909 901 910 915 917 918 919 922 #babylonia_region
 				898 899 911 912 913 914 916 924 926 927 929 960 #asoristan_region
 				896 897 979 925 928 933 934 961 962 973 974 976 #beth_daraye_region
 				920 921 923 930 931 932 935 936 939 937 938 968 #veh_kavad_region
 				942 7723 #meshan_region
+				889 890 #garamigh_region
+				891 892 893 894 895 977 #tigris_region
 			}
 
 			pantheon = {
@@ -956,8 +958,8 @@ country = {
 			own_control_core = 	{
 				865 880 881 884 886 887 957 958 984 985 1578 #adiabene_region
 				773 861 862 863 864 866 867 868 882 986 #niniveh_region
-				835 883 891 892 893 894 895 955 956 977 #tigris_region
-				885 888 889 890 959 981 982 983 1603 #garamig_region
+				835 883 955 956 #tigris_region
+				885 983 959 888 981 982 #garamig_region
 			}
 
 		}
@@ -1139,6 +1141,7 @@ country = {
 				846 987 988 989 991 992 995 996 998 999 1560 1561 #vaspurakan_region
 				1500 1527 1528 1529 1530 1531 1532 1534 1539 1559 #parsatunik_region
 				978 990 993 994 1562 1563 1564 1566 1567 1736 483 4037#tarawn_region
+				1603
 			}
 
 			pantheon = {
@@ -1537,7 +1540,7 @@ country = {
 
 		BMB = {
 			family = 59
-			government = theocratic_monarchy
+			government = stratocratic_monarchy
 			primary_culture = syriac
 			religion = hurrian_pantheon
 
@@ -1580,6 +1583,7 @@ country = {
 			own_control_core = {
 				754 755 756 775 800 801 802 803 804 806 815 850 #palmyra_region
 				824 825 826 827 828 829 905 906 907 908 953 954 #euphrates_region
+				902 904 #babylonia_region
 			}
 		}
 

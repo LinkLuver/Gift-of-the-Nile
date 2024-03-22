@@ -56,23 +56,6 @@ aten_heritage = {
         tag = ATN
     }
 }
-elam_heritage = {
-    modifier = {
-        #good
-        global_monthly_civilization = 0.03
-        discipline = 0.04
-
-        #bad
-        civil_war_threshold = -0.025
-
-        #extra
-        loyalty_to_overlord = -100
-    }
-
-    trigger = {
-        tag = ELM
-    }
-}
 henen_heritage = {
     modifier = {
         #good
@@ -143,6 +126,205 @@ medjed_heritage = {
         tag = PMD
     }
 }
+siwa_heritage = {
+    modifier = {
+        #good
+        global_food_capacity = 200
+        oasis_combat_bonus = 0.15
+
+        #bad
+        global_slaves_output = -0.05
+    }
+
+    trigger = {
+        primary_culture = siwan_egyptian
+    }
+}
+bastet_heritage = {
+    modifier = {
+        #good
+        global_commerce_modifier = 0.1
+        global_pop_conversion_speed = 1
+
+        #bad
+        monthly_governor_wage = 0.05
+    }
+
+    trigger = {
+        tag = BUB
+    }
+}
+tenuwan_heritage = {
+    modifier = {
+        #good
+        global_commerce_modifier = 0.1
+        navy_maintenance_cost = -0.1
+
+        #bad
+        land_morale_modifier = -0.05
+    }
+
+    trigger = {
+        tag = TEW
+    }
+}
+mafkat_heritage = {
+    modifier = {
+        #good
+        global_goods_from_slaves = -2
+        global_commerce_modifier = 0.1
+
+        #bad
+        monthly_corruption = 0.03
+    }
+
+    trigger = {
+        tag = MAF
+    }
+}
+sais_heritage = {
+    modifier = {
+        #good
+        monthly_legitimacy = 0.05
+        research_points_modifier = 0.1
+
+        #bad
+        diplomatic_relations = -1.0
+    }
+
+    trigger = {
+        tag = SAU
+    }
+}
+peramun_heritage = {
+    modifier = {
+        #good
+        fort_maintenance_cost = -0.1
+        siege_ability = 0.05
+
+        #bad
+        happiness_for_wrong_culture_modifier = -0.04
+    }
+
+    trigger = {
+        tag = AMN
+    }
+}
+hyksos_heritage = {
+    modifier = {
+        #good
+        naval_morale_modifier = 0.075
+        land_morale_modifier = 0.05
+
+        #bad
+        happiness_for_same_culture_modifier = -0.06
+    }
+
+    trigger = {
+        primary_culture = hyksos
+    }
+}
+adini_heritage = {
+    modifier = {
+        #good
+        global_defensive = 0.1
+        global_manpower_modifier = 0.15
+
+        #bad
+        global_monthly_civilization = -0.04
+    }
+
+    trigger = {
+        tag = BMB
+    }
+}
+aram_heritage = {
+    modifier = {
+        #good
+        happiness_for_same_culture_modifier = 0.05
+        global_tax_modifier = 0.05
+
+        #bad
+        happiness_for_wrong_culture_group_modifier = -0.03
+    }
+
+    trigger = {
+        tag = PRY
+    }
+}
+hamath_heritage = {
+    modifier = {
+        #good
+        global_defensive = 0.1
+        diplomatic_reputation = 2
+
+        #bad
+        siege_ability = -0.05
+    }
+
+    trigger = {
+        tag = HAM
+    }
+}
+qidraya_heritage = {
+    modifier = {
+        #good
+        happiness_for_wrong_culture_modifier = 0.1
+        enslavement_efficiency = 0.1
+
+        #bad
+        fabricate_claim_cost_modifier = 0.1
+    }
+
+    trigger = {
+        tag = QAY
+    }
+}
+tadmor_heritage = {
+    modifier = {
+        #good
+        happiness_for_wrong_culture_group_modifier = wrong_culture_group_large
+        desert_combat_bonus = 0.1
+
+        #bad
+        global_slaves_happyness = -0.10
+    }
+
+    trigger = {
+        tag = PAL
+    }
+}
+arzashi_heritage = {
+    modifier = {
+        #good
+        omen_power = 0.1
+        religious_tech_investment = 0.1
+
+        #bad
+        loyalty_to_overlord = 30
+    }
+
+    trigger = {
+        primary_culture = arzasha
+    }
+}
+elam_heritage = {
+    modifier = {
+        #good
+        global_monthly_civilization = 0.03
+        discipline = 0.04
+
+        #bad
+        civil_war_threshold = -0.025
+
+        #extra
+        loyalty_to_overlord = -100
+    }
+
+    trigger = {
+        tag = ELM
+    }
+}
 
 #ONLY for heritages with a specific tag(list) as trigger
 roman_heritage = {
@@ -188,21 +370,6 @@ carthaginian_heritage = {
 
     trigger = {
         tag = CAR
-    }
-}
-
-antigonid_heritage = {
-    modifier = {
-        #good
-        siege_ability = 0.05
-        diplomatic_reputation = 2
-
-        #bad
-        global_defensive = -0.1
-    }
-
-    trigger = {
-        tag = PRY
     }
 }
 
@@ -1506,21 +1673,6 @@ commagenian_heritage = {
 
     trigger = {
         tag = COM
-    }
-}
-
-bambyce_heritage = {
-    modifier = {
-        #good
-        global_commerce_modifier = 0.1
-        global_pop_conversion_speed = 1
-
-        #bad
-        monthly_governor_wage = 0.05
-    }
-
-    trigger = {
-        tag = BMB
     }
 }
 

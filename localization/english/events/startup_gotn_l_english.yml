@@ -11,3 +11,29 @@
  gotn_events_3_title:0 "The Boiling Gulf"
  gotn_events_3_desc:0 "#E The Gulf Wars#! are a series of wars sanctioned by the #E Achaemenid Kingdom#! and #E Babylonia#!.\n\nIf either power #E directly enters a war#!, the #E Gulf Region#! will likely be consumed by the flames of war. #E Dilmun#! and #E Maka#! will be able to conduct aggressive actions against each other #E without their overlord's influence#!. However, if the calm waters boil over, it will mean a war between the mighty #E Persians#! and the powerful #E Babylonians#!."
  gotn_events_3.a:0 "Will the gulf be painted red with blood, or yellow with gold?"
+
+
+ ## Median Collapse
+ # Armenian Independence
+ ARZ:0 "Arzasha"
+ ARZ_ADJ:0 "Arzashi"
+ armenia_big_success:0 "#E Armenia#! takes over parts of the #E Armenia#! region.\n#E Armenia#! becomes the leader of the #E Armenian#! satrapies."
+ declare_war_tt:0 "#R Declare War#! on the #E Armenians#! in #Y one month#!!"
+
+ median_collapse_2_title:0 "The Armenian Menace"
+ median_collapse_2_desc:0 "The Western Satraps have lately been harder and harder to administer, especially with our focus on #E Persia#! in recent years. The strongest of our western satraps, #E Armenia#! has seized our territories in their namesake region, inspired the revolt of the #E Arzashi-Armenians#!, and have taken over our other #E Armenian#! satrapies! It is also very likely because of this, we will lose control of #E Cappadocia#! due to no land connection to them."
+ median_collapse_2.a:0 "There is nothing we can do..."
+ median_collapse_2.b:0 "Declare war on those rebels!"
+
+ median_collapse_3_title:0 "Rise of Armenia"
+ median_collapse_3_desc:0 "The #E Armenians#! have taken agency, seizing the lands of the #E Median Empire#! in our namesake region of #E Armenia#!. Furthermore, the #E Arzashi#! have arisen as well! Under #E Armenia#! all of the #E Armenian Satrapies#! are united."
+ median_collapse_3.a:0 "The #E Armenians#! rise!"
+
+ median_collapse_4_title:0 "Loss of the West"
+ median_collapse_4_desc:0 "The Median Empire is in the midst of a collapse. We have stopped recieving royal administrators and diplomats in our capitals, we can only assume that we are only a satrap in name. We are effectively independent, and we should consider our future options carefully with this new reality in mind."
+ median_collapse_4.a:0 "Will we be alright?"
+
+ median_collapse_6_title:0 "The Median Collapse"
+ median_collapse_6_desc:0 "The Medians have been the most powerful state of the civilized world since the Age of Iron and the collapse of the Neo-Assyrian Empire. Yet their time now comes. Their Armenian satrapies have broken away while war wages on in their nation. Is this truly the end to the sons of Mithra?"
+ median_collapse_6.a:0 "Fortune is fickle..."
+ median_collapse_6.b:0 "Good riddance!"
