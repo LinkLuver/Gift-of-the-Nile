@@ -52,7 +52,7 @@ median_collapse.1 = { # Initial
                 }
             }
             trigger_event = {
-                id = median_collapse.2
+                id = median_collapse.3
                 days = 25
             }
         }
@@ -237,6 +237,7 @@ median_collapse.3 = {
     }
 
     option = {
+        name = "median_collapse_3.a"
         if = {
             limit = {
                 tag = ARM
@@ -308,5 +309,135 @@ median_collapse.6 = {
             }
         }
         name = "median_collapse_6.b"
+    }
+}
+median_collapse.10 = {
+    type = country_event
+    title = median_collapse_10_title
+    desc = median_collapse_10_desc
+    picture = army_desert
+    left_portrait = c:MAP.current_ruler
+    right_portrait = c:SAT.current_ruler
+    right_portrait = c:PES.current_ruler
+
+    trigger = {
+        OR = {
+            tag = MAP
+            tag = ARM
+            tag = AR2
+            tag = SPH
+        }
+    }
+    fire_only_once = yes
+
+    immediate = {
+        if = {
+            limit = {
+                tag = MAP
+            }
+            every_subject = {
+                limit = {
+                    country_culture_group = armenian_group
+                }
+                add_country_modifier = {
+                    name = armenian_rebels
+                    duration = 3650
+                }
+            }
+        }
+        if = {
+            limit = {
+                NOT = { tag = MAP }
+            }
+            show_as_tooltip = {
+                c:MAP = {
+                    every_subject = {
+                        limit = {
+                            country_culture_group = armenian_group
+                        }
+                        add_country_modifier = {
+                            name = armenian_rebels
+                            duration = 3650
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    option = {
+        name = "median_collapse_10.a"
+    }
+    option = {
+        trigger = {
+            country_culture_group = armenian_group
+        }
+        name = "median_collapse_10.b"
+    }
+}
+
+#Mazdayasna Satrap Leaves
+median_collapse.20 = {
+    type = country_event
+    title = median_collapse_20_title
+    desc = median_collapse_20_desc
+    picture = dagger_behind_back
+    right_portrait = c:SAG.current_ruler
+    left_portrait = current_ruler
+
+    trigger = {
+        tag = MAP
+    }
+    fire_only_once = yes
+
+    immediate = {
+        release_subject = c:SAG
+        c:PES = {
+            make_subject = {
+                target = c:SAG
+                type = satrapy
+            }
+            trigger_event = {
+                id = median_collapse.21
+                days = 1
+            }
+        }
+    }
+
+    option = {
+        name = "median_collapse_20.a"
+        declare_war_with_wargoal = {
+            war_goal = imperial_conquest_wargoal
+            province = c:PES.capital_scope
+            target = c:PES
+        }
+    }
+    option = {
+        trigger = {
+            is_ai = no
+        }
+        name = "median_collapse_20.b"
+        add_legitimacy = -5
+        add_stability = -3
+    }
+}
+median_collapse.21 = {
+    type = country_event
+    title = median_collapse_21_title
+    desc = median_collapse_21_desc
+    picture = persia_marching
+    right_portrait = c:SAG.current_ruler
+    left_portrait = current_ruler
+
+    immediate = {
+        show_as_tooltip = {
+            make_subject = {
+                target = c:SAG
+                type = satrapy
+            } 
+        }
+    }
+    option = {
+        name = "median_collapse_21.a"
     }
 }

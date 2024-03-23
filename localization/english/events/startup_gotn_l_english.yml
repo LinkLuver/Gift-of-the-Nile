@@ -15,6 +15,8 @@
 
  ## Median Collapse
  # Armenian Independence
+ armenian_rebels:0 "Armenian Satrapy Rowdiness"
+
  ARZ:0 "Arzasha"
  ARZ_ADJ:0 "Arzashi"
  armenia_big_success:0 "#E Armenia#! takes over parts of the #E Armenia#! region.\n#E Armenia#! becomes the leader of the #E Armenian#! satrapies."
@@ -37,3 +39,17 @@
  median_collapse_6_desc:0 "The Medians have been the most powerful state of the civilized world since the Age of Iron and the collapse of the Neo-Assyrian Empire. Yet their time now comes. Their Armenian satrapies have broken away while war wages on in their nation. Is this truly the end to the sons of Mithra?"
  median_collapse_6.a:0 "Fortune is fickle..."
  median_collapse_6.b:0 "Good riddance!"
+
+ median_collapse_10_title:0 "Armenian Dissatifaction"
+ median_collapse_10_desc:0 "The western Armenian satrapies have found their position within our empire to be less than ideal. Over the past decades, we have been focussing on our influence in the east, aiming to finally crush the Achaemenid Kingdom. Of course, they shouldn't even have a choice, however, they will be unlikely to join our wars for a while... and they may even look to rebel completely."
+ median_collapse_10.a:0 "Those mountain hugging heathens!"
+ median_collapse_10.b:0 "The time of the Armenians will come!"
+
+ median_collapse_20_title:0 "Sagartia's Betrayal"
+ median_collapse_20_desc:0 "The Sagartians were once our loyal satraps... but that is the case no longer. Due to the Achaemenids meddling, the Sagartians have decided to flip their allegience to that of the Persians due to their shared faith of Mazdayasna. We cannot let this disgrace stand!"
+ median_collapse_20.a:0 "Declare war on the Achaemenid Kingdom!"
+ median_collapse_20.b:0 "We cannot afford war right now..."
+
+ median_collapse_21_title:0 "Sagartia Joins the Fray"
+ median_collapse_21_desc:0 "Thanks to our shared faith of Mazdayasna, the Sargatians have finally left behind their tyrannical Median overlords and sworn loyalty to us! The Medians cannot be happy about this and will likely declare war on us for this reason. We should be ready."
+ median_collapse_21.a:0 "Ahura Mazda will lead us!"

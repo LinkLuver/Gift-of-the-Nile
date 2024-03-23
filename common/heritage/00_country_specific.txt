@@ -392,6 +392,48 @@ mendes_heritage = {
         tag = DJD
     }
 }
+sukkari_heritage = {
+    modifier = {
+        #good
+        naval_morale_modifier = 0.10
+        global_pop_assimilation_speed_modifier = 0.1
+
+        #bad
+        diplomatic_reputation = -2
+    }
+
+    trigger = {
+        tag = SIQ
+    }
+}
+semna_heritage = {
+    modifier = {
+        #good
+        monthly_legitimacy = 0.05
+        camels_discipline = 0.05
+
+        #bad
+        global_monthly_civilization = -0.03
+    }
+
+    trigger = {
+        tag = SEM
+    }
+}
+faiyum_heritage = {
+    modifier = {
+        #good
+        desert_combat_bonus = 0.1
+        basic_settlement_infratructure_building_cost = -0.20
+
+        #bad
+        happiness_for_wrong_culture_modifier = -0.06
+    }
+
+    trigger = {
+        tag = PSN
+    }
+}
 adini_heritage = {
     modifier = {
         #good

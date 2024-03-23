@@ -15,6 +15,7 @@
 		fix_new_countries.1 #Need to fix head of family and a bunch of shit for new monarchy countries
 		hellenic_flavor.1 #Roman conversion to Hellenic
 		median_collapse.1
+		median_collapse.20
 	}
 	random_events = {
 		300 = 0
