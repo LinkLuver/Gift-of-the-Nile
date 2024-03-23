@@ -224,6 +224,174 @@ hyksos_heritage = {
         primary_culture = hyksos
     }
 }
+memphis_heritage = {
+    modifier = {
+        #good
+        global_monthly_civilization = 0.03
+        civic_tech_investment = 0.1
+
+        #bad
+        monthly_political_influence = -0.03
+    }
+
+    trigger = {
+        tag = MEN
+    }
+}
+iunu_heritage = {
+    modifier = {
+        #good
+        build_cost = -0.05
+        global_tax_income = 0.05
+
+        #bad
+        price_found_city_cost_modifier = 0.15
+    }
+
+    trigger = {
+        tag = IUN
+    }
+}
+huwaret_heritage = {
+    modifier = {
+        #good
+        light_cavalry_offensive = 0.10
+        desecrate_cost_modifier = -0.25
+
+        #bad
+        enact_holy_site_cost_modifier = 0.15
+    }
+
+    trigger = {
+        tag = HUT
+    }
+}
+djanet_heritage = {
+    modifier = {
+        #good
+        build_cost = -0.05
+        ship_cost = -0.10
+
+        #bad
+        loyalty_gain_chance_modifier = 0.05
+    }
+
+    trigger = {
+        tag = DJA
+    }
+}
+wadjet_heritage = {
+    modifier = {
+        #good
+        global_citizen_happyness = happiness_large_svalue
+        diplomatic_relations = 1
+
+        #bad
+        global_defensive = -0.1
+    }
+
+    trigger = {
+        tag = BTO
+    }
+}
+damanhur_heritage = {
+    modifier = {
+        #good
+        happiness_for_same_religion_modifier = 0.1
+        enact_holy_site_cost_modifier = -0.15
+
+        #bad
+        happiness_for_same_religion_modifier = -0.1
+    }
+
+    trigger = {
+        tag = DMN
+    }
+}
+naukratis_heritage = {
+    modifier = {
+        #good
+        happiness_for_wrong_culture_group_modifier = 0.10
+        global_nobles_output = 0.03
+
+        #bad
+        global_freemen_output = -0.05
+    }
+
+    trigger = {
+        tag = PMR
+    }
+}
+sebennytos_heritage = {
+    modifier = {
+        #good
+        build_time = -0.10
+        global_population_growth = 0.03
+
+        #bad
+        build_cost = 0.05
+    }
+
+    trigger = {
+        tag = NJR
+    }
+}
+taremu_heritage = {
+    modifier = {
+        #good
+        global_manpower_modifier = 0.15
+        global_freemen_happyness = happiness_large_svalue
+
+        #bad
+        global_goods_from_slaves = 1
+    }
+
+    trigger = {
+        tag = TRU
+    }
+}
+khasut_heritage = {
+    modifier = {
+        #good
+        global_nobles_happyness = 0.03
+        global_nobles_output = 0.05
+
+        #bad
+        global_citizen_happyness = negative_happiness_small_svalue
+    }
+
+    trigger = {
+        tag = KHA
+    }
+}
+rhakote_heritage = {
+    modifier = {
+        #good
+        global_population_capacity_modifier = 0.05
+        global_migration_speed_modifier = 0.05
+
+        #bad
+        ruler_popularity_gain = -0.04
+    }
+
+    trigger = {
+        tag = RHA
+    }
+}
+mendes_heritage = {
+    modifier = {
+        #good
+        diplomatic_reputation = 2
+        global_pop_assimilation_speed_modifier = 0.1
+
+        #bad
+        build_cost = 0.05
+    }
+
+    trigger = {
+        tag = DJD
+    }
+}
 adini_heritage = {
     modifier = {
         #good
