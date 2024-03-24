@@ -1,5 +1,5 @@
-﻿"X08"={
-	country="X08"
+﻿"TOL"={
+	country="TOL"
 	436={
 		first_name="Leonnorius"
 		birth_date=434.1.1
@@ -15,17 +15,17 @@
 		add_trait="cold"
 		add_gold=50
 		add_popularity=60
-		c:X08={
+		c:TOL={
 			set_as_ruler=char:436
 		}
 	}
 }
 
-"X09"={
-	country="X09"
+"TOI"={
+	country="TOI"
 	437={
 		first_name="Lutarius"
-		family = c:X09.fam:Trocmid
+		family = c:TOI.fam:Trocmid
 		birth_date=434.1.1
 		culture="eravisci"
 		religion="druidism"
@@ -39,17 +39,17 @@
 		add_trait="disciplined"
 		add_gold=50
 		add_popularity=60
-		c:X09={
+		c:TOI={
 			set_as_ruler=char:437
 		}
 	}
 }
 
-"X10"={
-	country="X10"
+"TEC"={
+	country="TEC"
 	439={
 		first_name="Cambaules"
-		family = c:X10.fam:Tectosages
+		family = c:TEC.fam:Tectosages
 		birth_date=430.1.1
 		culture="eravisci"
 		religion="druidism"
@@ -63,18 +63,18 @@
 		add_trait="shrewd"
 		add_gold=50
 		add_popularity=60
-		c:X10={
+		c:TEC={
 			set_as_ruler=char:439
 		}
 	}
 
 }
 
-"X11"={
-	country="X11"
+"SCD"={
+	country="SCD"
 	442={
 		first_name="Acichorius Brennus"
-		family = c:X11.fam:Acichorid
+		family = c:SCD.fam:Acichorid
 		birth_date=424.1.1
 		culture="celtic_pannonian"
 		religion="druidism"
@@ -88,14 +88,14 @@
 		add_trait="tactician"
 		add_gold=50
 		add_popularity=80
-		c:X11={
+		c:SCD={
 			set_as_ruler=char:442
 		}
 	}
 }
 
-"X12" = {
-	country="X12"
+"DND" = {
+	country="DND"
 	441={
 		first_name="Belgius"
 		birth_date=434.1.1
@@ -111,14 +111,14 @@
 		add_trait="zealous"
 		add_gold=50
 		add_popularity=60
-		c:X12={
+		c:DND={
 			set_as_ruler=char:441
 		}
 	}
 }
 
-"X13" = {
-	country="X13"
+"CEL" = {
+	country="CEL"
 	440={
 		first_name="Comontorius"
 		birth_date=434.1.1
@@ -134,7 +134,7 @@
 		add_trait="victorious"
 		add_gold=50
 		add_popularity=80
-		c:X13={
+		c:CEL={
 			set_as_ruler=char:440
 		}
 	}

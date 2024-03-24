@@ -12544,7 +12544,7 @@ country = {
 			}
 		}
 		#Tolistobogia
-		X08 = {
+		TOL = {
 			government = tribal_chiefdom
 			primary_culture = eravisci
 			religion = druidism
@@ -12561,7 +12561,7 @@ country = {
 			}
 		}
 		#Trocmeria
-		X09 = {
+		TOI = {
 			government = tribal_chiefdom
 			primary_culture = eravisci
 			religion = druidism
@@ -12577,7 +12577,7 @@ country = {
 			}
 		}
 		#Biephia
-		X10 = {
+		TEC = {
 			government = tribal_kingdom
 			primary_culture = biephi
 			religion = shamanism
@@ -12589,7 +12589,7 @@ country = {
 			}
 		}
 		#Anartia
-		X11 = {
+		SCD = {
 			government = tribal_kingdom
 			primary_culture = eravisci
 			religion = druidism
@@ -12602,7 +12602,7 @@ country = {
 			}
 		}
 		#Celegeria
-		X12 = {
+		DND = {
 			government = tribal_kingdom
 			primary_culture = celtic_pannonian
 			religion = druidism
@@ -12614,7 +12614,7 @@ country = {
 			}
 		}
 		#Timachia
-		X13 = {
+		CEL = {
 			government = tribal_kingdom
 			primary_culture = celtic_pannonian
 			religion = druidism
