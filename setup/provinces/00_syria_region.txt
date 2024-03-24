@@ -1117,7 +1117,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="carian"
+		culture="hittite"
 		religion="anatolian_religion"
 		amount=1
 	}
@@ -1125,7 +1125,7 @@
 		amount=2
 	}
 	freemen={
-		culture="carian"
+		culture="hittite"
 		religion="anatolian_religion"
 		amount=3
 	}
@@ -1139,7 +1139,7 @@
 	port_building=1
 }
 
-790={ #Antigoneia
+790={ #Alalakh
 	terrain="hills"
 	culture="syrion"
 	religion="carthaginian_pantheon"
@@ -1159,11 +1159,12 @@
 		amount=8
 	}
 	freemen={
+		religion="hurrian_pantheon"
 		amount=9
 	}
 	freemen={
 		culture="syriac"
-		religion="carthaginian_pantheon"
+		religion="hurrian_pantheon"
 		amount=2
 	}
 	slaves={
@@ -1171,7 +1172,7 @@
 	}
 	slaves={
 		culture="syriac"
-		religion="carthaginian_pantheon"
+		religion="hurrian_pantheon"
 		amount=2
 	}
 	slaves={
@@ -1205,23 +1206,29 @@
 	}
 }
 
-792={ #Trapezon
+792={ #Zincisli
 	terrain="forest"
 	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="olive"
 	civilization_value=24
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=2
 	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=6
+	}
 	slaves={
-		amount=1
+		amount=3
 	}
 	slaves={
 		religion="carthaginian_pantheon"
-		amount=1
+		amount=4
 	}
 }
 
@@ -1487,40 +1494,43 @@
 
 809={ #Karkemish
 	terrain="plains"
-	culture="syriac"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="grain"
 	civilization_value=25
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="macedonian"
-		religion="hurrian_pantheon"
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
 	citizen={
+		culture="syriac"
+		religion="carthaginian_pantheon"
 		amount=4
 	}
-	freemen={
-		culture="macedonian"
-		religion="hurrian_pantheon"
-		amount=1
+	citizen={
+		amount=9
 	}
 	freemen={
-		amount=1
+		culture="syriac"
+		religion="carthaginian_pantheon"
+		amount=5
+	}
+	freemen={
+		amount=10
 	}
 	slaves={
-		religion="hurrian_pantheon"
-		amount=1
+		religion="carthaginian_pantheon"
+		amount=8
 	}
 	slaves={
-		amount=2
+		amount=5
 	}
 }
 
 810={ #Zuqarra
 	terrain="plains"
-	culture="macedonian"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="earthware"
 	civilization_value=30

@@ -1277,7 +1277,7 @@ country = {
 		}
 
 		LYD = {
-			government = aristocratic_monarchy
+			government = plutocratic_monarchy
 			primary_culture = lydian
 			religion = anatolian_religion
 			diplomatic_stance=trading_stance
@@ -1303,7 +1303,7 @@ country = {
 				294 #ionia_region
 				1953 #milyas_region
 				174 176 177 180 181 191 1914 1916 1934 1965 1971 #lycaonia_region
-				1924 1950 1975 #isauria_region
+				1924 1950 1975 1969 #isauria_region
 				442 #Aigina
 				7902 # Salamis
 				178 182 230 1777 1926 1928 1930 1937 1939 #phrygia_parorea_region
@@ -1421,15 +1421,15 @@ country = {
 
 			own_control_core = 	{
 				836 838 839 1862 1863 1864 #commagene_region
-				1860 6397 837 1895 840 1847
+				1860 6397 837 1895 840
 			}
 
 		}
 
 		HIT = {
-			government = oligarchic_republic
+			government = despotic_monarchy
 			primary_culture = hittite
-			religion = anatolian_religion
+			religion = hurrian_pantheon
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -1442,8 +1442,8 @@ country = {
 
 			own_control_core = 	{
 				1882 1889 #cilicia_trachea_region
-				795 796 1874 1875 1879 1880 1881 #cilicia_pedias_region
-				1969 7934 1873 1877 1878
+				1874 1875 1879 1880 1881 #cilicia_pedias_region
+				7934 1873 1877 1878
 			}
 		}
 
@@ -1451,7 +1451,7 @@ country = {
 		HT2 = {
 			government = despotic_monarchy
 			primary_culture = hittite
-			religion = anatolian_religion
+			religion = hurrian_pantheon
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -1460,14 +1460,49 @@ country = {
 				religious_tech= { level=1 progress=0  }
 			}
 
-			capital = 1872
+			capital = 792
 
 			own_control_core = 	{
-				792 794 811 812 852 1871 #syria_cyrrestice_region
+				792 794 812
+			}
+		}
+		GUR = {
+			government = oligarchic_republic
+			primary_culture = hittite
+			religion = hurrian_pantheon
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 1867
+
+			own_control_core = 	{
+				811 852 #syria_cyrrestice_region
 				1867 1868
 			}
 		}
+		KAR = {
+			government = aristocratic_monarchy
+			primary_culture = hittite
+			religion = hurrian_pantheon
 
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 809
+
+			own_control_core = 	{
+				809
+			}
+		}
 		LHT = {
 			government = despotic_monarchy
 			primary_culture = syriac
@@ -1554,7 +1589,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				807 809 810 1869
+				807 810 1869 1847
 				817 818 819 820 844 848 849 854 853 879 #osroene_region
 			}
 
@@ -1734,7 +1769,7 @@ country = {
 		AKH = {
 			government = despotic_monarchy
 			primary_culture = syrion
-			religion = carthaginian_pantheon
+			religion = hurrian_pantheon
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -1746,7 +1781,7 @@ country = {
 			capital = 790
 
 			own_control_core = {
-				790 789
+				790 789 1871 795 796
 			}
 		}
 		BEI = {
@@ -2029,18 +2064,67 @@ country = {
 				371 373 379 381 382 383 384 385 386 380 428 369 #Macedonia
 				393 400 405 408 411 412 3125 3175 3356 #Upper Macedonia
 				356 363 364 365 366 374 376 377 378 #Chalkidiki
+				6399 # Pydna
+				497 4302 414
+			}
+
+		}
+		KOR = {
+			government = aristocratic_monarchy
+			primary_culture = achaean
+			religion = roman_pantheon
+			diplomatic_stance=appeasement_stance
+			monarchy_military_reforms = work_for_the_best
+			capital = 418
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core =  {
+				418
+			}
+		}
+		LAM = {
+			#family = 22
+			#family = 23
+			government = aristocratic_monarchy
+			primary_culture = aetolian
+			religion = roman_pantheon
+			diplomatic_stance=appeasement_stance
+			monarchy_military_reforms = work_for_the_best
+			capital = 399
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			pantheon = {
+
+			{ deity = 102 }
+			{ deity = 112 }
+			{ deity = 110 }
+			{ deity = 108 }
+
+			}
+
+			historical_regnal_numbers = {
+				Antipatros = 1
+			}
+			own_control_core =  {
 				399 #Lamia
 				469 #Thaumakoi
 				401 #Hypate
 				466 #Oichalia
 				475 #Kallipolis
 				7896 # Nikaia Locriai, Thermopylai.
-				418 #Corinth, stronghold in Peleponese.
-				277  #Aegean Islands
-				6399 # Pydna
-				497 4302 414
 			}
-
 		}
 		TRE = {
 			family = 8
@@ -2140,6 +2224,7 @@ country = {
 				413 416 7799 7897 7898
 				270 297 #Islands of Imbros and Lemnos granted by Antigonus to Athens after liberation.
 				1774 349
+				277  #Aegean Islands
 			}
 
 			treasures = { 55 79 211 }

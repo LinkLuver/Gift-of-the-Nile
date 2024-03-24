@@ -98,6 +98,8 @@ PAL = "setup/countries/levant/palmyra.txt"
 HAM = "setup/countries/levant/hamath.txt"
 LHT = "setup/countries/levant/luash.txt"
 HT2 = "setup/countries/levant/samal.txt"
+GUR = "setup/countries/levant/gurgum.txt"
+KAR = "setup/countries/levant/karkemish.txt"
 
 # Greco-Macedon
 MAC = "setup/countries/greece/macedonia.txt"
@@ -106,6 +108,8 @@ ODR = "setup/countries/greece/odrysia.txt"
 ABD = "setup/countries/macedonia/abdera.txt"
 AEN = "setup/countries/macedonia/aenos.txt"
 CRD = "setup/countries/macedonia/cardia.txt"
+LAM = "setup/countries/macedonia/lamia.txt"
+KOR = "setup/countries/macedonia/korinth.txt"
 
 ### Vanilla
 

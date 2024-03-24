@@ -104,8 +104,8 @@
  AX4_ADJ:0 "Samadan"
 
  # ANATOLIA
- HIT:0 "Neo Hittite League"
- HIT_ADJ:0 "Hittite"
+ HIT:0 "Que"
+ HIT_ADJ:0 "Adanan"
  LYD:0 "Lydian Kingdom"
  LYD_ADJ:0 "Lydian"
  PHR:0 "Phrygia"
@@ -164,6 +164,10 @@
  HT2_ADJ:0 "Yadiyan"
  CYP:0 "Paphos"
  CYP_ADJ:0 "Paphosian"
+ KAR:0 "Karkemish"
+ KAR_ADJ:0 "Karkemishi"
+ GUR:0 "Gurgum"
+ GUR_ADJ:0 "Margasi"
 
  # GRECO-MACEDON
  TRE:0 "Thessaly"
@@ -173,4 +177,8 @@
  ABD:0 "Abdera"
  ABD_ADJ:0 "Abderan"
  CRD:0 "Cardia"
- CRD:0 "Cardiote"
+ CRD_ADJ:0 "Cardiote"
+ KOR:0 "Korinth"
+ KOR_ADJ:0 "Korinthian"
+ LAM:0 "Lamia"
+ LAM_ADJ:0 "Lamian"
