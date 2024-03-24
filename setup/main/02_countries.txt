@@ -13774,5 +13774,104 @@ country = {
 			}
 		}
 		
+		SA0 = {
+			government = tribal_chiefdom
+			primary_culture = alani
+			religion = indo_iranian_religion
+			diplomatic_stance=warmongering_stance
+
+			centralization = -75
+
+			capital = 8906
+			
+			technology= {
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = {
+				8895 8896 8897 8898 8899 8900 8901 8902 8903 8904
+				8905 8906 8907 8908 8909 8910 8911 8912 8913 8914
+				8915 8916 8917 8918 8919 8920 8921 8922 8923 8924 8925 8926
+				8927 8928 8929 8930 8931 8932 8933 8934 8935 8936 8937
+				5879 5880 5881 5911 5912 5913 5914
+				8938 8939 8940 8941 8942 8944 8945 8946
+			}
+		}
+		
+		SA1 = {
+			government = tribal_chiefdom
+			primary_culture = sakan
+			religion = indo_iranian_religion
+
+			centralization = -75
+
+			capital = 8986
+			
+			technology= {
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = {
+			8983 8984 8985 8986 8987 8988 8989 8990 8991 8992 8993 8994
+			8995 8996 8997 8998 8999 9000 9001 9002
+			}
+		}
+		
+		SA2 = {
+			government = tribal_chiefdom
+			primary_culture = jurcan
+			religion = indo_iranian_religion
+
+			centralization = -75
+
+			capital = 9114
+			
+
+			own_control_core = {
+			9105 9106 9107 9108 9109 9110 9111 9112 9113 9114 9115 9116
+			8943 8947
+			9102 9103 9104
+			}
+		}
+		
+		SA3 = {
+			government = tribal_chiefdom
+			primary_culture = thyssagetaen
+			religion = indo_iranian_religion
+
+			centralization = -75
+
+			capital = 9100
+			
+
+			own_control_core = {
+			9083 9084 9085 9086 9087 9088 9089 9090 9091 9092
+			9093 9094 9095 9096 9097 9098 9099 9100 9101
+			8948 8952 8953 8957 8958
+			9071 9072 9073 9074 9075 9076 9077 9078 9079 9080 9081 9082
+			8959 8960 8961 8962 8963 8964 8965 8966 8967 8968 8969
+			}
+		}
+		
+		SA4 = {
+			government = tribal_chiefdom
+			primary_culture = massagetaean
+			religion = indo_iranian_religion
+
+			centralization = -75
+
+			capital = 5480
+			
+
+			own_control_core = {
+			5477 5479 5480 5481 5486
+			}
+		}
 	}
 }

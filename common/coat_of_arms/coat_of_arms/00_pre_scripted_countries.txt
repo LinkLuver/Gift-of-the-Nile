@@ -3023,3 +3023,24 @@ CAB = {
 		}
 	}
 }
+#Yancai
+SA0 = {
+	pattern = "pattern_solid.tga"
+	color1 = "athens_blue"
+	color2 = "frost_blue"
+
+	colored_emblem = {
+		texture = "ce_yancai.dds"
+		color1 = "samnite_beige"
+		color2 = "frost_blue"
+	}
+	
+	colored_emblem = {
+		texture = "ce_border_stars_01.dds"
+		color1 = "samnite_beige"
+		instance = { rotation = 0 }
+		instance = { rotation = 90 }
+		instance = { rotation = 180 }
+		instance = { rotation = 270 }
+	}
+}

@@ -2640,6 +2640,18 @@
  FGD_ADJ:0 "Fugandulu"
  SHN:0 "Shan"
  SHN_ADJ:0 "Shan"
+
+ #New Sarmatian
+ SA0:0 "Yancai"
+ SA0_ADJ:0 "Yancai"
+ SA1:0 "Aspisia"
+ SA1_ADJ:0 "Aspisian"
+ SA2:0 "Jurcae"
+ SA2_ADJ:0 "Jurcaean"
+ SA3:0 "Thyssagetia"
+ SA3_ADJ:0 "Thyssagetaean"
+ SA4:0 "Attasia"
+ SA4_ADJ:0 "Attasian"
  
  # unused tags
  OSR:0 "Osroene"
