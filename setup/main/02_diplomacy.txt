@@ -27,6 +27,9 @@ diplomacy = {
 	dependency = { first = LYD second = MYD subject_type = tributary }
 	dependency = { first = LYD second = BIT subject_type = tributary }
 
+	#Bit-Adini
+	dependency = { first = BMB second = KAR subject_type = subject_league_city_state }
+
 	##Greek Leagues
 	#Neo-Dellian League
 	defensive_league = {
@@ -83,6 +86,8 @@ diplomacy = {
 		member = MAC
 		member = ARG
 		member = AET
+		member = LAM
+		member = KOR
 	}
 	dependency = { first = MAC second = PAA subject_type = vassal_tribe }
 	dependency = { first = MAC second = MAD subject_type = vassal_tribe }
