@@ -456,6 +456,7 @@
 	}
 	freemen={
 		culture="alashiyan"
+		religion="egyptian_pantheon"
 		amount=2
 	}
 	slaves={
@@ -582,8 +583,16 @@
 		religion="roman_pantheon"
 		amount=2
 	}
+	freemen={
+		religion="egyptian_pantheon"
+		amount=1
+	}
 	slaves={
-		amount=2
+		amount=1
+	}
+	slaves={
+		religion="roman_pantheon"
+		amount=1
 	}
 }
 
