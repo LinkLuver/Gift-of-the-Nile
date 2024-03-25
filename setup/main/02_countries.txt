@@ -1623,8 +1623,8 @@ country = {
 		}
 
 		TR1 = {
-			government = despotic_monarchy
-			primary_culture = phoenician
+			government = plutocratic_republic
+			primary_culture = alashiyan
 			religion = carthaginian_pantheon
 
 			technology={
@@ -1641,9 +1641,10 @@ country = {
 			}
 		}
 		LTS = {
-			government = despotic_monarchy
-			primary_culture = phoenician
+			government = plutocratic_republic
+			primary_culture = alashiyan
 			religion = carthaginian_pantheon
+			diplomatic_stance = trading_stance
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -1659,9 +1660,10 @@ country = {
 			}
 		}
 		SAL = {
-			government = despotic_monarchy
-			primary_culture = phoenician
+			government = plutocratic_republic
+			primary_culture = alashiyan
 			religion = carthaginian_pantheon
+			diplomatic_stance = trading_stance
 
 			technology={
 				military_tech={ level=2 progress=0 }
