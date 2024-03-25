@@ -9,7 +9,7 @@
 	secondary_navy = octere
 	flank_navy = liburnian
 	
-	levy_template = levy_east_levantine
+	levy_template = levy_babylonian
 
 	male_names = {
 		Abba Abbadhi Avishlem Ahun Adin Afrahath Agush
@@ -191,8 +191,8 @@
 		Bit_tarkubti_inv
 	}
 	culture = {
-		assyrian = {}
-		babylonian = { levy_template = levy_babylonian }
+		assyrian = { levy_template = levy_assyrian }
+		babylonian = {}
 		dilmunite = {}
 	}
 	
