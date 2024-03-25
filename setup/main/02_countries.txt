@@ -1641,9 +1641,9 @@ country = {
 			}
 		}
 		LTS = {
-			government = plutocratic_republic
+			government = plutocratic_monarchy
 			primary_culture = alashiyan
-			religion = carthaginian_pantheon
+			religion = hurrian_pantheon
 			diplomatic_stance = trading_stance
 
 			technology={
@@ -1733,9 +1733,10 @@ country = {
 			}
 		}
 		KIT = {
-			government = despotic_monarchy
-			primary_culture = phoenician
+			government = plutocratic_republic
+			primary_culture = alashiyan
 			religion = carthaginian_pantheon
+			diplomatic_stance = trading_stance
 
 			technology={
 				military_tech={ level=2 progress=0 }

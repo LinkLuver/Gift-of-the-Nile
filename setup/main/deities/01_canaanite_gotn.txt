@@ -1,0 +1,8 @@
+deity_manager = {
+	deities_database = { ### KEYS 30300 - 30400 ###
+		30300 = {
+			key = omen_astarte_bast
+			deity = deity_astarte_bast
+		}
+	}
+}

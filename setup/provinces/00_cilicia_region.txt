@@ -408,7 +408,7 @@
 	province_rank="city"
 	nobles={
 		culture="cypriot"
-		religion="hurrian_pantheon"
+		religion="roman_pantheon"
 		amount=1
 	}
 	nobles={
@@ -438,40 +438,41 @@
 	trade_goods="cedar"
 	civilization_value=24
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
-		amount=1
+		amount=2
 	}
 	citizen={
 		culture="alashiyan"
-		amount=1
+		amount=2
 	}
 	citizen={
 		culture="hebrew"
 		religion="judaism"
-		amount=1
-	}
-	freemen={
 		amount=2
 	}
 	freemen={
+		amount=4
+	}
+	freemen={
 		culture="alashiyan"
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	slaves={
 		culture="alashiyan"
-		amount=1
+		amount=2
 	}
 	port_building=1
+	holy_site=omen_astarte_bast
 }
 
 333={ #Soloi Kypriai
 	terrain="hills"
 	culture="cypriot"
-	religion="hurrian_pantheon"
+	religion="roman_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
@@ -487,14 +488,14 @@
 334={ #Paphos
 	terrain="hills"
 	culture="cypriot"
-	religion="hurrian_pantheon"
+	religion="roman_pantheon"
 	trade_goods="cedar"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="macedonian"
-		religion="hurrian_pantheon"
+		culture="cypriot"
+		religion="roman_pantheon"
 		amount=1
 	}
 	citizen={
@@ -506,7 +507,12 @@
 		amount=5
 	}
 	freemen={
-		amount=5
+		amount=3
+	}
+	freemen={
+		religion="carthaginian_pantheon"
+		culture="alashiyan"
+		amount=2
 	}
 	slaves={
 		amount=7
@@ -518,24 +524,24 @@
 335={ #Keryneia
 	terrain="hills"
 	culture="alashiyan"
-	religion="carthaginian_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="olive"
 	civilization_value=24
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		amount=2
 	}
 	citizen={
 		culture="alashiyan"
 		religion="carthaginian_pantheon"
-		amount=1
-	}
-	freemen={
 		amount=2
 	}
+	freemen={
+		amount=4
+	}
 	slaves={
-		amount=1
+		amount=3
 	}
 	port_building=1
 }
@@ -543,7 +549,7 @@
 336={ #Tamassos
 	terrain="hills"
 	culture="cypriot"
-	religion="hurrian_pantheon"
+	religion="roman_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
@@ -573,7 +579,7 @@
 	province_rank="settlement"
 	citizen={
 		culture="cypriot"
-		religion="hurrian_pantheon"
+		religion="roman_pantheon"
 		amount=2
 	}
 	slaves={
@@ -2208,7 +2214,7 @@
 6431={ #Marion
 	terrain="hills"
 	culture="cypriot"
-	religion="hurrian_pantheon"
+	religion="roman_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
@@ -2228,7 +2234,7 @@
 6433={ #Chythroi
 	terrain="plains"
 	culture="alashiyan"
-	religion="carthaginian_pantheon"
+	religion="hurrian_pantheon"
 	trade_goods="grain"
 	civilization_value=26
 	barbarian_power=0
@@ -2240,6 +2246,7 @@
 		amount=1
 	}
 	slaves={
+		religion = carthaginian_pantheon
 		amount=2
 	}
 }
@@ -2599,7 +2606,7 @@
 7990={ #Kourion
 	terrain="forest"
 	culture="cypriot"
-	religion="hurrian_pantheon"
+	religion="roman_pantheon"
 	trade_goods="cedar"
 	civilization_value=24
 	barbarian_power=0
@@ -2615,7 +2622,7 @@
 7991={ #Idalion
 	terrain="plains"
 	culture="cypriot"
-	religion="hurrian_pantheon"
+	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=26
 	barbarian_power=0

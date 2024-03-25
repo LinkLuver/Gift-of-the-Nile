@@ -1,0 +1,38 @@
+﻿### General Deity Checks ###
+deity_astarte_bast = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			tag = KIT
+			deity:omen_astarte_bast = {
+				holy_site_deity_check_trigger = yes
+			}
+			AND = {
+				religion = egyptian_pantheon
+				religion_pops_in_country = {
+					target = carthaginian_pantheon
+					value >= common_deity_svalue
+				}
+			}
+			AND = {
+				religion = carthaginian_pantheon
+				religion_pops_in_country = {
+					target = egyptian_pantheon
+					value >= common_deity_svalue
+				}
+			}
+		}
+	}
+	icon = deity_cr_car_astarte
+	passive_modifier = { discipline = deity_discipline_svalue }
+	omen = { spearmen_defensive = 0.10 } #Bonus from Omen
+	religion = carthaginian_pantheon
+	deity_category = war #This Deity uses an Economy Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		war_apotheosis_martial_tech_effect = yes
+	}
+}

@@ -535,6 +535,62 @@ elam_heritage = {
         tag = ELM
     }
 }
+paphos_heritage = {
+    modifier = {
+        #good
+        global_population_growth = 0.03
+        global_ship_recruit_speed = 0.15
+
+        #bad
+        global_defensive = -0.1
+    }
+
+    trigger = {
+        tag = CYP
+    }
+}
+lepetos_heritage = {
+    modifier = {
+        #good
+        civil_war_threshold = 0.05
+        ruler_popularity_gain = 0.1
+
+        #bad
+        diplomatic_reputation = -1
+    }
+
+    trigger = {
+        tag = LTS
+    }
+}
+salamis_heritage = {
+    modifier = {
+        #good
+        global_monthly_civilization = 0.03
+        naval_range = 0.25
+
+        #bad
+        happiness_for_same_culture_modifier = -0.06
+    }
+
+    trigger = { 
+        tag = SAL
+    }
+}
+kiti_heritage = {
+    modifier = {
+        #good
+        spearmen_offensive = 0.15
+        happiness_for_wrong_culture_modifier = wrong_culture_group_large
+
+        #bad
+        global_pop_conversion_speed_modifier = -0.05
+    }
+
+    trigger = {
+        tag = KIT
+    }
+}
 
 #ONLY for heritages with a specific tag(list) as trigger
 roman_heritage = {
