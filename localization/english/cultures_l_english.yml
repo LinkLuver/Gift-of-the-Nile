@@ -561,8 +561,13 @@
  COHORT_NAME_scythian_east:1 "$COHORT_NAME_north_african$"
  LEGION_NAME_scythian_east:0 "$LEGION_NAME_persia$"
 
-#Pu
+ #Pu
  ARMY_NAME_pu:0 "$NUM$$ORDER$ Army"
  NAVY_NAME_pu:0 "$NUM$$ORDER$ Navy"
  COHORT_NAME_pu:1 "$COHORT_NAME_magadhi$"
  LEGION_NAME_pu:0 "$LEGION_NAME_magadhi$"
+
+ # Mesopotamian
+ ARMY_NAME_mesopotamian:0 "$NUM$$ORDER$ Army"
+ COHORT_NAME_mesopotamian:0 "$COHORT_NAME_east_levantine$"
+ NAVY_NAME_mesopotamian:0 "$NUM$$ORDER$ Navy"
