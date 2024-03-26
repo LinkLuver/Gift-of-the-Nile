@@ -1,0 +1,179 @@
+﻿l_english:
+
+waset_missions:0 "Waset Missions"
+waset_missions_DESCRIPTION:0 "Mission description"
+waset_missions_CRITERIA_DESCRIPTION:0 "This mission will be completed when"
+waset_missions_BUTTON_TOOLTIP:0 ""
+
+#Missions
+
+waset_missions_task_1:0 ""
+waset_missions_task_1_DESC:0 ""
+
+waset_missions_task_2:0 ""
+waset_missions_task_2_DESC:0 ""
+
+waset_missions_task_3:0 ""
+waset_missions_task_3_DESC:0 ""
+
+waset_missions_task_4:0 ""
+waset_missions_task_4_DESC:0 ""
+
+waset_missions_task_5:0 ""
+waset_missions_task_5_DESC:0 ""
+
+waset_missions_task_6:0 ""
+waset_missions_task_6_DESC:0 ""
+
+waset_missions_task_7:0 ""
+waset_missions_task_7_DESC:0 ""
+
+waset_missions_task_8:0 ""
+waset_missions_task_8_DESC:0 ""
+
+waset_missions_task_9:0 ""
+waset_missions_task_9_DESC:0 ""
+
+waset_missions_task_10:0 ""
+waset_missions_task_10_DESC:0 ""
+
+waset_missions_task_11:0 ""
+waset_missions_task_11_DESC:0 ""
+
+waset_missions_task_12:0 ""
+waset_missions_task_12_DESC:0 ""
+
+waset_missions_task_13:0 ""
+waset_missions_task_13_DESC:0 ""
+
+waset_missions_task_14:0 ""
+waset_missions_task_14_DESC:0 ""
+
+waset_missions_task_15:0 ""
+waset_missions_task_15_DESC:0 ""
+
+waset_missions_task_16:0 ""
+waset_missions_task_16_DESC:0 ""
+
+waset_missions_task_17:0 ""
+waset_missions_task_17_DESC:0 ""
+
+waset_missions_task_18:0 ""
+waset_missions_task_18_DESC:0 ""
+
+waset_missions_task_19:0 ""
+waset_missions_task_19_DESC:0 ""
+
+waset_missions_task_20:0 ""
+waset_missions_task_20_DESC:0 ""
+
+
+#Tooltips
+
+
+
+#Modifiers
+
+
+
+#Events
+me_waset_1_title:0 "$waset_missions_task_1$"
+me_waset_1_desc:0 ""
+me_waset_1.a:0 ""
+me_waset_1_tooltip:0 "The mission task '#Y $waset_missions_task_1$#!' has now been #G Completed#!!"
+
+me_waset_2_title:0 "$waset_missions_task_2$"
+me_waset_2_desc:0 ""
+me_waset_2.a:0 ""
+me_waset_2_tooltip:0 "The mission task '#Y $waset_missions_task_2$#!' has now been #G Completed#!!"
+
+me_waset_3_title:0 "$waset_missions_task_3$"
+me_waset_3_desc:0 ""
+me_waset_3.a:0 ""
+me_waset_3_tooltip:0 "The mission task '#Y $waset_missions_task_3$#!' has now been #G Completed#!!"
+
+me_waset_4_title:0 "$waset_missions_task_4$"
+me_waset_4_desc:0 ""
+me_waset_4.a:0 ""
+me_waset_4_tooltip:0 "The mission task '#Y $waset_missions_task_4$#!' has now been #G Completed#!!"
+
+me_waset_5_title:0 "$waset_missions_task_5$"
+me_waset_5_desc:0 ""
+me_waset_5.a:0 ""
+me_waset_5_tooltip:0 "The mission task '#Y $waset_missions_task_5$#!' has now been #G Completed#!!"
+
+me_waset_6_title:0 "$waset_missions_task_6$"
+me_waset_6_desc:0 ""
+me_waset_6.a:0 ""
+me_waset_6_tooltip:0 "The mission task '#Y $waset_missions_task_6$#!' has now been #G Completed#!!"
+
+me_waset_7_title:0 "$waset_missions_task_7$"
+me_waset_7_desc:0 ""
+me_waset_7.a:0 ""
+me_waset_7_tooltip:0 "The mission task '#Y $waset_missions_task_7$#!' has now been #G Completed#!!"
+
+me_waset_8_title:0 "$waset_missions_task_8$"
+me_waset_8_desc:0 ""
+me_waset_8.a:0 ""
+me_waset_8_tooltip:0 "The mission task '#Y $waset_missions_task_8$#!' has now been #G Completed#!!"
+
+me_waset_9_title:0 "$waset_missions_task_9$"
+me_waset_9_desc:0 ""
+me_waset_9.a:0 ""
+me_waset_9_tooltip:0 "The mission task '#Y $waset_missions_task_9$#!' has now been #G Completed#!!"
+
+me_waset_10_title:0 "$waset_missions_task_10$"
+me_waset_10_desc:0 ""
+me_waset_10.a:0 ""
+me_waset_10_tooltip:0 "The mission task '#Y $waset_missions_task_10$#!' has now been #G Completed#!!"
+
+me_waset_11_title:0 "$waset_missions_task_11$"
+me_waset_11_desc:0 ""
+me_waset_11.a:0 ""
+me_waset_11_tooltip:0 "The mission task '#Y $waset_missions_task_11$#!' has now been #G Completed#!!"
+
+me_waset_12_title:0 "$waset_missions_task_12$"
+me_waset_12_desc:0 ""
+me_waset_12.a:0 ""
+me_waset_12_tooltip:0 "The mission task '#Y $waset_missions_task_12$#!' has now been #G Completed#!!"
+
+me_waset_13_title:0 "$waset_missions_task_13$"
+me_waset_13_desc:0 ""
+me_waset_13.a:0 ""
+me_waset_13_tooltip:0 "The mission task '#Y $waset_missions_task_13$#!' has now been #G Completed#!!"
+
+me_waset_14_title:0 "$waset_missions_task_14$"
+me_waset_14_desc:0 ""
+me_waset_14.a:0 ""
+me_waset_14_tooltip:0 "The mission task '#Y $waset_missions_task_14$#!' has now been #G Completed#!!"
+
+me_waset_15_title:0 "$waset_missions_task_15$"
+me_waset_15_desc:0 ""
+me_waset_15.a:0 ""
+me_waset_15_tooltip:0 "The mission task '#Y $waset_missions_task_15$#!' has now been #G Completed#!!"
+
+me_waset_16_title:0 "$waset_missions_task_16$"
+me_waset_16_desc:0 ""
+me_waset_16.a:0 ""
+me_waset_16_tooltip:0 "The mission task '#Y $waset_missions_task_16$#!' has now been #G Completed#!!"
+
+me_waset_17_title:0 "$waset_missions_task_17$"
+me_waset_17_desc:0 ""
+me_waset_17.a:0 ""
+me_waset_17_tooltip:0 "The mission task '#Y $waset_missions_task_17$#!' has now been #G Completed#!!"
+
+me_waset_18_title:0 "$waset_missions_task_18$"
+me_waset_18_desc:0 ""
+me_waset_18.a:0 ""
+me_waset_18_tooltip:0 "The mission task '#Y $waset_missions_task_18$#!' has now been #G Completed#!!"
+
+me_waset_19_title:0 "$waset_missions_task_19$"
+me_waset_19_desc:0 ""
+me_waset_19.a:0 ""
+me_waset_19_tooltip:0 "The mission task '#Y $waset_missions_task_19$#!' has now been #G Completed#!!"
+
+me_waset_20_title:0 "$waset_missions_task_20$"
+me_waset_20_desc:0 ""
+me_waset_20.a:0 ""
+me_waset_20_tooltip:0 "The mission task '#Y $waset_missions_task_20$#!' has now been #G Completed#!!"
+
