@@ -32,7 +32,7 @@ median_collapse.1 = { # Initial
             limit = {
                 tag = MAP
             }
-            set_global_variable = median_collapse_Var
+            #set_global_variable = median_collapse_var
         }
         if = {
             limit = {

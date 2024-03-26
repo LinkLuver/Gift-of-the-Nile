@@ -88,7 +88,7 @@
 	35={
 		first_name="Philippos" # Father of Alexander the Great
 		nickname = "NICKNAME_II"
-		family_name="Argead"
+		family = c:MAC.fam:Argead
 		birth_date=372.1.1
 		death_date=418.10.1
 		religion="roman_pantheon"
@@ -109,7 +109,7 @@
 	}
 	40={
 		first_name="Kleopatra" # Sister of Alexander the Great
-		family_name="Argead"
+		family = c:MAC.fam:Argead
 		birth_date=400.5.20
 		death_date=446.1.18
 		culture="macedonian"
@@ -123,7 +123,7 @@
 	291={
 		first_name="Alexandros" # Son of Alexander the Great
 		nickname = "NICKNAME_AIGOS"
-		family_name="Argead"
+		family = c:MAC.fam:Argead
 		birth_date=431.8.1
 		death_date=445.8.1
 		culture="macedonian"
@@ -150,7 +150,7 @@
 	}
 	304={
 		first_name="Philippos" # Brother of Alexander the Great
-		family_name="Argead"
+		family = c:MAC.fam:Argead
 		nickname = "NICKNAME_ARRIDAIOS"
 		birth_date=395.2.6
 		death_date=437.9.28

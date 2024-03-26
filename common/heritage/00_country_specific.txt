@@ -7585,3 +7585,18 @@ yancai_heritage = {
         tag = SA0
     }
 }
+
+# Egyptian Revolt Events probs need to be purged
+waset_heritage = {
+    modifier = {
+        #good
+        happiness_for_same_religion_modifier = 0.1
+        omen_power = 0.05
+        
+        #bad
+        diplomatic_relations = -1
+    }
+    trigger = {
+        always = no
+    }
+}

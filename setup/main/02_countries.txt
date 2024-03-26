@@ -2023,6 +2023,7 @@ country = {
 		MAC = {
 			family = 22
 			family = 23
+			family = 2100
 			government = aristocratic_monarchy
 			primary_culture = macedonian
 			religion = roman_pantheon
@@ -2092,7 +2093,7 @@ country = {
 			}
 		}
 		LAM = {
-			family = 22
+			#family = 22
 			#family = 23
 			government = aristocratic_monarchy
 			primary_culture = aetolian
@@ -8722,7 +8723,7 @@ country = {
 
 			own_control_core = 	{
 				5457 5471 5493 5496 5497 5498 5499 5494 5495 5492 5491 5490
-				5477 5480 5481 5479 5483 5484 5482 5486 5485 5487 5488 5489
+				5483 5484 5482 5485 5487 5488 5489
 				5478 5468 5467
 			}
 
@@ -9577,7 +9578,7 @@ country = {
 		PHY = {
 			government = despotic_monarchy
 			primary_culture = sakan
-			religion = eastern_animism
+			religion = indo_iranian_religion
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -9622,7 +9623,7 @@ country = {
 		WUS = {
 			government = despotic_monarchy
 			primary_culture = sakan
-			religion = eastern_animism
+			religion = indo_iranian_religion
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -9662,7 +9663,7 @@ country = {
 		MGT = {
 			government = tribal_kingdom
 			primary_culture = sakan
-			religion = eastern_animism
+			religion = indo_iranian_religion
 			capital = 6795
 			technology= {
 				military_tech={ level=1 progress=0 }
@@ -12344,7 +12345,7 @@ country = {
 		FGD = {
 			government = tribal_kingdom
 			primary_culture = mon
-			religion = eastern_animism
+			religion = burmese_religion
 			capital = 8771
 			technology = {
 				military_tech = {
@@ -12372,7 +12373,7 @@ country = {
 		SHN = {
 			government = tribal_kingdom
 			primary_culture = shan
-			religion = eastern_animism
+			religion = burmese_religion
 			capital = 8808
 			technology = {
 				military_tech = {
@@ -13873,7 +13874,7 @@ country = {
 			
 
 			own_control_core = {
-			5477 5479 5480 5481 5486
+				5477 5479 5480 5481 5486
 			}
 		}
 	}

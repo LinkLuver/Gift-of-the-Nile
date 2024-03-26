@@ -74,7 +74,7 @@ gotn_events.2 = { # 4th Intermediatary Period
                 tag = EGY
             }
             trigger_event = {
-                id = nile_flavor.1
+                id = gotn_events.4
                 days = { 5 10 }
             }
         }
@@ -109,29 +109,29 @@ gotn_events.3 = { # The Burning Waters
     }
 }
 
-#gotn_events.4 = {
-#    type = country_event
-#
-#    title = gotn_events_4_title
-#    desc = gotn_events_4_desc
-#    picture = Event_massive_naval_battle
-#    left_portrait = c:SEL.current_ruler
-#    left_portrait = c:TYO.current_ruler
-#    right_portrait = c:MAK.current_ruler
-#    right_portrait = c:PES.current_ruler
-#
-#    trigger = {
-#        OR = {
-#            tag = MAK
-#            tag = TYO
-#        }
-#    }
-#    fire_only_once = yes
-#
-#    option = {
-#        name = "gotn_events_4.a"
-#    }
-#}
+gotn_events.4 = {
+    type = country_event
+
+    title = gotn_events_4_title
+    desc = gotn_events_4_desc
+    picture = Event_massive_naval_battle
+    left_portrait = c:SEL.current_ruler
+    left_portrait = c:TYO.current_ruler
+    right_portrait = c:MAK.current_ruler
+    right_portrait = c:PES.current_ruler
+
+    trigger = {
+        OR = {
+            tag = MAK
+            tag = TYO
+        }
+    }
+    fire_only_once = yes
+
+    option = {
+        name = "gotn_events_4.a"
+    }
+}
 
 gotn_events.5 = {
     type = country_event

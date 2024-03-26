@@ -81,14 +81,14 @@ diplomacy = {
 	dependency = { first = THE second = OPU subject_type = client_state }
 	dependency = { first = THE second = CHL subject_type = subject_league_city_state }
 
-	#Neo-Macedonian League
+	#Macedonian League / League of Korinth
 	defensive_league = {
 		member = MAC
 		member = ARG
 		member = AET
 		member = LAM
-		member = KOR
 	}
+	dependency = { first = MAC second = KOR subject_type = subject_league_city_state }
 	dependency = { first = MAC second = PAA subject_type = vassal_tribe }
 	dependency = { first = MAC second = MAD subject_type = vassal_tribe }
 	dependency = { first = MAC second = ORE subject_type = feudatory }

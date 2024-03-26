@@ -163,7 +163,7 @@ family={
 			key = "Antipatrid"
 			prestige=250
 			culture=macedonian
-			owner=LAM
+			owner=MAC
 		}
 		23={
 			key = "Elimiotid"
@@ -688,6 +688,13 @@ family={
 			prestige=200
 			culture=akhenite_egyptian
 			owner=ATN
+		}
+		#GOTN Macedon
+		2100 = {
+			key = "Argead"
+			prestige = 300
+			culture=macedonian
+			owner=MAC
 		}
 	}
 }
