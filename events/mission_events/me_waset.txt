@@ -1,5 +1,36 @@
 ﻿namespace = me_waset
 
+
+me_waset.420 = {
+    type = country_event
+    hidden = yes
+    immediate = {
+        if = {
+            limit = {
+                scope:siamun = {
+                    is_alive = yes
+                }
+            }
+            scope:siamun = {
+                death = {
+                    death_reason = death_old_ailment
+                    silent = yes
+                }
+            }
+        }
+    }
+}
+me_waset.69 = {
+    type = country_event
+
+    title = me_waset_69_title
+    desc = me_waset_69_desc
+    picture = diadochi_ptolemy_city
+
+    option = {
+        name = "me_waset_69.a"
+    }
+}
 me_waset.1 = {
     type = country_event
 

@@ -81,6 +81,8 @@ country = {
 		}
 
 		EGY = {
+			family = 2002
+			family = 2003
 			government = egyptian_dynasty
 			diplomatic_stance=appeasement_stance
 			primary_culture = upper_egyptian

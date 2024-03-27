@@ -34,6 +34,7 @@
     }
     waset_missions_task_2 = {
         icon = "task_political"
+        requires = { waset_missions_task_1 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.2
@@ -44,6 +45,7 @@
     }
     waset_missions_task_3 = {
         icon = "task_political"
+        requires = { waset_missions_task_2 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.3
@@ -54,6 +56,7 @@
     }
     waset_missions_task_4 = {
         icon = "task_political"
+        requires = { waset_missions_task_3 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.4
@@ -64,6 +67,7 @@
     }
     waset_missions_task_5 = {
         icon = "task_political"
+        requires = { waset_missions_task_4 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.5
@@ -74,6 +78,7 @@
     }
     waset_missions_task_6 = {
         icon = "task_political"
+        requires = { waset_missions_task_4 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.6
@@ -84,6 +89,7 @@
     }
     waset_missions_task_7 = {
         icon = "task_political"
+        requires = { waset_missions_task_5 waset_missions_task_6 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.7
@@ -94,6 +100,7 @@
     }
     waset_missions_task_8 = {
         icon = "task_political"
+        requires = { waset_missions_task_4 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.8
@@ -104,6 +111,7 @@
     }
     waset_missions_task_9 = {
         icon = "task_political"
+        requires = { waset_missions_task_8 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.9
@@ -114,6 +122,7 @@
     }
     waset_missions_task_10 = {
         icon = "task_political"
+        requires = { waset_missions_task_9 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.10
@@ -124,6 +133,7 @@
     }
     waset_missions_task_11 = {
         icon = "task_political"
+        requires = { waset_missions_task_10 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.11
@@ -134,6 +144,7 @@
     }
     waset_missions_task_12 = {
         icon = "task_political"
+        requires = { waset_missions_task_10 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.12
@@ -144,6 +155,7 @@
     }
     waset_missions_task_13 = {
         icon = "task_political"
+        requires = { waset_missions_task_11 waset_missions_task_12 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.13
@@ -154,6 +166,7 @@
     }
     waset_missions_task_14 = {
         icon = "task_political"
+        requires = { waset_missions_task_13 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.14
@@ -164,6 +177,7 @@
     }
     waset_missions_task_15 = {
         icon = "task_political"
+        requires = { waset_missions_task_13 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.15
@@ -174,6 +188,7 @@
     }
     waset_missions_task_16 = {
         icon = "task_political"
+        requires = { waset_missions_task_13 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.16
@@ -184,6 +199,7 @@
     }
     waset_missions_task_17 = {
         icon = "task_political"
+        requires = { waset_missions_task_14 waset_missions_task_15 waset_missions_task_16 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.17
@@ -194,6 +210,7 @@
     }
     waset_missions_task_18 = {
         icon = "task_political"
+        requires = { waset_missions_task_3 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.18
@@ -204,6 +221,7 @@
     }
     waset_missions_task_19 = {
         icon = "task_political"
+        requires = { waset_missions_task_18 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.19
@@ -214,9 +232,98 @@
     }
     waset_missions_task_20 = {
         icon = "task_political"
+        requires = { waset_missions_task_18 }
         allow = {}
         on_completion = {
             trigger_event = me_waset.20
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    waset_missions_task_21 = {
+        icon = "task_political"
+        requires = { waset_missions_task_19 waset_missions_task_20 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_waset.21
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    waset_missions_task_22 = {
+        icon = "task_political"
+        requires = { waset_missions_task_21 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_waset.22
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    waset_missions_task_23 = {
+        icon = "task_political"
+        requires = { waset_missions_task_22 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_waset.23
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    waset_missions_task_24 = {
+        icon = "task_political"
+        requires = { waset_missions_task_23 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_waset.24
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    waset_missions_task_25 = {
+        icon = "task_political"
+        requires = { waset_missions_task_24 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_waset.25
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    waset_missions_task_26 = {
+        icon = "task_political"
+        requires = { waset_missions_task_25 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_waset.26
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    waset_missions_task_27 = {
+        icon = "task_political"
+        requires = { waset_missions_task_25 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_waset.27
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    waset_missions_task_28 = {
+        icon = "task_political"
+        requires = { waset_missions_task_26 waset_missions_task_27 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_waset.28
             show_as_tooltip = {
 
             }

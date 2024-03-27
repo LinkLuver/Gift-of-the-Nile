@@ -689,6 +689,18 @@ family={
 			culture=akhenite_egyptian
 			owner=ATN
 		}
+		2002 = {
+			key = "Siamunid"
+			prestige=300
+			culture=upper_egyptian
+			owner=EGY
+		}
+		2003 = {
+			key = "Ahmesid"
+			prestige=100
+			culture=upper_egyptian
+			owner=EGY
+		}
 		#GOTN Macedon
 		2100 = {
 			key = "Argead"

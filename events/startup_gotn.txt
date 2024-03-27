@@ -75,7 +75,7 @@ gotn_events.2 = { # 4th Intermediatary Period
             }
             trigger_event = {
                 id = gotn_events.4
-                days = { 5 10 }
+                days = { 60 120 }
             }
         }
     }
@@ -109,27 +109,50 @@ gotn_events.3 = { # The Burning Waters
     }
 }
 
-gotn_events.4 = {
+gotn_events.4 = { # Due for the Duat
     type = country_event
 
     title = gotn_events_4_title
     desc = gotn_events_4_desc
-    picture = Event_massive_naval_battle
-    left_portrait = c:SEL.current_ruler
-    left_portrait = c:TYO.current_ruler
-    right_portrait = c:MAK.current_ruler
-    right_portrait = c:PES.current_ruler
+    picture = burning_alexandria
+    left_portrait = c:525
 
     trigger = {
-        OR = {
-            tag = MAK
-            tag = TYO
-        }
+        tag = EGY
     }
-    fire_only_once = yes
 
     option = {
         name = "gotn_events_4.a"
+        current_ruler = {
+            force_add_trait = cancer
+            save_scope_as = siamun
+            add_gold = -2000
+        }
+        p:570 = {
+            add_country_modifier = {
+                name = valley_of_the_kings_prep
+                duration = 1825
+            }
+        }
+        hidden_effect = {
+            char:526 = {
+                add_character_modifier = {
+                    name = ashoka_health_boost
+                    duration = 7300 #20 Years
+                }
+                set_variable = dad_is_dying
+            }
+            char:527 = {
+                add_character_modifier = {
+                    name = ashoka_health_boost
+                    duration = 7300 #20 Years
+                }
+            }
+        }
+        trigger_event = {
+            id = me_waset.420
+            days = 1825
+        }
     }
 }
 
