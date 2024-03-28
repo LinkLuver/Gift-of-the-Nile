@@ -1,0 +1,28 @@
+﻿valley_of_the_kings_prep = {
+	happiness_for_same_religion_modifier = 0.05
+	global_tax_modifier = 0.15
+	monthly_legitimacy = 0.03
+}
+embelish_waset = {
+	local_tax_modifier = 0.1
+	local_monthly_civilization = 0.03
+	local_building_slot = 2
+}
+anti_atenism = {
+	discipline = 0.03
+	omen_power = 0.1
+}
+order_in_east = {
+	global_monthly_state_loyalty = 0.05
+	global_pop_assimilation_speed_modifier = 0.05
+}
+mentu_preperation = {
+	levy_size_multiplier = 0.03
+	happiness_for_same_religion_modifier = 0.05
+	war_score_cost = -0.1
+	change_pantheon_cost_modifier = -0.5
+}
+akhetaton_desecrated = {
+	global_population_happiness = -0.2
+	global_pop_conversion_speed_modifier = 0.5
+}

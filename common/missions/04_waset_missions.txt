@@ -1,13 +1,13 @@
 ﻿waset_missions = {
-    header = "mission_image_general"
-    icon = "general_1"
+    header = "kush_mission_header"
+    icon = "cde_kushite"
 
     repeatable = no
     chance = 1000
 
     potential = {
         NOT = { has_variable = mission_cooldown_var }
-        always = no
+        tag = EGY
     }
 
     abort = {}
@@ -28,18 +28,28 @@
         on_completion = {
             trigger_event = me_waset.1
             show_as_tooltip = {
-
+                custom_tooltip = heb_sed_tt
             }
         }
     }
     waset_missions_task_2 = {
         icon = "task_political"
         requires = { waset_missions_task_1 }
+        highlight = {
+            scope:province = {
+                province_id = 569
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_waset.2
             show_as_tooltip = {
-
+                p:569 = {
+                    add_province_modifier = {
+                        name = embelish_waset
+                        duration = -1
+                    }
+                }
             }
         }
     }
@@ -50,7 +60,7 @@
         on_completion = {
             trigger_event = me_waset.3
             show_as_tooltip = {
-
+                custom_tooltip = choose_path_tt
             }
         }
     }
@@ -61,73 +71,219 @@
         on_completion = {
             trigger_event = me_waset.4
             show_as_tooltip = {
-
+                current_ruler = {
+                    add_popularity = 10
+                    add_trait = victorious
+                }
+                add_stability = 5
+                add_country_modifier = {
+                    name = anti_atenism
+                    duration = 3650
+                }
+                if = {
+                    limit = {
+                        any_country = {
+                            tag = ATN
+                            has_land = yes
+                        }
+                    }
+                    reverse_add_opinion = {
+                        target = c:ATN
+                        modifier = opinion_threatened_us
+                    }
+                }
+                custom_tooltip = eastern_egypt_claims_tt
+                hidden_effect = {
+                    area:myos_hormos_area = {
+                        every_area_province = {
+                            add_claim = root
+                        }
+                    }
+                    area:troglodytica_area = {
+                        every_area_province = {
+                            add_claim = root
+                        }
+                    }
+                    area:eastern_desert_area = {
+                        every_area_province = {
+                            add_claim = root
+                        }
+                    }
+                }
             }
         }
     }
     waset_missions_task_5 = {
         icon = "task_political"
         requires = { waset_missions_task_4 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_area = myos_hormos_area
+                    is_in_area = troglodytica_area
+                    is_in_area = eastern_desert_area
+                }
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = myos_hormos_area
+            owns_or_subject_owns_area = troglodytica_area
+            owns_or_subject_owns_area = eastern_desert_area
+        }
         on_completion = {
             trigger_event = me_waset.5
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = order_in_east
+                    duration = -1
+                }
+                add_political_influence = 25
+                custom_tooltip = kerma_claims_tt
+                hidden_effect = {
+                    area:khargana_area = {
+                        every_area_province = {
+                            add_claim = root
+                        }
+                    }
+                    area:aswan_area = {
+                        every_area_province = {
+                            add_claim = root
+                        }
+                    }
+                }
             }
         }
     }
     waset_missions_task_6 = {
         icon = "task_political"
-        requires = { waset_missions_task_4 }
-        allow = {}
+        requires = { waset_missions_task_5 }
+        highlight = {
+            scope:province = {
+                owner = c:DOD
+            }
+        }
+        allow = {
+            custom_tooltip = {
+                any_country = {
+                    tag = DOD
+                    opinion = {
+                        target = root 
+                        value >= 100                
+                    }
+                }
+                text = "waset_kerma_100_tt"
+            }
+        }
         on_completion = {
             trigger_event = me_waset.6
             show_as_tooltip = {
-
+                custom_tooltip = negotiate_kerma_tt
             }
         }
     }
     waset_missions_task_7 = {
         icon = "task_political"
-        requires = { waset_missions_task_5 waset_missions_task_6 }
+        requires = { waset_missions_task_5 }
+        highlight = {
+            scope:province = {
+                OR = {
+                    AND = {
+                        OR = {
+                            is_in_area = khargana_area
+                            is_in_area = aswan_area
+                        }
+                        owner = c:DOD
+                    }
+                }
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_waset.7
             show_as_tooltip = {
-
+                declare_war_with_wargoal = {
+                    war_goal = conquer_wargoal
+                    target = c:DOD
+                    province = 593
+                }
             }
         }
     }
     waset_missions_task_8 = {
         icon = "task_political"
-        requires = { waset_missions_task_4 }
-        allow = {}
+        requires = { waset_missions_task_7 waset_missions_task_6 }
+        allow = {
+            treasury >= 200
+        }
         on_completion = {
             trigger_event = me_waset.8
             show_as_tooltip = {
-
+                custom_tooltip = invite_greeks_tt
             }
         }
     }
     waset_missions_task_9 = {
         icon = "task_political"
-        requires = { waset_missions_task_8 }
-        allow = {}
+        requires = { waset_missions_task_5 }
+        allow = {
+            military_experience >= 20
+            manpower >= 5
+            treasury >= 150
+        }
         on_completion = {
             trigger_event = me_waset.9
             show_as_tooltip = {
-
+                add_military_experience = -20
+                add_manpower = -5
+                add_treasury = -150
+                add_country_modifier = {
+                    name = mentu_preperation
+                    duration = 3650
+                }
+                custom_tooltip = gets_mentu_tt
+                set_variable = mentu_var
             }
         }
     }
     waset_missions_task_10 = {
         icon = "task_political"
         requires = { waset_missions_task_9 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                province_id = 557
+            }
+        }
+        allow = {
+            owns = 557
+            p:557 = {
+                is_holy_site = no
+            }
+            p:557.state = {
+                governor_policy = harsh_treatment
+            }
+        }
         on_completion = {
             trigger_event = me_waset.10
             show_as_tooltip = {
-
+                p:557 = {
+                    set_city_status = settlement
+                    random_pops_in_province = {
+                        while = {
+                            count = 15
+                            kill_pop = yes
+                        }
+                    }
+                    random_pops_in_province = {
+                        while = {
+                            count = 10
+                            move_pop = 569
+                        }
+                    }
+                    add_province_modifier = {
+                        name = akhetaton_desecrated
+                        duration = 1825
+                    }
+                }
             }
         }
     }
