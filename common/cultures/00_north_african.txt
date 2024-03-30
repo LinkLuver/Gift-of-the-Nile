@@ -12,12 +12,14 @@
 	levy_template = levy_egyptian
 	
 	male_names = {
+		Ankhaten Atemhat Atensedjem Atumas Atenheb Atoupias Atenrois Atenmen Atemmous Atemenis Atentaios Atensois Atkhenaten Ateneus Aternefer Atenneus Atenmounis Atenmosis Atenoufris Heryaten Atenhotep Heriaten Hetepaten Pachaten Padiaten Patiaten Payaraten Patennopis Psenpaten Tutankhaten 
 		Bayek
 		Nektsafthis
-		Anoubion Anoubas Ampsois Arthotes Arousois Arimouthes Arpokhrates Kolanthos Khemsneus Khenpsois Oros Ofieus Orsenoufis Orsentes Papsois Panekhates Parekhates Paofois Petepsois Petoufois Petosiris Pounsis Paanoufis Panesneus Petenoufis Pisois Psensneus Psosneus Psois Psoios Sois Sarpokratis Taareus Tasois Tanekhatis Tarekhatis Taupsois Tanesneus Temisois Toonsis Taanoufis Taufois Tatrifis Tnefersois Tithoes 
+		Anoubion Anoubas Ampsois Arthotes Arousois Arimouthes Khemsneus Khenpsois Oros Ofieus Orsenoufis Orsentes Papsois Panekhates Parekhates Paofois Petepsois Petoufois Petosiris Pounsis Paanoufis Panesneus Petenoufis Pisois Psensneus Psosneus Psois Psoios Sois Sarpokratis Taareus Tasois Tanekhatis Tarekhatis Taupsois Tanesneus Temisois Toonsis Taanoufis Taufois Tatrifis Tnefersois Tithoes 
 		Ababikis Amortaios Amoles Achorinis Ampsois Atoupis Anoubias Achoapis Amenrosis Amenrois Athemmeus Akrisios Amortais Antas Amenmosis Aphynchis Anches Anobas Aleilis Afynchis Anchofis Achomneuis Anempeus Ameneus Amenneus Amounis Ammonios Bion Chaiapis Chetos Chaonnofris Chomnouis Chesthoythes Damaes Dymaios Esenchebis Eisbestos Hetpanoubis Hatres Herianoupis Hakes Harmachoros Haratres Harmais Harsiesis Harmiysis Herieus Harmenis Harpafmon Haryotes Hesties Horos Hariesis Harpaesis Harathres Harchebis Harpafmon Harkonnesis Harendotes Imouthes Inaros Inaroys Komoapis Katytis Kemareus Konon Konkreis Kosanoufis Keleesis Komonos Konnos Labois Mares Marres Mestasuthmis Menodoros Miysis Manres Menches Mestous Nektenibis Nyris Nechthonsis Nechtosiris Nechthnibis Nechthakes Nekferos Nechteroys Nechtembes Nefores Nechthminis Nebynchis Neferos Nechthneibis Nechthesis Onnofris Oafres Orsenoufis Orpget Orpgatos Ousorsybkis Ortees Petetyrnis Paues Peteesis Petosiris Paesis Pasis Pamounis Paopis Patous Petesouchos Petechonsis Petemois Psenpmous Petemounis Petobastis Petoys Peteyris Peteymis Pekysis Phanesis Psenobastis Pmneuis Penmas Paos Pemsais Psenchnoumis Pais Paapis Pakysis Pasikles Piyris Pempsas Petetymis Paiomis Pachnoubis Phatres Phabis Petearmotis Pachrates Psamtichos Psenefmous Peteimouthes Panesis Portis Panoupis Pekrouris Pelois Pabois Psenesis Petenouris Paoutes Parathes Petarmonthis Psenchnoubis Psintaes Petekekamis Phanoupis Petenyris Pemennas Petempois Parates Paneithes Petenomthis Pachons Paofis Patcheuis Pasys Pharatos Payris Patersys Panoufis Pneferos Paoueris Petearmotnis Psenepmous Paimouthes Psenminis Pheios Patos Phibis Panomgeus Pkrouris Pamenis Phames Patchombis Psenanoufis Pnas Petearmounis Patsytmis Petees Petoseiris Psentaes Papothrais Phooris Pahibis Pesytis Pekys Phabetos Pamennopis Petearmoutis Petermouthis Peteniesis Plas Psonant Psennesis Pachis Peten Paonthes Psenamounis Panechotes Petethymis Petearpsenesis Petsimios Pokrouris Petenebthos Psenosiris Petosarapitos Petesemtheus Pemroeris Phimenis Pabekis Petos Petearbekis Petabthis Petenefotes Pbesis Phanemieus Psenechotis Phathemis Phembroeris Psenos Petheuris Pachos Pethosiris Pathoytes Stotoethis Samoys Simos Sisois Sapouris Senychis Sokonopis Setinis Seos Smeitis Soknouchis Salouris Semuris Sanos Sokemis Smetheus Samos Sochotes Sokeus Sales Sisouchos Semtheus Sosos Stouetis Sabathaios Stotoetis Teos Thotortaios Thotsytmis Temenafynchis Totoes Thotortais Tromonobasthis Thoteus Tarmouthis Tanaibis Thalous Thasous Taouthis Thasomthous Teknon Tamounis Tinachtis Teteharmais Tanechotis Tamefis Thotertaios Techesteus Thamoys Thotmenis Thotmosis Thotsytis Tharoys Theroys Tayris Teroys Tanetbeus Taes Thotommous Tesenoufis Tesenes Teaphonychos
 	}
 	female_names = { 
+		Ateniyt Atenofris Aternefer Atenweret Heryaten Hetepaten Naneferaten Nesaten Senaten Tsenaten Tiatenis Tetaten Teteaten Tatennopis Tadiaten Tatiaten
 		Aya
 		Nahomsesis
 		Senuris Senpanekhatis Senpouonsis Senpsois Senpanesneus Senkhemsneus
@@ -25,37 +27,25 @@
 	}  
 	family = {
 		
-		Ahmid.Ahmid.Ahmid.Ahmid
-		Galestus.Galestid.Galestid.Galestid
-		Kenamus.Kenamid.Kenamid.Kenamid
-		Naravid.Naravid.Naravid.Naravid
-		Penamus.Penamid.Penamid.Penamid
-		Senuid.Senuid.Senuid.Senuid
-		Setnid.Setnid.Setnid.Setnid
-		Arganid.Arganid.Arganid.Arganid
-		Psammid.Psammid.Psammid.Psammid
-		Philothid.Philothid.Philothid.Philothid
-		Timolid.Timolid.Timolid.Timolid
-		Zosid.Zosid.Zosid.Zosid
-		Phileid.Phileid.Phileid.Phileid
-		Nicodemid.Nicodemid.Nicodemid.Nicodemid
-		Nefarid.Nefarid.Nefarid.Nefarid
-		Bastid.Bastid.Bastid.Bastid
-		Xeneid.Xeneid.Xeneid.Xeneid
-		Naravid.Naravid.Naravid.Naravid
-		Ezanid.Ezanid.Ezanid.Ezanid
-		Ahmid.Ahmid.Ahmid.Ahmid
-		Alarus.Alara.Alarid.Alarid
-		Harsiotes.Harsiotes.Harsiotid.Harsiotid
-		Henus.Hena.Henid.Henid
-		Ibus.Iba.Ibid.Ibid
-		Khabbash.Khabbash.Khabbashid.Khabbashid	
-		Amasus.Amasa.Amasid.Amasid
-		Nectanebo.Nectanebo.Nectanebid.Nectanebid
-		Petubast.Petubast.Petubastes.Petubastid
-		Djedhid.Djedhid.Djedhid.Djedhid
-		Tachys.Tachya.Tachyes.Tachyid
-		Mago.Mago.Mago.Magid
+	    Ahmid.Ahmid.Ahmid.Ahmid
+	    Kenamus.Kenamid.Kenamid.Kenamid
+	    Naravid.Naravid.Naravid.Naravid
+	    Penamus.Penamid.Penamid.Penamid
+	    Senuid.Senuid.Senuid.Senuid
+	    Setnid.Setnid.Setnid.Setnid
+	    Arganid.Arganid.Arganid.Arganid
+	    Psammid.Psammid.Psammid.Psammid
+	    Nefarid.Nefarid.Nefarid.Nefarid
+	    Naravid.Naravid.Naravid.Naravid
+	    Harsiotes.Harsiotes.Harsiotid.Harsiotid
+	    Henus.Hena.Henid.Henid
+	    Ibus.Iba.Ibid.Ibid
+	    Khabbash.Khabbash.Khabbashid.Khabbashid	
+	    Amasus.Amasa.Amasid.Amasid
+	    Nectanebo.Nectanebo.Nectanebid.Nectanebid
+	    Petubast.Petubast.Petubastes.Petubastid
+	    Djedhid.Djedhid.Djedhid.Djedhid
+	    Tachys.Tachya.Tachyes.Tachyid
         #Simple patronym dynasties
         Amortaid.Amortaid.Amortaid.Amortaid
         Amenrosid.Amenrosid.Amenrosid.Amenrosid
@@ -95,7 +85,97 @@
 	culture = {
 		### LOWER EGYPTIAN ###
 		egyptian = {  } #Memphite
-		middle_egyptian = { } #Faiyumic
+		middle_egyptian = { 
+			male_names = {
+	        	Bayek
+	        	Nektsafthis
+	        	Anoubion Anoubas Ampsois Arthotes Arousois Arimouthes Khemsneus Khenpsois Oros Ofieus Orsenoufis Orsentes Papsois Panekhates Parekhates Paofois Petepsois Petoufois Petosiris Pounsis Paanoufis Panesneus Petenoufis Pisois Psensneus Psosneus Psois Psoios Sois Sarpokratis Taareus Tasois Tanekhatis Tarekhatis Taupsois Tanesneus Temisois Toonsis Taanoufis Taufois Tatrifis Tnefersois Tithoes 
+	        	Amenrois Athemmeus Akrisios Amortais Antas Amenmosis Aphynchis Anches Anobas Aleilis Afynchis Anchofis Achomneuis Anempeus Ameneus Amenneus Amounis Ammonios Bion Chaiapis Chetos Chaonnofris Chomnouis Chesthoythes Damaes Dymaios Esenchebis Eisbestos Hetpanoubis Hatres Herianoupis Hakes Harmachoros Haratres Harmais Harsiesis Harmiysis Herieus Harmenis Harpafmon Haryotes Hesties Horos Hariesis Harpaesis Harathres Harchebis Harpafmon Harkonnesis Harendotes Imouthes Inaros Inaroys Komoapis Katytis Kemareus Konon Konkreis Kosanoufis Keleesis Komonos Konnos Labois Mares Marres Mestasuthmis Menodoros Miysis Manres Menches Mestous Nektenibis Nyris Nechthonsis Nechtosiris Nechthnibis Nechthakes Nekferos Nechteroys Nechtembes Nefores Nechthminis Nebynchis Neferos Nechthneibis Nechthesis Onnofris Oafres Orsenoufis Orpget Orpgatos Ousorsybkis Ortees Petetyrnis Paues Peteesis Petosiris Paesis Pasis Pamounis Paopis Patous Petesouchos Petechonsis Petemois Psenpmous Petemounis Petobastis Petoys Peteyris Peteymis Pekysis Phanesis Psenobastis Pmneuis Penmas Paos Pemsais Psenchnoumis Pais Paapis Pakysis Pasikles Piyris Pempsas Petetymis Paiomis Pachnoubis Phatres Phabis Petearmotis Pachrates Psamtichos Psenefmous Peteimouthes Panesis Portis Panoupis Pekrouris Pelois Pabois Psenesis Petenouris Paoutes Parathes Petarmonthis Psenchnoubis Psintaes Petekekamis Phanoupis Petenyris Pemennas Petempois Parates Paneithes Petenomthis Pachons Paofis Patcheuis Pasys Pharatos Payris Patersys Panoufis Pneferos Paoueris Petearmotnis Psenepmous Paimouthes Psenminis Pheios Patos Phibis Panomgeus Pkrouris Pamenis Phames Patchombis Psenanoufis Pnas Petearmounis Patsytmis Petees Petoseiris Psentaes Papothrais Phooris Pahibis Pesytis Pekys Phabetos Pamennopis Petearmoutis Petermouthis Peteniesis Plas Psonant Psennesis Pachis Peten Paonthes Psenamounis Panechotes Petethymis Petearpsenesis Petsimios Pokrouris Petenebthos Psenosiris Petosarapitos Petesemtheus Pemroeris Phimenis Pabekis Petos Petearbekis Petabthis Petenefotes Pbesis Phanemieus Psenechotis Phathemis Phembroeris Psenos Petheuris Pachos Pethosiris Pathoytes Stotoethis Samoys Simos Sisois Sapouris Senychis Sokonopis Setinis Seos Smeitis Soknouchis Salouris Semuris Sanos Sokemis Smetheus Samos Sochotes Sokeus Sales Sisouchos Semtheus Sosos Stouetis Sabathaios Stotoetis Teos Thotortaios Thotsytmis Temenafynchis Totoes Thotortais Tromonobasthis Thoteus Tarmouthis Tanaibis Thalous Thasous Taouthis Thasomthous Teknon Tamounis Tinachtis Teteharmais Tanechotis Tamefis Thotertaios Techesteus Thamoys Thotmenis Thotmosis Thotsytis Tharoys Theroys Tayris Teroys Tanetbeus Taes Thotommous Tesenoufis Tesenes Teaphonychos
+	        	Aaten Ankhaten Atemhat Atenwah Atensedjem Atumas Atenheb Atoupias Atenrois Atenmenis Atenmen Ateniu Atenpayem Atemmous Atensytis Atentayifnakht Atensytmis Atemenis Atentaios Atensois Atenteus Atenikis Atenirtis Atkhenaten Ateneus Aternefer Atenneus Atenis Atenirau Atenmounis Atenmosis Atenoufris Atenpayiwtawy Atenirdis Djedateniufankh Heryaten Atenhotep Heriaten Hetepaten Khifnaten Nektenaten Nakhtaten Nakhtparaten Nechtaten Nesaten Pachaten Pasheraten Padiaten Patiaten Payaraten Patennopis Petaten Pethaten Psenaten Phaten Peteaten Psenpaten Patenis Sedjemniyaten Syaten Tutankhaten Tromonoaten
+	        	Sobekmenis Sebekiu Sebekpayem Sebeksytis Sobeksytmis Sobekenis Sobektaios Sebeksois Atkhensobek Sobeknefer Sebekirau Sobekoufris Sebekpayiwtawy Sebekirdis Djedsobekiufankh Herysebek Sebekhotep Herisobek Hetepsebek Khifnsebek Maaresasebek Nektensebek Nakhtsobek Nakhtparsobek Nechtsebek Nesobek Padisobek Patisobek Paysobek Petsobek Pethsobek Psensobek Petesobek Psenpesobek Pasobekis Sedjemniysobek Sysobek Sebekhat Sebekwah Sebekirdis
+	        }
+	        female_names = { 
+	        	Aya
+	        	Nahomsesis
+	        	Senuris Senpanekhatis Senpouonsis Senpsois Senpanesneus Senkhemsneus
+	        	Anchosis Ays Asfeos Anches Ampsois Amesis Bestes Didyme Esenchebis Esersythis Epoeris Esoeris Esorches Esenremphis Esemtais Herieus Haynchis Haryotes Heriobastis Harkonnesis Irobasthis Irobastis Kolleuthis Mesigesis Mesiesis Nefersouchis Nefersouchos Nechthesis Nemnofris Niteitis Nochysis Nempnofris Oteesis Orateis Oubostortaios Obostortais Phanesis Petobastis Pnas Rempnofris Stotoetis Senofois Senyris Senesis Sostrate Senchonsis Sponobastis Sisouchos Spenesis Senesis Senepoeris Senepmous Sentotoes Semminis Smithis Senefmous Senamounis Sentamounis Sarapias Setinis Senethoytis Soeris Soulois Stotetis Smeitis Tahatres Thatres Tachonsis Tete Tasis Tbokenesis Tbelles Thasos Tetehathyris Tetemiysis Takales Tamounis Tiamouthis Tetosiris Teteesis Taues Taleuis Tekysis Thasies Tebrichis Taimouthis Tapsais Tachnoumis Taiomis Tapiomis Tneferos Taesis Tanoupis Thanoupis Thamounis Teteathyris Thabis Thabos Thatonis Thaibis Tamefis Tharmouthis Thasis Thaes Therythis Taarmonthis Tanaibis Thalous Taonsis Thasous Tetoys Thays Taouthis Thasomthous Tetenoupis Thanechothis Tneferous Thathoytis Thaminis Tarompis Tlolous Tryfaina Tinachtis Tbokis Tamennopis Tages Taes Tagombes Tausiris Tieitis Tious Tathoytis Tanomgeus Tokoys Tauetis Tokes Tasys Tomsais Tasybkis Tasybchis Tsentotoes Tremonesis Taombes Teieis Taimoutis Totes Tasafthis Tetoseiris Teos Thotoys Tharoys Theroys Tamnegis Tsenyris Tayris Tekmeis Tays Teroys Tabeis Tahakes Tanetbeus Tatnothis Tsenosiris Tentos Tapestos Tsenamounis Tasemtheus Teteamounis Terothis Tetenithis Taniofis Tkonnos
+	        	Ateniyt Atensytis Atenofris Atenikis Atenirtis Aternefer Atenweret Atennefert Heryaten Hetepaten Nektenaten Nechtaten Naneferaten Naneferibaten Nanefermenibaten Nesaten Sedjemniyaten Sentatenis Senaten Taaten Taatenthis Tsenaten Tiatenis Tetaten Teteaten Tatennopis Thatensis Tatenis Thatenthis Tadiaten Taremetetaten Tasheretenaten Tatiaten Tasheretaten
+	        	Sebekweret Sobeknefert Herysebek Horsysobek Hetepsebek Nektensebek Nanefersobek Nanefersobek Naneferibsobek Nanefermenibsebek Nesebek Sedjemniyaten Sentatenis Sensebek Sebekirdis Tasebek Tasebekthis Tsesobek Tisebekis Tetsebek Tetesebek Tasobekopis Thasebeksis Tasebekis Tadisebek Taremetetsebek Tasheretensebek Tatisobek Tasheretsobek
+	        }          
+	        family = {
+	        	
+	        	Ahmid.Ahmid.Ahmid.Ahmid
+	        	Kenamus.Kenamid.Kenamid.Kenamid
+	        	Naravid.Naravid.Naravid.Naravid
+	        	Penamus.Penamid.Penamid.Penamid
+	        	Senuid.Senuid.Senuid.Senuid
+	        	Setnid.Setnid.Setnid.Setnid
+	        	Arganid.Arganid.Arganid.Arganid
+	        	Psammid.Psammid.Psammid.Psammid
+	        	Nefarid.Nefarid.Nefarid.Nefarid
+	        	Naravid.Naravid.Naravid.Naravid
+	        	Harsiotes.Harsiotes.Harsiotid.Harsiotid
+	        	Henus.Hena.Henid.Henid
+	        	Ibus.Iba.Ibid.Ibid
+	        	Khabbash.Khabbash.Khabbashid.Khabbashid	
+	        	Amasus.Amasa.Amasid.Amasid
+	        	Nectanebo.Nectanebo.Nectanebid.Nectanebid
+	        	Petubast.Petubast.Petubastes.Petubastid
+	        	Djedhid.Djedhid.Djedhid.Djedhid
+	        	Tachys.Tachya.Tachyes.Tachyid
+                #Simple patronym dynasties
+                Amortaid.Amortaid.Amortaid.Amortaid
+                Amenrosid.Amenrosid.Amenrosid.Amenrosid
+                Amenid.Amenid.Amenid.Amenid
+                Anoubiasid.Anoubiasid.Anoubiasid.Anoubiasid
+                Haryotid.Haryotid.Haryotid.Haryotid
+                Harmenid.Harmenid.Harmenid.Harmenid
+                Kosanoufid.Kosanoufid.Kosanoufid.Kosanoufid
+                Nefersouchid.Nefersouchid.Nefersouchid.Nefersouchid
+                Nempnofrid.Nempnofrid.Nempnofrid.Nempnofrid
+                Nekferid.Nekferid.Nekferid.Nekferid
+                Orsenoufid.Orsenoufid.Orsenoufid.Orsenoufid
+                Ousorsybkid.Ousorsybkid.Ousorsybkid.Ousorsybkid
+                Paopid.Paopid.Paopid.Paopid
+                Pachnoumid.Pachnoumid.Pachnoumid.Pachnoumid
+                Patchombid.Patchombid.Patchombid.Patchombid
+                Pamenid.Pamenid.Pamenid.Pamenid
+                Petempoid.Petempoid.Petempoid
+                Psenid.Psenid.Psenid.Psenid
+                Pathoytid.Pathoytid.Pathoytid.Pathoytid
+                Phanoupid.Phanoupid.Phanoupid.Phanoupid
+                Petearmoutid.Petearmoutid.Petearmoutid.Petearmoutid
+                Petosirid.Petosirid.Petosirid.Petosirid
+                Psenosirid.Psenosirid.Psenosirid.Psenosirid
+                Petsimid.Petsimid.Petsimid.Petsimid
+                Stotetid.Stotetid.Stotetid.Stotetid
+                Sisouchid.Sisouchid.Sisouchid.Sisouchid
+                Soerid.Soerid.Soerid.Soerid
+                Sokemid.Sokemid.Sokemid.Sokemid
+                Tamennopid.Tamennopid.Tamennopid.Tamennopid
+                Tiousid.Tiousid.Tiousid.Tiousid
+                Thotmosid.Thotmosid.Thotmosid.Thotmosid
+                Thalousid.Thalousid.Thalousid.Thalousid
+                Tesenoufid.Tesenoufid.Tesenoufid.Tesenoufid
+                Atenmosid.Atenmosid.Atenmosid.Atenmosid
+                Atensedjid.Atensedjid.Atensedjid.Atensedjid
+                Atenhotepid.Atenhotepid.Atenhotepid.Atenhotepid
+                Atenirid.Atenirid.Atenirid.Atenirid
+                Djedatenid.Djedatenid.Djedatenid.Djedatenid
+                Khifnatid.Khifnatid.Khifnatid.Khifnatid
+                Heriatid.Heriatid.Heriatid.Heriatid
+                Nektenatid.Nektenatid.Nektenatid.Nektenatid
+                Nechtatid.Nechtatid.Nechtatid.Nechtatid
+                Patennopid.Patennopid.Patennopid.Patennopid
+                Pakhatid.Pakhatid.Pakhatid.Pakhatid
+                Psenpatid.Psenpatid.Psenpatid.Psenpatid
+                Payaratid.Payaratid.Payaratid.Payaratid
+                Patenid.Patenid.Patenid.Patenid
+                Sedjemniyatid.Sedjemniyatid.Sedjemniyatid.Sedjemniyatid
+                Petsobekid.Petsobekid.Petsobekid.Petsobekid
+                Sobekoufrid.Sobekoufrid.Sobekoufrid.Sobekoufrid
+	        }
+		} #Faiyumic
 		avarite_egyptian = {  } #Avarite
 		danetic_egyptian = {  } #Danetic
 		neithic_egyptian = {  } #Neithic
@@ -106,8 +186,141 @@
 		retenuan = {  } #Retenuan
 
 		### UPPER EGYPTIAN ###
-		upper_egyptian = {  } #Wasetic
-		akhenite_egyptian = {  } #Akhenite
+		upper_egyptian = {  
+            male_names = {
+	        	Bayek
+	        	Nektsafthis
+	        	Anoubion Anoubas Ampsois Arthotes Arousois Arimouthes Khemsneus Khenpsois Oros Ofieus Orsenoufis Orsentes Papsois Panekhates Parekhates Paofois Petepsois Petoufois Petosiris Pounsis Paanoufis Panesneus Petenoufis Pisois Psensneus Psosneus Psois Psoios Sois Sarpokratis Taareus Tasois Tanekhatis Tarekhatis Taupsois Tanesneus Temisois Toonsis Taanoufis Taufois Tatrifis Tnefersois Tithoes 
+	        	Amenrois Athemmeus Akrisios Amortais Antas Amenmosis Aphynchis Anches Anobas Aleilis Afynchis Anchofis Achomneuis Anempeus Ameneus Amenneus Amounis Ammonios Bion Chaiapis Chetos Chaonnofris Chomnouis Chesthoythes Damaes Dymaios Esenchebis Eisbestos Hetpanoubis Hatres Herianoupis Hakes Harmachoros Haratres Harmais Harsiesis Harmiysis Herieus Harmenis Harpafmon Haryotes Hesties Horos Hariesis Harpaesis Harathres Harchebis Harpafmon Harkonnesis Harendotes Imouthes Inaros Inaroys Komoapis Katytis Kemareus Konon Konkreis Kosanoufis Keleesis Komonos Konnos Labois Mares Marres Mestasuthmis Menodoros Miysis Manres Menches Mestous Nektenibis Nyris Nechthonsis Nechtosiris Nechthnibis Nechthakes Nekferos Nechteroys Nechtembes Nefores Nechthminis Nebynchis Neferos Nechthneibis Nechthesis Onnofris Oafres Orsenoufis Orpget Orpgatos Ousorsybkis Ortees Petetyrnis Paues Peteesis Petosiris Paesis Pasis Pamounis Paopis Patous Petesouchos Petechonsis Petemois Psenpmous Petemounis Petobastis Petoys Peteyris Peteymis Pekysis Phanesis Psenobastis Pmneuis Penmas Paos Pemsais Psenchnoumis Pais Paapis Pakysis Pasikles Piyris Pempsas Petetymis Paiomis Pachnoubis Phatres Phabis Petearmotis Pachrates Psamtichos Psenefmous Peteimouthes Panesis Portis Panoupis Pekrouris Pelois Pabois Psenesis Petenouris Paoutes Parathes Petarmonthis Psenchnoubis Psintaes Petekekamis Phanoupis Petenyris Pemennas Petempois Parates Paneithes Petenomthis Pachons Paofis Patcheuis Pasys Pharatos Payris Patersys Panoufis Pneferos Paoueris Petearmotnis Psenepmous Paimouthes Psenminis Pheios Patos Phibis Panomgeus Pkrouris Pamenis Phames Patchombis Psenanoufis Pnas Petearmounis Patsytmis Petees Petoseiris Psentaes Papothrais Phooris Pahibis Pesytis Pekys Phabetos Pamennopis Petearmoutis Petermouthis Peteniesis Plas Psonant Psennesis Pachis Peten Paonthes Psenamounis Panechotes Petethymis Petearpsenesis Petsimios Pokrouris Petenebthos Psenosiris Petosarapitos Petesemtheus Pemroeris Phimenis Pabekis Petos Petearbekis Petabthis Petenefotes Pbesis Phanemieus Psenechotis Phathemis Phembroeris Psenos Petheuris Pachos Pethosiris Pathoytes Stotoethis Samoys Simos Sisois Sapouris Senychis Sokonopis Setinis Seos Smeitis Soknouchis Salouris Semuris Sanos Sokemis Smetheus Samos Sochotes Sokeus Sales Sisouchos Semtheus Sosos Stouetis Sabathaios Stotoetis Teos Thotortaios Thotsytmis Temenafynchis Totoes Thotortais Tromonobasthis Thoteus Tarmouthis Tanaibis Thalous Thasous Taouthis Thasomthous Teknon Tamounis Tinachtis Teteharmais Tanechotis Tamefis Thotertaios Techesteus Thamoys Thotmenis Thotmosis Thotsytis Tharoys Theroys Tayris Teroys Tanetbeus Taes Thotommous Tesenoufis Tesenes Teaphonychos
+	        }
+	        female_names = { 
+	        	Aya
+	        	Nahomsesis
+	        	Senuris Senpanekhatis Senpouonsis Senpsois Senpanesneus Senkhemsneus
+	        	Anchosis Ays Asfeos Anches Ampsois Amesis Bestes Didyme Esenchebis Esersythis Epoeris Esoeris Esorches Esenremphis Esemtais Herieus Haynchis Haryotes Heriobastis Harkonnesis Irobasthis Irobastis Kolleuthis Mesigesis Mesiesis Nefersouchis Nefersouchos Nechthesis Nemnofris Niteitis Nochysis Nempnofris Oteesis Orateis Oubostortaios Obostortais Phanesis Petobastis Pnas Rempnofris Stotoetis Senofois Senyris Senesis Sostrate Senchonsis Sponobastis Sisouchos Spenesis Senesis Senepoeris Senepmous Sentotoes Semminis Smithis Senefmous Senamounis Sentamounis Sarapias Setinis Senethoytis Soeris Soulois Stotetis Smeitis Tahatres Thatres Tachonsis Tete Tasis Tbokenesis Tbelles Thasos Tetehathyris Tetemiysis Takales Tamounis Tiamouthis Tetosiris Teteesis Taues Taleuis Tekysis Thasies Tebrichis Taimouthis Tapsais Tachnoumis Taiomis Tapiomis Tneferos Taesis Tanoupis Thanoupis Thamounis Teteathyris Thabis Thabos Thatonis Thaibis Tamefis Tharmouthis Thasis Thaes Therythis Taarmonthis Tanaibis Thalous Taonsis Thasous Tetoys Thays Taouthis Thasomthous Tetenoupis Thanechothis Tneferous Thathoytis Thaminis Tarompis Tlolous Tryfaina Tinachtis Tbokis Tamennopis Tages Taes Tagombes Tausiris Tieitis Tious Tathoytis Tanomgeus Tokoys Tauetis Tokes Tasys Tomsais Tasybkis Tasybchis Tsentotoes Tremonesis Taombes Teieis Taimoutis Totes Tasafthis Tetoseiris Teos Thotoys Tharoys Theroys Tamnegis Tsenyris Tayris Tekmeis Tays Teroys Tabeis Tahakes Tanetbeus Tatnothis Tsenosiris Tentos Tapestos Tsenamounis Tasemtheus Teteamounis Terothis Tetenithis Taniofis Tkonnos
+	        }          
+	        family = {
+	        	
+	        	Ahmid.Ahmid.Ahmid.Ahmid
+	        	Kenamus.Kenamid.Kenamid.Kenamid
+	        	Naravid.Naravid.Naravid.Naravid
+	        	Penamus.Penamid.Penamid.Penamid
+	        	Senuid.Senuid.Senuid.Senuid
+	        	Setnid.Setnid.Setnid.Setnid
+	        	Arganid.Arganid.Arganid.Arganid
+	        	Psammid.Psammid.Psammid.Psammid
+	        	Nefarid.Nefarid.Nefarid.Nefarid
+	        	Naravid.Naravid.Naravid.Naravid
+	        	Harsiotes.Harsiotes.Harsiotid.Harsiotid
+	        	Henus.Hena.Henid.Henid
+	        	Ibus.Iba.Ibid.Ibid
+	        	Khabbash.Khabbash.Khabbashid.Khabbashid	
+	        	Amasus.Amasa.Amasid.Amasid
+	        	Nectanebo.Nectanebo.Nectanebid.Nectanebid
+	        	Petubast.Petubast.Petubastes.Petubastid
+	        	Djedhid.Djedhid.Djedhid.Djedhid
+	        	Tachys.Tachya.Tachyes.Tachyid
+                #Simple patronym dynasties
+                Amortaid.Amortaid.Amortaid.Amortaid
+                Amenrosid.Amenrosid.Amenrosid.Amenrosid
+                Amenid.Amenid.Amenid.Amenid
+                Anoubiasid.Anoubiasid.Anoubiasid.Anoubiasid
+                Haryotid.Haryotid.Haryotid.Haryotid
+                Harmenid.Harmenid.Harmenid.Harmenid
+                Kosanoufid.Kosanoufid.Kosanoufid.Kosanoufid
+                Nefersouchid.Nefersouchid.Nefersouchid.Nefersouchid
+                Nempnofrid.Nempnofrid.Nempnofrid.Nempnofrid
+                Nekferid.Nekferid.Nekferid.Nekferid
+                Orsenoufid.Orsenoufid.Orsenoufid.Orsenoufid
+                Ousorsybkid.Ousorsybkid.Ousorsybkid.Ousorsybkid
+                Paopid.Paopid.Paopid.Paopid
+                Pachnoumid.Pachnoumid.Pachnoumid.Pachnoumid
+                Patchombid.Patchombid.Patchombid.Patchombid
+                Pamenid.Pamenid.Pamenid.Pamenid
+                Petempoid.Petempoid.Petempoid
+                Psenid.Psenid.Psenid.Psenid
+                Pathoytid.Pathoytid.Pathoytid.Pathoytid
+                Phanoupid.Phanoupid.Phanoupid.Phanoupid
+                Petearmoutid.Petearmoutid.Petearmoutid.Petearmoutid
+                Petosirid.Petosirid.Petosirid.Petosirid
+                Psenosirid.Psenosirid.Psenosirid.Psenosirid
+                Petsimid.Petsimid.Petsimid.Petsimid
+                Stotetid.Stotetid.Stotetid.Stotetid
+                Sisouchid.Sisouchid.Sisouchid.Sisouchid
+                Soerid.Soerid.Soerid.Soerid
+                Sokemid.Sokemid.Sokemid.Sokemid
+                Tamennopid.Tamennopid.Tamennopid.Tamennopid
+                Tiousid.Tiousid.Tiousid.Tiousid
+                Thotmosid.Thotmosid.Thotmosid.Thotmosid
+                Thalousid.Thalousid.Thalousid.Thalousid
+                Tesenoufid.Tesenoufid.Tesenoufid.Tesenoufid
+	        }
+		} #Wasetic
+		akhenite_egyptian = {  
+	        male_names = {
+                #All hail the Aten
+	            Aaten Ankhaten Atemhat Atenwah Atensedjem Atumas Atenheb Atoupias Atenrois Atenmenis Atenmen Ateniu Atenpayem Atemmous Atensytis Atentayifnakht Atensytmis Atemenis Atentaios Atensois Atenteus Atenikis Atenirtis Atkhenaten Ateneus Aternefer Atenneus Atenis Atenirau Atenmounis Atenmosis Atenoufris Atenpayiwtawy Atenirdis Djedateniufankh Heryaten Atenhotep Heriaten Hetepaten Khifnaten Nektenaten Nakhtaten Nakhtparaten Nechtaten Nesaten Pachaten Pasheraten Padiaten Patiaten Payaraten Patennopis Petaten Pethaten Psenaten Phaten Peteaten Psenpaten Patenis Sedjemniyaten Syaten Tutankhaten Tromonoaten
+	        	Bayek
+	        	Nektsafthis
+	        	Akrisios Antas Aphynchis Anches Aleilis Afynchis Bion Chaiapis Chetos Damaes Dymaios Esenchebis Hatres Hakes Harmachoros Haratres Harmais Harsiesis Harmiysis Herieus Harmenis Haryotes Hesties Horos Hariesis Harpaesis Harathres Harchebis Harkonnesis Harendotes Imouthes Inaros Inaroys Komoapis Katytis Kemareus Konon Konkreis Keleesis Komonos Konnos Labois Mares Marres Mestasuthmis Menodoros Miysis Manres Menches Mestous Nyris Nefores Nechthminis Nebynchis Neferos Onnofris Oafres Orsenoufis Orpget Orpgatos Ousorsybkis Ortees Petetyrnis Paues Peteesis Paesis Pasis Paopis Patous Petechonsis Petemois Petoys Peteyris Peteymis Pekysis Phanesis Pmneuis Penmas Paos Pemsais Pais Paapis Pakysis Pasikles Piyris Pempsas Petetymis Paiomis Phatres Phabis Pachrates Psamtichos Panesis Portis Pekrouris Pelois Pabois Psenesis Petenouris Paoutes Parathes Psintaes Petekekamis Petenyris Pemennas Petempois Parates Paneithes Pachons Paofis Patcheuis Pasys Pharatos Payris Patersys Pneferos Paoueris Psenminis Pheios Patos Phibis Panomgeus Pkrouris Phames Patchombis Pnas Patsytmis Petees Psentaes Papothrais Pesytis Pekys Phabetos Peteniesis Plas Psonant Psennesis Pachis Peten Paonthes Panechotes Petethymis Petearpsenesis Petsimios Pokrouris Petenebthos Petosarapitos Petesemtheus Pemroeris Phimenis Pabekis Petos Petearbekis Petabthis Petenefotes Pbesis Phanemieus Psenechotis Phathemis Phembroeris Psenos Petheuris Pachos Pathoytes Stotoethis Samoys Simos Sisois Sapouris Senychis Seos Smeitis Salouris Semuris Sanos Smetheus Samos Sochotes Sokeus Sales Semtheus Sosos Stouetis Sabathaios Stotoetis Teos Thotortaios Temenafynchis Totoes Thalous Thasous Thasomthous Teknon Tinachtis Teteharmais Tanechotis Tamefis Techesteus Thamoys Tharoys Theroys Tayris Teroys Tanetbeus Taes Tesenoufis Tesenes Teaphonychos
+
+	        }
+	        female_names = { 
+	            Ateniyt Atensytis Atenofris Atenikis Atenirtis Aternefer Atenweret Atennefert Heryaten Hetepaten Nektenaten Nechtaten Naneferaten Naneferibaten Nanefermenibaten Nesaten Sedjemniyaten Sentatenis Senaten Taaten Taatenthis Tsenaten Tiatenis Tetaten Teteaten Tatennopis Thatensis Tatenis Thatenthis Tadiaten Taremetetaten Tasheretenaten Tatiaten Tasheretaten
+	        	Aya
+	        	Nahomsesis
+	        	Ays Asfeos Anches Ampsois Amesis Didyme Esenchebis Esersythis Epoeris Esoeris Esorches Esenremphis Esemtais Herieus Haynchis Haryotes Harkonnesis Kolleuthis Mesigesis Mesiesis Niteitis Nochysis Oteesis Orateis Oubostortaios Obostortais Phanesis Pnas Stotoetis Senofois Senyris Senesis Sostrate Spenesis Semminis Smithis Sarapias Senethoytis Soeris Soulois Stotetis Smeitis Tahatres Thatres Tachonsis Tete Tasis Tbelles Thasos Tetehathyris Tetemiysis Takales Teteesis Taues Taleuis Tekysis Thasies Tebrichis Tapsais Taiomis Tapiomis Tneferos Taesis Teteathyris Thabis Thabos Thatonis Thaibis Tamefis Thasis Thaes Therythis Thalous Taonsis Thasous Tetoys Thays Thasomthous Thanechothis Tneferous Thathoytis Thaminis Tarompis Tlolous Tryfaina Tinachtis Tbokis Tages Taes Tagombes Tausiris Tieitis Tious Tathoytis Tanomgeus Tokoys Tauetis Tokes Tasys Tomsais Tasybkis Taombes Teieis Taimoutis Totes Tasafthis Teos Thotoys Tharoys Theroys Tamnegis Tsenyris Tayris Tekmeis Tays Teroys Tabeis Tahakes Tanetbeus Tatnothis Tentos Tapestos Tasemtheus Terothis Taniofis Tkonnos
+	        }          
+	        family = {
+	        	
+	        	Ahmid.Ahmid.Ahmid.Ahmid
+	        	Kenamus.Kenamid.Kenamid.Kenamid
+	        	Naravid.Naravid.Naravid.Naravid
+	        	Penamus.Penamid.Penamid.Penamid
+	        	Naravid.Naravid.Naravid.Naravid
+	        	Ezanid.Ezanid.Ezanid.Ezanid
+	        	Alarus.Alara.Alarid.Alarid
+	        	Harsiotes.Harsiotes.Harsiotid.Harsiotid
+	        	Khabbash.Khabbash.Khabbashid.Khabbashid	
+	        	Amasus.Amasa.Amasid.Amasid
+	        	Nectanebo.Nectanebo.Nectanebid.Nectanebid
+	        	Djedhid.Djedhid.Djedhid.Djedhid
+	        	Tachys.Tachya.Tachyes.Tachyid
+                #Simple patronym dynasties
+                Haryotid.Haryotid.Haryotid.Haryotid
+                Harmenid.Harmenid.Harmenid.Harmenid
+                Nekferid.Nekferid.Nekferid.Nekferid
+                Ousorsybkid.Ousorsybkid.Ousorsybkid.Ousorsybkid
+                Paopid.Paopid.Paopid.Paopid
+                Petempoid.Petempoid.Petempoid
+                Petsimid.Petsimid.Petsimid.Petsimid
+                Stotetid.Stotetid.Stotetid.Stotetid
+                Soerid.Soerid.Soerid.Soerid
+                Tiousid.Tiousid.Tiousid.Tiousid
+                Thalousid.Thalousid.Thalousid.Thalousid
+                Tesenoufid.Tesenoufid.Tesenoufid.Tesenoufid
+                Ankhatid.Ankhatid.Ankhatid.Ankhatid
+                Atenhotid.Atenhotid.Atenhotid.Atenhotid
+                Atenoufid.Atenoufid.Atenoufid.Atenoufid
+                Atenmounid.Atenmounid.Atenmounid.Atenmounid
+                Atenmosid.Atenmosid.Atenmosid.Atenmosid
+                Atensedjid.Atensedjid.Atensedjid.Atensedjid
+                Atenhotepid.Atenhotepid.Atenhotepid.Atenhotepid
+                Atenirid.Atenirid.Atenirid.Atenirid
+                Djedatenid.Djedatenid.Djedatenid.Djedatenid
+                Khifnatid.Khifnatid.Khifnatid.Khifnatid
+                Heriatid.Heriatid.Heriatid.Heriatid
+                Nektenatid.Nektenatid.Nektenatid.Nektenatid
+                Nechtatid.Nechtatid.Nechtatid.Nechtatid
+                Patennopid.Patennopid.Patennopid.Patennopid
+                Pakhatid.Pakhatid.Pakhatid.Pakhatid
+                Psenpatid.Psenpatid.Psenpatid.Psenpatid
+                Payaratid.Payaratid.Payaratid.Payaratid
+                Patenid.Patenid.Patenid.Patenid
+                Sedjemniyatid.Sedjemniyatid.Sedjemniyatid.Sedjemniyatid
+                Tutankhatid.Tutankhatid.Tutankhatid.Tutankhatid
+	        }
+		} #Akhenite
 		hethedetian = {  } #Het-Hedetan
 		deshretic_egyptian = {  } #Deshretic
 
