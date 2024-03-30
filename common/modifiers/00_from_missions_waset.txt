@@ -26,3 +26,19 @@ akhetaton_desecrated = {
 	global_population_happiness = -0.2
 	global_pop_conversion_speed_modifier = 0.5
 }
+masters_of_desheret = {
+	desert_combat_bonus = 0.10
+	camels_discipline = 0.10
+}
+kings_in_memphis = {
+	omen_power = 0.10
+	monthly_legitimacy = 0.05
+}
+western_delta_mod = {
+	global_monthly_food_modifier = 0.15
+	global_commerce_modifier = 0.05
+}
+safe_frontier = {
+	fort_maintenance_cost = -0.10
+	global_defensive = 0.10
+}

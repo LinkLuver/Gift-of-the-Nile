@@ -23,7 +23,7 @@
     }
     on_completion = {}
     waset_missions_task_1 = {
-        icon = "task_political"
+        icon = "task_happiness"
         allow = {}
         on_completion = {
             trigger_event = me_waset.1
@@ -33,7 +33,7 @@
         }
     }
     waset_missions_task_2 = {
-        icon = "task_political"
+        icon = "task_economical"
         requires = { waset_missions_task_1 }
         highlight = {
             scope:province = {
@@ -65,7 +65,7 @@
         }
     }
     waset_missions_task_4 = {
-        icon = "task_political"
+        icon = "task_conquest"
         requires = { waset_missions_task_3 }
         allow = {}
         on_completion = {
@@ -114,7 +114,7 @@
         }
     }
     waset_missions_task_5 = {
-        icon = "task_political"
+        icon = "task_battle"
         requires = { waset_missions_task_4 }
         highlight = {
             scope:province = {
@@ -155,7 +155,7 @@
         }
     }
     waset_missions_task_6 = {
-        icon = "task_political"
+        icon = "task_diplomatic"
         requires = { waset_missions_task_5 }
         highlight = {
             scope:province = {
@@ -182,7 +182,7 @@
         }
     }
     waset_missions_task_7 = {
-        icon = "task_political"
+        icon = "task_conquest"
         requires = { waset_missions_task_5 }
         highlight = {
             scope:province = {
@@ -210,7 +210,7 @@
         }
     }
     waset_missions_task_8 = {
-        icon = "task_political"
+        icon = "task_heracles"
         requires = { waset_missions_task_7 waset_missions_task_6 }
         allow = {
             treasury >= 200
@@ -223,7 +223,7 @@
         }
     }
     waset_missions_task_9 = {
-        icon = "task_political"
+        icon = "task_expansion"
         requires = { waset_missions_task_5 }
         allow = {
             military_experience >= 20
@@ -246,7 +246,7 @@
         }
     }
     waset_missions_task_10 = {
-        icon = "task_political"
+        icon = "task_zeus_cornucopia"
         requires = { waset_missions_task_9 }
         highlight = {
             scope:province = {
@@ -288,86 +288,212 @@
         }
     }
     waset_missions_task_11 = {
-        icon = "task_political"
+        icon = "task_expansion"
         requires = { waset_missions_task_10 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                is_in_region = upper_egypt_region
+                terrain = oasis
+            }
+        }
+        allow = {
+            owns_or_subject_owns = 5504
+            owns_or_subject_owns = 5505
+            owns_or_subject_owns = 5506
+            owns_or_subject_owns = 5507
+            owns_or_subject_owns = 5508
+            owns_or_subject_owns = 5513
+            owns_or_subject_owns = 5504
+            owns_or_subject_owns = 5510
+            owns_or_subject_owns = 5511
+            owns_or_subject_owns = 5514
+            owns_or_subject_owns = 5526
+            owns_or_subject_owns = 5527
+            owns_or_subject_owns = 5529
+            owns_or_subject_owns = 5530
+        }
         on_completion = {
             trigger_event = me_waset.11
             show_as_tooltip = {
-
+                hidden_effect = {
+                    area:ammon_area = {
+                        every_area_province = {
+                            add_claim = root
+                        }
+                    }
+                    area:parva_area = {
+                        every_area_province = {
+                            add_claim = root
+                        }
+                    }
+                    area:marmarica_orientalis_area = {
+                        every_area_province = {
+                            add_claim = root
+                        }
+                    }
+                }
+                custom_tooltip = gain_claims_siwa_parva_libya_tt
+                add_country_modifier = {
+                    name = masters_of_desheret
+                    duration = -1
+                }
             }
         }
     }
     waset_missions_task_12 = {
-        icon = "task_political"
+        icon = "task_expansion"
         requires = { waset_missions_task_10 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                is_in_area = heptanomis_area
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = heptanomis_area
+        }
         on_completion = {
             trigger_event = me_waset.12
             show_as_tooltip = {
-
+                custom_tooltip = decide_faiyum_tt
             }
         }
     }
     waset_missions_task_13 = {
-        icon = "task_political"
+        icon = "task_atlas"
         requires = { waset_missions_task_11 waset_missions_task_12 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                province_id = 500
+            }
+        }
+        allow = {
+            owns_or_subject_owns = 500
+        }
         on_completion = {
             trigger_event = me_waset.13
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = kings_in_memphis
+                    duration = -1
+                }
+                current_ruler = {
+                    add_popularity = 10
+                }
             }
         }
     }
     waset_missions_task_14 = {
-        icon = "task_political"
+        icon = "task_apollo"
         requires = { waset_missions_task_13 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                province_id = 5537
+            }
+        }
+        allow = {
+            owns_or_subject_owns = 5537
+        }
         on_completion = {
             trigger_event = me_waset.14
             show_as_tooltip = {
-
+                add_2_free_province_investments = yes
+                add_innovation = 1
             }
         }
     }
     waset_missions_task_15 = {
-        icon = "task_political"
+        icon = "task_artemis"
         requires = { waset_missions_task_13 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_area = western_delta_area
+                }
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = western_delta_area
+        }
         on_completion = {
             trigger_event = me_waset.15
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = western_delta_mod
+                    duration = -1
+                }
+                current_ruler = {
+                    add_popularity = 10
+                }
             }
         }
     }
     waset_missions_task_16 = {
-        icon = "task_political"
+        icon = "task_athena"
         requires = { waset_missions_task_13 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_area = eastern_delta_area
+                }
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = eastern_delta_area
+        }
         on_completion = {
             trigger_event = me_waset.16
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = safe_frontier
+                    duration = -1
+                }
+                current_ruler = {
+                    add_popularity = 10
+                }
             }
         }
     }
     waset_missions_task_17 = {
-        icon = "task_political"
+        icon = "task_happiness"
         requires = { waset_missions_task_14 waset_missions_task_15 waset_missions_task_16 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_area = eastern_delta_area
+                    is_in_area = western_delta_area
+                    is_in_area = central_delta_area
+                    is_in_area = heptanomis_area
+                    is_in_area = memphis_area
+                    is_in_area = hema_nome_area
+                    is_in_area = luxor_area
+                    province_id = 550
+                }
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = eastern_delta_area
+            owns_or_subject_owns_area = western_delta_area
+            owns_or_subject_owns_area = central_delta_area
+            owns_or_subject_owns_area = heptanomis_area
+            owns_or_subject_owns_area = memphis_area
+            owns_or_subject_owns_area = hema_nome_area
+            owns_or_subject_owns_area = luxor_area
+            owns_or_subject_owns = 550
+        }
         on_completion = {
             trigger_event = me_waset.17
             show_as_tooltip = {
-
             }
         }
     }
     waset_missions_task_18 = {
-        icon = "task_political"
+        icon = "task_calm"
         requires = { waset_missions_task_3 }
-        allow = {}
+        allow = {
+            char:526 = {
+                is_ruler = yes
+            }
+        }
         on_completion = {
             trigger_event = me_waset.18
             show_as_tooltip = {
@@ -376,9 +502,23 @@
         }
     }
     waset_missions_task_19 = {
-        icon = "task_political"
+        icon = "task_diplomatic"
         requires = { waset_missions_task_18 }
-        allow = {}
+        allow = {
+            any_character = {
+                is_head_of_family = yes
+                is_friend = yes
+            }
+            any_character = {
+                is_governor = yes
+                is_friend = yes
+            }
+            any_character = {
+                has_any_office = yes
+                is_friend = yes
+            }
+            legitimacy >= 80
+        }
         on_completion = {
             trigger_event = me_waset.19
             show_as_tooltip = {
@@ -387,9 +527,21 @@
         }
     }
     waset_missions_task_20 = {
-        icon = "task_political"
+        icon = "task_religion"
         requires = { waset_missions_task_18 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                is_in_area = luxor_area
+            }
+        }
+        allow = {
+            char:527 = {
+                loyalty >= 50
+            }
+            p:569.state = {
+                state_improvement_religious_trigger = yes
+            }
+        }
         on_completion = {
             trigger_event = me_waset.20
             show_as_tooltip = {
@@ -398,9 +550,22 @@
         }
     }
     waset_missions_task_21 = {
-        icon = "task_political"
+        icon = "task_expansion"
         requires = { waset_missions_task_19 waset_missions_task_20 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_area = myos_hormos_area
+                    is_in_area = troglodytica_area
+                    is_in_area = eastern_desert_area
+                }
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = myos_hormos_area
+            owns_or_subject_owns_area = troglodytica_area
+            owns_or_subject_owns_area = eastern_desert_area
+        }
         on_completion = {
             trigger_event = me_waset.21
             show_as_tooltip = {
@@ -409,9 +574,12 @@
         }
     }
     waset_missions_task_22 = {
-        icon = "task_political"
+        icon = "task_battle"
         requires = { waset_missions_task_21 }
-        allow = {}
+        allow = {
+            political_influence >= 100
+            treasury >= 300
+        }
         on_completion = {
             trigger_event = me_waset.22
             show_as_tooltip = {
@@ -420,9 +588,19 @@
         }
     }
     waset_missions_task_23 = {
-        icon = "task_political"
+        icon = "task_conquest"
         requires = { waset_missions_task_22 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                province_id = 557
+            }
+        }
+        allow = {
+            owns_or_subject_owns = 557
+            c:ATN = {
+                has_land = no
+            }
+        }
         on_completion = {
             trigger_event = me_waset.23
             show_as_tooltip = {
@@ -431,9 +609,20 @@
         }
     }
     waset_missions_task_24 = {
-        icon = "task_political"
+        icon = "task_heracles"
         requires = { waset_missions_task_23 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_area = heptanomis_area
+                    is_in_area = hema_nome_area
+                }
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = heptanomis_area
+            owns_or_subject_owns_area = hema_nome_area
+        }
         on_completion = {
             trigger_event = me_waset.24
             show_as_tooltip = {
@@ -444,7 +633,30 @@
     waset_missions_task_25 = {
         icon = "task_political"
         requires = { waset_missions_task_24 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_area = memphis_area
+                    is_in_area = eastern_delta_area
+                    is_in_area = western_delta_area
+                    is_in_area = central_delta_area
+                }
+            }
+        }
+        allow = {
+            area:memphis_area = {
+                state_loyalty >= 75
+            }
+            area:eastern_delta_area = {
+                state_loyalty >= 75
+            }
+            area:western_delta_area = {
+                state_loyalty >= 75
+            }
+            area:central_delta_area = {
+                state_loyalty >= 75
+            }
+        }
         on_completion = {
             trigger_event = me_waset.25
             show_as_tooltip = {
@@ -453,9 +665,28 @@
         }
     }
     waset_missions_task_26 = {
-        icon = "task_political"
+        icon = "task_apollo"
         requires = { waset_missions_task_25 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_area = parva_area
+                    is_in_area = farfara_area
+                    is_in_area = kharga_area
+                    is_in_area = khargana_area
+                    is_in_area = ammon_area
+                    is_in_area = marmarica_orientalis_area
+                }
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = parva_area
+            owns_or_subject_owns_area = farfara_area
+            owns_or_subject_owns_area = kharga_area
+            owns_or_subject_owns_area = khargana_area
+            owns_or_subject_owns_area = ammon_area
+            owns_or_subject_owns_area = marmarica_orientalis_area
+        }
         on_completion = {
             trigger_event = me_waset.26
             show_as_tooltip = {
@@ -464,9 +695,16 @@
         }
     }
     waset_missions_task_27 = {
-        icon = "task_political"
+        icon = "task_artemis"
         requires = { waset_missions_task_25 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                is_in_area = sinai_area
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = sinai_area
+        }
         on_completion = {
             trigger_event = me_waset.27
             show_as_tooltip = {
@@ -475,9 +713,32 @@
         }
     }
     waset_missions_task_28 = {
-        icon = "task_political"
+        icon = "task_atlas"
         requires = { waset_missions_task_26 waset_missions_task_27 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_area = eastern_delta_area
+                    is_in_area = western_delta_area
+                    is_in_area = central_delta_area
+                    is_in_area = heptanomis_area
+                    is_in_area = memphis_area
+                    is_in_area = hema_nome_area
+                    is_in_area = luxor_area
+                    province_id = 550
+                }
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = eastern_delta_area
+            owns_or_subject_owns_area = western_delta_area
+            owns_or_subject_owns_area = central_delta_area
+            owns_or_subject_owns_area = heptanomis_area
+            owns_or_subject_owns_area = memphis_area
+            owns_or_subject_owns_area = hema_nome_area
+            owns_or_subject_owns_area = luxor_area
+            owns_or_subject_owns = 550
+        }
         on_completion = {
             trigger_event = me_waset.28
             show_as_tooltip = {

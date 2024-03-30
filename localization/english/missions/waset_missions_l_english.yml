@@ -41,7 +41,7 @@ waset_missions_task_11:0 "Reclaim the Oases"
 waset_missions_task_11_DESC:0 "In the west lay independent #E Nomarchs#!, deep in the desert calling the oases home. It is time to remind them of what a #E Pharaoh#! is, and only then shall we move down the #E Nile#!."
 
 waset_missions_task_12:0 "Into the Fayum"
-waset_missions_task_12_DESC:0 " The #E “kings”#! of #E Henen-Nesut#! are heretics too... however they still worship the other gods. Perhaps they will not need to feel the #R wrath#! of #Y Amun#!, however, they are yet in our way."
+waset_missions_task_12_DESC:0 " The #E "kings"#! of #E Henen-Nesut#! are heretics too... however they still worship the other gods. Perhaps they will not need to feel the #R wrath#! of #Y Amun#!, however, they are yet in our way."
 
 waset_missions_task_13:0 "Reclaim Memphis"
 waset_missions_task_13_DESC:0 "#E Memphis#!, the capital of so many #Y Dynasties#!, has been #G spared#! by the #R heresy#! of #Y Aten#!. It appears the might of #Y Ptah#! has managed to keep the jewel of the #E Delta#! in pristine condition. Unfortunately, its rulers are too ambitious. They will attempt to restore themselves as the capital of #E Kemet#! and form their own #Y Dynasty#! unless we act first."
@@ -74,7 +74,7 @@ waset_missions_task_22:0 "Challenge the Heretics"
 waset_missions_task_22_DESC:0 "#E Pharaoh Senusret#! has an idea to bring the #R heretical#! #E "Pharaohs"#! down. Instead of attacking them by ourselves, we should rally all the faithful to the Gods of #E Kemet#! against the #R heretics#!. Our power and influence would grow and the war balance would be in our favor, however, our enemies may do the same to counter us."
 
 waset_missions_task_23:0 "The Triumph of Waset"
-waset_missions_task_23_DESC:0 "It is finally time for us to decide what to do with the #R heretic#! capital as well as the “holy” sites in it. The priests all ask for the complete destruction of the city while the nobles suggest more leniancy of our vanquished enemies, proposing that we should only punish the leaders."
+waset_missions_task_23_DESC:0 "It is finally time for us to decide what to do with the #R heretic#! capital as well as the "holy" sites in it. The priests all ask for the complete destruction of the city while the nobles suggest more leniancy of our vanquished enemies, proposing that we should only punish the leaders."
 
 waset_missions_task_24:0 "Claim the North"
 waset_missions_task_24_DESC:0 "Now that Upper Egypt is ours, we should turn our attention to the north. We must unify the country quickly! However, we should make sure we are ready. There's no turning back here.\n\n#R This will declare war with the #E 4th Intermediate Period#! wargoal on all Lower Egyptian states.#!"
@@ -99,6 +99,8 @@ waset_kerma_100_tt:0 "#E Kerma#! has an opinion of #E Waset#! greater or equal t
 negotiate_kerma_tt:0 "We will enter #Y alliance#! negotiations with #E Kerma#!."
 invite_greeks_tt:0 "We will hire a #E Greek#! mercenary group to aid in our war efforts."
 gets_mentu_tt:0 "Gains access to the [GetDeityDefinition('omen_mentu').GetName|Y] deity."
+gain_claims_siwa_parva_libya_tt:0 "Gain claims on the #Y Eastern Desert#! area.\nGain claims on the #Y Troglodytica#! area.\nGain claims on the #Y Myos Hormos#! area."
+decide_faiyum_tt:0 "Decide what to do with the #Y Faiyum#! area."
 
 
 #Modifiers
@@ -108,7 +110,10 @@ anti_atenism:0 "Anti-Aten Zeal"
 order_in_east:0 "Control in the East"
 mentu_preperation:0 "Prepared for War"
 akhetaton_desecrated:0 "Akhetaton Destroyed"
-
+masters_of_desheret:0 "Masters of Desheret"
+kings_in_memphis:0 "Kings of Memphis"
+western_delta_mod:0 "Western Delta Prosperity"
+safe_frontier:0 "Egypt's Frontier Fortified"
 
 #Events
 me_waset_1_title:0 "$waset_missions_task_1$"

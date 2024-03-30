@@ -159,7 +159,6 @@ gotn_events.4 = { # Due for the Duat
 gotn_events.5 = {
     type = country_event
     hidden = yes
-    picture = elephant_battle
 
     immediate = {
         set_global_variable = {
