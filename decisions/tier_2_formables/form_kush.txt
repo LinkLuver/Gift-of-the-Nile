@@ -1,0 +1,97 @@
+﻿country_decisions = {
+	
+	form_kush = { #Shouldn't be formed by subjects
+		
+		potential = {
+			num_of_cities >= 1
+			country_culture_group = meroitic_group
+			is_monarchy = yes
+			NOT = {
+				tag = EGT
+			}
+			NOT = {
+				tag = KSH
+			}		
+		    NOT = {
+		    	has_variable = formed_kush_kingdom_var				
+			}	
+			OR = {
+				is_ai = no
+				num_of_cities >= 15
+			}
+			NOT = {
+				is_endgame_tag_trigger = yes
+				is_tier_2_formable_trigger = yes
+			}
+		}
+		
+		highlight = {
+		scope:province = {
+				OR = {
+					province_id = 626 #Napata
+					province_id = 641 #Meroe
+					province_id = 613 #Patigga
+					province_id = 634 #Darou
+					province_id = 7583 #Kedurma
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = kush_not_existing
+				NOT = {
+					any_country = {
+						tag = KSH
+					}
+				}
+			}
+			is_subject = no
+			can_form_nation_trigger = yes
+			num_of_cities >= 15
+			owns_or_subject_owns = 626 #Napata
+			owns_or_subject_owns = 641 #Meroe
+			owns_or_subject_owns = 613 #Patigga
+			owns_or_subject_owns = 634 #Darou
+			owns_or_subject_owns = 7583 #Kedurma
+		}
+		
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+			}
+			change_country_name = "KSH"
+			hidden_effect = {
+				change_country_flag = KSH
+				change_country_adjective = "KSH_ADJECTIVE"
+				change_country_color = "kushite_red" 
+				change_country_tag = KSH
+			}
+			#custom_tooltip = kush_claims_tooltip #not working for some reason, will return to fix this
+			#hidden_effect = {
+			#	region:nubia_region = { formable_region_province_effect = yes }
+			#}
+			capital_scope = {
+				capital_formable_large_effect = yes
+				formable_capital_modifier_large_effect = yes
+			}
+			hidden_effect = {
+				set_variable = {
+					name = formed_kush_kingdom_var
+				}
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+}
+
