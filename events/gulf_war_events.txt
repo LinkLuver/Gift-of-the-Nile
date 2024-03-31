@@ -223,7 +223,7 @@ gulf_war.105 = { # Persia Enters the Cold War
         name = "gulf_war_106.c"
         c:ELM = {
             trigger_event = {
-                id = gulf_war_109
+                id = gulf_war.109
                 days = 10
             }
         }
@@ -314,7 +314,7 @@ gulf_war.106 = { # Babylonian Entry ?
         name = "gulf_war_106.c"
         c:ELM = {
             trigger_event = {
-                id = gulf_war_109
+                id = gulf_war.109
                 days = 10
             }
         }
