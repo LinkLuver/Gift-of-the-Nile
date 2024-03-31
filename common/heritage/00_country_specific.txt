@@ -476,6 +476,49 @@ hamath_heritage = {
         tag = HAM
     }
 }
+agushi_heritage = {
+    modifier = {
+        #good
+        happiness_for_wrong_culture_modifier = 0.1
+        land_morale_modifier = 0.05
+
+        #bad
+        global_defensive = -0.1
+    }
+
+    trigger = {
+        tag = HAM
+    }
+}
+neo_hittite_heritage = {
+    modifier = {
+        #good
+        light_infantry_discipline = 0.07
+        global_monthly_civilization = 0.03
+
+        #bad
+        global_pop_conversion_speed_modifier = -0.05
+    }
+
+    trigger = {
+        primary_culture = hittite
+        NOT = { tag = KAR }
+    }
+}
+hittite_heritage = {
+    modifier = {
+        #good
+        spearmen_offensive = 0.15
+        army_movement_speed = 0.05
+
+        #bad
+        global_pop_conversion_speed_modifier = -0.05
+    }
+
+    trigger = {
+        tag = KAR
+    }
+}
 qidraya_heritage = {
     modifier = {
         #good
