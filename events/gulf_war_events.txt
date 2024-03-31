@@ -179,23 +179,89 @@ gulf_war.105 = { # Persia Enters the Cold War
 
     picture = greeks_marching
 
+    immediate = {
+        random_country = {
+            limit = {
+                tag = TYO
+            }
+            save_scope_as = tylos_scope
+        }
+    }
+
     option = { # Declare War
-        name = "gulf_war_105.a"
+        name = "gulf_war_105.b"
+        declare_war_with_wargoal = {
+            target = scope:tylos_scope
+            war_goal = conquer_wargoal
+            province = 7199
+        }
+        c:MAK = {
+            trigger_event = {
+                id = gulf_war.120
+                days = { 1 2 }
+            }
+        }
     }
 
     option = { # give up
-        name = "gulf_war_105.b"
+        name = "gulf_war_105.a"
         trigger_event = {
-        	id = gulf_war.110 # Makan Dominance
+        	id = gulf_war.111 # Dilmun Dominance
         	days = 10
         }
         add_country_modifier = {
         	name = loser_of_gulf_war
         	duration = 1825
         }
+        area:omana_area = {
+            every_area_province = {
+                set_owned_by = c:TYO
+            }
+        }
+    }
+    option = {
+        name = "gulf_war_106.c"
+        c:ELM = {
+            trigger_event = {
+                id = gulf_war_109
+                days = 10
+            }
+        }
+        custom_tooltip = dalaaal_compromise_tt
     }
 }
+gulf_war.120 = { # Makan Joins
+    type = country_event
+    title = gulf_war_120_title
+    desc = gulf_war_120_desc
+    left_portrait = c:PES.current_ruler
+    left_portrait = c:SEL.current_ruler
 
+    right_portrait = c:TYO.current_ruler
+    right_portrait = c:MAK.current_ruler
+
+    picture = army_desert
+
+    immediate = {
+        random_active_war = {
+            limit = {
+                any_war_defender = {
+                    tag = SEL
+                }
+            }
+            save_scope_as = dilmun_maka_war_persia
+        }
+    }
+
+    option = { # Declare War
+        name = "gulf_war_120.a"
+        add_to_war = {
+            target = scope:dilmun_maka_war_persia
+            attacker = yes
+            leader = no
+        }
+    }
+}
 gulf_war.106 = { # Babylonian Entry ?
     type = country_event
     title = gulf_war_106_title
@@ -205,7 +271,10 @@ gulf_war.106 = { # Babylonian Entry ?
     right_portrait = c:TYO.current_ruler
     right_portrait = c:MAK.current_ruler
 
+    picture = greeks_marching
+
     option = {
+        name = "gulf_war_106.a"
     	hidden_effect = {
         	area:omana_area = {
         		every_area_province = {
@@ -218,51 +287,71 @@ gulf_war.106 = { # Babylonian Entry ?
         	province = 8868
         	war_goal = conquer_wargoal
         }
+        c:TYO = {
+            trigger_event = {
+                id = gulf_war.121
+                days = { 1 2 }
+            }
+        }
+    }
+    option = {
+        name = "gulf_war_106.b"
+        trigger_event = {
+            id = gulf_war.110 # Makan Dominance
+            days = 10
+        }
+        area:omana_area = {
+            every_area_province = {
+                set_owned_by = c:MAK
+            }
+        }
+        add_country_modifier = {
+            name = loser_of_gulf_war
+            duration = 1825
+        }
+    }
+    option = {
+        name = "gulf_war_106.c"
+        c:ELM = {
+            trigger_event = {
+                id = gulf_war_109
+                days = 10
+            }
+        }
     }
 }
-
-gulf_war.107 = { # End of War if Lucania surrenders
+gulf_war.121 = { # Dilmun Joins
     type = country_event
-    hidden = yes
+    title = gulf_war_121_title
+    desc = gulf_war_121_desc
+    left_portrait = c:PES.current_ruler
+    left_portrait = c:SEL.current_ruler
 
-    trigger = {
-        has_global_variable = war_303_end
-    }
+    right_portrait = c:TYO.current_ruler
+    right_portrait = c:MAK.current_ruler
+
+    picture = army_desert
 
     immediate = {
-        #LUCANIA SCRIPTED PEACE DEAL - Will end war
-        lucania_surrenders_peace_effect = yes
-        random_in_global_list = {
-            variable = gulf_war_list
+        random_active_war = {
             limit = {
-                tag = LCA
-            }
-            remove_from_list = this
-        }
-        if = {
-            limit = {
-                has_global_variable = war_303_samnium_out
-            }
-            random_in_global_list = {
-                variable = gulf_war_list
-                limit = {
-                    tag = SAM
+                any_war_defender = {
+                    tag = PES
                 }
-                remove_from_list = this
             }
-            remove_global_variable = war_303_samnium_out # no longer needed after that
+            save_scope_as = dilmun_maka_war_babylon
         }
-        every_in_global_list = {
-            variable = gulf_war_list
-            trigger_event = {
-                id = gulf_war.108 # notif about samnium peace out
-            }
+    }
+
+    option = { # Declare War
+        name = "gulf_war_120.a"
+        add_to_war = {
+            target = scope:dilmun_maka_war_babylon
+            attacker = yes
+            leader = no
         }
-        remove_global_variable = war_303_end
-        set_global_variable = lucania_lost_war # used in mission. yes, I know there are other variables already, but I don't want to fuck anything up
     }
 }
-
 gulf_war.109 = { # Elamite Compromise
     type = country_event
     title = gulf_war_109_title
@@ -335,474 +424,20 @@ gulf_war.110 = { # End of War: Makan Dominance
         }
     }
 }
-
-gulf_war.111 = { # if Tarentum surrenders, info to all
+gulf_war.111 = { # End of War: Tylos Dominance
     type = country_event
     title = gulf_war_111_title
     desc = gulf_war_111_desc
-    left_portrait = c:MSP.current_ruler
-    left_portrait = c:TAR.current_ruler
-    left_portrait = c:APU.current_ruler
-
-    right_portrait = c:LCA.current_ruler
-    right_portrait = c:SAM.current_ruler
+    left_portrait = c:TYO.current_ruler
 
     picture = greeks_marching
 
-    immediate = {
-        show_as_tooltip = {
-            war_303_coalition_surrender_effect = yes
-        }
-    }
-
-    option = { # losers
-        name = "gulf_war_111.a"
-        trigger = {
-            OR = {
-                tag = APU
-                tag = MSP
-            }
-        }
-    }
-
-    option = { # winners
-        name = "gulf_war_111.b"
-        trigger = {
-            OR = {
-                tag = SAM
-                tag = LCA
-            }
-        }
-    }
-}
-
-gulf_war.112 = { # Lucania wins a big battle
-    type = country_event
-    title = gulf_war_112_title
-    desc = gulf_war_112_desc
-    left_portrait = c:MSP.current_ruler
-    left_portrait = c:TAR.current_ruler
-    left_portrait = c:APU.current_ruler
-
-    right_portrait = c:LCA.current_ruler
-    right_portrait = c:SAM.current_ruler
-
-    picture = greeks_marching
-
-    immediate = {
-        set_global_variable = {
-            name = 303_112_cd_var
-            days = 50
-        }
-    }
-
-    trigger = {
-        NOT = {
-            has_global_variable = 303_112_cd_var
-        }
-    }
-
-    option = { # losers -shit
-        name = "gulf_war_112.a"
-        trigger = {
-            OR = {
-                tag = APU
-                tag = MSP
-            }
-        }
-        add_war_exhaustion = 5
-    }
-
-    option = { # winners -yay
-        name = "gulf_war_112.b"
-        trigger = {
-            OR = {
-                tag = SAM
-                tag = LCA
-            }
-        }
-        add_political_influence = 10
-    }
-
-    option = { # tarentum -surrender
-        name = "gulf_war_112.c"
-        trigger = {
-            tag = TAR
-        }
-        custom_tooltip = we_will_surrender_tt
-        set_global_variable = war_303_end
-        war_303_coalition_surrender_effect = yes
-        every_in_global_list = {
-            variable = gulf_war_list
-            limit = {
-                NOT = {
-                    tag = TAR # triggered from TAR
-                }
-            }
-            trigger_event = {
-                id = gulf_war.111 # surrender info
-            }
-        }
-    }
-
-    option = { # tarentum -continue fighting
-        name = "gulf_war_112.d"
-        trigger = {
-            tag = TAR
-        }
-        add_war_exhaustion = 10
-        custom_tooltip = we_will_continue_fighting_tt
-        # MORE EVENTS TO SIMULATE WAR. OUTCOME SKEWED IN LUCANIA ET AL'S FAVOUR
-        hidden_effect = {
-            random_list = {
-                10 = { # -T
-                    every_in_global_list = {
-                        variable = gulf_war_list
-                        trigger_event = { # Lucania wins a big battle
-                            id = gulf_war.112
-                            days = { 21 35 }
-                        }
-                    }
-                }
-                3 = { # +T
-                    every_in_global_list = {
-                        variable = gulf_war_list
-                        trigger_event = { # Tarentum/Coalition wins a big battle
-                            id = gulf_war.113
-                            days = { 21 35 }
-                        }
-                    }
-                }
-                5 = { # -T
-                    every_in_global_list = {
-                        variable = gulf_war_list
-                        trigger_event = { # Tarentine Soldiers desert
-                            id = gulf_war.114
-                            days = { 21 35 }
-                        }
-                    }
-                }
-                1 = { # +T
-                    trigger = {
-                        is_target_in_global_variable_list = {
-                            name = gulf_war_list
-                            target = c:SAM
-                        }
-                    }
-                    if = {
-                        limit = {
-                            c:SAM = {
-                                is_ai = no
-                            }
-                        }
-                        c:SAM = {
-                            trigger_event = { # Samnium leaves the war
-                                id = gulf_war.115 # choice
-                                days = { 21 35 }
-                            }
-                        }
-                    }
-                    else = {
-                        set_global_variable = war_303_samnium_out
-                        trigger_event = {
-                            id = gulf_war.106
-                            days = 8
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-gulf_war.113 = { # Tarentum et al win a big battle
-    type = country_event
-    title = gulf_war_113_title
-    desc = gulf_war_113_desc
-    left_portrait = c:MSP.current_ruler
-    left_portrait = c:TAR.current_ruler
-    left_portrait = c:APU.current_ruler
-
-    right_portrait = c:LCA.current_ruler
-    right_portrait = c:SAM.current_ruler
-
-    picture = greeks_marching
-
-    immediate = {
-        set_global_variable = {
-            name = 303_113_cd_var
-            days = 50
-        }
-    }
-
-    trigger = {
-        NOT = {
-            has_global_variable = 303_113_cd_var
-        }
-    }
-
-    option = { # winners
-        name = "gulf_war_113.a"
-        trigger = {
-            OR = {
-                tag = APU
-                tag = MSP
-                tag = TAR
-            }
-        }
-        add_political_influence = 10
-    }
-
-    option = { # loser
-        name = "gulf_war_113.b"
-        trigger = {
-            tag = SAM
-        }
-        add_war_exhaustion = 5
-        trigger_event = { # Samnium leaves the war
-            id = gulf_war.115 # choice
-            days = 2
-        }
-    }
-
-    option = { # lucania -surrender
-        name = "gulf_war_113.c"
-        trigger = {
-            tag = LCA
-        }
-        custom_tooltip = we_will_surrender_tt
-        set_global_variable = war_303_end
-        trigger_event = {
-            id = gulf_war.107
-            days = 8
-        }
-    }
-
-    option = { # lucania -continue fighting
-        name = "gulf_war_113.d"
-        trigger = {
-            tag = LCA
-        }
-        add_war_exhaustion = 10
-        custom_tooltip = we_will_continue_fighting_tt
-        # MORE EVENTS TO SIMULATE WAR. OUTCOME SKEWED IN TARENTUM ET AL'S FAVOUR
-        hidden_effect = {
-            random_list = {
-                3 = { # -T
-                    every_in_global_list = {
-                        variable = gulf_war_list
-                        trigger_event = { # Lucania wins a big battle
-                            id = gulf_war.112
-                            days = { 21 35 }
-                        }
-                    }
-                }
-                10 = { # +T
-                    every_in_global_list = {
-                        variable = gulf_war_list
-                        trigger_event = { # Tarentum/Coalition wins a big battle
-                            id = gulf_war.113
-                            days = { 21 35 }
-                        }
-                    }
-                }
-                1 = { # -T
-                    every_in_global_list = {
-                        variable = gulf_war_list
-                        trigger_event = { # Tarentine Soldiers desert
-                            id = gulf_war.114
-                            days = { 21 35 }
-                        }
-                    }
-                }
-                5 = { # +T
-                    trigger = {
-                        is_target_in_global_variable_list = {
-                            name = gulf_war_list
-                            target = c:SAM
-                        }
-                    }
-                    if = {
-                        limit = {
-                            c:SAM = {
-                                is_ai = no
-                            }
-                        }
-                        trigger_event = { # Samnium leaves the war
-                            id = gulf_war.115 # choice
-                            days = { 21 35 }
-                        }
-                    }
-                    else = {
-                        set_global_variable = war_303_samnium_out
-                        trigger_event = {
-                            id = gulf_war.106
-                            days = 8
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-gulf_war.114 = { # Tarentine Soldiers Desert
-    type = country_event
-    title = gulf_war_114_title
-    desc = gulf_war_114_desc
-    left_portrait = c:MSP.current_ruler
-    left_portrait = c:TAR.current_ruler
-    left_portrait = c:APU.current_ruler
-
-    right_portrait = c:LCA.current_ruler
-    right_portrait = c:SAM.current_ruler
-
-    picture = greeks_marching
-
-    immediate = {
-        set_global_variable = {
-            name = 303_114_cd_var
-            days = 50
-        }
-        add_manpower = -2
-    }
-
-    trigger = {
-        NOT = {
-            has_global_variable = 303_114_cd_var
-        }
-    }
-
-    option = { # continue fighting
-        name = "gulf_war_114.a"
-        add_war_exhaustion = 5
-        custom_tooltip = we_will_continue_fighting_tt
-        # MORE EVENTS TO SIMULATE WAR. OUTCOME SKEWED IN LUCANIA ET AL'S FAVOUR
-        hidden_effect = {
-            random_list = {
-                10 = { # -T
-                    every_in_global_list = {
-                        variable = gulf_war_list
-                        trigger_event = { # Lucania wins a big battle
-                            id = gulf_war.112
-                            days = { 21 35 }
-                        }
-                    }
-                }
-                3 = { # +T
-                    every_in_global_list = {
-                        variable = gulf_war_list
-                        trigger_event = { # Tarentum/Coalition wins a big battle
-                            id = gulf_war.113
-                            days = { 21 35 }
-                        }
-                    }
-                }
-                5 = { # -T
-                    every_in_global_list = {
-                        variable = gulf_war_list
-                        trigger_event = { # Tarentine Soldiers desert
-                            id = gulf_war.114
-                            days = { 21 35 }
-                        }
-                    }
-                }
-                1 = { # +T
-                    trigger = {
-                        is_target_in_global_variable_list = {
-                            name = gulf_war_list
-                            target = c:SAM
-                        }
-                    }
-                    if = {
-                        limit = {
-                            c:SAM = {
-                                is_ai = no
-                            }
-                        }
-                        c:SAM = {
-                            trigger_event = { # Samnium leaves the war
-                                id = gulf_war.115 # choice
-                                days = { 21 35 }
-                            }
-                        }
-                    }
-                    else = {
-                        set_global_variable = war_303_samnium_out
-                        trigger_event = {
-                            id = gulf_war.106
-                            days = 8
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    option = { # give up
-        name = "gulf_war_114.b"
-        custom_tooltip = we_will_surrender_tt
-        set_global_variable = war_303_end
-        war_303_coalition_surrender_effect = yes
-        every_in_global_list = {
-            variable = gulf_war_list
-            limit = {
-                NOT = {
-                    tag = TAR # triggered from TAR
-                }
-            }
-            trigger_event = {
-                id = gulf_war.111 # surrender info
-            }
-        }
-    }
-}
-
-gulf_war.115 = { # samnium can leave the war 
-    type = country_event
-    title = gulf_war_115_title
-    desc = gulf_war_115_desc
-    left_portrait = c:TAR.current_ruler
-    left_portrait = c:MSP.current_ruler
-    left_portrait = c:APU.current_ruler
-
-    right_portrait = c:LCA.current_ruler
-    right_portrait = c:SAM.current_ruler
-
-    picture = greeks_marching
-
-    immediate = {
-        set_global_variable = {
-            name = 303_115_cd_var
-            days = 30
-        }
-    }
-
-    trigger = {
-        NOT = {
-            has_global_variable = 303_115_cd_var
-        }
-    }
-
-    option = { 
-        name = "gulf_war_115.a"
-        custom_tooltip = we_will_continue_fighting_tt
-    }
-
-    option = { # give up
-        name = "gulf_war_115.b"
-        set_global_variable = war_303_samnium_out
-        trigger_event = {
-            id = gulf_war.106
-            days = 8
-        }
-        ai_chance = { # if lucania is a player to not fuck the player over
-            modifier = {
-                add = -100
-                c:LCA = {
-                    is_ai = no
-                }
-            }
+    option = { # surrender
+        name = "gulf_war_110.a"
+        add_stability = 10
+        add_country_modifier = {
+            name = winner_of_gulf_war
+            duration = -1
         }
     }
 }

@@ -168,3 +168,14 @@ gotn_events.5 = {
     }
     fire_only_once = yes
 }
+
+gotn_events.6 = {
+    type = country_event
+    hidden = yes
+    immediate = {
+        trigger_event = {
+            name = median_collapse.20
+            days = { 180 365 }
+        }
+    }
+}

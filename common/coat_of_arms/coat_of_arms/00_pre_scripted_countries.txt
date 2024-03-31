@@ -160,42 +160,37 @@ PRY_REVOLT = {
 
 SEL = {
 	pattern = "pattern_solid.tga"
-	color1 = "ocean_blue"
-	color2 = "frost_blue"
+	color1 = "babylon_flag_colour"
+	color2 = "babylon_color"
 
-	colored_emblem = {
-		texture = "ce_selucid_crossbow.dds"
-		color1 = "frost_blue"
-		instance = { scale = { 0.75 0.75 }  }
-	}
-	
-	colored_emblem = {
-		texture = "ce_border_rug_01.tga"
-		color1 = "frost_blue"
-		color2 = "ocean_blue"
-		instance = { rotation = 0 }
-		instance = { rotation = 180 }
-	}
+    colored_emblem = {
+        texture = "ce_ishtar_lion.dds"
+        color1 = "samnite_beige"
+        instance = { scale = { 0.90 0.90 }  position = { 0.50 0.45 } }
+    }
+
+    colored_emblem = {
+        texture = "ce_babylon.dds"
+        color1 = "samnite_beige"
+        instance = { scale = { 1.10 1.10 }  position = { 0.50 0.47 } }
+    }
 }
-
-SEL_REVOLT = {
+ADI = {
 	pattern = "pattern_solid.tga"
-	color1 = "frost_blue"
-	color2 = "ocean_blue"
+    color1 = "ck2_white"
+    color2 = "persia_color"
 
-	colored_emblem = {
-		texture = "ce_selucid_crossbow.dds"
-		color1 = "ocean_blue"
-		instance = { scale = { 0.75 0.75 }  }
-	}
-	
-	colored_emblem = {
-		texture = "ce_border_rug_01.tga"
-		color1 = "ocean_blue"
-		color2 = "frost_blue"
-		instance = { rotation = 0 }
-		instance = { rotation = 180 }
-	}
+    colored_emblem = {
+        texture = "ce_lamassu.dds"
+        color1 = "persia_color"
+        instance = { scale = { 0.90 0.90 }  position = { 0.50 0.45 } }
+    }
+
+    colored_emblem = {
+        texture = "ce_assur.dds"
+        color1 = "persia_color"
+        instance = { scale = { 1.10 1.10 }  position = { 0.50 0.47 } }
+    }
 }
 
 SPA = {
@@ -690,35 +685,35 @@ BAC = {
 	}
 }
 
-ADI={
-    pattern="pattern_solid.tga"
-    color1=ck2_green    color2=bone_white   color3=pitch_black  colored_emblem={
-        color1=bone_white       color2=ck2_blue     texture="ce_lamassu_01.dds"
-        mask={ 1 2 3 }
-        instance={
-            position={ 0.500000 0.500000 }
-            scale={ 0.750000 0.750000 }
-            depth=0.010000
-            rotation=0
-        }
-    }
-    colored_emblem={
-        color1=bone_white       color2=ck2_blue     texture="ce_border_simple_02.tga"
-        mask={ 1 2 3 }
-        instance={
-            position={ 0.500000 0.500000 }
-            scale={ 1.000000 1.000000 }
-            depth=0.010000
-            rotation=90
-        }
-        instance={
-            position={ 0.500000 0.500000 }
-            scale={ 1.000000 1.000000 }
-            depth=0.010000
-            rotation=270
-        }
-    }
-}
+#ADI={
+#    pattern="pattern_solid.tga"
+#    color1=ck2_green    color2=bone_white   color3=pitch_black  colored_emblem={
+#        color1=bone_white       color2=ck2_blue     texture="ce_lamassu_01.dds"
+#        mask={ 1 2 3 }
+#        instance={
+#            position={ 0.500000 0.500000 }
+#            scale={ 0.750000 0.750000 }
+#            depth=0.010000
+#            rotation=0
+#        }
+#    }
+#    colored_emblem={
+#        color1=bone_white       color2=ck2_blue     texture="ce_border_simple_02.tga"
+#        mask={ 1 2 3 }
+#        instance={
+#            position={ 0.500000 0.500000 }
+#            scale={ 1.000000 1.000000 }
+#            depth=0.010000
+#            rotation=90
+#        }
+#        instance={
+#            position={ 0.500000 0.500000 }
+#            scale={ 1.000000 1.000000 }
+#            depth=0.010000
+#            rotation=270
+#        }
+#    }
+#}
 				
 ACHAEMENID_FLAG = {
 	pattern = "pattern_solid.tga"

@@ -880,8 +880,6 @@ country = {
 		}
 		#Mesopotamia
 		SEL = {
-			family = 30
-			family = 70
 			government = plutocratic_monarchy
 			primary_culture = babylonian
 			religion = mesopotamian_religion
@@ -2112,8 +2110,8 @@ country = {
 			}
 		}
 		LAM = {
-			#family = 22
-			#family = 23
+			family = 30
+			family = 70
 			government = aristocratic_monarchy
 			primary_culture = aetolian
 			religion = roman_pantheon

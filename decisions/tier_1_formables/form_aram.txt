@@ -1,0 +1,61 @@
+﻿country_decisions = {
+	
+	#form Aram
+	form_aram = {
+		
+		potential = {
+			num_of_cities >= 1
+			#num_of_cities <= 12
+			OR = {
+				primary_culture = aramaic
+				primary_culture = syriac
+			}
+			NOT = {
+				tag = PRY
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				province_id = 750
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = "formable_not_aram_exists"
+				NOT = {
+					any_country = {
+						tag = PRY
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 750
+		}
+		
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			change_country_name = "ARAM_NAME"
+			hidden_effect = {
+				change_country_adjective = "ARAM_ADJECTIVE"
+				change_country_tag = "PRY"
+			}
+			capital_scope = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+			set_capital = 750
+			p:750 = {
+				capital_formable_medium_effect = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+}

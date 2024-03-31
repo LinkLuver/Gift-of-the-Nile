@@ -720,7 +720,7 @@
 	country="SEL"
 	3={
 		first_name="Laodike" # Mother of Seleukos I
-		family = c:SEL.fam:Seleukid
+		family = c:LAM.fam:Seleukid
 		female = yes
 		birth_date=372.6.7
 		death_date=441.2.10
@@ -730,7 +730,7 @@
 	}
 	14={
 		first_name="Seleukos" # Grandfather of Seleukos I
-		family = c:SEL.fam:Seleukid
+		family = c:LAM.fam:Seleukid
 		birth_date=327.7.8
 		death_date=396.4.9
 		religion="roman_pantheon"
@@ -740,7 +740,7 @@
 	}
 	20={
 		first_name="Antiochos" # Father of Seleukos I
-		family = c:SEL.fam:Seleukid
+		family = c:LAM.fam:Seleukid
 		father=char:14
 		birth_date=352.4.6
 		death_date=429.12.1
@@ -751,7 +751,7 @@
 	}
 	397={
 		first_name="Ptolemaios" # Uncle of Seleukos I
-		family = c:SEL.fam:Seleukid
+		family = c:LAM.fam:Seleukid
 		father=char:14
 		birth_date=357.2.8
 		death_date=421.7.12

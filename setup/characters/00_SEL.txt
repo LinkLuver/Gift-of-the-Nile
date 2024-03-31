@@ -1,9 +1,9 @@
-﻿"SEL"={
-	country="SEL"
+﻿"LAM"={
+	country="LAM"
 	24={
 		first_name="Seleukos"
 		nickname="NICKNAME_NICATOR"
-		family = c:SEL.fam:Seleukid
+		family = c:LAM.fam:Seleukid
 		father=char:20
 		mother=char:3
 		birth_date=396.7.6
@@ -21,9 +21,6 @@
 		add_trait="steadfast"
 		add_gold=4000
 		add_popularity=60
-		c:SEL={
-			set_as_ruler=char:24
-		}
 		dna="Puo+6o5mjmby/PL8A6YDpgFeAV4CewJ7ApgCmAKWApYCgAKAAWMBYwTjBOMCbgJuAoQChAKOAo4CiwKLAoUChQTfBN8CgQKBAm0CbQKGAoYCbgJuApECkQKEAoQDrQOtAowCjAJuAm4CkQKRAmYCZgTIBMgClQKVAnMCcwJ0AnQChAKEAnsCewKJAokDoQOhAnACcAJyAnIChwKHBMUExQJtAm0CkgKSApUClQKBAoECcQJxApECkQJ+An4CewJ7AnQCdAKFAoUCbAJsAV4BXgKKAooCaQJpApgCmAKDAoMCcQJxApQClAK9Ar0AcwBzAoECgQEJAQkClAKUAD4APgKbApsAdwB3Ap8CnwDbANsDXwNfAVgBWAB/AH8AagBqAT4BPgKWApYA8ADwAMEAwQAuAC4BMgEyAR0BHQB/AH8AEwATAOUA5QDoAOgACwALABUAFQBPAE8AYABgAqwCrAAWABYAEQARAVgBWAKgAqABswGzAH8AfwPPA88AhgCGAMUAxQUAAJcCLwCZAUwAWwAAAAAAAAAAAAAAAA=="
 	}
 	25={
@@ -49,7 +46,7 @@
 	}
 	26={
 		first_name="Antiochos"
-		family = c:SEL.fam:Seleukid
+		family = c:LAM.fam:Seleukid
 		birth_date=430.6.26
 		culture="macedonian"
 		religion="roman_pantheon"
@@ -71,7 +68,7 @@
 	}
 	64={
 		first_name="Laodike"
-		family = c:SEL.fam:Seleukid
+		family = c:LAM.fam:Seleukid
 		female=yes
 		birth_date=431.7.26
 		culture="macedonian"
@@ -93,7 +90,7 @@
 	}
 	73={
 		first_name="Wahbarz"
-		family = c:SEL.fam:Frataraka
+		family = c:LAM.fam:Frataraka
 		birth_date=430.1.29
 		culture="pasargadi"
 		religion="zoroaster"
@@ -112,7 +109,7 @@
 	}
 	144={
 		first_name="Achaios"
-		family = c:SEL.fam:Seleukid
+		family = c:LAM.fam:Seleukid
 		birth_date=434.5.7
 		culture="macedonian"
 		religion="roman_pantheon"
@@ -133,7 +130,7 @@
 	}
 	146={
 		first_name="Phila"
-		family = c:SEL.fam:Seleukid
+		family = c:LAM.fam:Seleukid
 		female=yes
 		birth_date=440.5.23
 		culture="macedonian"
@@ -343,7 +340,7 @@
 	}
 	258={
 		first_name="Deidamia"
-		family = c:SEL.fam:Seleukid
+		family = c:LAM.fam:Seleukid
 		father=char:20
 		mother=char:3
 		female=yes
@@ -375,7 +372,7 @@
 	}
 	260={
 		first_name="Nikanor" # Nephew of Seleukos I
-		family = c:SEL.fam:Seleukid
+		family = c:LAM.fam:Seleukid
 		birth_date=430.6.26
 		culture="macedonian"
 		religion="roman_pantheon"
@@ -396,7 +393,7 @@
 	}
 	398={
 		first_name="Nikomedes" # Nephew of Seleukos I
-		family = c:SEL.fam:Seleukid
+		family = c:LAM.fam:Seleukid
 		birth_date=432.9.30
 		culture="macedonian"
 		religion="roman_pantheon"
@@ -417,7 +414,7 @@
 	}
 	399={
 		first_name="Seleukos" # Cousin of Seleukos I
-		family = c:SEL.fam:Seleukid
+		family = c:LAM.fam:Seleukid
 		father=char:397
 		birth_date=394.2.8
 		religion="roman_pantheon"
@@ -427,7 +424,7 @@
 	}
 	400={
 		first_name="Ptolemaios" # Cousin of Seleukos I
-		family = c:SEL.fam:Seleukid
+		family = c:LAM.fam:Seleukid
 		father=char:399
 		birth_date=426.3.1
 		religion="roman_pantheon"

@@ -1,0 +1,38 @@
+﻿l_english:
+ ### Formable Decisions ###
+
+ ## Levantine Formables ##
+ # Aramaic Kingdom
+ form_aramaic_kingdom:0 "Establish Aramaic Kingdom"
+ form_aramaic_kingdom_desc:0 "From the great cities of #E Darmashq#!, #E Qarqar#!, #E Halba#!, #E Tadhmor#!, and #E 'Adhma#!, to name a few of our fabulous cities, the many #Y Aramaic#! peoples have come together as one! We have been dominated by the #Y Assyrians#! for far too long, and played second fiddle to the #Y Neo-Hittites#! and #Y Phoenecians#! who surround us. Now, we take the center stage, long live the #E Aramaic Kingdom#!!"
+ ARAM_NAME:0 "Aram"
+ ARAM2:0 "Aramaic Kingdom"
+ ARAM_ADJECTIVE:0 "Aramaic"
+ form_aramaic_claims_tooltip:0 "Gain claims on the regions of #Y Syria#! and #Y Canaan#!."
+ # Aram
+ form_aram:0 "Claim Aram"
+ form_aram_desc:0 "The state of #E Darmeshq#!, also called #E Aram#!, has fallen. We are able to claim their legacy as the true #Y Aramaic#! people and call ourselves as #E Aram#!."
+ formable_not_aram_exists:0 "#Y Aram#! does not exist."
+ # Palestine
+ form_palestine:0 "Proclaim Kingdom of Philistine"
+ form_palestine_desc:0 "We are called many things. The #Y Egyptians#! call us as the new #Y Hyksos#!. The #Y Greeks#! call us as the new #Y Philistines#!. Whatever we may be called, we have chosen to establish ourselves a new kingdom, the #E Kingom of Philistine#!. We have chosen the #Y Greek#! name for ourselves to distance ourselves from the #E Pharaohs#! in #E Egypt#! as we forge our own new destiny in the #E Levant#!.\n\n#R We will lose our #E Nomarchy#! government form.#!"
+ PHOENECIAN_NAME_2:0 "Philistine"
+ PHOENICIA_ADJECTIVE_2:0 "Philistinians"
+ # Israel
+ ISRAEL_FORMABLE_NAME_2:0 "Kena'an"
+ ISRAEL_FORMABLE_ADJECTIVE_2:0 "Hebrew"
+ 
+ ## Mesopotamian Formables ##
+ # Chaldean Empire
+ form_babylon:0 "Chaldean Empire"
+ form_babylon_desc:0 "#E Babylon#! was once the home to the greatest of powers. For a long time, we suffered under the foot of the #Y Neo-Assyrians#!, until we gloriously broke free. Now we have come to dominate the lands we once struggled with under the Neo-Assyrians. The dawn of #Y Neo-Babylon#! has come, otherwise called the #Y Chaldean Empire#!."
+ BABYLON_NAME_true:0 "Chaldean Empire"
+
+ ### Reaffirmation Decisions ###
+ # Reaffirm Media
+ affirm_media:0 "Reaffirm Median Dominance"
+ affirm_media_desc:0 "The Median Empire has suffered a collapse of order, however, through tenacity and sheer will, the return of #Y Median#! hegemony is here! No more #E Achaemenids#! to slow us down, we shall conquer the world!"
+
+ # Reaffirm Assyria
+ affirm_assyria:0 "Reaffirm Assyrian Dominance"
+ affirm_assyria_desc:0 "The Neo-Assyrian Empire suffered a slow, painful collapse. We have utterly rebounded and reclaimed our lands. The return of #Y Neo-Assyria#! is upon us!"
