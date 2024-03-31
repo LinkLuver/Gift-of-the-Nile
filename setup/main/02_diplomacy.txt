@@ -30,6 +30,9 @@ diplomacy = {
 	#Bit-Adini
 	dependency = { first = BMB second = KAR subject_type = subject_league_city_state }
 
+	#Hamath
+	dependency = { first = HAM second = LHT subject_type = client_state }
+
 	##Greek Leagues
 	#Neo-Dellian League
 	defensive_league = {

@@ -1508,7 +1508,25 @@ country = {
 		LHT = {
 			government = despotic_monarchy
 			primary_culture = syriac
-			religion = carthaginian_pantheon
+			religion = hurrian_pantheon
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 787
+
+			own_control_core = 	{
+				787 791 793 797 7985 #syria_region
+			}
+		}
+		AGU = {
+			government = despotic_monarchy
+			primary_culture = syriac
+			religion = hurrian_pantheon
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -1520,10 +1538,9 @@ country = {
 			capital = 798
 
 			own_control_core = 	{
-				787 791 793 797 798 813 814 847 851 7985 805 808 #syria_region
+				798 813 814 847 851 805 808 #syria_region
 			}
 		}
-
 		PRY = { # Darmeshq
 			government = aristocratic_monarchy
 			primary_culture = aramaic
