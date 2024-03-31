@@ -1067,7 +1067,6 @@
 		amount=1
 	}
 	citizen={
-		culture="macedonian"
 		religion="hurrian_pantheon"
 		amount=1
 	}
@@ -1241,7 +1240,6 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		culture="macedonian"
 		religion="carthaginian_pantheon"
 		amount=1
 	}
@@ -1575,12 +1573,7 @@
 		amount=3
 	}
 	freemen={
-		culture="macedonian"
-		religion="hurrian_pantheon"
-		amount=1
-	}
-	freemen={
-		amount=4
+		amount=5
 	}
 	slaves={
 		religion="hurrian_pantheon"
@@ -1756,12 +1749,7 @@
 		amount=1
 	}
 	freemen={
-		culture="macedonian"
-		religion="hurrian_pantheon"
-		amount=1
-	}
-	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=3
@@ -1781,8 +1769,6 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="macedonian"
-		religion="hurrian_pantheon"
 		amount=1
 	}
 	freemen={

@@ -1175,11 +1175,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
-		religion="roman_pantheon"
-		amount=3
-	}
-	slaves={
-		amount=1
+		amount=5
 	}
 	tribesmen={
 		amount=2
@@ -1198,11 +1194,7 @@
 		amount=2
 	}
 	slaves={
-		religion="roman_pantheon"
-		amount=1
-	}
-	slaves={
-		amount=4
+		amount=5
 	}
 }
 

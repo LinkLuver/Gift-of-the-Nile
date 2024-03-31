@@ -66,12 +66,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=4
-	}
-	citizen={
-		culture="macedonian"
-		religion="roman_pantheon"
-		amount=3
+		amount=7
 	}
 	freemen={
 		amount=3
@@ -95,12 +90,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=2
-	}
-	citizen={
-		culture="macedonian"
-		religion="roman_pantheon"
-		amount=3
+		amount=5
 	}
 	freemen={
 		amount=2
@@ -178,8 +168,8 @@
 
 664={ #Apollonia Palaistinas
 	terrain="plains"
-	culture="macedonian"
-	religion="roman_pantheon"
+	culture="hyksos"
+	religion="carthaginian_pantheon"
 	trade_goods="wine"
 	civilization_value=31
 	barbarian_power=0
@@ -470,17 +460,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="macedonian"
-		religion="roman_pantheon"
 		amount=2
 	}
 	freemen={
-		amount=1
-	}
-	freemen={
-		culture="macedonian"
-		religion="roman_pantheon"
-		amount=2
+		amount=3
 	}
 	slaves={
 		amount=2

@@ -31,8 +31,6 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="macedonian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	citizen={
@@ -125,8 +123,8 @@
 
 3439={ #Hekatompylos
 	terrain="hills"
-	culture="macedonian"
-	religion="roman_pantheon"
+	culture="parthian"
+	religion="mithra_religion"
 	trade_goods="steppe_horses"
 	civilization_value=34
 	barbarian_power=0
@@ -1402,7 +1400,6 @@
 		amount=3
 	}
 	slaves={
-		religion="roman_pantheon"
 		amount=1
 	}
 	tribesmen={
@@ -1445,7 +1442,6 @@
 	province_rank="settlement"
 	citizen={
 		culture="bactrian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	citizen={
@@ -1453,7 +1449,6 @@
 	}
 	freemen={
 		culture="bactrian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
