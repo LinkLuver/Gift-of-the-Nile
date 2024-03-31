@@ -36,12 +36,38 @@ me_waset.1 = {
 
     title = me_waset_1_title
     desc = me_waset_1_desc
-    picture = great_library
+    picture = great_work_celebration
+    right_portrait = char:526
+    right_portrait = char:527
+    left_portrait = char:525
+
+    immediate = {
+        char:527 = {
+            add_rival = char:526
+        }
+    }
 
     option = {
         name = "me_waset_1.a"
         custom_tooltip = me_waset_1_tooltip
-
+        char:526 = {
+            add_loyalty = loyalty_family_jealousy
+        }
+        char:527 = {
+            add_popularity = 10
+        }
+        add_treasury = 50
+    }
+    option = {
+        name = "me_waset_1.b"'
+        custom_tooltip = me_waset_1_tooltip'
+        char:526 = {
+            add_popularity = 10
+        }
+        char:527 = {
+            add_loyalty = loyalty_family_jealousy
+        }
+        add_political_influence = 15
     }
 }
 me_waset.2 = {
@@ -49,12 +75,20 @@ me_waset.2 = {
 
     title = me_waset_2_title
     desc = me_waset_2_desc
-    picture = great_library
+    picture = dagger_behind_back
 
     option = {
         name = "me_waset_2.a"
         custom_tooltip = me_waset_2_tooltip
-
+        p:569 = {
+            add_province_modifier = {
+                name = embelish_waset
+                duration = -1
+            }
+        }
+        current_ruler = {
+            add_health = -20
+        }
     }
 }
 me_waset.3 = {
@@ -62,12 +96,65 @@ me_waset.3 = {
 
     title = me_waset_3_title
     desc = me_waset_3_desc
-    picture = great_library
+    picture = city_siege
 
     option = {
         name = "me_waset_3.a"
         custom_tooltip = me_waset_3_tooltip
-
+        custom_tooltip = warning_tt
+        char:527 = {
+            add_loyalty = loyalty_ruined_reputation
+        }
+        add_manpower = -4
+        add_stability = -10
+        add_political_influence = -30
+        add_legitimacy = legitimacy_small
+        add_country_modifier = {
+            name = the_29th_continues
+            duration = 3650
+        }
+        set_variable = waset_nobles
+    }
+    option = {
+        name = "me_waset_3.b"
+        custom_tooltip = me_waset_3_tooltip
+        custom_tooltip = civil_war_tt
+        set_as_ruler = char:527
+        hidden_effect = {
+            char:526 = {
+                remove_all_positions = yes
+                save_scope_as = civil_war_leader
+            }
+            start_civil_war = scope:civil_war_leader
+            scope:civil_war_leader.employer = {
+                change_country_name = "waset_revolter_name"
+                change_country_adjective = "waset_revolter_adjective"
+                change_country_color = roman_country_color
+                change_government = egyptian_dynasty
+                save_scope_as = waset_revolt_country
+            }
+            every_owned_province = {
+                limit = {
+                    OR = {
+                        is_in_area = aswan_area
+                        is_in_area = troglodytica_area
+                    }
+                }
+                set_owned_by = scope:waset_revolt_country
+                add_claim = root
+            }
+            every_owned_province = {
+                add_claim = scope:waset_revolt_country
+            }
+            every_character = {
+                limit = {
+                    loyalty < 60
+                    NOT = { has_character_modifier = support_gathered }
+                }
+                move_country = scope:waset_revolt_country
+            }
+        }
+        set_variable = waset_priests
     }
 }
 me_waset.4 = {
@@ -75,12 +162,50 @@ me_waset.4 = {
 
     title = me_waset_4_title
     desc = me_waset_4_desc
-    picture = great_library
+    picture = diadochi_ptolemy_city
 
     option = {
         name = "me_waset_4.a"
         custom_tooltip = me_waset_4_tooltip
-
+        current_ruler = {
+            add_popularity = 10
+            add_trait = victorious
+        }
+        add_stability = 5
+        add_country_modifier = {
+            name = anti_atenism
+            duration = 3650
+        }
+        if = {
+            limit = {
+                any_country = {
+                    tag = ATN
+                    has_land = yes
+                }
+            }
+            reverse_add_opinion = {
+                target = c:ATN
+                modifier = opinion_threatened_us
+            }
+        }
+        custom_tooltip = eastern_egypt_claims_tt
+        hidden_effect = {
+            area:myos_hormos_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+            area:troglodytica_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+            area:eastern_desert_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+        }
     }
 }
 me_waset.5 = {
@@ -88,12 +213,29 @@ me_waset.5 = {
 
     title = me_waset_5_title
     desc = me_waset_5_desc
-    picture = great_library
+    picture = army_desert
 
     option = {
         name = "me_waset_5.a"
         custom_tooltip = me_waset_5_tooltip
-
+        add_country_modifier = {
+            name = order_in_east
+            duration = -1
+        }
+        add_political_influence = 25
+        custom_tooltip = kerma_claims_tt
+        hidden_effect = {
+            area:khargana_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+            area:aswan_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+        }
     }
 }
 me_waset.6 = {
@@ -101,12 +243,54 @@ me_waset.6 = {
 
     title = me_waset_6_title
     desc = me_waset_6_desc
-    picture = great_library
+    picture = interesting_histories_kush_capital
+
+    right_portrait = scope:nubia_scope.current_ruler
+    left_portrait = current_ruler
+
+    immediate = {
+        random_country = {
+            limit = {
+                owns = p:599
+            }
+            save_scope_as = nubia_scope
+        }
+    }
 
     option = {
         name = "me_waset_6.a"
         custom_tooltip = me_waset_6_tooltip
-
+        add_treasury = -20
+        add_political_influence = -10
+        add_truce = {
+            target = scope:nubia_scope
+            duration = 1825
+        }
+    }
+    option = {
+        name = "me_waset_6.b"
+        custom_tooltip = me_waset_6_tooltip
+        add_treasury = -100
+        add_political_influence = -20
+        add_alliance = scope:nubia_scope
+    }
+    option = {
+        name = "me_waset_6.c"
+        custom_tooltip = me_waset_6_tooltip
+        every_owned_province = {
+            limit = {
+                is_in_area = aswan_area
+            }
+            set_owned_by = scope:nubia_scope
+        }
+    }
+    option = {
+        name = "me_waset_6.d"
+        custom_tooltip = me_waset_6_tooltip
+        reverse_add_opinion = {
+            target = scope:nubia_scope
+            modifier = opinion_insult
+        }
     }
 }
 me_waset.7 = {
@@ -114,12 +298,25 @@ me_waset.7 = {
 
     title = me_waset_7_title
     desc = me_waset_7_desc
-    picture = great_library
+    picture = city_siege_honor
+
+    immediate = {
+        random_country = {
+            limit = {
+                owns = p:599
+            }
+            save_scope_as = nubia_scope
+        }
+    }
 
     option = {
         name = "me_waset_7.a"
         custom_tooltip = me_waset_7_tooltip
-
+        declare_war_with_wargoal = {
+            target = scope:nubia_scope
+            province = 599
+            war_goal = conquer_wargoal
+        }
     }
 }
 me_waset.8 = {
@@ -127,12 +324,15 @@ me_waset.8 = {
 
     title = me_waset_8_title
     desc = me_waset_8_desc
-    picture = great_library
+    picture = epirote_phalanx
 
     option = {
         name = "me_waset_8.a"
         custom_tooltip = me_waset_8_tooltip
-
+        add_country_modifier = {
+            name = discipline_greek
+            duration = 1825
+        }
     }
 }
 me_waset.9 = {
@@ -140,12 +340,20 @@ me_waset.9 = {
 
     title = me_waset_9_title
     desc = me_waset_9_desc
-    picture = great_library
+    picture = diadochi_legion_carrying_standard
 
     option = {
         name = "me_waset_9.a"
         custom_tooltip = me_waset_9_tooltip
-
+        add_military_experience = -20
+        add_manpower = -5
+        add_treasury = -150
+        add_country_modifier = {
+            name = mentu_preperation
+            duration = 3650
+        }
+        custom_tooltip = gets_mentu_tt
+        set_variable = mentu_var
     }
 }
 me_waset.10 = {
@@ -153,12 +361,34 @@ me_waset.10 = {
 
     title = me_waset_10_title
     desc = me_waset_10_desc
-    picture = great_library
+    picture = crucifixion
 
     option = {
         name = "me_waset_10.a"
         custom_tooltip = me_waset_10_tooltip
-
+        current_ruler = {
+            add_nickname = "wrath_of_amun"
+            add_martial = 1
+        }
+        p:557 = {
+            set_city_status = settlement
+            random_pops_in_province = {
+                while = {
+                    count = 15
+                    kill_pop = yes
+                }
+            }
+            random_pops_in_province = {
+                while = {
+                    count = 10
+                    move_pop = 569
+                }
+            }
+            add_province_modifier = {
+                name = akhetaton_desecrated
+                duration = 1825
+            }
+        }
     }
 }
 me_waset.11 = {
@@ -166,12 +396,33 @@ me_waset.11 = {
 
     title = me_waset_11_title
     desc = me_waset_11_desc
-    picture = great_library
+    picture = persia_marching
 
     option = {
         name = "me_waset_11.a"
         custom_tooltip = me_waset_11_tooltip
-
+        hidden_effect = {
+            area:ammon_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+            area:parva_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+            area:marmarica_orientalis_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+        }
+        custom_tooltip = gain_claims_siwa_parva_libya_tt
+        add_country_modifier = {
+            name = masters_of_desheret
+            duration = -1
+        }
     }
 }
 me_waset.12 = {
@@ -179,12 +430,36 @@ me_waset.12 = {
 
     title = me_waset_12_title
     desc = me_waset_12_desc
-    picture = great_library
+    picture = natural_disaster
 
     option = {
         name = "me_waset_12.a"
         custom_tooltip = me_waset_12_tooltip
 
+    }
+    option = {
+        name = "me_waset_12.b"
+        custom_tooltip = me_waset_12_tooltip
+        every_owned_province = {
+            limit = {
+                is_in_area = heptanomis_area
+            }
+            add_province_modifier = {
+                name = faiyum_punished
+                duration = 3650
+            }
+            random_pops_in_province = {
+                limit = {
+                    pop_religion = aten_religion
+                }
+                random_list = {
+                    50 = {}
+                    50 = {
+                        kill_pop = yes
+                    }
+                }
+            }
+        }
     }
 }
 me_waset.13 = {
@@ -192,12 +467,18 @@ me_waset.13 = {
 
     title = me_waset_13_title
     desc = me_waset_13_desc
-    picture = great_library
+    picture = interesting_histories_kush_capital
 
     option = {
         name = "me_waset_13.a"
         custom_tooltip = me_waset_13_tooltip
-
+        add_country_modifier = {
+                    name = kings_in_memphis
+                    duration = -1
+                }
+                current_ruler = {
+                    add_popularity = 10
+                }
     }
 }
 me_waset.14 = {
@@ -205,12 +486,13 @@ me_waset.14 = {
 
     title = me_waset_14_title
     desc = me_waset_14_desc
-    picture = great_library
+    picture = celtic_religious_festival
 
     option = {
         name = "me_waset_14.a"
         custom_tooltip = me_waset_14_tooltip
-
+        add_2_free_province_investments = yes
+                add_innovation = 1
     }
 }
 me_waset.15 = {
@@ -218,12 +500,18 @@ me_waset.15 = {
 
     title = me_waset_15_title
     desc = me_waset_15_desc
-    picture = great_library
+    picture = diadochi_demetrius_navy
 
     option = {
         name = "me_waset_15.a"
         custom_tooltip = me_waset_15_tooltip
-
+        add_country_modifier = {
+                    name = western_delta_mod
+                    duration = -1
+                }
+                current_ruler = {
+                    add_popularity = 10
+                }
     }
 }
 me_waset.16 = {
@@ -231,12 +519,18 @@ me_waset.16 = {
 
     title = me_waset_16_title
     desc = me_waset_16_desc
-    picture = great_library
+    picture = interesting_histories_levant_town
 
     option = {
         name = "me_waset_16.a"
         custom_tooltip = me_waset_16_tooltip
-
+        add_country_modifier = {
+                    name = safe_frontier
+                    duration = -1
+                }
+                current_ruler = {
+                    add_popularity = 10
+                }
     }
 }
 me_waset.17 = {
@@ -244,12 +538,22 @@ me_waset.17 = {
 
     title = me_waset_17_title
     desc = me_waset_17_desc
-    picture = great_library
+    picture = great_city
 
     option = {
         name = "me_waset_17.a"
         custom_tooltip = me_waset_17_tooltip
-
+        current_ruler = {
+                    add_popularity = 30
+                    add_trait = victorious
+                }
+                add_stability = 10
+                p:569 = {
+                    capital_formable_large_effect = yes
+                    formable_capital_modifier_large_effect = yes
+                }
+                change_country_name = KEMET_NAME
+                hidden_effect = { change_country_adjective = KEMET_ADJ }
     }
 }
 me_waset.18 = {
@@ -262,7 +566,17 @@ me_waset.18 = {
     option = {
         name = "me_waset_18.a"
         custom_tooltip = me_waset_18_tooltip
-
+        current_ruler = {
+                    add_popularity = 30
+                    add_trait = victorious
+                }
+                add_stability = 10
+                p:569 = {
+                    capital_formable_large_effect = yes
+                    formable_capital_modifier_large_effect = yes
+                }
+                change_country_name = KEMET_NAME
+                hidden_effect = { change_country_adjective = KEMET_ADJ }
     }
 }
 me_waset.19 = {

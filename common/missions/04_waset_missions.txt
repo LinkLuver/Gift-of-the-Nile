@@ -40,7 +40,11 @@
                 province_id = 569
             }
         }
-        allow = {}
+        allow = {
+            p:569 = {
+                num_of_used_building_slots >= 5
+            }
+        }
         on_completion = {
             trigger_event = me_waset.2
             show_as_tooltip = {
@@ -56,7 +60,11 @@
     waset_missions_task_3 = {
         icon = "task_political"
         requires = { waset_missions_task_2 }
-        allow = {}
+        allow = {
+            char:525 = {
+                is_alive = no
+            }
+        }
         on_completion = {
             trigger_event = me_waset.3
             show_as_tooltip = {
@@ -67,7 +75,13 @@
     waset_missions_task_4 = {
         icon = "task_conquest"
         requires = { waset_missions_task_3 }
-        allow = {}
+        allow = {
+            custom_tooltip = {
+                has_variable = waset_priests
+                text = "chose_priests_tt"
+            }
+            has_civil_war = no
+        }
         on_completion = {
             trigger_event = me_waset.4
             show_as_tooltip = {
@@ -174,6 +188,8 @@
                 text = "waset_kerma_100_tt"
             }
         }
+        bypass = { has_completed_mission_task = waset_missions_task_7 }
+        #on_bypass = { set_variable = alliance_kush }
         on_completion = {
             trigger_event = me_waset.6
             show_as_tooltip = {
@@ -198,6 +214,8 @@
             }
         }
         allow = {}
+        bypass = { has_completed_mission_task = waset_missions_task_6 }
+        #on_bypass = { set_variable = no_alliance_kush }
         on_completion = {
             trigger_event = me_waset.7
             show_as_tooltip = {
@@ -483,6 +501,17 @@
         on_completion = {
             trigger_event = me_waset.17
             show_as_tooltip = {
+                current_ruler = {
+                    add_popularity = 30
+                    add_trait = victorious
+                }
+                add_stability = 10
+                p:569 = {
+                    capital_formable_large_effect = yes
+                    formable_capital_modifier_large_effect = yes
+                }
+                change_country_name = KEMET_NAME
+                hidden_effect = { change_country_adjective = KEMET_ADJ }
             }
         }
     }
@@ -493,6 +522,7 @@
             char:526 = {
                 is_ruler = yes
             }
+            has_variable = waset_nobles
         }
         on_completion = {
             trigger_event = me_waset.18

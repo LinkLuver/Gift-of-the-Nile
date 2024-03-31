@@ -42,3 +42,14 @@ safe_frontier = {
 	fort_maintenance_cost = -0.10
 	global_defensive = 0.10
 }
+the_29th_continues = {
+	stability_monthly_change = 0.05
+}
+discipline_greek = {
+	discipline = 0.05
+	spearmen_offensive = 0.10
+}
+faiyum_punished = {
+	local_population_happiness = -0.1
+	local_pop_conversion_speed_modifier = 0.2
+}
