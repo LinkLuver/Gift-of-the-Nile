@@ -73,24 +73,14 @@
 		amount=1
 	}
 	citizen={
-		amount=6
-	}
-	citizen={
-		culture="macedonian"
-		religion="roman_pantheon"
-		amount=2
+		amount=8
 	}
 	citizen={
 		culture="pasargadi"
 		amount=1
 	}
 	freemen={
-		amount=3
-	}
-	freemen={
-		culture="macedonian"
-		religion="roman_pantheon"
-		amount=2
+		amount=5
 	}
 	freemen={
 		culture="sophene"
@@ -124,12 +114,7 @@
 		amount=3
 	}
 	freemen={
-		amount=4
-	}
-	freemen={
-		culture="macedonian"
-		religion="roman_pantheon"
-		amount=3
+		amount=7
 	}
 	slaves={
 		amount=3
@@ -419,12 +404,7 @@
 		amount=1
 	}
 	citizen={
-		culture="macedonian"
-		religion="roman_pantheon"
-		amount=1
-	}
-	citizen={
-		amount=5
+		amount=6
 	}
 	freemen={
 		religion="mithra_religion"
@@ -727,8 +707,8 @@
 
 853={ #Ichnai
 	terrain="desert"
-	culture="macedonian"
-	religion="roman_pantheon"
+	culture="syriac"
+	religion="hurrian_pantheon"
 	trade_goods="wild_game"
 	civilization_value=23
 	barbarian_power=0
@@ -737,7 +717,6 @@
 		amount=3
 	}
 	slaves={
-		culture="syriac"
 		religion="carthaginian_pantheon"
 		amount=2
 	}
@@ -1659,7 +1638,6 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
@@ -1730,7 +1708,6 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
@@ -1763,11 +1740,7 @@
 		amount=1
 	}
 	slaves={
-		religion="roman_pantheon"
-		amount=1
-	}
-	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=1
@@ -1794,8 +1767,6 @@
 		amount=1
 	}
 	tribesmen={
-		culture="macedonian"
-		religion="roman_pantheon"
 		amount=1
 	}
 }
@@ -1813,7 +1784,6 @@
 	}
 	citizen={
 		culture="syriac"
-		religion="roman_pantheon"
 		amount=3
 	}
 	freemen={
@@ -1826,7 +1796,6 @@
 	}
 	freemen={
 		culture="syriac"
-		religion="roman_pantheon"
 		amount=4
 	}
 	slaves={
@@ -1860,8 +1829,6 @@
 		amount=1
 	}
 	slaves={
-		culture="macedonian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	tribesmen={
@@ -1882,7 +1849,6 @@
 		amount=1
 	}
 	citizen={
-		culture="macedonian"
 		amount=1
 	}
 	freemen={

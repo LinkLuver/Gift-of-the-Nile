@@ -7,17 +7,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	citizen={
 		culture="hebrew"
 		religion="judaism"
 		amount=3
-	}
-	citizen={
-		culture="macedonian"
-		religion="roman_pantheon"
-		amount=1
 	}
 	slaves={
 		amount=1
