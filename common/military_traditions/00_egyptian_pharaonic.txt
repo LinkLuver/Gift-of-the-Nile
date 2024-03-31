@@ -1,0 +1,185 @@
+﻿pharaonic_philosophy = { 
+	color = hsv { 0.27 0.6 0.5 }
+	image = egyptian_philosophy_start_bonus
+	
+
+	allow = {
+		trigger_if = {
+			limit = { country_culture_group = north_african }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = north_african
+		}
+	}
+
+	pharaonic_military_path_1 = { ###Pharaonic 1A
+		modifier = { 
+			chariots_defensive = 0.15
+			global_nobles_happyness = 0.01
+		}
+		icon = mauryan_noble_path_1
+		requires = {}
+	}
+
+	pharaonic_military_path_2 = { ###Pharaonic 2A
+		modifier = { 
+			archers_cost = -0.10
+			chariots_cost = -0.10
+			light_infantry_cost = -0.10
+			discipline = 0.025
+		}
+		icon = mauryan_noble_path_1
+		requires = {pharaonic_military_path_1}
+	}
+
+	pharaonic_military_path_3 = { ###Pharaonic 3A
+		modifier = { 
+			chariots_defensive = 0.05
+			archers_defensive = 0.05
+			light_infantry_defensive = 0.05
+			light_cavalry_defensive = 0.05
+		}
+		icon = mauryan_noble_path_1
+		requires = {pharaonic_military_path_2}
+	}
+
+	pharaonic_military_path_4a = { ###Pharaonic 4AA
+		modifier = { 
+			archers_morale = 0.10
+			archers_offensive = 0.05
+			chariots_morale = 0.05
+		}
+		icon = mauryan_noble_path_1
+		requires = {pharaonic_military_path_3}
+	}
+
+	pharaonic_military_path_5a = { ###Pharaonic 5AA
+		modifier = {
+			chariots_discipline = 0.10
+			light_infantry_discipline = 0.05
+			archers_discipline = 0.05
+		}
+		icon = mauryan_noble_path_1
+		requires = {pharaonic_military_path_4a}
+	}
+
+	pharaonic_military_path_4b = { ###Pharaonic 4AB
+		modifier = {
+			desert_combat_bonus = 0.15
+			plains_combat_bonus = 0.15
+		}
+		icon = mauryan_noble_path_1
+		requires = {pharaonic_military_path_3}
+	}
+
+	pharaonic_military_path_5b = { ###Pharaonic 5AB
+		modifier = { 
+			chariots_morale = 0.05
+			global_tax_modifier = 0.01
+			global_nobles_happyness = 0.01
+		}
+		icon = mauryan_noble_path_1
+		requires = {pharaonic_military_path_4b}
+	}
+
+	pharaonic_military_path_6b = { ###Pharaonic 6AB
+		modifier = {
+			chariots_discipline = 0.15
+			chariots_morale = 0.05
+			experience_decay = -0.005
+		}
+		icon = mauryan_noble_path_1
+		requires = {pharaonic_military_path_5b}
+	}
+	
+	pharaonic_civil_path_1 = { ###Pharaonic 1B
+		modifier = { 
+			global_construction_cost = -0.05
+			global_freemen_happyness = 0.05
+		}
+		icon = mauryan_coastal_path_5
+		requires = {}
+		on_activate = {
+			add_innovation = 2
+		}
+	}
+
+	pharaonic_civil_path_2 = { ###Pharaonic 2B
+		modifier = { 
+			global_building_slot = 1
+			enact_holy_site_cost_modifier = -0.15
+			global_monthly_civilization = 0.05
+		}
+		icon = mauryan_coastal_path_5
+		requires = {pharaonic_civil_path_1}
+		on_activate = {
+			add_4_free_province_investments = yes
+		}
+	}
+
+	pharaonic_civil_path_3a = { ###Pharaonic 3BA
+		modifier = { 
+			global_defensive = 0.10
+			global_food_capacity = 300
+			fort_limit = 1
+		}
+		on_activate = {
+			add_innovation = 2
+		}
+		icon = mauryan_coastal_path_5
+		requires = {pharaonic_civil_path_2}
+	}
+	
+	pharaonic_civil_path_4a = { ###Pharaonic 4BA
+		modifier = { price_found_city_cost_modifier = -0.1 }
+		enable_ability = military_colonies
+		icon = mauryan_coastal_path_5
+		requires = {pharaonic_civil_path_3a}
+		on_activate = {
+			ordered_owned_province = {
+				limit = {
+					NOT = { dominant_province_culture_group = root.culture_group }
+					any_neighbor_province = {
+						count > 1
+						NOT = { dominant_province_culture_group = root.culture_group }
+					}
+					state = {
+						NOT = {
+							any_state_province = {
+								is_capital = yes
+							}
+						}
+					}
+				}
+				order_by = {
+					value = 0
+					add = population_cap
+					subtract = total_population
+				}
+				add_province_modifier = {
+					name = "local_colonia"
+					duration = -1
+				}
+				custom_tooltip = military_colonia_here_tt
+				trigger_event = { id = cultural_integration.11 }
+			}
+		}
+	}
+
+	pharaonic_civil_path_3b = { ###Pharaonic 3BB
+		modifier = { 
+			tribute_income_modifier = 0.10
+		}
+		icon = mauryan_coastal_path_5
+		requires = {pharaonic_civil_path_2}
+		on_activate = {
+			every_subject = {
+				add_opinion = {
+					target = ROOT
+					modifier = opinion_appreciate_protection
+				}
+			}
+		}
+	}
+}
