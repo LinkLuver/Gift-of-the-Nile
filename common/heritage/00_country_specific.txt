@@ -634,7 +634,93 @@ kiti_heritage = {
         tag = KIT
     }
 }
+lidyan_heritage = {
+    modifier = {
+        #good
+        global_tax_modifier = 0.05
+        mercenary_maintenance_cost = -0.1
 
+        #bad
+        global_defensive = -0.05
+
+    }
+
+    trigger = {
+        tag = LYD
+    }
+}
+lycian_heritage = {
+    modifier = {
+        #good
+        gspearmen_offensive = 0.15
+        ruler_popularity_gain = 0.1
+
+        #bad
+        global_manpower = -0.01
+    }
+
+    trigger = {
+        tag = LYC
+    }
+}
+isaurian_heritage = {
+    modifier = {
+        #good
+        global_defensive = 0.05
+        fort_maintenance_cost = -0.1
+
+        #bad
+        diplomatic_reputation = -5
+
+    }
+    trigger = {
+        tag = ISU
+    }
+}
+cappadocian_heritage = {
+    modifier = {
+        #good
+        stability_monthly_change = 0.05
+        global_supply_limit_modifier = 0.1
+
+        #bad
+        monthly_tyranny = 0.05
+
+    }
+
+    trigger = {
+        tag = CAP
+    }
+}
+phrygian_heritage = {
+    modifier = {
+        #good
+        hostile_attrition = 0.05
+        army_maintenance_cost = -0.1
+
+        #bad
+        global_pop_assimilation_speed_modifier = 0.10
+
+    }
+
+    trigger = {
+        tag = PHR
+    }
+}
+pamphylian_heritage = {
+    modifier = {
+        #good
+        global_manpower_modifier = 0.05
+        heavy_infantry_maintenance_cost = -0.1
+
+        #bad
+        discipline = 0.05
+    }
+
+    trigger = {
+        tag = KTN
+    }
+}
 #ONLY for heritages with a specific tag(list) as trigger
 roman_heritage = {
     modifier = {

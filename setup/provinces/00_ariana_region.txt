@@ -209,25 +209,15 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="macedonian"
-		religion="roman_pantheon"
-		amount=2
-	}
-	citizen={
 		culture="pasargadi"
 		amount=6
 	}
 	citizen={
-		amount=1
-	}
-	freemen={
-		culture="macedonian"
-		religion="roman_pantheon"
-		amount=2
+		amount=3
 	}
 	freemen={
 		culture="pasargadi"
-		amount=2
+		amount=8
 	}
 	freemen={
 		amount=6
@@ -427,15 +417,10 @@
 		amount=1
 	}
 	citizen={
-		amount=3
+		amount=4
 	}
 	citizen={
 		culture="pasargadi"
-		amount=1
-	}
-	citizen={
-		culture="macedonian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
@@ -779,34 +764,22 @@
 
 6541={ #Alexandreia Arachosias
 	terrain="desert"
-	culture="macedonian"
-	religion="roman_pantheon"
+	culture="pactyan"
+	religion="zoroaster"
 	trade_goods="honey"
 	civilization_value=33
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=3
-	}
-	citizen={
-		culture="pactyan"
-		religion="zoroaster"
-		amount=1
+		amount=4
 	}
 	freemen={
 		amount=5
 	}
 	slaves={
-		amount=3
-	}
-	slaves={
-		culture="pactyan"
-		religion="zoroaster"
-		amount=7
+		amount=10
 	}
 	tribesmen={
-		culture="pactyan"
-		religion="zoroaster"
 		amount=5
 	}
 }
@@ -909,8 +882,8 @@
 
 6552={ #Alexandreia Sakastene
 	terrain="desert"
-	culture="macedonian"
-	religion="roman_pantheon"
+	culture="pactyan"
+	religion="zoroaster"
 	trade_goods="cloth"
 	civilization_value=43
 	barbarian_power=0
@@ -1002,8 +975,8 @@
 
 6558={ #Alexandreia Areios
 	terrain="hills"
-	culture="macedonian"
-	religion="roman_pantheon"
+	culture="pasargadi"
+	religion="zoroaster"
 	trade_goods="cloth"
 	civilization_value=44
 	barbarian_power=0
@@ -1065,16 +1038,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="macedonian"
-		religion="roman_pantheon"
 		amount=2
 	}
 	citizen={
 		amount=1
 	}
 	freemen={
-		culture="macedonian"
-		religion="roman_pantheon"
 		amount=2
 	}
 	freemen={
