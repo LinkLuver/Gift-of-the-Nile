@@ -917,9 +917,12 @@
  PROV908:0 "Hindanu"
  PROV909:0 "Naarda"
  PROV910:0 "Sippar"
- PROV911:0 "Seleucia Magna"
- PROV912:0 "Ctesiphon"
- PROV913:0 "Vologesias"
+ PROV911:0 "Alum-Basi" 
+ #What I could find for the Babylonian for 'Sandy city'
+ PROV912:0 "Kapartim" 
+ #Babylonian for 'The Villages', based on the later babylonian aramaic 'The cities'
+ PROV913:0 "Kaparum-Basi" 
+ #Sandy village
  PROV914:0 "Opis"
  PROV915:0 "Cutha"
  PROV916:0 "Girumu"
@@ -946,9 +949,11 @@
  PROV937:0 "Uruk"
  PROV938:0 "Nina"
  PROV939:0 "Larsa"
- PROV940:0 "Alexandria Susiana"
+ PROV940:0 "Shariut Puhuna" 
+ #What I could find for the Elamite for 'young shore'
  PROV941:0 "Forat"
- PROV942:0 "Apologos"
+ PROV942:0 "Pu-Naru-Dannum" 
+ #What I could find for the Babylonian for 'Powerful Estuary'
  PROV943:0 "Soloke"
  PROV944:0 "Akkaz"
  PROV945:0 "Taryana"
@@ -6709,8 +6714,9 @@
  PROV6700:0 "Petra Arimazou"
  PROV6701:0 "Petra Chorienou"
  PROV6702:0 "Shakria"
- PROV6703:0 "Kyropolis Baktriane"
- PROV6704:0 "Alexandreia Eschate"
+ PROV6703:0 "Ooemoeia Inferiores"
+ PROV6704:0 "Ooemoeia Superiores"
+ #Maybe a bactrian King founded a city here instead of Alexander or Cyrus?
  PROV6705:0 "Matuaspa"
  PROV6706:0 "Kis"
  PROV6707:0 "Tribactra"

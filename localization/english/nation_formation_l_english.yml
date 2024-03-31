@@ -464,3 +464,10 @@
  form_isauria_desc:0 "For too long the Isaurians have been bullied by our neighbors and confined to the Taurus mountains, it is time to unite the clans and forge a new path for our people."
  form_isauria_claims_tooltip:0 "$ISU$ will gain Claims on the Area of #Y $isauria_area$#!."
  formable_not_isauria_exists:0 "#Y $ISU$#! must NOT exist."
+ # Kush
+ form_kush:0 "Form Kush"
+ form_kush_desc:0 "While the inhabitants of the Upper Nile remain divided and antagonistic towards one another, memories of the once powerful Kingdom of Kush still remain. Let us reunite the lands of the Nilotes, and restore our fallen Kushite Kingdom to once again project the glory of Kush far and wide!"
+ kush_not_existing:0 "#Y $KSH$#! must NOT exist."
+ kush_claims_tooltip:0 "$KSH$ will gain Claims on the region of #Y $nubia_region$#!."
+ KSH:0 "Kush"
+ KSH_ADJECTIVE:0 "Kushite"
