@@ -6,7 +6,7 @@
  form_aramaic_kingdom:0 "Establish Aramaic Kingdom"
  form_aramaic_kingdom_desc:0 "From the great cities of #E Darmashq#!, #E Qarqar#!, #E Halba#!, #E Tadhmor#!, and #E 'Adhma#!, to name a few of our fabulous cities, the many #Y Aramaic#! peoples have come together as one! We have been dominated by the #Y Assyrians#! for far too long, and played second fiddle to the #Y Neo-Hittites#! and #Y Phoenecians#! who surround us. Now, we take the center stage, long live the #E Aramaic Kingdom#!!"
  ARAM_NAME:0 "Aram"
- ARAM2:0 "Aramaic Kingdom"
+ ARAM2_NAME:0 "Aramaic Kingdom"
  ARAM_ADJECTIVE:0 "Aramaic"
  form_aramaic_claims_tooltip:0 "Gain claims on the regions of #Y Syria#! and #Y Canaan#!."
  # Aram
@@ -36,3 +36,5 @@
  # Reaffirm Assyria
  affirm_assyria:0 "Reaffirm Assyrian Dominance"
  affirm_assyria_desc:0 "The Neo-Assyrian Empire suffered a slow, painful collapse. We have utterly rebounded and reclaimed our lands. The return of #Y Neo-Assyria#! is upon us!"
+
+ italic_pantheon:0 "Italic"
