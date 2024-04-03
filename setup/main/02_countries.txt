@@ -2407,7 +2407,7 @@ country = {
 			}
 		}
 		SIV = { #Sivi
-			government = plutocratic_republic
+			government = aristocratic_monarchy
 			primary_culture = sivi
 			religion = hindu
 			diplomatic_stance=appeasement_stance
@@ -2517,7 +2517,7 @@ country = {
 			}
 		}
 		GHA = { #Gandhara
-			government = aristocratic_monarchy
+			government = mahajanapada_monarchy
 			primary_culture = gandhari
 			religion = hindu
 			capital = 7314
@@ -2533,6 +2533,53 @@ country = {
 				4300 4301 4323 4325 4367 6613 7319 7657
 				4308 4317 4318 4320 4322 4326 4327 4328 4329 7314 7492 #taxila_region
 				7361 #kasmira_region
+			}
+		}
+		KHB = { #Khambojas
+			government = mahajanapada_monarchy
+			primary_culture = gandhari
+			religion = hindu
+			capital = 6997
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				3810 4324 4370 4490 5599 5600 6751 6997
+				5597 5594 5593 5596 5595 5601
+				4336 4335 4339 4337
+			}
+		}
+		KLS = { #Kalasas
+			family=80
+			government = tribal_kingdom
+			primary_culture = dardic
+			religion = hindu
+			centralization=-10
+			capital = 4332
+
+
+			own_control_core = 	{
+				4332 4333 4334 4338 4341 4342 4343 4344
+				4391
+			}
+		}
+		ZHZ = {
+			government = tribal_kingdom
+			primary_culture = zhangzhung
+			religion = bon_religion
+
+			capital = 5557
+
+			own_control_core = 	{
+				5598 5592 5558 5559 #gilgit
+				5566 5591 5565 5561 5560 5564 5567 5568 5563 5562 #suvarna_gotra
+				5570 5582 5569 5577 5557 5571 5576 5575 5614 5574 #zhangzhung
+				5615 5616 5581 5578 5580 5579 5612 5617 5583 5609 #jangtang
 			}
 		}
 		PRA = { #Pauravas
@@ -2551,7 +2598,7 @@ country = {
 
 			own_control_core = 	{
 				4340 4396
-				#added
+				4345
 				4315 4316 4398 4399 7399
 				4331 4380 4384 #panchanada_region
 			}
@@ -2577,7 +2624,7 @@ country = {
 
 			own_control_core = 	{
 				4346 4379 4389 4400
-				4397
+				4397 4394 4347
 			}
 		}
 		LAH = { #Luhwar
@@ -2612,8 +2659,8 @@ country = {
 			}
 
 			own_control_core = 	{
+				4401 4402 4403
 				4387 4406 4407 4408 4409 4410 4411 4412 4413 4414 4415 4416 4417 4418
-				4404
 			}
 			treasures = { 872 }
 			pantheon = {
@@ -2623,10 +2670,263 @@ country = {
 				{ deity = 1112 }
 			}
 		}
+		KUR = { #Kuru Remnant
+			government = mahajanapada_monarchy
+			primary_culture = kuru
+			religion = hindu
+			capital = 4404
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+ 				4405 4421 4422 4423 4454 4452 4404 #kuru_region
+			}
+		}
+		PNC = { #Panchala
+			government = mahajanapada_monarchy
+			primary_culture = kosala
+			religion = hindu
+			capital = 4424
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				4424 4453 4456 7377 7381 7403 7405 7406 7407 7378 #ahicchatra_region
+				7411 7404
+			}
+		}
+		VAT = { #Vatsa
+			government = mahajanapada_monarchy
+			primary_culture = kosala
+			religion = hindu
+			capital = 4425
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				4425 4426 4427 4436 7375 7218 7408 7410 #pancala_region
+				4430 4428 7376
+			}
+		}
+		BGH = { #Bhagga
+			government = democratic_republic
+			primary_culture = kosala
+			religion = hindu
+			capital = 4430
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				4430 4428
+			}
+		}
+		SHA = { #Shakya
+			government = democratic_republic
+			primary_culture = himalayan
+			religion = buddhism
+			capital = 4450
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				4450
+			}
+		}
+		KOL = { #Koliya
+			government = democratic_republic
+			primary_culture = malla
+			religion = buddhism
+			capital = 7372
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				7372
+			}
+		}
+		MOR = { #Moriya
+			government = democratic_republic
+			primary_culture = malla
+			religion = buddhism
+			capital = 7369
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				7369
+			}
+		}
+		KLM = { #Moriya
+			government = democratic_republic
+			primary_culture = malla
+			religion = buddhism
+			capital = 7478
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				7478
+			}
+		}
+		NBP = { #Naba-Pankti
+			government = tribal_kingdom
+			primary_culture = himalayan
+			religion = buddhism
+			centralization=-10
+			capital = 4459
+
+			own_control_core = 	{
+				4464 5587 5628
+				7383 7481 7655 7656
+			}
+		}
+		AYO = { #Kosala
+			government = mahajanapada_monarchy
+			primary_culture = kosala
+			religion = hindu
+			capital = 4437 # Ayodha
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				4437 4451 4455 7374 7379 7380 7382 7482 7483 7484 #kosala_region
+			}
+		}
+		KAS = { #Kasi
+			government = mahajanapada_monarchy
+			primary_culture = kosala
+			religion = hindu
+			capital = 4429 # Ayodha
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				4429 4433 4465 7370 7371 7373 7473 7476 #kasi_region
+				4441
+			}
+		}
+		MLL = { #Malla
+			government = mahajanapada_monarchy
+			primary_culture = vrji
+			religion = hindu
+			capital = 4449 # Kusinagara
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				4449 7477 4457 5584 4458
+			}
+		}
+		VAI = { #Licchavi
+			government = mahajanapada_monarchy
+			primary_culture = vrji
+			religion = hindu
+			capital = 4448 #Vaishali
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				4448 4443 4462
+			}
+		}
+		NAY = { #Naya
+			government = aristocratic_monarchy
+			primary_culture = vrji
+			religion = hindu
+			capital = 7488 #Kundaputra
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				7488 7360 7479 4461 7480 7367
+			}
+		}
+		VID = { #Videha
+			government = stratocratic_monarchy
+			primary_culture = himalayan
+			religion = hindu
+			capital = 7486 #Mithla
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				7486 7384 7489 7487 4459 4460
+			}
+		}
 		MRY = { #Maurya
 			family = 27
 			family = 28
-			government = aristocratic_monarchy
+			government = mahajanapada_monarchy
 			primary_culture = magadhi
 			religion = hindu
 			diplomatic_stance=appeasement_stance
@@ -2645,20 +2945,13 @@ country = {
 				4473 4480 7428 7431 7434 7435 7436 7438 7439 7442 7448 7466 #madhyamika_region
 				4438 4439 4472 4481 4484 7309 7387 7388 7389 7437 7440 7443 #matsya_region
 				4420 4469 7305 7306 7307 7308 7444 7445 7446 7447 7460 7465 #surasena_region
-				4434 4435 4466 4485 7219 7409 7376 7470 7471 7472 #west_cedi_region
-				4428 4429 4430 4433 4465 7370 7371 7373 7473 7476 #kasi_region
-				4425 4426 4427 4436 7375 7404 7218 7408 7410 7411 #pancala_region
-				4424 4453 4456 7377 7381 7403 7405 7406 7407 7378 #ahicchatra_region
-				4437 4451 4455 7374 7379 7380 7382 7482 7483 7484 #kosala_region
-				4448 7360 7479 7488 #vrji_region
-				4441 4449 7369 7372 7477 7478 #malla_region
-				4440 4442 4443 4444 4445 4462 4463 7367 7338 7400 7659 7480 #magadha_region
+				4434 4435 4466 4485 7219 7409 7470 7471 7472 #west_cedi_region
+				4440 4442 4444 4445 4463 7338 7400 7659 #magadha_region
 				4446 4447 7327 7328 7337 7345 7364 7365 7368 7392 #anga_region
 				7325 7326 7335 7398 7493 7497 7498 7499 7651 #pundra_region
 				7177 7362 7363 7391 #radha_region
 				7329 7336 7358 7359 7393 7397 #vanga_region
 				7322 7650 #kamata_region
-				4405 4421 4422 4423 4452 #kuru_region
 				6833 6840 6844 6845 6841 6825 6842 #kaccha_region
 				4475 4479 4482 4498 7425 7426 7301 7304 7433 7441 7450 #avanti_region
 				4470 4474 7302 7303 7449 7461 7462 7463 7464 7469 #dasarna_region
@@ -9123,21 +9416,6 @@ country = {
 
 		# India and Tibet
 
-		ZHZ = {
-			government = tribal_kingdom
-			primary_culture = zhangzhung
-			religion = bon_religion
-
-			capital = 5557
-
-			own_control_core = 	{
-				5597 5593 5598 5592 5594 5596 5595 5601 5558 5559 #gilgit
-				5566 5591 5565 5561 5560 5564 5567 5568 5563 5562 #suvarna_gotra
-				5570 5582 5569 5577 5557 5571 5576 5575 5614 5574 #zhangzhung
-				5615 5616 5581 5578 5580 5579 5612 5617 5583 5609 #jangtang
-			}
-		}
-
 		ATV = {
 			government = tribal_kingdom
 			primary_culture = atavi
@@ -9284,40 +9562,6 @@ country = {
 			}
 		}
 
-		KHB = { #Khambojas
-			government = tribal_kingdom
-			primary_culture = gandhari
-			religion = hindu
-			centralization=-10
-			capital = 6997
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			own_control_core = 	{
-				3810 4324 4370 4490 5599 5600 6751 6997
-			}
-		}
-
-		KLS = { #Kalasas
-			family=80
-			government = tribal_kingdom
-			primary_culture = dardic
-			religion = hindu
-			centralization=-10
-			capital = 4332
-
-
-			own_control_core = 	{
-				4332 4333 4334 4335 4336 4337 4338 4339 4341 4342 4343 4344 4345 4347
-				4391 4394
-			}
-		}
-
 		NBA = { #Nabha
 			government = tribal_kingdom
 			primary_culture = dardic
@@ -9326,20 +9570,7 @@ country = {
 			capital = 7385
 
 			own_control_core = 	{
-				4401 4402 4403 4419 4454 7385 7386 7402
-			}
-		}
-
-		NBP = { #Naba-Pankti
-			government = tribal_kingdom
-			primary_culture = himalayan
-			religion = buddhism
-			centralization=-10
-			capital = 4459
-
-			own_control_core = 	{
-				4450 4457 4458 4459 4460 4461 4464 5584 5587 5628
-				7383 7384 7481 7486 7487 7489 7655 7656
+				4419 7385 7386 7402
 			}
 		}
 
@@ -9472,7 +9703,7 @@ country = {
 		}
 
 		ASM = {
-			government = tribal_kingdom
+			government = mahajanapada_monarchy
 			primary_culture = assaka
 			religion = hindu
 			centralization=10

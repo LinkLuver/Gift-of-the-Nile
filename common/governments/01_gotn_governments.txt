@@ -133,3 +133,25 @@ piratical_diarchy = {
 
 	color = rgb { 10 10 10 }
 }
+
+mahajanapada_monarchy = {
+	military_ideas = 2
+	civic_ideas = 1
+	type = monarchy
+	
+	bonus = {
+		diplomatic_reputation = 2.0
+		ruler_popularity_gain = 0.05
+	}
+	base = {
+		country_civilization_value = 20
+		global_nobles_city_desired_pop_ratio = 0.05
+	}
+	
+	election_delay = 0
+	use_regnal_numbers = yes
+	
+	ruler_consort_benefits = yes
+	
+	color = rgb { 178  169  13 }
+}
