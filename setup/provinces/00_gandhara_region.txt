@@ -113,8 +113,8 @@
 
 4316={ #Mong
 	terrain="forest"
-	culture="purus"
-	religion="hindu"
+	culture="macedonian"
+	religion="roman_pantheon"
 	trade_goods="cedar"
 	civilization_value=39
 	barbarian_power=0
@@ -244,8 +244,8 @@
 
 4322={ #Manikyal
 	terrain="forest"
-	culture="gandhari"
-	religion="jainism"
+	culture="macedonian"
+	religion="roman_pantheon"
 	trade_goods="cedar"
 	civilization_value=39
 	barbarian_power=0
@@ -431,6 +431,8 @@
 		amount=2
 	}
 	freemen={
+		culture="macedonian"
+		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
@@ -1664,6 +1666,8 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
+		culture="macedonian"
+		religion="roman_pantheon"
 		amount=1
 	}
 	nobles={
@@ -1971,6 +1975,8 @@
 		amount=5
 	}
 	freemen={
+		culture="macedonian"
+		religion="roman_pantheon"
 		amount=2
 	}
 	freemen={

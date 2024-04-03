@@ -729,8 +729,8 @@
 
 6539={ #Musarna
 	terrain="mountain"
-	culture="parecanian"
-	religion="zoroaster"
+	culture="brahui"
+	religion="hindu"
 	trade_goods="marble"
 	civilization_value=17
 	barbarian_power=0
@@ -745,7 +745,7 @@
 
 6540={ #Cottabura
 	terrain="mountain"
-	culture="parecanian"
+	culture="brahui"
 	religion="zoroaster"
 	trade_goods="wood"
 	civilization_value=17
@@ -1231,8 +1231,8 @@
 
 6571={ #Mastung
 	terrain="mountain"
-	culture="parecanian"
-	religion="zoroaster"
+	culture="brahui"
+	religion="hindu"
 	trade_goods="fur"
 	civilization_value=17
 	barbarian_power=0
@@ -1247,7 +1247,7 @@
 
 6572={ #Kotrika
 	terrain="hills"
-	culture="parecanian"
+	culture="brahui"
 	religion="zoroaster"
 	trade_goods="steppe_horses"
 	civilization_value=19

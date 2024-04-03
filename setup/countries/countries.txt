@@ -112,6 +112,21 @@ CRD = "setup/countries/macedonia/cardia.txt"
 LAM = "setup/countries/macedonia/lamia.txt"
 KOR = "setup/countries/macedonia/korinth.txt"
 
+# Bharat
+BRA = "setup/countries/bharat/brahuia.txt"
+SAV = "setup/countries/bharat/sauvira.txt"
+SMB = "setup/countries/bharat/sindh.txt"
+PAT = "setup/countries/bharat/patala.txt"
+ABH = "setup/countries/bharat/abhira.txt"
+SIV = "setup/countries/bharat/sivi.txt"
+KEK = "setup/countries/bharat/kekaya.txt"
+AAT = "setup/countries/bharat/anatachara.txt"
+SLW = "setup/countries/bharat/salwa.txt"
+MLT = "setup/countries/bharat/mulasthana.txt"
+KOT = "setup/countries/bharat/kamalia.txt"
+MRA = "setup/countries/bharat/madra.txt"
+LAH = "setup/countries/bharat/lahore.txt"
+
 ### Vanilla
 
 SA0 = "setup/countries/scythia/yancai.txt"
