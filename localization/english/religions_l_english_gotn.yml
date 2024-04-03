@@ -17,3 +17,21 @@
 
  convert_to_elamite_pantheon:0 "Accept Haltamic Pantheon"
  convert_to_elamite_pantheon_desc:0 "The gods who would terrorize those of Sumer and Akkad, lead by Humban in Anshan and Inshushinak in Susa, they have found themselves in the hearts of our people. And now we ask, should we accept the religion of Elam as the religion of our nation."
+
+ sarna_pantheon:0 "Sarnaism"
+ desc_sarna_pantheon:0 ""
+ masto_pantheon:0 "Mastoic"
+ desc_masto_pantheon:0 "Mastoic is the religion of the Dardic people. They venerate the Masto god, his 12 Masto brothers, and his 9 Duraga sisters. Mastoic also incorporates shamanist and naturalistic beliefs, especially through the Jhankri shamans, who channel spirits and deities. It's likely that Mastoicism predates Vedicism in India; however, it's also possible that it came later. It is generally a mixture of Indo-Iranic and Indo-Aryan origins leading to something completely unique."
+ charvaka:0 "Carvaka"
+ desc_charvaka:0 "Carvaka, or Charvaka, also called Lokayata, was a Shramanic faith like Ajivika, Buddhism, and Jainism. Before it was a proper school of thought, Carvaka was a concept generally relating to the denial of the existence of an afterlife. This is the main idea of Carvaka, and thus, it is the most recognizably 'atheist' belief, comparable to Nihlism in modern-day times. Carvaka would have a renaissance of belief in the 7th century, resulting in its prolonged existence until the 12th century before it faded away."
+ sassatavada:0 "Sassatavada"
+ desc_sassatavada:0 ""
+ ajnana:0 "Ajnana"
+ desc_ajnana:0 ""
+ kassapan:0 "Anaitikata"
+ desc_kassapan:0 ""
+
+ convert_to_masto_pantheon:0 "Accept Mastoic Beliefs"
+ convert_to_masto_pantheon_desc:0 "The Masto god and his powerful siblings have made an impression upon our country. Some even are seeking the spiritual connection of the Jhankri. We too could accept the religion of the Dardic people as our national faith."
+ convert_to_charvaka:0 "Adopt Carvaka Principles"
+ convert_to_charvaka_desc:0 "The questioning of gods themselves has taken root in our capital. Is there an afterlife to look forward to, or is it all just mortal folly? The Carvaka populace has their answer, shall we ourselves forsake the gods in favor of the principles of Carvaka?"
