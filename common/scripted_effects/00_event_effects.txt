@@ -68,8 +68,6 @@ elam_legion_setup_effect = {
 				add_subunit = light_infantry
 				add_subunit = light_infantry
 				add_subunit = archers
-				add_subunit = light_infantry
-				add_subunit = light_infantry
 				add_subunit = archers
 				add_subunit = archers
 				add_subunit = supply_train
@@ -173,6 +171,68 @@ assyria_legion_setup_effect = {
 				add_subunit = light_infantry
 				add_subunit = light_infantry
 				add_subunit = light_infantry
+				add_subunit = supply_train
+			}
+			if = {
+				limit = { has_dlc = "Heirs of Alexander" }
+				add_distinction = distinction_legio_primagena
+			}
+		}
+	}
+}
+aten_legion_setup_effect = {
+	capital_scope.governorship = {
+		raise_legion = {
+			create_unit = {
+				name = "aten_army"
+				location = p:557 # Akhetaton
+				sub_unit = chariots
+				save_scope_as = legion_scope
+				add_subunit = chariots
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+				add_subunit = supply_train
+			}
+			if = {
+				limit = { has_dlc = "Heirs of Alexander" }
+				add_distinction = distinction_legio_primagena
+			}
+		}
+	}
+}
+faiyum_legion_setup_effect = {
+	capital_scope.governorship = {
+		raise_legion = {
+			create_unit = {
+				name = "faiyum_army"
+				location = p:544 # Henen-Hesut
+				sub_unit = chariots
+				save_scope_as = legion_scope
+				add_subunit = chariots
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+				add_subunit = supply_train
+			}
+			if = {
+				limit = { has_dlc = "Heirs of Alexander" }
+				add_distinction = distinction_legio_primagena
+			}
+		}
+	}
+}
+waset_legion_setup_effect = {
+	capital_scope.governorship = {
+		raise_legion = {
+			create_unit = {
+				name = "waset_army"
+				location = p:569 # Waset
+				sub_unit = chariots
+				save_scope_as = legion_scope
+				add_subunit = chariots
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+				add_subunit = archers
+				add_subunit = archers
 				add_subunit = supply_train
 			}
 			if = {

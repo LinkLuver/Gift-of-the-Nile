@@ -21,7 +21,7 @@
 	}
 	39={
 		first_name="Alexandros" # Alexander the Great
-		nickname="NICKNAME_THE_GREAT"
+		nickname="wise_alex"
 		father = scope:philippos
 		mother = scope:olympias
 		family = c:MAC.fam:Argead
