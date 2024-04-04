@@ -637,11 +637,11 @@ kiti_heritage = {
 lidyan_heritage = {
     modifier = {
         #good
-        global_tax_modifier = 0.05
-        mercenary_maintenance_cost = -0.1
+        global_commerce_modifier = 0.1
+        max_mercenary_stacks = 1
 
         #bad
-        global_defensive = -0.05
+        global_pop_assimilation_speed_modifier = -0.1
 
     }
 
