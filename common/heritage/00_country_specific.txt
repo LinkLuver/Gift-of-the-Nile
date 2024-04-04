@@ -564,14 +564,14 @@ arzashi_heritage = {
 elam_heritage = {
     modifier = {
         #good
-        global_monthly_civilization = 0.03
+        army_maintenance_cost = -0.15
         discipline = 0.04
 
         #bad
         civil_war_threshold = -0.025
 
         #extra
-        loyalty_to_overlord = -100
+        loyalty_to_overlord = -50
     }
 
     trigger = {
@@ -768,6 +768,21 @@ carthaginian_heritage = {
     }
 }
 
+alexander_heritage = {
+    modifier = {
+        #good
+        agressive_expansion_impact = -0.20
+        discipline = 0.05
+        
+        #bad
+        global_pop_assimilation_speed_modifier = -0.10
+    }
+    
+    trigger = {
+        tag = MAC
+    }
+}
+
 cassanders_heritage = {
     modifier = {
         #good
@@ -779,7 +794,7 @@ cassanders_heritage = {
     }
 
     trigger = {
-        tag = MAC
+        always = no
     }
 }
 
@@ -4469,7 +4484,7 @@ arachosia_heritage = {
 satrapy_parthia_heritage = {
     modifier = {
         #good
-        loyalty_to_overlord = -30
+        army_movement_speed = 0.05
         war_exhaustion = -0.04
 
         #bad
