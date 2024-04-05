@@ -28,6 +28,32 @@ deity_renenutet = { # FERTILITY
 		fertility_apotheosis_capital_slaves_effect = yes
 	}
 }
+deity_renenutet_nefertiti = { # FERTILITY
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = sobek_religion
+			}
+			deity:omen_renenutet_nefertiti = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_kemetic_fertility
+	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
+	omen = { global_citizen_output = omen_global_citizen_output_svalue } #Bonus from Omen
+	religion = egyptian_pantheon
+	deity_category = fertility #This Deity uses a War slot.
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		fertility_apotheosis_capital_slaves_effect = yes
+	}
+}
 deity_medjed = { # WAR
 	trigger = {
 		polytheistic_check_religion_trigger = yes
@@ -43,6 +69,33 @@ deity_medjed = { # WAR
 	icon = deity_kemetic_war_2
 	passive_modifier = { fort_maintenance_cost = -0.05 }
 	omen = { global_defensive = omen_global_defensive_svalue } #Bonus from Omen
+	religion = egyptian_pantheon
+	deity_category = war #This Deity uses a War slot.
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+}
+deity_mentu = { # WAR
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = egyptian_pantheon
+			}
+			deity:omen_mentu = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+		has_variable = mentu_var
+	}
+	icon = deity_kemetic_war_2
+	passive_modifier = { discipline = deity_discipline_svalue }
+	omen = { archers_offensive = 0.10 } #Bonus from Omen
 	religion = egyptian_pantheon
 	deity_category = war #This Deity uses a War slot.
 

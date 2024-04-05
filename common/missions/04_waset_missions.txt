@@ -276,7 +276,7 @@
             p:557 = {
                 is_holy_site = no
             }
-            p:557.state = {
+            p:557 = {
                 governor_policy = harsh_treatment
             }
         }

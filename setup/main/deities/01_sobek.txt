@@ -24,5 +24,13 @@ deity_manager = {
     		key = omen_medjed
     		deity = deity_medjed
     	}
+    	30206 = {
+    		key = omen_mentu
+    		deity = deity_mentu
+    	}
+    	30207 = {
+    		key = omen_renenutet_nefertiti
+    		deity = deity_renenutet_nefertiti
+    	}
 	}
 }
