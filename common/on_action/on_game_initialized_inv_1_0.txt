@@ -241,6 +241,15 @@
 			current_ruler = {
 				add_rival = C:MEN.current_ruler
 			}
+			p:557 = {
+				add_claim = root
+			}
+			p:569 = {
+				add_claim = root
+			}
+			p:500 = {
+				add_claim = root
+			}
 			faiyum_legion_setup_effect = yes
 			trigger_event = dhe_body.4
 			add_opinion = { target = c:ATN modifier = pharaoh_rivals }
@@ -254,6 +263,12 @@
 				add_rival = C:ATN.current_ruler
 				add_rival = C:HNT.current_ruler
 			}
+			p:557 = {
+				add_claim = root
+			}
+			p:544 = {
+				add_claim = root
+			}
 			waset_legion_setup_effect = yes
 			trigger_event = dhe_body.4
 			add_opinion = { target = c:ATN modifier = pharaoh_rivals }
@@ -265,6 +280,12 @@
 			limit = { tag = ATN }
 			current_ruler = {
 				add_rival = C:HNT.current_ruler
+			}
+			p:569 = {
+				add_claim = root
+			}
+			p:544 = {
+				add_claim = root
 			}
 			aten_legion_setup_effect = yes
 			#trigger_event = dhe_body.4
@@ -309,7 +330,6 @@
 			}
 			#trigger_event = { id = country_rename.2 }
 			media_legion_setup_effect = yes
-			media_legion_setup_effect_2 = yes
 			add_opinion = { target = c:ELM modifier = cradle_rivals }
 			add_opinion = { target = c:PES modifier = cradle_rivals }
 			add_opinion = { target = c:ADI modifier = cradle_rivals }

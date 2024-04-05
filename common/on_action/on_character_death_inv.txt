@@ -2363,8 +2363,14 @@ on_character_death = {
 						has_variable = dad_is_dying
 					}
 				}
+				NOT = {
+					has_variable = dad_died
+				}
 			}
-			remove_variable = dad_is_dying
+			current_ruler = {
+				remove_variable = dad_is_dying
+			}
+			set_variable = dad_died
 			trigger_event = {
 				name = me_waset.69
 				days = { 3 5 }

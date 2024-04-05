@@ -510,10 +510,6 @@
                     }
                 }
                 add_stability = 10
-                p:569 = {
-                    capital_formable_large_effect = yes
-                    formable_capital_modifier_large_effect = yes
-                }
                 custom_tooltip = "tier_2_formable_tooltip"
                 if = {
                     limit = { is_tribal = yes }
@@ -741,6 +737,26 @@
             owns_or_subject_owns_area = hema_nome_area
         }
         on_completion = {
+            every_country = {
+                limit = {
+                    capital_scope = {
+                        OR = {
+                            is_in_area = central_delta_area
+                            is_in_area = western_delta_area
+                            is_in_area = eastern_delta_area
+                            is_in_area = memphis_area
+                        }
+                    }
+                }
+                add_to_list = egypt_delta_war_list
+            }
+            random_country = {
+                limit = {
+                    is_in_list = egypt_delta_war_list
+                }
+                save_scope_as = war_leader_delta_scope
+                set_variable = war_leader_var
+            }
             trigger_event = me_waset.24
             show_as_tooltip = {
                 custom_tooltip = "war_for_lower_egypt_tt"
@@ -789,6 +805,7 @@
                 p:500 = {
                     add_province_modifier = {
                         name = delta_stability
+                        duration = 3650
                     }
                 }
                 add_stability = 10
@@ -896,6 +913,38 @@
                     add_trait = victorious
                 }
                 add_political_influence = 50
+                custom_tooltip = "tier_2_formable_tooltip"
+                if = {
+                    limit = { is_tribal = yes }
+                    add_country_modifier = {
+                        name = civilized_tribe
+                        duration = 5475
+                    }
+                }
+                if = {
+                    limit = {
+                        NOT = { government = egyptian_dynasty }
+                    }
+                    change_government = egyptian_dynasty
+                    switch_government_type_event_clearup_effect = yes
+                }
+                change_country_name = "KEMET_NAME"
+                hidden_effect = {
+                    change_country_flag = EGYPTIAN_FLAG
+                    change_country_adjective = "KEMET_ADJECTIVE"
+                    change_country_color = "egypt_color"
+                    change_country_tag = EGT
+                }
+                capital_scope = {
+                    capital_formable_large_effect = yes
+                    formable_capital_modifier_large_effect = yes
+                }
+                hidden_effect = {
+                    set_variable = {
+                        name = ach_new_kingdom_var
+                    }
+                }
+                add_5_free_province_investments = yes
             }
         }
     }

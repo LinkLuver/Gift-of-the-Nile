@@ -59,8 +59,8 @@ me_waset.1 = {
         add_treasury = 50
     }
     option = {
-        name = "me_waset_1.b"'
-        custom_tooltip = me_waset_1_tooltip'
+        name = "me_waset_1.b"
+        custom_tooltip = me_waset_1_tooltip
         char:526 = {
             add_popularity = 10
         }
@@ -388,6 +388,7 @@ me_waset.10 = {
                 name = akhetaton_desecrated
                 duration = 1825
             }
+            change_province_name = "akhetaton_destroyed_province_name"
         }
     }
 }
@@ -552,10 +553,6 @@ me_waset.17 = {
             }
         }
         add_stability = 10
-        p:569 = {
-            capital_formable_large_effect = yes
-            formable_capital_modifier_large_effect = yes
-        }
         custom_tooltip = "tier_2_formable_tooltip"
         if = {
             limit = { is_tribal = yes }
@@ -617,12 +614,19 @@ me_waset.19 = {
 
     title = me_waset_19_title
     desc = me_waset_19_desc
-    picture = great_library
+    picture = diadochi_battle_romans_celts_honor
 
     option = {
         name = "me_waset_19.a"
         custom_tooltip = me_waset_19_tooltip
-
+        capital_scope = {
+            create_pop = nobles
+            create_pop = nobles
+        }
+        add_country_modifier = {
+            name = tame_nobility
+            duration = 18250
+        }
     }
 }
 me_waset.20 = {
@@ -630,11 +634,430 @@ me_waset.20 = {
 
     title = me_waset_20_title
     desc = me_waset_20_desc
-    picture = great_library
+    picture = religious_rite
+
+    left_portrait = current_ruler
+    right_portrait = char:527
 
     option = {
         name = "me_waset_20.a"
         custom_tooltip = me_waset_20_tooltip
+        char:537 = {
+            add_loyalty = loyalty_plot_appeal_token
+        }
+    }
+    option = {
+        name = "me_waset_20.b"
+        custom_tooltip = me_waset_20_tooltip
+        char:537 = {
+            add_loyalty = loyalty_assassination_legitimized_assassin
+        }
+        add_country_modifier = {
+            name = aggressor_waset
+            duration = 1095
+        }
+    }
+    option = {
+        name = "me_waset_20.c"
+        custom_tooltip = me_waset_20_tooltip
+        char:537 = {
+            add_loyalty = loyalty_humiliation_apology
+        }
+    }
+}
 
+me_waset.21 = {
+    type = country_event
+
+    title = me_waset_21_title
+    desc = me_waset_21_desc
+    picture = trade_port
+
+    option = {
+        name = "me_waset_21.a"
+        custom_tooltip = me_waset_21_tooltip
+        p:583 = {
+            add_province_modifier = {
+                name = punt_egypt_arab_trade
+                duration = -1
+            }
+        }
+        p:580 = {
+            add_province_modifier = {
+                name = punt_egypt_arab_trade
+                duration = -1
+            }
+        }
+        p:647 = {
+            add_province_modifier = {
+                name = punt_egypt_arab_trade
+                duration = -1
+            }
+        }
+        area:hema_nome_area = {
+            every_area_province = {
+                add_claim = root
+            }
+        }
+    }
+}
+
+me_waset.22 = {
+    type = country_event
+
+    title = me_waset_22_title
+    desc = me_waset_22_desc
+    picture = war_council
+
+    immediate = {
+        random_country = {
+            limit = {
+                tag = ATN
+            }
+            save_scope_as = heretic_scope
+        }
+    }
+
+    option = {
+        name = "me_waset_22.a"
+        custom_tooltip = me_waset_22_tooltip
+        custom_tooltip = submit_nome_tt
+        hidden_effect = {
+            every_country = {
+                limit = {
+                    religion = egyptian_pantheon
+                    num_of_cities > 5
+                    government = nomarchy
+                    NOR = {
+                        tag = EGY
+                        tag = EGT
+                    }
+                }
+                random_list = {
+                    30 = {
+                        trigger_event = {
+                            id = me_waset.666
+                            days = 1
+                        }
+                    }
+                    70 = {}
+                }
+            }
+        }
+        every_country = {
+            limit = {
+                religion = aten_religion
+            }
+            add_alliance = scope:heretic_scope
+        }
+    }
+    option = {
+        name = "me_waset_22.b"
+        custom_tooltip = me_waset_22_tooltip
+        declare_war_with_wargoal = {
+            target = scope:heretic_scope
+            province = 557
+            war_goal = egyptian_unification_wargoal
+        }
+    }
+}
+me_waset.666 = {
+    type = country_event
+    hidden = yes
+
+    trigger = {
+        is_ai = yes
+    }
+
+    immediate = {
+        c:EGY = {
+            make_subject = {
+                target = root
+                type = client_state
+            }
+        }
+    }
+}
+
+me_waset.23 = {
+    type = country_event
+
+    title = me_waset_23_title
+    desc = me_waset_23_desc
+    picture = crucifixion
+
+    option = {
+        name = "me_waset_23.a"
+        custom_tooltip = me_waset_23_tooltip
+        random_character = {
+            limit = {
+                has_priest_office_trigger = yes
+            }
+            add_loyalty = loyalty_family_replaced_by_upstart
+        }
+        current_ruler = {
+            add_nickname = "the_merciful"
+            add_trait = merciful
+            add_popularity = 10
+        }
+    }
+    option = {
+        name = "me_waset_23.b"
+        custom_tooltip = me_waset_23_tooltip
+        add_treasury = 200
+        p:557 = {
+            random_pops_in_province = {
+                while = {
+                    count = 5
+                    kill_pop = yes
+                }
+            }
+            random_pops_in_province = {
+                while = {
+                    count = 10
+                    set_pop_religion = egyptian_pantheon
+                }
+            }
+        }
+        current_ruler = {
+            add_nickname = "the_zealous"
+            add_trait = zealous
+        }
+    }
+    option = {
+        name = "me_waset_23.c"
+        custom_tooltip = me_waset_23_tooltip
+        add_treasury = 500
+        p:557 = {
+            set_city_status = settlement
+            random_pops_in_province = {
+                while = {
+                    count = 15
+                    kill_pop = yes
+                }
+            }
+            random_pops_in_province = {
+                while = {
+                    count = 10
+                    move_pop = 569
+                }
+            }
+            add_province_modifier = {
+                name = akhetaton_desecrated
+                duration = 1825
+            }
+            change_province_name = "akhetaton_destroyed_province_name"
+        }
+        current_ruler = {
+            add_nickname = "the_brutal"
+            add_trait = cruel
+        }
+    }
+}
+
+me_waset.24 = {
+    type = country_event
+
+    title = me_waset_24_title
+    desc = me_waset_24_desc
+    picture = diadochi_seleucus_elephant_honor
+
+    immediate = {
+        every_country = {
+            limit = {
+                is_in_list = egypt_delta_war_list
+                NOT = {
+                    has_variable = war_leader_var
+                }
+            }
+            add_alliance = scope:war_leader_delta_scope
+        }
+    }
+
+    option = {
+        name = "me_waset_24.a"
+        custom_tooltip = me_waset_24_tooltip
+        declare_war_with_wargoal = {
+            target = scope:war_leader_delta_scope
+            province = 519
+            war_goal = egyptian_unification_wargoal
+        }
+    }
+}
+
+me_waset.25 = {
+    type = country_event
+
+    title = me_waset_25_title
+    desc = me_waset_25_desc
+    picture = interesting_histories_levant_town
+
+    option = {
+        name = "me_waset_25.a"
+        custom_tooltip = me_waset_25_tooltip
+        custom_tooltip = stability_in_delta_tt
+        p:500 = {
+            add_province_modifier = {
+                name = delta_stability
+                duration = 3650
+            }
+        }
+        add_stability = 10
+        custom_tooltip = gain_claims_sinai_desheret_tt
+        hidden_effect = {
+            every_area_province = {
+                limit = {
+                    OR = {
+                        is_in_area = memphis_area
+                        is_in_area = central_delta_area
+                        is_in_area = western_delta_area
+                        is_in_area = eastern_delta_area
+                    }
+                }
+                add_province_modifier = {
+                    name = delta_stability
+                    duration = 3650
+                }
+            }
+            area:ammon_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+            area:khargana_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+            area:kharga_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+            area:farfara_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+            area:parva_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+            area:marmarica_orientalis_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+            area:sinai_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+        }
+    }
+}
+
+me_waset.26 = {
+    type = country_event
+
+    title = me_waset_26_title
+    desc = me_waset_26_desc
+    picture = road_construction
+
+    option = {
+        name = "me_waset_26.a"
+        custom_tooltip = me_waset_26_tooltip
+        p:3378 = {
+            add_building_level = fortress_building
+            add_province_modifier = {
+                name = gateway_west
+                duration = -1
+            }
+        }
+    }
+}
+
+me_waset.27 = {
+    type = country_event
+
+    title = me_waset_27_title
+    desc = me_waset_27_desc
+    picture = great_work_supplies
+
+    option = {
+        name = "me_waset_27.a"
+        custom_tooltip = me_waset_27_tooltip
+        area:sinai_area = {
+            every_area_province = {
+                limit = {
+                    trade_goods = gems
+                }
+                add_province_modifier = {
+                    name = land_of_turquoise
+                    duration = -1
+                }
+            }
+        }
+    }
+}
+
+me_waset.28 = {
+    type = country_event
+
+    title = me_waset_28_title
+    desc = me_waset_28_desc
+    picture = great_work_celebration
+
+    option = {
+        name = "me_waset_28.a"
+        custom_tooltip = me_waset_28_tooltip
+        current_ruler = {
+            add_martial = 4
+            add_popularity = 30
+            add_trait = victorious
+        }
+        add_political_influence = 50
+        p:569 = {
+            capital_formable_large_effect = yes
+            formable_capital_modifier_large_effect = yes
+        }
+        custom_tooltip = "tier_2_formable_tooltip"
+        if = {
+            limit = { is_tribal = yes }
+            add_country_modifier = {
+                name = civilized_tribe
+                duration = 5475
+            }
+        }
+        if = {
+            limit = {
+                NOT = { government = egyptian_dynasty }
+            }
+            change_government = egyptian_dynasty
+            switch_government_type_event_clearup_effect = yes
+        }
+        change_country_name = "KEMET_NAME"
+        hidden_effect = {
+            change_country_flag = EGYPTIAN_FLAG
+            change_country_adjective = "KEMET_ADJECTIVE"
+            change_country_color = "egypt_color"
+            change_country_tag = EGT
+        }
+        custom_tooltip = egypt_claims_tooltip
+        hidden_effect = {
+            region:lower_egypt_region = { formable_region_province_effect = yes }
+            region:upper_egypt_region = { formable_region_province_effect = yes }
+        }
+        capital_scope = {
+            capital_formable_large_effect = yes
+            formable_capital_modifier_large_effect = yes
+        }
+        hidden_effect = {
+            set_variable = {
+                name = ach_new_kingdom_var
+            }
+        }
+        add_5_free_province_investments = yes
     }
 }

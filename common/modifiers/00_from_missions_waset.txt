@@ -76,3 +76,7 @@ land_of_turquoise =  {
 	base_resources = 1
 	local_commerce_value_modifier = 0.05
 }
+aggressor_waset = {
+	agressive_expansion_impact = 0.05
+	war_score_cost = 0.05
+}
