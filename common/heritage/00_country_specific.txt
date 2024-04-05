@@ -710,8 +710,8 @@ phrygian_heritage = {
 pamphylian_heritage = {
     modifier = {
         #good
-        navy_movement_speed = 0.05
-        navy_maintenance_cost = -0.1
+        global_manpower_modifier = 0.05
+        heavy_infantry_maintenance_cost = -0.1
 
         #bad
         discipline = 0.05
