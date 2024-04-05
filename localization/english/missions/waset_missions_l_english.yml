@@ -93,20 +93,27 @@ waset_missions_task_28_DESC:0 "Once more #E Kemet#! is free and united under the
 
 
 #Tooltips
-eastern_egypt_claims_tt:0 "Gain claims on the #Y Eastern Desert#! area.\nGain claims on the #Y Troglodytica#! area.\nGain claims on the #Y Myos Hormos#! area."
+eastern_egypt_claims_tt:0 "Gain claims on the #Y Desheret Iahby#! area.\nGain claims on the #Y Mafkat Iawi#! area.\nGain claims on the #Y Marsa Alam#! area."
 kerma_claims_tt:0 "Gain claims on the #Y Aswan#! and #Y Khargana#! areas."
 waset_kerma_100_tt:0 "#E Kerma#! has an opinion of #E Waset#! greater or equal to #G 100#!."
 negotiate_kerma_tt:0 "We will enter #Y alliance#! negotiations with #E Kerma#!."
 invite_greeks_tt:0 "We will hire a #E Greek#! mercenary group to aid in our war efforts."
 gets_mentu_tt:0 "Gains access to the [GetDeityDefinition('omen_mentu').GetName|Y] deity."
-gain_claims_siwa_parva_libya_tt:0 "Gain claims on the #Y Desheret Iahby#! area.\nGain claims on the #Y Troglodytica#! area.\nGain claims on the #Y Myos Hormos#! area."
+gain_claims_siwa_parva_libya_tt:0 "Gain claims on the #Y Siwa#! area.\nGain claims on the #Y Parva#! area.\nGain claims on the #Y Libya#! area."
 decide_faiyum_tt:0 "Decide what to do with the #Y Faiyum#! area."
-choose_path_tt:0 "Choose between the #Y Priests#! and the #R Nobles#! faction.\n\n#E The Nobles path is unavailable. This will be fixed ASAP.#!"
+choose_path_tt:0 "Choose between the #Y Priests#! and the #R Nobles#! faction.\n\nThis #E may#! begin a #R civil war#! depending on the choice."
 heb_sed_tt:0 "The #Y Heb Sed#! festival begins."
 warning_tt:0 "#R This option is incomplete. Please pick the priest option.#!"
 civil_war_tt:0 "A civil war in #E Waset#! begins!"
 chose_priests_tt:0 "Chose #E Horemheb#! as your leader."
-
+head_of_family_friend_tt:0 "   Any #E Head of Family#! is #G friends#! with our #Y current ruler#!."
+governor_friend_tt:0 "  Any #E Governor#! is #G friends#! with our #Y current ruler#!."
+office_friend_tt:0 "  Any #E Office Holder#! is #G friends#! with our #Y current ruler#!."
+picked_noble_path:0 "Chose to #E suppress#! the priestly class."
+discuss_with_horemheb_tt:0 "We will approach #E Horemheb#! with a proposal."
+military_strategy_waset_tt:0 "Decide what approach to attack the #R Heretics#!."
+punish_aten_tt:0 "Decide what to do with the city of #Y Akhetaton#!."
+war_for_lower_egypt_tt:0 "Start a #Y 4th Intermediate Period#! war on all independent states in the #E Delta#!."
 
 #Modifiers
 valley_of_the_kings_prep:0 "Preparations for Burial"
@@ -122,6 +129,8 @@ safe_frontier:0 "Egypt's Frontier Fortified"
 the_29th_continues:0 "One Waset, One King"
 discipline_greek:0 "Greek Instructors"
 faiyum_punished:0 "Religious Clensing"
+tame_nobility:0 "Nobility Tamed"
+punt_egypt_arab_trade:0 "Flourishing Arabo-Puntic Traderoutes"
 
 #Other
 waset_revolter_name:0 "Waset"
@@ -129,6 +138,8 @@ waset_revolter_adjective:0 "Wasetian"
 wrath_of_amun:0 "the Wrath of Amun"
 KEMET_NAME:0 "Kemet"
 KEMET_ADJ:0 "Kemetic"
+heritage_priests:0 "Heritage of the Theban Priesthood"
+heritage_priests_desc:0 "The 29th dynasty of Egypt was overthrown by the priests of Amun in Waset internally! The great Horemheb triumphed over the Aten apologist, Senusret, establishing his own dynasty commited to the eradication of the Aten in Kemet."
 
 #Events
 me_waset_1_title:0 "$waset_missions_task_1$"

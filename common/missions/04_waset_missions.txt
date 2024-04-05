@@ -522,12 +522,19 @@
             char:526 = {
                 is_ruler = yes
             }
-            has_variable = waset_nobles
+            custom_tooltip = {
+                has_variable = waset_nobles
+                text = "picked_noble_path"
+            }
         }
         on_completion = {
             trigger_event = me_waset.18
             show_as_tooltip = {
-
+                add_stability = 5
+                current_ruler = {
+                    add_popularity = 10
+                    remove_trait = stressed
+                }
             }
         }
     }
@@ -535,24 +542,43 @@
         icon = "task_diplomatic"
         requires = { waset_missions_task_18 }
         allow = {
-            any_character = {
-                is_head_of_family = yes
-                is_friend = yes
+            calc_true_if = {
+                amount = 2
+                legitimacy >= 80
+                custom_tooltip = {
+                    any_character = {
+                        is_head_of_family = yes
+                        is_friend = yes
+                    }
+                    text = "head_of_family_friend_tt"
+                }
+                custom_tooltip = {
+                    any_character = {
+                        is_governor = yes
+                        is_friend = yes
+                    }
+                    text = "governor_friend_tt"
+                }
+                custom_tooltip = {
+                    any_character = {
+                        has_any_office = yes
+                        is_friend = yes
+                    }
+                    text = "office_friend_tt"
+                }
             }
-            any_character = {
-                is_governor = yes
-                is_friend = yes
-            }
-            any_character = {
-                has_any_office = yes
-                is_friend = yes
-            }
-            legitimacy >= 80
         }
         on_completion = {
             trigger_event = me_waset.19
             show_as_tooltip = {
-
+                capital_scope = {
+                    create_pop = nobles
+                    create_pop = nobles
+                }
+                add_country_modifier = {
+                    name = tame_nobility
+                    duration = 18250
+                }
             }
         }
     }
@@ -575,7 +601,7 @@
         on_completion = {
             trigger_event = me_waset.20
             show_as_tooltip = {
-
+                custom_tooltip = discuss_with_horemheb_tt
             }
         }
     }
@@ -599,7 +625,29 @@
         on_completion = {
             trigger_event = me_waset.21
             show_as_tooltip = {
-
+                p:583 = {
+                    add_province_modifier = {
+                        name = punt_egypt_arab_trade
+                        duration = -1
+                    }
+                }
+                p:580 = {
+                    add_province_modifier = {
+                        name = punt_egypt_arab_trade
+                        duration = -1
+                    }
+                }
+                p:647 = {
+                    add_province_modifier = {
+                        name = punt_egypt_arab_trade
+                        duration = -1
+                    }
+                }
+                area:hema_nome_area = {
+                    every_area_province = {
+                        add_claim = root
+                    }
+                }
             }
         }
     }
@@ -613,7 +661,7 @@
         on_completion = {
             trigger_event = me_waset.22
             show_as_tooltip = {
-
+                custom_tooltip = "military_strategy_waset_tt"
             }
         }
     }
@@ -634,7 +682,7 @@
         on_completion = {
             trigger_event = me_waset.23
             show_as_tooltip = {
-
+                custom_tooltip = "punish_aten_tt"
             }
         }
     }
@@ -656,7 +704,7 @@
         on_completion = {
             trigger_event = me_waset.24
             show_as_tooltip = {
-
+                custom_tooltip = "war_for_lower_egypt_tt"
             }
         }
     }

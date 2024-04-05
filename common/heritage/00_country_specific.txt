@@ -434,6 +434,19 @@ faiyum_heritage = {
         tag = PSN
     }
 }
+heritage_priests = {
+    modifier = {
+        #good
+        omen_power = 0.1
+        war_score_cost = -0.05
+
+        #bad
+        happiness_for_wrong_culture_modifier = -0.03
+    }
+    trigger = {
+        always = no
+    }
+}
 adini_heritage = {
     modifier = {
         #good
