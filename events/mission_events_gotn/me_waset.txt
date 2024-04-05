@@ -544,16 +544,55 @@ me_waset.17 = {
         name = "me_waset_17.a"
         custom_tooltip = me_waset_17_tooltip
         current_ruler = {
-                    add_popularity = 30
-                    add_trait = victorious
-                }
-                add_stability = 10
-                p:569 = {
-                    capital_formable_large_effect = yes
-                    formable_capital_modifier_large_effect = yes
-                }
-                change_country_name = KEMET_NAME
-                hidden_effect = { change_country_adjective = KEMET_ADJ }
+            add_popularity = 30
+            force_add_trait = victorious
+            add_trait = ahmesid
+            every_child = {
+                force_add_trait = ahmesid
+            }
+        }
+        add_stability = 10
+        p:569 = {
+            capital_formable_large_effect = yes
+            formable_capital_modifier_large_effect = yes
+        }
+        custom_tooltip = "tier_2_formable_tooltip"
+        if = {
+            limit = { is_tribal = yes }
+            add_country_modifier = {
+                name = civilized_tribe
+                duration = 5475
+            }
+        }
+        if = {
+            limit = {
+                NOT = { government = egyptian_dynasty }
+            }
+            change_government = egyptian_dynasty
+            switch_government_type_event_clearup_effect = yes
+        }
+        change_country_name = "KEMET_NAME"
+        hidden_effect = {
+            change_country_flag = EGYPTIAN_FLAG
+            change_country_adjective = "KEMET_ADJECTIVE"
+            change_country_color = "egypt_color"
+            change_country_tag = EGT
+        }
+        custom_tooltip = egypt_claims_tooltip
+        hidden_effect = {
+            region:lower_egypt_region = { formable_region_province_effect = yes }
+            region:upper_egypt_region = { formable_region_province_effect = yes }
+        }
+        capital_scope = {
+            capital_formable_large_effect = yes
+            formable_capital_modifier_large_effect = yes
+        }
+        hidden_effect = {
+            set_variable = {
+                name = ach_new_kingdom_var
+            }
+        }
+        add_5_free_province_investments = yes
     }
 }
 me_waset.18 = {
@@ -561,22 +600,16 @@ me_waset.18 = {
 
     title = me_waset_18_title
     desc = me_waset_18_desc
-    picture = great_library
+    picture = interesting_histories_kush_capital
 
     option = {
         name = "me_waset_18.a"
         custom_tooltip = me_waset_18_tooltip
+        add_stability = 5
         current_ruler = {
-                    add_popularity = 30
-                    add_trait = victorious
-                }
-                add_stability = 10
-                p:569 = {
-                    capital_formable_large_effect = yes
-                    formable_capital_modifier_large_effect = yes
-                }
-                change_country_name = KEMET_NAME
-                hidden_effect = { change_country_adjective = KEMET_ADJ }
+            add_popularity = 10
+            remove_trait = stressed
+        }
     }
 }
 me_waset.19 = {

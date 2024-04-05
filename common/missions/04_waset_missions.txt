@@ -503,15 +503,54 @@
             show_as_tooltip = {
                 current_ruler = {
                     add_popularity = 30
-                    add_trait = victorious
+                    force_add_trait = victorious
+                    add_trait = ahmesid
+                    every_child = {
+                        force_add_trait = ahmesid
+                    }
                 }
                 add_stability = 10
                 p:569 = {
                     capital_formable_large_effect = yes
                     formable_capital_modifier_large_effect = yes
                 }
-                change_country_name = KEMET_NAME
-                hidden_effect = { change_country_adjective = KEMET_ADJ }
+                custom_tooltip = "tier_2_formable_tooltip"
+                if = {
+                    limit = { is_tribal = yes }
+                    add_country_modifier = {
+                        name = civilized_tribe
+                        duration = 5475
+                    }
+                }
+                if = {
+                    limit = {
+                        NOT = { government = egyptian_dynasty }
+                    }
+                    change_government = egyptian_dynasty
+                    switch_government_type_event_clearup_effect = yes
+                }
+                change_country_name = "KEMET_NAME"
+                hidden_effect = {
+                    change_country_flag = EGYPTIAN_FLAG
+                    change_country_adjective = "KEMET_ADJECTIVE"
+                    change_country_color = "egypt_color"
+                    change_country_tag = EGT
+                }
+                custom_tooltip = egypt_claims_tooltip
+                hidden_effect = {
+                    region:lower_egypt_region = { formable_region_province_effect = yes }
+                    region:upper_egypt_region = { formable_region_province_effect = yes }
+                }
+                capital_scope = {
+                    capital_formable_large_effect = yes
+                    formable_capital_modifier_large_effect = yes
+                }
+                hidden_effect = {
+                    set_variable = {
+                        name = ach_new_kingdom_var
+                    }
+                }
+                add_5_free_province_investments = yes
             }
         }
     }
@@ -548,21 +587,21 @@
                 custom_tooltip = {
                     any_character = {
                         is_head_of_family = yes
-                        is_friend = yes
+                        is_friend = root.current_ruler
                     }
                     text = "head_of_family_friend_tt"
                 }
                 custom_tooltip = {
                     any_character = {
                         is_governor = yes
-                        is_friend = yes
+                        is_friend = root.current_ruler
                     }
                     text = "governor_friend_tt"
                 }
                 custom_tooltip = {
                     any_character = {
                         has_any_office = yes
-                        is_friend = yes
+                        is_friend = root.current_ruler
                     }
                     text = "office_friend_tt"
                 }
@@ -723,22 +762,37 @@
         }
         allow = {
             area:memphis_area = {
-                state_loyalty >= 75
+                any_area_province = {
+                    state_loyalty >= 75
+                }
             }
             area:eastern_delta_area = {
-                state_loyalty >= 75
+                any_area_province = {
+                    state_loyalty >= 75
+                }
             }
             area:western_delta_area = {
-                state_loyalty >= 75
+                any_area_province = {
+                    state_loyalty >= 75
+                }
             }
             area:central_delta_area = {
-                state_loyalty >= 75
+                any_area_province = {
+                    state_loyalty >= 75
+                }
             }
         }
         on_completion = {
             trigger_event = me_waset.25
             show_as_tooltip = {
-
+                custom_tooltip = stability_in_delta_tt
+                p:500 = {
+                    add_province_modifier = {
+                        name = delta_stability
+                    }
+                }
+                add_stability = 10
+                custom_tooltip = gain_claims_sinai_desheret_tt
             }
         }
     }
@@ -768,7 +822,13 @@
         on_completion = {
             trigger_event = me_waset.26
             show_as_tooltip = {
-
+                p:3378 = {
+                    add_building_level = fortress_building
+                    add_province_modifier = {
+                        name = gateway_west
+                        duration = -1
+                    }
+                }
             }
         }
     }
@@ -786,7 +846,17 @@
         on_completion = {
             trigger_event = me_waset.27
             show_as_tooltip = {
-
+                area:sinai_area = {
+                    every_area_province = {
+                        limit = {
+                            trade_goods = gems
+                        }
+                        add_province_modifier = {
+                            name = land_of_turquoise
+                            duration = -1
+                        }
+                    }
+                }
             }
         }
     }
@@ -820,7 +890,12 @@
         on_completion = {
             trigger_event = me_waset.28
             show_as_tooltip = {
-
+                current_ruler = {
+                    add_martial = 4
+                    add_popularity = 30
+                    add_trait = victorious
+                }
+                add_political_influence = 50
             }
         }
     }

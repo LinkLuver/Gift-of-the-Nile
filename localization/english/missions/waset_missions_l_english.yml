@@ -114,6 +114,9 @@ discuss_with_horemheb_tt:0 "We will approach #E Horemheb#! with a proposal."
 military_strategy_waset_tt:0 "Decide what approach to attack the #R Heretics#!."
 punish_aten_tt:0 "Decide what to do with the city of #Y Akhetaton#!."
 war_for_lower_egypt_tt:0 "Start a #Y 4th Intermediate Period#! war on all independent states in the #E Delta#!."
+stability_in_delta_tt:0 "Gain the #E following modifier#! for every province in the #E Delta#!:"
+land_turquoise_tt:0 "Gaoin the #E following modifier#! for every #Y Gemstone#! producing province in the #E Sinai#!:"
+gain_claims_sinai_desheret_tt:0 "Gain claims on the #E Egyptian Desert#!.\nGain claims on the #Y Sinai#! area."
 
 #Modifiers
 valley_of_the_kings_prep:0 "Preparations for Burial"
@@ -131,6 +134,9 @@ discipline_greek:0 "Greek Instructors"
 faiyum_punished:0 "Religious Clensing"
 tame_nobility:0 "Nobility Tamed"
 punt_egypt_arab_trade:0 "Flourishing Arabo-Puntic Traderoutes"
+delta_stability:0 "Restored Deltan Hegemony"
+gateway_west:0 "Gateway to the West"
+land_of_turquoise:0 "Land of Turquoise"
 
 #Other
 waset_revolter_name:0 "Waset"
@@ -140,6 +146,8 @@ KEMET_NAME:0 "Kemet"
 KEMET_ADJ:0 "Kemetic"
 heritage_priests:0 "Heritage of the Theban Priesthood"
 heritage_priests_desc:0 "The 29th dynasty of Egypt was overthrown by the priests of Amun in Waset internally! The great Horemheb triumphed over the Aten apologist, Senusret, establishing his own dynasty commited to the eradication of the Aten in Kemet."
+ahmesid:0 "Ahmesid"
+ahmesid_desc:0 "The blood of the Priest-King, Horemheb I Ahmesid. It was he who started the journey towards Amun's will, starting Waset's mission to eradicate those who dare defy the will of the Hidden One."
 
 #Events
 me_waset_1_title:0 "$waset_missions_task_1$"
@@ -234,8 +242,8 @@ me_waset_17.a:0 "A bright future awaits us."
 me_waset_17_tooltip:0 "The mission task '#Y $waset_missions_task_17$#!' has now been #G Completed#!!"
 
 me_waset_18_title:0 "$waset_missions_task_18$"
-me_waset_18_desc:0 ""
-me_waset_18.a:0 ""
+me_waset_18_desc:0 "#E Senusret#! enters the city, the people are now somewhat familiar with him as #E Siamun#! the great left most of the country’s matters to him after the attack against him. Therefore, #E Senusret#! is warmly welcomed as he enters #E Waset#! and heads to the temple of Karnak. However, #E Horemheb#! the High Priest, is not pleased by the sight of his rival. But the religious man applies the divine rules and crowns #E Senusret#! King of Upper Egypt and son of #E Amun#!. The new pharaoh must consider reconciliation with the clergy before planning anything outside of the country. Surely, Waset is on the path to fulfill its destiny as the liberator of #E Kemet#!."
+me_waset_18.a:0 "Long live Pharaoh Senusret!"
 me_waset_18_tooltip:0 "The mission task '#Y $waset_missions_task_18$#!' has now been #G Completed#!!"
 
 me_waset_19_title:0 "$waset_missions_task_19$"
