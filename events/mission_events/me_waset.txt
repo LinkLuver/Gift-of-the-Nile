@@ -749,6 +749,7 @@ me_waset.22 = {
             limit = {
                 religion = aten_religion
                 NOT = { war_with = scope:heretic_scope }
+                NOT = { tag = ATN }
             }
             add_alliance = scope:heretic_scope
         }
