@@ -237,12 +237,39 @@
 			#add_opinion = { target = c:SEL modifier = diadochi_rivals }
 		}
 		if = {
+			limit = { tag = HNT }
+			current_ruler = {
+				add_rival = C:MEN.current_ruler
+			}
+			p:557 = {
+				add_claim = root
+			}
+			p:569 = {
+				add_claim = root
+			}
+			p:500 = {
+				add_claim = root
+			}
+			faiyum_legion_setup_effect = yes
+			trigger_event = dhe_body.4
+			add_opinion = { target = c:ATN modifier = pharaoh_rivals }
+			add_opinion = { target = c:EGY modifier = pharaoh_rivals }
+			#add_opinion = { target = c:PRY modifier = pharaoh_rivals }
+			#add_opinion = { target = c:SEL modifier = pharaoh_rivals }
+		}
+		if = {
 			limit = { tag = EGY }
 			current_ruler = {
 				add_rival = C:ATN.current_ruler
 				add_rival = C:HNT.current_ruler
 			}
-			#egypt_legion_setup_effect = yes
+			p:557 = {
+				add_claim = root
+			}
+			p:544 = {
+				add_claim = root
+			}
+			waset_legion_setup_effect = yes
 			trigger_event = dhe_body.4
 			add_opinion = { target = c:ATN modifier = pharaoh_rivals }
 			add_opinion = { target = c:HNT modifier = pharaoh_rivals }
@@ -254,10 +281,16 @@
 			current_ruler = {
 				add_rival = C:HNT.current_ruler
 			}
-			#egypt_legion_setup_effect = yes
+			p:569 = {
+				add_claim = root
+			}
+			p:544 = {
+				add_claim = root
+			}
+			aten_legion_setup_effect = yes
 			#trigger_event = dhe_body.4
+			add_opinion = { target = c:EGY modifier = pharaoh_rivals }
 			add_opinion = { target = c:HNT modifier = pharaoh_rivals }
-			#add_opinion = { target = c:HNT modifier = pharaoh_rivals }
 			#add_opinion = { target = c:PRY modifier = pharaoh_rivals }
 			#add_opinion = { target = c:SEL modifier = pharaoh_rivals }
 		}
@@ -297,7 +330,6 @@
 			}
 			#trigger_event = { id = country_rename.2 }
 			media_legion_setup_effect = yes
-			media_legion_setup_effect_2 = yes
 			add_opinion = { target = c:ELM modifier = cradle_rivals }
 			add_opinion = { target = c:PES modifier = cradle_rivals }
 			add_opinion = { target = c:ADI modifier = cradle_rivals }
@@ -682,6 +714,12 @@
 				NOT = { has_global_variable = is_playing_invictus }
 			}
 			set_global_variable = is_playing_invictus #For other mods to check for Invictus stuff without errors plz don't remove
+		}
+		if = {
+			limit = {
+				NOT = { has_global_variable = is_playing_gotn }
+			}
+			set_global_variable = is_playing_gotn #For other mods to check for GotN's stuff without errors plz don't remove
 		}
 	}
 }
