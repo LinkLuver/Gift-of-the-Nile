@@ -434,6 +434,19 @@ faiyum_heritage = {
         tag = PSN
     }
 }
+heritage_priests = {
+    modifier = {
+        #good
+        omen_power = 0.1
+        war_score_cost = -0.05
+
+        #bad
+        happiness_for_wrong_culture_modifier = -0.03
+    }
+    trigger = {
+        always = no
+    }
+}
 adini_heritage = {
     modifier = {
         #good
@@ -564,14 +577,14 @@ arzashi_heritage = {
 elam_heritage = {
     modifier = {
         #good
-        global_monthly_civilization = 0.03
+        army_maintenance_cost = -0.15
         discipline = 0.04
 
         #bad
         civil_war_threshold = -0.025
 
         #extra
-        loyalty_to_overlord = -100
+        loyalty_to_overlord = -50
     }
 
     trigger = {
@@ -637,11 +650,11 @@ kiti_heritage = {
 lidyan_heritage = {
     modifier = {
         #good
-        global_tax_modifier = 0.05
-        mercenary_maintenance_cost = -0.1
+        global_commerce_modifier = 0.1
+        max_mercenary_stacks = 1
 
         #bad
-        global_defensive = -0.05
+        global_pop_assimilation_speed_modifier = -0.1
 
     }
 
@@ -710,8 +723,8 @@ phrygian_heritage = {
 pamphylian_heritage = {
     modifier = {
         #good
-        global_manpower_modifier = 0.05
-        heavy_infantry_maintenance_cost = -0.1
+        navy_movement_speed = 0.05
+        navy_maintenance_cost = -0.1
 
         #bad
         discipline = 0.05
@@ -768,6 +781,21 @@ carthaginian_heritage = {
     }
 }
 
+alexander_heritage = {
+    modifier = {
+        #good
+        agressive_expansion_impact = -0.20
+        discipline = 0.05
+        
+        #bad
+        global_pop_assimilation_speed_modifier = -0.10
+    }
+    
+    trigger = {
+        tag = MAC
+    }
+}
+
 cassanders_heritage = {
     modifier = {
         #good
@@ -779,7 +807,7 @@ cassanders_heritage = {
     }
 
     trigger = {
-        tag = MAC
+        always = no
     }
 }
 
@@ -4469,7 +4497,7 @@ arachosia_heritage = {
 satrapy_parthia_heritage = {
     modifier = {
         #good
-        loyalty_to_overlord = -30
+        army_movement_speed = 0.05
         war_exhaustion = -0.04
 
         #bad

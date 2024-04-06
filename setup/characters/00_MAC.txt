@@ -21,7 +21,7 @@
 	}
 	39={
 		first_name="Alexandros" # Alexander the Great
-		nickname="NICKNAME_THE_GREAT"
+		nickname="wise_alex"
 		father = scope:philippos
 		mother = scope:olympias
 		family = c:MAC.fam:Argead
@@ -265,6 +265,24 @@
 		add_gold=200
 		add_popularity=70
 		dna="Q99D35N7k3vK9sr2ApUClQJvAm8CmAKYAoMCgwJ5AnkClQKVAowCjAKEAoQCiAKIAmgCaAJsAmwCfwJ/Ao4CjgJoAmgCkAKQAo0CjQKXApcCiAKIApcClwKBAoECeAJ4AoMCgwJ1AnUE4ATgAmcCZwKDAoMCgwKDAVABUAKEAoQChwKHAoACgAKTApMEuAS4A5kDmQTWBNYCkwKTAo0CjQKNAo0CaAJoAm0CbQJyAnICegJ6AoICggJ7AnsBVQFVAnYCdgKGAoYCZgJmAmwCbAJ2AnYE5ATkAncCdwKCAoICkwKTAm0CbQK7ArsAoACgAIcAhwAZABkCxgLGAn8CfwBgAGABPwE/AqACoAKPAo8A3gDeADUANQAAAAAC+QL5ATsBOwE9AT0ASABIAFUAVQAtAC0ALwAvADwAPAAAAAAA7QDtAHwAfAFDAUMAVgBWAocChwAfAB8AJwAnAUQBRABIAEgAOwA7ApECkQAFAAUK4griAAAAAAEeAR4FhgWGAO0A7QVOBU4CTQJNAvEC8QAAAAAAAAAAAAAAAA=="
+	}
+	291={
+		first_name="Alexandros" # Son of Alexander the Great
+		nickname = "NICKNAME_AIGOS"
+		family = c:MAC.fam:Argead
+		birth_date=431.8.1
+		#death_date=445.8.1
+		culture="macedonian"
+		religion="roman_pantheon"
+		father=scope:alexander_the_great
+		no_stats=yes
+		add_martial=2
+		add_charisma=3
+		add_finesse=1
+		add_zeal=2
+		no_traits=yes
+		add_trait="argeads"
+		dna="zdFsdcp8koS1/hb/AVICcgKjApUCaQKtAgADjQJwBGcCfwJbAFoCiQKAAmwDqQJwAmcCfgJ6ApACkgKCAokCcQJ2AnQCgQJrBDYCaQLLApcCcgJxA6oCuwJnAm8CaQKJAJcCbQKWAm4CegJoAoAClwGRAnECaAJ4ArgCigJ2AncCaQKRAqACmAJ+A3sCbgJ+ArYChQFPAoECeAJvAooCXwJ0Am0CcwIAApICUQKVAnoCaAJ4AVICfALPBOADowJtAm8CNgKGA7ICiAJoAnQAQAJ0ApMBXwKMAq0E4gKHAooCbwTcAoECkwCDAv4AowLVAOEAzQC9AF8BFQCkAr8ANgE6AP0AXQDFADEAugDMADoA6wAyARwBQgAAAAAAagLlAV4AuwBUAUIAyQBrAJIAJgDyASEDiwEuAWwBSwAAAjgBAAAMAmYBEwAvAUABdwLAAvkC0QDlApQC7wAcAW0AlQBHAMYBXQNlAwEAQAQfAUcH6AfDAAAAAALDAFQFdgWqAKEAoQXeBd4CegLhAlICCQAAAAAAAAAAAAAAAA=="
 	}
 	296={
 		first_name="Antipatros" # Etesias, later

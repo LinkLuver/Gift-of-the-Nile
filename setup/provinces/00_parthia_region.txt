@@ -14,7 +14,7 @@
 		amount=5
 	}
 	slaves={
-		religion="zoroaster"
+		religion="zurvan_religion"
 		amount=2
 	}
 	tribesmen={
@@ -113,7 +113,7 @@
 		amount=2
 	}
 	slaves={
-		religion="zoroaster"
+		religion="zurvan_religion"
 		amount=1
 	}
 	tribesmen={
@@ -153,14 +153,14 @@
 		amount=4
 	}
 	freemen={
-		religion="mithra_religion"
+		religion="zurvan_religion"
 		amount=2
 	}
 	slaves={
 		amount=3
 	}
 	tribesmen={
-		religion="mithra_religion"
+		religion="zurvan_religion"
 		amount=1
 	}
 }
@@ -203,7 +203,7 @@
 		amount=8
 	}
 	slaves={
-		religion="mithra_religion"
+		religion="zurvan_religion"
 		amount=1
 	}
 	tribesmen={
@@ -215,7 +215,7 @@
 3445={ #Sangast
 	terrain="hills"
 	culture="parthian"
-	religion="mithra_religion"
+	religion="zurvan_religion"
 	trade_goods="wine"
 	civilization_value=18
 	barbarian_power=0
@@ -292,7 +292,7 @@
 3448={ #Dakhtar
 	terrain="steppes"
 	culture="parthian"
-	religion="mithra_religion"
+	religion="zurvan_religion"
 	trade_goods="horses"
 	civilization_value=20
 	barbarian_power=0
@@ -347,7 +347,7 @@
 		amount=8
 	}
 	slaves={
-		religion="zoroaster"
+		religion="zurvan_religion"
 		amount=2
 	}
 	tribesmen={
@@ -358,7 +358,7 @@
 3451={ #Sathis
 	terrain="steppes"
 	culture="parthian"
-	religion="mithra_religion"
+	religion="zurvan_religion"
 	trade_goods="camel"
 	civilization_value=20
 	barbarian_power=0
@@ -433,7 +433,7 @@
 3456={ #Tiras
 	terrain="steppes"
 	culture="parthian"
-	religion="mithra_religion"
+	religion="zurvan_religion"
 	trade_goods="grain"
 	civilization_value=31
 	barbarian_power=0
@@ -459,7 +459,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		religion="zoroaster"
+		religion="zurvan_religion"
 		amount=1
 	}
 	slaves={
@@ -562,7 +562,7 @@
 		amount=2
 	}
 	freemen={
-		religion="mithra_religion"
+		religion="zurvan_religion"
 		amount=2
 	}
 	tribesmen={
@@ -643,7 +643,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		religion="mithra_religion"
+		religion="zurvan_religion"
 		amount=1
 	}
 	freemen={
@@ -711,7 +711,7 @@
 		amount=9
 	}
 	slaves={
-		religion="zoroaster"
+		religion="zurvan_religion"
 		amount=3
 	}
 }
@@ -766,7 +766,7 @@
 4997={ #Syringis
 	terrain="farmland"
 	culture="amardian"
-	religion="mithra_religion"
+	religion="zurvan_religion"
 	trade_goods="spices"
 	civilization_value=38
 	barbarian_power=0
@@ -1051,7 +1051,7 @@
 5437={ #Pylai Parthias
 	terrain="mountain"
 	culture="derbiccan"
-	religion="mithra_religion"
+	religion="zurvan_religion"
 	trade_goods="wood"
 	civilization_value=1
 	barbarian_power=0
@@ -1150,7 +1150,7 @@
 6556={ #Godana
 	terrain="steppes"
 	culture="parthian"
-	religion="mithra_religion"
+	religion="zurvan_religion"
 	trade_goods="camel"
 	civilization_value=20
 	barbarian_power=0
@@ -1173,7 +1173,7 @@
 6602={ #Arosape
 	terrain="steppes"
 	culture="sagartian"
-	religion="zoroaster"
+	religion="zurvan_religion"
 	trade_goods="steppe_horses"
 	civilization_value=31
 	barbarian_power=0
@@ -1391,7 +1391,7 @@
 6664={ #Alexandreia Parthika
 	terrain="hills"
 	culture="margian"
-	religion="mithra_religion"
+	religion="zurvan_religion"
 	trade_goods="camel"
 	civilization_value=18
 	barbarian_power=0
@@ -1420,7 +1420,7 @@
 		amount=2
 	}
 	freemen={
-		religion="zoroaster"
+		religion="zurvan_religion"
 		amount=1
 	}
 	slaves={
@@ -1757,7 +1757,7 @@
 7223={ #Badghis
 	terrain="steppes"
 	culture="parthian"
-	religion="mithra_religion"
+	religion="zurvan_religion"
 	trade_goods="precious_metals"
 	civilization_value=31
 	barbarian_power=0
@@ -1786,7 +1786,7 @@
 		amount=1
 	}
 	freemen={
-		religion="zoroaster"
+		religion="zurvan_religion"
 		amount=1
 	}
 	slaves={
@@ -1809,7 +1809,7 @@
 		amount=2
 	}
 	tribesmen={
-		religion="zoroaster"
+		religion="zurvan_religion"
 		amount=2
 	}
 }

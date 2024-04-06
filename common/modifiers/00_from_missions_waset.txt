@@ -53,3 +53,30 @@ faiyum_punished = {
 	local_population_happiness = -0.1
 	local_pop_conversion_speed_modifier = 0.2
 }
+tame_nobility = {
+	global_nobles_happyness = 0.05
+	character_loyalty = 5
+}
+punt_egypt_arab_trade = {
+	local_base_trade_routes = 2
+	local_tax_modifier = 0.2
+}
+delta_stability = {
+	local_monthly_state_loyalty = 0.05
+	local_population_happiness = 0.05
+	local_tax_modifier = 0.05
+}
+gateway_west = {
+	local_building_slot = 1
+	fort_limit = 2
+	fort_maintenance_cost = -0.33
+	local_defensive = 0.2
+}
+land_of_turquoise =  {
+	base_resources = 1
+	local_commerce_value_modifier = 0.05
+}
+aggressor_waset = {
+	agressive_expansion_impact = 0.05
+	war_score_cost = 0.05
+}

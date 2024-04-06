@@ -9,3 +9,13 @@ thutmosid = {
 	}
 }
 
+ahmesid = {
+	type = status
+
+	prominence = 30
+	zeal = 1
+	country = {
+		omen_power = 0.1
+		stability_monthly_change = 0.03
+	}
+}

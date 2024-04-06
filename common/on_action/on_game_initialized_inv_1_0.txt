@@ -166,33 +166,33 @@
 		add_innovation = {
 			value = religious_tech
 		}
-		if = {
-			limit = { tag = PRY }
-			current_ruler = {
-				add_rival = C:EGY.current_ruler
-				add_rival = C:SEL.current_ruler
-				add_rival = C:MAC.current_ruler
-			}
-			char:97 = {
-				add_friend = char:38
-			}
-			random_navy = {
-				add_subunit = mega_galley
-				add_subunit = mega_galley
-				add_subunit = mega_galley
-				add_subunit = octere
-				add_subunit = octere
-				add_subunit = octere
-				add_subunit = octere
-				add_subunit = octere
-			}
-			set_variable = me_ant_start_flag
-			antigonid_legion_setup_effect = yes
-			add_opinion = { target = c:MAC modifier = diadochi_rivals }
-			add_opinion = { target = c:TRE modifier = diadochi_rivals }
-			add_opinion = { target = c:EGY modifier = diadochi_rivals }
-			add_opinion = { target = c:SEL modifier = diadochi_rivals }
-		}
+		#if = {
+		#	limit = { tag = PRY }
+		#	current_ruler = {
+		#		add_rival = C:EGY.current_ruler
+		#		add_rival = C:SEL.current_ruler
+		#		add_rival = C:MAC.current_ruler
+		#	}
+		#	char:97 = {
+		#		add_friend = char:38
+		#	}
+		#	random_navy = {
+		#		add_subunit = mega_galley
+		#		add_subunit = mega_galley
+		#		add_subunit = mega_galley
+		#		add_subunit = octere
+		#		add_subunit = octere
+		#		add_subunit = octere
+		#		add_subunit = octere
+		#		add_subunit = octere
+		#	}
+		#	set_variable = me_ant_start_flag
+		#	#antigonid_legion_setup_effect = yes
+		#	add_opinion = { target = c:MAC modifier = diadochi_rivals }
+		#	add_opinion = { target = c:TRE modifier = diadochi_rivals }
+		#	add_opinion = { target = c:EGY modifier = diadochi_rivals }
+		#	add_opinion = { target = c:SEL modifier = diadochi_rivals }
+		#}
 		if = {
 			limit = { tag = MAC }
 			char:32 = {
@@ -212,17 +212,17 @@
 				target = c:EPI
 			}
 			current_ruler = {
-				add_rival = C:PRY.current_ruler
+				#add_rival = C:PRY.current_ruler
 				add_friend = C:TRE.current_ruler
 			}
-			char:10 = { move_country = C:PRY } #Antipatrid mother
-			char:97 = { move_country = C:PRY } #Mithridates in Phrygia
+			#char:10 = { move_country = C:PRY } #Antipatrid mother
+			char:97 = { move_country = C:KIO } #Mithridates in Phrygia
 			set_variable = me_mac_start_flag
 			macedon_legion_setup_effect = yes
-			add_opinion = { target = c:PRY modifier = diadochi_rivals }
-			add_opinion = { target = c:TRE modifier = diadochi_rivals }
-			add_opinion = { target = c:EGY modifier = diadochi_rivals }
-			add_opinion = { target = c:SEL modifier = diadochi_rivals }
+			#add_opinion = { target = c:PRY modifier = diadochi_rivals }
+			#add_opinion = { target = c:TRE modifier = diadochi_rivals }
+			#add_opinion = { target = c:EGY modifier = diadochi_rivals }
+			#add_opinion = { target = c:SEL modifier = diadochi_rivals }
 		}
 		if = {
 			limit = { tag = TRE }
@@ -230,37 +230,118 @@
 				add_friend = C:MAC.current_ruler
 			}
 			set_variable = me_thrace_start_flag
-			thrace_legion_setup_effect = yes
-			add_opinion = { target = c:MAC modifier = diadochi_rivals }
-			add_opinion = { target = c:PRY modifier = diadochi_rivals }
-			add_opinion = { target = c:EGY modifier = diadochi_rivals }
-			add_opinion = { target = c:SEL modifier = diadochi_rivals }
+			#thrace_legion_setup_effect = yes
+			#add_opinion = { target = c:MAC modifier = diadochi_rivals }
+			#add_opinion = { target = c:PRY modifier = diadochi_rivals }
+			#add_opinion = { target = c:EGY modifier = diadochi_rivals }
+			#add_opinion = { target = c:SEL modifier = diadochi_rivals }
+		}
+		if = {
+			limit = { tag = HNT }
+			current_ruler = {
+				add_rival = C:MEN.current_ruler
+			}
+			p:557 = {
+				add_claim = root
+			}
+			p:569 = {
+				add_claim = root
+			}
+			p:500 = {
+				add_claim = root
+			}
+			faiyum_legion_setup_effect = yes
+			trigger_event = dhe_body.4
+			add_opinion = { target = c:ATN modifier = pharaoh_rivals }
+			add_opinion = { target = c:EGY modifier = pharaoh_rivals }
+			#add_opinion = { target = c:PRY modifier = pharaoh_rivals }
+			#add_opinion = { target = c:SEL modifier = pharaoh_rivals }
 		}
 		if = {
 			limit = { tag = EGY }
 			current_ruler = {
-				add_rival = C:PRY.current_ruler
-				add_friend = C:SEL.current_ruler
+				add_rival = C:ATN.current_ruler
+				add_rival = C:HNT.current_ruler
 			}
-			egypt_legion_setup_effect = yes
+			p:557 = {
+				add_claim = root
+			}
+			p:544 = {
+				add_claim = root
+			}
+			waset_legion_setup_effect = yes
 			trigger_event = dhe_body.4
-			add_opinion = { target = c:MAC modifier = diadochi_rivals }
-			add_opinion = { target = c:TRE modifier = diadochi_rivals }
-			add_opinion = { target = c:PRY modifier = diadochi_rivals }
-			add_opinion = { target = c:SEL modifier = diadochi_rivals }
+			add_opinion = { target = c:ATN modifier = pharaoh_rivals }
+			add_opinion = { target = c:HNT modifier = pharaoh_rivals }
+			#add_opinion = { target = c:PRY modifier = pharaoh_rivals }
+			#add_opinion = { target = c:SEL modifier = pharaoh_rivals }
+		}
+		if = {
+			limit = { tag = ATN }
+			current_ruler = {
+				add_rival = C:HNT.current_ruler
+			}
+			p:569 = {
+				add_claim = root
+			}
+			p:544 = {
+				add_claim = root
+			}
+			aten_legion_setup_effect = yes
+			#trigger_event = dhe_body.4
+			add_opinion = { target = c:EGY modifier = pharaoh_rivals }
+			add_opinion = { target = c:HNT modifier = pharaoh_rivals }
+			#add_opinion = { target = c:PRY modifier = pharaoh_rivals }
+			#add_opinion = { target = c:SEL modifier = pharaoh_rivals }
 		}
 		if = {
 			limit = { tag = SEL }
 			current_ruler = {
-				add_rival = C:PRY.current_ruler
-				add_friend = C:EGY.current_ruler
+				add_rival = C:PES.current_ruler
+				add_friend = C:MAP.current_ruler
 			}
-			trigger_event = { id = country_rename.2 }
-			seleukid_legion_setup_effect = yes
-			add_opinion = { target = c:MAC modifier = diadochi_rivals }
-			add_opinion = { target = c:TRE modifier = diadochi_rivals }
-			add_opinion = { target = c:EGY modifier = diadochi_rivals }
-			add_opinion = { target = c:PRY modifier = diadochi_rivals }
+			#trigger_event = { id = country_rename.2 }
+			babylon_legion_setup_effect = yes
+			add_opinion = { target = c:ELM modifier = cradle_rivals }
+			add_opinion = { target = c:PES modifier = cradle_rivals }
+			add_opinion = { target = c:ADI modifier = cradle_rivals }
+			add_opinion = { target = c:MAP modifier = cradle_rivals }
+		}
+		if = {
+			limit = { tag = ELM }
+			elam_legion_setup_effect = yes
+			add_opinion = { target = c:SEL modifier = cradle_rivals }
+			#add_opinion = { target = c:PES modifier = cradle_rivals }
+			add_opinion = { target = c:ADI modifier = cradle_rivals }
+			add_opinion = { target = c:MAP modifier = cradle_rivals }
+		}
+		if = {
+			limit = { tag = ADI }
+			assyria_legion_setup_effect = yes
+			add_opinion = { target = c:SEL modifier = cradle_rivals }
+			add_opinion = { target = c:PES modifier = cradle_rivals }
+			add_opinion = { target = c:ELM modifier = cradle_rivals }
+			add_opinion = { target = c:MAP modifier = cradle_rivals }
+		}
+		if = {
+			limit = { tag = MAP }
+			current_ruler = {
+				add_rival = C:PES.current_ruler
+			}
+			#trigger_event = { id = country_rename.2 }
+			media_legion_setup_effect = yes
+			add_opinion = { target = c:ELM modifier = cradle_rivals }
+			add_opinion = { target = c:PES modifier = cradle_rivals }
+			add_opinion = { target = c:ADI modifier = cradle_rivals }
+			add_opinion = { target = c:SEL modifier = cradle_rivals }
+		}
+		if = {
+			limit = { tag = PES }
+			persia_legion_setup_effect = yes
+			#add_opinion = { target = c:ELM modifier = cradle_rivals }
+			add_opinion = { target = c:SEL modifier = cradle_rivals }
+			add_opinion = { target = c:ADI modifier = cradle_rivals }
+			add_opinion = { target = c:MAP modifier = cradle_rivals }
 		}
 		if = {
 			limit = { tag = EPI }
@@ -633,6 +714,12 @@
 				NOT = { has_global_variable = is_playing_invictus }
 			}
 			set_global_variable = is_playing_invictus #For other mods to check for Invictus stuff without errors plz don't remove
+		}
+		if = {
+			limit = {
+				NOT = { has_global_variable = is_playing_gotn }
+			}
+			set_global_variable = is_playing_gotn #For other mods to check for GotN's stuff without errors plz don't remove
 		}
 	}
 }

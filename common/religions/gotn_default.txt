@@ -55,10 +55,15 @@ kushite_pantheon = { # Kushitic
 	}
 	religion_category = pantheon
 }
-#zorvan_religion = { # Zurvanism
-#	color = { 20 10 250 }
-#	religion_category = firetemples
-#}
+zurvan_religion = { # Zurvanism
+	color = { 20 10 250 }
+	religion_category = firetemples
+	modifier = {
+		horse_archers_offensive = 0.08
+		global_pop_promotion_speed_modifier = -0.05
+		global_pop_conversion_speed_modifier = 0.20
+	}
+}
 elamite_pantheon = { # Haltamic
 	color = rgb { 190 35 30 }
 	modifier = {
