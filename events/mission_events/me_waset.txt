@@ -726,8 +726,9 @@ me_waset.22 = {
             every_country = {
                 limit = {
                     religion = egyptian_pantheon
-                    num_of_cities > 5
+                    num_of_cities < 7
                     government = nomarchy
+                    is_ai = yes
                     NOR = {
                         tag = EGY
                         tag = EGT
@@ -747,6 +748,7 @@ me_waset.22 = {
         every_country = {
             limit = {
                 religion = aten_religion
+                NOT = { war_with = scope:heretic_scope }
             }
             add_alliance = scope:heretic_scope
         }
@@ -765,15 +767,16 @@ me_waset.666 = {
     type = country_event
     hidden = yes
 
-    trigger = {
-        is_ai = yes
-    }
-
     immediate = {
         c:EGY = {
-            make_subject = {
-                target = root
-                type = client_state
+            if = {
+                limit = {
+                    exists = yes
+                }
+                make_subject = {
+                    target = root
+                    type = client_state
+                }
             }
         }
     }

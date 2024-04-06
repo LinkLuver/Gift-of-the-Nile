@@ -242,3 +242,39 @@ waset_legion_setup_effect = {
 		}
 	}
 }
+### Event Effects GOTN ###
+##Take Care to add to bastard_major_bloodline_effect below as well 
+pass_down_traits_effect_gotn = {
+	scope:newborn = {
+		if = {
+			limit = {
+				is_alive = yes
+				exists = mother
+				mother = {
+					has_trait = thutmosid
+				}
+				NOT = {
+					has_trait = thutmosid
+				}
+			}
+			add_trait = thutmosid
+		}
+	}
+}
+pass_down_traits_effect_gotn = {
+	scope:newborn = {
+		if = {
+			limit = {
+				is_alive = yes
+				exists = mother
+				mother = {
+					has_trait = ahmesid
+				}
+				NOT = {
+					has_trait = ahmesid
+				}
+			}
+			add_trait = ahmesid
+		}
+	}
+}
