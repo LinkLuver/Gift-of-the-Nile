@@ -1,3 +1,7 @@
 ﻿armenian_rebels = {
 	loyalty_to_overlord = -50
 }
+elam_tamed = {
+	loyalty_to_overlord = 50
+	global_tax_modifier = 0.10
+}
