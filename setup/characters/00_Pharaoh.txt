@@ -8,7 +8,13 @@
 		religion="aten_religion"
 		culture="akhenite_egyptian"
 		no_traits=yes
+		add_trait=devout
+		add_trait=depressed
 		no_stats=yes
+		add_zeal=11
+		add_finesse=7
+		add_martial=5
+		add_charisma=4
 		c:ATN={
 			set_as_ruler=char:517
 		}
@@ -26,6 +32,10 @@
 		add_trait="barren"
 		add_trait="energetic"
 		no_stats=yes
+		add_zeal=5
+		add_finesse=4
+		add_martial=1
+		add_charisma=15
 		female=yes
 	}
 	519={
@@ -41,6 +51,10 @@
 		add_trait="inbred"
 		add_trait="energetic"
 		no_stats=yes
+		add_zeal=8
+		add_finesse=13
+		add_martial=7
+		add_charisma=12
 		female=yes
 	}
 	520={
@@ -58,6 +72,10 @@
 		add_trait="one_eyed"
 		add_trait="brain_damaged"
 		no_stats=yes
+		add_zeal=5
+		add_finesse=1
+		add_martial=9
+		add_charisma=2
 	}
 	521={
 		first_name="Atenmosis"
@@ -88,7 +106,7 @@
 		no_stats=yes
 	}
 	523={
-		first_name="Horematen"
+		first_name="Iqrefaten"
 		family = c:ATN.fam:Iqrefid
 		father="char:517"
 		mother="char:518"
@@ -100,6 +118,10 @@
 		add_trait="thutmosid"
 		add_trait="inbred"
 		no_stats=yes
+		add_zeal=11
+		add_martial=14
+		add_finesse=1
+		add_charisma=3
 	}
 	524={
 		first_name="Neferneferuaten"
@@ -113,7 +135,12 @@
 		no_traits=yes
 		add_trait="thutmosid"
 		add_trait="inbred"
+		add_trait=intelligent
 		no_stats=yes
+		add_zeal=3
+		add_finesse=11
+		add_charisma=5
+		add_martial=7
 		female=yes
 	}
 }
