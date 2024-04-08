@@ -1,0 +1,327 @@
+﻿namespace = me_akhetaton
+
+me_akhetaton.1 = {
+    type = country_event
+
+    title = me_akhetaton_1_title
+    desc = me_akhetaton_1_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_1.a"
+        custom_tooltip = me_akhetaton_1_tooltip
+
+    }
+}
+me_akhetaton.2 = {
+    type = country_event
+
+    title = me_akhetaton_2_title
+    desc = me_akhetaton_2_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_2.a"
+        custom_tooltip = me_akhetaton_2_tooltip
+
+    }
+}
+me_akhetaton.3 = {
+    type = country_event
+
+    title = me_akhetaton_3_title
+    desc = me_akhetaton_3_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_3.a"
+        custom_tooltip = me_akhetaton_3_tooltip
+
+    }
+}
+me_akhetaton.4 = {
+    type = country_event
+
+    title = me_akhetaton_4_title
+    desc = me_akhetaton_4_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_4.a"
+        custom_tooltip = me_akhetaton_4_tooltip
+
+    }
+}
+me_akhetaton.5 = {
+    type = country_event
+
+    title = me_akhetaton_5_title
+    desc = me_akhetaton_5_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_5.a"
+        custom_tooltip = me_akhetaton_5_tooltip
+
+    }
+}
+me_akhetaton.6 = {
+    type = country_event
+
+    title = me_akhetaton_6_title
+    desc = me_akhetaton_6_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_6.a"
+        custom_tooltip = me_akhetaton_6_tooltip
+
+    }
+}
+me_akhetaton.7 = {
+    type = country_event
+
+    title = me_akhetaton_7_title
+    desc = me_akhetaton_7_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_7.a"
+        custom_tooltip = me_akhetaton_7_tooltip
+
+    }
+}
+me_akhetaton.8 = {
+    type = country_event
+
+    title = me_akhetaton_8_title
+    desc = me_akhetaton_8_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_8.a"
+        custom_tooltip = me_akhetaton_8_tooltip
+
+    }
+}
+me_akhetaton.9 = {
+    type = country_event
+
+    title = me_akhetaton_9_title
+    desc = me_akhetaton_9_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_9.a"
+        custom_tooltip = me_akhetaton_9_tooltip
+
+    }
+}
+me_akhetaton.10 = {
+    type = country_event
+
+    title = me_akhetaton_10_title
+    desc = me_akhetaton_10_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_10.a"
+        custom_tooltip = me_akhetaton_10_tooltip
+
+    }
+}
+me_akhetaton.11 = {
+    type = country_event
+
+    title = me_akhetaton_11_title
+    desc = me_akhetaton_11_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_11.a"
+        custom_tooltip = me_akhetaton_11_tooltip
+
+    }
+}
+me_akhetaton.12 = {
+    type = country_event
+
+    title = me_akhetaton_12_title
+    desc = me_akhetaton_12_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_12.a"
+        custom_tooltip = me_akhetaton_12_tooltip
+
+    }
+}
+me_akhetaton.13 = {
+    type = country_event
+
+    title = me_akhetaton_13_title
+    desc = me_akhetaton_13_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_13.a"
+        custom_tooltip = me_akhetaton_13_tooltip
+
+    }
+}
+me_akhetaton.14 = {
+    type = country_event
+
+    title = me_akhetaton_14_title
+    desc = me_akhetaton_14_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_14.a"
+        custom_tooltip = me_akhetaton_14_tooltip
+
+    }
+}
+me_akhetaton.15 = {
+    type = country_event
+
+    title = me_akhetaton_15_title
+    desc = me_akhetaton_15_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_15.a"
+        custom_tooltip = me_akhetaton_15_tooltip
+
+    }
+}
+me_akhetaton.16 = {
+    type = country_event
+
+    title = me_akhetaton_16_title
+    desc = me_akhetaton_16_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_16.a"
+        custom_tooltip = me_akhetaton_16_tooltip
+
+    }
+}
+me_akhetaton.17 = {
+    type = country_event
+
+    title = me_akhetaton_17_title
+    desc = me_akhetaton_17_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_17.a"
+        custom_tooltip = me_akhetaton_17_tooltip
+
+    }
+}
+me_akhetaton.18 = {
+    type = country_event
+
+    title = me_akhetaton_18_title
+    desc = me_akhetaton_18_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_18.a"
+        custom_tooltip = me_akhetaton_18_tooltip
+
+    }
+}
+me_akhetaton.19 = {
+    type = country_event
+
+    title = me_akhetaton_19_title
+    desc = me_akhetaton_19_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_19.a"
+        custom_tooltip = me_akhetaton_19_tooltip
+
+    }
+}
+me_akhetaton.20 = {
+    type = country_event
+
+    title = me_akhetaton_20_title
+    desc = me_akhetaton_20_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_20.a"
+        custom_tooltip = me_akhetaton_20_tooltip
+
+    }
+}
+me_akhetaton.21 = {
+    type = country_event
+
+    title = me_akhetaton_21_title
+    desc = me_akhetaton_21_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_21.a"
+        custom_tooltip = me_akhetaton_21_tooltip
+
+    }
+}
+me_akhetaton.22 = {
+    type = country_event
+
+    title = me_akhetaton_22_title
+    desc = me_akhetaton_22_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_22.a"
+        custom_tooltip = me_akhetaton_22_tooltip
+
+    }
+}
+me_akhetaton.23 = {
+    type = country_event
+
+    title = me_akhetaton_23_title
+    desc = me_akhetaton_23_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_23.a"
+        custom_tooltip = me_akhetaton_23_tooltip
+
+    }
+}
+me_akhetaton.24 = {
+    type = country_event
+
+    title = me_akhetaton_24_title
+    desc = me_akhetaton_24_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_24.a"
+        custom_tooltip = me_akhetaton_24_tooltip
+
+    }
+}
+me_akhetaton.25 = {
+    type = country_event
+
+    title = me_akhetaton_25_title
+    desc = me_akhetaton_25_desc
+    picture = great_library
+
+    option = {
+        name = "me_akhetaton_25.a"
+        custom_tooltip = me_akhetaton_25_tooltip
+
+    }
+}
