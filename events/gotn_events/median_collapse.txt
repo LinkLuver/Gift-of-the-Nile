@@ -410,9 +410,10 @@ median_collapse.20 = {
     option = {
         name = "median_collapse_20.a"
         declare_war_with_wargoal = {
-            war_goal = imperial_conquest_wargoal
+            war_goal = fratricide_wargoal
             province = c:PES.capital_scope
             target = c:PES
+            set_variable = fratricide_war
         }
     }
     option = {
