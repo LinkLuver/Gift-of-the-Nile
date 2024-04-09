@@ -1,31 +1,31 @@
-﻿country_decisions = {
-		potential = {
-			num_of_cities >= 1
-			any_subject = {
-				tag = ELM
-			}
-		}
-		allow = {
-			any_subject = {
-				tag = ELM
-				subject_loyalty <= 35
-			}
-			owns = 4782
-		}
-		effect = {
-			p:4782.area = {
-				every_area_province = {
-					set_owned_by = c:ELM
-				}
-			}
-			c:ELM = {
-				add_country_modifier = {
-					name = elam_tamed
-					duration = -1
-				}
-			}
-		}
-		ai_will_do = {
-			base = 1
-		}
-}
+﻿#country_decisions = {
+#		potential = {
+#			num_of_cities >= 1
+#			any_subject = {
+#				tag = ELM
+#			}
+#		}
+#		allow = {
+#			any_subject = {
+#				tag = ELM
+#				subject_loyalty <= 35
+#			}
+#			owns = 4782
+#		}
+#		effect = {
+#			p:4782.area = {
+#				every_area_province = {
+#					set_owned_by = c:ELM
+#				}
+#			}
+#			c:ELM = {
+#				add_country_modifier = {
+#					name = elam_tamed
+#					duration = -1
+#				}
+#			}
+#		}
+#		ai_will_do = {
+#			base = 1
+#		}
+#}
