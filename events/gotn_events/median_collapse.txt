@@ -14,8 +14,11 @@ median_collapse.1 = { # Initial
                     state_loyalty <= 50
                 }
                 AND = {
-                    current_date > 458.10.10
-                    war_exhaustion >= 5
+                    current_date > 465.10.10
+                    war = yes
+                }
+                c:ARM = {
+                    loyalty_to_overlord <= 35
                 }
             }
         }
