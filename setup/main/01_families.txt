@@ -708,5 +708,12 @@ family={
 			culture=macedonian
 			owner=MAC
 		}
+		#GOTN Iran
+		2200 = {
+			key = "Cyaxarid"
+			prestige = 300
+			culture=median
+			owner=MAP
+		}
 	}
 }

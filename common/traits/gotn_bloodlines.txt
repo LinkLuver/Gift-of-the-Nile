@@ -19,3 +19,13 @@ ahmesid = {
 		stability_monthly_change = 0.03
 	}
 }
+
+cyaxarid = {
+	type = status
+
+	prominence = 30
+	martial = 1
+	country = {
+		land_morale_modifier = 0.05
+	}
+}

@@ -65,6 +65,7 @@ bloodline_on_born_effect = {
     #GOTN Bloodlines
     pass_down_bloodline_character_effect = { BLOODLINE = "thutmosid" }
     pass_down_bloodline_character_effect = { BLOODLINE = "ahmesid" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "cyaxarid" }
 }
 
 bloodline_setup_effect = {
@@ -131,6 +132,7 @@ bloodline_setup_effect = {
     ## GOTN
     pass_down_bloodline_effect = { BLOODLINE = "thutmosid" }
     pass_down_bloodline_effect = { BLOODLINE = "ahmesid" }
+    pass_down_bloodline_effect = { BLOODLINE = "cyaxarid" }
 }
 
 pass_down_bloodline_effect = {

@@ -1106,6 +1106,7 @@ country = {
 
 		MAP = {
 			family = 31
+			family = 2200
 			government = aristocratic_monarchy
 			primary_culture = median
 			religion = mithra_religion
@@ -1117,6 +1118,13 @@ country = {
 				civic_tech={ level=2 progress=0 }
 				oratory_tech={ level=2 progress=0 }
 				religious_tech= { level=2 progress=0  }
+			}
+
+			historical_regnal_numbers = {
+				Cyaxares = 2
+				Darius = 1
+				Astyages = 1
+				Amytis = 1
 			}
 
 			treasures = { 192 }
