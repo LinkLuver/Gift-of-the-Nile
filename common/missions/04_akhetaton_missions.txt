@@ -33,7 +33,12 @@
     }
     akhetaton_missions_task_2 = {
         icon = "task_political"
-        allow = {}
+        duration = 365
+        allow = {
+        }
+        on_start = {
+            trigger_event = me_akhetaton.200
+        }
         on_completion = {
             trigger_event = me_akhetaton.2
             show_as_tooltip = {

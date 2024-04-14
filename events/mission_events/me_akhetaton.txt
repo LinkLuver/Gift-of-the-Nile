@@ -18,12 +18,40 @@ me_akhetaton.2 = {
 
     title = me_akhetaton_2_title
     desc = me_akhetaton_2_desc
-    picture = great_library
+    picture = natural_disaster
 
     option = {
         name = "me_akhetaton_2.a"
         custom_tooltip = me_akhetaton_2_tooltip
-
+        if = {
+            limit = {
+                char:519 = {
+                    is_married = yes
+                }
+            }
+            char:519.spouse = {
+                death = {
+                    death_reason = death_claimed_by_the_underworld
+                    silent = yes
+                }
+            }
+        }
+        if = {
+            limit = {
+                any_character = {
+                    is_child_of = char:519
+                }
+            }
+            every_character = {
+                limit = {
+                    is_child_of = char:519
+                }
+                death = {
+                    death_reason = death_claimed_by_the_underworld
+                    silent = yes
+                }
+            }
+        }
     }
 }
 me_akhetaton.3 = {
@@ -323,5 +351,49 @@ me_akhetaton.25 = {
         name = "me_akhetaton_25.a"
         custom_tooltip = me_akhetaton_25_tooltip
 
+    }
+}
+me_akhetaton.666 = {
+    type = country_event
+    title = me_akhetaton_666_title
+    desc = me_akhetaton_666_desc
+    picture = natural_disaster
+
+    trigger_if = {
+        OR = {
+            any_character = {
+                is_child_of = char:518
+                is_female = no
+            }
+            any_character = {
+                is_child_of = char:519
+            }
+            any_character = {
+                is_spouse_of = char:519
+            }
+        }
+    }
+
+    option = {
+        name = "me_akhetaton_666.a"
+        random_character = {
+            limit = {
+                OR = {
+                    AND = {
+                        is_child_of = char:518
+                        is_female = no
+                    }
+                    AND = {
+                        char:519 = { has_variable = cursed_child_var }
+                        is_child_of = char:519
+                    }
+                    is_spouse_of = char:519
+                }
+            }
+            death = {
+                death_reason = death_cursed_by_old_gods
+                killer = silent
+            }
+        }
     }
 }

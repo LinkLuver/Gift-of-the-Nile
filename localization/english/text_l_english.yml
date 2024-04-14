@@ -509,3 +509,6 @@
  boar_vessel.1.b:0 "Go use it on the farm or something, we don't need this"
  boar_vessel:0 "Boar Vessel"
  boar_vessel_desc:0 "A clay jar in the shape of a wild boar. It gives off an ominous omen..."
+
+ #death reason
+ death_cursed_by_old_gods:0 "the curse of the old gods."
