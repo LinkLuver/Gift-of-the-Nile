@@ -880,6 +880,18 @@ country = {
 		}
 		#Mesopotamia
 		SEL = {
+			family = 2202
+			historical_regnal_numbers = {
+				Nabopolassar = 1
+				Nebuchadnezzar = 2
+				Amel-Marduk = 1
+				Neriglissar = 1
+				Labashi-Marduk = 1
+				Nabonidus = 1
+				Kudurru = 1
+				Nabonassir = 1
+				Belshazzar = 1
+			}
 			government = plutocratic_monarchy
 			primary_culture = babylonian
 			religion = mesopotamian_religion

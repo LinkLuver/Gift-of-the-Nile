@@ -26,7 +26,7 @@ cyaxarid = {
 	prominence = 30
 	martial = 1
 	country = {
-		land_morale_modifier = 0.05
+		army_maintenance_cost = -0.10
 	}
 }
 
@@ -36,6 +36,16 @@ shushunid = {
 	prominence = 10
 	zeal = 1
 	country = {
-		discipline = 0.05
+		land_morale_modifier = 0.05
+	}
+}
+
+nassirid = {
+	type = status
+
+	prominence = 20
+	charisma = 1
+	country = {
+		build_cost = -0.10
 	}
 }

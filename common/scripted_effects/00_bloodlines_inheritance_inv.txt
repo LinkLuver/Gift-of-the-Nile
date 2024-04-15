@@ -67,6 +67,7 @@ bloodline_on_born_effect = {
     pass_down_bloodline_character_effect = { BLOODLINE = "ahmesid" }
     pass_down_bloodline_character_effect = { BLOODLINE = "cyaxarid" }
     pass_down_bloodline_character_effect = { BLOODLINE = "shushunid" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "nassirid" }
 }
 
 bloodline_setup_effect = {
@@ -135,6 +136,7 @@ bloodline_setup_effect = {
     pass_down_bloodline_effect = { BLOODLINE = "ahmesid" }
     pass_down_bloodline_effect = { BLOODLINE = "cyaxarid" }
     pass_down_bloodline_effect = { BLOODLINE = "shushunid" }
+    pass_down_bloodline_effect = { BLOODLINE = "nassirid" }
 }
 
 pass_down_bloodline_effect = {

@@ -708,7 +708,7 @@ family={
 			culture=macedonian
 			owner=MAC
 		}
-		#GOTN Iran
+		#GOTN Persiapotamia
 		2200 = {
 			key = "Cyaxarid"
 			prestige=300
@@ -720,6 +720,12 @@ family={
 			prestige=100
 			culture=elamite
 			owner=ELM
+		}
+		2202 = {
+			key = "Nassirid"
+			prestige=200
+			culture=babylonian
+			owner=SEL
 		}
 	}
 }
