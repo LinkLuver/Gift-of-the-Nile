@@ -1807,6 +1807,7 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	4799 = { #Persepolis
 		library_building = 4
+		aqueduct_building = 2
 		treasure_slots = { treasures = { 189 190 } }
 		modifier = { modifier = city_of_kurush always = yes }
 	}
@@ -1814,10 +1815,9 @@ provinces = { #Any entry must contain a comment with city name.
 		aqueduct_building = 1
 	}
 	4951 = { #Pasargadae
-		library_building=4
-		fortress_building=1
-		aqueduct_building=2
-		tax_office_building=1
+		library_building = 3
+		fortress_building = 1
+		aqueduct_building = 1
 		treasure_slots = { treasures = { 188 228 } }
 		modifier = { modifier = persian_capital_modifier always = yes }
 	}
