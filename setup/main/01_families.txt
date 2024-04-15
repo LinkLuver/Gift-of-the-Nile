@@ -704,16 +704,22 @@ family={
 		#GOTN Macedon
 		2100 = {
 			key = "Argead"
-			prestige = 300
+			prestige=300
 			culture=macedonian
 			owner=MAC
 		}
 		#GOTN Iran
 		2200 = {
 			key = "Cyaxarid"
-			prestige = 300
+			prestige=300
 			culture=median
 			owner=MAP
+		}
+		2201 = {
+			key = "Shushunid"
+			prestige=100
+			culture=elamite
+			owner=ELM
 		}
 	}
 }

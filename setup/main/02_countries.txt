@@ -915,6 +915,7 @@ country = {
 		}
 
 		ELM = {
+			family = 2201
 			government = aristocratic_monarchy
 			primary_culture = elamite
 			religion = elamite_pantheon
@@ -933,7 +934,27 @@ country = {
 				951 952 966 4779 4780 #pars_region
 				4787 4786 4782 4785 4784 969 940 941 971
 			}
-
+			historical_regnal_numbers = {
+				Indada = 1
+				Shutur-Nahhunte = 1
+				Humban-kitin = 1
+				Hallutash-Inshushinak = 2
+				Humban-Shuturuk = 1
+				Ummanunu = 1
+				Bahuri = 1
+				Shilhak-Inshushinak = 2
+				Atta-hamiti-Inshushinak = 1
+				Tepti-Humban-Inshushinak = 2
+				Pa'e = 1
+				Tammaritu = 2
+				Humban-haltash = 3
+				Indabibi = 1
+				Tammaritu = 2
+				Ummanigash = 1
+				Humban-nikash = 2
+				Teumman = 1
+				Urtak = 1
+			}
 		}
 
 		ADI = {

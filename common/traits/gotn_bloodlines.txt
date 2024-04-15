@@ -29,3 +29,13 @@ cyaxarid = {
 		land_morale_modifier = 0.05
 	}
 }
+
+shushunid = {
+	type = status
+
+	prominence = 10
+	zeal = 1
+	country = {
+		discipline = 0.05
+	}
+}
