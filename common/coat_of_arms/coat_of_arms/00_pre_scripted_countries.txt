@@ -616,30 +616,33 @@ CLC = {
 	}
 }
 
-MAP={
+MAP = {
 	pattern="pattern_solid.tga"
-	color1=pitch_black	color2=bone_white	color3=roman_red	colored_emblem={
-		color1=roman_gold		color2=roman_red		texture="ce_gryphon_01.dds"
-		mask={
-			1 2 3 
+	color1 = "ck2_black"
+	color2 = "very_light_green"
+
+	colored_emblem={
+		color1 = "navy_blue"
+		color2 = "neo_kirata_copper"
+		texture="ce_border_rug_01.tga"
+		instance={
+			position = { 0.50 0.50 }
+			scale = { 1.0 1.0 }
 		}
 		instance={
-			position={ 0.500000 0.500000 }
-			scale={ 0.750000 0.750000 }
-			depth=0.010000
-			rotation=0
+			position = { 0.50 0.50 }
+			scale = { 1.0 1.0 }
+			rotation = 180
 		}
 	}
+
 	colored_emblem={
-		color1=roman_gold		color2=roman_red		texture="ce_border_simple_02.tga"
-		mask={
-			1 2 3 
-		}
+		color1 = "neo_kirata_copper"
+		color2 = "ck2_yellow"
+		texture="ce_persian_1_better.dds"
 		instance={
-			position={ 0.500000 0.500000 }
-			scale={ 1.000000 1.000000 }
-			depth=0.010000
-			rotation=0
+			position = { 0.50 0.50 }
+			scale = { 0.85 0.85 }
 		}
 	}
 }
