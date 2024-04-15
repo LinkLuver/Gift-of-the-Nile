@@ -3,9 +3,9 @@
 	529={
 		first_name="Tepti-Humban-Inshushinak"
 		family = c:ELM.fam:Shushunid
-		birth_date=396.6.30
+		birth_date=417.4.11
 		culture="elamite"
-		religion="mithra_religion"
+		religion="elamite_pantheon"
 		no_stats=yes
 		add_martial=10
 		add_charisma=5
@@ -18,7 +18,7 @@
 		add_gold=300
 		add_popularity=100
 		c:ELM = {
-			set_as_ruler=char:528
+			set_as_ruler=char:529
 		}
 	}
 }
