@@ -16,7 +16,10 @@ diplomacy = {
 	dependency = { first = MAP second = CAP subject_type = satrapy }
 	dependency = { first = MAP second = ARM subject_type = satrapy }
 	dependency = { first = MAP second = SPH subject_type = satrapy }
+	dependency = { first = MAP second = MFX subject_type = satrapy }
+	dependency = { first = MAP second = ARE subject_type = satrapy }
 	dependency = { first = MAP second = AR2 subject_type = tributary }
+
 
 	#Lydian Kingdom
 	dependency = { first = LYD second = PHR subject_type = satrapy }
