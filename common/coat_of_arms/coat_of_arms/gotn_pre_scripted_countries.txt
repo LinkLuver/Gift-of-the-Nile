@@ -159,3 +159,73 @@ CANAAN_FLAG = {
 		instance = { scale = { 0.9 0.75 }}
 	}
 }
+
+ELM = {
+	pattern="pattern_solid.tga"
+	color1 = "very_light_green"
+	color2 = "very_light_green"
+
+	colored_emblem={
+		color1 = "dark_green"
+		color2 = "roman_gold"
+		texture="ce_block.dds"
+		instance={
+			position = { 0.50 0.11 }
+			scale = { 1.0 0.22 }
+		}
+		instance={
+			position = { 0.50 0.89 }
+			scale = { 1.0 0.22 }
+		}
+	}
+
+	colored_emblem={
+		color1 = "pure_white"
+		color2 = "roman_gold"
+		texture="ce_susan.dds"
+		instance={
+			position = { 0.50 0.48 }
+			scale = { 1.0 1.0 }
+		}
+		instance={
+			position = { 0.50 0.48 }
+			scale = { 1.0 1.0 }
+		}
+		instance={
+			position = { 0.50 0.48 }
+			scale = { 1.0 1.0 }
+		}
+	}
+
+	colored_emblem={
+		color1 = "pure_white"
+		color2 = "roman_gold"
+		texture="ce_anshan.dds"
+		instance={
+			position = { 0.50 -0.28 }
+			scale = { 1.0 1.0 }
+		}
+		instance={
+			position = { 0.50 -0.28 }
+			scale = { 1.0 1.0 }
+		}
+		instance={
+			position = { 0.50 -0.28 }
+			scale = { 1.0 1.0 }
+		}
+	}
+
+	colored_emblem={
+		color1 = "pink_skin"
+		color2 = "roman_gold"
+		texture="ce_goatfish_01.dds"
+		instance={
+			position = { 0.70 0.50 }
+			scale = { 0.50 0.50 }
+		}
+		instance={
+			position = { 0.30 0.50 }
+			scale = { -0.50 0.50 }
+		}
+	}
+}
