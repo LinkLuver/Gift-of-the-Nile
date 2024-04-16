@@ -359,17 +359,21 @@ me_akhetaton.666 = {
     desc = me_akhetaton_666_desc
     picture = natural_disaster
 
-    trigger_if = {
+    trigger = {
+        tag = ATN
         OR = {
             any_character = {
                 is_child_of = char:518
                 is_female = no
+                is_alive = yes
             }
             any_character = {
                 is_child_of = char:519
+                is_alive = yes
             }
             any_character = {
                 is_spouse_of = char:519
+                is_alive = yes
             }
         }
     }
@@ -382,10 +386,12 @@ me_akhetaton.666 = {
                     AND = {
                         is_child_of = char:518
                         is_female = no
+                        is_alive = yes
                     }
                     AND = {
                         char:519 = { has_variable = cursed_child_var }
                         is_child_of = char:519
+                        is_alive = yes
                     }
                     is_spouse_of = char:519
                 }
