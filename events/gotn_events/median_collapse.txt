@@ -379,13 +379,15 @@ median_collapse.10 = {
     }
 }
 
-#Mazdayasna Satrap Leaves
+#Mazdayasna Satraps Leave
 median_collapse.20 = {
     type = country_event
     title = median_collapse_20_title
     desc = median_collapse_20_desc
     picture = dagger_behind_back
     right_portrait = c:SAG.current_ruler
+    right_portrait = c:ARE.current_ruler
+    right_portrait = c:MFX.current_ruler
     left_portrait = current_ruler
 
     trigger = {
@@ -395,9 +397,19 @@ median_collapse.20 = {
 
     immediate = {
         release_subject = c:SAG
+        release_subject = c:ARE
+        release_subject = c:MFX
         c:PES = {
             make_subject = {
                 target = c:SAG
+                type = satrapy
+            }
+            make_subject = {
+                target = c:MFX
+                type = satrapy
+            }
+            make_subject = {
+                target = c:ARE
                 type = satrapy
             }
             trigger_event = {
