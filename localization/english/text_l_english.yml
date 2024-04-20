@@ -412,8 +412,12 @@
  war_goal_egyptian_unification_wargoal:0 "4th Intermediate Period"
  war_goal_egyptian_unification_wargoal_desc:0 "The 4th Intermediate Period is a time of chaos and discomfort in the lands of the Nile. As a Pharoanic Dynasty, we can directly annex any land in Kemet.\n\nThis resembles an #Y Imperial Wargoal#! casus belli."
  egyptian_unification_wargoal:0 "Pharaonic Conquest"
-
- #New Terrain
+ war_goal_gulf_war_wargoal:0 "War for the Gulf"
+ war_goal_gulf_war_wargoal_desc:0 "#E The Gulf#! is a seedbed of strife and tensions, and wars here are fought with the intent to remove competitors from the equation. As a nation embroiled in this strife, we may take part in this, and levy our strength against our enemies. Any #Y provinces#! immediately fall to the #R occupier#!."
+ fratricide_wargoal:0 "Brothers' War"
+ war_goal_fratricide_wargoal:0 "Brothers' War"
+ war_goal_fratricide_wargoal_desc:0 "#E Pārsā#! and #E Māda#!, two brother nations, born out of one conflict, now drawn into another. \n\n There can only be #R One Outcome.#!"
+ gulf_war_wargoal:0 "War for the Gulf"
  oasis:0 "Oasis"
  oasis_desc:0 "A desert Oasis, full of life in a land surrounded by endless desert."
  desert_hills:0 "Desert Hills"
@@ -502,3 +506,6 @@
  boar_vessel.1.b:0 "Go use it on the farm or something, we don't need this"
  boar_vessel:0 "Boar Vessel"
  boar_vessel_desc:0 "A clay jar in the shape of a wild boar. It gives off an ominous omen..."
+
+ #death reason
+ death_cursed_by_old_gods:0 "the curse of the old gods."

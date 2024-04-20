@@ -1,0 +1,19 @@
+﻿namespace = gotn_formable_event
+
+gotn_formable_event.1 = { #Formation of Canaan, religion change + claims
+	type = country_event
+	hidden = yes
+
+	immediate = {
+		set_country_religion = carthaginian_pantheon
+		every_province = {
+			limit = {
+				OR = {
+				    is_in_region = syria_region
+				    is_in_region = palestine_region
+				}
+			}
+			add_claim = root
+		}
+	}
+}

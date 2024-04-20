@@ -880,6 +880,18 @@ country = {
 		}
 		#Mesopotamia
 		SEL = {
+			family = 2202
+			historical_regnal_numbers = {
+				Nabopolassar = 1
+				Nebuchadnezzar = 2
+				Amel-Marduk = 1
+				Neriglissar = 1
+				Labashi-Marduk = 1
+				Nabonidus = 1
+				Kudurru = 1
+				Nabonassir = 1
+				Belshazzar = 1
+			}
 			government = plutocratic_monarchy
 			primary_culture = babylonian
 			religion = mesopotamian_religion
@@ -915,6 +927,7 @@ country = {
 		}
 
 		ELM = {
+			family = 2201
 			government = aristocratic_monarchy
 			primary_culture = elamite
 			religion = elamite_pantheon
@@ -933,13 +946,33 @@ country = {
 				951 952 966 4779 4780 #pars_region
 				4787 4786 4782 4785 4784 969 940 941 971
 			}
-
+			historical_regnal_numbers = {
+				Indada = 1
+				Shutur-Nahhunte = 1
+				Humban-kitin = 1
+				Hallutash-Inshushinak = 2
+				Humban-Shuturuk = 1
+				Ummanunu = 1
+				Bahuri = 1
+				Shilhak-Inshushinak = 2
+				Atta-hamiti-Inshushinak = 1
+				Tepti-Humban-Inshushinak = 2
+				Pa'e = 1
+				Tammaritu = 2
+				Humban-haltash = 3
+				Indabibi = 1
+				Tammaritu = 2
+				Ummanigash = 1
+				Humban-nikash = 2
+				Teumman = 1
+				Urtak = 1
+			}
 		}
 
 		ADI = {
-			family = 14
+			family = 2203
 			family = 15
-			family = 16
+			family = 2204
 			family = 17
 
 			government = assyrian_imperium
@@ -1020,7 +1053,7 @@ country = {
 			primary_culture = pasargadi
 			religion = zoroaster
 			diplomatic_stance = appeasement_stance
-			capital = 4799
+			capital = 4951
 
 			technology={
 			military_tech={ level=2 progress=0 }
@@ -1088,7 +1121,7 @@ country = {
 			primary_culture = sagartian
 			religion = zoroaster
 			diplomatic_stance = appeasement_stance
-			capital = 4799
+			capital = 6605
 
 			technology={
 			military_tech={ level=2 progress=0 }
@@ -1106,10 +1139,11 @@ country = {
 
 		MAP = {
 			family = 31
+			family = 2200
 			government = aristocratic_monarchy
 			primary_culture = median
 			religion = mithra_religion
-			capital = 1515
+			capital = 1595
 			diplomatic_stance=appeasement_stance
 
 			technology={
@@ -1117,6 +1151,13 @@ country = {
 				civic_tech={ level=2 progress=0 }
 				oratory_tech={ level=2 progress=0 }
 				religious_tech= { level=2 progress=0  }
+			}
+
+			historical_regnal_numbers = {
+				Cyaxares = 2
+				Darius = 1
+				Astyages = 1
+				Amytis = 1
 			}
 
 			treasures = { 192 }
@@ -1135,8 +1176,6 @@ country = {
 				4994 3459 3458 4995 3457 3456 3439 #parthia_komishene
 				1595 4963 4964 4981 4982 4980 4979 3391 4976 4974 3392 4975 #ecbatana
 				3442 3443 6509 3433 3398 4973 6510 6507 3432 3397 4972 #aspadana
-				3399 3431 6508 3419 3418 3417 3428 3430 #media_felix
-				6500 6501 6505 6502 6503 6504 3475 3474 3472 3471 3470 3460 #namek
 				997 1502 1503 1504 #North of Lake Urmia
 				846 987 988 989 991 992 995 996 998 999 1560 1561 #vaspurakan_region
 				1500 1527 1528 1529 1530 1531 1532 1534 1539 1559 #parsatunik_region
@@ -1149,6 +1188,44 @@ country = {
 				{ deity = 301 } # Sraosha
 				{ deity = 302 } # Zoroaster
 				{ deity = 303 } # Tishtrya
+			}
+		}
+
+		MFX = {
+			government = despotic_monarchy
+			primary_culture = median
+			religion = zoroaster
+			diplomatic_stance = appeasement_stance
+			capital = 3428
+
+			technology={
+			military_tech={ level=2 progress=0 }
+			civic_tech={ level=2 progress=0 }
+			oratory_tech={ level=2 progress=0 }
+			religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				3399 3431 6508 3419 3418 3417 3428 3430 #media_felix
+			}
+		}
+
+		ARE = {
+			government = despotic_monarchy
+			primary_culture = sagartian
+			religion = zoroaster
+			diplomatic_stance = appeasement_stance
+			capital = 3470
+
+			technology={
+			military_tech={ level=2 progress=0 }
+			civic_tech={ level=2 progress=0 }
+			oratory_tech={ level=2 progress=0 }
+			religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				6500 6501 6505 6502 6503 6504 3475 3474 3472 3471 3470 3460 #namek
 			}
 		}
 
@@ -1619,7 +1696,7 @@ country = {
 		}
 
 		PAL = {
-			government = despotic_monarchy
+			government = oligarchic_republic
 			primary_culture = qedarite
 			religion = arabian_pantheon
 
@@ -11116,8 +11193,8 @@ country = {
 
 		DIO = {
 			government = plutocratic_monarchy
-			primary_culture = puntic
-			religion = puntic_religion
+			primary_culture = sheban
+			religion = judaism
 			diplomatic_stance=trading_stance
 
 			technology={
@@ -11541,6 +11618,7 @@ country = {
 
 			own_control_core = {
 				6803 6797 6798 6804 6805 6799 5395 6800 5394 6801 5396 6802 5397 6708 6718 6707 6709
+				9236 9237 9238 9239 9240 9241 9242 9243
 			}
 		}
 

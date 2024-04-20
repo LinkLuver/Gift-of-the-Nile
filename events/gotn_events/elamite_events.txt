@@ -1,0 +1,135 @@
+﻿#namespace = statrap_elam
+#
+#satrap_elam.1 = { # Bribe
+#    type = country_event
+#    title = satrap_elam_1_title
+#    desc = satrap_elam_1_desc
+#    picture = persepolis
+#
+#    option = { # Temp
+#        name = "satrap_elam_1.a"
+#    }
+#    option = { # Perma
+#        name = "satrap_elam_1.b"
+#    }
+#    option = { # Nevermind
+#        name = "satrap_elam_1.c"
+#    }
+#}
+#
+#satrap_elam.10 = {
+#    type = country_event
+#    title = satrap_elam_10_title
+#    desc = satrap_elam_10_desc
+#    picture = persepolis
+#
+#    trigger = {
+#        any_current_war = {
+#            any_war_participant = {
+#                THIS = scope:elam_overlord
+#            }
+#        }
+#        is_subject = yes
+#        tag = ELM
+#        NOT = { has_variable = elam_tamed }
+#        NOT = { has_variable = elam_bribed }
+#    }
+#
+#    immediate = {
+#        random_country = {
+#            limit = {
+#                is_overlord = yes
+#                any_subject = {
+#                    tag = ELM
+#                }
+#            }
+#            save_scope_as = elam_overlord
+#        }
+#        random_active_war = {
+#            limit = {
+#                any_war_participant = {
+#                    THIS = scope:elam_overlord
+#                }
+#            }
+#            save_scope_as = war_with_elam_in_it
+#        }
+#    }
+#
+#    option = {
+#        name = "satrap_elam_10.a"
+#        custom_tooltip = elam_cooldown_1
+#        scope:elam_overlord = {
+#            trigger_event = {
+#                id = satrap_elam.11
+#                days = { 1 3 }
+#            }
+#        }
+#    }
+#    option = {
+#        name = "satrap_elam_10.b"
+#    }
+#    option = {
+#        name = "satrap_elam_10.c"
+#        every_current_war = { remove_from_war = root }
+#        add_stability = -10
+#        reverse_add_opinion = {
+#            target = scope:elam_overlord
+#            modifier = opinion_dishonored_alliance
+#        }
+#        add_political_influence = -50
+#    }
+#}
+#
+#satrap_elam.11 = {
+#    type = country_event
+#    title = satrap_elam_11_title
+#    desc = satrap_elam_11_desc
+#    picture = persepolis
+#
+#    immediate = {
+#        random_country = {
+#            limit = {
+#                any_subject = {
+#                    tag = ELM
+#                }
+#            }
+#            save_scope_as = elam_satrap
+#        }
+#    }
+#
+#    option = { # Pay them temp
+#        name = "satrap_elam_11.a"
+#        custom_tooltip = elam_cooldown_2
+#        add_legitimacy = -5
+#        add_treasury = -100
+#        scope:elam_satrap = {
+#            set_variable = {
+#                name = elam_tamed
+#                days = 1095
+#            }
+#            add_country_modifier = {
+#                name = elam_tamed
+#                days = 1095
+#            }
+#        }
+#    }
+#    option = { # Don't pay them
+#        name = "satrap_elam_11.b"
+#        every_current_war = { remove_from_war = scope:elam_satrap }
+#        add_legitimacy = -5
+#        reverse_add_opinion = {
+#            target = scope:elam_satrap
+#            modifier = unfit_overlord
+#        }
+#    }
+#    option = { # Screw them
+#        name = "satrap_elam_11.c"
+#        release_subject = scope:elam_satrap
+#        add_stability = -5
+#        scope:elam_satrap = {
+#            every_owned_province = {
+#                add_claim = root
+#            }
+#        }
+#    }
+#}#

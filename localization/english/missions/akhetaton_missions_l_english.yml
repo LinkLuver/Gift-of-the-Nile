@@ -1,0 +1,222 @@
+﻿l_english:
+ 
+ akhetaton_missions:0 "Akhetaton Missions"
+ akhetaton_missions_DESCRIPTION:0 "The final remnant of the last golden age of Egypt #E (Late Kingdom Egypt)#!, the #E 27th Dynasty#! was an #Y Atenic#! traditionalist dynasty responsible for a major ressurgence of #Y Akhenaten's#! religion. While #E Kemet#! was indeed great in the earlier #E 27th#!, the later kings of #E Akhetaton#! were plagued by extreme genetic failure stemming from their preference for #Y Thutmosid#! brides. The ancient familial line is tied to #Y Akhenaten#! himself, but it appears as though the old gods are having their revenge upon the #Y Atenists#!.\n\nYet, #Y Aten's#! light has yet to fade from the open temple in #E Akhetaton#!. And where there's a glimmer of light, there is a glimmer of hope; and that hope is the revival of #E Kemet#! under the #E Pharaoh#! in #E Akhetaton#!. To do so, we must defeat the #E Henen-Nesutans#!, the #E Wasetians#!, and reunite the #E Delta#!. A tall order indeed, but it must be done for the destruction of #E Isfet#! and prominence of the #Y Aten#!."
+ akhetaton_missions_CRITERIA_DESCRIPTION:0 "This mission will be completed when #E Kemet#! is united under the #E 27th Dynasty of Egypt#! lead by the light of #Y Aten#!."
+ akhetaton_missions_BUTTON_TOOLTIP:0 "The light of #E Aten#! will never fade!"
+ 
+ #Missions
+ 
+ akhetaton_missions_task_1:0 "The Dying Dynasty"
+ akhetaton_missions_task_1_DESC:0 "The #E 27th Dynasty#! is the last remnant of the once great #E Late Kingdom#! of Kemet. Thus, it's perhaps no surprise that the dynastic line itself seems at a very advanced age. The issues of fertility plague the Queen, while the King himself too seems no longer fertile enough to produce an offspring. The next #E Pharaoh#! to be is thus a woman. This is not unheard of, however, the timing could not be worse with the decline of the #E 27th Dynasty#!. Luckily #E Iqrefaten IV Iqrefatid#! has an idea; step down from most of his #E Pharaonic#! roles and let #E Ankhsenebaten II Iqrefatid#! handle the state's affairs. It's risky, but it may be the only way to preserve the dynasty."
+ 
+ akhetaton_missions_task_2:0 "Curse of the Old Gods"
+ akhetaton_missions_task_2_DESC:0 "It is well known that the curse of the old gods plagues the #E 27th Dynasty#!. Who knows why, but the #E Thutmosid#! line, as pureblood as it is, seems to be unable to sustain itself any longer! But the Aten is stronger, all gods will yeild to the one true god and his prophet, #Y Akhenaten#!! We must pray that any child of #E Ankhsenebaten II Iqrefatid#! is not cursed any longer."
+ 
+ akhetaton_missions_task_3:0 ""
+ akhetaton_missions_task_3_DESC:0 ""
+ 
+ akhetaton_missions_task_4:0 ""
+ akhetaton_missions_task_4_DESC:0 ""
+ 
+ akhetaton_missions_task_5:0 ""
+ akhetaton_missions_task_5_DESC:0 ""
+ 
+ akhetaton_missions_task_6:0 ""
+ akhetaton_missions_task_6_DESC:0 ""
+ 
+ akhetaton_missions_task_7:0 ""
+ akhetaton_missions_task_7_DESC:0 ""
+ 
+ akhetaton_missions_task_8:0 ""
+ akhetaton_missions_task_8_DESC:0 ""
+ 
+ akhetaton_missions_task_9:0 ""
+ akhetaton_missions_task_9_DESC:0 ""
+ 
+ akhetaton_missions_task_10:0 ""
+ akhetaton_missions_task_10_DESC:0 ""
+ 
+ akhetaton_missions_task_11:0 ""
+ akhetaton_missions_task_11_DESC:0 ""
+ 
+ akhetaton_missions_task_12:0 ""
+ akhetaton_missions_task_12_DESC:0 ""
+ 
+ akhetaton_missions_task_13:0 ""
+ akhetaton_missions_task_13_DESC:0 ""
+ 
+ akhetaton_missions_task_14:0 ""
+ akhetaton_missions_task_14_DESC:0 ""
+ 
+ akhetaton_missions_task_15:0 ""
+ akhetaton_missions_task_15_DESC:0 ""
+ 
+ akhetaton_missions_task_16:0 ""
+ akhetaton_missions_task_16_DESC:0 ""
+ 
+ akhetaton_missions_task_17:0 ""
+ akhetaton_missions_task_17_DESC:0 ""
+ 
+ akhetaton_missions_task_18:0 ""
+ akhetaton_missions_task_18_DESC:0 ""
+ 
+ akhetaton_missions_task_19:0 ""
+ akhetaton_missions_task_19_DESC:0 ""
+ 
+ akhetaton_missions_task_20:0 ""
+ akhetaton_missions_task_20_DESC:0 ""
+ 
+ akhetaton_missions_task_21:0 ""
+ akhetaton_missions_task_21_DESC:0 ""
+ 
+ akhetaton_missions_task_22:0 ""
+ akhetaton_missions_task_22_DESC:0 ""
+ 
+ akhetaton_missions_task_23:0 ""
+ akhetaton_missions_task_23_DESC:0 ""
+ 
+ akhetaton_missions_task_24:0 ""
+ akhetaton_missions_task_24_DESC:0 ""
+ 
+ akhetaton_missions_task_25:0 ""
+ akhetaton_missions_task_25_DESC:0 ""
+ 
+ 
+ #Tooltips
+ 
+ 
+ 
+ #Modifiers
+ 
+ 
+ 
+ #Events
+ me_akhetaton_1_title:0 "$akhetaton_missions_task_1$"
+ me_akhetaton_1_desc:0 ""
+ me_akhetaton_1.a:0 ""
+ me_akhetaton_1_tooltip:0 "The mission task '#Y $akhetaton_missions_task_1$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_2_title:0 "$akhetaton_missions_task_2$"
+ me_akhetaton_2_desc:0 ""
+ me_akhetaton_2.a:0 ""
+ me_akhetaton_2_tooltip:0 "The mission task '#Y $akhetaton_missions_task_2$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_3_title:0 "$akhetaton_missions_task_3$"
+ me_akhetaton_3_desc:0 ""
+ me_akhetaton_3.a:0 ""
+ me_akhetaton_3_tooltip:0 "The mission task '#Y $akhetaton_missions_task_3$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_4_title:0 "$akhetaton_missions_task_4$"
+ me_akhetaton_4_desc:0 ""
+ me_akhetaton_4.a:0 ""
+ me_akhetaton_4_tooltip:0 "The mission task '#Y $akhetaton_missions_task_4$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_5_title:0 "$akhetaton_missions_task_5$"
+ me_akhetaton_5_desc:0 ""
+ me_akhetaton_5.a:0 ""
+ me_akhetaton_5_tooltip:0 "The mission task '#Y $akhetaton_missions_task_5$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_6_title:0 "$akhetaton_missions_task_6$"
+ me_akhetaton_6_desc:0 ""
+ me_akhetaton_6.a:0 ""
+ me_akhetaton_6_tooltip:0 "The mission task '#Y $akhetaton_missions_task_6$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_7_title:0 "$akhetaton_missions_task_7$"
+ me_akhetaton_7_desc:0 ""
+ me_akhetaton_7.a:0 ""
+ me_akhetaton_7_tooltip:0 "The mission task '#Y $akhetaton_missions_task_7$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_8_title:0 "$akhetaton_missions_task_8$"
+ me_akhetaton_8_desc:0 ""
+ me_akhetaton_8.a:0 ""
+ me_akhetaton_8_tooltip:0 "The mission task '#Y $akhetaton_missions_task_8$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_9_title:0 "$akhetaton_missions_task_9$"
+ me_akhetaton_9_desc:0 ""
+ me_akhetaton_9.a:0 ""
+ me_akhetaton_9_tooltip:0 "The mission task '#Y $akhetaton_missions_task_9$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_10_title:0 "$akhetaton_missions_task_10$"
+ me_akhetaton_10_desc:0 ""
+ me_akhetaton_10.a:0 ""
+ me_akhetaton_10_tooltip:0 "The mission task '#Y $akhetaton_missions_task_10$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_11_title:0 "$akhetaton_missions_task_11$"
+ me_akhetaton_11_desc:0 ""
+ me_akhetaton_11.a:0 ""
+ me_akhetaton_11_tooltip:0 "The mission task '#Y $akhetaton_missions_task_11$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_12_title:0 "$akhetaton_missions_task_12$"
+ me_akhetaton_12_desc:0 ""
+ me_akhetaton_12.a:0 ""
+ me_akhetaton_12_tooltip:0 "The mission task '#Y $akhetaton_missions_task_12$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_13_title:0 "$akhetaton_missions_task_13$"
+ me_akhetaton_13_desc:0 ""
+ me_akhetaton_13.a:0 ""
+ me_akhetaton_13_tooltip:0 "The mission task '#Y $akhetaton_missions_task_13$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_14_title:0 "$akhetaton_missions_task_14$"
+ me_akhetaton_14_desc:0 ""
+ me_akhetaton_14.a:0 ""
+ me_akhetaton_14_tooltip:0 "The mission task '#Y $akhetaton_missions_task_14$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_15_title:0 "$akhetaton_missions_task_15$"
+ me_akhetaton_15_desc:0 ""
+ me_akhetaton_15.a:0 ""
+ me_akhetaton_15_tooltip:0 "The mission task '#Y $akhetaton_missions_task_15$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_16_title:0 "$akhetaton_missions_task_16$"
+ me_akhetaton_16_desc:0 ""
+ me_akhetaton_16.a:0 ""
+ me_akhetaton_16_tooltip:0 "The mission task '#Y $akhetaton_missions_task_16$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_17_title:0 "$akhetaton_missions_task_17$"
+ me_akhetaton_17_desc:0 ""
+ me_akhetaton_17.a:0 ""
+ me_akhetaton_17_tooltip:0 "The mission task '#Y $akhetaton_missions_task_17$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_18_title:0 "$akhetaton_missions_task_18$"
+ me_akhetaton_18_desc:0 ""
+ me_akhetaton_18.a:0 ""
+ me_akhetaton_18_tooltip:0 "The mission task '#Y $akhetaton_missions_task_18$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_19_title:0 "$akhetaton_missions_task_19$"
+ me_akhetaton_19_desc:0 ""
+ me_akhetaton_19.a:0 ""
+ me_akhetaton_19_tooltip:0 "The mission task '#Y $akhetaton_missions_task_19$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_20_title:0 "$akhetaton_missions_task_20$"
+ me_akhetaton_20_desc:0 ""
+ me_akhetaton_20.a:0 ""
+ me_akhetaton_20_tooltip:0 "The mission task '#Y $akhetaton_missions_task_20$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_21_title:0 "$akhetaton_missions_task_21$"
+ me_akhetaton_21_desc:0 ""
+ me_akhetaton_21.a:0 ""
+ me_akhetaton_21_tooltip:0 "The mission task '#Y $akhetaton_missions_task_21$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_22_title:0 "$akhetaton_missions_task_22$"
+ me_akhetaton_22_desc:0 ""
+ me_akhetaton_22.a:0 ""
+ me_akhetaton_22_tooltip:0 "The mission task '#Y $akhetaton_missions_task_22$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_23_title:0 "$akhetaton_missions_task_23$"
+ me_akhetaton_23_desc:0 ""
+ me_akhetaton_23.a:0 ""
+ me_akhetaton_23_tooltip:0 "The mission task '#Y $akhetaton_missions_task_23$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_24_title:0 "$akhetaton_missions_task_24$"
+ me_akhetaton_24_desc:0 ""
+ me_akhetaton_24.a:0 ""
+ me_akhetaton_24_tooltip:0 "The mission task '#Y $akhetaton_missions_task_24$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_25_title:0 "$akhetaton_missions_task_25$"
+ me_akhetaton_25_desc:0 ""
+ me_akhetaton_25.a:0 ""
+ me_akhetaton_25_tooltip:0 "The mission task '#Y $akhetaton_missions_task_25$#!' has now been #G Completed#!!"
+ 
+ me_akhetaton_666_title:0 "Curse of the Old Gods"
+ me_akhetaton_666_desc:0 "The old gods of #E Kemet#! have struck against us once more! A precious family member has been taken from us."
+ me_akhetaton_666.a:0 "May the #E Aten#! guide your soul to rest..."

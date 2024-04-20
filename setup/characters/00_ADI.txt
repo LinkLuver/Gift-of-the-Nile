@@ -1,0 +1,60 @@
+﻿"ADI"={
+	country="ADI"
+	531={
+		first_name="Tiglath Pileser"
+		family = c:ADI.fam:Bar_Hanni
+		birth_date=421.2.15
+		culture="assyrian"
+		religion="mesopotamian_religion"
+		no_stats=yes
+		add_martial=15
+		add_charisma=2
+		add_finesse=7
+		add_zeal=8
+		no_traits=yes
+		add_trait="ambitious"
+		add_trait="founder"
+		add_trait="blunt"
+		add_trait="arrogant"
+		add_trait="brave"
+		add_trait="assertive"
+		add_trait="conqueror"
+		add_gold=150
+		add_popularity=70
+		c:ADI={
+			set_as_ruler=char:531
+		}
+	}
+	532={
+		first_name="Hama"
+		family = c:ADI.fam:Adaside
+		birth_date=424.4.24
+		culture="assyrian"
+		religion="mesopotamian_religion"
+		marry_character="char:531"
+		female=yes
+		no_stats=yes
+		add_martial=2
+		add_charisma=8
+		add_finesse=3
+		add_zeal=5
+		add_trait="adaside"
+	}
+	533={
+		first_name="Sargon"
+		family = c:ADI.fam:Bar_Hanni
+		birth_date=437.6.9
+		father="char:531"
+		mother="char:532"
+		culture="assyrian"
+		religion="mesopotamian_religion"
+		no_stats=yes
+		add_martial=8
+		add_charisma=5
+		add_finesse=4
+		add_zeal=9
+		no_traits=yes
+		add_trait="adaside"
+		add_trait="disciplined"
+	}
+}

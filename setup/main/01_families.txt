@@ -105,13 +105,13 @@ family={
 			color = 2
 		}
 		#Adiabene
-		14={
-			key = "Orontids"
-			prestige=300
-			culture=assyrian
-			owner=ADI
-			color = 0
-		}
+		#14={
+		#	key = "Orontids"
+		#	prestige=300
+		#	culture=assyrian
+		#	owner=ADI
+		#	color = 0
+		#}
 		15={
 			key = "Alanid"
 			prestige=300
@@ -119,13 +119,13 @@ family={
 			owner=ADI
 			color = 1
 		}
-		16={
-			key = "Azonid"
-			prestige=300
-			culture=assyrian
-			owner=ADI
-			color = 2
-		}
+		#16={
+		#	key = "Azonid"
+		#	prestige=300
+		#	culture=assyrian
+		#	owner=ADI
+		#	color = 2
+		#}
 		17={
 			key = "Silicid"
 			prestige=300
@@ -704,9 +704,42 @@ family={
 		#GOTN Macedon
 		2100 = {
 			key = "Argead"
-			prestige = 300
+			prestige=300
 			culture=macedonian
 			owner=MAC
+		}
+		#GOTN Persiapotamia
+		2200 = {
+			key = "Cyaxarid"
+			prestige=300
+			culture=median
+			owner=MAP
+		}
+		2201 = {
+			key = "Shushunid"
+			prestige=100
+			culture=elamite
+			owner=ELM
+		}
+		2202 = {
+			key = "Nassirid"
+			prestige=200
+			culture=babylonian
+			owner=SEL
+		}
+		2203 = {
+			key = "Bar_Hanni"
+			prestige=100
+			culture=assyrian
+			owner=ADI
+			color = 0
+		}
+		2204 = {
+			key = "Adaside"
+			prestige=500
+			culture=assyrian
+			owner=ADI
+			color = 2
 		}
 	}
 }

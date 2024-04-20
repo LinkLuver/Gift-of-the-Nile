@@ -19,3 +19,43 @@ ahmesid = {
 		stability_monthly_change = 0.03
 	}
 }
+
+cyaxarid = {
+	type = status
+
+	prominence = 30
+	martial = 1
+	country = {
+		army_maintenance_cost = -0.10
+	}
+}
+
+shushunid = {
+	type = status
+
+	prominence = 10
+	zeal = 1
+	country = {
+		land_morale_modifier = 0.05
+	}
+}
+
+nassirid = {
+	type = status
+
+	prominence = 20
+	charisma = 1
+	country = {
+		build_cost = -0.10
+	}
+}
+
+adaside = {
+	type = status
+
+	prominence = 20
+	martial = 1
+	country = {
+		war_score = -0.05
+	}
+}
