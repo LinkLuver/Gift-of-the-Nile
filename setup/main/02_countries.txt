@@ -1121,7 +1121,7 @@ country = {
 			primary_culture = sagartian
 			religion = zoroaster
 			diplomatic_stance = appeasement_stance
-			capital = 4799
+			capital = 6605
 
 			technology={
 			military_tech={ level=2 progress=0 }
@@ -9261,7 +9261,7 @@ country = {
 
 			own_control_core = 	{
 				7066 6869 6866 6864 7093 6868 6867 7101 6865 6870
-				6861 6862 6863 7116
+				6861 6862 6863 7116 6860
 			}
 		}
 
@@ -10945,6 +10945,7 @@ country = {
 
 			own_control_core = {
 				6803 6797 6798 6804 6805 6799 5395 6800 5394 6801 5396 6802 5397 6708 6718 6707 6709
+				9236 9237 9238 9239 9240 9241 9242 9243
 			}
 		}
 

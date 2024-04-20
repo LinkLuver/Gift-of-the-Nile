@@ -471,16 +471,19 @@
 	trade_goods="leather"
 	civilization_value=31
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
-		amount=3
+		amount=8
+	}
+	freemen={
+		amount=4
 	}
 	freemen={
 		religion="mithra_religion"
 		amount=1
 	}
 	tribesmen={
-		amount=8
+		amount=7
 	}
 }
 
@@ -507,16 +510,19 @@
 	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		religion="mithra_religion"
-		amount=2
+		amount=3
+	}
+	citizen={
+		amount=5
 	}
 	freemen={
-		amount=4
+		amount=8
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
@@ -1694,9 +1700,9 @@
 	trade_goods="stone"
 	civilization_value=27
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
-		amount=1
+		amount=4
 	}
 	freemen={
 		religion="mithra_religion"
@@ -1706,7 +1712,7 @@
 		amount=1
 	}
 	tribesmen={
-		amount=2
+		amount=3
 	}
 }
 
