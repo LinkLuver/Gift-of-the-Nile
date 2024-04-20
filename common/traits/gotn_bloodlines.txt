@@ -49,3 +49,13 @@ nassirid = {
 		build_cost = -0.10
 	}
 }
+
+adaside = {
+	type = status
+
+	prominence = 20
+	martial = 1
+	country = {
+		war_score = -0.05
+	}
+}
