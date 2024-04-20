@@ -2488,7 +2488,7 @@ country = {
 		SIV = { #Sivi
 			government = aristocratic_monarchy
 			primary_culture = sivi
-			religion = hindu
+			religion = charvaka
 			diplomatic_stance=appeasement_stance
 			capital = 4349 # Mallia
 
@@ -2525,7 +2525,7 @@ country = {
 		AAT = { #Anatachara
 			government = plutocratic_republic
 			primary_culture = sivi
-			religion = hindu
+			religion = ajnana
 			diplomatic_stance=appeasement_stance
 			capital = 4382 # Anatachara
 
@@ -2561,7 +2561,7 @@ country = {
 		MLT = { #Mulasthanapura
 			government = democratic_republic
 			primary_culture = sivi
-			religion = hindu
+			religion = jainism
 			diplomatic_stance=appeasement_stance
 			capital = 4350 # Mulasthanapura
 
@@ -2576,10 +2576,10 @@ country = {
 				4350 4348 4351
 			}
 		}
-		KOT = { #Kamilian
+		KOT = { #Kamalia
 			government = oligarchic_republic
 			primary_culture = sivi
-			religion = hindu
+			religion = sassatavada
 			diplomatic_stance=appeasement_stance
 			capital = 9280 # Kot Kamilia
 
@@ -2598,7 +2598,7 @@ country = {
 		GHA = { #Gandhara
 			government = mahajanapada_monarchy
 			primary_culture = gandhari
-			religion = hindu
+			religion = zoroaster
 			capital = 7314
 
 			technology={
@@ -2617,7 +2617,7 @@ country = {
 		KHB = { #Khambojas
 			government = mahajanapada_monarchy
 			primary_culture = gandhari
-			religion = hindu
+			religion = vaksh_religion
 			capital = 6997
 
 			technology={
@@ -2637,7 +2637,7 @@ country = {
 			family=80
 			government = tribal_kingdom
 			primary_culture = dardic
-			religion = hindu
+			religion = masto_pantheon
 			centralization=-10
 			capital = 4332
 
@@ -2691,7 +2691,7 @@ country = {
 		MRA = { #Madras
 			government = despotic_monarchy
 			primary_culture = purus
-			religion = hindu
+			religion = ajivika
 			capital = 4346
 
 			technology={
@@ -2709,7 +2709,7 @@ country = {
 		LAH = { #Luhwar
 			government = despotic_monarchy
 			primary_culture = purus
-			religion = hindu
+			religion = kassapan
 			capital = 9282
 
 			technology={

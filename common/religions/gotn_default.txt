@@ -117,7 +117,7 @@ ajivika = { # Ajivika
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
 charvaka = { # Carvaka
-	color = rgb { 180 180 180 }
+	color = rgb { 100 100 100 }
 	modifier = {
 		global_pop_conversion_speed_modifier = 0.25
 		global_citizen_output = 0.10
@@ -126,7 +126,7 @@ charvaka = { # Carvaka
 	religion_category = sages
 }
 ajnana = { # Ajnana
-	color = rgb { 180 180 180 }
+	color = rgb { 140 18 100 }
 	modifier = {
 		global_pop_conversion_speed_modifier = 0.25
 		global_citizen_output = 0.10
@@ -134,8 +134,8 @@ ajnana = { # Ajnana
 	}
 	religion_category = sages
 }
-kassapan = { # Kassapaist
-	color = rgb { 180 180 180 }
+kassapan = { # Anaitikata
+	color = rgb { 10 50 250 }
 	modifier = {
 		global_pop_conversion_speed_modifier = 0.25
 		global_citizen_output = 0.10
@@ -144,7 +144,7 @@ kassapan = { # Kassapaist
 	religion_category = sages
 }
 sassatavada = { # Sassatavada
-	color = rgb { 180 180 180 }
+	color = rgb { 250 13 18 }
 	modifier = {
 		global_pop_conversion_speed_modifier = 0.25
 		global_citizen_output = 0.10
@@ -164,7 +164,7 @@ masto_pantheon = { # Mastoic
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
 sarna_pantheon = { # Sarnaism
-	color = hsv { 0.1 0.6 0.75 }
+	color = hsv { 0.4 0.2 0.8 }
 	modifier = {
 		global_pop_conversion_speed_modifier = 0.25
 		hostile_attrition = 2
