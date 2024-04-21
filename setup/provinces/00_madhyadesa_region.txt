@@ -91,7 +91,7 @@
 4405={ #Indraprastha
 	terrain="farmland"
 	culture="kuru"
-	religion="hindu"
+	religion="ajnana"
 	trade_goods="earthware"
 	civilization_value=33
 	barbarian_power=0
@@ -160,7 +160,7 @@
 4408={ #Madrakara
 	terrain="plains"
 	culture="kuru"
-	religion="hindu"
+	religion="kassapan"
 	trade_goods="wild_game"
 	civilization_value=26
 	barbarian_power=0
@@ -208,7 +208,7 @@
 4412={ #Karnal
 	terrain="farmland"
 	culture="kuru"
-	religion="hindu"
+	religion="charvaka"
 	trade_goods="cloth"
 	civilization_value=28
 	barbarian_power=0
@@ -280,7 +280,7 @@
 4419={ #Haridwar
 	terrain="mountain"
 	culture="dardic"
-	religion="hindu"
+	religion="masto_pantheon"
 	trade_goods="incense"
 	civilization_value=6
 	barbarian_power=0
@@ -378,7 +378,7 @@
 4425={ #Kanyakubja
 	terrain="farmland"
 	culture="kosala"
-	religion="hindu"
+	religion="sassatavada"
 	trade_goods="cloth"
 	civilization_value=37
 	barbarian_power=0
@@ -449,7 +449,7 @@
 4428={ #Prayaga
 	terrain="farmland"
 	culture="kasi"
-	religion="buddhism"
+	religion="sassatavada"
 	trade_goods="earthware"
 	civilization_value=33
 	barbarian_power=0
@@ -484,7 +484,7 @@
 4429={ #Varanasi
 	terrain="farmland"
 	culture="kasi"
-	religion="hindu"
+	religion="ajivika"
 	trade_goods="papyrus"
 	civilization_value=47
 	barbarian_power=0
@@ -578,7 +578,7 @@
 4433={ #Kitagiri
 	terrain="farmland"
 	culture="kasi"
-	religion="hindu"
+	religion="ajnana"
 	trade_goods="grain"
 	civilization_value=28
 	barbarian_power=0
@@ -601,7 +601,7 @@
 4434={ #Sotthavati
 	terrain="forest"
 	culture="shauraseni"
-	religion="hindu"
+	religion="ajivika"
 	trade_goods="hemp"
 	civilization_value=24
 	barbarian_power=0
@@ -620,7 +620,7 @@
 4435={ #Erakaccha
 	terrain="forest"
 	culture="shauraseni"
-	religion="hindu"
+	religion="ajivika"
 	trade_goods="earthware"
 	civilization_value=29
 	barbarian_power=0
@@ -647,7 +647,7 @@
 4436={ #Alavi Pancala
 	terrain="farmland"
 	culture="kosala"
-	religion="hindu"
+	religion="sassatavada"
 	trade_goods="grain"
 	civilization_value=28
 	barbarian_power=0
@@ -669,7 +669,7 @@
 4437={ #Ayodhya
 	terrain="farmland"
 	culture="malla"
-	religion="hindu"
+	religion="charvaka"
 	trade_goods="earthware"
 	civilization_value=37
 	barbarian_power=0
@@ -700,7 +700,7 @@
 4451={ #Sravasti
 	terrain="forest"
 	culture="malla"
-	religion="hindu"
+	religion="ajivika"
 	trade_goods="wild_game"
 	civilization_value=24
 	barbarian_power=0
@@ -723,7 +723,7 @@
 4452={ #Sambalhagrama
 	terrain="plains"
 	culture="kuru"
-	religion="hindu"
+	religion="charvaka"
 	trade_goods="earthware"
 	civilization_value=26
 	barbarian_power=0
@@ -772,7 +772,7 @@
 4454={ #Matipura
 	terrain="forest"
 	culture="himalayan"
-	religion="hindu"
+	religion="sassatavada"
 	trade_goods="wood"
 	civilization_value=8
 	barbarian_power=0
@@ -794,7 +794,7 @@
 4455={ #Jaisingpura
 	terrain="farmland"
 	culture="malla"
-	religion="hindu"
+	religion="charvaka"
 	trade_goods="vegetables"
 	civilization_value=28
 	barbarian_power=0
@@ -951,7 +951,7 @@
 4485={ #Khajuraha
 	terrain="forest"
 	culture="atavi"
-	religion="hindu"
+	religion="ajivika"
 	trade_goods="stone"
 	civilization_value=24
 	barbarian_power=0
@@ -993,7 +993,7 @@
 7218={ #Yamaprastha
 	terrain="forest"
 	culture="kosala"
-	religion="hindu"
+	religion="jainism"
 	trade_goods="elephants"
 	civilization_value=24
 	barbarian_power=0
@@ -1012,7 +1012,7 @@
 7219={ #Suktivati
 	terrain="forest"
 	culture="kosala"
-	religion="hindu"
+	religion="sassatavada"
 	trade_goods="vegetables"
 	civilization_value=24
 	barbarian_power=0
@@ -1203,7 +1203,7 @@
 7377={ #Savatthi
 	terrain="forest"
 	culture="kosala"
-	religion="hindu"
+	religion="charvaka"
 	trade_goods="elephants"
 	civilization_value=24
 	barbarian_power=0
@@ -1327,7 +1327,7 @@
 7385={ #Devaprayaga
 	terrain="mountain"
 	culture="dardic"
-	religion="hindu"
+	religion="masto_pantheon"
 	trade_goods="leather"
 	civilization_value=11
 	barbarian_power=0
@@ -1371,7 +1371,7 @@
 7402={ #Kalesar
 	terrain="mountain"
 	culture="dardic"
-	religion="hindu"
+	religion="masto_pantheon"
 	trade_goods="fur"
 	civilization_value=6
 	barbarian_power=0
@@ -1440,7 +1440,7 @@
 7405={ #Pilibhit
 	terrain="forest"
 	culture="kosala"
-	religion="hindu"
+	religion="charvaka"
 	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
@@ -1485,7 +1485,7 @@
 7407={ #Katheria
 	terrain="forest"
 	culture="kosala"
-	religion="hindu"
+	religion="charvaka"
 	trade_goods="glass"
 	civilization_value=29
 	barbarian_power=0
@@ -1802,7 +1802,7 @@
 7482={ #Itwa
 	terrain="farmland"
 	culture="malla"
-	religion="hindu"
+	religion="charvaka"
 	trade_goods="grain"
 	civilization_value=28
 	barbarian_power=0
@@ -1822,7 +1822,7 @@
 7483={ #Mehdawal
 	terrain="plains"
 	culture="malla"
-	religion="buddhism"
+	religion="charvaka"
 	trade_goods="wild_game"
 	civilization_value=26
 	barbarian_power=0

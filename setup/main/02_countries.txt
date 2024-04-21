@@ -2458,7 +2458,7 @@ country = {
 		PAT = { #Patala
 			government = aristocratic_republic
 			primary_culture = sindhi
-			religion = hindu
+			religion = zoroaster
 			diplomatic_stance=appeasement_stance
 			capital = 6815 # Patala
 
@@ -2752,7 +2752,7 @@ country = {
 		KUR = { #Kuru Remnant
 			government = mahajanapada_monarchy
 			primary_culture = kuru
-			religion = hindu
+			religion = ajnana
 			capital = 4404
 
 			technology={
@@ -2769,7 +2769,7 @@ country = {
 		PNC = { #Panchala
 			government = mahajanapada_monarchy
 			primary_culture = kosala
-			religion = hindu
+			religion = buddhism
 			capital = 4424
 
 			technology={
@@ -2787,7 +2787,7 @@ country = {
 		VAT = { #Vatsa
 			government = mahajanapada_monarchy
 			primary_culture = kosala
-			religion = hindu
+			religion = sassatavada
 			capital = 4425
 
 			technology={
@@ -2805,7 +2805,7 @@ country = {
 		BGH = { #Bhagga
 			government = democratic_republic
 			primary_culture = kosala
-			religion = hindu
+			religion = sassatavada
 			capital = 4430
 
 			technology={
@@ -2856,7 +2856,7 @@ country = {
 		MOR = { #Moriya
 			government = democratic_republic
 			primary_culture = malla
-			religion = buddhism
+			religion = kassapan
 			capital = 7369
 
 			technology={
@@ -2870,10 +2870,10 @@ country = {
 				7369
 			}
 		}
-		KLM = { #Moriya
+		KLM = { #Kalama
 			government = democratic_republic
 			primary_culture = malla
-			religion = buddhism
+			religion = jainism
 			capital = 7478
 
 			technology={
@@ -2890,7 +2890,7 @@ country = {
 		NBP = { #Naba-Pankti
 			government = tribal_kingdom
 			primary_culture = himalayan
-			religion = buddhism
+			religion = hindu
 			centralization=-10
 			capital = 4459
 
@@ -2902,7 +2902,7 @@ country = {
 		AYO = { #Kosala
 			government = mahajanapada_monarchy
 			primary_culture = kosala
-			religion = hindu
+			religion = charvaka
 			capital = 4437 # Ayodha
 
 			technology={
@@ -2919,7 +2919,7 @@ country = {
 		KAS = { #Kasi
 			government = mahajanapada_monarchy
 			primary_culture = kosala
-			religion = hindu
+			religion = ajivika
 			capital = 4429 # Ayodha
 
 			technology={
@@ -2937,7 +2937,7 @@ country = {
 		MLL = { #Malla
 			government = mahajanapada_monarchy
 			primary_culture = vrji
-			religion = hindu
+			religion = buddhism
 			capital = 4449 # Kusinagara
 
 			technology={
@@ -2954,7 +2954,7 @@ country = {
 		VAI = { #Licchavi
 			government = mahajanapada_monarchy
 			primary_culture = vrji
-			religion = hindu
+			religion = ajnana
 			capital = 4448 #Vaishali
 
 			technology={
@@ -2971,7 +2971,7 @@ country = {
 		NAY = { #Naya
 			government = aristocratic_monarchy
 			primary_culture = vrji
-			religion = hindu
+			religion = sassatavada
 			capital = 7488 #Kundaputra
 
 			technology={
@@ -2988,7 +2988,7 @@ country = {
 		VID = { #Videha
 			government = stratocratic_monarchy
 			primary_culture = himalayan
-			religion = hindu
+			religion = kassapan
 			capital = 7486 #Mithla
 
 			technology={
@@ -3045,7 +3045,7 @@ country = {
 		CED = { #Cedi
 			government = stratocratic_monarchy
 			primary_culture = cedi
-			religion = hindu
+			religion = ajivika
 			capital = 4434 #
 
 			technology={
@@ -3170,7 +3170,7 @@ country = {
 			family = 28
 			government = mahajanapada_monarchy
 			primary_culture = magadhi
-			religion = hindu
+			religion = buddhism
 			diplomatic_stance=appeasement_stance
 			capital = 4440 # Pataliputra
 
@@ -3197,7 +3197,7 @@ country = {
 		STL = { #Pundra-Santal
 			government = stratocratic_monarchy
 			primary_culture = santal
-			religion = hindu
+			religion = sarna_pantheon
 			capital = 7325 # Abuyya
 
 			technology={
@@ -3215,7 +3215,7 @@ country = {
 		VNG = { #Vanga
 			government = stratocratic_monarchy
 			primary_culture = pandra
-			religion = hindu
+			religion = ajivika
 			capital = 7337 # Abuyya
 
 			technology={
@@ -9892,7 +9892,7 @@ country = {
 		SMT = { #Samatata
 			government = tribal_kingdom
 			primary_culture = bangli
-			religion = hindu
+			religion = jainism
 			centralization=-10
 			capital = 7356
 

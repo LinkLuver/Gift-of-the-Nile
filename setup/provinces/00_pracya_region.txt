@@ -1,7 +1,7 @@
 ﻿4440={ #Pataliputra
 	terrain="farmland"
 	culture="magadhi"
-	religion="hindu"
+	religion="buddhism"
 	trade_goods="silk"
 	civilization_value=33
 	barbarian_power=0
@@ -81,7 +81,7 @@
 4443={ #Nadikagama
 	terrain="farmland"
 	culture="magadhi"
-	religion="buddhism"
+	religion="ajnana"
 	trade_goods="silk"
 	civilization_value=33
 	barbarian_power=0
@@ -108,7 +108,7 @@
 4444={ #Gaya
 	terrain="jungle"
 	culture="magadhi"
-	religion="hindu"
+	religion="ajnana"
 	trade_goods="papyrus"
 	civilization_value=29
 	barbarian_power=0
@@ -131,7 +131,7 @@
 4445={ #Rajagagriha
 	terrain="jungle"
 	culture="magadhi"
-	religion="hindu"
+	religion="jainism"
 	trade_goods="iron"
 	civilization_value=29
 	barbarian_power=0
@@ -208,7 +208,7 @@
 4448={ #Vaishali
 	terrain="farmland"
 	culture="magadhi"
-	religion="hindu"
+	religion="ajnana"
 	trade_goods="cloth"
 	civilization_value=33
 	barbarian_power=0
@@ -243,7 +243,7 @@
 4449={ #Kusinagara
 	terrain="plains"
 	culture="vrji"
-	religion="hindu"
+	religion="buddhism"
 	trade_goods="cloth"
 	civilization_value=31
 	barbarian_power=0
@@ -337,7 +337,7 @@
 4459={ #Selanpura
 	terrain="mountain"
 	culture="himalayan"
-	religion="jainism"
+	religion="kassapan"
 	trade_goods="earthware"
 	civilization_value=11
 	barbarian_power=0
@@ -378,7 +378,7 @@
 4461={ #Dwarbanga
 	terrain="plains"
 	culture="magadhi"
-	religion="hindu"
+	religion="sassatavada"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -421,7 +421,7 @@
 4463={ #Malini
 	terrain="jungle"
 	culture="magadhi"
-	religion="hindu"
+	religion="buddhism"
 	trade_goods="leather"
 	civilization_value=29
 	barbarian_power=0
@@ -449,7 +449,7 @@
 4464={ #Devaprastha
 	terrain="jungle"
 	culture="himalayan"
-	religion="ajivika"
+	religion="hindu"
 	trade_goods="elephants"
 	civilization_value=8
 	barbarian_power=0
@@ -530,7 +530,7 @@
 7322={ #Purnia
 	terrain="farmland"
 	culture="santal"
-	religion="hindu"
+	religion="sarna_pantheon"
 	trade_goods="grain"
 	civilization_value=28
 	barbarian_power=0
@@ -605,7 +605,7 @@
 7325={ #Pundra
 	terrain="farmland"
 	culture="santal"
-	religion="buddhism"
+	religion="sarna_pantheon"
 	trade_goods="earthware"
 	civilization_value=33
 	barbarian_power=0
@@ -641,7 +641,7 @@
 7326={ #Kotivarsa
 	terrain="farmland"
 	culture="santal"
-	religion="hindu"
+	religion="sarna_pantheon"
 	trade_goods="earthware"
 	civilization_value=28
 	barbarian_power=0
@@ -660,7 +660,7 @@
 7327={ #Karnasuvarna
 	terrain="flood_plain"
 	culture="pandra"
-	religion="hindu"
+	religion="sassatavada"
 	trade_goods="silk"
 	civilization_value=29
 	barbarian_power=0
@@ -756,7 +756,7 @@
 7335={ #Souannagoura
 	terrain="plains"
 	culture="santal"
-	religion="hindu"
+	religion="sarna_pantheon"
 	trade_goods="cloth"
 	civilization_value=26
 	barbarian_power=0
@@ -783,7 +783,7 @@
 7336={ #Selampoura
 	terrain="flood_plain"
 	culture="pandra"
-	religion="hindu"
+	religion="ajivika"
 	trade_goods="silk"
 	civilization_value=24
 	barbarian_power=0
@@ -802,7 +802,7 @@
 7337={ #Aganagara
 	terrain="flood_plain"
 	culture="pandra"
-	religion="hindu"
+	religion="ajivika"
 	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
@@ -847,7 +847,7 @@
 7343={ #Dhuburi
 	terrain="jungle"
 	culture="kamarupi"
-	religion="hindu"
+	religion="kassapan"
 	trade_goods="fur"
 	civilization_value=9
 	barbarian_power=0
@@ -866,7 +866,7 @@
 7345={ #Nabadwipa
 	terrain="jungle"
 	culture="pandra"
-	religion="hindu"
+	religion="sassatavada"
 	trade_goods="dye"
 	civilization_value=29
 	barbarian_power=0
@@ -1074,7 +1074,7 @@
 7369={ #Pipphalivana
 	terrain="plains"
 	culture="vrji"
-	religion="hindu"
+	religion="kassapan"
 	trade_goods="vegetables"
 	civilization_value=26
 	barbarian_power=0
@@ -1097,7 +1097,7 @@
 7372={ #Kusavati
 	terrain="plains"
 	culture="vrji"
-	religion="hindu"
+	religion="buddhism"
 	trade_goods="wood"
 	civilization_value=26
 	barbarian_power=0
@@ -1114,7 +1114,7 @@
 7383={ #Kishan
 	terrain="jungle"
 	culture="kamarupi"
-	religion="ajivika"
+	religion="hindu"
 	trade_goods="elephants"
 	civilization_value=8
 	barbarian_power=0
@@ -1197,7 +1197,7 @@
 7394={ #Fathabad
 	terrain="flood_plain"
 	culture="bangli"
-	religion="hindu"
+	religion="buddhism"
 	trade_goods="cloth"
 	civilization_value=13
 	barbarian_power=0
@@ -1225,7 +1225,7 @@
 7395={ #Barisal
 	terrain="flood_plain"
 	culture="bangli"
-	religion="hindu"
+	religion="kassapan"
 	trade_goods="earthware"
 	civilization_value=11
 	barbarian_power=0
@@ -1275,7 +1275,7 @@
 7397={ #Jessore
 	terrain="flood_plain"
 	culture="pandra"
-	religion="hindu"
+	religion="ajivika"
 	trade_goods="vegetables"
 	civilization_value=24
 	barbarian_power=0
@@ -1296,7 +1296,7 @@
 7398={ #Kushtia
 	terrain="flood_plain"
 	culture="pandra"
-	religion="hindu"
+	religion="charvaka"
 	trade_goods="cloth"
 	civilization_value=26
 	barbarian_power=0
@@ -1369,7 +1369,7 @@
 7478={ #Rivilganj
 	terrain="farmland"
 	culture="vrji"
-	religion="hindu"
+	religion="jainism"
 	trade_goods="grain"
 	civilization_value=28
 	barbarian_power=0
@@ -1430,7 +1430,7 @@
 7480={ #Saharsa
 	terrain="farmland"
 	culture="magadhi"
-	religion="ajivika"
+	religion="sassatavada"
 	trade_goods="cloth"
 	civilization_value=33
 	barbarian_power=0
@@ -1474,7 +1474,7 @@
 7486={ #Mithila
 	terrain="jungle"
 	culture="himalayan"
-	religion="jainism"
+	religion="kassapan"
 	trade_goods="earthware"
 	civilization_value=8
 	barbarian_power=0
@@ -1494,7 +1494,7 @@
 7487={ #Bijalpura
 	terrain="hills"
 	culture="himalayan"
-	religion="hindu"
+	religion="kassapan"
 	trade_goods="wood"
 	civilization_value=8
 	barbarian_power=0
@@ -1631,7 +1631,7 @@
 7499={ #Porsha
 	terrain="farmland"
 	culture="santal"
-	religion="hindu"
+	religion="sarna_pantheon"
 	trade_goods="grain"
 	civilization_value=28
 	barbarian_power=0
@@ -1651,7 +1651,7 @@
 7650={ #Itahar
 	terrain="plains"
 	culture="santal"
-	religion="hindu"
+	religion="sarna_pantheon"
 	trade_goods="grain"
 	civilization_value=26
 	barbarian_power=0
@@ -1672,7 +1672,7 @@
 7651={ #Balurghat
 	terrain="farmland"
 	culture="santal"
-	religion="ajivika"
+	religion="sarna_pantheon"
 	trade_goods="vegetables"
 	civilization_value=28
 	barbarian_power=0
@@ -1727,7 +1727,7 @@
 
 7654={ #Thakurgaon
 	terrain="plains"
-	culture="kamarupi"
+	culture="kassapan"
 	religion="hindu"
 	trade_goods="cloth"
 	civilization_value=11
@@ -1802,7 +1802,7 @@
 7796={ #Bidyadhari
 	terrain="marsh"
 	culture="bangli"
-	religion="hindu"
+	religion="ajivika"
 	trade_goods="grain"
 	civilization_value=9
 	barbarian_power=0

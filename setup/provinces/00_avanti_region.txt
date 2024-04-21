@@ -24,7 +24,7 @@
 4438={ #Vairata
 	terrain="hills"
 	culture="shauraseni"
-	religion="hindu"
+	religion="ajnana"
 	trade_goods="base_metals"
 	civilization_value=29
 	barbarian_power=0
@@ -608,7 +608,7 @@
 7307={ #Sripatha
 	terrain="forest"
 	culture="shauraseni"
-	religion="hindu"
+	religion="sassatavada"
 	trade_goods="glass"
 	civilization_value=29
 	barbarian_power=0
@@ -700,7 +700,7 @@
 7387={ #Dausa
 	terrain="forest"
 	culture="shauraseni"
-	religion="hindu"
+	religion="kassapan"
 	trade_goods="dye"
 	civilization_value=29
 	barbarian_power=0
