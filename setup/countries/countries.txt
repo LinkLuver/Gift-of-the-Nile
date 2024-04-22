@@ -155,8 +155,12 @@ STL = "setup/countries/bharat/santal.txt"
 MAR = "setup/countries/bharat/maru.txt"
 KAC = "setup/countries/bharat/kaccha.txt"
 
-# Italia-Africa
+# Italia
 KSC = "setup/countries/italia/shekelesh.txt"
+CPU = "setup/countries/italia/capua.txt"
+DAU = "setup/countries/italia/daunia.txt"
+FLS = "setup/countries/italia/falisca.txt"
+NEA = "setup/countries/italia/neapolis.txt"
 
 ### Vanilla
 
