@@ -3416,7 +3416,7 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
-			capital = 4
+			capital = 2
 			pantheon = {
 
 			{ deity = 1 }
@@ -3430,7 +3430,7 @@ country = {
 			treasures = { 201 61 39 }
 
 			own_control_core = 	{
-				3 4 5 25 26 31
+				2 3 4 5 25 26 31 19
 			}
 
 			#professional_soldiers = yes
@@ -3440,7 +3440,7 @@ country = {
 		CPU = {
 			government = plutocratic_republic
 			diplomatic_stance=trading_stance
-			primary_culture = roman
+			primary_culture = italiotian
 			religion = italic_pantheon
 
 			technology={
@@ -3511,7 +3511,7 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
-			capital = 1
+			capital = 18
 			pantheon = {
 
 			{ deity = 1 }
@@ -3525,7 +3525,7 @@ country = {
 			treasures = { 201 61 39 }
 
 			own_control_core = 	{
-				1 15 3 2 20 19
+				1 15 3 4 20 18 16 23
 			}
 
 			#professional_soldiers = yes
@@ -3669,7 +3669,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				14 17 21 22 102 120 124 131 130 136 135 134 126 114 127 112 113 115 116 125 129 128 137 3507 3515 3514 3513 3516 16 18
+				14 17 21 22 102 120 124 131 130 136 135 134 126 114 127 112 113 115 116 125 129 128 137 3507 3515 3514 3513 3516
 			}
 
 			treasures = { 40 }
@@ -3713,7 +3713,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				23 105 107
+				105 107
 			}
 
 			treasures = { 38 }
