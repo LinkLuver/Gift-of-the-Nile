@@ -84,9 +84,9 @@
 		Horatius.Horatia.Horatii.Horatian
 		Hortensius.Hortensia.Hortensii.Hortensian
 		Hostilius.Hostilia.Hostilii.Hostilian
-		Julius.Julia.Julii.Julian
-		Junius.Junia.Junii.Junian
-		Juventius.Juventia.Juventii.Juventan
+		Iulius.Iulia.Iulii.Iulian
+		Iunius.Iunia.Iunii.Iunian
+		Iuventius.Iuventia.Iuventii.Iuventian
 		Laetorius.Laetoria.Laetorii.Laetorian
 		Lartius.Lartia.Lartii.Lartian
 		Licinius.Licinia.Licinii.Licinian
@@ -317,13 +317,13 @@
 		roman = { 
 			levy_template = levy_roman
 			male_names = { #Added missing praenomina
-				Appius Agrippa Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Opiter 
+				Appius Agrippa Aulus Caelus Decimus Decius Drusus Faustus Caius Gnaeus Lucius Mamercus Manius Marcus Mettius Opiter 
 				Publius Postumus Proculus Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Volero Volumnius Octavius
 				Statius Tullus Volesus Vopiscus Caeso Paullus Hostus Numerius Sertor Potitus Vibius Cossus Arruns Camillus
 				Amulius Flavius Gallus Herius Primus Ancus Nonus
 			}
 			female_names = { #Added female praenomina
-				Gaia Lucia Marca Publia Quinta Tita Tiberia Sexta Aula Decima
+				Caia Lucia Marca Publia Quinta Tita Tiberia Sexta Aula Decima
 				Gnaea Spuria Mania Servia Appia Numeria Vibia
 				Amulia Camilla Decia Drusa Fausta Flavia Galla Heria
 				Hosta Opitera Octavia Postuma Prima Procula Secunda Tertia Anca 
@@ -420,7 +420,7 @@
 				Aimos Eimos Aulos Amanos Ancos Arontos Pavicios Pescennios Pravios
 				Loucios Lars Marcos Mama Oufilos Ofentios Titos Velos Volta
 				Voltenos Velceos Servios Iunos Cavios Poplios Folcozeos
-            }
+			}
 			female_names = {
 				Aima Poplia Voltaia Iuna Louria Cavia Voltilia Vecinea Vibia
 				Zervatronia Hirmia Senthia Zertenea Caisia Caleptia Pravia
