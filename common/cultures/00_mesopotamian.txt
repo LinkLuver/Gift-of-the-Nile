@@ -194,6 +194,7 @@
 		assyrian = { levy_template = levy_assyrian }
 		babylonian = {}
 		dilmunite = {}
+		cardukoi = { levy_template = levy_armenian }
 	}
 	
 	barbarian_names = { 
