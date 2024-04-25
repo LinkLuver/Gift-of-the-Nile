@@ -94,23 +94,34 @@
     persis_mission_1_freedom_task_4 = { #Urbanize Suravan
         icon = "task_political"
         requires = { persis_mission_1_freedom_task_1 }
+        duration = 365
         highlight = {
             scope:province = {
-                this = p:4782
+                OR = {
+                    province_id = 4977
+                    province_id = 4950
+                    province_id = 4788
+                    province_id = 3402
+                    province_id = 3407
+                    province_id = 3410
+                    province_id = 3413
+                    province_id = 6529
+                    province_id = 6581
+                }
             }
         }
         allow = {
-            # Suravan is a city with 20 pops
-            p:4782 = {
-                total_population >= 20
-            }
+            political_influence >= 50
+            treasury >= 100
         }
-
+        on_start = {
+            trigger_event = me_persis.400
+        }
         on_completion = {
             trigger_event = me_persis.4
             show_as_tooltip = {
                 #  Gain +2 Building Slots in Suravan.
-                p:4782 = {
+                random_owned_province = {
                     add_province_modifier = {
                         name = persis_mod_3
                         duration = -1
@@ -216,37 +227,49 @@
     }
     persis_mission_1_freedom_task_8 = { #Connect Kish
         icon = "task_religion"
-        requires = { persis_mission_1_freedom_task_6 }
         duration = 120
         highlight = {
             scope:province = {
                 OR = {
-                    this = p:4956
-                    this = p:4799
+                    this = p:975
+                    this = p:970
+                    this = p:940
+                    this = p:938
+                    this = p:935
+                    this = p:932
+                    this = p:930
+                    this = p:929
+                    this = p:960
                 }
             }
         }
         allow = {
             treasury >= 150
+            owns_or_subject_owns_area = meshan_area
+            owns_or_subject_owns_area = susiana_area
+            owns_or_subject_owns_area = veh_kavad_area
+            owns_or_subject_owns_area = asoristan_area
         }
 
         on_completion = {
             trigger_event = me_persis.8       
             show_as_tooltip = {
-                p:4956 = { add_road_towards = p:4962 }
-                p:4962 = { add_road_towards = p:4790 }
-                p:4790 = { add_road_towards = p:4793 }
-                p:4793 = { add_road_towards = p:4792 }
-                p:4792 = { add_road_towards = p:4797 }
-                p:4797 = { add_road_towards = p:4798 }
-                p:4798 = { add_road_towards = p:4799 }
+                p:946 = { add_road_towards = p:975 }
+                p:975 = { add_road_towards = p:970 }
+                p:970 = { add_road_towards = p:940 }
+                p:940 = { add_road_towards = p:938 }
+                p:938 = { add_road_towards = p:935 }
+                p:935 = { add_road_towards = p:932 }
+                p:932 = { add_road_towards = p:930 }
+                p:930 = { add_road_towards = p:929 }
+                p:929 = { add_road_towards = p:960 }
                 add_treasury = -150
             }
         }
     }
     persis_mission_1_freedom_task_9 = { #Urbanize Kish
         icon = "task_political"
-        requires = { persis_mission_1_freedom_task_8 }
+        requires = { persis_mission_1_freedom_task_6 }
         highlight = {
             scope:province = {
                 this = p:4956
@@ -317,7 +340,7 @@
     }
     persis_mission_1_freedom_task_11 = { #Reeasablish the Immortals
         icon = "task_conquest"
-        requires = { persis_mission_1_freedom_task_10 }
+        requires = { persis_mission_1_freedom_task_21 }
 
         allow = {
             # 10 military experience, 5000 max manpower
@@ -335,6 +358,17 @@
                     name = persis_mod_9
                     duration = -1
                 }
+            }
+        }
+    }
+
+    persis_mission_1_freedom_task_12 = {
+        icon = "task_diplomatic"
+        highlight = {}
+        allow = {}
+        on_completion = {
+            trigger_event = me_persis.12
+            show_as_tooltip = {
             }
         }
     }
@@ -442,7 +476,6 @@
     }
     persis_mission_1_freedom_task_16 = { #Demand Mardiene
         icon = "task_diplomatic"
-        requires = { persis_mission_1_freedom_task_13 }
 
         highlight = {
             scope:province = {
@@ -450,25 +483,11 @@
             }
         }
 
-        potential = {
-            is_subject_of = c:SEL
-            NOT = { owns = p:4780 }
-        }
-
         allow = {
-            political_influence >= 25
-            c:SEL = {
-                opinion = {
-                    target = ROOT
-                    value >= 50
-                }
-            }
         }
 
         on_completion = {
             trigger_event = me_persis.16
-            # Send a demand to the Seleukids to either receive the rest of the Mardiene province, or just the Margastana settlement. Higher chance they accept for the latter, and chances for both increase the more they like you. If they say no, get a claim on Mardiene.
-            custom_tooltip = persis_mission_1_freedom_task_16_tt
         }
     }
     persis_mission_1_freedom_task_17 = { #Expand the Royal Road
@@ -498,6 +517,19 @@
                 }
                 add_2_free_province_investments = yes
             }
+        }
+    }
+    persis_mission_1_freedom_task_18 = {
+        icon = "task_diplomatic"
+
+        highlight = {
+        }
+
+        allow = {
+        }
+
+        on_completion = {
+            trigger_event = me_persis.18
         }
     }
     persis_mission_1_freedom_task_19 = { #Fortify Capitals
@@ -532,9 +564,13 @@
     persis_mission_1_freedom_task_20 = { #Throw off the Ionian Yoke
         icon = "task_heracles"
         final = yes
-
+        highlight = {
+            scope:province = {
+                is_in_region = media_region
+            }
+        }
         allow = {
-            is_subject = no
+            owns_or_subject_owns_region = media_region
         }
 
         on_completion = {

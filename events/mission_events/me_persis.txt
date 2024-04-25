@@ -37,7 +37,109 @@ me_persis.2 = {
         }
     }
 }
+me_persis.400 = {
+    type = country_event
 
+    title = me_persis_400_title
+    desc = me_persis_400_desc
+    picture = interesting_histories_hellenic_city_rebuild
+
+    immediate = {
+        add_political_influence = -50
+        add_treasury = -100
+    }
+
+    option = {
+        name = me_persis_400.a
+        p:4977 = {
+            set_variable = {
+                name = gets_mod_pes
+                days = 500
+            }
+            create_pop = citizen
+        }
+    }
+    option = {
+        name = me_persis_400.b
+        p:4950 = {
+            set_variable = {
+                name = gets_mod_pes
+                days = 500
+            }
+            create_pop = citizen
+        }
+    }
+    option = {
+        name = me_persis_400.c
+        p:4788 = {
+            set_variable = {
+                name = gets_mod_pes
+                days = 500
+            }
+            create_pop = citizen
+        }
+    }
+    option = {
+        name = me_persis_400.d
+        p:3402 = {
+            set_variable = {
+                name = gets_mod_pes
+                days = 500
+            }
+            create_pop = citizen
+        }
+    }
+    option = {
+        name = me_persis_400.e
+        p:3407 = {
+            set_variable = {
+                name = gets_mod_pes
+                days = 500
+            }
+            create_pop = citizen
+        }
+    }
+    option = {
+        name = me_persis_400.f
+        p:3410 = {
+            set_variable = {
+                name = gets_mod_pes
+                days = 500
+            }
+            create_pop = citizen
+        }
+    }
+    option = {
+        name = me_persis_400.g
+        p:3413 = {
+            set_variable = {
+                name = gets_mod_pes
+                days = 500
+            }
+            create_pop = citizen
+        }
+    }
+    option = {
+        name = me_persis_400.h
+        p:6529 = {
+            set_variable = {
+                name = gets_mod_pes
+                days = 500
+            }
+            create_pop = citizen
+        }
+    }
+    option = {
+        name = me_persis_400.i
+        p:6581 = {
+            set_variable = {
+                name = gets_mod_pes
+                days = 500
+            }
+            create_pop = citizen
+        }
+    }
+}
 me_persis.4 = {
     type = country_event
 
@@ -48,11 +150,15 @@ me_persis.4 = {
     option = {
         name = me_persis_4.a
         custom_tooltip = me_persis_4_tooltip
-        p:4782 = {
+        random_owned_province = {
+            limit = {
+                has_variable = gets_mod_pes
+            }
             add_province_modifier = {
                 name = persis_mod_3
                 duration = -1
             }
+            set_city_status = city
         }
     }
 }
@@ -132,13 +238,15 @@ me_persis.8 = {
     option = {
         name = me_persis_8.a
         custom_tooltip = me_persis_8_tooltip
-        p:4956 = { add_road_towards = p:4962 }
-        p:4962 = { add_road_towards = p:4790 }
-        p:4790 = { add_road_towards = p:4793 }
-        p:4793 = { add_road_towards = p:4792 }
-        p:4792 = { add_road_towards = p:4797 }
-        p:4797 = { add_road_towards = p:4798 }
-        p:4798 = { add_road_towards = p:4799 }
+        p:946 = { add_road_towards = p:975 }
+        p:975 = { add_road_towards = p:970 }
+        p:970 = { add_road_towards = p:940 }
+        p:940 = { add_road_towards = p:938 }
+        p:938 = { add_road_towards = p:935 }
+        p:935 = { add_road_towards = p:932 }
+        p:932 = { add_road_towards = p:930 }
+        p:930 = { add_road_towards = p:929 }
+        p:929 = { add_road_towards = p:960 }
         add_treasury = -150
     }
 }
@@ -208,6 +316,19 @@ me_persis.11 = {
     }
 }
 
+me_persis.12 = {
+    type = country_event
+
+    title = me_persis_12_title
+    desc = me_persis_12_desc
+    picture = road_construction
+
+    option = {
+        name = me_persis_12.a
+        custom_tooltip = me_persis_12_tooltip
+    }
+}
+
 me_persis.13 = {
     type = country_event
 
@@ -272,105 +393,10 @@ me_persis.16 = {
     title = me_persis_16_title
     desc = me_persis_16_desc
     picture = great_library
-    left_portrait = current_ruler
-    right_portrait = c:SEL.current_ruler
-    option = { # Demand the entire province
+
+    option = {
         name = me_persis_16.a
         custom_tooltip = me_persis_16_tooltip
-        set_variable = {
-            name = offer_flag
-            days = 90
-            value = flag:entire_area
-        }
-        c:SEL = {
-            trigger_event = me_persis.160
-        }
-    }
-    option = { # Only ask for Margastana (p:4780)
-        name = me_persis_16.b
-        custom_tooltip = me_persis_16_tooltip_B
-        set_variable = {
-            name = offer_flag
-            days = 90
-            value = flag:only_prov
-        }
-        c:SEL = {
-            trigger_event = me_persis.160
-        }
-    }
-}
-me_persis.160 = {
-    type = country_event
-    title = me_persis.160.t
-    desc = {
-        first_valid = {
-            triggered_desc = {
-                trigger = {
-                    c:PES = { var:offer_flag = flag:only_prov }
-                }
-                desc = "me_persis.160.desc"
-            }
-            triggered_desc = {
-                trigger = {
-                    c:PES = { var:offer_flag = flag:entire_area }
-                }
-                desc = "me_persis.160.desc2"
-            }
-        }
-    }
-    picture = aqueducts
-    left_portrait = current_ruler
-    right_portrait = c:PES.current_ruler
-
-    option = {  # Accept the offer
-        name = me_persis.160.a
-        add_opinion = {
-            modifier = shared_wealth_pos_opmod
-            target = c:PES
-        }
-        c:PES = {
-            set_variable = {
-                name = response_flag
-                days = 90
-                value = flag:accepted
-            }
-            trigger_event = {
-                id = me_persis.161
-                days = { 20 30 }
-            }
-        }
-        ai_chance = {
-            factor = 5
-            modifier = {
-                factor = 10
-                c:PES = { var:offer_flag = flag:only_prov }
-            }
-        }
-    }
-    option = {  # Nah, fuck em
-        name = me_persis.160.b
-        add_opinion = {
-            modifier = overlord_neg_opmod
-            target = c:PES
-        }
-        c:PES = {
-            set_variable = {
-                name = response_flag
-                days = 90
-                value = flag:rejected
-            }
-            trigger_event = {
-                id = me_persis.161
-                days = { 20 30 }
-            }
-        }
-        ai_chance = {
-            factor = 3
-            modifier = {
-                factor = 2
-                c:PES = { var:offer_flag = flag:entire_area }
-            }
-        }
     }
 }
 
@@ -464,6 +490,19 @@ me_persis.17 = {
             duration = -1
         }
         add_2_free_province_investments = yes
+    }
+}
+
+me_persis.18 = {
+    type = country_event
+
+    title = me_persis_18_title
+    desc = me_persis_18_desc
+    picture = road_construction
+
+    option = {
+        name = me_persis_18.a
+        custom_tooltip = me_persis_18_tooltip
     }
 }
 
