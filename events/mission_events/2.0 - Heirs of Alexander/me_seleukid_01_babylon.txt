@@ -1,9 +1,9 @@
-﻿namespace = me_seleukid_01_babylon
+﻿namespace = me_babylon_01_babylon
 
-me_seleukid_01_babylon.1 = { # Task 1 - Start
+me_babylon_01_babylon.1 = { # Task 1 - Start
     type = country_event
-    title = me_seleukid_01_babylon.1.t
-    desc = me_seleukid_01_babylon.1.desc
+    title = me_babylon_01_babylon.1.t
+    desc = me_babylon_01_babylon.1.desc
     picture = greek_court
     
     left_portrait = current_ruler
@@ -15,14 +15,14 @@ me_seleukid_01_babylon.1 = { # Task 1 - Start
     }
 
     option = {      
-        name = me_seleukid_01_babylon.1.a
+        name = me_babylon_01_babylon.1.a
     }
 }
 
-me_seleukid_01_babylon.2 = { # Task 1 - End
+me_babylon_01_babylon.2 = { # Task 1 - End
     type = country_event
-    title = me_seleukid_01_babylon.2.t
-    desc = me_seleukid_01_babylon.2.desc
+    title = me_babylon_01_babylon.2.t
+    desc = me_babylon_01_babylon.2.desc
     picture = greek_court
     
     left_portrait = current_ruler
@@ -35,15 +35,15 @@ me_seleukid_01_babylon.2 = { # Task 1 - End
     }
 
     option = {      
-        name = me_seleukid_01_babylon.2.a
-        custom_tooltip = me_seleukid_01_babylon.2.a.tt
+        name = me_babylon_01_babylon.2.a
+        custom_tooltip = me_babylon_01_babylon.2.a.tt
     }
 }
 
-me_seleukid_01_babylon.3 = { # Task 2
+me_babylon_01_babylon.3 = { # Task 2
     type = country_event
-    title = me_seleukid_01_babylon.3.t
-    desc = me_seleukid_01_babylon.3.desc
+    title = me_babylon_01_babylon.3.t
+    desc = me_babylon_01_babylon.3.desc
     picture = diadochi_coronation
     
     left_portrait = current_ruler
@@ -56,8 +56,8 @@ me_seleukid_01_babylon.3 = { # Task 2
     }
 
     option = {      
-        name = me_seleukid_01_babylon.3.a
-        custom_tooltip = me_seleukid_01_babylon.3.a.tt
+        name = me_babylon_01_babylon.3.a
+        custom_tooltip = me_babylon_01_babylon.3.a.tt
         p:918 = {
             if = {
                 limit = {
@@ -72,10 +72,10 @@ me_seleukid_01_babylon.3 = { # Task 2
     }
 }
 
-me_seleukid_01_babylon.4 = { # Task 3 - Start
+me_babylon_01_babylon.4 = { # Task 3 - Start
     type = country_event
-    title = me_seleukid_01_babylon.4.t
-    desc = me_seleukid_01_babylon.4.desc
+    title = me_babylon_01_babylon.4.t
+    desc = me_babylon_01_babylon.4.desc
     picture = diadochi_coronation
     
     left_portrait = current_ruler
@@ -88,17 +88,17 @@ me_seleukid_01_babylon.4 = { # Task 3 - Start
     }
 
     option = {      
-        name = me_seleukid_01_babylon.4.a
+        name = me_babylon_01_babylon.4.a
         show_as_tooltip = {
         	add_treasury = -300
         }
     }
 }
 
-me_seleukid_01_babylon.5 = { # Task 3 - End
+me_babylon_01_babylon.5 = { # Task 3 - End
     type = country_event
-    title = me_seleukid_01_babylon.5.t
-    desc = me_seleukid_01_babylon.5.desc
+    title = me_babylon_01_babylon.5.t
+    desc = me_babylon_01_babylon.5.desc
     picture = diadochi_coronation
     
     left_portrait = current_ruler
@@ -139,7 +139,7 @@ me_seleukid_01_babylon.5 = { # Task 3 - End
                 NOT = { has_variable = beleukos_created }
             }
             create_country_treasure = {
-                key = "beleukos_statue"
+                key = "beleukos_statue2"
                 icon = "treasure_architecture"
                 modifier = {
                     local_population_happiness = 0.05
@@ -149,16 +149,16 @@ me_seleukid_01_babylon.5 = { # Task 3 - End
     }
 
     option = {      
-        name = me_seleukid_01_babylon.5.a
-        custom_tooltip = me_seleukid_01_babylon.5.a.tt.2
-        custom_tooltip = me_seleukid_01_babylon.5.a.tt
+        name = me_babylon_01_babylon.5.a
+        custom_tooltip = me_babylon_01_babylon.5.a.tt.2
+        custom_tooltip = me_babylon_01_babylon.5.a.tt
         add_treasury = -25
     }
 
     option = {
-    	name = me_seleukid_01_babylon.5.b
-        custom_tooltip = me_seleukid_01_babylon.5.b.tt.2
-    	custom_tooltip = me_seleukid_01_babylon.5.b.tt
+    	name = me_babylon_01_babylon.5.b
+        custom_tooltip = me_babylon_01_babylon.5.b.tt.2
+    	custom_tooltip = me_babylon_01_babylon.5.b.tt
     	hidden_effect = {
     		scope:babylonian_sculptor_character = {
     			death = {
@@ -173,15 +173,15 @@ me_seleukid_01_babylon.5 = { # Task 3 - End
     }
 }
 
-me_seleukid_01_babylon.6 = { # Task 5
+me_babylon_01_babylon.6 = { # Task 5
     type = country_event
-    title = me_seleukid_01_babylon.6.t
-    desc = me_seleukid_01_babylon.6.desc
+    title = me_babylon_01_babylon.6.t
+    desc = me_babylon_01_babylon.6.desc
     picture = city_construction
 
     option = {      
-        name = me_seleukid_01_babylon.6.a
-        custom_tooltip = me_seleukid_01_babylon.6.a.tt
+        name = me_babylon_01_babylon.6.a
+        custom_tooltip = me_babylon_01_babylon.6.a.tt
         p:911.state = {
             if = {
                 limit = {
@@ -207,15 +207,15 @@ me_seleukid_01_babylon.6 = { # Task 5
     }
 }
 
-me_seleukid_01_babylon.7 = { # Task 6
+me_babylon_01_babylon.7 = { # Task 6
     type = country_event
-    title = me_seleukid_01_babylon.7.t
-    desc = me_seleukid_01_babylon.7.desc
+    title = me_babylon_01_babylon.7.t
+    desc = me_babylon_01_babylon.7.desc
     picture = diadochi_new_city_founded
 
     option = {      
-        name = me_seleukid_01_babylon.7.a
-        custom_tooltip = me_seleukid_01_babylon.7.a.tt
+        name = me_babylon_01_babylon.7.a
+        custom_tooltip = me_babylon_01_babylon.7.a.tt
         if = {
             limit = {
                 NOT = { has_variable = seleukid_01_06_completed }
@@ -226,15 +226,15 @@ me_seleukid_01_babylon.7 = { # Task 6
     }
 }
 
-me_seleukid_01_babylon.8 = { # Task 7
+me_babylon_01_babylon.8 = { # Task 7
     type = country_event
-    title = me_seleukid_01_babylon.8.t
-    desc = me_seleukid_01_babylon.8.desc
+    title = me_babylon_01_babylon.8.t
+    desc = me_babylon_01_babylon.8.desc
     picture = greek_marketplace
     
     option = {      
-        name = me_seleukid_01_babylon.8.a
-        custom_tooltip = me_seleukid_01_babylon.8.a.tt
+        name = me_babylon_01_babylon.8.a
+        custom_tooltip = me_babylon_01_babylon.8.a.tt
         if = {
             limit = {
                 NOT = { has_variable = seleukid_01_07_completed }
@@ -245,15 +245,15 @@ me_seleukid_01_babylon.8 = { # Task 7
     }
 }
 
-me_seleukid_01_babylon.9 = { # Task 8 
+me_babylon_01_babylon.9 = { # Task 8 
     type = country_event
-    title = me_seleukid_01_babylon.9.t
-    desc = me_seleukid_01_babylon.9.desc
+    title = me_babylon_01_babylon.9.t
+    desc = me_babylon_01_babylon.9.desc
     picture = greek_court
     
     option = {      
-        name = me_seleukid_01_babylon.9.a
-        custom_tooltip = me_seleukid_01_babylon.9.a.tt
+        name = me_babylon_01_babylon.9.a
+        custom_tooltip = me_babylon_01_babylon.9.a.tt
         p:918.state = {
             add_state_modifier = {
                 name = babylonian_mission_mission_reorganized_administration
@@ -269,10 +269,10 @@ me_seleukid_01_babylon.9 = { # Task 8
     }
 }
 
-me_seleukid_01_babylon.10 = { # Task 9 - Start
+me_babylon_01_babylon.10 = { # Task 9 - Start
     type = country_event
-    title = me_seleukid_01_babylon.10.t
-    desc = me_seleukid_01_babylon.10.desc
+    title = me_babylon_01_babylon.10.t
+    desc = me_babylon_01_babylon.10.desc
     picture = diadochi_new_city_founded
     
     left_portrait = current_ruler
@@ -283,15 +283,15 @@ me_seleukid_01_babylon.10 = { # Task 9 - Start
     }
 
     option = {      
-        name = me_seleukid_01_babylon.10.a
+        name = me_babylon_01_babylon.10.a
         add_treasury = -100
     }
 }
 
-me_seleukid_01_babylon.11 = { # Task 9 - End
+me_babylon_01_babylon.11 = { # Task 9 - End
     type = country_event
-    title = me_seleukid_01_babylon.11.t
-    desc = me_seleukid_01_babylon.11.desc
+    title = me_babylon_01_babylon.11.t
+    desc = me_babylon_01_babylon.11.desc
     picture = greek_court
     
     left_portrait = current_ruler
@@ -299,8 +299,8 @@ me_seleukid_01_babylon.11 = { # Task 9 - End
 
 
     option = {      
-        name = me_seleukid_01_babylon.11.a
-        custom_tooltip = me_seleukid_01_babylon.11.a.tt
+        name = me_babylon_01_babylon.11.a
+        custom_tooltip = me_babylon_01_babylon.11.a.tt
         current_ruler = {
 			if = {
                 limit = {
@@ -335,10 +335,10 @@ me_seleukid_01_babylon.11 = { # Task 9 - End
     }
 }
 
-me_seleukid_01_babylon.12 = { # Task 10
+me_babylon_01_babylon.12 = { # Task 10
     type = country_event
-    title = me_seleukid_01_babylon.12.t
-    desc = me_seleukid_01_babylon.12.desc
+    title = me_babylon_01_babylon.12.t
+    desc = me_babylon_01_babylon.12.desc
     picture = diadochi_new_city_founded
     
     left_portrait = current_ruler
@@ -351,8 +351,8 @@ me_seleukid_01_babylon.12 = { # Task 10
     }
 
     option = {      
-        name = me_seleukid_01_babylon.12.a
-        custom_tooltip = me_seleukid_01_babylon.12.a.tt
+        name = me_babylon_01_babylon.12.a
+        custom_tooltip = me_babylon_01_babylon.12.a.tt
         current_ruler = {
             if = {
                 limit = {
@@ -394,10 +394,10 @@ me_seleukid_01_babylon.12 = { # Task 10
     }
 }
 
-me_seleukid_01_babylon.13 = { # Task 4
+me_babylon_01_babylon.13 = { # Task 4
     type = country_event
-    title = me_seleukid_01_babylon.13.t
-    desc = me_seleukid_01_babylon.13.desc
+    title = me_babylon_01_babylon.13.t
+    desc = me_babylon_01_babylon.13.desc
     picture = greek_court
     
     left_portrait = current_ruler
@@ -410,8 +410,8 @@ me_seleukid_01_babylon.13 = { # Task 4
     }
 
     option = {      
-        name = me_seleukid_01_babylon.13.a
-        custom_tooltip = me_seleukid_01_babylon.13.a.tt
+        name = me_babylon_01_babylon.13.a
+        custom_tooltip = me_babylon_01_babylon.13.a.tt
         current_ruler = {
             if = {
                 limit = {
@@ -453,15 +453,15 @@ me_seleukid_01_babylon.13 = { # Task 4
     }
 }
 
-me_seleukid_01_babylon.14 = { # Final Task
+me_babylon_01_babylon.14 = { # Final Task
     type = country_event
-    title = me_seleukid_01_babylon.14.t
-    desc = me_seleukid_01_babylon.14.desc
+    title = me_babylon_01_babylon.14.t
+    desc = me_babylon_01_babylon.14.desc
     picture = diadochi_coronation
 
     option = {      
-        name = me_seleukid_01_babylon.14.a
-        custom_tooltip = me_seleukid_01_babylon.14.a.tt
+        name = me_babylon_01_babylon.14.a
+        custom_tooltip = me_babylon_01_babylon.14.a.tt
         p:918 = {
             custom_tooltip = seleukid_mission_01_babylonia_task_final_effect_tt
             hidden_effect = {
@@ -491,15 +491,15 @@ me_seleukid_01_babylon.14 = { # Final Task
     }
 }
 
-me_seleukid_01_babylon.15 = { # Completed Mission Event
+me_babylon_01_babylon.15 = { # Completed Mission Event
     type = country_event
-    title = me_seleukid_01_babylon.15.t
-    desc = me_seleukid_01_babylon.15.desc
+    title = me_babylon_01_babylon.15.t
+    desc = me_babylon_01_babylon.15.desc
     picture = greek_court
 
     option = {      
-        name = me_seleukid_01_babylon.15.a
-        custom_tooltip = me_seleukid_01_babylon.15.a.tt
+        name = me_babylon_01_babylon.15.a
+        custom_tooltip = me_babylon_01_babylon.15.a.tt
         every_country_culture = {
             limit = {
                 OR = {
@@ -520,10 +520,10 @@ me_seleukid_01_babylon.15 = { # Completed Mission Event
     }
 }
 
-me_seleukid_01_babylon.16 = { # Recurring Event - Babylonian Priest 
+me_babylon_01_babylon.16 = { # Recurring Event - Babylonian Priest 
     type = country_event
-    title = me_seleukid_01_babylon.16.t
-    desc = me_seleukid_01_babylon.16.desc
+    title = me_babylon_01_babylon.16.t
+    desc = me_babylon_01_babylon.16.desc
     picture = diadochi_coronation
     
     left_portrait = current_ruler
@@ -532,7 +532,7 @@ me_seleukid_01_babylon.16 = { # Recurring Event - Babylonian Priest
     trigger = {
     	NOR = {
     		has_variable = permanently_stop_babylonian_priest
-    		has_variable = me_seleukid_01_babylon_16_cooldown
+    		has_variable = me_babylon_01_babylon_16_cooldown
     	}
     }
 
@@ -562,19 +562,19 @@ me_seleukid_01_babylon.16 = { # Recurring Event - Babylonian Priest
 	            value = scope:babylonian_priest_character
 	        }
 	        set_variable = {
-	        	name = me_seleukid_01_babylon_16_cooldown
+	        	name = me_babylon_01_babylon_16_cooldown
 	        	days = 1825
 	        }
         }
     }
 
     option = {      
-        name = me_seleukid_01_babylon.16.a
-        custom_tooltip = me_seleukid_01_babylon.16.a.tt
+        name = me_babylon_01_babylon.16.a
+        custom_tooltip = me_babylon_01_babylon.16.a.tt
     }
     option = {      
-        name = me_seleukid_01_babylon.16.b
-        custom_tooltip = me_seleukid_01_babylon.16.b.tt
+        name = me_babylon_01_babylon.16.b
+        custom_tooltip = me_babylon_01_babylon.16.b.tt
         hidden_effect = {
 	        if = {
 	        	limit = {
@@ -599,8 +599,8 @@ me_seleukid_01_babylon.16 = { # Recurring Event - Babylonian Priest
         }
     }
     option = {
-    	name = me_seleukid_01_babylon.16.c
-    	custom_tooltip = me_seleukid_01_babylon.16.c.tt
+    	name = me_babylon_01_babylon.16.c
+    	custom_tooltip = me_babylon_01_babylon.16.c.tt
     	highlight = yes
     	trigger = {
     		has_variable = barred_babylonian_priest
