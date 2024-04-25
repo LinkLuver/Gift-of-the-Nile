@@ -11,20 +11,20 @@
  persis_mission_1_freedom_task_2:0 "Reach Out To The Uxii"
  persis_mission_1_freedom_task_2_DESC:0 "There are many connections between our people and the Uxians; we share so many religious and cultural practices that many foreigners cannot distinguish our peoples. It behooves us to reforge these ancient bonds yet again. \n\n\n\n\n\n\n\n\n\n@persia_mil1!"
  
- persis_mission_1_freedom_task_4:0 "Urbanize Suravan"
- persis_mission_1_freedom_task_4_DESC:0 "As it stands, the capital of our province of Mardiene is not worthy of the honor, being nothing more than a mere settlement. We have lofty plans for this region, so we should make all efforts to urbanize Suravan when we can. \n\n\n\n\n\n\n\n\n\n\n\n@event_pic11!"
+ persis_mission_1_freedom_task_4:0 "A New Urban Center"
+ persis_mission_1_freedom_task_4_DESC:0 "The Achaemenids have often sponsored new great cities to be built. We shall continue this tradition by choosing a brand new population center for our people. We simply need to decide where to build it. \n\n\n\n\n\n\n\n\n\n\n\n@event_pic11!"
  
  persis_mission_1_freedom_task_5:0 "People of Pathragada"
  persis_mission_1_freedom_task_5_DESC:0 "When one leaves Parsa, following the Royal Road to the east, the imposing mountain city of Pathragada, once known as Batrakatash, is less than a few week's ride. This ancient city is our capital, fortified and powerfuul. However, it has not yet taken the hearts of our people the same way Persepolis or Anshan has. We could take steps to make Pathragada a center of culture as well. \n\n\n\n\n\n\n\n\n\n\n@greek_mil1!"
  
  persis_mission_1_freedom_task_6:0 "Home of Humban"
- persis_mission_1_freedom_task_6_DESC:0 "Kazerun, better known to all as Anshan, was the pillar in which the Iranians first made known their power to the rest of the world. It was indeed Anshan where Cyrus was born, and where he would rule as King for the first time. Even today, it causes many jealousy, the Medes claim it as their own, while the greedy Susians hunger for it too, we continue to make it prosper. Perhaps doing so will show the Elamites that we are indeed the proper owners of the legacy of Anshan. \n\n\n\n\n\n\n\n\n\n\n@persia_mil8!"
+ persis_mission_1_freedom_task_6_DESC:0 "Anshan was the pillar in which the Iranians first made known their power to the rest of the world. It was indeed Anshan where Cyrus was born, and where he would rule as King for the first time. Even today, it causes many jealousy, the Medes claim it as their own, while the greedy Susians hunger for it too, we continue to make it prosper. Perhaps doing so will show the Elamites that we are indeed the proper owners of the legacy of Anshan. \n\n\n\n\n\n\n\n\n\n\n@persia_mil8!"
  
  persis_mission_1_freedom_task_7:0 "Heartland Economy"
  persis_mission_1_freedom_task_7_DESC:0 "Gold is the oil that lubricates the engines of war, and we must ensure that our heartland can sustain the immense economic pressures that we are about to place upon it. The time has come to buttress our financial resources. \n\n\n\n\n\n\n\n\n\n\n@egypt_mil19!"
  
- persis_mission_1_freedom_task_8:0 "Connect Kish"
- persis_mission_1_freedom_task_8_DESC:0 "The valuable port of Kish is our window to the Sinus Persicus; every day ships from Bushahr sail south to our outpost on the coast. It has been suggested that we extend the Royal Road to this city, so that we are not entirely reliant upon our navies. \n\n\n\n\n\n\n\n\n\n\n@persia_mil3!"
+ persis_mission_1_freedom_task_8:0 "Connect Mesopotamia"
+ persis_mission_1_freedom_task_8_DESC:0 "The valuable land of Mesopotamia has long been our foes, yet at the same time, our desire. Now that we control it, it has been suggested that we extend the Royal Road to the great cities of Sumer and Akkad including Babylon herself. Let us connect the Babylonian road to our great Royal Road. \n\n\n\n\n\n\n\n\n\n\n@persia_mil3!"
  
  persis_mission_1_freedom_task_9:0 "Urbanize Kish"
  persis_mission_1_freedom_task_9_DESC:0 "[GetProvince('(int32)4956').GetName]'s auspicious location demands that we do everything we can to urbanize the area, turning the settlement into a city that is properly populated. Word will travel of what we have accomplished here, and many will want to see this new town for themselves. \n\n\n\n\n\n\n\n\n\n\n@event_pic3!"
@@ -35,7 +35,7 @@
  persis_mission_1_freedom_task_11:0 "Our Mighty Immortals"
  persis_mission_1_freedom_task_11_DESC:0 "The elite military unit known as the Immortals strikes fear and terror into the hearts of the enemies of the Achaemenids, however, as time passes so too do the generations. We must make sure the current generation of Immortals do not rest on the laurels of their predecessors. \n\n\n\n\n\n\n\n\n\n\n@greek_mil14!"
  
- persis_mission_1_freedom_task_12:0 "Threaten The Colony"
+ persis_mission_1_freedom_task_12:0 "Replace this task"
  persis_mission_1_freedom_task_12_DESC:0 ""
  
  persis_mission_1_freedom_task_13:0 "Fortify the Passes"
@@ -47,13 +47,13 @@
  persis_mission_1_freedom_task_15:0 "Control The Gulf"
  persis_mission_1_freedom_task_15_DESC:0 "Who is able to challenge our might on the waters of the Sinus Persicus? Do we not control a vast and powerful fleet, one that will enforce our will upon the distant shores of faraway lands? \n\n\n\n\n\n\n\n\n\n\n@greek_mil19!"
  
- persis_mission_1_freedom_task_16:0 "Demand Mardiene"
- persis_mission_1_freedom_task_16_DESC:0 "We must tell the [GetCountry('SEL').GetName] that we will fight to the death over the province of Mardiene, and that they must surrender it immediately or else face our armies. \n\n\n\n\n\n\n\n\n\n\n@greek_mil15!"
+ persis_mission_1_freedom_task_16:0 "Replace this task"
+ persis_mission_1_freedom_task_16_DESC:0 ""
  
  persis_mission_1_freedom_task_17:0 "Expand The Royal Road"
  persis_mission_1_freedom_task_17_DESC:0 "The Royal Road, one of the crowning achievements in the region, has connected centers of trade and civilization for as long as any of us can remember. Now that we are the stewards of such a vital piece of infrastructure, we should take steps to expand access where we can. \n\n\n\n\n\n\n\n\n\n\n@greek_mil3!"
  
- persis_mission_1_freedom_task_18:0 "Expand The Army"
+ persis_mission_1_freedom_task_18:0 "Replace this task"
  persis_mission_1_freedom_task_18_DESC:0 ""
  
  persis_mission_1_freedom_task_19:0 "Fortify Capitals"
@@ -83,7 +83,7 @@
  
  persis_mod_1:0 "Persepolis of the Shahs"
  persis_mod_2:0 "Uxii Army Tactics"
- persis_mod_3:0 "Urbanization of Suravan"
+ persis_mod_3:0 "New City Urbanization"
  persis_mod_4:0 "Beauties of Batrakatash"
  persis_mod_5:0 "Kings of Anshan"
  persis_mod_6:0 "Thriving Heartland Economy"
@@ -111,10 +111,22 @@
  me_persis_2_desc:0 "In days of yore, the Persians and the Uxians were known as brothers, protecting each other's backs when no one else would, and even though these memories are distant, they are not forgotten among the people.\n\nDrawing upon these sweet memories, we have sent an envoy to our friends the Uxians, asking them to remember their vows of old. You will be pleased, o [SCOPE.GetRootScope.GetCountry.GetRuler.GetName], to hear that they are faithful and have not forgotten their oaths."
  me_persis_2.a:0 "You have our thanks, old friends"
  me_persis_2_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_2$#!' has now been #G Completed#!!"
+
+ me_persis_400_title:0 "$persis_mission_1_freedom_task_4$"
+ me_persis_400_desc:0 "We have decided to undergo a new task; a task to build a new city in our image. However, before construction can begin, we must decide where it should be built."
+ me_persis_400.a:0 "[GetProvince('(int32)4977').GetName]"
+ me_persis_400.b:0 "[GetProvince('(int32)4950').GetName]"
+ me_persis_400.c:0 "[GetProvince('(int32)4788').GetName]"
+ me_persis_400.d:0 "[GetProvince('(int32)3402').GetName]"
+ me_persis_400.e:0 "[GetProvince('(int32)3407').GetName]"
+ me_persis_400.f:0 "[GetProvince('(int32)3410').GetName]"
+ me_persis_400.g:0 "[GetProvince('(int32)3413').GetName]"
+ me_persis_400.h:0 "[GetProvince('(int32)6529').GetName]"
+ me_persis_400.i:0 "[GetProvince('(int32)6581').GetName]"
  
  me_persis_4_title:0 "$persis_mission_1_freedom_task_4$"
- me_persis_4_desc:0 "O joyous day! Our engineers have finally finished construction in [GetProvince('(int32)4782').GetName], tearing down the squatter's buildings and replacing them with permanent structures of brick and stone. Not only will this initiative ensure economic prosperity in the region, but our armies will benefit as well - we now have a commanding position in the province of Mardiene, one that offers us a strategic vantage point."
- me_persis_4.a:0 "Suravan is a dagger pointed at the heart of the [GetCountry('SEL').GetName]"
+ me_persis_4_desc:0 "O joyous day! Our engineers have finally finished construction of our new city, tearing down the squatter's buildings and replacing them with permanent structures of brick and stone. This will ensure economic prosperity in the region."
+ me_persis_4.a:0 "We Achaemenids continue to be great!"
  me_persis_4_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_4$#!' has now been #G Completed#!!"
  
  me_persis_5_title:0 "$persis_mission_1_freedom_task_5$"
@@ -123,8 +135,8 @@
  me_persis_5_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_5$#!' has now been #G Completed#!!"
  
  me_persis_6_title:0 "$persis_mission_1_freedom_task_6$"
- me_persis_6_desc:0 "Our architects report to us that the work in [GetProvince('(int32)4781').GetName] is completed, and because we expanded the residential districts in the city, word is spreading that Kazerun is the place to be these days. Thankfully, we are certain that there is room for everyone, thanks to the care demonstrated by [SCOPE.GetRootScope.GetCountry.GetRuler.GetName] when drawing up the designs with our engineers. We wonder how long these good times will last!"
- me_persis_6.a:0 "Tremendous news...one day we shall visit Kazerun ourselves"
+ me_persis_6_desc:0 "Our architects report to us that the work in [GetProvince('(int32)4781').GetName] is completed, and because we expanded the residential districts in the city, word is spreading that Anshan is the place to be these days. Thankfully, we are certain that there is room for everyone, thanks to the care demonstrated by [SCOPE.GetRootScope.GetCountry.GetRuler.GetName] when drawing up the designs with our engineers. We wonder how long these good times will last!"
+ me_persis_6.a:0 "Tremendous news...one day we shall visit Anshan ourselves"
  me_persis_6_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_6$#!' has now been #G Completed#!!"
  
  me_persis_7_title:0 "$persis_mission_1_freedom_task_7$"
@@ -133,17 +145,17 @@
  me_persis_7_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_7$#!' has now been #G Completed#!!"
  
  me_persis_8_title:0 "$persis_mission_1_freedom_task_8$"
- me_persis_8_desc:0 "We are pleased to report that a road has been built that connects [GetProvince('(int32)4799').GetName] and [GetProvince('(int32)4956').GetName]. As was predicted by our economic advisors, connecting these two cities has resulted in streams of wealth pouring into our coffers. The rich trade goods that are ferried into Portospana now arrive at Parsa much faster than they used to - everything we have invested in is paying dividends!"
+ me_persis_8_desc:0 "We are pleased to report that a road has been built that connects the Royal Road to the Babylonian Road. As was predicted by our economic advisors, connecting these massive road networks has resulted in streams of wealth pouring into our coffers. The rich trade goods that are ferried from the lands of Assyria straight to Pathragada, and much faster than they used to - everything we have invested in is paying dividends!"
  me_persis_8.a:0 "Never a bad problem to have"
  me_persis_8_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_8$#!' has now been #G Completed#!!"
  
  me_persis_9_title:0 "$persis_mission_1_freedom_task_9$"
- me_persis_9_desc:0 "Happily, we have received word that the new construction in [GetProvince('(int32)4956').GetName] has been received by an overjoyed populace, who are already taking advantage of the expanded commercial districts.\n\nThe fish markets of Portospana are becoming known far and wide for the varieties of fresh catch available every day, with many traveling to the markets before the sun rises in order to buy the best filets for themselves."
+ me_persis_9_desc:0 "Happily, we have received word that the new construction in [GetProvince('(int32)4956').GetName] has been received by an overjoyed populace, who are already taking advantage of the expanded commercial districts.\n\nThe fish markets of Kish are becoming known far and wide for the varieties of fresh catch available every day, with many traveling to the markets before the sun rises in order to buy the best filets for themselves."
  me_persis_9.a:0 "There are more good things in store for this region"
  me_persis_9_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_9$#!' has now been #G Completed#!!"
  
  me_persis_10_title:0 "$persis_mission_1_freedom_task_10$"
- me_persis_10_desc:0 "There is more good news to share this morning; our slaves and our fields have been productive, and we are acquiring a reputation in foreign markets for exporting goods of exceptional quality. People are willing to pay a premium for the fine wares produced in [SCOPE.GetRootScope.GetCountry.GetName], and we are only too happy to take their coins."
+ me_persis_10_desc:0 "There is more good news to share this morning; our slaves and our fields have been productive, and we are acquiring a reputation in foreign markets for exporting goods of exceptional quality. People are willing to pay a premium for the fine wares produced in the [SCOPE.GetRootScope.GetCountry.GetName], and we are only too happy to take their coins."
  me_persis_10.a:0 "It is true that we are the world's best craftsmen"
  me_persis_10_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_10$#!' has now been #G Completed#!!"
  
@@ -151,6 +163,11 @@
  me_persis_11_desc:0 "Word is beginning to spread that we have maintained the elite military unit the Immortals; even now, they are drilling outside of the walls of [GetProvince('(int32)4799').GetName], practicing and honing the ancient battle formations that have carried them to victory so many times.\n\nWhen battle inevitable comes to the Immortals, we expect our heavy infantry to shatter the opposing forces and to show our enemies no mercy; this is the legacy that we have chosen to embrace."
  me_persis_11.a:0 "We are not worried about our generals too much..."
  me_persis_11_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_11$#!' has now been #G Completed#!!"
+
+ me_persis_12_title:0 "$persis_mission_1_freedom_task_12$"
+ me_persis_12_desc:0 ""
+ me_persis_12.a:0 "We are not worried about our generals too much..."
+ me_persis_12_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_12$#!' has now been #G Completed#!!"
  
  me_persis_13_title:0 "$persis_mission_1_freedom_task_13$"
  me_persis_13_desc:0 "Even though our neighbors are unhappy that we are taking open steps to secure our borders, we assure those around us that we are merely seeking to protect our homeland - we do not seek conflict with anyone, but rather hope to expand our joint opportunities."
@@ -168,11 +185,8 @@
  me_persis_15_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_15$#!' has now been #G Completed#!!"
  
  me_persis_16_title:0 "$persis_mission_1_freedom_task_16$"
- me_persis_16_desc:0 "Now that we are in the position to make our desires known, it has been decided that we will send an ultimatum to the [GetCountry('SEL').GetName]. Simply put, we must have control of our historic homelands, and are willing to go to war to press these claims.\n\nSome of our advisors are asking us to ask for the entire province of Mardiene, but others think this approach is too greedy and state that we should ask only for the city of Margastana, or Arragan as we know it - the choice will be up to [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]."
- me_persis_16.a:0 "Demand [GetProvince('(int32)4780').GetArea.GetName]"
- me_persis_16.b:0 "Ask for [GetProvince('(int32)4780').GetName]"
- me_persis_16_tooltip:0 "Demand the #Y [GetCountry('SEL').GetName]#! to cede #Y [GetProvince('(int32)4780').GetArea.GetName]#! to #Y [SCOPE.GetRootScope.GetCountry.GetName]#!"
- me_persis_16_tooltip_B:0 "Only ask the #Y [GetCountry('SEL').GetName]#! for #Y [GetProvince('(int32)4780').GetName]#!"
+ me_persis_16_desc:0 ""
+ me_persis_16.a:0 ""
  
  me_persis.160.t:0 "Demands of [GetCountry('PES').GetName]"
  me_persis.160.desc:0 "[GetCountry('PES').GetName] has requested we cede the province of [GetProvince('(int32)4780').GetName] to them. Some of our advisors say this would be wise to appease our subjects as it has been said they could rise up against our rule at any time."

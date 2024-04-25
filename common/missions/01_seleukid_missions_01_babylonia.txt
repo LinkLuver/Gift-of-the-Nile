@@ -1,4 +1,4 @@
-﻿seleukid_mission_01_babylonia = {
+﻿babylon_mission_01_babylonia = {
     header = "mission_image_seleukid"
     icon = "seleukid_4"
 
@@ -9,7 +9,7 @@
     }
 
     potential = {
-        NOT = { has_variable = seleukid_mission_01_babylonia }
+        NOT = { has_variable = babylon_mission_01_babylonia }
     	OR = {
             tag = SEL
             has_variable = sel_unique_mech
@@ -33,7 +33,7 @@
                 current_ruler.family = char:530.family
             }
             set_variable = {
-                name = seleukid_mission_family_variable
+                name = babylon_mission_family_variable
             }
         }
     }
@@ -41,20 +41,20 @@
     on_abort = {
         custom_tooltip = general_mission_cooldown_tt
         set_variable = {
-            name = seleukid_mission_01_babylonia
+            name = babylon_mission_01_babylonia
             days = 7300
         }
     }
 
     on_completion = {
         complete_mission_effect = yes
-        trigger_event = me_seleukid_01_babylon.15
+        trigger_event = me_babylon_01_babylon.15
         show_as_tooltip = {
             every_country_culture = {
                 limit = {
                     OR = {
                         is_culture = root.culture
-                        is_culture = babylonian
+                        is_culture = dilmunite
                     }
                 }
                 if = {
@@ -70,7 +70,7 @@
         }
     }
 
-    seleukid_mission_01_babylonia_task_1 = { # The Priests of Marduk
+    babylon_mission_01_babylonia_task_1 = { # The Priests of Marduk
         icon = "task_diplomatic"
 
         duration = 30
@@ -99,7 +99,7 @@
 
         on_start = {
             add_political_influence = -15
-            trigger_event = me_seleukid_01_babylon.1
+            trigger_event = me_babylon_01_babylon.1
         }
 
         on_completion = {
@@ -129,12 +129,12 @@
                 name = babylonian_priest_character_scope_variable
                 value = scope:babylonian_priest_character
             }
-            trigger_event = me_seleukid_01_babylon.2
+            trigger_event = me_babylon_01_babylon.2
         }
     }
 
-    seleukid_mission_01_babylonia_task_2 = { # Securing Loyalties
-    	requires = { seleukid_mission_01_babylonia_task_1 }
+    babylon_mission_01_babylonia_task_2 = { # Securing Loyalties
+    	requires = { babylon_mission_01_babylonia_task_1 }
 
         icon = "task_political"
 
@@ -179,7 +179,7 @@
                         has_office = office_high_priest
                     }
                     custom_tooltip = {
-                        text = seleukid_mission_01_babylonia_task_2_trigger_tt
+                        text = babylon_mission_01_babylonia_task_2_trigger_tt
                         loyalty >= 75
                     }
                 }
@@ -190,7 +190,7 @@
                         is_monarchy = yes
                     }
                     custom_tooltip = {
-                        text = seleukid_mission_01_babylonia_task_2_trigger_tt_monarchy
+                        text = babylon_mission_01_babylonia_task_2_trigger_tt_monarchy
                         always = no
                     }
                 }
@@ -199,7 +199,7 @@
                         is_republic = yes
                     }
                     custom_tooltip = {
-                        text = seleukid_mission_01_babylonia_task_2_trigger_tt_republic
+                        text = babylon_mission_01_babylonia_task_2_trigger_tt_republic
                         always = no
                     }
                 }
@@ -208,7 +208,7 @@
                         is_tribal = yes
                     }
                     custom_tooltip = {
-                        text = seleukid_mission_01_babylonia_task_2_trigger_tt_tribal
+                        text = babylon_mission_01_babylonia_task_2_trigger_tt_tribal
                         always = no
                     }
                 }
@@ -216,7 +216,7 @@
         }
 
         on_completion = {
-            trigger_event = me_seleukid_01_babylon.3
+            trigger_event = me_babylon_01_babylon.3
             show_as_tooltip = {
                 p:918 = {
                     if = {
@@ -262,8 +262,8 @@
         }
     }
 
-    seleukid_mission_01_babylonia_task_3 = { # Dynastic Cult
-    	requires = { seleukid_mission_01_babylonia_task_2 }
+    babylon_mission_01_babylonia_task_3 = { # Dynastic Cult
+    	requires = { babylon_mission_01_babylonia_task_2 }
 
         icon = "task_expansion"
 
@@ -276,12 +276,12 @@
         }
 
         potential = {
-            has_variable = seleukid_mission_family_variable
+            has_variable = babylon_mission_family_variable
         }
 
         bypass = {
             OR = {
-                NOT = { current_ruler.family = char:24.family }
+                NOT = { current_ruler.family = char:530.family }
                 NOT = { has_variable = babylonian_priest_character_scope_variable }
                 var:babylonian_priest_character_scope_variable = { is_alive = no }
                 AND = {
@@ -308,7 +308,7 @@
             }
             trigger_else = {
                 custom_tooltip = {
-                    text = seleukid_mission_01_babylonia_task_3_trigger_tt
+                    text = babylon_mission_01_babylonia_task_3_trigger_tt
                     always = no
                 }
             }
@@ -316,18 +316,18 @@
 
         on_start = {
             add_treasury = -300
-            trigger_event = me_seleukid_01_babylon.4
+            trigger_event = me_babylon_01_babylon.4
         }
 
         on_completion = {
-            trigger_event = me_seleukid_01_babylon.5
+            trigger_event = me_babylon_01_babylon.5
             show_as_tooltip = {
                 if = {
                     limit = {
                         NOT = { has_variable = beleukos_created }
                     }
                     create_country_treasure = {
-                        key = "beleukos_statue"
+                        key = "beleukos_statue2"
                         icon = "treasure_architecture"
                         modifier = {
                             local_population_happiness = 0.05
@@ -357,8 +357,8 @@
         }
     }
 
-    seleukid_mission_01_babylonia_task_4 = { # Babylonian Support
-    	requires = { seleukid_mission_01_babylonia_task_10 }
+    babylon_mission_01_babylonia_task_4 = { # Babylonian Support
+    	requires = { babylon_mission_01_babylonia_task_10 }
 
         icon = "task_diplomatic"
 
@@ -395,14 +395,14 @@
             }
             trigger_else = {
                 custom_tooltip = {
-                    text = seleukid_mission_01_babylonia_task_3_trigger_tt
+                    text = babylon_mission_01_babylonia_task_3_trigger_tt
                     always = no
                 }
             }
         }
 
         on_completion = {
-            trigger_event = me_seleukid_01_babylon.13
+            trigger_event = me_babylon_01_babylon.13
             show_as_tooltip = {
                 current_ruler = {
                     if = {
@@ -446,11 +446,11 @@
         }
 
         on_bypass = {
-            trigger_event = me_seleukid_01_babylon.13
+            trigger_event = me_babylon_01_babylon.13
         }
     }
 
-    seleukid_mission_01_babylonia_task_5 = { # The Barriers of Babylonia
+    babylon_mission_01_babylonia_task_5 = { # The Barriers of Babylonia
         icon = "task_conquest"
 
         highlight = {
@@ -554,7 +554,7 @@
                     add_building_level = fortress_building
                 }
             }
-            trigger_event = me_seleukid_01_babylon.6
+            trigger_event = me_babylon_01_babylon.6
             show_as_tooltip = {
                 p:911.state = {
                     if = {
@@ -582,8 +582,8 @@
         }
     }
 
-    seleukid_mission_01_babylonia_task_6 = { # The People of Babylonia
-    	requires = { seleukid_mission_01_babylonia_task_5 }
+    babylon_mission_01_babylonia_task_6 = { # The People of Babylonia
+    	requires = { babylon_mission_01_babylonia_task_5 }
 
         icon = "task_diplomatic"
 
@@ -602,7 +602,7 @@
         }
 
         on_completion = {
-            trigger_event = me_seleukid_01_babylon.7
+            trigger_event = me_babylon_01_babylon.7
             show_as_tooltip = {
                 if = {
                     limit = {
@@ -625,8 +625,8 @@
         }
     }
 
-    seleukid_mission_01_babylonia_task_7 = { # Restoring the Satrapy
-    	requires = { seleukid_mission_01_babylonia_task_5 }
+    babylon_mission_01_babylonia_task_7 = { # Restoring the Satrapy
+    	requires = { babylon_mission_01_babylonia_task_5 }
 
         icon = "task_economical"
 
@@ -653,7 +653,7 @@
         }
 
         on_completion = {
-            trigger_event = me_seleukid_01_babylon.8
+            trigger_event = me_babylon_01_babylon.8
             show_as_tooltip = {
                 if = {
                     limit = {
@@ -666,8 +666,8 @@
         }
     }
 
-    seleukid_mission_01_babylonia_task_8 = { # Reorganizing the Administration
-    	requires = { seleukid_mission_01_babylonia_task_6 seleukid_mission_01_babylonia_task_7 }
+    babylon_mission_01_babylonia_task_8 = { # Reorganizing the Administration
+    	requires = { babylon_mission_01_babylonia_task_6 babylon_mission_01_babylonia_task_7 }
 
         icon = "task_political"
 
@@ -715,7 +715,7 @@
         }
 
         on_completion = {
-            trigger_event = me_seleukid_01_babylon.9
+            trigger_event = me_babylon_01_babylon.9
             show_as_tooltip = {
                 p:918.state = {
                     if = {
@@ -773,7 +773,7 @@
         }
     }
 
-    seleukid_mission_01_babylonia_task_9 = { # Local Legitimacy
+    babylon_mission_01_babylonia_task_9 = { # Local Legitimacy
         icon = "task_economical"
 
         duration = 180
@@ -810,7 +810,7 @@
             }
             trigger_else_if = {
                 limit = {
-                    p:911.region = {
+                    p:918.region = {
                         NOT = {
                             any_region_province = {
                                 owner = root
@@ -821,9 +821,9 @@
                 }
                 trigger_if = {
                     limit = {
-                        p:911 = { exists = governor }
+                        p:918 = { exists = governor }
                     }
-                    p:911.governor = {
+                    p:918.governor = {
                         loyalty >= 80
                     }
                 }
@@ -847,14 +847,14 @@
             job_holder:office_steward = {
                 save_scope_as = current_steward
             }
-            trigger_event = me_seleukid_01_babylon.10
+            trigger_event = me_babylon_01_babylon.10
             show_as_tooltip = {
                 add_treasury = -100
             }
         }
 
         on_completion = {
-            trigger_event = me_seleukid_01_babylon.11
+            trigger_event = me_babylon_01_babylon.11
             show_as_tooltip = {
                 current_ruler = {
                     if = {
@@ -891,8 +891,8 @@
         }
     }
 
-    seleukid_mission_01_babylonia_task_10 = { # From Ashur to Ikaros
-    	requires = { seleukid_mission_01_babylonia_task_9 }
+    babylon_mission_01_babylonia_task_10 = { # From Ashur to Ikaros
+    	requires = { babylon_mission_01_babylonia_task_9 }
 
         icon = "task_political"
 
@@ -939,7 +939,7 @@
         }
 
         on_completion = {
-            trigger_event = me_seleukid_01_babylon.12
+            trigger_event = me_babylon_01_babylon.12
             show_as_tooltip = {
                 current_ruler = {
                     if = {
@@ -983,8 +983,8 @@
         }
     }
 
-    seleukid_mission_01_babylonia_task_final = { # The Loyal Satrapy
-    	requires = { seleukid_mission_01_babylonia_task_3 seleukid_mission_01_babylonia_task_4 seleukid_mission_01_babylonia_task_8 }
+    babylon_mission_01_babylonia_task_final = { # The Loyal Satrapy
+    	requires = { babylon_mission_01_babylonia_task_3 babylon_mission_01_babylonia_task_4 babylon_mission_01_babylonia_task_8 }
 
         icon = "task_economical"
 
@@ -1003,10 +1003,10 @@
         }
 
         on_completion = {
-            trigger_event = me_seleukid_01_babylon.14
+            trigger_event = me_babylon_01_babylon.14
             show_as_tooltip = {
                 p:918 = {
-                    custom_tooltip = seleukid_mission_01_babylonia_task_final_effect_tt
+                    custom_tooltip = babylon_mission_01_babylonia_task_final_effect_tt
                     hidden_effect = {
                         while = {
                             count = 5
@@ -1018,8 +1018,8 @@
                         }
                     }
                 }
-                p:911 = {
-                    custom_tooltip = seleukid_mission_01_babylonia_task_final_effect_tt
+                p:919 = {
+                    custom_tooltip = babylon_mission_01_babylonia_task_final_effect_tt
                     hidden_effect = {
                         while = {
                             count = 5
