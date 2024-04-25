@@ -1715,7 +1715,7 @@ meroe_area = { #10
 }
 
 meshan_area = { #10
-	provinces = { 938 940 941 942 963 964 965 969 971 5399 }
+	provinces = { 940 941 942 963 964 965 969 971 5399 7723 9299 }
 }
 
 mesopotamia_river_area = { #13
@@ -2826,7 +2826,7 @@ vaspurakan_area = { #12
 }
 
 veh_kavad_area = { #14
-	provinces = { 920 921 923 930 931 932 935 936 937 939 968 7566 7567 7723 }
+	provinces = { 920 921 923 930 931 932 935 936 937 939 7566 7567 9297 9298 938 968 }
 }
 
 veliocassia_area = { #11
