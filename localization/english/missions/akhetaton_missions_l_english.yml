@@ -1,6 +1,6 @@
 ﻿l_english:
  
- akhetaton_missions:0 "Akhetaton Missions"
+ akhetaton_missions:0 "Restorers of the Light"
  akhetaton_missions_DESCRIPTION:0 "The final remnant of the last golden age of Egypt #E (Late Kingdom Egypt)#!, the #E 27th Dynasty#! was an #Y Atenic#! traditionalist dynasty responsible for a major ressurgence of #Y Akhenaten's#! religion. While #E Kemet#! was indeed great in the earlier #E 27th#!, the later kings of #E Akhetaton#! were plagued by extreme genetic failure stemming from their preference for #Y Thutmosid#! brides. The ancient familial line is tied to #Y Akhenaten#! himself, but it appears as though the old gods are having their revenge upon the #Y Atenists#!.\n\nYet, #Y Aten's#! light has yet to fade from the open temple in #E Akhetaton#!. And where there's a glimmer of light, there is a glimmer of hope; and that hope is the revival of #E Kemet#! under the #E Pharaoh#! in #E Akhetaton#!. To do so, we must defeat the #E Henen-Nesutans#!, the #E Wasetians#!, and reunite the #E Delta#!. A tall order indeed, but it must be done for the destruction of #E Isfet#! and prominence of the #Y Aten#!."
  akhetaton_missions_CRITERIA_DESCRIPTION:0 "This mission will be completed when #E Kemet#! is united under the #E 27th Dynasty of Egypt#! lead by the light of #Y Aten#!."
  akhetaton_missions_BUTTON_TOOLTIP:0 "The light of #E Aten#! will never fade!"
@@ -13,16 +13,16 @@
  akhetaton_missions_task_2:0 "Curse of the Old Gods"
  akhetaton_missions_task_2_DESC:0 "It is well known that the curse of the old gods plagues the #E 27th Dynasty#!. Who knows why, but the #E Thutmosid#! line, as pureblood as it is, seems to be unable to sustain itself any longer! But the Aten is stronger, all gods will yeild to the one true god and his prophet, #Y Akhenaten#!! We must pray that any child of #E Ankhsenebaten II Iqrefatid#! is not cursed any longer."
  
- akhetaton_missions_task_3:0 ""
+ akhetaton_missions_task_3:0 "Faith of Pharaoh"
  akhetaton_missions_task_3_DESC:0 ""
  
- akhetaton_missions_task_4:0 ""
+ akhetaton_missions_task_4:0 "Might of Pharaoh"
  akhetaton_missions_task_4_DESC:0 ""
  
- akhetaton_missions_task_5:0 ""
+ akhetaton_missions_task_5:0 "Care of Pharaoh"
  akhetaton_missions_task_5_DESC:0 ""
  
- akhetaton_missions_task_6:0 ""
+ akhetaton_missions_task_6:0 "People of Pharaoh"
  akhetaton_missions_task_6_DESC:0 ""
  
  akhetaton_missions_task_7:0 ""
@@ -31,10 +31,10 @@
  akhetaton_missions_task_8:0 ""
  akhetaton_missions_task_8_DESC:0 ""
  
- akhetaton_missions_task_9:0 ""
+ akhetaton_missions_task_9:0 "A Grand Divination"
  akhetaton_missions_task_9_DESC:0 ""
  
- akhetaton_missions_task_10:0 ""
+ akhetaton_missions_task_10:0 "Low Birth, High Reward"
  akhetaton_missions_task_10_DESC:0 ""
  
  akhetaton_missions_task_11:0 ""
@@ -84,17 +84,23 @@
  
  
  #Tooltips
- 
- 
+ revelation_tt:0 "Iqrefaten IV will see the #Y Aten#! in a prophecy."
+ patron_of_arts_button_modifier_tt:0 "Has enacted #T Patronize the Arts#! in the #Y Government#! window."
+ up_to_5_martial:0 "#E Ankhsenebaten II Iqrefid#! will gain up to #Y 5#! @military_icon!"
+ up_to_5_zeal:0 "#E Ankhsenebaten II Iqrefid#! will gain up to #Y 5#! @religious_icon!"
+ up_to_5_charisma:0 "#E Ankhsenebaten II Iqrefid#! will gain up to #Y 5#! @oratory_icon!"
+ up_to_5_finesse:0 "#E Ankhsenebaten II Iqrefid#! will gain up to #Y 5#! @civic_icon!"
  
  #Modifiers
  
  
  
  #Events
+ me_akhetaton_101_desc:0 "The toils of a Pharaoh are never ending, especially in this age of utter #E Isfet#!. #E Iqrefaten IV#! may go down as the last Pharaoh of the dynasty which restored the #E Aten#! to Kemet. Is this truly the legacy that the #E Aten#! commands of his most loyal follower? One night, a dream comes to #E Iqrefaten#!.\n\n#E My prophet, my Pharaoh. You have struggled, the old gods curse you. You will struggle no more. Your daughter is my chosen one. You will put her on the throne, and I will take care of the rest.#!\n\n#E Iqrefaten#! wakes up in a sweat. What was that dream? Putting a woman on the throne is one thing... but a child? And while #E Iqrefaten#! has so much time left? Perhaps it was just a dream... yet perhaps this is the only way to save this Dying Dynasty."
+ me_akhetaton_101.a:0 "I will give it some thought."
  me_akhetaton_1_title:0 "$akhetaton_missions_task_1$"
- me_akhetaton_1_desc:0 ""
- me_akhetaton_1.a:0 ""
+ me_akhetaton_1_desc:0 "It was decided suddenly. #E Iqrefaten IV Iqrefid#! will step down as Pharoah, giving the crown of the #E Aten#! to his only healthy child, #E Ankhsenebaten II Iqrefid-Thutmosid#!. It is a move tha surprises all, from #E Meriaten#!, the wife of #E Iqrefaten#!, to the nobles, and even the people. Just what will come of this now?"
+ me_akhetaton_1.a:0 "All will be fine, my child."
  me_akhetaton_1_tooltip:0 "The mission task '#Y $akhetaton_missions_task_1$#!' has now been #G Completed#!!"
  
  me_akhetaton_2_title:0 "$akhetaton_missions_task_2$"

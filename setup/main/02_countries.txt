@@ -914,6 +914,7 @@ country = {
 				942 7723 #meshan_region
 				889 890 #garamigh_region
 				891 892 893 894 895 977 #tigris_region
+				9297 9298 9299 #new sumer
 			}
 
 			pantheon = {
@@ -1098,8 +1099,8 @@ country = {
 
 		TYO = {
 			government = plutocratic_republic
-			primary_culture = babylonian
-			religion = arabian_pantheon
+			primary_culture = dilmunite
+			religion = mesopotamian_religion
 
 			technology={
 				military_tech={ level=2 progress=0 }

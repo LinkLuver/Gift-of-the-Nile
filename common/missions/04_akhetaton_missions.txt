@@ -1,6 +1,6 @@
 ﻿akhetaton_missions = {
-    header = "mission_image_general"
-    icon = "general_1"
+    header = "kush_mission_header"
+    icon = "egypt_3"
 
     repeatable = no
     chance = 1000
@@ -24,19 +24,30 @@
     on_completion = {}
     akhetaton_missions_task_1 = {
         icon = "task_political"
-        allow = {}
+        duration = 180
+        allow = {
+            has_any_omen = yes
+            custom_tooltip = {
+                text = perform_divine_sacrifice_please_stab_the_pig
+                has_country_modifier = stability_investment
+            }
+        }
+        on_start = {
+            custom_tooltip = revelation_tt
+            trigger_event = me_akhetaton.101
+        }
         on_completion = {
             trigger_event = me_akhetaton.1
             show_as_tooltip = {
-
+                set_as_ruler = char:519
             }
         }
     }
     akhetaton_missions_task_2 = {
         icon = "task_political"
-        duration = 365
-        allow = {
-        }
+        duration = 180
+        requires = { akhetaton_missions_task_9 }
+        allow = {}
         on_start = {
             trigger_event = me_akhetaton.200
         }
@@ -47,48 +58,120 @@
             }
         }
     }
-    akhetaton_missions_task_3 = {
+    akhetaton_missions_task_3 = { # Zeal Training
         icon = "task_political"
-        allow = {}
+        duration = 180
+        requires = { akhetaton_missions_task_1 }
+        allow = {
+            current_ruler = {
+                age <= 21
+            }
+            char:517 = {
+                is_alive = yes
+                has_any_office = yes
+            }
+            has_any_omen = yes
+        }
+        bypass = {
+            OR = {
+                current_ruler = {
+                    age >= 21
+                }
+                char:517 = {
+                    is_alive = no
+                }
+            }
+        }
         on_completion = {
             trigger_event = me_akhetaton.3
             show_as_tooltip = {
-
+                custom_tooltip = up_to_5_zeal
             }
         }
     }
-    akhetaton_missions_task_4 = {
+    akhetaton_missions_task_4 = { # Martial Training
         icon = "task_political"
-        allow = {}
+        duration = 180
+        requires = { akhetaton_missions_task_1 }
+        allow = {
+            current_ruler = {
+                age >= 21
+            }
+            military_experience >= 10
+        }
+        bypass = {
+            OR = {
+                current_ruler = {
+                    age >= 21
+                }
+            }
+        }
         on_completion = {
             trigger_event = me_akhetaton.4
             show_as_tooltip = {
-
+                custom_tooltip = up_to_5_martial
             }
         }
     }
-    akhetaton_missions_task_5 = {
+    akhetaton_missions_task_5 = { # Finesse Training
         icon = "task_political"
-        allow = {}
+        duration = 180
+        requires = { akhetaton_missions_task_1 }
+        allow = {
+            custom_tooltip = {
+                has_country_modifier = patron_of_arts_button_modifier
+                text = patron_of_arts_button_modifier_tt
+            }
+            capital_scope = {
+                has_building = forum_building
+            }
+        }
+        bypass = {
+            OR = {
+                current_ruler = {
+                    age >= 21
+                }
+            }
+        }
         on_completion = {
             trigger_event = me_akhetaton.5
             show_as_tooltip = {
-
+                custom_tooltip = up_to_5_finesse
             }
         }
     }
-    akhetaton_missions_task_6 = {
+    akhetaton_missions_task_6 = { # Charisma Training
         icon = "task_political"
-        allow = {}
+        duration = 180
+        requires = { akhetaton_missions_task_1 }
+        allow = {
+            current_ruler = {
+                age <= 21
+            }
+            char:519 = {
+                num_of_friends >= 2
+            }
+        }
+        bypass = {
+            OR = {
+                current_ruler = {
+                    age >= 21
+                }
+                char:517 = {
+                    is_alive = no
+                }
+            }
+        }
         on_completion = {
             trigger_event = me_akhetaton.6
             show_as_tooltip = {
-
+                custom_tooltip = up_to_5_charisma
             }
         }
     }
     akhetaton_missions_task_7 = {
         icon = "task_political"
+        requires = { akhetaton_missions_task_10 }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.7
@@ -99,6 +182,7 @@
     }
     akhetaton_missions_task_8 = {
         icon = "task_political"
+        requires = { akhetaton_missions_task_7 }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.8
@@ -109,6 +193,7 @@
     }
     akhetaton_missions_task_9 = {
         icon = "task_political"
+        requires = { akhetaton_missions_task_6 akhetaton_missions_task_5 akhetaton_missions_task_4 akhetaton_missions_task_3 }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.9
@@ -129,6 +214,7 @@
     }
     akhetaton_missions_task_11 = {
         icon = "task_political"
+        requires = { akhetaton_missions_task_10 }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.11
@@ -139,6 +225,7 @@
     }
     akhetaton_missions_task_12 = {
         icon = "task_political"
+        requires = { akhetaton_missions_task_11 }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.12
@@ -149,6 +236,7 @@
     }
     akhetaton_missions_task_13 = {
         icon = "task_political"
+        requires = { akhetaton_missions_task_12 }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.13
@@ -159,6 +247,7 @@
     }
     akhetaton_missions_task_14 = {
         icon = "task_political"
+        requires = { akhetaton_missions_task_13 }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.14
@@ -179,6 +268,7 @@
     }
     akhetaton_missions_task_16 = {
         icon = "task_political"
+        requires = { akhetaton_missions_task_15 }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.16
@@ -189,6 +279,7 @@
     }
     akhetaton_missions_task_17 = {
         icon = "task_political"
+        requires = { akhetaton_missions_task_16 }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.17
@@ -199,6 +290,7 @@
     }
     akhetaton_missions_task_18 = {
         icon = "task_political"
+        requires = { akhetaton_missions_task_17 }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.18
@@ -209,6 +301,7 @@
     }
     akhetaton_missions_task_19 = {
         icon = "task_political"
+        requires = { akhetaton_missions_task_17 }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.19
@@ -219,6 +312,7 @@
     }
     akhetaton_missions_task_20 = {
         icon = "task_political"
+        requires = { akhetaton_missions_task_17 }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.20
@@ -229,6 +323,7 @@
     }
     akhetaton_missions_task_21 = {
         icon = "task_political"
+        requires = { akhetaton_missions_task_18 akhetaton_missions_task_19 akhetaton_missions_task_20 }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.21
@@ -239,6 +334,7 @@
     }
     akhetaton_missions_task_22 = {
         icon = "task_political"
+        requires = { akhetaton_missions_task_21 }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.22
@@ -249,6 +345,7 @@
     }
     akhetaton_missions_task_23 = {
         icon = "task_political"
+        requires = { akhetaton_missions_task_22 }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.23
@@ -259,6 +356,7 @@
     }
     akhetaton_missions_task_24 = {
         icon = "task_political"
+        requires = { akhetaton_missions_task_23 }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.24
@@ -269,6 +367,7 @@
     }
     akhetaton_missions_task_25 = {
         icon = "task_political"
+        requires = { akhetaton_missions_task_24 }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.25
@@ -276,5 +375,6 @@
 
             }
         }
+        final = yes
     }
 }

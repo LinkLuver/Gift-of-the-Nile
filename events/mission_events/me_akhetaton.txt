@@ -1,16 +1,35 @@
 ﻿namespace = me_akhetaton
 
+me_akhetaton.101 = {
+    type = country_event
+
+    title = me_akhetaton_1_title
+    desc = me_akhetaton_101_desc
+    picture = crucifixion
+    left_portrait = current_ruler
+    right_portrait = char:513
+
+    option = {
+        name = "me_akhetaton_101.a"
+    }
+}
+
 me_akhetaton.1 = {
     type = country_event
 
     title = me_akhetaton_1_title
     desc = me_akhetaton_1_desc
-    picture = great_library
+    picture = diadochi_coronation
 
     option = {
         name = "me_akhetaton_1.a"
         custom_tooltip = me_akhetaton_1_tooltip
-
+        set_as_ruler = char:519
+        hidden_effect = {
+            char:519 = {
+                set_variable = cursed_child_var
+            }
+        }
     }
 }
 me_akhetaton.2 = {
@@ -393,7 +412,10 @@ me_akhetaton.666 = {
                         is_child_of = char:519
                         is_alive = yes
                     }
-                    is_spouse_of = char:519
+                    AND = {
+                        char:519 = { has_variable = cursed_child_var }
+                        is_spouse_of = char:519
+                    }
                 }
             }
             death = {
