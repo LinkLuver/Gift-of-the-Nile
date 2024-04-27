@@ -23,7 +23,7 @@
     }
     on_completion = {}
     akhetaton_missions_task_1 = {
-        icon = "task_political"
+        icon = "task_religion"
         duration = 180
         allow = {
             has_any_omen = yes
@@ -59,7 +59,7 @@
         }
     }
     akhetaton_missions_task_3 = { # Zeal Training
-        icon = "task_political"
+        icon = "task_happiness"
         duration = 180
         requires = { akhetaton_missions_task_1 }
         allow = {
@@ -90,7 +90,7 @@
         }
     }
     akhetaton_missions_task_4 = { # Martial Training
-        icon = "task_political"
+        icon = "task_expansion"
         duration = 180
         requires = { akhetaton_missions_task_1 }
         allow = {
@@ -114,7 +114,7 @@
         }
     }
     akhetaton_missions_task_5 = { # Finesse Training
-        icon = "task_political"
+        icon = "task_diplomatic"
         duration = 180
         requires = { akhetaton_missions_task_1 }
         allow = {
@@ -172,7 +172,47 @@
     akhetaton_missions_task_7 = {
         icon = "task_political"
         requires = { akhetaton_missions_task_10 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                trigger_if = {
+                    limit = {
+                        c:PMD = { has_land = yes }
+                    }
+                    owner = c:PMD
+                }
+            }
+        }
+        allow = {
+            treasury >= 100
+            political_influence >= 50
+            c:PMD = {
+                alliance_with = root
+            }
+        }
+        bypass = {
+            OR = {
+                owns_or_subject_owns = 545
+                c:ATN = {
+                    any_subject = {
+                        tag = PMD
+                    }
+                }
+                c:ATN = {
+                    owns_or_subject_owns = 545
+                }
+            }
+            c:PMD = {
+                has_land = no
+            }
+        }
+        on_bypass = {
+            if = {
+                limit = {
+                    NOT = { owns_or_subject_owns = 545 }
+                }
+                p:545 = { add_claim = root }
+            }
+        }
         on_completion = {
             trigger_event = me_akhetaton.7
             show_as_tooltip = {
@@ -192,88 +232,301 @@
         }
     }
     akhetaton_missions_task_9 = {
-        icon = "task_political"
+        icon = "task_shiva"
         requires = { akhetaton_missions_task_6 akhetaton_missions_task_5 akhetaton_missions_task_4 akhetaton_missions_task_3 }
-        allow = {}
+        allow = {
+            has_any_omen = yes
+            custom_tooltip = {
+                text = perform_divine_sacrifice_please_stab_the_pig
+                has_country_modifier = stability_investment
+            }
+        }
+        on_start = {
+
+        }
         on_completion = {
             trigger_event = me_akhetaton.9
             show_as_tooltip = {
-
+                custom_tooltip = grand_divination_tt
             }
         }
     }
     akhetaton_missions_task_10 = {
-        icon = "task_political"
-        allow = {}
+        icon = "task_conquest"
+        allow = {
+            political_influence >= 25
+        }
         on_completion = {
             trigger_event = me_akhetaton.10
             show_as_tooltip = {
-
+                add_political_influence = -25
+                add_country_modifier = {
+                    name = 27th_dynasty_mod
+                    duration = 1825
+                }
             }
         }
     }
     akhetaton_missions_task_11 = {
         icon = "task_political"
         requires = { akhetaton_missions_task_10 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                this = p:558
+            }
+        }
+        allow = {
+            p:558 = {
+                num_of_fortress_building >= 1
+            }
+        }
         on_completion = {
             trigger_event = me_akhetaton.11
             show_as_tooltip = {
-
+                p:557 = {
+                    add_province_modifier = {
+                        name = akhetaton_defenses
+                        duration = -1
+                    }
+                }
+                p:558 = {
+                    add_building_level = fortress_building
+                    add_province_modifier = {
+                        name = akhetaton_defenses
+                        duration = -1
+                    }
+                }
             }
         }
     }
     akhetaton_missions_task_12 = {
         icon = "task_political"
         requires = { akhetaton_missions_task_11 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                is_in_region = lower_nubia_region
+            }
+        }
+        allow = {
+            custom_tooltip = {
+                any_country = {
+                    capital_scope = { is_in_region = lower_nubia_region }
+                    NOR = {
+                        is_subject_of = c:EGY
+                        alliance_with = c:EGY
+                    }
+                    opinion = {
+                        target = root
+                        value >= 20
+                    }
+                }
+                text = "nubian_ally_tt"
+            }
+        }
         on_completion = {
             trigger_event = me_akhetaton.12
             show_as_tooltip = {
-
+                custom_tooltip = gain_nubian_ally_tt
             }
         }
     }
     akhetaton_missions_task_13 = {
         icon = "task_political"
         requires = { akhetaton_missions_task_12 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                trigger_if = {
+                    limit = {
+                        c:EGY = { has_land = yes }
+                    }
+                    owner = c:EGY
+                }
+            }
+        }
+        allow = {
+            OR = {
+                country_population >= 275
+                num_of_provinces >= 20
+            }
+        }
         on_completion = {
             trigger_event = me_akhetaton.13
             show_as_tooltip = {
-
+                declare_war_with_wargoal = {
+                    target = c:EGY
+                    province = 569
+                    war_goal = egyptian_unification_wargoal
+                }
             }
         }
     }
     akhetaton_missions_task_14 = {
         icon = "task_political"
         requires = { akhetaton_missions_task_13 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                this = p:569
+            }
+        }
+        allow = {
+            owns = 569
+        }
         on_completion = {
             trigger_event = me_akhetaton.14
             show_as_tooltip = {
-
+                custom_tooltip = decide_waset_tt
             }
         }
     }
     akhetaton_missions_task_15 = {
         icon = "task_political"
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_area = khargana_area
+                    is_in_area = farfara_area
+                    is_in_area = kharga_area
+                }
+            }
+        }
+        allow = {
+            political_influence >= 25
+            treasury >= 100
+        }
         on_completion = {
             trigger_event = me_akhetaton.15
             show_as_tooltip = {
-
+                area:kharga_area = {
+                    every_area_province = {
+                        add_claim = root
+                    }
+                }
+                area:farfara_area = {
+                    every_area_province = {
+                        add_claim = root
+                    }
+                }
+                area:khargana_area = {
+                    every_area_province = {
+                        add_claim = root
+                    }
+                }
             }
         }
     }
     akhetaton_missions_task_16 = {
         icon = "task_political"
         requires = { akhetaton_missions_task_15 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    province_id = 5504
+                    province_id = 5513
+                    province_id = 5514
+                }
+            }
+        }
+        allow = {
+            p:5513 = {
+                governor_policy = religious_conversion
+                any_pops_in_province = {
+                    pop_religion = aten_religion
+                }
+            }
+            p:5514 = {
+                governor_policy = religious_conversion
+                any_pops_in_province = {
+                    pop_religion = aten_religion
+                }
+            }
+            p:5504 = {
+                governor_policy = religious_conversion
+                any_pops_in_province = {
+                    pop_religion = aten_religion
+                }
+            }
+        }
         on_completion = {
             trigger_event = me_akhetaton.16
             show_as_tooltip = {
-
+                custom_tooltip = 3_pops_per_province_tt
+                hidden_effect = {
+                    area:khargana_area = {
+                        every_area_province = {
+                            limit = {
+                                OR = {
+                                    is_in_area = kharga_area
+                                    is_in_area = farfara_area
+                                    is_in_area = khargana_area
+                                }
+                            }
+                            while = {
+                                count = 3
+                                limit = {
+                                    any_pops_in_province = {
+                                        NOT = { pop_religion = aten_religion }
+                                    }
+                                }
+                                random_pops_in_province = {
+                                    limit = {
+                                        NOT = { pop_religion = aten_religion }
+                                    }
+                                    set_pop_religion = aten_religion
+                                }
+                            }
+                        }
+                    }
+                    area:farfara_area = {
+                        every_area_province = {
+                            limit = {
+                                OR = {
+                                    is_in_area = kharga_area
+                                    is_in_area = farfara_area
+                                    is_in_area = khargana_area
+                                }
+                            }
+                            while = {
+                                count = 3
+                                limit = {
+                                    any_pops_in_province = {
+                                        NOT = { pop_religion = aten_religion }
+                                    }
+                                }
+                                random_pops_in_province = {
+                                    limit = {
+                                        NOT = { pop_religion = aten_religion }
+                                    }
+                                    set_pop_religion = aten_religion
+                                }
+                            }
+                        }
+                    }
+                    area:kharga_area = {
+                        every_area_province = {
+                            limit = {
+                                OR = {
+                                    is_in_area = kharga_area
+                                    is_in_area = farfara_area
+                                    is_in_area = khargana_area
+                                }
+                            }
+                            while = {
+                                count = 3
+                                limit = {
+                                    any_pops_in_province = {
+                                        NOT = { pop_religion = aten_religion }
+                                    }
+                                }
+                                random_pops_in_province = {
+                                    limit = {
+                                        NOT = { pop_religion = aten_religion }
+                                    }
+                                    set_pop_religion = aten_religion
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -291,6 +544,11 @@
     akhetaton_missions_task_18 = {
         icon = "task_political"
         requires = { akhetaton_missions_task_17 }
+        highlight = {
+            scope:province = {
+                this = p:505
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.18
@@ -302,6 +560,11 @@
     akhetaton_missions_task_19 = {
         icon = "task_political"
         requires = { akhetaton_missions_task_17 }
+        highlight = {
+            scope:province = {
+                this = p:501
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.19
@@ -313,6 +576,11 @@
     akhetaton_missions_task_20 = {
         icon = "task_political"
         requires = { akhetaton_missions_task_17 }
+        highlight = {
+            scope:province = {
+                this = p:515
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.20
@@ -324,6 +592,18 @@
     akhetaton_missions_task_21 = {
         icon = "task_political"
         requires = { akhetaton_missions_task_18 akhetaton_missions_task_19 akhetaton_missions_task_20 }
+        highlight = {
+            scope:province = {
+                AND = {
+                    is_in_region = lower_egypt_region
+                    NOR = {
+                        is_in_area = heptanomis_area
+                        is_in_area = parva_area
+                        is_in_area = sinai_area
+                    }
+                }
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.21
@@ -334,43 +614,10 @@
     }
     akhetaton_missions_task_22 = {
         icon = "task_political"
-        requires = { akhetaton_missions_task_21 }
+        requires = { akhetaton_missions_task_21 akhetaton_missions_task_14 akhetaton_missions_task_2 }
         allow = {}
         on_completion = {
             trigger_event = me_akhetaton.22
-            show_as_tooltip = {
-
-            }
-        }
-    }
-    akhetaton_missions_task_23 = {
-        icon = "task_political"
-        requires = { akhetaton_missions_task_22 }
-        allow = {}
-        on_completion = {
-            trigger_event = me_akhetaton.23
-            show_as_tooltip = {
-
-            }
-        }
-    }
-    akhetaton_missions_task_24 = {
-        icon = "task_political"
-        requires = { akhetaton_missions_task_23 }
-        allow = {}
-        on_completion = {
-            trigger_event = me_akhetaton.24
-            show_as_tooltip = {
-
-            }
-        }
-    }
-    akhetaton_missions_task_25 = {
-        icon = "task_political"
-        requires = { akhetaton_missions_task_24 }
-        allow = {}
-        on_completion = {
-            trigger_event = me_akhetaton.25
             show_as_tooltip = {
 
             }

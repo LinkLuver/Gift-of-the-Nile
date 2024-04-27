@@ -1,0 +1,10 @@
+﻿27th_dynasty_mod = {
+	monthly_legitimacy = 0.05
+	agressive_expansion_impact = -0.05
+	happiness_for_wrong_culture_modifier = 0.05
+}
+akhetaton_defenses = {
+	garrison_size = 0.25
+	local_defensive = 0.10
+	local_hostile_attrition = 0.10
+}
