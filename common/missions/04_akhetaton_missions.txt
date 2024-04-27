@@ -22,14 +22,22 @@
         }
     }
     on_completion = {}
+
     akhetaton_missions_task_1 = {
         icon = "task_religion"
         duration = 180
         allow = {
-            has_any_omen = yes
-            custom_tooltip = {
-                text = perform_divine_sacrifice_please_stab_the_pig
-                has_country_modifier = stability_investment
+            trigger_if = {
+                limit = { is_ai = no }
+                has_any_omen = yes
+                custom_tooltip = {
+                    text = perform_divine_sacrifice_please_stab_the_pig
+                    has_country_modifier = stability_investment
+                }
+            }
+            trigger_if = {
+                limit = { is_ai = yes }
+                tag = ATN
             }
         }
         on_start = {
@@ -44,17 +52,20 @@
         }
     }
     akhetaton_missions_task_2 = {
-        icon = "task_political"
+        icon = "task_athena"
         duration = 180
         requires = { akhetaton_missions_task_9 }
         allow = {}
         on_start = {
             trigger_event = me_akhetaton.200
+            show_as_tooltip = {
+                custom_tooltip = marriage_start_tt
+            }
         }
         on_completion = {
             trigger_event = me_akhetaton.2
             show_as_tooltip = {
-
+                custom_tooltip = marriage_start_tt_2
             }
         }
     }
@@ -170,7 +181,7 @@
         }
     }
     akhetaton_missions_task_7 = {
-        icon = "task_political"
+        icon = "task_happiness"
         requires = { akhetaton_missions_task_10 }
         highlight = {
             scope:province = {
@@ -223,11 +234,20 @@
     akhetaton_missions_task_8 = {
         icon = "task_political"
         requires = { akhetaton_missions_task_7 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                #OR = {
+                    is_in_area = heptanomis_area
+                #}
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = heptanomis_area
+        }
         on_completion = {
             trigger_event = me_akhetaton.8
             show_as_tooltip = {
-
+                custom_tooltip = faiyumic_policy_tt
             }
         }
     }
@@ -240,9 +260,6 @@
                 text = perform_divine_sacrifice_please_stab_the_pig
                 has_country_modifier = stability_investment
             }
-        }
-        on_start = {
-
         }
         on_completion = {
             trigger_event = me_akhetaton.9
@@ -268,7 +285,7 @@
         }
     }
     akhetaton_missions_task_11 = {
-        icon = "task_political"
+        icon = "task_economical"
         requires = { akhetaton_missions_task_10 }
         highlight = {
             scope:province = {
@@ -300,7 +317,7 @@
         }
     }
     akhetaton_missions_task_12 = {
-        icon = "task_political"
+        icon = "task_diplomatic"
         requires = { akhetaton_missions_task_11 }
         highlight = {
             scope:province = {
@@ -331,7 +348,7 @@
         }
     }
     akhetaton_missions_task_13 = {
-        icon = "task_political"
+        icon = "task_battle"
         requires = { akhetaton_missions_task_12 }
         highlight = {
             scope:province = {
@@ -361,7 +378,7 @@
         }
     }
     akhetaton_missions_task_14 = {
-        icon = "task_political"
+        icon = "task_religion"
         requires = { akhetaton_missions_task_13 }
         highlight = {
             scope:province = {
@@ -379,7 +396,7 @@
         }
     }
     akhetaton_missions_task_15 = {
-        icon = "task_political"
+        icon = "task_battle"
         highlight = {
             scope:province = {
                 OR = {
@@ -396,19 +413,24 @@
         on_completion = {
             trigger_event = me_akhetaton.15
             show_as_tooltip = {
-                area:kharga_area = {
-                    every_area_province = {
-                        add_claim = root
+                add_treasury = -100
+                add_political_influence = -25
+                custom_tooltip = gain_claims_desert_tt
+                hidden_effect = {
+                    area:kharga_area = {
+                        every_area_province = {
+                            add_claim = root
+                        }
                     }
-                }
-                area:farfara_area = {
-                    every_area_province = {
-                        add_claim = root
+                    area:farfara_area = {
+                        every_area_province = {
+                            add_claim = root
+                        }
                     }
-                }
-                area:khargana_area = {
-                    every_area_province = {
-                        add_claim = root
+                    area:khargana_area = {
+                        every_area_province = {
+                            add_claim = root
+                        }
                     }
                 }
             }
@@ -531,25 +553,58 @@
         }
     }
     akhetaton_missions_task_17 = {
-        icon = "task_political"
+        icon = "task_heracles"
         requires = { akhetaton_missions_task_16 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                this = p:5537
+            }
+        }
+        allow = {
+            p:5537 = {
+                dominant_province_religion = aten_religion
+            }
+        }
         on_completion = {
             trigger_event = me_akhetaton.17
             show_as_tooltip = {
-
+                p:5537 = {
+                    remove_province_deity = yes
+                    set_province_deity = deity:omen_sekhtaten
+                }
+                add_country_modifier = {
+                    name = aten_replacement
+                    duration = -1
+                }
+                custom_tooltip = claims_on_important_cities_tt
             }
         }
     }
     akhetaton_missions_task_18 = {
-        icon = "task_political"
+        icon = "task_economical"
         requires = { akhetaton_missions_task_17 }
         highlight = {
             scope:province = {
                 this = p:505
             }
         }
-        allow = {}
+        allow = {
+            trigger_if = {
+                limit = {
+                    any_country = {
+                        religion = aten_religion
+                        NOT = { tag = ATN }
+                        government = nomarchy
+                        owns = 505
+                    }
+                }
+                treasury >= 150
+                political_influence >= 80
+            }
+            trigger_else = {
+                owns = 505
+            }
+        }
         on_completion = {
             trigger_event = me_akhetaton.18
             show_as_tooltip = {
@@ -558,14 +613,30 @@
         }
     }
     akhetaton_missions_task_19 = {
-        icon = "task_political"
+        icon = "task_economical"
         requires = { akhetaton_missions_task_17 }
         highlight = {
             scope:province = {
                 this = p:501
             }
         }
-        allow = {}
+        allow = {
+            trigger_if = {
+                limit = {
+                    any_country = {
+                        religion = aten_religion
+                        NOT = { tag = ATN }
+                        government = nomarchy
+                        owns = 501
+                    }
+                }
+                treasury >= 150
+                political_influence >= 80
+            }
+            trigger_else = {
+                owns = 501
+            }
+        }
         on_completion = {
             trigger_event = me_akhetaton.19
             show_as_tooltip = {
@@ -574,14 +645,30 @@
         }
     }
     akhetaton_missions_task_20 = {
-        icon = "task_political"
+        icon = "task_economical"
         requires = { akhetaton_missions_task_17 }
         highlight = {
             scope:province = {
                 this = p:515
             }
         }
-        allow = {}
+        allow = {
+            trigger_if = {
+                limit = {
+                    any_country = {
+                        religion = aten_religion
+                        NOT = { tag = ATN }
+                        government = nomarchy
+                        owns = 515
+                    }
+                }
+                treasury >= 150
+                political_influence >= 80
+            }
+            trigger_else = {
+                owns = 515
+            }
+        }
         on_completion = {
             trigger_event = me_akhetaton.20
             show_as_tooltip = {
@@ -590,7 +677,7 @@
         }
     }
     akhetaton_missions_task_21 = {
-        icon = "task_political"
+        icon = "task_atlas"
         requires = { akhetaton_missions_task_18 akhetaton_missions_task_19 akhetaton_missions_task_20 }
         highlight = {
             scope:province = {
@@ -604,22 +691,106 @@
                 }
             }
         }
-        allow = {}
+        allow = {
+            owns = 500
+            p:500 = {
+                is_state_capital = yes
+                has_building = temple_building
+            }
+        }
         on_completion = {
             trigger_event = me_akhetaton.21
             show_as_tooltip = {
-
+                custom_tooltip = sunset_league_annex_tt
+                custom_tooltip = claims_on_lower_egypt_tt
+                hidden_effect = {
+                    region:lower_egypt_region = {
+                        every_region_province = {
+                            add_claim = root
+                        }
+                    }
+                }
             }
         }
     }
     akhetaton_missions_task_22 = {
-        icon = "task_political"
+        icon = "task_heracles"
         requires = { akhetaton_missions_task_21 akhetaton_missions_task_14 akhetaton_missions_task_2 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_area = eastern_delta_area
+                    is_in_area = western_delta_area
+                    is_in_area = central_delta_area
+                    is_in_area = heptanomis_area
+                    is_in_area = memphis_area
+                    is_in_area = hema_nome_area
+                    is_in_area = luxor_area
+                    province_id = 550
+                }
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = eastern_delta_area
+            owns_or_subject_owns_area = western_delta_area
+            owns_or_subject_owns_area = central_delta_area
+            owns_or_subject_owns_area = heptanomis_area
+            owns_or_subject_owns_area = memphis_area
+            owns_or_subject_owns_area = hema_nome_area
+            owns_or_subject_owns_area = luxor_area
+            owns_or_subject_owns = 550
+        }
         on_completion = {
             trigger_event = me_akhetaton.22
             show_as_tooltip = {
-
+                current_ruler = {
+                    add_popularity = 30
+                    force_add_trait = victorious
+                }
+                char:519 = {
+                    deify_character = {
+                        deity = deity:omen_nefertiti
+                        country = ROOT
+                    }
+                }
+                add_stability = 10
+                custom_tooltip = "tier_2_formable_tooltip"
+                if = {
+                    limit = { is_tribal = yes }
+                    add_country_modifier = {
+                        name = civilized_tribe
+                        duration = 5475
+                    }
+                }
+                if = {
+                    limit = {
+                        NOT = { government = egyptian_dynasty }
+                    }
+                    change_government = egyptian_dynasty
+                    switch_government_type_event_clearup_effect = yes
+                }
+                change_country_name = "KEMET_NAME"
+                hidden_effect = {
+                    change_country_flag = EGYPTIAN_FLAG
+                    change_country_adjective = "KEMET_ADJECTIVE"
+                    change_country_color = "egypt_color"
+                    change_country_tag = EGT
+                }
+                custom_tooltip = egypt_claims_tooltip
+                hidden_effect = {
+                    region:lower_egypt_region = { formable_region_province_effect = yes }
+                    region:upper_egypt_region = { formable_region_province_effect = yes }
+                }
+                capital_scope = {
+                    capital_formable_large_effect = yes
+                    formable_capital_modifier_large_effect = yes
+                }
+                hidden_effect = {
+                    set_variable = {
+                        name = ach_new_kingdom_var
+                    }
+                }
+                add_5_free_province_investments = yes
             }
         }
         final = yes

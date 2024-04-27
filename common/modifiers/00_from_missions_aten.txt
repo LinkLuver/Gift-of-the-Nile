@@ -8,3 +8,8 @@ akhetaton_defenses = {
 	local_defensive = 0.10
 	local_hostile_attrition = 0.10
 }
+aten_replacement = {
+	desecrate_cost_modifier = -0.25
+	global_pop_conversion_speed_modifier = 0.10
+	oasis_combat_bonus = 0.10
+}

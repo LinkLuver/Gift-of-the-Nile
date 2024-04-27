@@ -32,16 +32,15 @@ me_akhetaton.1 = {
         }
     }
 }
-me_akhetaton.2 = {
+me_akhetaton.200 = {
     type = country_event
 
-    title = me_akhetaton_2_title
-    desc = me_akhetaton_2_desc
+    title = me_akhetaton_200_title
+    desc = me_akhetaton_200_desc
     picture = natural_disaster
 
     option = {
-        name = "me_akhetaton_2.a"
-        custom_tooltip = me_akhetaton_2_tooltip
+        name = "me_akhetaton_200.a"
         if = {
             limit = {
                 char:519 = {
@@ -70,6 +69,96 @@ me_akhetaton.2 = {
                     silent = yes
                 }
             }
+        }
+        hidden_effect = {
+            create_character = {
+                first_name="Atensekhat"
+                family_name="Pirosid"
+                culture="akhenite_egyptian"
+                religion="aten_religion"
+                age = 25
+                no_stats=yes
+                great_charisma_effect = yes
+                average_finesse_effect = yes
+                bad_martial_effect = yes
+                good_zeal_effect = yes
+                no_traits=yes
+                save_scope_as = pirosmani
+            }
+        }
+        trigger_event = {
+            id = me_akhetaton.201
+            days = 5
+        }
+    }
+}
+me_akhetaton.201 = {
+    type = country_event
+
+    title = me_akhetaton_201_title
+    desc = me_akhetaton_201_desc
+    picture = diadochi_greek_royal_wedding
+
+    right_portrait = scope:pirosmani
+    left_portrait = char:519
+
+    immediate = {
+        hidden_effect = {
+            if = {
+                limit = {
+                    char:519 = {
+                        is_married = yes
+                    }
+                }
+                char:519.spouse = {
+                    death = {
+                        death_reason = death_claimed_by_the_underworld
+                        silent = yes
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    any_character = {
+                        is_child_of = char:519
+                    }
+                }
+                every_character = {
+                    limit = {
+                        is_child_of = char:519
+                    }
+                    death = {
+                        death_reason = death_claimed_by_the_underworld
+                        silent = yes
+                    }
+                }
+            }
+        }
+    }
+
+    option = {
+        name = "me_akhetaton_201.a"
+        char:519 = {
+            marry_character = scope:pirosmani
+            make_pregnant = yes
+        }
+    }
+}
+me_akhetaton.2 = {
+    type = country_event
+
+    title = me_akhetaton_2_title
+    desc = me_akhetaton_2_desc
+    picture = celtic_religious_festival
+    left_portrait = current_ruler
+    right_portrait = current_ruler.spouse
+
+    option = {
+        name = "me_akhetaton_2.a"
+        custom_tooltip = me_akhetaton_2_tooltip
+        char:519 = {
+            remove_variable = cursed_child_var
+            remove_trait = inbred
         }
     }
 }
@@ -174,7 +263,11 @@ me_akhetaton.10 = {
     option = {
         name = "me_akhetaton_10.a"
         custom_tooltip = me_akhetaton_10_tooltip
-
+        add_political_influence = -25
+        add_country_modifier = {
+            name = 27th_dynasty_mod
+            duration = 1825
+        }
     }
 }
 me_akhetaton.11 = {
@@ -187,7 +280,19 @@ me_akhetaton.11 = {
     option = {
         name = "me_akhetaton_11.a"
         custom_tooltip = me_akhetaton_11_tooltip
-
+        p:557 = {
+            add_province_modifier = {
+                name = akhetaton_defenses
+                duration = -1
+            }
+        }
+        p:558 = {
+            add_building_level = fortress_building
+            add_province_modifier = {
+                name = akhetaton_defenses
+                duration = -1
+            }
+        }
     }
 }
 me_akhetaton.12 = {
@@ -200,7 +305,6 @@ me_akhetaton.12 = {
     option = {
         name = "me_akhetaton_12.a"
         custom_tooltip = me_akhetaton_12_tooltip
-
     }
 }
 me_akhetaton.13 = {
@@ -213,7 +317,11 @@ me_akhetaton.13 = {
     option = {
         name = "me_akhetaton_13.a"
         custom_tooltip = me_akhetaton_13_tooltip
-
+        declare_war_with_wargoal = {
+            target = c:EGY
+            province = 569
+            war_goal = egyptian_unification_wargoal
+        }
     }
 }
 me_akhetaton.14 = {
@@ -239,7 +347,26 @@ me_akhetaton.15 = {
     option = {
         name = "me_akhetaton_15.a"
         custom_tooltip = me_akhetaton_15_tooltip
-
+        add_treasury = -100
+        add_political_influence = -25
+        custom_tooltip = gain_claims_desert_tt
+        hidden_effect = {
+            area:kharga_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+            area:farfara_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+            area:khargana_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+        }
     }
 }
 me_akhetaton.16 = {
@@ -252,7 +379,84 @@ me_akhetaton.16 = {
     option = {
         name = "me_akhetaton_16.a"
         custom_tooltip = me_akhetaton_16_tooltip
-
+        custom_tooltip = 3_pops_per_province_tt
+        hidden_effect = {
+            area:khargana_area = {
+                every_area_province = {
+                    limit = {
+                        OR = {
+                            is_in_area = kharga_area
+                            is_in_area = farfara_area
+                            is_in_area = khargana_area
+                        }
+                    }
+                    while = {
+                        count = 3
+                        limit = {
+                            any_pops_in_province = {
+                                NOT = { pop_religion = aten_religion }
+                            }
+                        }
+                        random_pops_in_province = {
+                            limit = {
+                                NOT = { pop_religion = aten_religion }
+                            }
+                            set_pop_religion = aten_religion
+                        }
+                    }
+                }
+            }
+            area:farfara_area = {
+                every_area_province = {
+                    limit = {
+                        OR = {
+                            is_in_area = kharga_area
+                            is_in_area = farfara_area
+                            is_in_area = khargana_area
+                        }
+                    }
+                    while = {
+                        count = 3
+                        limit = {
+                            any_pops_in_province = {
+                                NOT = { pop_religion = aten_religion }
+                            }
+                        }
+                        random_pops_in_province = {
+                            limit = {
+                                NOT = { pop_religion = aten_religion }
+                            }
+                            set_pop_religion = aten_religion
+                        }
+                    }
+                }
+            }
+            area:kharga_area = {
+                every_area_province = {
+                    limit = {
+                        OR = {
+                            is_in_area = kharga_area
+                            is_in_area = farfara_area
+                            is_in_area = khargana_area
+                        }
+                    }
+                    while = {
+                        count = 3
+                        limit = {
+                            any_pops_in_province = {
+                                NOT = { pop_religion = aten_religion }
+                            }
+                        }
+                        random_pops_in_province = {
+                            limit = {
+                                NOT = { pop_religion = aten_religion }
+                            }
+                            set_pop_religion = aten_religion
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 me_akhetaton.17 = {
@@ -265,7 +469,25 @@ me_akhetaton.17 = {
     option = {
         name = "me_akhetaton_17.a"
         custom_tooltip = me_akhetaton_17_tooltip
-
+        p:5537 = {
+            remove_province_deity = yes
+            set_province_deity = deity:omen_sekhtaten
+        }
+        add_country_modifier = {
+            name = aten_replacement
+            duration = -1
+        }
+        custom_tooltip = claims_on_important_cities_tt
+        hidden_effect = {
+            p:505 = { add_claim = root }
+            p:515 = { add_claim = root }
+            p:501 = { add_claim = root }
+            area:memphis_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+        }
     }
 }
 me_akhetaton.18 = {
@@ -330,46 +552,54 @@ me_akhetaton.22 = {
     option = {
         name = "me_akhetaton_22.a"
         custom_tooltip = me_akhetaton_22_tooltip
-
-    }
-}
-me_akhetaton.23 = {
-    type = country_event
-
-    title = me_akhetaton_23_title
-    desc = me_akhetaton_23_desc
-    picture = great_library
-
-    option = {
-        name = "me_akhetaton_23.a"
-        custom_tooltip = me_akhetaton_23_tooltip
-
-    }
-}
-me_akhetaton.24 = {
-    type = country_event
-
-    title = me_akhetaton_24_title
-    desc = me_akhetaton_24_desc
-    picture = great_library
-
-    option = {
-        name = "me_akhetaton_24.a"
-        custom_tooltip = me_akhetaton_24_tooltip
-
-    }
-}
-me_akhetaton.25 = {
-    type = country_event
-
-    title = me_akhetaton_25_title
-    desc = me_akhetaton_25_desc
-    picture = great_library
-
-    option = {
-        name = "me_akhetaton_25.a"
-        custom_tooltip = me_akhetaton_25_tooltip
-
+        current_ruler = {
+            add_popularity = 30
+            force_add_trait = victorious
+        }
+        char:519 = {
+            deify_character = {
+                deity = deity:omen_nefertiti
+                country = ROOT
+            }
+        }
+        add_stability = 10
+        custom_tooltip = "tier_2_formable_tooltip"
+        if = {
+            limit = { is_tribal = yes }
+            add_country_modifier = {
+                name = civilized_tribe
+                duration = 5475
+            }
+        }
+        if = {
+            limit = {
+                NOT = { government = egyptian_dynasty }
+            }
+            change_government = egyptian_dynasty
+            switch_government_type_event_clearup_effect = yes
+        }
+        change_country_name = "KEMET_NAME"
+        hidden_effect = {
+            change_country_flag = EGYPTIAN_FLAG
+            change_country_adjective = "KEMET_ADJECTIVE"
+            change_country_color = "egypt_color"
+            change_country_tag = EGT
+        }
+        custom_tooltip = egypt_claims_tooltip
+        hidden_effect = {
+            region:lower_egypt_region = { formable_region_province_effect = yes }
+            region:upper_egypt_region = { formable_region_province_effect = yes }
+        }
+        capital_scope = {
+            capital_formable_large_effect = yes
+            formable_capital_modifier_large_effect = yes
+        }
+        hidden_effect = {
+            set_variable = {
+                name = ach_new_kingdom_var
+            }
+        }
+        add_5_free_province_investments = yes
     }
 }
 me_akhetaton.666 = {
