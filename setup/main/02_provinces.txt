@@ -1814,6 +1814,10 @@ provinces = { #Any entry must contain a comment with city name.
 	4973 = { # Aspadana
 		aqueduct_building = 1
 	}
+	4950 = { #Anshan
+		aqueduct_building = 3
+		library_building = 1
+	}
 	4951 = { #Pasargadae
 		library_building = 3
 		fortress_building = 1
