@@ -1,0 +1,200 @@
+#these are vanilla wonders modded
+
+provinces={
+	946={ # Susa
+		great_work=100
+	}
+	862={ # Nineveh
+		great_work=101
+	}
+	967={ # Dur Untash
+		great_work=102
+	}
+	4799={ # Persepolis
+		great_work=103
+	}
+	569={ # Waset
+		great_work=104
+	}
+	501={ # Awnu
+		great_work=105
+	}
+	1595={ # Hagmatana
+		great_work=106
+	}
+}
+
+great_work_manager={
+	great_works_database={
+		100={
+			dlc = "Hellenistic World Flavor Pack"
+			ancient_wonder = yes
+			key="argead_palace"
+			great_work_state=great_work_state_completed
+			finished_date=450.10.1
+			great_work_category="building"
+			
+			great_work_name={
+				name="wonder_darius_palace"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_argead_palace"
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_overlord_boost"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		101={
+			ancient_wonder = yes
+			key="hanging_gardens_of_babylon"
+			great_work_state=great_work_state_completed
+			finished_date=450.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_garden_of_nineveh"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_hanging_gardens"
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_civic_science_doctrine"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		102 = {
+			ancient_wonder = yes
+			key = "ziggurat_small"
+			great_work_category = "building"
+			great_work_state = great_work_state_completed
+			finished_date = 450.10.1
+
+			great_work_name = {
+				name = "wonder_dur_ziggurat"
+			}
+			great_work_components = {
+				{
+					great_work_module = "wonder_ur_ziggurat"
+				}
+			}
+
+			great_work_effect_selections = {
+				{
+					# Honoured Nobles
+					great_work_effect = "gw_effect_ur_ziggurat"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		103={
+			dlc = "Hellenistic World Flavor Pack"
+			ancient_wonder = yes
+			key="knossos_palace"
+			great_work_category = "building"
+			great_work_state = great_work_state_completed
+			finished_date = 450.10.1
+			
+			great_work_name={
+				name="wonder_darius_palace_2"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_knossos_palace"
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_persepolis"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		104={
+			ancient_wonder = yes
+			key = "abu_simbel"
+			great_work_category = "building"
+			great_work_state = great_work_state_completed
+			finished_date = 450.10.1
+
+			great_work_name = {
+				name = "wonder_karnak_temple"
+			}
+			great_work_components = {
+				{
+					great_work_module = "wonder_abu_simbel"
+				}
+			}
+
+			great_work_effect_selections = {
+				{
+					# Honoured Nobles
+					great_work_effect = "gw_effect_abu_simbel"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		105={
+			dlc = "Hellenistic World Flavor Pack"
+			ancient_wonder = yes
+			key="punic_tomb"
+			great_work_state=great_work_state_completed
+			finished_date=450.10.1
+			great_work_category="building"
+			
+			great_work_name={
+				name="wonder_atum_pillars"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_punic_tomb"
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_ay_khanum"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		106={
+			ancient_wonder = yes
+			key="taurican_temple"
+			great_work_state=great_work_state_completed
+			finished_date=450.10.1
+			great_work_category="building"
+			
+			great_work_name={
+				name="wonder_media_temple"
+			}
+			great_work_components = {
+				{
+					great_work_module = "gw_building_08_base_JULIANOS"
+					great_work_material = "marble"
+				}
+				{
+					great_work_module = "gw_building_02_pillar"
+					great_work_material = "ivory"
+				}
+				{
+					great_work_module = "gw_building_07_roof_JULIANOS"
+					great_work_material = "copper"
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_taurican_temple"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+	}
+}
