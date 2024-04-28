@@ -1715,7 +1715,7 @@ meroe_area = { #10
 }
 
 meshan_area = { #10
-	provinces = { 940 941 942 963 964 965 969 971 5399 7723 9299 }
+	provinces = { 940 941 942 963 964 965 971 5399 7723 9299 }
 }
 
 mesopotamia_river_area = { #13
@@ -2526,7 +2526,7 @@ surasena_area = { #12
 }
 
 susiana_area = { #12
-	provinces = { 945 946 947 948 949 950 967 970 972 975 980 4969 }
+	provinces = { 945 946 947 948 949 950 967 970 972 975 980 4969 969 }
 }
 
 suvarna_gotra_area = { #11
