@@ -1962,3 +1962,51 @@
 	holy_site=omen_sin
 }
 
+9297={ #Bad-Tibira
+	terrain="flood_plain"
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	trade_goods="spices"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+}
+
+9298={ #Urukag
+	terrain="flood_plain"
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	trade_goods="spices"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+}
+
+9299={ #marshes jumpscare
+	terrain="marsh"
+	culture="babylonian"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
