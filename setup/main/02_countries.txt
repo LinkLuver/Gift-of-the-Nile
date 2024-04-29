@@ -910,8 +910,8 @@ country = {
 				900 903 909 901 910 915 917 918 919 922 #babylonia_region
 				898 899 911 912 913 914 916 924 926 927 929 960 #asoristan_region
 				896 897 979 925 928 933 934 961 962 973 974 976 #beth_daraye_region
-				920 921 923 930 931 932 935 936 939 937 938 968 #veh_kavad_region
-				942 7723 #meshan_region
+				920 921 923 930 931 932 935 936 939 937 938 968 9297 9298 #veh_kavad_region
+				942 7723 9299 #meshan_region
 				889 890 #garamigh_region
 				891 892 893 894 895 977 #tigris_region
 			}
@@ -3433,7 +3433,7 @@ country = {
 			treasures = { 201 61 39 }
 
 			own_control_core = 	{
-				1 2 3 4 5 6 7 8 15 16 18 19 20 24 25 26 27 31 37 40 36 39 50
+				1 2 3 4 5 6 7 8 15 16 18 19 20 24 25 26 27 31 37 40 36 39 50 9296
 			}
 
 			#professional_soldiers = yes
