@@ -28,7 +28,7 @@ deity_manager = {
 			deify_ruler_permanent = yes
 			is_universal_deity = yes
     	}
-    	30003 = {
+    	30004 = {
     		key = omen_sekhtaten
     		deity = deity_sekhtaten
     	}
