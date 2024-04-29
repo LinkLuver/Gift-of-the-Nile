@@ -1,6 +1,9 @@
 #these are vanilla wonders modded
 
 provinces={
+	4951={ # Pathagarde
+		great_work=13
+	}
 	946={ # Susa
 		great_work=100
 	}
@@ -26,6 +29,28 @@ provinces={
 
 great_work_manager={
 	great_works_database={
+		13={
+			ancient_wonder = yes
+			key="halicarnassus_mausoleum"
+			great_work_state=great_work_state_completed
+			finished_date=450.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_cyrus_tomb"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_halicarnassus"
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_mausoleum_halicarnassos"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
 		100={
 			dlc = "Hellenistic World Flavor Pack"
 			ancient_wonder = yes
@@ -44,7 +69,7 @@ great_work_manager={
 			}
 			great_work_effect_selections={
 				{
-					great_work_effect="gw_effect_overlord_boost"
+					great_work_effect="gw_effect_apadana_palace"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}
@@ -66,7 +91,7 @@ great_work_manager={
 			}
 			great_work_effect_selections={
 				{
-					great_work_effect="gw_effect_civic_science_doctrine"
+					great_work_effect="gw_effect_garden_nineveh"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}
@@ -90,7 +115,7 @@ great_work_manager={
 			great_work_effect_selections = {
 				{
 					# Honoured Nobles
-					great_work_effect = "gw_effect_ur_ziggurat"
+					great_work_effect = "gw_effect_elam_ziggurat"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}
@@ -137,7 +162,7 @@ great_work_manager={
 			great_work_effect_selections = {
 				{
 					# Honoured Nobles
-					great_work_effect = "gw_effect_abu_simbel"
+					great_work_effect = "gw_effect_karnak_temple"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}
@@ -166,6 +191,37 @@ great_work_manager={
 			}
 		}
 		106={
+			ancient_wonder = yes
+			key="taurican_temple"
+			great_work_state=great_work_state_completed
+			finished_date=450.10.1
+			great_work_category="building"
+			
+			great_work_name={
+				name="wonder_media_temple"
+			}
+			great_work_components = {
+				{
+					great_work_module = "gw_building_08_base_JULIANOS"
+					great_work_material = "marble"
+				}
+				{
+					great_work_module = "gw_building_02_pillar"
+					great_work_material = "ivory"
+				}
+				{
+					great_work_module = "gw_building_07_roof_JULIANOS"
+					great_work_material = "copper"
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_fire_temple"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		107={
 			ancient_wonder = yes
 			key="taurican_temple"
 			great_work_state=great_work_state_completed
