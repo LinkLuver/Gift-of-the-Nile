@@ -1049,7 +1049,7 @@ country = {
 
 		PES = {
 			family = 42
-			government = despotic_monarchy
+			government = daran_administration
 			primary_culture = pasargadi
 			religion = zoroaster
 			diplomatic_stance = appeasement_stance
@@ -2501,7 +2501,6 @@ country = {
 
 			own_control_core = {
 				4349 4378 9281 4385 4371
-				9300 9301 9302
 			}
 		}
 		KEK = { #Kekaya
@@ -2538,8 +2537,7 @@ country = {
 			}
 
 			own_control_core = {
-				4382 9278 4381 9279
-				9303 9304 9305 9306 9307 9308
+				4382 9278 4381
 			}
 		}
 		SLW = { #Salwa
@@ -2593,9 +2591,8 @@ country = {
 			}
 
 			own_control_core = {
-				9280 #New Mallia
+				9279 9280 #New Mallia
 				4395
-				9331 9332 9369 4380 4396
 			}
 		}
 		GHA = { #Gandhara
@@ -2679,11 +2676,10 @@ country = {
 			}
 
 			own_control_core = 	{
-				4340
+				4340 4396
 				4345
 				4315 4316 4398 4399 7399
-				4331 4384 #panchanada_region
-				9348 9344 9343 9342 9341 9340 9370
+				4331 4380 4384 #panchanada_region
 			}
 			pantheon = {
 				{ deity = 1113 }
@@ -2708,7 +2704,6 @@ country = {
 			own_control_core = 	{
 				4346 4379 4389 4400
 				4397 4394 4347
-				9349 9347 9354 9346 9345 9338 9339
 			}
 		}
 		LAH = { #Luhwar
@@ -2727,9 +2722,6 @@ country = {
 			own_control_core = 	{
 				9282 4392 4390 7485 5445
 				4393 4388
-				9333 9334 9335 9336 9337 9309 9310
-				9356 9367 9368 9364 9366 9357 9358
-				9355 9353 9352 9351 9350
 			}
 		}
 		YDD = { #Yadheuya Republic
@@ -2748,7 +2740,6 @@ country = {
 			own_control_core = 	{
 				4401 4402 4403
 				4387 4406 4407 4408 4409 4410 4411 4412 4413 4414 4415 4416 4417 4418
-				9365 9363 9362 9361 9359 9360
 			}
 			treasures = { 872 }
 			pantheon = {
