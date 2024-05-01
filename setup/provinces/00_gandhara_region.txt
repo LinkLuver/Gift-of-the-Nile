@@ -220,7 +220,7 @@
 
 4321={ #Kutte Mar
 	terrain="forest"
-	culture="gandhari"
+	culture="shivi"
 	religion="jainism"
 	trade_goods="horses"
 	civilization_value=24
@@ -418,7 +418,7 @@
 
 4330={ #Gogaraioi
 	terrain="desert"
-	culture="gandhari"
+	culture="shivi"
 	religion="hindu"
 	trade_goods="cattle"
 	civilization_value=23
@@ -446,7 +446,7 @@
 
 4331={ #Khushab
 	terrain="forest"
-	culture="gandhari"
+	culture="shivi"
 	religion="jainism"
 	trade_goods="dates"
 	civilization_value=24
@@ -813,7 +813,7 @@
 
 4348={ #Sibipura
 	terrain="plains"
-	culture="sivi"
+	culture="shivi"
 	religion="kassapan"
 	trade_goods="cloth"
 	civilization_value=26
@@ -881,7 +881,7 @@
 
 4351={ #Apakara
 	terrain="desert"
-	culture="sivi"
+	culture="shivi"
 	religion="hindu"
 	trade_goods="vegetables"
 	civilization_value=23
@@ -968,7 +968,7 @@
 
 4379={ #Phegas
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="sarna_pantheon"
 	trade_goods="cattle"
 	civilization_value=28
@@ -990,7 +990,7 @@
 
 4380={ #Mallava
 	terrain="plains"
-	culture="gandhari"
+	culture="purus"
 	religion="sassatavada"
 	trade_goods="grain"
 	civilization_value=26
@@ -1078,7 +1078,7 @@
 
 4383={ #Abortai
 	terrain="desert"
-	culture="gandhari"
+	culture="shivi"
 	religion="zoroaster"
 	trade_goods="vegetables"
 	civilization_value=23
@@ -1100,7 +1100,7 @@
 
 4384={ #Kekayai
 	terrain="plains"
-	culture="gandhari"
+	culture="shivi"
 	religion="hindu"
 	trade_goods="horses"
 	civilization_value=26
@@ -1173,7 +1173,7 @@
 
 4390={ #Jalandhara
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="cloth"
 	civilization_value=28
@@ -1211,7 +1211,7 @@
 
 4392={ #Sarvamanapura
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="hindu"
 	trade_goods="base_metals"
 	civilization_value=28
@@ -1233,7 +1233,7 @@
 
 4393={ #Okara
 	terrain="plains"
-	culture="purus"
+	culture="sivi"
 	religion="buddhism"
 	trade_goods="grain"
 	civilization_value=26
@@ -1281,7 +1281,7 @@
 
 4395={ #Turvasha
 	terrain="plains"
-	culture="sivi"
+	culture="purus"
 	religion="jainism"
 	trade_goods="dates"
 	civilization_value=26
@@ -1428,7 +1428,7 @@
 
 4401={ #Rupar
 	terrain="forest"
-	culture="dardic"
+	culture="trigartan"
 	religion="jainism"
 	trade_goods="cedar"
 	civilization_value=8
@@ -1472,7 +1472,7 @@
 
 4410={ #Tabarhindh
 	terrain="forest"
-	culture="kuru"
+	culture="trigartan"
 	religion="ajnana"
 	trade_goods="camel"
 	civilization_value=24
@@ -1494,7 +1494,7 @@
 
 4414={ #Salagishsha
 	terrain="plains"
-	culture="kuru"
+	culture="trigartan"
 	religion="hindu"
 	trade_goods="cloth"
 	civilization_value=26
@@ -1558,7 +1558,7 @@
 
 4418={ #Satadru
 	terrain="plains"
-	culture="kuru"
+	culture="trigartan"
 	religion="ajnana"
 	trade_goods="base_metals"
 	civilization_value=26
@@ -1602,7 +1602,7 @@
 
 5445={ #Grodaka
 	terrain="plains"
-	culture="kuru"
+	culture="trigartan"
 	religion="hindu"
 	trade_goods="wild_game"
 	civilization_value=18
@@ -1765,7 +1765,7 @@
 
 7485={ #Sodal
 	terrain="plains"
-	culture="purus"
+	culture="trigartan"
 	religion="ajivika"
 	trade_goods="dates"
 	civilization_value=36
@@ -1831,7 +1831,7 @@
 
 9257={ #Gomal
 	terrain="plains"
-	culture="sivi"
+	culture="shivi"
 	religion="charvaka"
 	trade_goods="grain"
 	civilization_value=19
@@ -1861,7 +1861,7 @@
 
 9258={ #Nuktani
 	terrain="plains"
-	culture="sivi"
+	culture="shivi"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=19
@@ -1889,7 +1889,7 @@
 
 9259={ #Yazman
 	terrain="plains"
-	culture="sivi"
+	culture="salwan"
 	religion="hindu"
 	trade_goods="dates"
 	civilization_value=19
@@ -1913,7 +1913,7 @@
 
 9260={ #Marot
 	terrain="desert"
-	culture="sivi"
+	culture="salwan"
 	religion="hindu"
 	trade_goods="camel"
 	civilization_value=17
@@ -1934,7 +1934,7 @@
 
 9261={ #Kanganwala
 	terrain="plains"
-	culture="sivi"
+	culture="salwan"
 	religion="hindu"
 	trade_goods="salt"
 	civilization_value=18
@@ -1962,7 +1962,7 @@
 
 9262={ #Patan Minara
 	terrain="plains"
-	culture="sivi"
+	culture="salwan"
 	religion="buddhism"
 	trade_goods="cloth"
 	civilization_value=23
@@ -1999,7 +1999,7 @@
 
 9263={ #Inayati
 	terrain="plains"
-	culture="sivi"
+	culture="salwan"
 	religion="hindu"
 	trade_goods="leather"
 	civilization_value=19
@@ -2023,7 +2023,7 @@
 
 9264={ #Chishtian
 	terrain="plains"
-	culture="sivi"
+	culture="salwan"
 	religion="sassatavada"
 	trade_goods="grain"
 	civilization_value=21
@@ -2050,7 +2050,7 @@
 
 9265={ #Rojhanwali
 	terrain="plains"
-	culture="sivi"
+	culture="salwan"
 	religion="buddhism"
 	trade_goods="horses"
 	civilization_value=20
@@ -2081,7 +2081,7 @@
 
 9266={ #Anupgarh
 	terrain="plains"
-	culture="sivi"
+	culture="salwan"
 	religion="charvaka"
 	trade_goods="cattle"
 	civilization_value=20
@@ -2105,7 +2105,7 @@
 
 9267={ #Badopal
 	terrain="plains"
-	culture="sivi"
+	culture="salwan"
 	religion="hindu"
 	trade_goods="vegetables"
 	civilization_value=20
@@ -2190,7 +2190,7 @@
 
 9280={ #Kot Kamalia
 	terrain="plains"
-	culture="sivi"
+	culture="purus"
 	religion="sassatavada"
 	trade_goods="cloth"
 	civilization_value=35
@@ -2239,7 +2239,7 @@
 
 9282={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="silk"
 	civilization_value=27
@@ -2262,7 +2262,7 @@
 
 9300={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2275,7 +2275,7 @@
 
 9301={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2288,7 +2288,7 @@
 
 9302={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2301,7 +2301,7 @@
 
 9303={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2314,7 +2314,7 @@
 
 9304={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2327,7 +2327,7 @@
 
 9305={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2340,7 +2340,7 @@
 
 9306={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2353,7 +2353,7 @@
 
 9307={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2366,7 +2366,7 @@
 
 9308={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2379,7 +2379,7 @@
 
 9309={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2392,7 +2392,7 @@
 
 9310={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2431,7 +2431,7 @@
 
 9333={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2444,7 +2444,7 @@
 
 9334={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2457,7 +2457,7 @@
 
 9335={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2470,7 +2470,7 @@
 
 9336={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2483,7 +2483,7 @@
 
 9337={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2535,7 +2535,7 @@
 
 9341={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="shivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2652,7 +2652,7 @@
 
 9350={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2665,7 +2665,7 @@
 
 9351={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2678,7 +2678,7 @@
 
 9352={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2691,7 +2691,7 @@
 
 9353={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2717,7 +2717,7 @@
 
 9355={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2730,7 +2730,7 @@
 
 9356={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2743,7 +2743,7 @@
 
 9357={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2756,7 +2756,7 @@
 
 9358={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2769,7 +2769,7 @@
 
 9359={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2782,7 +2782,7 @@
 
 9360={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2795,7 +2795,7 @@
 
 9361={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2808,7 +2808,7 @@
 
 9362={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2821,7 +2821,7 @@
 
 9363={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2834,7 +2834,7 @@
 
 9364={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2847,7 +2847,7 @@
 
 9365={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2860,7 +2860,7 @@
 
 9366={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2873,7 +2873,7 @@
 
 9367={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2886,7 +2886,7 @@
 
 9368={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2929,7 +2929,7 @@
 
 9371={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="salwan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2942,7 +2942,7 @@
 
 9372={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="salwan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2955,7 +2955,7 @@
 
 9373={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="salwan"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2968,7 +2968,7 @@
 
 9374={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="shivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2981,7 +2981,7 @@
 
 9375={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="shivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -2994,7 +2994,7 @@
 
 9376={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="shivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -3007,7 +3007,7 @@
 
 9377={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="shivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -3020,7 +3020,7 @@
 
 9378={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="shivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -3033,7 +3033,7 @@
 
 9379={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="shivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -3046,7 +3046,7 @@
 
 9380={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="shivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
@@ -3059,7 +3059,7 @@
 
 9381={ #Nokhar
 	terrain="farmland"
-	culture="purus"
+	culture="shivi"
 	religion="kassapan"
 	trade_goods="grain"
 	civilization_value=27
