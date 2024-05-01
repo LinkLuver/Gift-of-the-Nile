@@ -1,7 +1,7 @@
 ﻿3810={ #Embadina
 	terrain="mountain"
 	culture="gandhari"
-	religion="buddhism"
+	religion="vaksh_religion"
 	trade_goods="stone"
 	civilization_value=12
 	barbarian_power=0
@@ -24,7 +24,7 @@
 4300={ #Pushkalavati
 	terrain="mountain"
 	culture="gandhari"
-	religion="hindu"
+	religion="zoroaster"
 	trade_goods="earthware"
 	civilization_value=12
 	barbarian_power=0
@@ -113,8 +113,8 @@
 
 4316={ #Mong
 	terrain="forest"
-	culture="purus"
-	religion="hindu"
+	culture="pasargadi"
+	religion="zoroaster"
 	trade_goods="cedar"
 	civilization_value=39
 	barbarian_power=0
@@ -220,7 +220,7 @@
 
 4321={ #Kutte Mar
 	terrain="forest"
-	culture="gandhari"
+	culture="shivi"
 	religion="jainism"
 	trade_goods="horses"
 	civilization_value=24
@@ -244,8 +244,8 @@
 
 4322={ #Manikyal
 	terrain="forest"
-	culture="gandhari"
-	religion="jainism"
+	culture="pasargadi"
+	religion="zoroaster"
 	trade_goods="cedar"
 	civilization_value=39
 	barbarian_power=0
@@ -288,7 +288,7 @@
 4324={ #Gorya
 	terrain="mountain"
 	culture="gandhari"
-	religion="hindu"
+	religion="charvaka"
 	trade_goods="gems"
 	civilization_value=7
 	barbarian_power=0
@@ -418,7 +418,7 @@
 
 4330={ #Gogaraioi
 	terrain="desert"
-	culture="gandhari"
+	culture="shivi"
 	religion="hindu"
 	trade_goods="cattle"
 	civilization_value=23
@@ -431,6 +431,8 @@
 		amount=2
 	}
 	freemen={
+		culture="pasargadi"
+		religion="zoroaster"
 		amount=1
 	}
 	slaves={
@@ -444,7 +446,7 @@
 
 4331={ #Khushab
 	terrain="forest"
-	culture="gandhari"
+	culture="shivi"
 	religion="jainism"
 	trade_goods="dates"
 	civilization_value=24
@@ -469,7 +471,7 @@
 4332={ #Puranadisthana
 	terrain="forest"
 	culture="dardic"
-	religion="jainism"
+	religion="masto_pantheon"
 	trade_goods="grain"
 	civilization_value=8
 	barbarian_power=0
@@ -524,7 +526,7 @@
 4335={ #Labaka
 	terrain="mountain"
 	culture="dardic"
-	religion="hindu"
+	religion="ajnana"
 	trade_goods="glass"
 	civilization_value=6
 	barbarian_power=0
@@ -592,7 +594,7 @@
 4338={ #Anantanaga
 	terrain="forest"
 	culture="dardic"
-	religion="jainism"
+	religion="masto_pantheon"
 	trade_goods="incense"
 	civilization_value=8
 	barbarian_power=0
@@ -664,7 +666,7 @@
 4341={ #Akhnur
 	terrain="mountain"
 	culture="dardic"
-	religion="hindu"
+	religion="masto_pantheon"
 	trade_goods="precious_metals"
 	civilization_value=6
 	barbarian_power=0
@@ -687,7 +689,7 @@
 4342={ #Parvata
 	terrain="hills"
 	culture="dardic"
-	religion="hindu"
+	religion="masto_pantheon"
 	trade_goods="cedar"
 	civilization_value=8
 	barbarian_power=0
@@ -762,7 +764,7 @@
 4346={ #Madra
 	terrain="farmland"
 	culture="purus"
-	religion="hindu"
+	religion="ajivika"
 	trade_goods="silk"
 	civilization_value=33
 	barbarian_power=0
@@ -811,8 +813,8 @@
 
 4348={ #Sibipura
 	terrain="plains"
-	culture="sivi"
-	religion="hindu"
+	culture="shivi"
+	religion="kassapan"
 	trade_goods="cloth"
 	civilization_value=26
 	barbarian_power=0
@@ -839,7 +841,7 @@
 4349={ #Mallia
 	terrain="farmland"
 	culture="sivi"
-	religion="hindu"
+	religion="charvaka"
 	trade_goods="dates"
 	civilization_value=39
 	barbarian_power=0
@@ -879,7 +881,7 @@
 
 4351={ #Apakara
 	terrain="desert"
-	culture="sivi"
+	culture="shivi"
 	religion="hindu"
 	trade_goods="vegetables"
 	civilization_value=23
@@ -941,7 +943,7 @@
 4378={ #Osioi
 	terrain="plains"
 	culture="sivi"
-	religion="jainism"
+	religion="charvaka"
 	trade_goods="grain"
 	civilization_value=32
 	barbarian_power=0
@@ -966,8 +968,8 @@
 
 4379={ #Phegas
 	terrain="farmland"
-	culture="purus"
-	religion="hindu"
+	culture="trigartan"
+	religion="sarna_pantheon"
 	trade_goods="cattle"
 	civilization_value=28
 	barbarian_power=0
@@ -988,8 +990,8 @@
 
 4380={ #Mallava
 	terrain="plains"
-	culture="gandhari"
-	religion="jainism"
+	culture="purus"
+	religion="sassatavada"
 	trade_goods="grain"
 	civilization_value=26
 	barbarian_power=0
@@ -1017,7 +1019,7 @@
 4381={ #Shudrakai
 	terrain="plains"
 	culture="sivi"
-	religion="hindu"
+	religion="ajnana"
 	trade_goods="cattle"
 	civilization_value=26
 	barbarian_power=0
@@ -1043,7 +1045,7 @@
 4382={ #Anatachara
 	terrain="farmland"
 	culture="sivi"
-	religion="hindu"
+	religion="ajnana"
 	trade_goods="earthware"
 	civilization_value=41
 	barbarian_power=0
@@ -1076,8 +1078,8 @@
 
 4383={ #Abortai
 	terrain="desert"
-	culture="gandhari"
-	religion="hindu"
+	culture="shivi"
+	religion="zoroaster"
 	trade_goods="vegetables"
 	civilization_value=23
 	barbarian_power=0
@@ -1098,7 +1100,7 @@
 
 4384={ #Kekayai
 	terrain="plains"
-	culture="gandhari"
+	culture="shivi"
 	religion="hindu"
 	trade_goods="horses"
 	civilization_value=26
@@ -1171,8 +1173,8 @@
 
 4390={ #Jalandhara
 	terrain="farmland"
-	culture="purus"
-	religion="hindu"
+	culture="trigartan"
+	religion="kassapan"
 	trade_goods="cloth"
 	civilization_value=28
 	barbarian_power=0
@@ -1209,7 +1211,7 @@
 
 4392={ #Sarvamanapura
 	terrain="farmland"
-	culture="purus"
+	culture="trigartan"
 	religion="hindu"
 	trade_goods="base_metals"
 	civilization_value=28
@@ -1231,8 +1233,8 @@
 
 4393={ #Okara
 	terrain="plains"
-	culture="purus"
-	religion="hindu"
+	culture="sivi"
+	religion="buddhism"
 	trade_goods="grain"
 	civilization_value=26
 	barbarian_power=0
@@ -1279,7 +1281,7 @@
 
 4395={ #Turvasha
 	terrain="plains"
-	culture="sivi"
+	culture="purus"
 	religion="jainism"
 	trade_goods="dates"
 	civilization_value=26
@@ -1303,7 +1305,7 @@
 4396={ #Chandaniot
 	terrain="farmland"
 	culture="purus"
-	religion="hindu"
+	religion="charvaka"
 	trade_goods="grain"
 	civilization_value=28
 	barbarian_power=0
@@ -1353,7 +1355,7 @@
 4398={ #Bhatiai
 	terrain="plains"
 	culture="purus"
-	religion="hindu"
+	religion="kassapan"
 	trade_goods="silk"
 	civilization_value=26
 	barbarian_power=0
@@ -1403,7 +1405,7 @@
 4400={ #Taki
 	terrain="farmland"
 	culture="purus"
-	religion="hindu"
+	religion="charvaka"
 	trade_goods="grain"
 	civilization_value=28
 	barbarian_power=0
@@ -1426,7 +1428,7 @@
 
 4401={ #Rupar
 	terrain="forest"
-	culture="dardic"
+	culture="trigartan"
 	religion="jainism"
 	trade_goods="cedar"
 	civilization_value=8
@@ -1470,8 +1472,8 @@
 
 4410={ #Tabarhindh
 	terrain="forest"
-	culture="kuru"
-	religion="hindu"
+	culture="trigartan"
+	religion="ajnana"
 	trade_goods="camel"
 	civilization_value=24
 	barbarian_power=0
@@ -1492,7 +1494,7 @@
 
 4414={ #Salagishsha
 	terrain="plains"
-	culture="kuru"
+	culture="trigartan"
 	religion="hindu"
 	trade_goods="cloth"
 	civilization_value=26
@@ -1556,8 +1558,8 @@
 
 4418={ #Satadru
 	terrain="plains"
-	culture="kuru"
-	religion="hindu"
+	culture="trigartan"
+	religion="ajnana"
 	trade_goods="base_metals"
 	civilization_value=26
 	barbarian_power=0
@@ -1600,7 +1602,7 @@
 
 5445={ #Grodaka
 	terrain="plains"
-	culture="kuru"
+	culture="trigartan"
 	religion="hindu"
 	trade_goods="wild_game"
 	civilization_value=18
@@ -1636,7 +1638,7 @@
 6997={ #Ora
 	terrain="mountain"
 	culture="gandhari"
-	religion="hindu"
+	religion="sassatavada"
 	trade_goods="cattle"
 	civilization_value=7
 	barbarian_power=0
@@ -1658,17 +1660,19 @@
 7314={ #Taksasila
 	terrain="plains"
 	culture="gandhari"
-	religion="buddhism"
+	religion="zoroaster"
 	trade_goods="papyrus"
 	civilization_value=37
 	barbarian_power=0
 	province_rank="city"
 	nobles={
+		culture="pasargadi"
+		religion="buddhism"
 		amount=1
 	}
 	nobles={
 		culture="pasargadi"
-		religion="zoroaster"
+		religion="buddhism"
 		amount=1
 	}
 	nobles={
@@ -1761,8 +1765,8 @@
 
 7485={ #Sodal
 	terrain="plains"
-	culture="purus"
-	religion="hindu"
+	culture="trigartan"
+	religion="ajivika"
 	trade_goods="dates"
 	civilization_value=36
 	barbarian_power=0
@@ -1805,7 +1809,7 @@
 7657={ #Purushapura
 	terrain="hills"
 	culture="gandhari"
-	religion="hindu"
+	religion="zoroaster"
 	trade_goods="incense"
 	civilization_value=14
 	barbarian_power=0
@@ -1827,8 +1831,8 @@
 
 9257={ #Gomal
 	terrain="plains"
-	culture="sivi"
-	religion="hindu"
+	culture="shivi"
+	religion="charvaka"
 	trade_goods="grain"
 	civilization_value=19
 	barbarian_power=0
@@ -1857,7 +1861,7 @@
 
 9258={ #Nuktani
 	terrain="plains"
-	culture="sivi"
+	culture="shivi"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=19
@@ -1885,7 +1889,7 @@
 
 9259={ #Yazman
 	terrain="plains"
-	culture="sivi"
+	culture="salwan"
 	religion="hindu"
 	trade_goods="dates"
 	civilization_value=19
@@ -1909,7 +1913,7 @@
 
 9260={ #Marot
 	terrain="desert"
-	culture="sivi"
+	culture="salwan"
 	religion="hindu"
 	trade_goods="camel"
 	civilization_value=17
@@ -1930,7 +1934,7 @@
 
 9261={ #Kanganwala
 	terrain="plains"
-	culture="sivi"
+	culture="salwan"
 	religion="hindu"
 	trade_goods="salt"
 	civilization_value=18
@@ -1958,7 +1962,7 @@
 
 9262={ #Patan Minara
 	terrain="plains"
-	culture="sivi"
+	culture="salwan"
 	religion="buddhism"
 	trade_goods="cloth"
 	civilization_value=23
@@ -1971,6 +1975,8 @@
 		amount=5
 	}
 	freemen={
+		culture="pasargadi"
+		religion="zoroaster"
 		amount=2
 	}
 	freemen={
@@ -1993,7 +1999,7 @@
 
 9263={ #Inayati
 	terrain="plains"
-	culture="sivi"
+	culture="salwan"
 	religion="hindu"
 	trade_goods="leather"
 	civilization_value=19
@@ -2017,8 +2023,8 @@
 
 9264={ #Chishtian
 	terrain="plains"
-	culture="sivi"
-	religion="hindu"
+	culture="salwan"
+	religion="sassatavada"
 	trade_goods="grain"
 	civilization_value=21
 	barbarian_power=0
@@ -2044,7 +2050,7 @@
 
 9265={ #Rojhanwali
 	terrain="plains"
-	culture="sivi"
+	culture="salwan"
 	religion="buddhism"
 	trade_goods="horses"
 	civilization_value=20
@@ -2075,8 +2081,8 @@
 
 9266={ #Anupgarh
 	terrain="plains"
-	culture="sivi"
-	religion="hindu"
+	culture="salwan"
+	religion="charvaka"
 	trade_goods="cattle"
 	civilization_value=20
 	barbarian_power=0
@@ -2099,7 +2105,7 @@
 
 9267={ #Badopal
 	terrain="plains"
-	culture="sivi"
+	culture="salwan"
 	religion="hindu"
 	trade_goods="vegetables"
 	civilization_value=20
@@ -2132,7 +2138,7 @@
 9278={ #Atari
 	terrain="plains"
 	culture="sivi"
-	religion="hindu"
+	religion="ajnana"
 	trade_goods="fruits"
 	civilization_value=37
 	barbarian_power=0
@@ -2158,12 +2164,12 @@
 
 9279={ #Harapa
 	terrain="farmland"
-	culture="sivi"
+	culture="brahui"
 	religion="hindu"
 	trade_goods="horses"
 	civilization_value=34
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	nobles={
 		amount=1
 	}
@@ -2184,8 +2190,8 @@
 
 9280={ #Kot Kamalia
 	terrain="plains"
-	culture="sivi"
-	religion="hindu"
+	culture="purus"
+	religion="sassatavada"
 	trade_goods="cloth"
 	civilization_value=35
 	barbarian_power=0
@@ -2211,7 +2217,7 @@
 9281={ #Sukah
 	terrain="plains"
 	culture="sivi"
-	religion="hindu"
+	religion="buddhism"
 	trade_goods="grain"
 	civilization_value=38
 	barbarian_power=0
@@ -2233,8 +2239,8 @@
 
 9282={ #Nokhar
 	terrain="farmland"
-	culture="purus"
-	religion="hindu"
+	culture="trigartan"
+	religion="kassapan"
 	trade_goods="silk"
 	civilization_value=27
 	barbarian_power=0
@@ -2254,3 +2260,1033 @@
 	}
 }
 
+9300={ #Nokhar
+	terrain="farmland"
+	culture="sivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9301={ #Nokhar
+	terrain="farmland"
+	culture="sivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9302={ #Nokhar
+	terrain="farmland"
+	culture="sivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9303={ #Nokhar
+	terrain="farmland"
+	culture="sivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9304={ #Nokhar
+	terrain="farmland"
+	culture="sivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9305={ #Nokhar
+	terrain="farmland"
+	culture="sivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9306={ #Nokhar
+	terrain="farmland"
+	culture="sivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9307={ #Nokhar
+	terrain="farmland"
+	culture="sivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9308={ #Nokhar
+	terrain="farmland"
+	culture="sivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9309={ #Nokhar
+	terrain="farmland"
+	culture="sivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9310={ #Nokhar
+	terrain="farmland"
+	culture="sivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9331={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9332={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9333={ #Nokhar
+	terrain="farmland"
+	culture="sivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9334={ #Nokhar
+	terrain="farmland"
+	culture="sivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9335={ #Nokhar
+	terrain="farmland"
+	culture="sivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9336={ #Nokhar
+	terrain="farmland"
+	culture="sivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9337={ #Nokhar
+	terrain="farmland"
+	culture="sivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9338={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9339={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9340={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9341={ #Nokhar
+	terrain="farmland"
+	culture="shivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9342={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9343={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9344={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9345={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9346={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9347={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9348={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9349={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9350={ #Nokhar
+	terrain="farmland"
+	culture="trigartan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9351={ #Nokhar
+	terrain="farmland"
+	culture="trigartan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9352={ #Nokhar
+	terrain="farmland"
+	culture="trigartan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9353={ #Nokhar
+	terrain="farmland"
+	culture="trigartan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9354={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9355={ #Nokhar
+	terrain="farmland"
+	culture="trigartan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9356={ #Nokhar
+	terrain="farmland"
+	culture="trigartan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9357={ #Nokhar
+	terrain="farmland"
+	culture="trigartan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9358={ #Nokhar
+	terrain="farmland"
+	culture="trigartan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9359={ #Nokhar
+	terrain="farmland"
+	culture="trigartan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9360={ #Nokhar
+	terrain="farmland"
+	culture="trigartan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9361={ #Nokhar
+	terrain="farmland"
+	culture="trigartan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9362={ #Nokhar
+	terrain="farmland"
+	culture="trigartan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9363={ #Nokhar
+	terrain="farmland"
+	culture="trigartan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9364={ #Nokhar
+	terrain="farmland"
+	culture="trigartan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9365={ #Nokhar
+	terrain="farmland"
+	culture="trigartan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9366={ #Nokhar
+	terrain="farmland"
+	culture="trigartan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9367={ #Nokhar
+	terrain="farmland"
+	culture="trigartan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9368={ #Nokhar
+	terrain="farmland"
+	culture="trigartan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9369={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9370={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+
+
+
+
+9371={ #Nokhar
+	terrain="farmland"
+	culture="salwan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9372={ #Nokhar
+	terrain="farmland"
+	culture="salwan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9373={ #Nokhar
+	terrain="farmland"
+	culture="salwan"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9374={ #Nokhar
+	terrain="farmland"
+	culture="shivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9375={ #Nokhar
+	terrain="farmland"
+	culture="shivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9376={ #Nokhar
+	terrain="farmland"
+	culture="shivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9377={ #Nokhar
+	terrain="farmland"
+	culture="shivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9378={ #Nokhar
+	terrain="farmland"
+	culture="shivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9379={ #Nokhar
+	terrain="farmland"
+	culture="shivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9380={ #Nokhar
+	terrain="farmland"
+	culture="shivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9381={ #Nokhar
+	terrain="farmland"
+	culture="shivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9382={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9383={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9384={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9385={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9386={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9387={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9388={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9389={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9390={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9391={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9392={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9393={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9394={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9395={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9396={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9397={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9398={ #Nokhar
+	terrain="farmland"
+	culture="purus"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}

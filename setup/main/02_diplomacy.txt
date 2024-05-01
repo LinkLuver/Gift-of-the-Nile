@@ -9,6 +9,7 @@ diplomacy = {
 	dependency = { first = PES second = GED subject_type = satrapy }
 	dependency = { first = PES second = ELM subject_type = satrapy }
 	dependency = { first = PES second = MAK subject_type = tributary }
+	dependency = { first = PES second = SIV subject_type = uparaja_subject }
 
 	#Median Empire
 	dependency = { first = MAP second = PAR subject_type = satrapy }

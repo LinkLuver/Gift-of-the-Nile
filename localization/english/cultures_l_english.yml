@@ -36,6 +36,15 @@
  pu:0 "Pu"
  elam:0 "Elamite"
  armenian_group:0 "Armenian"
+ adivasi:0 "Adivasi"
+
+ #Adivasi
+ bhil:0 "Bhil"
+ gond:0 "Gond"
+ santal:0 "Santal"
+ oraon:0 "Kurukh"
+ khond:0 "Khond"
+ munda:0 "Munda"
 
  #Armenian Group
  armenian:0 "Ayrarat"
@@ -259,6 +268,10 @@
  pandyan:0 "Pandyan"
  andhran:0 "Andhran"
  assaka:0 "Assakan"
+ brahui:0 "Brahui"
+ trigartan:0 "Trigartan"
+ shivi:0 "Shivi"
+ salwan:0 "Salwan"
  #Proto-European
  nuragic:0 "Nuragic"
  corsian:0 "Corsian"
@@ -285,6 +298,8 @@
  venetic:0 "Venetic"
  ligurian:0 "Ligurian"
  etruscan:0 "Etruscan"
+ faliscan:0 "Faliscan"
+ rutulian:0 "Rutulian"
  rhaetian:0 "Rhaetian"
  umbrian:0 "Umbrian"
  samnite:0 "Sabellian"

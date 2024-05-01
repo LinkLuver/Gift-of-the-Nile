@@ -317,13 +317,13 @@
 		roman = { 
 			levy_template = levy_roman
 			male_names = { #Added missing praenomina
-				Appius Agrippa Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Opiter 
+				Appius Agrippa Aulus Caelus Decimus Decius Drusus Faustus Caius Gnaeus Lucius Mamercus Manius Marcus Mettius Opiter 
 				Publius Postumus Proculus Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Volero Volumnius Octavius
 				Statius Tullus Volesus Vopiscus Caeso Paullus Hostus Numerius Sertor Potitus Vibius Cossus Arruns Camillus
 				Amulius Flavius Gallus Herius Primus Ancus Nonus
 			}
 			female_names = { #Added female praenomina
-				Gaia Lucia Marca Publia Quinta Tita Tiberia Sexta Aula Decima
+				Caia Lucia Marca Publia Quinta Tita Tiberia Sexta Aula Decima
 				Gnaea Spuria Mania Servia Appia Numeria Vibia
 				Amulia Camilla Decia Drusa Fausta Flavia Galla Heria
 				Hosta Opitera Octavia Postuma Prima Procula Secunda Tertia Anca 
@@ -357,61 +357,61 @@
 				Usedica Vantkenia Venna Verkondarna
 			}			
 			family = {	
-				Aimio.Aimia.Aimii.Aimian
-				Aklonio.Aklonia.Aklonii.Aklonian
-				Andetio.Andetia.Andetii.Andetian
-				Afrinio.Afrinia.Afrinii.Afrinian
-				Aplisinio.Aplisinia.Aplisinii.Aplisinian
-				Arsoetigio.Arsoetigia.Arsoetigii.Arsoetigian
+				Aimios.Aimia.Aimii.Aimian
+				Aklonios.Aklonia.Aklonii.Aklonian
+				Andetios.Andetia.Andetii.Andetian
+				Afrinios.Afrinia.Afrinii.Afrinian
+				Aplisinios.Aplisinia.Aplisinii.Aplisinian
+				Arsoetigios.Arsoetigia.Arsoetigii.Arsoetigian
 				Albarenios.Albarenia.Albarenii.Albarenian
-				Bagsonio.Bagsonia.Bagsonii.Bagsonian
+				Bagsonios.Bagsonia.Bagsonii.Bagsonian
 				Broicokos.Broicoka.Broicoki.Broicokan
-				Egotorio.Egotoria.Egotorii.Egotorian
-				Egestio.Egestia.Egestii.Egestian
-				Ersinio.Ersinia.Ersinii.Ersinian
-				Egetorio.Egetoria.Egetorii.Egetorian
+				Egotorios.Egotoria.Egotorii.Egotorian
+				Egestios.Egestia.Egestii.Egestian
+				Ersinios.Ersinia.Ersinii.Ersinian
+				Egetorios.Egetoria.Egetorii.Egetorian
 				Eneikos.Eneika.Eneiki.Eneikan
-				Enogenio.Enogenia.Enogenii.Enogenian
-				Enoklevio.Enoklevia.Enoklevii.Enoklevian
-				Fontio.Fontia.Fontii.Fontian
-				Fougontio.Fougontia.Fougontii.Fougontian
-				Fuginio.Fuginia.Fuginii.Fuginian
-				Fremaistio.Fremaistia.Fremaistii.Fremaistian
+				Enogenios.Enogenia.Enogenii.Enogenian
+				Enoklevios.Enoklevia.Enoklevii.Enoklevian
+				Fontios.Fontia.Fontii.Fontian
+				Fougontios.Fougontia.Fougontii.Fougontian
+				Fuginios.Fuginia.Fuginii.Fuginian
+				Fremaistios.Fremaistia.Fremaistii.Fremaistian
 				Fakios.Fakia.Fakii.Fakian
-				Hostihevio.Hostihevia.Hostihevii.Hostihevian
-				Iantio.Iantia.Iantii.Iantian
-				Iuvantio.Iuvantia.Iuvantii.Iuvantian
-				Kantio.Kantia.Kantii.Kantian
-				Karamnio.Karamnia.Karamnii.Karamnian
-				Lamusio.Lamusia.Lamusii.Lamusian
+				Hostihevios.Hostihevia.Hostihevii.Hostihevian
+				Iantios.Iantia.Iantii.Iantian
+				Iuvantios.Iuvantia.Iuvantii.Iuvantian
+				Kantios.Kantia.Kantii.Kantian
+				Karamnios.Karamnia.Karamnii.Karamnian
+				Lamusios.Lamusia.Lamusii.Lamusian
 				Makknos.Makkna.Makkni.Makknan
-				Muskialonio.Muskialonia.Muskialonii.Muskialonian
-				Naisonio.Naisonia.Naisonii.Naisonian
-				Neirkio.Neirkia.Neirkii.Neirkian
-				Nerkio.Nerkia.Nerkii.Nerkian
-				Ostio.Ostia.Ostii.Ostian
-				Oppio.Oppia.Oppii.Oppian
+				Muskialonios.Muskialonia.Muskialonii.Muskialonian
+				Naisonios.Naisonia.Naisonii.Naisonian
+				Neirkios.Neirkia.Neirkii.Neirkian
+				Nerkios.Nerkia.Nerkii.Nerkian
+				Ostios.Ostia.Ostii.Ostian
+				Oppios.Oppia.Oppii.Oppian
 				Ossokos.Ossoka.Ossoki.Ossokan
-				Pilpotio.Pilpotia.Pilpotii.Pilpotian
-				Pledio.Pledia.Pledii.Pledian
-				Verkanio.Verkania.Verkanii.Verkanian
-				Voltiomnio.Voltiomnia.Voltiomnii.Voltiomnian
-				Veignio.Veignia.Veignii.Veignian
-				Vantio.Vantia.Vantii.Vantian
-				Votio.Votia.Votii.Votian
-				Voltigenio.Voltigenia.Voltigenii.Voltigenian
-				Akutio.Akutia.Akutii.Akutian
-				Fremio.Fremia.Fremii.Fremian
-				Fremaistinio.Fremaistinia.Fremaistinii.Fremaistinian
-				Keutinio.Keutinia.Keutinii.Keutinian
-				Ktulistio.Ktulistia.Ktulistii.Ktulistian
+				Pilpotios.Pilpotia.Pilpotii.Pilpotian
+				Pledios.Pledia.Pledii.Pledian
+				Verkanios.Verkania.Verkanii.Verkanian
+				Voltiomnios.Voltiomnia.Voltiomnii.Voltiomnian
+				Veignios.Veignia.Veignii.Veignian
+				Vantios.Vantia.Vantii.Vantian
+				Votios.Votia.Votii.Votian
+				Voltigenios.Voltigenia.Voltigenii.Voltigenian
+				Akutios.Akutia.Akutii.Akutian
+				Fremios.Fremia.Fremii.Fremian
+				Fremaistinios.Fremaistinia.Fremaistinii.Fremaistinian
+				Keutinios.Keutinia.Keutinii.Keutinian
+				Ktulistios.Ktulistia.Ktulistii.Ktulistian
 				Klutavikos.Klutavika.Klutaviki.Klutavikan
-				Moldio.Moldia.Moldii.Moldian
-				Resunkio.Resunkia.Resunkii.Resunkian
-				Suronio.Suronia.Suronii.Suronian
-				Tomatorinio.Tomatorinia.Tomatorinii.Tomatorinian
+				Moldios.Moldia.Moldii.Moldian
+				Resunkios.Resunkia.Resunkii.Resunkian
+				Suronios.Suronia.Suronii.Suronian
+				Tomatorinios.Tomatorinia.Tomatorinii.Tomatorinian
 				Tritikonikos.Tritikonika.Tritikoniki.Tritikonikan
-				Vantkinio.Vantkinia.Vantkinii.Vantkinian
+				Vantkinios.Vantkinia.Vantkinii.Vantkinian
 			}		
 		}
 		faliscan = {
@@ -420,7 +420,7 @@
 				Aimos Eimos Aulos Amanos Ancos Arontos Pavicios Pescennios Pravios
 				Loucios Lars Marcos Mama Oufilos Ofentios Titos Velos Volta
 				Voltenos Velceos Servios Iunos Cavios Poplios Folcozeos
-            }
+			}
 			female_names = {
 				Aima Poplia Voltaia Iuna Louria Cavia Voltilia Vecinea Vibia
 				Zervatronia Hirmia Senthia Zertenea Caisia Caleptia Pravia
@@ -477,7 +477,7 @@
 				Amtnie Amuni Anche Anthai Aninas Arunth Araz Arzni Arnth Autu Aule Cei Ceile Ceisi
 				Cire Cnaive Clate Cruthni Cuinte Cursni Fapi Felce Felsnas Fulu Hapre Hirumina Husi
 				Carcuna Carthasie Ceisie Cavie Larce Laris Larth Larthuza Laucie Lauche Lethei
-				Licine Lucer Mamurce Mama Marce Murila Numna Pesna Petru Plikasnas Plute Presnte
+				Licine Lucer Mamurce Marce Murila Numna Pesna Petru Plikasnas Plute Presnte
 				Pumpu Puplie Cupe Ranazu Rasce Ruvfe Ruifre Sanchuna Scarpe Sethre Spitus Spurie Squrie
 				Tarchi Teitur Thefri Thucer Ticusna Tite Tlesna Tursikina Tusnute Uchsie Uchulni Usele
 				Vel Velchaie Velthur Venel Vetus Vipie
@@ -804,20 +804,20 @@
 				NICKNAME_ZALLENIA
 			}
 		}
-		rhaetian = {
-			levy_template = levy_rhaetian
-			male_names = { #attested: kastrie esimne esumne lavisie t/θarie remie visteχa piθ/tie lasθe lavise vassa tula φausu laθur azi piθamne essθu klevie knuse lasta φelturie piri χika φrima vaþanu lasta piti piθiave reiθus laśanu ketanu elχanu tulanu estanu lumene tenaχi φelzurie terunie enike kaθiave pitale reiθe tnake kanise valθikie ustiþu χaisuru azi-le  laseke reituse(speculative by Schumacher) φutiχi velθie munie 
+	rhaetian = {
+		levy_template = levy_rhaetian
+		male_names = { #attested: kastrie esimne esumne lavisie t/θarie remie visteχa piθ/tie lasθe lavise vassa tula φausu laθur azi piθamne essθu klevie knuse lasta φelturie piri χika φrima vaþanu lasta piti piθiave reiθus laśanu ketanu elχanu tulanu estanu lumene tenaχi φelzurie terunie enike kaθiave pitale reiθe tnake kanise valθikie ustiþu χaisuru azi-le  laseke reituse(speculative by Schumacher) φutiχi velθie munie 
 				Azi Elkganu Enike Esimne Essthu Estanu Esumne Kanise Kathiave Ketanu Kgaisuru Kgika Klevie Knuse
 				Laseke Lassanu Lasta Lasthe Lathur Lavise Lavisie Lumene Munie Phausu Phelturie Phelzurie Phrima Phutikgi
 				Pitale Pithamne Pithiave Pithie Piti Pitie Piri Reithe Reituse Remie Tarie Tenakgi Terunie Tnake Tharie Tula 
 				Tulanu Ustitsu Valthikie Vassa Vatsanu Velthie 
 
 				#notes on attested raetic: þ as 'ts'-source:Some remarks on the personal name system of Raetic,CORINNA SALOMON-  θ as dental stop 'th'/'t''?-source:Raetic,CORINNA SALOMON - χ, I've arbitrarilly assigned the letters 'kg', as it corresponds to the same venetic caracter for g, and seems to be exchanged with c in etruscan cognates, (it also corresponds to K in some celtic loan names, and some names in Raetic subsitute χ for g), φ as 'ph' as it is cognate with words that have either f or b, and is suggested by Salomon to be substituted with P.
-			}
-			female_names = { #attested: aruse piri χeli χari/kari remi laviśa lavise kunina kara siara φelna χevisiana arusna perkusi
+		}
+		female_names = { #attested: aruse piri χeli χari/kari remi laviśa lavise kunina kara siara φelna χevisiana arusna perkusi
 				Aruse Arusna Kara Kari Kgari Kgeli Kgevisiana Lavise Lavissa Perkusi Phelna Piri Remi Siara
-			}
-			family = {  
+		}
+		family = {  
                 Arussnu.Arussna.Arussnas.Arussnid
                 Esiumninu.Esiumnina.Esiumnines.Esiumninian
                 Esminu.Esmina.Esmines.Esminid
@@ -858,8 +858,8 @@
 				#attested: esθu θarna/θaris(gen) aruśna/aruśnas(gen) kaszrinu eθunnu piθamnu/a esminu lavisealu visteχanu remina/nu tulanu helanu metinu valθikinu susinu φutiχinu φelvinu kaniśnu nuþnu śiχanu reiθuśnu θianu kapaśunu lupnu tipruχnu vinuθalina θauχrilina vaiθina taśna kuhilina lumennu lavisnu tenaginu esiumninu laśanu φausu velχanu/velisanes(gen)  
 			}
 		}
-		umbrian = {
-		    male_names = { #sources: https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.65 https://www.academia.edu/35452644/Umbrian_lexicon_of_the_minor_inscriptions_2019_10_18
+	umbrian = {
+	    male_names = { #sources: https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.65 https://www.academia.edu/35452644/Umbrian_lexicon_of_the_minor_inscriptions_2019_10_18
                 Aulus Afidius Ahal Alez Amerens Atiedias Atiedian Cais Casilate Cureias Cumnios Blaisius Duquius Efieus Faletnus Fucius Hoius Iatinos Iuquos Kunos Lucius 
                 Museias Nero Numisius Nauius Ouius Paukis Pacius Petronius Publius Paie Peiersias Peraznanios Punicates Rufer Ruthius Salius Septimos Sextus Servius 
                 Sertor Spector Tetteies Titus Variens Vibius Vipius Vibis Vufiuneus Vesticius
@@ -907,9 +907,9 @@
                 Vistinius.Vistinia.Vistinii.Vistinian
             }
 		}
-		samnite = { 
-			levy_template = levy_samnite 
-			male_names = { 
+	samnite = { 
+		levy_template = levy_samnite 
+		male_names = { 
                 #Sabellian proper #sources: https://www.academia.edu/82019398/A_Grammar_of_the_Oscan_Language_Part_I_Inflection_2023_08_23&nav_from=75cdcc04-3151-461d-bb7d-480d5e10632d&rw_pos=0 https://www.academia.edu/34386277/Lexicon_of_the_PraeSamnites_Frentani_Samnites_and_Hirpini_coins_of_the_Social_War_2021_06_11
                 Aulis Aufilus Baitis Banttieis Bantieis Caisidis Cauius Ceis Efiis Eviis Gavis Gaavis Gnaivis Gaius Heirene Heirens Heris Kailenus Kaisillieis Kerins Kerrins Kluvatz Kumnis Luvkis Lukidel Mamercis Maras Maraeus Minaz Minis Marius Mettius Minatus Minathis Mais Marahis Minis Mitilis Mudis Melmis Nuvis Niumsis Oufilus Ovisos Pakis Rufiis Stenis Statis Stenis Titus Trebis Uvis Veliis Venelis Vinux Uhtavis Vibis Uvis 
                 #Central Italic names #sources: https://www.academia.edu/34386270/Lexicon_of_the_central_Italic_languages_2021_12_11
@@ -1079,7 +1079,7 @@
                 NAME_CETUR  
             }
 	    }
-		siculian = {
+	siculian = {
             male_names = { 
                 Alaponis Arax Avis Avdiis Auilis Bannis Bantinis Cauius Caris Gavis Gnaius Heirens Helvos Heris Itiis Itius Kerrins Keis Kluvaz Luvkis Loikis Luktiis Maras Minaz Minis Minios Mais Mamereks Marahis Makis Metis Numsis Niumsis Numpsius Nympsius Nouios Nopsis Uvis Uhtavis Pakis pakul Pumpuf Perkens Plasos Polliis Silis Sossos Spedis Spellis Stenis Trebis Trebas Ouddiis Ovidius Varis Vibis
             }
@@ -1166,7 +1166,7 @@
                 NAME_GNAIVIS
             }
 		}
-		bruttian = {#sources: https://www.academia.edu/34554069/Lexicon_of_Oscan_Lucania_and_Bruttium_2023_11_09
+	bruttian = {#sources: https://www.academia.edu/34554069/Lexicon_of_Oscan_Lucania_and_Bruttium_2023_11_09
             male_names = { 
                 Alaponis Arax Avis Avdiis Auilis Bannis Bantinis Cauius Caris Gavis Gnaius Heirens Helvos Heris Itiis Itius Kerrins Keis Kluvaz Luvkis Loikis Luktiis Maras Minaz Minis Minios Mais Mamereks Marahis Makis Metis Numsis Niumsis Numpsius Nympsius Nouios Nopsis Uvis Uhtavis Pakis pakul Pumpuf Perkens Plasos Polliis Silis Sossos Spedis Spellis Stenis Trebis Trebas Ouddiis Ovidius Varis Vibis
             }
@@ -1253,9 +1253,9 @@
                 NAME_GNAIVIS
             }
 		}
-		lucanian = {#sources: https://www.academia.edu/34554069/Lexicon_of_Oscan_Lucania_and_Bruttium_2023_11_09
+	lucanian = {#sources: https://www.academia.edu/34554069/Lexicon_of_Oscan_Lucania_and_Bruttium_2023_11_09
             male_names = { 
-                Alaponis Arax Avis Avdiis Auilis Bannis Bantinis Cauius Caris Gavis Gnaius Heirens Helvos Heris Itiis Itius Kerrins Keis Kluvaz Luvkis Loikis Luktiis Maras Minaz Minis Minios Mais Mamereks Marahis Makis Metis Numsis Niumsis Numpsius Nympsius Nouios Nopsis Uvis Uhtavis Pakis pakul Pumpuf Perkens Plasos Polliis Silis Sossos Spedis Spellis Stenis Trebis Trebas Ouddiis Ovidius Varis Vibis
+                Alaponis Arax Avis Avdiis Auilis Bannis Bantinis Cauius Caris Gavis Gnaius Heirens Helvos Heris Itiis Itius Kerrins Keis Kluvaz Luvkis 	Loikis Luktiis Maras Minaz Minis Minios Mais Mamereks Marahis Makis Metis Numsis Niumsis Numpsius Nympsius Nouios Nopsis Uvis Uhtavis Pakis pakul Pumpuf Perkens Plasos Polliis Silis Sossos Spedis Spellis Stenis Trebis Trebas Ouddiis Ovidius Varis Vibis
             }
             female_names = {
                 Alafiu Bantina Emauta Kaiaida Kaidika Kaidia Kaunota Minaka Minata Nuvia Nuvila Nopsia Novia Treda Vibia
@@ -1365,61 +1365,61 @@
 				Usedica Vantkenia Venna Verkondarna
 			}			
 			family = {	
-				Aimio.Aimia.Aimii.Aimian
-				Aklonio.Aklonia.Aklonii.Aklonian
-				Andetio.Andetia.Andetii.Andetian
-				Afrinio.Afrinia.Afrinii.Afrinian
-				Aplisinio.Aplisinia.Aplisinii.Aplisinian
-				Arsoetigio.Arsoetigia.Arsoetigii.Arsoetigian
+				Aimios.Aimia.Aimii.Aimian
+				Aklonios.Aklonia.Aklonii.Aklonian
+				Andetios.Andetia.Andetii.Andetian
+				Afrinios.Afrinia.Afrinii.Afrinian
+				Aplisinios.Aplisinia.Aplisinii.Aplisinian
+				Arsoetigios.Arsoetigia.Arsoetigii.Arsoetigian
 				Albarenios.Albarenia.Albarenii.Albarenian
-				Bagsonio.Bagsonia.Bagsonii.Bagsonian
+				Bagsonios.Bagsonia.Bagsonii.Bagsonian
 				Broicokos.Broicoka.Broicoki.Broicokan
-				Egotorio.Egotoria.Egotorii.Egotorian
-				Egestio.Egestia.Egestii.Egestian
-				Ersinio.Ersinia.Ersinii.Ersinian
-				Egetorio.Egetoria.Egetorii.Egetorian
+				Egotorios.Egotoria.Egotorii.Egotorian
+				Egestios.Egestia.Egestii.Egestian
+				Ersinios.Ersinia.Ersinii.Ersinian
+				Egetorios.Egetoria.Egetorii.Egetorian
 				Eneikos.Eneika.Eneiki.Eneikan
-				Enogenio.Enogenia.Enogenii.Enogenian
-				Enoklevio.Enoklevia.Enoklevii.Enoklevian
-				Fontio.Fontia.Fontii.Fontian
-				Fougontio.Fougontia.Fougontii.Fougontian
-				Fuginio.Fuginia.Fuginii.Fuginian
-				Fremaistio.Fremaistia.Fremaistii.Fremaistian
+				Enogenios.Enogenia.Enogenii.Enogenian
+				Enoklevios.Enoklevia.Enoklevii.Enoklevian
+				Fontios.Fontia.Fontii.Fontian
+				Fougontios.Fougontia.Fougontii.Fougontian
+				Fuginios.Fuginia.Fuginii.Fuginian
+				Fremaistios.Fremaistia.Fremaistii.Fremaistian
 				Fakios.Fakia.Fakii.Fakian
-				Hostihevio.Hostihevia.Hostihevii.Hostihevian
-				Iantio.Iantia.Iantii.Iantian
-				Iuvantio.Iuvantia.Iuvantii.Iuvantian
-				Kantio.Kantia.Kantii.Kantian
-				Karamnio.Karamnia.Karamnii.Karamnian
-				Lamusio.Lamusia.Lamusii.Lamusian
+				Hostihevios.Hostihevia.Hostihevii.Hostihevian
+				Iantios.Iantia.Iantii.Iantian
+				Iuvantios.Iuvantia.Iuvantii.Iuvantian
+				Kantios.Kantia.Kantii.Kantian
+				Karamnios.Karamnia.Karamnii.Karamnian
+				Lamusios.Lamusia.Lamusii.Lamusian
 				Makknos.Makkna.Makkni.Makknan
-				Muskialonio.Muskialonia.Muskialonii.Muskialonian
-				Naisonio.Naisonia.Naisonii.Naisonian
-				Neirkio.Neirkia.Neirkii.Neirkian
-				Nerkio.Nerkia.Nerkii.Nerkian
-				Ostio.Ostia.Ostii.Ostian
-				Oppio.Oppia.Oppii.Oppian
+				Muskialonios.Muskialonia.Muskialonii.Muskialonian
+				Naisonios.Naisonia.Naisonii.Naisonian
+				Neirkios.Neirkia.Neirkii.Neirkian
+				Nerkios.Nerkia.Nerkii.Nerkian
+				Ostios.Ostia.Ostii.Ostian
+				Oppios.Oppia.Oppii.Oppian
 				Ossokos.Ossoka.Ossoki.Ossokan
-				Pilpotio.Pilpotia.Pilpotii.Pilpotian
-				Pledio.Pledia.Pledii.Pledian
-				Verkanio.Verkania.Verkanii.Verkanian
-				Voltiomnio.Voltiomnia.Voltiomnii.Voltiomnian
-				Veignio.Veignia.Veignii.Veignian
-				Vantio.Vantia.Vantii.Vantian
-				Votio.Votia.Votii.Votian
-				Voltigenio.Voltigenia.Voltigenii.Voltigenian
-				Akutio.Akutia.Akutii.Akutian
-				Fremio.Fremia.Fremii.Fremian
-				Fremaistinio.Fremaistinia.Fremaistinii.Fremaistinian
-				Keutinio.Keutinia.Keutinii.Keutinian
-				Ktulistio.Ktulistia.Ktulistii.Ktulistian
+				Pilpotios.Pilpotia.Pilpotii.Pilpotian
+				Pledios.Pledia.Pledii.Pledian
+				Verkanios.Verkania.Verkanii.Verkanian
+				Voltiomnios.Voltiomnia.Voltiomnii.Voltiomnian
+				Veignios.Veignia.Veignii.Veignian
+				Vantios.Vantia.Vantii.Vantian
+				Votios.Votia.Votii.Votian
+				Voltigenios.Voltigenia.Voltigenii.Voltigenian
+				Akutios.Akutia.Akutii.Akutian
+				Fremios.Fremia.Fremii.Fremian
+				Fremaistinios.Fremaistinia.Fremaistinii.Fremaistinian
+				Keutinios.Keutinia.Keutinii.Keutinian
+				Ktulistios.Ktulistia.Ktulistii.Ktulistian
 				Klutavikos.Klutavika.Klutaviki.Klutavikan
-				Moldio.Moldia.Moldii.Moldian
-				Resunkio.Resunkia.Resunkii.Resunkian
-				Suronio.Suronia.Suronii.Suronian
-				Tomatorinio.Tomatorinia.Tomatorinii.Tomatorinian
+				Moldios.Moldia.Moldii.Moldian
+				Resunkios.Resunkia.Resunkii.Resunkian
+				Suronios.Suronia.Suronii.Suronian
+				Tomatorinios.Tomatorinia.Tomatorinii.Tomatorinian
 				Tritikonikos.Tritikonika.Tritikoniki.Tritikonikan
-				Vantkinio.Vantkinia.Vantkinii.Vantkinian
+				Vantkinios.Vantkinia.Vantkinii.Vantkinian
 			}
 		}
 	}
