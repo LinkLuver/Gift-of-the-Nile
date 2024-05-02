@@ -532,7 +532,7 @@ cappadocia_cataonia_area = { #11
 }
 
 cappadocia_garsauritis_area = { #12
-	provinces = { 173 205 1788 1817 1818 1888 1900 1938 1940 1951 1954 1978 }
+	provinces = { 173 205 1788 1888 1900 1938 1940 1951 1954 1978 }
 }
 
 cappadocia_melitene_area = { #12
@@ -540,7 +540,7 @@ cappadocia_melitene_area = { #12
 }
 
 cappadocia_saravene_area = { #11
-	provinces = { 1811 1813 1820 1832 1836 1907 1909 1913 1923 1932 7981 }
+	provinces = { 1811 1813 1820 1832 1836 1907 1909 1913 1923 1932 7981 1817 1818 }
 }
 
 carmania_area = { #12
@@ -1033,7 +1033,7 @@ gallikos_river_area = { #1
 }
 
 gandhara_area = { #12
-	provinces = { 4300 4301 4323 4324 4325 4367 4370 4490 6997 7319 7657 9393 9394 9395 9396 9397 9398 7361 }
+	provinces = { 4300 4301 4323 4324 4325 4367 4370 4490 6997 7319 7657 9393 9394 9396 9397 9398 7361 }
 }
 
 ganges_river_area = { #33
@@ -1326,7 +1326,7 @@ kasi_area = { #11
 }
 
 kasmira_area = { #12
-	provinces = { 3810 4332 4333 4334 4335 4336 4337 4338 4339 4341 4343 4326 6751 }
+	provinces = { 3810 4332 4333 4334 4335 4336 4337 4338 4339 4341 4343 4326 6751 9395 }
 }
 
 keralaputa_area = { #12
