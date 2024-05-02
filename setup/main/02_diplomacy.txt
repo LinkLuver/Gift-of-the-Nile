@@ -352,11 +352,11 @@ diplomacy = {
 	#dependency = { first = PRY second = PYK subject_type = tributary } #Physkos
 
 	#Mauryans
-	dependency = { first = MRY second = ATV subject_type = tributary } #Atavis
-	dependency = { first = MRY second = HYA subject_type = tributary } #Haihayas
-	dependency = { first = MRY second = PLD subject_type = tributary } #Paladas
-	dependency = { first = MRY second = YDD subject_type = feudatory } #Yadheuya
-	dependency = { first = MRY second = PRA subject_type = tributary } #Pauravas
+	#dependency = { first = MRY second = ATV subject_type = tributary } #Atavis
+	#dependency = { first = MRY second = HYA subject_type = tributary } #Haihayas
+	#dependency = { first = MRY second = PLD subject_type = tributary } #Paladas
+	#dependency = { first = MRY second = YDD subject_type = feudatory } #Yadheuya
+	#dependency = { first = MRY second = PRA subject_type = tributary } #Pauravas
 	#dependency = { first = PRY second = EUB subject_type = feudatory } #Freed by Demetrios in 304
 
 	#Opuntians

@@ -1127,7 +1127,7 @@
 }
 
 4388={ #Pancapura
-	terrain="plains"
+	terrain="farmland"
 	culture="sivi"
 	religion="hindu"
 	trade_goods="horses"
@@ -1232,7 +1232,7 @@
 }
 
 4393={ #Okara
-	terrain="plains"
+	terrain="farmland"
 	culture="sivi"
 	religion="buddhism"
 	trade_goods="grain"
@@ -1280,7 +1280,7 @@
 }
 
 4395={ #Turvasha
-	terrain="plains"
+	terrain="farmland"
 	culture="purus"
 	religion="jainism"
 	trade_goods="dates"
@@ -1557,7 +1557,7 @@
 }
 
 4418={ #Satadru
-	terrain="plains"
+	terrain="farmland"
 	culture="trigartan"
 	religion="ajnana"
 	trade_goods="base_metals"
@@ -1717,7 +1717,7 @@
 }
 
 7361={ #Salutara
-	terrain="mountain"
+	terrain="forest"
 	culture="gandhari"
 	religion="jainism"
 	trade_goods="base_metals"
@@ -1764,7 +1764,7 @@
 }
 
 7485={ #Sodal
-	terrain="plains"
+	terrain="farmland"
 	culture="trigartan"
 	religion="ajivika"
 	trade_goods="dates"
@@ -2136,7 +2136,7 @@
 }
 
 9278={ #Atari
-	terrain="plains"
+	terrain="farmland"
 	culture="sivi"
 	religion="ajnana"
 	trade_goods="fruits"
@@ -2189,7 +2189,7 @@
 }
 
 9280={ #Kot Kamalia
-	terrain="plains"
+	terrain="farmland"
 	culture="purus"
 	religion="sassatavada"
 	trade_goods="cloth"
@@ -2261,7 +2261,7 @@
 }
 
 9300={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2274,7 +2274,7 @@
 }
 
 9301={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2339,7 +2339,7 @@
 }
 
 9306={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2352,7 +2352,7 @@
 }
 
 9307={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="sivi"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2404,7 +2404,7 @@
 }
 
 9331={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2417,7 +2417,7 @@
 }
 
 9332={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2521,7 +2521,7 @@
 }
 
 9340={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2534,7 +2534,7 @@
 }
 
 9341={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="shivi"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2547,7 +2547,7 @@
 }
 
 9342={ #Nokhar
-	terrain="farmland"
+	terrain="forest"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2560,7 +2560,7 @@
 }
 
 9343={ #Nokhar
-	terrain="farmland"
+	terrain="forest"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2573,7 +2573,7 @@
 }
 
 9344={ #Nokhar
-	terrain="farmland"
+	terrain="forest"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2625,7 +2625,7 @@
 }
 
 9348={ #Nokhar
-	terrain="farmland"
+	terrain="forest"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2638,7 +2638,7 @@
 }
 
 9349={ #Nokhar
-	terrain="farmland"
+	terrain="marsh"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2651,7 +2651,7 @@
 }
 
 9350={ #Nokhar
-	terrain="farmland"
+	terrain="hills"
 	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2664,7 +2664,7 @@
 }
 
 9351={ #Nokhar
-	terrain="farmland"
+	terrain="forest"
 	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2677,7 +2677,7 @@
 }
 
 9352={ #Nokhar
-	terrain="farmland"
+	terrain="forest"
 	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2768,7 +2768,7 @@
 }
 
 9359={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2781,7 +2781,7 @@
 }
 
 9360={ #Nokhar
-	terrain="farmland"
+	terrain="forest"
 	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2794,7 +2794,7 @@
 }
 
 9361={ #Nokhar
-	terrain="farmland"
+	terrain="forest"
 	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2807,7 +2807,7 @@
 }
 
 9362={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2820,7 +2820,7 @@
 }
 
 9363={ #Nokhar
-	terrain="farmland"
+	terrain="forest"
 	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2833,7 +2833,7 @@
 }
 
 9364={ #Nokhar
-	terrain="farmland"
+	terrain="forest"
 	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2846,7 +2846,7 @@
 }
 
 9365={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2859,7 +2859,7 @@
 }
 
 9366={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="trigartan"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2898,7 +2898,7 @@
 }
 
 9369={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2911,7 +2911,7 @@
 }
 
 9370={ #Nokhar
-	terrain="farmland"
+	terrain="forest"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2928,7 +2928,7 @@
 
 
 9371={ #Nokhar
-	terrain="farmland"
+	terrain="desert"
 	culture="salwan"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2941,7 +2941,7 @@
 }
 
 9372={ #Nokhar
-	terrain="farmland"
+	terrain="desert"
 	culture="salwan"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2954,7 +2954,7 @@
 }
 
 9373={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="salwan"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2967,7 +2967,7 @@
 }
 
 9374={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="shivi"
 	religion="kassapan"
 	trade_goods="grain"
@@ -2980,7 +2980,7 @@
 }
 
 9375={ #Nokhar
-	terrain="farmland"
+	terrain="desert"
 	culture="shivi"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3006,7 +3006,7 @@
 }
 
 9377={ #Nokhar
-	terrain="farmland"
+	terrain="desert"
 	culture="shivi"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3019,7 +3019,7 @@
 }
 
 9378={ #Nokhar
-	terrain="farmland"
+	terrain="desert"
 	culture="shivi"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3032,7 +3032,7 @@
 }
 
 9379={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="shivi"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3045,7 +3045,7 @@
 }
 
 9380={ #Nokhar
-	terrain="farmland"
+	terrain="desert"
 	culture="shivi"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3058,7 +3058,7 @@
 }
 
 9381={ #Nokhar
-	terrain="farmland"
+	terrain="hills"
 	culture="shivi"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3071,7 +3071,7 @@
 }
 
 9382={ #Nokhar
-	terrain="farmland"
+	terrain="forest"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3084,7 +3084,7 @@
 }
 
 9383={ #Nokhar
-	terrain="farmland"
+	terrain="hills"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3097,7 +3097,7 @@
 }
 
 9384={ #Nokhar
-	terrain="farmland"
+	terrain="hills"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3110,7 +3110,7 @@
 }
 
 9385={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3123,7 +3123,7 @@
 }
 
 9386={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3136,7 +3136,7 @@
 }
 
 9387={ #Nokhar
-	terrain="farmland"
+	terrain="forest"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3149,7 +3149,7 @@
 }
 
 9388={ #Nokhar
-	terrain="farmland"
+	terrain="forest"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3162,7 +3162,7 @@
 }
 
 9389={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3175,7 +3175,7 @@
 }
 
 9390={ #Nokhar
-	terrain="farmland"
+	terrain="plains"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3188,7 +3188,7 @@
 }
 
 9391={ #Nokhar
-	terrain="farmland"
+	terrain="hills"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3201,7 +3201,7 @@
 }
 
 9392={ #Nokhar
-	terrain="farmland"
+	terrain="hills"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3214,7 +3214,7 @@
 }
 
 9393={ #Nokhar
-	terrain="farmland"
+	terrain="forest"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3227,7 +3227,7 @@
 }
 
 9394={ #Nokhar
-	terrain="farmland"
+	terrain="mountain"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3240,7 +3240,7 @@
 }
 
 9395={ #Nokhar
-	terrain="farmland"
+	terrain="mountain"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3253,7 +3253,7 @@
 }
 
 9396={ #Nokhar
-	terrain="farmland"
+	terrain="mountain"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3266,7 +3266,7 @@
 }
 
 9397={ #Nokhar
-	terrain="farmland"
+	terrain="hills"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"
@@ -3279,7 +3279,7 @@
 }
 
 9398={ #Nokhar
-	terrain="farmland"
+	terrain="mountain"
 	culture="purus"
 	religion="kassapan"
 	trade_goods="grain"

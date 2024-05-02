@@ -191,3 +191,26 @@ fratricide_wargoal = {
     ticking_war_score = 0.5
 
 }
+
+conquer_wargoal_uparaja = {
+	type = take_province
+	allow = {
+		is_subject = yes
+		OR = {
+        primary_culture = salwan
+        primary_culture = gandhari
+        primary_culture = sindhi
+        primary_culture = brahui
+        primary_culture = purus
+        primary_culture = trigartan
+        primary_culture = shivi
+		}
+	}
+	
+	attacker = {
+		conquer_cost = -0.25
+	}
+	defender = {
+	}
+	ticking_war_score = 1
+}

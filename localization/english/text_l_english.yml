@@ -433,6 +433,9 @@
  great_satrapy:0 "Kshatrapa"
  AM_great_satrapy:2 "#T $LIST$#!\nKshatrapa of $LIST$"
  LEAD_great_satrapy:2 "#T $LIST$#!\nKshatrapa"
+ conquer_wargoal_uparaja:0 "Conquer"
+ war_goal_conquer_wargoal_uparaja:0 "Take $PROV$"
+ war_goal_conquer_wargoal_uparaja_desc:0 "War goal is to take $PROV$"
  
  get_oasis:0 "in an oasis."
  get_desert_hills:0 "in desert hills."

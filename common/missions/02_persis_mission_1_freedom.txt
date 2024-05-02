@@ -167,12 +167,12 @@
         requires = { persis_mission_1_freedom_task_1 }
         highlight = {
             scope:province = {
-                this = p:4781
+                this = p:4950
             }
         }
         allow = {
             # 20 pops in Kazerun, five buildings total
-            p:4781 = {
+            p:4950 = {
                 total_population >= 40
                 num_of_used_building_slots >= 6
                 has_no_ongoing_construction = yes
@@ -183,7 +183,7 @@
             trigger_event = me_persis.6
             show_as_tooltip = {
                 #  # Gain a migration and pop growth bonus the next 360 months. Gain a free province investment.
-                p:4781 = {
+                p:4950 = {
                     add_province_modifier = {
                         name = persis_mod_5
                         duration = 900

@@ -2481,8 +2481,7 @@ country = {
 			capital = 4373 # Deogarh
 
 			own_control_core = {
-				4373 4374 4372 4375 4377 #north_sindhu_region
-				9261
+				4373 4374 4372 4375 4377 9371 9372 9375 #north_sindhu_region
 			}
 		}
 		SIV = { #Sivi
@@ -2501,7 +2500,7 @@ country = {
 
 			own_control_core = {
 				4349 4378 9281 4385 4371
-				9300 9301 9302
+				9300 9301 9302 9373 9261 9374
 			}
 		}
 		KEK = { #Kekaya
@@ -2519,8 +2518,8 @@ country = {
 			}
 
 			own_control_core = {
-				4319 4321 4330 4383 4386 #sivi_region
-				9257 9258
+				4319 4321 4330 4383 #sivi_region
+				9257 9380 9381 9377 9378
 			}
 		}
 		AAT = { #Anatachara
@@ -2575,7 +2574,7 @@ country = {
 			}
 
 			own_control_core = {
-				4350 4348 4351
+				4350 4348 4351 4386 9258 9376 9379
 			}
 		}
 		KOT = { #Kamalia
@@ -2683,7 +2682,7 @@ country = {
 				4345
 				4315 4316 4398 4399 7399
 				4331 4384 #panchanada_region
-				9348 9344 9343 9342 9341 9340 9370
+				9348 9344 9343 9342 9341 9340 9370 9382
 			}
 			pantheon = {
 				{ deity = 1113 }
