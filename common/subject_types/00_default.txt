@@ -853,7 +853,7 @@ great_satrapy = {
 	}
 	subject_modifier = {
 		global_manpower_modifier = 0.05
-		levy_size_multiplier = 0.015
+		levy_size_multiplier = 0.025
 	}
 	
 	allow = {

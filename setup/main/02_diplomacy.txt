@@ -23,7 +23,7 @@ diplomacy = {
 	dependency = { first = PES second = LAH subject_type = uparaja_subject }
 	dependency = { first = PES second = PRA subject_type = uparaja_subject }
 	dependency = { first = PES second = SLW subject_type = uparaja_subject }
-	dependency = { first = PES second = GHA subject_type = uparaja_subject }
+	dependency = { first = PES second = GHA subject_type = great_satrapy }
 
 	#Median Empire
 	dependency = { first = MAP second = PAR subject_type = satrapy }
