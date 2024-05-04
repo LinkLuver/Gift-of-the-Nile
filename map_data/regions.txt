@@ -597,12 +597,19 @@ gandhara_region = { #9 areas
 	areas = {
 		gandhara_area
 		kasmira_area
+		taxila_area
+		sivi_area
+		north_sindhu_area
+	}
+}
+
+panchab_region = { #9 areas
+	color = rgb { 190 128 78 }
+	areas = {
 		madra_area
 		mallia_area
 		panchanada_area
 		rodewala_area
-		sivi_area
-		taxila_area
 		trigarta_area
 		chehat_area
 		ksudraka_area
@@ -785,19 +792,26 @@ magna_graecia_region = { #8 areas
 	}
 }
 
-maru_region = { #9 areas
+maru_region = { #5 areas
 	color = rgb { 80 201 244 }
 	areas = {
 		abhiria_area
 		inner_saurashtra_area
 		kaccha_area
 		maru_area
-		north_sindhu_area
 		outer_saurashtra_area
+	}
+}
+
+indus_region = { #6 areas
+	color = rgb { 120 75 78 }
+	areas = {
 		patalene_area
 		sauvira_area
 		south_sindhu_area
 		placeholder_area
+		brahuia_area
+		roruka_area
 	}
 }
 

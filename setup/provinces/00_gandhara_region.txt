@@ -2735,9 +2735,19 @@
 	trade_goods="grain"
 	civilization_value=27
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
+		amount=9
+	}
+	freemen={
 		amount=7
+	}
+	slaves={
+		amount=8
+	}
+	tribesmen={
+		religion="ajivika"
+		amount=4
 	}
 }
 
