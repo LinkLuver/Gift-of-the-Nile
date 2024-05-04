@@ -604,7 +604,7 @@ gandhara_region = { #9 areas
 }
 
 panchab_region = { #9 areas
-	color = rgb { 190 128 78 }
+	color = arya_color
 	areas = {
 		madra_area
 		mallia_area
