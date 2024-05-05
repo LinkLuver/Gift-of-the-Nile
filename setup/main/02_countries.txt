@@ -2489,6 +2489,26 @@ country = {
 			primary_culture = sivi
 			religion = charvaka
 			diplomatic_stance=appeasement_stance
+			capital = 9379 # Arithapura
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = {
+				4385 4371
+				9302 9374
+				9376 4348 9379
+			}
+		}
+		ML2 = { # Mallia
+			government = aristocratic_monarchy
+			primary_culture = sivi
+			religion = charvaka
+			diplomatic_stance=appeasement_stance
 			capital = 4349 # Mallia
 
 			technology={
@@ -2499,8 +2519,43 @@ country = {
 			}
 
 			own_control_core = {
-				4349 4378 9281 4385 4371
-				9300 9301 9302 9373 9261 9374
+				4349 4378 9300
+			}
+		}
+		PTM = { # Lukhueen
+			government = aristocratic_monarchy
+			primary_culture = harrapan
+			religion = buddhism
+			diplomatic_stance=appeasement_stance
+			capital = 9373 # Lukheenjo-Daro
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = {
+				9373 9261
+			}
+		}
+		PT2 = { # Daraghara
+			government = aristocratic_monarchy
+			primary_culture = pasargadi
+			religion = zoroaster
+			diplomatic_stance=appeasement_stance
+			capital = 4371 # Daragarh
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = {
+				4371
 			}
 		}
 		KEK = { #Kekaya
@@ -2508,7 +2563,7 @@ country = {
 			primary_culture = gandhari
 			religion = hindu
 			diplomatic_stance=appeasement_stance
-			capital = 4383 # Abortai
+			capital = 4384 # Kekaiya
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2520,6 +2575,25 @@ country = {
 			own_control_core = {
 				4319 4321 4330 4383 #sivi_region
 				9257 9380 9381 9377 9378
+				9382 4331 9341 4384 9342 9343
+			}
+		}
+		REH = { #Rehman
+			government = tribal_kingdom
+			primary_culture = harrapan
+			religion = hindu
+			diplomatic_stance=appeasement_stance
+			capital = 9377 # Rehman Dheri
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = {
+				9377 9380 9381 4319 9257
 			}
 		}
 		AAT = { #Anatachara
@@ -2537,8 +2611,45 @@ country = {
 			}
 
 			own_control_core = {
-				4382 9278 4381 9279
-				9303 9304 9305 9306 9307 9308
+				4382 9278
+				9305 9308
+			}
+		}
+		HR2 = { #Harrapa
+			government = plutocratic_republic
+			primary_culture = harrapan
+			religion = hindu
+			diplomatic_stance=appeasement_stance
+			capital = 9279 # Harrapa
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = {
+				9279 9306 9307
+			}
+		} 
+		ATA = { #Atari
+			government = plutocratic_republic
+			primary_culture = sivi
+			religion = buddhism
+			diplomatic_stance=appeasement_stance
+			capital = 9278 # Atari
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = {
+				9278 9304 9303 4381
+				9302 9281 9301
 			}
 		}
 		SLW = { #Salwa
@@ -2574,7 +2685,7 @@ country = {
 			}
 
 			own_control_core = {
-				4350 4348 4351 4386 9258 9376 9379
+				4350 4351 4386 9258
 			}
 		}
 		KOT = { #Kamalia
@@ -2594,7 +2705,7 @@ country = {
 			own_control_core = {
 				9280 #New Mallia
 				4395
-				9331 9332 4380 4396
+				9331 9332 4380
 			}
 		}
 		GHA = { #Gandhara
@@ -2611,7 +2722,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				4300 4301 4323 4325 4367 6613 7319 7657 9397 9398 #gandhara_area
+				4300 4301 4323 4325 4367 6613 7319 7657 9398 9397 #gandhara_area
 				4308 4317 4318 4320 4322 4326 4327 4328 4329 7314 7492 9383 9384 9385 9386 9387 9388 9389 9390 9391 9392 9393 #taxila_region
 				7361 #kasmira_region
 			}
@@ -2632,7 +2743,7 @@ country = {
 			own_control_core = 	{
 				3810 4324 4370 4490 5599 5600 6751 6997
 				5597 5594 5593 5596 5595 5601
-				4336 4335 4339 4337
+				4336 4335 4339 4337 9396 9394 9395
 			}
 		}
 		KLS = { #Kalasas
@@ -2678,17 +2789,34 @@ country = {
 			}
 
 			own_control_core = 	{
-				4340
-				4345
-				4315 4316 4398 4399 7399
-				4331 4384 #panchanada_region
-				9348 9344 9343 9342 9341 9340 9370 9382
+				4340 4345
+				4315 4316
+				9348 9344
+				9354 4389 9346 4400
+				9345
 			}
 			pantheon = {
 				{ deity = 1113 }
 				{ deity = 1120 }
 				{ deity = 1136 }
 				{ deity = 1057 }
+			}
+		}
+		JAI = { # Jayapura
+			government = despotic_monarchy
+			primary_culture = purus
+			religion = hindu
+			capital = 4399
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				9370 7399 4399 4398 9340
 			}
 		}
 		MRA = { #Madras
@@ -2705,14 +2833,31 @@ country = {
 			}
 
 			own_control_core = 	{
-				4346 4379 4389 4400
-				4397 4394 4347
-				9349 9347 9354 9346 9345 9338 9339
+				4346 4379
+				4394 4347
+				9349 9347
 			}
 		}
-		LAH = { #Luhwar
+		CHN = { #Chandaniot
 			government = despotic_monarchy
 			primary_culture = purus
+			religion = ajivika
+			capital = 4396
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				4396 9338 9339 4397
+			}
+		}
+		TR2 = { #Trigarta
+			government = despotic_monarchy
+			primary_culture = trigartan
 			religion = kassapan
 			capital = 9282
 
@@ -2724,11 +2869,27 @@ country = {
 			}
 
 			own_control_core = 	{
-				9282 4392 4390 7485 5445
-				4393 4388
-				9333 9334 9335 9336 9337 9309 9310
-				9356 9367 9368 9364 9366 9357 9358
+				9282 4392 4390
+				4393 4388 9357
+				9333 9334 9335 9336 9337 9309 9310 9358
 				9355 9353 9352 9351 9350
+			}
+		}
+		LAH = { #Luhwar
+			government = despotic_monarchy
+			primary_culture = trigartan
+			religion = kassapan
+			capital = 9356
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				9356 9367 9368 9364 9366 5445 7485
 			}
 		}
 		YDD = { #Yadheuya Republic
