@@ -306,7 +306,7 @@ median_collapse.6 = {
         trigger = {
             OR = {
                 tag = PES
-                tag = GED
+                #tag = GED
                 tag = ARS
                 tag = MAK
             }

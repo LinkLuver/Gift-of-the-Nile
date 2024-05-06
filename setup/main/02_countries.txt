@@ -1073,6 +1073,30 @@ country = {
 				6574 6586 6584 6577 6575 6585 6589 6591 6588 6590 6607 6560 #Drangiana
 				6514 6580 6583 6581 6515 6578 6579 6516 6512 6582 #harmozeia/Rudiana
 				9369
+				6530 6592 6517 6520 6521 6522 6523 6524 6620 6525 6593 #Mauryan Gedrosia
+				6618 6535 6534 6619 6533 #Parecania
+				6531 6532 6536 9419 9420 6513
+			}
+		}
+
+		GED = { #Satrapy of Seleukid
+			government = plutocratic_republic
+			primary_culture = sindhi
+			religion = zoroaster
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 6821
+
+			own_control_core = {
+				6821 6526 6527 9418 6849 9147 9417
+				6848 9421 9422 9423 6852 6822
+				6822 6848 9424 9422 9421 9423 6852 # area of debal
 			}
 		}
 
@@ -2418,6 +2442,8 @@ country = {
 			own_control_core = {
 				6540 6539 6571 6572 6616
 				4369 4368
+				6538 6617 6537
+				9406 9405 9407 9408 9404 4366 9403
 			}
 		}
 		SAV = { #Sauvira
@@ -2435,7 +2461,24 @@ country = {
 			}
 			own_control_core = {
 				4353 4354 4356 4357 4358 4359 4360 4363 6827 #sauvira_region
-				4352
+				4352 9409 9410 9411 9412
+			}
+		}
+		THC = { #Thatta
+			government = aristocratic_monarchy
+			primary_culture = sindhi
+			religion = hindu
+			diplomatic_stance=appeasement_stance
+			capital = 6815 # Cottabura
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			own_control_core = {
+				6815 7660 9402 9416
 			}
 		}
 		SMB = { #Sindhu
@@ -2452,7 +2495,7 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			own_control_core = {
-				4355 4361 4362 4364 4365 4376 #south_sindhu_region
+				4355 4361 4362 4364 4365 4376 9401 #south_sindhu_region
 			}
 		}
 		PAT = { #Patala
@@ -2460,7 +2503,7 @@ country = {
 			primary_culture = sindhi
 			religion = zoroaster
 			diplomatic_stance=appeasement_stance
-			capital = 6815 # Patala
+			capital = 9414 # Patala
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2469,8 +2512,7 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			own_control_core = {
-				6526 6527 6815 6821 6822 6848 6852 6849 #patalene_region
-				7660
+				9415 9414 9413 4359 6827 4358 4357 4356
 			}
 		}
 		ABH = { #Abhira
@@ -2482,6 +2524,7 @@ country = {
 
 			own_control_core = {
 				4373 4374 4372 4375 4377 9371 9372 9375 #north_sindhu_region
+				9400
 			}
 		}
 		SIV = { #Sivi
@@ -2792,8 +2835,7 @@ country = {
 				4340 4345
 				4315 4316
 				9348 9344
-				9354 4389 9346 4400
-				9345
+				9354 4389 9346
 			}
 			pantheon = {
 				{ deity = 1113 }
@@ -2852,7 +2894,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				4396 9338 9339 4397
+				4396 9338 9339 4397 9345 4400
 			}
 		}
 		TR2 = { #Trigarta
@@ -10489,27 +10531,6 @@ country = {
 				8281 8282 8283 8338 8342 8343 8387
 
 				}
-		}
-
-		GED = { #Satrapy of Seleukid
-			government = despotic_monarchy
-			primary_culture = gedrosian
-			religion = zoroaster
-
-			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
-			}
-
-			capital = 6513
-
-			own_control_core = {
-				6513 6530 6592 6517 6520 6521 6522 6523 6524 6620 6525 6593 #Mauryan Gedrosia
-				6538 6617 6537 6618 6535 6534 6619 6533 #Parecania
-				6531 6532 6536
-			}
 		}
 
 		SHU = {

@@ -6,7 +6,7 @@ diplomacy = {
 
 	#Achaemenid Kingdom
 	dependency = { first = PES second = ARS subject_type = satrapy }
-	dependency = { first = PES second = GED subject_type = satrapy }
+	dependency = { first = PES second = GED subject_type = uparaja_subject }
 	dependency = { first = PES second = ELM subject_type = great_satrapy }
 	dependency = { first = PES second = GHA subject_type = great_satrapy }
 	dependency = { first = PES second = MAK subject_type = tributary }

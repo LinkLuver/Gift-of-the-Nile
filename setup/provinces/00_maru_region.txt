@@ -130,7 +130,7 @@
 
 4356={ #Kahu-Jo-Darro
 	terrain="desert"
-	culture="sindhi"
+	culture="logali"
 	religion="hindu"
 	trade_goods="camel"
 	civilization_value=23
@@ -149,7 +149,7 @@
 
 4357={ #Umarkot
 	terrain="desert"
-	culture="sindhi"
+	culture="logali"
 	religion="hindu"
 	trade_goods="camel"
 	civilization_value=23
@@ -320,7 +320,7 @@
 
 4366={ #Kokondai
 	terrain="desert"
-	culture="sindhi"
+	culture="brahui"
 	religion="hindu"
 	trade_goods="hemp"
 	civilization_value=23
@@ -388,7 +388,7 @@
 		amount=8
 	}
 	freemen={
-		culture="sindhi"
+		culture="harrapan"
 		amount=14
 	}
 	slaves={
@@ -396,12 +396,12 @@
 		amount=5
 	}
 	slaves={
-		culture="sindhi"
+		culture="harrapan"
 		religion="hindu"
 		amount=2
 	}
 	tribesmen={
-		culture="sindhi"
+		culture="logali"
 		religion="hindu"
 		amount=3
 	}
@@ -1011,7 +1011,7 @@
 		amount=2
 	}
 	tribesmen={
-		culture="sindhi"
+		culture="logali"
 		religion="hindu"
 		amount=10
 	}
@@ -1020,7 +1020,7 @@
 
 6822={ #Makli
 	terrain="desert"
-	culture="sindhi"
+	culture="logali"
 	religion="zoroaster"
 	trade_goods="cloth"
 	civilization_value=23
@@ -1526,7 +1526,7 @@
 
 6848={ #Sangama
 	terrain="desert"
-	culture="sindhi"
+	culture="logali"
 	religion="hindu"
 	trade_goods="gems"
 	civilization_value=23
@@ -1594,7 +1594,7 @@
 
 6852={ #Samarabriva
 	terrain="desert"
-	culture="sindhi"
+	culture="logali"
 	religion="hindu"
 	trade_goods="fish"
 	civilization_value=23
@@ -1908,7 +1908,7 @@
 
 9400 ={ #Abad Sauvira
 	terrain="plains"
-	culture="sindhi"
+	culture="salwan"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=26
@@ -1947,7 +1947,7 @@
 
 9403 ={ #Abad Sauvira
 	terrain="plains"
-	culture="sindhi"
+	culture="brahui"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=26
@@ -1960,7 +1960,7 @@
 
 9404 ={ #Abad Sauvira
 	terrain="plains"
-	culture="sindhi"
+	culture="brahui"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=26
@@ -1973,7 +1973,7 @@
 
 9405 ={ #Abad Sauvira
 	terrain="plains"
-	culture="sindhi"
+	culture="brahui"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=26
@@ -1986,7 +1986,7 @@
 
 9406 ={ #Abad Sauvira
 	terrain="plains"
-	culture="sindhi"
+	culture="brahui"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=26
@@ -1999,7 +1999,7 @@
 
 9407 ={ #Abad Sauvira
 	terrain="plains"
-	culture="sindhi"
+	culture="brahui"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=26
@@ -2012,7 +2012,7 @@
 
 9408 ={ #Abad Sauvira
 	terrain="plains"
-	culture="sindhi"
+	culture="brahui"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=26
@@ -2103,7 +2103,7 @@
 
 9415 ={ #Abad Sauvira
 	terrain="plains"
-	culture="sindhi"
+	culture="logali"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=26
@@ -2181,7 +2181,7 @@
 
 9421 ={ #Abad Sauvira
 	terrain="plains"
-	culture="sindhi"
+	culture="logali"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=26
@@ -2194,7 +2194,7 @@
 
 9422 ={ #Abad Sauvira
 	terrain="plains"
-	culture="sindhi"
+	culture="logali"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=26
@@ -2207,7 +2207,7 @@
 
 9423 ={ #Abad Sauvira
 	terrain="plains"
-	culture="sindhi"
+	culture="logali"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=26
@@ -2220,7 +2220,7 @@
 
 9424 ={ #Abad Sauvira
 	terrain="plains"
-	culture="sindhi"
+	culture="logali"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=26
