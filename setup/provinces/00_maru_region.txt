@@ -259,7 +259,7 @@
 }
 
 4363={ #Sembrakenoi
-	terrain="desert"
+	terrain="plains"
 	culture="sindhi"
 	religion="zoroaster"
 	trade_goods="cattle"
@@ -319,7 +319,7 @@
 }
 
 4366={ #Kokondai
-	terrain="desert"
+	terrain="plains"
 	culture="brahui"
 	religion="hindu"
 	trade_goods="hemp"
@@ -482,7 +482,7 @@
 }
 
 4376={ #Pardabathra
-	terrain="desert"
+	terrain="plains"
 	culture="sindhi"
 	religion="hindu"
 	trade_goods="wild_game"
@@ -1019,7 +1019,7 @@
 }
 
 6822={ #Makli
-	terrain="desert"
+	terrain="grain"
 	culture="logali"
 	religion="zoroaster"
 	trade_goods="cloth"
@@ -1525,7 +1525,7 @@
 }
 
 6848={ #Sangama
-	terrain="desert"
+	terrain="grain"
 	culture="logali"
 	religion="hindu"
 	trade_goods="gems"
@@ -1907,10 +1907,10 @@
 }
 
 9400 ={ #Abad Sauvira
-	terrain="plains"
+	terrain="desert"
 	culture="salwan"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="wild_game"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -1936,7 +1936,7 @@
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="hemp"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -1949,7 +1949,7 @@
 	terrain="plains"
 	culture="brahui"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="vegetables"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -1959,10 +1959,10 @@
 }
 
 9404 ={ #Abad Sauvira
-	terrain="plains"
+	terrain="desert"
 	culture="brahui"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="hemp"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -1972,10 +1972,10 @@
 }
 
 9405 ={ #Abad Sauvira
-	terrain="plains"
+	terrain="mountain"
 	culture="brahui"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="cattle"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -1985,10 +1985,10 @@
 }
 
 9406 ={ #Abad Sauvira
-	terrain="plains"
+	terrain="mountain"
 	culture="brahui"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="fur"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -1998,10 +1998,10 @@
 }
 
 9407 ={ #Abad Sauvira
-	terrain="plains"
+	terrain="desert_hills"
 	culture="brahui"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="camel"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -2011,10 +2011,10 @@
 }
 
 9408 ={ #Abad Sauvira
-	terrain="plains"
+	terrain="desert_hills"
 	culture="brahui"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="camel"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -2027,7 +2027,7 @@
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="sugar"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -2040,7 +2040,7 @@
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="sugar"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -2050,10 +2050,10 @@
 }
 
 9411 ={ #Abad Sauvira
-	terrain="plains"
+	terrain="desert"
 	culture="sindhi"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="camel"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -2066,7 +2066,7 @@
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="vegetables"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -2079,7 +2079,7 @@
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="sugar"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -2102,10 +2102,10 @@
 }
 
 9415 ={ #Abad Sauvira
-	terrain="plains"
+	terrain="desert"
 	culture="logali"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="camel"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -2131,7 +2131,7 @@
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="fish"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -2141,10 +2141,10 @@
 }
 
 9418 ={ #Abad Sauvira
-	terrain="plains"
+	terrain="desert"
 	culture="sindhi"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="fish"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -2154,10 +2154,10 @@
 }
 
 9419 ={ #Abad Sauvira
-	terrain="plains"
+	terrain="hills"
 	culture="sindhi"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="dye"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -2167,10 +2167,10 @@
 }
 
 9420 ={ #Abad Sauvira
-	terrain="plains"
+	terrain="hills"
 	culture="sindhi"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="fur"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -2183,7 +2183,7 @@
 	terrain="plains"
 	culture="logali"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="fish"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -2193,10 +2193,10 @@
 }
 
 9422 ={ #Abad Sauvira
-	terrain="plains"
+	terrain="desert"
 	culture="logali"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="wild_game"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -2206,10 +2206,10 @@
 }
 
 9423 ={ #Abad Sauvira
-	terrain="plains"
+	terrain="desert"
 	culture="logali"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="fish"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -2219,10 +2219,10 @@
 }
 
 9424 ={ #Abad Sauvira
-	terrain="plains"
+	terrain="desert"
 	culture="logali"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="camel"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
