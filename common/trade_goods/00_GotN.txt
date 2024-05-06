@@ -31,7 +31,7 @@ wootz_steel = {
 }
 
 ebony = {
-	category = 0
+	category = 3
 	gold = 0.4
 	province = {
 		local_base_trade_routes_modifier = 0.05

@@ -2790,7 +2790,7 @@
 	terrain="farmland"
 	culture="purus"
 	religion="charvaka"
-	trade_goods="grain"
+	trade_goods="sugar"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -3333,8 +3333,14 @@
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=7
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
 	}
 }
 
