@@ -3283,10 +3283,10 @@
 	terrain="plains"
 	culture="purus"
 	religion="kassapan"
-	trade_goods="grain"
+	trade_goods="silk"
 	civilization_value=27
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		amount=2
 		culture="pasargadi"
