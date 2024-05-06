@@ -1,0 +1,15 @@
+﻿rice = {
+	category = 1
+
+	gold = 0.2
+	
+	province = { 
+		local_monthly_food = 7
+	}
+	
+	country = { 
+		global_monthly_food_modifier = 0.05
+	}
+	
+	color = rgb { 252 240 31 }
+}
