@@ -447,7 +447,8 @@
  riceDESC:"Often found growing in carefully cultivated terraces, rice is a starchy grain that is the foundation of many Eastern cuisines."
  wootz_steel: "Wootz Steel"
  wootz_steelDESC: "Blacksmiths in southern India created this carbon-infused alloy of steel hundreds of years ago, which has quickly become prized for its strength and durability. A sword made from wootz steel is often worth its weight in gold."
- 
+ pearls: "Pearls"
+ pearlsDESC: "When an irritant like a grain of sand enters the shell of a mollusk, eventually a beautiful pearl is produced."
  
  
  mission_claim_region_tooltip:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#! gain a claim on [ THIS.GetProvince.GetArea.GetRegion.GetName]"

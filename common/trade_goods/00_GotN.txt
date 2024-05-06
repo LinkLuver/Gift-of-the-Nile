@@ -29,3 +29,42 @@ wootz_steel = {
 	
 	color = rgb { 108 108 108 }
 }
+
+ebony = {
+	category = 0
+	gold = 0.4
+	province = {
+		local_base_trade_routes_modifier = 0.05
+	}
+	country = {
+		global_manpower_modifier = 0.025
+	}
+	
+	color = rgb { 1 2 3 }
+}
+
+pearls = {
+	category = 4
+	gold = 0.35
+	province = {
+		local_freemen_output = 0.03
+	}
+	country = {
+		diplomatic_range_modifier = 0.1
+	}
+	
+	color = rgb { 186 193 251 }
+}
+
+obsidian = {
+	category = 2
+	gold = 0.5
+	province = {
+		local_nobles_output = 0.03
+	}
+	country = {
+		stability_monthly_decay = -0.0001
+	}
+	
+	color = rgb { 26 27 29 }
+}
