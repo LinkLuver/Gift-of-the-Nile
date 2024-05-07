@@ -112,6 +112,7 @@ country = {
 				{ deity = 473 }
 				{ deity = 453 }
 			}
+			is_antagonist = yes
 			
 		}
 
@@ -463,6 +464,7 @@ country = {
 			own_control_core = {
 				544 540 541 538 543 542
 			}
+			is_antagonist = yes
 		}
 
 		SHE = {
@@ -968,6 +970,7 @@ country = {
 				Teumman = 1
 				Urtak = 1
 			}
+			is_antagonist = yes
 		}
 
 		ADI = {
