@@ -264,7 +264,7 @@ asmaka_area = { #11
 }
 
 asoristan_area = { #12
-	provinces = { 898 899 911 912 913 914 916 924 926 927 929 960 }
+	provinces = { 898 912 914 924 926 896 897 977 9441 9442 9443 9444 }
 }
 
 aspadana_area = { #11
@@ -324,7 +324,11 @@ ayrarat_area = { #12
 }
 
 babylonia_area = { #12
-	provinces = { 900 901 902 903 904 909 910 915 917 918 919 922 }
+	provinces = { 918 920 921 931 929 9463 9464 9465 9466 9467 }
+}
+
+borsip_area = { #12
+	provinces = { 903 919 922 923 9456 9457 9458 9459 9460 }
 }
 
 bactria_area = { #12
@@ -376,7 +380,7 @@ bellovacia_area = { #10
 }
 
 beth_daraye_area = { #12
-	provinces = { 896 897 925 928 933 934 961 962 973 974 976 979 }
+	provinces = { 925 928 979 927 976 9445 9446 9447 9448 9449 9451 }
 }
 
 biebrzankski_area = { #12
@@ -953,7 +957,7 @@ euboea_area = { #10
 }
 
 euphrates_area = { #12
-	provinces = { 824 825 826 827 828 829 905 906 907 908 953 954 }
+	provinces = { 824 825 826 827 828 829 905 906 907 908 953 954 902 904 909 }
 }
 
 europa_area = { #12
@@ -1715,15 +1719,23 @@ meroe_area = { #10
 }
 
 meshan_area = { #10
-	provinces = { 940 941 942 963 964 965 971 5399 7723 9299 }
+	provinces = { 942 963 964 965 5399 9299 968 930 9461 9462 }
 }
 
-mesopotamia_placeholder_area = { #10
-	provinces = { 9432 9433 9434 9435 9436 9437 9438 9439 9440 9441 9442 9443 9444 9445 9446 9447 9448 9449 9450 9451 9452 9453 9454 9455 9456 9456 9457 9458 }
+mesopotamia_placeholder_area = { #14
+	provinces = { 900 901 910 915 917 9452 916 9453 9454 911 960 962 913 894 }
 }
 
-mesopotamia_placeholder_area_two = { #10
-	provinces = { 9459 9460 9461 9462 9463 9464 9465 9466 9467 9468 9469 9470 9471 9472 9473 9474 9475 9476 9477 9478 9479 9480 9481 9482 9483 9484 9485 9486 }
+mesopotamia_placeholder_area_two = { #11
+	provinces = { 9478 9479 9480 9481 9482 9483 9484 9485 933 934 936 }
+}
+
+mesopotamia_placeholder_area_three = { #6
+	provinces = { 895 899 9437 9438 9439 9440 }
+}
+
+mesopotamia_placeholder_area_four = { #8
+	provinces = { 891 892 893 9432 9433 9434 9435 9436 }
 }
 
 mesopotamia_river_area = { #13
@@ -2192,7 +2204,7 @@ qataba_area = { #11
 }
 
 qedar_area = { #15
-	provinces = { 4717 4718 4721 7556 7557 7558 7559 7560 7561 7562 7563 7564 7565 8815 8844 }
+	provinces = { 4717 4718 4721 7556 7557 7558 7559 7560 7561 7562 7563 7564 7565 8815 8844  7566 7567 }
 }
 
 radha_area = { #11
@@ -2534,7 +2546,7 @@ surasena_area = { #12
 }
 
 susiana_area = { #12
-	provinces = { 945 946 947 948 949 950 967 970 972 975 980 4969 969 }
+	provinces = { 940 941 971 945 946 947 948 949 950 967 970 972 975 980 4969 969 973 974 9450 9486 }
 }
 
 suvarna_gotra_area = { #11
@@ -2658,7 +2670,7 @@ thyssagetia_ulterior_area = { #12
 }
 
 tigris_area = { #10
-	provinces = { 835 883 891 892 893 894 895 955 956 977 }
+	provinces = { 835 883 955 956 }
 }
 
 tigurinia_area = { #11
@@ -2834,7 +2846,7 @@ vaspurakan_area = { #12
 }
 
 veh_kavad_area = { #14
-	provinces = { 920 921 923 930 931 932 935 936 937 939 7566 7567 9297 9298 938 968 }
+	provinces = { 932 935 937 939 9297 9298 938 961 7723 9468 9469 9470 9471 9472 9473 9474 9475 9476 9477 9455 }
 }
 
 veliocassia_area = { #11
