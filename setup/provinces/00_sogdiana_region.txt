@@ -1,4 +1,4 @@
-﻿6682={ #Marakanda
+﻿6682={ #Samarkand
 	terrain="hills"
 	culture="sogdian"
 	religion="zoroaster"
@@ -45,7 +45,7 @@
 	}
 }
 
-6687={ #Gazaba
+6687={ #Sina
 	terrain="hills"
 	culture="sogdian"
 	religion="zoroaster"
@@ -65,7 +65,7 @@
 	}
 }
 
-6698={ #Ikrone
+6698={ #Ikroni
 	terrain="mountain"
 	culture="sogdian"
 	religion="zoroaster"
@@ -90,7 +90,7 @@
 	}
 }
 
-6699={ #Marouka
+6699={ #Terkul
 	terrain="mountain"
 	culture="sogdian"
 	religion="zoroaster"
@@ -117,7 +117,7 @@
 	}
 }
 
-6700={ #Petra Arimazou
+6700={ #Khona
 	terrain="mountain"
 	culture="sogdian"
 	religion="zoroaster"
@@ -142,7 +142,7 @@
 	}
 }
 
-6701={ #Petra Chorianou
+6701={ #Dushan
 	terrain="mountain"
 	culture="sogdian"
 	religion="zoroaster"
@@ -185,7 +185,7 @@
 	}
 }
 
-6703={ #Kyropolis
+6703={ #Ooemoeia Inferiores
 	terrain="hills"
 	culture="sogdian"
 	religion="zoroaster"
@@ -221,7 +221,7 @@
 	}
 }
 
-6704={ #Alexandreia Eschate
+6704={ #Ooemoeia Superiores
 	terrain="farmland"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -271,7 +271,7 @@
 	}
 }
 
-6705={ #Matouaspa
+6705={ #Sogdiana
 	terrain="mountain"
 	culture="sogdian"
 	religion="zoroaster"
@@ -335,7 +335,7 @@
 	}
 }
 
-6710={ #Xenippa
+6710={ #Nakhshab
 	terrain="desert"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -378,7 +378,7 @@
 	}
 }
 
-6712={ #Gaza Baktriane
+6712={ #Kaza
 	terrain="hills"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -405,7 +405,7 @@
 	}
 }
 
-6713={ #Ostobara
+6713={ #Kermine
 	terrain="steppes"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -446,7 +446,7 @@
 	}
 }
 
-6715={ #Naura
+6715={ #Tim
 	terrain="steppes"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -468,7 +468,7 @@
 	}
 }
 
-6716={ #Nautaka
+6716={ #Jurma
 	terrain="hills"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -495,7 +495,7 @@
 	}
 }
 
-6717={ #Branchidai
+6717={ #Tudakul
 	terrain="desert"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -514,7 +514,7 @@
 	}
 }
 
-6719={ #Petra Sisimithrou
+6719={ #Baisun
 	terrain="hills"
 	culture="sogdian"
 	religion="zoroaster"
@@ -696,7 +696,7 @@
 	}
 }
 
-6734={ #Damna
+6734={ #Chust
 	terrain="hills"
 	culture="sogdian"
 	religion="zoroaster"
@@ -745,10 +745,10 @@
 	tribesmen={
 		amount=2
 	}
-	holy_site="omen_zhun"
+	holy_site=omen_zhun
 }
 
-6736={ #Ozola
+6736={ #Osh
 	terrain="mountain"
 	culture="tayuan"
 	religion="zoroaster"
@@ -767,7 +767,7 @@
 	}
 }
 
-6737={ #Throana
+6737={ #Andijan
 	terrain="hills"
 	culture="tayuan"
 	religion="zoroaster"

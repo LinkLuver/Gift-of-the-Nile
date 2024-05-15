@@ -50,7 +50,7 @@
 	}
 }
 
-944={ #Arethousa
+944={ #Akkaz
 	terrain="desert"
 	culture="gerrhan"
 	religion="elamite_pantheon"
@@ -1009,7 +1009,7 @@
 5400={ #Mahzul
 	terrain="desert"
 	culture="dilmunite"
-	religion="mesopotamian_religion"
+	religion="arabian_pantheon"
 	trade_goods="wild_game"
 	civilization_value=5
 	barbarian_power=0
@@ -1022,7 +1022,7 @@
 5401={ #Hamatiyat
 	terrain="desert"
 	culture="dilmunite"
-	religion="mesopotamian_religion"
+	religion="arabian_pantheon"
 	trade_goods="leather"
 	civilization_value=5
 	barbarian_power=0
@@ -1741,7 +1741,7 @@
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
-	trade_goods="fish"
+	trade_goods="pearls"
 	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
@@ -2802,7 +2802,7 @@
 	terrain="plains"
 	culture="dilmunite"
 	religion="arabian_pantheon"
-	trade_goods="dye"
+	trade_goods="pearls"
 	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"

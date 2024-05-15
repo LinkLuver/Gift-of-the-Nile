@@ -1,4 +1,4 @@
-﻿943={ #Seleukeia Hedyphonte
+﻿943={ #Hidalu
 	terrain="plains"
 	culture="uxian"
 	religion="elamite_pantheon"
@@ -17,7 +17,7 @@
 	}
 }
 
-945={ #Tareiana
+945={ #Nagargallu
 	terrain="marsh"
 	culture="elamite"
 	religion="elamite_pantheon"
@@ -41,7 +41,7 @@
 	}
 }
 
-946={ #Seleukeia Eulaios
+946={ #Shushun
 	terrain="plains"
 	culture="elamite"
 	religion="elamite_pantheon"
@@ -84,7 +84,7 @@
 	holy_site=omen_daniel
 }
 
-947={ #Choaspes
+947={ #Madaktu
 	terrain="plains"
 	culture="elamite"
 	religion="elamite_pantheon"
@@ -115,7 +115,7 @@
 	}
 }
 
-948={ #Sakrone
+948={ #Awan
 	terrain="hills"
 	culture="elamite"
 	religion="elamite_pantheon"
@@ -170,7 +170,7 @@
 	}
 }
 
-950={ #Sostrate
+950={ #Adamdun
 	terrain="plains"
 	culture="elamite"
 	religion="elamite_pantheon"
@@ -193,7 +193,7 @@
 	}
 }
 
-951={ #Arsiana
+951={ #Ayapir
 	terrain="hills"
 	culture="uxian"
 	religion="elamite_pantheon"
@@ -212,7 +212,7 @@
 	}
 }
 
-952={ #Taxiana
+952={ #Tisiyan
 	terrain="hills"
 	culture="uxian"
 	religion="elamite_pantheon"
@@ -231,7 +231,7 @@
 	}
 }
 
-966={ #Chaltapitis
+966={ #Huhnuri
 	terrain="hills"
 	culture="uxian"
 	religion="elamite_pantheon"
@@ -250,7 +250,7 @@
 	}
 }
 
-967={ #Anouchtha
+967={ #Dur Untash
 	terrain="plains"
 	culture="elamite"
 	religion="elamite_pantheon"
@@ -272,7 +272,26 @@
 	}
 }
 
-970={ #Abara
+969={ #Darak
+	terrain="marsh"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="dates"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+970={ #Emedu
 	terrain="flood_plain"
 	culture="elamite"
 	religion="elamite_pantheon"
@@ -299,7 +318,7 @@
 	}
 }
 
-972={ #Arakka
+972={ #Arac
 	terrain="flood_plain"
 	culture="elamite"
 	religion="elamite_pantheon"
@@ -325,7 +344,7 @@
 	}
 }
 
-975={ #Memnonion
+975={ #Gug
 	terrain="marsh"
 	culture="elamite"
 	religion="elamite_pantheon"
@@ -352,8 +371,8 @@
 	}
 }
 
-980={ #Dorista
-	terrain="flood_plain"
+980={ #Urua
+	terrain="plains"
 	culture="elamite"
 	religion="elamite_pantheon"
 	trade_goods="wild_game"
@@ -379,7 +398,7 @@
 	}
 }
 
-3399={ #Sykta
+3399={ #Bagh
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -546,7 +565,7 @@
 	}
 }
 
-3407={ #Sirganon
+3407={ #Shiragan
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -647,7 +666,7 @@
 	}
 }
 
-3412={ #Karmana
+3412={ #Ardashir
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -663,7 +682,7 @@
 	}
 }
 
-3413={ #Madomastike
+3413={ #Palvar
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -682,7 +701,7 @@
 	}
 }
 
-3414={ #Stabaioi
+3414={ #Jupar
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -717,7 +736,7 @@
 	}
 }
 
-3417={ #Issatis
+3417={ #Yazd
 	terrain="plains"
 	culture="median"
 	religion="zoroaster"
@@ -741,7 +760,7 @@
 	}
 }
 
-3418={ #Ninkildai
+3418={ #Maibad
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -761,7 +780,7 @@
 	}
 }
 
-3419={ #Porthippa
+3419={ #Deysir
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -785,7 +804,7 @@
 	}
 }
 
-3420={ #Isatichai
+3420={ #Kalmand
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -805,7 +824,7 @@
 	}
 }
 
-3421={ #Rhapses
+3421={ #Hekah
 	terrain="hills"
 	culture="carmanian"
 	religion="zoroaster"
@@ -827,7 +846,7 @@
 	}
 }
 
-3422={ #Nepista
+3422={ #Kabr
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -846,7 +865,7 @@
 	}
 }
 
-3423={ #Kaumata
+3423={ #Javad
 	terrain="hills"
 	culture="carmanian"
 	religion="zoroaster"
@@ -868,7 +887,7 @@
 	}
 }
 
-3428={ #Artakana
+3428={ #Kharanaq
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -892,7 +911,7 @@
 	}
 }
 
-3429={ #Paradana
+3429={ #Perash
 	terrain="hills"
 	culture="carmanian"
 	religion="zoroaster"
@@ -908,7 +927,7 @@
 	}
 }
 
-3430={ #Arboua
+3430={ #Taram
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -973,7 +992,7 @@
 	}
 }
 
-4779={ #Aginis
+4779={ #Salahu
 	terrain="marsh"
 	culture="uxian"
 	religion="elamite_pantheon"
@@ -997,7 +1016,7 @@
 	port_building=1
 }
 
-4780={ #Margastana
+4780={ #Arigan
 	terrain="hills"
 	culture="uxian"
 	religion="elamite_pantheon"
@@ -1045,13 +1064,13 @@
 		amount=7
 	}
 	tribesmen={
-		religion="elamite_pantheon"
 		culture="uxian"
+		religion="elamite_pantheon"
 		amount=4
 	}
 }
 
-4782={ #Suravan
+4782={ #Tulaspid
 	terrain="hills"
 	culture="uxian"
 	religion="elamite_pantheon"
@@ -1066,8 +1085,8 @@
 		amount=4
 	}
 	freemen={
-		amount=2
 		culture="pasargadi"
+		amount=2
 	}
 	slaves={
 		amount=3
@@ -1077,7 +1096,7 @@
 	}
 }
 
-4784={ #Arrakia
+4784={ #Erishanu
 	terrain="desert"
 	culture="uxian"
 	religion="elamite_pantheon"
@@ -1099,7 +1118,7 @@
 	}
 }
 
-4785={ #Millonia
+4785={ #Zilittu
 	terrain="hills"
 	culture="uxian"
 	religion="elamite_pantheon"
@@ -1123,7 +1142,7 @@
 	}
 }
 
-4786={ #Temukan
+4786={ #Dakkanu
 	terrain="plains"
 	culture="uxian"
 	religion="elamite_pantheon"
@@ -1138,8 +1157,8 @@
 		amount=4
 	}
 	freemen={
-		amount=2
 		culture="pasargadi"
+		amount=2
 	}
 	slaves={
 		amount=4
@@ -1149,7 +1168,7 @@
 	}
 }
 
-4787={ #Bushahr
+4787={ #Liyan
 	terrain="desert"
 	culture="uxian"
 	religion="elamite_pantheon"
@@ -1161,8 +1180,8 @@
 		amount=3
 	}
 	freemen={
-		amount=7
 		culture="pasargadi"
+		amount=7
 	}
 	freemen={
 		amount=5
@@ -1505,8 +1524,8 @@
 		amount=5
 	}
 	tribesmen={
-		religion="elamite_pantheon"
 		culture="uxian"
+		religion="elamite_pantheon"
 		amount=6
 	}
 }
@@ -1586,11 +1605,11 @@
 	port_building=1
 }
 
-4956={ #Portospana
+4956={ #Kish
 	terrain="desert"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="cattle"
+	trade_goods="pearls"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
@@ -1668,7 +1687,7 @@
 	}
 }
 
-4969={ #Andamaska
+4969={ #Adamshakh
 	terrain="hills"
 	culture="cossian"
 	religion="mesopotamian_religion"
@@ -1681,7 +1700,7 @@
 	}
 }
 
-4977={ #Axiana
+4977={ #Abadeh
 	terrain="hills"
 	culture="uxian"
 	religion="elamite_pantheon"
@@ -1721,7 +1740,7 @@
 	}
 }
 
-6508={ #Pyktis
+6508={ #Aqda
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -1806,7 +1825,7 @@
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
-	trade_goods="fish"
+	trade_goods="pearls"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"

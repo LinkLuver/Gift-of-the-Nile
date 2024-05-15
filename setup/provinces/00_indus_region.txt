@@ -1,0 +1,976 @@
+﻿4352={ #Roruka
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="horses"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=7
+	}
+	slaves={
+		amount=7
+	}
+	tribesmen={
+		amount=22
+	}
+	port_building=1
+}
+
+4353={ #Brahmanaka
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="dates"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=7
+	}
+	tribesmen={
+		amount=21
+	}
+}
+
+4354={ #Min
+	terrain="plains"
+	culture="sindhi"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=9
+	}
+}
+
+4355={ #Sindhumana
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="cloth"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=10
+	}
+	slaves={
+		amount=13
+	}
+	tribesmen={
+		amount=18
+	}
+}
+
+4356={ #Kahu-Jo-Darro
+	terrain="desert"
+	culture="logali"
+	religion="hindu"
+	trade_goods="camel"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4357={ #Umarkot
+	terrain="desert"
+	culture="logali"
+	religion="hindu"
+	trade_goods="camel"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4358={ #Singhi
+	terrain="desert"
+	culture="sindhi"
+	religion="zoroaster"
+	trade_goods="salt"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4359={ #Samarabriai
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="rice"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=8
+	}
+}
+
+4360={ #Sarophages
+	terrain="desert"
+	culture="sindhi"
+	religion="zoroaster"
+	trade_goods="camel"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4361={ #Megaroi
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="rice"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=8
+	}
+}
+
+4362={ #Azaika
+	terrain="plains"
+	culture="sindhi"
+	religion="zoroaster"
+	trade_goods="stone"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4363={ #Sembrakenoi
+	terrain="plains"
+	culture="sindhi"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+4364={ #Oumbrai
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="horses"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+4365={ #Nereai
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="dates"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+4366={ #Kokondai
+	terrain="plains"
+	culture="brahui"
+	religion="hindu"
+	trade_goods="hemp"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+4368={ #Avanta
+	terrain="hills"
+	culture="brahui"
+	religion="hindu"
+	trade_goods="stone"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4369={ #Gandava
+	terrain="mountain"
+	culture="brahui"
+	religion="hindu"
+	trade_goods="fur"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4372={ #Vijnot
+	terrain="plains"
+	culture="salwan"
+	religion="hindu"
+	trade_goods="camel"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4374={ #Mousikanoi
+	terrain="desert"
+	culture="salwan"
+	religion="hindu"
+	trade_goods="salt"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4375={ #Mesai
+	terrain="desert"
+	culture="salwan"
+	religion="hindu"
+	trade_goods="vegetables"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4376={ #Pardabathra
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="wild_game"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=8
+	}
+}
+
+6526={ #Pagala
+	terrain="desert"
+	culture="sindhi"
+	religion="zoroaster"
+	trade_goods="fish"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=7
+	}
+	port_building=1
+}
+
+6527={ #Suacala
+	terrain="plains"
+	culture="sindhi"
+	religion="zoroaster"
+	trade_goods="fish"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+6532={ #Arbis
+	terrain="hills"
+	culture="sindhi"
+	religion="zoroaster"
+	trade_goods="dye"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+6536={ #Arbiti
+	terrain="hills"
+	culture="sindhi"
+	religion="zoroaster"
+	trade_goods="hemp"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=7
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+6815={ #Thatta
+	terrain="plains"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods="cloth"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		culture="sindhi"
+		religion="hindu"
+		amount=8
+	}
+	port_building=1
+}
+
+6821={ #Debal
+	terrain="plains"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods="gems"
+	civilization_value=41
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		culture="logali"
+		religion="hindu"
+		amount=10
+	}
+	port_building=1
+}
+
+6822={ #Makli
+	terrain="plains"
+	culture="logali"
+	religion="zoroaster"
+	trade_goods="cloth"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=8
+	}
+}
+
+6827={ #Khadro
+	terrain="desert"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="dates"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6848={ #Sangama
+	terrain="plains"
+	culture="logali"
+	religion="hindu"
+	trade_goods="gems"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+6849={ #Bibakta
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="fish"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=9
+	}
+	port_building=1
+}
+
+6852={ #Samarabriva
+	terrain="desert"
+	culture="logali"
+	religion="hindu"
+	trade_goods="fish"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7660={ #Abad Sauvira
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="grain"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=9
+	}
+}
+
+9400={ #PROV9400
+	terrain="plains"
+	culture="salwan"
+	religion="hindu"
+	trade_goods="wild_game"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9401={ #PROV9401
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="grain"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9402={ #PROV9402
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="hemp"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9403={ #PROV9403
+	terrain="plains"
+	culture="brahui"
+	religion="hindu"
+	trade_goods="vegetables"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9404={ #PROV9404
+	terrain="plains"
+	culture="brahui"
+	religion="hindu"
+	trade_goods="hemp"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9405={ #PROV9405
+	terrain="mountain"
+	culture="brahui"
+	religion="hindu"
+	trade_goods="cattle"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9406={ #PROV9406
+	terrain="mountain"
+	culture="brahui"
+	religion="hindu"
+	trade_goods="fur"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9407={ #PROV9407
+	terrain="desert_hills"
+	culture="brahui"
+	religion="hindu"
+	trade_goods="camel"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9408={ #PROV9408
+	terrain="desert_hills"
+	culture="brahui"
+	religion="hindu"
+	trade_goods="camel"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9409={ #PROV9409
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="sugar"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9410={ #PROV9410
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="sugar"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9411={ #PROV9411
+	terrain="desert"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="camel"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9412={ #PROV9412
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="vegetables"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9413={ #PROV9413
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="sugar"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9414={ #PROV9414
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="rice"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9415={ #PROV9415
+	terrain="desert"
+	culture="logali"
+	religion="hindu"
+	trade_goods="camel"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9416={ #PROV9416
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="rice"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9417={ #PROV9417
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="fish"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9418={ #PROV9418
+	terrain="plains"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="fish"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9419={ #PROV9419
+	terrain="hills"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="dye"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9420={ #PROV9420
+	terrain="hills"
+	culture="sindhi"
+	religion="hindu"
+	trade_goods="fur"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9421={ #PROV9421
+	terrain="plains"
+	culture="logali"
+	religion="hindu"
+	trade_goods="fish"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9422={ #PROV9422
+	terrain="desert"
+	culture="logali"
+	religion="hindu"
+	trade_goods="wild_game"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9423={ #PROV9423
+	terrain="desert"
+	culture="logali"
+	religion="hindu"
+	trade_goods="fish"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+9424={ #PROV9424
+	terrain="desert"
+	culture="logali"
+	religion="hindu"
+	trade_goods="camel"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+

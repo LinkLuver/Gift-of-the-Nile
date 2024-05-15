@@ -155,8 +155,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
 		religion="zoroaster"
+		amount=1
 	}
 	freemen={
 		amount=1
@@ -235,8 +235,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	freemen={
 		amount=1
@@ -318,8 +318,8 @@
 		amount=1
 	}
 	freemen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	slaves={
 		amount=1
@@ -335,8 +335,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	freemen={
 		amount=1
@@ -416,8 +416,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	freemen={
 		amount=1
@@ -439,8 +439,8 @@
 		amount=1
 	}
 	freemen={
-		amount=1
 		religion="zoroaster"
+		amount=1
 	}
 	slaves={
 		amount=1
@@ -462,8 +462,8 @@
 		amount=1
 	}
 	slaves={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 }
 
@@ -491,7 +491,7 @@
 	}
 }
 
-1594={ #Herakleia Medias
+1594={ #Kangavar
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -507,7 +507,7 @@
 	}
 }
 
-1595={ #Epiphaneia Ekbatana
+1595={ #Hagmatana
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -554,7 +554,7 @@
 	holy_site=omen_esther
 }
 
-1596={ #Apameia Medias
+1596={ #Deh Bozen
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -578,7 +578,7 @@
 	}
 }
 
-1597={ #Konkobar
+1597={ #Harsin
 	terrain="mountain"
 	culture="median"
 	religion="mithra_religion"
@@ -598,15 +598,15 @@
 		amount=1
 	}
 	slaves={
-		amount=2
 		religion="mithra_religion"
+		amount=2
 	}
 	tribesmen={
 		amount=2
 	}
 }
 
-1598={ #Bagastana
+1598={ #Bisutun
 	terrain="mountain"
 	culture="median"
 	religion="mithra_religion"
@@ -628,7 +628,7 @@
 	}
 }
 
-1599={ #Darathe
+1599={ #Denabaran
 	terrain="mountain"
 	culture="median"
 	religion="mithra_religion"
@@ -637,8 +637,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	freemen={
 		amount=3
@@ -647,12 +647,12 @@
 		amount=4
 	}
 	tribesmen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 }
 
-1601={ #Nikaia Nialia
+1601={ #Barsa
 	terrain="mountain"
 	culture="median"
 	religion="mithra_religion"
@@ -671,7 +671,7 @@
 	}
 }
 
-1602={ #Korine
+1602={ #Kermanshah
 	terrain="mountain"
 	culture="cossian"
 	religion="mesopotamian_religion"
@@ -683,8 +683,8 @@
 		amount=1
 	}
 	freemen={
-		amount=4
 		religion="zoroaster"
+		amount=4
 	}
 	slaves={
 		amount=2
@@ -764,8 +764,8 @@
 		amount=1
 	}
 	freemen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	slaves={
 		amount=1
@@ -1112,7 +1112,7 @@
 	}
 }
 
-3391={ #Anarous
+3391={ #Navish
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -1121,8 +1121,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
 		religion="mithra_religion"
+		amount=2
 	}
 	freemen={
 		amount=2
@@ -1132,7 +1132,7 @@
 	}
 }
 
-3392={ #Sebabikina
+3392={ #Nassar
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -1150,12 +1150,12 @@
 		amount=2
 	}
 	tribesmen={
-		amount=3
 		religion="mithra_religion"
+		amount=3
 	}
 }
 
-3393={ #Onoadas
+3393={ #Vindirni
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -1164,23 +1164,23 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	freemen={
 		amount=9
 	}
 	slaves={
-		amount=2
 		religion="mithra_religion"
+		amount=2
 	}
 	tribesmen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 }
 
-3394={ #Charax Persias
+3394={ #Tarkhan
 	terrain="plains"
 	culture="amardian"
 	religion="mithra_religion"
@@ -1200,7 +1200,7 @@
 	}
 }
 
-3395={ #Nizamabada
+3395={ #Nizamabad
 	terrain="plains"
 	culture="amardian"
 	religion="mithra_religion"
@@ -1223,7 +1223,7 @@
 	}
 }
 
-3396={ #Trauaxa
+3396={ #Yattesh
 	terrain="hills"
 	culture="cadusian"
 	religion="mithra_religion"
@@ -1246,7 +1246,7 @@
 	}
 }
 
-3397={ #Gindes
+3397={ #Anjir
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -1258,8 +1258,8 @@
 		amount=1
 	}
 	freemen={
-		amount=2
 		religion="zoroaster"
+		amount=2
 	}
 	tribesmen={
 		amount=3
@@ -1267,7 +1267,7 @@
 	holy_site=omen_angra_mainyu
 }
 
-3398={ #Themantika
+3398={ #Neshar
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -1282,8 +1282,8 @@
 		amount=1
 	}
 	slaves={
-		amount=3
 		religion="mithra_religion"
+		amount=3
 	}
 	tribesmen={
 		amount=2
@@ -1310,7 +1310,7 @@
 	}
 }
 
-3433={ #Aradriphe
+3433={ #Ardesh
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -1327,7 +1327,7 @@
 	}
 }
 
-3442={ #Kanatha
+3442={ #Kavir
 	terrain="desert"
 	culture="median"
 	religion="mithra_religion"
@@ -1344,7 +1344,7 @@
 	}
 }
 
-3443={ #Siakos
+3443={ #Namak
 	terrain="desert"
 	culture="median"
 	religion="mithra_religion"
@@ -1374,8 +1374,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	slaves={
 		amount=1
@@ -1385,7 +1385,7 @@
 	}
 }
 
-3453={ #Choara
+3453={ #Khuvara
 	terrain="desert"
 	culture="amardian"
 	religion="mithra_religion"
@@ -1405,7 +1405,7 @@
 	}
 }
 
-4963={ #Laodikeia Chosroi
+4963={ #Nithavanta
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -1414,8 +1414,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	slaves={
 		amount=1
@@ -1425,7 +1425,7 @@
 	}
 }
 
-4964={ #Malauera
+4964={ #Malaver
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -1448,7 +1448,7 @@
 	}
 }
 
-4965={ #Tibrakana
+4965={ #Makash
 	terrain="mountain"
 	culture="median"
 	religion="mithra_religion"
@@ -1460,12 +1460,12 @@
 		amount=6
 	}
 	slaves={
-		amount=2
 		religion="mithra_religion"
+		amount=2
 	}
 }
 
-4966={ #Parachana
+4966={ #Khaydalu
 	terrain="mountain"
 	culture="median"
 	religion="mithra_religion"
@@ -1474,8 +1474,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	slaves={
 		amount=3
@@ -1499,8 +1499,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
 		religion="zoroaster"
+		amount=1
 	}
 	freemen={
 		culture="median"
@@ -1522,7 +1522,7 @@
 	}
 }
 
-4968={ #Thebarga
+4968={ #Tappeh
 	terrain="mountain"
 	culture="median"
 	religion="mithra_religion"
@@ -1531,8 +1531,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	freemen={
 		amount=4
@@ -1554,12 +1554,12 @@
 		amount=3
 	}
 	tribesmen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 }
 
-4973={ #Aspadana
+4973={ #Aspathan
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -1572,8 +1572,8 @@
 		amount=1
 	}
 	citizen={
-		amount=2
 		religion="mithra_religion"
+		amount=2
 	}
 	citizen={
 		culture="hebrew"
@@ -1617,15 +1617,15 @@
 		amount=2
 	}
 	slaves={
-		amount=2
 		religion="mithra_religion"
+		amount=2
 	}
 	tribesmen={
 		amount=2
 	}
 }
 
-4975={ #Gaumana
+4975={ #Goyman
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -1641,8 +1641,8 @@
 		amount=1
 	}
 	freemen={
-		amount=3
 		religion="mithra_religion"
+		amount=3
 	}
 	slaves={
 		amount=3
@@ -1652,7 +1652,7 @@
 	}
 }
 
-4976={ #Paraitekene
+4976={ #Parataka
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -1677,7 +1677,7 @@
 	}
 }
 
-4979={ #Sidikes
+4979={ #Rahjerd
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -1700,7 +1700,7 @@
 	}
 }
 
-4980={ #Astiana
+4980={ #Ashtian
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -1723,7 +1723,7 @@
 	}
 }
 
-4981={ #Rhapsa
+4981={ #Meyghan
 	terrain="mountain"
 	culture="median"
 	religion="mithra_religion"
@@ -1769,7 +1769,7 @@
 	}
 }
 
-4983={ #Zania
+4983={ #Ushke
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -1778,8 +1778,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
 		religion="zoroaster"
+		amount=2
 	}
 	freemen={
 		amount=4
@@ -1975,7 +1975,7 @@
 	}
 }
 
-4991={ #Europos Rhagai
+4991={ #Raga
 	terrain="hills"
 	culture="amardian"
 	religion="mithra_religion"
@@ -2013,7 +2013,7 @@
 	}
 }
 
-4992={ #Pylai Hyrkanikai
+4992={ #Portae
 	terrain="mountain"
 	culture="median"
 	religion="mithra_religion"
@@ -2023,7 +2023,7 @@
 	province_rank=""
 }
 
-4993={ #Apameia Rhagiane
+4993={ #Khavara
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -2056,7 +2056,7 @@
 	}
 }
 
-4999={ #Herakleia Achais
+4999={ #Tishtriana
 	terrain="plains"
 	culture="amardian"
 	religion="mithra_religion"
@@ -2083,7 +2083,7 @@
 	}
 }
 
-6507={ #Nain
+6507={ #Naein
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -2100,7 +2100,7 @@
 	}
 }
 
-6509={ #Andriake
+6509={ #Badroud
 	terrain="desert"
 	culture="median"
 	religion="mithra_religion"
@@ -2120,7 +2120,7 @@
 	}
 }
 
-6510={ #Oroubikaria
+6510={ #Mahabad
 	terrain="desert"
 	culture="median"
 	religion="mithra_religion"
@@ -2140,7 +2140,7 @@
 	}
 }
 
-6954={ #Choana
+6954={ #Kumandan
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -2178,7 +2178,7 @@
 	}
 }
 
-6955={ #Gouriamna
+6955={ #Saavakineh
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -2202,7 +2202,7 @@
 	}
 }
 
-6956={ #Rhazounda
+6956={ #Danak
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -2219,7 +2219,7 @@
 	}
 }
 
-6957={ #Alisdaka
+6957={ #Pirra
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -2243,7 +2243,7 @@
 	}
 }
 
-6958={ #Orakana
+6958={ #Bijar
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -2262,7 +2262,7 @@
 	}
 }
 
-6959={ #Sanais
+6959={ #Garlogh
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -2279,7 +2279,7 @@
 	}
 }
 
-6960={ #Dariausa
+6960={ #Iasonia
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -2303,7 +2303,7 @@
 	}
 }
 
-6961={ #Nigouza
+6961={ #Razan
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -2326,7 +2326,7 @@
 	}
 }
 
-6962={ #Choastra
+6962={ #Jaganlu
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -2349,7 +2349,7 @@
 	}
 }
 
-6963={ #Bazigraban
+6963={ #Sigria
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -2372,7 +2372,7 @@
 	}
 }
 
-6964={ #Auradis
+6964={ #Golan
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"

@@ -14,7 +14,7 @@
 	}
 }
 
-846={ #Balesh
+846={ #Cymiza
 	terrain="hills"
 	culture="arzasha"
 	religion="anahitic_religion"
@@ -43,7 +43,7 @@
 	}
 }
 
-978={ #Datvan
+978={ #Tatwan
 	terrain="hills"
 	culture="arzasha"
 	religion="anahitic_religion"
@@ -87,7 +87,7 @@
 	}
 }
 
-988={ #Tosp
+988={ #Tushpa
 	terrain="forest"
 	culture="arzasha"
 	religion="anahitic_religion"
@@ -107,7 +107,7 @@
 	}
 }
 
-989={ #Aparank
+989={ #Bulak
 	terrain="hills"
 	culture="arzasha"
 	religion="anahitic_religion"
@@ -169,7 +169,7 @@
 	}
 }
 
-992={ #Balalesh
+992={ #Balaleisa
 	terrain="mountain"
 	culture="arzasha"
 	religion="anahitic_religion"
@@ -192,7 +192,7 @@
 	}
 }
 
-993={ #Khlat
+993={ #Khalat
 	terrain="plains"
 	culture="arzasha"
 	religion="anahitic_religion"
@@ -233,7 +233,7 @@
 	holy_site=omen_vahagn
 }
 
-995={ #Bogunik
+995={ #Molchia
 	terrain="forest"
 	culture="arzasha"
 	religion="anahitic_religion"
@@ -250,7 +250,7 @@
 	}
 }
 
-996={ #Alouaka
+996={ #Albak
 	terrain="hills"
 	culture="arzasha"
 	religion="anahitic_religion"
@@ -266,7 +266,7 @@
 	}
 }
 
-997={ #Kotorox
+997={ #Qotoroj
 	terrain="mountain"
 	culture="arzasha"
 	religion="anahitic_religion"
@@ -293,7 +293,7 @@
 	}
 }
 
-998={ #Artamet
+998={ #Artamat
 	terrain="hills"
 	culture="arzasha"
 	religion="anahitic_religion"
@@ -313,7 +313,7 @@
 	}
 }
 
-999={ #Eruandunik
+999={ #Hayk
 	terrain="forest"
 	culture="arzasha"
 	religion="anahitic_religion"
@@ -333,7 +333,7 @@
 	}
 }
 
-1500={ #Her
+1500={ #Chauon
 	terrain="plains"
 	culture="arzasha"
 	religion="zoroaster"
@@ -352,7 +352,7 @@
 	}
 }
 
-1501={ #Nakhchawan
+1501={ #Naxouana
 	terrain="hills"
 	culture="arzasha"
 	religion="anahitic_religion"
@@ -391,7 +391,7 @@
 	}
 }
 
-1503={ #Salamat
+1503={ #Salamas
 	terrain="plains"
 	culture="arzasha"
 	religion="zoroaster"
@@ -521,8 +521,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	tribesmen={
 		amount=3
@@ -623,7 +623,7 @@
 	}
 }
 
-1529={ #Gabit'ean
+1529={ #Darman
 	terrain="hills"
 	culture="arzasha"
 	religion="mithra_religion"
@@ -642,7 +642,7 @@
 	}
 }
 
-1530={ #Bakurakert
+1530={ #Bakurakerta
 	terrain="mountain"
 	culture="arzasha"
 	religion="zoroaster"
@@ -1185,7 +1185,7 @@
 	}
 }
 
-1562={ #Cumb
+1562={ #Patansana
 	terrain="forest"
 	culture="armenian"
 	religion="anahitic_religion"
@@ -1205,7 +1205,7 @@
 	}
 }
 
-1563={ #Dut'akh
+1563={ #Dutakh
 	terrain="forest"
 	culture="armenian"
 	religion="anahitic_religion"
@@ -1242,7 +1242,7 @@
 	}
 }
 
-1566={ #Tateon
+1566={ #Didima
 	terrain="forest"
 	culture="armenian"
 	religion="anahitic_religion"
@@ -1259,7 +1259,7 @@
 	}
 }
 
-1567={ #Bagrewand
+1567={ #Bagauna
 	terrain="forest"
 	culture="armenian"
 	religion="anahitic_religion"
@@ -1324,7 +1324,7 @@
 	}
 }
 
-1570={ #Armavir
+1570={ #Armaouira
 	terrain="plains"
 	culture="armenian"
 	religion="anahitic_religion"
@@ -1367,7 +1367,7 @@
 	holy_site=omen_khaldi
 }
 
-1571={ #Artashat
+1571={ #Artaxata
 	terrain="plains"
 	culture="armenian"
 	religion="zoroaster"
@@ -1428,7 +1428,7 @@
 	}
 }
 
-1573={ #Garni
+1573={ #Gorneae
 	terrain="hills"
 	culture="armenian"
 	religion="anahitic_religion"
@@ -1464,7 +1464,7 @@
 	holy_site=omen_theispas
 }
 
-1576={ #Vagharshapat
+1576={ #Kainepolis Syracene
 	terrain="plains"
 	culture="armenian"
 	religion="anahitic_religion"
@@ -1560,7 +1560,7 @@
 	}
 }
 
-1581={ #Yervandashat
+1581={ #Eruandashat
 	terrain="forest"
 	culture="armenian"
 	religion="mithra_religion"
@@ -1952,7 +1952,7 @@
 	}
 }
 
-1747={ #Basean
+1747={ #Gymnias
 	terrain="hills"
 	culture="lesser_armenian"
 	religion="anahitic_religion"
@@ -2010,7 +2010,7 @@
 	}
 }
 
-1760={ #Baiberdon
+1760={ #Sinoria
 	terrain="mountain"
 	culture="colchian"
 	religion="anahitic_religion"
@@ -2145,7 +2145,7 @@
 	}
 }
 
-1770={ #Satal
+1770={ #Satala
 	terrain="mountain"
 	culture="lesser_armenian"
 	religion="anahitic_religion"

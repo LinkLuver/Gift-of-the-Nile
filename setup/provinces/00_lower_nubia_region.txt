@@ -1,4 +1,4 @@
-﻿576={ #Apollinopolis Megale
+﻿576={ #Djeba
 	terrain="flood_plain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -21,7 +21,7 @@
 	holy_site=omen_horus
 }
 
-577={ #Omboi
+577={ #Nubet
 	terrain="flood_plain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -2023,8 +2023,8 @@
 		amount=1
 	}
 	slaves={
-		religion="nilotic_pantheon"
 		culture="boran"
+		religion="nilotic_pantheon"
 		amount=1
 	}
 	slaves={

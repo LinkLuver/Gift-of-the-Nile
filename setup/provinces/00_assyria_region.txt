@@ -20,7 +20,7 @@
 	}
 }
 
-773={ #Amostai
+773={ #Wiha
 	terrain="plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -55,7 +55,7 @@
 	}
 }
 
-818={ #Adma
+818={ #'Adhma
 	terrain="plains"
 	culture="syriac"
 	religion="hurrian_pantheon"
@@ -102,7 +102,7 @@
 	}
 }
 
-819={ #Karrhai
+819={ #Haran
 	terrain="plains"
 	culture="syriac"
 	religion="hurrian_pantheon"
@@ -122,7 +122,7 @@
 	holy_site=omen_nusku
 }
 
-820={ #Kommisimbela
+820={ #Sahlala
 	terrain="hills"
 	culture="syriac"
 	religion="hurrian_pantheon"
@@ -138,7 +138,7 @@
 	}
 }
 
-821={ #Rhesaina
+821={ #Resh 'Ayna
 	terrain="plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -187,7 +187,7 @@
 	}
 }
 
-823={ #Oraba
+823={ #'Orava
 	terrain="desert"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -206,7 +206,7 @@
 	}
 }
 
-830={ #Antiocheia Mygdonias
+830={ #Nsivin
 	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -241,7 +241,7 @@
 	}
 }
 
-831={ #Singara
+831={ #Shingar
 	terrain="hills"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -263,7 +263,7 @@
 	}
 }
 
-832={ #Taidon
+832={ #Ta'idu
 	terrain="plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -290,7 +290,7 @@
 	}
 }
 
-833={ #Phainicha
+833={ #Pnaha
 	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -318,7 +318,7 @@
 	}
 }
 
-834={ #Thamanon
+834={ #Sthalih
 	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -384,8 +384,8 @@
 		amount=1
 	}
 	slaves={
-		amount=1
 		religion="anahitic_religion"
+		amount=1
 	}
 	holy_site=omen_kommagene
 }
@@ -505,7 +505,7 @@
 	}
 }
 
-840={ #Arsemeia
+840={ #Arsameia
 	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -533,7 +533,7 @@
 	}
 }
 
-841={ #Epiphaneia Tigridos
+841={ #'Arkathiakert
 	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -556,7 +556,7 @@
 	holy_site=omen_tork_angegh
 }
 
-842={ #Tigranokerta
+842={ #Tighrakert
 	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -623,7 +623,7 @@
 	}
 }
 
-844={ #Antiocheia Mesopotamias
+844={ #Antiochia Arabis
 	terrain="plains"
 	culture="syriac"
 	religion="hurrian_pantheon"
@@ -651,7 +651,7 @@
 	}
 }
 
-845={ #Maipa
+845={ #'Amdha
 	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -705,7 +705,7 @@
 	}
 }
 
-853={ #Ichnai
+853={ #Ichnae
 	terrain="desert"
 	culture="syriac"
 	religion="hurrian_pantheon"
@@ -762,7 +762,7 @@
 	}
 }
 
-856={ #Amida
+856={ #Serdaver
 	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -816,7 +816,7 @@
 	}
 }
 
-858={ #Arsamosata
+858={ #Arshamashat
 	terrain="hills"
 	culture="sophene"
 	religion="anatolian_religion"
@@ -845,7 +845,7 @@
 	}
 }
 
-859={ #Kolchis Mesopotamias
+859={ #Dadima
 	terrain="hills"
 	culture="sophene"
 	religion="zoroaster"
@@ -867,7 +867,7 @@
 	}
 }
 
-860={ #Anzitene
+860={ #Kharberd
 	terrain="hills"
 	culture="sophene"
 	religion="zoroaster"
@@ -887,7 +887,7 @@
 	}
 }
 
-861={ #Bimatra
+861={ #Peq
 	terrain="desert"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -907,7 +907,7 @@
 	}
 }
 
-862={ #Ninos
+862={ #Ninive
 	terrain="plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -954,7 +954,7 @@
 	holy_site=omen_ninurta
 }
 
-863={ #Mespyla
+863={ #Vledh
 	terrain="plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -974,7 +974,7 @@
 	}
 }
 
-864={ #Atouria
+864={ #Dur Sharhin
 	terrain="plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1013,7 +1013,7 @@
 	}
 }
 
-866={ #Chinis
+866={ #Vawyan
 	terrain="hills"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1032,7 +1032,7 @@
 	}
 }
 
-867={ #Bessara
+867={ #Shfur
 	terrain="plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1055,7 +1055,7 @@
 	}
 }
 
-868={ #Betouma
+868={ #Dahir
 	terrain="plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1079,7 +1079,7 @@
 	}
 }
 
-869={ #Rhiskephas
+869={ #Kef
 	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -1113,7 +1113,7 @@
 	}
 }
 
-870={ #Oros Masios
+870={ #Izala Mons
 	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -1126,7 +1126,7 @@
 	}
 }
 
-871={ #Margdis
+871={ #Marde
 	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -1154,7 +1154,7 @@
 	}
 }
 
-872={ #Ammodios
+872={ #'Amudha
 	terrain="plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1183,7 +1183,7 @@
 	holy_site=omen_ishara
 }
 
-873={ #Asson
+873={ #Hassu
 	terrain="plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1206,7 +1206,7 @@
 	}
 }
 
-874={ #Thannourios
+874={ #Tannur
 	terrain="desert"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1226,7 +1226,7 @@
 	holy_site=omen_ninazu
 }
 
-875={ #Zagourai
+875={ #Zagurae
 	terrain="plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1242,7 +1242,7 @@
 	}
 }
 
-876={ #Thelia
+876={ #Qarassas
 	terrain="plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1261,7 +1261,7 @@
 	}
 }
 
-877={ #Barsalion
+877={ #Barsalium
 	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -1318,7 +1318,7 @@
 	}
 }
 
-880={ #'Arvel
+880={ #Arba'ilu
 	terrain="plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1327,15 +1327,15 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=1
 		religion="zoroaster"
+		amount=1
 	}
 	citizen={
 		amount=7
 	}
 	citizen={
-		amount=3
 		religion="zoroaster"
+		amount=3
 	}
 	citizen={
 		religion="mithra_religion"
@@ -1396,7 +1396,7 @@
 	}
 }
 
-882={ #Larissa
+882={ #Hleh
 	terrain="plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1548,7 +1548,7 @@
 	}
 }
 
-986={ #Thisaphata
+986={ #Grai Darki
 	terrain="hills"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1645,7 +1645,7 @@
 	}
 }
 
-1857={ #Chamishkatsag
+1857={ #Hierapolis Sophenias
 	terrain="hills"
 	culture="sophene"
 	religion="anatolian_religion"
@@ -1799,8 +1799,8 @@
 		amount=4
 	}
 	slaves={
-		amount=2
 		religion="anatolian_religion"
+		amount=2
 	}
 	slaves={
 		culture="syriac"

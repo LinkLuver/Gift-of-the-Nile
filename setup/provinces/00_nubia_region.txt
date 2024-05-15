@@ -69,13 +69,13 @@
 		amount=11
 	}
 	citizen={
-		religion="kushite_pantheon"
 		culture="napatan"
+		religion="kushite_pantheon"
 		amount=2
 	}
 	citizen={
-		religion="kushite_pantheon"
 		culture="lower_nubian"
+		religion="kushite_pantheon"
 		amount=1
 	}
 	citizen={
@@ -100,8 +100,8 @@
 		amount=10
 	}
 	freemen={
-		religion="kushite_pantheon"
 		culture="napatan"
+		religion="kushite_pantheon"
 		amount=3
 	}
 	freemen={
@@ -946,8 +946,8 @@
 		amount=2
 	}
 	slaves={
-		religion="nilotic_pantheon"
 		culture="boran"
+		religion="nilotic_pantheon"
 		amount=1
 	}
 	tribesmen={
@@ -993,8 +993,8 @@
 		amount=2
 	}
 	slaves={
-		religion="nilotic_pantheon"
 		culture="boran"
+		religion="nilotic_pantheon"
 		amount=1
 	}
 	slaves={
@@ -1051,8 +1051,8 @@
 		amount=3
 	}
 	slaves={
-		religion="nilotic_pantheon"
 		culture="boran"
+		religion="nilotic_pantheon"
 		amount=2
 	}
 }
@@ -1076,8 +1076,8 @@
 		amount=2
 	}
 	slaves={
-		religion="nilotic_pantheon"
 		culture="moyan"
+		religion="nilotic_pantheon"
 		amount=1
 	}
 }
@@ -1100,8 +1100,8 @@
 		amount=2
 	}
 	slaves={
-		religion="nilotic_pantheon"
 		culture="boran"
+		religion="nilotic_pantheon"
 		amount=1
 	}
 }
@@ -1121,8 +1121,8 @@
 		amount=1
 	}
 	slaves={
-		religion="nilotic_pantheon"
 		culture="moyan"
+		religion="nilotic_pantheon"
 		amount=1
 	}
 }
@@ -1145,8 +1145,8 @@
 		amount=2
 	}
 	slaves={
-		religion="nilotic_pantheon"
 		culture="alutan"
+		religion="nilotic_pantheon"
 		amount=1
 	}
 }
@@ -1169,8 +1169,8 @@
 		amount=2
 	}
 	slaves={
-		religion="nilotic_pantheon"
 		culture="nubian"
+		religion="nilotic_pantheon"
 		amount=2
 	}
 }
@@ -1190,8 +1190,8 @@
 		amount=1
 	}
 	slaves={
-		religion="nilotic_pantheon"
 		culture="nubian"
+		religion="nilotic_pantheon"
 		amount=1
 	}
 }
@@ -1214,8 +1214,8 @@
 		amount=2
 	}
 	slaves={
-		religion="nilotic_pantheon"
 		culture="nubian"
+		religion="nilotic_pantheon"
 		amount=1
 	}
 }
@@ -1313,8 +1313,8 @@
 		amount=2
 	}
 	slaves={
-		religion="nilotic_pantheon"
 		culture="boran"
+		religion="nilotic_pantheon"
 		amount=2
 	}
 }
@@ -1335,8 +1335,8 @@
 		amount=1
 	}
 	tribesmen={
-		religion="nilotic_pantheon"
 		culture="boran"
+		religion="nilotic_pantheon"
 		amount=1
 	}
 }

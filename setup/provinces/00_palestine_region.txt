@@ -1,4 +1,4 @@
-﻿648={ #Tarichaia
+﻿648={ #Migdal Dageyyi
 	terrain="forest"
 	culture="hebrew"
 	religion="judaism"
@@ -14,7 +14,7 @@
 	}
 }
 
-657={ #Bitylion
+657={ #Bet 'Alyon
 	terrain="plains"
 	culture="hyksos"
 	religion="carthaginian_pantheon"
@@ -34,7 +34,7 @@
 	}
 }
 
-658={ #Rhaphia
+658={ #Rapiyya
 	terrain="plains"
 	culture="hyksos"
 	religion="carthaginian_pantheon"
@@ -57,7 +57,7 @@
 	}
 }
 
-659={ #Gaza
+659={ #'Azza
 	terrain="plains"
 	culture="hyksos"
 	religion="carthaginian_pantheon"
@@ -81,7 +81,7 @@
 	port_building=1
 }
 
-660={ #Askalon
+660={ #'Ashqelon
 	terrain="plains"
 	culture="hyksos"
 	religion="carthaginian_pantheon"
@@ -103,7 +103,7 @@
 	}
 }
 
-661={ #Azotos
+661={ #'Ashdod
 	terrain="plains"
 	culture="hyksos"
 	religion="carthaginian_pantheon"
@@ -125,7 +125,7 @@
 	}
 }
 
-662={ #Iamneia
+662={ #Yabne
 	terrain="plains"
 	culture="hyksos"
 	religion="carthaginian_pantheon"
@@ -144,7 +144,7 @@
 	}
 }
 
-663={ #Ioppe
+663={ #Yapo
 	terrain="plains"
 	culture="hyksos"
 	religion="carthaginian_pantheon"
@@ -166,7 +166,7 @@
 	}
 }
 
-664={ #Apollonia Palaistinas
+664={ #Rashpon
 	terrain="plains"
 	culture="hyksos"
 	religion="carthaginian_pantheon"
@@ -189,7 +189,7 @@
 	port_building=1
 }
 
-665={ #Stratonos Pyrgos
+665={ #Migdal 'Ashtart
 	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -205,7 +205,7 @@
 	}
 }
 
-666={ #Sykaminon
+666={ #Shiqmonot
 	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -224,7 +224,7 @@
 	}
 }
 
-667={ #Dora
+667={ #Dor
 	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -243,7 +243,7 @@
 	}
 }
 
-668={ #Boukolonpolis
+668={ #'Atalit
 	terrain="plains"
 	culture="hyksos"
 	religion="carthaginian_pantheon"
@@ -259,7 +259,7 @@
 	}
 }
 
-669={ #Gaba
+669={ #Jellemeh
 	terrain="plains"
 	culture="hyksos"
 	religion="carthaginian_pantheon"
@@ -278,7 +278,7 @@
 	}
 }
 
-670={ #Ake
+670={ #'Akko
 	terrain="forest"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -320,7 +320,7 @@
 	}
 }
 
-672={ #Iezreela
+672={ #Yizre' 'El
 	terrain="hills"
 	culture="hebrew"
 	religion="judaism"
@@ -339,7 +339,7 @@
 	}
 }
 
-673={ #Skythopolis
+673={ #Bet She'an
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -358,7 +358,7 @@
 	}
 }
 
-674={ #Philoteria
+674={ #Bet Yerah
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -374,7 +374,7 @@
 	}
 }
 
-675={ #Pella Palaistinas
+675={ #Pahil
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -415,7 +415,7 @@
 	}
 }
 
-677={ #Sepphoris
+677={ #Tzippori
 	terrain="hills"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -669,7 +669,7 @@
 	}
 }
 
-690={ #Marisa
+690={ #Mare'sha
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -734,7 +734,7 @@
 	}
 }
 
-693={ #Thala
+693={ #Guzana
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -758,7 +758,7 @@
 	}
 }
 
-694={ #Maor
+694={ #Tida
 	terrain="plains"
 	culture="hyksos"
 	religion="arabian_pantheon"
@@ -774,7 +774,7 @@
 	}
 }
 
-695={ #Chellous
+695={ #Halutzah
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -800,7 +800,7 @@
 	}
 }
 
-696={ #Betomolachon
+696={ #Bet Molakon
 	terrain="plains"
 	culture="hyksos"
 	religion="arabian_pantheon"
@@ -821,7 +821,7 @@
 	}
 }
 
-697={ #Nessana
+697={ #Nitztzana
 	terrain="desert"
 	culture="hyksos"
 	religion="arabian_pantheon"
@@ -841,7 +841,7 @@
 	}
 }
 
-698={ #Shavta
+698={ #Shabta
 	terrain="plains"
 	culture="hebrew"
 	religion="arabian_pantheon"
@@ -860,7 +860,7 @@
 	}
 }
 
-699={ #'Avodha
+699={ #'Ebodat
 	terrain="plains"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -879,7 +879,7 @@
 	}
 }
 
-700={ #Mamshith
+700={ #Mamshit
 	terrain="desert_hills"
 	culture="hebrew"
 	religion="arabian_pantheon"
@@ -936,7 +936,7 @@
 	}
 }
 
-704={ #'Iloth
+704={ #'Aylat
 	terrain="plains"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -954,7 +954,7 @@
 	port_building=1
 }
 
-705={ #Mivatzra
+705={ #Mibtzar
 	terrain="plains"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1222,7 +1222,7 @@
 	holy_site=omen_chemosh
 }
 
-718={ #Ammana
+718={ #Rabbat 'Amman
 	terrain="plains"
 	culture="aramaic"
 	religion="judaism"
@@ -1280,7 +1280,7 @@
 	}
 }
 
-721={ #Gerasa
+721={ #Garas
 	terrain="plains"
 	culture="aramaic"
 	religion="judaism"
@@ -1367,7 +1367,7 @@
 	}
 }
 
-728={ #Hwara
+728={ #Havvara
 	terrain="desert_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1386,7 +1386,7 @@
 	}
 }
 
-729={ #Raqma
+729={ #Reqem
 	terrain="oasis"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1412,7 +1412,7 @@
 	holy_site=omen_dashara
 }
 
-730={ #'Adhruh
+730={ #'Adruh
 	terrain="desert_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1444,7 +1444,7 @@
 	}
 }
 
-732={ #Adraa
+732={ #Adraha
 	terrain="plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1522,7 +1522,7 @@
 	}
 }
 
-735={ #Kanatha
+735={ #Canatha
 	terrain="plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1554,7 +1554,7 @@
 	}
 }
 
-737={ #Rhaphana
+737={ #Raphon
 	terrain="plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -1591,7 +1591,7 @@
 	}
 }
 
-739={ #Karneia
+739={ #Karnaia
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"

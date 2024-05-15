@@ -379,7 +379,7 @@
 	}
 }
 
-330={ #Karpaseia
+330={ #Karpasia
 	terrain="hills"
 	culture="alashiyan"
 	religion="carthaginian_pantheon"
@@ -431,7 +431,7 @@
 	port_building=1
 }
 
-332={ #Kition
+332={ #Kiti
 	terrain="forest"
 	culture="alashiyan"
 	religion="carthaginian_pantheon"
@@ -466,8 +466,8 @@
 		culture="alashiyan"
 		amount=2
 	}
-	port_building=1
 	holy_site=omen_astarte_bast
+	port_building=1
 }
 
 333={ #Soloi Kypriai
@@ -511,8 +511,8 @@
 		amount=3
 	}
 	freemen={
-		religion="carthaginian_pantheon"
 		culture="alashiyan"
+		religion="carthaginian_pantheon"
 		amount=2
 	}
 	slaves={
@@ -522,7 +522,7 @@
 	port_building=1
 }
 
-335={ #Keryneia
+335={ #Lapet
 	terrain="hills"
 	culture="alashiyan"
 	religion="hurrian_pantheon"
@@ -547,7 +547,7 @@
 	port_building=1
 }
 
-336={ #Tamassos
+336={ #Tamash
 	terrain="hills"
 	culture="cypriot"
 	religion="roman_pantheon"
@@ -596,7 +596,7 @@
 	}
 }
 
-795={ #Alexandreia Issos
+795={ #Myriandros
 	terrain="plains"
 	culture="hittite"
 	religion="hurrian_pantheon"
@@ -638,7 +638,7 @@
 	port_building=1
 }
 
-796={ #Issos
+796={ #'Ishsha
 	terrain="plains"
 	culture="hittite"
 	religion="hurrian_pantheon"
@@ -680,7 +680,7 @@
 	province_rank=""
 }
 
-1872={ #Pylai Kilikiai
+1872={ #Cilician Gates
 	terrain="mountain"
 	culture="kennataian"
 	religion="anatolian_religion"
@@ -764,7 +764,7 @@
 	}
 }
 
-1875={ #Hierapolis Kastabala
+1875={ #Kastabala
 	terrain="plains"
 	culture="hittite"
 	religion="hurrian_pantheon"
@@ -910,7 +910,7 @@
 	}
 }
 
-1880={ #Mopsou Hestia
+1880={ #Beth Mopsha
 	terrain="farmland"
 	culture="hittite"
 	religion="hurrian_pantheon"
@@ -1069,7 +1069,7 @@
 	}
 }
 
-1883={ #Tarsos
+1883={ #Tarsus
 	terrain="plains"
 	culture="cilician"
 	religion="hurrian_pantheon"
@@ -1913,7 +1913,7 @@
 	}
 }
 
-1986={ #Kretopolis
+1986={ #Pogla
 	terrain="hills"
 	culture="milyadian"
 	religion="anatolian_religion"
@@ -2240,7 +2240,7 @@
 	port_building=1
 }
 
-6433={ #Chythroi
+6433={ #Qarya Hadasha
 	terrain="plains"
 	culture="alashiyan"
 	religion="hurrian_pantheon"
@@ -2255,7 +2255,7 @@
 		amount=1
 	}
 	slaves={
-		religion = carthaginian_pantheon
+		religion="carthaginian_pantheon"
 		amount=2
 	}
 }
@@ -2628,7 +2628,7 @@
 	}
 }
 
-7991={ #Idalion
+7991={ #'Edil
 	terrain="plains"
 	culture="cypriot"
 	religion="roman_pantheon"

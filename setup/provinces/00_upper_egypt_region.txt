@@ -1,4 +1,4 @@
-﻿549={ #Hermopolis Megale
+﻿549={ #Khemenu
 	terrain="flood_plain"
 	culture="akhenite_egyptian"
 	religion="aten_religion"
@@ -27,7 +27,7 @@
 	}
 }
 
-551={ #Monkanei
+551={ #Besaw
 	terrain="flood_plain"
 	culture="akhenite_egyptian"
 	religion="aten_religion"
@@ -46,7 +46,7 @@
 	}
 }
 
-552={ #Koussai
+552={ #Qesy
 	terrain="flood_plain"
 	culture="akhenite_egyptian"
 	religion="aten_religion"
@@ -78,7 +78,7 @@
 	}
 }
 
-553={ #Lykopolis
+553={ #Zawty
 	terrain="flood_plain"
 	culture="akhenite_egyptian"
 	religion="aten_religion"
@@ -98,7 +98,7 @@
 	holy_site=omen_anubis
 }
 
-554={ #Pokis
+554={ #Mer
 	terrain="flood_plain"
 	culture="akhenite_egyptian"
 	religion="aten_religion"
@@ -120,7 +120,7 @@
 	}
 }
 
-555={ #Hypsele
+555={ #Shashotep
 	terrain="flood_plain"
 	culture="akhenite_egyptian"
 	religion="aten_religion"
@@ -142,7 +142,7 @@
 	}
 }
 
-556={ #Antaiopolis
+556={ #Tjebu
 	terrain="flood_plain"
 	culture="akhenite_egyptian"
 	religion="aten_religion"
@@ -164,7 +164,7 @@
 	}
 }
 
-557={ #Panopolis
+557={ #Akhetaton
 	terrain="flood_plain"
 	culture="akhenite_egyptian"
 	religion="aten_religion"
@@ -187,7 +187,7 @@
 	holy_site=omen_akhenaten
 }
 
-558={ #Triphion
+558={ #Hut-Repyt
 	terrain="flood_plain"
 	culture="akhenite_egyptian"
 	religion="aten_religion"
@@ -206,7 +206,7 @@
 	}
 }
 
-559={ #Ptolemaios Hermeiou
+559={ #Psoi
 	terrain="flood_plain"
 	culture="akhenite_egyptian"
 	religion="aten_religion"
@@ -222,7 +222,7 @@
 	}
 }
 
-560={ #Thinis
+560={ #Tjenu
 	terrain="flood_plain"
 	culture="akhenite_egyptian"
 	religion="aten_religion"
@@ -245,7 +245,7 @@
 	holy_site=omen_anhur
 }
 
-561={ #Abydos Aigptou
+561={ #Abdju
 	terrain="flood_plain"
 	culture="akhenite_egyptian"
 	religion="aten_religion"
@@ -265,7 +265,7 @@
 	holy_site=omen_osiris
 }
 
-562={ #Diospolis Mikra
+562={ #Hut-Sekhem
 	terrain="flood_plain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -287,7 +287,7 @@
 	}
 }
 
-563={ #Tentyris
+563={ #Iunet
 	terrain="flood_plain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -310,7 +310,7 @@
 	holy_site=omen_hathor
 }
 
-564={ #Kainepolis
+564={ #Keneh
 	terrain="desert"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -326,7 +326,7 @@
 	}
 }
 
-565={ #Berkou
+565={ #Per-Kek
 	terrain="desert_hills"
 	culture="nabatean"
 	religion="egyptian_pantheon"
@@ -345,7 +345,7 @@
 	}
 }
 
-566={ #Koptos
+566={ #Gebtu
 	terrain="flood_plain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -358,7 +358,7 @@
 	}
 }
 
-567={ #Apollonopolis Mikra
+567={ #Kaysit
 	terrain="flood_plain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -377,7 +377,7 @@
 	}
 }
 
-568={ #Kerameia
+568={ #Petemout
 	terrain="flood_plain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -393,7 +393,7 @@
 	}
 }
 
-569={ #Thebai Hekatompyloi
+569={ #Waset
 	terrain="flood_plain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -429,7 +429,7 @@
 	holy_site=omen_amun
 }
 
-570={ #Memnoneion
+570={ #Djeme
 	terrain="flood_plain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -448,7 +448,7 @@
 	}
 }
 
-571={ #Terkythis
+571={ #Imiotru
 	terrain="flood_plain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -467,7 +467,7 @@
 	}
 }
 
-572={ #Hermonthis
+572={ #Iunu-Monthu
 	terrain="flood_plain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -483,7 +483,7 @@
 	}
 }
 
-573={ #Pathyris
+573={ #Per-Hathor
 	terrain="flood_plain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -502,7 +502,7 @@
 	}
 }
 
-574={ #Latopolis
+574={ #Senet
 	terrain="flood_plain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -529,7 +529,7 @@
 	}
 }
 
-575={ #Eileithyias Polis
+575={ #Nekheb
 	terrain="flood_plain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
@@ -548,7 +548,7 @@
 	}
 }
 
-578={ #Hydreuma Troglodytikai
+578={ #Dunqash
 	terrain="desert"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -564,7 +564,7 @@
 	}
 }
 
-579={ #Pyle Indiai
+579={ #Persou
 	terrain="desert_hills"
 	culture="nabatean"
 	religion="egyptian_pantheon"
@@ -580,7 +580,7 @@
 	}
 }
 
-580={ #Myos Hormos
+580={ #Marsa Alama
 	terrain="desert_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -607,7 +607,7 @@
 	port_building=1
 }
 
-581={ #Semne
+581={ #Semna
 	terrain="desert_hills"
 	culture="nabatean"
 	religion="egyptian_pantheon"
@@ -626,7 +626,7 @@
 	}
 }
 
-582={ #Kompasoi
+582={ #Siqdit
 	terrain="desert_hills"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -645,7 +645,7 @@
 	}
 }
 
-583={ #Berenike Troglodytike
+583={ #Nahrukhaw
 	terrain="desert_hills"
 	culture="mafkatian_egyptian"
 	religion="egyptian_pantheon"
@@ -683,7 +683,7 @@
 	port_building=1
 }
 
-584={ #Hydreuma Palaion
+584={ #Hedrew
 	terrain="desert_hills"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -731,7 +731,7 @@
 	}
 }
 
-587={ #Nechesia
+587={ #Per-Nebet-Het
 	terrain="desert"
 	culture="mafkatian_egyptian"
 	religion="egyptian_pantheon"
@@ -747,7 +747,7 @@
 	}
 }
 
-588={ #Aristonis
+588={ #Beja-Hut
 	terrain="desert_hills"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -763,7 +763,7 @@
 	}
 }
 
-589={ #Phalakron
+589={ #Falacro
 	terrain="desert_hills"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -779,7 +779,7 @@
 	}
 }
 
-590={ #Hydreuma Neon
+590={ #Wadj-Weret
 	terrain="desert_hills"
 	culture="blemmyan"
 	religion="egyptian_pantheon"
@@ -801,7 +801,7 @@
 	}
 }
 
-647={ #Koueoi
+647={ #Quei
 	terrain="desert"
 	culture="mafkatian_egyptian"
 	religion="arabian_pantheon"
@@ -828,7 +828,7 @@
 	port_building=1
 }
 
-649={ #Porphyrites
+649={ #Lykabettus-Porphyrites
 	terrain="desert_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -852,7 +852,7 @@
 	}
 }
 
-650={ #Drepanon
+650={ #Drepanum
 	terrain="desert"
 	culture="mafkatian_egyptian"
 	religion="arabian_pantheon"
@@ -926,7 +926,7 @@
 	}
 }
 
-5504={ #Hybis
+5504={ #Hibis
 	terrain="oasis"
 	culture="akhenite_egyptian"
 	religion="egyptian_pantheon"
@@ -943,7 +943,7 @@
 	holy_site=omen_khonsu
 }
 
-5505={ #Amoura
+5505={ #Amura
 	terrain="oasis"
 	culture="hethedetian"
 	religion="egyptian_pantheon"
@@ -962,7 +962,7 @@
 	}
 }
 
-5506={ #Tchonemiris
+5506={ #Tchonemyris
 	terrain="oasis"
 	culture="hethedetian"
 	religion="egyptian_pantheon"
@@ -1095,7 +1095,7 @@
 	}
 }
 
-5513={ #Parammon
+5513={ #Kharga
 	terrain="oasis"
 	culture="hethedetian"
 	religion="egyptian_pantheon"
@@ -1117,7 +1117,7 @@
 	}
 }
 
-5514={ #Siwa
+5514={ #Ta-iht
 	terrain="oasis"
 	culture="hethedetian"
 	religion="egyptian_pantheon"
@@ -1162,7 +1162,7 @@
 	}
 }
 
-5517={ #Prekariton
+5517={ #Precariton
 	terrain="desert"
 	culture="hethedetian"
 	religion="egyptian_pantheon"
@@ -1204,7 +1204,7 @@
 	}
 }
 
-5520={ #Kataphre
+5520={ #Cataphri
 	terrain="desert"
 	culture="lower_nubian"
 	religion="egyptian_pantheon"
@@ -1236,7 +1236,7 @@
 	}
 }
 
-5522={ #Isis
+5522={ #Debiri
 	terrain="desert"
 	culture="akhenite_egyptian"
 	religion="egyptian_pantheon"
@@ -1258,7 +1258,7 @@
 	}
 }
 
-5523={ #Pharaphra
+5523={ #Farafra
 	terrain="desert"
 	culture="deshretic_egyptian"
 	religion="egyptian_pantheon"
@@ -1325,7 +1325,7 @@
 	}
 }
 
-5527={ #Tablamon
+5527={ #Tablamum
 	terrain="oasis"
 	culture="deshretic_egyptian"
 	religion="egyptian_pantheon"

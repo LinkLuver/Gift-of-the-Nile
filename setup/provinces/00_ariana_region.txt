@@ -1,4 +1,4 @@
-﻿3415={ #Throaska
+﻿3415={ #Gulbah
 	terrain="hills"
 	culture="carmanian"
 	religion="zoroaster"
@@ -14,7 +14,7 @@
 	}
 }
 
-3424={ #Pantyene
+3424={ #Mashiz
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -30,7 +30,7 @@
 	}
 }
 
-3425={ #Tarouana
+3425={ #Cheshme
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -46,7 +46,7 @@
 	}
 }
 
-3426={ #Kophanta
+3426={ #Hazaran
 	terrain="mountain"
 	culture="utian"
 	religion="zoroaster"
@@ -62,7 +62,7 @@
 	}
 }
 
-3427={ #Mikadai
+3427={ #Micadae
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -78,7 +78,7 @@
 	}
 }
 
-3460={ #Tabai Persikai
+3460={ #Tabas
 	terrain="hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -94,7 +94,7 @@
 	}
 }
 
-3470={ #Simpsimidoi
+3470={ #Parvadeh
 	terrain="hills"
 	culture="sagartian"
 	religion="mithra_religion"
@@ -154,7 +154,7 @@
 	}
 }
 
-3474={ #Ekbatana Magias
+3474={ #Gazman
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -177,7 +177,7 @@
 	}
 }
 
-3475={ #Tadormalous
+3475={ #Chadormalu
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -186,8 +186,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	freemen={
 		amount=1
@@ -200,7 +200,7 @@
 	}
 }
 
-4959={ #Alexandreia Karmanias
+4959={ #Karmana
 	terrain="hills"
 	culture="carmanian"
 	religion="zoroaster"
@@ -312,7 +312,7 @@
 	province_rank=""
 }
 
-6500={ #Ange
+6500={ #Malek
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -321,15 +321,15 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
 		religion="mithra_religion"
+		amount=2
 	}
 	tribesmen={
 		amount=4
 	}
 }
 
-6501={ #Palitas
+6501={ #Chupanan
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -359,7 +359,7 @@
 	}
 }
 
-6503={ #Pagros
+6503={ #Bayazeh
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -372,7 +372,7 @@
 	}
 }
 
-6504={ #Parhe
+6504={ #Rabat
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -381,8 +381,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	slaves={
 		amount=1
@@ -459,7 +459,7 @@
 	}
 }
 
-6518={ #Alexandreia Prophysia
+6518={ #Farah
 	terrain="hills"
 	culture="pactyan"
 	religion="zoroaster"
@@ -578,7 +578,7 @@
 	}
 }
 
-6528={ #Apameia Raphana
+6528={ #Gonbaki
 	terrain="hills"
 	culture="utian"
 	religion="zoroaster"
@@ -632,6 +632,25 @@
 	}
 	tribesmen={
 		amount=1
+	}
+}
+
+6531={ #Cocala
+	terrain="hills"
+	culture="sindhi"
+	religion="zoroaster"
+	trade_goods="fur"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
 	}
 }
 
@@ -762,7 +781,7 @@
 	}
 }
 
-6541={ #Alexandreia Arachosias
+6541={ #Mandigac
 	terrain="desert"
 	culture="pactyan"
 	religion="zoroaster"
@@ -784,7 +803,7 @@
 	}
 }
 
-6546={ #Arachotos Krene
+6546={ #Arachotus
 	terrain="desert"
 	culture="pactyan"
 	religion="zoroaster"
@@ -797,7 +816,7 @@
 	}
 }
 
-6547={ #Artoarta
+6547={ #Jaldak
 	terrain="hills"
 	culture="pactyan"
 	religion="zoroaster"
@@ -813,7 +832,7 @@
 	}
 }
 
-6548={ #Itoua
+6548={ #Itua
 	terrain="hills"
 	culture="pactyan"
 	religion="zoroaster"
@@ -880,7 +899,7 @@
 	}
 }
 
-6552={ #Alexandreia Sakastene
+6552={ #Sigal
 	terrain="desert"
 	culture="pactyan"
 	religion="zoroaster"
@@ -902,7 +921,7 @@
 	}
 }
 
-6553={ #Karoura
+6553={ #Carura
 	terrain="mountain"
 	culture="pactyan"
 	religion="zoroaster"
@@ -937,7 +956,7 @@
 	}
 }
 
-6555={ #Demetrias Arachosias
+6555={ #Bost
 	terrain="hills"
 	culture="pactyan"
 	religion="zoroaster"
@@ -956,7 +975,7 @@
 	}
 }
 
-6557={ #Artakoana
+6557={ #Sariphiana
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -973,7 +992,7 @@
 	}
 }
 
-6558={ #Alexandreia Areios
+6558={ #Haraiva
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -1007,7 +1026,7 @@
 	}
 }
 
-6559={ #Artakabana
+6559={ #Atacabana
 	terrain="hills"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -1029,7 +1048,7 @@
 	}
 }
 
-6560={ #Drangiane
+6560={ #Zarang
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -1054,7 +1073,7 @@
 	}
 }
 
-6561={ #Nostana
+6561={ #Shahristan
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -1070,7 +1089,7 @@
 	}
 }
 
-6562={ #Aris
+6562={ #Karkuya
 	terrain="desert"
 	culture="sagartian"
 	religion="zoroaster"
@@ -1087,7 +1106,7 @@
 	holy_site=omen_atar
 }
 
-6563={ #Zimyra
+6563={ #Phraada
 	terrain="steppes"
 	culture="sagartian"
 	religion="zoroaster"
@@ -1107,7 +1126,7 @@
 	}
 }
 
-6564={ #Chaurina
+6564={ #Surkh
 	terrain="desert"
 	culture="parthian"
 	religion="zoroaster"
@@ -1124,7 +1143,7 @@
 	}
 }
 
-6565={ #Phoraoua
+6565={ #Qadis
 	terrain="hills"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -1229,7 +1248,7 @@
 	}
 }
 
-6571={ #Mastung
+6571={ #Pharsaga
 	terrain="mountain"
 	culture="brahui"
 	religion="hindu"
@@ -1245,7 +1264,7 @@
 	}
 }
 
-6572={ #Kotrika
+6572={ #Cotrica
 	terrain="hills"
 	culture="brahui"
 	religion="zoroaster"
@@ -1261,7 +1280,7 @@
 	}
 }
 
-6573={ #Banagara
+6573={ #Karz
 	terrain="desert"
 	culture="pactyan"
 	religion="zoroaster"
@@ -1280,7 +1299,7 @@
 	}
 }
 
-6574={ #Sedrasyra
+6574={ #Khash
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -1312,7 +1331,7 @@
 	}
 }
 
-6576={ #Abis
+6576={ #Abad
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -1328,7 +1347,7 @@
 	}
 }
 
-6577={ #Parira
+6577={ #Bampur
 	terrain="plains"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -1395,7 +1414,7 @@
 	}
 }
 
-6587={ #Kabadene
+6587={ #Zendan
 	terrain="mountain"
 	culture="carmanian"
 	religion="zoroaster"
@@ -1418,7 +1437,7 @@
 	}
 }
 
-6588={ #Euergatai
+6588={ #Euergetae
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -1431,7 +1450,7 @@
 	}
 }
 
-6589={ #Arkrotis
+6589={ #Tavakkal
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -1447,7 +1466,7 @@
 	}
 }
 
-6590={ #Sakasteniana
+6590={ #Sacasteniana
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -1463,7 +1482,7 @@
 	}
 }
 
-6591={ #Koune
+6591={ #Shuru
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -1530,7 +1549,7 @@
 	}
 }
 
-6595={ #Pharazana
+6595={ #Delaram
 	terrain="hills"
 	culture="pactyan"
 	religion="zoroaster"
@@ -1549,7 +1568,7 @@
 	}
 }
 
-6596={ #Thoubrasene
+6596={ #Anar
 	terrain="hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -1572,7 +1591,7 @@
 	}
 }
 
-6597={ #Zamouchana
+6597={ #Mazar
 	terrain="hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -1593,7 +1612,7 @@
 	}
 }
 
-6598={ #Darion
+6598={ #Darium
 	terrain="hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -1636,7 +1655,7 @@
 	}
 }
 
-6600={ #Ambrodax
+6600={ #Shahr
 	terrain="desert"
 	culture="sagartian"
 	religion="zoroaster"
@@ -1655,7 +1674,7 @@
 	}
 }
 
-6601={ #Saripha
+6601={ #Gonabad
 	terrain="hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -1750,7 +1769,7 @@
 	}
 }
 
-6606={ #Tribazina
+6606={ #Hesida
 	terrain="hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -1771,7 +1790,7 @@
 	}
 }
 
-6607={ #Xarxiare
+6607={ #Sethur
 	terrain="hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -1790,7 +1809,26 @@
 	}
 }
 
-6610={ #Mousai
+6609={ #Urddhastana
+	terrain="mountain"
+	culture="sattagydian"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6610={ #Musai
 	terrain="hills"
 	culture="pactyan"
 	religion="zoroaster"
@@ -1806,6 +1844,57 @@
 	}
 	tribesmen={
 		amount=3
+	}
+}
+
+6612={ #Hadda
+	terrain="mountain"
+	culture="sattagydian"
+	religion="zoroaster"
+	trade_goods="stone"
+	civilization_value=32
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=17
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6615={ #Ghazna
+	terrain="hills"
+	culture="sattagydian"
+	religion="hindu"
+	trade_goods="leather"
+	civilization_value=44
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=8
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="sattagydian"
+		religion="vaksh_religion"
+		amount=2
+	}
+	tribesmen={
+		culture="sattagydian"
+		religion="hindu"
+		amount=1
 	}
 }
 
@@ -1895,7 +1984,23 @@
 	}
 }
 
-6622={ #Phoklis
+6621={ #Sangar
+	terrain="mountain"
+	culture="sattagydian"
+	religion="zoroaster"
+	trade_goods="precious_metals"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6622={ #Aqagah
 	terrain="mountain"
 	culture="pactyan"
 	religion="zoroaster"
@@ -1911,6 +2016,38 @@
 	}
 	tribesmen={
 		amount=3
+	}
+}
+
+6623={ #Tazora
+	terrain="hills"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="spices"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6624={ #Liman
+	terrain="hills"
+	culture="pactyan"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
 	}
 }
 
@@ -1952,7 +2089,74 @@
 	}
 }
 
-6646={ #Soteira
+6639={ #Myah
+	terrain="mountain"
+	culture="sattagydian"
+	religion="zoroaster"
+	trade_goods="stone"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6640={ #Barigah
+	terrain="mountain"
+	culture="sattagydian"
+	religion="zoroaster"
+	trade_goods="silk"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6641={ #Behsad
+	terrain="mountain"
+	culture="sattagydian"
+	religion="zoroaster"
+	trade_goods="glass"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6645={ #Tamazan
+	terrain="mountain"
+	culture="sattagydian"
+	religion="zoroaster"
+	trade_goods="stone"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=3
+	}
+}
+
+6646={ #Azav
 	terrain="hills"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -1973,7 +2177,7 @@
 	}
 }
 
-6647={ #Nisibis
+6647={ #Guleh
 	terrain="hills"
 	culture="sattagydian"
 	religion="zoroaster"
