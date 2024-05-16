@@ -161,8 +161,11 @@ assyria_region = { #7 areas
 		osroene_area
 		sophene_area
 		upper_mesopotamia_area
-		garamig_area
 		tigris_area
+		orontes_area
+		niqum_area
+		ulamme_area
+		mthurna_area
 	}
 }
 
@@ -842,6 +845,7 @@ media_region = { #9 areas
 		media_atropatene_area
 		media_choromithrene
 		rhagai_area
+		garamig_area
 	}
 }
 

@@ -9922,3 +9922,32 @@
 	terrain="impassable_terrain"
 	trade_goods=""
 }
+9532={
+	barbarian_power=0
+	civilization_value=0
+	culture="assyrian"
+	province_rank=""
+	religion="mesopotamian_religion"
+	terrain="impassable_terrain"
+	trade_goods=""
+}
+
+9533={ #Sinus Arabicus
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9536={ #Sinjar Mons
+	barbarian_power=0
+	civilization_value=0
+	culture="assyrian"
+	province_rank=""
+	religion="mesopotamian_religion"
+	terrain="impassable_terrain"
+	trade_goods=""	
+}
