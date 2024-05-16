@@ -1,5 +1,7 @@
-﻿6430={ #
-	terrain="ocean"
+﻿
+
+6430={ #
+	terrain="coastal_terrain"
 	culture=""
 	religion=""
 	trade_goods=""
@@ -9,7 +11,7 @@
 }
 
 6434={ #
-	terrain="ocean"
+	terrain="coastal_terrain"
 	culture=""
 	religion=""
 	trade_goods=""
@@ -19,7 +21,7 @@
 }
 
 6435={ #
-	terrain="ocean"
+	terrain="coastal_terrain"
 	culture=""
 	religion=""
 	trade_goods=""
@@ -149,6 +151,16 @@
 }
 
 7722={ #Tigris
+	terrain="riverine_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9487={ #Euphrates
 	terrain="riverine_terrain"
 	culture=""
 	religion=""

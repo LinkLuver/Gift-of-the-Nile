@@ -161,6 +161,8 @@ assyria_region = { #7 areas
 		osroene_area
 		sophene_area
 		upper_mesopotamia_area
+		garamig_area
+		tigris_area
 	}
 }
 
@@ -870,9 +872,7 @@ mesopotamia_region = { #8 areas
 		babylonia_area
 		beth_daraye_area
 		euphrates_area
-		garamig_area
 		meshan_area
-		tigris_area
 		veh_kavad_area
 		mesopotamia_placeholder_area
 		mesopotamia_placeholder_area_two
