@@ -1731,7 +1731,7 @@ meshan_area = { #10
 }
 
 mesopotamia_placeholder_area = { #14
-	provinces = { 900 901 910 915 917 9452 916 9453 9454 911 960 962 913 894 9535}
+	provinces = { 900 901 910 915 917 9452 916 9453 9454 911 960 962 913 894 }
 }
 
 mesopotamia_placeholder_area_two = { #11
@@ -2807,6 +2807,10 @@ upper_macedonia_area = { #10
 
 upper_mesopotamia_area = { #12
 	provinces = { 821 822 823 830 831 832 855 871 872 873 874 876 9494 }
+}
+
+upper_mesopotamia_placeholder_area = { #12
+	provinces = { 9535 9537 9538 9539 9540 9541 }
 }
 
 orontes_area = { #?
