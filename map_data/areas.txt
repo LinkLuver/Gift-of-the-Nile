@@ -724,7 +724,7 @@ contestania_septentrionalis_area = { #9
 }
 
 corduene_area = { #12
-	provinces = { 833 834 841 842 843 845 856 857 869 870 877 878 868 9488 }
+	provinces = { 841 842 843 845 9537 9538 9539 9540 846 9556 9541 992 856 }
 }
 
 coritania_area = { #12
@@ -957,7 +957,7 @@ euboea_area = { #10
 }
 
 euphrates_area = { #12
-	provinces = { 824 825 826 827 828 829 905 906 907 908 953 954 902 904 }
+	provinces = { 824 825 826 827 828 829 905 906 907 908 953 954 902 904 823 }
 }
 
 europa_area = { #12
@@ -1859,7 +1859,7 @@ nile_river_area = { #35
 }
 
 niniveh_area = { #11
-	provinces = { 773 862 864 866 867 882 865 9527 9528 9489 9495 9499 9500 }
+	provinces = { 862 864 867 882 865 9527 9528 9489 9495 9499 9500 }
 }
 
 noricum_mediterranum_area = { #17
@@ -1963,7 +1963,7 @@ oretania_area = { #11
 }
 
 osroene_area = { #12
-	provinces = { 817 818 819 820 840 844 848 849 853 854 879 1847 }
+	provinces = { 817 818 819 820 840 844 848 849 853 854 879 1847 877 821 }
 }
 
 ossioia_area = { #5
@@ -2064,11 +2064,11 @@ pars_area = { #11
 }
 
 parsatunik_area = { #10
-	provinces = { 1500 1528 1529 1530 1531 1532 1534 1539 1559 }
+	provinces = { 1500 1528 1529 1530 1531 1532 1534 1539 1559 997 }
 }
 
 parskahayk_area = { #12
-	provinces = { 997 1502 1503 1504 1505 1506 1507 1508 1509 1511 1518 1519 }
+	provinces = { 1502 1503 1504 1505 1506 1507 1508 1509 1511 1518 1519 }
 }
 
 parthia_area = { #11
@@ -2461,7 +2461,7 @@ sogdiana_area = { #12
 }
 
 sophene_area = { #11
-	provinces = { 235 858 859 860 1855 1856 1857 8007 8008 8009 8010 }
+	provinces = { 235 858 859 860 1855 1856 1857 8007 8008 8009 8010 878 }
 }
 
 souss_area = { #12
@@ -2806,11 +2806,23 @@ upper_macedonia_area = { #10
 }
 
 upper_mesopotamia_area = { #12
-	provinces = { 821 822 823 830 831 832 855 871 872 873 874 876 9494 }
+	provinces = { 855 871 857 869 870 9562 9555 9557 9559 9560 9561 }
 }
 
-upper_mesopotamia_placeholder_area = { #12
-	provinces = { 9535 9537 9538 9539 9540 9541 }
+nisibin_area = { #12
+	provinces = { 830 773 868 873 9494 876 9570 9572 9574 }
+}
+
+shingar_area = { #12
+	provinces = { 831 9569 9571 9573 9575 9576 9577 9578 }
+}
+
+upper_mesopotamia_placeholder_area = { #14
+	provinces = { 9535 9544 9545 9546 9547 9548 9551 9552 9553 9554 833 834 9488 866 }
+}
+
+upper_mesopotamia_placeholder_area_two = { #10
+	provinces = { 9563 9564 9565 9566 9567 9568 822 832 874 872 }
 }
 
 orontes_area = { #?
@@ -2862,7 +2874,7 @@ vasconia_area = { #11
 }
 
 vaspurakan_area = { #12
-	provinces = { 846 987 988 989 991 992 995 996 998 999 1560 1561 9530 9531 }
+	provinces = { 987 988 989 991 995 996 998 999 1560 1561 9530 9531 9549 9550 }
 }
 
 veh_kavad_area = { #14
