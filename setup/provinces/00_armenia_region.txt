@@ -14,35 +14,6 @@
 	}
 }
 
-846={ #Cymiza
-	terrain="hills"
-	culture="arzasha"
-	religion="anahitic_religion"
-	trade_goods="vegetables"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		religion="carthaginian_pantheon"
-		amount=1
-	}
-	slaves={
-		amount=3
-	}
-	slaves={
-		religion="mithra_religion"
-		amount=2
-	}
-	tribesmen={
-		culture="qedarite"
-		religion="arabian_pantheon"
-		amount=2
-	}
-}
-
 978={ #Tatwan
 	terrain="hills"
 	culture="arzasha"
@@ -65,7 +36,7 @@
 }
 
 987={ #Zoaranda
-	terrain="hills"
+	terrain="mountain"
 	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="grain"
@@ -88,7 +59,7 @@
 }
 
 988={ #Tushpa
-	terrain="forest"
+	terrain="farmland"
 	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="horses"
@@ -108,7 +79,7 @@
 }
 
 989={ #Bulak
-	terrain="hills"
+	terrain="mountain"
 	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="stone"
@@ -166,29 +137,6 @@
 	}
 	tribesmen={
 		amount=2
-	}
-}
-
-992={ #Balaleisa
-	terrain="mountain"
-	culture="arzasha"
-	religion="anahitic_religion"
-	trade_goods="vegetables"
-	civilization_value=16
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		religion="zoroaster"
-		amount=1
 	}
 }
 
@@ -294,7 +242,7 @@
 }
 
 998={ #Artamat
-	terrain="hills"
+	terrain="plains"
 	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="vegetables"
@@ -376,7 +324,7 @@
 }
 
 1502={ #Tasuk
-	terrain="hills"
+	terrain="plains"
 	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="grain"
@@ -459,7 +407,7 @@
 }
 
 1506={ #Ormi
-	terrain="plains"
+	terrain="farmland"
 	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="grain"
@@ -529,8 +477,8 @@
 	}
 }
 
-1511={ #Vovea
-	terrain="hills"
+1511={ #Mehrapat
+	terrain="plains"
 	culture="median"
 	religion="zoroaster"
 	trade_goods="wood"
@@ -547,7 +495,7 @@
 }
 
 1518={ #Araskh
-	terrain="plains"
+	terrain="farmland"
 	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="vegetables"
@@ -564,7 +512,7 @@
 }
 
 1519={ #Mari
-	terrain="hills"
+	terrain="mountain"
 	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="fish"
@@ -585,27 +533,8 @@
 	}
 }
 
-1527={ #Parsk
-	terrain="plains"
-	culture="arzasha"
-	religion="zoroaster"
-	trade_goods="cattle"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
 1528={ #Marand
-	terrain="hills"
+	terrain="plains"
 	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="leather"
@@ -624,7 +553,7 @@
 }
 
 1529={ #Darman
-	terrain="hills"
+	terrain="plains"
 	culture="arzasha"
 	religion="mithra_religion"
 	trade_goods="cattle"
@@ -681,7 +610,7 @@
 }
 
 1532={ #Zarawand
-	terrain="hills"
+	terrain="plains"
 	culture="armenian"
 	religion="zoroaster"
 	trade_goods="stone"
@@ -2189,6 +2118,94 @@
 	tribesmen={
 		religion="zoroaster"
 		amount=1
+	}
+}
+
+9530={ #PROV9530
+	terrain="mountain"
+	culture="assyrian"
+	religion="mesopotamian_religion"
+	trade_goods="stone"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9531={ #PROV9531
+	terrain="hills"
+	culture="assyrian"
+	religion="mesopotamian_religion"
+	trade_goods="cattle"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9549={ #PROV9549
+	terrain="mountain"
+	culture="cardukoi"
+	religion="mesopotamian_religion"
+	trade_goods="stone"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9550={ #PROV9550
+	terrain="marsh"
+	culture="cardukoi"
+	religion="mesopotamian_religion"
+	trade_goods="cattle"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
 	}
 }
 

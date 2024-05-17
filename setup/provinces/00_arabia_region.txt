@@ -1434,7 +1434,7 @@
 	}
 }
 
-7197={ #Itamos
+7197={ #
 	terrain="desert"
 	culture="gerrhan"
 	religion="arabian_pantheon"
@@ -1965,6 +1965,26 @@
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7566={ #Arabia Deserta
+	terrain="desert"
+	culture="qedarite"
+	religion="mesopotamian_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7567={ #Arabia Deserta
+	terrain="desert"
+	culture="babylonian"
+	religion="mesopotamian_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0

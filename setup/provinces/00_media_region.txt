@@ -1,5 +1,98 @@
-﻿1510={ #Shno
+﻿959={ #Sharzur
+	terrain="plains"
+	culture="assyrian"
+	religion="mesopotamian_religion"
+	trade_goods="cattle"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+981={ #Halman
+	terrain="hills"
+	culture="assyrian"
+	religion="mesopotamian_religion"
+	trade_goods="leather"
+	civilization_value=34
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=10
+	}
+	citizen={
+		culture="babylonian"
+		religion="mesopotamian_religion"
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	freemen={
+		culture="median"
+		religion="zoroaster"
+		amount=2
+	}
+	slaves={
+		amount=6
+	}
+	slaves={
+		culture="babylonian"
+		religion="mesopotamian_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		culture="babylonian"
+		religion="mesopotamian_religion"
+		amount=1
+	}
+}
+
+982={ #Yazdigird
+	terrain="hills"
+	culture="assyrian"
+	religion="mesopotamian_religion"
+	trade_goods="leather"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+983={ #Pehul
 	terrain="mountain"
+	culture="assyrian"
+	religion="mesopotamian_religion"
+	trade_goods="base_metals"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+1510={ #Shno
+	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
 	trade_goods="cattle"
@@ -38,8 +131,8 @@
 	}
 }
 
-1513={ #Barozha
-	terrain="mountain"
+1513={ #Piranshahr
+	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
 	trade_goods="wood"
@@ -57,7 +150,7 @@
 	}
 }
 
-1514={ #Fakhrikah
+1514={ #Pasveh
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -78,7 +171,7 @@
 }
 
 1515={ #Ganzak
-	terrain="hills"
+	terrain="farmland"
 	culture="median"
 	religion="mithra_religion"
 	trade_goods="wood"
@@ -107,7 +200,7 @@
 }
 
 1516={ #Shah Tepe
-	terrain="plains"
+	terrain="marsh"
 	culture="median"
 	religion="mithra_religion"
 	trade_goods="horses"
@@ -126,7 +219,7 @@
 	}
 }
 
-1517={ #Zir Tepe
+1517={ #Sacapeni
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -286,6 +379,25 @@
 	}
 }
 
+1527={ #Parsk
+	terrain="plains"
+	culture="arzasha"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
 1552={ #Adjalu
 	terrain="hills"
 	culture="median"
@@ -427,7 +539,7 @@
 	}
 }
 
-1565={ #Shahi Island
+1565={ #Sarav
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -447,7 +559,7 @@
 	}
 }
 
-1574={ #Pylai Kelishinias
+1574={ #Median Gates
 	terrain="mountain"
 	culture="median"
 	religion="mithra_religion"
@@ -691,6 +803,23 @@
 	}
 	tribesmen={
 		amount=2
+	}
+}
+
+1603={ #Zagrou Pylai
+	terrain="mountain"
+	culture="cossian"
+	religion="mesopotamian_religion"
+	trade_goods="stone"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		culture="assyrian"
+		amount=1
+	}
+	tribesmen={
+		amount=4
 	}
 }
 
@@ -1542,6 +1671,41 @@
 	}
 }
 
+4970={ #Cheshme
+	terrain="mountain"
+	culture="cossian"
+	religion="mesopotamian_religion"
+	trade_goods="marble"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4971={ #Pusht
+	terrain="mountain"
+	culture="cossian"
+	religion="mesopotamian_religion"
+	trade_goods="marble"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
 4972={ #Gabai
 	terrain="hills"
 	culture="median"
@@ -1815,7 +1979,7 @@
 }
 
 4985={ #Rasht
-	terrain="hills"
+	terrain="forest"
 	culture="cadusian"
 	religion="mithra_religion"
 	trade_goods="silk"
@@ -1861,7 +2025,7 @@
 }
 
 4986={ #Padishkhvargar
-	terrain="farmland"
+	terrain="forest"
 	culture="cadusian"
 	religion="mithra_religion"
 	trade_goods="grain"
@@ -2392,6 +2556,50 @@
 	tribesmen={
 		religion="mithra_religion"
 		amount=2
+	}
+}
+
+9518={ #PROV9518
+	terrain="plains"
+	culture="assyrian"
+	religion="mesopotamian_religion"
+	trade_goods="earthware"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9534={ #PROV9534
+	terrain="mountain"
+	culture="median"
+	religion="mesopotamian_religion"
+	trade_goods="cattle"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
 	}
 }
 
