@@ -2603,3 +2603,25 @@
 	}
 }
 
+9579={ #PROV9577
+	terrain="desert"
+	culture="cardukoi"
+	religion="mesopotamian_religion"
+	trade_goods="wild_game"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
