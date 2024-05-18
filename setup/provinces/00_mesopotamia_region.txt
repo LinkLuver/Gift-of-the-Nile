@@ -195,7 +195,7 @@
 
 894={ #Maskin
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=33
@@ -208,7 +208,7 @@
 
 895={ #'Awana
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=33
@@ -224,7 +224,7 @@
 
 896={ #Halashar
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="fruits"
 	civilization_value=31
@@ -251,8 +251,8 @@
 
 897={ #Daskara
 	terrain="plains"
-	culture="babylonian"
-	religion="zoroaster"
+	culture="sutean"
+	religion="mesopotamian_religion"
 	trade_goods="wine"
 	civilization_value=31
 	barbarian_power=0
@@ -278,7 +278,7 @@
 
 898={ #Nahrawan
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=33
@@ -313,7 +313,7 @@
 
 900={ #Dumra
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="glass"
 	civilization_value=33
@@ -467,7 +467,7 @@
 
 909={ #Naharda
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=33
@@ -852,7 +852,7 @@
 
 926={ #Didhhofli
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="sittacenean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=33
@@ -868,23 +868,29 @@
 
 927={ #Stagh
 	terrain="plains"
-	culture="babylonian"
+	culture="sittacenean"
 	religion="mesopotamian_religion"
 	trade_goods="horses"
 	civilization_value=33
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	nobles={
 		amount=1
 	}
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=8
+	}
 	slaves={
-		amount=3
+		amount=13
 	}
 }
 
 928={ #Deru
 	terrain="plains"
-	culture="babylonian"
+	culture="sittacenean"
 	religion="mesopotamian_religion"
 	trade_goods="honey"
 	civilization_value=29
@@ -935,7 +941,7 @@
 
 930={ #Kisik
 	terrain="marsh"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="leather"
 	civilization_value=33
@@ -969,7 +975,7 @@
 
 932={ #Karkaru
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="horses"
 	civilization_value=33
@@ -985,7 +991,7 @@
 
 933={ #Dighva
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="wine"
 	civilization_value=40
@@ -1025,7 +1031,7 @@
 
 934={ #Kashkar
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="wine"
 	civilization_value=27
@@ -1041,7 +1047,7 @@
 
 935={ #Girsu
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="steppe_horses"
 	civilization_value=27
@@ -1057,7 +1063,7 @@
 
 936={ #Medain
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=27
@@ -1080,7 +1086,7 @@
 
 937={ #Uruk
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="incense"
 	civilization_value=37
@@ -1110,7 +1116,7 @@
 
 938={ #Nina
 	terrain="marsh"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="spices"
 	civilization_value=27
@@ -1126,7 +1132,7 @@
 
 939={ #Larsa
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="earthware"
 	civilization_value=27
@@ -1157,7 +1163,7 @@
 
 942={ #'Aflogh
 	terrain="marsh"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="dates"
 	civilization_value=27
@@ -1242,7 +1248,7 @@
 
 961={ #Adab
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=33
@@ -1299,7 +1305,7 @@
 
 964={ #Tiridatish
 	terrain="marsh"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="earthware"
 	civilization_value=27
@@ -1316,7 +1322,7 @@
 
 965={ #Itamos
 	terrain="marsh"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="dates"
 	civilization_value=27
@@ -1335,7 +1341,7 @@
 
 968={ #Iritu
 	terrain="marsh"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
 	civilization_value=28
@@ -1363,7 +1369,7 @@
 
 976={ #Savdhah
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="sittacenean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=31
@@ -1379,7 +1385,7 @@
 
 977={ #Shathrafan
 	terrain="plains"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=31
@@ -1395,7 +1401,7 @@
 
 979={ #Mandali
 	terrain="plains"
-	culture="babylonian"
+	culture="sittacenean"
 	religion="mesopotamian_religion"
 	trade_goods="fruits"
 	civilization_value=31
@@ -1426,7 +1432,7 @@
 
 5399={ #Hawmah
 	terrain="desert"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="camel"
 	civilization_value=5
@@ -1439,7 +1445,7 @@
 
 7723={ #Uru
 	terrain="marsh"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=27
@@ -1459,7 +1465,7 @@
 
 9297={ #Umma
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="spices"
 	civilization_value=27
@@ -1475,7 +1481,7 @@
 
 9298={ #Lagash
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="spices"
 	civilization_value=27
@@ -1491,7 +1497,7 @@
 
 9299={ #Hmara
 	terrain="marsh"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=27
@@ -1507,7 +1513,7 @@
 
 9432={ #PROV9432
 	terrain="desert"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="wild_game"
 	civilization_value=33
@@ -1520,7 +1526,7 @@
 
 9433={ #PROV9433
 	terrain="desert"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="camel"
 	civilization_value=33
@@ -1533,7 +1539,7 @@
 
 9434={ #PROV9434
 	terrain="plains"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
 	civilization_value=33
@@ -1546,7 +1552,7 @@
 
 9435={ #PROV9435
 	terrain="plains"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=33
@@ -1559,7 +1565,7 @@
 
 9436={ #PROV9436
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="earthware"
 	civilization_value=33
@@ -1572,7 +1578,7 @@
 
 9437={ #PROV9437
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=33
@@ -1585,7 +1591,7 @@
 
 9438={ #PROV9438
 	terrain="plains"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="cloth"
 	civilization_value=33
@@ -1598,7 +1604,7 @@
 
 9439={ #PROV9439
 	terrain="plains"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="dates"
 	civilization_value=33
@@ -1611,7 +1617,7 @@
 
 9440={ #PROV9440
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=33
@@ -1624,7 +1630,7 @@
 
 9441={ #PROV9441
 	terrain="plains"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="leather"
 	civilization_value=33
@@ -1637,7 +1643,7 @@
 
 9442={ #PROV9442
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="wine"
 	civilization_value=33
@@ -1650,7 +1656,7 @@
 
 9443={ #PROV9443
 	terrain="plains"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=33
@@ -1663,7 +1669,7 @@
 
 9444={ #PROV9444
 	terrain="plains"
-	culture="babylonian"
+	culture="sittacenean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=33
@@ -1676,7 +1682,7 @@
 
 9445={ #PROV9445
 	terrain="plains"
-	culture="babylonian"
+	culture="sittacenean"
 	religion="mesopotamian_religion"
 	trade_goods="wine"
 	civilization_value=33
@@ -1689,7 +1695,7 @@
 
 9446={ #PROV9446
 	terrain="plains"
-	culture="babylonian"
+	culture="sittacenean"
 	religion="mesopotamian_religion"
 	trade_goods="dates"
 	civilization_value=33
@@ -1702,7 +1708,7 @@
 
 9447={ #PROV9447
 	terrain="plains"
-	culture="babylonian"
+	culture="sittacenean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=33
@@ -1715,7 +1721,7 @@
 
 9448={ #PROV9448
 	terrain="plains"
-	culture="babylonian"
+	culture="sittacenean"
 	religion="mesopotamian_religion"
 	trade_goods="cloth"
 	civilization_value=33
@@ -1728,7 +1734,7 @@
 
 9449={ #PROV9449
 	terrain="plains"
-	culture="babylonian"
+	culture="sittacenean"
 	religion="mesopotamian_religion"
 	trade_goods="spices"
 	civilization_value=33
@@ -1793,7 +1799,7 @@
 
 9455={ #PROV9455
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=33
@@ -1832,7 +1838,7 @@
 
 9458={ #PROV9458
 	terrain="marsh"
-	culture="babylonian"
+	culture="qedarite"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=33
@@ -1858,7 +1864,7 @@
 
 9460={ #PROV9460
 	terrain="marsh"
-	culture="babylonian"
+	culture="qedarite"
 	religion="mesopotamian_religion"
 	trade_goods="camel"
 	civilization_value=33
@@ -1871,7 +1877,7 @@
 
 9461={ #PROV9461
 	terrain="marsh"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="base_metals"
 	civilization_value=33
@@ -1884,7 +1890,7 @@
 
 9462={ #PROV9462
 	terrain="marsh"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=33
@@ -1962,7 +1968,7 @@
 
 9468={ #PROV9468
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=33
@@ -1975,7 +1981,7 @@
 
 9469={ #PROV9469
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="dates"
 	civilization_value=33
@@ -1988,7 +1994,7 @@
 
 9470={ #PROV9470
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=33
@@ -2014,7 +2020,7 @@
 
 9472={ #PROV9472
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="cloth"
 	civilization_value=33
@@ -2027,7 +2033,7 @@
 
 9473={ #PROV9473
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="leather"
 	civilization_value=33
@@ -2040,7 +2046,7 @@
 
 9474={ #PROV9474
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=33
@@ -2053,7 +2059,7 @@
 
 9475={ #PROV9475
 	terrain="marsh"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="incense"
 	civilization_value=33
@@ -2066,7 +2072,7 @@
 
 9476={ #PROV9476
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="cloth"
 	civilization_value=33
@@ -2079,7 +2085,7 @@
 
 9477={ #PROV9477
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="fish"
 	civilization_value=33
@@ -2092,7 +2098,7 @@
 
 9478={ #PROV9478
 	terrain="plains"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=33
@@ -2105,7 +2111,7 @@
 
 9479={ #PROV9479
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=33
@@ -2118,7 +2124,7 @@
 
 9480={ #PROV9480
 	terrain="marsh"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
 	civilization_value=33
@@ -2131,7 +2137,7 @@
 
 9481={ #PROV9481
 	terrain="marsh"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="horses"
 	civilization_value=33
@@ -2144,7 +2150,7 @@
 
 9482={ #PROV9482
 	terrain="plains"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=33
@@ -2157,7 +2163,7 @@
 
 9483={ #PROV9483
 	terrain="marsh"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=33
@@ -2170,7 +2176,7 @@
 
 9484={ #PROV9484
 	terrain="marsh"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="fish"
 	civilization_value=33
@@ -2183,7 +2189,7 @@
 
 9485={ #PROV9485
 	terrain="marsh"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=33
