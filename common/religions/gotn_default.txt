@@ -1,4 +1,4 @@
-﻿# Neo-Axial Age
+﻿# GotN Religions
 aten_religion = { # Atenic
 	color = hsv { 0.2  0.5  1 }
 	modifier = { 
@@ -173,4 +173,15 @@ sarna_pantheon = { # Sarnaism
 	religion_category = pantheon
 	sacrifice_icon = sacrifice_incense
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+
+#Invictus Ports
+eastern_animism = { # Swanco
+	color = hsv { 0.8 0.35 0.54 }
+	modifier = { 
+		omen_power = 0.1
+		global_population_happiness = 0.03
+		fort_maintenance_cost = 0.1
+	}
+	religion_category = pantheon
 }
