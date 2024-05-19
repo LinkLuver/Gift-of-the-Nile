@@ -75,7 +75,7 @@
 
 943={ #Hidalu
 	terrain="plains"
-	culture="uxian"
+	culture="anshanite"
 	religion="elamite_pantheon"
 	trade_goods="grain"
 	civilization_value=31
@@ -270,7 +270,7 @@
 
 951={ #Ayapir
 	terrain="hills"
-	culture="uxian"
+	culture="anshanite"
 	religion="elamite_pantheon"
 	trade_goods="stone"
 	civilization_value=29
@@ -289,7 +289,7 @@
 
 952={ #Tisiyan
 	terrain="hills"
-	culture="uxian"
+	culture="anshanite"
 	religion="elamite_pantheon"
 	trade_goods="wild_game"
 	civilization_value=29
@@ -308,7 +308,7 @@
 
 966={ #Huhnuri
 	terrain="hills"
-	culture="uxian"
+	culture="anshanite"
 	religion="elamite_pantheon"
 	trade_goods="grain"
 	civilization_value=29
@@ -1117,7 +1117,7 @@
 
 4779={ #Salahu
 	terrain="marsh"
-	culture="uxian"
+	culture="anshanite"
 	religion="elamite_pantheon"
 	trade_goods="salt"
 	civilization_value=27
@@ -1141,7 +1141,7 @@
 
 4780={ #Arigan
 	terrain="hills"
-	culture="uxian"
+	culture="anshanite"
 	religion="elamite_pantheon"
 	trade_goods="marble"
 	civilization_value=29
@@ -1187,7 +1187,7 @@
 		amount=7
 	}
 	tribesmen={
-		culture="uxian"
+		culture="anshanite"
 		religion="elamite_pantheon"
 		amount=4
 	}
@@ -1195,7 +1195,7 @@
 
 4782={ #Tulaspid
 	terrain="hills"
-	culture="uxian"
+	culture="anshanite"
 	religion="elamite_pantheon"
 	trade_goods="earthware"
 	civilization_value=29
@@ -1221,7 +1221,7 @@
 
 4784={ #Erishanu
 	terrain="desert"
-	culture="uxian"
+	culture="anshanite"
 	religion="elamite_pantheon"
 	trade_goods="fish"
 	civilization_value=28
@@ -1243,7 +1243,7 @@
 
 4785={ #Zilittu
 	terrain="hills"
-	culture="uxian"
+	culture="anshanite"
 	religion="elamite_pantheon"
 	trade_goods="cattle"
 	civilization_value=29
@@ -1267,7 +1267,7 @@
 
 4786={ #Dakkanu
 	terrain="plains"
-	culture="uxian"
+	culture="anshanite"
 	religion="elamite_pantheon"
 	trade_goods="elephants"
 	civilization_value=31
@@ -1293,7 +1293,7 @@
 
 4787={ #Liyan
 	terrain="desert"
-	culture="uxian"
+	culture="anshanite"
 	religion="elamite_pantheon"
 	trade_goods="salt"
 	civilization_value=28
@@ -1647,7 +1647,7 @@
 		amount=5
 	}
 	tribesmen={
-		culture="uxian"
+		culture="anshanite"
 		religion="elamite_pantheon"
 		amount=6
 	}
@@ -1825,7 +1825,7 @@
 
 4977={ #Abadeh
 	terrain="hills"
-	culture="uxian"
+	culture="anshanite"
 	religion="elamite_pantheon"
 	trade_goods="vegetables"
 	civilization_value=29

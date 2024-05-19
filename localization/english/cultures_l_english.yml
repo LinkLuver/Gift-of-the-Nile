@@ -39,6 +39,8 @@
  elam:0 "Elamite"
  armenian_group:0 "Armenian"
  adivasi:0 "Adivasi"
+ xiyu:0 "Tocharian"
+ east_semetic:0 "Magani"
 
  #Adivasi
  bhil:0 "Bhil"
@@ -85,8 +87,10 @@
  wusun:0 "Wusun"
  saka:2 "Khotanese"
  yuezhi:0 "Yuezhi"
- tocharian:0 "Tocharian"
  khotanese:0 "Khotanese"
+ #Tocharian
+ tocharian:0 "Tocharian"
+ loulan:0 "Loulan"
  #Gaelic
  manavian:0 "Manavian"
  hibernian:0 "Hibernian"
@@ -373,12 +377,14 @@
  capariensian:0 "Capariensian"
  abannaean:0 "Abannaean"
  cetianian:0 "Cetianian"
- #Persian
+ #Elamite
  elamite:0 "Susian"
  utian:0 "Utian"
+ anshanite:0 "Anshanite"
+ uxian:0 "Uxian"
+ #Persian
  pasargadi:0 "Persian"
  sagartian:0 "Agartian"
- uxian:0 "Anshanite"
  amardian:0 "Amardian"
  sarangian:0 "Sarangian"
  pactyan:0 "Pactyan"
