@@ -1020,11 +1020,23 @@ persis_region = { #8 areas
 		ardashir_area
 		harmozeia_area
 		media_felix_area
-		pars_area
 		persepolis_area
-		susiana_area
 		utia_area
 		veshapur_area
+	}
+}
+
+elam_region = { #8 areas
+	color = rgb { 155 194 150 }
+	areas = {
+		pars_area
+		susiana_area
+		dur_yarin_area
+		dur_untash_area
+		hidalu_salahu_area
+		tebiru_area
+		cossaea_area
+		anzan_area
 	}
 }
 

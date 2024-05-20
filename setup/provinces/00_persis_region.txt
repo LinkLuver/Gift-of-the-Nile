@@ -957,28 +957,6 @@
 	holy_site=omen_asha
 }
 
-4953={ #Croatis
-	terrain="mountain"
-	culture="pasargadi"
-	religion="elamite_pantheon"
-	trade_goods="wine"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
 4955={ #Oarakta
 	terrain="desert"
 	culture="utian"

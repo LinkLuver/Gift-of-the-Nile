@@ -725,291 +725,568 @@
 	port_building=1
 }
 
-9653={
-	terrain="impassable_terrain"
-	culture="anshanite"
+4948={ #Pylai Sousianes
+	terrain="mountain"
+	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="cattle"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4949={ #Kaupirrish
+	terrain="mountain"
+	culture="pasargadi"
+	religion="elamite_pantheon"
+	trade_goods="glass"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	tribesmen={
+		religion="mithra_religion"
+		amount=1
+	}
+}
+
+4950={ #Anshan
+	terrain="mountain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=2
+	}
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=7
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=5
+	}
+	tribesmen={
+		culture="anshanite"
+		religion="elamite_pantheon"
+		amount=6
+	}
+}
+
+4953={ #Croatis
+	terrain="mountain"
+	culture="pasargadi"
+	religion="elamite_pantheon"
+	trade_goods="wine"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+9653={
+	terrain="plains"
+	culture="anshanite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9654={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="anshanite"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9655={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="anshanite"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9656={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="anshanite"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9657={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="anshanite"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9658={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="anshanite"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9701={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9702={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9703={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9704={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9705={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9706={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9707={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9708={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9709={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9710={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9711={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9712={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9713={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9714={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9715={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9716={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9717={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9718={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9719={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9720={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9721={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9722={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9723={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9724={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9725={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
 9726={
-	terrain="impassable_terrain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
 }
