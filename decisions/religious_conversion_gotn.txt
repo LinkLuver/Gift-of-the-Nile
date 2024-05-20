@@ -1503,24 +1503,24 @@ country_decisions = {
 		}
 	}
 
-	convert_to_assur_religion = {
+	convert_to_ashur_religion = {
 			
 		potential = {
 			num_of_cities >= 1
 			potential_change_religion_trigger = {
-				RELIGION = assur_religion
+				RELIGION = ashur_religion
 			}
 		}
 
 		allow = {
 			could_change_religion_trigger = {
-				RELIGION = assur_religion
+				RELIGION = ashur_religion
 			}
 		}
 
 		effect = {
 			change_religion_effect = {
-				RELIGION = assur_religion
+				RELIGION = ashur_religion
 			}
 		}
 		
@@ -1529,7 +1529,7 @@ country_decisions = {
 			modifier = {
 				add = 1
 				capital_scope = {
-					dominant_province_religion = assur_religion
+					dominant_province_religion = ashur_religion
 				}
 			}
 		}
