@@ -1,46 +1,97 @@
 ﻿l_english:
  kushite_pantheon:0 "Kushitic"
  desc_kushite_pantheon:0 "Heavily influenced by the Egyptians down the Nile, the Kushitic faith has developped as its own traditions, with a version of Horus, Mandulus, leading the pantheon."
+
  aten_religion:0 "Atenic"
  desc_aten_religion:0 "The cult of the Aten started towards the middle of New Kingdom Egypt's religion and formed into its own Henotheistic faith by the time of the prophet Akhenaten. Ever since then, the faith has remained entrenched in Middle Egypt, from the Faiyum to Amarna."
+
  mesopotamian_religion:0 "Mesopotamian"
- desc_mesopotamian_religion:0 "The history of the Chaldean pantheon stretches back many thousands of years. Worshiping gods such as Anu, Enki, and Sin, the devotees of the Chaldean religion construct imposing temples in honor of their chosen God."
+ desc_mesopotamian_religion:0 "The history of the Mesopotamian pantheon stretches back many thousands of years. Worshiping gods such as Anu, Enki, and Sin, the devotees of the Mesopotamian religion construct imposing temples in honor of their chosen God."
+
  zoroaster:0 "Mazdayasna"
+
  zurvan_religion:0 "Zurvanism"
  desc_zurvan_religion:0 "Zurvanism is a branch of traditional Zoroastrianism that has gone quite 'astray,' or so the Mazdayasna may remark. Through foreign influences, the god of time, Zurvan (Zorvan), has been elevated into the central focal point of this cult."
  vaksh_religion:0 "Vakhshic"
+
  elamite_pantheon:0 "Haltamic"
  desc_elamite_pantheon:0 "Haltamic is the ancient Elamite pantheon that has existed since far before the Iranic peoples became the dominant force of the region. The most important deity of this religion during this period is Humban of Anshan, and Inshushinak of Susa. The ancient Haltamic faith lives on with influence from Persia to Dilmun."
  hurrian_pantheon:0 "Teshubic"
+
  sobek_religion:0 "Sobekite"
  desc_sobek_religion:0 "From the priests of the Faiyum, syncretism between the Old Gods and the Aten has resulted in the emmergence of the Cult of Sobek-Aten, the Dazzling Crocodile. His aspects are elevated, and his wife, Renenutet-Nefertiti has also become a part of the pantheon."
+
  assur_religion:0 "Elishite"
  desc_assur_religion:0 "The Cult of Asshur has overtime developed into its own unique henotheistic faith. Promoting Asshur above all else, he and his personal retinue are representative of the Assyrian way of life, or, 'The Way of the Heavens' (Elish)."
+
+ hurrian_pantheon:0 "Teshubic"
+ desc_hurrian_pantheon:0 "The Hurrian pantheon, led by the storm god Teshub, is a rich tapestry of deities and mythologies. Influenced by both Mesopotamian and Hittite cultures, the Teshubic faith centers on the worship of gods who control the forces of nature, ensuring the prosperity and protection of their followers."
+
+ vaksh_religion:0 "Vakhshic"
+ desc_vaksh_religion:0 "The Vakhshic religion, named after the Vakhsh River, is a regional faith that combines elements of Zoroastrianism with local animistic traditions. It venerates the natural spirits of the river, mountains, and sky, emphasizing a deep connection with the environment and the cycles of nature."
+
+ sarna_pantheon:0 "Sarnaism"
+ desc_sarna_pantheon:0 "Sarnaism, the ancient religion of the Chota Nagpur plateau, is deeply rooted in animism and nature worship. The Sarna deity, revered as the protector of the sacred groves, symbolizes the harmony between humans and the natural world, with rituals that celebrate the changing seasons and agricultural cycles."
+
+ sassatavada:0 "Sassatavada"
+ desc_sassatavada:0 "Sassatavada is a philosophical and religious doctrine from ancient India, which asserts the eternal existence of the soul and rejects the concept of a transient, changing self. This belief contrasts sharply with the doctrines of Buddhism and Jainism, emphasizing an unchanging and eternal essence at the core of all beings."
+
+ ajnana:0 "Ajnana"
+ desc_ajnana:0 "Ajnana is an ancient Indian school of thought that focuses on skepticism and agnosticism. Its followers question the possibility of certain knowledge, emphasizing the limitations of human perception and understanding. Ajnana philosophy advocates for a life of simplicity and humility, acknowledging the inherent uncertainty of existence."
+
+ kassapan:0 "Anaitikata"
+ desc_kassapan:0 "Anaitikata, based on the teachings of Purana Kassapa, is an ancient Indian faith that emphasizes moral nihilism and determinism. Purana Kassapa taught that actions, whether good or evil, do not have consequences, rejecting the traditional Indian notions of karma and rebirth. This philosophy advocates for a detached and neutral approach to life, free from the moral and ethical constraints imposed by other religious doctrines."
+
+ masto_pantheon:0 "Mastoic"
+ desc_masto_pantheon:0 "Mastoic is the religion of the Dardic people. They venerate the Masto god, his 12 Masto brothers, and his 9 Duraga sisters. Mastoic also incorporates shamanist and naturalistic beliefs, especially through the Jhankri shamans, who channel spirits and deities. It's likely that Mastoicism predates Vedicism in India; however, it's also possible that it came later. It is generally a mixture of Indo-Iranic and Indo-Aryan origins leading to something completely unique."
+
+ charvaka:0 "Carvaka"
+ desc_charvaka:0 "Carvaka, or Charvaka, also called Lokayata, was a Shramanic faith like Ajivika, Buddhism, and Jainism. Before it was a proper school of thought, Carvaka was a concept generally relating to the denial of the existence of an afterlife. This is the main idea of Carvaka, and thus, it is the most recognizably 'atheist' belief, comparable to Nihlism in modern-day times. Carvaka would have a renaissance of belief in the 7th century, resulting in its prolonged existence until the 12th century before it faded away."
+
+ amun_religion:0 "Ammonism"
+ desc_amun_religion:0 "The Ammonistic faith, particularly venerated in the Siwa Oasis, represents a unique fusion of Egyptian and Libyan religious traditions. The cult of Amun in Siwa is renowned for its powerful oracle, which influenced both local tribes and distant rulers. This tradition emphasizes Amun's role as a hidden, all-knowing deity who provides guidance and protection, revered by the Libyan tribes and the inhabitants of the Western Desert. Pilgrimages to the Siwa Oasis to seek the oracle's wisdom were a vital aspect of this distinct Ammonism worship."
+
+ isis_religion:0 "Assetic"
+ desc_isis_religion:0 "The goddess Isis has always been popular outside of her homeland of Egypt. Asseticism is based upon the beliefs of the Greeks, calling the goddess as 'Isis,' and adapting her into greek mythos. Above all, she is the great goddess who gives the now numerous Hellenic residents of Aegyptos her love and power."
+
+
+ # Conversions
+
+ convert_to_masto_pantheon:0 "Accept Mastoic Beliefs"
+ convert_to_masto_pantheon_desc:0 "The Masto god and his powerful siblings have made an impression upon our country. Some even are seeking the spiritual connection of the Jhankri. We too could accept the religion of the Dardic people as our national faith."
+
+ convert_to_charvaka:0 "Adopt Carvaka Principles"
+ convert_to_charvaka_desc:0 "The questioning of gods themselves has taken root in our capital. Is there an afterlife to look forward to, or is it all just mortal folly? The Carvaka populace has their answer, shall we ourselves forsake the gods in favor of the principles of Carvaka?"
 
  convert_to_elamite_pantheon:0 "Accept Haltamic Pantheon"
  convert_to_elamite_pantheon_desc:0 "The gods who would terrorize those of Sumer and Akkad, lead by Humban in Anshan and Inshushinak in Susa, they have found themselves in the hearts of our people. And now we ask, should we accept the religion of Elam as the religion of our nation."
 
- sarna_pantheon:0 "Sarnaism"
- desc_sarna_pantheon:0 ""
- masto_pantheon:0 "Mastoic"
- desc_masto_pantheon:0 "Mastoic is the religion of the Dardic people. They venerate the Masto god, his 12 Masto brothers, and his 9 Duraga sisters. Mastoic also incorporates shamanist and naturalistic beliefs, especially through the Jhankri shamans, who channel spirits and deities. It's likely that Mastoicism predates Vedicism in India; however, it's also possible that it came later. It is generally a mixture of Indo-Iranic and Indo-Aryan origins leading to something completely unique."
- charvaka:0 "Carvaka"
- desc_charvaka:0 "Carvaka, or Charvaka, also called Lokayata, was a Shramanic faith like Ajivika, Buddhism, and Jainism. Before it was a proper school of thought, Carvaka was a concept generally relating to the denial of the existence of an afterlife. This is the main idea of Carvaka, and thus, it is the most recognizably 'atheist' belief, comparable to Nihlism in modern-day times. Carvaka would have a renaissance of belief in the 7th century, resulting in its prolonged existence until the 12th century before it faded away."
- sassatavada:0 "Sassatavada"
- desc_sassatavada:0 ""
- ajnana:0 "Ajnana"
- desc_ajnana:0 ""
- kassapan:0 "Anaitikata"
- desc_kassapan:0 ""
+ convert_to_amun_religion:0 "Embrace Ammon Faith"
+ convert_to_amun_religion_desc:0 "The powerful cult of Ammon, particularly revered in the Siwa Oasis, has influenced many in our nation. The oracle of Ammon, known for its wisdom and guidance, calls out to our people. Shall we embrace Ammonism and let the Hidden One guide our destiny?"
 
- convert_to_masto_pantheon:0 "Accept Mastoic Beliefs"
- convert_to_masto_pantheon_desc:0 "The Masto god and his powerful siblings have made an impression upon our country. Some even are seeking the spiritual connection of the Jhankri. We too could accept the religion of the Dardic people as our national faith."
- convert_to_charvaka:0 "Adopt Carvaka Principles"
- convert_to_charvaka_desc:0 "The questioning of gods themselves has taken root in our capital. Is there an afterlife to look forward to, or is it all just mortal folly? The Carvaka populace has their answer, shall we ourselves forsake the gods in favor of the principles of Carvaka?"
+ convert_to_sobek_religion:0 "Adopt Sobekite Beliefs"
+ convert_to_sobek_religion_desc:0 "The worship of Sobek, the Dazzling Crocodile, has grown in popularity, especially in the Faiyum region. As Sobek-Aten, his influence merges with that of the Aten, representing a powerful syncretism. Shall we adopt the Sobekite beliefs as our national faith and revere the mighty crocodile god?"
 
+ convert_to_aten_religion:0 "Embrace Atenic Worship"
+ convert_to_aten_religion_desc:0 "The cult of Aten, propagated by the prophet Akhenaten, has remained a significant force in Middle Egypt. Its henotheistic approach and reverence for the sun disk have drawn many followers. Shall we embrace Atenic worship and honor the radiant Aten as our supreme deity?"
 
+ convert_to_assur_religion:0 "Accept Elishite Faith"
+ convert_to_assur_religion_desc:0 "The cult of Asshur, central to the Assyrian way of life, promotes Asshur above all other gods. This henotheistic faith, known as Elishite, represents 'The Way of the Heavens.' Shall we accept the Elishite faith and elevate Asshur as our principal deity, guiding our nation through his divine wisdom?"
 
+ convert_to_sarna_pantheon:0 "Adopt Sarnaic Beliefs"
+ convert_to_sarna_pantheon_desc:0 "The Sarnaic faith, with its rich traditions and spiritual depth, has found a place in the hearts of our people. The worship of Sarna and the veneration of natural forces resonate deeply with our citizens. Shall we adopt Sarnaism as our national religion and align ourselves with the natural world?"
 
+ convert_to_sassatavada:0 "Adopt Sassatavada Principles"
+ convert_to_sassatavada_desc:0 "The teachings of Sassatavada, with its unique perspective on existence and morality, have begun to influence our populace. This Shramanic faith challenges conventional beliefs and offers a distinct path. Shall we adopt Sassatavada principles as the guiding philosophy of our nation?"
+
+ convert_to_ajnana:0 "Embrace Ajnana Teachings"
+ convert_to_ajnana_desc:0 "The skeptical and philosophical teachings of Ajnana have garnered attention among our intellectuals. This ancient Indian tradition questions the certainty of knowledge and emphasizes doubt. Shall we embrace Ajnana teachings and adopt this critical approach as our national doctrine?"
+
+ convert_to_kassapan:0 "Adopt Anaitikata Doctrine"
+ convert_to_kassapan_desc:0 "The doctrines of Anaitikata, based on the teachings of Purana Kassapa, advocate for moral nihilism and determinism. Rejecting traditional notions of karma and rebirth, this faith offers a unique worldview. Shall we adopt the Anaitikata doctrine as the foundation of our national belief system?"
+
+ convert_to_isis_religion:0 "Embrace Assetic Faith"
+ convert_to_isis_religion_desc:0 "The worship of Isis, the goddess of magic, motherhood, and fertility, has spread across our lands. Revered for her protective and nurturing qualities, many call for the embrace of the Assetic faith. Shall we honor Isis and accept her blessings as our guiding spiritual tradition?"
 
 
 

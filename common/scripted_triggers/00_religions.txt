@@ -21,10 +21,10 @@ potential_change_religion_trigger = { #Used by all decisions to change Religion
 }
 
 could_change_religion_trigger = { #Used by all decisions to change Religion
-	political_influence >= 200
+	political_influence >= 100
 	trigger_if = { #monarchy
 		limit = { is_monarchy = yes }
-		legitimacy >= 70
+		legitimacy >= 50
 	}
 	trigger_else_if = { #Republic
 		limit = { is_republic = yes }
@@ -35,7 +35,7 @@ could_change_religion_trigger = { #Used by all decisions to change Religion
 			count = all
 			OR = {
 				is_clan_chief = no
-				loyalty >= 60
+				loyalty >= 50
 			}
 		}
 	}
@@ -126,6 +126,18 @@ country_egyptian_religion_trigger = {
 		religion = sobek_religion
 		religion = amun_religion
 		religion = kushite_pantheon
+	}
+}
+
+country_shramanic_religion_trigger = {
+	OR = {
+		religion = jainism
+		religion = buddhism
+		religion = kassapan
+		religion = charvaka
+		religion = ajivika
+		religion = sassatavada
+		religion = ajnana
 	}
 }
 
@@ -736,6 +748,7 @@ polytheistic_check_religion_trigger = {
 		is_monotheist_religion = no
 		religion = zoroaster
 		religion = zurvan_religion
-		religion = sobek_religion	
+		religion = sobek_religion
+		country_shramanic_religion_trigger = yes
 	}
 }

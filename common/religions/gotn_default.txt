@@ -1,4 +1,4 @@
-﻿# GotN Religions
+﻿# Egypt Religions
 aten_religion = { # Atenic
 	color = hsv { 0.2  0.5  1 }
 	modifier = { 
@@ -18,40 +18,52 @@ sobek_religion = { # Sobekite
 		global_monthly_civilization = 0.02
 		character_loyalty = -3
 	}
+	religion_category = sages
+	can_deify_ruler = yes
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+isis_religion = { # Assetic
+	color = hsv { 0.3  0.8  1 }
+	modifier = { 
+		ruler_popularity_gain = 0.08
+		global_monthly_civilization = 0.02
+		character_loyalty = -3
+	}
 	religion_category = pantheon
 	can_deify_ruler = yes
 	sacrifice_icon = sacrifice_incense
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
-#isis_religion = { # Assetic
-#	color = hsv { 0.3  0.8  1 }
-#	modifier = { 
-#		ruler_popularity_gain = 0.08
-#		global_monthly_civilization = 0.02
-#		character_loyalty = -3
-#	}
-#	religion_category = prophets
-#	can_deify_ruler = yes
-#	sacrifice_icon = sacrifice_incense
-#	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
-#}
-#ashur_religion = { # Asshuric
-#	color = hsv { 0.5 1.0 0.5 }
-#	modifier = { 
-#		agressive_expansion_impact = -0.1
-#		global_defensive = 0.1
-#		general_loyalty = -3
-#	}
-#	religion_category = prophets
-#}
-
-#Polytheist
+amun_religion = { # Ammonism
+	color = hsv { 0.25  0.4  0.7 }
+	modifier = { 
+		oasis_combat_bonus = 0.08
+		omen_power = 0.10
+		pop_food_consumption = 0.03
+	}
+	religion_category = pantheon
+	can_deify_ruler = yes
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
 kushite_pantheon = { # Kushitic
 	color = rgb { 120 60 10 }
 	modifier = { 
 		build_cost = -0.05
 		country_civilization_value = 3.0
 		fort_maintenance_cost = 0.05
+	}
+	religion_category = pantheon
+}
+
+#Polytheist
+ashur_religion = { # Elishite
+	color = hsv { 0.5 1.0 0.5 }
+	modifier = { 
+		agressive_expansion_impact = -0.1
+		global_defensive = 0.1
+		general_loyalty = -3
 	}
 	religion_category = pantheon
 }
