@@ -2565,20 +2565,20 @@ dur_untash_area = { #7
 	provinces = { 950 967 951 952 9713 9714 9715 }
 }
 
-hidalu_salahu_area = { #10
-	provinces = { 943 966 4779 4780 9717 9718 9719 9720 9721 9726 9723 }
+hidalu_salahu_area = { #9
+	provinces = { 943 966 4779 9717 9718 9719 9720 9721 9726 }
 }
 
 tebiru_area = { #7
 	provinces = { 941 969 971 9486 9710 9711 9716 }
 }
 
-pars_area = { #11
-	provinces = { 4782 4784 4785 4786 4787 9724 9725 9660 }
+pars_area = { #7
+	provinces = { 4784 4785 4786 4787 9724 4780 9723 }
 }
 
-anzan_area = { #10
-	provinces = { 4948 4950 4953 9653 9654 9655 9656  }
+anzan_area = { #11
+	provinces = { 4948 4950 4953 9653 9654 9655 9656 4782 9725 9660 4781  }
 }
 
 suvarna_gotra_area = { #11
@@ -2918,7 +2918,7 @@ venetia_area = { #10
 }
 
 veshapur_area = { #11
-	provinces = { 4781 4788 4789 4790 4792 4793 4794 4795 4796 4797 4962 }
+	provinces = { 4788 4789 4790 4792 4793 4794 4795 4796 4797 4962 }
 }
 
 vettonia_meridionalis_area = { #11
