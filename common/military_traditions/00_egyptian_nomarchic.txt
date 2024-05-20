@@ -10,6 +10,13 @@
 			}
 			country_culture_group = north_african
 		}
+		trigger_else = {
+			custom_tooltip = {
+				text = "tradition_unlock_requirement_cultural_decision"
+				has_variable = egyptian_influence
+			}
+			custom_tooltip = tradition_unlock_requirement_egyptian
+		}
 	}
 
 	nomarchic_naval_path_1 = { ###Nomarchic 1A
@@ -80,7 +87,7 @@
 		modifier = { 
 			naval_morale_modifier = 0.1
 		}
-		icon = mauryan_coastal_path_end_bonus
+		icon = levantine_philosophy_start_bonus
 		requires = {nomarchic_naval_path_1}
 	}
 
@@ -88,7 +95,7 @@
 		modifier = { 
 			ship_cost = -0.15
 		}
-		icon = mauryan_coastal_path_end_bonus
+		icon = greek_antigonid_path_2
 		requires = {nomarchic_naval_path_2}
 		on_activate = {
 			ordered_owned_province = {
@@ -107,7 +114,7 @@
 	nomarchic_naval_path_4 = { ###Nomarchic 4A
 		modifier = { enslavement_efficiency = 0.1 }
 		enable_ability = naval_raiding
-		icon = mauryan_coastal_path_end_bonus
+		icon = levantine_arabian_path_5
 		requires = {nomarchic_naval_path_3}
 	}
 	
@@ -142,7 +149,7 @@
 			light_cavalry_discipline = 0.1
 			light_infantry_discipline = 0.1
 		}
-		icon = mauryan_mauryas_path_6
+		icon = levantine_arabian_path_end_bonus
 		requires = {nomarchic_military_path_1}
 		on_activate = {
 			ordered_owned_province = {
@@ -163,7 +170,7 @@
 			light_cavalry_offensive = 0.15
 			light_cavalry_morale = 0.1
 		}
-		icon = mauryan_mauryas_path_6
+		icon = north_african_tribal_path_3
 		requires = {nomarchic_military_path_2a}
 		on_activate = {
 			add_innovation = 2
@@ -184,7 +191,7 @@
 			archers_defensive = 0.05
 			experience_decay = -0.005
 		}
-		icon = mauryan_mauryas_path_6
+		icon = levantine_arabian_path_2
 		requires = {nomarchic_military_path_1}
 		on_activate = {
 			add_military_experience = 40
@@ -196,7 +203,7 @@
 			mercenary_land_maintenance_cost = -0.1
 			max_mercenary_stacks = 1
 		}
-		icon = mauryan_mauryas_path_6
+		icon = levantine_egyptian_path_6
 		requires = {nomarchic_military_path_2b}
 	}
 	
@@ -216,7 +223,7 @@
 			global_population_capacity_modifier = 0.1
 			global_citizen_output = 0.05
 		} 
-		icon = north_african_army_path_4
+		icon = levantine_arabian_path_3
 		requires = { nomarchic_civic_path_1 }
 	}
 	
@@ -237,7 +244,7 @@
 				create_3_slaves_effect = yes
 			}
 		}
-		icon = north_african_army_path_4
+		icon = levantine_greco_path_7
 		requires = { nomarchic_civic_path_2 }
 	}
 }

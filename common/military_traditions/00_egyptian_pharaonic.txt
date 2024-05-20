@@ -11,6 +11,13 @@
 			}
 			country_culture_group = north_african
 		}
+		trigger_else = {
+			custom_tooltip = {
+				text = "tradition_unlock_requirement_cultural_decision"
+				has_variable = egyptian_influence
+			}
+			custom_tooltip = tradition_unlock_requirement_egyptian
+		}
 	}
 
 	pharaonic_military_path_1 = { ###Pharaonic 1A
@@ -18,7 +25,7 @@
 			chariots_defensive = 0.15
 			global_nobles_happyness = 0.01
 		}
-		icon = mauryan_noble_path_1
+		icon = celtic_gallic_path_2
 		requires = {}
 	}
 
@@ -40,7 +47,7 @@
 			light_infantry_defensive = 0.05
 			light_cavalry_defensive = 0.05
 		}
-		icon = mauryan_noble_path_1
+		icon = levantine_arabian_path_3
 		requires = {pharaonic_military_path_2}
 	}
 
@@ -50,7 +57,7 @@
 			archers_offensive = 0.05
 			chariots_morale = 0.05
 		}
-		icon = mauryan_noble_path_1
+		icon = north_african_tribal_path_end_bonus
 		requires = {pharaonic_military_path_3}
 	}
 
@@ -60,7 +67,7 @@
 			light_infantry_discipline = 0.05
 			archers_discipline = 0.05
 		}
-		icon = mauryan_noble_path_1
+		icon = levantine_arabian_path_7
 		requires = {pharaonic_military_path_4a}
 	}
 
@@ -69,7 +76,7 @@
 			desert_combat_bonus = 0.15
 			plains_combat_bonus = 0.15
 		}
-		icon = mauryan_noble_path_1
+		icon = latin_tribal_path_6
 		requires = {pharaonic_military_path_3}
 	}
 
@@ -79,7 +86,7 @@
 			global_tax_modifier = 0.01
 			global_nobles_happyness = 0.01
 		}
-		icon = mauryan_noble_path_1
+		icon = levantine_egyptian_path_7
 		requires = {pharaonic_military_path_4b}
 	}
 
@@ -89,7 +96,7 @@
 			chariots_morale = 0.05
 			experience_decay = -0.005
 		}
-		icon = mauryan_noble_path_1
+		icon = greek_seleucid_path_1
 		requires = {pharaonic_military_path_5b}
 	}
 	
@@ -98,7 +105,7 @@
 			global_construction_cost = -0.05
 			global_freemen_happyness = 0.05
 		}
-		icon = mauryan_coastal_path_5
+		icon = greek_seleucid_path_6
 		requires = {}
 		on_activate = {
 			add_innovation = 2
@@ -111,7 +118,7 @@
 			enact_holy_site_cost_modifier = -0.15
 			global_monthly_civilization = 0.05
 		}
-		icon = mauryan_coastal_path_5
+		icon = levantine_egyptian_path_3
 		requires = {pharaonic_civil_path_1}
 		on_activate = {
 			add_4_free_province_investments = yes
@@ -127,7 +134,7 @@
 		on_activate = {
 			add_innovation = 2
 		}
-		icon = mauryan_coastal_path_5
+		icon = greek_states_path_7
 		requires = {pharaonic_civil_path_2}
 	}
 	
@@ -171,7 +178,7 @@
 		modifier = { 
 			tribute_income_modifier = 0.10
 		}
-		icon = mauryan_coastal_path_5
+		icon = greek_antigonid_path_1
 		requires = {pharaonic_civil_path_2}
 		on_activate = {
 			every_subject = {

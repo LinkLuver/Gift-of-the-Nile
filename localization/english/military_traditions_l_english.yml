@@ -892,6 +892,8 @@
  pharaonic_civil_path_2_desc:0 "Since the time of Khufu and Hemiunu and before, our monument-building tradition has been unrivalled. Drawing on our many centuries of experience in organising our labour force and coordinating construction, let us keep it so."
  pharaonic_civil_path_3a:0 "Functional Fortresses"
  pharaonic_civil_path_3a_desc:0 "Our fortresses have always served multiple purposes, from defence against invasion to food storage. We will continue to use them to their fullest potential."
+ pharaonic_civil_path_3b:0 "Henek Khasewet"
+ pharaonic_civil_path_3b_desc:0 "Foreign tribute is known to us as Henek Khasewet. Egypt often held many tributaries from the lands beyond the Nile, especially in the lands of the Hyksos."
  pharaonic_civil_path_4a:0 "Garrison Towns"
  pharaonic_civil_path_4a_desc:0 "Our network of fortified stations stretching along the Nile and across conquered lands helps us to maintain order and bring divine light to our subjects."
 
@@ -934,7 +936,7 @@
  tradition_unlock_requirement_mauryan:0 "$tradition_unlock_requirement_base$\n   @trigger_no! [GetCultureGroup('aryan').GetName|Y] Culture Group\n   @trigger_no! [GetCultureGroup('tibetan').GetName|Y] Culture Group\n   @trigger_no! [GetCultureGroup('indian').GetName|Y] Culture Group\n   @trigger_no! [GetCultureGroup('pracyan').GetName|Y] Culture Group\n   @trigger_no! [GetCultureGroup('pu').GetName|Y] Culture Group"
  tradition_unlock_requirement_north_african:0 "$tradition_unlock_requirement_base$\n   @trigger_no! [GetCultureGroup('numidian').GetName|Y] Culture Group\n   @trigger_no! [GetCultureGroup('fezzani').GetName|Y] Culture Group\n   @trigger_no! [GetCulture('carthaginian').GetName|Y] Culture"
  tradition_unlock_requirement_persian:0 "$tradition_unlock_requirement_base$\n   @trigger_no! [GetCultureGroup('persia').GetName|Y] Culture Group\n   @trigger_no! [GetCultureGroup('east_levantine').GetName|Y] Culture Group"
- tradition_unlock_requirement_steppe:0 "$tradition_unlock_requirement_base$\n   @trigger_no! [GetCultureGroup('scythia').GetName|Y] Culture Group\n   @trigger_no! [GetCultureGroup('bactrian').GetName|Y] Culture Group\n   @trigger_no! [GetCultureGroup('scythian_east').GetName|Y] Culture Group"
+ tradition_unlock_requirement_steppe:0 "$tradition_unlock_requirement_base$\n   @trigger_no! [GetCultureGroup('scythia').GetName|Y] Culture Group\n   @trigger_no! [GetCultureGroup('bactrian').GetName|Y] Culture Group\n   @trigger_no! [GetCultureGroup('saka_g').GetName|Y] Culture Group"
 
 
  tradition_unlock_requirement_cultural_decision:0 "We have studied their ways of war using the Cultural Decision with the following requirements:"
