@@ -37,3 +37,29 @@
  convert_to_masto_pantheon_desc:0 "The Masto god and his powerful siblings have made an impression upon our country. Some even are seeking the spiritual connection of the Jhankri. We too could accept the religion of the Dardic people as our national faith."
  convert_to_charvaka:0 "Adopt Carvaka Principles"
  convert_to_charvaka_desc:0 "The questioning of gods themselves has taken root in our capital. Is there an afterlife to look forward to, or is it all just mortal folly? The Carvaka populace has their answer, shall we ourselves forsake the gods in favor of the principles of Carvaka?"
+
+
+
+
+
+
+
+ # Egyptian Religious Flavor
+ rel_flavor_kemetic.1.d:0 "We will hold a celebration of the laws of the Aten."
+ country_improvement_appeased_aten:0 "Appeased the Aten"
+ country_improvement_temple_of_nefertiti:0 "Temple to the Prophetess"
+ rel_flavor_kemetic.3.c:0 "Anything for the wife of Akhenaten."
+ festival_of_aten:0 "Festival of the Aten"
+ festival_of_sobek:0 "Festival of Sobek"
+ rel_flavor_kemetic.9.desc_1:0 "Amun-Ra who hears the prayer, who comes at the cry of the poor and distressed...beware of him! Repeat him to son and daughter, to great and small; relate him to generations of generations who have not yet come into being; relate him to fishes in the deep, to birds in heaven; repeat him to him who does not know him and to him who knows him ... Though it may be that the servant is normal in doing wrong, yet the Lord is normal in being merciful. The Lord of Thebes does not spend an entire day angry. As for his anger...in the completion of a moment, there is no remnant. Holding a national festival in honor of the great Amun has been suggested by the High Priest."
+ rel_flavor_kemetic.9.desc_2:0 "Osiris is the god of fertility, agriculture, the afterlife, the dead, resurrection, life, and vegetation in Kemetic religion. He is depicted as a green-skinned deity with a Pharaoh's beard, partially mummy-wrapped at the legs, wearing a distinctive atef crown, and holding a symbolic crook and flail. A national celebration in the honor of Osiris should be held in [SCOPE.GetRootScope.GetCountry.GetCapital.GetName]."
+ rel_flavor_kemetic.9.desc_3:0 "The Pyramid Texts describe the nature of the Pharaoh in different characters as both Horus and Osiris. The Pharaoh as Horus in life becomes the Pharaoh as Osiris in death, where he is united with the other gods. New incarnations of Horus succeeded the deceased Pharaoh on earth in the form of new Pharaohs. We should honor the life of the great Pharaoh by holding a grand religious festival in the name of Horus."
+ rel_flavor_kemetic.9.desc_4:0 "The sun is the giver of life, controlling the ripening of crops which are worked by man. Because of the life-giving qualities of the sun, Egyptians worship the fiery orb as the god Ra. Holding a national religious festival for Ra will ensure our prosperity in the coming years."
+ rel_flavor_kemetic.9.desc_5:0 "The Aten, the radiant sun disk, is the source of all life and the focus of devotion in the worship of the sun. The Aten's rays extend their blessings to all corners of the earth, nurturing the growth of plants and sustaining all living beings. The visible sun, revered for its life-giving light and warmth. A national festival dedicated to the Aten will reaffirm our commitment to this divine light and its central role in our lives. Let us celebrate the Aten's splendor with offerings and hymns, ensuring prosperity and harmony for our land. Proclaim the Aten's glory to every generation, so that his brilliance continues to shine upon us all."
+ rel_flavor_kemetic.9.desc_6:0 "Sobek, the mighty god of the Nile, lord of crocodiles, is the embodiment of strength and protection, symbolizing the fierce and untamed power of the river. Sobek ensures the fertility of the land, controlling the waters that bring life to the fields. Let us honor Sobek, the protector of the people and the provider of sustenance, by holding a grand festival in his name, invoking his blessings for bountiful harvests and unyielding protection. Teach his praise to the young and the old, to the fish in the river and the birds in the sky, so that his mighty presence is known to all."
+ country_improvement_war_aten_blessing:0 "Blessing of the Aten"
+ country_improvement_war_sobek_blessing:0 "Blessing of Sobek"
+ rel_flavor_kemetic.46.f:0 "Sobek shall devour them"
+ rel_flavor_kemetic.46.g:0 "The Aten will eliminate our foes"
+ rel_flavor_kemetic.49.t:0 "The Egyptian Faith"
+ rel_flavor_kemetic.50.t:0 "By the Gods"

@@ -16,8 +16,13 @@
 		add_trait="founder"
 		add_trait="confident"
 		add_trait="victorious"
+		add_trait=pharaoh
 		add_gold=2000
 		add_popularity=100
+		set_variable = {
+        	name = pharaoh_is_alive
+            value = 1
+        }
 		c:EGY={
 			set_as_ruler=char:525
 		}

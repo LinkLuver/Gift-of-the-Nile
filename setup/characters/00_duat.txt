@@ -16,6 +16,7 @@
 		add_martial=15
 		add_charisma=11
 		add_finesse=13
+		add_trait=pharaoh
 	}
 	514={
 		first_name="Akhenaten"
@@ -32,6 +33,7 @@
 		add_martial=7
 		add_charisma=5
 		add_finesse=11
+		add_trait=pharaoh
 		dna="//+rngC3iIHs2ezZAtoCeACVAncCkAKQAgACiAT/ApcCsgJtBJwCcQKEAoQCiAKIA/8DrwK1AoACrgKiAq8CiAFQAVACbgKLAlYCeAKUApQEAgTSATgBUADvAD0CagJqAnQCdAICAnUCWwKBAWQBWAT/AogCbgJuAnYCdgIAAosCdgJ2AWEBYQKBAoEChAKEA58DnwFVAVUDrwOvAm8CbwJiApQEaAFRAnQCdAJ7AnsCiQKJAmYCZgTbBNsDoQOhAoYChgJfAoMC/QJrAm8CbwJxApICeQJ5AWIBYgJQApIDnQOdAosCiwJvAm8BVAFUAH4AfgFnAWcCigKKAKAAoAL/AP0AzADMAqUCpQE1ATUEyQTJALEAsQB/AH8BaQFpAD4APgKSApIAWgBaAVQBVAEoASgAvAC8AJMAkwB/AH8CfwJ/AFYAVgAKAAoBTAFMAuUC5QAAAAACygLKAHwAfAEtAS0C/wL/AqICogCpAKkGrQatAH8AfwXXBdcPFgQiAVIBUgcAAicIHwMkDN8DSwAAAAAAAAAAAAAAAA=="
 	}
 	515={
@@ -47,6 +49,7 @@
 		add_martial=8
 		add_charisma=12
 		add_finesse=8
+		add_trait=pharaoh
 	}
 	516={
 		first_name="Tutankhaten"
@@ -60,6 +63,7 @@
 		no_traits=yes
 		no_stats=yes
 		add_trait="thutmosid"
+		add_trait=pharaoh
 		add_zeal=6
 		add_martial=4
 		add_charisma=8

@@ -10,6 +10,7 @@
 		no_traits=yes
 		add_trait=devout
 		add_trait=depressed
+		add_trait=pharaoh
 		no_stats=yes
 		add_zeal=11
 		add_finesse=7
@@ -18,6 +19,10 @@
 		c:ATN={
 			set_as_ruler=char:517
 		}
+		set_variable = {
+        	name = pharaoh_is_alive
+            value = 1
+        }
 	}
 	518={
 		first_name="Meriaten" #3rd

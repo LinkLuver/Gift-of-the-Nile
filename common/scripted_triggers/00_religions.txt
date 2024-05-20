@@ -118,6 +118,17 @@ country_thracian_religion_trigger = {
 	}
 }
 
+country_egyptian_religion_trigger = {
+	OR = {
+		religion = egyptian_pantheon
+		religion = aten_religion
+		religion = isis_religion
+		religion = sobek_religion
+		religion = amun_religion
+		religion = kushite_pantheon
+	}
+}
+
 own_religious_center_province_trigger = { #List of locations of particular religious importance
 	custom_tooltip = {
 		text = holy_site_tooltip
