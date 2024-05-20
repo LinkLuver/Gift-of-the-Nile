@@ -21,8 +21,8 @@
  sobek_religion:0 "Sobekite"
  desc_sobek_religion:0 "From the priests of the Faiyum, syncretism between the Old Gods and the Aten has resulted in the emmergence of the Cult of Sobek-Aten, the Dazzling Crocodile. His aspects are elevated, and his wife, Renenutet-Nefertiti has also become a part of the pantheon."
 
- assur_religion:0 "Elishite"
- desc_assur_religion:0 "The Cult of Asshur has overtime developed into its own unique henotheistic faith. Promoting Asshur above all else, he and his personal retinue are representative of the Assyrian way of life, or, 'The Way of the Heavens' (Elish)."
+ ashur_religion:0 "Elishite"
+ desc_ashur_religion:0 "The Cult of Asshur has overtime developed into its own unique henotheistic faith. Promoting Asshur above all else, he and his personal retinue are representative of the Assyrian way of life, or, 'The Way of the Heavens' (Elish)."
 
  hurrian_pantheon:0 "Teshubic"
  desc_hurrian_pantheon:0 "The Hurrian pantheon, led by the storm god Teshub, is a rich tapestry of deities and mythologies. Influenced by both Mesopotamian and Hittite cultures, the Teshubic faith centers on the worship of gods who control the forces of nature, ensuring the prosperity and protection of their followers."
@@ -75,8 +75,8 @@
  convert_to_aten_religion:0 "Embrace Atenic Worship"
  convert_to_aten_religion_desc:0 "The cult of Aten, propagated by the prophet Akhenaten, has remained a significant force in Middle Egypt. Its henotheistic approach and reverence for the sun disk have drawn many followers. Shall we embrace Atenic worship and honor the radiant Aten as our supreme deity?"
 
- convert_to_assur_religion:0 "Accept Elishite Faith"
- convert_to_assur_religion_desc:0 "The cult of Asshur, central to the Assyrian way of life, promotes Asshur above all other gods. This henotheistic faith, known as Elishite, represents 'The Way of the Heavens.' Shall we accept the Elishite faith and elevate Asshur as our principal deity, guiding our nation through his divine wisdom?"
+ convert_to_ashur_religion:0 "Accept Elishite Faith"
+ convert_to_ashur_religion_desc:0 "The cult of Asshur, central to the Assyrian way of life, promotes Asshur above all other gods. This henotheistic faith, known as Elishite, represents 'The Way of the Heavens.' Shall we accept the Elishite faith and elevate Asshur as our principal deity, guiding our nation through his divine wisdom?"
 
  convert_to_sarna_pantheon:0 "Adopt Sarnaic Beliefs"
  convert_to_sarna_pantheon_desc:0 "The Sarnaic faith, with its rich traditions and spiritual depth, has found a place in the hearts of our people. The worship of Sarna and the veneration of natural forces resonate deeply with our citizens. Shall we adopt Sarnaism as our national religion and align ourselves with the natural world?"
