@@ -23,14 +23,14 @@ sobek_religion = { # Sobekite
 	sacrifice_icon = sacrifice_incense
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
-isis_religion = { # Assetic
+isis_religion = { # Orphism
 	color = hsv { 0.3  0.8  1 }
 	modifier = { 
 		ruler_popularity_gain = 0.08
 		global_monthly_civilization = 0.02
 		character_loyalty = -3
 	}
-	religion_category = pantheon
+	religion_category = sages
 	can_deify_ruler = yes
 	sacrifice_icon = sacrifice_incense
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"

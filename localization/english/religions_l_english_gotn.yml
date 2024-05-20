@@ -51,8 +51,8 @@
  amun_religion:0 "Ammonism"
  desc_amun_religion:0 "The Ammonistic faith, particularly venerated in the Siwa Oasis, represents a unique fusion of Egyptian and Libyan religious traditions. The cult of Amun in Siwa is renowned for its powerful oracle, which influenced both local tribes and distant rulers. This tradition emphasizes Amun's role as a hidden, all-knowing deity who provides guidance and protection, revered by the Libyan tribes and the inhabitants of the Western Desert. Pilgrimages to the Siwa Oasis to seek the oracle's wisdom were a vital aspect of this distinct Ammonism worship."
 
- isis_religion:0 "Assetic"
- desc_isis_religion:0 "The goddess Isis has always been popular outside of her homeland of Egypt. Asseticism is based upon the beliefs of the Greeks, calling the goddess as 'Isis,' and adapting her into greek mythos. Above all, she is the great goddess who gives the now numerous Hellenic residents of Aegyptos her love and power."
+ isis_religion:0 "Orphism"
+ desc_isis_religion:0 "Orphism, influenced by Pythagoreanism and incorporating elements of Isis mysticism, is a mystical religious movement that emerged in Thrace and Greek controlled Aegyptos. Orphism is named after the legendary poet-hero Orpheus, who was said to have originated the Mysteries of Dionysus. Orphic views and practices have parallels to elements of Pythagoreanism, and various traditions hold that the Pythagoreans or Pythagoras himself authored early Orphic works; alternately, later philosophers believed that Pythagoras was an initiate of Orphism. The goddess Isis and Isis mysticism would be associated with Orphism especially because of Pythagoras."
 
 
  # Conversions
@@ -90,8 +90,9 @@
  convert_to_kassapan:0 "Adopt Anaitikata Doctrine"
  convert_to_kassapan_desc:0 "The doctrines of Anaitikata, based on the teachings of Purana Kassapa, advocate for moral nihilism and determinism. Rejecting traditional notions of karma and rebirth, this faith offers a unique worldview. Shall we adopt the Anaitikata doctrine as the foundation of our national belief system?"
 
- convert_to_isis_religion:0 "Embrace Assetic Faith"
- convert_to_isis_religion_desc:0 "The worship of Isis, the goddess of magic, motherhood, and fertility, has spread across our lands. Revered for her protective and nurturing qualities, many call for the embrace of the Assetic faith. Shall we honor Isis and accept her blessings as our guiding spiritual tradition?"
+ convert_to_isis_religion:0 "Embrace Orphic Beliefs"
+ convert_to_isis_religion_desc:0 "The mystical teachings of Orphism, influenced by Pythagoreanism and enriched with elements of Isis mysticism, have captivated many seeking spiritual enlightenment. Orphism offers insights into the nature of the soul, reincarnation, and the pursuit of spiritual purification. Shall we embrace the mysteries of Orphic beliefs and delve into the depths of divine wisdom?"
+
 
 
 

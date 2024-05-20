@@ -359,47 +359,6 @@ deity_banebdjedet = {
 	}
 }
 
-deity_thoth_hermes = {
-	trigger = {
-		has_dlc = "Heirs of Alexander"
-		polytheistic_check_religion_trigger = yes
-		is_monarchy = yes
-		NOT = { country_culture_group = latin }
-		OR = {
-			AND = {
-				religion = egyptian_pantheon
-				religion_pops_in_country = {
-					target = roman_pantheon
-					value >= common_deity_svalue
-				}
-			}
-			AND = {
-				religion = roman_pantheon
-				religion_pops_in_country = {
-					target = egyptian_pantheon
-					value >= common_deity_svalue
-				}
-			}
-			deity:omen_thoth_hermes = {
-				holy_site_deity_check_trigger = yes
-			}
-		}
-	}
-	icon = deity_diadochi_economy
-	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
-	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
-	religion = egyptian_pantheon
-	deity_category = economy #This Deity uses a Culture slot.
-
-	deification_trigger = {
-		can_deify_trigger = yes
-	}
-
-	on_activate = {
-		culture_apotheosis_characters_effect = yes
-	}
-}
-
 ### Invictus Deity Checks ###
 deity_wadjet = { # WAR
 	trigger = {

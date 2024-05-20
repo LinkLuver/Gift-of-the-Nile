@@ -1280,7 +1280,7 @@ country_decisions = {
 	}
 
 	convert_to_ajnana = {
-			
+		
 		potential = {
 			num_of_cities >= 1
 			potential_change_religion_trigger = {
@@ -1311,37 +1311,37 @@ country_decisions = {
 		}
 	}
 
-convert_to_kassapan = {
+	convert_to_kassapan = {
+			
+		potential = {
+			num_of_cities >= 1
+			potential_change_religion_trigger = {
+				RELIGION = kassapan
+			}
+		}
+
+		allow = {
+			could_change_religion_trigger = {
+				RELIGION = kassapan
+			}
+		}
+
+		effect = {
+			change_religion_effect = {
+				RELIGION = kassapan
+			}
+		}
 		
-	potential = {
-		num_of_cities >= 1
-		potential_change_religion_trigger = {
-			RELIGION = kassapan
-		}
-	}
-
-	allow = {
-		could_change_religion_trigger = {
-			RELIGION = kassapan
-		}
-	}
-
-	effect = {
-		change_religion_effect = {
-			RELIGION = kassapan
-		}
-	}
-	
-	ai_will_do = {
-		factor = 0
-		modifier = {
-			add = 1
-			capital_scope = {
-				dominant_province_religion = kassapan
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				capital_scope = {
+					dominant_province_religion = kassapan
+				}
 			}
 		}
 	}
-}
 
 	convert_to_sassatavada = {
 			
