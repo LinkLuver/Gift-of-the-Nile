@@ -1,0 +1,1015 @@
+﻿#ELAM REGION
+940={ #Dur-Yarin
+	terrain="marsh"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="cloth"
+	civilization_value=56
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=2
+	}
+	citizen={
+		amount=9
+	}
+	freemen={
+		amount=7
+	}
+	freemen={
+		culture="babylonian"
+		religion="zoroaster"
+		amount=1
+	}
+	freemen={
+		culture="babylonian"
+		religion="mesopotamian_religion"
+		amount=1
+	}
+	slaves={
+		culture="babylonian"
+		religion="zoroaster"
+		amount=2
+	}
+	slaves={
+		amount=9
+	}
+	slaves={
+		culture="babylonian"
+		religion="mesopotamian_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="babylonian"
+		religion="mesopotamian_religion"
+		amount=10
+	}
+	holy_site=omen_nanshe
+	port_building=3
+}
+
+941={ #Forat
+	terrain="flood_plain"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="dates"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=5
+	}
+	slaves={
+		culture="elamite"
+		amount=1
+	}
+}
+
+943={ #Hidalu
+	terrain="plains"
+	culture="anshanite"
+	religion="elamite_pantheon"
+	trade_goods="grain"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+945={ #Nagargallu
+	terrain="flood_plain"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="leather"
+	civilization_value=32
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		religion="zoroaster"
+		amount=7
+	}
+	freemen={
+		amount=7
+	}
+	slaves={
+		amount=10
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=5
+	}
+}
+
+946={ #Shushun
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="honey"
+	civilization_value=36
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		culture="pasargadi"
+		religion="zoroaster"
+		amount=2
+	}
+	citizen={
+		amount=10
+	}
+	citizen={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+	freemen={
+		culture="hebrew"
+		religion="judaism"
+		amount=2
+	}
+	freemen={
+		amount=10
+	}
+	slaves={
+		amount=14
+	}
+	slaves={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+	holy_site=omen_daniel
+}
+
+947={ #Madaktu
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="earthware"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		religion="zoroaster"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="cossian"
+		amount=1
+	}
+	slaves={
+		religion="zoroaster"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+948={ #Awan
+	terrain="hills"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="wild_game"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cossian"
+		religion="mesopotamian_religion"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		culture="cossian"
+		religion="mesopotamian_religion"
+		amount=1
+	}
+	slaves={
+		religion="zoroaster"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+949={ #Bendosaboron
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="cattle"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+950={ #Adamdun
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="stone"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="zoroaster"
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+951={ #Ayapir
+	terrain="hills"
+	culture="anshanite"
+	religion="elamite_pantheon"
+	trade_goods="stone"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+952={ #Tisiyan
+	terrain="hills"
+	culture="anshanite"
+	religion="elamite_pantheon"
+	trade_goods="wild_game"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+966={ #Huhnuri
+	terrain="hills"
+	culture="anshanite"
+	religion="elamite_pantheon"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+967={ #Dur Untash
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="grain"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+969={ #Darak
+	terrain="marsh"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="dates"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+970={ #Emedu
+	terrain="marsh"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="vegetables"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="babylonian"
+		amount=1
+	}
+	slaves={
+		religion="zoroaster"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+971={ #Ampe
+	terrain="marsh"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="vegetables"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+972={ #Arac
+	terrain="flood_plain"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="fruits"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		religion="zoroaster"
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+973={ #Ksaya
+	terrain="plains"
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	trade_goods="grain"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+}
+
+974={ #Cossaea
+	terrain="plains"
+	culture="cossian"
+	religion="mesopotamian_religion"
+	trade_goods="leather"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+}
+
+975={ #Gug
+	terrain="marsh"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="cattle"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		religion="zoroaster"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		religion="mesopotamian_religion"
+		amount=1
+	}
+}
+
+980={ #Urua
+	terrain="plains"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="wild_game"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cossian"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4779={ #Salahu
+	terrain="marsh"
+	culture="anshanite"
+	religion="elamite_pantheon"
+	trade_goods="salt"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="zoroaster"
+		amount=2
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+4780={ #Arigan
+	terrain="hills"
+	culture="anshanite"
+	religion="elamite_pantheon"
+	trade_goods="marble"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="zoroaster"
+		amount=5
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4781={ #Kazerun
+	terrain="hills"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods="glass"
+	civilization_value=38
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=2
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		religion="mithra_religion"
+		amount=3
+	}
+	tribesmen={
+		amount=7
+	}
+	tribesmen={
+		culture="anshanite"
+		religion="elamite_pantheon"
+		amount=4
+	}
+}
+
+4782={ #Tulaspid
+	terrain="hills"
+	culture="anshanite"
+	religion="elamite_pantheon"
+	trade_goods="earthware"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=4
+	}
+	freemen={
+		culture="pasargadi"
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4784={ #Erishanu
+	terrain="desert"
+	culture="anshanite"
+	religion="elamite_pantheon"
+	trade_goods="fish"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4785={ #Zilittu
+	terrain="hills"
+	culture="anshanite"
+	religion="elamite_pantheon"
+	trade_goods="cattle"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="zoroaster"
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		religion="zoroaster"
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4786={ #Dakkanu
+	terrain="plains"
+	culture="anshanite"
+	religion="elamite_pantheon"
+	trade_goods="elephants"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	freemen={
+		culture="pasargadi"
+		amount=2
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4787={ #Liyan
+	terrain="desert"
+	culture="anshanite"
+	religion="elamite_pantheon"
+	trade_goods="salt"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		culture="pasargadi"
+		amount=7
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+9653={
+	terrain="impassable_terrain"
+	culture="anshanite"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9654={
+	terrain="impassable_terrain"
+	culture="anshanite"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9655={
+	terrain="impassable_terrain"
+	culture="anshanite"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9656={
+	terrain="impassable_terrain"
+	culture="anshanite"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9657={
+	terrain="impassable_terrain"
+	culture="anshanite"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9658={
+	terrain="impassable_terrain"
+	culture="anshanite"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9701={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9702={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9703={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9704={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9705={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9706={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9707={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9708={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9709={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9710={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9711={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9712={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9713={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9714={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9715={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9716={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9717={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9718={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9719={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9720={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9721={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9722={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9723={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9724={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9725={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+9726={
+	terrain="impassable_terrain"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
