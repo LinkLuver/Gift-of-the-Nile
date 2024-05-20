@@ -743,7 +743,7 @@
 
 4949={ #Kaupirrish
 	terrain="mountain"
-	culture="pasargadi"
+	culture="uxian"
 	religion="elamite_pantheon"
 	trade_goods="glass"
 	civilization_value=27
@@ -790,7 +790,7 @@
 
 4953={ #Croatis
 	terrain="mountain"
-	culture="pasargadi"
+	culture="uxian"
 	religion="elamite_pantheon"
 	trade_goods="wine"
 	civilization_value=27
@@ -887,7 +887,7 @@
 }
 9658={
 	terrain="plains"
-	culture="anshanite"
+	culture="uxian"
 	religion="elamite_pantheon"
 	trade_goods="leather"
 	civilization_value=29

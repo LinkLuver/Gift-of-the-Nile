@@ -200,7 +200,7 @@ arcadia_area = { #10
 }
 
 ardashir_area = { #10
-	provinces = { 3407 3412 3413 3414 3416 3421 3422 3423 3429 3473 }
+	provinces = { 3412 3413 3414 3416 3421 3422 3423 3429 3473 }
 }
 
 aria_area = { #12
@@ -1707,7 +1707,7 @@ media_choromithrene = { #11
 }
 
 media_felix_area = { #10
-	provinces = { 3399 3417 3418 3419 3420 3428 3430 3431 4977 6508 }
+	provinces = { 3399 3417 3418 3419 3420 3428 3430 3431 6508 }
 }
 
 mediomatricia_area = { #14
@@ -2095,8 +2095,16 @@ peraea_area = { #11
 	provinces = { 681 698 699 700 709 710 712 714 716 717 731 }
 }
 
-persepolis_area = { #11
-	provinces = { 3405 3406 4798 4799 4951 4978 6511 4949 9657 9658 }
+persepolis_area = { #13
+	provinces = { 3405 4798 4799 9657 3401 3403 4797 9663 9644 9651 9641 9640 9645 }
+}
+
+pathragada_area = { #11
+	provinces = { 3406 4951 6511 4949 9658 3404 9642 9643 9646 9652 9649 }
+}
+
+uxia_area = { #7
+	provinces = { 4977 4978 9692 9693 9650 9648 9647 }
 }
 
 pharodenia_area = { #15
@@ -2865,8 +2873,16 @@ upper_punt_area = { #12
 	provinces = { 7522 8667 8668 8669 8670 8671 8672 8673 8674 8675 8676 8677 }
 }
 
-utia_area = { #12
-	provinces = { 3400 3401 3402 3403 3404 3408 3409 3410 3411 4955 4956 4957 }
+utia_area = { #10
+	provinces = { 3410 3411 9677 9678 9669 9670 9673 9680 9672 9671 }
+}
+
+lengeh_area = { #8
+	provinces = { 4956 4957 4962 9675 9676 9679 9732 4955 }
+}
+
+darabgird_area = { #11
+	provinces = { 3407 3400 3402 3408 3409 9664 9665 9666 9667 9668 9674 }
 }
 
 vaccaeia_meridionalis_area = { #10
@@ -2918,7 +2934,11 @@ venetia_area = { #10
 }
 
 veshapur_area = { #11
-	provinces = { 4788 4789 4790 4792 4793 4794 4795 4796 4797 4962 }
+	provinces = { 4792 4794 4795 4796 9661 9659 9662 9731 }
+}
+
+siraf_area = { #11
+	provinces = { 4788 4789 4790 9727 9728 9729 9730 4793 }
 }
 
 vettonia_meridionalis_area = { #11
