@@ -881,10 +881,10 @@ mesopotamia_region = { #8 areas
 		euphrates_area
 		meshan_area
 		veh_kavad_area
-		mesopotamia_placeholder_area
-		mesopotamia_placeholder_area_two
-		mesopotamia_placeholder_area_three
-		mesopotamia_placeholder_area_four
+		sippar_area
+		east_sumer
+		east_sutea
+		west_sutea
 		borsip_area
 	}
 }
@@ -1006,8 +1006,8 @@ parthia_region = { #7 areas
 		parthia_komishene_area
 		vishpauzatis_area
 		paraetacene_area
-		rhagai_area
 		namek_area
+		rhagai_area
 		amardia_area
 	}
 }
