@@ -10,7 +10,7 @@
 
  zoroaster:0 "Mazdayasna"
 
- zurvan_religion:0 "Zurvanism"
+ zurvan_religion:0 "Zurvanist"
  desc_zurvan_religion:0 "Zurvanism is a branch of traditional Zoroastrianism that has gone quite 'astray,' or so the Mazdayasna may remark. Through foreign influences, the god of time, Zurvan (Zorvan), has been elevated into the central focal point of this cult."
  vaksh_religion:0 "Vakhshic"
 
@@ -39,8 +39,8 @@
  ajnana:0 "Ajnana"
  desc_ajnana:0 "Ajnana is an ancient Indian school of thought that focuses on skepticism and agnosticism. Its followers question the possibility of certain knowledge, emphasizing the limitations of human perception and understanding. Ajnana philosophy advocates for a life of simplicity and humility, acknowledging the inherent uncertainty of existence."
 
- kassapan:0 "Anaitikata"
- desc_kassapan:0 "Anaitikata, based on the teachings of Purana Kassapa, is an ancient Indian faith that emphasizes moral nihilism and determinism. Purana Kassapa taught that actions, whether good or evil, do not have consequences, rejecting the traditional Indian notions of karma and rebirth. This philosophy advocates for a detached and neutral approach to life, free from the moral and ethical constraints imposed by other religious doctrines."
+ kassapan:0 "Niskriyavada"
+ desc_kassapan:0 "Niskriyavada, based on the teachings of Purana Kassapa, is an ancient Indian faith that emphasizes moral nihilism and determinism. Purana Kassapa taught that actions, whether good or evil, do not have consequences, rejecting the traditional Indian notions of karma and rebirth. This philosophy advocates for a detached and neutral approach to life, free from the moral and ethical constraints imposed by other religious doctrines."
 
  masto_pantheon:0 "Mastoic"
  desc_masto_pantheon:0 "Mastoic is the religion of the Dardic people. They venerate the Masto god, his 12 Masto brothers, and his 9 Duraga sisters. Mastoic also incorporates shamanist and naturalistic beliefs, especially through the Jhankri shamans, who channel spirits and deities. It's likely that Mastoicism predates Vedicism in India; however, it's also possible that it came later. It is generally a mixture of Indo-Iranic and Indo-Aryan origins leading to something completely unique."
@@ -48,13 +48,13 @@
  charvaka:0 "Carvaka"
  desc_charvaka:0 "Carvaka, or Charvaka, also called Lokayata, was a Shramanic faith like Ajivika, Buddhism, and Jainism. Before it was a proper school of thought, Carvaka was a concept generally relating to the denial of the existence of an afterlife. This is the main idea of Carvaka, and thus, it is the most recognizably 'atheist' belief, comparable to Nihlism in modern-day times. Carvaka would have a renaissance of belief in the 7th century, resulting in its prolonged existence until the 12th century before it faded away."
 
- amun_religion:0 "Ammonism"
+ amun_religion:0 "Ammonist"
  desc_amun_religion:0 "The Ammonistic faith, particularly venerated in the Siwa Oasis, represents a unique fusion of Egyptian and Libyan religious traditions. The cult of Amun in Siwa is renowned for its powerful oracle, which influenced both local tribes and distant rulers. This tradition emphasizes Amun's role as a hidden, all-knowing deity who provides guidance and protection, revered by the Libyan tribes and the inhabitants of the Western Desert. Pilgrimages to the Siwa Oasis to seek the oracle's wisdom were a vital aspect of this distinct Ammonism worship."
 
- isis_religion:0 "Orphism"
+ isis_religion:0 "Orphist"
  desc_isis_religion:0 "Orphism, influenced by Pythagoreanism and incorporating elements of Isis mysticism, is a mystical religious movement that emerged in Thrace and Greek controlled Aegyptos. Orphism is named after the legendary poet-hero Orpheus, who was said to have originated the Mysteries of Dionysus. Orphic views and practices have parallels to elements of Pythagoreanism, and various traditions hold that the Pythagoreans or Pythagoras himself authored early Orphic works; alternately, later philosophers believed that Pythagoras was an initiate of Orphism. The goddess Isis and Isis mysticism would be associated with Orphism especially because of Pythagoras."
 
- taoism:0 "Daoism"
+ taoism:0 "Daoist"
  desc_taoism:0 "Daoism, also known as Taoism or the School of the Way, offers a profound philosophical path deeply rooted in ancient Chinese thought. It centers on the concept of the Tao, the eternal and ever-flowing Way, advocating for a harmonious life by aligning with the natural rhythms of the universe. Taoism encourages simplicity, spontaneity, and the cultivation of inner balance as keys to a meaningful existence."
 
 
@@ -90,8 +90,8 @@
  convert_to_ajnana:0 "Embrace Ajnana Teachings"
  convert_to_ajnana_desc:0 "The skeptical and philosophical teachings of Ajnana have garnered attention among our intellectuals. This ancient Indian tradition questions the certainty of knowledge and emphasizes doubt. Shall we embrace Ajnana teachings and adopt this critical approach as our national doctrine?"
 
- convert_to_kassapan:0 "Adopt Anaitikata Doctrine"
- convert_to_kassapan_desc:0 "The doctrines of Anaitikata, based on the teachings of Purana Kassapa, advocate for moral nihilism and determinism. Rejecting traditional notions of karma and rebirth, this faith offers a unique worldview. Shall we adopt the Anaitikata doctrine as the foundation of our national belief system?"
+ convert_to_kassapan:0 "Adopt Niskriyavada Doctrine"
+ convert_to_kassapan_desc:0 "The doctrines of Niskriyavada, based on the teachings of Purana Kassapa, advocate for moral nihilism and determinism. Rejecting traditional notions of karma and rebirth, this faith offers a unique worldview. Shall we adopt the Niskriyavada doctrine as the foundation of our national belief system?"
 
  convert_to_isis_religion:0 "Embrace Orphic Beliefs"
  convert_to_isis_religion_desc:0 "The mystical teachings of Orphism, influenced by Pythagoreanism and enriched with elements of Isis mysticism, have captivated many seeking spiritual enlightenment. Orphism offers insights into the nature of the soul, reincarnation, and the pursuit of spiritual purification. Shall we embrace the mysteries of Orphic beliefs and delve into the depths of divine wisdom?"

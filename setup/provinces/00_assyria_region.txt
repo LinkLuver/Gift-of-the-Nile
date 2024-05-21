@@ -962,7 +962,7 @@
 862={ #Ninive
 	terrain="farmland"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="base_metals"
 	civilization_value=38
 	barbarian_power=0
@@ -1003,7 +1003,7 @@
 		religion="mithra_religion"
 		amount=3
 	}
-	holy_site=omen_ninurta
+	holy_site=omen_asshuritu
 }
 
 863={ #Vledh
@@ -1373,7 +1373,7 @@
 880={ #Arba'ilu
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="glass"
 	civilization_value=26
 	barbarian_power=0
@@ -1427,7 +1427,7 @@
 881={ #Hliz
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="leather"
 	civilization_value=21
 	barbarian_power=0
@@ -1451,7 +1451,7 @@
 882={ #Hleh
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="dates"
 	civilization_value=31
 	barbarian_power=0
@@ -1481,7 +1481,7 @@
 883={ #Ashshur
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="earthware"
 	civilization_value=38
 	barbarian_power=0
@@ -1551,7 +1551,7 @@
 886={ #Nuzi
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="gems"
 	civilization_value=21
 	barbarian_power=0
@@ -1615,7 +1615,7 @@
 889={ #Mthurna
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="wild_game"
 	civilization_value=31
 	barbarian_power=0
@@ -1650,7 +1650,7 @@
 		amount=1
 	}
 	tribesmen={
-		religion="mesopotamian_religion"
+		religion="ashur_religion"
 		amount=1
 	}
 }
@@ -1658,7 +1658,7 @@
 955={ #Kar Nimrud
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="grain"
 	civilization_value=31
 	barbarian_power=0
@@ -1670,7 +1670,7 @@
 		amount=1
 	}
 	freemen={
-		religion="zoroaster"
+		religion="ashur_religion"
 		amount=1
 	}
 }
@@ -1678,7 +1678,7 @@
 956={ #Pelrih
 	terrain="desert"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="wild_game"
 	civilization_value=28
 	barbarian_power=0
@@ -1700,7 +1700,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		religion="mesopotamian_religion"
+		religion="ashur_religion"
 		amount=2
 	}
 	freemen={
@@ -1736,7 +1736,7 @@
 984={ #Hazza
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="wild_game"
 	civilization_value=21
 	barbarian_power=0
@@ -1777,7 +1777,7 @@
 986={ #Grai Darki
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2256,7 +2256,7 @@
 9490={ #PROV9490
 	terrain="hills"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
@@ -2388,7 +2388,7 @@
 9496={ #PROV9496
 	terrain="desert"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="leather"
 	civilization_value=29
 	barbarian_power=0
@@ -2454,7 +2454,7 @@
 9499={ #PROV9499
 	terrain="hills"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2520,7 +2520,7 @@
 9502={ #PROV9502
 	terrain="desert"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
@@ -2542,7 +2542,7 @@
 9503={ #PROV9503
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2564,7 +2564,7 @@
 9504={ #PROV9504
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="wine"
 	civilization_value=29
 	barbarian_power=0
@@ -2608,7 +2608,7 @@
 9506={ #PROV9506
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="honey"
 	civilization_value=29
 	barbarian_power=0

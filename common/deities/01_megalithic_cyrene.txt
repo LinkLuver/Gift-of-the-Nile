@@ -39,14 +39,14 @@ deity_lamia = { # ECONOMY
 		}
 
 	}
-	icon = deity_eloquence
+	icon = deity_wealth
 	passive_modifier = { land_unit_attrition = -0.10 }
 	omen = { global_tax_modifier = omen_global_tax_modifier_svalue  } #Bonus from Omen
 	on_activate = {
 		culture_apotheosis_rel_tech_effect  = yes
 	}
 	religion = amun_religion
-	deity_category = culture #This Deity uses a Culture Slot
+	deity_category = economy #This Deity uses a Culture Slot
 
 	deification_trigger = {
 		can_deify_trigger = yes

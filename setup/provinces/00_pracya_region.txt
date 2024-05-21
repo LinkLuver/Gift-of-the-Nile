@@ -80,7 +80,7 @@
 
 4443={ #Nadikagama
 	terrain="farmland"
-	culture="magadhi"
+	culture="licchavi"
 	religion="ajnana"
 	trade_goods="silk"
 	civilization_value=33
@@ -207,7 +207,7 @@
 
 4448={ #Vaishali
 	terrain="farmland"
-	culture="magadhi"
+	culture="licchavi"
 	religion="ajnana"
 	trade_goods="cloth"
 	civilization_value=33
@@ -377,7 +377,7 @@
 
 4461={ #Dwarbanga
 	terrain="plains"
-	culture="magadhi"
+	culture="licchavi"
 	religion="sassatavada"
 	trade_goods="cattle"
 	civilization_value=10
@@ -397,7 +397,7 @@
 
 4462={ #Modgagiri
 	terrain="farmland"
-	culture="magadhi"
+	culture="licchavi"
 	religion="ajivika"
 	trade_goods="base_metals"
 	civilization_value=33
@@ -964,7 +964,7 @@
 
 7360={ #Sita
 	terrain="plains"
-	culture="magadhi"
+	culture="licchavi"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=26
@@ -1028,7 +1028,7 @@
 
 7367={ #Bhagdatpuram
 	terrain="farmland"
-	culture="magadhi"
+	culture="licchavi"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=28
@@ -1405,7 +1405,7 @@
 
 7479={ #Samastipur
 	terrain="farmland"
-	culture="magadhi"
+	culture="licchavi"
 	religion="jainism"
 	trade_goods="grain"
 	civilization_value=28
@@ -1429,7 +1429,7 @@
 
 7480={ #Saharsa
 	terrain="farmland"
-	culture="magadhi"
+	culture="licchavi"
 	religion="sassatavada"
 	trade_goods="cloth"
 	civilization_value=33
@@ -1453,7 +1453,7 @@
 
 7481={ #Supaul
 	terrain="plains"
-	culture="magadhi"
+	culture="licchavi"
 	religion="hindu"
 	trade_goods="dye"
 	civilization_value=10
@@ -1509,7 +1509,7 @@
 
 7488={ #Bethadipa
 	terrain="plains"
-	culture="magadhi"
+	culture="licchavi"
 	religion="ajivika"
 	trade_goods="cloth"
 	civilization_value=26

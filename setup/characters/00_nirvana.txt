@@ -1,5 +1,4 @@
-﻿
-"Nirvana_MRY"={
+﻿"Nirvana_MRY"={
 	country="MRY"
 	333 = {
 		first_name="Siddhartha"
@@ -101,7 +100,7 @@
 		female=no
 		birth_date=69.3.5
 		death_date=141.8.29
-		culture="himalayan"
+		culture="vrji"
 		religion="hindu"
 		no_stats=yes
 		add_martial=4
@@ -121,7 +120,7 @@
 		female=yes
 		birth_date=75.3.5
 		death_date=148.4.26
-		culture="himalayan"
+		culture="vrji"
 		religion="hindu"
 		no_stats=yes
 		add_martial=1
@@ -154,5 +153,74 @@
 		add_trait="abrasive"
 		add_trait="orator"
 		add_trait="monotonous"
+	}
+}
+
+"Nirvana_VAI"={
+	country="VAI"
+	# Niskriyavada
+	547={
+		first_name="Asama"
+		birth_date="225.3.7"
+		death_date="274.9.23"
+		culture="licchavi"
+		religion="kassapan"
+		no_stats=yes
+		add_martial=3
+		add_charisma=7
+		add_finesse=2
+		add_zeal=13
+		no_traits=yes
+		add_trait="scholar"
+		add_trait="orator"
+		add_trait="honest"
+	}
+	548={
+		first_name="Abhaya"
+		birth_date="219.12.12"
+		death_date="284.4.21"
+		culture="licchavi"
+		religion="kassapan"
+		no_stats=yes
+		add_martial=13
+		add_charisma=4
+		add_finesse=5
+		add_zeal=7
+		no_traits=yes
+		add_trait="disciplined"
+		add_trait="intelligent"
+		add_trait="content"
+	}
+	549={
+		first_name="Mahali"
+		birth_date="223.8.14"
+		death_date="279.11.17"
+		culture="licchavi"
+		religion="kassapan"
+		no_stats=yes
+		add_martial=7
+		add_charisma=8
+		add_finesse=13
+		add_zeal=8
+		no_traits=yes
+		add_trait="honest"
+		add_trait="intelligent"
+		add_trait="content"
+	}
+	550={
+		first_name="Vacchagota"
+		birth_date="256.4.1"
+		death_date="338.12.20"
+		culture="licchavi"
+		religion="kassapan"
+		no_stats=yes
+		add_martial=3
+		add_charisma=12
+		add_finesse=7
+		add_zeal=10
+		no_traits=yes
+		add_trait="honest"
+		add_trait="intelligent"
+		add_trait="content"
 	}
 }

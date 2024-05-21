@@ -380,7 +380,7 @@ country = {
 		MRT = {
 			government = tribal_federation
 			primary_culture = libyan
-			religion = amun_religion
+			religion = egyptian_pantheon
 			capital = 5542 #Murta
 
 			technology={
@@ -989,7 +989,7 @@ country = {
 
 			government = assyrian_imperium
 			primary_culture = assyrian
-			religion = mesopotamian_religion
+			religion = ashur_religion
 
 			capital = 883
 
@@ -3178,8 +3178,8 @@ country = {
 			}
 		}
 		VAI = { #Licchavi
-			government = mahajanapada_monarchy
-			primary_culture = vrji
+			government = oligarchic_republic
+			primary_culture = licchavi
 			religion = ajnana
 			capital = 4448 #Vaishali
 
@@ -3196,7 +3196,7 @@ country = {
 		}
 		NAY = { #Naya
 			government = aristocratic_monarchy
-			primary_culture = vrji
+			primary_culture = licchavi
 			religion = sassatavada
 			capital = 7488 #Kundaputra
 
@@ -3269,7 +3269,7 @@ country = {
 			}
 		}
 		CED = { #Cedi
-			government = stratocratic_monarchy
+			government = mahajanapada_monarchy
 			primary_culture = cedi
 			religion = ajivika
 			capital = 4434 #
