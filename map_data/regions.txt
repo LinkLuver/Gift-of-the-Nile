@@ -20,7 +20,6 @@ albania_region = { #7 areas
 		artshak_area
 		caucasian_albania_area
 		kahetia_area
-		paytankert_area
 		sarmatia_hyrcania_area
 		scythia_trans_montem_area
 	}
@@ -99,10 +98,8 @@ ariana_region = { #9 areas
 	areas = {
 		arachosia_area
 		aria_area
-		carmania_area
 		drangiana_area
 		gedrosia_area
-		namek_area
 		pactya_area
 		parecania_area
 		sagartia_area
@@ -841,15 +838,16 @@ media_region = { #9 areas
 	color = rgb { 23 237 144 }
 	areas = {
 		amardioi_area
-		aspadana_area
 		ecbatana_area
 		kadousioi_area
 		kossioi_area
 		media_area
 		media_atropatene_area
 		media_choromithrene
-		rhagai_area
 		garamig_area
+		paytankert_area
+		aganzana_area
+		golan_area
 	}
 }
 
@@ -1006,6 +1004,9 @@ parthia_region = { #7 areas
 		parthia_area
 		parthia_komishene_area
 		vishpauzatis_area
+		paraetacene_area
+		rhagai_area
+		namek_area
 	}
 }
 
@@ -1017,7 +1018,6 @@ persian_gulf_region = { #1 areas
 
 persis_region = { #8 areas
 	areas = {
-		ardashir_area
 		harmozeia_area
 		media_felix_area
 		persepolis_area
@@ -1027,7 +1027,10 @@ persis_region = { #8 areas
 		uxia_area
 		siraf_area
 		lengeh_area
+		aspadana_area
 		darabgird_area
+		ardashir_area
+		carmania_area
 	}
 }
 
