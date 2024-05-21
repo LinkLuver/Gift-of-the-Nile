@@ -1718,12 +1718,12 @@ media_atropatene_area = { #12
 	provinces = { 1515 1516 1520 1521 1522 1523 1524 1525 1526 1527 }
 }
 
-media_choromithrene = { #11
-	provinces = { 6954 6955 6956 6957 6958 6959 6960 6961 9615 9616 9617 4989 9614 }
+media_choromithrene = { #12
+	provinces = { 6954 6955 6956 6957 6959 6960 6961 9615 9616 9617 4989 9614 }
 }
 
-golan_area = { #11
-	provinces = { 6962 6963 6964 6958 4965 9629 9630 9621 9627 9628 }
+golan_area = { #9
+	provinces = { 6962 6963 6964 4965 9629 9630 9621 9627 9628 6958 }
 }
 
 media_felix_area = { #10
@@ -1750,20 +1750,20 @@ meshan_area = { #10
 	provinces = { 942 963 964 965 5399 9299 968 930 9461 9462 }
 }
 
-mesopotamia_placeholder_area = { #14
-	provinces = { 900 901 910 915 917 9452 916 9453 9454 911 960 962 913 894 }
+sippar_area = { #14
+	provinces = { 901 910 915 917 9452 916 9453 9454 911 960 962 913 }
 }
 
-mesopotamia_placeholder_area_two = { #11
+east_sumer = { #11
 	provinces = { 9478 9479 9480 9481 9482 9483 9484 9485 933 934 936 }
 }
 
-mesopotamia_placeholder_area_three = { #6
+east_sutea = { #6
 	provinces = { 895 899 9437 9438 9439 9440 }
 }
 
-mesopotamia_placeholder_area_four = { #8
-	provinces = { 891 892 893 9432 9433 9434 9435 9436 }
+west_sutea = { #8
+	provinces = { 891 892 893 9432 9433 9434 9435 9436 894 900 }
 }
 
 mesopotamia_river_area = { #13
