@@ -259,7 +259,7 @@ country = {
 			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = siwan_egyptian
-			religion = egyptian_pantheon
+			religion = amun_religion
 			capital = 5550 #Tehu
 			succession_law=egyption_succession_law
 			succession=old_egyptian_succession
@@ -282,7 +282,7 @@ country = {
 			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = siwan_egyptian
-			religion = egyptian_pantheon
+			religion = amun_religion
 			capital = 5537 #Siwa
 			succession_law=egyption_succession_law
 			succession=old_egyptian_succession
@@ -380,7 +380,7 @@ country = {
 		MRT = {
 			government = tribal_federation
 			primary_culture = libyan
-			religion = egyptian_pantheon
+			religion = amun_religion
 			capital = 5542 #Murta
 
 			technology={
@@ -4768,7 +4768,7 @@ country = {
 		NAS = {
 			government = tribal_federation
 			primary_culture = nasamonian
-			religion = egyptian_pantheon
+			religion = amun_religion
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -4884,7 +4884,7 @@ country = {
 		GAR = {
 			government = tribal_kingdom
 			primary_culture = garamantic
-			religion = egyptian_pantheon
+			religion = amun_religion
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -10589,7 +10589,7 @@ country = {
 		TAY = {
 			government = despotic_monarchy
 			primary_culture = tayuan
-			religion = vaksh_religion
+			religion = taoism
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -10608,7 +10608,7 @@ country = {
 			own_control_core = {
 				6737 6736 6740 6738 6773 6775 6774 6772
 				#not vanilla
-				 6730 6735 6739 6734 6704 6731 6732 6703 6722
+				6730 6735 6739 6734 6704 6731 6732 6703 6722
 			}
 		}
 

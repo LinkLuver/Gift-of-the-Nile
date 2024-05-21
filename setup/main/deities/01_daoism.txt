@@ -1,0 +1,62 @@
+deity_manager = {
+	deities_database = { # 11500 - 11699
+		11501 = {
+			key = omen_zouyan
+			deity = deity_zouyan
+			deify_ruler = 544
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		11515 = {
+			key = omen_zhuangzi
+			deity = deity_zhuangzi
+			deify_ruler = 543
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		11517 = {
+			key = omen_laozi
+			deity = deity_laozi
+			deify_ruler = 541
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		11518 = {
+			key = omen_zichan
+			deity = deity_zichan
+			deify_ruler = 546
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		11519 = {
+			key = omen_lieyukou
+			deity = deity_lieyukou
+			deify_ruler = 545
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		11520 = {
+			key = omen_dengxi
+			deity = deity_dengxi
+			deify_ruler = 542
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		11523 = {
+			key = omen_sun_wukong
+			deity = deity_sun_wukong
+		}
+		11524 = {
+			key = omen_huangdi
+			deity = deity_huangdi
+		}
+		11525 = {
+			key = omen_tang
+			deity = deity_tang
+		}
+		11527 = {
+			key = omen_yugreat
+			deity = deity_yugreat
+		}
+	}
+}

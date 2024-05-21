@@ -54,6 +54,9 @@
  isis_religion:0 "Orphism"
  desc_isis_religion:0 "Orphism, influenced by Pythagoreanism and incorporating elements of Isis mysticism, is a mystical religious movement that emerged in Thrace and Greek controlled Aegyptos. Orphism is named after the legendary poet-hero Orpheus, who was said to have originated the Mysteries of Dionysus. Orphic views and practices have parallels to elements of Pythagoreanism, and various traditions hold that the Pythagoreans or Pythagoras himself authored early Orphic works; alternately, later philosophers believed that Pythagoras was an initiate of Orphism. The goddess Isis and Isis mysticism would be associated with Orphism especially because of Pythagoras."
 
+ taoism:0 "Daoism"
+ desc_taoism:0 "Daoism, also known as Taoism or the School of the Way, offers a profound philosophical path deeply rooted in ancient Chinese thought. It centers on the concept of the Tao, the eternal and ever-flowing Way, advocating for a harmonious life by aligning with the natural rhythms of the universe. Taoism encourages simplicity, spontaneity, and the cultivation of inner balance as keys to a meaningful existence."
+
 
  # Conversions
 
@@ -93,7 +96,8 @@
  convert_to_isis_religion:0 "Embrace Orphic Beliefs"
  convert_to_isis_religion_desc:0 "The mystical teachings of Orphism, influenced by Pythagoreanism and enriched with elements of Isis mysticism, have captivated many seeking spiritual enlightenment. Orphism offers insights into the nature of the soul, reincarnation, and the pursuit of spiritual purification. Shall we embrace the mysteries of Orphic beliefs and delve into the depths of divine wisdom?"
 
-
+ convert_to_taoism:0 "Follow the Dao"
+ convert_to_taoism_desc:0 "In the quiet corners of our land, the teachings of Daoism have found a home, offering profound insights into the mysteries of existence. As whispers of the way of the Universe, the Dao, permeate through all layers of our society, we confront a pivotal question. Should we wholeheartedly embrace the wisdom of Taoism as the guiding light of our nation, guiding us on a unique path of understanding and serenity?"
 
 
  # Egyptian Religious Flavor
