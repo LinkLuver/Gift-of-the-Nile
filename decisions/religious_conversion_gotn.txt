@@ -1535,5 +1535,40 @@ country_decisions = {
 		}
 	}
 
+	convert_to_taoism = {
+		
+		potential = {
+			num_of_cities >= 1
+			potential_change_religion_trigger = {
+				RELIGION = taoism
+			}
+		}
+
+		allow = {
+			could_change_religion_trigger = {
+				RELIGION = taoism
+			}
+		}
+		
+		effect = {
+			change_religion_effect = {
+				RELIGION = taoism
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				capital_scope = {
+					dominant_province_religion = taoism
+				}
+			}
+			modifier = {
+				factor = 0
+			}
+		}
+	}
+
 
 }
