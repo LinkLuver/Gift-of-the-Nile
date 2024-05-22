@@ -350,12 +350,25 @@
 	trade_goods="leather"
 	civilization_value=28
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		culture="qedarite"
+		religion="arabian_pantheon"
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=2
+		amount=7
 	}
 	slaves={
-		amount=2
+		culture="sutean"
+		amount=4
+	}
+	slaves={
+		culture="babylonian"
+		amount=5
 	}
 }
 
@@ -492,10 +505,28 @@
 	civilization_value=33
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	citizen={
+		culture="sittacenean"
+		amount=2
+	}
+	freemen={
+		culture="sutean"
+		amount=3
+	}
 	freemen={
 		amount=4
 	}
 	slaves={
+		amount=3
+	}
+	slaves={
+		culture="assyrian"
 		amount=5
 	}
 	holy_site=omen_shamash
@@ -510,26 +541,27 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=10
+		amount=5
 	}
 	citizen={
-		amount=22
+		amount=12
 	}
 	citizen={
-		culture="hebrew"
-		religion="judaism"
+		culture="assyrian"
+		religion="ashur_religion"
 		amount=1
 	}
 	freemen={
 		amount=10
 	}
 	freemen={
-		culture="hebrew"
-		religion="judaism"
+		culture="assyrian"
+		religion="ashur_religion"
 		amount=2
 	}
 	slaves={
-		amount=15
+		culture="sutean"
+		amount=6
 	}
 }
 
@@ -548,16 +580,16 @@
 		amount=3
 	}
 	citizen={
-		culture="hebrew"
-		religion="judaism"
+		culture="assyrian"
+		religion="ashur_religion"
 		amount=1
 	}
 	freemen={
 		amount=7
 	}
 	freemen={
-		culture="hebrew"
-		religion="judaism"
+		culture="qedarite"
+		religion="arabian_pantheon"
 		amount=3
 	}
 	slaves={
@@ -616,14 +648,17 @@
 	civilization_value=33
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
-		amount=3
+		amount=4
 	}
 	freemen={
-		amount=5
+		amount=7
 	}
 	slaves={
-		amount=5
+		amount=8
 	}
 	holy_site=omen_ereshkigal
 }
@@ -672,26 +707,24 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=5
+		amount=7
 	}
 	citizen={
-		culture="hebrew"
-		religion="judaism"
+		culture="chaldean"
 		amount=4
 	}
 	citizen={
-		amount=19
+		amount=21
 	}
 	freemen={
 		amount=11
 	}
 	slaves={
-		culture="hebrew"
-		religion="judaism"
+		culture="sutean"
 		amount=4
 	}
 	slaves={
-		amount=13
+		amount=14
 	}
 	holy_site=omen_marduk
 	port_building=1
@@ -706,24 +739,23 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="hebrew"
-		religion="judaism"
+		culture="chaldean"
 		amount=2
 	}
 	citizen={
 		amount=8
 	}
 	freemen={
-		culture="hebrew"
-		religion="judaism"
+		culture="assyrian"
+		religion="ashur_religion"
 		amount=2
 	}
 	freemen={
 		amount=7
 	}
 	freemen={
-		culture="carian"
-		religion="egyptian_pantheon"
+		culture="qedarite"
+		religion="arabian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -739,12 +771,23 @@
 	trade_goods="wine"
 	civilization_value=31
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=3
+	}
+	citizen={
+		amount=5
+	}
 	freemen={
+		amount=10
+	}
+	freemen={
+		culture="sutean"
 		amount=1
 	}
 	slaves={
-		amount=1
+		culture="chaldean"
+		amount=12
 	}
 }
 
@@ -755,15 +798,22 @@
 	trade_goods="horses"
 	civilization_value=33
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
 		amount=2
 	}
 	freemen={
+		culture="chaldean"
 		amount=3
 	}
+	freemen={
+		amount=5
+	}
 	slaves={
-		amount=7
+		amount=10
 	}
 }
 
@@ -873,7 +923,7 @@
 	trade_goods="horses"
 	civilization_value=33
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	nobles={
 		amount=1
 	}
@@ -895,12 +945,19 @@
 	trade_goods="honey"
 	civilization_value=29
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=1
+		amount=10
+	}
+	tribesmen={
+		culture="cossian"
+		amount=3
 	}
 	slaves={
-		amount=4
+		amount=8
 	}
 }
 
@@ -912,25 +969,27 @@
 	civilization_value=38
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
-		culture="hebrew"
-		religion="judaism"
+		culture="chaldean"
 		amount=2
 	}
 	citizen={
 		amount=8
 	}
 	freemen={
-		amount=1
+		amount=4
 	}
 	freemen={
-		culture="carian"
-		religion="egyptian_pantheon"
+		culture="assyrian"
+		religion="ashur_religion"
 		amount=1
 	}
 	slaves={
-		culture="hebrew"
-		religion="judaism"
+		culture="aramaic"
+		religion="hurrian_pantheon"
 		amount=2
 	}
 	slaves={
@@ -980,12 +1039,15 @@
 	trade_goods="horses"
 	civilization_value=33
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=2
+		amount=5
 	}
 	slaves={
-		amount=4
+		amount=9
 	}
 }
 
@@ -1092,24 +1154,27 @@
 	civilization_value=37
 	barbarian_power=0
 	province_rank="city"
-	citizen={
-		culture="hebrew"
-		religion="judaism"
-		amount=2
-	}
-	citizen={
-		amount=5
-	}
-	freemen={
+	nobles={
+		culture="babylonian"
 		amount=3
 	}
+	citizen={
+		culture="assyrian"
+		amount=2
+	}
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=13
+	}
 	slaves={
-		culture="hebrew"
-		religion="judaism"
+		culture="sutean"
+		religion="arabian_pantheon"
 		amount=2
 	}
 	slaves={
-		amount=5
+		amount=15
 	}
 	holy_site=omen_ishtar
 }
@@ -1139,7 +1204,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		religion="zoroaster"
+		religion="elamite_pantheon"
 		amount=1
 	}
 	citizen={
@@ -1149,11 +1214,11 @@
 		amount=3
 	}
 	freemen={
-		religion="zoroaster"
+		religion="elamite_pantheon"
 		amount=1
 	}
 	slaves={
-		religion="zoroaster"
+		religion="elamite_pantheon"
 		amount=1
 	}
 	slaves={
@@ -1463,19 +1528,39 @@
 	holy_site=omen_sin
 }
 
-9297={ #Umma
+9297={ #Nagsu
 	terrain="flood_plain"
 	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="spices"
 	civilization_value=27
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=3
+	}
+	citizen={
+		amount=5
+	}
 	freemen={
+		amount=3
+	}
+	freemen={
+		culture="sutean"
+		amount=5
+	}
+	freemen={
+		culture="babylonian"
 		amount=1
 	}
 	slaves={
+		culture="elamite"
+		religion="elamite_pantheon"
 		amount=3
+	}
+	slaves={
+		culture="sutean"
+		amount=6
 	}
 }
 
@@ -1875,7 +1960,7 @@
 	}
 }
 
-9461={ #PROV9461
+9461={ #Ur
 	terrain="marsh"
 	culture="chaldean"
 	religion="mesopotamian_religion"
@@ -1883,8 +1968,18 @@
 	civilization_value=33
 	barbarian_power=0
 	province_rank="settlement"
+	nobles={
+		amount=5
+		culture="babylonian"
+	}
+	citizen={
+		amount=10
+	}
 	freemen={
-		amount=3
+		amount=15
+	}
+	slaves={
+		amount=17
 	}
 }
 
@@ -1953,7 +2048,7 @@
 	}
 }
 
-9467={ #PROV9467
+9467={ #Kissura
 	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -1961,8 +2056,18 @@
 	civilization_value=33
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=4
+	}
 	freemen={
+		amount=4
+	}
+	freemen={
+		culture="chaldean"
 		amount=3
+	}
+	slaves={
+		amount=7
 	}
 }
 
@@ -2035,7 +2140,7 @@
 	terrain="flood_plain"
 	culture="chaldean"
 	religion="mesopotamian_religion"
-	trade_goods="leather"
+	trade_goods="grain"
 	civilization_value=33
 	barbarian_power=0
 	province_rank="settlement"
@@ -2044,15 +2149,34 @@
 	}
 }
 
-9474={ #PROV9474
+9474={ #Larak
 	terrain="flood_plain"
 	culture="chaldean"
 	religion="mesopotamian_religion"
-	trade_goods="grain"
+	trade_goods="leather"
 	civilization_value=33
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		culture="babylonian"
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
 	freemen={
+		culture="babylonian"
+		amount=3
+	}
+	slaves={
+		amount=5
+	}
+	slaves={
+		culture="elamite"
+		religion="elamite_pantheon"
 		amount=3
 	}
 }
@@ -2083,7 +2207,7 @@
 	}
 }
 
-9477={ #PROV9477
+9477={ #Patibira
 	terrain="flood_plain"
 	culture="chaldean"
 	religion="mesopotamian_religion"
@@ -2091,8 +2215,18 @@
 	civilization_value=33
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=4
+	}
 	freemen={
+		amount=4
+	}
+	freemen={
+		culture="sutean"
 		amount=3
+	}
+	slaves={
+		amount=9
 	}
 }
 

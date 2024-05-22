@@ -1,5 +1,4 @@
-﻿#ELAM REGION
-940={ #Dur-Yarin
+﻿940={ #Dur-Yarin
 	terrain="marsh"
 	culture="elamite"
 	religion="elamite_pantheon"
@@ -97,7 +96,7 @@
 	terrain="flood_plain"
 	culture="elamite"
 	religion="elamite_pantheon"
-	trade_goods="leather"
+	trade_goods="incense"
 	civilization_value=32
 	barbarian_power=0
 	province_rank="city"
@@ -311,7 +310,7 @@
 	terrain="hills"
 	culture="anshanite"
 	religion="elamite_pantheon"
-	trade_goods="grain"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -327,7 +326,7 @@
 }
 
 967={ #Dur Untash
-	terrain="plains"
+	terrain="flood_plain"
 	culture="elamite"
 	religion="elamite_pantheon"
 	trade_goods="grain"
@@ -762,7 +761,7 @@
 	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="grain"
+	trade_goods="glass"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="city"
@@ -810,11 +809,11 @@
 	}
 }
 
-9653={
-	terrain="plains"
+9653={ #Tanaddassi
+	terrain="mountain"
 	culture="anshanite"
 	religion="elamite_pantheon"
-	trade_goods="leather"
+	trade_goods="stone"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -825,11 +824,11 @@
 		amount=3
 	}
 }
-9654={
-	terrain="plains"
+9654={ #Reshu
+	terrain="mountain"
 	culture="anshanite"
 	religion="elamite_pantheon"
-	trade_goods="leather"
+	trade_goods="base_metals"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -844,7 +843,7 @@
 	terrain="plains"
 	culture="anshanite"
 	religion="elamite_pantheon"
-	trade_goods="leather"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -855,8 +854,8 @@
 		amount=3
 	}
 }
-9656={
-	terrain="plains"
+9656={ #Ushpar
+	terrain="hills"
 	culture="anshanite"
 	religion="elamite_pantheon"
 	trade_goods="leather"
@@ -870,11 +869,11 @@
 		amount=3
 	}
 }
-9657={
-	terrain="plains"
+9657={ #Sinser
+	terrain="mountain"
 	culture="anshanite"
 	religion="elamite_pantheon"
-	trade_goods="leather"
+	trade_goods="earthware"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -885,11 +884,11 @@
 		amount=3
 	}
 }
-9658={
-	terrain="plains"
+9658={ #Elenu
+	terrain="mountain"
 	culture="uxian"
 	religion="elamite_pantheon"
-	trade_goods="leather"
+	trade_goods="stone"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -904,7 +903,7 @@
 	terrain="plains"
 	culture="elamite"
 	religion="elamite_pantheon"
-	trade_goods="leather"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -930,8 +929,8 @@
 		amount=3
 	}
 }
-9703={
-	terrain="plains"
+9703={ #Simtim
+	terrain="hills"
 	culture="elamite"
 	religion="elamite_pantheon"
 	trade_goods="leather"
@@ -945,8 +944,8 @@
 		amount=3
 	}
 }
-9704={
-	terrain="plains"
+9704={ #Niksum
+	terrain="marsh"
 	culture="elamite"
 	religion="elamite_pantheon"
 	trade_goods="leather"
@@ -960,8 +959,8 @@
 		amount=3
 	}
 }
-9705={
-	terrain="plains"
+9705={ #Ezeru
+	terrain="marsh"
 	culture="elamite"
 	religion="elamite_pantheon"
 	trade_goods="leather"
@@ -979,7 +978,7 @@
 	terrain="plains"
 	culture="elamite"
 	religion="elamite_pantheon"
-	trade_goods="leather"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -994,7 +993,7 @@
 	terrain="plains"
 	culture="elamite"
 	religion="elamite_pantheon"
-	trade_goods="leather"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1005,8 +1004,8 @@
 		amount=3
 	}
 }
-9708={
-	terrain="plains"
+9708={ #Lagab
+	terrain="flood_plain"
 	culture="elamite"
 	religion="elamite_pantheon"
 	trade_goods="leather"
@@ -1020,8 +1019,23 @@
 		amount=3
 	}
 }
-9709={
-	terrain="plains"
+9709={ #Urbat
+	terrain="flood_plain"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+}
+9710={ #Utullu
+	terrain="flood_plain"
 	culture="elamite"
 	religion="elamite_pantheon"
 	trade_goods="leather"
@@ -1035,8 +1049,8 @@
 		amount=3
 	}
 }
-9710={
-	terrain="plains"
+9711={ #Uzuzzu
+	terrain="flood_plain"
 	culture="elamite"
 	religion="elamite_pantheon"
 	trade_goods="leather"
@@ -1050,23 +1064,8 @@
 		amount=3
 	}
 }
-9711={
-	terrain="plains"
-	culture="elamite"
-	religion="elamite_pantheon"
-	trade_goods="leather"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=3
-	}
-}
-9712={
-	terrain="plains"
+9712={ #Nagu
+	terrain="flood_plain"
 	culture="elamite"
 	religion="elamite_pantheon"
 	trade_goods="leather"
@@ -1095,8 +1094,23 @@
 		amount=3
 	}
 }
-9714={
-	terrain="plains"
+9714={ #Marus
+	terrain="hills"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="stone"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+}
+9715={ #Nelepu
+	terrain="flood_plain"
 	culture="elamite"
 	religion="elamite_pantheon"
 	trade_goods="leather"
@@ -1110,8 +1124,8 @@
 		amount=3
 	}
 }
-9715={
-	terrain="plains"
+9716={ #Tebiru
+	terrain="flood_plain"
 	culture="elamite"
 	religion="elamite_pantheon"
 	trade_goods="leather"
@@ -1125,26 +1139,11 @@
 		amount=3
 	}
 }
-9716={
+9717={ #Magurur
 	terrain="plains"
 	culture="elamite"
 	religion="elamite_pantheon"
-	trade_goods="leather"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=3
-	}
-}
-9717={
-	terrain="plains"
-	culture="elamite"
-	religion="elamite_pantheon"
-	trade_goods="leather"
+	trade_goods="salt"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1159,7 +1158,7 @@
 	terrain="plains"
 	culture="elamite"
 	religion="elamite_pantheon"
-	trade_goods="leather"
+	trade_goods="fish"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1174,7 +1173,7 @@
 	terrain="plains"
 	culture="elamite"
 	religion="elamite_pantheon"
-	trade_goods="leather"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1185,11 +1184,11 @@
 		amount=3
 	}
 }
-9720={
-	terrain="plains"
+9720={ #Amelnaru
+	terrain="hills"
 	culture="elamite"
 	religion="elamite_pantheon"
-	trade_goods="leather"
+	trade_goods="base_metals"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1219,7 +1218,7 @@
 	terrain="plains"
 	culture="elamite"
 	religion="elamite_pantheon"
-	trade_goods="leather"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1230,8 +1229,38 @@
 		amount=3
 	}
 }
-9723={
-	terrain="plains"
+9723={ #Wasu
+	terrain="mountain"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="stone"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+}
+9724={ #Bubutu
+	terrain="mountain"
+	culture="elamite"
+	religion="elamite_pantheon"
+	trade_goods="wild_game"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+}
+9725={ #Dimtu
+	terrain="hills"
 	culture="elamite"
 	religion="elamite_pantheon"
 	trade_goods="leather"
@@ -1245,41 +1274,11 @@
 		amount=3
 	}
 }
-9724={
-	terrain="plains"
+9726={ #Hatti
+	terrain="hills"
 	culture="elamite"
 	religion="elamite_pantheon"
-	trade_goods="leather"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=3
-	}
-}
-9725={
-	terrain="plains"
-	culture="elamite"
-	religion="elamite_pantheon"
-	trade_goods="leather"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=3
-	}
-}
-9726={
-	terrain="plains"
-	culture="elamite"
-	religion="elamite_pantheon"
-	trade_goods="leather"
+	trade_goods="precious_metals"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
