@@ -897,36 +897,6 @@
 	}
 }
 
-4950={ #Anshan
-	terrain="mountain"
-	culture="pasargadi"
-	religion="zoroaster"
-	trade_goods="grain"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=2
-	}
-	citizen={
-		amount=6
-	}
-	freemen={
-		amount=7
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=5
-	}
-	tribesmen={
-		culture="anshanite"
-		religion="elamite_pantheon"
-		amount=6
-	}
-}
-
 4951={ #Pathragada
 	terrain="farmland"
 	culture="pasargadi"
