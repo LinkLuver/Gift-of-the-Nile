@@ -1342,434 +1342,914 @@
 ## PERSIS
 
 9640={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9641={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9642={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9643={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9644={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9645={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9646={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9647={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9648={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9649={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9650={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9651={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9652={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9659={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9660={
-	terrain="impassable_terrain"
-	culture="anshanite"
+	terrain="mountain"
+	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9661={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9662={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9663={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9664={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9665={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9666={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9667={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9668={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9669={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9670={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9671={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9672={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9673={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9674={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9675={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9676={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9677={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9678={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9679={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9680={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9692={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9693={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9695={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9696={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9698={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9699={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9700={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9727={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9728={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9729={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9730={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9731={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
 9732={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wine"
+	civilization_value=27
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
 }
