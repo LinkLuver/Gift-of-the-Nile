@@ -188,7 +188,7 @@
 }
 
 3408={ #Yahye
-	terrain="desert"
+	terrain="hills"
 	culture="utian"
 	religion="zoroaster"
 	trade_goods="iron"
@@ -928,7 +928,7 @@
 }
 
 4955={ #Oarakta
-	terrain="desert"
+	terrain="plains"
 	culture="utian"
 	religion="zoroaster"
 	trade_goods="vegetables"
@@ -951,7 +951,7 @@
 }
 
 4956={ #Kish
-	terrain="desert"
+	terrain="plains"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="pearls"
@@ -1342,10 +1342,10 @@
 ## PERSIS
 
 9640={
-	terrain="mountain"
+	terrain="farmland"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="rice"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -1361,10 +1361,10 @@
 	}
 }
 9641={
-	terrain="mountain"
+	terrain="farmland"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="spices"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -1380,7 +1380,7 @@
 	}
 }
 9642={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1399,7 +1399,7 @@
 	}
 }
 9643={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1418,7 +1418,7 @@
 	}
 }
 9644={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1437,7 +1437,7 @@
 	}
 }
 9645={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1456,7 +1456,7 @@
 	}
 }
 9646={
-	terrain="mountain"
+	terrain="plains"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1475,7 +1475,7 @@
 	}
 }
 9647={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1494,7 +1494,7 @@
 	}
 }
 9648={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1513,7 +1513,7 @@
 	}
 }
 9649={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1532,7 +1532,7 @@
 	}
 }
 9650={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1551,7 +1551,7 @@
 	}
 }
 9651={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1570,7 +1570,7 @@
 	}
 }
 9652={
-	terrain="mountain"
+	terrain="plains"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1589,7 +1589,7 @@
 	}
 }
 9659={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1608,7 +1608,7 @@
 	}
 }
 9660={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1627,7 +1627,7 @@
 	}
 }
 9661={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1646,7 +1646,7 @@
 	}
 }
 9662={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1684,7 +1684,7 @@
 	}
 }
 9664={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1703,7 +1703,7 @@
 	}
 }
 9665={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1722,7 +1722,7 @@
 	}
 }
 9666={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1741,7 +1741,7 @@
 	}
 }
 9667={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1760,7 +1760,7 @@
 	}
 }
 9668={
-	terrain="mountain"
+	terrain="desert"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1817,7 +1817,7 @@
 	}
 }
 9671={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1836,7 +1836,7 @@
 	}
 }
 9672={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1855,7 +1855,7 @@
 	}
 }
 9673={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1874,7 +1874,7 @@
 	}
 }
 9674={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1893,7 +1893,7 @@
 	}
 }
 9675={
-	terrain="mountain"
+	terrain="desert"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1912,7 +1912,7 @@
 	}
 }
 9676={
-	terrain="mountain"
+	terrain="desert"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1931,7 +1931,7 @@
 	}
 }
 9677={
-	terrain="mountain"
+	terrain="plains"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1950,7 +1950,7 @@
 	}
 }
 9678={
-	terrain="mountain"
+	terrain="plains"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1969,7 +1969,7 @@
 	}
 }
 9679={
-	terrain="mountain"
+	terrain="desert_hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -1988,7 +1988,7 @@
 	}
 }
 9680={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -2007,7 +2007,7 @@
 	}
 }
 9692={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -2026,7 +2026,7 @@
 	}
 }
 9693={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -2045,7 +2045,7 @@
 	}
 }
 9695={
-	terrain="mountain"
+	terrain="desert"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -2064,7 +2064,7 @@
 	}
 }
 9696={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -2083,7 +2083,7 @@
 	}
 }
 9698={
-	terrain="mountain"
+	terrain="desert"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -2102,7 +2102,7 @@
 	}
 }
 9699={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -2121,7 +2121,7 @@
 	}
 }
 9700={
-	terrain="mountain"
+	terrain="plains"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -2140,7 +2140,7 @@
 	}
 }
 9727={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -2159,7 +2159,7 @@
 	}
 }
 9728={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -2178,7 +2178,7 @@
 	}
 }
 9729={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -2197,7 +2197,7 @@
 	}
 }
 9730={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -2216,7 +2216,7 @@
 	}
 }
 9731={
-	terrain="mountain"
+	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"
@@ -2235,7 +2235,7 @@
 	}
 }
 9732={
-	terrain="mountain"
+	terrain="desert_hills"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wine"

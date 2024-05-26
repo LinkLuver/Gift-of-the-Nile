@@ -525,7 +525,7 @@
 	terrain="marsh"
 	culture="anshanite"
 	religion="elamite_pantheon"
-	trade_goods="salt"
+	trade_goods="pearls"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -870,7 +870,7 @@
 	}
 }
 9657={ #Sinser
-	terrain="mountain"
+	terrain="hills"
 	culture="anshanite"
 	religion="elamite_pantheon"
 	trade_goods="earthware"
@@ -990,7 +990,7 @@
 	}
 }
 9707={
-	terrain="plains"
+	terrain="flood_plain"
 	culture="elamite"
 	religion="elamite_pantheon"
 	trade_goods="grain"
@@ -1140,7 +1140,7 @@
 	}
 }
 9717={ #Magurur
-	terrain="plains"
+	terrain="marsh"
 	culture="elamite"
 	religion="elamite_pantheon"
 	trade_goods="salt"
@@ -1155,7 +1155,7 @@
 	}
 }
 9718={
-	terrain="plains"
+	terrain="marsh"
 	culture="elamite"
 	religion="elamite_pantheon"
 	trade_goods="fish"
