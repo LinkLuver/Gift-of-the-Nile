@@ -525,7 +525,7 @@
 	terrain="marsh"
 	culture="anshanite"
 	religion="elamite_pantheon"
-	trade_goods="salt"
+	trade_goods="pearls"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -740,23 +740,6 @@
 	}
 }
 
-4949={ #Kaupirrish
-	terrain="mountain"
-	culture="uxian"
-	religion="elamite_pantheon"
-	trade_goods="glass"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=4
-	}
-	tribesmen={
-		religion="mithra_religion"
-		amount=1
-	}
-}
-
 4950={ #Anshan
 	terrain="hills"
 	culture="pasargadi"
@@ -809,6 +792,45 @@
 	}
 }
 
+4969={ #Adamshakh
+	terrain="hills"
+	culture="cossian"
+	religion="mesopotamian_religion"
+	trade_goods="camel"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+9450={ #Maliki
+	terrain="hills"
+	culture="cossian"
+	religion="mesopotamian_religion"
+	trade_goods="wild_game"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9486={ #Apphana
+	terrain="marsh"
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	trade_goods="salt"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
 9653={ #Tanaddassi
 	terrain="mountain"
 	culture="anshanite"
@@ -824,6 +846,7 @@
 		amount=3
 	}
 }
+
 9654={ #Reshu
 	terrain="mountain"
 	culture="anshanite"
@@ -839,6 +862,7 @@
 		amount=3
 	}
 }
+
 9655={ #Etlutu
 	terrain="hills"
 	culture="anshanite"
@@ -854,6 +878,7 @@
 		amount=3
 	}
 }
+
 9656={ #Ushpar
 	terrain="hills"
 	culture="anshanite"
@@ -869,37 +894,28 @@
 		amount=3
 	}
 }
-9657={ #Sinser
-	terrain="mountain"
-	culture="anshanite"
-	religion="elamite_pantheon"
-	trade_goods="earthware"
-	civilization_value=29
+
+9660={ #Kamarij
+	terrain="hills"
+	culture="pasargadi"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
+		religion="mithra_religion"
 		amount=2
 	}
-	slaves={
-		amount=3
-	}
-}
-9658={ #Elenu
-	terrain="mountain"
-	culture="uxian"
-	religion="elamite_pantheon"
-	trade_goods="stone"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	tribesmen={
 		amount=2
 	}
-	slaves={
-		amount=3
-	}
 }
-9701={
+
+9701={ #Namrasu
 	terrain="plains"
 	culture="elamite"
 	religion="elamite_pantheon"
@@ -914,7 +930,8 @@
 		amount=3
 	}
 }
-9702={
+
+9702={ #Nisiqiu
 	terrain="plains"
 	culture="elamite"
 	religion="elamite_pantheon"
@@ -929,6 +946,7 @@
 		amount=3
 	}
 }
+
 9703={ #Simtim
 	terrain="hills"
 	culture="elamite"
@@ -944,6 +962,7 @@
 		amount=3
 	}
 }
+
 9704={ #Niksum
 	terrain="marsh"
 	culture="elamite"
@@ -959,6 +978,7 @@
 		amount=3
 	}
 }
+
 9705={ #Ezeru
 	terrain="marsh"
 	culture="elamite"
@@ -974,7 +994,8 @@
 		amount=3
 	}
 }
-9706={
+
+9706={ #Lahiru
 	terrain="plains"
 	culture="elamite"
 	religion="elamite_pantheon"
@@ -989,8 +1010,9 @@
 		amount=3
 	}
 }
-9707={
-	terrain="plains"
+
+9707={ #Nunuz/Takalu
+	terrain="flood_plain"
 	culture="elamite"
 	religion="elamite_pantheon"
 	trade_goods="grain"
@@ -1004,6 +1026,7 @@
 		amount=3
 	}
 }
+
 9708={ #Lagab
 	terrain="flood_plain"
 	culture="elamite"
@@ -1019,6 +1042,7 @@
 		amount=3
 	}
 }
+
 9709={ #Urbat
 	terrain="flood_plain"
 	culture="elamite"
@@ -1034,6 +1058,7 @@
 		amount=3
 	}
 }
+
 9710={ #Utullu
 	terrain="flood_plain"
 	culture="elamite"
@@ -1049,6 +1074,7 @@
 		amount=3
 	}
 }
+
 9711={ #Uzuzzu
 	terrain="flood_plain"
 	culture="elamite"
@@ -1064,6 +1090,7 @@
 		amount=3
 	}
 }
+
 9712={ #Nagu
 	terrain="flood_plain"
 	culture="elamite"
@@ -1079,6 +1106,7 @@
 		amount=3
 	}
 }
+
 9713={ #Ukinnu
 	terrain="flood_plain"
 	culture="elamite"
@@ -1094,6 +1122,7 @@
 		amount=3
 	}
 }
+
 9714={ #Marus
 	terrain="hills"
 	culture="elamite"
@@ -1109,6 +1138,7 @@
 		amount=3
 	}
 }
+
 9715={ #Nelepu
 	terrain="flood_plain"
 	culture="elamite"
@@ -1124,6 +1154,7 @@
 		amount=3
 	}
 }
+
 9716={ #Tebiru
 	terrain="flood_plain"
 	culture="elamite"
@@ -1139,8 +1170,9 @@
 		amount=3
 	}
 }
+
 9717={ #Magurur
-	terrain="plains"
+	terrain="marsh"
 	culture="elamite"
 	religion="elamite_pantheon"
 	trade_goods="salt"
@@ -1154,8 +1186,9 @@
 		amount=3
 	}
 }
-9718={
-	terrain="plains"
+
+9718={ #Suqallulu
+	terrain="marsh"
 	culture="elamite"
 	religion="elamite_pantheon"
 	trade_goods="fish"
@@ -1169,6 +1202,7 @@
 		amount=3
 	}
 }
+
 9719={ #Narum
 	terrain="hills"
 	culture="elamite"
@@ -1184,6 +1218,7 @@
 		amount=3
 	}
 }
+
 9720={ #Amelnaru
 	terrain="hills"
 	culture="elamite"
@@ -1199,7 +1234,8 @@
 		amount=3
 	}
 }
-9721={
+
+9721={ #Tamkaru
 	terrain="plains"
 	culture="elamite"
 	religion="elamite_pantheon"
@@ -1214,6 +1250,7 @@
 		amount=3
 	}
 }
+
 9722={ #Nag
 	terrain="flood_plain"
 	culture="elamite"
@@ -1229,6 +1266,7 @@
 		amount=3
 	}
 }
+
 9723={ #Wasu
 	terrain="mountain"
 	culture="elamite"
@@ -1244,6 +1282,7 @@
 		amount=3
 	}
 }
+
 9724={ #Bubutu
 	terrain="mountain"
 	culture="elamite"
@@ -1259,6 +1298,7 @@
 		amount=3
 	}
 }
+
 9725={ #Dimtu
 	terrain="hills"
 	culture="elamite"
@@ -1274,6 +1314,7 @@
 		amount=3
 	}
 }
+
 9726={ #Hatti
 	terrain="hills"
 	culture="elamite"
@@ -1289,3 +1330,4 @@
 		amount=3
 	}
 }
+
