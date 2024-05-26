@@ -1112,7 +1112,7 @@
 	terrain="plains"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="stone"
+	trade_goods="steppe_horses"
 	civilization_value=31
 	barbarian_power=0
 	province_rank="city"
@@ -1421,7 +1421,7 @@
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="grain"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -1459,7 +1459,7 @@
 	terrain="plains"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="grain"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -1478,7 +1478,7 @@
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="stone"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -1497,7 +1497,7 @@
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="leather"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -1535,7 +1535,7 @@
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="wild_game"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -1554,7 +1554,7 @@
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="cloth"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -1573,7 +1573,7 @@
 	terrain="plains"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="steppe_horses"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -1592,7 +1592,7 @@
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="stone"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -1611,7 +1611,7 @@
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="cattle"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -1630,7 +1630,7 @@
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="cattle"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -1649,7 +1649,7 @@
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="wild_game"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -1668,7 +1668,7 @@
 	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="cattle"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -2008,7 +2008,7 @@
 }
 9692={
 	terrain="hills"
-	culture="pasargadi"
+	culture="stone"
 	religion="zoroaster"
 	trade_goods="wine"
 	civilization_value=27
@@ -2029,7 +2029,7 @@
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="cattle"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -2143,7 +2143,7 @@
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="grain"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -2162,7 +2162,7 @@
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="stone"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -2181,7 +2181,7 @@
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="dates"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -2200,7 +2200,7 @@
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="stone"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -2219,7 +2219,7 @@
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="wine"
+	trade_goods="camel"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
