@@ -726,7 +726,7 @@
 
 4948={ #Pylai Sousianes
 	terrain="mountain"
-	culture="pasargadi"
+	culture="anshanite"
 	religion="zoroaster"
 	trade_goods="cattle"
 	civilization_value=27
@@ -737,6 +737,10 @@
 	}
 	tribesmen={
 		amount=3
+	}
+	freemen={
+		amount=2
+		culture=pasargadi
 	}
 }
 
@@ -856,7 +860,7 @@
 }
 9656={ #Ushpar
 	terrain="hills"
-	culture="anshanite"
+	culture="pasargadi"
 	religion="elamite_pantheon"
 	trade_goods="leather"
 	civilization_value=29
@@ -868,10 +872,14 @@
 	slaves={
 		amount=3
 	}
+	slaves={
+		amount=3
+		culture=anshanite
+	}
 }
 9657={ #Sinser
 	terrain="hills"
-	culture="anshanite"
+	culture="pasargadi"
 	religion="elamite_pantheon"
 	trade_goods="earthware"
 	civilization_value=29
@@ -882,6 +890,10 @@
 	}
 	slaves={
 		amount=3
+	}
+	slaves={
+		amount=3
+		culture=anshanite
 	}
 }
 9658={ #Elenu
@@ -897,6 +909,25 @@
 	}
 	slaves={
 		amount=3
+	}
+}
+9660={
+	terrain="hills"
+	culture="anshanite"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="mithra_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
 	}
 }
 9701={
@@ -916,7 +947,7 @@
 }
 9702={
 	terrain="plains"
-	culture="elamite"
+	culture="cossian"
 	religion="elamite_pantheon"
 	trade_goods="earthware"
 	civilization_value=29
@@ -940,7 +971,8 @@
 	freemen={
 		amount=2
 	}
-	slaves={
+	tribesmen={
+		culture=cossian
 		amount=3
 	}
 }
@@ -1231,7 +1263,7 @@
 }
 9723={ #Wasu
 	terrain="mountain"
-	culture="elamite"
+	culture="anshanite"
 	religion="elamite_pantheon"
 	trade_goods="stone"
 	civilization_value=29
@@ -1246,7 +1278,7 @@
 }
 9724={ #Bubutu
 	terrain="mountain"
-	culture="elamite"
+	culture="anshanite"
 	religion="elamite_pantheon"
 	trade_goods="wild_game"
 	civilization_value=29
@@ -1261,7 +1293,7 @@
 }
 9725={ #Dimtu
 	terrain="hills"
-	culture="elamite"
+	culture="anshanite"
 	religion="elamite_pantheon"
 	trade_goods="leather"
 	civilization_value=29
