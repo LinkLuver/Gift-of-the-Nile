@@ -220,7 +220,7 @@
 }
 
 1517={ #Sacapeni
-	terrain="plains"
+	terrain="mountain"
 	culture="median"
 	religion="mithra_religion"
 	trade_goods="fish"
@@ -1262,7 +1262,7 @@
 }
 
 3392={ #Nassar
-	terrain="hills"
+	terrain="mountain"
 	culture="median"
 	religion="mithra_religion"
 	trade_goods="dates"
@@ -1420,7 +1420,7 @@
 }
 
 3432={ #Kular
-	terrain="desert"
+	terrain="desert_hills"
 	culture="median"
 	religion="mithra_religion"
 	trade_goods="cattle"
@@ -2025,7 +2025,7 @@
 }
 
 4986={ #Padishkhvargar
-	terrain="forest"
+	terrain="farmland"
 	culture="cadusian"
 	religion="mithra_religion"
 	trade_goods="grain"
@@ -2537,7 +2537,7 @@
 }
 
 6964={ #Golan
-	terrain="hills"
+	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
 	trade_goods="cattle"
@@ -2604,8 +2604,8 @@
 }
 
 9579={ #PROV9577
-	terrain="desert"
-	culture="cardukoi"
+	terrain="plains"
+	culture="caspian"
 	religion="mesopotamian_religion"
 	trade_goods="wild_game"
 	civilization_value=29
@@ -2627,498 +2627,1158 @@
 
 #IRAN - MEDIA
 9598={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9599={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9600={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9601={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9602={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9603={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9604={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9605={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9606={
-	terrain="impassable_terrain"
+	terrain="forest"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9607={
-	terrain="impassable_terrain"
+	terrain="forest"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9608={
-	terrain="impassable_terrain"
+	terrain="forest"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9609={
-	terrain="impassable_terrain"
+	terrain="farmland"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9610={
-	terrain="impassable_terrain"
+	terrain="forest"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9611={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9612={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9613={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9614={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9615={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9616={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9617={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9618={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9619={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9620={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9621={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9622={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9623={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9624={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9625={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9626={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9627={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9628={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9629={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9630={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9631={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9632={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9633={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9634={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9635={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9636={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9637={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9638={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9639={
-	terrain="impassable_terrain"
+	terrain="farmland"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9681={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9682={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9683={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9684={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9685={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9686={
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9687={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9688={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9689={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9690={
-	terrain="impassable_terrain"
+	terrain="plains"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9691={
-	terrain="impassable_terrain"
+	terrain="desert_hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9694={
-	terrain="impassable_terrain"
+	terrain="desert"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 9697={
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="wild_game"
+	civilization_value=29
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
