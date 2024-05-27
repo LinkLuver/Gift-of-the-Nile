@@ -1431,6 +1431,7 @@ country = {
 				1945 1948 1946 1947 1962 1963 1966 295 1952
 				1938 1940 1888 1951 173 1978 1925 1985 1788
 				1817 1818 1957 1820 1913 190 7981 1813 1811
+				267 262
 			}
 		}
 
@@ -2201,11 +2202,30 @@ country = {
 			own_control_core = 	{
 				371 373 379 381 382 383 384 385 386 380 428 369 #Macedonia
 				393 400 405 408 411 412 3125 3175 3356 #Upper Macedonia
-				356 363 364 365 366 374 376 377 378 #Chalkidiki
+				356 363 364 365 366 #Chalkidiki
 				6399 # Pydna
 				497 4302 414
 			}
 
+		}
+		PTI = {
+			government = aristocratic_monarchy
+			primary_culture = macedonian
+			religion = roman_pantheon
+			diplomatic_stance=appeasement_stance
+			monarchy_military_reforms = work_for_the_best
+			capital = 376
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core =  {
+				376 374 378 377
+			}
 		}
 		KOR = {
 			government = aristocratic_monarchy
@@ -2259,7 +2279,6 @@ country = {
 				399 #Lamia
 				469 #Thaumakoi
 				401 #Hypate
-				466 #Oichalia
 				475 #Kallipolis
 				7896 # Nikaia Locriai, Thermopylai.
 			}
@@ -8423,7 +8442,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				456 457 460 461 7803
+				456 457 460 461 7803 466
 			}
 
 			treasures = { 86 }
@@ -8500,7 +8519,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				431 432 473
+				431 432 473 7889
 			}
 
 		}
@@ -8885,6 +8904,25 @@ country = {
 			treasures = { 109 }
 		}
 
+		AGI = { #Aigina
+			government = oligarchic_republic
+			primary_culture = argolian
+			religion = roman_pantheon
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 442
+
+			own_control_core = 	{
+				442 #Aigina
+			}
+		}
+
 		HRM = { #Independent
 			government = oligarchic_republic
 			primary_culture = argolian
@@ -9068,10 +9106,47 @@ country = {
 			}
 
 			own_control_core = 	{
-				427 429 430 450 471 7889
+				427 429 430
 			}
 
 			treasures = { 88 }
+
+		}
+		KR1 = {
+			government = oligarchic_republic
+			primary_culture = peloponnesian
+			religion = roman_pantheon
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 471
+			own_control_core = 	{
+				471
+			}
+
+		}
+
+		KR2 = {
+			government = oligarchic_republic
+			primary_culture = peloponnesian
+			religion = roman_pantheon
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 450
+			own_control_core = 	{
+				450
+			}
 
 		}
 
@@ -9402,8 +9477,85 @@ country = {
 
 		IOA = { #Aeolian League / Leage of Illium #Attested from time of Antigonus
 			government = democratic_republic
+			primary_culture = aeolian
+			religion = roman_pantheon
+			diplomatic_stance=trading_stance
+			capital = 279
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				258 259 279 281 282 285
+			}
+
+			treasures = { 97 106 200 217 }
+		}
+
+		GAY = { #Lesbos
+			government = democratic_republic
+			primary_culture = aeolian
+			religion = roman_pantheon
+			diplomatic_stance=trading_stance
+			capital = 283
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				283 284
+			}
+		}
+
+		TW2 = { #Lampsakos
+			government = democratic_republic
 			primary_culture = troan
-			#integrated_culture = aeolian
+			religion = roman_pantheon
+			diplomatic_stance=trading_stance
+			capital = 255
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				255
+			}
+		}
+
+		TW1 = { #Lampsakos
+			government = democratic_republic
+			primary_culture = troan
+			religion = roman_pantheon
+			diplomatic_stance=trading_stance
+			capital = 256
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				256
+			}
+		}
+
+		TWT = { #Troy
+			government = democratic_republic
+			primary_culture = troan
 			religion = roman_pantheon
 			diplomatic_stance=trading_stance
 			capital = 257
@@ -9416,10 +9568,10 @@ country = {
 			}
 
 			own_control_core = 	{
-				255 256 257 258 259 260 261 268 283 284 267 262 279 281 282 285
+				257 260 268 261
 			}
 
-			treasures = { 97 106 200 217 }
+			#treasures = { 97 106 200 217 }
 		}
 
 		ION = { #Ionian League/Koinon

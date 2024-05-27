@@ -188,6 +188,22 @@
  KOR_ADJ:0 "Korinthian"
  LAM:0 "Lamia"
  LAM_ADJ:0 "Lamian"
+ KR1:0 "Kythera"
+ KR1_ADJ:0 "Kytheran"
+ KR2:0 "Kyphanta"
+ KR2_ADJ:0 "Kyphantan"
+ GAY:0 "Lesbos"
+ GAY_ADJ:0 "Lesbian"
+ PTI:0 "Potidaea"
+ PTI_ADJ:0 "Potidaean"
+ AGI:0 "Aigina"
+ AGI_ADJ:0 "Aiginan"
+ TWT:0 "Troy"
+ TWT_ADJ:0 "Trojan"
+ TW1:0 "Lampsakos"
+ TW1_ADJ:0 "Lampsakan"
+ TW2:0 "Parion"
+ TW2_ADJ:0 "Parionian"
 
  ## BHARAT
  # INDUS
@@ -296,8 +312,8 @@
  STL_ADJ:0 "Santal"
 
  # ITALIA
- KSC:0 "Shekelesh"
- KSC_ADJ:0 "Shekeleshite"
+ KSC:0 "Per-Shekelesh"
+ KSC_ADJ:0 "Shekeleshi"
  ROM:0 "Latin League"
  ROM_ADJ:0 "Latin"
  FLS:0 "Faliscan League"
