@@ -665,11 +665,11 @@ lidyan_heritage = {
 lycian_heritage = {
     modifier = {
         #good
-        gspearmen_offensive = 0.15
+        hills_combat_bonus = 0.1
         ruler_popularity_gain = 0.1
 
         #bad
-        global_manpower = -0.01
+        build_time = 0.05
     }
 
     trigger = {

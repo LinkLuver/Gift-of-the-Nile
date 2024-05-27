@@ -2775,7 +2775,7 @@
 
 9296={ #Ardea
 	terrain="hills"
-	culture="roman"
+	culture="rutulian"
 	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=24
@@ -2785,18 +2785,18 @@
 		amount=2
 	}
 	citizen={
-		religion="roman_pantheon"
+		religion="italic_pantheon"
 		amount=3
 	}
 	freemen={
 		amount=2
 	}
 	freemen={
-		religion="roman_pantheon"
+		religion="italic_pantheon"
 		amount=3
 	}
 	slaves={
-		religion="roman_pantheon"
+		religion="italic_pantheon"
 		amount=1
 	}
 }

@@ -62,7 +62,7 @@
 		lycaonian = {}
 		isaurian = {}
 		paphlagonian = {}
-		lycian = {}
+		lycian = { levy_template = levy_cretan }
 		mysian = {}
 		#pontic = { levy_template = levy_pontus }
 		cilician = { levy_template = levy_cilician }

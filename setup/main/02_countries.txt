@@ -3645,11 +3645,6 @@ country = {
 
 		}
 
-
-### Vanilla ###
-
-		#Italia
-
 		ROM = {
 			family = 0
 			family = 1
@@ -3666,7 +3661,7 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
-			capital = 1
+			capital = 2
 			pantheon = {
 
 			{ deity = 1 }
@@ -3680,7 +3675,90 @@ country = {
 			treasures = { 201 61 39 }
 
 			own_control_core = 	{
-				1 2 3 4 5 6 7 8 15 16 18 19 20 24 25 26 27 31 37 40 36 39 50 9296
+				2 5 15 19 24 25 26 27 31
+			}
+
+			#professional_soldiers = yes
+			#organized_recruitment = yes
+		}
+
+		TQI = { # Ardea lol
+			government = plutocratic_republic
+			primary_culture = rutulian
+			religion = italic_pantheon
+			capital = 9296
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				9296
+			}
+
+		}
+
+		CPU = {
+			government = plutocratic_republic
+			primary_culture = italiotian
+			religion = roman_pantheon
+			capital = 6
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				6
+			}
+
+		}
+
+		NEA = {
+			government = plutocratic_republic
+			primary_culture = italiotian
+			religion = roman_pantheon
+			capital = 7
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				7
+			}
+
+		}
+
+		FLS = {
+			government = aristocratic_republic
+			diplomatic_stance=warmongering_stance
+			primary_culture = faliscan
+			religion = italic_pantheon
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 18
+			is_antagonist = yes
+
+			treasures = { 201 61 39 }
+
+			own_control_core = 	{
+				18 16 1 15 23 3 4 20
 			}
 
 			#professional_soldiers = yes
@@ -3707,6 +3785,7 @@ country = {
 
 			own_control_core = 	{
 				33 32 41 42 46 43 44 10 45 1716 1718
+				8 40
 			}
 
 			treasures = { 41 }
@@ -3727,7 +3806,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				30 1712
+				30 1712 27 24
 			}
 
 
@@ -3824,10 +3903,105 @@ country = {
 			}
 
 			own_control_core = 	{
-				14 17 21 22 102 120 124 131 130 136 135 134 126 114 127 112 113 115 116 125 129 128 137 3507 3515 3514 3513 3516
+				14 17 21 22 136 135 113
 			}
 
 			treasures = { 40 }
+		}
+
+		PRU = {
+			government = oligarchic_republic
+			primary_culture = etruscan
+			religion = roman_pantheon
+			diplomatic_stance=trading_stance
+			capital = 120
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				120 102 116
+			}
+		}
+
+		FUF = {
+			government = oligarchic_republic
+			primary_culture = etruscan
+			religion = roman_pantheon
+			diplomatic_stance=trading_stance
+			capital = 126
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				126 114 127 115 125 112
+			}
+		}
+
+		PSA = {
+			government = oligarchic_republic
+			primary_culture = etruscan
+			religion = roman_pantheon
+			diplomatic_stance=trading_stance
+			capital = 136
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				136 137 135 129 128
+			}
+		}
+
+		ARE = {
+			government = oligarchic_republic
+			primary_culture = etruscan
+			religion = roman_pantheon
+			diplomatic_stance=trading_stance
+			capital = 131
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				131 124 130 134 140
+			}
+		}
+
+		ALE = {
+			government = oligarchic_republic
+			primary_culture = etruscan
+			religion = roman_pantheon
+			diplomatic_stance=trading_stance
+			capital = 3515
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				3515 3507 3516 3514 3513
+			}
 		}
 
 		#Friniati
@@ -3847,7 +4021,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				138 139 140
+				138 139
 			}
 
 		}
@@ -3868,7 +4042,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				23 105 107
+				105 107
 			}
 
 			treasures = { 38 }
@@ -3891,6 +4065,27 @@ country = {
 
 			own_control_core = 	{
 				103 104 110 118 119 123 122 132
+			}
+
+		}
+
+		DAU = {
+			government = tribal_kingdom
+			primary_culture = messapian
+			religion = roman_pantheon
+			centralization=8
+			capital = 39
+			diplomatic_stance=appeasement_stance
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				39 37 36 50
 			}
 
 		}
