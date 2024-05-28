@@ -1,4 +1,4 @@
-﻿1470={ #'I Ranim
+﻿1470={ #Cossyra
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -203,7 +203,7 @@
 	}
 }
 
-3200={ #'Ishoq
+3200={ #Oviscae
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -344,7 +344,7 @@
 	}
 }
 
-3212={ #'Arramon
+3212={ #Aquae Regiae
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -368,7 +368,7 @@
 	}
 }
 
-3230={ #Tabrak'on
+3230={ #Thabraca
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -469,7 +469,7 @@
 	}
 }
 
-3236={ #'Ashshur
+3236={ #Assuras
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -504,7 +504,7 @@
 	}
 }
 
-3238={ #Tzamoh
+3238={ #Zama Regia
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -527,7 +527,7 @@
 	}
 }
 
-3239={ #'Oz 'Oppon
+3239={ #Uzappa
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -564,7 +564,7 @@
 	}
 }
 
-3240={ #Shoresh
+3240={ #Seressi
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -588,7 +588,7 @@
 	}
 }
 
-3241={ #Purnosh
+3241={ #Furnos Maius
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -611,7 +611,7 @@
 	}
 }
 
-3242={ #'Apet Bogin
+3242={ #Abthugni
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -629,7 +629,7 @@
 	}
 }
 
-3243={ #Parod
+3243={ #Feradi Maius
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -656,7 +656,7 @@
 	port_building=1
 }
 
-3244={ #Tinismot
+3244={ #Pupput
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -681,7 +681,7 @@
 	holy_site=omen_baal_hammon
 }
 
-3245={ #Kirob
+3245={ #Curubis
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -778,7 +778,7 @@
 	}
 }
 
-3249={ #Habbir-Ton
+3249={ #Ziqua
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -821,7 +821,7 @@
 	holy_site=omen_ifri
 }
 
-3251={ #Tuburb
+3251={ #Membressa
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1011,10 +1011,10 @@
 	}
 	holy_site=omen_tanit
 	port_building=3
-	aqueduct_building=2
 	library_building=2
 	commerce_building=2
 	town_hall_building=1
+	aqueduct_building=2
 }
 
 3257={ #'Oteq
@@ -1095,7 +1095,7 @@
 	}
 }
 
-3260={ #Mator
+3260={ #Matar
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1119,7 +1119,7 @@
 	}
 }
 
-3261={ #Tamdu'
+3261={ #Thisika
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1197,7 +1197,7 @@
 	}
 }
 
-3264={ #Wagot
+3264={ #Septimia
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1226,7 +1226,7 @@
 	}
 }
 
-3265={ #Tamdu'
+3265={ #Thimida Bure
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1282,7 +1282,7 @@
 	}
 }
 
-3267={ #Tiburibshi
+3267={ #Numluli
 	terrain="forest"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1306,7 +1306,7 @@
 	}
 }
 
-3268={ #'Anobaresh
+3268={ #Aunobaris
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -1341,7 +1341,7 @@
 	}
 }
 
-3269={ #Tubgog
+3269={ #Thugga
 	terrain="forest"
 	culture="massylian"
 	religion="berber_religion"
@@ -1373,7 +1373,7 @@
 	holy_site=omen_tannit
 }
 
-3270={ #Bisqot
+3270={ #Bisica Lucana
 	terrain="forest"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1399,7 +1399,7 @@
 	}
 }
 
-3271={ #Tigniqot
+3271={ #Thignica
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1431,7 +1431,7 @@
 	}
 }
 
-3272={ #Limshot
+3272={ #Muzuc
 	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1456,7 +1456,7 @@
 	}
 }
 
-3273={ #Qart Mem
+3273={ #Aquae Casae
 	terrain="hills"
 	culture="massylian"
 	religion="berber_religion"
@@ -1475,7 +1475,7 @@
 	}
 }
 
-3274={ #Midiqqir
+3274={ #Mediccera
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1610,7 +1610,7 @@
 	port_building=1
 }
 
-3279={ #Wagot
+3279={ #Vicus Augusti
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1671,7 +1671,7 @@
 	port_building=1
 }
 
-3281={ #Baror
+3281={ #Bararus
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1695,7 +1695,7 @@
 	}
 }
 
-3282={ #Tapshor
+3282={ #Thysdrus
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1719,7 +1719,7 @@
 	}
 }
 
-3283={ #Hush'ol
+3283={ #Usula
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1762,7 +1762,7 @@
 	}
 }
 
-3285={ #Ta'inot
+3285={ #Thaenae
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1820,7 +1820,7 @@
 	}
 }
 
-3287={ #Tapror
+3287={ #Taparura
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -1844,7 +1844,7 @@
 	}
 }
 
-3288={ #Maqom Hadosh
+3288={ #Macomades Minores
 	terrain="farmland"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"

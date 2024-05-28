@@ -8938,16 +8938,6 @@
 	province_rank=""
 }
 
-9330={ #Indus
-	terrain="riverine_terrain"
-	culture=""
-	religion=""
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
 9425={ #PROV9425
 	terrain="impassable_terrain"
 	culture="parecanian"
@@ -8988,7 +8978,7 @@
 	province_rank=""
 }
 
-9429={ #PROV9429
+9429={ #Oreicon Mons
 	terrain="impassable_terrain"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -8998,7 +8988,7 @@
 	province_rank=""
 }
 
-9430={ #PROV9430
+9430={ #Oreicon Pass
 	terrain="impassable_terrain"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -9008,7 +8998,7 @@
 	province_rank=""
 }
 
-9431={ #PROV9431
+9431={ #Oreicon Pass
 	terrain="impassable_terrain"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -9028,7 +9018,7 @@
 	province_rank=""
 }
 
-9533={ #PROV9533
+9533={ #LAKE
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -9038,7 +9028,7 @@
 	province_rank=""
 }
 
-9536={ #PROV9536
+9536={ #Sinjar Mons
 	terrain="impassable_terrain"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -9048,7 +9038,7 @@
 	province_rank=""
 }
 
-9542={ #PROV9542
+9542={ #
 	terrain="impassable_terrain"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -9058,7 +9048,7 @@
 	province_rank=""
 }
 
-9543={ #PROV9543
+9543={ #WASTELAND
 	terrain="impassable_terrain"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -9068,7 +9058,7 @@
 	province_rank=""
 }
 
-9558={ #PROV9558
+9558={ #Aisoumas Mons
 	terrain="impassable_terrain"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -9078,7 +9068,7 @@
 	province_rank=""
 }
 
-9583={ #PROV9558
+9583={ #Ashaltu
 	terrain="impassable_terrain"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -9087,3 +9077,4 @@
 	barbarian_power=0
 	province_rank=""
 }
+

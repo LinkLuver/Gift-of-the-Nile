@@ -185,131 +185,6 @@
 	}
 }
 
-1618={ #Mish
-	terrain="hills"
-	culture="sasperian"
-	religion="zoroaster"
-	trade_goods="leather"
-	civilization_value=19
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		culture="armenian"
-		religion="mithra_religion"
-		amount=1
-	}
-	slaves={
-		culture="caspian"
-		religion="caucasian_religion"
-		amount=2
-	}
-}
-
-1619={ #Dish
-	terrain="hills"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="wild_game"
-	civilization_value=19
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		culture="armenian"
-		religion="zoroaster"
-		amount=1
-	}
-	slaves={
-		culture="caspian"
-		religion="caucasian_religion"
-		amount=1
-	}
-	slaves={
-		culture="sasperian"
-		religion="caucasian_religion"
-		amount=1
-	}
-}
-
-1630={ #Langarkanan
-	terrain="plains"
-	culture="caspian"
-	religion="mithra_religion"
-	trade_goods="fish"
-	civilization_value=19
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		religion="zoroaster"
-		amount=1
-	}
-	freemen={
-		religion="zoroaster"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-	tribesmen={
-		culture="cadusian"
-		religion="caucasian_religion"
-		amount=1
-	}
-	slaves={
-		culture="cadusian"
-		religion="caucasian_religion"
-		amount=1
-	}
-}
-
-1631={ #Spandaran
-	terrain="hills"
-	culture="caspian"
-	religion="mithra_religion"
-	trade_goods="hemp"
-	civilization_value=19
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		religion="zoroaster"
-		amount=1
-	}
-	slaves={
-		religion="zoroaster"
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-1632={ #Balanrot
-	terrain="plains"
-	culture="caspian"
-	religion="mithra_religion"
-	trade_goods="vegetables"
-	civilization_value=21
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
 1633={ #Absheron
 	terrain="plains"
 	culture="caspian"
@@ -420,40 +295,6 @@
 	province_rank="settlement"
 	tribesmen={
 		amount=4
-	}
-}
-
-1638={ #Warthan
-	terrain="plains"
-	culture="caspian"
-	religion="mithra_religion"
-	trade_goods="grain"
-	civilization_value=21
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		culture="armenian"
-		religion="anahitic_religion"
-		amount=1
-	}
-	tribesmen={
-		religion="caucasian_religion"
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		religion="zoroaster"
-		amount=1
-	}
-	tribesmen={
-		culture="albanian"
-		religion="caucasian_religion"
-		amount=2
 	}
 }
 
@@ -679,85 +520,6 @@
 	}
 }
 
-1647={ #Salyan
-	terrain="plains"
-	culture="caspian"
-	religion="caucasian_religion"
-	trade_goods="salt"
-	civilization_value=5
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		religion="mithra_religion"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		religion="mithra_religion"
-		amount=1
-	}
-	tribesmen={
-		culture="albanian"
-		religion="caucasian_religion"
-		amount=1
-	}
-	slaves={
-		culture="albanian"
-		religion="caucasian_religion"
-		amount=1
-	}
-}
-
-1648={ #Ghizil-Agaj
-	terrain="plains"
-	culture="caspian"
-	religion="mithra_religion"
-	trade_goods="fish"
-	civilization_value=21
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		religion="caucasian_religion"
-		amount=1
-	}
-	tribesmen={
-		religion="caucasian_religion"
-		amount=2
-	}
-	tribesmen={
-		culture="albanian"
-		religion="caucasian_religion"
-		amount=1
-	}
-	tribesmen={
-		culture="albanian"
-		religion="zoroaster"
-		amount=1
-	}
-}
-
-1649={ #Masalas
-	terrain="plains"
-	culture="caspian"
-	religion="mithra_religion"
-	trade_goods="cattle"
-	civilization_value=21
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		religion="zoroaster"
-		amount=1
-	}
-}
-
 1650={ #Sisakan Inferior
 	terrain="forest"
 	culture="sasperian"
@@ -815,62 +577,6 @@
 	slaves={
 		culture="caspian"
 		religion="caucasian_religion"
-		amount=1
-	}
-}
-
-1652={ #Talish
-	terrain="plains"
-	culture="caspian"
-	religion="mithra_religion"
-	trade_goods="steppe_horses"
-	civilization_value=21
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=5
-	}
-	tribesmen={
-		religion="zoroaster"
-		amount=3
-	}
-	tribesmen={
-		culture="albanian"
-		religion="caucasian_religion"
-		amount=1
-	}
-}
-
-1654={ #Mochi
-	terrain="plains"
-	culture="caspian"
-	religion="mithra_religion"
-	trade_goods="cattle"
-	civilization_value=21
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		religion="zoroaster"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		religion="caucasian_religion"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-	slaves={
-		culture="albanian"
-		religion="caucasian_religion"
-		amount=1
-	}
-	tribesmen={
-		culture="albanian"
-		religion="zoroaster"
 		amount=1
 	}
 }
@@ -1725,6 +1431,28 @@
 	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+9580={ #Mijawan
+	terrain="desert"
+	culture="armenian"
+	religion="mesopotamian_religion"
+	trade_goods="cattle"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
 	tribesmen={
 		amount=3
 	}

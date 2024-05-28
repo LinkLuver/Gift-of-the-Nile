@@ -1,4 +1,4 @@
-﻿6={ #Capua
+﻿6={ #Kymai
 	terrain="farmland"
 	culture="roman"
 	religion="italic_pantheon"
@@ -356,7 +356,7 @@
 	}
 }
 
-36={ #Teanum Apulum
+36={ #Teanon
 	terrain="hills"
 	culture="messapian"
 	religion="roman_pantheon"
@@ -386,7 +386,7 @@
 	}
 }
 
-37={ #Luceria
+37={ #Loukeria
 	terrain="plains"
 	culture="messapian"
 	religion="roman_pantheon"
@@ -456,7 +456,7 @@
 	port_building=1
 }
 
-39={ #Canusium
+39={ #Kanysion
 	terrain="farmland"
 	culture="messapian"
 	religion="roman_pantheon"
@@ -716,7 +716,7 @@
 	}
 }
 
-50={ #Urium
+50={ #Hyria
 	terrain="hills"
 	culture="messapian"
 	religion="roman_pantheon"
@@ -1593,7 +1593,7 @@
 	}
 }
 
-80={ #Messana
+80={ #Takhopesh
 	terrain="hills"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1623,7 +1623,7 @@
 	port_building=1
 }
 
-81={ #Tauromenium
+81={ #Tarodjew
 	terrain="hills"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -1650,7 +1650,7 @@
 	}
 }
 
-82={ #Catana
+82={ #Per-Ka
 	terrain="farmland"
 	culture="syracusan"
 	religion="roman_pantheon"
@@ -2234,7 +2234,7 @@
 	}
 }
 
-1471={ #'I Nun
+1471={ #Melita
 	terrain="desert"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -2374,7 +2374,7 @@
 	}
 }
 
-7838={ #Centuripae
+7838={ #Dubatseshta
 	terrain="farmland"
 	culture="siculian"
 	religion="italic_pantheon"
