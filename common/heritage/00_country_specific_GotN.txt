@@ -2855,7 +2855,7 @@ Kinyps_heritage = {
         discipline = 0.05
 
         #bad
-        happiness_for_wrong_culture_modifier = -3.00
+        happiness_for_wrong_culture_modifier = -0.03
     }
 
     trigger = {
