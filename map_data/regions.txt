@@ -152,21 +152,30 @@ assyria_region = { #7 areas
 	color = rgb { 255 255 127 }
 	areas = {
 		adiabene_area
-		commagene_area
-		corduene_area
 		niniveh_area
-		osroene_area
-		sophene_area
-		upper_mesopotamia_area
 		tigris_area
 		orontes_area
-		niqum_area
 		ulamme_area
 		mthurna_area
-		upper_mesopotamia_placeholder_area
-		upper_mesopotamia_placeholder_area_two
-		nisibin_area
+		gordyene_area
 		shingar_area
+		east_sutea
+		west_sutea
+		nisibin_area
+		lower_euphrates_area
+	}
+}
+
+upper_mesopotamia_region = { #7 areas
+	areas = {
+		upper_mesopotamia_area
+		osroene_area
+		tella_area
+		amudha_area
+		commagene_area
+		corduene_area
+		sophene_area
+		euphrates_area
 	}
 }
 
@@ -878,14 +887,12 @@ mesopotamia_region = { #8 areas
 		asoristan_area
 		babylonia_area
 		beth_daraye_area
-		euphrates_area
 		meshan_area
 		veh_kavad_area
 		sippar_area
 		east_sumer
-		east_sutea
-		west_sutea
 		borsip_area
+		niqum_area
 	}
 }
 

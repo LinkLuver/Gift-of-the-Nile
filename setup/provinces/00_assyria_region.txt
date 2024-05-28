@@ -369,7 +369,7 @@
 }
 
 836={ #Semsath
-	terrain="plains"
+	terrain="farmland"
 	culture="syriac"
 	religion="mithra_religion"
 	trade_goods="grain"
@@ -414,7 +414,7 @@
 }
 
 837={ #Tarsa
-	terrain="plains"
+	terrain="farmland"
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
@@ -450,7 +450,7 @@
 }
 
 838={ #Charmodara
-	terrain="plains"
+	terrain="farmland"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
@@ -775,7 +775,7 @@
 }
 
 854={ #Ganaba
-	terrain="plains"
+	terrain="hills"
 	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="wild_game"
@@ -1997,7 +1997,7 @@
 }
 
 1864={ #Nisos
-	terrain="plains"
+	terrain="hills"
 	culture="syriac"
 	religion="anahitic_religion"
 	trade_goods="earthware"
@@ -3926,7 +3926,7 @@
 }
 
 9581={ #PROV9558
-	terrain="desert"
+	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3948,7 +3948,7 @@
 }
 
 9582={ #PROV9558
-	terrain="desert"
+	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3980,7 +3980,7 @@
 }
 
 9584={ #PROV9558
-	terrain="desert"
+	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4002,7 +4002,7 @@
 }
 
 9585={ #PROV9558
-	terrain="desert"
+	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4024,7 +4024,7 @@
 }
 
 9586={ #PROV9558
-	terrain="desert"
+	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4046,7 +4046,7 @@
 }
 
 9587={ #PROV9558
-	terrain="desert"
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4068,7 +4068,7 @@
 }
 
 9588={ #PROV9558
-	terrain="desert"
+	terrain="farmland"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4090,7 +4090,7 @@
 }
 
 9590={ #PROV9558
-	terrain="desert"
+	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4112,7 +4112,7 @@
 }
 
 9591={ #PROV9558
-	terrain="desert"
+	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4134,7 +4134,7 @@
 }
 
 9592={ #PROV9558
-	terrain="desert"
+	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4156,7 +4156,7 @@
 }
 
 9593={ #PROV9558
-	terrain="desert"
+	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"

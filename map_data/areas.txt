@@ -336,7 +336,7 @@ babylonia_area = { #12
 }
 
 borsip_area = { #12
-	provinces = { 903 919 922 923 9456 9457 9458 9459 9460 909 }
+	provinces = { 903 919 922 923 9456 9457 9458 9459 9460 }
 }
 
 bactria_area = { #12
@@ -716,7 +716,7 @@ colchis_area = { #10
 }
 
 commagene_area = { #12
-	provinces = { 836 837 838 839 1860 1862 1863 1864 1867 1868 1895 6397 }
+	provinces = { 836 837 838 839 1860 1862 1863 1864 1867 1895 6397 }
 }
 
 confluenta_area = { #11
@@ -968,8 +968,12 @@ euboea_area = { #10
 	provinces = { 277 403 407 409 410 452 1903 7899 7901 7904 }
 }
 
+lower_euphrates_area = { #12
+	provinces = { 828 829 905 906 907 908 953 954 902 904 909 }
+}
+
 euphrates_area = { #12
-	provinces = { 824 825 826 827 828 829 905 906 907 908 953 954 902 904 823 806 9588 }
+	provinces = { 827 806 9588 823 824 825 826 }
 }
 
 europa_area = { #12
@@ -1982,8 +1986,12 @@ oretania_area = { #11
 	provinces = { 1286 1287 1381 1382 1383 1384 1393 1394 1395 1396 1399 }
 }
 
-osroene_area = { #12
-	provinces = { 817 818 819 820 840 844 848 849 853 854 879 1847 877 821 847 804 9581 9582 9584 9585 9586 9587 9590 9591 9592 9593 }
+osroene_area = { #13
+	provinces = { 817 820 848 849 853 847 804 9581 9582 9590 9591 9592 9593 }
+}
+
+tella_area = { #13
+	provinces = { 818 819 821 844 854 879 840 877 9584 9585 9586 9587 1847 }
 }
 
 ossioia_area = { #5
@@ -2634,7 +2642,7 @@ syria_coele_area = { #12
 }
 
 syria_cyrrestice_area = { #12
-	provinces = { 792 794 805 807 808 809 810 811 812 852 1869 9594 9595 9596 9597 }
+	provinces = { 1868 792 794 805 807 808 809 810 811 812 852 1869 9594 9595 9596 9597 }
 }
 
 syrtis_area = { #12
@@ -2869,11 +2877,11 @@ shingar_area = { #12
 	provinces = { 831 9569 9571 9573 9575 9576 9577 9578 }
 }
 
-upper_mesopotamia_placeholder_area = { #14
+gordyene_area = { #14
 	provinces = { 9535 9544 9545 9546 9547 9548 9551 9552 9553 9554 833 834 9488 866 }
 }
 
-upper_mesopotamia_placeholder_area_two = { #10
+amudha_area = { #10
 	provinces = { 9563 9564 9565 9566 9567 9568 822 832 874 872 }
 }
 

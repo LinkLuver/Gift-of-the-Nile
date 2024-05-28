@@ -59,7 +59,6 @@
 		sagartian = {}
 		amardian = {}
 		sarangian = {}
-		pactyan = {}
 		cadusian = { levy_template = levy_cadusian }
 		parthian = { levy_template = levy_parthian }
 		parecanian = {}
@@ -67,7 +66,6 @@
 		median = {}
 		gedrosian = {}
 		hyrcanian = {}
-		sattagydian = {}
 	}
 	
 	barbarian_names = { AMARDI ANARIACAE AUGASII CASPII CHORASMII CYRTII DAHAE DERBICII ISSEDONES LEGAE MATIANI MASSAGETAE PARNI SACAE SARMATAE SOANES VITII }
