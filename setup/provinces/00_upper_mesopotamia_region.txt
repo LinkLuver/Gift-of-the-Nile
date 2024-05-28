@@ -2044,18 +2044,21 @@
 	trade_goods="olive"
 	civilization_value=29
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=2
+	}
 	citizen={
-		amount=3
+		amount=8
 	}
 	freemen={
-		amount=2
+		amount=19
 	}
 	slaves={
-		amount=2
+		amount=10
 	}
 	tribesmen={
-		amount=3
+		amount=7
 	}
 }
 
