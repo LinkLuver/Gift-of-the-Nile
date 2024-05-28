@@ -7,15 +7,15 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-	       amount=2 	
-        }
+	    amount=2 	
+    }
 	citizen={
 		amount=3
 	}
-        citizen={
+    citizen={
 		culture=carthaginian
-                religon=carthaginian_pantheon
-                amount=2
+        religion=carthaginian_pantheon
+        amount=2
 	}
 	freemen={
 		culture="socossian"
@@ -65,8 +65,8 @@
 	}
         citizen={
 		culture=atlosian
-                religon=rome_pantheon 
-                amount=2
+        religion=roman_pantheon 
+        amount=2
 	} 
 	freemen={
 		religion="carthaginian_pantheon"
@@ -568,13 +568,13 @@
 3085={ #Tamuda
 	terrain="forest"
 	culture="atlosian"
-	religion="rome_pantheon"
+	religion="roman_pantheon"
 	trade_goods="stone"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		religion="rome_pantheon"
+		religion="roman_pantheon"
 		amount=1
 	}
 	citizen={
@@ -779,7 +779,7 @@
 3095={ #Portus Magnus
 	terrain="plains"
 	culture="ionian"
-	religion="rome_pantheon"
+	religion="roman_pantheon"
 	trade_goods="base_metals"
 	civilization_value=31
 	barbarian_power=0
@@ -787,36 +787,35 @@
 	nobles={
 		amount=2
 	}
-        citizen={
+    citizen={
 		culture="carthaginian"
 		religion="carthaginian_pantheon"
 		amount=2
 	}
-        citizen={
+    citizen={
 		amount=2
 	}
 	freemen={
 		culture="turdetanian"
 		religion="carthaginian_pantheon"
 		amount=1
-        }
+    }
 	freemen={
 		culture="turdetanian"
 		religion="carthaginian_pantheon"
 		amount=1
-        }
+    }
 	freemen={
 		culture="massalian"
 		religion="carthaginian_pantheon"
 		amount=1
-        }
+    }
 	freemen={
 		amount=1
 	}
-         }
-	slaves={
-               culture="massaesylian"
-               religon="berber_religon"
+    slaves={
+        culture="massaesylian"
+        religion="berber_religion"
 		amount=3
 	}
 } 
