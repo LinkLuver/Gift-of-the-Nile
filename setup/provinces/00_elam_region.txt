@@ -166,7 +166,7 @@
 	trade_goods="earthware"
 	civilization_value=31
 	barbarian_power=0
-	province_rank="city"
+	province_rank="settlement"
 	freemen={
 		religion="zoroaster"
 		amount=1
@@ -176,9 +176,6 @@
 	}
 	freemen={
 		amount=7
-	}
-	slaves={
-		amount=11
 	}
 	slaves={
 		culture="cossian"
@@ -1109,10 +1106,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=6
+		amount=8
 	}
 	slaves={
-		amount=1
+		amount=5
 	}
 }
 
@@ -1123,12 +1120,12 @@
 	trade_goods="rice"
 	civilization_value=29
 	barbarian_power=0
-	province_rank="city"
+	province_rank="settlement"
 	freemen={
-		amount=14
+		amount=6
 	}
 	citizen={
-		amount=3
+		amount=13
 	}
 }
 
@@ -1273,7 +1270,7 @@
 	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
-	province_rank="city"
+	province_rank="settlement"
 	citizen={
 		amount=3
 	}
