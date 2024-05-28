@@ -488,14 +488,14 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=3
 	}
 	freemen={
 		religion="mithra_religion"
-		amount=1
+		amount=5
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
@@ -589,10 +589,10 @@
 	province_rank="city"
 	citizen={
 		religion="mithra_religion"
-		amount=9
+		amount=12
 	}
 	freemen={
-		amount=5
+		amount=7
 	}
 	slaves={
 		religion="mithra_religion"
@@ -1330,14 +1330,14 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=6
 	}
 	slaves={
 		religion="zoroaster"
 		amount=1
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1348,23 +1348,27 @@
 	trade_goods="incense"
 	civilization_value=21
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=3
+	}
 	citizen={
-		amount=1
+		amount=7
 	}
 	citizen={
 		culture="pasargadi"
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=13
 	}
 	slaves={
-		religion="mithra_religion"
+		religion="zoroaster"
+		culture="pasargadi"
 		amount=2
 	}
 	tribesmen={
-		amount=1
+		amount=4
 	}
 }
 
@@ -1451,7 +1455,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=7
+		amount=10
 	}
 	citizen={
 		culture="pasargadi"
@@ -1466,6 +1470,9 @@
 	}
 	tribesmen={
 		amount=6
+	}
+	freemen={
+		amount=2
 	}
 }
 
@@ -1940,6 +1947,9 @@
 		religion="zoroaster"
 		amount=10
 	}
+	citizen={
+		amount=3
+	}
 	holy_site=omen_yima
 }
 
@@ -1950,7 +1960,7 @@
 	trade_goods="grain"
 	civilization_value=23
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		amount=1
 	}
@@ -1967,6 +1977,15 @@
 	}
 	tribesmen={
 		amount=4
+	}
+	citizen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		amount=2
 	}
 }
 
@@ -2001,17 +2020,26 @@
 	trade_goods="horses"
 	civilization_value=21
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		religion="zoroaster"
 		amount=1
+	}
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=7
 	}
 	slaves={
 		religion="zoroaster"
 		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=5
 	}
 }
 
@@ -2025,13 +2053,13 @@
 	province_rank="settlement"
 	freemen={
 		religion="mithra_religion"
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=7
 	}
 }
 
@@ -2133,7 +2161,7 @@
 		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=5
 	}
 }
 
@@ -2170,10 +2198,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=4
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=1
@@ -2189,7 +2217,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=7
 	}
 	tribesmen={
 		religion="mithra_religion"
@@ -2230,11 +2258,11 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=3
 	}
 	freemen={
 		religion="zoroaster"
-		amount=4
+		amount=6
 	}
 	slaves={
 		amount=1
@@ -2541,12 +2569,6 @@
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
 	slaves={
 		amount=2
 	}
@@ -2563,13 +2585,7 @@
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=3
-	}
 	freemen={
-		amount=2
-	}
-	slaves={
 		amount=2
 	}
 	tribesmen={
@@ -2585,13 +2601,7 @@
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=3
-	}
 	freemen={
-		amount=2
-	}
-	slaves={
 		amount=2
 	}
 	tribesmen={
@@ -2607,13 +2617,7 @@
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=3
-	}
 	freemen={
-		amount=2
-	}
-	slaves={
 		amount=2
 	}
 	tribesmen={
@@ -2629,13 +2633,7 @@
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=3
-	}
 	freemen={
-		amount=2
-	}
-	slaves={
 		amount=2
 	}
 	tribesmen={
@@ -2657,6 +2655,12 @@
 	freemen={
 		amount=2
 	}
+	citizen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
 	slaves={
 		amount=2
 	}
@@ -2674,16 +2678,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=1
 	}
 	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=5
 	}
 }
 
@@ -2695,12 +2696,6 @@
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
 	slaves={
 		amount=2
 	}
@@ -2721,9 +2716,6 @@
 		amount=3
 	}
 	freemen={
-		amount=2
-	}
-	slaves={
 		amount=2
 	}
 	tribesmen={
@@ -2849,17 +2841,11 @@
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
@@ -2871,12 +2857,6 @@
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
 	slaves={
 		amount=2
 	}
