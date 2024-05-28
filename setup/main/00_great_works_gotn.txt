@@ -2,7 +2,7 @@
 
 provinces={
 	4951={ # Pathagarde
-		great_work=13
+		great_work=107
 	}
 	9461={ # Ur
 		great_work=50
@@ -32,28 +32,6 @@ provinces={
 
 great_work_manager={
 	great_works_database={
-		13={
-			ancient_wonder = yes
-			key="halicarnassus_mausoleum"
-			great_work_state=great_work_state_completed
-			finished_date=450.10.1
-			great_work_category="building"
-
-			great_work_name={
-				name="wonder_cyrus_tomb"
-			}
-			great_work_components={
-				{
-					great_work_module="wonder_halicarnassus"
-				}
-			}
-			great_work_effect_selections={
-				{
-					great_work_effect="gw_effect_mausoleum_halicarnassos"
-					great_work_effect_tier = "gw_effect_tier_4"
-				}
-			}
-		}
 		50 = {
 			ancient_wonder = yes
 			key = "ur_ziggurat"
@@ -212,7 +190,7 @@ great_work_manager={
 			}
 			great_work_effect_selections={
 				{
-					great_work_effect="gw_effect_ay_khanum"
+					great_work_effect="gw_effect_atum_pillars"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}
@@ -250,31 +228,22 @@ great_work_manager={
 		}
 		107={
 			ancient_wonder = yes
-			key="taurican_temple"
+			key="halicarnassus_mausoleum"
 			great_work_state=great_work_state_completed
 			finished_date=450.10.1
 			great_work_category="building"
-			
+
 			great_work_name={
-				name="wonder_media_temple"
+				name="wonder_cyrus_tomb"
 			}
-			great_work_components = {
+			great_work_components={
 				{
-					great_work_module = "gw_building_08_base_JULIANOS"
-					great_work_material = "marble"
-				}
-				{
-					great_work_module = "gw_building_02_pillar"
-					great_work_material = "ivory"
-				}
-				{
-					great_work_module = "gw_building_07_roof_JULIANOS"
-					great_work_material = "copper"
+					great_work_module="wonder_halicarnassus"
 				}
 			}
 			great_work_effect_selections={
 				{
-					great_work_effect="gw_effect_taurican_temple"
+					great_work_effect="gw_effect_cyrus_tomb"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}

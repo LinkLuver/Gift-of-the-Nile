@@ -308,3 +308,106 @@ gw_effect_karnak_temple = {
 		}
 	}
 }
+gw_effect_cyrus_tomb = {
+	icon = "gw_effect_diplomacy_supreme"
+
+	allow = {
+		always = no
+	}
+
+	great_work_tier_effect_modifiers = {
+		gw_effect_cyrus_tomb_tier_1 = {
+			great_work_effect_tier = gw_effect_tier_1
+			country_modifier = {
+				happiness_for_wrong_culture_modifier = 0.03
+			}
+			state_modifier = {
+				local_population_happiness = 0.02
+				#local_population_capacity = 5
+			}
+		}
+		gw_effect_cyrus_tomb_tier_2 = {
+			great_work_effect_tier = gw_effect_tier_2
+			country_modifier = {
+				happiness_for_wrong_culture_modifier = 0.05
+			}
+			state_modifier = {
+				local_population_happiness = 0.04
+				local_population_capacity = 5
+			}
+		}
+		gw_effect_cyrus_tomb_tier_3 = {
+			great_work_effect_tier = gw_effect_tier_3
+			country_modifier = {
+				happiness_for_wrong_culture_modifier = 0.07
+				monthly_wage_modifier = -0.025
+			}
+			state_modifier = {
+				local_population_happiness = 0.06
+				local_population_capacity = 10
+			}
+		}
+		gw_effect_cyrus_tomb_tier_4 = {
+			great_work_effect_tier = gw_effect_tier_4
+			country_modifier = {
+				happiness_for_wrong_culture_modifier = 0.10
+				monthly_wage_modifier = -0.05
+				diplomatic_relations = 2
+			}
+			state_modifier = {
+				local_population_happiness = 0.08
+				local_population_capacity = 15
+			}
+		}
+	}
+}
+gw_effect_atum_pillars = {
+	icon = "gw_effect_omen_doctrine"
+
+	allow = {
+		always = no
+	}
+
+	great_work_tier_effect_modifiers = {
+		gw_effect_atum_pillars_tier_1 = {
+			great_work_effect_tier = gw_effect_tier_1
+			country_modifier = {
+				omen_power = 0.03
+			}
+			state_modifier = {
+				religious_tech_investment = 0.01
+				local_population_capacity_modifier = 0.025
+			}
+		}
+		gw_effect_atum_pillars_tier_2 = {
+			great_work_effect_tier = gw_effect_tier_2
+			country_modifier = {
+				omen_power = 0.05
+			}
+			state_modifier = {
+				religious_tech_investment = 0.02
+				local_population_capacity_modifier = 0.02
+			}
+		}
+		gw_effect_atum_pillars_tier_3 = {
+			great_work_effect_tier = gw_effect_tier_3
+			country_modifier = {
+				omen_power = 0.05
+			}
+			state_modifier = {
+				religious_tech_investment = 0.05
+				local_population_capacity_modifier = 0.03
+			}
+		}
+		gw_effect_atum_pillars_tier_4 = {
+			great_work_effect_tier = gw_effect_tier_4
+			country_modifier = {
+				omen_power = 0.1
+			}
+			state_modifier = {
+				religious_tech_investment = 0.1
+				local_population_capacity_modifier = 0.1
+			}
+		}
+	}
+}
