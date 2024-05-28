@@ -2848,7 +2848,7 @@ Physkos_heritage = {
 
 ##### North African (Non-Punic) Heritages
 
-Kinyps_heritage = {
+kinyps_heritage = {
     modifier = {
         #good
         global_defense= 0.10
@@ -2863,22 +2863,7 @@ Kinyps_heritage = {
     }
 }
 
-Leptis_Magna_heritage = {
-    modifier = {
-        #good
-        diplomatic_reputation= 3.00
-        global_commerce_modifier= 0.10
-
-        #bad
-       global_pop_assimilation_speed_modifier = -0.05
-    }
-
-    trigger = {
-        tag = LP1
-    }
-}
-
-Metagonia_heritage = {
+metagonia_heritage = {
     modifier = {
         #good
         happiness_for_wrong_religion_modifier= 0.05
@@ -2893,7 +2878,7 @@ Metagonia_heritage = {
     }
 }
 
-Tubaqatis_heritage = {
+tubaqatis_heritage = {
     modifier = {
         #good
         global_monthly_civilization = 0.05
@@ -2907,7 +2892,6 @@ Tubaqatis_heritage = {
         tag = LP2
     }
 }
-
 
 Socosian_heritage = {
     modifier = {
@@ -3244,6 +3228,20 @@ Cetianian_heritage = {
 
 #### Punic Heritages
 
+leptis_magna_heritage = {
+    modifier = {
+        #good
+        diplomatic_reputation= 3.00
+        global_commerce_modifier= 0.10
+
+        #bad
+       global_pop_assimilation_speed_modifier = -0.05
+    }
+
+    trigger = {
+        tag = LP1
+    }
+}
 
 Thamusidan_heritage = {
     modifier = {
