@@ -214,6 +214,26 @@ SPA = {
 	}
 }
 
+SP1 = {
+	pattern = "pattern_solid.tga"
+	color1 = "spartan_brown"
+	color2 = "spartan_rust"
+	
+	colored_emblem = {
+		texture = "ce_border_meander_01.tga"
+		color1 = "spartan_ocra"
+		color2 = "roman_gold"
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+
+	colored_emblem = {
+		texture = "ce_sparta_new.dds"
+		color1 = "spartan_ocra"
+		instance = { scale = { 0.75 0.75 }  }
+	}
+}
+
 CAR = {
 	pattern = "pattern_solid.tga"
 	color1 = "offwhite"
