@@ -2241,20 +2241,6 @@ mariandynia_heritage = {
     }
 }
 
-heraklean_aphrike_heritage = {
-    modifier = {
-        #good
-        discipline = 0.05
-        omen_power = 0.10
-        #bad
-        character_loyalty = -5
-    }
-
-    trigger = {
-        tag = MSL
-    }
-}
-
 calchedon_heritage = { #I like this one
     modifier = {
         #doog
@@ -2848,10 +2834,39 @@ Physkos_heritage = {
 
 ##### North African (Non-Punic) Heritages
 
+heraklea_aphrike_heritage = {
+    modifier = {
+        #good
+        discipline = 0.05
+        omen_power = 0.10
+        #bad
+        character_loyalty = -5
+    }
+
+    trigger = {
+        tag = MSL
+    }
+}
+
+kalathousa_heritage = {
+    modifier = {
+        #good
+      global_commerce_modifier = 0.15
+         global_monthly_food_modifier = 0.05
+
+        #bad
+         land_morale_modifier = -0.03
+    }
+
+    trigger = {
+        tag = GAE
+    }
+}
+
 kinyps_heritage = {
     modifier = {
         #good
-        global_defense= 0.10
+        global_defensive = 0.10
         discipline = 0.05
 
         #bad
