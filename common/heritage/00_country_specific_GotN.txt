@@ -2244,7 +2244,7 @@ mariandynia_heritage = {
 heraklean_aphrike_heritage = {
     modifier = {
         #good
-        discipline_modifier = 0.05
+        discipline = 0.05
         omen_power = 0.10
         #bad
         character_loyalty = -5
