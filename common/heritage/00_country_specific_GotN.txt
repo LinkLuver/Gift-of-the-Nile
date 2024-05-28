@@ -2848,6 +2848,66 @@ Physkos_heritage = {
 
 ##### North African (Non-Punic) Heritages
 
+Kinyps_heritage = {
+    modifier = {
+        #good
+        fort_defense= 0.10
+        discipline = 0.05
+
+        #bad
+        happiness_for_wrong_culture_modifier = -3.00
+    }
+
+    trigger = {
+        tag = SP1
+    }
+}
+
+Leptis_Magna_heritage = {
+    modifier = {
+        #good
+        diplomatic_reputation= 3.00
+        global_commerce_modifier= 0.10
+
+        #bad
+       global_pop_assimilation_speed_modifier = -0.05
+    }
+
+    trigger = {
+        tag = LP1
+    }
+}
+
+Metagonia_heritage = {
+    modifier = {
+        #good
+        happiness_for_wrong_religion_modifier= 0.05
+         naval_range= 0.25
+
+        #bad
+       naval_maintenance_cost = 0.10
+    }
+
+    trigger = {
+        tag = RS5
+    }
+}
+
+Tubaqatis_heritage = {
+    modifier = {
+        #good
+        global_monthly_civilization = 0.05
+         global_tax_income= 0.10
+
+        #bad
+      global_tribesmen_happyness = -0.10
+    }
+
+    trigger = {
+        tag = LP2
+    }
+}
+
 
 Socosian_heritage = {
     modifier = {
