@@ -1391,7 +1391,7 @@ country = {
 			capital = 858
 
 			own_control_core = {
-				858 859 860 877 878 1855 235 8007 8009 #sophene_region
+				858 859 860 878 1855 235 8007 8009 #sophene_region
 				1858 1856 1857 8008 8010
 			}
 		}
@@ -1507,7 +1507,7 @@ country = {
 			own_control_core = {
 				833 834 841 842 843 845 856 857 869 870 846 992 #corduene_region
 				822 823 830 831 832 855 871 872 873 874 875 876 #upper_mesopotamia_region
-				821
+				 821 844
 			}
 		}
 
@@ -1552,7 +1552,7 @@ country = {
 
 			own_control_core = 	{
 				836 838 839 1862 1863 1864 #commagene_region
-				1860 6397 837 1895 840
+				1860 6397 837 840 1847 9587 877
 			}
 
 		}
@@ -1594,7 +1594,7 @@ country = {
 			capital = 792
 
 			own_control_core = 	{
-				792 794 812
+				792 794 812 852
 			}
 		}
 		GUR = {
@@ -1612,8 +1612,8 @@ country = {
 			capital = 1867
 
 			own_control_core = 	{
-				811 852 #syria_cyrrestice_region
-				1867 1868
+				811 #syria_cyrrestice_region
+				1867 1868 9594 9597 9593 1869 1895
 			}
 		}
 		KAR = {
@@ -1667,7 +1667,7 @@ country = {
 			capital = 798
 
 			own_control_core = 	{
-				798 813 814 847 851 805 808 #syria_region
+				798 813 814 851 #syria_region
 			}
 		}
 		PRY = { # Darmeshq
@@ -1737,8 +1737,9 @@ country = {
 			}
 
 			own_control_core = 	{
-				807 810 1869 1847
-				817 818 819 820 844 848 849 854 853 879 #osroene_region
+				807 810 804 805 808
+				817 818 819 820 848 849 854 853 879 #osroene_region
+				9595 9596 9581 9586 9585 9590 9591 9592 847 9582 9584
 			}
 
 			pantheon = {
@@ -1764,9 +1765,9 @@ country = {
 			capital = 754
 
 			own_control_core = {
-				754 755 756 775 800 801 802 803 804 806 815 850 #palmyra_region
+				754 755 756 775 800 801 802 803 806 815 850 #palmyra_region
 				824 825 826 827 828 829 905 906 907 908 953 954 #euphrates_region
-				902 904 #babylonia_region
+				902 904 9589 9588 #babylonia_region
 			}
 		}
 
