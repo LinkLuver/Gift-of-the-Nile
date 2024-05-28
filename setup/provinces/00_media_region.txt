@@ -541,7 +541,7 @@
 
 1565={ #Sarav
 	terrain="plains"
-	culture="median"
+	culture="cadusian"
 	religion="mithra_religion"
 	trade_goods="fish"
 	civilization_value=21
@@ -825,7 +825,7 @@
 
 1618={ #Mish
 	terrain="hills"
-	culture="sasperian"
+	culture="cadusian"
 	religion="zoroaster"
 	trade_goods="leather"
 	civilization_value=19
@@ -848,7 +848,7 @@
 
 1619={ #Dish
 	terrain="hills"
-	culture="median"
+	culture="cadusian"
 	religion="mithra_religion"
 	trade_goods="wild_game"
 	civilization_value=19
@@ -876,7 +876,7 @@
 
 1620={ #Aharawan
 	terrain="plains"
-	culture="median"
+	culture="cadusian"
 	religion="mithra_religion"
 	trade_goods="cattle"
 	civilization_value=21
@@ -896,7 +896,7 @@
 
 1621={ #Arvandj
 	terrain="plains"
-	culture="median"
+	culture="cadusian"
 	religion="mithra_religion"
 	trade_goods="vegetables"
 	civilization_value=21
@@ -915,7 +915,7 @@
 
 1622={ #Seqindel
 	terrain="hills"
-	culture="armenian"
+	culture="arzasha"
 	religion="mithra_religion"
 	trade_goods="wood"
 	civilization_value=19
@@ -934,7 +934,7 @@
 
 1624={ #Chaharla
 	terrain="mountain"
-	culture="median"
+	culture="cadusian"
 	religion="mithra_religion"
 	trade_goods="stone"
 	civilization_value=17
@@ -954,7 +954,7 @@
 
 1625={ #Kuh-i Bolagh
 	terrain="plains"
-	culture="median"
+	culture="cadusian"
 	religion="mithra_religion"
 	trade_goods="horses"
 	civilization_value=21
@@ -1056,7 +1056,7 @@
 
 1630={ #Langarkanan
 	terrain="plains"
-	culture="caspian"
+	culture="cadusian"
 	religion="mithra_religion"
 	trade_goods="fish"
 	civilization_value=19
@@ -1090,7 +1090,7 @@
 
 1631={ #Spandaran
 	terrain="hills"
-	culture="caspian"
+	culture="cadusian"
 	religion="mithra_religion"
 	trade_goods="hemp"
 	civilization_value=19
@@ -1130,7 +1130,7 @@
 
 1638={ #Warthan
 	terrain="plains"
-	culture="caspian"
+	culture="cadusian"
 	religion="mithra_religion"
 	trade_goods="grain"
 	civilization_value=21
@@ -1198,7 +1198,7 @@
 
 1648={ #Ghizil-Agaj
 	terrain="plains"
-	culture="caspian"
+	culture="cadusian"
 	religion="mithra_religion"
 	trade_goods="fish"
 	civilization_value=21
@@ -1899,7 +1899,7 @@
 
 4985={ #Rasht
 	terrain="forest"
-	culture="cadusian"
+	culture="amardian"
 	religion="mithra_religion"
 	trade_goods="silk"
 	civilization_value=28
@@ -1945,7 +1945,7 @@
 
 4986={ #Padishkhvargar
 	terrain="farmland"
-	culture="cadusian"
+	culture="amardian"
 	religion="mithra_religion"
 	trade_goods="grain"
 	civilization_value=23
@@ -2359,7 +2359,7 @@
 
 9579={ #Kaghan
 	terrain="plains"
-	culture="caspian"
+	culture="cadusian"
 	religion="mesopotamian_religion"
 	trade_goods="wild_game"
 	civilization_value=29
@@ -2623,7 +2623,7 @@
 
 9609={ #Lahijan
 	terrain="farmland"
-	culture="cadusian"
+	culture="amardian"
 	religion="zoroaster"
 	trade_goods="grain"
 	civilization_value=29
