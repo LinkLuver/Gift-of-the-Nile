@@ -1,13 +1,21 @@
 ﻿3061={ #Tingis
 	terrain="forest"
-	culture="carthaginian"
-	religion="carthaginian_pantheon"
+	culture="atlosian"
+	religion="roman_pantheon"
 	trade_goods="earthware"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+	       amount=2 	
+        }
 	citizen={
-		amount=4
+		amount=3
+	}
+        citizen={
+		culture=carthaginian
+                religon=carthaginian_pantheon
+                amount=2
 	}
 	freemen={
 		culture="socossian"
@@ -23,7 +31,7 @@
 		amount=2
 	}
 	slaves={
-		amount=4
+		amount=2
 	}
 	slaves={
 		culture="socossian"
@@ -37,7 +45,7 @@
 	tribesmen={
 		culture="socossian"
 		religion="berber_religion"
-		amount=3
+		amount=2
 	}
 	holy_site=omen_anti
 	port_building=1
@@ -55,6 +63,11 @@
 		religion="carthaginian_pantheon"
 		amount=1
 	}
+        citizen={
+		culture=atlosian
+                religon=rome_pantheon 
+                amount=2
+	} 
 	freemen={
 		religion="carthaginian_pantheon"
 		amount=2
@@ -129,6 +142,11 @@
 	province_rank="city"
 	citizen={
 		amount=2
+	}
+        citizen={
+		culture=atlosian
+                religon=rome_pantheon 
+                amount=1
 	}
 	freemen={
 		amount=2
@@ -549,18 +567,18 @@
 
 3085={ #Tamuda
 	terrain="forest"
-	culture="carthaginian"
-	religion="berber_religion"
+	culture="atlosian"
+	religion="rome_pantheon"
 	trade_goods="stone"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		religion="carthaginian_pantheon"
+		religion="rome_pantheon"
 		amount=1
 	}
 	citizen={
-		culture="socossian"
+		culture="atlosian"
 		amount=1
 	}
 	freemen={
@@ -696,29 +714,29 @@
 
 3092={ #Portus Divinus
 	terrain="plains"
-	culture="massaesylian"
-	religion="berber_religion"
+	culture="ionian"
+	religion="rome_pantheon"
 	trade_goods="fish"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
+        	amount=1
+	}
+        freemen={
 		culture="carthaginian"
 		religion="carthaginian_pantheon"
-		amount=1
+		amount=2
 	}
 	freemen={
 		culture="turdetanian"
 		religion="carthaginian_pantheon"
-		amount=1
+		amount=2
 	}
 	slaves={
 		culture="carthaginian"
 		religion="carthaginian_pantheon"
-		amount=1
-	}
-	tribesmen={
-		amount=2
+		amount=3
 	}
 	port_building=1
 }
@@ -760,27 +778,48 @@
 
 3095={ #Portus Magnus
 	terrain="plains"
-	culture="massaesylian"
-	religion="berber_religion"
+	culture="ionian"
+	religion="rome_pantheon"
 	trade_goods="base_metals"
-	civilization_value=26
+	civilization_value=31
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
+	province_rank="city"
+	nobles={
+		amount=2
+	}
+        citizen={
 		culture="carthaginian"
 		religion="carthaginian_pantheon"
+		amount=2
+	}
+        citizen={
 		amount=2
 	}
 	freemen={
 		culture="turdetanian"
 		religion="carthaginian_pantheon"
 		amount=1
-	}
+        }
+	freemen={
+		culture="turdetanian"
+		religion="carthaginian_pantheon"
+		amount=1
+        }
+	freemen={
+		culture="massalian"
+		religion="carthaginian_pantheon"
+		amount=1
+        }
 	freemen={
 		amount=1
 	}
-	port_building=1
-}
+         }
+	slaves={
+               culture="massaesylian"
+               religon="berber_religon"
+		amount=3
+	}
+} 
 
 3096={ #Tasaccora
 	terrain="hills"
