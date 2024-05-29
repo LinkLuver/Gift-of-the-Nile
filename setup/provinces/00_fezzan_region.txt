@@ -70,7 +70,7 @@
 		amount=2
 	}
 	slaves={
-		culture="oasis_egyptian"
+		culture="siwan_egyptian"
 		religion="amun_religion"
 		amount=1
 	}
@@ -94,7 +94,7 @@
 		amount=3
 	}
 	freemen={
-		culture="oasis_egyptian"
+		culture="siwan_egyptian"
 		religion="amun_religion"
 		amount=2
 	}
@@ -102,7 +102,7 @@
 		amount=2
 	}
 	slaves={
-		culture="oasis_egyptian"
+		culture="siwan_egyptian"
 		religion="amun_religion"
 		amount=2
 	}

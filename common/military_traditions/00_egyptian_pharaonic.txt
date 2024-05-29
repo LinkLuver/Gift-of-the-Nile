@@ -102,7 +102,7 @@
 	
 	pharaonic_civil_path_1 = { ###Pharaonic 1B
 		modifier = { 
-			global_construction_cost = -0.05
+			build_cost = -0.05
 			global_freemen_happyness = 0.05
 		}
 		icon = greek_seleucid_path_6

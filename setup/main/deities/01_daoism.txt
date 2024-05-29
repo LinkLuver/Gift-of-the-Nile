@@ -35,13 +35,13 @@ deity_manager = {
 			deify_ruler_permanent = yes
 			is_universal_deity = yes
 		}
-		11520 = {
-			key = omen_dengxi
-			deity = deity_dengxi
-			deify_ruler = 542
-			deify_ruler_permanent = yes
-			is_universal_deity = yes
-		}
+		#11520 = {
+		#	key = omen_dengxi
+		#	deity = deity_dengxi
+		#	deify_ruler = 542
+		#	deify_ruler_permanent = yes
+		#	is_universal_deity = yes
+		#}
 		11523 = {
 			key = omen_sun_wukong
 			deity = deity_sun_wukong
