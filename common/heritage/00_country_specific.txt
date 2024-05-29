@@ -2241,20 +2241,6 @@ mariandynia_heritage = {
     }
 }
 
-heraklean_aphrike_heritage = {
-    modifier = {
-        #good
-        discipline_modifier = 0.05
-        omen_power = 0.10
-        #bad
-        character_loyalty = -0.5
-    }
-
-    trigger = {
-        tag = MSL
-    }
-}
-
 calchedon_heritage = { #I like this one
     modifier = {
         #doog
