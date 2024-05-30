@@ -137,7 +137,7 @@
 		amount=2
 	}
 	freemen={
-		culture="spartan"
+		culture="peloponnesian"
 		religion="roman_pantheon"
 		amount=2
 	}
@@ -161,7 +161,7 @@
 
 3324={ #Kinyps
 	terrain="desert"
-	culture="spartan"
+	culture="peloponnesian"
 	religion="roman_pantheon"
 	trade_goods="leather"
 	civilization_value=24
@@ -219,7 +219,7 @@
 		amount=3
 	}
 	freemen={
-		culture="spartan"
+		culture="peloponnesian"
 		religion="roman_pantheon"
 		amount=2
 	}
