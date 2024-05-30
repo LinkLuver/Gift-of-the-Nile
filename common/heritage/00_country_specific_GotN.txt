@@ -1207,11 +1207,11 @@ heraclea_pontican_heritage = {
 cyrenaican_heritage = {
     modifier = {
         #good
-        happiness_for_same_religion_modifier = 0.1
-        build_cost = -0.05
+        enslavement_efficiency = 0.10
+        ship_cost = -0.1
 
         #bad
-        diplomatic_relations = -1
+        diplomatic_reputation = -4
     }
     trigger = {
         tag = CYR
