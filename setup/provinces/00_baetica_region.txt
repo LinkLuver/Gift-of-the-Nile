@@ -1,4 +1,4 @@
-﻿f1276={ #Baria
+﻿1276={ #Baria
 	terrain="plains"
 	culture="bastetanian"
 	religion="animism"
@@ -557,47 +557,34 @@
 		terrain="plains"
 		culture="atlosian"
 		religion="roman_pantheon"
-		trade_goods="fruits"
+		trade_goods="fruit"
 		civilization_value=27
 		barbarian_power=0
 		province_rank="city"
 		nobles={
-			amount=3
+			amount=2
 		}
 		citizen={
-			amount=3
-		}
-		citizen={
-			culture="carthaginian"
-			religion="carthaginian_pantheon"
-			amount=3
+			amount=2
 		}
 		freemen={
-			amount=3
+			amount=2
 		}
 		freemen={
 			culture="socossian"
 			religion="berber_religion"
-			amount=3
+			amount=1
 		}
 		freemen={
 			culture="carthaginian"
 			religion="carthaginian_pantheon"
-			amount=3
+			amount=2
 		}
 		slaves={
 			culture="turdetanian"
 			religion="carthaginian_pantheon"
 			amount=2
 		}
-		slaves={
-			culture="turdetanian"
-			religion="animism"
-			amount=1
-	}
-		slaves={
-			amount=1
-	}
 		tribesmen={
 			culture="turdetanian"
 			religion="animism"
