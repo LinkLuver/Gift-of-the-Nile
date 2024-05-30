@@ -557,33 +557,43 @@
 		terrain="plains"
 		culture="atlosian"
 		religion="roman_pantheon"
-		trade_goods="fruit"
+		trade_goods="fruits"
 		civilization_value=27
 		barbarian_power=0
 		province_rank="city"
 		nobles={
-			amount=2
+			amount=3
 		}
 		citizen={
-			amount=2
+			amount=3
+		}
+		citizen={
+			culture="carthaginian"
+			religion="carthaginian_pantheon"
+			amount=3
 		}
 		freemen={
-			amount=2
+			amount=3
 		}
 		freemen={
 			culture="socossian"
 			religion="berber_religion"
-			amount=1
+			amount=3
 		}
 		freemen={
 			culture="carthaginian"
 			religion="carthaginian_pantheon"
-			amount=2
+			amount=3
 		}
 		slaves={
 			culture="turdetanian"
 			religion="carthaginian_pantheon"
 			amount=2
+		}
+		slaves={
+			culture="turdetanian"
+			religion="animism"
+			amount=1
 		}
 		tribesmen={
 			culture="turdetanian"

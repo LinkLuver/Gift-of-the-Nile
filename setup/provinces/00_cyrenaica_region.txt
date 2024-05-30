@@ -131,53 +131,100 @@
 	barbarian_power=0
 	province_rank="settlement"
 	nobles={
-		amount=1
+		amount=2
 	}
 	citizen={
 		amount=2
 	}
 	freemen={
+		culture="spartan"
+		religion="roman_pantheon"
 		amount=2
 	}
 	freemen={
-		culture="garamantic"
+		amount=2
+	}
+	freemen={
+		culture="macaean"
 		religion="amun_religion"
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=3
+		amount=2
+	}
+	slaves={
+		culture="garamantic"
+		religion="amun_religion"
+		amount=2
 	}
 }
 
 3324={ #Kinyps
 	terrain="desert"
-	culture="carthaginian"
-	religion="carthaginian_pantheon"
+	culture="spartan"
+	religion="roman_pantheon"
 	trade_goods="leather"
-	civilization_value=23
+	civilization_value=24
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=2
+	}
 	citizen={
 		amount=2
 	}
 	freemen={
-		amount=1
+		amount=5
+	}
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		culture="macaean"
+		religon="amun_religion"
+		amount=3
 	}
 }
 
 3325={ #Thubactis
 	terrain="desert"
-	culture="carthaginian"
-	religion="carthaginian_pantheon"
-	trade_goods="cattle"
-	civilization_value=23
+	culture="macaean"
+	religion="amun_religion"
+	trade_goods="dye"
+	civilization_value=24
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=2
+	}
 	citizen={
+		amount=2
+	}
+	citizen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
 		amount=3
 	}
+	freemen={
+		culture="spartan"
+		religion="roman_pantheon"
+		amount=2
+	}
 	slaves={
-		amount=1
+		amount=3
 	}
 	holy_site=omen_gurzil
 	port_building=1
