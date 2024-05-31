@@ -20,7 +20,7 @@
 	}
 }
 
-804={ #Soura
+804={ #Kef Pratha
 	terrain="desert"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -154,7 +154,7 @@
 	}
 }
 
-821={ #Resh 'Ayna
+821={ #Resaina
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
@@ -203,7 +203,7 @@
 	}
 }
 
-823={ #'Orava
+823={ #Shadikanni
 	terrain="desert"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -512,9 +512,9 @@
 	}
 }
 
-841={ #'Arkathiakert
+841={ #Karkathiokerta
 	terrain="plains"
-	culture="cardukoi"
+	culture="arzonian"
 	religion="mesopotamian_religion"
 	trade_goods="horses"
 	civilization_value=31
@@ -535,9 +535,9 @@
 	holy_site=omen_tork_angegh
 }
 
-842={ #Tighrakert
+842={ #Tigranocerta
 	terrain="hills"
-	culture="cardukoi"
+	culture="arzonian"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=29
@@ -559,7 +559,7 @@
 
 843={ #Chlomaron
 	terrain="hills"
-	culture="cardukoi"
+	culture="arzonian"
 	religion="mesopotamian_religion"
 	trade_goods="leather"
 	civilization_value=34
@@ -630,9 +630,9 @@
 	}
 }
 
-845={ #'Amdha
+845={ #Martyropolis
 	terrain="hills"
-	culture="cardukoi"
+	culture="arzonian"
 	religion="mesopotamian_religion"
 	trade_goods="horses"
 	civilization_value=29
@@ -654,7 +654,7 @@
 
 846={ #Cymiza
 	terrain="mountain"
-	culture="cardukoi"
+	culture="arzonian"
 	religion="anahitic_religion"
 	trade_goods="vegetables"
 	civilization_value=18
@@ -789,7 +789,7 @@
 	}
 }
 
-856={ #Serdaver
+856={ #Sardeoua
 	terrain="plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -914,7 +914,7 @@
 	}
 }
 
-869={ #Kef
+869={ #Riskephas
 	terrain="mountain"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -989,7 +989,7 @@
 	}
 }
 
-872={ #'Amudha
+872={ #Ammodios
 	terrain="plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1018,7 +1018,7 @@
 	holy_site=omen_ishara
 }
 
-874={ #Tannur
+874={ #Thannuris
 	terrain="desert"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -1097,7 +1097,7 @@
 
 992={ #Balaleisa
 	terrain="mountain"
-	culture="cardukoi"
+	culture="arzonian"
 	religion="anahitic_religion"
 	trade_goods="vegetables"
 	civilization_value=16
@@ -1467,7 +1467,7 @@
 
 9537={ #Ulor
 	terrain="forest"
-	culture="cardukoi"
+	culture="arzonian"
 	religion="mesopotamian_religion"
 	trade_goods="wood"
 	civilization_value=29
@@ -1489,7 +1489,7 @@
 
 9538={ #Atakh
 	terrain="hills"
-	culture="cardukoi"
+	culture="arzonian"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
 	civilization_value=29
@@ -1511,7 +1511,7 @@
 
 9539={ #Sanasun
 	terrain="mountain"
-	culture="cardukoi"
+	culture="arzonian"
 	religion="mesopotamian_religion"
 	trade_goods="honey"
 	civilization_value=29
@@ -1533,7 +1533,7 @@
 
 9540={ #Khoyt
 	terrain="mountain"
-	culture="cardukoi"
+	culture="arzonian"
 	religion="mesopotamian_religion"
 	trade_goods="stone"
 	civilization_value=29
@@ -1555,7 +1555,7 @@
 
 9541={ #Eghrdrut
 	terrain="mountain"
-	culture="cardukoi"
+	culture="arzonian"
 	religion="mesopotamian_religion"
 	trade_goods="stone"
 	civilization_value=29
@@ -1599,7 +1599,7 @@
 
 9556={ #Nabarra
 	terrain="hills"
-	culture="cardukoi"
+	culture="arzonian"
 	religion="mesopotamian_religion"
 	trade_goods="honey"
 	civilization_value=29

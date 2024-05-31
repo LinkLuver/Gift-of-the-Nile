@@ -2290,7 +2290,7 @@
 
 5224={ #Kelishin
 	terrain="impassable_terrain"
-	culture="median"
+	culture="cyrtian"
 	religion="zoroaster"
 	trade_goods=""
 	civilization_value=0
@@ -2300,7 +2300,7 @@
 
 5225={ #
 	terrain="impassable_terrain"
-	culture="armenian"
+	culture="cyrtian"
 	religion="anahitic_religion"
 	trade_goods=""
 	civilization_value=0
@@ -9040,7 +9040,7 @@
 
 9542={ #
 	terrain="impassable_terrain"
-	culture="assyrian"
+	culture="arzonian"
 	religion="mesopotamian_religion"
 	trade_goods=""
 	civilization_value=0

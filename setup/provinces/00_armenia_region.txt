@@ -302,7 +302,7 @@
 
 1501={ #Naxouana
 	terrain="hills"
-	culture="arzasha"
+	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="steppe_horses"
 	civilization_value=18
@@ -674,7 +674,7 @@
 
 1535={ #Qiz Chakhlu
 	terrain="hills"
-	culture="arzasha"
+	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="stone"
 	civilization_value=18
@@ -695,7 +695,7 @@
 
 1536={ #Maku
 	terrain="mountain"
-	culture="arzasha"
+	culture="armenian"
 	religion="mithra_religion"
 	trade_goods="wood"
 	civilization_value=16
@@ -2123,7 +2123,7 @@
 
 9530={ #Ake
 	terrain="mountain"
-	culture="assyrian"
+	culture="arzasha"
 	religion="mesopotamian_religion"
 	trade_goods="stone"
 	civilization_value=29

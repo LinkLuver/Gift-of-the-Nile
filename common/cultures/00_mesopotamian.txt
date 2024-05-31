@@ -193,7 +193,6 @@
 	culture = {
 		assyrian = { levy_template = levy_assyrian }
 		babylonian = {}
-		cardukoi = { levy_template = levy_armenian }
 		sutean = { levy_template = levy_east_levantine }
 		chaldean = {}
 		sittacenean = {}

@@ -7,15 +7,15 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-	    amount=2 	
-    }
+		amount=2
+	}
 	citizen={
 		amount=3
 	}
-    citizen={
-		culture=carthaginian
-        religion=carthaginian_pantheon
-        amount=2
+	citizen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=2
 	}
 	freemen={
 		culture="socossian"
@@ -63,11 +63,11 @@
 		religion="carthaginian_pantheon"
 		amount=1
 	}
-        citizen={
-		culture=atlosian
-        religion=roman_pantheon 
-        amount=2
-	} 
+	citizen={
+		culture="atlosian"
+		religion="roman_pantheon"
+		amount=2
+	}
 	freemen={
 		religion="carthaginian_pantheon"
 		amount=2
@@ -143,10 +143,9 @@
 	citizen={
 		amount=2
 	}
-        citizen={
-		culture=atlosian
-                religon=rome_pantheon 
-                amount=1
+	citizen={
+		culture="atlosian"
+		amount=1
 	}
 	freemen={
 		amount=2
@@ -715,15 +714,15 @@
 3092={ #Portus Divinus
 	terrain="plains"
 	culture="ionian"
-	religion="rome_pantheon"
+	religion=""
 	trade_goods="fish"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-        	amount=1
+		amount=1
 	}
-        freemen={
+	freemen={
 		culture="carthaginian"
 		religion="carthaginian_pantheon"
 		amount=2
@@ -787,38 +786,38 @@
 	nobles={
 		amount=2
 	}
-    citizen={
+	citizen={
 		culture="carthaginian"
 		religion="carthaginian_pantheon"
 		amount=2
 	}
-    citizen={
+	citizen={
 		amount=2
 	}
 	freemen={
 		culture="turdetanian"
 		religion="carthaginian_pantheon"
 		amount=1
-    }
+	}
 	freemen={
 		culture="turdetanian"
 		religion="carthaginian_pantheon"
 		amount=1
-    }
+	}
 	freemen={
 		culture="massalian"
 		religion="carthaginian_pantheon"
 		amount=1
-    }
+	}
 	freemen={
 		amount=1
 	}
-    slaves={
-        culture="massaesylian"
-        religion="berber_religion"
+	slaves={
+		culture="massaesylian"
+		religion="berber_religion"
 		amount=3
 	}
-} 
+}
 
 3096={ #Tasaccora
 	terrain="hills"

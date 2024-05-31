@@ -1,0 +1,95 @@
+﻿hurro_urartian = {
+
+        levy_template = levy_armenian
+        
+        primary = light_infantry
+        second = heavy_cavalry
+        flank = horse_archers
+
+        primary_navy = tetrere
+        secondary_navy = octere
+        flank_navy = liburnian
+
+        color = { 0.7 0.6 0.6 }
+	
+	male_names = {
+		Smbat Khachik Vasak Ashot Arsham Hamazasp Vardan Artavazd Mzhezh Eruand Mithranes Kherkhes Khozrid Sames Arshames Trdat Tigran Zareh Artashes Arshak Vagharsh Khosrow Varazdat Vasak Ashusha Varaz-Vaghan Hmayeak Vahan Sahak Zarmihr Mushegh Meruzhan Nikhor Andovk Vorot Pargew Koghtik Varaz-Nerses Varaz Tachat Vaghinak Merudzan Kishken Varaz-Trdat Vrken Khesha Peroz Bakur Vahram Ashusha Vahram-Ashusha Drastamat Gghak Saghamut Manag Ashkhadar Artewan Dareh Kiwros
+	}
+	female_names = {
+		Tigranuhi Vanuhi Mihrana Asatera Ariazate Aka Ghadana Erato Zarmandukht Pharantzem Mahbanu Zenobia Satenik Aryazate
+	}
+	family = {
+		
+        Akean.Akean.Akis.Akid
+        Amatuni.Amatuni.Amatunids.Amatunid
+        Andzevatsi.Andzevatsi.Andzevatsids.Andzevatsid
+        Apahuni.Apahuni.Apahunids.Apahunid #Haykid
+        Arawelean.Arawelean.Arawelids.Arawelid
+        Artsruni.Artsruni.Artsrunids.Artsrunid #Orontids
+        Ashotsi.Ashotsi.Ashotsids.Ashotsid #Haykid #Event
+        Bagean.Bagean.Bagids.Bagid
+        Bagratuni.Bagratuni.Bagratids.Bagratid #Orontids
+        Balahovit.Balahovit.Balahovits.Balahovit
+        Bznuni.Bznuni.Bznunids.Bznunid #Haykid
+        Dashtakaran.Dashtakaran.Dashtakarids.Dashtakarid
+        Derdzayneatsi.Derdzayneantsi.Derdzaynids.Derdzaynid
+        Dimaksean.Dimaksean.Dimaksids.Dimaksid
+        Entsayatsi.Entsayatsi.Entsayatsids.Entsayatsid
+        Eruanduni.Eruanduni.Eruandunids.Eruandunid #Orontids
+        Gardmanitsi.Gardmanitsi.Gardmanitsids.Gardmanid #Haykid
+        Gargaratsi.Gargaratsi.Gargaratsids.Gargaratsid
+        Gntuni.Gntuni.Gntunids.Gntunid
+        Gnuni.Gnuni.Gnunids.Gnunid #Orontids
+        Goghtnatsi.Goghtnatsi.Goghtnatsids.Goghtnatid
+        Habuzhean.Habuzhean.Habuzhids.Habuzhid
+        Kajberuni.Kajberuni.Kajberunids.Kajberunid
+        Kazpkuni.Kazpkuni.Kazpkunids.Kazpkunid #Event
+        Khorkhoruni.Khorkhoruni.Khorkhorunids.Khorkhorunid #Haykid
+        Korchuni.Korchuni.Korchunids.Korchunid #Event
+        Korduni.Korduni.Kordunids.Kordunid #Event
+        Mahkert.Mahkert.Mahkertids.Mahkertid
+        Mamikonean.Mamikonean.Mamikonids.Mamikonid #Event
+        Manawazean.Manawazean.Manawazids.Manawazid #Haykid
+        Mandakuni.Mandakuni.Mandakunids.Mandakunid
+        Maratsan.Maratsan.Maratsanids.Maratsanid
+        Mokatsi.Mokatsi.Mokatsids.Mokatsid
+        Orduni.Oroduni.Ordunids.Ordunid
+        Paluni.Paluni.Palunids.Palunid
+        Parspatuni.Parspatuni.Parspatunids.Parspatunid #Event
+        Rshtuni.Rshtuni.Rshtunids.Rshtunid #Haykid
+        Saharuni.Saharuni.Saharunids.Saharunid
+        Sanasuni.Sanasuni.Sanasunids.Sanasunid
+        Sghkuni.Sghkuni.Sghkunids.Sghkunid
+        Shahuni.Shahuni.Shahunids.Shahunid
+        Siwni.Siwni.Siwnids.Siwnid #Haykid
+        Sruandzit.Sruandzit.Sruandzids.Sruandzid
+        Truni.Truni.Trunids.Trunid
+        Tsawdeatsi.Tsawdeatsi.Tsawdeatsids.Tsawdeatsid
+        Tsawdekatsi.Tsawdekatsi.Tsawdekatsids.Tsawdekatsid #Event
+        Tsophuni.Tsophuni.Tsophunids.Tsophunid #Orontid
+        Uteatsi.Uteatsi.Uteatsids.Uteatsid #Haykid
+        Vahevuni.Vahevuni.Vahevunids.Vahevunid #Haykid
+        Varazhnuni.Varazhnuni.Varazhnunids.Varazhnunid #Haykid
+        Zarehawanean.Zarehawanean.Zarehawanids.Zarehawanid #Orontids #Event
+	}
+
+	culture = {
+                #new
+                matienian = {}
+		salaian ={}
+		urtaian ={}
+		phasian = {}
+		palaian = {}
+		alarodian = {}
+		arzonian = {}
+		cardukoi = { }
+		neo_hurrian = { }
+	}
+	
+	barbarian_names = { AMARDI ANARIACAE AUGASII CASPII CHORASMII CYRTII DAHAE DERBICII ISSEDONES LEGAE MATIANI MASSAGETAE PARNI SACAE SARMATAE SOANES VITII }
+	
+	graphical_culture = persian_gfx
+	ethnicities = {
+		10 = persian
+	}
+}

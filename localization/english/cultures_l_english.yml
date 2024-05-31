@@ -41,7 +41,20 @@
  adivasi:0 "Adivasi"
  xiyu:0 "Tocharian"
  east_semetic:0 "Magani"
-
+ hurro_urartian:0 "Hurro-Urartian"
+ 
+ #Hurror-Urartian
+ matienian:0 "Matienian"
+ salaian:0 "Salaian"
+ urtaian:0 "Urartian"
+ phasian:0 "Phasian"
+ palaian:0 "Palaian"
+ alarodian:0 "Alarodian"
+ arzonian:0 "Arzonian"
+ cardukoi:0 "Cardukoi"
+ mitanni:0 "Mitanni"
+ hurrian:0 "Hurrian"
+ 
  #Adivasi
  bhil:0 "Bhil"
  gond:0 "Gond"
@@ -455,7 +468,6 @@
  aramaic:0 "Aramaic"
  syriac:0 "Syriac"
  #Mesopotamian
- cardukoi:0 "Cardukoi"
  assyrian:0 "Assyrian"
  babylonian:0 "Babylonian"
  sutean:0 "Sutean"
@@ -517,6 +529,10 @@
  alani:0 "Alani"
  jurcan:0 "Jurcan"
  #Naming
+ hurro_urartian_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ hurro_urartian_femalename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ indus_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ indus_femalename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  aksumite_group_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  aksumite_group_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  anatolian_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"

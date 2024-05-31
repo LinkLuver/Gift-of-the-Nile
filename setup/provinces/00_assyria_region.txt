@@ -62,7 +62,7 @@
 	}
 }
 
-830={ #Nsivin
+830={ #Nisibis
 	terrain="farmland"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -97,7 +97,7 @@
 	}
 }
 
-831={ #Shingar
+831={ #Singara
 	terrain="plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
@@ -119,7 +119,7 @@
 	}
 }
 
-833={ #Pnaha
+833={ #Pinaka
 	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -147,7 +147,7 @@
 	}
 }
 
-834={ #Sthalih
+834={ #Satalka
 	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -2106,7 +2106,7 @@
 
 9535={ #Kartunis
 	terrain="plains"
-	culture="median"
+	culture="cyrtian"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=29
@@ -2216,7 +2216,7 @@
 
 9548={ #Ramonin
 	terrain="mountain"
-	culture="cardukoi"
+	culture="cyrtian"
 	religion="mesopotamian_religion"
 	trade_goods="stone"
 	civilization_value=29
