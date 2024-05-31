@@ -673,11 +673,22 @@
 1870={ #Amanian Gates
 	terrain="mountain"
 	culture="kennataian"
-	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+		culture="hittite"
+	}
+	slaves={
+		amount=1
+		culture="hittite"
+	}
 }
 
 1872={ #Cilician Gates
@@ -2606,10 +2617,19 @@
 	terrain="mountain"
 	culture="kennataian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="base_metals"
+	civilization_value=24
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
 }
 
 7990={ #Kourion
@@ -2654,21 +2674,40 @@
 
 8021={ #Syrian Gates
 	terrain="mountain"
-	culture="kennataian"
-	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	culture="hittite"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
 }
 
 8022={ #Cilician Gates
 	terrain="mountain"
 	culture="kennataian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="base_metals"
+	civilization_value=24
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=3
+		culture="cilician"
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
 }
 
