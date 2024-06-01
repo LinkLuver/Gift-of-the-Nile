@@ -457,6 +457,11 @@ female_hair_mauryan_2_color4 = {
 	entity = { required_tags = ""					node = shared_pose_entity		entity = "female_hair_mauryan_2_color4_entity"  }
 }
 
+## Pharaoh Khepresh Pureon ##
+female_pharaoh_khepresh_1 = {
+	entity = { required_tags = ""					node = shared_pose_entity		entity = "female_pharaoh_khepresh_1_entity" }
+}
+
 #####################################
 #									#
 # 			Boy Hair			#

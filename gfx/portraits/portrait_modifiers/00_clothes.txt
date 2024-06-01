@@ -936,7 +936,7 @@ clothes = {
 	}
 	
 	#Pureon
-	egyptian_ruler_modifier = {
+	egyptian_male_ruler_modifier = {
 		dna_modifiers = {
 			accessory = {
 				mode = replace_template				
@@ -960,6 +960,32 @@ clothes = {
 			modifier = {
 				add = 100
 				is_female = no
+				age >= 13
+				OR = {
+					has_trait = pharaoh
+					has_trait = dishonored_pharaoh
+				}
+				is_ruler = yes
+			}
+		}
+	}
+	
+	#Pureon
+	egyptian_female_ruler_modifier = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace_template				
+				gene = hairstyles
+				template = egyptian_nemes_hairstyles
+			}
+		}
+		weight = {
+			base = 0
+			
+			modifier = {
+				add = 100
+				is_female = yes
+				age >= 13
 				OR = {
 					has_trait = pharaoh
 					has_trait = dishonored_pharaoh
