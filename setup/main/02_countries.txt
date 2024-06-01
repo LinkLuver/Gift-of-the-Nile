@@ -1322,7 +1322,7 @@ country = {
 		AR2 = {
 
 			government = despotic_monarchy
-			primary_culture = armenian
+			primary_culture = lesser_armenian
 			religion = anahitic_religion
 
 			technology={
@@ -1379,8 +1379,8 @@ country = {
 
 		SPH = {
 			government = despotic_monarchy
-			primary_culture = armenian
-			religion = mithra_religion
+			primary_culture = sophene
+			religion = armenian_religion
 
 			technology={
 				military_tech={ level=1 progress=0 }

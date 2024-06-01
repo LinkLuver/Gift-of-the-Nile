@@ -25,6 +25,11 @@ me_akhetaton.1 = {
         name = "me_akhetaton_1.a"
         custom_tooltip = me_akhetaton_1_tooltip
         set_as_ruler = char:519
+        char:519 = { force_add_trait = pharaoh }
+        char:517 = {
+            remove_trait = pharaoh
+            add_trait = wise
+        }
         hidden_effect = {
             char:519 = {
                 set_variable = cursed_child_var
@@ -38,6 +43,7 @@ me_akhetaton.200 = {
     title = me_akhetaton_200_title
     desc = me_akhetaton_200_desc
     picture = natural_disaster
+    right_portrait = scope:pirosmani
 
     option = {
         name = "me_akhetaton_200.a"
@@ -73,7 +79,7 @@ me_akhetaton.200 = {
         hidden_effect = {
             create_character = {
                 first_name="Sekhataten"
-                family_name="Pirosid"
+                family_name="Rabbid"
                 culture="akhenite_egyptian"
                 religion="aten_religion"
                 age = 25
@@ -88,7 +94,7 @@ me_akhetaton.200 = {
         }
         trigger_event = {
             id = me_akhetaton.201
-            days = 5
+            days = 30
         }
     }
 }
@@ -140,8 +146,43 @@ me_akhetaton.201 = {
         name = "me_akhetaton_201.a"
         char:519 = {
             marry_character = scope:pirosmani
-            make_pregnant = yes
+            make_pregnant = {
+                father = scope:pirosmani
+                known_bastard = yes
+            }
         }
+        trigger_event = {
+            id = me_akhetaton_202
+            days = 365
+        }
+    }
+}
+me_akhetaton.202 = {
+    type = country_event
+
+    title = me_akhetaton_202_title
+    desc = me_akhetaton_202_desc
+    picture = diadochi_ptolemy_city
+    left_portrait = current_ruler
+    right_portrait = scope:hope_of_aten
+
+    immediate = {
+        random_character = {
+            limit = {
+                age <= 2
+                is_child_of = char:219
+            }
+            set_firstname = "Meshenutaten"
+            add_character_modifier = {
+                name = aten_heir_modifier
+                duration = -1
+            }
+            save_scope_as = hope_of_aten
+        }
+    }
+
+    option = {
+        name = "me_akhetaton_202.a"
     }
 }
 me_akhetaton.2 = {
@@ -168,11 +209,17 @@ me_akhetaton.3 = {
     title = me_akhetaton_3_title
     desc = me_akhetaton_3_desc
     picture = great_library
+    left_portrait = current_ruler
+    right_portrait = current_ruler.father
 
     option = {
         name = "me_akhetaton_3.a"
         custom_tooltip = me_akhetaton_3_tooltip
-
+        random_list = {
+            1 = { current_ruler = { add_zeal = 1 }}
+            1 = { current_ruler = { add_zeal = 3 }}
+            1 = { current_ruler = { add_zeal = 5 }}
+        }
     }
 }
 me_akhetaton.4 = {
@@ -180,12 +227,17 @@ me_akhetaton.4 = {
 
     title = me_akhetaton_4_title
     desc = me_akhetaton_4_desc
-    picture = great_library
+    picture = army_desert
+    left_portrait = current_ruler
 
     option = {
         name = "me_akhetaton_4.a"
         custom_tooltip = me_akhetaton_4_tooltip
-
+        random_list = {
+            1 = { current_ruler = { add_martial = 1 }}
+            1 = { current_ruler = { add_martial = 3 }}
+            1 = { current_ruler = { add_martial = 5 }}
+        }
     }
 }
 me_akhetaton.5 = {
@@ -193,12 +245,16 @@ me_akhetaton.5 = {
 
     title = me_akhetaton_5_title
     desc = me_akhetaton_5_desc
-    picture = great_library
+    picture = great_work_architect
 
     option = {
         name = "me_akhetaton_5.a"
         custom_tooltip = me_akhetaton_5_tooltip
-
+        random_list = {
+            1 = { current_ruler = { add_finesse = 1 }}
+            1 = { current_ruler = { add_finesse = 3 }}
+            1 = { current_ruler = { add_finesse = 5 }}
+        }
     }
 }
 me_akhetaton.6 = {
@@ -206,12 +262,16 @@ me_akhetaton.6 = {
 
     title = me_akhetaton_6_title
     desc = me_akhetaton_6_desc
-    picture = great_library
+    picture = greek_court
 
     option = {
         name = "me_akhetaton_6.a"
         custom_tooltip = me_akhetaton_6_tooltip
-
+        random_list = {
+            1 = { current_ruler = { add_charisma = 1 }}
+            1 = { current_ruler = { add_charisma = 3 }}
+            1 = { current_ruler = { add_charisma = 5 }}
+        }
     }
 }
 me_akhetaton.7 = {

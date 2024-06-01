@@ -13,3 +13,6 @@ aten_replacement = {
 	global_pop_conversion_speed_modifier = 0.10
 	oasis_combat_bonus = 0.10
 }
+aten_heir_modifier = {	
+	succession_value = 10000
+}

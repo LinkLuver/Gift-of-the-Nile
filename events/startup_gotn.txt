@@ -175,7 +175,7 @@ gotn_events.6 = {
     hidden = yes
     immediate = {
         trigger_event = {
-            name = median_collapse.20
+            id = median_collapse.20
             days = { 180 365 }
         }
     }

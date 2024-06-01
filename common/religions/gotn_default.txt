@@ -210,3 +210,12 @@ eastern_animism = { # Swanco
 	}
 	religion_category = pantheon
 }
+armenian_religion = { # Khaldic
+	color = { 0.00 0.3 0.1 }
+	modifier = { 
+		global_freemen_output = output_small_svalue 
+		heavy_cavalry_morale = 0.05
+		heavy_cavalry_maintenance_cost = 0.1
+	}
+	religion_category = pantheon
+}
