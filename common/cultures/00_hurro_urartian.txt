@@ -54,6 +54,8 @@
 	
 	graphical_culture = anatolian_gfx
 	ethnicities = {
-	       10 = persian
+	       3 = luwian
+		   6 = hurrian
+		   1 = persian
 	}
 }

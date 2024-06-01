@@ -1,0 +1,70 @@
+﻿hurrian = {
+	template = "ethnities_template"
+	
+	skin_color = {
+		10 = { 0.5 0.55 0.75 0.65 }
+	}
+	eye_color = {
+		#Blue
+		5 = { 0.0 0.0 0.33 0.65 }
+		#Green
+		5 = { 0.33 0.0 0.67 0.65 }
+		#Brown
+		90 = { 0.67 0.75 1.0 1.0 }				
+	}
+	hair_color = {
+		# Blonde
+		# 10 = { 0.25 0.2 0.75 0.25 }
+		# Brown
+		5 = { 0.65 0.65 0.9 1.0 }
+		# Red
+		# 10 = { 0.85 0.0 1.0 0.5 }
+		# Black
+		90 = { 0.0 0.9 0.5 1.0 }
+		# # Gray
+		# 5 = { 0.0 0.2 0.33 0.8 }
+		# # White
+		# 5 = { 0.0 0.0 0.25 0.25 }										
+	}
+
+
+hairstyles = {
+    10 = { name = germanic_hairstyles          range = { 0.74 0.75 } }
+    50 = { name = scythian_hairstyles          range = { 0.0 0.365 } }
+    2 = { name = celtic_hairstyles          range = { 0.31 0.365 } }
+}
+
+eyebrows = {
+    10 = { name = north_african_eyebrows        range = { 0.0 1.0 } }
+}
+
+beards = {
+    10 = { name = persian_beards          range = { 0.0 1.0 } }
+}
+
+
+clothes = {
+    10 = { name = carthaginian_clothes            range = { 0.0 0.31 } }
+
+    10 = { name = celtic_clothes            range = { 0.65 0.66 } }
+    10 = { name = celtic_clothes            range = { 0.84 1.00 } }
+    #2 = { name = no_clothes            range = { 0.0 1.0 } }
+}
+
+clothes_layer2 = {
+    40 = { name = bactrian_top_layer            range = { 0.0 0.53 } }
+    10 = { name = ethiopian_top_layer            range = { 0.0 0.3 } }
+    40 = { name = germanic_top_layer            range = { 0.0 0.65 } }
+}
+
+
+complexion = {
+    10 = { name = levantine_1            range = { 0.0 1.0 } }
+    10 = { name = roman_1            range = { 0.0 1.0 } }
+    10 = { name = roman_2            range = { 0.0 1.0 } }
+    10 = { name = roman_3            range = { 0.0 1.0 } }
+    10 = { name = roman_5            range = { 0.0 1.0 } }
+}
+
+
+}
