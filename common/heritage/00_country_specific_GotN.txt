@@ -532,6 +532,20 @@ hittite_heritage = {
         tag = KAR
     }
 }
+mitanni_heritage = {
+    modifier = {
+        #good
+        chariots_discipline = 0.20
+        army_movement_speed = 0.10
+
+        #bad
+        global_pop_assimilation_speed_modifier = -0.1
+    }
+
+    trigger = {
+        tag = KAR
+    }
+}
 qidraya_heritage = {
     modifier = {
         #good

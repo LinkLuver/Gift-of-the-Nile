@@ -3071,3 +3071,15 @@ SA0 = {
 		instance = { rotation = 270 }
 	}
 }
+
+MITANNI_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 81  48  112 }
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_neo_mittani.dds"
+		color1 = "offwhite"
+		color2 = neo_mitanni_color
+	}
+}

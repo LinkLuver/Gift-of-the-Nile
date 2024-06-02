@@ -17,13 +17,6 @@
 			}
 			country_culture_group = armenian_group
 		}
-		trigger_if = {
-			limit = { country_culture_group = hurro_urartian }
-			custom_tooltip = {
-				text = "began_with_tradition_group"
-			}
-			country_culture_group = hurro_urartian
-		}
 		trigger_else_if = {
 			limit = {
 				country_culture_group = east_semetic

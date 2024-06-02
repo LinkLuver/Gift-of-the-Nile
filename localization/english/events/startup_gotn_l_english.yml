@@ -22,6 +22,8 @@
 
  ARZ:0 "Arzasha"
  ARZ_ADJ:0 "Arzashi"
+ MTT_ADJ:0 "Mitanni"
+ MTT:0 "Mitanni"
  armenia_big_success:0 "#E Armenia#! takes over parts of the #E Armenia#! region.\n#E Armenia#! becomes the leader of the #E Armenian#! satrapies."
  declare_war_tt:0 "#R Declare War#! on the #E Armenians#! in #Y one month#!!"
 
@@ -56,3 +58,19 @@
  median_collapse_21_title:0 "Sagartia Joins the Fray"
  median_collapse_21_desc:0 "Thanks to our shared faith of Mazdayasna, the Sargatians have finally left behind their tyrannical Median overlords and sworn loyalty to us! The Medians cannot be happy about this and will likely declare war on us for this reason. We should be ready."
  median_collapse_21.a:0 "Ahura Mazda will lead us!"
+ 
+ mitanni_nobility_return.1.t:0 "The future of Hanigalbat?"
+ mitanni_nobility_return.1.desc:0 "Does Sagartia join the Fray? I hope not..."
+ mitanni_nobility_return.1.a:0 "We will accept them into our nation as Nobility."
+ mitanni_nobility_return.1.b:0 "Despite how our identity has shifted, we must return to our roots!"
+ mitanni_nobility_return.1.c:0 "They can settle in our lands but will not be granted extra privilige."
+ mitanni_nobility_return.2.t:0 "The future of the Royal Family?"
+ mitanni_nobility_return.2.desc:0 "We have reinstated the Mitanni nobles and are sponsoring their culture, but there are demands by the new nobility to establish a proper Mitanni Monarchy.."
+ mitanni_nobility_return.2.a:0 "We will instate a Mitanni noble forcefully."
+ mitanni_nobility_return.2.b:0 "Appeasement may be the better option.."
+ mitanni_culture_warning.tt:0 "The mission #r "placeholdermissionnamehanigalbat"#! will no longer be available."
+ mitanni_unlocked_missions.tt:0 "We will pursue the restoration of the #G Mitanni Kingdom#! of old. The mission #G "From Brazen Ashes"#! will become available."
+ mitanni_military_trads.tt:0 "The heritage of the #G Mitanni#! will become ours to fulfil. This will switch the #T Heritage#! of our nation."
+ mitanni_nobility_priviliges.tt:0 "The #E Mitanni#! culture will be granted #E Noble#! priviliges."
+ switch_culture_mitanni.tt:0 "[THIS.GetCountry.GetName] adopts the #E Mitanni#! heritage."
+ mitanni_opposition_name:0 "Semitic Opposition"
