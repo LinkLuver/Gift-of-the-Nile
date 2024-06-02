@@ -1,0 +1,115 @@
+﻿namespace = flavor_canaan
+
+flavor_canaan.1 = { # Recursive
+    type = country_event
+    hidden = yes
+    immediate = {
+	    if = {
+	    	limit = {
+	    		has_global_variable = payday_melqart
+	    		scope:melqart_site = {
+	    			is_holy_site = yes
+	    		}
+	    		owns = scope:melqart_site
+	    	}
+	    	every_country = {
+	    		limit = {
+	    			is_in_list = melqart_enjoyers
+	    			NOT = {
+	    				owns = scope:melqart_site
+	    			}
+	    		}
+	    		trigger_event = {
+	    			id = flavor_canaan.100 # Service for Melqart
+	    		}
+	    	}
+	    	random_country = {
+	    		limit = {
+	    			owns = scope:melqart_site
+	    		}
+	    		trigger_event = {
+	    			id = flavor_canaan.101 # Payday Event
+	    			days = { 30 }
+	    		}
+	    	}
+	    	change_global_variable = {
+	    		name = payday_melqart
+	    		multiply = 0
+	    	}
+	    	trigger_event = {
+	    		id = flavor_canaan.1 # Recursive Recall
+	    		days = { 1825 }
+	    	}
+	    }
+	    if = {
+	    	limit = {
+	    		scope:melqart_site = {
+	    			is_holy_site = no
+	    		}
+	    	}
+	    	trigger_event = {
+	    		id = flavor_canaan.99 # Kill Event
+	    	}
+	    }
+	}
+}
+flavor_canaan.100 = { # Subjects
+	type = country_event
+	title = flavor_canaan_100_title
+	desc = flavor_canaan_100_desc
+	picture = celtic_religious_festival
+	left_portrait = current_ruler
+	right_portrait = scope:melqart_ruler
+
+	option = {
+		name = flavor_canaan_100.a
+		add_treasury = -100
+		add_country_modifier = {
+			name = melqart_blessing
+			duration = 1825
+		}
+		change_global_variable = {
+			name = payday_melqart
+			add = 2
+		}
+	}
+	option = {
+		name = flavor_canaan_100.b
+		add_treasury = -50
+		add_country_modifier = {
+			name = melqart_blessing
+			duration = 365
+		}
+		change_global_variable = {
+			name = payday_melqart
+			add = 1
+		}
+	}
+	option = {
+		name = flavor_canaan_100.c
+		current_ruler = {
+			add_popularity = -5
+		}
+	}
+}
+flavor_canaan.101 = { # Owner
+	type = country_event
+	title = flavor_canaan_101_title
+	desc = flavor_canaan_101_desc
+	picture = great_work_celebration
+	left_portrait = current_ruler
+	right_portrait = scope:melqart_ruler
+
+	option = {
+		name = flavor_canaan_101.a
+		add_treasury = payday_melqart_svalue
+	}
+}
+flavor_canaan.99 = { # Kill
+	hidden = yes
+	type = country_event
+
+	immediate = {
+		remove_global_variable = payday_melqart
+	}
+}

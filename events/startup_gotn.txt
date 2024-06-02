@@ -180,3 +180,31 @@ gotn_events.6 = {
         }
     }
 }
+
+gotn_events.7 = { # For Canaanite Stuff
+    type = country_event
+    hidden = yes
+    immediate = {
+        c:SWR = { save_scope_as = mellqart_ruler }
+        p:743 = { save_scope_as = melqart_site }
+        set_global_variable = {
+            name = melqart_payday
+            value = 0
+        }
+        every_country = {
+            limit = {
+                culture = carthaginian
+                OR = {
+                    religion = carthaginian_pantheon
+                    has_deity_in_pantheon = deity:omen_melqart
+                    has_deity_in_pantheon = deity:omen_rasap_melqart
+                }
+            }
+            add_to_list = melqart_enjoyers
+        }
+        trigger_event = {
+            id = flavor_canaan.1
+            days = { 15 30 }
+        }
+    }
+}

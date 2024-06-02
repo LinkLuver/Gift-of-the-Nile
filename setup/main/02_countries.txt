@@ -1839,9 +1839,9 @@ country = {
 			}
 		}
 
-		TR1 = {
-			government = plutocratic_republic
-			primary_culture = alashiyan
+		SWR = {
+			government = theocratic_monarchy
+			primary_culture = phoenician
 			religion = carthaginian_pantheon
 
 			technology={
