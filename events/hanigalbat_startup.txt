@@ -130,8 +130,8 @@ mitanni_nobility_return.2 = { # how to overcome resistance
 				chance = { 35 70 }
 				random_owned_province = {
 					limit = {
-						NOT = {
-							root.capital_scope.area = this.area
+						THIS = {
+							province_id = 831
 						}
 					}
 					create_country = {
@@ -163,11 +163,7 @@ mitanni_nobility_return.2 = { # how to overcome resistance
 						location = scope:mitanni_opposition_scope.capital_scope
 						while = {
 							count = 4
-							add_subunit = heavy_infantry
-						}
-						while = {
-							count = 4
-							add_subunit = light_cavalry
+							add_subunit = light_infantry
 						}
 						add_food = 50
 						add_morale = 2
