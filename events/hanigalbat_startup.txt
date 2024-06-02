@@ -35,7 +35,7 @@ mitanni_nobility_return.1 = {
 			}
 			set_primary_culture_cleanup_effect = {
 				NEW_PRIMARY_CULTURE = mitanni
-				MAKE_OLD_CULTURE_INTEGRATED = yes
+				MAKE_OLD_CULTURE_INTEGRATED = no
 			}
 		}
 #		add_country_modifier = {
