@@ -1003,14 +1003,14 @@ country = {
 			}
 
 			own_control_core = 	{
-				865 880 881 884 886 887 957 958 984 985 1578 #adiabene_region
-				773 861 862 863 864 866 867 868 882 986 #niniveh_region
-				835 883 955 956 #tigris_region
+				880 881 884 886 887 957 958 984 985 1578 #adiabene_region
+				861 862 863 882 986 #niniveh_region
+				835 883 955 956 875 #tigris_region
 				885 983 959 888 981 982 890 889 #garamig_region
-				9488 9489 9490 9491 9492 9493 9494 9495 9496 9497 9498 9499 9500
+				9490 9491 9492 9493 9496 9497 9498 9499
 				9501 9502 9503 9504 9505 9506 9507 9508 9509 9510 9511 9512 9513
 				9514 9515 9516 9517 9518 9519 9520 9521 9522 9523 9524 9525 9526
-				9527 9528 9529
+				9529
 			}
 
 		}
@@ -1041,6 +1041,70 @@ country = {
 			own_control_core = 	{
 				6541 6555 6610 6554 6548 6573 6547 6632 6553 6622 6633 #arachosia
 				6551 6561 6552 6570 6550 6569 6549 6594 6595 6546 #pactya
+			}
+		}
+
+		NSI = {
+			government = despotic_monarchy
+			primary_culture = assyrian
+			religion = ashur_religion
+			monarchy_citizen_law = foreign_law_for_minorities
+			capital = 830 #Alexandria Arachosia
+			family = 100
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+			830 773 9561
+			}
+		}
+
+		BYI = {
+			government = despotic_monarchy
+			primary_culture = aramaic
+			religion = ashur_religion
+			monarchy_citizen_law = foreign_law_for_minorities
+			capital = 871 #Alexandria Arachosia
+			family = 100
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+			871 857 9560 9562 9559 9557
+			}
+		}
+
+		HAG = {
+			government = despotic_monarchy
+			primary_culture = assyrian
+			religion = ashur_religion
+			monarchy_citizen_law = foreign_law_for_minorities
+			capital = 844 #Alexandria Arachosia
+			family = 100
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+			844 821 #tella_area
+			822 832 872 874 9563 9564 9565 9566 9567 9568 #amudha_area
+			855 #upper_mesopotamia_area
+			876 9570 9572 9574 #nisibin_area
+			831 9569 9571 9573 9575 9576 9577 9578 #shingar_area
 			}
 		}
 
@@ -1506,9 +1570,12 @@ country = {
 			capital = 843
 
 			own_control_core = {
-				833 834 841 842 843 845 856 857 869 870 846 992 #corduene_region
-				822 823 830 831 832 855 871 872 873 874 875 876 #upper_mesopotamia_region
-				 821 844
+				841 842 843 845 856 869 870 846 992 #corduene_region
+				9488 866 833 834 9551 9552 9553 9554 9546 9547 #gordyene_region
+				873 9555 #upper_mesopotamia_region
+				868 9494 #nisibin_area
+				9489 9495 9527 9528 867 864 865 9500 #niniveh_area
+				
 			}
 		}
 
@@ -1768,7 +1835,7 @@ country = {
 			own_control_core = {
 				754 755 756 775 800 801 802 803 806 815 850 #palmyra_region
 				824 825 826 827 828 829 905 906 907 908 953 954 #euphrates_region
-				902 904 9589 9588 #babylonia_region
+				902 904 9589 9588 823 #babylonia_region
 			}
 		}
 
@@ -3672,8 +3739,6 @@ country = {
 
 			}
 			is_antagonist = yes
-
-			treasures = { 201 61 39 }
 
 			own_control_core = 	{
 				2 5 19 25 26 31

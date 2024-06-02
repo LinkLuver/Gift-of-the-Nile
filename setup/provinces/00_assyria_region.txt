@@ -87,10 +87,10 @@
 	slaves={
 		amount=2
 	}
-	tribesmen={
+	citizen={
 		culture="assyrian"
-		religion="zoroaster"
-		amount=1
+		religion="ashur_religion"
+		amount=5
 	}
 	tribesmen={
 		amount=3
@@ -320,6 +320,11 @@
 	tribesmen={
 		amount=2
 	}
+	tribesmen={
+		amount=1
+		culture="cardukoi"
+		religion="mesopotamian_religion"
+	}
 	holy_site=omen_istaran
 }
 
@@ -338,14 +343,16 @@
 		amount=3
 	}
 	tribesmen={
-		amount=1
+		amount=5
+		culture="cardukoi"
+		religion="mesopotamian_religion"
 	}
 }
 
 866={ #Vawyan
 	terrain="mountain"
-	culture="assyrian"
-	religion="ashur_religion"
+	culture="cardukoi"
+	religion="mesopotamian_religion"
 	trade_goods="wild_game"
 	civilization_value=29
 	barbarian_power=0
@@ -355,6 +362,8 @@
 	}
 	slaves={
 		amount=1
+		culture="assyrian"
+	religion="ashur_religion"
 	}
 	tribesmen={
 		amount=2
@@ -363,8 +372,8 @@
 
 867={ #Shfur
 	terrain="hills"
-	culture="assyrian"
-	religion="ashur_religion"
+	culture="cardukoi"
+	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=31
 	barbarian_power=0
@@ -377,7 +386,9 @@
 		amount=1
 	}
 	slaves={
-		amount=1
+		amount=3
+		culture="assyrian"
+		religion="ashur_religion"
 	}
 	tribesmen={
 		amount=1
@@ -405,6 +416,10 @@
 	}
 	tribesmen={
 		amount=2
+	}
+	tribesmen={
+		amount=4
+		culture="cardukoi"
 	}
 }
 
@@ -1197,23 +1212,17 @@
 
 1578={ #Orontes
 	terrain="hills"
-	culture="assyrian"
-	religion="ashur_religion"
+	culture="cyrtian"
+	religion="zoroaster"
 	trade_goods="dye"
 	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
-	slaves={
-		amount=2
-	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1336,45 +1345,35 @@
 
 9488={ #Asokis
 	terrain="plains"
-	culture="assyrian"
-	religion="ashur_religion"
-	trade_goods="cattle"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-9489={ #Zibar
-	terrain="mountain"
-	culture="assyrian"
+	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=3
-	}
 	freemen={
-		amount=2
-	}
-	slaves={
 		amount=2
 	}
 	tribesmen={
 		amount=3
+	}
+	slaves={
+		amount=4
+		culture="assyrian"
+	religion="ashur_religion"
+	}
+}
+
+9489={ #Zibar
+	terrain="mountain"
+	culture="cyrtian"
+	religion="mesopotamian_religion"
+	trade_goods="cattle"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=6
 	}
 }
 
@@ -1622,8 +1621,8 @@
 
 9501={ #Bgash
 	terrain="forest"
-	culture="assyrian"
-	religion="ashur_religion"
+	culture="cyrtian"
+	religion="zoroaster"
 	trade_goods="wood"
 	civilization_value=29
 	barbarian_power=0
@@ -2040,20 +2039,19 @@
 
 9527={ #Biturra
 	terrain="plains"
-	culture="assyrian"
+	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=3
-	}
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
-		amount=2
+		amount=6
+		culture="assyrian"
+		religion="ashur_religion"
 	}
 	tribesmen={
 		amount=3
@@ -2062,23 +2060,22 @@
 
 9528={ #Maltai
 	terrain="mountain"
-	culture="assyrian"
-	religion="ashur_religion"
+	culture="cardukoi"
+	religion="mesopotamian_religion"
 	trade_goods="iron"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=3
-	}
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
-		amount=2
+		amount=3
+		culture="assyrian"
+		religion="ashur_religion"
 	}
 	tribesmen={
-		amount=3
+		amount=4
 	}
 }
 
