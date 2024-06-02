@@ -59,7 +59,7 @@ flavor_canaan.100 = { # Subjects
 	desc = flavor_canaan_100_desc
 	picture = celtic_religious_festival
 	left_portrait = current_ruler
-	right_portrait = scope:melqart_ruler
+	right_portrait = scope:melqart_site.owner.current_ruler
 
 	option = {
 		name = flavor_canaan_100.a
@@ -98,7 +98,7 @@ flavor_canaan.101 = { # Owner
 	desc = flavor_canaan_101_desc
 	picture = great_work_celebration
 	left_portrait = current_ruler
-	right_portrait = scope:melqart_ruler
+	right_portrait = scope:melqart_site.owner.current_ruler
 
 	option = {
 		name = flavor_canaan_101.a

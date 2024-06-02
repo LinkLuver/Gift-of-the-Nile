@@ -188,7 +188,7 @@ gotn_events.7 = { # For Canaanite Stuff
     type = country_event
     hidden = yes
     immediate = {
-        c:SWR = { save_scope_as = mellqart_ruler }
+        c:SWR = { save_scope_as = melqart_ruler }
         p:743 = { save_scope_as = melqart_site }
         set_global_variable = {
             name = melqart_payday

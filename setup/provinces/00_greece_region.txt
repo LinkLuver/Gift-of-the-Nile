@@ -51,7 +51,7 @@
 
 344={ #Praisos
 	terrain="hills"
-	culture="cretan"
+	culture="eteocretan"
 	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=24
@@ -89,6 +89,7 @@
 		amount=1
 	}
 	tribesmen={
+		culture="eteocretan"
 		amount=2
 	}
 }
@@ -109,6 +110,10 @@
 	}
 	freemen={
 		amount=10
+	}
+	freemen={
+		culture="eteocretan"
+		amount=1
 	}
 	slaves={
 		amount=5
@@ -132,7 +137,11 @@
 		amount=10
 	}
 	freemen={
-		amount=6
+		amount=3
+	}
+	freemen={
+		culture="eteocretan"
+		amount=3
 	}
 	freemen={
 		culture="carian"
@@ -164,6 +173,7 @@
 		amount=4
 	}
 	tribesmen={
+		culture="eteocretan"
 		amount=3
 	}
 }
@@ -184,6 +194,10 @@
 	}
 	freemen={
 		amount=7
+	}
+	freemen={
+		culture="eteocretan"
+		amount=1
 	}
 	slaves={
 		amount=8
