@@ -907,10 +907,11 @@ hittite_viceroyalty = {
 	
 	overlord_modifier = {
 		levy_size_multiplier = 0.01
+		global_monthly_civilization	= 0.10
 	}
 	subject_modifier = {
 		global_manpower_modifier = 0.05
-		levy_size_multiplier = 0.025
+		levy_size_multiplier = 0.01
 	}
 	
 	allow = {
