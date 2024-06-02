@@ -218,6 +218,7 @@
 		italiotian = { levy_template = levy_magna_graecia }
 		thracian = { }
 		cretan = { levy_template = levy_cretan }
+		eteocretan = { levy_template = levy_cretan }
 		achaean = { }
 		argolian = { levy_template = levy_argolis }
 		arcadian = {}
