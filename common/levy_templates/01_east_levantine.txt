@@ -15,13 +15,13 @@ levy_assyrian = {	#Assyrian states
 	heavy_cavalry = 0.2
 }
 
-levy_east_levantine = {	#Mesopotamian states
+levy_east_levantine = {	#Aramaic states
 	default = no
 
 	light_infantry = 0.6
 	light_cavalry = 0.25
 
-	heavy_cavalry = 0.15
+	spearmen = 0.15
 }
 
 levy_babylonian = {	#Babylonian states
