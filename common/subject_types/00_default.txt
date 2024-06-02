@@ -891,3 +891,29 @@ great_satrapy = {
 		}
 	}
 }
+hittite_viceroyalty = {
+	subject_pays = subject_pays_hittite_viceroy
+	
+	joins_overlord_in_war = no
+	
+	protected_when_attacked = yes
+	has_overlords_ruler = no
+	can_be_integrated = no
+	costs_diplomatic_slot = no
+	
+	has_limited_diplomacy = no
+	only_trade_with_overlord =  no
+	allowed_to_declare_war_against_others = yes
+	
+	overlord_modifier = {
+		levy_size_multiplier = 0.01
+	}
+	subject_modifier = {
+		global_manpower_modifier = 0.05
+		levy_size_multiplier = 0.025
+	}
+	
+	allow = {
+		always = no
+	}
+}

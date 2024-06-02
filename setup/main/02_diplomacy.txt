@@ -55,7 +55,7 @@ diplomacy = {
 	dependency = { first = LYD second = BIT subject_type = tributary }
 
 	#Bit-Adini
-	dependency = { first = BMB second = KAR subject_type = subject_league_city_state }
+	dependency = { first = BMB second = KAR subject_type = hittite_viceroyalty }
 
 	#Hamath
 	dependency = { first = HAM second = LHT subject_type = client_state }
