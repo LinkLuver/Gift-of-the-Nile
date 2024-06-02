@@ -5601,6 +5601,27 @@ country = {
 
 		}
 
+		#Iberia
+		OLS = {
+			government = punic_republic
+			primary_culture = carthaginian
+			diplomatic_stance=trading_stance
+			religion = carthaginian_pantheon
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 1319
+
+			own_control_core =  {
+				1319
+			}
+		}
+
 		#Britannia
 
 		TXL = {
@@ -7751,7 +7772,7 @@ country = {
 			capital = 1294
 
 			own_control_core = 	{
-				1293 1291 1294 1297 1314 1316 1317 1319
+				1293 1291 1294 1297 1314 1316 1317
 			}
 		}
 

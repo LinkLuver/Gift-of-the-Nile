@@ -100,7 +100,7 @@ deity_gothadevata = { # ECONOMY
 		can_deify_trigger = yes
 	}
 }
-deity_tulsi = { # JUSTICE
+deity_tulsi = { # WAR
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
@@ -112,20 +112,20 @@ deity_tulsi = { # JUSTICE
 			}
 		}
 	}
-	icon = deity_justice
+	icon = deity_hindu_war
 	passive_modifier = { global_monthly_state_loyalty = deity_global_monthly_state_loyalty_svalue }
-	omen = { ruler_popularity_gain = omen_ruler_popularity_gain_svalue }
+	omen = { monthly_military_experience_modifier = 0.03 }
 	on_activate = {
 		culture_apotheosis_capital_effect = yes
 	}
 	religion = masto_pantheon
-	deity_category = justice #This Deity uses a Justice Slot
+	deity_category = war #This Deity uses a War Slot
 
 	deification_trigger = {
 		can_deify_trigger = yes
 	}
 }
-deity_vanadevata = { # JUSTICE
+deity_vanadevata = { # ECONOMY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
@@ -137,20 +137,20 @@ deity_vanadevata = { # JUSTICE
 			}
 		}
 	}
-	icon = deity_justice
+	icon = deity_hindu_wealth
 	passive_modifier = { character_loyalty = 3 }
 	omen = { global_monthly_state_loyalty = deity_global_monthly_state_loyalty_svalue }
 	on_activate = {
 		fertility_apotheosis_capital_effect = yes
 	}
 	religion = masto_pantheon
-	deity_category = justice #This Deity uses a Justice Slot
+	deity_category = economy #This Deity uses an Economy Slot
 
 	deification_trigger = {
 		can_deify_trigger = yes
 	}
 }
-deity_pipala = { # WISDOM
+deity_pipala = { # CULTURE
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
@@ -162,20 +162,20 @@ deity_pipala = { # WISDOM
 			}
 		}
 	}
-	icon = deity_wisdom
+	icon = deity_hindu_eloquence
 	passive_modifier = { global_pop_conversion_speed_modifier = deity_global_pop_conversion_speed_modifier_svalue }
 	omen = { stability_monthly_change = omen_stability_monthly_change_svalue } #Bonus from Omen
 	on_activate = {
 		culture_apotheosis_civic_tech_effect = yes
 	}
 	religion = masto_pantheon
-	deity_category = wisdom #This Deity uses a Wisdom Slot
+	deity_category = culture #This Deity uses a Culture Slot
 
 	deification_trigger = {
 		can_deify_trigger = yes
 	}
 }
-deity_vara = { # WISDOM
+deity_vara = { # FERTILITY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
@@ -187,14 +187,14 @@ deity_vara = { # WISDOM
 			}
 		}
 	}
-	icon = deity_wisdom
-	passive_modifier = { civic_tech_investment = deity_civic_tech_investment_svalue }
+	icon = deity_hindu_love
+	passive_modifier = { global_food_capacity = deity_global_food_capacity_svalue }
 	omen = { religious_tech_investment = omen_religious_tech_investment_svalue } #Bonus from Omen
 	on_activate = {
 		culture_apotheosis_oratory_tech_effect = yes
 	}
 	religion = masto_pantheon
-	deity_category = wisdom #This Deity uses a Wisdom Slot
+	deity_category = fertility #This Deity uses a Fertility Slot
 
 	deification_trigger = {
 		can_deify_trigger = yes
