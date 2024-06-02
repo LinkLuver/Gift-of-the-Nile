@@ -7,9 +7,14 @@
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
-		amount=2
+		amount=5
 	}
 	tribesmen={
+		amount=2
+	}
+	freemen={
+		culture="assyrian"
+		religion="ashur_religion"
 		amount=2
 	}
 }
@@ -74,10 +79,12 @@
 		amount=1
 	}
 	citizen={
-		amount=2
+		amount=7
 	}
 	freemen={
-		amount=3
+		amount=11
+		culture="assyrian"
+		religion="ashur_religion"
 	}
 	freemen={
 		culture="hebrew"
@@ -85,7 +92,7 @@
 		amount=1
 	}
 	slaves={
-		amount=2
+		amount=9
 	}
 	citizen={
 		culture="assyrian"
