@@ -13,18 +13,22 @@ mitanni_nobility_return.1 = {
 	immediate = {
 	}
 	option = {
-		name = mitanni_nobility_return.1.a
+		name = mitanni_nobility_return.1.a #Hurrian first, Mitanni get noble privileges
 		custom_tooltip = mitanni_nobility_priviliges.tt
-		add_country_modifier = {
-			name = dhe_heraclea_pontica_greek_modifier
-			duration = -1
-		}
+		custom_tooltip = mitanni_deities.tt
+		
+		set_variable = mitanni_deities
+		## mitanni integrated and gets some cavalry bonuses ? access to intra ?
 	}
 	option = {
-		name = mitanni_nobility_return.1.b
+		name = mitanni_nobility_return.1.b #Mitanni first, Hurrian Second
 		custom_tooltip = mitanni_culture_warning.tt
 		custom_tooltip = mitanni_unlocked_missions.tt
 		custom_tooltip = mitanni_military_trads.tt
+		custom_tooltip = mitanni_deities.tt
+		
+		set_variable = mitanni_deities
+		
 		add_stability = -10
 		add_political_influence = -25
 		if = {
@@ -35,7 +39,7 @@ mitanni_nobility_return.1 = {
 			}
 			set_primary_culture_cleanup_effect = {
 				NEW_PRIMARY_CULTURE = mitanni
-				MAKE_OLD_CULTURE_INTEGRATED = no
+				MAKE_OLD_CULTURE_INTEGRATED = yes
 			}
 		}
 #		add_country_modifier = {
@@ -86,10 +90,21 @@ mitanni_nobility_return.1 = {
 		}
 	}
 	option = {
-		name = mitanni_nobility_return.1.c
+		name = mitanni_nobility_return.1.c #Assyrian Larp
 		add_country_modifier = {
 			name = dhe_heraclea_pontica_greek_modifier
 			duration = -1
+		}
+		if = {
+			limit = {
+				NOT = {
+					primary_culture = assyrian
+				}
+			}
+			set_primary_culture_cleanup_effect = {
+				NEW_PRIMARY_CULTURE = assyrian
+				MAKE_OLD_CULTURE_INTEGRATED = yes
+			}
 		}
 	}
 }
