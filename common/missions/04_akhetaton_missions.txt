@@ -226,9 +226,7 @@
         }
         on_completion = {
             trigger_event = me_akhetaton.7
-            show_as_tooltip = {
-
-            }
+            show_as_tooltip = {}
         }
     }
     akhetaton_missions_task_8 = {

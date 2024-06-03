@@ -148,7 +148,7 @@ me_akhetaton.201 = {
             marry_character = scope:pirosmani
             make_pregnant = {
                 father = scope:pirosmani
-                known_bastard = yes
+                #known_bastard = yes
             }
         }
         trigger_event = {
@@ -287,17 +287,70 @@ me_akhetaton.7 = {
 
     }
 }
-me_akhetaton.8 = {
+me_akhetaton.8 = { # Cook more
     type = country_event
 
     title = me_akhetaton_8_title
     desc = me_akhetaton_8_desc
-    picture = great_library
+    picture = interesting_histories_kush_capital
 
     option = {
         name = "me_akhetaton_8.a"
         custom_tooltip = me_akhetaton_8_tooltip
-
+        area:parva_area = {
+            every_area_province = {
+                limit = {
+                    OR = {
+                        any_pops_in_province = {
+                            pop_religion = sobek_religion
+                        }
+                        province_id = 539
+                    }
+                }
+                add_province_modifier = {
+                    name = sobeks_joy
+                    duration = 1825
+                }
+            }
+        }
+    }
+    option = {
+        name = "me_akhetaton_8.a"
+        custom_tooltip = me_akhetaton_8_tooltip
+        area:parva_area = {
+            every_area_province = {
+                OR = {
+                    any_pops_in_province = {
+                        pop_religion = sobek_religion
+                    }
+                    province_id = 539
+                }
+                add_province_modifier = {
+                    name = sobeks_pain
+                    duration = 1825
+                }
+            }
+        }
+    }
+    option = {
+        trigger = {
+            limit = {
+                OR = {
+                    primary_culture = middle_egyptian
+                    is_ai = no
+                }
+            }
+        }
+        name = "me_akhetaton_8.a"
+        custom_tooltip = me_akhetaton_8_tooltip
+        add_country_modifier = {
+            name = sobekism_accepted
+            duration = 3650
+        }
+        set_capital = p:539
+        change_religion_effect = {
+            RELIGION = sobek_religion
+        }
     }
 }
 me_akhetaton.9 = {
