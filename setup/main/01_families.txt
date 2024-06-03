@@ -701,6 +701,12 @@ family={
 			culture=upper_egyptian
 			owner=EGY
 		}
+		2004 = {
+			key = "Intefid"
+			prestige=100
+			culture=egyptian
+			owner=MEN
+		}
 		#GOTN Macedon
 		2100 = {
 			key = "Argead"

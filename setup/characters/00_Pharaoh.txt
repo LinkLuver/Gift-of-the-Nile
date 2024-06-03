@@ -149,3 +149,65 @@
 		female=yes
 	}
 }
+"MEN"={
+	country="MEN"
+	551={
+		first_name="Ptahmose"
+		family = c:MEN.fam:Intefid 
+		birth_date=422.3.29
+		religion="egyptian_pantheon"
+		culture="egyptian"
+		no_traits=yes
+		add_trait = just
+		add_trait = scholar
+		add_trait = prominent
+		no_stats=yes
+		add_zeal=5
+		add_finesse=10
+		add_charisma=10
+		add_martial=9
+		c:MEN={
+			set_as_ruler=char:551
+		}
+	}
+	552={
+		first_name="Tatenis"
+		family = c:MEN.fam:Intefid 
+		birth_date=424.10.3
+		religion="aten_religion"
+		culture="middle_egyptian"
+		marry_character=char:551
+		no_traits=yes
+		add_trait = submissive
+		add_trait = good_natured
+		no_stats=yes
+		add_zeal=8
+		add_finesse=9
+		add_charisma=3
+		add_martial=1
+		female=yes
+	}
+	553={
+		first_name="Khafra"
+		family = c:MEN.fam:Intefid 
+		father="char:551"
+		mother="char:552"
+		birth_date=444.4.4
+		religion="egyptian_pantheon"
+		culture="egyptian"
+		no_stats=yes
+		add_zeal=1
+		add_finesse=3
+		add_charisma=4
+		add_martial=2
+	}
+	554={
+		first_name="Aya"
+		family = c:MEN.fam:Intefid 
+		father="char:551"
+		mother="char:552"
+		birth_date=449.6.12
+		religion="egyptian_pantheon"
+		culture="egyptian"
+	}
+}
