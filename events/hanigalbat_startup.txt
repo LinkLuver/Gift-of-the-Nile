@@ -16,6 +16,8 @@ mitanni_nobility_return.1 = {
 		name = mitanni_nobility_return.1.a #Hurrian first, Mitanni get noble privileges
 		custom_tooltip = mitanni_nobility_priviliges.tt
 		custom_tooltip = mitanni_deities.tt
+		set_country_religion = hurrian_pantheon
+		custom_tooltip = hanigalbat_hurrian_missions.tt
 		
 		set_variable = mitanni_deities
 		## mitanni integrated and gets some cavalry bonuses ? access to intra ?
@@ -25,7 +27,6 @@ mitanni_nobility_return.1 = {
 		custom_tooltip = mitanni_culture_warning.tt
 		custom_tooltip = mitanni_unlocked_missions.tt
 		custom_tooltip = mitanni_military_trads.tt
-		custom_tooltip = mitanni_deities.tt
 		
 		set_variable = mitanni_deities
 		
@@ -52,7 +53,7 @@ mitanni_nobility_return.1 = {
 #			}
 		set_country_religion = hurrian_pantheon
 		custom_tooltip = switch_culture_mitanni.tt
-		anatolian_unlock_effect = yes
+		custom_tooltip = mitanni_deities.tt
 		hidden_effect = {
 			change_country_adjective = MTT_ADJ
 			change_country_name = MTT
@@ -91,10 +92,16 @@ mitanni_nobility_return.1 = {
 	}
 	option = {
 		name = mitanni_nobility_return.1.c #Assyrian Larp
-		add_country_modifier = {
-			name = dhe_heraclea_pontica_greek_modifier
-			duration = -1
-		}
+#		add_country_modifier = {
+#			name = dhe_heraclea_pontica_greek_modifier
+#			duration = -1
+#		}
+		custom_tooltip = hanigalbat_to_rule_the_universe.tt
+		custom_tooltip = mitanni_culture_warning.tt
+		custom_tooltip = hanigalbat_assyrian_missions.tt
+		
+		add_stability = -10
+		add_political_influence = -25
 		if = {
 			limit = {
 				NOT = {
