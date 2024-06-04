@@ -52,10 +52,13 @@ clothes = {
 }
 
 clothes_layer2 = {
-    40 = { name = bactrian_top_layer            range = { 0.0 0.53 } }
-    10 = { name = ethiopian_top_layer            range = { 0.0 0.3 } }
-    40 = { name = germanic_top_layer            range = { 0.0 0.65 } }
+    10 = { name = bactrian_top_layer            range = { 0.0 0.53 } }
+    40 = { name = carthaginian_top_layer            range = { 0.0 1.0 } }
 }
+
+
+complexion = {
+    10 = { name = levantine_1            range = { 0.0 1.0 } }
 
 
 complexion = {

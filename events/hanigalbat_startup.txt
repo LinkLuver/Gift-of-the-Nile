@@ -18,6 +18,12 @@ mitanni_nobility_return.1 = {
 		custom_tooltip = mitanni_deities.tt
 		set_country_religion = hurrian_pantheon
 		custom_tooltip = hanigalbat_hurrian_missions.tt
+		hidden_effect = {
+			change_country_color = ck2_green
+			change_country_adjective = HURRIA_ADJ
+			change_country_name = HURRIA_NAME
+			change_country_flag = HAG
+		}
 		
 		set_variable = mitanni_deities
 		## mitanni integrated and gets some cavalry bonuses ? access to intra ?
@@ -99,6 +105,13 @@ mitanni_nobility_return.1 = {
 		custom_tooltip = hanigalbat_to_rule_the_universe.tt
 		custom_tooltip = mitanni_culture_warning.tt
 		custom_tooltip = hanigalbat_assyrian_missions.tt
+		hidden_effect = {
+			change_country_flag = HANIGALBAT_FLAG
+			change_country_color = blood_red
+			set_country_heritage = assyrian_heritage
+			change_country_adjective = HAG_ADJ
+			change_country_name = HAG
+		}
 		
 		add_stability = -10
 		add_political_influence = -25
@@ -162,11 +175,12 @@ mitanni_nobility_return.2 = { # how to overcome resistance
 							adjective = mitanni_opposition_name
 						}
 						set_primary_culture_cleanup_effect = {
-							NEW_PRIMARY_CULTURE = qardu
+							NEW_PRIMARY_CULTURE = assyrian
 							MAKE_OLD_CULTURE_INTEGRATED = no
 						}
 						set_country_religion = ashur_religion
 						set_country_heritage = syrian_heritage
+						change_country_flag = HANIGALBAT_FLAG
 						save_scope_as = mitanni_opposition_scope
 						add_treasury = 250
 					}
