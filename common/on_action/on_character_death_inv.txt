@@ -2354,7 +2354,9 @@ on_character_death = {
 		###Section 7: GotN
 		if = {
 			limit = {
-				tag = EGY
+				char:526 = {
+					is_ruler = yes
+				}
 				OR = {
 					char:525 = { 
 						is_alive = no

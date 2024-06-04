@@ -93,7 +93,7 @@ mitanni_nobility_return.1 = {
 		}
 		trigger_event = {
 			id = mitanni_nobility_return.2
-			days = 
+			days = { 7 30 }
 		}
 	}
 	option = {

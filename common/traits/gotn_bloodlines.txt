@@ -56,6 +56,6 @@ adaside = {
 	prominence = 20
 	martial = 1
 	country = {
-		war_score = -0.05
+		war_score_cost = -0.05
 	}
 }

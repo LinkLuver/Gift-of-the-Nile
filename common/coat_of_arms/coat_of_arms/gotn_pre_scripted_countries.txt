@@ -323,6 +323,25 @@ DSH = {
     }
 }
 
+PMD = {
+    pattern = "pattern_solid.tga"
+    color1 = "spartan_rust"
+    color2 = "spartan_brown"
+
+    colored_emblem = {
+        texture = "ce_medjed.dds"
+        color1 = "bone_white"
+        instance = { scale = { 0.75 0.75 }  }
+    }
+
+    colored_emblem = {
+        texture = "ce_border_rug_01.tga"
+        color1 = "spartan_brown"
+        color2 = "spartan_ocra"
+        instance = { rotation = 0 }
+        instance = { rotation = 180 }
+    }
+}
 
 HAG = {
     pattern = "pattern_solid.tga"

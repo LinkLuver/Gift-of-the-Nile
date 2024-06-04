@@ -1791,7 +1791,7 @@ country = {
 		}
 
 		BMB = {
-			family = 9591
+			family = 59
 			government = stratocratic_monarchy
 			primary_culture = syriac
 			religion = hurrian_pantheon
@@ -2736,7 +2736,7 @@ country = {
 
 			own_control_core = {
 				4321 4330 4383 #sivi_region
-				9381 9378
+				9378
 				9382 4331 9341 4384 9342 9343
 			}
 		}
