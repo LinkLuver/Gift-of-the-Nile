@@ -302,6 +302,28 @@ HNT = {
     }
 }
 
+HHT = {
+    pattern = "pattern_solid.tga"
+    color1 = "light_gold"
+    color2 = "roman_gold"
+
+    colored_emblem = {
+        texture = "ce_ankh.dds" 
+        color1 = "delian_league_gold"
+    }
+}
+DSH = {
+    pattern = "pattern_solid.tga"
+    color1 = "desheret_red"
+    color2 = "kemet_black"
+
+    colored_emblem = {
+        texture = "ce_ankh.dds" 
+        color1 = "roman_gold"
+    }
+}
+
+
 HAG = {
     pattern = "pattern_solid.tga"
     color1 = "babylon_color"
