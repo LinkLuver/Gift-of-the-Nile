@@ -133,7 +133,7 @@ gotn_events.4 = { # Due for the Duat
             add_gold = -2000
         }
         p:570 = {
-            add_country_modifier = {
+            add_province_modifier = {
                 name = valley_of_the_kings_prep
                 duration = 1825
             }
@@ -196,7 +196,7 @@ gotn_events.7 = { # For Canaanite Stuff
         }
         every_country = {
             limit = {
-                culture = carthaginian
+                primary_culture = carthaginian
                 OR = {
                     religion = carthaginian_pantheon
                     has_deity_in_pantheon = deity:omen_melqart

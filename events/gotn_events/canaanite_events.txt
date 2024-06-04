@@ -29,7 +29,7 @@ flavor_canaan.1 = { # Recursive
 	    		}
 	    		trigger_event = {
 	    			id = flavor_canaan.101 # Payday Event
-	    			days = { 30 }
+	    			days = 30
 	    		}
 	    	}
 	    	change_global_variable = {
@@ -38,7 +38,7 @@ flavor_canaan.1 = { # Recursive
 	    	}
 	    	trigger_event = {
 	    		id = flavor_canaan.1 # Recursive Recall
-	    		days = { 1825 }
+	    		days = 1825
 	    	}
 	    }
 	    if = {
