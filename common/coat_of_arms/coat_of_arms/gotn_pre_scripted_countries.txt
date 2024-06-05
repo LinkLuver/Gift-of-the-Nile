@@ -252,39 +252,66 @@ MSS = {
 
 EGY = {
     pattern = "pattern_solid.tga"
-    color1 = "dark_purple"
+    color1 = "navy_blue"
     color2 = "kemet_black"
 
     colored_emblem = {
         texture = "ce_waset_staff.dds"
         color1 = "roman_gold"
-        instance = { scale = { 0.75 0.75 }  }
+        #instance = { scale = { 0.75 0.75 }  }
     }
 
     colored_emblem = {
         texture = "ce_border_rug_01.tga"
         color1 = "light_purple"
-        color2 = "dark_purple"
-        instance = { rotation = 0 }
-        instance = { rotation = 180 }
+        color2 = "delian_league_blue"
+        instance = { rotation = 270 }
+        instance = { rotation = 90 }
     }
+}
+
+PMR = {
+    pattern = "pattern_solid.tga"
+    color1 = "phokaian_blue"
+    color2 = "kemet_black"
+
+    colored_emblem = {
+        texture = "ce_egypt_dancer.dds"
+        color1 = "dark_orange"
+        color2 = "kemet_black"
+        instance = { scale = { 0.75 0.75 }  }
+    }
+    colored_emblem = {
+		texture = "ce_border_rug_01.tga"
+		color1 = "pitch_black"
+		color2 = "kemet_black"
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
+	}
+	colored_emblem = {
+		texture = "ce_border_stars_01.dds"
+		color1 = "burned_red"
+		color2 = "dark_burgundy"
+		instance = { scale = { 1.0 1.0 }  position = { 0.50 0.50 } rotation = 180 }
+		instance = { scale = { 1.0 1.0 }  position = { 0.50 0.50 } }
+	}
 }
 
 MEN = {
     pattern = "pattern_solid.tga"
-    color1 = "offwhite"
+    color1 = "bharatavarsha_orange_color"
     color2 = "kemet_black"
 
     colored_emblem = {
         texture = "ce_ptah.dds"
-        color1 = "bharatavarsha_orange_color"
+        color1 = "delian_league_gold"
         color2 = "pitch_black"
         instance = { scale = { 0.9 0.9 }  }
     }
     colored_emblem = {
 		texture = "ce_border_rug_01.tga"
 		color1 = "bharatavarsha_orange_color"
-		color2 = "kemet_black"
+		color2 = "delian_league_gold"
 		instance = { rotation = 90 }
 		instance = { rotation = 270 }
 	}
@@ -296,9 +323,9 @@ HNT = {
     color2 = "kemet_black"
 
     colored_emblem = {
-        texture = "ce_scarab.dds" 
+        texture = "ce_twp_ramesses.dds" 
         color1 = "light_gold"
-        color2 = "light_gold"
+        color2 = "roman_gold"
     }
 }
 
@@ -325,22 +352,49 @@ DSH = {
 
 PMD = {
     pattern = "pattern_solid.tga"
-    color1 = "spartan_rust"
-    color2 = "spartan_brown"
+    color1 = "dark_burgundy"
+    color2 = "purple"
 
     colored_emblem = {
         texture = "ce_medjed.dds"
-        color1 = "bone_white"
+        color1 = "red_nougat"
+        color2 = "pitch_black"
         instance = { scale = { 0.75 0.75 }  }
     }
 
     colored_emblem = {
-        texture = "ce_border_rug_01.tga"
-        color1 = "spartan_brown"
-        color2 = "spartan_ocra"
+        texture = "ce_border_ancient_egyptian_pattern_01.dds"
+        color1 = "light_purple"
+        color2 = "dark_burgundy"
         instance = { rotation = 0 }
         instance = { rotation = 180 }
     }
+}
+
+SAU = {
+    pattern = "pattern_solid.tga"
+    color1 = "delian_league_gold"
+    color2 = "kemet_black"
+
+    colored_emblem = {
+        texture = "ce_ra_chariot.dds"
+        color1 = "roman_gold"
+        color2 = "kemet_black"
+    }
+
+    colored_emblem = {
+        texture = "ce_border_rug_01.tga"
+        color1 = "delian_league_gold"
+        color2 = "roman_gold"
+        instance = { rotation = 0 }
+        instance = { rotation = 180 }
+    }
+
+    colored_emblem = {
+		texture = "ce_border_stars_01.dds"
+		color1 = "dark_orange"
+		instance = { rotation = 0 }
+	}
 }
 
 HAG = {
