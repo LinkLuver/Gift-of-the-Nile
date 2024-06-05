@@ -270,6 +270,265 @@ EGY = {
     }
 }
 
+
+EGY2 = {
+    pattern = "pattern_solid.tga"
+    color1 = "achaemenid_mauve"
+    color2 = "kemet_black"
+
+    colored_emblem = {
+        texture = "ce_twp_amenmesse.dds"
+        color1 = "ck2_yellow"
+        color2 = "delian_league_gold"
+        instance = { scale = { 0.95 0.95 } position = { 0.5 0.5 }  }
+    }
+}
+
+HHT = {
+    pattern = "pattern_solid.tga"
+    color1 = "bone_white"
+    color2 = "kemet_black"
+
+    colored_emblem = {
+        texture = "ce_sekhat.dds"
+        color1 = "kemet_black"
+        color2 = "delian_league_gold"
+    }
+    colored_emblem = {
+        texture = "ce_ankh.dds"
+        color1 = "kemet_black"
+        instance = { scale = { 0.25 0.25 } position = { 0.25 0.2 } }
+        instance = { scale = { 0.25 0.25 } position = { 0.75 0.2 } }
+        instance = { scale = { 0.25 0.25 } position = { 0.25 0.8 } }
+        instance = { scale = { 0.25 0.25 } position = { 0.75 0.8 } }
+    }
+}
+
+DSH = {
+    pattern = "pattern_solid.tga"
+    color1 = "desheret_red"
+    color2 = "kemet_black"
+
+    colored_emblem = {
+        texture = "ce_twp_set.dds"
+        color1 = "red_nougat"
+        color2 = "delian_league_gold"
+    }
+    colored_emblem = {
+        texture = "ce_ankh.dds"
+        color1 = "spartan_brown"
+        instance = { scale = { 0.25 0.25 } position = { 0.90 0.5 } }
+    }
+}
+
+HUT = {
+    pattern = "pattern_solid.tga"
+    color1 = "purple"
+
+    colored_emblem = {
+        texture = "ce_isis.dds"
+        color1 = "delian_league_gold"
+        color2 = "ck2_purple"
+    }
+}
+
+DJD = {
+    pattern = "pattern_solid.tga"
+    color1 = "boeotian_brown"
+
+    colored_emblem = {
+        texture = "ce_egyptian_01.dds"
+        color1 = "delian_league_gold"
+        color2 = "ck2_purple"
+    }
+    colored_emblem = {
+        texture = "ce_egyptian_02.dds"
+        color1 = "delian_league_gold"
+        color2 = "ck2_purple"
+        instance = { scale = { 0.45 0.45 } position = { 0.5 0.5 } }
+    }
+    colored_emblem = {
+		texture = "ce_border_stars_01.dds"
+		color1 = "delian_league_gold"
+		color2 = "delian_league_gold"
+		instance = { scale = { 1.0 1.0 }  position = { 0.50 0.50 } rotation = 180 }
+		instance = { scale = { 1.0 1.0 }  position = { 0.50 0.50 } }
+	}
+}
+
+DJA = {
+    pattern = "pattern_solid.tga"
+    color1 = "spartan_ocra"
+
+    colored_emblem = {
+        texture = "ce_egyptian_03.dds"
+        color1 = "delian_league_gold"
+        color2 = "spartan_ocra"
+        instance = { scale = { 0.75 0.75} }
+    }
+    colored_emblem = {
+		texture = "ce_border_triangles_01.dds"
+		color1 = "offwhite"
+		
+		instance = { scale = { 1.0 1.0 }  position = { 0.50 0.50 } }
+		instance = { scale = { 1.0 1.0 }  position = { 0.50 0.50 } rotation = 180 }
+		instance = { scale = { 1.0 1.0 }  position = { 0.50 0.50 } rotation = 90 }
+		instance = { scale = { 1.0 1.0 }  position = { 0.50 0.50 } rotation = 270 }
+
+	}
+}
+
+BUB = {
+    pattern = "pattern_solid.tga"
+    color1 = "dark_purple"
+
+    colored_emblem = {
+		texture = "ce_square_03.dds"
+		color1 = "pitch_black"
+		color2 = "roman_gold"
+		instance = {
+			scale = { 1.1 1.1 }
+		}
+	}
+	colored_emblem = {
+        texture = "ce_bas.dds"
+        color1 = "pontus_color"
+        color2 = "spartan_ocra"
+        instance = { scale = { 0.75 0.75} }
+    }
+    colored_emblem = {
+		texture = "ce_border_triangles_01.dds"
+		color1 = "kemet_black"
+		
+		instance = { scale = { 1.0 1.0 }  position = { 0.50 0.50 } }
+		instance = { scale = { 1.0 1.0 }  position = { 0.50 0.50 } rotation = 180 }
+		instance = { scale = { 1.0 1.0 }  position = { 0.50 0.50 } rotation = 90 }
+		instance = { scale = { 1.0 1.0 }  position = { 0.50 0.50 } rotation = 270 }
+
+	}
+}
+
+TRU = {
+    pattern = "pattern_solid.tga"
+    color1 = "mint_green"
+
+    colored_emblem = {
+		texture = "ce_palm_symbol.dds"
+		color1 = "green"
+	}
+	 colored_emblem = {
+		texture = "ce_border_ancient_egyptian_pattern_01.dds"
+		color1 = "light_green"
+		color2 = "mint_green"
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
+	}
+}
+
+KHA = {
+    pattern = "pattern_solid.tga"
+    color1 = "bone_white"
+
+	colored_emblem = {
+		texture = "ce_square_03.dds"
+		color1 = "mid_grey"
+		color2 = "roman_gold"
+		instance = {
+			scale = { 2 2 } position = { 1.12 0.5 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_byblos.dds"
+		color1 = "achaemenid_mauve"
+	}
+}
+
+DMN = {
+    pattern = "pattern_solid.tga"
+    color1 = "burned_red"
+
+	colored_emblem = {
+		texture = "ce_anpi.dds"
+		color1 = "kemet_black"
+		color2 = "delian_league_gold"
+		instance = { position = { 0.48 0.5 } }
+	}
+}
+
+RHA = {
+    pattern = "pattern_solid.tga"
+    color1 = "pontus_color"
+
+	colored_emblem = {
+		texture = "ce_egyptian_06.dds"
+		color1 = "numidia_yellow"
+		color2 = "spartan_ocra"
+		instance = { scale = { 0.75 0.75 } position = { 0.25 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_egyptian_07.dds"
+		color1 = "numidia_yellow"
+		color2 = "spartan_ocra"
+		instance = { scale = { 0.75 0.75 } position = { 0.75 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_ankh.dds"
+		color1 = "numidia_yellow"
+		color2 = "kemet_black"
+		instance = { scale = { 0.25 0.25 } }
+	}
+}
+
+SWA = {
+    pattern = "pattern_solid.tga"
+    color1 = "delian_league_blue"
+
+	colored_emblem = {
+		texture = "ce_egyptian_04.dds"
+		color1 = "numidia_yellow"
+		color2 = "spartan_ocra"
+	}
+}
+
+TEH = {
+    pattern = "pattern_solid.tga"
+    color1 = "galatia_light_blue_color"
+
+	colored_emblem = {
+		texture = "ce_egyptian_04.dds"
+		color1 = "numidia_yellow"
+		color2 = "spartan_ocra"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.75 } }
+		instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
+		instance = { scale = { 0.5 0.5 } position = { 0.25 0.75 } }
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.25 } }
+	}
+	colored_emblem = {
+		texture = "ce_square_03.dds"
+		color1 = "numidia_yellow"
+		color2 = "roman_gold"
+		instance = { scale = { 2 0.1 } }
+	}
+}
+
+SHE = {
+    pattern = "pattern_solid.tga"
+    color1 = "mint_green"
+
+	colored_emblem = {
+		texture = "ce_egypt_aten_sun.dds"
+		color1 = "ck2_yellow"
+		color2 = "kemet_black"
+	}
+
+	colored_emblem = {
+		texture = "ce_crocodileopolis.dds"
+		color1 = "theban_green"
+		color2 = "roman_gold"
+		instance = { position = { 0.5 0.75 } }
+	}
+}
+
 PMR = {
     pattern = "pattern_solid.tga"
     color1 = "phokaian_blue"
@@ -326,27 +585,6 @@ HNT = {
         texture = "ce_twp_ramesses.dds" 
         color1 = "light_gold"
         color2 = "roman_gold"
-    }
-}
-
-HHT = {
-    pattern = "pattern_solid.tga"
-    color1 = "light_gold"
-    color2 = "roman_gold"
-
-    colored_emblem = {
-        texture = "ce_ankh.dds" 
-        color1 = "delian_league_gold"
-    }
-}
-DSH = {
-    pattern = "pattern_solid.tga"
-    color1 = "desheret_red"
-    color2 = "kemet_black"
-
-    colored_emblem = {
-        texture = "ce_ankh.dds" 
-        color1 = "roman_gold"
     }
 }
 
