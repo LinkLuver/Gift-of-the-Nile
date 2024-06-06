@@ -43,7 +43,7 @@ deity_renenutet_nefertiti = { # FERTILITY
 	icon = deity_kemetic_fertility
 	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
 	omen = { global_citizen_output = omen_global_citizen_output_svalue } #Bonus from Omen
-	religion = egyptian_pantheon
+	religion = sobek_religion
 	deity_category = fertility #This Deity uses a War slot.
 
 	deification_trigger = {

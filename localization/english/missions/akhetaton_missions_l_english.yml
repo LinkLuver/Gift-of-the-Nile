@@ -93,6 +93,8 @@
  claims_on_important_cities_tt:0 "Gain claims on the area of #E Memphis#!.\nGain claims on the cities of #E Per-Aten#!, #E Awnu#!, and #E Piemro#!."
  claims_on_lower_egypt_tt:0 "Gain claims on every province in the #Y Lower Egypt#! region."
  gain_claims_desert_tt:0 "Gain claims on every province in the areas of #E Kharga#!, #E Khargana#!, and #E Farafra#!."
+ aten_me_8_tt:0 "We will gain the following modifier for all provinces with #E Faiyumic Sobekite#! pops:"
+ per_medjed_vassal_tt:0 "Ask #E Per-Medjed Nome#! to become our #Y Nomarch#!."
  
  #Modifiers
  aten_replacement:0 "Aten Supremacy in Siwa"
@@ -103,6 +105,8 @@
  sobeks_joy:0 "Success of the Sobek-Aten"
  sobekism_accepted:0 "Sobek-Aten Heresy Accepted"
  sobekism_rejected:0 "Sobek-Aten Heresy Rejected"
+ aten_supremacy:0 "Zero Heresy Tolerance"
+ nubian_archer_help:0 "Nubian Archers"
 
  #Others
  Meshenutaten:0 "Meskhentaten"
@@ -154,13 +158,16 @@
  me_akhetaton_6_tooltip:0 "The mission task '#Y $akhetaton_missions_task_6$#!' has now been #G Completed#!!"
  
  me_akhetaton_7_title:0 "$akhetaton_missions_task_7$"
- me_akhetaton_7_desc:0 ""
- me_akhetaton_7.a:0 ""
+ me_akhetaton_7_desc:0 "The people of #E Per-Medjed Nome#! line up at their border with the accursed #E 28th Dynasty#!. With our alliance sealed, it is only a matter of request that we must make to them for them to officially become our #E Nomarch#!. However, they have started a minor heresy in their beliefs... their tutelary god, #E Medjed#!, they say exists in the absense of the sun. Although only a minor deity, many more conservative #E Atenists#! insist that #E Medjed#!, nor any other god even exists, only the #E Aten#!! Perhaps we can let this slide in order to formally subjugate the nomarch of Medjed... or we can simply settle for an alliance and deal with them later."
+ me_akhetaton_7.a:0 "I can fix them."
+ me_akhetaton_7.b:0 "We will allow no such heresies."
  me_akhetaton_7_tooltip:0 "The mission task '#Y $akhetaton_missions_task_7$#!' has now been #G Completed#!!"
  
  me_akhetaton_8_title:0 "$akhetaton_missions_task_8$"
- me_akhetaton_8_desc:0 ""
- me_akhetaton_8.a:0 ""
+ me_akhetaton_8_desc:0 "The #E Faiyum#! province was historically the first region outside of #E Amarna#! to adopt #E Atenism#!. It is for this reason why the #E Atenic#! faith was able to root itself into #E Lower Egypt#! and acted as a cultural shield against the #E Kemetic#! traditionalists.\n\nHowever, the faith of the #E Faiyum#! took a turn, and they began to equate #E Sobek#! as the #E Aten#! himself. They formed some sort of heresy that leaves more conservative #E Atenists#! apalled. With the #E Faiyum#! back under #E Pharaonic#! control, we now have to decide whether to allow these heretics to continue worshipping their #E Sobek-Aten#!, or to force upon them the true form of the #E Aten#!."
+ me_akhetaton_8.a:0 "They may worship, so long as they pay taxes."
+ me_akhetaton_8.b:0 "We will end this heresy here and now!"
+ me_akhetaton_8.c:0 "Hm... tell me more about this Dazzling Croc..."
  me_akhetaton_8_tooltip:0 "The mission task '#Y $akhetaton_missions_task_8$#!' has now been #G Completed#!!"
  
  me_akhetaton_9_title:0 "$akhetaton_missions_task_9$"
@@ -169,23 +176,24 @@
  me_akhetaton_9_tooltip:0 "The mission task '#Y $akhetaton_missions_task_9$#!' has now been #G Completed#!!"
  
  me_akhetaton_10_title:0 "$akhetaton_missions_task_10$"
- me_akhetaton_10_desc:0 ""
- me_akhetaton_10.a:0 ""
+ me_akhetaton_10_desc:0 "Three kingdoms lay upon the holy lands of the great river, yet there is only room for one. Down the river, at the entrance of the oasis of crocodiles, is Henen-Nesut. Those heretics have abandoned the true way of the #E Aten#!. They nearly completed their unjust conquest of the black lands, but they were thwarted by the nomarch of Memphis. Next came Waset, at the highest point of the Egyptian Nile, the heathen menace, sworn enemy to the #E Aten#!. They preach of how #E Amun#! will triumph, removing the #E Aten#! from Egypt altogether. Truly, no worse fate could be thought up.\n\nIt is our mission to restore the light of the #E Aten#! to Kemet, lest the shadow of #E Isfet#! forever darkens the sands."
+ me_akhetaton_10.a:0 "I will not fail, I must not fail."
  me_akhetaton_10_tooltip:0 "The mission task '#Y $akhetaton_missions_task_10$#!' has now been #G Completed#!!"
  
  me_akhetaton_11_title:0 "$akhetaton_missions_task_11$"
- me_akhetaton_11_desc:0 ""
- me_akhetaton_11.a:0 ""
+ me_akhetaton_11_desc:0 "As much as we hate to admit it, the #E Wasetics#! hold a much better position than we do. We need to protect both banks of the Nile of #E Akhetaton#! in order to feel security against the threat of their advances. We have filled the garrisons and redoubled our fortification efforts in a way unseen since the New Kingdom's forts against the #E Nubians#!."
+ me_akhetaton_11.a:0 "Pray we will not need to use these forts."
  me_akhetaton_11_tooltip:0 "The mission task '#Y $akhetaton_missions_task_11$#!' has now been #G Completed#!!"
  
  me_akhetaton_12_title:0 "$akhetaton_missions_task_12$"
- me_akhetaton_12_desc:0 ""
- me_akhetaton_12.a:0 ""
+ me_akhetaton_12_desc:0 "While #E Waset#! is strong, they must deal with the #E Nubians#! up the Nile. Thankfully, we need not deal with those ruffians... yet, having one as an ally would force #E Waset#! into a difficult two front war. Of course, this alliance would be tenuous at best, but we could certainly make temporary use. Shall we ask a #E Nubian#! for an alliance?"
+ me_akhetaton_12.a:0 "We will tear Waset in two!"
+ me_akhetaton_12.b:0 "We need no help from those barbarians."
  me_akhetaton_12_tooltip:0 "The mission task '#Y $akhetaton_missions_task_12$#!' has now been #G Completed#!!"
  
  me_akhetaton_13_title:0 "$akhetaton_missions_task_13$"
- me_akhetaton_13_desc:0 ""
- me_akhetaton_13.a:0 ""
+ me_akhetaton_13_desc:0 "The time has come for the light of #E Aten#! to shine upon the so-called Hidden One, #E Amun-Ra#!. This shall decide the fate of #E Kemet#!!"
+ me_akhetaton_13.a:0 "Leave no survivors!"
  me_akhetaton_13_tooltip:0 "The mission task '#Y $akhetaton_missions_task_13$#!' has now been #G Completed#!!"
  
  me_akhetaton_14_title:0 "$akhetaton_missions_task_14$"
@@ -236,3 +244,5 @@
  me_akhetaton_666_title:0 "Curse of the Old Gods"
  me_akhetaton_666_desc:0 "The old gods of #E Kemet#! have struck against us once more! A precious family member has been taken from us."
  me_akhetaton_666.a:0 "May the #E Aten#! guide your soul to rest..."
+
+ add_deity_to_pantheon:0 "[TARGET_DEITY.GetReligion.GetName] Deity of [TARGET_DEITY.GetDeityCategory.GetName, TARGET_DEITY.GetName], will be added to our #Y Pantheon#!."

@@ -279,15 +279,27 @@ me_akhetaton.7 = {
 
     title = me_akhetaton_7_title
     desc = me_akhetaton_7_desc
-    picture = great_library
+    picture = diadochi_legion_carrying_standard_honor
 
     option = {
         name = "me_akhetaton_7.a"
         custom_tooltip = me_akhetaton_7_tooltip
-
+        add_deity_to_pantheon = { deity = deity:omen_medjed }
+        make_subject = {
+            target = c:PMD
+            type = client_state
+        }
+    }
+    option = {
+        name = "me_akhetaton_7.b"
+        custom_tooltip = me_akhetaton_7_tooltip
+        add_country_modifier = {
+            name = aten_supremacy
+            duration = -1
+        }
     }
 }
-me_akhetaton.8 = { # Cook more
+me_akhetaton.8 = {
     type = country_event
 
     title = me_akhetaton_8_title
@@ -297,37 +309,67 @@ me_akhetaton.8 = { # Cook more
     option = {
         name = "me_akhetaton_8.a"
         custom_tooltip = me_akhetaton_8_tooltip
-        area:parva_area = {
-            every_area_province = {
-                limit = {
-                    OR = {
-                        any_pops_in_province = {
-                            pop_religion = sobek_religion
-                        }
-                        province_id = 539
-                    }
-                }
+        add_country_modifier = {
+            name = sobekism_accepted
+            duration = -1
+        }
+        custom_tooltip = aten_me_8_tt
+        show_as_tooltip = {
+            p:539 = {
                 add_province_modifier = {
                     name = sobeks_joy
                     duration = 1825
                 }
             }
         }
+        hidden_effect = {
+            area:parva_area = {
+                every_area_province = {
+                    limit = {
+                        OR = {
+                            any_pops_in_province = {
+                                pop_religion = sobek_religion
+                            }
+                            province_id = 539
+                        }
+                    }
+                    add_province_modifier = {
+                        name = sobeks_joy
+                        duration = 1825
+                    }
+                }
+            }
+        }
     }
     option = {
-        name = "me_akhetaton_8.a"
+        name = "me_akhetaton_8.b"
         custom_tooltip = me_akhetaton_8_tooltip
-        area:parva_area = {
-            every_area_province = {
-                OR = {
-                    any_pops_in_province = {
-                        pop_religion = sobek_religion
-                    }
-                    province_id = 539
-                }
+        custom_tooltip = aten_me_8_tt
+        add_country_modifier = {
+            name = sobekism_rejected
+            duration = -1
+        }
+        show_as_tooltip = {
+            p:539 = {
                 add_province_modifier = {
                     name = sobeks_pain
                     duration = 1825
+                }
+            }
+        }
+        hidden_effect = {
+            area:parva_area = {
+                every_area_province = {
+                    OR = {
+                        any_pops_in_province = {
+                            pop_religion = sobek_religion
+                        }
+                        province_id = 539
+                    }
+                    add_province_modifier = {
+                        name = sobeks_pain
+                        duration = 1825
+                    }
                 }
             }
         }
@@ -341,7 +383,7 @@ me_akhetaton.8 = { # Cook more
                 }
             }
         }
-        name = "me_akhetaton_8.a"
+        name = "me_akhetaton_8.c"
         custom_tooltip = me_akhetaton_8_tooltip
         add_country_modifier = {
             name = sobekism_accepted
@@ -371,7 +413,7 @@ me_akhetaton.10 = {
 
     title = me_akhetaton_10_title
     desc = me_akhetaton_10_desc
-    picture = great_library
+    picture = burning_alexandria
 
     option = {
         name = "me_akhetaton_10.a"
@@ -388,7 +430,7 @@ me_akhetaton.11 = {
 
     title = me_akhetaton_11_title
     desc = me_akhetaton_11_desc
-    picture = great_library
+    picture = road_construction
 
     option = {
         name = "me_akhetaton_11.a"
@@ -413,11 +455,38 @@ me_akhetaton.12 = {
 
     title = me_akhetaton_12_title
     desc = me_akhetaton_12_desc
-    picture = great_library
+    picture = interesting_histories_kush_capital
+
+    immediate = {
+        random_country = {
+            limit = {
+                capital_scope = { is_in_region = lower_nubia_region }
+                NOR = {
+                    is_subject_of = c:EGY
+                    alliance_with = c:EGY
+                }
+                opinion = {
+                    target = root
+                    value >= 20
+                }
+            }
+            save_scope_as = nubian_ally
+        }
+        add_country_modifier = {
+            name = nubian_archer_help
+            duration = 1095
+        }
+    }
 
     option = {
         name = "me_akhetaton_12.a"
         custom_tooltip = me_akhetaton_12_tooltip
+        add_alliance = scope:nubian_ally
+    }
+    option = {
+        name = "me_akhetaton_12.b"
+        custom_tooltip = me_akhetaton_12_tooltip
+        current_ruler = { add_popularity = 5 }
     }
 }
 me_akhetaton.13 = {
@@ -425,7 +494,7 @@ me_akhetaton.13 = {
 
     title = me_akhetaton_13_title
     desc = me_akhetaton_13_desc
-    picture = great_library
+    picture = babylon_plundered
 
     option = {
         name = "me_akhetaton_13.a"
