@@ -3,21 +3,27 @@
     icon = "egypt_3"
 
     repeatable = no
-    chance = 1000
+    chance = {
+        factor = 100
+    }
 
     potential = {
-        NOT = { has_variable = mission_cooldown_var }
+        NOT = { has_variable = aten_missions_cooldown_var }
         tag = ATN
     }
 
-    abort = {}
+    abort = {
+        ai_mission_back_out_trigger = yes
+        start_mission_ai_effect = yes
+        save_scope_as = mission_country
+    }
     on_start = {
         start_mission_ai_effect = yes
     }
     on_abort = {
         custom_tooltip = general_mission_cooldown_tt
         set_variable = {
-            name = mission_cooldown_var
+            name = aten_missions_cooldown_var
             days = 7300
         }
     }

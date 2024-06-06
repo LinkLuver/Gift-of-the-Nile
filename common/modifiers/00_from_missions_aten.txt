@@ -44,3 +44,25 @@ nubian_archer_help = {
 	archers_discipline = 0.05
 	archers_morale = 0.05
 }
+waset_spared = {
+	local_pop_assimilation_speed_modifier = -0.10
+	local_population_happiness = 0.05
+	local_pop_conversion_speed_modifier = -0.10
+}
+waset_destroyed = {
+	local_pop_conversion_speed_modifier = 0.10
+	local_pop_assimilation_speed_modifier = 0.10
+	local_population_happiness = -0.10
+}
+waset_aten = {
+	local_pop_assimilation_speed_modifier = 0.05
+	local_pop_conversion_speed_modifier = 0.05
+	local_population_happiness = -0.10
+}
+holy_site_of_aten = {
+	local_building_slot = 2
+	local_pop_conversion_speed_modifier = 0.50
+	local_monthly_civilization = 5
+	local_tax_modifier = 0.25
+	local_unrest = -0.10
+}

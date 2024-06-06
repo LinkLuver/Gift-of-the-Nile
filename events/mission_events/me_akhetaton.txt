@@ -393,6 +393,7 @@ me_akhetaton.8 = {
         change_religion_effect = {
             RELIGION = sobek_religion
         }
+        custom_tooltip = me_akhetaton_8_warning
     }
 }
 me_akhetaton.9 = {
@@ -511,12 +512,65 @@ me_akhetaton.14 = {
 
     title = me_akhetaton_14_title
     desc = me_akhetaton_14_desc
-    picture = great_library
+    picture = diadochi_ptolemy_city
 
     option = {
         name = "me_akhetaton_14.a"
         custom_tooltip = me_akhetaton_14_tooltip
-
+        p:569 = {
+            add_province_modifier = {
+                name = waset_spared
+                duration = 3650
+            }
+        }
+    }
+    option = {
+        name = "me_akhetaton_14.b"
+        custom_tooltip = me_akhetaton_14_tooltip
+        p:569 = {
+            add_province_modifier = {
+                name = waset_destroyed
+                duration = 3650
+            }
+            every_pops_in_province = {
+                limit = {
+                    OR = {
+                        pop_type = nobles
+                        pop_type = citizen
+                        pop_type = freemen
+                    }
+                    pop_religion = egyptian_pantheon
+                }
+                kill_pop = yes
+            }
+            if = {
+                limit = { p:569 = { has_city_status = yes } }
+                set_city_status = settlement
+            }
+        }
+    }
+    option = {
+        name = "me_akhetaton_14.c"
+        custom_tooltip = me_akhetaton_14_tooltip
+        p:569 = {
+            add_province_modifier = {
+                name = waset_aten
+                duration = -1
+            }
+        }
+        set_capital = p:569
+        p:557 = {
+            every_pops_in_province = {
+                limit = { pop_type = nobles }
+                move_pop = p:569
+            }
+        }
+        p:569 = {
+            every_pops_in_province = {
+                limit = { pop_type = nobles }
+                set_pop_religion = aten_religion
+            }
+        }
     }
 }
 me_akhetaton.15 = {
@@ -524,7 +578,7 @@ me_akhetaton.15 = {
 
     title = me_akhetaton_15_title
     desc = me_akhetaton_15_desc
-    picture = great_library
+    picture = army_desert
 
     option = {
         name = "me_akhetaton_15.a"
@@ -556,7 +610,7 @@ me_akhetaton.16 = {
 
     title = me_akhetaton_16_title
     desc = me_akhetaton_16_desc
-    picture = great_library
+    picture = religious_rite
 
     option = {
         name = "me_akhetaton_16.a"
@@ -646,7 +700,27 @@ me_akhetaton.17 = {
 
     title = me_akhetaton_17_title
     desc = me_akhetaton_17_desc
-    picture = great_library
+    picture = great_work_celebration
+
+    left_portrait = current_ruler
+    right_portrait = scope:sekhtaten
+
+    immediate = {
+        hidden_effect = {
+            create_character = {
+                name = "Sekhtaten"
+                no_traits = yes
+                no_stats = yes
+                amazing_zeal_effect = yes
+                good_finesse_effect = yes
+                good_charisma_effect = yes
+                bad_martial_effect = yes
+                add_trait = silver_tongued
+                add_trait = devout
+                save_scope_as = sekhtaten
+            }
+        }
+    }
 
     option = {
         name = "me_akhetaton_17.a"
@@ -677,12 +751,17 @@ me_akhetaton.18 = {
 
     title = me_akhetaton_18_title
     desc = me_akhetaton_18_desc
-    picture = great_library
+    picture = great_work_celebration
 
     option = {
         name = "me_akhetaton_18.a"
         custom_tooltip = me_akhetaton_18_tooltip
-
+        p:505 = {
+            add_permanent_province_modifier = {
+                name = holy_site_of_aten
+                duration = -1
+            }
+        }
     }
 }
 me_akhetaton.19 = {
@@ -690,12 +769,17 @@ me_akhetaton.19 = {
 
     title = me_akhetaton_19_title
     desc = me_akhetaton_19_desc
-    picture = great_library
+    picture = great_city
 
     option = {
         name = "me_akhetaton_19.a"
         custom_tooltip = me_akhetaton_19_tooltip
-
+        p:501 = {
+            add_permanent_province_modifier = {
+                name = holy_site_of_aten
+                duration = -1
+            }
+        }
     }
 }
 me_akhetaton.20 = {
@@ -703,12 +787,17 @@ me_akhetaton.20 = {
 
     title = me_akhetaton_20_title
     desc = me_akhetaton_20_desc
-    picture = great_library
+    picture = great_work_animals
 
     option = {
         name = "me_akhetaton_20.a"
         custom_tooltip = me_akhetaton_20_tooltip
-
+        p:515 = {
+            add_permanent_province_modifier = {
+                name = holy_site_of_aten
+                duration = -1
+            }
+        }
     }
 }
 me_akhetaton.21 = {
@@ -716,12 +805,51 @@ me_akhetaton.21 = {
 
     title = me_akhetaton_21_title
     desc = me_akhetaton_21_desc
-    picture = great_library
+    picture = diadochi_coronation
 
     option = {
         name = "me_akhetaton_21.a"
         custom_tooltip = me_akhetaton_21_tooltip
+        custom_tooltip = sunset_league_annex_tt
+        custom_tooltip = claims_on_lower_egypt_tt
+        hidden_effect = {
+            region:lower_egypt_region = {
+                every_region_province = {
+                    add_claim = root
+                }
+            }
+        }
+        hidden_effect = {
+            every_country = {
+                limit = {
+                    religion = aten_religion
+                    NOT = { government = egyptian_dynasty }
+                }
+                trigger_event = {
+                    id = me_akhetaton.210
+                    days = 1
+                }
+            }
+        }
+    }
+}
+me_akhetaton.210 = {
+    type = country_event
+    title = me_akhetaton_210_title
+    desc = me_akhetaton_210_desc
+    picture = diadochi_coronation
 
+    immediate = {
+        c:ATN = {
+            make_subject = {
+                target = ROOT
+                type = client_state
+            }
+        }
+    }
+    option = {
+        name = "me_akhetaton_210.a"
+        add_stability = 5
     }
 }
 me_akhetaton.22 = {
@@ -762,9 +890,61 @@ me_akhetaton.22 = {
         }
         change_country_name = "KEMET_NAME"
         hidden_effect = {
-            change_country_flag = EGYPTIAN_FLAG
+            #change_country_flag = EGYPTIAN_FLAG
             change_country_adjective = "KEMET_ADJECTIVE"
             change_country_color = "egypt_color"
+            change_country_tag = EGT
+        }
+        custom_tooltip = egypt_claims_tooltip
+        hidden_effect = {
+            region:lower_egypt_region = { formable_region_province_effect = yes }
+            region:upper_egypt_region = { formable_region_province_effect = yes }
+        }
+        capital_scope = {
+            capital_formable_large_effect = yes
+            formable_capital_modifier_large_effect = yes
+        }
+        hidden_effect = {
+            set_variable = {
+                name = ach_new_kingdom_var
+            }
+        }
+        add_5_free_province_investments = yes
+    }
+    option = {
+        name = "me_akhetaton_22.b"
+        custom_tooltip = me_akhetaton_22_tooltip
+        current_ruler = {
+            add_popularity = 30
+            force_add_trait = victorious
+        }
+        char:519 = {
+            deify_character = {
+                deity = deity:omen_nefertiti
+                country = ROOT
+            }
+        }
+        add_stability = 10
+        custom_tooltip = "tier_2_formable_tooltip"
+        if = {
+            limit = { is_tribal = yes }
+            add_country_modifier = {
+                name = civilized_tribe
+                duration = 5475
+            }
+        }
+        if = {
+            limit = {
+                NOT = { government = egyptian_dynasty }
+            }
+            change_government = egyptian_dynasty
+            switch_government_type_event_clearup_effect = yes
+        }
+        change_country_name = "KEMET_NAME"
+        hidden_effect = {
+            #change_country_flag = EGYPTIAN_FLAG
+            change_country_adjective = "KEMET_ADJECTIVE"
+            #change_country_color = "egypt_color"
             change_country_tag = EGT
         }
         custom_tooltip = egypt_claims_tooltip
