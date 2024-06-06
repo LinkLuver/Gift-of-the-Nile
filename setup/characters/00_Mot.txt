@@ -1,0 +1,21 @@
+﻿"Mot_SWR"={
+	country="SWR"
+	555={
+		first_name="Azemilcus"
+		family_name="Tzorid"
+		female=no
+		birth_date=385.5.17
+		culture="magadhi"
+		religion="charvaka"
+		no_stats=yes
+		add_martial=4
+		add_charisma=9
+		add_finesse=6
+		add_zeal=8
+		no_traits=yes
+		add_trait="shrewd"
+		c:SWR={
+			set_as_ruler=char:555
+		}
+	}
+}

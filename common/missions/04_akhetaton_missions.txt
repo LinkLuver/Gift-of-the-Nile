@@ -270,6 +270,10 @@
         on_completion = {
             trigger_event = me_akhetaton.9
             show_as_tooltip = {
+                add_country_modifier = {
+                    name = guided_by_the_aten
+                    duration = -1
+                }
                 custom_tooltip = grand_divination_tt
             }
         }

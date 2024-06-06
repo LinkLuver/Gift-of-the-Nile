@@ -401,12 +401,15 @@ me_akhetaton.9 = {
 
     title = me_akhetaton_9_title
     desc = me_akhetaton_9_desc
-    picture = great_library
+    picture = celtic_religious_festival
 
     option = {
         name = "me_akhetaton_9.a"
         custom_tooltip = me_akhetaton_9_tooltip
-
+        add_country_modifier = {
+            name = guided_by_the_aten
+            duration = -1
+        }
     }
 }
 me_akhetaton.10 = {
