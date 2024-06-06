@@ -1,0 +1,30 @@
+﻿gotn_mission_block_trigger = {
+    trigger_if = {
+        limit = {
+            OR = {
+            	AND = {
+            		tag = ATN # Akhetaton
+            	}
+            	AND = {
+            		tag = EGY # Waset
+            	}
+            	AND = {
+            		tag = SWR # Tyre
+            	}
+            	AND = {
+            		tag = PES # Achaemenid Kingdom
+            	}
+            	AND = {
+            		tag = SEL # Babylon
+            	}
+            	AND = {
+            		primary_culture = mitanni # Hanigalbat-Mitanni
+            	}
+            	AND = {
+            		tag = HAG # Hanigalbat-Hurrian
+            	}
+            }
+        }
+		current_date > 451.1.1
+    }
+}

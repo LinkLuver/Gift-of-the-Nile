@@ -1,0 +1,33 @@
+﻿tyrian_navy = {
+	naval_damage_done = 0.1
+	naval_morale_modifier = 0.1
+}
+maritime_training = {
+	ocean_combat_bonus = 0.1
+	naval_unit_attrition = -0.1
+	ship_repair_at_sea = 0.01
+}
+greek_gold_routes = {
+	global_commerce_modifier = 0.05
+	global_citizen_output = 0.10
+}
+tyrian_merchants = {
+	local_base_trade_routes = 1
+	local_tax_modifier = 0.05
+}
+trade_emporium = {
+	local_base_trade_routes_modifier = 0.20
+	local_commerce_value_modifier = 0.10
+	local_citizen_output = 0.05
+}
+protected_homelands = {
+	global_population_happiness = 0.10
+	global_unrest = -0.10
+}
+second_phoenician_golden_age = {
+	naval_range = 0.5
+	diplomatic_range_modifier = 0.5
+	global_commerce_modifier = 0.10
+	war_score_cost = -0.05
+	agressive_expansion_impact = -0.10
+}
