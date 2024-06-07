@@ -152,7 +152,7 @@ me_akhetaton.201 = {
             }
         }
         trigger_event = {
-            id = me_akhetaton_202
+            id = me_akhetaton.202
             days = 365
         }
     }
@@ -360,11 +360,13 @@ me_akhetaton.8 = {
         hidden_effect = {
             area:parva_area = {
                 every_area_province = {
-                    OR = {
-                        any_pops_in_province = {
-                            pop_religion = sobek_religion
+                    limit = {
+                        OR = {
+                            any_pops_in_province = {
+                                pop_religion = sobek_religion
+                            }
+                            province_id = 539
                         }
-                        province_id = 539
                     }
                     add_province_modifier = {
                         name = sobeks_pain
@@ -376,11 +378,9 @@ me_akhetaton.8 = {
     }
     option = {
         trigger = {
-            limit = {
-                OR = {
-                    primary_culture = middle_egyptian
-                    is_ai = no
-                }
+            OR = {
+                primary_culture = middle_egyptian
+                is_ai = no
             }
         }
         name = "me_akhetaton_8.c"
@@ -711,7 +711,7 @@ me_akhetaton.17 = {
     immediate = {
         hidden_effect = {
             create_character = {
-                name = "Sekhtaten"
+                first_name = "Sekhtaten"
                 no_traits = yes
                 no_stats = yes
                 amazing_zeal_effect = yes
@@ -1015,7 +1015,7 @@ me_akhetaton.666 = {
             }
             death = {
                 death_reason = death_cursed_by_old_gods
-                killer = silent
+                silent = yes
             }
         }
     }

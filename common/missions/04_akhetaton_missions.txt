@@ -14,11 +14,10 @@
 
     abort = {
         ai_mission_back_out_trigger = yes
-        start_mission_ai_effect = yes
-        save_scope_as = mission_country
     }
     on_start = {
         start_mission_ai_effect = yes
+        save_scope_as = mission_country
     }
     on_abort = {
         custom_tooltip = general_mission_cooldown_tt

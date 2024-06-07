@@ -260,7 +260,7 @@ me_tyre.800 = {
         else_if = {
             limit = {
                 OR = {
-                    total_population <= 20
+                    country_population <= 20
                     num_of_cities <= 2
                 }
             }

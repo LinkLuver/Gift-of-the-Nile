@@ -3,21 +3,26 @@
     icon = "carthage_1"
 
     repeatable = no
-    chance = 1000
+    chance = {
+        factor = 100
+    }
 
     potential = {
-        NOT = { has_variable = mission_cooldown_var }
+        NOT = { has_variable = tyre_missions_cooldown_var }
         tag = SWR
     }
 
-    abort = {}
+    abort = {
+        ai_mission_back_out_trigger = yes
+    }
     on_start = {
         start_mission_ai_effect = yes
+        save_scope_as = mission_country
     }
     on_abort = {
         custom_tooltip = general_mission_cooldown_tt
         set_variable = {
-            name = mission_cooldown_var
+            name = tyre_missions_cooldown_var
             days = 7300
         }
     }
@@ -131,9 +136,11 @@
         }
         allow = {
             p:743 = {
-                incoming_trade_routes >= 4
                 num_of_commerce_building >= 3
-                num_of_ports >= 4
+                num_of_port_building >= 4
+            }
+            p:743.state = {
+                incoming_trade_routes >= 4
             }
         }
         on_completion = {
@@ -202,13 +209,14 @@
                 every_country = {
                     limit = {
                         OR = {
-                            is_in_region = syria_region
-                            is_in_region = palestine_region
+                            capital_scope = { is_in_region = syria_region }
+                            capital_scope = { is_in_region = palestine_region }
                         }
                         alliance_with = ROOT
                         this.culture.culture_group = culture_group:west_levantine
                     }
-                    add_opinion = {
+                    reverse_add_opinion = {
+                        target = ROOT
                         modifier = levant_friends
                     }
                 }
