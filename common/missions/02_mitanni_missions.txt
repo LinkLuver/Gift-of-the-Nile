@@ -8,7 +8,7 @@
 	}
 
     potential = {
-        NOT = { has_variable = mitannis_mission_cooldown_var }
+        NOT = { has_variable = mitanni_missions_cooldown_var }
         tag = HAG
 		has_variable = mitanni_hanigalbat
     }
@@ -22,7 +22,7 @@
     on_abort = {
         custom_tooltip = general_mission_cooldown_tt
         set_variable = {
-            name = mittani_missions_cooldown_var
+            name = mitanni_missions_cooldown_var
             days = 7300
         }
     }

@@ -425,8 +425,8 @@ median_collapse.20 = {
             war_goal = fratricide_wargoal
             province = c:PES.capital_scope
             target = c:PES
-            set_variable = fratricide_war
         }
+        set_variable = fratricide_war
     }
     option = {
         trigger = {

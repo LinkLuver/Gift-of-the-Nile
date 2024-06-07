@@ -3750,7 +3750,7 @@ rel_flavor_kemetic.50 = {	#Religious leader inspired to become better
 	right_portrait = scope:random_advisor
 
 	trigger = {
-		rel_flavor_kemetic.49.t
+		name = "rel_flavor_kemetic.49.t"
 		NOT = { has_variable = rel_flavor_kemetic_50_cooldown }
 		current_ruler = {
 			char_is_religious_trigger = yes

@@ -400,81 +400,81 @@ me_persis.16 = {
     }
 }
 
-me_persis.161 = {
-    type = country_event
-    title = me_persis.161.t
-    desc = {
-        first_valid = {
-            triggered_desc = {
-                trigger = {
-                    var:response_flag = flag:accepted
-                    var:offer_flag = flag:entire_area
-                }
-                desc = "me_persis.161.desc"
-            }
-            triggered_desc = {
-                trigger = {
-                    var:response_flag = flag:accepted
-                    var:offer_flag = flag:only_prov
-                }
-                desc = "me_persis.161.desc2"
-            }
-            triggered_desc = {
-                trigger = {
-                    var:response_flag = flag:rejected
-                    var:offer_flag = flag:only_prov
-                }
-                desc = "me_persis.161.desc3"
-            }
-            triggered_desc = {
-                trigger = {
-                    var:response_flag = flag:rejected
-                    var:offer_flag = flag:entire_area
-                }
-                desc = "me_persis.161.desc4"
-            }
-        }
-    }
-    picture = aqueducts
-    
-    left_portrait = current_ruler
-
-    option = {      
-        name = me_persis.161.a
-        trigger = {
-            var:response_flag = flag:accepted
-        }
-        if = {
-            limit = {
-                var:offer_flag = flag:entire_area
-            }
-            p:4780.area = {
-                every_area_province = {
-                    limit = { owner = c:SEL }
-                    set_owned_by = c:PES
-                }
-            }
-            add_political_influence = 15
-        }
-        else = {    
-            p:4780 = {
-                set_owned_by = c:PES
-            }
-            add_political_influence = 10
-        }
-    }
-    option = {      
-        name = me_persis.161.b
-        trigger = {
-            var:response_flag = flag:rejected
-        }
-        add_opinion = {
-            modifier = overlord_neg_opmod
-            target = c:SEL
-        }
-        add_political_influence = -5
-    }
-}
+#me_persis.161 = {
+#    type = country_event
+#    title = me_persis.161.t
+#    desc = {
+#        first_valid = {
+#            triggered_desc = {
+#                trigger = {
+#                    var:response_flag = flag:accepted
+#                    var:offer_flag = flag:entire_area
+#                }
+#                desc = "me_persis.161.desc"
+#            }
+#            triggered_desc = {
+#                trigger = {
+#                    var:response_flag = flag:accepted
+#                    var:offer_flag = flag:only_prov
+#                }
+#                desc = "me_persis.161.desc2"
+#            }
+#            triggered_desc = {
+#                trigger = {
+#                    var:response_flag = flag:rejected
+#                    var:offer_flag = flag:only_prov
+#                }
+#                desc = "me_persis.161.desc3"
+#            }
+#            triggered_desc = {
+#                trigger = {
+#                    var:response_flag = flag:rejected
+#                    var:offer_flag = flag:entire_area
+#                }
+#                desc = "me_persis.161.desc4"
+#            }
+#        }
+#    }
+#    picture = aqueducts
+#    
+#    left_portrait = current_ruler
+#
+#    option = {      
+#        name = me_persis.161.a
+#        trigger = {
+#            var:response_flag = flag:accepted
+#        }
+#        if = {
+#            limit = {
+#                var:offer_flag = flag:entire_area
+#            }
+#            p:4780.area = {
+#                every_area_province = {
+#                    limit = { owner = c:SEL }
+#                    set_owned_by = c:PES
+#                }
+#            }
+#            add_political_influence = 15
+#        }
+#        else = {    
+#            p:4780 = {
+#                set_owned_by = c:PES
+#            }
+#            add_political_influence = 10
+#        }
+#    }
+#    option = {      
+#        name = me_persis.161.b
+#        trigger = {
+#            var:response_flag = flag:rejected
+#        }
+#        add_opinion = {
+#            modifier = overlord_neg_opmod
+#            target = c:SEL
+#        }
+#        add_political_influence = -5
+#    }
+#}
 me_persis.17 = {
     type = country_event
 

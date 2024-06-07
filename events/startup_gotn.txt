@@ -191,7 +191,7 @@ gotn_events.7 = { # For Canaanite Stuff
         c:SWR = { save_scope_as = melqart_ruler }
         p:743 = { save_scope_as = melqart_site }
         set_global_variable = {
-            name = melqart_payday
+            name = payday_melqart
             value = 0
         }
         every_country = {

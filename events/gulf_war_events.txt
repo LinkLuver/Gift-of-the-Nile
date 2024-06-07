@@ -7,14 +7,6 @@ gulf_war.100 = { # Initial
     hidden = yes
 
     immediate = {
-        add_to_global_variable_list = {
-            name = gulf_war_list
-            target = c:TYO
-        }
-        add_to_global_variable_list = {
-            name = gulf_war_list
-            target = c:MAK
-        }
         c:TYO = {
             trigger_event = {
                 id = gulf_war.101
@@ -43,10 +35,6 @@ gulf_war.101 = { # Tylos Forward Colonization
     option = { # escalate
         name = "gulf_war_101.a"
         add_aggressive_expansion = 5
-        add_to_global_variable_list = {
-            name = gulf_war_list
-            target = root
-        }
         area:omana_area = {
         	every_area_province = {
         		limit = {
@@ -56,7 +44,6 @@ gulf_war.101 = { # Tylos Forward Colonization
         	}
         }
         custom_tooltip = gw_escalation
-        set_variable = forward_colonization_var
         c:MAK = {
         	trigger_event = gulf_war.103
         }
@@ -106,7 +93,6 @@ gulf_war.103 = { # West Omana was stolen!
         name = "gulf_war_103.a"
         add_stability = -3
         custom_tooltip = gw_deescalation
-        set_variable = backed_down
     }
 
     option = { # Retalliate

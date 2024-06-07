@@ -96,7 +96,7 @@
 				AND = {
 					OR = {
 						tag = PRY
-						has_variable = me_ant_start_flag
+						#has_variable = me_ant_start_flag
 					}
 					has_dlc = "Heirs of Alexander"
 				}
@@ -1628,7 +1628,7 @@ generic_block_trigger = {
 				ROOT = {
 					OR = {
 						tag = PRY
-						has_variable = me_ant_start_flag
+						#has_variable = me_ant_start_flag
 					}
 				}
 				has_dlc = "Heirs of Alexander"
@@ -1658,7 +1658,7 @@ generic_block_trigger = {
 					ROOT = {
 						OR = {
 							AND = {
-								has_global_variable = antigonus_the_failure
+								#has_global_variable = antigonus_the_failure
 								NOT = { has_completed_mission = antigonid_02_aspiration }
 							}
 							AND = {
