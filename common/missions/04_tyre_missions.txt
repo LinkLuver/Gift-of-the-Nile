@@ -1,12 +1,13 @@
 ﻿tyre_missions = {
-    header = "mission_image_general"
-    icon = "general_1"
+    header = "mission_image_carthage"
+    icon = "carthage_1"
 
     repeatable = no
     chance = 1000
 
     potential = {
         NOT = { has_variable = mission_cooldown_var }
+        tag = SWR
     }
 
     abort = {}
@@ -40,8 +41,9 @@
         }
     }
     tyre_missions_task_2 = { # Maritime Training
-        icon = "task_political"
+        icon = "task_battle"
         duration = 365
+        requires = { tyre_missions_task_1 }
         allow = {
             treasury >= 100
             military_experience >= 20
@@ -60,8 +62,9 @@
         }
     }
     tyre_missions_task_3 = { # Construction of a Flagship
-        icon = "task_political"
+        icon = "task_conquest"
         duration = 120
+        requires = { tyre_missions_task_1 }
         allow = {
             treasury >= 100
             political_influence >= 20
@@ -94,13 +97,18 @@
         }
     }
     tyre_missions_task_4 = { # New Trade Routes
-        icon = "task_political"
+        icon = "task_zeus_cornucopia"
         duration = 30
+        highlight = {
+            scope:province = {
+                province_id = 743
+            }
+        }
         allow = {
             p:743 = {
                 num_of_commerce_building >= 2
-                political_influence >= 20
             }
+            political_influence >= 20
         }
         on_completion = {
             trigger_event = me_tyre.4
@@ -114,8 +122,13 @@
         }
     }
     tyre_missions_task_5 = { # A Stable Economy
-        icon = "task_political"
+        icon = "task_economical"
         requires = { tyre_missions_task_4 }
+        highlight = {
+            scope:province = {
+                province_id = 743
+            }
+        }
         allow = {
             p:743 = {
                 incoming_trade_routes >= 4
@@ -136,9 +149,14 @@
         }
     }
     tyre_missions_task_6 = { # Tyrian Trade Emporium
-        icon = "task_political"
+        icon = "task_happiness"
         duration = 180
         requires = { tyre_missions_task_5 }
+        highlight = {
+            scope:province = {
+                province_id = 743
+            }
+        }
         allow = {
             treasury >= 150
             political_influence >= 30
@@ -153,9 +171,22 @@
             }
         }
     }
-    tyre_missions_task_7 = { # Phoenecian Allies
-        icon = "task_political"
+    tyre_missions_task_7 = { # Phoenician Allies
+        icon = "task_diplomatic"
         requires = { tyre_missions_task_4 }
+        highlight = {
+            scope:province = {
+                AND = {
+                    owner = {
+                        country_culture_group = west_levantine
+                    }
+                    OR = {
+                        is_in_region = palestine_region
+                        is_in_region = syria_region
+                    }
+                }
+            }
+        }
         allow = {
             custom_tooltip = {
                 any_country = {
@@ -190,6 +221,27 @@
     }
     tyre_missions_task_8 = { # A United Phoenicia
         icon = "task_political"
+        highlight = {
+            scope:province = {
+                AND = {
+                    OR = {
+                        owner = {
+                            primary_culture = phoenician
+                        }
+                        owner = {
+                            primary_culture = hyksos
+                        }
+                        owner = {
+                            primary_culture = syrion
+                        }
+                    }
+                    OR = {
+                        is_in_region = palestine_region
+                        is_in_region = syria_region
+                    }
+                }
+            }
+        }
         requires = { tyre_missions_task_7 }
         allow = {}
         on_completion = {
@@ -200,8 +252,17 @@
         }
     }
     tyre_missions_task_9 = { # The Future of Phoenicia
-        icon = "task_political"
+        icon = "task_happiness"
         duration = 90
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_area = north_phoenicia_area
+                    is_in_area = south_phoenicia_area
+                    owned_or_subject_owned = c:SWR
+                }
+            }
+        }
         requires = { tyre_missions_task_8 }
         allow = {
             political_influence >= 50
@@ -216,8 +277,13 @@
         }
     }
     tyre_missions_task_10 = { # Alashiyan Aspirations 
-        icon = "task_political"
+        icon = "task_battle"
         requires = { tyre_missions_task_7 }
+        highlight = {
+            scope:province = {
+                is_in_area = cyprus_area
+            }
+        }
         allow = {
             political_influence >= 20
             war = no
@@ -232,8 +298,13 @@
         }
     }
     tyre_missions_task_11 = { # The Second Island
-        icon = "task_political"
+        icon = "task_conquest"
         requires = { tyre_missions_task_10 }
+        highlight = {
+            scope:province = {
+                is_in_area = cyprus_area
+            }
+        }
         allow = {
             owns_or_subject_owns_area = cyprus_area
         }
@@ -249,13 +320,21 @@
         }
     }
     tyre_missions_task_12 = { # Tyrian Ascendance
-        icon = "task_political"
+        icon = "task_heracles"
+        requires = { tyre_missions_task_9 tyre_missions_task_11 }
+        highlight = {
+            scope:province = {
+                owner = ROOT
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_tyre.12
             show_as_tooltip = {
-                name = second_phoenician_golden_age
-                duration = -1
+                add_country_modifier = {
+                    name = second_phoenician_golden_age
+                    duration = -1
+                }
             }
         }
         final = yes

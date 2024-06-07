@@ -27,10 +27,7 @@ generic_mission_home_infrastructure = { #Fix up Region
 				}
 			}
 		}
-		OR = {
-			invictus_mission_block_trigger = yes
-			gotn_mission_block_trigger = yes
-		}
+		invictus_mission_block_trigger = yes
 		has_civil_war = no
 	}
 	

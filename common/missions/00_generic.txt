@@ -46,10 +46,7 @@ generic_mission_conquer_region = { #Conquer Region
 				generic_block_trigger = yes
 			}
 		}
-		OR = {
-			invictus_mission_block_trigger = yes
-			gotn_mission_block_trigger = yes
-		}
+		invictus_mission_block_trigger = yes
 		has_civil_war = no
 	} 
 

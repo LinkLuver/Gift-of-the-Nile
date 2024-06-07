@@ -1,24 +1,27 @@
 ﻿namespace = me_tyre
 
-me_tyre.1 = {
+me_tyre.1 = { # Tyrian Royal Fleet
     type = country_event
 
     title = me_tyre_1_title
     desc = me_tyre_1_desc
-    picture = great_library
+    picture = diadochi_demetrius_navy
 
     option = {
         name = "me_tyre_1.a"
         custom_tooltip = me_tyre_1_tooltip
-
+        add_country_modifier = {
+            name = tyre_navy
+            duration = 3650
+        }
     }
 }
-me_tyre.2 = {
+me_tyre.2 = { # Maritime Training
     type = country_event
 
     title = me_tyre_2_title
     desc = me_tyre_2_desc
-    picture = great_library
+    picture = naval_battle
 
     right_portrait = scope:sailor_man
     left_portrait = current_ruler
@@ -29,7 +32,6 @@ me_tyre.2 = {
                 culture = phoenician
                 amazing_martial_effect = yes
                 add_trait = oarmaster
-                add_trait = steadfast
                 add_trait = seadog
                 add_trait = sarcastic
                 female = no
@@ -42,135 +44,592 @@ me_tyre.2 = {
         name = "me_tyre_2.a"
         custom_tooltip = me_tyre_2_tooltip
         custom_tooltip = new_tyre_admiral_tt
+        add_treasury = -100
+        add_military_experience = -20
+        add_country_modifier = {
+            name = maritime_training
+            duration = -1
+        }
     }
 }
-me_tyre.3 = {
+me_tyre.3 = { # Construction of a Flagship
     type = country_event
 
     title = me_tyre_3_title
     desc = me_tyre_3_desc
-    picture = great_library
+    picture = ship_in_storm
 
     option = {
         name = "me_tyre_3.a"
         custom_tooltip = me_tyre_3_tooltip
-
+        add_treasury = -100
+        add_political_influence = -20
+        create_unit = {
+            navy = yes
+            location = p:743
+            add_subunit = mega_galley
+            add_subunit = mega_galley
+            add_subunit = mega_galley
+            add_subunit = hexere
+            add_subunit = hexere
+            add_subunit = hexere
+            add_subunit = hexere
+            add_subunit = hexere
+            add_subunit = hexere
+            add_subunit = hexere
+            add_subunit = hexere
+            add_subunit = hexere
+            add_subunit = hexere
+            add_subunit = hexere
+            add_subunit = hexere
+        }
     }
 }
-me_tyre.4 = {
+me_tyre.4 = { # New Trade Routes
     type = country_event
 
     title = me_tyre_4_title
     desc = me_tyre_4_desc
-    picture = great_library
+    picture = diadochi_treasury_plundered_honor
 
     option = {
         name = "me_tyre_4.a"
         custom_tooltip = me_tyre_4_tooltip
-
+        add_political_influence = -20
+        add_country_modifier = {
+            name = greek_gold_routes
+            duration = 3650
+        }
     }
 }
-me_tyre.5 = {
+me_tyre.5 = { # A Stable Economy
     type = country_event
 
     title = me_tyre_5_title
     desc = me_tyre_5_desc
-    picture = great_library
+    picture = war_chest
 
     option = {
         name = "me_tyre_5.a"
         custom_tooltip = me_tyre_5_tooltip
-
+        p:743 = {
+            add_province_modifier = {
+                name = tyrian_merchants
+                duration = -1
+            }
+        }
     }
 }
-me_tyre.6 = {
+me_tyre.6 = { # Tyrian Trade Emporium
     type = country_event
 
     title = me_tyre_6_title
     desc = me_tyre_6_desc
-    picture = great_library
+    picture = trade_port
 
     option = {
         name = "me_tyre_6.a"
         custom_tooltip = me_tyre_6_tooltip
-
+        add_country_modifier = {
+            name = trade_emporium
+            duration = -1
+        }
     }
 }
-me_tyre.7 = {
+me_tyre.7 = { # Phoenician Allies
     type = country_event
 
     title = me_tyre_7_title
     desc = me_tyre_7_desc
-    picture = great_library
+    picture = interesting_histories_punic_town
 
     option = {
         name = "me_tyre_7.a"
         custom_tooltip = me_tyre_7_tooltip
-
+        every_country = {
+            limit = {
+                any_owned_province = {
+                    OR = {
+                        is_in_region = syria_region
+                        is_in_region = palestine_region
+                    }
+                }
+                alliance_with = ROOT
+                this.culture.culture_group = culture_group:west_levantine
+            }
+            trigger_event = me_tyre.700
+        }
+        custom_tooltip = levant_friends_tt
+        add_country_modifier = {
+            name = protected_homelands
+            duration = 1825
+        }
     }
 }
-me_tyre.8 = {
+me_tyre.700 = { # Hidden Event for Stuff
+    type = country_event
+    hidden = yes
+    immediate = {
+        add_opinion = {
+            target = c:SWR
+            modifier = levant_friends
+        }
+    }
+}
+me_tyre.8 = { # A United Phoenicia
     type = country_event
 
     title = me_tyre_8_title
     desc = me_tyre_8_desc
-    picture = great_library
+    picture = diadochi_new_city_founded
 
     option = {
         name = "me_tyre_8.a"
         custom_tooltip = me_tyre_8_tooltip
-
+        custom_tooltip = ask_levant_tt
+        every_country = {
+            limit = {
+                OR = {
+                    primary_culture = phoenician
+                    primary_culture = syrion
+                    primary_culture = hyksos
+                }
+                NOT = { tag = SWR }
+                NOR = {
+                    government = egyptian_dynasty
+                    government = nomarchy
+                }
+                OR = {
+                    capital_scope = { is_in_region = palestine_region }
+                    capital_scope = { is_in_region = syria_region }
+                }
+            }
+            trigger_event = me_tyre.800
+        }
     }
 }
-me_tyre.9 = {
+me_tyre.800 = {
+    type = country_event
+    title = me_tyre_8_title
+    desc = me_tyre_8_desc
+    picture = diadochi_new_city_founded
+
+    option = {
+        trigger = { is_ai = no }
+        name = "me_tyre_8.b"
+        c:SWR = {
+            make_subject = {
+                target = ROOT
+                type = feudatory
+            }
+        }
+    }
+    option = {
+        trigger = { is_ai = no }
+        name = "me_tyre_8.c"
+    }
+    option = {
+        trigger = { is_ai = yes }
+        name = "me_tyre_8.a"
+        if = {
+            limit = {
+                alliance_with = c:SWR
+            }
+            random_list = {
+                9 = {
+                    c:SWR = {
+                        make_subject = {
+                            target = ROOT
+                            type = feudatory
+                        }
+                    }
+                }
+                1 = {
+                    every_owned_province = {
+                        limit = {
+                            OR = {
+                                is_in_region = palestine_region
+                                is_in_region = syria_region
+                            }
+                        }
+                        add_claim = c:SWR
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = {
+                OR = {
+                    total_population <= 20
+                    num_of_cities <= 2
+                }
+            }
+            random_list = {
+                8 = {
+                    c:SWR = {
+                        make_subject = {
+                            target = ROOT
+                            type = feudatory
+                        }
+                    }
+                }
+                2 = {
+                    every_owned_province = {
+                        limit = {
+                            OR = {
+                                is_in_region = palestine_region
+                                is_in_region = syria_region
+                            }
+                        }
+                        add_claim = c:SWR
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = {
+                opinion = {
+                    target = c:SWR
+                    value >= 50
+                }
+            }
+            random_list = {
+                7 = {
+                    c:SWR = {
+                        make_subject = {
+                            target = ROOT
+                            type = feudatory
+                        }
+                    }
+                }
+                3 = {
+                    every_owned_province = {
+                        limit = {
+                            OR = {
+                                is_in_region = palestine_region
+                                is_in_region = syria_region
+                            }
+                        }
+                        add_claim = c:SWR
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = {
+                opinion = {
+                    target = c:SWR
+                    value <= -50
+                }
+            }
+            random_list = {
+                1 = {
+                    c:SWR = {
+                        make_subject = {
+                            target = ROOT
+                            type = feudatory
+                        }
+                    }
+                }
+                9 = {
+                    every_owned_province = {
+                        limit = {
+                            OR = {
+                                is_in_region = palestine_region
+                                is_in_region = syria_region
+                            }
+                        }
+                        add_claim = c:SWR
+                    }
+                }
+            }
+        }
+        else = {
+            random_list = {
+                5 = {
+                    c:SWR = {
+                        make_subject = {
+                            target = ROOT
+                            type = feudatory
+                        }
+                    }
+                }
+                5 = {
+                    every_owned_province = {
+                        limit = {
+                            OR = {
+                                is_in_region = palestine_region
+                                is_in_region = syria_region
+                            }
+                        }
+                        add_claim = c:SWR
+                    }
+                }
+            }
+        }
+    }
+}
+me_tyre.9 = { # The Future of Phoenicia
     type = country_event
 
     title = me_tyre_9_title
     desc = me_tyre_9_desc
-    picture = great_library
+    picture = diadochi_ptolemy_city
 
     option = {
         name = "me_tyre_9.a"
         custom_tooltip = me_tyre_9_tooltip
-
+        every_subject = {
+            limit = {
+                OR = {
+                    capital_scope = { is_in_region = syria_region }
+                    capital_scope = { is_in_region = palestine_region }
+                }
+                OR = {
+                    primary_culture = phoenician
+                    primary_culture = hyksos
+                    primary_culture = syrion
+                }
+            }
+            every_owned_province = {
+                set_owned_by = c:SWR
+            }
+        }
+        custom_tooltip = "tier_2_formable_tooltip"
+        change_country_name = "PHOENICIA_NAME"
+        hidden_effect = {
+            change_country_adjective = "PHOENICIA_ADJECTIVE"
+            change_country_color =  "phoenicia_color"
+            change_country_tag = PPN
+            change_country_flag = PHOENICIA_FLAG
+        }
+        p:743 = {
+            capital_formable_medium_effect = yes
+            formable_capital_modifier_normal_effect = yes
+        }
+        custom_tooltip = "form_phoenicia_claims_tooltip"
+        hidden_effect = {
+            area:north_phoenicia_area = { formable_area_province_effect = yes }
+            area:south_phoenicia_area = { formable_area_province_effect = yes }
+        }
+        add_country_modifier = {
+            name = masters_of_the_med
+            duration = -1
+        }
+        add_country_modifier = {
+            name = tyrian_hegemony
+            duration = -1
+        }
+        add_5_free_province_investments = yes
+    }
+    option = {
+        name = "me_tyre_9.b"
+        custom_tooltip = me_tyre_9_tooltip
+        every_subject = {
+            limit = {
+                OR = {
+                    capital_scope = { is_in_region = syria_region }
+                    capital_scope = { is_in_region = palestine_region }
+                }
+                OR = {
+                    primary_culture = phoenician
+                    primary_culture = hyksos
+                    primary_culture = syrion
+                }
+            }
+            every_owned_province = {
+                set_owned_by = c:SWR
+            }
+        }
+        custom_tooltip = "tier_2_formable_tooltip"
+        change_country_name = "PHOENICIA_LEAGUE_NAME"
+        hidden_effect = {
+            change_country_adjective = "PHOENICIA_ADJECTIVE"
+            change_country_color =  "phoenicia_color"
+            change_country_tag = PPN
+            change_country_flag = PHOENICIA_FLAG
+        }
+        p:743 = {
+            capital_formable_medium_effect = yes
+            formable_capital_modifier_normal_effect = yes
+        }
+        custom_tooltip = "form_phoenicia_claims_tooltip"
+        hidden_effect = {
+            area:north_phoenicia_area = { formable_area_province_effect = yes }
+            area:south_phoenicia_area = { formable_area_province_effect = yes }
+        }
+        add_country_modifier = {
+            name = masters_of_the_med
+            duration = -1
+        }
+        add_country_modifier = {
+            name = united_by_tyre
+            duration = -1
+        }
+        add_5_free_province_investments = yes
+        change_government = theocratic_republic
+        switch_government_type_event_clearup_effect = yes
+    }
+    option = {
+        name = "me_tyre_9.c"
+        custom_tooltip = me_tyre_9_tooltip
+        add_country_modifier = {
+            name = tyrian_autonomy
+            duration = -1
+        }
+        every_subject = {
+            limit = {
+                OR = {
+                    capital_scope = { is_in_region = syria_region }
+                    capital_scope = { is_in_region = palestine_region }
+                }
+                OR = {
+                    primary_culture = phoenician
+                    primary_culture = hyksos
+                    primary_culture = syrion
+                }
+            }
+            add_country_modifier = {
+                name = tyre_is_nice
+                duration = -1
+            }
+        }
     }
 }
-me_tyre.10 = {
+me_tyre.10 = { # Alashiyan Aspirations
     type = country_event
 
     title = me_tyre_10_title
     desc = me_tyre_10_desc
-    picture = great_library
+    picture = hellenic_marketplace
 
     option = {
         name = "me_tyre_10.a"
         custom_tooltip = me_tyre_10_tooltip
-
+        area:cyprus_area = {
+            add_provincial_claim_effect = yes
+        }
     }
 }
-me_tyre.11 = {
+me_tyre.11 = { # The Second Island
     type = country_event
 
     title = me_tyre_11_title
     desc = me_tyre_11_desc
-    picture = great_library
+    picture = throneroom
+
+    immediate = {
+        current_ruler = {
+            add_trait = victorious
+            add_popularity = 20
+        }
+    }
 
     option = {
         name = "me_tyre_11.a"
         custom_tooltip = me_tyre_11_tooltip
-
+        area:cyprus_area = {
+            every_area_province = {
+                limit = {
+                    trade_goods = base_metals
+                }
+                add_province_modifier = {
+                    name = tyrian_extraction
+                    duration = -1
+                }
+            }
+        }
+    }
+    option = {
+        name = "me_tyre_11.c"
+        custom_tooltip = me_tyre_11_tooltip
+        custom_tooltip = alashiya_colony_tt
+        hidden_effect = {
+            p:331 = {
+                create_country = {
+                    name = {
+                        name = ALASHIYA_NAME
+                        adjective = ALASHIYA_ADJECTIVE
+                    }
+                    change_country_color = ck2_purple
+                    if = {
+                        limit = {
+                            NOT = {
+                                primary_culture = alashiyan
+                            }
+                        }
+                        set_primary_culture_cleanup_effect = {
+                            NEW_PRIMARY_CULTURE = alashiyan
+                            MAKE_OLD_CULTURE_INTEGRATED = yes
+                        }
+                    }
+                    set_country_religion = carthaginian_pantheon
+                    change_government = plutocratic_republic
+                    save_scope_as = alashiya_colony
+                    change_country_tag = AL1
+                }
+            }
+            area:cyprus_area = {
+                every_area_province = {
+                    set_owned_by = scope:alashiya_colony
+                }
+            }   
+            make_subject = {
+                target = scope:alashiya_colony
+                type = feudatory
+            }
+        }
+    }
+    option = {
+        name = "me_tyre_11.b"
+        custom_tooltip = me_tyre_11_tooltip
+        hidden_effect = {
+            p:331 = {
+                create_country = {
+                    name = {
+                        name = ALASHIYA_NAME
+                        adjective = ALASHIYA_ADJECTIVE
+                    }
+                    change_country_color = ck2_purple
+                    if = {
+                        limit = {
+                            NOT = {
+                                primary_culture = alashiyan
+                            }
+                        }
+                        set_primary_culture_cleanup_effect = {
+                            NEW_PRIMARY_CULTURE = alashiyan
+                            MAKE_OLD_CULTURE_INTEGRATED = yes
+                        }
+                    }
+                    set_country_religion = carthaginian_pantheon
+                    change_government = plutocratic_republic
+                    save_scope_as = alashiya_colony
+                    change_country_tag = AL1
+                }
+            }
+            area:cyprus_area = {
+                every_area_province = {
+                    set_owned_by = scope:alashiya_colony
+                }
+            }
+        }
+        set_player_country = scope:alashiya_colony
     }
 }
-me_tyre.12 = {
+me_tyre.12 = { # Tyrian Ascendance
     type = country_event
 
     title = me_tyre_12_title
     desc = me_tyre_12_desc
-    picture = great_library
+    picture = great_work_celebration
 
     option = {
         name = "me_tyre_12.a"
         custom_tooltip = me_tyre_12_tooltip
-
+        add_country_modifier = {
+            name = second_phoenician_golden_age
+            duration = -1
+        }
     }
 }
