@@ -35,7 +35,7 @@ aco_amun_temple = {
 	picture = "gfx/interface/event_window/gotn_faiyumic_temple.dds"
 }
 aco_nile_sunset = {
-	theme = Happy
+	theme = Naval
 	picture = "gfx/interface/event_window/gotn_nile_sunset.dds"
 }
 aco_ptah_temple = {
@@ -45,15 +45,15 @@ aco_ptah_temple = {
 
 # Prince of Persia: The Lost Crown
 tlc_city_night = {
-	theme = Religion
+	theme = Unrest
 	picture = "gfx/interface/event_window/gotn_persia_night.dds"
 }
 tlc_city_walls = {
-	theme = Religion
+	theme = Honor
 	picture = "gfx/interface/event_window/gotn_persia_walls.dds"
 }
 tlc_city_mountains = {
-	theme = Religion
+	theme = Uncategorized
 	picture = "gfx/interface/event_window/gotn_persia_mountain.dds"
 }
 tlc_cave_temple = {
