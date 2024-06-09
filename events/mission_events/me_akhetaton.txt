@@ -227,7 +227,7 @@ me_akhetaton.4 = {
 
     title = me_akhetaton_4_title
     desc = me_akhetaton_4_desc
-    picture = army_desert
+    picture = twp_battle_delta
     left_portrait = current_ruler
 
     option = {
@@ -262,7 +262,7 @@ me_akhetaton.6 = {
 
     title = me_akhetaton_6_title
     desc = me_akhetaton_6_desc
-    picture = greek_court
+    picture = twp_pharaoh_court
 
     option = {
         name = "me_akhetaton_6.a"
@@ -279,7 +279,7 @@ me_akhetaton.7 = {
 
     title = me_akhetaton_7_title
     desc = me_akhetaton_7_desc
-    picture = diadochi_legion_carrying_standard_honor
+    picture = aco_amun_temple
 
     option = {
         name = "me_akhetaton_7.a"
@@ -401,7 +401,7 @@ me_akhetaton.9 = {
 
     title = me_akhetaton_9_title
     desc = me_akhetaton_9_desc
-    picture = celtic_religious_festival
+    picture = aco_ptah_temple
 
     option = {
         name = "me_akhetaton_9.a"
@@ -434,7 +434,7 @@ me_akhetaton.11 = {
 
     title = me_akhetaton_11_title
     desc = me_akhetaton_11_desc
-    picture = road_construction
+    picture = aco_construction
 
     option = {
         name = "me_akhetaton_11.a"
@@ -515,7 +515,7 @@ me_akhetaton.14 = {
 
     title = me_akhetaton_14_title
     desc = me_akhetaton_14_desc
-    picture = diadochi_ptolemy_city
+    picture = twp_pyramid_delta
 
     option = {
         name = "me_akhetaton_14.a"
@@ -754,7 +754,7 @@ me_akhetaton.18 = {
 
     title = me_akhetaton_18_title
     desc = me_akhetaton_18_desc
-    picture = great_work_celebration
+    picture = aco_pyramid_deserts
 
     option = {
         name = "me_akhetaton_18.a"
@@ -860,7 +860,7 @@ me_akhetaton.22 = {
 
     title = me_akhetaton_22_title
     desc = me_akhetaton_22_desc
-    picture = great_library
+    picture = aco_nile_sunset
 
     option = {
         name = "me_akhetaton_22.a"
