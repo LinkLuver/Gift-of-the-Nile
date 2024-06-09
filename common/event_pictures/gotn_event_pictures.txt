@@ -4,6 +4,10 @@ twp_pyramid_delta = {
 	picture = "gfx/interface/event_window/gotn_delta_pyramids.dds"
 }
 twp_battle_delta = {
+	theme = War
+	picture = "gfx/interface/event_window/gotn_battle_of_delta.dds"
+}
+twp_battle_delta_marching = {
 	theme = Marching
 	picture = "gfx/interface/event_window/gotn_battle_of_delta.dds"
 }
@@ -58,5 +62,27 @@ tlc_city_mountains = {
 }
 tlc_cave_temple = {
 	theme = Religion
+	picture = "gfx/interface/event_window/gotn_persia_cave.dds"
+}
+
+# Humankind
+hk_cleopatra = {
+	theme = Honor
+	picture = "gfx/interface/event_window/hk_cleopatra.dds"
+}
+hk_babbling_babylon = {
+	theme = Hubbub
+	picture = "gfx/interface/event_window/hk_babbling_babylon.dds"
+}
+hk_hittite_chariot = {
+	theme = War
+	picture = "gfx/interface/event_window/hk_hittite_chariot.dds"
+}
+hk_sumerian_court = {
+	theme = Senate
+	picture = "gfx/interface/event_window/gotn_persia_cave.dds"
+}
+hk_tower_babylon = {
+	theme = Wonder
 	picture = "gfx/interface/event_window/gotn_persia_cave.dds"
 }
