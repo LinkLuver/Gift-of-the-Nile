@@ -197,6 +197,7 @@
 		chaldean = {}
 		sittacenean = {}
 		qardu = { levy_template = levy_hurrian }
+		lullu = { levy_template = levy_parthian }
 	}
 	
 	barbarian_names = { 

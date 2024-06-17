@@ -32,6 +32,9 @@
                 matienian = {}
 		salaian ={}
 		urtaian ={}
+		tukri ={}
+		shubar ={}
+		
 		phasian = {}
 		palaian = {}
 		alarodian = {}
@@ -54,8 +57,8 @@
 	
 	graphical_culture = anatolian_gfx
 	ethnicities = {
-	       3 = luwian
-		   6 = hurrian
-		   1 = persian
+	        3 = luwian
+		6 = hurrian
+		1 = persian
 	}
 }
