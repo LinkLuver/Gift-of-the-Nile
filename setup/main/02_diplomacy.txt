@@ -236,9 +236,9 @@ diplomacy = {
 	dependency = { first = BRT second = THU subject_type = tributary }
 
 	#Syracuse
-	dependency = { first = SYR second = LOC subject_type = feudatory }
-	dependency = { first = SYR second = RHG subject_type = feudatory }
-	dependency = { first = SYR second = GEL subject_type = feudatory }
+	dependency = { first = SY1 second = LOC subject_type = feudatory }
+	dependency = { first = SY1 second = RHG subject_type = feudatory }
+	dependency = { first = SY1 second = GEL subject_type = feudatory }
 
 	#Knossos
 	dependency = { first = KNO second = ELT subject_type = feudatory }

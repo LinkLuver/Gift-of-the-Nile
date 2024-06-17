@@ -58,6 +58,18 @@ MFX = "setup/countries/persiamesopotamia/media felix.txt"
 HAG = "setup/countries/persiamesopotamia/hanigalbat.txt"
 BYI = "setup/countries/persiamesopotamia/bit yahiri.txt"
 NSI = "setup/countries/persiamesopotamia/nsibin.txt"
+AT1 = "setup/countries/persiamesopotamia/cyrtia.txt"
+AT2 = "setup/countries/persiamesopotamia/carduchia_2.txt"
+AT3 = "setup/countries/persiamesopotamia/arzonia.txt"
+AT4 = "setup/countries/persiamesopotamia/hurria.txt"
+AT5 = "setup/countries/persiamesopotamia/sharzur.txt"
+AT6 = "setup/countries/persiamesopotamia/hurhisht.txt"
+AT7 = "setup/countries/persiamesopotamia/shadrah.txt"
+AT8 = "setup/countries/persiamesopotamia/shirakan.txt"
+AT9 = "setup/countries/persiamesopotamia/kassia.txt"
+AM1 = "setup/countries/persiamesopotamia/piranshahr.txt"
+AM2 = "setup/countries/persiamesopotamia/halman.txt"
+AM3 = "setup/countries/persiamesopotamia/sacapenia.txt"
 
 # Arabia
 AX0 = "setup/countries/arabia/tasm.txt"
@@ -175,8 +187,9 @@ REH = "setup/countries/bharat/rehman.txt"
 JAI = "setup/countries/bharat/jayapura.txt"
 CHN = "setup/countries/bharat/chandaniot.txt"
 THC = "setup/countries/bharat/thatta.txt"
+CHP = "setup/countries/bharat/chapuwala.txt"
 
-# Italia-Africa
+# Italia
 KSC = "setup/countries/italia/shekelesh.txt"
 CPU = "setup/countries/italia/capua.txt"
 DAU = "setup/countries/italia/daunia.txt"
@@ -211,6 +224,8 @@ RS2 = "setup/countries/africa/rush_ikkad.txt"
 RS3 = "setup/countries/africa/opponia.txt"
 RS4 = "setup/countries/africa/igilgilia.txt"
 RS5 = "setup/countries/africa/metagonia.txt"
+INU = "setup/countries/africa/malta.txt"
+KIR = "setup/countries/africa/kirob.txt"
 
 # Iberia
 OLS = "setup/countries/iberia/alis_ubo.txt"
@@ -388,7 +403,8 @@ FNT = "setup/countries/italia/friniati.txt"
 NUC = "setup/countries/italia/nocera.txt"
 MRS = "setup/countries/italia/marsia.txt"
 SIO = "setup/countries/italia/sipontum.txt"
-SYR = "setup/countries/italia/syracusae.txt"
+SYR = "setup/countries/italia/syracusae_2.txt"
+SY1 = "setup/countries/italia/syracusae.txt"
 ACR = "setup/countries/italia/acragas.txt"
 
 #Britannic
