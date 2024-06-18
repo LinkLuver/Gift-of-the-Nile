@@ -357,10 +357,10 @@ gulf_war.109 = { # Elamite Compromise
 				}
 				create_country = {
 					name = {
-						name = "DAL"
-						adjective = "DAL_ADJ"
+						name = "DLE"
+						adjective = "DLE_ADJ"
 					}
-					change_country_tag = DAL
+					change_country_tag = DLE
 					#change_country_flag = DAL
 					change_country_color = antigonid_yellow
 					if = {
