@@ -1,0 +1,299 @@
+﻿hurri_missions = {
+    header = "mission_image_general"
+    icon = cde_new_city_founded
+
+    repeatable = no
+    chance = {
+		factor = 100
+	}
+
+    potential = {
+        NOT = { has_variable = hurri_missions_cooldown_var }
+        tag = HAG
+		NOT = { has_variable = mitanni_hanigalbat }
+		NOT = { has_variable = assur_hanigalbat }
+    }
+
+    abort = {
+        ai_mission_back_out_trigger = yes
+    }
+    on_start = {
+        start_mission_ai_effect = yes
+        save_scope_as = mission_country
+    }
+    on_abort = {
+        custom_tooltip = general_mission_cooldown_tt
+        set_variable = {
+            name = hurrian_missions_cooldown_var
+            days = 7300
+        }
+    }
+    on_completion = {}
+
+    hurri_missions_task_1 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.1
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_2 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_1 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.2
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_3 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_1 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.3
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_4 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_2 }
+        requires = { hurri_missions_task_3 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.4
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_5 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.5
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_6 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.6
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_7 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.7
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_8 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_5 }
+        requires = { hurri_missions_task_6 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.8
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_9 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_7 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.9
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_10 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_8 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.10
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_11 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_10 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.11
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_12 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_11 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.12
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_13 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_11 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.13
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_14 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_9 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.14
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_15 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_14 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.15
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_16 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_4 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.16
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_17 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_12 }
+        requires = { hurri_missions_task_13 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.17
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_18 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_15 }
+        requires = { hurri_missions_task_16 }
+        requires = { hurri_missions_task_17 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.18
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_19 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_22 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.19
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_20 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_19 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.20
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_21 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_6 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.21
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_22 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_21 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.22
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_23 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_22 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.23
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_24 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_23 }
+        requires = { hurri_missions_task_19 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.24
+            show_as_tooltip = {
+
+            }
+        }
+    }
+}

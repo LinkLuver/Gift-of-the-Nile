@@ -9,8 +9,7 @@
 
     potential = {
         NOT = { has_variable = mitanni_missions_cooldown_var }
-        tag = HAG
-		has_variable = mitanni_hanigalbat
+        primary_culture = mitanni
     }
 
     abort = {
