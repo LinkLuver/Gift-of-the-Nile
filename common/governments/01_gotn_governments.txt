@@ -178,3 +178,27 @@ mahajanapada_monarchy = {
 	
 	color = rgb { 178  169  13 }
 }
+
+gaul_princely_state = { #Dugrum Republic
+	oratory_ideas = 1
+	religious_ideas = 2
+	type = republic
+
+	bonus = {
+		global_tribesmen_city_desired_pop_ratio = 0.1
+		global_import_commerce_modifier = 0.10
+	}
+
+	base = {
+		country_civilization_value = 10
+		global_tribesmen_happyness = happiness_large_svalue
+	}
+
+	minimum_electable_age = 35
+	election_delay = 10
+	ruler_term = 5
+
+	color = rgb { 100 200 170 }
+
+	can_deify_ruler = yes
+}
