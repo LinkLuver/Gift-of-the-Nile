@@ -154,7 +154,6 @@ assyria_region = { #7 areas
 		adiabene_area
 		niniveh_area
 		tigris_area
-		orontes_area
 		ulamme_area
 		mthurna_area
 		gordyene_area
@@ -849,19 +848,28 @@ media_region = { #9 areas
 		amardioi_area
 		ecbatana_area
 		kadousioi_area
-		kossioi_area
 		media_area
 		media_atropatene_area
 		media_choromithrene
-		garamig_area
 		paytankert_area
 		aganzana_area
 		goyman_area
 		golan_area
-		ough_area
-		bleh_area
-		aaah_area
-		help_area
+	}
+}
+
+zagros_region = { #9 areas
+	areas = {
+		media_zagrosia_area
+		awanite_area
+		akkudui_area
+		qirbiti_area
+		lower_orontes_area
+		sabandan_area
+		kossioi_area
+		orontes_area
+		garamig_area
+		niqum_area
 	}
 }
 
@@ -896,7 +904,6 @@ mesopotamia_region = { #8 areas
 		sippar_area
 		east_sumer
 		borsip_area
-		niqum_area
 	}
 }
 
