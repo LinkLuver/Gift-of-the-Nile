@@ -1,0 +1,615 @@
+﻿namespace = me_zorgoomni
+
+me_zorgoomni.31 = {
+    type = country_event
+
+    title = me_zorgoomni.31_title
+    desc = me_zorgoomni.31_desc
+    picture = war_chest
+    left_portrait = current_ruler
+    right_portrait = scope:aggressive_neighbor.current_ruler
+
+    immediate = {
+        random_neighbour_country = {
+            limit = {
+                has_land = yes
+                is_subject = no
+                NOT = { alliance_with = root }
+                in_diplomatic_range = root
+            }
+            save_scope_as = aggressive_neighbor
+        }
+        root = { save_scope_as = nomadic_raid_country }
+    }
+
+    option = {
+        name = "me_zorgoomni.31.a"
+        custom_tooltip = me_zorgoomni.31_tooltip1
+        trigger_event = { id =  me_zorgoomni.32 days = 7 }
+        
+    }
+    option = {
+        name = "me_zorgoomni.31.b"
+        custom_tooltip = me_zorgoomni.31_tooltip2
+        
+    }
+}
+
+me_zorgoomni.32 = {
+    type = country_event
+
+    title = me_zorgoomni.32_title
+    desc = {
+        first_valid = {
+            triggered_desc = {  
+                trigger = {
+                    has_variable = going_on_a_raid_1_32
+                }
+                desc = "me_zorgoomni.32_desc_1"
+            }
+            triggered_desc = {  
+                trigger = {
+                    has_variable = going_on_a_raid_2_32
+                }
+                desc = "me_zorgoomni.32_desc_2"
+            }
+            triggered_desc = {  
+                trigger = {
+                    has_variable = going_on_a_raid_3_32
+                }
+                desc = "me_zorgoomni.32_desc_3"
+            }
+            triggered_desc = {  
+                trigger = {
+                    has_variable = going_on_a_raid_4_32
+                }
+                desc = "me_zorgoomni.32_desc_4"
+            }
+            triggered_desc = {  
+                trigger = {
+                    has_variable = going_on_a_raid_5_32
+                }
+                desc = "me_zorgoomni.32_desc_5"
+            }
+            triggered_desc = {  
+                trigger = {
+                    has_variable = going_on_a_raid_6_32
+                }
+                desc = "me_zorgoomni.32_desc_6"
+            }
+            triggered_desc = {  
+                trigger = {
+                    has_variable = going_on_a_raid_7_32
+                }
+                desc = "me_zorgoomni.32_desc_7"
+            }
+            triggered_desc = {  
+                trigger = {
+                    has_variable = going_on_a_raid_8_32
+                }
+                desc = "me_zorgoomni.32_desc_8"
+            }
+            triggered_desc = {  
+                trigger = {
+                    has_variable = going_on_a_raid_9_32
+                }
+                desc = "me_zorgoomni.32_desc_9"
+            }
+            triggered_desc = {  
+                trigger = {
+                    has_variable = going_on_a_raid_10_32
+                }
+                desc = "me_zorgoomni.32_desc_10"
+            }
+        }
+    }
+    picture = steppe_cavalry_honor
+    left_portrait = current_ruler
+    right_portrait = scope:aggressive_neighbor.current_ruler
+
+    immediate = {
+        hidden_effect = {
+            random_list = {
+                20 = {
+                    set_variable = {
+                        name = going_on_a_raid_1_32
+                    }
+                }
+                20 = {
+                    set_variable = {
+                        name = going_on_a_raid_2_32
+                    }
+                }
+                20 = {
+                    set_variable = {
+                        name = going_on_a_raid_3_32
+                    }
+                }
+                20 = {
+                    set_variable = {
+                        name = going_on_a_raid_4_32
+                    }
+                }
+                10 = {
+                    set_variable = {
+                        name = going_on_a_raid_5_32
+                    }
+                }
+                2 = {
+                    set_variable = {
+                        name = going_on_a_raid_6_32
+                    }
+                }
+                2 = {
+                    set_variable = {
+                        name = going_on_a_raid_7_32
+                    }
+                }
+                2 = {
+                    set_variable = {
+                        name = going_on_a_raid_8_32
+                    }
+                }
+                2 = {
+                    set_variable = {
+                        name = going_on_a_raid_9_32
+                    }
+                }
+                2 = {
+                    set_variable = {
+                        name = going_on_a_raid_10_32
+                    }
+                }
+            }
+        }
+    }
+
+    option = {
+        trigger = { has_variable = going_on_a_raid_1_32 }
+        name = "me_zorgoomni.32.a"
+        remove_variable = going_on_a_raid_1_32
+        scope:aggressive_neighbor = {
+            trigger_event = { id =  me_zorgoomni.33 days = 2 }
+        }
+        custom_tooltip = me_zorgoomni.32_tooltip
+        add_treasury = {
+            add = root.has_monthly_income
+            multiply = 12
+        }
+        capital_scope = {
+            create_pop = slaves
+        } 
+    }
+    option = {
+        trigger = { has_variable = going_on_a_raid_2_32 }
+        name = "me_zorgoomni.32.b"
+        remove_variable = going_on_a_raid_2_32
+        scope:aggressive_neighbor = {
+            trigger_event = { id =  me_zorgoomni.33 days = 2 }
+        }
+        custom_tooltip = me_zorgoomni.32_tooltip
+        add_treasury = {
+            add = root.has_monthly_income
+            multiply = 9
+        } 
+    }
+    option = {
+        trigger = { has_variable = going_on_a_raid_3_32 }
+        name = "me_zorgoomni.32.c"
+        remove_variable = going_on_a_raid_3_32
+        scope:aggressive_neighbor = {
+            trigger_event = { id =  me_zorgoomni.33 days = 2 }
+        }
+        custom_tooltip = me_zorgoomni.32_tooltip
+        add_treasury = {
+            add = root.has_monthly_income
+            multiply = 6
+        } 
+    }
+    option = {
+        trigger = { has_variable = going_on_a_raid_4_32 }
+        name = "me_zorgoomni.32.d"
+        remove_variable = going_on_a_raid_4_32
+        scope:aggressive_neighbor = {
+            trigger_event = { id =  me_zorgoomni.33 days = 2 }
+        }
+        custom_tooltip = me_zorgoomni.32_tooltip
+        add_treasury = {
+            add = root.has_monthly_income
+            multiply = 3
+        } 
+    }
+    option = {
+        trigger = { has_variable = going_on_a_raid_5_32 }
+        name = "me_zorgoomni.32.e"
+        remove_variable = going_on_a_raid_5_32
+        scope:aggressive_neighbor = {
+            trigger_event = { id =  me_zorgoomni.33 days = 2 }
+        }
+        custom_tooltip = me_zorgoomni.32_tooltip
+        add_treasury = {
+            add = root.has_monthly_income
+            multiply = 3
+        } 
+    }
+    option = {
+        trigger = { has_variable = going_on_a_raid_6_32 }
+        name = "me_zorgoomni.32.f"
+        remove_variable = going_on_a_raid_6_32
+        scope:aggressive_neighbor = {
+            trigger_event = { id =  me_zorgoomni.33 days = 2 }
+        }
+        custom_tooltip = me_zorgoomni.32_tooltip 
+    }
+    option = {
+        trigger = { has_variable = going_on_a_raid_7_32 }
+        name = "me_zorgoomni.32.g"
+        remove_variable = going_on_a_raid_7_32
+        scope:aggressive_neighbor = {
+            trigger_event = { id =  me_zorgoomni.33 days = 2 }
+        }
+        current_ruler = {
+            add_martial = 1
+        }
+        custom_tooltip = me_zorgoomni.32_tooltip 
+    }
+    option = {
+        trigger = { has_variable = going_on_a_raid_8_32 }
+        name = "me_zorgoomni.32.h"
+        remove_variable = going_on_a_raid_8_32
+        scope:aggressive_neighbor = {
+            trigger_event = { id =  me_zorgoomni.33 days = 2 }
+        }
+        current_ruler = {
+            add_trait = wounded
+        }
+        custom_tooltip = me_zorgoomni.32_tooltip 
+    }
+    option = {
+        trigger = { has_variable = going_on_a_raid_9_32 }
+        name = "me_zorgoomni.32.i"
+        remove_variable = going_on_a_raid_9_32
+        scope:aggressive_neighbor = {
+            trigger_event = { id =  me_zorgoomni.33 days = 2 }
+        }
+         current_ruler = {
+            add_trait = maimed
+            add_trait = wounded
+        }
+        custom_tooltip = me_zorgoomni.32_tooltip 
+    }
+    option = {
+        trigger = { has_variable = going_on_a_raid_10_32 }
+        name = "me_zorgoomni.32.j"
+        remove_variable = going_on_a_raid_10_32
+        scope:aggressive_neighbor = {
+            trigger_event = { id =  me_zorgoomni.33 days = 2 }
+        }
+        add_stability = -5
+        current_ruler = {
+            death = {
+                death_reason = death_decapitated
+            }
+        }
+        custom_tooltip = me_zorgoomni.32_tooltip 
+    }
+}
+
+me_zorgoomni.33 = {
+    type = country_event
+
+    immediate = {
+        random_owned_province = {
+            limit = {
+                total_population >= 1 
+            }
+            save_scope_as = raided_settlement
+        }
+    }
+
+    title = me_zorgoomni.33_title
+    desc = me_zorgoomni.33_desc
+    picture = steppe_cavalry
+    left_portrait = current_ruler
+    right_portrait = scope:nomadic_raid_country.current_ruler
+
+    option = {
+        name = "me_zorgoomni.33.a"
+        custom_tooltip = me_zorgoomni.33_tooltip
+        scope:raided_settlement = {
+            add_province_modifier = {
+                name = looted_by_enemies
+                duration = 1825
+            }
+            random_pops_in_province = { kill_pop = yes }
+        }
+        reverse_add_opinion = { target = scope:nomadic_raid_country modifier = unfriendly_neighbors }
+        scope:nomadic_raid_country = {
+            random_owned_province = {
+                add_claim = ROOT
+            }
+        }
+    }
+}
+
+me_zorgoomni.34 = {
+    type = country_event
+
+    title = me_zorgoomni.34_title
+    desc = me_zorgoomni.34_desc
+    picture = ship_in_storm
+    left_portrait = current_ruler
+
+    trigger = {
+        is_subject = no
+        capital_scope = {
+            OR = {
+                is_in_region = rohenoa_central_region
+                is_in_region = rohevia_region
+            }
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "me_zorgoomni.34.a"
+        add_stability = -3
+    }
+}
+
+me_zorgoomni.35 = {
+    type = country_event
+
+    title = me_zorgoomni.35_title
+    desc = me_zorgoomni.35_desc
+    picture = celtic_religious_festival
+    left_portrait = current_ruler
+    right_portrait = scope:random_priest
+
+    trigger = {
+        any_character = {
+            has_priest_office_trigger = yes
+        }
+        capital_scope = {
+            OR = {
+                is_in_region = rohenoa_central_region
+                is_in_region = rohevia_region
+            }
+        }
+    }
+
+    immediate = {
+        random_character = {
+            limit = {
+                has_priest_office_trigger = yes
+            }
+            save_scope_as = random_priest
+        }
+    }
+
+    option = {
+        name = "me_zorgoomni.35.a"
+        scope:random_priest = { add_loyalty = loyalty_granted_funds }
+        add_treasury = {
+                subtract = root.has_monthly_income
+                multiply = 3
+        }
+        add_stability = 3
+        add_country_modifier = {
+            name = festival_of_ugone_zorgo_mod
+            duration = 365
+        }
+    }
+    option = {
+        name = "me_zorgoomni.35.b"
+        current_ruler = {
+            add_popularity = -5
+        }
+    }
+    option = {
+        highlight = yes
+        custom_tooltip = me_zorgoomni.35_tooltip1
+        scope:random_priest = { add_loyalty = loyalty_priest_festival }
+        name = "me_zorgoomni.35.c"
+        trigger_event = {
+                        id = me_zorgoomni.35
+                        days = { 9125 9126 }
+                    }
+        add_country_modifier = {
+            name = festival_of_ugone_zorgo_mod
+            duration = 365
+        }
+        add_treasury = {
+                subtract = root.has_monthly_income
+                multiply = 6
+        }
+    }
+}
+
+me_zorgoomni.36 = {
+    type = country_event
+
+    title = me_zorgoomni.36_title
+    desc = me_zorgoomni.36_desc
+    picture = greek_city_market
+    left_portrait = current_ruler
+
+    trigger = {
+        is_subject = no
+        religion = father_protector_pantheon
+        capital_scope = {
+            OR = {
+                is_in_region = rohenoa_central_region
+                is_in_region = rohevia_region
+            }
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "me_zorgoomni.36.a"
+        custom_tooltip = me_zorgoomni.36_tooltip
+        add_treasury = {
+                add = root.has_monthly_income
+                multiply = 6
+        }
+    }
+}
+
+me_zorgoomni.37 = {
+    type = country_event
+
+    title = me_zorgoomni.37_title
+    desc = me_zorgoomni.37_desc
+    picture = greek_siege
+    left_portrait = current_ruler
+
+    trigger = {
+        war = no
+        capital_scope = {
+            OR = {
+                is_in_region = rohenoa_central_region
+                is_in_region = rohevia_region
+            }
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "me_zorgoomni.37.a"
+        custom_tooltip = me_zorgoomni.37_tooltip
+        add_stability = 3
+    }
+}
+
+me_zorgoomni.38 = {
+    type = country_event
+
+    title = me_zorgoomni.38_title
+    desc = me_zorgoomni.38_desc
+    picture = slaves_working
+    left_portrait = current_ruler
+
+    trigger = {
+        war = no
+        capital_scope = {
+            OR = {
+                is_in_region = rohenoa_central_region
+                is_in_region = rohevia_region
+            }
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "me_zorgoomni.38.a"
+        custom_tooltip = me_zorgoomni.38_tooltip
+        add_stability = 3
+        add_country_modifier = {
+            name = country_improvement_baal_harvest
+            duration = 365
+        }
+    }
+}
+
+me_zorgoomni.39 = {
+    type = country_event
+
+    title = me_zorgoomni.39_title
+    desc = me_zorgoomni.39_desc
+    picture = grand_ship
+    left_portrait = current_ruler
+
+    trigger = {
+        manpower >= 2
+        war = no
+        capital_scope = {
+            OR = {
+                is_in_region = rohenoa_central_region
+                is_in_region = rohevia_region
+            }
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "me_zorgoomni.39.a"
+        custom_tooltip = me_zorgoomni.39_tooltip
+        add_manpower = -2
+        current_ruler = {
+            add_popularity = 5
+        }
+    }
+    option = {
+        name = "me_zorgoomni.39.b"
+        custom_tooltip = me_zorgoomni.39_tooltip
+        current_ruler = {
+            add_popularity = -5
+        }
+    }
+}
+me_zorgoomni.40 = {
+    type = country_event
+
+    title = me_zorgoomni.40_title
+    desc = me_zorgoomni.40_desc
+    picture = slaves_working
+    left_portrait = current_ruler
+    right_portrait = scope:random_warlock
+
+    trigger = {
+        war = no
+        capital_scope = {
+            OR = {
+                is_in_region = rohenoa_central_region
+                is_in_region = rohevia_region
+            }
+        }
+    }
+
+    immediate = {
+        hidden_effect = {
+            create_character = {
+            first_name = "Matokahray"
+                age = 28
+                age = 28
+                female = no
+                add_martial = 2
+                religion = the_old_pantheon
+                culture = maesian
+                add_trait = victorious
+                add_trait = warlock_trait
+                save_scope_as = random_warlock
+            }
+        }
+    }
+
+
+    fire_only_once = yes
+
+    option = {
+        name = "me_zorgoomni.40.a"
+        custom_tooltip = me_zorgoomni.40_tooltip 
+        add_treasury = {
+                add = root.has_monthly_income
+                subtract = 24
+        }   
+    }
+    option = {
+        name = "me_zorgoomni.40.b"
+        custom_tooltip = me_zorgoomni.40_tooltip
+        hidden_effect = {
+            scope:random_warlock = {
+                death = {
+                    death_reason = death_obscurity
+                    killer = root.current_ruler
+            }
+        } 
+        }  
+    }
+}
