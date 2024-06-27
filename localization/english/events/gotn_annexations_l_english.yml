@@ -10,6 +10,9 @@
  annexation.3.c:0 "Imprison their leaders; let the rest disappear."
  important_prisoners_taken:0 "Important [SCOPE.sC('annexee').GetAdjective] characters will be imprisoned by #Y [SCOPE.sC('annexer').GetName]#!."
  annexation.3.d:0 "Pass judgment on the important families."
- annexation.3.e:0 "Spread [SCOPE.sC('annexee').GetAdjective] ashes in [ROOT.GetCountry.GetCapital.GetName]"
+ annexation.3.e:0 "Flay their bodies and display them in [ROOT.GetCountry.GetCapital.GetName]"
 
- assyrian_annexation_mod:0 "Ashes of Our Enemies Spread"
+ assyrian_annexation_mod:0 "Skinned Our Enemies"
+
+ warfare.1.e:0 "Torch [SCOPE.sP('temp_city_scope_warfare_1').GetName] and spread their ashes around [ROOT.GetCharacter.GetCountry.GetCapital.GetName]."
+ ashes_spread:0 "Ashes of Our Enemies Spread"
