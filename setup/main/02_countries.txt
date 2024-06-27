@@ -3855,7 +3855,7 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
-			capital = 81
+			capital = 82
 
 			own_control_core = {
 				81 80 82 7838
@@ -4561,7 +4561,28 @@ country = {
 
 
 			own_control_core = 	{
-				3549 3552 141 154
+				3552 141 154
+			}
+		}
+
+		GN1 = {
+			government = punic_republic
+			primary_culture = carthaginian
+			religion = carthaginian_pantheon
+
+			capital = 3549
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+
+
+			own_control_core = 	{
+				3549
 			}
 		}
 

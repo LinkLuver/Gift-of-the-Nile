@@ -679,8 +679,9 @@ HANIGALBAT_FLAG = {
     color2 = "spartan_rust"
 
     colored_emblem = {
-        texture = "ce_reversed_lamassu.dds"
+        texture = "ce_hanigalbat.dds"
         color1 = "iberian_sun"
+        color2 = "navy_blue"
         instance = { scale = { 0.90 0.90 }  position = { 0.50 0.45 } }
     }
 

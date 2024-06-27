@@ -70,7 +70,7 @@
  SIQ_ADJ:0 "Sukkari"
  ASK:0 "Ascalon Nome"
  ASK_ADJ:0 "Ascalian"
- SHE:0 "Shenakhen Nome"
+ SHE:0 "Shedet Nome"
  SHE_ADJ:0 "Shenakhi"
  BUB:0 "Per-Bastet Nome"
  BUB_ADJ:0 "Per-Bastite"
@@ -345,7 +345,7 @@
 
  # ITALIA
  KSC:0 "Per-Shekelesh"
- KSC_ADJ:0 "Shekeleshi"
+ KSC_ADJ:0 "Shekelesh"
  ROM:0 "Latin League"
  ROM_ADJ:0 "Latin"
  FLS:0 "Faliscan League"
@@ -376,6 +376,8 @@
  CTU_ADJ:0 "Nuran"
  SY1:0 "Syracusae"
  SY1_ADJ:0 "Syracusan"
+ GN1:0 "Genuka"
+ GN1_ADJ:0 "Genukan"
 
  # AFRICA
  MSS:0 "Numidian Confederacy"

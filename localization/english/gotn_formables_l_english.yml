@@ -16,10 +16,10 @@
  # Palestine
  form_palestine:0 "Proclaim Kingdom of Philistine"
  form_palestine_desc:0 "We are called many things. The #Y Egyptians#! call us as the new #Y Hyksos#!. The #Y Greeks#! call us as the new #Y Philistines#!. Whatever we may be called, we have chosen to establish ourselves a new kingdom, the #E Kingom of Philistine#!. We have chosen the #Y Greek#! name for ourselves to distance ourselves from the #E Pharaohs#! in #E Egypt#! as we forge our own new destiny in the #E Levant#!.\n\n#R We will lose our #E Nomarchy#! government form.#!"
- PHOENECIAN_NAME_2:0 "Philistine"
+ PHOENECIAN_NAME_2:0 "Form Philistine"
  PHOENICIA_ADJECTIVE_2:0 "Philistinians"
  # Israel
- ISRAEL_FORMABLE_NAME_2:0 "Kena'an"
+ ISRAEL_FORMABLE_NAME_2:0 "Form Kena'an"
  ISRAEL_FORMABLE_ADJECTIVE_2:0 "Hebrew"
  
  ## Mesopotamian Formables ##
@@ -27,6 +27,13 @@
  form_babylon:0 "Chaldean Empire"
  form_babylon_desc:0 "#E Babylon#! was once the home to the greatest of powers. For a long time, we suffered under the foot of the #Y Neo-Assyrians#!, until we gloriously broke free. Now we have come to dominate the lands we once struggled with under the Neo-Assyrians. The dawn of #Y Neo-Babylon#! has come, otherwise called the #Y Chaldean Empire#!."
  BABYLON_NAME_true:0 "Chaldean Empire"
+
+ ## Italy Formables
+ # Shikala
+ SHIKALA_NAME:0 "Shikala"
+ SHIKALA_ADJECTIVE:0 "Shekelesh"
+ form_shikala:0 "Form Shikala"
+ form_shikala_desc:0 "With power consolodated across the island of #Y Shikala#!, the ancient home of the #Y Shekelesh#! has been claimed by the kin of the #Y Nile#!. We shall usher in a new era for this island, a rare piece of #Y Kemet#! away from #Y Kemet#!."
 
  ### Reaffirmation Decisions ###
  # Reaffirm Media
