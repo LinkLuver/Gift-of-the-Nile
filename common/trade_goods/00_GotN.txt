@@ -39,7 +39,7 @@ ebony = {
 		global_manpower_modifier = 0.025
 	}
 	
-	color = rgb { 1 2 3 }
+	color = rgb { 21 12 13 }
 }
 
 pearls = {
@@ -65,5 +65,5 @@ obsidian = {
 		stability_monthly_decay = -0.0001
 	}
 	
-	color = rgb { 26 27 29 }
+	color = rgb { 16 17 19 }
 }

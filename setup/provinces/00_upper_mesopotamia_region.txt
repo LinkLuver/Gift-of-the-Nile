@@ -687,7 +687,7 @@
 	terrain="mountain"
 	culture="arzonian"
 	religion="armenian_religion"
-	trade_goods="vegetables"
+	trade_goods="obsidian"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
@@ -1506,7 +1506,7 @@
 	terrain="hills"
 	culture="sophene"
 	religion="anatolian_religion"
-	trade_goods="stone"
+	trade_goods="obsidian"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"

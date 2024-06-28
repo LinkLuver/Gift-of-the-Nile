@@ -112,7 +112,7 @@
 	terrain="plains"
 	culture="lycaonian"
 	religion="anatolian_religion"
-	trade_goods="wild_game"
+	trade_goods="obsidian"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -1600,7 +1600,7 @@
 	terrain="plains"
 	culture="oroandian"
 	religion="anatolian_religion"
-	trade_goods="cloth"
+	trade_goods="obsidian"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"

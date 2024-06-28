@@ -1361,7 +1361,7 @@
 	terrain="hills"
 	culture="armenian"
 	religion="anahitic_religion"
-	trade_goods="stone"
+	trade_goods="obsidian"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
@@ -1709,7 +1709,7 @@
 	terrain="hills"
 	culture="armenian"
 	religion="anahitic_religion"
-	trade_goods="base_metals"
+	trade_goods="obsidian"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
@@ -1846,7 +1846,7 @@
 	terrain="forest"
 	culture="armenian"
 	religion="anahitic_religion"
-	trade_goods="wood"
+	trade_goods="obsidian"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
@@ -1862,7 +1862,7 @@
 	terrain="hills"
 	culture="lesser_armenian"
 	religion="anahitic_religion"
-	trade_goods="stone"
+	trade_goods="obsidian"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"

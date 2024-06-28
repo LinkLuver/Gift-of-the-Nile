@@ -122,6 +122,7 @@ is_endgame_tag_trigger = {
 		tag = ITL #Italy
 		tag = APF #Alpine Confederation
 		tag = UBF #Umbrian Federation
+		tag = HB2 #Spania
 	}
 }
 
@@ -149,6 +150,7 @@ has_minable_trade_good_trigger = {
 			trade_goods = lapis
 			trade_goods = jade
 			trade_goods = gems
+			trade_goods = obsidian
 		}
 	}
 }
@@ -164,6 +166,7 @@ has_unminable_trade_good_trigger = {
 		trade_goods = lapis
 		trade_goods = jade
 		trade_goods = gems
+		trade_goods = obsidian
 	}
 }
 #Nothing changed about the urban goods as of yet

@@ -698,7 +698,7 @@
 	terrain="farmland"
 	culture="purus"
 	religion="charvaka"
-	trade_goods="grain"
+	trade_goods="rice"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
@@ -1272,7 +1272,7 @@
 	terrain="plains"
 	culture="sivi"
 	religion="ajnana"
-	trade_goods="sugar"
+	trade_goods="rice"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"

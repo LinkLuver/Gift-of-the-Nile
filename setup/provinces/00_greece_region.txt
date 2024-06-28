@@ -255,7 +255,7 @@
 	terrain="hills"
 	culture="cretan"
 	religion="roman_pantheon"
-	trade_goods="olive"
+	trade_goods="pearls"
 	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
@@ -1304,7 +1304,7 @@
 	terrain="hills"
 	culture="argolian"
 	religion="roman_pantheon"
-	trade_goods="wine"
+	trade_goods="pearls"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1323,7 +1323,7 @@
 	terrain="hills"
 	culture="aegean"
 	religion="roman_pantheon"
-	trade_goods="wine"
+	trade_goods="pearls"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1666,7 +1666,7 @@
 	terrain="hills"
 	culture="peloponnesian"
 	religion="roman_pantheon"
-	trade_goods="wine"
+	trade_goods="pearls"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1866,7 +1866,7 @@
 	terrain="hills"
 	culture="aegean"
 	religion="roman_pantheon"
-	trade_goods="precious_metals"
+	trade_goods="obsidian"
 	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
