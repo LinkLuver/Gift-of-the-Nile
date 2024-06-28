@@ -1110,7 +1110,7 @@
 	terrain="mountain"
 	culture="athagaun"
 	religion="arabian_pantheon"
-	trade_goods="wood"
+	trade_goods="ebony"
 	civilization_value=13
 	barbarian_power=0
 	province_rank="settlement"
@@ -1136,7 +1136,7 @@
 	terrain="desert"
 	culture="avalitian"
 	religion="arabian_pantheon"
-	trade_goods="salt"
+	trade_goods="pearls"
 	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
@@ -1781,7 +1781,7 @@
 	terrain="desert"
 	culture="puntic"
 	religion="puntic_religion"
-	trade_goods="salt"
+	trade_goods="pearls"
 	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
@@ -2347,7 +2347,7 @@
 	terrain="plains"
 	culture="avalitian"
 	religion="arabian_pantheon"
-	trade_goods="cattle"
+	trade_goods="ebony"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"

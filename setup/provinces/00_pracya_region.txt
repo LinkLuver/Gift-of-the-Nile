@@ -531,7 +531,7 @@
 	terrain="farmland"
 	culture="santal"
 	religion="sarna_pantheon"
-	trade_goods="grain"
+	trade_goods="rice"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
@@ -803,7 +803,7 @@
 	terrain="flood_plain"
 	culture="pandra"
 	religion="ajivika"
-	trade_goods="grain"
+	trade_goods="rice"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -966,7 +966,7 @@
 	terrain="plains"
 	culture="licchavi"
 	religion="hindu"
-	trade_goods="grain"
+	trade_goods="rice"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -1226,7 +1226,7 @@
 	terrain="flood_plain"
 	culture="bangli"
 	religion="kassapan"
-	trade_goods="earthware"
+	trade_goods="pearls"
 	civilization_value=11
 	barbarian_power=0
 	province_rank="city"
