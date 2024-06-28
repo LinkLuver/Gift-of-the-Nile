@@ -2,7 +2,7 @@
 	terrain="plains"
 	culture="minaean"
 	religion="arabian_pantheon"
-	trade_goods="gems"
+	trade_goods="obsidian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -40,7 +40,7 @@
 	terrain="plains"
 	culture="minaean"
 	religion="arabian_pantheon"
-	trade_goods="fur"
+	trade_goods="obsidian"
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
@@ -124,7 +124,7 @@
 	terrain="plains"
 	culture="himjar"
 	religion="arabian_pantheon"
-	trade_goods="fish"
+	trade_goods="obsidian"
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
@@ -1115,7 +1115,7 @@
 	terrain="hills"
 	culture="sheban"
 	religion="arabian_pantheon"
-	trade_goods="leather"
+	trade_goods="obsidian"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"

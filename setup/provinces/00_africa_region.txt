@@ -2,18 +2,25 @@
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
-	trade_goods="stone"
+	trade_goods="obsidian"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
+	nobles={
+		culture="syracusan"
+		religion="roman_pantheon"
+		amount=2
+	}
 	citizen={
-		amount=1
+		culture="syracusan"
+		religion="roman_pantheon"
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 	port_building=1
 }

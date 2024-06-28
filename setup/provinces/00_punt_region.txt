@@ -71,7 +71,7 @@
 	terrain="plains"
 	culture="ona"
 	religion="arabian_pantheon"
-	trade_goods="stone"
+	trade_goods="obsidian"
 	civilization_value=22
 	barbarian_power=0
 	province_rank="city"
@@ -523,7 +523,7 @@
 	terrain="hills"
 	culture="avalitian"
 	religion="arabian_pantheon"
-	trade_goods="stone"
+	trade_goods="obsidian"
 	civilization_value=23
 	barbarian_power=0
 	province_rank="city"
@@ -2321,7 +2321,7 @@
 	terrain="plains"
 	culture="avalitian"
 	religion="arabian_pantheon"
-	trade_goods="cattle"
+	trade_goods="obsidian"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
