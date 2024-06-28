@@ -47,3 +47,8 @@
  gaul_princely_state_ruler:0 "Rixo"
  gaul_princely_state_ruler_female:0 "Riga"
  gaul_princely_state_consort:0 "Consort"
+
+
+ #Subject Types
+ AM_hittite_viceroyalty:0 "#T $LIST$#!\nHittite Principality of $LIST$."
+ LEAD_hittite_viceroyalty:0 "#T $LIST$#!\nHittite Principality"

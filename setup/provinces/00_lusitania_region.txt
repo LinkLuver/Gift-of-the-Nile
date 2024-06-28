@@ -1015,13 +1015,20 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		culture="ibero_punic"
+		religion="carthaginian_pantheon"
+		amount=2
 	}
 	freemen={
-		amount=2
+		culture="ibero_punic"
+		religion="carthaginian_pantheon"
+		amount=4
 	}
 	tribesmen={
 		amount=6
+	}
+	slaves={
+		amount=2
 	}
 	port_building=1
 }

@@ -154,6 +154,85 @@
 				Chalia.Chalia.Chalid.Chalid
 			}
 		}
+		ibero_punic = {
+			levy_template = levy_punic
+
+			male_names = {
+				Abdmelqart Abd_osir Adoniba_l Ahiram Azimilk Ba_lhanno Ba_lhilletz Bod_ashtart
+				Bodo Bodmelqart Bomilqar Bostar Erkruh Qart_alotz Kilbo
+				Ishba_l Germelqart Hanmelqart Hanniba_l Hanno Azruba_l Himilko Himilkot Hiram Magon
+				Mittun Milkherem Milkiram
+				Pilles Gersakun Giskon Malok Abiba_l Eshmunhilletz Eshmunyaton
+				Am_ashtart Melqartshamo_ Urumilk Yado_milk Ba_lyaton Birrekba_l Gerba_l Hilletzba_l
+				Zimr_adon Zimri
+				Kanmi Maharba_l Milkpilles Melqartpilles Milkyaton Eshmun_adon Mittun_elim Aderba_l
+				Eshmun_azor Eshmun_amos Bod_eshmun Banno Binhodesh
+				Ba_lmalok Ba_l_azor Ba_l_amos Ba_lshillek Ba_lshamor Birrek Girgesh Ger_eshmun Gero
+				Ger_adon Ger_ashtart Germeskar Ziboq Himilk Hannoba_l Yeho_alon Yaton Yatonba_l
+				Yatonmilk
+				Yatontzid Kabod Kishor Kinnash Labi_ Milkhilletz Melqarthilletz Melqart_amos Na_im_el
+				Abdo Abd_elim Abd_eshmun Abdba_l Abdmilk Abdmilkot Abd_ashtart Abdtzid
+				Azba_l Azorba_l Akbor Pumayyaton Shalom Shamorba_l Masop Abd_arish Alsho Arish Pado
+				Tzaloh Qenaz Yeshshid Shapot Shatzop Shardin Yubay
+			}
+			female_names = {
+				Abd_osir Am_eshmun Ammilk Ammilkot Am_ashtart Amotba_l Amotmilk Amotmelqart
+				Amot_ashtart Arishtiba_l Ba_li_ezbul Bit_eshmun Bitba_l Bitna_imot
+				Bitshalom Dido Erkruh Ishshot Giddino_m Tzaponiba_l Tamar Huldot Huld_el Hotmilk
+				Hotmilkot Izebel Elishat Kabodot Kibbed_ashtart Mittun_el
+				Mittun_elim Mittunba_l Mittunnu_mot No_mgiddi No_mmilkot Ammi_eshmun Ammi_ashtart
+				Ammatiba_l Ammatimilk Ammatimelqart Ammati_ashtart Inabiba_l
+				Tzaponi Shatna_imot Bannot Birrekot Girgeshit Zibqot Kinnashit Labi_ot Akbarot
+				Azzattannit Alshot Arishot Padot Shatzapot Shardinot
+			}
+			family = {
+				Abd_osiri.Abd_osirit.Abd_osirid.Abd_osirid
+				Ahirami.Ahiramit.Ahiramid.Ahiramid
+				Ybbarq.Ybbarq.Barqid.Barqid
+				Bodoni.Bodonit.Bodonid.Bodonid
+				Bostari.Bostarit.Bostarid.Bostarid
+				Hirami.Hiramit.Hiramid.Hiramid
+				Kilbayyi.Kilbayyit.Kilbayyid.Kilbayyid
+				Ishba_li.Ishba_lit.Ishba_lid.Ishba_lid
+				Hannoni.Hannonit.Hannonid.Hannonid
+				Magoni.Magonit.Magonid.Magonid
+				Malki.Malkit.Malkid.Malkid
+				Mittuni.Mittunit.Mittunid.Mittunid
+				Milkirami.Milkiramit.Milkiramid.Milkiramid
+				Giskoni.Giskonit.Giskonid.Giskonid
+				Gerba_li.Gerba_lit.Gerba_lid.Gerba_lid
+				Zimri.Zimrit.Zimrid.Zimrid
+				Bannoni.Bannonit.Bannonid.Bannonid
+				Birreki.Birrekit.Birrekid.Birrekid
+				Geroni.Geronit.Geronid.Geronid
+				Yatoni.Yatonit.Yatonid.Yatonid
+				Kabodi.Kabodit.Kabodid.Kabodid
+				ha-Labi'.ha-Labi'ot.Labi_id.Labi_id
+				Abdoni.Abdonit.Abdonid.Abdonid
+				Shalomi.Shalomit.Shalomid.Shalomid
+				Arwadi.Arwadit.Arwadi.Arwadi
+				Gubali.Gubalit.Gubali.Gubali
+				Tsidoni.Tsidonit.Tsidoni.Tsidoni
+				Tsuri.Tsurit.Tsuri.Tsuri
+				Atari.Atarit.Atari.Atari
+				Be_ruti.Be_rutit.Be_ruti.Be_ruti
+				Alashayyi.Alashayyit.Alashayyi.Alashayyi
+				Ashqaloni.Ashqalonit.Ashqaloni.Ashqaloni
+				Korsi.Korsit.Korsi.Korsi
+				Shardin.Shardit.Shardin.Shardin
+				Shiqel.Shiqelt.Shiqel.Shiqel
+				Qarthadashti.Qarthadashtit.Qarthadashti.Qarthadashti
+				Adrumeti.Adrumetit.Adrumeti.Adrumeti
+				Ipponi.Ipponit.Ipponi.Ipponi
+				Atiqi.Atiqit.Atiqi.Atiqi
+				Gaderi.Gaderit.Gaderi.Gaderi
+				Lepqayyi.Lepqayyit.Lepqayyi.Lepqayyi
+				Mashshuli.Mashshulit.Mashshuli.Mashshuli
+				Libiyyi.Libiyyit.Libiyyi.Libiyyi
+				Balbo.Balba.Balbid.Balbid
+				Chalia.Chalia.Chalid.Chalid
+			}
+		}
 		phoenician = {}
 		hyksos = {}
 		alashiyan = {}

@@ -5719,7 +5719,7 @@ country = {
 
 		ABA = {
 			government = punic_republic
-			primary_culture = carthaginian
+			primary_culture = ibero_punic
 			religion = carthaginian_pantheon
 			diplomatic_stance=trading_stance
 			capital = 1348
@@ -5738,7 +5738,7 @@ country = {
 
 		CPA = {
 			government = punic_republic
-			primary_culture = carthaginian
+			primary_culture = ibero_punic
 			religion = carthaginian_pantheon
 			capital = 1362
 
@@ -5870,7 +5870,7 @@ country = {
 		#Iberia
 		OLS = {
 			government = punic_republic
-			primary_culture = carthaginian
+			primary_culture = ibero_punic
 			diplomatic_stance=trading_stance
 			religion = carthaginian_pantheon
 
@@ -6831,7 +6831,7 @@ country = {
 			family = 150
 			family = 151
 			government = punic_republic
-			primary_culture = carthaginian
+			primary_culture = ibero_punic
 			religion = carthaginian_pantheon
 			diplomatic_stance=trading_stance
 

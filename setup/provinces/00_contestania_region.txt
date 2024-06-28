@@ -132,7 +132,7 @@
 		amount=2
 	}
 	freemen={
-		culture="carthaginian"
+		culture="ibero_punic"
 		religion="carthaginian_pantheon"
 		amount=2
 	}
@@ -280,7 +280,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="carthaginian"
+		culture="ibero_punic"
 		religion="carthaginian_pantheon"
 		amount=2
 	}
@@ -1353,6 +1353,7 @@
 		amount=2
 	}
 	freemen={
+		culture="ibero_punic"
 		amount=4
 	}
 	slaves={
