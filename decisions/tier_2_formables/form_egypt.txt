@@ -7,8 +7,12 @@
 			OR = {
 				country_culture_group = north_african #Egyptian
 				country_culture_group = meroitic_group
+				tag = RET
+				tag = ASK
+				tag = SMA
+				primary_culture = libyan
 			}
-			is_monarchy = yes
+			#is_monarchy = yes
 			#NOT = {
 			#	tag = EGY
 			#}
@@ -120,7 +124,18 @@
 				change_government = egyptian_dynasty
 				switch_government_type_event_clearup_effect = yes
 			}
-			change_country_name = "KEMET_NAME"
+			if = {
+				limit = {
+					is_republic = yes
+				}
+				change_country_name = "KEMET_NAME_REPUBLIC"
+			}
+			else = {
+				limit = {
+					NOT = { is_reublic = no }
+				}
+				change_country_name = "KEMET_NAME"
+			}
 			hidden_effect = {
 				change_country_flag = EGYPTIAN_FLAG
 				change_country_adjective = "KEMET_ADJECTIVE"
@@ -148,6 +163,5 @@
 			base = 1
 		}
 	}
-
 }
 
