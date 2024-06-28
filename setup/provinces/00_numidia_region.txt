@@ -83,7 +83,7 @@
 	terrain="desert"
 	culture="massaesylian"
 	religion="berber_religion"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
@@ -1656,7 +1656,7 @@
 	terrain="plains"
 	culture="massylian"
 	religion="berber_religion"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=21
 	barbarian_power=0
 	province_rank="settlement"

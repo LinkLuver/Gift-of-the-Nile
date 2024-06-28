@@ -302,7 +302,7 @@
 	terrain="hills"
 	culture="istvaeonic"
 	religion="germanic_religion"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1450,7 +1450,7 @@
 	terrain="forest"
 	culture="irminonic"
 	religion="germanic_religion"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
@@ -1572,7 +1572,7 @@
 	terrain="plains"
 	culture="irminonic"
 	religion="germanic_religion"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"

@@ -717,7 +717,7 @@
 	terrain="forest"
 	culture="ratacensi"
 	religion="shamanism"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
@@ -771,7 +771,7 @@
 	terrain="forest"
 	culture="ratacensi"
 	religion="shamanism"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
@@ -1834,7 +1834,7 @@
 	terrain="forest"
 	culture="costoboci"
 	religion="shamanism"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

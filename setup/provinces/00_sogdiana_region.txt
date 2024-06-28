@@ -472,7 +472,7 @@
 	terrain="hills"
 	culture="sogdian"
 	religion="vaksh_religion"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
@@ -882,7 +882,7 @@
 	terrain="hills"
 	culture="sogdian"
 	religion="vaksh_religion"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
@@ -1760,7 +1760,7 @@
 	terrain="steppes"
 	culture="sakan"
 	religion="indo_iranian_religion"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"

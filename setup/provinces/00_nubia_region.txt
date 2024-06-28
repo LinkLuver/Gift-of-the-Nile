@@ -683,7 +683,7 @@
 	terrain="desert"
 	culture="alutan"
 	religion="nilotic_pantheon"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
@@ -1061,7 +1061,7 @@
 	terrain="plains"
 	culture="meroitic"
 	religion="kushite_pantheon"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
@@ -1613,7 +1613,7 @@
 	terrain="plains"
 	culture="rhizophagian"
 	religion="nilotic_pantheon"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"

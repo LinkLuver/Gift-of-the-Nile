@@ -244,7 +244,7 @@
 	terrain="mountain"
 	culture="lepontic"
 	religion="italic_pantheon"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
@@ -1542,7 +1542,7 @@
 	terrain="plains"
 	culture="vindelician"
 	religion="druidism"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=11
 	barbarian_power=0
 	province_rank="settlement"

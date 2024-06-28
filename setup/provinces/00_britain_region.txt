@@ -681,7 +681,7 @@
 	terrain="plains"
 	culture="trinovantian"
 	religion="druidism"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=11
 	barbarian_power=0
 	province_rank="settlement"
@@ -1236,7 +1236,7 @@
 	terrain="farmland"
 	culture="brigantic"
 	religion="druidism"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=12
 	barbarian_power=0
 	province_rank="settlement"

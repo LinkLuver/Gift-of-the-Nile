@@ -216,7 +216,7 @@
 	terrain="jungle"
 	culture="andhran"
 	religion="agama"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
@@ -1683,7 +1683,7 @@
 	terrain="jungle"
 	culture="mulaka"
 	religion="agama"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"

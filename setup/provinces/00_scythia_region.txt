@@ -328,7 +328,7 @@
 	terrain="forest"
 	culture="getian"
 	religion="shamanism"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
@@ -658,7 +658,7 @@
 	terrain="forest"
 	culture="getian"
 	religion="shamanism"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -690,7 +690,7 @@
 	terrain="forest"
 	culture="agathyrsian"
 	religion="indo_iranian_religion"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

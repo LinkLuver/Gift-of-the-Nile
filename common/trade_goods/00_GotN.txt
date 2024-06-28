@@ -62,8 +62,21 @@ obsidian = {
 		local_nobles_output = 0.03
 	}
 	country = {
-		stability_monthly_decay = -0.0001
+		global_nobles_city_desired_pop_ratio = 0.035
 	}
 	
 	color = rgb { 16 17 19 }
+}
+
+feathers = {
+	category = 5
+	gold = 0.25
+	province = {
+		local_tribesmen_output = 0.05
+	}
+	country = {
+		global_pop_promotion_speed_modifier = 0.15
+	}
+	
+	color = rgb { 182 160 255 }
 }

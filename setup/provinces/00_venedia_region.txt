@@ -528,7 +528,7 @@
 	terrain="forest"
 	culture="vandal"
 	religion="germanic_religion"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -845,7 +845,7 @@
 	terrain="forest"
 	culture="aestian"
 	religion="matrist_religion"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1384,7 +1384,7 @@
 	terrain="forest"
 	culture="androphagian"
 	religion="matrist_religion"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

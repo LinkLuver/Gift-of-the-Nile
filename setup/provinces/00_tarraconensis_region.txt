@@ -486,7 +486,7 @@
 	terrain="mountain"
 	culture="ausetanian"
 	religion="animism"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
@@ -717,7 +717,7 @@
 	terrain="plains"
 	culture="vasconian"
 	religion="pre_indo_european_religion"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=11
 	barbarian_power=0
 	province_rank="settlement"

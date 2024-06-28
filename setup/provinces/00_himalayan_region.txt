@@ -67,7 +67,7 @@
 	terrain="mountain"
 	culture="zhangzhung"
 	religion="bon_religion"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
@@ -621,7 +621,7 @@
 	terrain="mountain"
 	culture="sogdian"
 	religion="vaksh_religion"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"

@@ -840,7 +840,7 @@
 	terrain="forest"
 	culture="eravisci"
 	religion="druidism"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
@@ -1368,7 +1368,7 @@
 	terrain="farmland"
 	culture="eravisci"
 	religion="druidism"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
