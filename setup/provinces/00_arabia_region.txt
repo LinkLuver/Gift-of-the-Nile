@@ -565,7 +565,7 @@
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
-	trade_goods="salt"
+	trade_goods="pearls"
 	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
@@ -1534,7 +1534,7 @@
 	terrain="plains"
 	culture="dilmunite"
 	religion="mesopotamian_religion"
-	trade_goods="gems"
+	trade_goods="pearls"
 	civilization_value=32
 	barbarian_power=0
 	province_rank="city"
@@ -1644,7 +1644,7 @@
 	terrain="desert"
 	culture="makan"
 	religion="mesopotamian_religion"
-	trade_goods="camel"
+	trade_goods="pearls"
 	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
