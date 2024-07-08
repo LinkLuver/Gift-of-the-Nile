@@ -110,7 +110,7 @@ mitanni_nobility_return.1 = {
 			change_country_color = blood_red
 			set_country_heritage = assyrian_heritage
 			change_country_adjective = HAG_ADJ
-			change_country_name = HAG
+			change_country_name = HAG_ASSUR
 		}
 		set_variable = assur_hanigalbat
 		

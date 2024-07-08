@@ -1,9 +1,9 @@
 ﻿l_english:
 
- hurrian_mitanni_missions:0 "$mitanni_missions$"
- hurrian_mitanni_missions_DESCRIPTION:0 "$mitanni_missions_DESCRIPTION$"
- hurrian_mitanni_missions_CRITERIA_DESCRIPTION:0 "$mitanni_missions_CRITERIA_DESCRIPTION$"
- hurrian_mitanni_missions_BUTTON_TOOLTIP:0 "$mitanni_missions_CRITERIA_DESCRIPTION$"
+ hurrian_mitanni_missions:0 "From Brazen Ashes"
+ hurrian_mitanni_missions_DESCRIPTION:0 "A reinstatement of the Neo-Mitanni Kingdom requires much effort. It is not simply  enough to migrate to these lands and reproclaim the ancestral Mitanni lands. We must remember our traditions and adapt  to the times."
+ hurrian_mitanni_missions_CRITERIA_DESCRIPTION:0 "This mission will be completed when the Neo-Mitanni Empire is fully  re-established and modernized to take on the Hellenistic Age."
+ hurrian_mitanni_missions_BUTTON_TOOLTIP:0 "A new #E Mitanni Kingdom#! must rise from centuries of foreign domination."
 
  #Missions
 
@@ -66,6 +66,30 @@
  
  hurrian_mitanni_missions_task_20:0 ""
  hurrian_mitanni_missions_task_20_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_21:0 ""
+ hurrian_mitanni_missions_task_21_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_22:0 ""
+ hurrian_mitanni_missions_task_22_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_23:0 ""
+ hurrian_mitanni_missions_task_23_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_24:0 ""
+ hurrian_mitanni_missions_task_24_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_25:0 ""
+ hurrian_mitanni_missions_task_25_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_26:0 ""
+ hurrian_mitanni_missions_task_26_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_27:0 ""
+ hurrian_mitanni_missions_task_27_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_28:0 ""
+ hurrian_mitanni_missions_task_28_DESC:0 ""
 
 
  #Tooltips
@@ -177,4 +201,44 @@
  me_hurrian_mitanni_20_desc:0 ""
  me_hurrian_mitanni_20.a:0 ""
  me_hurrian_mitanni_20_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_20$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_21_title:0 "$hurrian_mitanni_missions_task_21$"
+ me_hurrian_mitanni_21_desc:0 ""
+ me_hurrian_mitanni_21.a:0 ""
+ me_hurrian_mitanni_21_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_21$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_22_title:0 "$hurrian_mitanni_missions_task_22$"
+ me_hurrian_mitanni_22_desc:0 ""
+ me_hurrian_mitanni_22.a:0 ""
+ me_hurrian_mitanni_22_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_22$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_23_title:0 "$hurrian_mitanni_missions_task_23$"
+ me_hurrian_mitanni_23_desc:0 ""
+ me_hurrian_mitanni_23.a:0 ""
+ me_hurrian_mitanni_23_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_23$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_24_title:0 "$hurrian_mitanni_missions_task_24$"
+ me_hurrian_mitanni_24_desc:0 ""
+ me_hurrian_mitanni_24.a:0 ""
+ me_hurrian_mitanni_24_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_24$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_25_title:0 "$hurrian_mitanni_missions_task_25$"
+ me_hurrian_mitanni_25_desc:0 ""
+ me_hurrian_mitanni_25.a:0 ""
+ me_hurrian_mitanni_25_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_25$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_26_title:0 "$hurrian_mitanni_missions_task_26$"
+ me_hurrian_mitanni_26_desc:0 ""
+ me_hurrian_mitanni_26.a:0 ""
+ me_hurrian_mitanni_26_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_26$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_27_title:0 "$hurrian_mitanni_missions_task_27$"
+ me_hurrian_mitanni_27_desc:0 ""
+ me_hurrian_mitanni_27.a:0 ""
+ me_hurrian_mitanni_27_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_27$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_28_title:0 "$hurrian_mitanni_missions_task_28$"
+ me_hurrian_mitanni_28_desc:0 ""
+ me_hurrian_mitanni_28.a:0 ""
+ me_hurrian_mitanni_28_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_28$#!' has now been #G Completed#!!"
 

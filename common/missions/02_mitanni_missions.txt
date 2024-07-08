@@ -9,7 +9,7 @@
 
     potential = {
         NOT = { has_variable = mitanni_missions_cooldown_var }
-        primary_culture = mitanni
+		has_variable = neo_mitanni_established
     }
 
     abort = {

@@ -8,7 +8,7 @@
     }
 
     potential = {
-        NOT = { has_variable = hurrian_missions_cooldown_var }
+        NOT = { has_variable = hurrian_mitanni_missions_cooldown_var }
         primary_culture = mitanni
     }
 
@@ -22,7 +22,7 @@
     on_abort = {
         custom_tooltip = general_mission_cooldown_tt
         set_variable = {
-            name = hurrian_missions_cooldown_var
+            name = mitanni_missions_cooldown_var
             days = 7300
         }
     }
@@ -40,6 +40,7 @@
     }
     hurrian_mitanni_missions_task_2 = {
         icon = "task_political"
+        requires = { hurrian_mitanni_missions_task_1 }
         allow = {}
         on_completion = {
             trigger_event = me_hurrian_mitanni.2
@@ -50,6 +51,7 @@
     }
     hurrian_mitanni_missions_task_3 = {
         icon = "task_political"
+        requires = { hurrian_mitanni_missions_task_2 }
         allow = {}
         on_completion = {
             trigger_event = me_hurrian_mitanni.3
@@ -60,6 +62,7 @@
     }
     hurrian_mitanni_missions_task_4 = {
         icon = "task_political"
+        requires = { hurrian_mitanni_missions_task_2 }
         allow = {}
         on_completion = {
             trigger_event = me_hurrian_mitanni.4
@@ -70,6 +73,8 @@
     }
     hurrian_mitanni_missions_task_5 = {
         icon = "task_political"
+        requires = { hurrian_mitanni_missions_task_3 }
+        requires = { hurrian_mitanni_missions_task_4 }
         allow = {}
         on_completion = {
             trigger_event = me_hurrian_mitanni.5
@@ -79,6 +84,7 @@
         }
     }
     hurrian_mitanni_missions_task_6 = {
+        requires = { hurrian_mitanni_missions_task_4 }
         icon = "task_political"
         allow = {}
         on_completion = {
@@ -100,6 +106,7 @@
     }
     hurrian_mitanni_missions_task_8 = {
         icon = "task_political"
+        requires = { hurrian_mitanni_missions_task_18 }
         allow = {}
         on_completion = {
             trigger_event = me_hurrian_mitanni.8
@@ -109,6 +116,7 @@
         }
     }
     hurrian_mitanni_missions_task_9 = {
+        requires = { hurrian_mitanni_missions_task_18 }
         icon = "task_political"
         allow = {}
         on_completion = {
@@ -120,6 +128,7 @@
     }
     hurrian_mitanni_missions_task_10 = {
         icon = "task_political"
+        requires = { hurrian_mitanni_missions_task_8 }
         allow = {}
         on_completion = {
             trigger_event = me_hurrian_mitanni.10
@@ -130,6 +139,7 @@
     }
     hurrian_mitanni_missions_task_11 = {
         icon = "task_political"
+        requires = { hurrian_mitanni_missions_task_9 }
         allow = {}
         on_completion = {
             trigger_event = me_hurrian_mitanni.11
@@ -139,6 +149,10 @@
         }
     }
     hurrian_mitanni_missions_task_12 = {
+        requires = { hurrian_mitanni_missions_task_8 }
+        requires = { hurrian_mitanni_missions_task_9 }
+        requires = { hurrian_mitanni_missions_task_10 }
+        requires = { hurrian_mitanni_missions_task_11 }
         icon = "task_political"
         allow = {}
         on_completion = {
@@ -149,6 +163,9 @@
         }
     }
     hurrian_mitanni_missions_task_13 = {
+        requires = { hurrian_mitanni_missions_task_10 }
+        requires = { hurrian_mitanni_missions_task_11 }
+        requires = { hurrian_mitanni_missions_task_12 }
         icon = "task_political"
         allow = {}
         on_completion = {
@@ -159,6 +176,10 @@
         }
     }
     hurrian_mitanni_missions_task_14 = {
+        requires = { hurrian_mitanni_missions_task_13 }
+        requires = { hurrian_mitanni_missions_task_5 }
+        requires = { hurrian_mitanni_missions_task_25 }
+        requires = { hurrian_mitanni_missions_task_26 }
         icon = "task_political"
         allow = {}
         on_completion = {
@@ -209,6 +230,8 @@
         }
     }
     hurrian_mitanni_missions_task_19 = {
+        requires = { hurrian_mitanni_missions_task_15 }
+        requires = { hurrian_mitanni_missions_task_16 }
         icon = "task_political"
         allow = {}
         on_completion = {
@@ -219,10 +242,106 @@
         }
     }
     hurrian_mitanni_missions_task_20 = {
+        requires = { hurrian_mitanni_missions_task_16 }
+        requires = { hurrian_mitanni_missions_task_17 }
         icon = "task_political"
         allow = {}
         on_completion = {
             trigger_event = me_hurrian_mitanni.20
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurrian_mitanni_missions_task_21 = {
+        requires = { hurrian_mitanni_missions_task_15 }
+        requires = { hurrian_mitanni_missions_task_7 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurrian_mitanni.21
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurrian_mitanni_missions_task_22 = {
+        requires = { hurrian_mitanni_missions_task_19 }
+        requires = { hurrian_mitanni_missions_task_21 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurrian_mitanni.22
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurrian_mitanni_missions_task_23 = {
+        requires = { hurrian_mitanni_missions_task_19 }
+        requires = { hurrian_mitanni_missions_task_20 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurrian_mitanni.23
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurrian_mitanni_missions_task_24 = {
+        requires = { hurrian_mitanni_missions_task_22 }
+        requires = { hurrian_mitanni_missions_task_23 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurrian_mitanni.24
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurrian_mitanni_missions_task_25 = {
+        icon = "task_political"
+        requires = { hurrian_mitanni_missions_task_24 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurrian_mitanni.25
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurrian_mitanni_missions_task_26 = {
+        icon = "task_political"
+        requires = { hurrian_mitanni_missions_task_23 }
+        requires = { hurrian_mitanni_missions_task_24 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurrian_mitanni.26
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurrian_mitanni_missions_task_27 = {
+        icon = "task_political"
+        requires = { hurrian_mitanni_missions_task_5 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurrian_mitanni.27
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurrian_mitanni_missions_task_28 = {
+        icon = "task_political"
+        requires = { hurrian_mitanni_missions_task_27 }
+        requires = { hurrian_mitanni_missions_task_14 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurrian_mitanni.28
             show_as_tooltip = {
 
             }
