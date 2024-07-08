@@ -38,6 +38,13 @@
 			}
 			custom_tooltip = tradition_unlock_requirement_anatolian
 		}
+		trigger_else_if = {
+			limit = { country_culture_group = lydio_phrygian }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = lydio_phrygian
+		}
 	}
 
 	lydian_path_1 = { ###

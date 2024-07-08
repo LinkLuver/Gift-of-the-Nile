@@ -19,6 +19,7 @@
  illyrian_group:0 "Illyrian"
  indian:0 "Dravidian"
  latin:1 "Italic"
+ lydio_phrygian:0 "Lydio-Phrygian"
  meroitic_group:0 "Nubian"
  north_african:2 "Egyptian"
  persia:0 "Iranian"
@@ -541,6 +542,8 @@
  hurro_urartian_femalename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  indus_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  indus_femalename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ lydio_phrygian_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ lydio_phrygian_femalename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  aksumite_group_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  aksumite_group_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  anatolian_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
@@ -650,3 +653,9 @@
  ARMY_NAME_mesopotamian:0 "$NUM$$ORDER$ Army"
  COHORT_NAME_mesopotamian:0 "$COHORT_NAME_east_levantine$"
  NAVY_NAME_mesopotamian:0 "$NUM$$ORDER$ Navy"
+
+ #Scythian east
+ ARMY_NAME_lydio_phrygian:0 "$NUM$$ORDER$ Army"
+ NAVY_NAME_lydio_phrygian:0 "$NUM$$ORDER$ Navy"
+ COHORT_NAME_lydio_phrygian:1 "$COHORT_NAME_anatolian$"
+ LEGION_NAME_lydio_phrygian:0 "$LEGION_NAME_anatolian$"

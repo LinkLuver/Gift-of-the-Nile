@@ -1,4 +1,4 @@
-﻿anatolian = {
+﻿lydio_phrygian = {
 	
 	levy_template = levy_anatolian
 	
@@ -10,7 +10,7 @@
 	secondary_navy = octere
 	flank_navy = liburnian
 	
-	color = hsv { 0.32 0.45 0.9 }
+	color = hsv { 0.15 0.65 1.0 }
 	
 	male_names = {
 		Morzios Gaizatorix Pylaemenes Mithridates Datames Ariobarzanes Ariamnes Ariarathes Croesus Gyges Ardys Sadyattes Atys Adrastus Gordias Midas
@@ -56,25 +56,11 @@
 	}
 
 	culture = {
-		cappadocian = { levy_template = levy_cappadocia }
-		#carian = {}
-		#phrygian = {}
-		lycaonian = {}
-		isaurian = {}
-		paphlagonian = {}
-		lycian = { levy_template = levy_cretan }
-		#mysian = {}
-		#pontic = { levy_template = levy_pontus }
-		cilician = { levy_template = levy_cilician }
-		#lydian = {}
-		pisidian = {}
-		milyadian = {}
-		cataonian = {}
-		lalasian = {}
-		#cabalian = {}
-		oroandian = {}
-		morimenian = {}
-		kennataian = {}
+		carian = {}
+		phrygian = {}
+		mysian = {}
+		lydian = {}
+		cabalian = {}
 	}
 	
 	barbarian_names = { AMARDI ANARIACAE AUGASII CASPII CHORASMII CYRTII DAHAE DERBICII ISSEDONES LEGAE MATIANI MASSAGETAE PARNI SACAE SARMATAE SOANES VITII }
