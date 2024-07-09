@@ -1,0 +1,77 @@
+﻿namespace = babylon_war
+
+babylon_war.1 = { # Initial
+    type = country_event
+    hidden = yes
+    trigger = {
+        any_country = {
+            tag = SEL
+            NOT = {
+                has_variable = babylon_event_cooldown
+            }
+        }
+    }
+
+    immediate = {
+        set_variable = {
+            name = babylon_event_cooldown
+            days = 180
+        }
+        random_list = {
+            1 = {
+                if = {
+                    limit = { always = yes }
+                    trigger_event = { # Priest of Marduk
+                        id = babylon_war.2
+                        days = 1
+                    }
+                }
+            }
+            1 = {
+                if = {
+                    limit = { always = yes }
+                    trigger_event = { # Priest of Nabu
+                        id = babylon_war.3
+                        days = 1
+                    }
+                }
+            }
+            1 = {
+                if = {
+                    limit = { always = yes }
+                    trigger_event = { # Priest of Sin
+                        id = babylon_war.4
+                        days = 1
+                    }
+                }
+            }
+            1 = {
+                if = {
+                    limit = { always = yes }
+                    trigger_event = { # Priest of Shamash
+                        id = babylon_war.5
+                        days = 1
+                    }
+                }
+            }
+            1 = {
+                if = {
+                    limit = { always = yes }
+                    trigger_event = { # Priest of Ishtar
+                        id = babylon_war.6
+                        days = 1
+                    }
+                }
+            }
+            1 = {
+                if = {
+                    limit = { always = yes }
+                    trigger_event = { # Priest of Gibil-Khaldi
+                        id = babylon_war.7
+                        days = 1
+                    }
+                }
+            }
+        }
+    }
+}

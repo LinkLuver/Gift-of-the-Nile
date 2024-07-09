@@ -1,1 +1,179 @@
-﻿
+﻿l_english:
+
+ babylon_missions:0 "The Land Between Rivers"
+ babylon_missions_DESCRIPTION:0 "The Lands of Sumer and Akkad, the lands between the rivers, has had a tumultuous history since the reign of Naboglissar I. Since then, Babylon has suffered a sequence of deaths, civil wars, and costly Medio-Persian wars. The previous 10th Dynasty was divided into 5 new dynasties, with the 12th Dynasty, the Nergilids, finally cementing its rule. Now, under Ea-Nassir I Nergilid, Babylon must address her priest problem. Over the years, the cults of Shamash and Sin, Marduk and Nabu, and Ishtar have become opposed to each other. Additionally, the minor cult to Gibil-Khaldi has grown sizeable in the north. The entire system of a recently reunified Babylon may just collapse!"
+ babylon_missions_CRITERIA_DESCRIPTION:0 "This mission will be completed when a cult is chosen, or Babylon is in civil war."
+ babylon_missions_BUTTON_TOOLTIP:0 "The gods must not abandon us!"
+
+ #Missions
+
+ babylon_missions_task_1:0 "Meeting of Priests"
+ babylon_missions_task_1_DESC:0 ""
+
+ babylon_missions_task_2:0 "Priest of Sippar"
+ babylon_missions_task_2_DESC:0 ""
+
+ babylon_missions_task_3:0 "Priest of Borsippa"
+ babylon_missions_task_3_DESC:0 ""
+
+ babylon_missions_task_4:0 "Priest of Babylon"
+ babylon_missions_task_4_DESC:0 ""
+
+ babylon_missions_task_5:0 "Priest of Sittacene"
+ babylon_missions_task_5_DESC:0 ""
+
+ babylon_missions_task_6:0 "Priest of Khaldiitun"
+ babylon_missions_task_6_DESC:0 ""
+
+ babylon_missions_task_7:0 "Cost of Compromise"
+ babylon_missions_task_7_DESC:0 ""
+
+ babylon_missions_task_8:0 "Renovate Temple of Nabu"
+ babylon_missions_task_8_DESC:0 ""
+
+ babylon_missions_task_9:0 "Embelish Statue of Marduk"
+ babylon_missions_task_9_DESC:0 ""
+
+ babylon_missions_task_10:0 "Decorate Ziggurat of Sin"
+ babylon_missions_task_10_DESC:0 ""
+
+ babylon_missions_task_11:0 "Offerings to Shrine of Ishtar"
+ babylon_missions_task_11_DESC:0 ""
+
+ babylon_missions_task_12:0 "Encourage Worship of Gibil-Khaldi"
+ babylon_missions_task_12_DESC:0 ""
+
+ babylon_missions_task_13:0 "Renew Palace of Shamash"
+ babylon_missions_task_13_DESC:0 ""
+
+ babylon_missions_task_14:0 ""
+ babylon_missions_task_14_DESC:0 ""
+
+ babylon_missions_task_15:0 ""
+ babylon_missions_task_15_DESC:0 ""
+
+ babylon_missions_task_16:0 ""
+ babylon_missions_task_16_DESC:0 ""
+
+ babylon_missions_task_17:0 ""
+ babylon_missions_task_17_DESC:0 ""
+
+ babylon_missions_task_18:0 ""
+ babylon_missions_task_18_DESC:0 ""
+
+ babylon_missions_task_19:0 ""
+ babylon_missions_task_19_DESC:0 ""
+
+ babylon_missions_task_20:0 ""
+ babylon_missions_task_20_DESC:0 ""
+
+
+ #Tooltips
+
+
+
+ #Modifiers
+
+
+
+ #Events
+ me_babylon_1_title:0 "$babylon_missions_task_task_1$"
+ me_babylon_1_desc:0 ""
+ me_babylon_1.a:0 ""
+ me_babylon_1_tooltip:0 "The mission task '#Y $babylon_missions_task_task_1$#!' has now been #G Completed#!!"
+
+ me_babylon_2_title:0 "$babylon_missions_task_task_2$"
+ me_babylon_2_desc:0 ""
+ me_babylon_2.a:0 ""
+ me_babylon_2_tooltip:0 "The mission task '#Y $babylon_missions_task_task_2$#!' has now been #G Completed#!!"
+
+ me_babylon_3_title:0 "$babylon_missions_task_task_3$"
+ me_babylon_3_desc:0 ""
+ me_babylon_3.a:0 ""
+ me_babylon_3_tooltip:0 "The mission task '#Y $babylon_missions_task_task_3$#!' has now been #G Completed#!!"
+
+ me_babylon_4_title:0 "$babylon_missions_task_task_4$"
+ me_babylon_4_desc:0 ""
+ me_babylon_4.a:0 ""
+ me_babylon_4_tooltip:0 "The mission task '#Y $babylon_missions_task_task_4$#!' has now been #G Completed#!!"
+
+ me_babylon_5_title:0 "$babylon_missions_task_task_5$"
+ me_babylon_5_desc:0 ""
+ me_babylon_5.a:0 ""
+ me_babylon_5_tooltip:0 "The mission task '#Y $babylon_missions_task_task_5$#!' has now been #G Completed#!!"
+
+ me_babylon_6_title:0 "$babylon_missions_task_task_6$"
+ me_babylon_6_desc:0 ""
+ me_babylon_6.a:0 ""
+ me_babylon_6_tooltip:0 "The mission task '#Y $babylon_missions_task_task_6$#!' has now been #G Completed#!!"
+
+ me_babylon_7_title:0 "$babylon_missions_task_task_7$"
+ me_babylon_7_desc:0 ""
+ me_babylon_7.a:0 ""
+ me_babylon_7_tooltip:0 "The mission task '#Y $babylon_missions_task_task_7$#!' has now been #G Completed#!!"
+
+ me_babylon_8_title:0 "$babylon_missions_task_task_8$"
+ me_babylon_8_desc:0 ""
+ me_babylon_8.a:0 ""
+ me_babylon_8_tooltip:0 "The mission task '#Y $babylon_missions_task_task_8$#!' has now been #G Completed#!!"
+
+ me_babylon_9_title:0 "$babylon_missions_task_task_9$"
+ me_babylon_9_desc:0 ""
+ me_babylon_9.a:0 ""
+ me_babylon_9_tooltip:0 "The mission task '#Y $babylon_missions_task_task_9$#!' has now been #G Completed#!!"
+
+ me_babylon_10_title:0 "$babylon_missions_task_task_10$"
+ me_babylon_10_desc:0 ""
+ me_babylon_10.a:0 ""
+ me_babylon_10_tooltip:0 "The mission task '#Y $babylon_missions_task_task_10$#!' has now been #G Completed#!!"
+
+ me_babylon_11_title:0 "$babylon_missions_task_task_11$"
+ me_babylon_11_desc:0 ""
+ me_babylon_11.a:0 ""
+ me_babylon_11_tooltip:0 "The mission task '#Y $babylon_missions_task_task_11$#!' has now been #G Completed#!!"
+
+ me_babylon_12_title:0 "$babylon_missions_task_task_12$"
+ me_babylon_12_desc:0 ""
+ me_babylon_12.a:0 ""
+ me_babylon_12_tooltip:0 "The mission task '#Y $babylon_missions_task_task_12$#!' has now been #G Completed#!!"
+
+ me_babylon_13_title:0 "$babylon_missions_task_task_13$"
+ me_babylon_13_desc:0 ""
+ me_babylon_13.a:0 ""
+ me_babylon_13_tooltip:0 "The mission task '#Y $babylon_missions_task_task_13$#!' has now been #G Completed#!!"
+
+ me_babylon_14_title:0 "$babylon_missions_task_task_14$"
+ me_babylon_14_desc:0 ""
+ me_babylon_14.a:0 ""
+ me_babylon_14_tooltip:0 "The mission task '#Y $babylon_missions_task_task_14$#!' has now been #G Completed#!!"
+
+ me_babylon_15_title:0 "$babylon_missions_task_task_15$"
+ me_babylon_15_desc:0 ""
+ me_babylon_15.a:0 ""
+ me_babylon_15_tooltip:0 "The mission task '#Y $babylon_missions_task_task_15$#!' has now been #G Completed#!!"
+
+ me_babylon_16_title:0 "$babylon_missions_task_task_16$"
+ me_babylon_16_desc:0 ""
+ me_babylon_16.a:0 ""
+ me_babylon_16_tooltip:0 "The mission task '#Y $babylon_missions_task_task_16$#!' has now been #G Completed#!!"
+
+ me_babylon_17_title:0 "$babylon_missions_task_task_17$"
+ me_babylon_17_desc:0 ""
+ me_babylon_17.a:0 ""
+ me_babylon_17_tooltip:0 "The mission task '#Y $babylon_missions_task_task_17$#!' has now been #G Completed#!!"
+
+ me_babylon_18_title:0 "$babylon_missions_task_task_18$"
+ me_babylon_18_desc:0 ""
+ me_babylon_18.a:0 ""
+ me_babylon_18_tooltip:0 "The mission task '#Y $babylon_missions_task_task_18$#!' has now been #G Completed#!!"
+
+ me_babylon_19_title:0 "$babylon_missions_task_task_19$"
+ me_babylon_19_desc:0 ""
+ me_babylon_19.a:0 ""
+ me_babylon_19_tooltip:0 "The mission task '#Y $babylon_missions_task_task_19$#!' has now been #G Completed#!!"
+
+ me_babylon_20_title:0 "$babylon_missions_task_task_20$"
+ me_babylon_20_desc:0 ""
+ me_babylon_20.a:0 ""
+ me_babylon_20_tooltip:0 "The mission task '#Y $babylon_missions_task_task_20$#!' has now been #G Completed#!!"
+

@@ -1,0 +1,230 @@
+babylon_missions = {
+    header = "mission_image_general"
+    icon = "general_1"
+
+    repeatable = no
+    chance = 1000
+
+    potential = {
+        NOT = { has_variable = mission_cooldown_var }
+    }
+
+    abort = {}
+    on_start = {
+        start_mission_ai_effect = yes
+    }
+    on_abort = {
+        custom_tooltip = general_mission_cooldown_tt
+        set_variable = {
+            name = mission_cooldown_var
+            days = 7300
+        }
+    }
+    on_completion = {}
+    babylon_missions_task_1 = { #Meeting of Priests
+        icon = "task_political"
+        duration = 365
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.1
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_2 = { #Priest of Sippar
+        icon = "task_political"
+        requires = { babylon_missions_task_1 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.2
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_3 = { #Priest of Borsippa
+        icon = "task_political"
+        requires = { babylon_missions_task_1 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.3
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_4 = { #Priest of Babylon
+        icon = "task_political"
+        requires = { babylon_missions_task_1 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.4
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_5 = { #Priest of Sittacene
+        icon = "task_political"
+        requires = { babylon_missions_task_1 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.5
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_6 = { #Priest of Khaldiitun
+        icon = "task_political"
+        requires = { babylon_missions_task_1 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.6
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_7 = { #Cost of Compromise
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.7
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_8 = { #Renovate Temple of Nabu
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.8
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_9 = { #Embelish Statue of Marduk
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.9
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_10 = { #Decorate Ziggurat of Sin
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.10
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_11 = { #Offerings to Shrine of Ishtar
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.11
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_12 = { #Akkadian Aristocracy (Marduk, Nabu)
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.12
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_13 = { #Sumerian Supremacy (Sin, Ishtar)
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.13
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_14 = { #Beyond Babylon (Gebil-Khaldi, Shamash)
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.14
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_15 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.15
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_16 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.16
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_17 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.17
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_18 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.18
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_19 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.19
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    babylon_missions_task_20 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_babylon.20
+            show_as_tooltip = {
+
+            }
+        }
+    }
+}
