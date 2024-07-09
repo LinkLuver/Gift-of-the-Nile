@@ -67,7 +67,7 @@
 	}
 }
 
-830={ #Nisibis
+830={ #Nsivin
 	terrain="farmland"
 	culture="qardu"
 	religion="mesopotamian_religion"
@@ -82,9 +82,9 @@
 		amount=7
 	}
 	freemen={
-		amount=11
 		culture="assyrian"
 		religion="ashur_religion"
+		amount=11
 	}
 	freemen={
 		culture="hebrew"
@@ -126,7 +126,7 @@
 	}
 }
 
-833={ #Pinaka
+833={ #Pnaha
 	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -154,7 +154,7 @@
 	}
 }
 
-834={ #Satalka
+834={ #Sthalih
 	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -328,9 +328,9 @@
 		amount=2
 	}
 	tribesmen={
-		amount=1
 		culture="cardukoi"
 		religion="mesopotamian_religion"
+		amount=1
 	}
 	holy_site=omen_istaran
 }
@@ -350,13 +350,13 @@
 		amount=3
 	}
 	tribesmen={
-		amount=5
 		culture="cardukoi"
 		religion="mesopotamian_religion"
+		amount=5
 	}
 }
 
-866={ #Vawyan
+866={ #Bavian
 	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -368,9 +368,9 @@
 		amount=1
 	}
 	slaves={
-		amount=1
 		culture="assyrian"
-	religion="ashur_religion"
+		religion="ashur_religion"
+		amount=1
 	}
 	tribesmen={
 		amount=2
@@ -393,9 +393,9 @@
 		amount=1
 	}
 	slaves={
-		amount=3
 		culture="assyrian"
 		religion="ashur_religion"
+		amount=3
 	}
 	tribesmen={
 		amount=1
@@ -425,8 +425,8 @@
 		amount=2
 	}
 	tribesmen={
-		amount=4
 		culture="cardukoi"
+		amount=4
 	}
 }
 
@@ -1133,25 +1133,6 @@
 	}
 }
 
-958={ #Hurhisht
-	terrain="plains"
-	culture="assyrian"
-	religion="ashur_religion"
-	trade_goods="leather"
-	civilization_value=19
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
 984={ #Hazza
 	terrain="plains"
 	culture="assyrian"
@@ -1168,25 +1149,6 @@
 	}
 	slaves={
 		amount=5
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-985={ #Shadhrah
-	terrain="farmland"
-	culture="assyrian"
-	religion="ashur_religion"
-	trade_goods="grain"
-	civilization_value=19
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=3
 	}
 	tribesmen={
 		amount=2
@@ -1214,22 +1176,6 @@
 	tribesmen={
 		religion="mesopotamian_religion"
 		amount=1
-	}
-}
-
-1578={ #Orontes
-	terrain="hills"
-	culture="cyrtian"
-	religion="zoroaster"
-	trade_goods="dye"
-	civilization_value=19
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
 	}
 }
 
@@ -1365,9 +1311,9 @@
 		amount=3
 	}
 	slaves={
-		amount=4
 		culture="assyrian"
-	religion="ashur_religion"
+		religion="ashur_religion"
+		amount=4
 	}
 }
 
@@ -1411,28 +1357,6 @@
 	culture="assyrian"
 	religion="ashur_religion"
 	trade_goods="cattle"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-9492={ #Pakute
-	terrain="marsh"
-	culture="assyrian"
-	religion="ashur_religion"
-	trade_goods="wine"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1626,28 +1550,6 @@
 	}
 }
 
-9501={ #Bgash
-	terrain="forest"
-	culture="cyrtian"
-	religion="zoroaster"
-	trade_goods="wood"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
 9502={ #Sugabu
 	terrain="desert"
 	culture="assyrian"
@@ -1824,28 +1726,6 @@
 	}
 }
 
-9510={ #Irbidi
-	terrain="hills"
-	culture="assyrian"
-	religion="ashur_religion"
-	trade_goods="grain"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
 9511={ #Marmenu
 	terrain="plains"
 	culture="assyrian"
@@ -2000,28 +1880,6 @@
 	}
 }
 
-9519={ #Anigi
-	terrain="hills"
-	culture="assyrian"
-	religion="mesopotamian_religion"
-	trade_goods="grain"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
 9520={ #Bibara
 	terrain="plains"
 	culture="assyrian"
@@ -2056,9 +1914,9 @@
 		amount=1
 	}
 	slaves={
-		amount=6
 		culture="assyrian"
 		religion="ashur_religion"
+		amount=6
 	}
 	tribesmen={
 		amount=3
@@ -2077,9 +1935,9 @@
 		amount=1
 	}
 	slaves={
-		amount=3
 		culture="assyrian"
 		religion="ashur_religion"
+		amount=3
 	}
 	tribesmen={
 		amount=4

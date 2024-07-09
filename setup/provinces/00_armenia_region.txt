@@ -477,6 +477,26 @@
 	}
 }
 
+1510={ #Shno
+	terrain="plains"
+	culture="median"
+	religion="mithra_religion"
+	trade_goods="cattle"
+	civilization_value=17
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="mithra_religion"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
 1511={ #Mehrapat
 	terrain="plains"
 	culture="median"

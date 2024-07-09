@@ -2208,46 +2208,6 @@
 	province_rank=""
 }
 
-9812={ #
-	terrain="impassable_terrain"
-	culture="median"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-9813={ #
-	terrain="impassable_terrain"
-	culture="median"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-9814={ #
-	terrain="impassable_terrain"
-	culture="median"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-9815={ #
-	terrain="impassable_terrain"
-	culture="median"
-	religion="zoroaster"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
 5216={ #
 	terrain="impassable_terrain"
 	culture="cadusian"
@@ -9112,6 +9072,46 @@
 	terrain="impassable_terrain"
 	culture="assyrian"
 	religion="mesopotamian_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9812={ #PROV9812
+	terrain="impassable_terrain"
+	culture="median"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9813={ #PROV9813
+	terrain="impassable_terrain"
+	culture="median"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9814={ #PROV9814
+	terrain="mountain"
+	culture="median"
+	religion="zoroaster"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9815={ #PROV9815
+	terrain="impassable_terrain"
+	culture="median"
+	religion="zoroaster"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0

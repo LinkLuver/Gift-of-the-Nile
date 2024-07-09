@@ -682,12 +682,12 @@
 		amount=3
 	}
 	freemen={
-		amount=1
 		culture="hittite"
+		amount=1
 	}
 	slaves={
-		amount=1
 		culture="hittite"
+		amount=1
 	}
 }
 
@@ -2700,8 +2700,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
 		culture="cilician"
+		amount=3
 	}
 	freemen={
 		amount=1

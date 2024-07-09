@@ -186,9 +186,9 @@
 		amount=1
 	}
 	freemen={
-		amount=2
 		culture="hurrian"
 		religion="hurrian_pantheon"
+		amount=2
 	}
 }
 
@@ -643,14 +643,14 @@
 		amount=11
 	}
 	tribesmen={
-		amount=2
 		culture="mitanni"
 		religion="hurrian_pantheon"
+		amount=2
 	}
 	freemen={
-		amount=4
 		culture="hurrian"
 		religion="hurrian_pantheon"
+		amount=4
 	}
 	freemen={
 		amount=4
@@ -795,9 +795,9 @@
 		amount=2
 	}
 	freemen={
-		amount=3
 		culture="hurrian"
 		religion="hurrian_pantheon"
+		amount=3
 	}
 }
 
@@ -824,9 +824,9 @@
 		amount=1
 	}
 	freemen={
-		amount=4
 		culture="hurrian"
 		religion="hurrian_pantheon"
+		amount=4
 	}
 }
 
@@ -842,8 +842,8 @@
 		amount=1
 	}
 	freemen={
-		amount=2
 		religion="armenian_religion"
+		amount=2
 	}
 	freemen={
 		religion="carthaginian_pantheon"
@@ -854,8 +854,8 @@
 		amount=1
 	}
 	slaves={
-		amount=1
 		religion="hurrian_pantheon"
+		amount=1
 	}
 	tribesmen={
 		religion="armenian_religion"
@@ -894,7 +894,7 @@
 	}
 }
 
-858={ #Arshamashat
+858={ #Rhandeia
 	terrain="hills"
 	culture="sophene"
 	religion="armenian_religion"
@@ -945,7 +945,7 @@
 	}
 }
 
-860={ #Kharberd
+860={ #Anzitene
 	terrain="hills"
 	culture="sophene"
 	religion="zoroaster"
@@ -965,7 +965,7 @@
 	}
 }
 
-869={ #Riskephas
+869={ #Kef
 	terrain="mountain"
 	culture="hurrian"
 	religion="mesopotamian_religion"
@@ -1032,8 +1032,8 @@
 		amount=5
 	}
 	citizen={
-		amount=3
 		culture="aramaic"
+		amount=3
 	}
 	slaves={
 		amount=1
@@ -1077,9 +1077,9 @@
 		amount=4
 	}
 	tribesmen={
-		amount=2
 		culture="mitanni"
 		religion="hurrian_pantheon"
+		amount=2
 	}
 	tribesmen={
 		religion="carthaginian_pantheon"
@@ -1089,9 +1089,9 @@
 		amount=3
 	}
 	freemen={
-		amount=4
 		culture="hurrian"
 		religion="hurrian_pantheon"
+		amount=4
 	}
 	holy_site=omen_ishara
 }
@@ -1114,9 +1114,9 @@
 		amount=4
 	}
 	tribesmen={
-		amount=1
 		culture="mitanni"
 		religion="hurrian_pantheon"
+		amount=1
 	}
 	holy_site=omen_ninazu
 }
@@ -1179,9 +1179,9 @@
 		amount=2
 	}
 	freemen={
-		amount=2
 		culture="hurrian"
 		religion="hurrian_pantheon"
+		amount=2
 	}
 	slaves={
 		amount=2
@@ -1753,9 +1753,9 @@
 		amount=4
 	}
 	tribesmen={
-		amount=3
 		culture="hurrian"
 		religion="hurrian_pantheon"
+		amount=3
 	}
 }
 
@@ -1798,9 +1798,9 @@
 		amount=2
 	}
 	tribesmen={
-		amount=3
 		culture="hurrian"
 		religion="hurrian_pantheon"
+		amount=3
 	}
 }
 
@@ -1813,12 +1813,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
 		culture="qardu"
+		amount=1
 	}
 	freemen={
-		amount=3
 		culture="qardu"
+		amount=3
 	}
 	tribesmen={
 		amount=6
@@ -1867,8 +1867,8 @@
 		amount=2
 	}
 	tribesmen={
-		amount=3
 		culture="qardu"
+		amount=3
 	}
 }
 
@@ -1887,9 +1887,9 @@
 		amount=2
 	}
 	freemen={
-		amount=3
 		culture="hurrian"
 		religion="hurrian_pantheon"
+		amount=3
 	}
 }
 
@@ -1914,9 +1914,9 @@
 		amount=3
 	}
 	freemen={
-		amount=2
 		culture="hurrian"
 		religion="hurrian_pantheon"
+		amount=2
 	}
 }
 
@@ -1957,9 +1957,9 @@
 		amount=5
 	}
 	freemen={
-		amount=3
 		culture="hurrian"
 		religion="hurrian_pantheon"
+		amount=3
 	}
 }
 
@@ -2022,9 +2022,9 @@
 		amount=7
 	}
 	tribesmen={
-		amount=4
 		culture="hurrian"
 		religion="hurrian_pantheon"
+		amount=4
 	}
 }
 
@@ -2084,9 +2084,9 @@
 		amount=2
 	}
 	freemen={
-		amount=3
 		culture="syriac"
 		religion="hurrian_pantheon"
+		amount=3
 	}
 	tribesmen={
 		amount=5
