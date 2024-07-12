@@ -515,7 +515,11 @@ neo_hittite_heritage = {
 
     trigger = {
         primary_culture = hittite
-        NOT = { tag = KAR }
+        NOR = {
+            tag = KAR
+            tag = HIT
+            tag = HT2
+        }
     }
 }
 hittite_heritage = {
@@ -2117,7 +2121,7 @@ commagenian_heritage = {
     modifier = {
         #good
         happiness_for_wrong_culture_modifier = 0.03
-        happiness_for_same_culture_modifier = 0.06
+        happiness_for_wrong_religion_modifier = 0.03
 
         #bad
         diplomatic_relations = -1
@@ -7871,5 +7875,32 @@ waset_heritage = {
     }
     trigger = {
         always = no
+    }
+}
+
+que_heritage = {
+    modifier = {
+        #good
+        mercenary_land_maintenance_cost = -0.2
+        navy_maintenance_cost = -0.1
+        
+        #bad
+        cultural_assimilation_speed_modifier = -0.1
+    }
+    trigger = {
+        tag = HIT
+    }
+}
+yadiya_heritage = {
+    modifier = {
+        #good
+        stability_monthly_change = 0.05
+        happiness_for_wrong_culture_modifier = 0.04
+        
+        #bad
+        diplomatic_reputation = -2
+    }
+    trigger = {
+        tag = HT2
     }
 }
