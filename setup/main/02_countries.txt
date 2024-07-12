@@ -2058,7 +2058,7 @@ country = {
 			}
 		}
 		UGR = {
-			government = despotic_monarchy
+			government = aristocratic_monarchy
 			primary_culture = syrion
 			religion = hurrian_pantheon
 
@@ -2095,7 +2095,7 @@ country = {
 		}
 		DOR = {
 			government = despotic_monarchy
-			primary_culture = phoenician
+			primary_culture = hyksos
 			religion = carthaginian_pantheon
 
 			technology={
@@ -2131,7 +2131,7 @@ country = {
 			}
 		}
 		TR3 = {
-			government = despotic_monarchy
+			government = aristocratic_monarchy
 			primary_culture = phoenician
 			religion = carthaginian_pantheon
 
@@ -2205,7 +2205,7 @@ country = {
 		}
 		ARA = {
 			family = 45
-			government = despotic_monarchy
+			government = plutocratic_republic
 			primary_culture = syrion
 			religion = carthaginian_pantheon
 

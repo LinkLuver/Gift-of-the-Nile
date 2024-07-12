@@ -89,14 +89,17 @@
 	civilization_value=33
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=2
+	}
 	citizen={
-		amount=5
+		amount=6
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
-		amount=2
+		amount=5
 	}
 	tribesmen={
 		amount=2
@@ -223,17 +226,42 @@
 		amount=2
 	}
 }
-
-667={ #Dor
+667={ #Dora
 	terrain="plains"
-	culture="phoenician"
+	culture="hyksos"
 	religion="carthaginian_pantheon"
 	trade_goods="wine"
 	civilization_value=31
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=4
+	}
 	freemen={
-		amount=2
+		amount=4
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+668={ #Boukolonpolis
+	terrain="plains"
+	culture="phoenician"
+	religion="carthaginian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="hyksos"
+		amount=1
 	}
 	slaves={
 		amount=2
@@ -243,25 +271,9 @@
 	}
 }
 
-668={ #'Atalit
+669={ #Gaba
 	terrain="plains"
-	culture="hyksos"
-	religion="carthaginian_pantheon"
-	trade_goods="vegetables"
-	civilization_value=26
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-}
-
-669={ #Jellemeh
-	terrain="plains"
-	culture="hyksos"
+	culture="phoenician"
 	religion="carthaginian_pantheon"
 	trade_goods="grain"
 	civilization_value=26
@@ -278,7 +290,7 @@
 	}
 }
 
-670={ #'Akko
+670={ #Ake
 	terrain="forest"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -286,11 +298,46 @@
 	civilization_value=29
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
+		amount=3
+	}
+	citizen={
+		culture="egyptian"
 		amount=2
 	}
 	freemen={
+		amount=5
+	}
+	freemen={
+		culture="avarite_egyptian"
+		amount=1
+	}
+	freemen={
+		culture="mafkatian_egyptian"
 		amount=2
+	}
+	freemen={
+		culture="mafkatian_egyptian"
+		amount=2
+	}
+	freemen={
+		culture="retenuan"
+		amount=2
+	}
+	freemen={
+		culture="hyksos"
+		amount=2
+	}
+	freemen={
+		culture="syrion"
+		amount=2
+	}
+	freemen={
+		culture="alashiyan"
+		amount=1
 	}
 	slaves={
 		amount=5

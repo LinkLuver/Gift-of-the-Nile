@@ -28,8 +28,11 @@
 	civilization_value=28
 	barbarian_power=0
 	province_rank="city"
+	citizen={
+		amount=2
+	}
 	freemen={
-		amount=1
+		amount=4
 	}
 	tribesmen={
 		amount=5
@@ -61,13 +64,13 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=2
+		amount=6
 	}
 	freemen={
-		amount=1
+		amount=7
 	}
 	slaves={
-		amount=2
+		amount=5
 	}
 }
 
@@ -80,19 +83,17 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="hebrew"
-		religion="judaism"
 		amount=2
 	}
 	citizen={
-		religion="zoroaster"
+		religion="mithra_religion"
 		amount=1
 	}
 	citizen={
-		amount=8
+		amount=6
 	}
 	citizen={
-		culture="pasargadi"
+		culture="median"
 		amount=1
 	}
 	freemen={
@@ -109,12 +110,7 @@
 		amount=4
 	}
 	slaves={
-		amount=12
-	}
-	slaves={
-		culture="hebrew"
-		religion="judaism"
-		amount=2
+		amount=7
 	}
 	slaves={
 		culture="sophene"
@@ -2152,13 +2148,13 @@
 		amount=8
 	}
 	freemen={
-		amount=13
+		amount=7
 	}
 	slaves={
-		amount=8
+		amount=5
 	}
 	tribesmen={
-		amount=7
+		amount=4
 	}
 }
 
