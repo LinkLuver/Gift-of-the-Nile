@@ -1,7 +1,7 @@
 ﻿198={ #Gangra
 	terrain="plains"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="earthware"
 	civilization_value=27
 	barbarian_power=0
@@ -41,7 +41,7 @@
 199={ #Kandara
 	terrain="hills"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="fruits"
 	civilization_value=18
 	barbarian_power=0
@@ -60,7 +60,7 @@
 200={ #Kimiata
 	terrain="forest"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="wood"
 	civilization_value=18
 	barbarian_power=0
@@ -79,7 +79,7 @@
 201={ #Zoaka
 	terrain="plains"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="vegetables"
 	civilization_value=20
 	barbarian_power=0
@@ -102,7 +102,7 @@
 203={ #Asklepios
 	terrain="hills"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="earthware"
 	civilization_value=18
 	barbarian_power=0
@@ -268,7 +268,7 @@
 211={ #Ziporeia
 	terrain="hills"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="olive"
 	civilization_value=18
 	barbarian_power=0
@@ -323,7 +323,7 @@
 213={ #Kimista
 	terrain="hills"
 	culture="mariandynian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="wood"
 	civilization_value=3
 	barbarian_power=0
@@ -350,7 +350,7 @@
 214={ #Timonion
 	terrain="hills"
 	culture="mariandynian"
-	religion="roman_pantheon"
+	religion="hatti_religion"
 	trade_goods="fruits"
 	civilization_value=3
 	barbarian_power=0
@@ -374,7 +374,7 @@
 215={ #Krateia
 	terrain="hills"
 	culture="mariandynian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="grain"
 	civilization_value=3
 	barbarian_power=0
@@ -398,7 +398,7 @@
 216={ #Zeita
 	terrain="hills"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="fruits"
 	civilization_value=18
 	barbarian_power=0
@@ -430,7 +430,7 @@
 217={ #Tobata
 	terrain="hills"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="grain"
 	civilization_value=18
 	barbarian_power=0
@@ -512,7 +512,7 @@
 223={ #Legna
 	terrain="hills"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="vegetables"
 	civilization_value=18
 	barbarian_power=0
@@ -582,7 +582,7 @@
 232={ #Bonita
 	terrain="hills"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="leather"
 	civilization_value=18
 	barbarian_power=0
@@ -1667,7 +1667,7 @@
 1827={ #Sakorsa
 	terrain="forest"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="wood"
 	civilization_value=18
 	barbarian_power=0
@@ -1686,7 +1686,7 @@
 1828={ #Domanion
 	terrain="forest"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="leather"
 	civilization_value=18
 	barbarian_power=0
@@ -1708,7 +1708,7 @@
 1829={ #Blaine
 	terrain="forest"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="cattle"
 	civilization_value=18
 	barbarian_power=0

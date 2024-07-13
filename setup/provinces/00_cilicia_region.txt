@@ -221,7 +221,7 @@
 166={ #Perge
 	terrain="plains"
 	culture="pamphylian"
-	religion="hurrian_pantheon"
+	religion="roman_pantheon"
 	trade_goods="cedar"
 	civilization_value=31
 	barbarian_power=0
@@ -286,7 +286,7 @@
 168={ #Aspendos
 	terrain="plains"
 	culture="pamphylian"
-	religion="hurrian_pantheon"
+	religion="roman_pantheon"
 	trade_goods="hemp"
 	civilization_value=29
 	barbarian_power=0
@@ -351,7 +351,7 @@
 171={ #Isinda
 	terrain="hills"
 	culture="milyadian"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=13
 	barbarian_power=0
@@ -694,7 +694,7 @@
 1872={ #Cilician Gates
 	terrain="mountain"
 	culture="kennataian"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=22
 	barbarian_power=0
@@ -1236,7 +1236,7 @@
 1890={ #Holmoi
 	terrain="plains"
 	culture="lalasian"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="cedar"
 	civilization_value=25
 	barbarian_power=0
@@ -1275,7 +1275,7 @@
 1892={ #Elaioussa
 	terrain="hills"
 	culture="cilician"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="cedar"
 	civilization_value=25
 	barbarian_power=0
@@ -1308,7 +1308,7 @@
 1894={ #Olbe
 	terrain="hills"
 	culture="cilician"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="cedar"
 	civilization_value=33
 	barbarian_power=0
@@ -1348,7 +1348,7 @@
 1896={ #Ninika
 	terrain="hills"
 	culture="lalasian"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="honey"
 	civilization_value=23
 	barbarian_power=0
@@ -1380,7 +1380,7 @@
 1897={ #Kelenderis
 	terrain="hills"
 	culture="lalasian"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="fish"
 	civilization_value=15
 	barbarian_power=0
@@ -1404,7 +1404,7 @@
 1901={ #Anemourion
 	terrain="hills"
 	culture="lalasian"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="cedar"
 	civilization_value=15
 	barbarian_power=0
@@ -1423,7 +1423,7 @@
 1904={ #Selinous Kilikias
 	terrain="hills"
 	culture="lalasian"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="cedar"
 	civilization_value=31
 	barbarian_power=0
@@ -1463,7 +1463,7 @@
 1905={ #Korakesion
 	terrain="hills"
 	culture="pamphylian"
-	religion="hurrian_pantheon"
+	religion="roman_pantheon"
 	trade_goods="cloth"
 	civilization_value=26
 	barbarian_power=0
@@ -1494,7 +1494,7 @@
 1906={ #Laertes
 	terrain="hills"
 	culture="pamphylian"
-	religion="hurrian_pantheon"
+	religion="roman_pantheon"
 	trade_goods="pearls"
 	civilization_value=24
 	barbarian_power=0
@@ -1525,7 +1525,7 @@
 1908={ #Kolybrassos
 	terrain="hills"
 	culture="pisidian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods="honey"
 	civilization_value=13
 	barbarian_power=0
@@ -1557,7 +1557,7 @@
 1910={ #Side
 	terrain="plains"
 	culture="pamphylian"
-	religion="hurrian_pantheon"
+	religion="roman_pantheon"
 	trade_goods="dye"
 	civilization_value=31
 	barbarian_power=0
@@ -1612,7 +1612,7 @@
 1911={ #Sillyon
 	terrain="plains"
 	culture="pamphylian"
-	religion="hurrian_pantheon"
+	religion="roman_pantheon"
 	trade_goods="cloth"
 	civilization_value=29
 	barbarian_power=0
@@ -1649,7 +1649,7 @@
 1917={ #Lakaine
 	terrain="mountain"
 	culture="lalasian"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=11
 	barbarian_power=0
@@ -1985,7 +1985,7 @@
 1990={ #Oinoanda
 	terrain="hills"
 	culture="cabalian"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="cedar"
 	civilization_value=18
 	barbarian_power=0
@@ -2019,7 +2019,7 @@
 1991={ #Podalia
 	terrain="hills"
 	culture="milyadian"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="glass"
 	civilization_value=13
 	barbarian_power=0
@@ -2499,7 +2499,7 @@
 7958={ #Kotenna
 	terrain="hills"
 	culture="pisidian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods="cedar"
 	civilization_value=13
 	barbarian_power=0
@@ -2530,7 +2530,7 @@
 7962={ #Ano Kotradis
 	terrain="hills"
 	culture="lalasian"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="leather"
 	civilization_value=13
 	barbarian_power=0
@@ -2559,7 +2559,7 @@
 7968={ #Kyinda
 	terrain="mountain"
 	culture="cilician"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="obsidian"
 	civilization_value=22
 	barbarian_power=0
@@ -2694,7 +2694,7 @@
 8022={ #Cilician Gates
 	terrain="mountain"
 	culture="kennataian"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0

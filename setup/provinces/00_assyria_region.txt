@@ -129,7 +129,7 @@
 833={ #Pnaha
 	terrain="mountain"
 	culture="cardukoi"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="stone"
 	civilization_value=29
 	barbarian_power=0
@@ -157,7 +157,7 @@
 834={ #Sthalih
 	terrain="mountain"
 	culture="cardukoi"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -226,7 +226,7 @@
 861={ #Peq
 	terrain="desert"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="cattle"
 	civilization_value=28
 	barbarian_power=0
@@ -405,7 +405,7 @@
 868={ #Dahir
 	terrain="plains"
 	culture="qardu"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="dates"
 	civilization_value=31
 	barbarian_power=0
@@ -433,7 +433,7 @@
 873={ #Hassu
 	terrain="plains"
 	culture="qardu"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="grain"
 	civilization_value=31
 	barbarian_power=0
@@ -472,7 +472,7 @@
 876={ #Qarassas
 	terrain="plains"
 	culture="qardu"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="leather"
 	civilization_value=31
 	barbarian_power=0
@@ -692,7 +692,7 @@
 887={ #'Arzuhin
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="stone"
 	civilization_value=21
 	barbarian_power=0
@@ -1113,7 +1113,7 @@
 957={ #Turshan
 	terrain="farmland"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="steppe_horses"
 	civilization_value=21
 	barbarian_power=0
@@ -1399,7 +1399,7 @@
 9494={ #Issete
 	terrain="hills"
 	culture="qardu"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
@@ -1421,7 +1421,7 @@
 9495={ #Kadishi
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
@@ -1487,7 +1487,7 @@
 9498={ #Iapturu
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="steppe_horses"
 	civilization_value=29
 	barbarian_power=0
@@ -1531,7 +1531,7 @@
 9500={ #Kilane
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -1619,7 +1619,7 @@
 9505={ #Zira
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="earthware"
 	civilization_value=29
 	barbarian_power=0
@@ -1663,7 +1663,7 @@
 9507={ #Melqi
 	terrain="hills"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="leather"
 	civilization_value=29
 	barbarian_power=0
@@ -1773,7 +1773,7 @@
 9513={ #Shinishe
 	terrain="farmland"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="earthware"
 	civilization_value=29
 	barbarian_power=0
@@ -1861,7 +1861,7 @@
 9517={ #Zirzarra
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="cloth"
 	civilization_value=29
 	barbarian_power=0
@@ -1883,7 +1883,7 @@
 9520={ #Bibara
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
@@ -1947,7 +1947,7 @@
 9529={ #Matqa
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
@@ -2035,7 +2035,7 @@
 9546={ #Agarak
 	terrain="mountain"
 	culture="cardukoi"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="stone"
 	civilization_value=29
 	barbarian_power=0
@@ -2057,7 +2057,7 @@
 9547={ #Satalki
 	terrain="mountain"
 	culture="cardukoi"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=29
 	barbarian_power=0
@@ -2101,7 +2101,7 @@
 9551={ #Zrayl
 	terrain="mountain"
 	culture="cardukoi"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=29
 	barbarian_power=0
@@ -2123,7 +2123,7 @@
 9552={ #Torik
 	terrain="mountain"
 	culture="cardukoi"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=29
 	barbarian_power=0
@@ -2145,7 +2145,7 @@
 9553={ #Bargum
 	terrain="mountain"
 	culture="cardukoi"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="stone"
 	civilization_value=29
 	barbarian_power=0
@@ -2167,7 +2167,7 @@
 9554={ #Mija
 	terrain="mountain"
 	culture="cardukoi"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
@@ -2277,7 +2277,7 @@
 9573={ #Karana
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
@@ -2299,7 +2299,7 @@
 9574={ #Andarig
 	terrain="plains"
 	culture="qardu"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="leather"
 	civilization_value=29
 	barbarian_power=0
@@ -2321,7 +2321,7 @@
 9575={ #Haduraha
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="ashur_religion"
 	trade_goods="feathers"
 	civilization_value=29
 	barbarian_power=0

@@ -1,6 +1,6 @@
 ﻿1512={ #Sagapani
 	terrain="hills"
-	culture="median"
+	culture="tukri"
 	religion="mithra_religion"
 	trade_goods="leather"
 	civilization_value=19
@@ -20,7 +20,7 @@
 
 1513={ #Piranshahr
 	terrain="hills"
-	culture="median"
+	culture="tukri"
 	religion="mithra_religion"
 	trade_goods="wood"
 	civilization_value=17
@@ -39,7 +39,7 @@
 
 1514={ #Pasveh
 	terrain="plains"
-	culture="median"
+	culture="tukri"
 	religion="mithra_religion"
 	trade_goods="wood"
 	civilization_value=21
@@ -287,7 +287,7 @@
 
 1553={ #Dashband
 	terrain="hills"
-	culture="median"
+	culture="tukri"
 	religion="mithra_religion"
 	trade_goods="leather"
 	civilization_value=19

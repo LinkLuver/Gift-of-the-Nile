@@ -1,7 +1,7 @@
 ﻿738={ #Maqadh
 	terrain="plains"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="arabian_pantheon"
 	trade_goods="grain"
 	civilization_value=26
 	barbarian_power=0
@@ -457,7 +457,7 @@
 759={ #Thelseai
 	terrain="desert"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="arabian_pantheon"
 	trade_goods="earthware"
 	civilization_value=23
 	barbarian_power=0
@@ -640,7 +640,8 @@
 	holy_site=omen_baalat
 	port_building=4
 }
-767={ #Botrys
+
+767={ #Bitron
 	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -659,7 +660,7 @@
 	}
 }
 
-769={ #Tripolis
+769={ #'Ator
 	terrain="forest"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -685,7 +686,7 @@
 	port_building=1
 }
 
-770={ #Kara
+770={ #Cara
 	terrain="desert"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
@@ -704,7 +705,7 @@
 	}
 }
 
-771={ #Arka
+771={ #'Arqo
 	terrain="hills"
 	culture="phoenician"
 	religion="carthaginian_pantheon"

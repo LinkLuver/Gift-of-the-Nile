@@ -460,7 +460,7 @@
 	}
 }
 
-1509={ #Shirakan
+1509={ #Siraganon
 	terrain="hills"
 	culture="arzasha"
 	religion="zoroaster"
@@ -479,7 +479,7 @@
 
 1510={ #Shno
 	terrain="plains"
-	culture="median"
+	culture="tukri"
 	religion="mithra_religion"
 	trade_goods="cattle"
 	civilization_value=17
@@ -499,7 +499,7 @@
 
 1511={ #Mehrapat
 	terrain="plains"
-	culture="median"
+	culture="tukri"
 	religion="zoroaster"
 	trade_goods="wood"
 	civilization_value=19

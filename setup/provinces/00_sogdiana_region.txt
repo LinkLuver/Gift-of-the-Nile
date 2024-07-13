@@ -1,7 +1,7 @@
 ﻿6682={ #Samarkand
 	terrain="hills"
 	culture="sogdian"
-	religion="zoroaster"
+	religion="vaksh_religion"
 	trade_goods="earthware"
 	civilization_value=24
 	barbarian_power=0
@@ -48,7 +48,7 @@
 6687={ #Sina
 	terrain="hills"
 	culture="sogdian"
-	religion="zoroaster"
+	religion="vaksh_religion"
 	trade_goods="grain"
 	civilization_value=19
 	barbarian_power=0
@@ -68,7 +68,7 @@
 6698={ #Ikroni
 	terrain="mountain"
 	culture="sogdian"
-	religion="zoroaster"
+	religion="vaksh_religion"
 	trade_goods="cattle"
 	civilization_value=17
 	barbarian_power=0
@@ -93,7 +93,7 @@
 6699={ #Terkul
 	terrain="mountain"
 	culture="sogdian"
-	religion="zoroaster"
+	religion="vaksh_religion"
 	trade_goods="hemp"
 	civilization_value=17
 	barbarian_power=0
@@ -120,7 +120,7 @@
 6700={ #Khona
 	terrain="mountain"
 	culture="sogdian"
-	religion="zoroaster"
+	religion="vaksh_religion"
 	trade_goods="leather"
 	civilization_value=17
 	barbarian_power=0
@@ -145,7 +145,7 @@
 6701={ #Dushan
 	terrain="mountain"
 	culture="sogdian"
-	religion="zoroaster"
+	religion="vaksh_religion"
 	trade_goods="gems"
 	civilization_value=17
 	barbarian_power=0
@@ -168,7 +168,7 @@
 6702={ #Shakria
 	terrain="mountain"
 	culture="sogdian"
-	religion="zoroaster"
+	religion="vaksh_religion"
 	trade_goods="earthware"
 	civilization_value=17
 	barbarian_power=0
@@ -188,7 +188,7 @@
 6703={ #Ooemoeia Inferiores
 	terrain="hills"
 	culture="sogdian"
-	religion="zoroaster"
+	religion="vaksh_religion"
 	trade_goods="cloth"
 	civilization_value=24
 	barbarian_power=0
@@ -274,7 +274,7 @@
 6705={ #Sogdiana
 	terrain="mountain"
 	culture="sogdian"
-	religion="zoroaster"
+	religion="vaksh_religion"
 	trade_goods="hemp"
 	civilization_value=17
 	barbarian_power=0
@@ -357,7 +357,7 @@
 6711={ #Charva
 	terrain="steppes"
 	culture="sogdian"
-	religion="indo_iranian_religion"
+	religion="vaksh_religion"
 	trade_goods="fur"
 	civilization_value=21
 	barbarian_power=0
@@ -517,7 +517,7 @@
 6719={ #Baisun
 	terrain="hills"
 	culture="sogdian"
-	religion="zoroaster"
+	religion="vaksh_religion"
 	trade_goods="leather"
 	civilization_value=19
 	barbarian_power=0
@@ -591,7 +591,7 @@
 6730={ #Khavakand
 	terrain="plains"
 	culture="tayuan"
-	religion="vaksh_religion"
+	religion="taoism"
 	trade_goods="grain"
 	civilization_value=21
 	barbarian_power=0
@@ -613,7 +613,7 @@
 6731={ #Massagetia
 	terrain="farmland"
 	culture="tayuan"
-	religion="vaksh_religion"
+	religion="taoism"
 	trade_goods="wood"
 	civilization_value=23
 	barbarian_power=0
@@ -640,7 +640,7 @@
 6732={ #Makhram
 	terrain="hills"
 	culture="tayuan"
-	religion="vaksh_religion"
+	religion="taoism"
 	trade_goods="cattle"
 	civilization_value=19
 	barbarian_power=0
@@ -672,7 +672,7 @@
 6733={ #Istarava
 	terrain="mountain"
 	culture="sogdian"
-	religion="zoroaster"
+	religion="vaksh_religion"
 	trade_goods="fur"
 	civilization_value=17
 	barbarian_power=0
@@ -699,7 +699,7 @@
 6734={ #Chust
 	terrain="hills"
 	culture="sogdian"
-	religion="zoroaster"
+	religion="taoism"
 	trade_goods="salt"
 	civilization_value=24
 	barbarian_power=0
@@ -1270,7 +1270,7 @@
 7238={ #Nikhshapaya
 	terrain="steppes"
 	culture="sogdian"
-	religion="indo_iranian_religion"
+	religion="vaksh_religion"
 	trade_goods="stone"
 	civilization_value=21
 	barbarian_power=0

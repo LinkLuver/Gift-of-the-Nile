@@ -418,7 +418,7 @@
 3446={ #Yetaan
 	terrain="mountain"
 	culture="parthian"
-	religion="mithra_religion"
+	religion="zurvan_religion"
 	trade_goods="cloth"
 	civilization_value=16
 	barbarian_power=0
@@ -452,7 +452,7 @@
 3447={ #Salak
 	terrain="hills"
 	culture="parthian"
-	religion="mithra_religion"
+	religion="zurvan_religion"
 	trade_goods="base_metals"
 	civilization_value=18
 	barbarian_power=0
@@ -601,7 +601,7 @@
 3454={ #Tus
 	terrain="mountain"
 	culture="parthian"
-	religion="mithra_religion"
+	religion="zurvan_religion"
 	trade_goods="camel"
 	civilization_value=16
 	barbarian_power=0
@@ -1782,7 +1782,7 @@
 6543={ #Suphtha
 	terrain="hills"
 	culture="parthian"
-	religion="mithra_religion"
+	religion="zurvan_religion"
 	trade_goods="earthware"
 	civilization_value=18
 	barbarian_power=0
@@ -1891,7 +1891,7 @@
 6656={ #Arshak
 	terrain="steppes"
 	culture="parthian"
-	religion="mithra_religion"
+	religion="zurvan_religion"
 	trade_goods="camel"
 	civilization_value=20
 	barbarian_power=0
@@ -1987,7 +1987,7 @@
 6660={ #Bandiyan
 	terrain="hills"
 	culture="margian"
-	religion="vaksh_religion"
+	religion="zurvan_religion"
 	trade_goods="fur"
 	civilization_value=3
 	barbarian_power=0
@@ -2007,7 +2007,7 @@
 6661={ #Dara
 	terrain="hills"
 	culture="margian"
-	religion="indo_iranian_religion"
+	religion="zurvan_religion"
 	trade_goods="earthware"
 	civilization_value=19
 	barbarian_power=0
@@ -2039,7 +2039,7 @@
 6662={ #Abivard
 	terrain="hills"
 	culture="margian"
-	religion="vaksh_religion"
+	religion="zurvan_religion"
 	trade_goods="cattle"
 	civilization_value=19
 	barbarian_power=0
@@ -2063,7 +2063,7 @@
 6663={ #Saraxs
 	terrain="hills"
 	culture="margian"
-	religion="zoroaster"
+	religion="zurvan_religion"
 	trade_goods="grain"
 	civilization_value=18
 	barbarian_power=0

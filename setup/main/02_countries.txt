@@ -1633,7 +1633,7 @@ country = {
 
 		AT5 = { # Sharzur
 			government = tribal_federation
-			primary_culture = assyrian
+			primary_culture = lullu
 			religion = mesopotamian_religion
 
 
@@ -1659,7 +1659,7 @@ country = {
 
 		AT7 = { # Shadrah
 			government = tribal_chiefdom
-			primary_culture = assyrian
+			primary_culture = shubar
 			religion = ashur_religion
 
 
@@ -1672,7 +1672,7 @@ country = {
 
 		AT8 = { # Shirakan
 			government = tribal_federation
-			primary_culture = median
+			primary_culture = arzasha
 			religion = mithra_religion
 
 
@@ -1685,7 +1685,7 @@ country = {
 
 		AT9 = { # Piranshahr
 			government = tribal_federation
-			primary_culture = median
+			primary_culture = tukri
 			religion = mithra_religion
 
 

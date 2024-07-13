@@ -2370,8 +2370,8 @@
 
 5232={ #Zagros
 	terrain="impassable_terrain"
-	culture="median"
-	religion="zoroaster"
+	culture="cossian"
+	religion="mesopotamian_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2380,7 +2380,7 @@
 
 5233={ #Kossioia
 	terrain="impassable_terrain"
-	culture="cossian"
+	culture="gutian"
 	religion="mesopotamian_religion"
 	trade_goods=""
 	civilization_value=0
@@ -4441,7 +4441,7 @@
 5973={ #
 	terrain="impassable_terrain"
 	culture="aestian"
-	religion="matrist_religion"
+	religion="uralic_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -6731,7 +6731,7 @@
 7643={ #Fennia
 	terrain="impassable_terrain"
 	culture="aestian"
-	religion="germanic_religion"
+	religion="uralic_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -9080,7 +9080,7 @@
 
 9812={ #PROV9812
 	terrain="impassable_terrain"
-	culture="median"
+	culture="lullu"
 	religion="zoroaster"
 	trade_goods=""
 	civilization_value=0
@@ -9100,7 +9100,7 @@
 
 9814={ #PROV9814
 	terrain="mountain"
-	culture="median"
+	culture="lullu"
 	religion="zoroaster"
 	trade_goods=""
 	civilization_value=0
@@ -9110,7 +9110,7 @@
 
 9815={ #PROV9815
 	terrain="impassable_terrain"
-	culture="median"
+	culture="gutian"
 	religion="zoroaster"
 	trade_goods=""
 	civilization_value=0

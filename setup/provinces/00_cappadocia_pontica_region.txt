@@ -915,7 +915,7 @@
 1823={ #Diakopa
 	terrain="hills"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="cattle"
 	civilization_value=9
 	barbarian_power=0
@@ -942,7 +942,7 @@
 1824={ #Andrapa
 	terrain="forest"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="hemp"
 	civilization_value=9
 	barbarian_power=0
@@ -969,7 +969,7 @@
 1826={ #Pteria Pontias
 	terrain="forest"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="hemp"
 	civilization_value=9
 	barbarian_power=0
@@ -996,7 +996,7 @@
 1831={ #Pimolisa
 	terrain="hills"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="wood"
 	civilization_value=9
 	barbarian_power=0
@@ -1080,7 +1080,7 @@
 1837={ #Euchaita
 	terrain="hills"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="vegetables"
 	civilization_value=9
 	barbarian_power=0
