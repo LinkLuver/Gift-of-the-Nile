@@ -57,6 +57,12 @@
  taoism:0 "Daoist"
  desc_taoism:0 "Daoism, also known as Taoism or the School of the Way, offers a profound philosophical path deeply rooted in ancient Chinese thought. It centers on the concept of the Tao, the eternal and ever-flowing Way, advocating for a harmonious life by aligning with the natural rhythms of the universe. Taoism encourages simplicity, spontaneity, and the cultivation of inner balance as keys to a meaningful existence."
 
+ uralic_pantheon:0 "Ilmaric"
+ desc_uralic_pantheon:0 "Ilmaric represents the Finno-Ugric culture group's religion. It includes a vast array of cultures and beliefs, all revolving around the lead god, Ilma, who was most certainly venerated in all Finno-Ugric cultures. Along with Ilma, Ilmaric beliefs include an emphasis on the light of the Night and Day skies—the Moon and Sun."
+
+ hatti_religion: "Hattic"
+ desc_hatti_religion: "The ancient faith of the Hatti was once forgotten by the peoples living in Anatolia, although it has recently been revived by those living in Paphlagonia. The Hatti faithful are in tune with the natural cycles of the seasons and the Earth itself; offerings and libations are prepared and served to the Mother Goddess in order to keep the fields fertile and to prevent celestial calamities from overwhelming the land."
+
 
  # Conversions
 
@@ -98,6 +104,12 @@
 
  convert_to_taoism:0 "Follow the Dao"
  convert_to_taoism_desc:0 "In the quiet corners of our land, the teachings of Daoism have found a home, offering profound insights into the mysteries of existence. As whispers of the way of the Universe, the Dao, permeate through all layers of our society, we confront a pivotal question. Should we wholeheartedly embrace the wisdom of Taoism as the guiding light of our nation, guiding us on a unique path of understanding and serenity?"
+
+ convert_to_hatti_religion:0 "Adopt Hattic Pantheon"
+ convert_to_hatti_religion_desc:0 "Once, in the lands we now know as Anatolia, we called it the lands of the Hatti. And as fate would have it, the lands of the Hatti have once more returned to the faith of the ancient people. Shall we too accept the resurgent Hattic pantheon?"
+ 
+ convert_to_uralic_pantheon:0 "Adopt Ilmaric Beliefs"
+ convert_to_uralic_pantheon_desc:0 "The supreme god of the sky, Ilma, has been adopted by many of our people. They talk of the vibrant light of the first dawn and the deafening black of the last ray of the sun. From the Finns to the Ugrics, and to us as well now, the lights shine. It is time to open the curtains of the nation and adopt the Ilamric religion."
 
 
  # Egyptian Religious Flavor
