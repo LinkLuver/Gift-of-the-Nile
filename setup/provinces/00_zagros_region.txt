@@ -37,7 +37,7 @@
 	terrain="hills"
 	culture="assyrian"
 	religion="mesopotamian_religion"
-	trade_goods="leather"
+	trade_goods="steppe_horses"
 	civilization_value=34
 	barbarian_power=0
 	province_rank="city"
@@ -79,7 +79,7 @@
 	terrain="hills"
 	culture="assyrian"
 	religion="mesopotamian_religion"
-	trade_goods="leather"
+	trade_goods="horses"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -114,7 +114,7 @@
 	terrain="farmland"
 	culture="shubar"
 	religion="ashur_religion"
-	trade_goods="stone"
+	trade_goods="salt"
 	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
@@ -233,7 +233,7 @@
 	terrain="mountain"
 	culture="median"
 	religion="mithra_religion"
-	trade_goods="stone"
+	trade_goods="iron"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -321,7 +321,7 @@
 	terrain="mountain"
 	culture="lullu"
 	religion="mesopotamian_religion"
-	trade_goods="stone"
+	trade_goods="cattle"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -532,7 +532,7 @@
 	terrain="hills"
 	culture="shubar"
 	religion="ashur_religion"
-	trade_goods="stone"
+	trade_goods="glass"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -576,7 +576,7 @@
 	terrain="hills"
 	culture="assyrian"
 	religion="mesopotamian_religion"
-	trade_goods="stone"
+	trade_goods="leather"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -664,7 +664,7 @@
 	terrain="hills"
 	culture="assyrian"
 	religion="mesopotamian_religion"
-	trade_goods="stone"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -708,7 +708,7 @@
 	terrain="plains"
 	culture="assyrian"
 	religion="mesopotamian_religion"
-	trade_goods="stone"
+	trade_goods="fur"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -752,7 +752,7 @@
 	terrain="mountain"
 	culture="shubar"
 	religion="zoroaster"
-	trade_goods="stone"
+	trade_goods="wild_game"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -765,7 +765,7 @@
 	terrain="mountain"
 	culture="shubar"
 	religion="armenian_religion"
-	trade_goods="stone"
+	trade_goods="marble"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -778,7 +778,7 @@
 	terrain="mountain"
 	culture="shubar"
 	religion="armenian_religion"
-	trade_goods="stone"
+	trade_goods="salt"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -791,7 +791,7 @@
 	terrain="hills"
 	culture="tukri"
 	religion="armenian_religion"
-	trade_goods="stone"
+	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -804,7 +804,7 @@
 	terrain="hills"
 	culture="tukri"
 	religion="zoroaster"
-	trade_goods="stone"
+	trade_goods="horses"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -817,7 +817,7 @@
 	terrain="mountain"
 	culture="tukri"
 	religion="armenian_religion"
-	trade_goods="stone"
+	trade_goods="salt"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -830,7 +830,7 @@
 	terrain="mountain"
 	culture="shubar"
 	religion="armenian_religion"
-	trade_goods="stone"
+	trade_goods="iron"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -843,7 +843,7 @@
 	terrain="hills"
 	culture="shubar"
 	religion="zoroaster"
-	trade_goods="stone"
+	trade_goods="cloth"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -856,7 +856,7 @@
 	terrain="hills"
 	culture="shubar"
 	religion="zoroaster"
-	trade_goods="stone"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -869,7 +869,7 @@
 	terrain="mountain"
 	culture="shubar"
 	religion="armenian_religion"
-	trade_goods="stone"
+	trade_goods="fur"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -895,7 +895,7 @@
 	terrain="mountain"
 	culture="shubar"
 	religion="zoroaster"
-	trade_goods="stone"
+	trade_goods="steppe_horses"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -921,7 +921,7 @@
 	terrain="mountain"
 	culture="tukri"
 	religion="zoroaster"
-	trade_goods="stone"
+	trade_goods="feathers"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -934,7 +934,7 @@
 	terrain="mountain"
 	culture="tukri"
 	religion="zoroaster"
-	trade_goods="stone"
+	trade_goods="wild_game"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -960,7 +960,7 @@
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods="stone"
+	trade_goods="iron"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -973,7 +973,7 @@
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
-	trade_goods="stone"
+	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -986,7 +986,7 @@
 	terrain="mountain"
 	culture="tukri"
 	religion="armenian_religion"
-	trade_goods="stone"
+	trade_goods="leather"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1012,7 +1012,7 @@
 	terrain="hills"
 	culture="lullu"
 	religion="zoroaster"
-	trade_goods="stone"
+	trade_goods="salt"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1038,7 +1038,7 @@
 	terrain="mountain"
 	culture="lullu"
 	religion="armenian_religion"
-	trade_goods="stone"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1051,7 +1051,7 @@
 	terrain="mountain"
 	culture="lullu"
 	religion="armenian_religion"
-	trade_goods="stone"
+	trade_goods="marble"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1064,7 +1064,7 @@
 	terrain="hills"
 	culture="lullu"
 	religion="zoroaster"
-	trade_goods="stone"
+	trade_goods="cloth"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1077,7 +1077,7 @@
 	terrain="hills"
 	culture="lullu"
 	religion="mesopotamian_religion"
-	trade_goods="stone"
+	trade_goods="leather"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1090,7 +1090,7 @@
 	terrain="hills"
 	culture="lullu"
 	religion="zoroaster"
-	trade_goods="stone"
+	trade_goods="wild_game"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1103,7 +1103,7 @@
 	terrain="hills"
 	culture="lullu"
 	religion="zoroaster"
-	trade_goods="stone"
+	trade_goods="iron"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1116,7 +1116,7 @@
 	terrain="hills"
 	culture="lullu"
 	religion="zoroaster"
-	trade_goods="stone"
+	trade_goods="glass"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1155,7 +1155,7 @@
 	terrain="mountain"
 	culture="lullu"
 	religion="mesopotamian_religion"
-	trade_goods="stone"
+	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1168,7 +1168,7 @@
 	terrain="mountain"
 	culture="lullu"
 	religion="mesopotamian_religion"
-	trade_goods="stone"
+	trade_goods="horses"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1181,7 +1181,7 @@
 	terrain="mountain"
 	culture="lullu"
 	religion="mithra_religion"
-	trade_goods="stone"
+	trade_goods="feathers"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1194,7 +1194,7 @@
 	terrain="mountain"
 	culture="lullu"
 	religion="mithra_religion"
-	trade_goods="stone"
+	trade_goods="precious_metals"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1207,7 +1207,7 @@
 	terrain="mountain"
 	culture="lullu"
 	religion="mithra_religion"
-	trade_goods="stone"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1220,7 +1220,7 @@
 	terrain="hills"
 	culture="lullu"
 	religion="mesopotamian_religion"
-	trade_goods="stone"
+	trade_goods="iron"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1246,7 +1246,7 @@
 	terrain="hills"
 	culture="cossian"
 	religion="mesopotamian_religion"
-	trade_goods="stone"
+	trade_goods="salt"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1272,7 +1272,7 @@
 	terrain="hills"
 	culture="cossian"
 	religion="mesopotamian_religion"
-	trade_goods="stone"
+	trade_goods="wild_game"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1285,7 +1285,7 @@
 	terrain="hills"
 	culture="cossian"
 	religion="mesopotamian_religion"
-	trade_goods="stone"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1298,7 +1298,7 @@
 	terrain="hills"
 	culture="cossian"
 	religion="mesopotamian_religion"
-	trade_goods="stone"
+	trade_goods="fur"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1311,7 +1311,7 @@
 	terrain="hills"
 	culture="cossian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="wild_game"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1324,7 +1324,7 @@
 	terrain="hills"
 	culture="cossian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="iron"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1337,7 +1337,7 @@
 	terrain="hills"
 	culture="cossian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="cloth"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1350,7 +1350,7 @@
 	terrain="hills"
 	culture="cossian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="steppe_horses"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1363,7 +1363,7 @@
 	terrain="hills"
 	culture="cossian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1376,7 +1376,7 @@
 	terrain="mountain"
 	culture="cossian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="precious_metals"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1402,7 +1402,7 @@
 	terrain="mountain"
 	culture="cossian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="marble"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1415,7 +1415,7 @@
 	terrain="mountain"
 	culture="gutian"
 	religion="zoroaster"
-	trade_goods="stone"
+	trade_goods="feathers"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1428,7 +1428,7 @@
 	terrain="mountain"
 	culture="cossian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="salt"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1441,7 +1441,7 @@
 	terrain="mountain"
 	culture="cossian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1454,7 +1454,7 @@
 	terrain="mountain"
 	culture="cossian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1467,7 +1467,7 @@
 	terrain="hills"
 	culture="cossian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="iron"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1480,7 +1480,7 @@
 	terrain="hills"
 	culture="gutian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="salt"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1506,7 +1506,7 @@
 	terrain="mountain"
 	culture="cossian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="wild_game"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1519,7 +1519,7 @@
 	terrain="hills"
 	culture="gutian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="leather"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1532,7 +1532,7 @@
 	terrain="hills"
 	culture="gutian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="wild_game"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1545,7 +1545,7 @@
 	terrain="hills"
 	culture="gutian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="marble"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1558,7 +1558,7 @@
 	terrain="hills"
 	culture="gutian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1571,7 +1571,7 @@
 	terrain="hills"
 	culture="gutian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="precious_metals"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1584,7 +1584,7 @@
 	terrain="mountain"
 	culture="gutian"
 	religion="elamite_pantheon"
-	trade_goods="stone"
+	trade_goods="cloth"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1597,7 +1597,7 @@
 	terrain="mountain"
 	culture="lullu"
 	religion="mithra_religion"
-	trade_goods="stone"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1610,7 +1610,7 @@
 	terrain="mountain"
 	culture="gutian"
 	religion="mithra_religion"
-	trade_goods="stone"
+	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1623,7 +1623,7 @@
 	terrain="hills"
 	culture="gutian"
 	religion="mithra_religion"
-	trade_goods="stone"
+	trade_goods="salt"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1636,7 +1636,7 @@
 	terrain="hills"
 	culture="gutian"
 	religion="mithra_religion"
-	trade_goods="stone"
+	trade_goods="feathers"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1649,7 +1649,7 @@
 	terrain="mountain"
 	culture="gutian"
 	religion="mithra_religion"
-	trade_goods="stone"
+	trade_goods="iron"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1675,7 +1675,7 @@
 	terrain="mountain"
 	culture="gutian"
 	religion="mithra_religion"
-	trade_goods="stone"
+	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1688,7 +1688,7 @@
 	terrain="mountain"
 	culture="gutian"
 	religion="mithra_religion"
-	trade_goods="stone"
+	trade_goods="horses"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1701,7 +1701,7 @@
 	terrain="mountain"
 	culture="gutian"
 	religion="mithra_religion"
-	trade_goods="stone"
+	trade_goods="fur"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1714,7 +1714,7 @@
 	terrain="mountain"
 	culture="gutian"
 	religion="mithra_religion"
-	trade_goods="stone"
+	trade_goods="salt"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"

@@ -7996,3 +7996,93 @@ alalakh_heritage = {
         tag = AKH
     }
 }
+
+cyrti_heritage = {
+    modifier = {
+        #good
+        enslavement_efficiency = 0.075
+        mountain_combat_bonus = 0.10
+        
+        #bad
+        diplomatic_reputation = -2
+    }
+    
+    trigger = {
+        primary_culture = cyrtian
+    }
+}
+
+subartu_heritage = {
+    modifier = {
+        #good
+        happiness_for_wrong_culture_group_modifier = 0.03
+        mountain_combat_bonus = 0.10
+        
+        #bad
+        global_population_capacity_modifier = -0.05
+    }
+    
+    trigger = {
+        primary_culture = shubar
+    }
+}
+
+tukri_heritage = {
+    modifier = {
+        #good
+        global_goods_from_slaves = -3
+        mountain_combat_bonus = 0.10
+        
+        #bad
+        global_slaves_happyness = -0.075
+    }
+    
+    trigger = {
+        primary_culture = tukri
+    }
+}
+
+lullu_heritage = {
+    modifier = {
+        #good
+        light_infantry_morale = 0.10
+        global_monthly_civilization = 0.05
+        
+        #bad
+        global_citizen_happyness = -0.05
+    }
+    
+    trigger = {
+        primary_culture = lullu
+    }
+}
+
+gutia_heritage = {
+    modifier = {
+        #good
+        diplomatic_reputation = 2
+        global_citizen_output = 0.06
+        
+        #bad
+        global_population_capacity_modifier = -0.075
+    }
+    
+    trigger = {
+        primary_culture = gutian
+    }
+}
+
+kassite_heritage = {
+    modifier = {
+        #good
+        archers_discipline = 0.10
+        hills_combat_bonus = 0.10
+        
+        #bad
+        global_monthly_civilization = -0.03
+    }
+    
+    trigger = {
+        primary_culture = cossian
+    }
+}

@@ -2738,7 +2738,7 @@
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
-	trade_goods="grain"
+	trade_goods="stone"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2751,7 +2751,7 @@
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
-	trade_goods="grain"
+	trade_goods="wild_game"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2764,7 +2764,7 @@
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
-	trade_goods="grain"
+	trade_goods="stone"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
