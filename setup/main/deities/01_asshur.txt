@@ -1,14 +1,14 @@
 deity_manager = {
-	deities_database = { ### KEYS 30601 - 30700
-		30601 = {
+	deities_database = { ### KEYS 30801 - 30900
+		30801 = {
 			key = omen_ninurta_asshur
 			deity = deity_ninurta_asshur
 		}
-		30702 = {
+		30802 = {
 			key = omen_shamash_asshur
 			deity = deity_shamash_asshur
 		}
-		30703 = {
+		30803 = {
 			key = omen_asshuritu
 			deity = deity_asshuritu
 		}

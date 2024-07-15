@@ -990,6 +990,12 @@ me_akhetaton.666 = {
                 is_alive = yes
             }
         }
+        trigger_if = {
+            limit = {
+                char:519 = { is_ruler = yes }
+            }
+            char:519 = { has_variable = cursed_child_var }
+        }
     }
 
     option = {

@@ -79,7 +79,7 @@
         duration = 180
         requires = { akhetaton_missions_task_1 }
         allow = {
-            current_ruler = {
+            char:517 = {
                 age >= 21
             }
             char:517 = {
@@ -90,7 +90,7 @@
         }
         bypass = {
             OR = {
-                current_ruler = {
+                char:517 = {
                     age >= 21
                 }
                 char:517 = {
@@ -110,14 +110,14 @@
         duration = 180
         requires = { akhetaton_missions_task_1 }
         allow = {
-            current_ruler = {
+            char:517 = {
                 age >= 21
             }
             military_experience >= 10
         }
         bypass = {
             OR = {
-                current_ruler = {
+                char:517 = {
                     age >= 21
                 }
             }
@@ -144,7 +144,7 @@
         }
         bypass = {
             OR = {
-                current_ruler = {
+                char:517 = {
                     age >= 21
                 }
             }
@@ -161,7 +161,7 @@
         duration = 180
         requires = { akhetaton_missions_task_1 }
         allow = {
-            current_ruler = {
+            char:517 = {
                 age <= 21
             }
             char:519 = {
@@ -170,7 +170,7 @@
         }
         bypass = {
             OR = {
-                current_ruler = {
+                char:517 = {
                     age >= 21
                 }
                 char:517 = {
