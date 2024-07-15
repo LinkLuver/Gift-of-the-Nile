@@ -8023,7 +8023,10 @@ subartu_heritage = {
     }
     
     trigger = {
-        primary_culture = shubar
+        OR = {
+            primary_culture = shubar
+            tag = AT7
+        }
     }
 }
 
@@ -8064,7 +8067,7 @@ gutia_heritage = {
         global_citizen_output = 0.06
         
         #bad
-        global_population_capacity_modifier = -0.075
+        global_population_capacity_modifier = -0.05
     }
     
     trigger = {

@@ -74,7 +74,21 @@
 
  #Modifiers
 
-
+ #Others
+ BR1:0 "Sittacene"
+ BR1_ADJ:0 "Sittacenean"
+ BR2:0 "Uruk"
+ BR2_ADJ:0 "Urukan"
+ BR3:0 "Arakhid Kingdom"
+ BR3_ADJ:0 "Arakhid"
+ BR4:0 "Borsippa"
+ BR4_ADJ:0 "Borsippan"
+ BR5:0 "Sippar"
+ BR5_ADJ:0 "Sipparan"
+ BR6:0 "Chaldea"
+ BR6_ADJ:0 "Chaldean"
+ BR7:0 "Akkad"
+ BR7_ADJ:0 "Akkadian"
 
  #Events
  me_babylon_1_title:0 "$babylon_missions_task_task_1$"

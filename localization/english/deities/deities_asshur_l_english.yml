@@ -4,10 +4,14 @@
  omen_asshuritu:0 "Ishtar-Assuritu"
  omen_asshuritu_desc:0 "Ishtar of Nineveh, Assuritu, or Ishtar-Assuritu. Assuritu is the epithet given to the Isthar of the Assyrians by her cult worshippers in the city of Uruk. In her Assyrian form, she is a restorer of cities as well as a destroyer of them. The concepts of love and war come hand in hand in her worship. Assuritu is also considered the consort of Ashshur himself. She is often compared to the goddess Shaushka, another goddess of war of the Hurrio-Hittites."
 
- deity_ninurta_asshur:0 "$omen_asshur$"
+ deity_ninurta_asshur:0 "$omen_ninurta_asshur$"
  omen_ninurta_asshur:0 "Ninurta da-Nimrud"
  omen_ninurta_asshur_desc:0 "Ninurta of the city of Nimrud, the patron of farming and produce. In Asshurism, Ninurta da-Nimrud has taken the role of a helper to Ashshur, tending to the fields and keeping armies wellfed. He is responsible for the upkeep of the military."
 
- deity_shamash_asshur:0 "$omen_asshur$"
+ deity_shamash_asshur:0 "$omen_shamash_asshur$"
  omen_shamash_asshur:0 "Danah Shamesh"
  omen_shamash_asshur_desc:0 "Danah Shamesh, the Dawning Shamesh, he rises at the break of dawn, under Ashshur, he performs justice and jurisdiction. The whole of the 4 corners of the universe is seen by Shamesh, and he first appears with his light on Nineveh and Asshur, the cities of the Assyrian Empire."
+
+ deity_dinitu:0 "$omen_dinitu$"
+ omen_dinitu:0 "Dinitu"
+ omen_dinitu_desc:0 "The well-understood goddess, Dinitu, was mentioned by only one Assyrian King, yet this King's impact cannot be underappreciated. The words of Tukulti-Ninurta ring out from their immortal stone tablets; "I built within a lofty dais and an awesome sanctuary for the abode of the goddess Dinitu, my mistress, and deposited my stelas." In more recent years, her worship was revived and then reassimilated into the Asshur-Ishtar belief system of Assyria as a helper to Ishtar."

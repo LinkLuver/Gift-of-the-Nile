@@ -1,4 +1,4 @@
-﻿namespace = babylon_war
+namespace = babylon_war
 
 babylon_war.1 = { # Initial
     type = country_event
@@ -74,4 +74,466 @@ babylon_war.1 = { # Initial
             }
         }
     }
+}
+
+babylon_war.10 = { # Sittacene Revolt
+    type = country_event
+    title = babylon_war_10_title
+    desc = babylon_war_10_desc
+    picture = babylon_plundered
+    trigger = {
+        tag = SEL
+    }
+
+    immediate = {
+        hidden_effect = {
+            p:927 = {
+                random_pops_in_province = {
+                    set_pop_culture = sittacenean
+                }
+                create_country = {
+                    name = {
+                        name = "BR1"
+                        adjective = "BR1_ADJ"
+                    }
+                    change_country_tag = BR1
+                    #change_country_flag = DAL
+                    change_country_color = sun_yellow
+                    if = {
+                        limit = {
+                            NOT = {
+                                primary_culture = sittacenean
+                            }
+                        }
+                        set_primary_culture_cleanup_effect = {
+                            NEW_PRIMARY_CULTURE = sittacenean
+                            MAKE_OLD_CULTURE_INTEGRATED = yes
+                        }
+                    }
+                    change_government = aristocratic_monarchy
+                    add_treasury = 50.0
+                    save_scope_as = sittacene_scope
+                }
+            }
+            area:beth_daraye_area = {
+                every_area_province = {
+                    limit = {
+                        owner = ROOT
+                    }
+                    set_owned_by = scope:sittacene_scope
+                }
+            }
+            area:cossaea_area = {
+                every_area_province = {
+                    limit = {
+                        owner = ROOT
+                    }
+                    set_owned_by = scope:sittacene_scope
+                }
+            }
+            area:qirbiti_area = {
+                every_area_province = {
+                    limit = {
+                        owner = ROOT
+                    }
+                    set_owned_by = scope:sittacene_scope
+                }
+            }
+        }
+    }
+
+    option = {
+        declare_war_with_wargoal = {
+            war_goal = imperial_conquest_wargoal
+            province = 927
+            target = scope:sittacene_scope
+        }
+    }
+    option = {
+        declare_war_with_wargoal = {
+            war_goal = imperial_conquest_wargoal
+            province = 927
+            target = scope:sittacene_scope
+        }
+        set_player_country = scope:sittacene_scope
+    }
+}
+
+babylon_war.11 = { # Uruk Revolt
+    type = country_event
+    title = babylon_war_10_title
+    desc = babylon_war_10_desc
+    picture = babylon_plundered
+    trigger = {
+        tag = SEL
+    }
+
+    immediate = {
+        hidden_effect = {
+            p:937 = {
+                random_pops_in_province = {
+                    set_pop_culture = chaldean
+                }
+                create_country = {
+                    name = {
+                        name = "BR2"
+                        adjective = "BR2_ADJ"
+                    }
+                    change_country_tag = BR2
+                    #change_country_flag = DAL
+                    change_country_color = olympian_white
+                    if = {
+                        limit = {
+                            NOT = {
+                                primary_culture = chaldean
+                            }
+                        }
+                        set_primary_culture_cleanup_effect = {
+                            NEW_PRIMARY_CULTURE = chaldean
+                            MAKE_OLD_CULTURE_INTEGRATED = yes
+                        }
+                    }
+                    change_government = aristocratic_monarchy
+                    add_treasury = 50.0
+                    save_scope_as = uruk_scope
+                }
+            }
+            area:veh_kavad_area = {
+                every_area_province = {
+                    limit = {
+                        owner = ROOT
+                    }
+                    set_owned_by = scope:uruk_scope
+                }
+            }
+            area:meshan_area = {
+                every_area_province = {
+                    limit = {
+                        owner = ROOT
+                    }
+                    set_owned_by = scope:uruk_scope
+                }
+            }
+        }
+    }
+
+    option = {
+        declare_war_with_wargoal = {
+            war_goal = imperial_conquest_wargoal
+            province = 937
+            target = scope:uruk_scope
+        }
+    }
+    option = {
+        declare_war_with_wargoal = {
+            war_goal = imperial_conquest_wargoal
+            province = 937
+            target = scope:uruk_scope
+        }
+        set_player_country = scope:uruk_scope
+    }
+}
+
+babylon_war.12 = { # Arakhid Revolt
+    type = country_event
+    title = babylon_war_10_title
+    desc = babylon_war_10_desc
+    picture = babylon_plundered
+    trigger = {
+        tag = SEL
+    }
+
+    immediate = {
+        hidden_effect = {
+            p:899 = {
+                random_pops_in_province = {
+                    set_pop_culture = armenian
+                }
+                create_country = {
+                    name = {
+                        name = "BR3"
+                        adjective = "BR3_ADJ"
+                    }
+                    change_country_tag = BR3
+                    #change_country_flag = DAL
+                    change_country_color = armenia_color
+                    if = {
+                        limit = {
+                            NOT = {
+                                primary_culture = armenian
+                            }
+                        }
+                        set_primary_culture_cleanup_effect = {
+                            NEW_PRIMARY_CULTURE = armenian
+                            MAKE_OLD_CULTURE_INTEGRATED = yes
+                        }
+                    }
+                    random_country_culture = {
+                        limit = { is_culture = sutean }
+                        ROOT = { integrate_country_culture = PREV }
+                    }
+                    change_government = aristocratic_monarchy
+                    add_treasury = 50.0
+                    save_scope_as = arakhid_scope
+                }
+            }
+            area:east_sutea = {
+                every_area_province = {
+                    limit = {
+                        owner = ROOT
+                    }
+                    set_owned_by = scope:arakhid_scope
+                }
+            }
+            area:west_sutea = {
+                every_area_province = {
+                    limit = {
+                        owner = ROOT
+                    }
+                    set_owned_by = scope:arakhid_scope
+                }
+            }
+        }
+    }
+
+    option = {
+        declare_war_with_wargoal = {
+            war_goal = imperial_conquest_wargoal
+            province = 899
+            target = scope:arakhid_scope
+        }
+    }
+    option = {
+        declare_war_with_wargoal = {
+            war_goal = imperial_conquest_wargoal
+            province = 899
+            target = scope:arakhid_scope
+        }
+        set_player_country = scope:arakhid_scope
+    }
+}
+babylon_war.13 = { # Sippar and Borsip Revolts
+    type = country_event
+    title = babylon_war_10_title
+    desc = babylon_war_10_desc
+    picture = babylon_plundered
+    trigger = {
+        tag = SEL
+    }
+
+    immediate = {
+        hidden_effect = {
+            p:919 = {
+                random_pops_in_province = {
+                    set_pop_culture = babylonian
+                }
+                create_country = {
+                    name = {
+                        name = "BR4"
+                        adjective = "BR4_ADJ"
+                    }
+                    change_country_tag = BR4
+                    #change_country_flag = DAL
+                    change_country_color = eastern_roman_color
+                    if = {
+                        limit = {
+                            NOT = {
+                                primary_culture = babylonian
+                            }
+                        }
+                        set_primary_culture_cleanup_effect = {
+                            NEW_PRIMARY_CULTURE = babylonian
+                            MAKE_OLD_CULTURE_INTEGRATED = yes
+                        }
+                    }
+                    change_government = aristocratic_monarchy
+                    add_treasury = 50.0
+                    save_scope_as = borsippa_scope
+                }
+            }
+            area:borsip_area = {
+                every_area_province = {
+                    limit = {
+                        owner = ROOT
+                    }
+                    set_owned_by = scope:borsippa_scope
+                }
+            }
+            p:910 = {
+                random_pops_in_province = {
+                    set_pop_culture = babylonian
+                }
+                create_country = {
+                    name = {
+                        name = "BR5"
+                        adjective = "BR5_ADJ"
+                    }
+                    change_country_tag = BR5
+                    #change_country_flag = DAL
+                    change_country_color = argolis_color
+                    if = {
+                        limit = {
+                            NOT = {
+                                primary_culture = babylonian
+                            }
+                        }
+                        set_primary_culture_cleanup_effect = {
+                            NEW_PRIMARY_CULTURE = babylonian
+                            MAKE_OLD_CULTURE_INTEGRATED = yes
+                        }
+                    }
+                    change_government = aristocratic_monarchy
+                    add_treasury = 50.0
+                    save_scope_as = sippar_scope
+                }
+            }
+            area:sippar_area = {
+                every_area_province = {
+                    limit = {
+                        owner = ROOT
+                    }
+                    set_owned_by = scope:sippar_scope
+                }
+            }
+        }
+    }
+
+    option = {
+        declare_war_with_wargoal = {
+            war_goal = imperial_conquest_wargoal
+            province = 910
+            target = scope:borsippa_scope
+        }
+        declare_war_with_wargoal = {
+            war_goal = imperial_conquest_wargoal
+            province = 919
+            target = scope:sippar_scope
+        }
+    }
+    option = {
+        declare_war_with_wargoal = {
+            war_goal = imperial_conquest_wargoal
+            province = 910
+            target = scope:borsippa_scope
+        }
+        declare_war_with_wargoal = {
+            war_goal = imperial_conquest_wargoal
+            province = 919
+            target = scope:sippar_scope
+        }
+        set_player_country = scope:borsippa_scope
+    }
+    option = {
+        declare_war_with_wargoal = {
+            war_goal = imperial_conquest_wargoal
+            province = 910
+            target = scope:borsippa_scope
+        }
+        declare_war_with_wargoal = {
+            war_goal = imperial_conquest_wargoal
+            province = 919
+            target = scope:sippar_scope
+        }
+        set_player_country = scope:sippar_scope
+    }
+}
+babylon_war.14 = { # Vassalization Optional
+    type = country_event
+    title = babylon_war_10_title
+    desc = babylon_war_10_desc
+    picture = babylon_plundered
+    trigger = {
+        tag = SEL
+    }
+
+    option = {
+        hidden_effect = {
+            p:933 = {
+                random_pops_in_province = {
+                    set_pop_culture = chaldean
+                }
+                create_country = {
+                    name = {
+                        name = "BR6"
+                        adjective = "BR6_ADJ"
+                    }
+                    change_country_tag = BR6
+                    #change_country_flag = DAL
+                    change_country_color = garnet_red
+                    if = {
+                        limit = {
+                            NOT = {
+                                primary_culture = chaldean
+                            }
+                        }
+                        set_primary_culture_cleanup_effect = {
+                            NEW_PRIMARY_CULTURE = chaldean
+                            MAKE_OLD_CULTURE_INTEGRATED = yes
+                        }
+                    }
+                    change_government = theocratic_republic
+                    add_treasury = 50.0
+                    save_scope_as = chaldea_scope
+                }
+            }
+            area:east_sumer = {
+                every_area_province = {
+                    limit = {
+                        owner = ROOT
+                    }
+                    set_owned_by = scope:chaldea_scope
+                }
+            }
+            p:912 = {
+                random_pops_in_province = {
+                    set_pop_culture = babylonian
+                }
+                create_country = {
+                    name = {
+                        name = "BR7"
+                        adjective = "BR7_ADJ"
+                    }
+                    change_country_tag = BR7
+                    #change_country_flag = DAL
+                    change_country_color = euboean_blue
+                    if = {
+                        limit = {
+                            NOT = {
+                                primary_culture = babylonian
+                            }
+                        }
+                        set_primary_culture_cleanup_effect = {
+                            NEW_PRIMARY_CULTURE = babylonian
+                            MAKE_OLD_CULTURE_INTEGRATED = yes
+                        }
+                    }
+                    change_government = theocratic_republic
+                    add_treasury = 50.0
+                    save_scope_as = akkad_scope
+                }
+            }
+            area:asoristan_area = {
+                every_area_province = {
+                    limit = {
+                        owner = ROOT
+                    }
+                    set_owned_by = scope:akkad_scope
+                }
+            }
+            scope:chaldea_scope = {
+                make_subject = {
+                    target = ROOT
+                    type = feudatory
+                }
+            }
+            scope:akkad_scope = {
+                make_subject = {
+                    target = ROOT
+                    type = feudatory
+                }
+            }
+        }
+    }
+
+    option = { }
 }
