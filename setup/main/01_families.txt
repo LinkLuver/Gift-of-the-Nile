@@ -728,7 +728,7 @@ family={
 			owner=ELM
 		}
 		2202 = {
-			key = "Nassirid"
+			key = "Nergilid"
 			prestige=200
 			culture=babylonian
 			owner=SEL
@@ -746,6 +746,24 @@ family={
 			culture=assyrian
 			owner=ADI
 			color = 2
+		}
+		2205 = {
+			key = "Arakhid"
+			prestige=50
+			culture=armenian
+			owner=SEL
+		}
+		2206 = {
+			key = "Shamashid"
+			prestige=200
+			culture=sittacenean
+			owner=SEL
+		}
+		2207 = {
+			key = "Shimannid"
+			prestige=100
+			culture=babylonian
+			owner=SEL
 		}
 	}
 }

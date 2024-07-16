@@ -437,7 +437,7 @@
 	country="SEL"
 	530={
 		first_name="Ea-Nassir" # Sin
-		family = c:SEL.fam:Nassirid
+		family = c:SEL.fam:Nergilid
 		birth_date=382.2.19
 		culture="babylonian"
 		religion="mesopotamian_religion"
@@ -447,7 +447,7 @@
 		add_finesse=6
 		add_zeal=5
 		no_traits=yes
-		add_trait="nassirid"
+		add_trait="nergilid"
 		add_trait="deceitful"
 		add_trait="devout"
 		add_gold=1000
