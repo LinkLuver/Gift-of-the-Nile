@@ -1,16 +1,22 @@
 namespace = me_babylon
 
-me_babylon.1 = {
+me_babylon.1 = { # Meeting of Priests
     type = country_event
 
     title = me_babylon_1_title
     desc = me_babylon_1_desc
-    picture = great_library
+    picture = hk_babbling_babylon
+
+    immediate = {
+        set_global_variable = {
+            name = babylonian_civil_war_coutner
+            value = 5
+        }
+    }
 
     option = {
         name = "me_babylon_1.a"
         custom_tooltip = me_babylon_1_tooltip
-
     }
 }
 me_babylon.2 = {

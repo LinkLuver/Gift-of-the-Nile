@@ -640,9 +640,10 @@ deity_irshappa = { #God associtaed with Markets and Trade
 deity_nasatyanna = { # CULTURE
 	trigger = {
 		polytheistic_check_religion_trigger = yes
+		has_variable = mitanni_deities
 		OR = {
-			very_common_deity_trigger = {
-				RELIGION = hindu
+			common_deity_trigger = {
+				RELIGION = hurrian_pantheon
 			}
 			deity:omen_nasatyanna = {
 				holy_site_deity_check_trigger = yes
@@ -664,6 +665,7 @@ deity_nasatyanna = { # CULTURE
 }
 deity_ruta = { # FERTILITY
 	trigger = {
+		has_variable = mitanni_deities
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = {
@@ -689,6 +691,7 @@ deity_ruta = { # FERTILITY
 }
 deity_svar = { # ECONOMY
 	trigger = {
+		has_variable = mitanni_deities
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			very_common_deity_trigger = {
@@ -714,6 +717,7 @@ deity_svar = { # ECONOMY
 }
 deity_intar = { # CULTURE
 	trigger = {
+		has_variable = mitanni_deities
 		OR = {
 			common_deity_trigger = {
 				RELIGION = hurrian_pantheon
@@ -738,6 +742,7 @@ deity_intar = { # CULTURE
 }
 deity_ruta = { # WAR
 	trigger = {
+		has_variable = mitanni_deities
 		OR = {
 			polytheistic_check_religion_trigger = yes
 		}
@@ -765,6 +770,7 @@ deity_ruta = { # WAR
 }
 deity_waruna = { # FERTILITY
 	trigger = {
+		has_variable = mitanni_deities
 		OR = {
 			polytheistic_check_religion_trigger = yes
 		}
@@ -792,6 +798,7 @@ deity_waruna = { # FERTILITY
 }
 deity_agnis = { # WAR
 	trigger = {
+		has_variable = mitanni_deities
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = {
@@ -817,6 +824,7 @@ deity_agnis = { # WAR
 }
 deity_wayu = { # ECONOMY
 	trigger = {
+		has_variable = mitanni_deities
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = {
@@ -825,7 +833,6 @@ deity_wayu = { # ECONOMY
 			deity:omen_wayu = {
 				holy_site_deity_check_trigger = yes
 			}
-			
 		}
 	}
 	icon = deity_hindu_wealth
