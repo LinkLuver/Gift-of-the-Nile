@@ -1,0 +1,398 @@
+﻿### General Deity Checks ###
+# Niskriyavata
+deity_purana = { # WAR
+	trigger = {
+		OR = {
+			polytheistic_check_religion_trigger = yes
+			religion = ajivika
+			religion = kassapan
+		}
+		OR = {
+			common_deity_trigger = {
+				RELIGION = ajivika
+			}
+			common_deity_trigger = {
+				RELIGION = kassapan
+			}
+			deity:omen_purana = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
+	omen = { global_slaves_happyness = omen_global_slaves_happiness_svalue } #Bonus from Omen
+	religion = kassapan
+	deity_category = war #This Deity uses a War slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	on_activate = {
+		fertility_apotheosis_capital_slaves_effect = yes
+	}
+}
+deity_niskriya = { # CULTURE
+	trigger = {
+		OR = {
+			polytheistic_check_religion_trigger = yes
+			religion = kassapan
+		}
+		OR = {
+			common_deity_trigger = {
+				RELIGION = kassapan
+			}
+			deity:omen_niskriya = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_nobles_happyness = deity_global_nobles_happiness_svalue }
+	omen = { religious_tech_investment = omen_religious_tech_investment_svalue } #Bonus from Omen
+	religion = kassapan
+	deity_category = culture #This Deity uses a Culture slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	on_activate = {
+		convert_to_nobles_deity_effect = yes
+	}
+}
+deity_asama = { # ECONOMY
+	trigger = {
+		OR = {
+			polytheistic_check_religion_trigger = yes
+			religion = kassapan
+		}
+		OR = {
+			common_deity_trigger = {
+				RELIGION = kassapan
+			}
+			deity:omen_asama = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { stability_monthly_change = deity_stability_monthly_change }
+	omen = { general_loyalty = 3 } #Bonus from Omen
+	religion = kassapan
+	deity_category = economy #This Deity uses an Economy slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	on_activate = {
+		economy_income_effect = yes
+	}
+}
+deity_abhaya = { # FERTILITY
+	trigger = {
+		OR = {
+			polytheistic_check_religion_trigger = yes
+			religion = kassapan
+		}
+		OR = {
+			common_deity_trigger = {
+				RELIGION = kassapan
+			}
+			deity:omen_abhaya = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
+	omen = { global_freemen_happyness = omen_global_freemen_happiness_svalue } #Bonus from Omen
+	religion = kassapan
+	deity_category = war #This Deity uses a War slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	on_activate = {
+		fertility_apotheosis_food_effect = yes
+	}
+}
+deity_mahali = { # FERTILITY
+	trigger = {
+		OR = {
+			polytheistic_check_religion_trigger = yes
+			religion = kassapan
+		}
+		OR = {
+			common_deity_trigger = {
+				RELIGION = kassapan
+			}
+			deity:omen_mahali = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
+	omen = { global_citizen_output = omen_global_citizen_output_svalue } #Bonus from Omen
+	religion = kassapan
+	deity_category = fertility #This Deity uses a Fertility slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+}
+deity_vacchagota = { # ECONOMY
+	trigger = {
+		OR = {
+			polytheistic_check_religion_trigger = yes
+			religion = kassapan
+		}
+		OR = {
+			common_deity_trigger = {
+				RELIGION = kassapan
+			}
+			deity:omen_vacchagota = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_economy
+	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
+	omen = { build_cost = omen_build_cost_svalue } #Bonus from Omen
+	religion = kassapan
+	deity_category = economy #This Deity uses an Economy slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	on_activate = {
+		economy_apotheosis_province_improvement_effect = yes
+	}
+}
+# Ajnana
+deity_sanjaya = { # CULTURE
+	trigger = {
+		OR = {
+			polytheistic_check_religion_trigger = yes
+			religion = ajnana
+		}
+		OR = {
+			common_deity_trigger = {
+				RELIGION = ajnana
+			}
+			deity:omen_sanjaya = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_culture
+	passive_modifier = { military_tech_investment = deity_military_tech_investment_svalue }
+	omen = { global_pop_assimilation_speed_modifier = omen_global_pop_assimilation_speed_modifier_svalue } #Bonus from Omen
+	religion = ajnana
+	deity_category = culture #This Deity uses a Culture slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	on_activate = {
+		culture_apotheosis_oratory_tech_effect = yes
+	}
+}
+deity_yajnavalkya = { # FERTILITY
+	trigger = {
+		OR = {
+			polytheistic_check_religion_trigger = yes
+			religion = ajnana
+		}
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = charvaka
+			}
+			rare_deity_trigger = {
+				RELIGION = ajnana
+			}
+			deity:omen_yajnavalkya = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_hindu_love
+	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
+	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier } #Bonus from Omen
+	religion = ajnana
+	deity_category = fertility #This Deity uses a Fertility slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		fertility_apotheosis_food_effect = yes
+	}
+}
+deity_suppiya = { # ECONOMY
+	trigger = {
+		OR = {
+			polytheistic_check_religion_trigger = yes
+			religion = ajnana
+		}
+		OR = {
+			common_deity_trigger = {
+				RELIGION = ajnana
+			}
+			deity:omen_suppiya = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_culture
+	passive_modifier = { character_loyalty = 3 }
+	omen = { global_commerce_modifier = omen_global_commerce_modifier_svalue } #Bonus from Omen
+	religion = ajnana
+	deity_category = economy #This Deity uses a Culture slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	on_activate = {
+		convert_to_nobles_deity_effect = yes
+	}
+}
+deity_tattvalabdha = { # WAR
+	trigger = {
+		OR = {
+			polytheistic_check_religion_trigger = yes
+			religion = ajnana
+		}
+		OR = {
+			common_deity_trigger = {
+				RELIGION = ajnana
+			}
+			deity:omen_tattvalabdha = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_culture
+	passive_modifier = { monthly_military_experience_modifier = deity_monthly_military_experience_modifier_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue } #Bonus from Omen
+	religion = ajnana
+	deity_category = war #This Deity uses a War slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	on_activate = {
+		military_apotheosis_military_experience_effect = yes
+	}
+}
+
+# Sassativata
+deity_pakudha = { # WAR
+	trigger = {
+		OR = {
+			polytheistic_check_religion_trigger = yes
+			religion = ajivika
+			religion = sassatavada
+		}
+		OR = {
+			common_deity_trigger = {
+				RELIGION = ajivika
+			}
+			common_deity_trigger = {
+				RELIGION = sassatavada
+			}
+			deity:omen_purana = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { discipline = deity_discipline_svalue }
+	omen = { navy_maintenance_cost = deity_navy_maintenance_cost_svalue } #Bonus from Omen
+	religion = sassatavada
+	deity_category = war #This Deity uses a War slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	on_activate = {
+		military_apotheosis_military_experience_effect = yes
+	}
+}
+deity_sassatavada = { # CULTURE
+	trigger = {
+		OR = {
+			polytheistic_check_religion_trigger = yes
+			religion = sassatavada
+		}
+		OR = {
+			common_deity_trigger = {
+				RELIGION = sassatavada
+			}
+			deity:omen_sassatavada = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_culture
+	passive_modifier = { research_points_modifier = deity_research_points_modifier_svalue }
+	omen = { global_pop_conversion_speed_modifier = omen_global_pop_conversion_speed_modifier_svalue } #Bonus from Omen
+	religion = sassatavada
+	deity_category = culture #This Deity uses a Culture slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	on_activate = {
+		culture_apotheosis_oratory_tech_effect = yes
+	}
+}
+deity_anuvada = { # ECONOMY
+	trigger = {
+		OR = {
+			polytheistic_check_religion_trigger = yes
+			religion = sassatavada
+		}
+		OR = {
+			common_deity_trigger = {
+				RELIGION = ajivika
+			}
+			common_deity_trigger = {
+				RELIGION = sassatavada
+			}
+			deity:omen_anuvada = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_economy
+	passive_modifier = { global_tax_modifier = deity_global_tax_modifier_svalue }
+	omen = { build_time = omen_build_cost_svalue } #Bonus from Omen
+	religion = sassatavada
+	deity_category = economy #This Deity uses an Economy slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	on_activate = {
+		economy_apotheosis_province_improvement_effect = yes
+	}
+}
+deity_maitreyi = { # FERTILITY
+	trigger = {
+		OR = {
+			polytheistic_check_religion_trigger = yes
+			religion = sassatavada
+		}
+		OR = {
+			common_deity_trigger = {
+				RELIGION = sassatavada
+			}
+			deity:omen_maitreyi = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_fertility
+	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
+	omen = { global_citizen_output = omen_global_citizen_output_svalue } #Bonus from Omen
+	religion = sassatavada
+	deity_category = fertility #This Deity uses a Fertility slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+}

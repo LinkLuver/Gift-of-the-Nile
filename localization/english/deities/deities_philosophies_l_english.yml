@@ -1,5 +1,25 @@
 ﻿l_english:
 
+# Niskriyavada
+ deity_purana:0 "$omen_purana$"
+ omen_purana:0 "Purana Kassapa"
+ omen_purana_desc:0 "Purana Kassapa was the originator of the Niskriyavada sect. He was considered a great threat to Buddhism and likely contributed much hate from the Buddhists towards other shramanic faiths. Purana Kassapa also was the one to claim the three greatest of leaders were Nanda Vaccha, Kisa Sankiccha, and Makkhali Gosala. It is likely that this is because all three of those men must have been influential for the Ajivika sect and revolutionized it, especially Makkhali Gosala. Purana Kassapa contributed greatly towards the later Ajivika sect, however he never claimed to be a part of it. His followers would go on to found a more organized Niskriyavada sect.\n\nPurana Kassapa was the cheif monk at the monastry of monks at a place called Kukkutangara. He gained the epithet among his followers of 'the Lord of Puranan without comparison in intellegence.' Another epithet he gained was simply 'Puranan the Elder.' Purana Kassapa was of importance most to the Tamil Shramanics, who held him as the greatest of teachers.\n\nA story of the origin of Purana is filled with legend. Purana was said to have been born a slave, who was treated well. In spite of this, he ran away from his masters. In his run, thieves had stolen his clothes, and he had neither the will, nor the sense, to cover himself upon enterring a village. The villagers assumed he must have been a holy man, to have dressed with no clothes and in his pure form, called dharma-sata-pratticchana. Eventually, he embraced this nudity and refused clothes when offered and he would gain a following of 500 students."
+ deity_niskriya:0 "$omen_niskriya$"
+ omen_niskriya:0 "Niskriya"
+ omen_niskriya_desc:0 "The central belief of Purana Kassapa was Niskriyavada; the affrimation that the soul is passive, unaffected by the good or the bad done by us, the ultimate reality lying beyond good or evil. Here, you will likely find similarities with the Ajivika, and that is because of Purana's influence in the later sect, however, here this doctrine remains core to the Niskriyavada sect seperate to that of Ajivika beliefs. The main difference comes down to the Ajivika rejection of sin itself, while Niskriyavada simply states that the soul is naturally passive, but there is indeed good and bad done."
+ deity_asama:0 "$omen_asama$"
+ omen_asama:0 "Asama"
+ omen_asama_desc:0 "Asama, a devaputta of remarkable presence, once visited the Buddha at Veluvana with his peers Sahali, Ninka, Akotaka, Vetambarī, and Mānava-Gamiya. Each devaputta was a fervent disciple of different teachers, and standing before the Buddha, they extolled the virtues of their respective masters. Asama's praise of Purana Kassapa, though sincere and passionate, was met with disfavor by the Buddha, who later regarded Purana Kassapa as misguided. Despite this, Asama's unwavering loyalty and courage in defending his teacher's honor earned him a place of respect among his peers, illustrating the complex interplay of faith and devotion in ancient spiritual landscapes."
+ deity_abhaya:0 "$omen_abhaya$"
+ omen_abhaya:0 "Abhaya"
+ omen_abhaya_desc:0 "Abhaya, a noble of the Licchavi clan, was renowned for his strategic mind and unyielding resolve. Together with Mahali, he boldly chose to align with Purana Kassapa, a decision that brought significant legitimacy to Kassapa's teachings. Abhaya's endorsement was not taken lightly, as his influence and standing among the Licchavis meant that his support could sway many. His decision marked a pivotal moment in the spiritual debates of the time, showcasing his commitment to what he believed was a path of true wisdom."
+ deity_mahali:0 "$omen_mahali$"
+ omen_mahali:0 "Mahali"
+ omen_mahali_desc:0 "Mahali, another eminent noble of the Licchavi clan, was a figure of profound intellectual and spiritual curiosity. Alongside Abhaya, Mahali's choice to support Purana Kassapa was a testament to his discerning nature and quest for philosophical truth. His approach to Kassapa was not merely an act of allegiance but a thoughtful exploration of the doctrines that Kassapa espoused. Mahali's involvement lent a veneer of scholarly respectability to Kassapa's teachings, illustrating the nuanced and often contentious nature of spiritual allegiances in ancient India."
+ deity_vacchagota:0 "$omen_vacchagotas$"
+ omen_vacchagota:0 "Vacchagota"
+ omen_vacchagota_desc:0 "Vacchagota, the wanderer of the Vacchagota clan, was a seeker of wisdom whose journey led him through various philosophical schools. Unlike many of his kin who later embraced Buddhism, this Vacchagota remained steadfast in his adherence to Purana Kassapa's teachings. His dedication to Kassapa's doctrines, despite the prevailing currents of Buddhist thought, highlighted his commitment to an alternative path of spiritual exploration. Vacchagota's story is one of individuality and determination, reflecting the diverse tapestry of belief systems that coexisted and competed during this vibrant period of religious history."
+
 # Ajnana
  deity_yajnavalkya:0 "$omen_yajnavalkya$"
  omen_yajnavalkya:0 "Yajnavalkya"
@@ -17,16 +37,16 @@
 # Sassatavada
  deity_maitreyi:0 "$omen_maitreyi$"
  omen_maitreyi:0 "Maitreyi"
- omen_maitreyi_desc:0 ""
+ omen_maitreyi_desc:0 "Maitreyi, from the 8th century BCE, was an Advaita philosopher mentioned in the Brihadaranyaka Upanishad. As the wife of sage Yajnavalkya, she discussed the nature of the soul (Atman) and ultimate reality (Brahman). Her dialogues highlight that true love connects to the soul. Maitreyi symbolizes the intellectual achievements of women in ancient India.\n\nToday, although she lived before the Sassatavada movement, she is identified as a Sassatavada precursor due to her connection of the Atman to love; the Atman ultimately becoming a part of the Anu Vaada which is one of two central beliefs of Sassatavada."
  deity_pakudha:0 "$omen_pakudha$"
  omen_pakudha:0 "Pakudha Kaccayana"
- omen_pakudha_desc:0 ""
+ omen_pakudha_desc:0 "Pakudha Kaccāyana was an Indian teacher and philosopher who lived around the 6th century BCE, contemporaneous with Mahavira and the Buddha. He was an atomist (pushed the idea of Anu Vaada) who believed in atomism which believed that everything is made of seven eternal elements – earth, water, fire, air, happiness, pain and soul. According to the Pali Canon, Kacayana was his family name and he is said to have belonged to a Brahmin caste. He was sometimes called Pakkudha Katiyana, or Kadhudha Katiyana. He would also popularize the belief of Sassatavada, or Sasvata-drst."
  deity_anuvada:0 "$omen_anuvada$"
  omen_anuvada:0 "Anu Vaada"
- omen_anuvada_desc:0 ""
+ omen_anuvada_desc:0 "Anu Vaada is the concept of the Atomic Theory as it was in Ancient Shramanic beliefs. Anu would literally come to mean atom or molecule while Vaada is a way of argument, or the concept of an argument itself; a theory. This early form of the Atomic Theory stipulated that the soul, or Atman, was made of an infinitisimally tiny particle repeated. This idea of the Anu would continue and be integrated into other Shramanic faiths like Ajivika, Vedic, and Jainist philosophies."
  deity_sassatavada:0 "$omen_sassatavada$"
- omen_sassatavada:0 "Sassatavada"
- omen_sassatavada_desc:0 ""
+ omen_sassatavada:0 "Sasvata-drst"
+ omen_sassatavada_desc:0 "Sassatavada, or Sasvata-drst is the baseline bellief of the Sassatavada faith. It is best described as Eternalism, an idea that was utterly rejected by the foolish Buddha. Eternalism included the belief that the extinction of things means their latency and the production of things means their manifestation. One example of it is the belief that the individual has an unchanging self."
 
 # Daoism
  deity_likui:0 "$omen_likui$"

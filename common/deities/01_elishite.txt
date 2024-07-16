@@ -4,7 +4,7 @@ deity_ashshur = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_culture_trigger = {
-				RELIGION = mesopotamian_religion
+				RELIGION = ashur_religion
 				CULTURE = assyrian
 			}
 			deity:omen_ashshur = {
