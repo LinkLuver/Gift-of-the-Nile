@@ -31,7 +31,7 @@
  desc_vaksh_religion:0 "The Vakhshic religion, named after the Vakhsh River, is a regional faith that combines elements of Zoroastrianism with local animistic traditions. It venerates the natural spirits of the river, mountains, and sky, emphasizing a deep connection with the environment and the cycles of nature."
 
  sarna_pantheon:0 "Sarnaism"
- desc_sarna_pantheon:0 "Sarnaism, the ancient religion of the Chota Nagpur plateau, is deeply rooted in animism and nature worship. The Sarna deity, revered as the protector of the sacred groves, symbolizes the harmony between humans and the natural world, with rituals that celebrate the changing seasons and agricultural cycles."
+ desc_sarna_pantheon:0 "Sarnaism, the ancient religion of the Adivasi of India. They believe in the Sarna groves, a grove of sal trees in which they may pray to their spirits and gods including Singbonga and Marang Buru, the gods of the Sun and the Mountains. This belief system predates that of the Vedic beliefs and they hold strong in their faith."
 
  sassatavada:0 "Sassatavada"
  desc_sassatavada:0 "Sassatavada is a philosophical and religious doctrine from ancient India, which asserts the eternal existence of the soul and rejects the concept of a transient, changing self. This belief contrasts sharply with the doctrines of Buddhism and Jainism, emphasizing an unchanging and eternal essence at the core of all beings."
@@ -60,8 +60,8 @@
  uralic_pantheon:0 "Ilmaric"
  desc_uralic_pantheon:0 "Ilmaric represents the Finno-Ugric culture group's religion. It includes a vast array of cultures and beliefs, all revolving around the lead god, Ilma, who was most certainly venerated in all Finno-Ugric cultures. Along with Ilma, Ilmaric beliefs include an emphasis on the light of the Night and Day skies—the Moon and Sun."
 
- hatti_religion: "Estanic"
- desc_hatti_religion: "The ancient faith of the Hatti was once forgotten by the peoples living in Anatolia, although it has recently been revived by those living in Paphlagonia. The Hatti faithful are in tune with the natural cycles of the seasons and the Earth itself; offerings and libations are prepared and served to the Mother Goddess in order to keep the fields fertile and to prevent celestial calamities from overwhelming the land."
+ hatti_religion:0 "Estanic"
+ desc_hatti_religion:0 "The ancient faith of the Hatti survies to this day. Their reverence of their supreme deity, the goddess Estan, remains ever dutiful; their  faithful are in tune with the natural cycles of the seasons and the Earth itself. They make offerings and libations in order to serve Mother Estan, and to keep the fields fertile to prevent celestial calamities from overwhelming the land."
 
 
  # Conversions
@@ -106,7 +106,7 @@
  convert_to_taoism_desc:0 "In the quiet corners of our land, the teachings of Daoism have found a home, offering profound insights into the mysteries of existence. As whispers of the way of the Universe, the Dao, permeate through all layers of our society, we confront a pivotal question. Should we wholeheartedly embrace the wisdom of Taoism as the guiding light of our nation, guiding us on a unique path of understanding and serenity?"
 
  convert_to_hatti_religion:0 "Adopt Estanic Pantheon"
- convert_to_hatti_religion_desc:0 "Once, in the lands we now know as Anatolia, we called it the lands of the Hatti. And as fate would have it, the lands of the Hatti have once more returned to the faith of the ancient people. Shall we too accept the resurgent Estanic pantheon?"
+ convert_to_hatti_religion_desc:0 "The ancient faith of the people of the lands of the Hatti have once more returned to the faith of the ancient people. Shall we too accept the resurgent Estanic pantheon?"
  
  convert_to_uralic_pantheon:0 "Adopt Ilmaric Beliefs"
  convert_to_uralic_pantheon_desc:0 "The supreme god of the sky, Ilma, has been adopted by many of our people. They talk of the vibrant light of the first dawn and the deafening black of the last ray of the sun. From the Finns to the Ugrics, and to us as well now, the lights shine. It is time to open the curtains of the nation and adopt the Ilamric religion."
