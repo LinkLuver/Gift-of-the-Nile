@@ -13,9 +13,11 @@
 		amount=3
 	}
 	slaves={
+		culture="bhil"
 		amount=2
 	}
 	tribesmen={
+		culture="bhil"
 		amount=5
 	}
 }
@@ -32,6 +34,7 @@
 		amount=2
 	}
 	tribesmen={
+		culture="bhil"
 		amount=3
 	}
 }
@@ -70,6 +73,7 @@
 		amount=1
 	}
 	tribesmen={
+		culture="bhil"
 		amount=4
 	}
 }
@@ -89,6 +93,7 @@
 		amount=2
 	}
 	tribesmen={
+		culture="bhil"
 		amount=1
 	}
 }
@@ -108,6 +113,7 @@
 		amount=2
 	}
 	tribesmen={
+		culture="bhil"
 		amount=3
 	}
 }
@@ -445,6 +451,7 @@
 		amount=1
 	}
 	tribesmen={
+		culture="bhil"
 		amount=4
 	}
 }
@@ -700,6 +707,7 @@
 		amount=8
 	}
 	tribesmen={
+		culture="bhil"
 		amount=7
 	}
 }
@@ -892,9 +900,11 @@
 		amount=3
 	}
 	slaves={
+		culture="bhil"
 		amount=1
 	}
 	tribesmen={
+		culture="bhil"
 		amount=3
 	}
 }
@@ -914,6 +924,7 @@
 		amount=2
 	}
 	tribesmen={
+		culture="bhil"
 		amount=5
 	}
 }
@@ -946,9 +957,11 @@
 		amount=2
 	}
 	slaves={
+		culture="bhil"
 		amount=2
 	}
 	tribesmen={
+		culture="bhil"
 		amount=3
 	}
 }
@@ -1007,6 +1020,7 @@
 		amount=2
 	}
 	tribesmen={
+		culture="bhil"
 		amount=6
 	}
 }
@@ -1029,6 +1043,7 @@
 		amount=6
 	}
 	tribesmen={
+		culture="bhil"
 		amount=3
 	}
 }
@@ -1075,6 +1090,7 @@
 		amount=2
 	}
 	tribesmen={
+		culture="bhil"
 		amount=5
 	}
 }

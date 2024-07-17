@@ -167,6 +167,8 @@
 		amount=2
 	}
 	tribesmen={
+		culture="munda"
+		religion="sarna_pantheon"
 		amount=4
 	}
 }
@@ -183,6 +185,8 @@
 		amount=2
 	}
 	slaves={
+		culture="munda"
+		religion="sarna_pantheon"
 		amount=2
 	}
 	tribesmen={
@@ -224,6 +228,8 @@
 		amount=2
 	}
 	slaves={
+		culture="munda"
+		religion="sarna_pantheon"
 		amount=2
 	}
 	tribesmen={

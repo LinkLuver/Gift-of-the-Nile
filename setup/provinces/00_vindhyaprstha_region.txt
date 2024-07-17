@@ -16,6 +16,8 @@
 		amount=2
 	}
 	tribesmen={
+		culture="oraon"
+		religion="sarna_pantheon"
 		amount=4
 	}
 }
@@ -235,6 +237,7 @@
 		amount=1
 	}
 	slaves={
+		culture="banjara"
 		amount=2
 	}
 	slaves={
@@ -242,6 +245,7 @@
 		amount=2
 	}
 	tribesmen={
+		culture="banjara"
 		amount=2
 	}
 }
@@ -404,6 +408,8 @@
 		amount=1
 	}
 	tribesmen={
+		culture="gond"
+		religion="sarna_pantheon"
 		amount=4
 	}
 }
@@ -456,7 +462,8 @@
 		religion="agama"
 		amount=3
 	}
-	tribesmen={
+	tribesmen={culture="gond"
+		religion="sarna_pantheon"
 		amount=8
 	}
 	tribesmen={
@@ -487,6 +494,8 @@
 		amount=5
 	}
 	tribesmen={
+		culture="gond"
+		religion="sarna_pantheon"
 		amount=5
 	}
 }
@@ -507,6 +516,8 @@
 		amount=3
 	}
 	tribesmen={
+		culture="gond"
+		religion="sarna_pantheon"
 		amount=3
 	}
 }
@@ -523,6 +534,7 @@
 		amount=2
 	}
 	freemen={
+		culture="banjara"
 		amount=2
 	}
 	freemen={
@@ -639,6 +651,8 @@
 		amount=3
 	}
 	tribesmen={
+		culture="khond"
+		religion="sarna_pantheon"
 		amount=5
 	}
 	tribesmen={
@@ -809,6 +823,8 @@
 		amount=2
 	}
 	tribesmen={
+		culture="gond"
+		religion="sarna_pantheon"
 		amount=4
 	}
 }
@@ -1039,8 +1055,8 @@
 
 7129={ #Gondia
 	terrain="jungle"
-	culture="atavi"
-	religion="hindu"
+	culture="gond"
+	religion="sarna_pantheon"
 	trade_goods="stone"
 	civilization_value=8
 	barbarian_power=0
@@ -1077,6 +1093,8 @@
 		amount=1
 	}
 	tribesmen={
+		culture="gond"
+		religion="sarna_pantheon"
 		amount=3
 	}
 	tribesmen={
@@ -1412,6 +1430,7 @@
 		amount=1
 	}
 	tribesmen={
+		culture="banjara"
 		amount=4
 	}
 	tribesmen={
@@ -1461,9 +1480,11 @@
 		amount=1
 	}
 	tribesmen={
+		culture="banjara"
 		amount=1
 	}
 	freemen={
+		culture="banjara"
 		religion="agama"
 		amount=2
 	}
@@ -1496,6 +1517,7 @@
 		amount=1
 	}
 	tribesmen={
+		culture="banjara"
 		amount=5
 	}
 	citizen={
@@ -1586,6 +1608,8 @@
 		amount=1
 	}
 	tribesmen={
+		culture="gond"
+		religion="sarna_pantheon"
 		amount=5
 	}
 }
@@ -1605,6 +1629,7 @@
 		amount=2
 	}
 	tribesmen={
+		culture="banjara"
 		amount=5
 	}
 }
@@ -1624,6 +1649,7 @@
 		amount=4
 	}
 	tribesmen={
+		culture="banjara"
 		religion="agama"
 		amount=3
 	}
@@ -1648,6 +1674,7 @@
 		amount=2
 	}
 	tribesmen={
+		culture="banjara"
 		amount=5
 	}
 }
@@ -1671,6 +1698,7 @@
 		amount=3
 	}
 	tribesmen={
+		culture="banjara"
 		amount=3
 	}
 	tribesmen={
@@ -1696,6 +1724,7 @@
 		amount=2
 	}
 	slaves={
+		culture="banjara"
 		amount=2
 	}
 	tribesmen={
@@ -1729,6 +1758,7 @@
 		amount=3
 	}
 	tribesmen={
+		culture="banjara"
 		amount=4
 	}
 	tribesmen={
@@ -1767,6 +1797,7 @@
 		amount=1
 	}
 	tribesmen={
+		culture="banjara"
 		amount=3
 	}
 	tribesmen={
@@ -1854,6 +1885,7 @@
 		amount=1
 	}
 	tribesmen={
+		culture="banjara"
 		religion="buddhism"
 		amount=2
 	}
@@ -1892,6 +1924,7 @@
 		amount=4
 	}
 	tribesmen={
+		culture="banjara"
 		amount=3
 	}
 	tribesmen={
@@ -1903,6 +1936,7 @@
 		amount=2
 	}
 	slaves={
+		culture="banjara"
 		religion="hindu"
 		amount=3
 	}
@@ -1939,6 +1973,8 @@
 		amount=4
 	}
 	tribesmen={
+		culture="oraon"
+		religion="sarna_pantheon"
 		amount=10
 	}
 }
@@ -1962,6 +1998,8 @@
 		amount=3
 	}
 	tribesmen={
+		culture="oraon"
+		religion="sarna_pantheon"
 		amount=4
 	}
 }
@@ -1985,6 +2023,8 @@
 		amount=2
 	}
 	tribesmen={
+		culture="oraon"
+		religion="sarna_pantheon"
 		amount=2
 	}
 }
@@ -2011,6 +2051,8 @@
 		amount=5
 	}
 	tribesmen={
+		culture="oraon"
+		religion="sarna_pantheon"
 		amount=10
 	}
 	tribesmen={
@@ -2042,6 +2084,8 @@
 		amount=2
 	}
 	slaves={
+		culture="khond"
+		religion="sarna_pantheon"
 		amount=2
 	}
 	slaves={
@@ -2064,16 +2108,18 @@
 
 7171={ #Bhuvanesvara
 	terrain="jungle"
-	culture="kalingan"
+	culture="khond"
 	religion="jainism"
 	trade_goods="grain"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="kalingan"
 		amount=1
 	}
 	citizen={
+		culture="kalingan"
 		religion="buddhism"
 		amount=1
 	}
@@ -2092,10 +2138,12 @@
 		amount=1
 	}
 	tribesmen={
+		culture="kalingan"
 		amount=2
 	}
 	tribesmen={
 		religion="buddhism"
+		culture="kalingan"
 		amount=1
 	}
 }
@@ -2119,6 +2167,8 @@
 		amount=1
 	}
 	tribesmen={
+		culture="khond"
+		religion="sarna_pantheon"
 		amount=3
 	}
 	freemen={
@@ -2164,6 +2214,8 @@
 		amount=7
 	}
 	tribesmen={
+		culture="khond"
+		religion="sarna_pantheon"
 		amount=4
 	}
 	tribesmen={
@@ -2199,6 +2251,8 @@
 		amount=1
 	}
 	tribesmen={
+		culture="khond"
+		religion="sarna_pantheon"
 		amount=3
 	}
 }
@@ -2222,6 +2276,8 @@
 		amount=2
 	}
 	tribesmen={
+		culture="oraon"
+		religion="sarna_pantheon"
 		amount=5
 	}
 	freemen={
@@ -2230,8 +2286,8 @@
 		amount=1
 	}
 	freemen={
-		culture="atavi"
-		religion="hindu"
+		culture="oraon"
+		religion="sarna_pantheon"
 		amount=1
 	}
 	slaves={
@@ -2283,6 +2339,7 @@
 		amount=3
 	}
 	tribesmen={
+		culture="santal"
 		amount=5
 	}
 	port_building=1
@@ -2290,13 +2347,14 @@
 
 7178={ #Bhamangati
 	terrain="plains"
-	culture="vanga"
+	culture="munda"
 	religion="jainism"
 	trade_goods="grain"
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="vanga"
 		amount=1
 	}
 	freemen={
@@ -2307,13 +2365,14 @@
 		amount=3
 	}
 	tribesmen={
+		culture="munda"
 		amount=2
 	}
 }
 
 7179={ #Utkalava
 	terrain="jungle"
-	culture="vanga"
+	culture="khond"
 	religion="hindu"
 	trade_goods="salt"
 	civilization_value=18
@@ -2412,6 +2471,8 @@
 		amount=3
 	}
 	tribesmen={
+		culture="gond"
+		religion="sarna_pantheon"
 		amount=5
 	}
 }
@@ -2431,6 +2492,7 @@
 		amount=3
 	}
 	tribesmen={
+		culture="santal"
 		amount=3
 	}
 }
@@ -2453,6 +2515,7 @@
 		amount=1
 	}
 	tribesmen={
+		culture="santal"
 		amount=4
 	}
 }
@@ -2477,6 +2540,7 @@
 		amount=2
 	}
 	tribesmen={
+		culture="munda"
 		religion="buddhism"
 		amount=1
 	}
@@ -2491,9 +2555,11 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		culture="santal"
 		amount=1
 	}
 	slaves={
+		culture="santal"
 		amount=1
 	}
 	tribesmen={
@@ -2516,6 +2582,8 @@
 		amount=2
 	}
 	tribesmen={
+		culture="oraon"
+		religion="sarna_pantheon"
 		amount=4
 	}
 }
@@ -2539,6 +2607,8 @@
 		amount=2
 	}
 	tribesmen={
+		culture="gond"
+		religion="sarna_pantheon"
 		amount=4
 	}
 }
@@ -2572,6 +2642,8 @@
 		amount=1
 	}
 	tribesmen={
+		culture="khond"
+		religion="sarna_pantheon"
 		amount=3
 	}
 	freemen={
@@ -2592,7 +2664,7 @@
 
 9247={ #Kamakhyanagar
 	terrain="jungle"
-	culture="kalingan"
+	culture="oraon"
 	religion="buddhism"
 	trade_goods="cattle"
 	civilization_value=17
@@ -2642,6 +2714,8 @@
 		amount=1
 	}
 	tribesmen={
+		culture="khond"
+		religion="sarna_pantheon"
 		amount=2
 	}
 	tribesmen={
@@ -2670,6 +2744,8 @@
 		amount=1
 	}
 	tribesmen={
+		culture="khond"
+		religion="sarna_pantheon"
 		amount=2
 	}
 	tribesmen={
@@ -2698,6 +2774,8 @@
 		amount=2
 	}
 	tribesmen={
+		culture="oraon"
+		religion="sarna_pantheon"
 		amount=2
 	}
 	slaves={
@@ -2803,8 +2881,8 @@
 		amount=1
 	}
 	slaves={
-		culture="magadhi"
-		religion="hindu"
+		culture="oraon"
+		religion="sarna_pantheon"
 		amount=1
 	}
 }
@@ -2864,6 +2942,8 @@
 		amount=1
 	}
 	tribesmen={
+		culture="oraon"
+		religion="sarna_pantheon"
 		amount=1
 	}
 	tribesmen={
@@ -2896,6 +2976,8 @@
 		amount=2
 	}
 	tribesmen={
+		culture="oraon"
+		religion="sarna_pantheon"
 		amount=4
 	}
 }

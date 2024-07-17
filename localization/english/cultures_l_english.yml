@@ -65,6 +65,7 @@
  oraon:0 "Kurukh"
  khond:0 "Khond"
  munda:0 "Munda"
+ banjara:0 "Banjara"
 
  #Armenian Group
  armenian:0 "Ayrarat"
@@ -540,6 +541,8 @@
  alani:0 "Alani"
  jurcan:0 "Jurcan"
  #Naming
+ adivasi_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ adivasi_femalename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  hurro_urartian_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  hurro_urartian_femalename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  indus_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
@@ -651,7 +654,7 @@
  COHORT_NAME_pu:1 "$COHORT_NAME_magadhi$"
  LEGION_NAME_pu:0 "$LEGION_NAME_magadhi$"
 
- # Mesopotamian
+ #Mesopotamian
  ARMY_NAME_mesopotamian:0 "$NUM$$ORDER$ Army"
  COHORT_NAME_mesopotamian:0 "$COHORT_NAME_east_levantine$"
  NAVY_NAME_mesopotamian:0 "$NUM$$ORDER$ Navy"
@@ -661,3 +664,9 @@
  NAVY_NAME_lydio_phrygian:0 "$NUM$$ORDER$ Navy"
  COHORT_NAME_lydio_phrygian:1 "$COHORT_NAME_anatolian$"
  LEGION_NAME_lydio_phrygian:0 "$LEGION_NAME_anatolian$"
+
+ #Adivasi
+ ARMY_NAME_adivasi:0 "$NUM$$ORDER$ Army"
+ NAVY_NAME_adivasi:0 "$NUM$$ORDER$ Navy"
+ COHORT_NAME_adivasi:0 "$COHORT_NAME_anatolian$"
+ LEGION_NAME_adivasi:0 "$LEGION_NAME_anatolian$"

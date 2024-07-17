@@ -35,6 +35,7 @@
 		amount=4
 	}
 	tribesmen={
+		culture="bhil"
 		amount=4
 	}
 }
@@ -54,6 +55,7 @@
 		amount=3
 	}
 	tribesmen={
+		culture="bhil"
 		amount=4
 	}
 	slaves={
@@ -86,6 +88,7 @@
 		amount=6
 	}
 	tribesmen={
+		culture="bhil"
 		amount=5
 	}
 }
@@ -164,6 +167,7 @@
 		amount=9
 	}
 	slaves={
+		culture="banjara"
 		amount=5
 	}
 	holy_site=omen_bhrigu
@@ -779,6 +783,7 @@
 		amount=5
 	}
 	tribesmen={
+		culture="banjara"
 		amount=3
 	}
 }
@@ -1175,6 +1180,7 @@
 		amount=2
 	}
 	tribesmen={
+		culture="banjara"
 		amount=2
 	}
 }
@@ -1314,6 +1320,7 @@
 		amount=4
 	}
 	tribesmen={
+		culture="banjara"
 		amount=4
 	}
 }
@@ -1670,6 +1677,7 @@
 		amount=5
 	}
 	tribesmen={
+		culture="bhil"
 		amount=3
 	}
 }
@@ -1692,6 +1700,7 @@
 		amount=3
 	}
 	tribesmen={
+		culture="bhil"
 		amount=3
 	}
 }
@@ -1714,6 +1723,8 @@
 		amount=3
 	}
 	tribesmen={
+		culture="bhil"
+		religion="sarna_pantheon"
 		amount=2
 	}
 }
@@ -1752,6 +1763,7 @@
 		amount=3
 	}
 	tribesmen={
+		culture="banjara"
 		amount=2
 	}
 	tribesmen={
@@ -1839,6 +1851,7 @@
 		amount=1
 	}
 	tribesmen={
+		culture="bhil"
 		amount=1
 	}
 }
@@ -1889,6 +1902,7 @@
 		amount=1
 	}
 	freemen={
+		culture="banjara"
 		amount=3
 	}
 	slaves={
@@ -1961,6 +1975,7 @@
 		amount=3
 	}
 	tribesmen={
+		culture="banjara"
 		amount=3
 	}
 }
@@ -1990,6 +2005,7 @@
 		amount=5
 	}
 	tribesmen={
+		culture="banjara"
 		religion="jainism"
 		amount=1
 	}
@@ -2019,6 +2035,7 @@
 		amount=2
 	}
 	slaves={
+		culture="banjara"
 		amount=3
 	}
 	slaves={
@@ -2049,10 +2066,12 @@
 		amount=2
 	}
 	slaves={
+		culture="banjara"
 		religion="hindu"
 		amount=2
 	}
 	tribesmen={
+		culture="banjara"
 		amount=5
 	}
 }
@@ -2135,6 +2154,8 @@
 		amount=1
 	}
 	tribesmen={
+		culture="banjara"
+		religion="sarna_pantheon"
 		amount=2
 	}
 	tribesmen={
@@ -2166,6 +2187,7 @@
 		amount=3
 	}
 	tribesmen={
+		culture="bhil"
 		amount=1
 	}
 	citizen={
@@ -2283,6 +2305,7 @@
 		amount=9
 	}
 	tribesmen={
+		culture="bhil"
 		amount=8
 	}
 }
