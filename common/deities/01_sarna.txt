@@ -161,7 +161,7 @@ deity_rankini = { # FERTILITY
 			common_deity_trigger = {
 				RELIGION = sarna_pantheon
 			}
-			deity:omen_rankiki = {
+			deity:omen_rankini = {
 				holy_site_deity_check_trigger = yes
 			}
 		}

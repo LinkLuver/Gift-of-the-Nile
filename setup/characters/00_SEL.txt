@@ -459,8 +459,8 @@
 		birth_date=416.4.12
 		culture="armenian"
 		religion="armenian_religion"
-		no_states=yes
-		no_traits=yes
+		#no_stats=yes
+		#no_traits=yes
 	}
 	557={
 		first_name="Ishtovigu" # Shamash
@@ -468,8 +468,8 @@
 		birth_date=420.12.3
 		culture="sittacenean"
 		religion="mesopotamian_religion"
-		no_states=yes
-		no_traits=yes
+		#no_stats=yes
+		#no_traits=yes
 	}
 	558={
 		first_name="Amar-Shimanni" # Nabu
@@ -477,24 +477,24 @@
 		birth_date=418.5.30
 		culture="babylonian"
 		religion="mesopotamian_religion"
-		no_states=yes
-		no_traits=yes
+		#no_stats=yes
+		#no_traits=yes
 	}
 	559={
 		first_name="Marduknezzar" # Marduk
 		birth_date=393.9.24
 		culture="babylonian"
 		religion="mesopotamian_religion"
-		no_states=yes
-		no_traits=yes
+		#no_stats=yes
+		#no_traits=yes
 	}
 	560={
 		first_name="Ishtaramu" # Ishtar
 		birth_date=431.8.4
 		culture="chaldean"
 		religion="mesopotamian_religion"
-		no_states=yes
-		no_traits=yes
+		#no_stats=yes
+		#no_traits=yes
 		female = yes
 	}
 }

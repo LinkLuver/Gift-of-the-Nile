@@ -33,7 +33,7 @@
 	530 = PROV530_egyptian #  Bolbitine
 	531 = PROV531_egyptian #  Psenemphaia
 	532 = PROV532_egyptian #  Chaireon
-	533 = PROV533_egyptian
+	533 = PROV533_egyptian #  Ah-Bity
 	534 = PROV534_egyptian #  Mendes
 	535 = PROV535_egyptian #  Ostrakine
 	536 = PROV536_egyptian #  Babylon Aigyptiai
@@ -93,6 +93,38 @@
 	7690 = PROV7690_egyptian #  Tamiathis
 
 	#Italia
+	10 = PROV10_egyptian # Irna - Wareniwt
+	11 = PROV11_egyptian # Paestum - Per-Setjaw
+	12 = PROV12_egyptian # Elea - Alewu
+	13 = PROV13_egyptian # Blanda - Baalnetchret
+	43 = PROV43_egyptian # Compsa - Kamepsau
+	46 = PROV46_egyptian # Potentia - Patenet
+	47 = PROV47_egyptian # Volcei - Werukau
+	51 = PROV51_egyptian # Laus - Lawu
+	52 = PROV52_egyptian # Thurii - Tahoraw
+	53 = PROV53_egyptian # Grumentum - Khermunet
+	54 = PROV54_egyptian # Herekleia - Herukawut
+	55 = PROV55_egyptian # Metapontion - Metaptahu
+	56 = PROV56_egyptian # Taras - Ta-Ra
+	57 = PROV57_egyptian # Brentesion - Pr-Netsaw
+	59 = PROV59_egyptian # Consilinum - Kasawet
+	61 = PROV61_egyptian # Siris - Sa'rawu
+	62 = PROV62_egyptian # Mandyrion - A'ahjeber
+	63 = PROV63_egyptian # Kallipolis - Kara-Nesut
+	64 = PROV64_egyptian # Hydrous - Mewt
+	65 = PROV65_egyptian # Loupiai - Rewpiau
+	66 = PROV66_egyptian # Barion - Barew
+	67 = PROV67_egyptian # Egnatia - Agrenekhtau
+	68 = PROV68_egyptian # Thyron - Teranu
+	71 = PROV71_egyptian # Stiglianum - Senedamun
+	72 = PROV72_egyptian # Rhegium - Rejetiu
+	73 = PROV73_egyptian # Lokroi Epizephyrioi - Praa-Anpispaawet
+	74 = PROV74_egyptian # Stylacium - Setijeretniwt
+	75 = PROV75_egyptian # Hipponion - Ta-Sesem
+	76 = PROV76_egyptian # Tempsa - Ta-Reneh
+	77 = PROV77_egyptian # Consentia - Hotepet
+	78 = PROV78_egyptian # Kroton - Karakhen
+	79 = PROV79_egyptian # Petelia - Patelu
 	80 = PROV80_egyptian # Messana - Takhopesh
 	81 = PROV81_egyptian # Tauromenum/Naxos - Tarodjew
 	82 = PROV82_egyptian # Catana - Per-Ka
@@ -116,6 +148,7 @@
 	100 = PROV100_egyptian # Calacte - Per-Kahathor
 	101 = PROV101_egyptian # Camarina - Per-Renenutet
 	1472 = PROV1472_egyptian # Lipare/Meligounis - Per-Shesmu
+	3256 = PROV3256_egyptian # Qart Hadasht - Qrsewt Hut-Set
 	7837 = PROV7837_egyptian # Megara Hyblaia - Renhut-Hapi
 	7838 = PROV7838_egyptian # Centuripae - Dubatseshta
 	7839 = PROV7839_egyptian # Capitium - Tekhenka
