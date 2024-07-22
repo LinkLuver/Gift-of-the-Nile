@@ -1570,5 +1570,145 @@ country_decisions = {
 		}
 	}
 
+	convert_to_hermes_religion = {
+		
+		potential = {
+			num_of_cities >= 1
+			potential_change_religion_trigger = {
+				RELIGION = hermes_religion
+			}
+		}
+
+		allow = {
+			could_change_religion_trigger = {
+				RELIGION = hermes_religion
+			}
+		}
+		
+		effect = {
+			change_religion_effect = {
+				RELIGION = hermes_religion
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				capital_scope = {
+					dominant_province_religion = hermes_religion
+				}
+			}
+			modifier = {
+				factor = 0
+			}
+		}
+	}
+
+	convert_to_epicureanism = {
+		
+		potential = {
+			num_of_cities >= 1
+			potential_change_religion_trigger = {
+				RELIGION = epicureanism
+			}
+		}
+
+		allow = {
+			could_change_religion_trigger = {
+				RELIGION = epicureanism
+			}
+		}
+		
+		effect = {
+			change_religion_effect = {
+				RELIGION = epicureanism
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				capital_scope = {
+					dominant_province_religion = epicureanism
+				}
+			}
+			modifier = {
+				factor = 0
+			}
+		}
+	}
+
+	convert_to_platonism = {
+		
+		potential = {
+			num_of_cities >= 1
+			potential_change_religion_trigger = {
+				RELIGION = platonism
+			}
+		}
+
+		allow = {
+			could_change_religion_trigger = {
+				RELIGION = platonism
+			}
+		}
+		
+		effect = {
+			change_religion_effect = {
+				RELIGION = platonism
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				capital_scope = {
+					dominant_province_religion = platonism
+				}
+			}
+			modifier = {
+				factor = 0
+			}
+		}
+	}
+
+	convert_to_stoicism = {
+		
+		potential = {
+			num_of_cities >= 1
+			potential_change_religion_trigger = {
+				RELIGION = stoicism
+			}
+		}
+
+		allow = {
+			could_change_religion_trigger = {
+				RELIGION = stoicism
+			}
+		}
+		
+		effect = {
+			change_religion_effect = {
+				RELIGION = stoicism
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				capital_scope = {
+					dominant_province_religion = stoicism
+				}
+			}
+			modifier = {
+				factor = 0
+			}
+		}
+	}
+
 
 }
