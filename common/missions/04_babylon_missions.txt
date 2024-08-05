@@ -8,6 +8,7 @@ babylon_missions = {
     potential = {
         NOT = { has_variable = mission_cooldown_var }
         tag = SEL
+        always = no
     }
 
     abort = {}

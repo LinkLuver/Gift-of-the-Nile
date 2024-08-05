@@ -70,7 +70,11 @@
 
     persis_mission_1_freedom_task_2 = { #Reach out to the Uxii
         icon = "task_battle"
-
+        highlight = {
+            scope:province = {
+                dominant_province_culture = uxian
+            }
+        }
         allow = {
             #  100 treasury and political influence
             treasury >= 100
@@ -228,6 +232,7 @@
     persis_mission_1_freedom_task_8 = { #Connect Kish
         icon = "task_religion"
         duration = 120
+        requires = { persis_mission_1_freedom_task_22 }
         highlight = {
             scope:province = {
                 OR = {
@@ -362,10 +367,17 @@
         }
     }
 
-    persis_mission_1_freedom_task_12 = {
+    persis_mission_1_freedom_task_12 = { # Secure Hagmatana
         icon = "task_diplomatic"
-        highlight = {}
-        allow = {}
+        highlight = {
+            scope:province = {
+                this = p:1595
+            }
+        }
+        allow = {
+            owns = 1595
+            war = no
+        }
         on_completion = {
             trigger_event = me_persis.12
             show_as_tooltip = {
@@ -474,16 +486,28 @@
             }
         }
     }
-    persis_mission_1_freedom_task_16 = { #Demand Mardiene
+    persis_mission_1_freedom_task_16 = { #Expand Great Fire Temple
         icon = "task_diplomatic"
-
+        requires = { persis_mission_1_freedom_task_12 }
         highlight = {
             scope:province = {
-                is_in_area = pars_area
+                province_id = 1595
             }
         }
 
         allow = {
+            owns = 1595
+            treasury >= 500
+            p:1595 = {
+                dominant_province_religion = zoroaster
+                has_city_status = yes
+            }
+        }
+
+        bypass = {
+            p:1595 = {
+                has_great_work = no
+            }
         }
 
         on_completion = {
@@ -492,7 +516,7 @@
     }
     persis_mission_1_freedom_task_17 = { #Expand the Royal Road
         icon = "task_happiness"
-        requires = { persis_mission_1_freedom_task_13 }
+        requires = { persis_mission_1_freedom_task_13 persis_mission_1_freedom_task_22 }
 
         allow = {
             # A significant amount of roads lol
@@ -519,10 +543,13 @@
             }
         }
     }
-    persis_mission_1_freedom_task_18 = {
+    persis_mission_1_freedom_task_18 = { #Matter of Medians
         icon = "task_diplomatic"
-
+        requires = { persis_mission_1_freedom_task_20 }
         highlight = {
+            scope:province = {
+                is_in_region = media_region
+            }
         }
 
         allow = {
@@ -561,9 +588,10 @@
             }
         }
     }
-    persis_mission_1_freedom_task_20 = { #Throw off the Ionian Yoke
+    persis_mission_1_freedom_task_20 = { #Reunite with Media
         icon = "task_heracles"
         final = yes
+        requires = { persis_mission_1_freedom_task_12 persis_mission_1_freedom_task_21 }
         highlight = {
             scope:province = {
                 is_in_region = media_region
@@ -637,7 +665,7 @@
     }
     persis_mission_1_freedom_task_23 = { #Restore Persian Culture
         icon = "task_religion"
-        requires = { persis_mission_1_freedom_task_17 persis_mission_1_freedom_task_21 }
+        requires = { persis_mission_1_freedom_task_17 persis_mission_1_freedom_task_18 }
 
         allow = {
             # 100 treasury

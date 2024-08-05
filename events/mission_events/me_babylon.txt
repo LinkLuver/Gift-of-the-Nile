@@ -6,6 +6,10 @@ me_babylon.1 = { # Meeting of Priests
     title = me_babylon_1_title
     desc = me_babylon_1_desc
     picture = hk_babbling_babylon
+    left_portrait = current_ruler
+    right_portrait = char:559
+    right_portrait = char:560
+    right_portrait = char:557
 
     option = {
         name = "me_babylon_1.a"

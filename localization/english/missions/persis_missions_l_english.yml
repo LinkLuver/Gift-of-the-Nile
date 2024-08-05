@@ -1,12 +1,12 @@
 ﻿l_english:
  
- persis_mission_1_freedom:0 "Achaemenid Ascension"
- persis_mission_1_freedom_DESCRIPTION:0 "The Kingdom of Cyrus the Good, the King of Anshan, and former Satrap of Persis still prevails. With various rulers including Darius the Great, the Kingdom of Persians has waxed and waned in its power. Originating from a treacherous event where Cyaxares of Media betrayed Cyrus, the two brother realms have often been at war with each other, preventing either from reaching their full potentials. Despite this, Persia has become an extension of the glorious and rich lands of Mesopotamia, rivaling its great cities, and continuing her expansion into the Sindh, Gandhara, and Bactria regions all while spreading the faith of Zoroaster and Ahuramazda."
- persis_mission_1_freedom_CRITERIA_DESCRIPTION:0 "This mission will be considered complete when Persia becomes the greatest center of civilization in the world!"
+ persis_mission_1_freedom:0 "The Land of Nobles"
+ persis_mission_1_freedom_DESCRIPTION:0 "The Kingdom of #Y Cyrus the Good#!, the King of Anshan, and former Satrap of #E Persis#! still prevails. With various rulers including #Y Darius the Great#!, the Kingdom of #E Persians#! has waxed and waned in its power. Originating from a treacherous event where #Y Cyaxares of Media#! betrayed #Y Cyrus#!. Since then, the two sister realms have often been at war with each other, preventing either from reaching their full potentials. Despite this, #E Persia#! has become an extension of the glorious and rich lands of #E Mesopotamia#!, rivaling its great cities, and continuing her expansion into the #E Sindh, Gandhara,#! and #E Bactria#! regions, all while spreading the faith of #Y Zoroaster#! and #Y Ahuramazda#!."
+ persis_mission_1_freedom_CRITERIA_DESCRIPTION:0 "This mission will be considered complete when #E Persia#! cements herself as the dominant power of Iran."
  persis_mission_1_freedom_BUTTON_TOOLTIP:0 "In their hubris, those who seek to enslave us will themselves be utterly destroyed."
  
  persis_mission_1_freedom_task_1:0 "The Jewel of the Shahs"
- persis_mission_1_freedom_task_1_DESC:0 "Parsa (Persepolis) has never been the formal capital of the Achaemenid Kingdom, yet it has always been the favorite city to invest in for various Achamenid Kings. Nowdays, it is the greatest city east of Babylon, and today, we will forge it into the greatest city in all the known world.. \n\n\n\n\n\n\n\n\n\n@persia_mil5!"
+ persis_mission_1_freedom_task_1_DESC:0 "Parsa (Persepolis) has never been the formal capital of the Achaemenid Kingdom, yet it has always been the favorite city to invest in for various Achamenid Kings. Nowdays, it is the greatest city east of Babylon, and today, we will forge it into the greatest city in all the known world. \n\n\n\n\n\n\n\n\n\n@persia_mil5!"
  
  persis_mission_1_freedom_task_2:0 "Reach Out To The Uxii"
  persis_mission_1_freedom_task_2_DESC:0 "There are many connections between our people and the Uxians; we share so many religious and cultural practices that many foreigners cannot distinguish our peoples. It behooves us to reforge these ancient bonds yet again. \n\n\n\n\n\n\n\n\n\n@persia_mil1!"
@@ -23,8 +23,8 @@
  persis_mission_1_freedom_task_7:0 "Heartland Economy"
  persis_mission_1_freedom_task_7_DESC:0 "Gold is the oil that lubricates the engines of war, and we must ensure that our heartland can sustain the immense economic pressures that we are about to place upon it. The time has come to buttress our financial resources. \n\n\n\n\n\n\n\n\n\n\n@egypt_mil19!"
  
- persis_mission_1_freedom_task_8:0 "Connect Mesopotamia"
- persis_mission_1_freedom_task_8_DESC:0 "The valuable land of Mesopotamia has long been our foes, yet at the same time, our desire. Now that we control it, it has been suggested that we extend the Royal Road to the great cities of Sumer and Akkad including Babylon herself. Let us connect the Babylonian road to our great Royal Road. \n\n\n\n\n\n\n\n\n\n\n@persia_mil3!"
+ persis_mission_1_freedom_task_8:0 "Pathragada to Hagmatana"
+ persis_mission_1_freedom_task_8_DESC:0 "The #E Persian Royal Road#! and the #E Median Royal Road#! stretch across the south and north of the Iranian Plateau respectively. By combining these two together, we will have a transcontinental road system seen nowhere else in the world. \n\n\n\n\n\n\n\n\n\n\n@persia_mil3!"
  
  persis_mission_1_freedom_task_9:0 "Urbanize Kish"
  persis_mission_1_freedom_task_9_DESC:0 "[GetProvince('(int32)4956').GetName]'s auspicious location demands that we do everything we can to urbanize the area, turning the settlement into a city that is properly populated. Word will travel of what we have accomplished here, and many will want to see this new town for themselves. \n\n\n\n\n\n\n\n\n\n\n@event_pic3!"
@@ -35,8 +35,8 @@
  persis_mission_1_freedom_task_11:0 "Our Mighty Immortals"
  persis_mission_1_freedom_task_11_DESC:0 "The elite military unit known as the Immortals strikes fear and terror into the hearts of the enemies of the Achaemenids, however, as time passes so too do the generations. We must make sure the current generation of Immortals do not rest on the laurels of their predecessors. \n\n\n\n\n\n\n\n\n\n\n@greek_mil14!"
  
- persis_mission_1_freedom_task_12:0 "Replace this task"
- persis_mission_1_freedom_task_12_DESC:0 ""
+ persis_mission_1_freedom_task_12:0 "Secure Hagmatana"
+ persis_mission_1_freedom_task_12_DESC:0 "The great city of Media, Hagmatana is the original center of #E Indo-Iranian#! high civilization. This ancient city should be honored, even under its new rule under we Persians. \n\n\n\n\n\n\n\n\n\n\n@persia_mil8!"
  
  persis_mission_1_freedom_task_13:0 "Fortify the Passes"
  persis_mission_1_freedom_task_13_DESC:0 "Leaving nothing to chance, we shall fortify all of our important centers of civilization, for we have struggled mightily to get to where we are and will not surrender our gains without a fight. \n\n\n\n\n\n\n\n\n\n\n@greek_mil9!"
@@ -47,14 +47,14 @@
  persis_mission_1_freedom_task_15:0 "Control The Gulf"
  persis_mission_1_freedom_task_15_DESC:0 "Who is able to challenge our might on the waters of the Sinus Persicus? Do we not control a vast and powerful fleet, one that will enforce our will upon the distant shores of faraway lands? \n\n\n\n\n\n\n\n\n\n\n@greek_mil19!"
  
- persis_mission_1_freedom_task_16:0 "Replace this task"
- persis_mission_1_freedom_task_16_DESC:0 ""
+ persis_mission_1_freedom_task_16:0 "Expand the Great Fire Temple"
+ persis_mission_1_freedom_task_16_DESC:0 "The Noushijan Fire Temple is one of the greatest temples the world has yet seen. Certainly true for the Zoroastrian world at least! It was created long before the divide that would split the great Iranian empire into two, and has been kept safe even during times of strife between the worshippers of #E Mithra#! and #E Ahuramazda#!. Let us renew this temple, and expand it by a floor. \n\n\n\n\n\n\n\n\n\n\n@persia_mil4!"
  
  persis_mission_1_freedom_task_17:0 "Expand The Royal Road"
  persis_mission_1_freedom_task_17_DESC:0 "The Royal Road, one of the crowning achievements in the region, has connected centers of trade and civilization for as long as any of us can remember. Now that we are the stewards of such a vital piece of infrastructure, we should take steps to expand access where we can. \n\n\n\n\n\n\n\n\n\n\n@greek_mil3!"
  
- persis_mission_1_freedom_task_18:0 "Replace this task"
- persis_mission_1_freedom_task_18_DESC:0 ""
+ persis_mission_1_freedom_task_18:0 "Median Matters"
+ persis_mission_1_freedom_task_18_DESC:0 "The #E Medians#!, although have been our sworn enemy for centuries, were once our dear family. Let us not forget that it was half of the #E Median#! army who swore to #Y Cyrus#!! We must decide the future of the #E Medians#! in our country... and by extention, the nature of our empire itself. \n\n\n\n\n\n\n\n\n\n\n@persia_mil13!"
  
  persis_mission_1_freedom_task_19:0 "Fortify Capitals"
  persis_mission_1_freedom_task_19_DESC:0 "By undertaking efforts at a state-wide level to reinforce our existing fortifications, we will be ready for whatever comes our way - our armies will stand firmly in the field, knowing they have strong walls behind them. \n\n\n\n\n\n\n\n\n\n\n@greek_mil8!"

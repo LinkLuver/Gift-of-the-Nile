@@ -15,4 +15,29 @@ road_network = {
 	428 = 373
 	373 = 376
 
+	##Achaemenid Royal Road
+
+	#Susan-Anshan Road
+	946 = 967 #Susa - Dur-Untash
+	967 = 9713 #Dur-Untash - Ukinnu
+	9713 = 9715 #Ukinnu - Nelepu
+	9715 = 9726 #Nelepu - Hatti
+	9726 = 9720 #Hatti - Amelnaru
+	9720 = 966 #Amelnaru - Huhnuri
+	966 = 9719 #Huhnuri - Narum
+	9719 = 4780 #Narum - Arigan
+	4780 = 4785 #Arigan - Zilittu
+	4785 = 9724 #Zilittu - Bubutu
+	9724 = 9725 #Bubutu - Dimtu
+	9725 = 4782 #Dimtu - Tulaspid
+	4782 = 9655 #Tulaspid - Etlutu
+	9655 = 4950 #Etlutu - Anshan
+
+	#Susan-Kaserun Road
+	4785 = 4786 #Zilittu - Dakkanu
+	4786 = 4787 #Dakkanu - Liyan
+	4786 = 4781 #Dakkanu - Kaserun
+
+	#Susan-Nagargallu Road
+	967 = 945 #Dur-Untash - Nagargallu
 }
