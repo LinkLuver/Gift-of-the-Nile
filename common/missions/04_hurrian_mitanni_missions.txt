@@ -176,7 +176,6 @@
         }
     }
     hurrian_mitanni_missions_task_14 = {
-        requires = { hurrian_mitanni_missions_task_13 }
         requires = { hurrian_mitanni_missions_task_5 }
         requires = { hurrian_mitanni_missions_task_25 }
         requires = { hurrian_mitanni_missions_task_26 }
