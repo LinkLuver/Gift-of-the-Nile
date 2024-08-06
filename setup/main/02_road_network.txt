@@ -16,7 +16,6 @@ road_network = {
 	373 = 376
 
 	##Achaemenid Royal Road
-
 	#Susan-Anshan Road
 	946 = 967 #Susa - Dur-Untash
 	967 = 9713 #Dur-Untash - Ukinnu
@@ -32,12 +31,54 @@ road_network = {
 	9725 = 4782 #Dimtu - Tulaspid
 	4782 = 9655 #Tulaspid - Etlutu
 	9655 = 4950 #Etlutu - Anshan
-
-	#Susan-Kaserun Road
 	4785 = 4786 #Zilittu - Dakkanu
 	4786 = 4787 #Dakkanu - Liyan
 	4786 = 4781 #Dakkanu - Kaserun
-
-	#Susan-Nagargallu Road
 	967 = 945 #Dur-Untash - Nagargallu
+
+	##Assyrian Imperial Road
+	#Babili-Yerushalem Road
+	697 = 684 #Yerushalem - Yeriho
+	684 = 683 #Yeriho - Shilo
+	683 = 680 #Shilo - Shekem
+	680 = 719 #Shekem - Akraba
+	719 = 676 #Akraba - Salem
+	676 = 673 #Salem - Bet She'an
+	673 = 722 #Bet She'an - Gadara
+	722 = 723 #Gadara - Hippos
+	723 = 739 #Hippos - Karnaia
+	739 = 738 #Karnaia - Maqadh
+	738 = 750 #Maqadh - Darmeshq
+	750 = 751 #Darmeshq - 'Avel b-Avana
+	750 = 759 #Darmeshq - Thelseai
+	759 = 758 #Thelseai - Vallis Alba
+	758 = 757 #Vallis Alba - Oneuatha
+	757 = 756 #Oneuatha - Cunna
+	756 = 755 #Cunna - Veriaraca
+	755 = 754 #Veriaraca - Palmyra
+	754 = 815 #Palmyra - Seriane
+	815 = 803 #Seriane - Resafa
+	803 = 9589 #Resafa - Soura
+	9589 = 804 #Soura - Kef Pratha
+	804 = 9588 #Kef Pratha - Chabora
+	9588 = 806 #Chabora - Birtha
+	806 = 827 #Birtha - Circesium
+	827 = 828 #Circesium - Terqa
+	828 = 829 #Terqa - Doura
+	829 = 908 #Doura - Hindanu
+	908 = 907 #Hindanu - Haradu
+	907 = 906 #Haradu - Anatho
+	906 = 953 #Anatho - Bijan
+	953 = 905 #Bijan - Bechchouphrein
+	905 = 954 #Bechchouphrein - Haditha
+	954 = 904 #Haditha - Idu
+	904 = 902 #Idu - Misiche
+	902 = 909 #Misiche - Naharda
+	909 = 910 #Naharda - Sippar
+	910 = 917 #Sippar - Kish
+	917 = 918 #Kish - Babili
+	918 = 919 #Babili - Barsip
+	919 = 9457 #Barsip - Qidrina
+	9457 = 9456 #Qidrina - Pakoria
+	9456 = 910 #Pakoria - Sippar
 }
