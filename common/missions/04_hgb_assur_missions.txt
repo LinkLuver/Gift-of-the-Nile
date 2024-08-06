@@ -20,27 +20,24 @@
         save_scope_as = mission_country
     }
     on_abort = {
-        custom_tooltip = general_mission_cooldown_tt
-        set_variable = {
-            name = hanigalbat_missions_cooldown_var
-            days = 7300
-        }
     }
-    on_completion = {}
-
+    on_completion = {
+	}
+	
     hanigalbat_assur_missions_task_1 = {
         icon = "task_political"
         allow = {}
         on_completion = {
             trigger_event = me_hanigalbat_assur.1
             show_as_tooltip = {
-
             }
         }
     }
+
     hanigalbat_assur_missions_task_2 = {
         icon = "task_political"
         allow = {}
+        requires = { hanigalbat_assur_missions_task_1 }
         on_completion = {
             trigger_event = me_hanigalbat_assur.2
             show_as_tooltip = {
@@ -52,7 +49,6 @@
         icon = "task_political"
         allow = {}
         requires = { hanigalbat_assur_missions_task_1 }
-        requires = { hanigalbat_assur_missions_task_2 }
         on_completion = {
             trigger_event = me_hanigalbat_assur.3
             show_as_tooltip = {
@@ -62,8 +58,8 @@
     }
     hanigalbat_assur_missions_task_4 = {
         icon = "task_political"
-        requires = { hanigalbat_assur_missions_task_3 }
         allow = {}
+        requires = { hanigalbat_assur_missions_task_2 hanigalbat_assur_missions_task_3 }
         on_completion = {
             trigger_event = me_hanigalbat_assur.4
             show_as_tooltip = {
@@ -73,6 +69,7 @@
     }
     hanigalbat_assur_missions_task_5 = {
         icon = "task_political"
+        requires = { hanigalbat_assur_missions_task_4 }
         allow = {}
         on_completion = {
             trigger_event = me_hanigalbat_assur.5
@@ -83,6 +80,7 @@
     }
     hanigalbat_assur_missions_task_6 = {
         icon = "task_political"
+        requires = { hanigalbat_assur_missions_task_1 }
         allow = {}
         on_completion = {
             trigger_event = me_hanigalbat_assur.6
@@ -93,6 +91,7 @@
     }
     hanigalbat_assur_missions_task_7 = {
         icon = "task_political"
+        requires = { hanigalbat_assur_missions_task_1 }
         allow = {}
         on_completion = {
             trigger_event = me_hanigalbat_assur.7
@@ -103,9 +102,7 @@
     }
     hanigalbat_assur_missions_task_8 = {
         icon = "task_political"
-        requires = { hanigalbat_assur_missions_task_5 }
-        requires = { hanigalbat_assur_missions_task_6 }
-        requires = { hanigalbat_assur_missions_task_7 }
+        requires = { hanigalbat_assur_missions_task_1 }
         allow = {}
         on_completion = {
             trigger_event = me_hanigalbat_assur.8
@@ -116,7 +113,7 @@
     }
     hanigalbat_assur_missions_task_9 = {
         icon = "task_political"
-        requires = { hanigalbat_assur_missions_task_5 }
+        requires = { hanigalbat_assur_missions_task_6 hanigalbat_assur_missions_task_7 hanigalbat_assur_missions_task_8 }
         allow = {}
         on_completion = {
             trigger_event = me_hanigalbat_assur.9
@@ -127,8 +124,7 @@
     }
     hanigalbat_assur_missions_task_10 = {
         icon = "task_political"
-        requires = { hanigalbat_assur_missions_task_8 }
-        requires = { hanigalbat_assur_missions_task_9 }
+        requires = { hanigalbat_assur_missions_task_6 }
         allow = {}
         on_completion = {
             trigger_event = me_hanigalbat_assur.10
@@ -139,8 +135,7 @@
     }
     hanigalbat_assur_missions_task_11 = {
         icon = "task_political"
-        requires = { hanigalbat_assur_missions_task_10 }
-        requires = { hanigalbat_assur_missions_task_4 }
+        requires = { hanigalbat_assur_missions_task_9 hanigalbat_assur_missions_task_10 }
         allow = {}
         on_completion = {
             trigger_event = me_hanigalbat_assur.11
@@ -150,8 +145,8 @@
         }
     }
     hanigalbat_assur_missions_task_12 = {
-        requires = { hanigalbat_assur_missions_task_10 }
         icon = "task_political"
+        requires = { hanigalbat_assur_missions_task_11 hanigalbat_assur_missions_task_5 }
         allow = {}
         on_completion = {
             trigger_event = me_hanigalbat_assur.12
@@ -161,6 +156,7 @@
         }
     }
     hanigalbat_assur_missions_task_13 = {
+        requires = { hanigalbat_assur_missions_task_11 }
         icon = "task_political"
         allow = {}
         on_completion = {
@@ -171,7 +167,7 @@
         }
     }
     hanigalbat_assur_missions_task_14 = {
-        requires = { hanigalbat_assur_missions_task_13 }
+        requires = { hanigalbat_assur_missions_task_1 }
         icon = "task_political"
         allow = {}
         on_completion = {
@@ -183,7 +179,6 @@
     }
     hanigalbat_assur_missions_task_15 = {
         requires = { hanigalbat_assur_missions_task_14 }
-        requires = { hanigalbat_assur_missions_task_8 }
         icon = "task_political"
         allow = {}
         on_completion = {
@@ -194,10 +189,8 @@
         }
     }
     hanigalbat_assur_missions_task_16 = {
+        requires = { hanigalbat_assur_missions_task_15 hanigalbat_assur_missions_task_9 }
         icon = "task_political"
-        requires = { hanigalbat_assur_missions_task_11 }
-        requires = { hanigalbat_assur_missions_task_12 }
-        requires = { hanigalbat_assur_missions_task_17 }
         allow = {}
         on_completion = {
             trigger_event = me_hanigalbat_assur.16
@@ -208,7 +201,7 @@
     }
     hanigalbat_assur_missions_task_17 = {
         icon = "task_political"
-        requires = { hanigalbat_assur_missions_task_15 }
+        requires = { hanigalbat_assur_missions_task_12 hanigalbat_assur_missions_task_13 hanigalbat_assur_missions_task_18 }
         allow = {}
         on_completion = {
             trigger_event = me_hanigalbat_assur.17
@@ -219,7 +212,7 @@
     }
     hanigalbat_assur_missions_task_18 = {
         icon = "task_political"
-        requires = { hanigalbat_assur_missions_task_15 }
+        requires = { hanigalbat_assur_missions_task_16 }
         allow = {}
         on_completion = {
             trigger_event = me_hanigalbat_assur.18
@@ -230,8 +223,7 @@
     }
     hanigalbat_assur_missions_task_19 = {
         icon = "task_political"
-        requires = { hanigalbat_assur_missions_task_17 }
-        requires = { hanigalbat_assur_missions_task_18 }
+        requires = { hanigalbat_assur_missions_task_16 }
         allow = {}
         on_completion = {
             trigger_event = me_hanigalbat_assur.19
@@ -241,12 +233,22 @@
         }
     }
     hanigalbat_assur_missions_task_20 = {
-        requires = { hanigalbat_assur_missions_task_19 }
-        requires = { hanigalbat_assur_missions_task_16 }
         icon = "task_political"
+        requires = { hanigalbat_assur_missions_task_18 hanigalbat_assur_missions_task_19 }
         allow = {}
         on_completion = {
             trigger_event = me_hanigalbat_assur.20
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hanigalbat_assur_missions_task_21 = {
+        requires = { hanigalbat_assur_missions_task_20 hanigalbat_assur_missions_task_17 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_hanigalbat_assur.21
             show_as_tooltip = {
 
             }

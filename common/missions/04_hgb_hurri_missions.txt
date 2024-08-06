@@ -64,8 +64,7 @@
     }
     hurri_missions_task_4 = {
         icon = "task_political"
-        requires = { hurri_missions_task_2 }
-        requires = { hurri_missions_task_3 }
+        requires = { hurri_missions_task_2 hurri_missions_task_3 }
         allow = {}
         on_completion = {
             trigger_event = me_hurri.4
@@ -106,8 +105,7 @@
     }
     hurri_missions_task_8 = {
         icon = "task_political"
-        requires = { hurri_missions_task_5 }
-        requires = { hurri_missions_task_6 }
+        requires = { hurri_missions_task_5 hurri_missions_task_6 }
         allow = {}
         on_completion = {
             trigger_event = me_hurri.8
@@ -206,8 +204,7 @@
     }
     hurri_missions_task_17 = {
         icon = "task_political"
-        requires = { hurri_missions_task_12 }
-        requires = { hurri_missions_task_13 }
+        requires = { hurri_missions_task_12 hurri_missions_task_13 }
         allow = {}
         on_completion = {
             trigger_event = me_hurri.17
@@ -218,9 +215,7 @@
     }
     hurri_missions_task_18 = {
         icon = "task_political"
-        requires = { hurri_missions_task_15 }
-        requires = { hurri_missions_task_16 }
-        requires = { hurri_missions_task_17 }
+        requires = { hurri_missions_task_15 hurri_missions_task_16 hurri_missions_task_17 }
         allow = {}
         on_completion = {
             trigger_event = me_hurri.18
