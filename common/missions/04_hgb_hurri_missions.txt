@@ -287,7 +287,6 @@
     hurri_missions_task_24 = {
         icon = "task_political"
         requires = { hurri_missions_task_23 }
-        requires = { hurri_missions_task_19 }
         allow = {}
         on_completion = {
             trigger_event = me_hurri.24
