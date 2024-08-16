@@ -1,0 +1,192 @@
+﻿namespace = ninurta_apal_ekur_two_coronation
+#A deeply ambitious and eccentric man is planning to conquer the universe, but first? he needs a crown
+ninurta_apal_ekur_two_coronation.1 = {
+	type = country_event
+	title = ninurta_apal_ekur_two_coronation.1.t
+	desc = ninurta_apal_ekur_two_coronation.1.desc
+	picture = aqueducts
+	left_portrait = current_ruler
+	trigger = {
+		tag = HAG
+	}
+    fire_only_once = yes
+	immediate = {
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.1.a #Mitanni first, Hurrian Second
+		trigger_event = {
+			id = ninurta_apal_ekur_two_coronation.2
+			days = { 7 }
+		}
+	}
+}
+#The crown of ASSYRIA is all but in his grasp, but even so? the MITANNI nobility plot against him.
+ninurta_apal_ekur_two_coronation.2 = {
+	type = country_event
+	title = ninurta_apal_ekur_two_coronation.2.t
+	desc = ninurta_apal_ekur_two_coronation.2.desc
+	picture = aqueducts
+	left_portrait = current_ruler
+	trigger = {
+		tag = HAG
+	}
+    fire_only_once = yes
+	immediate = {
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.2.a #Crack down on/appease them!
+		trigger_event = {
+			id = ninurta_apal_ekur_two_coronation.3
+			days = { 17 }
+		}
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.2.b #Im sure its nothing!
+		trigger_event = {
+			id = ninurta_apal_ekur_two_coronation.8
+			days = { 17 }
+		}
+	}
+}
+#The MITANNI nobility appeased! Our rule is just a little more guaranteed
+ninurta_apal_ekur_two_coronation.3 = {
+	type = country_event
+	title = ninurta_apal_ekur_two_coronation.3.t
+	desc = ninurta_apal_ekur_two_coronation.3.desc
+	picture = aqueducts
+	left_portrait = current_ruler
+	trigger = {
+		tag = HAG
+	}
+    fire_only_once = yes
+	immediate = {
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.3.a #Everything is proceeding according to plan.
+		trigger_event = {
+			id = ninurta_apal_ekur_two_coronation.4
+			days = { 13 }
+		}
+	}
+}
+#
+ninurta_apal_ekur_two_coronation.4 = {
+	type = country_event
+	title = ninurta_apal_ekur_two_coronation.4.t
+	desc = ninurta_apal_ekur_two_coronation.4.desc
+	picture = aqueducts
+	left_portrait = current_ruler
+	trigger = {
+		tag = HAG
+	}
+    fire_only_once = yes
+	immediate = {
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.4.a #
+		trigger_event = {
+			id = ninurta_apal_ekur_two_coronation.5
+			days = { 30 }
+		}
+	}
+}
+#Attempted coup by the Hurrians!
+ninurta_apal_ekur_two_coronation.5 = {
+	type = country_event
+	title = ninurta_apal_ekur_two_coronation.5.t
+	desc = ninurta_apal_ekur_two_coronation.5.desc
+	picture = aqueducts
+	left_portrait = current_ruler
+	trigger = {
+		tag = HAG
+	}
+    fire_only_once = yes
+	immediate = {
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.5.a #The coup is swiftly shut down by the royal guards!
+		trigger_event = {
+			id = ninurta_apal_ekur_two_coronation.6
+			days = { 11 }
+		}
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.5.b #The coup is successful! Hiketas' realm falls as easily as it was established.
+		trigger_event = {
+			id = ninurta_apal_ekur_two_coronation.9
+			days = { 11 }
+		}
+	}
+}
+#
+ninurta_apal_ekur_two_coronation.6 = {
+	type = country_event
+	title = ninurta_apal_ekur_two_coronation.6.t
+	desc = ninurta_apal_ekur_two_coronation.6.desc
+	picture = aqueducts
+	left_portrait = current_ruler
+	trigger = {
+		tag = HAG
+	}
+    fire_only_once = yes
+	immediate = {
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.6.a #
+		trigger_event = {
+			id = ninurta_apal_ekur_two_coronation.7
+			days = { 17 }
+		}
+	}
+}
+#One ambition realized, many remain.
+ninurta_apal_ekur_two_coronation.7 = {
+	type = country_event
+	title = ninurta_apal_ekur_two_coronation.7.t
+	desc = ninurta_apal_ekur_two_coronation.7.desc
+	picture = aqueducts
+	left_portrait = current_ruler
+	trigger = {
+		tag = HAG
+	}
+    fire_only_once = yes
+	immediate = {
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.7.a #All hail to NINURTA-APAL-EKUR!
+	}
+}
+#Mitanni coup against Hiketas I Sibyrtid! the rebirth of a Mitanni state!
+ninurta_apal_ekur_two_coronation.8 = {
+	type = country_event
+	title = ninurta_apal_ekur_two_coronation.8.t
+	desc = ninurta_apal_ekur_two_coronation.8.desc
+	picture = aqueducts
+	left_portrait = current_ruler
+	trigger = {
+		tag = HAG
+	}
+    fire_only_once = yes
+	immediate = {
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.8.a #become mitanni
+	}
+}
+#Hurrian insurrection overthrows the kingdom of Mat Hannigalbat, the first Hurri kingdom in ages.
+ninurta_apal_ekur_two_coronation.9 = {
+	type = country_event
+	title = ninurta_apal_ekur_two_coronation.9.t
+	desc = ninurta_apal_ekur_two_coronation.9.desc
+	picture = aqueducts
+	left_portrait = current_ruler
+	trigger = {
+		tag = HAG
+	}
+    fire_only_once = yes
+	immediate = {
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.9.a #become hurri
+	}
+}
