@@ -824,14 +824,65 @@
 
 9486={ #Apphana
 	terrain="marsh"
-	culture="babylonian"
-	religion="mesopotamian_religion"
+	culture="ionian"
+	religion="roman_pantheon"
 	trade_goods="salt"
 	civilization_value=33
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=2
+	}
+	nobles={
+		amount=1
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	}
+	citizen={
+		amount=2
+	}
+	citizen={
+		amount=1
+	culture="euboean"
+	religion="roman_pantheon"		
+	}
+	citizen={
+		amount=1
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	}
 	freemen={
-		amount=3
+		amount=2
+	}
+	freemen={
+		amount=1
+	culture="chaldean"
+	religion="mesopotamian_religion"	
+	}
+	freemen={
+		amount=2
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	}
+	freemen={
+		amount=1
+	culture="dilmunite"
+	religion="arabian_pantheon"	
+	}
+	freemen={
+		amount=1
+	culture="elamite"
+	religion="elamite_pantheon"	
+	}
+	slaves={
+		amount=1
+	culture="elamite"
+	religion="elamite_pantheon"	
+	}
+	slaves={
+		amount=1
+	culture="babylonian"
+	religion="mesopotamian_religion"	
 	}
 }
 
