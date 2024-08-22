@@ -1,0 +1,139 @@
+﻿l_english:
+
+damascus_missions:0 "Damascus Missions"
+damascus_missions_DESCRIPTION:0 "Mission description"
+damascus_missions_CRITERIA_DESCRIPTION:0 "This mission will be completed when"
+damascus_missions_BUTTON_TOOLTIP:0 ""
+
+#Missions
+
+damascus_missions_task_1:0 ""
+damascus_missions_task_1_DESC:0 ""
+
+damascus_missions_task_2:0 ""
+damascus_missions_task_2_DESC:0 ""
+
+damascus_missions_task_3:0 ""
+damascus_missions_task_3_DESC:0 ""
+
+damascus_missions_task_4:0 ""
+damascus_missions_task_4_DESC:0 ""
+
+damascus_missions_task_5:0 ""
+damascus_missions_task_5_DESC:0 ""
+
+damascus_missions_task_6:0 ""
+damascus_missions_task_6_DESC:0 ""
+
+damascus_missions_task_7:0 ""
+damascus_missions_task_7_DESC:0 ""
+
+damascus_missions_task_8:0 ""
+damascus_missions_task_8_DESC:0 ""
+
+damascus_missions_task_9:0 ""
+damascus_missions_task_9_DESC:0 ""
+
+damascus_missions_task_10:0 ""
+damascus_missions_task_10_DESC:0 ""
+
+damascus_missions_task_11:0 ""
+damascus_missions_task_11_DESC:0 ""
+
+damascus_missions_task_12:0 ""
+damascus_missions_task_12_DESC:0 ""
+
+damascus_missions_task_13:0 ""
+damascus_missions_task_13_DESC:0 ""
+
+damascus_missions_task_14:0 ""
+damascus_missions_task_14_DESC:0 ""
+
+damascus_missions_task_15:0 ""
+damascus_missions_task_15_DESC:0 ""
+
+
+#Tooltips
+
+
+
+#Modifiers
+
+
+
+#Events
+me_damascus_1_title:0 "$damascus_missions_task_task_1$"
+me_damascus_1_desc:0 ""
+me_damascus_1.a:0 ""
+me_damascus_1_tooltip:0 "The mission task '#Y $damascus_missions_task_task_1$#!' has now been #G Completed#!!"
+
+me_damascus_2_title:0 "$damascus_missions_task_task_2$"
+me_damascus_2_desc:0 ""
+me_damascus_2.a:0 ""
+me_damascus_2_tooltip:0 "The mission task '#Y $damascus_missions_task_task_2$#!' has now been #G Completed#!!"
+
+me_damascus_3_title:0 "$damascus_missions_task_task_3$"
+me_damascus_3_desc:0 ""
+me_damascus_3.a:0 ""
+me_damascus_3_tooltip:0 "The mission task '#Y $damascus_missions_task_task_3$#!' has now been #G Completed#!!"
+
+me_damascus_4_title:0 "$damascus_missions_task_task_4$"
+me_damascus_4_desc:0 ""
+me_damascus_4.a:0 ""
+me_damascus_4_tooltip:0 "The mission task '#Y $damascus_missions_task_task_4$#!' has now been #G Completed#!!"
+
+me_damascus_5_title:0 "$damascus_missions_task_task_5$"
+me_damascus_5_desc:0 ""
+me_damascus_5.a:0 ""
+me_damascus_5_tooltip:0 "The mission task '#Y $damascus_missions_task_task_5$#!' has now been #G Completed#!!"
+
+me_damascus_6_title:0 "$damascus_missions_task_task_6$"
+me_damascus_6_desc:0 ""
+me_damascus_6.a:0 ""
+me_damascus_6_tooltip:0 "The mission task '#Y $damascus_missions_task_task_6$#!' has now been #G Completed#!!"
+
+me_damascus_7_title:0 "$damascus_missions_task_task_7$"
+me_damascus_7_desc:0 ""
+me_damascus_7.a:0 ""
+me_damascus_7_tooltip:0 "The mission task '#Y $damascus_missions_task_task_7$#!' has now been #G Completed#!!"
+
+me_damascus_8_title:0 "$damascus_missions_task_task_8$"
+me_damascus_8_desc:0 ""
+me_damascus_8.a:0 ""
+me_damascus_8_tooltip:0 "The mission task '#Y $damascus_missions_task_task_8$#!' has now been #G Completed#!!"
+
+me_damascus_9_title:0 "$damascus_missions_task_task_9$"
+me_damascus_9_desc:0 ""
+me_damascus_9.a:0 ""
+me_damascus_9_tooltip:0 "The mission task '#Y $damascus_missions_task_task_9$#!' has now been #G Completed#!!"
+
+me_damascus_10_title:0 "$damascus_missions_task_task_10$"
+me_damascus_10_desc:0 ""
+me_damascus_10.a:0 ""
+me_damascus_10_tooltip:0 "The mission task '#Y $damascus_missions_task_task_10$#!' has now been #G Completed#!!"
+
+me_damascus_11_title:0 "$damascus_missions_task_task_11$"
+me_damascus_11_desc:0 ""
+me_damascus_11.a:0 ""
+me_damascus_11_tooltip:0 "The mission task '#Y $damascus_missions_task_task_11$#!' has now been #G Completed#!!"
+
+me_damascus_12_title:0 "$damascus_missions_task_task_12$"
+me_damascus_12_desc:0 ""
+me_damascus_12.a:0 ""
+me_damascus_12_tooltip:0 "The mission task '#Y $damascus_missions_task_task_12$#!' has now been #G Completed#!!"
+
+me_damascus_13_title:0 "$damascus_missions_task_task_13$"
+me_damascus_13_desc:0 ""
+me_damascus_13.a:0 ""
+me_damascus_13_tooltip:0 "The mission task '#Y $damascus_missions_task_task_13$#!' has now been #G Completed#!!"
+
+me_damascus_14_title:0 "$damascus_missions_task_task_14$"
+me_damascus_14_desc:0 ""
+me_damascus_14.a:0 ""
+me_damascus_14_tooltip:0 "The mission task '#Y $damascus_missions_task_task_14$#!' has now been #G Completed#!!"
+
+me_damascus_15_title:0 "$damascus_missions_task_task_15$"
+me_damascus_15_desc:0 ""
+me_damascus_15.a:0 ""
+me_damascus_15_tooltip:0 "The mission task '#Y $damascus_missions_task_task_15$#!' has now been #G Completed#!!"
+

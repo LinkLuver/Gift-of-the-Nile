@@ -1,0 +1,197 @@
+namespace = me_damascus
+
+me_damascus.1 = {
+    type = country_event
+
+    title = me_damascus_1_title
+    desc = me_damascus_1_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_1.a"
+        custom_tooltip = me_damascus_1_tooltip
+
+    }
+}
+me_damascus.2 = {
+    type = country_event
+
+    title = me_damascus_2_title
+    desc = me_damascus_2_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_2.a"
+        custom_tooltip = me_damascus_2_tooltip
+
+    }
+}
+me_damascus.3 = {
+    type = country_event
+
+    title = me_damascus_3_title
+    desc = me_damascus_3_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_3.a"
+        custom_tooltip = me_damascus_3_tooltip
+
+    }
+}
+me_damascus.4 = {
+    type = country_event
+
+    title = me_damascus_4_title
+    desc = me_damascus_4_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_4.a"
+        custom_tooltip = me_damascus_4_tooltip
+
+    }
+}
+me_damascus.5 = {
+    type = country_event
+
+    title = me_damascus_5_title
+    desc = me_damascus_5_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_5.a"
+        custom_tooltip = me_damascus_5_tooltip
+
+    }
+}
+me_damascus.6 = {
+    type = country_event
+
+    title = me_damascus_6_title
+    desc = me_damascus_6_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_6.a"
+        custom_tooltip = me_damascus_6_tooltip
+
+    }
+}
+me_damascus.7 = {
+    type = country_event
+
+    title = me_damascus_7_title
+    desc = me_damascus_7_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_7.a"
+        custom_tooltip = me_damascus_7_tooltip
+
+    }
+}
+me_damascus.8 = {
+    type = country_event
+
+    title = me_damascus_8_title
+    desc = me_damascus_8_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_8.a"
+        custom_tooltip = me_damascus_8_tooltip
+
+    }
+}
+me_damascus.9 = {
+    type = country_event
+
+    title = me_damascus_9_title
+    desc = me_damascus_9_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_9.a"
+        custom_tooltip = me_damascus_9_tooltip
+
+    }
+}
+me_damascus.10 = {
+    type = country_event
+
+    title = me_damascus_10_title
+    desc = me_damascus_10_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_10.a"
+        custom_tooltip = me_damascus_10_tooltip
+
+    }
+}
+me_damascus.11 = {
+    type = country_event
+
+    title = me_damascus_11_title
+    desc = me_damascus_11_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_11.a"
+        custom_tooltip = me_damascus_11_tooltip
+
+    }
+}
+me_damascus.12 = {
+    type = country_event
+
+    title = me_damascus_12_title
+    desc = me_damascus_12_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_12.a"
+        custom_tooltip = me_damascus_12_tooltip
+
+    }
+}
+me_damascus.13 = {
+    type = country_event
+
+    title = me_damascus_13_title
+    desc = me_damascus_13_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_13.a"
+        custom_tooltip = me_damascus_13_tooltip
+
+    }
+}
+me_damascus.14 = {
+    type = country_event
+
+    title = me_damascus_14_title
+    desc = me_damascus_14_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_14.a"
+        custom_tooltip = me_damascus_14_tooltip
+
+    }
+}
+me_damascus.15 = {
+    type = country_event
+
+    title = me_damascus_15_title
+    desc = me_damascus_15_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_15.a"
+        custom_tooltip = me_damascus_15_tooltip
+
+    }
+}
