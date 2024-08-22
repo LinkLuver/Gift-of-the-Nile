@@ -50,3 +50,10 @@ ugarit_trade_hub = {
 rapid_centralization = {
 	monthly_centralization = 0.1
 }
+
+# GOTN
+teshubic_resurgence = { # 5 years
+	global_pop_conversion_speed = 0.25
+	happiness_for_same_religion_modifier = 0.10
+	omen_power = 0.15
+}

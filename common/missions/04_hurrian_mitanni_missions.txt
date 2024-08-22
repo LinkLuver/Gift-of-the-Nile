@@ -28,31 +28,65 @@
     }
     on_completion = {}
 
-    hurrian_mitanni_missions_task_1 = {
+    hurrian_mitanni_missions_task_1 = { # A Brewing Storm
         icon = "task_political"
-        allow = {}
+        allow = {
+            zeal >= 8 #Startup event could grant the ruler with a specific amount of zeal--this can def be defined
+        }
         on_completion = {
             trigger_event = me_hurrian_mitanni.1
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = teshubic_resurgence
+                    duration = 1825 #5 Years
+                }
             }
         }
     }
-    hurrian_mitanni_missions_task_2 = {
+    hurrian_mitanni_missions_task_2 = { # Offerings to Shaushka
         icon = "task_political"
         requires = { hurrian_mitanni_missions_task_1 }
-        allow = {}
+        allow = {
+            capital_scope.state = {
+                has_state_food >= lots_of_stored_food_svalue
+            }
+            custom_tooltip = {
+                text = perform_divine_sacrifice_please_stab_the_pig
+                has_country_modifier = stability_investment
+            }
+        }
         on_completion = {
             trigger_event = me_hurrian_mitanni.2
             show_as_tooltip = {
-
+                custom_tooltip = 3_pops_per_prov_hurria_tt
+                hidden_effect = { #Copy paste into event
+                    capital_scope.state = {
+                        every_state_province = {
+                            while = {
+                                count = 3
+                                limit = {
+                                    any_pops_in_province = {
+                                        NOT = { pop_religion = hurrian_pantheon }
+                                    }
+                                }
+                                random_pops_in_province = {
+                                    limit = {
+                                        NOT = { pop_religion = hurrian_pantheon }
+                                    }
+                                    set_pop_religion = hurrian_pantheon
+                                }
+                            }
+                        }
+                    }
             }
         }
     }
-    hurrian_mitanni_missions_task_3 = {
+    hurrian_mitanni_missions_task_3 = { # Temples to Ussukanni
         icon = "task_political"
         requires = { hurrian_mitanni_missions_task_2 }
-        allow = {}
+        allow = {
+            
+        }
         on_completion = {
             trigger_event = me_hurrian_mitanni.3
             show_as_tooltip = {
