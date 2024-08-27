@@ -378,6 +378,8 @@
  CTU_ADJ:0 "Nuran"
  SY1:0 "Syracusae"
  SY1_ADJ:0 "Syracusan"
+ SYR:0 "Agathoklid Kingdom"
+ SYR_ADJ:0 "Agathoklidian"
  GN1:0 "Genuka"
  GN1_ADJ:0 "Genukan"
 
@@ -432,3 +434,7 @@
  INU_ADJ:0 "Melitan"
  KIR:0 "Kirob"
  KIR_ADJ:0 "Kirobi"
+
+ #IBERIA
+ MGO:0 "Mago"
+ MGO_ADJ:0 "Magoan"

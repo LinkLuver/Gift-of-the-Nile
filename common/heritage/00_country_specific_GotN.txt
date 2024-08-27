@@ -1,4 +1,4 @@
-﻿#GotN Heritages
+#GotN Heritages
 napata_heritage = {
     modifier = {
         #good
@@ -1016,11 +1016,11 @@ etruscan_heritage = {
 syracusan_heritage = {
     modifier = {
         #good
-        mercenary_land_maintenance_cost = -0.1
-        naval_damage_taken = -0.05
-
+        monthly_corruption = -0.03
+        global_freemen_happyness = happiness_large_svalue
+       
         #bad
-        global_citizen_happyness = negative_happiness_small_svalue
+        global_nobles_happyness = -0.04
     }
 
     trigger = {
@@ -1028,8 +1028,8 @@ syracusan_heritage = {
     }
 }
 
-syracusae_2_heritage = {
-    modifier = {
+syracusan_2_heritage = {
+     modifier = {
         #good
         mercenary_land_maintenance_cost = -0.15
         global_nobles_happyness = 0.03
@@ -1037,8 +1037,9 @@ syracusae_2_heritage = {
         #bad
         monthly_tyranny = 0.04
     }
-    trigger = {
-        tag = SYR
+
+   trigger = {
+       tag = SYR
     }
 }
 
@@ -8116,5 +8117,20 @@ apphana_heritage = {
     
     trigger = {
         tag = AM4
+    }
+}
+
+nura_heritage = {
+    modifier = {
+        #good
+        global_migration_speed_modifier = 0.05
+        diplomatic_relations = 2.0
+        
+        #bad
+        global_unrest = 0.05
+    }
+    
+    trigger = {
+        tag = CTU
     }
 }

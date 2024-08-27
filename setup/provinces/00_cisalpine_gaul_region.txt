@@ -694,8 +694,8 @@
 
 3549={ #Genua
 	terrain="forest"
-	culture="ligurian"
-	religion="italic_pantheon"
+	culture="carthaginian"
+	religion="carthaginian_pantheon"
 	trade_goods="cloth"
 	civilization_value=8
 	barbarian_power=0
@@ -715,11 +715,8 @@
 		amount=2
 	}
 	freemen={
-		religion="carthaginian_pantheon"
-		amount=1
-	}
-	freemen={
-		religion="roman_pantheon"
+		culture="ligurian"
+		religion="italic_pantheon"
 		amount=1
 	}
 	freemen={
@@ -731,6 +728,8 @@
 		amount=1
 	}
 	tribesmen={
+		culture="ligurian"
+		religion="italic_pantheon"
 		amount=7
 	}
 	holy_site=omen_uni_astarte
