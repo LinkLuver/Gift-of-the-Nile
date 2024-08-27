@@ -1444,20 +1444,33 @@
 
 1469={ #Mago
 	terrain="plains"
-	culture="talaiotic"
-	religion="nuragic_pantheon"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="fish"
-	civilization_value=15
+	civilization_value=25
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=2
+	}
+	citizen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
 	freemen={
+		amount=1
+	}
+	freemen={
+		culture="talaiotic"
+		religion="nuragic_pantheon"
 		amount=1
 	}
 	slaves={
 		amount=1
-	}
-	tribesmen={
-		amount=3
 	}
 	port_building=1
 }

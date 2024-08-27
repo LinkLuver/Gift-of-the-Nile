@@ -3907,7 +3907,7 @@ country = {
 
 		SY1 = {
 			family = 24
-			government = aristocratic_republic
+			government = democratic_republic
 			primary_culture = syracusan
 			religion = roman_pantheon
 			capital = 84
@@ -3941,7 +3941,7 @@ country = {
 		}
 
 		SYR = {
-			government = aristocratic_monarchy
+			government = dictatorship
 			primary_culture = syracusan
 			religion = roman_pantheon
 			capital = 1470
@@ -4305,8 +4305,8 @@ country = {
 		}
 
 		ALE = {
-			government = oligarchic_republic
-			primary_culture = etruscan
+			government = plutocratic_republic
+			primary_culture = massalian
 			religion = roman_pantheon
 			diplomatic_stance=trading_stance
 			capital = 3515
@@ -5461,7 +5461,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				3483 3481 3484 3486 3485 3490 3482 3492 3493 3494 3497
+				3483 3481 3484 3486 3485 3490 3482 3492 3493 3494 3497 3487 3499
 			}
 		}
 
@@ -5868,9 +5868,9 @@ country = {
 
 		#Massalia
 		MAS = {
-			government = plutocratic_republic
+			government = dictatorship
 			primary_culture = massalian
-			diplomatic_stance=trading_stance
+			diplomatic_stance=warmongering_stance
 			religion = roman_pantheon
 
 			capital = 2325
@@ -5883,7 +5883,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				2325 3543 2260 3517
+				2325 3543 2260 3517 3540 2323 2319 2318 2313 2256 2257 
 			}
 
 		}
@@ -5904,7 +5904,7 @@ country = {
 			capital = 1031
 
 			own_control_core = 	{
-				1031 1032
+				1031 1032 1037 1030
 			}
 
 		}
@@ -5927,6 +5927,26 @@ country = {
 
 			own_control_core =  {
 				1319
+			}
+		}
+
+		MGO = {
+			government = plutocratic_republic
+			primary_culture = massalian
+			diplomatic_stance=trading_stance
+			religion = roman_pantheon
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 1469
+
+			own_control_core =  {
+				1469
 			}
 		}
 
@@ -6209,7 +6229,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				1465 1466 1467 1468 1469
+				1465 1466 1467 1468
 			}
 		}
 
@@ -6780,7 +6800,7 @@ country = {
 			capital = 1249
 
 			own_control_core = 	{
-				1033 1037 1248 1249 1250 1030 1264 1262 1265 1255 1254
+				1033 1248 1249 1250 1264 1262 1265 1255 1254
 			}
 
 			treasures = { 15 }
@@ -6820,7 +6840,7 @@ country = {
 			capital = 1002
 
 			own_control_core = 	{
-				1002 1003 1060 2257 1004 1054 1008 1007
+				1002 1003 1060 1004 1054 1008 1007
 			}
 		}
 
@@ -6964,7 +6984,7 @@ country = {
 			capital = 3542
 
 			own_control_core = 	{
-				3542 3540
+				3542
 			}
 		}
 
@@ -6990,7 +7010,7 @@ country = {
 			capital = 3523
 
 			own_control_core = 	{
-				3521 3523 2323 2319
+				3521 3523
 			}
 		}
 
@@ -7042,7 +7062,7 @@ country = {
 			capital = 2314
 
 			own_control_core = 	{
-				2313 2318 2314 2315 2312
+				2318 2314 2315 2312
 			}
 		}
 
@@ -7068,7 +7088,7 @@ country = {
 			capital = 2259
 
 			own_control_core = 	{
-				2256 2259 2258 1079
+				2259 2258 1079
 			}
 		}
 
@@ -15184,7 +15204,7 @@ country = {
 			capital = 3496
 
 			own_control_core = {
-				3496 3499 3500
+				3496 3500
 			}
 		}
 		#Luguidonensia
@@ -15244,7 +15264,7 @@ country = {
 			capital =  3488
 
 			own_control_core = {
-				 3488 3489 3487
+				 3488 3489
 			}
 		}
 
