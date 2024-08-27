@@ -4297,7 +4297,7 @@ country = {
 		}
 
 		ALE = {
-			government = plutocratic_republic_republic
+			government = plutocratic_republic
 			primary_culture = massalian
 			religion = roman_pantheon
 			diplomatic_stance=trading_stance
@@ -5896,7 +5896,7 @@ country = {
 			capital = 1031
 
 			own_control_core = 	{
-				1031 1032
+				1031 1032 1037 1030
 			}
 
 		}
@@ -6792,7 +6792,7 @@ country = {
 			capital = 1249
 
 			own_control_core = 	{
-				1033 1037 1248 1249 1250 1030 1264 1262 1265 1255 1254
+				1033 1248 1249 1250 1264 1262 1265 1255 1254
 			}
 
 			treasures = { 15 }
