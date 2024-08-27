@@ -765,5 +765,12 @@ family={
 			culture=babylonian
 			owner=SEL
 		}
+		#GOTN Levant
+		2300 = {
+			key = "Beth_Hazeil"
+			prestige=100
+			culture=aramaic
+			owner=PRY
+		}
 	}
 }

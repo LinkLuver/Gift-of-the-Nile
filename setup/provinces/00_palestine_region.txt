@@ -1501,6 +1501,8 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
+		culture="qedarite"
+		religion="arabian_pantheon"
 		amount=3
 	}
 	freemen={
@@ -1511,7 +1513,7 @@
 		amount=1
 	}
 	slaves={
-		amount=2
+		amount=3
 	}
 }
 
@@ -1541,7 +1543,7 @@
 
 734={ #Bostra
 	terrain="plains"
-	culture="aramaic"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="grain"
 	civilization_value=26
@@ -1572,7 +1574,7 @@
 
 735={ #Canatha
 	terrain="plains"
-	culture="aramaic"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="earthware"
 	civilization_value=26
@@ -1588,7 +1590,7 @@
 
 736={ #Mothana
 	terrain="plains"
-	culture="aramaic"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=26
@@ -1616,6 +1618,8 @@
 		amount=1
 	}
 	citizen={
+		culture="qedarite"
+		religion="arabian_pantheon"
 		amount=5
 	}
 	citizen={
@@ -1623,6 +1627,8 @@
 		amount=1
 	}
 	freemen={
+		culture="qedarite"
+		religion="arabian_pantheon"
 		amount=2
 	}
 	slaves={

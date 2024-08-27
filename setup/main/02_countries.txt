@@ -1936,6 +1936,7 @@ country = {
 			}
 		}
 		PRY = { # Darmeshq
+			family = 2300
 			government = aristocratic_monarchy
 			primary_culture = aramaic
 			religion = carthaginian_pantheon
@@ -2414,6 +2415,13 @@ country = {
 			government = despotic_monarchy
 			primary_culture = qedarite
 			religion = arabian_pantheon
+
+			poptype_rights = {
+				{
+					culture = aramaic
+					type = citizen
+				}
+			}
 
 			capital = 732
 
