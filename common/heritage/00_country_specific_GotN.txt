@@ -1028,6 +1028,20 @@ syracusan_heritage = {
     }
 }
 
+syracusae_2_heritage = {
+    modifier = {
+        #good
+        mercenary_land_maintenance_cost = -0.15
+        global_nobles_happyness = 0.03
+
+        #bad
+        monthly_tyranny = 0.04
+    }
+    trigger = {
+        tag = SYR
+    }
+}
+
 icenian_heritage = {
     modifier = {
         #good
