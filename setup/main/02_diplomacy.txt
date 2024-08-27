@@ -3,6 +3,7 @@ diplomacy = {
 	### GOTN DIPLOMACY ###
 	#Babylonian Empire
 	dependency = { first = SEL second = TYO subject_type = tributary }
+	dependency = { first = SEL second = AM4 subject_type = subject_league_city_state }
 
 	#Achaemenid Kingdom
 	dependency = { first = PES second = ARS subject_type = satrapy }
