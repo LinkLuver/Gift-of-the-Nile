@@ -66,16 +66,18 @@
 
 1003={ #Blandae
 	terrain="plains"
-	culture="indiketian"
-	religion="animism"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="glass"
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
+		culture="indiketian"
+		religion="animism"
 		amount=3
 	}
 }
@@ -236,23 +238,40 @@
 
 1012={ #Hibera
 	terrain="hills"
-	culture="ilercavonian"
-	religion="animism"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="earthware"
-	civilization_value=13
+	civilization_value=21
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=2
+	}
 	citizen={
+		amount=1
+	}
+	citizen={
+		culture="ilercavonian"
+		religion="animism"
 		amount=2
 	}
 	freemen={
+		amount=3
+	}
+	freemen={
+		culture="ibero_punic"
+		religion="carthaginian_pantheon"
 		amount=2
 	}
 	slaves={
-		amount=1
+		culture="ilercavonian"
+		religion="animism"
+		amount=2
 	}
 	tribesmen={
-		amount=9
+		culture="ilercavonian"
+		religion="animism"
+		amount=2
 	}
 	port_building=1
 }
@@ -554,8 +573,8 @@
 
 1063={ #Oleastrum
 	terrain="hills"
-	culture="lacetanian"
-	religion="animism"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="salt"
 	civilization_value=8
 	barbarian_power=0
@@ -564,6 +583,8 @@
 		amount=1
 	}
 	tribesmen={
+		culture="lacetanian"
+		religion="animism"
 		amount=4
 	}
 }

@@ -3034,12 +3034,12 @@ Daphnitaean_heritage = {
     }
 }
 
-Capariensian_heritage = {
+Malacan_heritage = {
     modifier = {
         #good
         #desert_hills_combat_bonus = 0.1
-        light_cavalry_desert_combat_bonus = 0.15
-        army_movement_speed = 0.05
+        
+        global_goods_from_slaves = -2.0
 
         #bad
         price_state_investment_military_cost_modifier = 0.15
@@ -8165,4 +8165,17 @@ aleria_heritage = {
     }
 }
 
+dertossa_heritage = {
+    modifier = {
+        #good
+        price_found_city_cost_modifier = -0.10
+        happiness_for_wrong_culture_group_modifier = wrong_culture_group_large
+        #bad
+        diplomatic_range_modifier = -0.15
+    }
+    
+    trigger = {
+        tag = HBA
+    }
+}
 

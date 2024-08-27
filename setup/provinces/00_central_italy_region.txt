@@ -1878,8 +1878,8 @@
 
 3481={ #Sulki
 	terrain="plains"
-	culture="nuragic"
-	religion="nuragic_pantheon"
+	culture="carthaginian"
+	religion="carthaginian_pantheon"
 	trade_goods="salt"
 	civilization_value=34
 	barbarian_power=0
@@ -1893,18 +1893,14 @@
 		amount=1
 	}
 	citizen={
-		culture="carthaginian"
 		amount=2
 	}
 	freemen={
-		culture="carthaginian"
 		amount=4
 	}
-	freemen={
-		amount=5
-	}
 	slaves={
-		culture="carthaginian"
+		culture="nuragic"
+		religion="nuragic_pantheon"
 		amount=3
 	}
 	port_building=1
@@ -1938,12 +1934,18 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
+		amount=2
+	}
+	nobles={
 		culture="nuragic"
 		religion="nuragic_pantheon"
 		amount=2
 	}
 	nobles={
 		amount=1
+	}
+	citizen={
+		amount=4
 	}
 	citizen={
 		culture="nuragic"
@@ -1953,7 +1955,7 @@
 	freemen={
 		culture="nuragic"
 		religion="nuragic_pantheon"
-		amount=4
+		amount=3
 	}
 	freemen={
 		amount=5
@@ -1972,8 +1974,11 @@
 	civilization_value=33
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=3
+	}
 	citizen={
-		amount=4
+		amount=5
 	}
 	citizen={
 		culture="nuragic"
@@ -1986,12 +1991,12 @@
 		amount=1
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	freemen={
 		culture="nuragic"
 		religion="nuragic_pantheon"
-		amount=4
+		amount=2
 	}
 	slaves={
 		amount=6
@@ -2695,8 +2700,8 @@
 
 3515={ #Alalia
 	terrain="farmland"
-	culture="etruscan"
-	religion="italic_pantheon"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="honey"
 	civilization_value=39
 	barbarian_power=0
@@ -2718,16 +2723,11 @@
 		amount=3
 	}
 	freemen={
-		amount=4
+		amount=6
 	}
 	freemen={
-		religion="roman_pantheon"
+		culture="etruscan"
 		amount=2
-	}
-	freemen={
-		culture="massalian"
-		religion="roman_pantheon"
-		amount=3
 	}
 	slaves={
 		culture="massalian"

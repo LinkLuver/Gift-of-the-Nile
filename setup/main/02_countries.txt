@@ -5950,6 +5950,27 @@ country = {
 			}
 		}
 
+		HBA = { 
+			government = plutocratic_republic
+			primary_culture = massalian
+			diplomatic_stance=trading_stance
+			religion = roman_pantheon
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 1012
+
+			own_control_core = 	{
+				1012 1063
+			}
+
+		}
+
 		#Britannia
 
 		TXL = {
@@ -6811,10 +6832,10 @@ country = {
 			primary_culture = ilercavonian
 			religion = animism
 
-			capital = 1012
+			capital = 1240
 
 			own_control_core = 	{
-				1063 1012 1239 1244 1240 1245 1246 1062
+			    1239 1244 1240 1245 1246 1062
 			}
 
 			treasures = { 507 }
@@ -6840,7 +6861,7 @@ country = {
 			capital = 1002
 
 			own_control_core = 	{
-				1002 1003 1060 1004 1054 1008 1007
+				1002 1060 1004 1054 1008 1007
 			}
 		}
 
@@ -6885,7 +6906,7 @@ country = {
 			capital = 1000
 
 			own_control_core = 	{
-				1000 1001 1006
+				1000 1001 1006 1003
 			}
 		}
 

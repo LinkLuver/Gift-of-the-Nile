@@ -84,10 +84,10 @@
 
 2256={ #Narbo
 	terrain="plains"
-	culture="volcae"
-	religion="druidism"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="stone"
-	civilization_value=11
+	civilization_value=13
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -104,7 +104,9 @@
 		amount=1
 	}
 	tribesmen={
-		amount=5
+		culture="indiketian"
+		religion="druidism"
+		amount=2
 	}
 	port_building=1
 }
@@ -118,6 +120,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="massalian"
+		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
@@ -691,8 +695,8 @@
 
 2313={ #Sextantio
 	terrain="farmland"
-	culture="volcae"
-	religion="druidism"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="salt"
 	civilization_value=13
 	barbarian_power=0
@@ -707,6 +711,8 @@
 		amount=1
 	}
 	tribesmen={
+		culture="volcae"
+		religion="druidism"
 		amount=4
 	}
 	port_building=1
@@ -811,16 +817,21 @@
 
 2319={ #Arelatis
 	terrain="farmland"
-	culture="salluvian"
-	religion="druidism"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="grain"
-	civilization_value=13
+	civilization_value=20
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=2
+	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
+		culture="salluvian"
+	religion="druidism"
 		amount=3
 	}
 	slaves={
@@ -884,10 +895,10 @@
 
 2323={ #Pisavi
 	terrain="plains"
-	culture="salluvian"
-	religion="druidism"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="salt"
-	civilization_value=11
+	civilization_value=13
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -897,6 +908,8 @@
 		amount=3
 	}
 	tribesmen={
+		culture="salluvian"
+		religion="druidism"
 		amount=2
 	}
 }
@@ -929,13 +942,28 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=1
+		amount=2
 	}
 	citizen={
 		amount=9
 	}
+	citizen={
+		culture="ibero_punic"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	citizen={
+		culture="etruscan"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
 	freemen={
 		amount=9
+	}
+	freemen={
+		culture="ionian"
+		religion="roman_pantheon"
+		amount=1
 	}
 	slaves={
 		amount=1
@@ -1396,10 +1424,10 @@
 
 3540={ #Pergantion
 	terrain="forest"
-	culture="salluvian"
-	religion="druidism"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="wood"
-	civilization_value=9
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
