@@ -78,6 +78,7 @@
                             }
                         }
                     }
+                }
             }
         }
     }
@@ -85,7 +86,13 @@
         icon = "task_political"
         requires = { hurrian_mitanni_missions_task_2 }
         allow = {
-            
+            custom_tooltip = {
+                any_owned_province = {
+                    count >= 3
+                    num_of_temple_building >= 1
+                }
+                text = "has_3_great_temples_tt"
+            }
         }
         on_completion = {
             trigger_event = me_hurrian_mitanni.3

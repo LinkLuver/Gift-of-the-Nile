@@ -82,6 +82,7 @@
 
  #Tooltips
  3_pops_per_prov_hurria_tt:0 "Up to #Y 3 pops#! per province in [SCOPE.GetRootScope.GetCountry.GetCapital.GetArea.GetName|E] will convert to #Y Teshubic#!."
+ has_3_great_temples_tt:0 "At least #Y 3 provinces#! have a #E Great Temple#! building."
 
  #Modifiers
 
