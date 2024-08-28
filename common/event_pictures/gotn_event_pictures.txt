@@ -86,3 +86,10 @@ hk_tower_babylon = {
 	theme = Wonder
 	picture = "gfx/interface/event_window/gotn_persia_cave.dds"
 }
+
+# The Fate of Empire
+
+tfoe_carthage = {
+	theme = Hubbub
+	picture = "gfx/interface/event_window/gotn_carthage_painting.dds"
+}
