@@ -225,7 +225,6 @@ gotn_events.8 = {
     right_portrait = c:MSL.current_ruler
     right_portrait = c:CPA.current_ruler
 
-
     trigger = {
         is_ai = no
         OR = {
@@ -233,18 +232,16 @@ gotn_events.8 = {
            primary_culture = ibero_punic
            primary_culture = atlosian
         }
-        OR = { capital_scope = {  
+        capital_scope = {  
             OR = {
                 is_in_region = africa_region
                 is_in_region = numidia_region
                 is_in_region = mauretainia_region
-                
             }
         }
     }
-    
     fire_only_once = yes
-
+    
     option = {
         name = "gotn_events_8.a"
     }
