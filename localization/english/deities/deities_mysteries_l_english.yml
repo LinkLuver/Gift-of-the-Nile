@@ -1,9 +1,59 @@
 ﻿l_english:
  
+ ##ORPHISM##
  deity_zagreus:0 "$omen_zagreus$"
  omen_zagreus:0 "Zagreus"
- omen_zagreus_desc:0 "This Orphic Dionysus is sometimes referred to with the alternate name Zagreus. The earliest mentions of this name in literature describe him as a partner of Gaia and call him the highest god. Aeschylus linked Zagreus with Hades, as either Hades' son or Hades himself. Noting "Hades' identity as Zeus' katachthonios alter ego"
+ omen_zagreus_desc:0 "#Y Greek God#! \nThis Orphic Dionysus is sometimes referred to with the alternate name Zagreus. The earliest mentions of this name in literature describe him as a partner of Gaia and call him the highest god. Aeschylus linked Zagreus with Hades, as either Hades' son or Hades himself. Noting "Hades' identity as Zeus' katachthonios alter ego"
 
  deity_isis_demeter:0 "$omen_isis_demeter$"
  omen_isis_demeter:0 "Isis-Demeter"
- omen_isis_demeter_desc:0 ""
+ omen_isis_demeter_desc:0 "#Y Aegyptian Goddess#! \n"
+
+ #deity_hermanubis
+
+ deity_hippasus:0 "$omen_hippasus$"
+ omen_hippasus:0 "Hippasus"
+ omen_hippasus_desc:0 "#Y Greek Philosopher#! \nHippasus of Metapontum was an early disciple of Pythagoras and a highly gifted mathematician who may have drowned at sea as a punishment from the gods for his discovery of irrational numbers. According to Aristotle, Hippasus believed the element of fire to be the first principle rather than number."
+
+ ##PYRRHONISM##
+ 
+ deity_pyrrho:0 "$omen_pyrrho$"
+ omen_pyrrho:0 "Pyrrho"
+ omen_pyrrho_desc:0 "#Y Greek Philosopher#! \nPyrrho was the founder of the Pyrrhonist or sceptic tradition, which sought to achieve ataraxia (a state of spiritual serenity) by the suspension of judgement. Pyrrho and his followers focused on developing methods to refute philosophical arguments rather than constructing counter-arguments, since arguing a viewpoint of one's own would impede the pursuit of ataraxia."
+
+ deity_timon:0 "$omen_timon$"
+ omen_timon:0 "#Y Greek Philosopher#! \nTimon of Phlius"
+ omen_timon_desc:0 "he wrote satirical poetry called silloi which is pronounced silly"
+
+ deity_klytios:0 "$omen_klytios$"
+ omen_klytios:0 "Klytios"
+ omen_klytios_desc:0 "#Y Greek Seer#! \nthe seer, an ancestor of Pyrrho"
+
+ deity_democritus:0 "$omen_democritus$"
+ omen_democritus:0 "Democritus"
+ omen_demicritus_desc:0 "#Y Greek Philosopher#! \n"
+
+ deity_anaxarchus:0 "$omen_anaxarchus$"
+ omen_anaxarchus:0 "Anaxarchus"
+ omen_anaxarchus_desc:0 "#Y Greek Philosopher#! \n"
+
+ deity_nausiphanes:0 "$omen_nausiphanes$"
+ omen_nausiphanes:0 "Nausiphanes"
+ omen_nausiphanes_desc:0 "#Y Greek Philosopher#! \nalthough he could also be Epicurean"
+
+ deity_hecataeus:0 "$omen_hecataeus$"
+ omen_hecataeus:0 "Hecataeus"
+ omen_hecataeus_desc:0 "#Y Greek Philosopher#! \n"
+
+
+ ##EPICURIANISM##
+
+ ##PLATONISM##
+
+ ##STOICISM##
+
+ ##HERMETICISM##
+ #deity_thoth_hermes
+ #deity_serapis
+ #deity_harpocrates
+ #deity_zeus_amun

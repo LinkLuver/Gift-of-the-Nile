@@ -1084,11 +1084,17 @@
 	civilization_value=24
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		religion="epicureanism"
+		amount=1
+	}
 	citizen={
+		religion="epicureanism"
 		amount=2
 	}
 	citizen={
 		culture="athenian"
+		religion="platonism"
 		amount=1
 	}
 	freemen={

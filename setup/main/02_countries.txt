@@ -5275,11 +5275,10 @@ country = {
 
 		MSS = {
 			family = 55
-			government = tribal_kingdom
+			government = aristocratic_monarchy
 			primary_culture = massylian
 			religion = berber_religion
 			capital = 3086
-			centralization=35
 
 			poptype_rights = {
 				{
@@ -10367,7 +10366,7 @@ country = {
 		GAY = { #Lesbos
 			government = democratic_republic
 			primary_culture = aeolian
-			religion = roman_pantheon
+			religion = epicureanism
 			diplomatic_stance=trading_stance
 			capital = 283
 
