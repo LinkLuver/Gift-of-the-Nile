@@ -211,3 +211,41 @@ gotn_events.7 = { # For Canaanite Stuff
         }
     }
 }
+
+gotn_events.8 = { 
+    
+    type = country_event
+    title = "gotn_events_8_title"
+    desc = "gotn_events_8_desc"
+    picture = tfoe_carthage
+    left_portrait = current_ruler
+    left_portrait = c:MSS.current_ruler
+    left_portrait = c:CAR.current_ruler
+    right_portrait = c:CTU.current_ruler
+    right_portrait = c:MSL.current_ruler
+    right_portrait = c:CPA.current_ruler
+
+
+    trigger = {
+        is_ai = no
+        OR = {
+           primary_culture = carthaginian
+           primary_culture = ibero_punic
+           primary_culture = atlosian
+        }
+        OR = { capital_scope = {  
+            OR = {
+                is_in_region = africa_region
+                is_in_region = numidia_region
+                is_in_region = mauretainia_region
+                
+            }
+        }
+    }
+    
+    fire_only_once = yes
+
+    option = {
+        name = "gotn_events_8.a"
+    }
+}
