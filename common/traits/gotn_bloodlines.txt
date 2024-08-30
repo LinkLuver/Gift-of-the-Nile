@@ -59,3 +59,37 @@ adaside = {
 		war_score_cost = -0.05
 	}
 }
+
+talmi_teshub = {
+	type = status
+	finesse = 1
+	country = {
+		build_time = -0.05
+		build_cost = -0.05
+	}
+	prominence = 20
+}
+
+hazael = {
+	type = status
+
+	prominence = 10
+}
+
+sarduri = {
+	type = status
+
+	prominence = 10
+}
+
+zakor = {
+	type = status
+
+	prominence = 10
+}
+
+urhilina = {
+	type = status
+
+	prominence = 10
+}

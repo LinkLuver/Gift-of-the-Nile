@@ -1475,6 +1475,7 @@ country = {
 		}
 
 		SPH = {
+			family = 2302
 			government = despotic_monarchy
 			primary_culture = sophene
 			religion = armenian_religion
@@ -1882,6 +1883,7 @@ country = {
 			}
 		}
 		KAR = {
+			family = 2304
 			government = aristocratic_monarchy
 			primary_culture = hittite
 			religion = hurrian_pantheon
@@ -1900,6 +1902,7 @@ country = {
 			}
 		}
 		LHT = {
+			family = 2303
 			government = despotic_monarchy
 			primary_culture = syriac
 			religion = hurrian_pantheon
@@ -1969,6 +1972,7 @@ country = {
 		}
 
 		HAM = {
+			family = 2301
 			government = aristocratic_monarchy
 			primary_culture = aramaic
 			religion = carthaginian_pantheon

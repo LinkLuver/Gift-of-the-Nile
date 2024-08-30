@@ -772,5 +772,29 @@ family={
 			culture=aramaic
 			owner=PRY
 		}
+		2301 = {
+			key = "Zakor"
+			prestige=100
+			culture=aramaic
+			owner=HAM
+		}
+		2302 = {
+			key = "Sarduri"
+			prestige=100
+			culture=urtaian
+			owner=SPH
+		}
+		2303 = {
+			key = "Urhilina"
+			prestige=100
+			culture=aramaic
+			owner=LHT
+		}
+		2304 = {
+			key = "Talmi_Teshub"
+			prestige=100
+			culture=hittite
+			owner=KAR
+		}
 	}
 }
