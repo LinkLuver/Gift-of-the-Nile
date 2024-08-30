@@ -3034,15 +3034,14 @@ Daphnitaean_heritage = {
     }
 }
 
-Malacan_heritage = {
+malacan_heritage = {
     modifier = {
         #good
-        #desert_hills_combat_bonus = 0.1
-        
+        build_cost = -0.1
         global_goods_from_slaves = -2.0
 
         #bad
-        price_state_investment_military_cost_modifier = 0.15
+        global_slaves_happyness = -0.10
     }
 
     trigger = {
@@ -3050,14 +3049,14 @@ Malacan_heritage = {
     }
 }
 
-Abannaean_heritage = {
+carteian_heritage = {
     modifier = {
         #good
-        monthly_political_influence_modifier = 0.03
-        diplomatic_range_modifier = 0.15
+        global_citizen_happyness = 0.05
+        happiness_for_same_culture_modifier = 0.10
 
         #bad
-        light_infantry_morale = -0.05
+        global_pop_assimilation_speed_modifier = -0.10
     }
 
     trigger = {

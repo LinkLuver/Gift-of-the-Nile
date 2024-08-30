@@ -55,6 +55,17 @@ diplomacy = {
 	dependency = { first = LYD second = MYD subject_type = tributary }
 	dependency = { first = LYD second = BIT subject_type = tributary }
 
+	#Numidian Kingdom
+	dependency = { first = MSS second = IOL subject_type = tributary }
+	dependency = { first = MSS second = MSY subject_type = tributary }
+	dependency = { first = MSS second = GYZ subject_type = tributary }
+	dependency = { first = MSS second = RS1 subject_type = tributary }
+	dependency = { first = MSS second = RS4 subject_type = tributary }
+
+	#Nuran Protectorates
+	dependency = { first = CTU second = RS2 subject_type = tributary }
+	dependency = { first = CTU second = RS3 subject_type = tributary }
+	
 	#Bit-Adini
 	dependency = { first = BMB second = KAR subject_type = hittite_viceroyalty }
 
@@ -136,6 +147,61 @@ diplomacy = {
 	dependency = { first = MAS second = SLV subject_type = tributary }
 	dependency = { first = MAS second = DCA subject_type = tributary }
 
+	#Free Massalian States
+	defensive_league = {
+		member = EPO
+		member = HBA
+		member = HMK
+		member = ALE
+	}
+
+	#Siceliote City States
+	defensive_league = {
+    	member = SY1
+    	member = GEL
+    	member = ACR
+    	member = HEM
+    	member = SIN
+	}
+
+	#Southern Italiotes
+	defensive_league = {
+    	member = RHG
+    	member = LOC
+	}
+
+	#Northern Italiotes
+	defensive_league = {
+    	member = CPU
+    	member = NEA
+    	}
+
+	#Carthaginian League Remnant
+	defensive_league = {
+    	member = CAR
+    	member = UTC
+    	member = KIR
+    	member = KUA
+	}
+
+	#Tetrapolitania
+	defensive_league = {
+    	member = TRP
+    	member = LP1
+    	member = EMP
+	}
+
+	#Gadiran League
+	defensive_league = {
+		member = GAD
+		member = KUS
+		member = LIX
+		member = RSS
+		member = MGD
+		member = ABA
+		member = RS5
+	}
+
 	##Deltan Leagues
 	#Sunset League
 	defensive_league = {
@@ -204,12 +270,6 @@ diplomacy = {
 	}
 
 	defensive_league = {
-		member = MAS
-		member = EPO
-		member = HMK
-	}
-
-	defensive_league = {
 		member = OPO
 		member = MYL
 		member = MND
@@ -243,11 +303,6 @@ diplomacy = {
 	#Bruttii
 	dependency = { first = BRT second = HPO subject_type = tributary }
 	dependency = { first = BRT second = THU subject_type = tributary }
-
-	#Syracuse
-	dependency = { first = SY1 second = LOC subject_type = feudatory }
-	dependency = { first = SY1 second = RHG subject_type = feudatory }
-	dependency = { first = SY1 second = GEL subject_type = feudatory }
 
 	#Knossos
 	dependency = { first = KNO second = ELT subject_type = feudatory }
@@ -395,15 +450,6 @@ diplomacy = {
 	#Hastan tributary
 	dependency = { first = ASA second = LSC subject_type = tributary }
 	
-	#Circle of the Strait
-	defensive_league = {
-		member = GAD
-		member = KUS
-		member = LIX
-		member = RSS
-		member = MGD
-	}
-
 	#Carmoia and Lacinippo
 	defensive_league = {
 		member = CRM

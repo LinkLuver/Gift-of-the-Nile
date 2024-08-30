@@ -27,6 +27,11 @@
 		amount=5
 	}
 	freemen={
+		culture="atlosian"
+		religion="roman_pantheon"
+		amount=2
+	}
+	freemen={
 		culture="massaesylian"
 		religion="berber_religion"
 		amount=1
@@ -37,7 +42,7 @@
 	tribesmen={
 		culture="bastetanian"
 		religion="animism"
-		amount=8
+		amount=6
 	}
 	tribesmen={
 		culture="turdetanian"
@@ -409,6 +414,11 @@
 		amount=3
 	}
 	citizen={
+		culture="ibero_punic"
+		religion="carthaginian_pantheon"
+		amount=1
+	}	
+	citizen={
 		religion="animism"
 		amount=1
 	}
@@ -419,13 +429,23 @@
 		religion="animism"
 		amount=1
 	}
+	freemen={
+		culture="atlosian"
+		religion="roman_pantheon"
+		amount=1
+	}
+	freemen={
+		culture="ibero_punic"
+		religion="carthaginian_pantheon"
+		amount=2
+	}
 	slaves={
 		religion="animism"
 		amount=3
 	}
 	tribesmen={
 		religion="animism"
-		amount=3
+		amount=1
 	}
 	tribesmen={
 		amount=2
@@ -483,12 +503,17 @@
 		amount=3
 	}
 	freemen={
+		culture="atlosian"
+		religion="roman_pantheon"
+		amount=2
+	}
+	freemen={
 		culture="socossian"
 		amount=1
 	}
 	tribesmen={
 		culture="turdetanian"
-		amount=3
+		amount=2
 	}
 	tribesmen={
 		culture="socossian"
@@ -543,6 +568,11 @@
 	}
 	freemen={
 		amount=2
+	}
+	freemen={
+		culture="ibero_punic"
+		religion="carthaginian_pantheon"
+		amount=1
 	}
 	tribesmen={
 		amount=2
@@ -622,6 +652,11 @@
 		amount=2
 	}
 	freemen={
+		culture="atlosian"
+		religion="roman_pantheon"
+		amount=2
+	}
+	freemen={
 		culture="socossian"
 		religion="berber_religion"
 		amount=1
@@ -634,7 +669,7 @@
 	tribesmen={
 		culture="turdetanian"
 		religion="animism"
-		amount=6
+		amount=5
 	}
 	port_building=1
 }
@@ -946,6 +981,11 @@
 		amount=1
 	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="atlosian"
+		religion="roman_pantheon"
 		amount=2
 	}
 	freemen={

@@ -697,7 +697,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=18
+		amount=13
 	}
 	freemen={
 		amount=6
@@ -914,7 +914,7 @@
 		amount=1
 	}
 	citizen={
-		amount=6
+		amount=3
 	}
 	freemen={
 		amount=2
@@ -940,7 +940,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=7
+		amount=5
 	}
 	freemen={
 		amount=4
@@ -970,10 +970,10 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=9
+		amount=3
 	}
 	citizen={
-		amount=15
+		amount=7
 	}
 	citizen={
 		culture="hebrew"
@@ -983,7 +983,7 @@
 	citizen={
 		culture="syracusan"
 		religion="roman_pantheon"
-		amount=5
+		amount=4
 	}
 	citizen={
 		culture="massalian"
@@ -991,7 +991,7 @@
 		amount=3
 	}
 	freemen={
-		amount=4
+		amount=3
 	}
 	freemen={
 		culture="massylian"
@@ -1036,7 +1036,7 @@
 		amount=1
 	}
 	citizen={
-		amount=9
+		amount=7
 	}
 	freemen={
 		amount=3

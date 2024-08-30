@@ -5434,7 +5434,7 @@ country = {
 
 		RS5 = {
 			government = democratic_republic
-			primary_culture = ionian
+			primary_culture = atlosian
 			religion = roman_pantheon
 			capital = 3092
 
@@ -5489,6 +5489,7 @@ country = {
 		MSL = {
 			government = dictatorship
 			primary_culture = atlosian
+			diplomatic_stance=warmongering_stance
 			religion = berber_religion
 			capital = 3061
 
@@ -5852,8 +5853,9 @@ country = {
 		}
 
 		GAE = {
-			government = democratic_republic
+			government = plutocratic_republic
 			primary_culture = atlosian
+			diplomatic_stance=trading_stance
 			religion = roman_pantheon
 
 			technology={
