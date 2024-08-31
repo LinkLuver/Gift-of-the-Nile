@@ -251,25 +251,25 @@ gotn_events.9 = { # Bloodlines Startup
     type = country_event
     hidden = yes
     immediate = {
-        c:PRY.current_ruler = {
-            add_trait = hazael
-            every_child = { add_trait = hazael }
-        }
-        c:HAM.current_ruler = {
-            add_trait = zakor
-            every_child = { add_trait = zakor }
-        }
-        c:KAR.current_ruler = {
-            add_trait = talmi_teshub
-            every_child = { add_trait = talmi_teshub }
-        }
-        c:LHT.current_ruler = {
-            add_trait = urhilina
-            every_child = { add_trait = urhilina }
-        }
-        c:SPH.current_ruler = {
-            add_trait = sarduri
-            every_child = { add_trait = sarduri }
-        }
+        #c:PRY.current_ruler = {
+        #    add_trait = hazael
+        #    every_child = { add_trait = hazael }
+        #}
+        #c:HAM.current_ruler = {
+        #    add_trait = zakor
+        #    every_child = { add_trait = zakor }
+        #}
+        #c:KAR.current_ruler = {
+        #    add_trait = talmi_teshub
+        #    every_child = { add_trait = talmi_teshub }
+        #}
+        #c:LHT.current_ruler = {
+        #    add_trait = urhilina
+        #    every_child = { add_trait = urhilina }
+        #}
+        #c:SPH.current_ruler = {
+        #    add_trait = sarduri
+        #    every_child = { add_trait = sarduri }
+        #}
     }
 }

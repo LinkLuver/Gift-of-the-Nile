@@ -1493,6 +1493,19 @@ country = {
 				858 859 860 878 1855 235 8007 8009 #sophene_region
 				1858 1856 1857 8008 8010
 			}
+			historical_regnal_numbers = {
+				Arame = 1
+				Lutipri = 1
+				Sarduri = 2
+				Ishpuini = 1
+				Menua = 1
+				Inushpua = 1
+				Argishti = 3
+				Melartua = 1
+				Sarduri = 4
+				Rusa = 4
+				Erimena = 1
+			}
 		}
 
 		ISU = { # Isauria
@@ -1900,6 +1913,21 @@ country = {
 			own_control_core = 	{
 				809
 			}
+			historical_regnal_numbers = {
+				Supiuliuma = 2
+				Tudhaliya = 3
+				Zannanza = 1
+				Muwatalli = 2
+				Hattusili = 3
+				Arnuwanda = 1
+				Talmi-Tesub = 1
+				Kuzi-Tesub = 1
+				Arnuwanda = 2
+				Sahurunuwa = 1
+				Sarri-Kusuh = 1
+				Kantuzilli = 1
+				Kurunta = 1
+			}
 		}
 		LHT = {
 			family = 2303
@@ -1918,6 +1946,17 @@ country = {
 
 			own_control_core = 	{
 				787 791 793 797 7985 #syria_region
+			}
+			historical_regnal_numbers = {
+				Taita = 2
+				To'i = 1
+				Parita = 1
+				Urhilina = 1
+				Uratami = 1
+				Zakkor = 1
+				Azriyau = 1
+				Eni-il = 1
+				Yau = 1
 			}
 		}
 		AGU = {
@@ -1969,6 +2008,17 @@ country = {
 				{ deity = 102 }
 				{ deity = 104 }
 			}
+			historical_regnal_numbers = {
+				Hadad = 1
+				Ezron = 1
+				Hadyan = 2
+				Tab-Ramman = 1
+				Bar-Hadad = 2
+				Hadad-ezer = 1
+				Hazael = 1
+				Hadyan = 2
+				Rasyan = 1
+			}
 		}
 
 		HAM = {
@@ -1988,6 +2038,17 @@ country = {
 
 			own_control_core = 	{
 				772 761 762 770 774 776 777 778 781 782 799 816 8011 #apamene_region
+			}
+			historical_regnal_numbers = {
+				Taita = 2
+				To'i = 1
+				Parita = 1
+				Urhilina = 1
+				Uratami = 1
+				Zakkor = 1
+				Azriyau = 1
+				Eni-il = 1
+				Yau = 1
 			}
 		}
 
