@@ -50,6 +50,33 @@ nergilid = {
 	}
 }
 
+shamashid = {
+	type = status
+	charisma = 1
+	country = {
+		diplomatic_relations = 2
+	}
+	prominence = 20
+}
+
+shimannid = {
+	type = status
+	martial = 1
+	country = {
+		assault_ability = 0.05
+	}
+	prominence = 10
+}
+
+arakhid = {
+	type = status
+	zeal = 1
+	country = {
+		happiness_for_wrong_culture_group_modifier = 0.05
+	}
+	prominence = 10
+}
+
 adaside = {
 	type = status
 
@@ -72,24 +99,36 @@ talmi_teshub = {
 
 hazael = {
 	type = status
-
+	martial = 1
+	country = {
+		light_infantry_discipline = 0.05
+	}
 	prominence = 10
 }
 
 sarduri = {
 	type = status
-
+	charisma = 1
+	country = {
+		fort_maintenance_cost = -0.1
+	}
 	prominence = 10
 }
 
 zakor = {
 	type = status
-
+	zeal = 1
+	country = {
+		global_defensive = 0.1
+	}
 	prominence = 10
 }
 
 urhilina = {
 	type = status
-
+	charisma = 1
+	country = {
+		light_cavalry_discipline = 0.05
+	}
 	prominence = 10
 }

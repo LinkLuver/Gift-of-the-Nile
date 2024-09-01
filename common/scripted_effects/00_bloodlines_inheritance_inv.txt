@@ -68,6 +68,9 @@ bloodline_on_born_effect = {
     pass_down_bloodline_character_effect = { BLOODLINE = "cyaxarid" }
     pass_down_bloodline_character_effect = { BLOODLINE = "shushunid" }
     pass_down_bloodline_character_effect = { BLOODLINE = "nergilid" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "shamashid" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "shimannid" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "arakhid" }
     pass_down_bloodline_character_effect = { BLOODLINE = "adaside" }
     pass_down_bloodline_character_effect = { BLOODLINE = "talmi_teshub" }
     pass_down_bloodline_character_effect = { BLOODLINE = "hazael" }
@@ -143,6 +146,9 @@ bloodline_setup_effect = {
     pass_down_bloodline_effect = { BLOODLINE = "cyaxarid" }
     pass_down_bloodline_effect = { BLOODLINE = "shushunid" }
     pass_down_bloodline_effect = { BLOODLINE = "nergilid" }
+    pass_down_bloodline_effect = { BLOODLINE = "shamashid" }
+    pass_down_bloodline_effect = { BLOODLINE = "shimannid" }
+    pass_down_bloodline_effect = { BLOODLINE = "arakhid" }
     pass_down_bloodline_effect = { BLOODLINE = "adaside" }
     pass_down_bloodline_effect = { BLOODLINE = "talmi_teshub" }
     pass_down_bloodline_effect = { BLOODLINE = "hazael" }
