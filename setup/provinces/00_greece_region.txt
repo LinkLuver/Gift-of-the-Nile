@@ -532,16 +532,28 @@
 416={ #Athenai
 	terrain="farmland"
 	culture="athenian"
-	religion="roman_pantheon"
+	religion="platonism"
 	trade_goods="precious_metals"
 	civilization_value=53
 	barbarian_power=0
 	province_rank="city"
 	nobles={
+		amount=4
+	}
+	citizen={
+		amount=9
+	}
+	citizen={
+		religion="isis_religion"
 		amount=2
 	}
 	citizen={
-		amount=6
+		religion="epicureanism"
+		amount=2
+	}
+	citizen={
+		religion="stoicism"
+		amount=1
 	}
 	citizen={
 		culture="hebrew"
@@ -559,9 +571,11 @@
 		amount=1
 	}
 	freemen={
+		religion="roman_pantheon"
 		amount=6
 	}
 	slaves={
+		religion="roman_pantheon"
 		amount=6
 	}
 	holy_site=omen_athena
@@ -1205,7 +1219,7 @@
 446={ #Elis
 	terrain="farmland"
 	culture="aetolian"
-	religion="roman_pantheon"
+	religion="pyrrhonism"
 	trade_goods="wine"
 	civilization_value=33
 	barbarian_power=0
@@ -1217,9 +1231,11 @@
 		amount=8
 	}
 	freemen={
+		religion="roman_pantheon"
 		amount=7
 	}
 	slaves={
+		religion="roman_pantheon"
 		amount=2
 	}
 }

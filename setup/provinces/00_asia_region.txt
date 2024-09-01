@@ -1119,6 +1119,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="epicureanism"
 		amount=2
 	}
 	slaves={

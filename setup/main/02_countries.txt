@@ -2709,7 +2709,7 @@ country = {
 			family = 13
 			government = democratic_republic
 			primary_culture = athenian
-			religion = roman_pantheon
+			religion = platonism
 			diplomatic_stance=trading_stance
 			capital = 416
 
@@ -3954,7 +3954,7 @@ country = {
 		KSC = {
 			government = aristocratic_republic
 			primary_culture = tenuwan_egyptian
-			religion = egyptian_pantheon
+			religion = isis_religion
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3974,7 +3974,7 @@ country = {
 			family = 24
 			government = democratic_republic
 			primary_culture = syracusan
-			religion = roman_pantheon
+			religion = platonism
 			capital = 84
 
 			technology={
@@ -4959,7 +4959,7 @@ country = {
 			government = plutocratic_republic
 			diplomatic_stance=trading_stance
 			primary_culture = italiotian
-			religion = roman_pantheon
+			religion = isis_religion
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4980,7 +4980,7 @@ country = {
 		LOC = {
 			government = plutocratic_republic
 			primary_culture = italiotian
-			religion = roman_pantheon
+			religion = isis_religion
 
 			capital = 73
 
@@ -5009,7 +5009,7 @@ country = {
 			government = plutocratic_republic
 			diplomatic_stance=trading_stance
 			primary_culture = italiotian
-			religion = roman_pantheon
+			religion = isis_religion
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -9789,7 +9789,7 @@ country = {
 		ELI = { #Independent
 			government = oligarchic_republic
 			primary_culture = aetolian
-			religion = roman_pantheon
+			religion = pyrrhonism
 
 			technology={
 				military_tech={ level=2 progress=0 }

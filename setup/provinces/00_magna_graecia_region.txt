@@ -7,6 +7,7 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
+		religion="isis_religion"
 		amount=2
 	}
 	nobles={
@@ -69,7 +70,7 @@
 	}
 	citizen={
 		culture="italiotian"
-		religion="roman_pantheon"
+		religion="isis_religion"
 		amount=4
 	}
 	citizen={
@@ -248,9 +249,11 @@
 		amount=1
 	}
 	citizen={
+		religion="isis_religion"
 		amount=1
 	}
 	freemen={
+		religion="isis_religion"
 		amount=3
 	}
 	slaves={
@@ -430,6 +433,7 @@
 		amount=1
 	}
 	citizen={
+		religion="isis_religion"
 		amount=5
 	}
 	freemen={
@@ -779,6 +783,7 @@
 		amount=10
 	}
 	freemen={
+		religion="isis_religion"
 		amount=5
 	}
 	slaves={
@@ -828,12 +833,14 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
+		religion="isis_religion"
 		amount=1
 	}
 	citizen={
 		amount=7
 	}
 	freemen={
+		religion="isis_religion"
 		amount=3
 	}
 	freemen={
@@ -866,12 +873,14 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
+		religion="isis_religion"
 		amount=1
 	}
 	citizen={
 		amount=8
 	}
 	freemen={
+		religion="isis_religion"
 		amount=3
 	}
 	freemen={
@@ -903,12 +912,14 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
+		religion="isis_religion"
 		amount=1
 	}
 	citizen={
 		amount=9
 	}
 	freemen={
+		religion="isis_religion"
 		amount=4
 	}
 	slaves={
@@ -1365,7 +1376,7 @@
 72={ #Rhegion
 	terrain="hills"
 	culture="italiotian"
-	religion="roman_pantheon"
+	religion="isis_religion"
 	trade_goods="glass"
 	civilization_value=29
 	barbarian_power=0
@@ -1377,9 +1388,11 @@
 		amount=9
 	}
 	freemen={
+		religion="roman_pantheon"
 		amount=4
 	}
 	slaves={
+		religion="roman_pantheon"
 		amount=3
 	}
 	tribesmen={
@@ -1393,7 +1406,7 @@
 73={ #Lokroi Epizephyrioi
 	terrain="hills"
 	culture="italiotian"
-	religion="roman_pantheon"
+	religion="isis_religion"
 	trade_goods="earthware"
 	civilization_value=29
 	barbarian_power=0
@@ -1405,13 +1418,16 @@
 		amount=9
 	}
 	freemen={
+		religion="roman_pantheon"
 		amount=3
 	}
 	freemen={
+		religion="roman_pantheon"
 		culture="bruttian"
 		amount=2
 	}
 	slaves={
+		religion="roman_pantheon"
 		amount=4
 	}
 	tribesmen={
@@ -1459,12 +1475,14 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
+		religion="isis_religion"
 		amount=1
 	}
 	citizen={
 		amount=8
 	}
 	freemen={
+		religion="isis_religion"
 		amount=3
 	}
 	freemen={
@@ -1531,7 +1549,7 @@
 78={ #Kroton
 	terrain="farmland"
 	culture="italiotian"
-	religion="roman_pantheon"
+	religion="isis_religion"
 	trade_goods="earthware"
 	civilization_value=33
 	barbarian_power=0
@@ -1596,18 +1614,21 @@
 80={ #Takhopesh
 	terrain="hills"
 	culture="syracusan"
-	religion="roman_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="stone"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="city"
 	nobles={
+		culture="tenuwan_egyptian"
 		amount=2
 	}
 	citizen={
+		culture="tenuwan_egyptian"
 		amount=3
 	}
 	citizen={
+		religion="roman_pantheon"
 		culture="boeotian"
 		amount=2
 	}
@@ -1615,6 +1636,7 @@
 		amount=7
 	}
 	slaves={
+		religion="roman_pantheon"
 		amount=4
 	}
 	tribesmen={
@@ -1626,20 +1648,23 @@
 81={ #Tarodjew
 	terrain="hills"
 	culture="syracusan"
-	religion="roman_pantheon"
+	religion="egyptian_pantheon"
 	trade_goods="olive"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="tenuwan_egyptian"
 		amount=1
 	}
 	citizen={
 		culture="boeotian"
+		religion="roman_pantheon"
 		amount=2
 	}
 	freemen={
 		culture="boeotian"
+		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
@@ -1652,34 +1677,46 @@
 
 82={ #Per-Ka
 	terrain="farmland"
-	culture="syracusan"
-	religion="roman_pantheon"
+	culture="tenuwan_egyptian"
+	religion="egyptian_pantheon"
 	trade_goods="glass"
 	civilization_value=33
 	barbarian_power=0
 	province_rank="city"
-	citizen={
-		amount=4
-	}
-	citizen={
-		culture="boeotian"
+	nobles={
 		amount=2
 	}
-	freemen={
+	citizen={
+		amount=5
+	}
+	citizen={
+		religion="roman_pantheon"
+		culture="boeotian"
 		amount=3
 	}
 	freemen={
+		religion="isis_religion"
+		amount=7
+	}
+	freemen={
+		religion="isis_religion"
 		culture="boeotian"
-		amount=1
+		amount=4
 	}
 	slaves={
-		amount=6
+		amount=9
 	}
 	slaves={
+		religion="isis_religion"
 		culture="boeotian"
 		amount=2
 	}
 	tribesmen={
+		religion="roman_pantheon"
+		amount=2
+	}
+	tribesmen={
+		religion="italic_pantheon"
 		amount=1
 	}
 	port_building=1
@@ -1694,6 +1731,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		religion="platonism"
 		amount=2
 	}
 	citizen={
@@ -1707,6 +1745,7 @@
 		amount=2
 	}
 	tribesmen={
+		religion="platonism"
 		amount=1
 	}
 }
@@ -1714,19 +1753,20 @@
 84={ #Syrakousai
 	terrain="plains"
 	culture="syracusan"
-	religion="roman_pantheon"
+	religion="platonism"
 	trade_goods="wine"
 	civilization_value=31
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=2
+		amount=3
 	}
 	citizen={
-		amount=5
+		amount=6
 	}
 	citizen={
 		culture="achaean"
+		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
@@ -1734,9 +1774,11 @@
 	}
 	freemen={
 		culture="achaean"
+		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
+		religion="roman_pantheon"
 		amount=14
 	}
 	tribesmen={
@@ -1824,9 +1866,11 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		religion="platonism"
 		amount=1
 	}
 	freemen={
+		religion="platonism"
 		amount=2
 	}
 	slaves={
@@ -2213,6 +2257,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		religion="platonism"
 		amount=1
 	}
 	freemen={
@@ -2226,10 +2271,12 @@
 		amount=2
 	}
 	slaves={
+		religion="pyrrhonism"
 		culture="achaean"
 		amount=1
 	}
 	tribesmen={
+		religion="platonism"
 		amount=1
 	}
 }
@@ -2367,9 +2414,11 @@
 		amount=2
 	}
 	slaves={
+		religion="platonism"
 		amount=1
 	}
 	tribesmen={
+		religion="isis_religion"
 		amount=1
 	}
 }

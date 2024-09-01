@@ -210,11 +210,11 @@ armenian_religion = { # Khaldic
 
 #Philosophos Religions
 isis_religion = { # Orphism
-	color = hsv { 0.3  0.8  1 }
+	color = hsv { 0.9  0.9  0.3 }
 	modifier = { 
-		ruler_popularity_gain = 0.08
-		global_monthly_civilization = 0.02
-		character_loyalty = -3
+		happiness_for_same_religion_modifier = 0.05
+		build_cost = -0.075
+		global_pop_assimilation_speed_modifier = -0.025
 	}
 	religion_category = sages
 	can_deify_ruler = yes
@@ -234,7 +234,7 @@ hermes_religion = { # Hermetic
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
 epicureanism = { # Epicureanist
-	color = hsv { 0.3  0.8  1 }
+	color = rgb { 250 100 210 }
 	modifier = { 
 		ruler_popularity_gain = 0.08
 		global_monthly_civilization = 0.02
@@ -246,7 +246,7 @@ epicureanism = { # Epicureanist
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
 platonism = { # Platonist
-	color = hsv { 0.3  0.8  1 }
+	color = rgb { 30 100 250 }
 	modifier = { 
 		ruler_popularity_gain = 0.08
 		global_monthly_civilization = 0.02
@@ -258,7 +258,19 @@ platonism = { # Platonist
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
 stoicism = { # Stoicist
-	color = hsv { 0.3  0.8  1 }
+	color = rgb { 30 100 250 }
+	modifier = { 
+		ruler_popularity_gain = 0.08
+		global_monthly_civilization = 0.02
+		character_loyalty = -3
+	}
+	religion_category = sages
+	can_deify_ruler = yes
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+pyrrhonism = { # Pyrrhonist
+	color = rgb { 235 60 10 }
 	modifier = { 
 		ruler_popularity_gain = 0.08
 		global_monthly_civilization = 0.02
