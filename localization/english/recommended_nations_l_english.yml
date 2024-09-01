@@ -13,6 +13,7 @@
   dumnonia_start:0 "#t Dumnonia#!\nDifficulty: #Y Normal#!\n\n$dumnonian_heritage_desc$"
   odrysia_start:0 "#t Odrysia#!\nDifficulty: #Y Normal#!\n\n$odrysian_heritage_desc$"
   vasconia_start:0 "#t Vasconia#!\nDifficulty: #Y Normal#!\n\n$vasconian_heritage_desc$"
+  cyrene_start:0 "#t Cyrenica#!\nDifficulty: #Y Normal#!\n\nA greek colony, Cyrenica has fallen under the control of the Dread Pirate Ptolemy, and his first mate, Antigonos. A new age of piracy has come for the Mediterranean!"
 
   #Northern Europe
   scythia_start: "#t Scythia#!\nDifficulty: #y Easy#!\n\nScythia has been in great decline after king Ateas died at the hands of Philip II of Macedon. Despite shaky relations with the Greeks, some start to view their cities as pillars of strength and stability. Will Scythia change with the times or remain true to her nomadic way of life?"
@@ -31,15 +32,24 @@
   icenia_start:0 "#t Icenia#!\nDifficulty: #Y Normal#!\n\n$icenian_heritage_desc$"
   caledonia_start:0 "#t Caledonia#!\nDifficulty: #Y Hard#!\n\n$caledonia_heritage_desc$"
   ivernia_start:0 "#t Ivernia#!\nDifficulty: #Y Normal#!\n\n$ivernia_heritage_desc$"
+  media_start:0 "#t Median Empire#!\nDifficulty: #Y Hard#!\n\n$atropatenian_heritage_desc$"
+  assyria_start:0 "#t Assyria#!\nDifficulty: #Y Hard#!\n\nOnce the most powerful empire in the world, the mighty Assyrian empire has been falling apart due to numerous revolts and wars. Now, it seems the Assyrians have the chance to restore their once glorious realm."
+  elam_start:0 "#t Elam#!\nDifficulty: #Y Normal#!\n\n$elam_heritage_desc$"
+  babylon_start:0 "#t Babylonia#!\nDifficulty: #Y Normal#!\n\n$seleucus_heritage_desc$"
+  persia_start:0 "#t Achaemenid Kingdom#!\nDifficulty: #Y Normal#!\n\n$heritage_of_persis_desc$"
 
   #Africa
   egypt_start:0 "#t Egypt#!\nDifficulty: #y Very Easy#!\n\n$ptolemys_heritage_desc$"
-  cyrenaica_start: "#t Cyrenaica#!\nDifficulty: #y Hard#!\n\nCyrenaica has long been the plaything of other empires; first the Achaemenids placed their hateful yoke of slavery upon them, and then the barbarous armies of Alexandros brought more chaos and forced servitude to this fertile and lush part of Africa. Cyrenaica, once home to a free and proud people, is now nominally ruled by Ptolemaios, the Macedonian general who seized power and established himself as Basileus."
+  cyrenaica_start: #t Cyrenaica#!\nDifficulty: #y Hard#!\n\nCyrenaica has long been the plaything of other empires; first the Achaemenids placed their hateful yoke of slavery upon them, and then the barbarous armies of Alexandros brought more chaos and forced servitude to this fertile and lush part of Africa. Cyrenaica, once home to a free and proud people, is now nominally ruled by Ptolemaios, the Macedonian general who seized power and established himself as Basileus."
   kush_start: "#t Kush#!\nDifficulty: #y Easy#!\n\nThe people of Kush have all but faded into obscurity after the fall of the 25th dynasty. It is time to reverse the fortunes and grow to become the strongest Pharaoh the world has ever seen!"
   aksum_start:0 "#t Aksum#!\nDifficulty: #Y Normal#!\n\n$Axumite_heritage_desc$"
   garamantia_start:0 "#t Garamantia#!\nDifficulty: #Y Easy#!\n\n$garamantes_heritage_desc$"
   massaesylia_start:0 "#t Massaesylia#!\nDifficulty: #Y Hard#!\n\n$Massaesylian_heritage_desc$"
   nuragic_start:0 "#t Gymnaesia#!\nDifficulty: #Y Hard#!\n\n$balearic_heritage_desc$"
+  karkamesh_start:0 "#t Karkemish#!\nDifficulty: #Y Hard#!\n\n$hittite_heritage_desc$"
+  tadmor_start:0 "#t Tadmor#!\nDifficulty: #Y Normal#!\n\n$tadmor_heritage_desc$"
+  hamath_start:0 "#t Hamath#!\nDifficulty: #Y Normal#!\n\n$hamath_heritage_desc$"
+  aram_start:0 "#t Aram#!\nDifficulty: #Y Normal#!\n\n$aram_heritage_desc$"
 
   #Asia
   antigonid_start:0 "#T Antigonid Kingdom#!\nDifficulty: #y Normal#!\n\n$antigonid_heritage_desc$"
@@ -61,6 +71,10 @@
   qataba_start:0 "#t Qataba#!\nDifficulty: #Y Easy#!\n\n$qataba_heritage_desc$"
   ach_heraclea_persica_start:0 "#t Heraclea Pontica#!\nDifficulty: #Y Very Hard#!\n\n$heraclea_pontican_heritage_desc$"
   tylos_start:0 "#t Tylos#!\nDifficulty: #Y Very Hard#!\n\n$tylosian_heritage_desc$"
+  lycia_start:0 "#t Lycia#!\nDifficulty: #y Normal#!\n\n$lycian_heritage_desc$"
+  lydia_start:0 "#t Lydia#!\nDifficulty: #y Easy#!\n\n$lidyan_heritage_desc$"
+  armenia_start:0 "#t Armenia#!\nDifficulty: #y Normal#!\n\nA Satrapy of Media, Armenia is ready to exploit the current weakness of the Median state, and to seize eastern Median lands for themselves."
+  que_start:0 "#t Que#!\nDifficulty: #y Hard#!\n\n$que_heritage_desc$"
 
   #India
   maurya_start:0 "#t Maurya#!\nDifficulty: #Y Easy#!\n\n$maurya_heritage_desc$"
