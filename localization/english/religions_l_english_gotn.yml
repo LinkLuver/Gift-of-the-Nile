@@ -69,6 +69,9 @@
  taoism:0 "Daoist"
  desc_taoism:0 "Daoism, also known as Taoism or the School of the Way, offers a profound philosophical path deeply rooted in ancient Chinese thought. It centers on the concept of the Tao, the eternal and ever-flowing Way, advocating for a harmonious life by aligning with the natural rhythms of the universe. Taoism encourages simplicity, spontaneity, and the cultivation of inner balance as keys to a meaningful existence."
 
+ pyrrhonism:0 "Skeptic"
+ desc_pyrrhonism:0 "Skepticism includes Pyrrhonism, named after Pyrrho, as well as Atomism. Skepticism is a philosophical school centered on the suspension of judgment. Minds like Democritus believe reality consists of indivisible atoms in constant motion. They seek tranquility by recognizing the limitations of human knowledge and embracing uncertainty, viewing phenomena as temporary results of atomic interactions."
+
  uralic_pantheon:0 "Ilmaric"
  desc_uralic_pantheon:0 "Ilmaric represents the Finno-Ugric culture group's religion. It includes a vast array of cultures and beliefs, all revolving around the lead god, Ilma, who was most certainly venerated in all Finno-Ugric cultures. Along with Ilma, Ilmaric beliefs include an emphasis on the light of the Night and Day skies—the Moon and Sun."
 
@@ -128,6 +131,9 @@
 
  convert_to_stoicism:0 "Embrace Stoic Beliefs"
  convert_to_stoicism_desc:0 "The systematic and virtue-centered philosophy of Stoicism has garnered interest for its emphasis on ethics and rational living. This school teaches that virtue, derived from logic and naturalistic ethics, is essential for a well-reasoned life. Shall we adopt Stoic principles as the foundation of our national belief system?"
+
+ convert_to_pyrrhonism:0 "Embrace Skeptic Beliefs"
+ convert_to_pyrrhonism_desc:0 "The philosophy of Skepticism, with its emphasis on questioning certainty and embracing doubt, offers a path to tranquility through the suspension of judgment. Skepticism encourages a life free from dogmatic beliefs, focusing on empirical observation and the recognition of our limitations. We are considering adopting Skeptic principles as the foundation of our national belief system."
 
  convert_to_hatti_religion:0 "Adopt Estanic Pantheon"
  convert_to_hatti_religion_desc:0 "The ancient faith of the people of northern Anatolia has survived invador after invador. Surely, this tenacity says something about their belief in the Mother Estan. Our people seem to agree, at least a portion do. We are presented with the option to commit this religion to law as our state religion."

@@ -128,7 +128,15 @@ urhilina = {
 	type = status
 	charisma = 1
 	country = {
-		light_cavalry_discipline = 0.05
+		light_cavalry_morale = 0.05
 	}
 	prominence = 10
+}
+
+ailymasid = {
+	type = status
+	martial = 1
+	country = {
+		light_cavalry_discipline = 0.05
+	}
 }
