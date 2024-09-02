@@ -5561,8 +5561,21 @@ country = {
 				religious_tech= { level=1 progress=0  }
 			}
 
+			poptype_rights = {
+				{
+					culture = socossian
+					type = citizen
+				}
+
 			own_control_core = 	{
 				3061 3085
+			}
+
+			pantheon = {
+				{ deity = 102 }
+				{ deity = 401 }
+				{ deity = 961 }
+				{ deity = 966 }
 			}
 		}
 
@@ -5836,6 +5849,16 @@ country = {
 				civic_tech={ level=1 progress=0 }
 				oratory_tech={ level=1 progress=0 }
 				religious_tech= { level=1 progress=0  }
+			}
+
+			poptype_rights = {
+				{
+					culture = turdetanian
+					type = citizen
+				}
+					culture = atlosian
+					type = citizen
+				}
 			}
 
 			own_control_core = 	{

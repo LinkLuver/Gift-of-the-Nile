@@ -641,15 +641,27 @@
 	civilization_value=29
 	barbarian_power=0
 	province_rank="city"
-	citizen={
+	nobles={
 		amount=1
+	}	
+	citizen={
+		amount=2
+	}
+	citizen={
+		culture="atlosian"
+		religion="roman_pantheon"
+		amount=2
+	}
+	citizen={
+		culture="turdetanian"
+		amount=2
 	}
 	freemen={
 		amount=3
 	}
 	freemen={
 		culture="turdetanian"
-		amount=2
+		amount=1
 	}
 	freemen={
 		culture="atlosian"
@@ -669,7 +681,7 @@
 	tribesmen={
 		culture="turdetanian"
 		religion="animism"
-		amount=5
+		amount= 1
 	}
 	port_building=1
 }
