@@ -37,6 +37,7 @@ is_tier_1_formable_trigger = {
 		tag = 5RI #Punjab
 		tag = VNT #Formable Veneto
 		tag = VIN #Vindelicia
+		tag = ZG2 #Lullubi Kingdom
 	}
 }
 
@@ -88,6 +89,7 @@ is_tier_2_formable_trigger = {
 		tag = CN2 #Canaan
 		tag = SHK #Shikala
 		tag = ATL #Atlas
+		tag = ZG1 #Kassite Kingdom
 	}
 }
 

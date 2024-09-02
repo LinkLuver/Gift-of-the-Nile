@@ -50,6 +50,18 @@
  form_atlas:0 "Form Atlas"
  form_atlas_desc:0 "The namesake of our mighty people, the #Y Atlas Mountains#!, has fallen under our glorious rule. All shall crumble under the power of #Y Atlas#!!"
 
+ ## Zagros Formables
+ KASSITE_NAME:0 "Neo-Kassite Kingdom"
+ KASSITE_ADJECTIVE:0 "Kassite"
+ form_kassite:0 "Restore Kassite Babylon"
+ form_kassite_desc:0 "The once great #Y Kassite#! realm dominated #Y Mesopotamia#!. Unfortuantely, our ancestors fell during the #T Bronze Age Collapse#!, pushed into the mountains, and for a thousand years #Y Mesopotamia#! has not been ours. Now, we have come back to our rightful thrones. Once more, the #Y Four Corners of the Universe#! will belong to US!"
+ formable_not_kassite_exists:0 "The #Y Kassite Kingdom#! does not exist."
+
+ LULLUBI_NAME:0 "Lullubi Kingdom"
+ LULLUBI_ADJECTIVE:0 "Lullu"
+ form_lullubi:0 "Restore Lullubi Kingdom"
+ form_lullubi_desc:0 "Once, the #Y Lullu#! tribes were united. They represented a front against the ever-meddling and ever-haughty #Y Mesopotamians#!. Whether from #Y Babylon#! or #Y Asshur#!, neither would conquer the mighty #Y Zagrosian#! kingdom of #Y Lullu#!. Today we bring back our beloved past, restoring the #E Lullubi Kingdom#!!"
+ formable_not_kassite_exists:0 "The #Y Lullubi Kingdom#! does not exist."
 
  ### Reaffirmation Decisions ###
  # Reaffirm Media

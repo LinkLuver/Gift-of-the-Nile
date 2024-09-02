@@ -43,6 +43,7 @@
  xiyu:0 "Tocharian"
  east_semetic:0 "Magani"
  hurro_urartian:0 "Hurro-Urartian"
+ finnic_group:0 "Finnic"
  
  #Hurrio-Urartian
  matienian:0 "Matienian"
@@ -343,7 +344,11 @@
  budinian:0 "Budinian"
  chernolian:0 "Borysthenian"
  melanchlaenian:0 "Melanchlaenian"
+ #Finnic Group
  androphagian:0 "Androphagian"
+ fennic:0 "Fennic"
+ volgaic:0 "Volgaic"
+ mordvin:0 "Mordvin"
  #North African
  egyptian:1 "Memphite"
  upper_egyptian:0 "Wasetic"
@@ -627,6 +632,10 @@
  mesopotamian_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  armenian_group_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  armenian_group_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ finnic_group_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ finnic_group_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ xiyu_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ xiyu_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
 
 
 
@@ -656,17 +665,36 @@
 
  #Mesopotamian
  ARMY_NAME_mesopotamian:0 "$NUM$$ORDER$ Army"
- COHORT_NAME_mesopotamian:0 "$COHORT_NAME_east_levantine$"
  NAVY_NAME_mesopotamian:0 "$NUM$$ORDER$ Navy"
+ COHORT_NAME_mesopotamian:0 "$COHORT_NAME_east_levantine$"
+ LEGION_NAME_mesopotamian:0 "$LEGION_NAME_east_levantine$"
 
- #Scythian east
+ #Lydio-Phrygian
  ARMY_NAME_lydio_phrygian:0 "$NUM$$ORDER$ Army"
  NAVY_NAME_lydio_phrygian:0 "$NUM$$ORDER$ Navy"
  COHORT_NAME_lydio_phrygian:1 "$COHORT_NAME_anatolian$"
  LEGION_NAME_lydio_phrygian:0 "$LEGION_NAME_anatolian$"
 
+ #Meluhhan
+ ARMY_NAME_indus:0 "$NUM$$ORDER$ Army"
+ NAVY_NAME_indus:0 "$NUM$$ORDER$ Navy"
+ COHORT_NAME_indus:0 "$COHORT_NAME_magadhi$"
+ LEGION_NAME_indus:0 "$LEGION_NAME_magadhi$"
+
  #Adivasi
  ARMY_NAME_adivasi:0 "$NUM$$ORDER$ Army"
  NAVY_NAME_adivasi:0 "$NUM$$ORDER$ Navy"
- COHORT_NAME_adivasi:0 "$COHORT_NAME_anatolian$"
- LEGION_NAME_adivasi:0 "$LEGION_NAME_anatolian$"
+ COHORT_NAME_adivasi:0 "$COHORT_NAME_magadhi$"
+ LEGION_NAME_adivasi:0 "$LEGION_NAME_magadhi$"
+
+ #Finnic
+ ARMY_NAME_finnic_group:0 "$NUM$$ORDER$ Army"
+ NAVY_NAME_finnic_group:0 "$NUM$$ORDER$ Navy"
+ COHORT_NAME_finnic_group:1 "$COHORT_NAME_baltic$"
+ LEGION_NAME_finnic_groupt:0 "$LEGION_NAME_baltic$"
+
+ #Tocharian
+ ARMY_NAME_xiyu:0 "$NUM$$ORDER$ Army"
+ NAVY_NAME_xiyu:0 "$NUM$$ORDER$ Navy"
+ COHORT_NAME_xiyu:0 "$COHORT_NAME_persia$"
+ LEGION_NAME_xiyu:0 "$LEGION_NAME_persia$"

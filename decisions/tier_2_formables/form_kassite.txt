@@ -1,0 +1,80 @@
+﻿country_decisions = {
+	
+	#form Aram
+	form_kassite = {
+		
+		potential = {
+			num_of_cities >= 1
+			primary_culture = cossian
+			NOT = {
+				tag = ZG1
+			}
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					this = p:974
+					this = p:980
+					this = p:4967
+					this = p:4971
+					this = p:4970
+					this = p:9769
+					this = p:928
+					this = p:900
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = "formable_not_kassite_exists"
+				NOT = {
+					any_country = {
+						tag = ZG1
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 974
+			owns = 980
+			owns = 4967
+			owns = 4971
+			owns = 4970
+			owns = 9769
+			owns = 928
+			owns = 900
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "KASSITE_NAME"
+			hidden_effect = {
+				change_country_adjective = "KASSITE_ADJECTIVE"
+				change_country_tag = "ZG1"
+			}
+			capital_scope = {
+				capital_formable_large_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			change_government = aristocratic_monarchy
+			switch_government_type_event_clearup_effect = yes
+			add_2_free_province_investments = yes
+			set_capital = 900
+			p:900 = {
+				capital_formable_medium_effect = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+}
