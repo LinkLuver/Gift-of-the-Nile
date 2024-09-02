@@ -2,8 +2,8 @@
 	hedjet_white = rgb { 240 230 230 } # Hedjet White
 	desheret_red = hsv { 0 1 0.75 } # Desheret Red
 	kemet_black = rgb { 29 29 29 } # Kemet Black
-	meshwesh_color = rgb { 191 7 35 }
-	kushite_red = rgb { 86 13 37 }
-	waset_blue = rgb { 2 6 244 }
-	waset_red = rgb { 139 16 33 }
+	meshwesh_color = rgb { 191 7 35 } # Meshwesh Color
+	kushite_red = rgb { 86 13 37 } # Kushite Red
+	waset_blue = rgb { 2 6 244 } # Waset Blue
+	waset_red = rgb { 139 16 33 } # Waset Red
 }
