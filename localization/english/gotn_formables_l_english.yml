@@ -61,7 +61,14 @@
  LULLUBI_ADJECTIVE:0 "Lullu"
  form_lullubi:0 "Restore Lullubi Kingdom"
  form_lullubi_desc:0 "Once, the #Y Lullu#! tribes were united. They represented a front against the ever-meddling and ever-haughty #Y Mesopotamians#!. Whether from #Y Babylon#! or #Y Asshur#!, neither would conquer the mighty #Y Zagrosian#! kingdom of #Y Lullu#!. Today we bring back our beloved past, restoring the #E Lullubi Kingdom#!!"
- formable_not_kassite_exists:0 "The #Y Lullubi Kingdom#! does not exist."
+ formable_not_lullubi_exists:0 "The #Y Lullubi Kingdom#! does not exist."
+
+ ZAGROS_NAME:0 "Zagrosia"
+ ZAGROS_ADJECTIVE:0 "Zagrosian"
+ form_zagrosia:0 "Form Zagrosia"
+ form_zagrosia_desc:0 "The many tribes and peoples of the #Y Zagros Mountains#! have never been united, yet all of them share many features. Raiding the rich lands to the west, east, north, or south; living in the tall, mighty mountains; and fighting like warriors until the last man. We will forge a #G New Cultural Identity#! as #Y Zagrosians#!!"
+ formable_not_zagrosia_exists:0 "#Y Zagrosia#! does not exist."
+ zagros_claims:0 "Gain claims on the #Y Zagrosia#! region."
 
  ### Reaffirmation Decisions ###
  # Reaffirm Media
