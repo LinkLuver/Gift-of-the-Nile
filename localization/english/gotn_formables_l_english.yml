@@ -41,6 +41,10 @@
  form_spania:0 "Form Spania"
  form_spania_desc:0 "The #Y Ibero-Punic#! people of #Y Iberia#! call this land #Y Spania#!, and henceforth all shall know it as the great land of the #Y Spanians#!! From humble origins being the furthest of #Y Phoenecian#! coloniae, we now proclaim ourselves a proper powerhouse of this land, on the exact opposite side to that of our forefathers."
 
+ ## Greek Formables
+ formable_eteocrete:0 "Minoa"
+
+
  ### Reaffirmation Decisions ###
  # Reaffirm Media
  affirm_media:0 "Reaffirm Median Dominance"
@@ -49,5 +53,3 @@
  # Reaffirm Assyria
  affirm_assyria:0 "Reaffirm Assyrian Dominance"
  affirm_assyria_desc:0 "The Neo-Assyrian Empire suffered a slow, painful collapse. We have utterly rebounded and reclaimed our lands. The return of #Y Neo-Assyria#! is upon us!"
-
- italic_pantheon:0 "Italic"
