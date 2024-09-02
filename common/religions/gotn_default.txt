@@ -252,9 +252,9 @@ epicureanism = { # Epicureanist
 platonism = { # Platonist
 	color = rgb { 30 100 250 }
 	modifier = { 
-		stability = 0.05
+		global_citizen_output = 0.10
 		country_civilization_value = 0.05
-		monthly_political_influence_modifier = -0.075
+		global_freemen_happyness = -0.05
 	}
 	religion_category = sages
 	can_deify_ruler = yes
@@ -264,9 +264,9 @@ platonism = { # Platonist
 stoicism = { # Stoicist
 	color = rgb { 30 100 250 }
 	modifier = { 
-		spearmen_discipline = 0.05
+		monthly_corruption = -0.01
 		happiness_for_same_culture_modifier = 0.05
-		character_loyalty = -3
+		global_slaves_output = -0.05
 	}
 	religion_category = sages
 	can_deify_ruler = yes
@@ -274,7 +274,7 @@ stoicism = { # Stoicist
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
 pyrrhonism = { # Skeptic
-	color = rgb { 90 200 10 }
+	color = rgb { 235 60 10 }
 	modifier = { 
 		global_pop_conversion_speed_modifier = 0.25
 		global_citizen_output = 0.10
