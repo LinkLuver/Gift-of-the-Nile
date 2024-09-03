@@ -1,4 +1,5 @@
-form_tetrapolitania = {
+country_decisions = {
+	form_tetrapolitania = {
 	potential = {
 		num_of_cities >= 1
 		OR = {
@@ -44,6 +45,7 @@ form_tetrapolitania = {
 					OR = {
 						is_in_region = cyrenaica_region
 					}
+				
 				}
 				add_claim = root
 				}
