@@ -200,6 +200,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		culture="macedonian"
 		amount=2
 	}
 	slaves={
@@ -212,7 +213,7 @@
 
 376={ #Poteidaia
 	terrain="plains"
-	culture="macedonian"
+	culture="achaean"
 	religion="roman_pantheon"
 	trade_goods="precious_metals"
 	civilization_value=31
@@ -225,6 +226,7 @@
 		amount=10
 	}
 	freemen={
+		culture="macedonian"
 		amount=10
 	}
 	slaves={
@@ -247,6 +249,7 @@
 		amount=3
 	}
 	freemen={
+		culture="macedonian"
 		amount=4
 	}
 	slaves={
@@ -273,6 +276,7 @@
 		amount=2
 	}
 	freemen={
+		culture="macedonian"
 		amount=3
 	}
 	slaves={
