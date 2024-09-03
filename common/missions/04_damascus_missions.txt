@@ -1,6 +1,6 @@
 damascus_missions = {
-    header = "mission_image_general"
-    icon = "general_1"
+    header = "mission_greek_villiage"
+    icon = "syracuse_1"
 
     repeatable = no
     chance = 1000
@@ -22,9 +22,16 @@ damascus_missions = {
         }
     }
     on_completion = {}
-    damascus_missions_task_1 = {
-        icon = "task_political"
-        allow = {}
+
+    damascus_missions_task_1 = { # Pan-Aramaic Congress
+        icon = "task_diplomatic"
+        duration = 365
+        allow = {
+            treasury >= 100
+        }
+        on_start = {
+            trigger_event = me_damascus.101
+        }
         on_completion = {
             trigger_event = me_damascus.1
             show_as_tooltip = {

@@ -7,6 +7,252 @@ me_damascus.1 = {
     desc = me_damascus_1_desc
     picture = great_library
 
+    immediate = {
+        random_country = {
+            limit = {
+                tag = PAL
+            }
+            save_scope_as = tadmor_scope
+        }
+        random_country = {
+            limit = {
+                tag = AGU
+            }
+            save_scope_as = agushi_scope
+        }
+        add_treasury = -100
+    }
+
+    option = {
+        name = "me_damascus_1.a"
+        custom_tooltip = send_invite
+        trigger_event = {
+            id = me_damscus.105
+            days = 30
+        }
+        scope:tadmor_scope = {
+            trigger_event = {
+                id = me_damascus.102
+                days = 15
+            }
+        }
+        scope:agushi_scope = {
+            trigger_event = {
+                id = me_damascus.102
+                days = 15
+            }
+        }
+    }
+}
+me_damascus.102 = { # Invite from Damascus
+    type = country_event
+
+    title = me_damascus_102_title
+    desc = me_damascus_102_desc
+    picture = great_library
+
+    immediate = {
+        add_treasury = 50
+    }
+    option = {
+        name = "me_damascus_102.b"
+        trigger = {
+            is_ai = yes
+            ROOT = {
+                any_allied_country = {
+                    tag = HAM
+                }
+            }
+        }
+        custom_tooltip = join_pan_aram_congress_no
+        exclusive = yes
+    }
+    option = {
+        name = "me_damascus_102.a"
+        custom_tooltip = join_pan_aram_congress_yes
+        if = {
+            limit = {
+                tag = PAL
+            }
+            c:PRY = {
+                trigger_event = {
+                    id = me_damascus.103
+                    days = { 1 5 }
+                }
+            }
+        }
+        if = {
+            limit = {
+                tag = AGU
+            }
+            c:PRY = {
+                trigger_event = {
+                    id = me_damascus.104
+                    days = { 1 5 }
+                }
+            }
+        }
+        ai_chance = {
+            base = 100
+        }
+    }
+    option = {
+        name = "me_damascus_102.b"
+        custom_tooltip = join_pan_aram_congress_no
+        ai_chance = {
+            base = 0
+        }
+    }
+}
+me_damascus.103 = { # Tadmor Joins
+    type = minor_country_event
+    title = me_damascus_103_title
+    desc = me_damascus_103_desc
+    left_portrait = scope:tadmor_scope.current_ruler
+    interface_lock = no
+
+    option = {
+        name = "me_damascus_103.a"
+    }
+}
+me_damascus.104 = { # Agushi Joins
+    type = minor_country_event
+    title = me_damascus_104_title
+    desc = me_damascus_104_desc
+    left_portrait = scope:agushi_scope.current_ruler
+    interface_lock = no
+
+    option = {
+        name = "me_damascus_103.a"
+    }
+}
+me_damascus.105 = { # Invite Syrions
+    type = country_event
+    title = me_damascus_105_title
+    desc = me_damascus_105_desc
+    picture = great_library
+
+    immediate = {
+        random_country = {
+            limit = {
+                tag = AKH
+            }
+            save_scope_as = alalakh_scope
+        }
+        random_country = {
+            limit = {
+                tag = UGR
+            }
+            save_scope_as = ugarit_scope
+        }
+        random_country = {
+            limit = {
+                tag = ARA
+            }
+            save_scope_as = arados_scope
+        }
+    }
+
+    option = {
+        custom_tooltip = invite_syrion_1
+        trigger = {
+            scope:alalakh_scope = {
+                has_land = yes
+            }
+        }
+        name = "me_damascus_105.a"
+        scope:alalakh_scope = {
+            trigger_event = {
+               id = me_damascus.106
+               days = 5
+            }
+        }
+    }
+    option = {
+        custom_tooltip = invite_syrion_2
+        trigger = {
+            scope:ugarit_scope = {
+                has_land = yes
+            }
+        }
+        scope:ugarit_scope = {
+            trigger_event = {
+               id = me_damascus.106
+               days = 5
+            }
+        }
+        name = "me_damascus_105.b"
+    }
+    option = {
+        custom_tooltip = invite_syrion_3
+        trigger = {
+            scope:arados_scope = {
+                has_land = yes
+            }
+        }
+        scope:arados_scope = {
+            trigger_event = {
+               id = me_damascus.106
+               days = 5
+            }
+        }
+        name = "me_damascus_105.c"
+    }
+}
+me_damascus.106 = { # Selected Syrion Response
+    type = country_event
+    title = me_damascus_106_title
+    desc = me_damascus_106_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_106.b"
+        trigger = {
+            is_ai = yes
+            ROOT = {
+                any_allied_country = {
+                    tag = HAM
+                }
+            }
+        }
+        custom_tooltip = join_pan_aram_congress_no
+        exclusive = yes
+    }
+
+    option = {
+        name = "me_damascus_106.a"
+        custom_tooltip = join_pan_aram_congress_yes
+        c:PRY = { trigger_event = me_damascus.107 }
+        ai_chance = {
+            base = 100
+        }
+    }
+    option = {
+        name = "me_damascus_106.b"
+        custom_tooltip = join_pan_aram_congress_no
+        ai_chance = {
+            base = 0
+        }
+    }
+}
+me_damascus.107 = { # Syrion Joins
+    type = minor_country_event
+    title = me_damascus_107_title
+    desc = me_damascus_107_desc
+    left_portrait = c:PRY.current_ruler
+    interface_lock = no
+
+    option = {
+        name = "me_damascus_107.a"
+    }
+}
+me_damascus.101 = {
+    type = country_event
+
+    title = me_damascus_1_title
+    desc = me_damascus_1_desc
+    picture = great_library
+
     option = {
         name = "me_damascus_1.a"
         custom_tooltip = me_damascus_1_tooltip
