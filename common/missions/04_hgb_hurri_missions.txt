@@ -31,55 +31,194 @@
     on_completion = {}
 
     hurri_missions_task_1 = {
-        icon = "task_political"
-        allow = {}
+        icon = "task_heracles"
+        allow = {
+            zeal >= 8 #Startup event could grant the ruler with a specific amount of zeal--this can def be defined
+            custom_tooltip = {
+                any_pantheon_deity = {
+                    deity_religion = hurrian_pantheon
+                }
+                text = any_deity_hurrian_tt
+            }
+        }
         on_completion = {
             trigger_event = me_hurri.1
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = teshubic_resurgence
+                    duration = 1825
+                }
+                hidden_effect = {
+                    random_owned_province = {
+                        while = {
+                            count = 5
+                            random_pops_in_province = {
+                                set_pop_religion = hurrian_pantheon
+                            }
+                        }
+                    }
+                }
+                custom_tooltip = random_5_pops_convert_teshub_tt
             }
         }
     }
     hurri_missions_task_2 = {
-        icon = "task_political"
+        icon = "task_zeus_cornucopia"
         requires = { hurri_missions_task_1 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                is_in_area = shingar_area
+            }
+        }
+        allow = {
+            capital_scope.state = {
+                has_state_food >= lots_of_stored_food_svalue
+            }
+            custom_tooltip = {
+                text = perform_divine_sacrifice_please_stab_the_pig
+                has_country_modifier = stability_investment
+            }
+        }
         on_completion = {
             trigger_event = me_hurri.2
             show_as_tooltip = {
-
+                custom_tooltip = 3_pops_per_prov_shingar_tt
+                hidden_effect = { #Copy paste into event
+                    area:amudha_area = {
+                        every_area_province = {
+                            while = {
+                                count = 3
+                                limit = {
+                                    any_pops_in_province = {
+                                        NOT = { pop_religion = hurrian_pantheon }
+                                    }
+                                }
+                                random_pops_in_province = {
+                                    limit = {
+                                        NOT = { pop_religion = hurrian_pantheon }
+                                    }
+                                    set_pop_religion = hurrian_pantheon
+                                }
+                            }
+                        }
+                    }
+                }
+                capital_scope.state = {
+                    add_state_food = -300
+                }
             }
         }
     }
     hurri_missions_task_3 = {
-        icon = "task_political"
+        icon = "task_economical"
         requires = { hurri_missions_task_1 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                is_in_area = amudha_area
+            }
+        }
+        allow = {
+            #custom_tooltip = {
+            #    any_owned_province = {
+            #        count >= 3
+            #        num_of_temple_building >= 1
+            #    }
+            #    text = "has_3_great_temples_tt"
+            #}
+            custom_tooltip = {
+                any_owned_province = {
+                    num_of_temple_building >= 1
+                }
+                text = "has_1_great_temples_tt"
+            }
+        }
         on_completion = {
             trigger_event = me_hurri.3
             show_as_tooltip = {
-
+                custom_tooltip = 3_pops_per_prov_amudha_tt
+                hidden_effect = { #Copy paste into event
+                    area:amudha_area = {
+                        every_area_province = {
+                            while = {
+                                count = 3
+                                limit = {
+                                    any_pops_in_province = {
+                                        NOT = { pop_religion = hurrian_pantheon }
+                                    }
+                                }
+                                random_pops_in_province = {
+                                    limit = {
+                                        NOT = { pop_religion = hurrian_pantheon }
+                                    }
+                                    set_pop_religion = hurrian_pantheon
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
     hurri_missions_task_4 = {
-        icon = "task_political"
+        icon = "task_religion"
         requires = { hurri_missions_task_2 hurri_missions_task_3 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                AND = {
+                    dominant_province_religion = hurrian_pantheon
+                    owner = ROOT
+                }
+            }
+        }
+        allow = {
+            custom_tooltip = {
+                paurava_missions_task_26_current >= paurava_missions_task_26_needed
+                text = "hurri_40_percent_tt"
+            }
+        }
         on_completion = {
             trigger_event = me_hurri.4
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = recent_convert_modifier
+                    duration = 1825
+                }
+                add_2_free_province_investments = yes
             }
         }
     }
     hurri_missions_task_5 = {
-        icon = "task_political"
-        allow = {}
+        icon = "task_battle"
+        highlight = {
+            scope:province = {
+                dominant_province_culture = hurrian
+            }
+        }
+        allow = {
+            custom_tooltip = {
+                any_owned_province = {
+                    count >= 3
+                    has_city_status = yes
+                    dominant_province_culture = hurrian
+                }
+                text = "has_3_hurrian_cities_tt"
+            }
+        }
         on_completion = {
             trigger_event = me_hurri.5
             show_as_tooltip = {
-
+                hidden_effect = {
+                    every_owned_province = {
+                        every_pops_in_province = {
+                            limit = { NOT = { pop_culture = hurrian } }
+                            random_list = {
+                                20 = { set_pop_culture = hurrian }
+                                80 = {}
+                            }
+                        }
+                    }
+                }
+                custom_tooltip = 1_over_4_hurrian_tt
             }
         }
     }
@@ -183,7 +322,8 @@
     hurri_missions_task_15 = {
         icon = "task_political"
         requires = { hurri_missions_task_14 }
-        allow = {}
+        allow = {
+        }
         on_completion = {
             trigger_event = me_hurri.15
             show_as_tooltip = {
@@ -192,13 +332,35 @@
         }
     }
     hurri_missions_task_16 = {
-        icon = "task_political"
+        icon = "task_happiness"
         requires = { hurri_missions_task_4 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                this = p:844
+            }
+        }
+        allow = {
+            custom_tooltip = {
+                OR = {
+                    any_holy_site = {
+                        this = p:844
+                        province_deity = deity:omen_teshub
+                    }
+                    any_holy_site = {
+                        this = p:844
+                        province_deity = deity:omen_shaushka
+                    }
+                }
+                text = teshub_or_shaushka_holy_site_tt
+            }
+        }
         on_completion = {
             trigger_event = me_hurri.16
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = might_of_hurrian_religion
+                    duration = -1
+                }
             }
         }
     }

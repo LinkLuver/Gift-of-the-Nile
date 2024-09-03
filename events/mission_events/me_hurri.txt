@@ -1,0 +1,262 @@
+﻿namespace = me_hurri
+
+me_hurri.1 = {
+    type = country_event
+
+    title = me_hurri_1_title
+    desc = me_hurri_1_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_1.a"
+        custom_tooltip = me_hurri_1_tooltip
+
+    }
+}
+me_hurri.2 = {
+    type = country_event
+
+    title = me_hurri_2_title
+    desc = me_hurri_2_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_2.a"
+        custom_tooltip = me_hurri_2_tooltip
+
+    }
+}
+me_hurri.3 = {
+    type = country_event
+
+    title = me_hurri_3_title
+    desc = me_hurri_3_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_3.a"
+        custom_tooltip = me_hurri_3_tooltip
+
+    }
+}
+me_hurri.4 = {
+    type = country_event
+
+    title = me_hurri_4_title
+    desc = me_hurri_4_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_4.a"
+        custom_tooltip = me_hurri_4_tooltip
+
+    }
+}
+me_hurri.5 = {
+    type = country_event
+
+    title = me_hurri_5_title
+    desc = me_hurri_5_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_5.a"
+        custom_tooltip = me_hurri_5_tooltip
+
+    }
+}
+me_hurri.6 = {
+    type = country_event
+
+    title = me_hurri_6_title
+    desc = me_hurri_6_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_6.a"
+        custom_tooltip = me_hurri_6_tooltip
+
+    }
+}
+me_hurri.7 = {
+    type = country_event
+
+    title = me_hurri_7_title
+    desc = me_hurri_7_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_7.a"
+        custom_tooltip = me_hurri_7_tooltip
+
+    }
+}
+me_hurri.8 = {
+    type = country_event
+
+    title = me_hurri_8_title
+    desc = me_hurri_8_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_8.a"
+        custom_tooltip = me_hurri_8_tooltip
+
+    }
+}
+me_hurri.9 = {
+    type = country_event
+
+    title = me_hurri_9_title
+    desc = me_hurri_9_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_9.a"
+        custom_tooltip = me_hurri_9_tooltip
+
+    }
+}
+me_hurri.10 = {
+    type = country_event
+
+    title = me_hurri_10_title
+    desc = me_hurri_10_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_10.a"
+        custom_tooltip = me_hurri_10_tooltip
+
+    }
+}
+me_hurri.11 = {
+    type = country_event
+
+    title = me_hurri_11_title
+    desc = me_hurri_11_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_11.a"
+        custom_tooltip = me_hurri_11_tooltip
+
+    }
+}
+me_hurri.12 = {
+    type = country_event
+
+    title = me_hurri_12_title
+    desc = me_hurri_12_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_12.a"
+        custom_tooltip = me_hurri_12_tooltip
+
+    }
+}
+me_hurri.13 = {
+    type = country_event
+
+    title = me_hurri_13_title
+    desc = me_hurri_13_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_13.a"
+        custom_tooltip = me_hurri_13_tooltip
+
+    }
+}
+me_hurri.14 = {
+    type = country_event
+
+    title = me_hurri_14_title
+    desc = me_hurri_14_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_14.a"
+        custom_tooltip = me_hurri_14_tooltip
+
+    }
+}
+me_hurri.15 = {
+    type = country_event
+
+    title = me_hurri_15_title
+    desc = me_hurri_15_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_15.a"
+        custom_tooltip = me_hurri_15_tooltip
+
+    }
+}
+me_hurri.16 = {
+    type = country_event
+
+    title = me_hurri_16_title
+    desc = me_hurri_16_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_16.a"
+        custom_tooltip = me_hurri_16_tooltip
+
+    }
+}
+me_hurri.17 = {
+    type = country_event
+
+    title = me_hurri_17_title
+    desc = me_hurri_17_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_17.a"
+        custom_tooltip = me_hurri_17_tooltip
+
+    }
+}
+me_hurri.18 = {
+    type = country_event
+
+    title = me_hurri_18_title
+    desc = me_hurri_18_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_18.a"
+        custom_tooltip = me_hurri_18_tooltip
+
+    }
+}
+me_hurri.19 = {
+    type = country_event
+
+    title = me_hurri_19_title
+    desc = me_hurri_19_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_19.a"
+        custom_tooltip = me_hurri_19_tooltip
+
+    }
+}
+me_hurri.20 = {
+    type = country_event
+
+    title = me_hurri_20_title
+    desc = me_hurri_20_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_20.a"
+        custom_tooltip = me_hurri_20_tooltip
+
+    }
+}

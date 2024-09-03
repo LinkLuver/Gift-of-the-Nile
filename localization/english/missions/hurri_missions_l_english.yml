@@ -81,11 +81,21 @@
 
 
  #Tooltips
- 3_pops_per_prov_hurria_tt:0 "Up to #Y 3 pops#! per province in [SCOPE.GetRootScope.GetCountry.GetCapital.GetArea.GetName|E] will convert to #Y Teshubic#!."
+ 3_pops_per_prov_amudha_tt:0 "Up to #Y 3 pops#! per province in #E Kulishinas#! will convert to #Y Teshubic#!"
+ 3_pops_per_prov_shingar_tt:0 "Up to #Y 3 pops#! per province in #E Shingar#! will convert to #Y Teshubic#!"
+ #3_pops_per_prov_hurria_tt:0 "Up to #Y 3 pops#! per province in [SCOPE.GetRootScope.GetCountry.GetCapital.GetArea.GetName|E] will convert to #Y Teshubic#!."
  has_3_great_temples_tt:0 "At least #Y 3 provinces#! have a #E Great Temple#! building."
+ has_1_great_temples_tt:0 "Any province has a #E Great Temple#! building."
+ random_5_pops_convert_teshub_tt:0 "A random province will have #Y 5 pops#! converted to #E Teshubic#!."
+ any_deity_hurrian_tt:0 "Any deity in our #Y Pantheon#! is #E Teshubic#!."
+ hurri_40_percent_tt:0 "At least #G 40%#! of our #Y Pops#! follows the #E Teshubic#! faith."
+ teshub_or_shaushka_holy_site_tt:0 "Either #Y Teshub#! or #Y Shaushka#! have a holy site dedicated to them in #E Tella#!."
+ has_3_hurrian_cities_tt:0 "We have at least #Y 3 Hurrian#! cities."
+ 1_over_4_hurrian_tt:0 "Each of our #Y Non-Hurrian Pops#! will have a #G 20%#! chance to #E assimilate#!."
 
  #Modifiers
-
+ teshubic_resurgence:0 "Resurgence of Teshub"
+ might_of_hurrian_religion:0 "Might of the Hurrian Religion"
 
  #Others
 

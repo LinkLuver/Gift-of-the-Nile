@@ -53,7 +53,12 @@ rapid_centralization = {
 
 # GOTN
 teshubic_resurgence = { # 5 years
-	global_pop_conversion_speed = 0.25
+	global_pop_conversion_speed_modifier = 0.25
 	happiness_for_same_religion_modifier = 0.10
 	omen_power = 0.15
+}
+might_of_hurrian_religion = { # Permanent
+	global_pop_conversion_speed_modifier = 0.10
+	happiness_for_same_religion_modifier = 0.05
+	omen_power = 0.075
 }
