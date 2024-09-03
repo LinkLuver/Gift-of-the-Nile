@@ -74,6 +74,10 @@ me_damascus.102 = { # Invite from Damascus
             limit = {
                 tag = PAL
             }
+            add_country_modifier = {
+                name = tadmor_joined
+                duration = 7300
+            }
             c:PRY = {
                 trigger_event = {
                     id = me_damascus.103
@@ -84,6 +88,10 @@ me_damascus.102 = { # Invite from Damascus
         if = {
             limit = {
                 tag = AGU
+            }
+            add_country_modifier = {
+                name = agushi_joined
+                duration = 7300
             }
             c:PRY = {
                 trigger_event = {
@@ -113,6 +121,11 @@ me_damascus.103 = { # Tadmor Joins
 
     option = {
         name = "me_damascus_103.a"
+        add_country_modifier = {
+            name = tadmor_joined
+            duration = 7300
+        }
+        add_alliance = scope:tadmor_scope
     }
 }
 me_damascus.104 = { # Agushi Joins
@@ -124,6 +137,11 @@ me_damascus.104 = { # Agushi Joins
 
     option = {
         name = "me_damascus_103.a"
+        add_country_modifier = {
+            name = agushi_joined
+            duration = 7300
+        }
+        add_alliance = scope:agushi_scope
     }
 }
 me_damascus.105 = { # Invite Syrions
@@ -205,6 +223,10 @@ me_damascus.106 = { # Selected Syrion Response
     desc = me_damascus_106_desc
     picture = great_library
 
+    immediate = {
+        set_variable = syrion_var
+    }
+
     option = {
         name = "me_damascus_106.b"
         trigger = {
@@ -223,6 +245,10 @@ me_damascus.106 = { # Selected Syrion Response
         name = "me_damascus_106.a"
         custom_tooltip = join_pan_aram_congress_yes
         c:PRY = { trigger_event = me_damascus.107 }
+        add_country_modifier = {
+            name = syrion_joined
+            duration = 7300
+        }
         ai_chance = {
             base = 100
         }
@@ -244,6 +270,34 @@ me_damascus.107 = { # Syrion Joins
 
     option = {
         name = "me_damascus_107.a"
+        if = {
+            limit = {
+                scope:alalakh_scope = {
+                    has_variable = syrion_var
+                }
+            }
+            add_alliance = scope:alalakh_scope
+        }
+        if = {
+            limit = {
+                scope:ugarit_scope = {
+                    has_variable = syrion_var
+                }
+            }
+            add_alliance = scope:ugarit_scope
+        }
+        if = {
+            limit = {
+                scope:arados_scope = {
+                    has_variable = syrion_var
+                }
+            }
+            add_alliance = scope:arados_scope
+        }
+        add_country_modifier = {
+            name = syrion_joined
+            duration = 7300
+        }
     }
 }
 me_damascus.101 = {

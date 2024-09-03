@@ -1,1 +1,15 @@
-﻿
+﻿tadmor_joined = {
+	diplomatic_relations = 1
+	diplomatic_reputation = 1
+	global_tax_modifier = 0.05
+}
+agushi_joined = {
+	diplomatic_relations = 1
+	diplomatic_reputation = 1
+	monthly_legitimacy = 0.01
+}
+syrion_joined = {
+	diplomatic_relations = 1
+	diplomatic_reputation = 1
+	global_commerce_modifier = 0.05
+}
