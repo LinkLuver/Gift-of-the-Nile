@@ -5,7 +5,16 @@
 		
 		potential = {
 			num_of_cities >= 1
-			is_zagrosian_culture = yes
+			OR = {
+				primary_culture = cyrtian
+				primary_culture = shubar
+				primary_culture = tukri
+				primary_culture = lullu
+				primary_culture = cossian
+				primary_culture = gutian
+				primary_culture = cardukoi
+				primary_culture = qardu
+			}
 			NOT = {
 				tag = ZG3
 			}
