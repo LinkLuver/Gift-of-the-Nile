@@ -78,3 +78,14 @@
  # Reaffirm Assyria
  affirm_assyria:0 "Reaffirm Assyrian Dominance"
  affirm_assyria_desc:0 "The Neo-Assyrian Empire suffered a slow, painful collapse. We have utterly rebounded and reclaimed our lands. The return of #Y Neo-Assyria#! is upon us!"
+
+
+ ## Extras ##
+
+ # Zagrosian Culture Group
+ change_culture_group_tt:0 "We will change into the #Y Zagrosian Culture Group#!, and every province we own with a #E Zagrosian Identity#! will also change into the #Y Zagrosian Culture Group#!."
+ dont_culture_group_tt:0 "We will keep our current primary culture and not promote a #Y Zagrosian#! identity."
+ gotn_formable_event_2_title:0 "Zagrosian Ethnogensis"
+ gotn_formable_event_2_desc:0 "As many have pointed out, the many tribes and peoples of the #E Zagros Mountains#! have never been united before. And now that we have, we can easily call upon our shared cultural values, as despite our many diverse and disparate groups, we share many features. Raiding the rich lands to the west, east, north, or south; living in the tall, mighty mountains; and fighting like warriors until the last man. This presents us with the striking possibility to promote an #E ethnogensis#!, creating a new shared cultural grouping known as #E Zagrosian#!."
+ gotn_formable_event_2_a:0 "We are Zagrosians first, [SCOPE.GetRootScope.GetCountry.GetRuler.GetCulture.GetName] second."
+ gotn_formable_event_2_b:0 "We are [SCOPE.GetRootScope.GetCountry.GetRuler.GetCulture.GetName] first, Zagrosians second."

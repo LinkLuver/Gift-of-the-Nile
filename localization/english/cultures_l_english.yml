@@ -44,6 +44,7 @@
  east_semetic:0 "Magani"
  hurro_urartian:0 "Hurro-Urartian"
  finnic_group:0 "Finnic"
+ zagrosian:0 "Zagrosian"
  
  #Hurrio-Urartian
  matienian:0 "Matienian"
@@ -509,6 +510,12 @@
  sumpa:0 "Sumpa"
  yarlung:0 "Yarlung"
  tsang:0 "Tsang"
+ #Zagrosian
+ lurs:0 "Lurs"
+ kurdish:0 "Kurdish"
+ lullutukri:0 "Lullutukri"
+ subari:0 "Shubri"
+ karduki:0 "Karduki"
  #New Fezzani
  nasamonian:0 "Nasamonian"
  macaean:0 "Macaean"
@@ -636,6 +643,8 @@
  finnic_group_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  xiyu_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  xiyu_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ zagrosian_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ zagrosian_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
 
 
 
@@ -698,3 +707,9 @@
  NAVY_NAME_xiyu:0 "$NUM$$ORDER$ Navy"
  COHORT_NAME_xiyu:0 "$COHORT_NAME_persia$"
  LEGION_NAME_xiyu:0 "$LEGION_NAME_persia$"
+
+ #Zagrosian
+ ARMY_NAME_zagrosian:0 "$NUM$$ORDER$ Army"
+ NAVY_NAME_zagrosian:0 "$NUM$$ORDER$ Navy"
+ COHORT_NAME_zagrosian:0 "$COHORT_NAME_persia$"
+ LEGION_NAME_zagrosian:0 "$LEGION_NAME_persia$"

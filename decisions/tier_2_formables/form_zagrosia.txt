@@ -1,6 +1,6 @@
 ﻿country_decisions = {
 	
-	#form Aram
+	#form Zagrosia
 	form_zagrosia = {
 		
 		potential = {
@@ -68,6 +68,7 @@
 						add_claim = root
 					}
 				}
+				change_country_color = zagrosian_brown
 			}
 			custom_tooltip = zagros_claims
 			capital_scope = {
@@ -77,6 +78,10 @@
 			change_government = stratocratic_monarchy
 			switch_government_type_event_clearup_effect = yes
 			add_2_free_province_investments = yes
+			trigger_event = {
+				id = gotn_formable_event.2
+				days = { 1 30 }
+			}
 		}
 		
 		ai_will_do = {
