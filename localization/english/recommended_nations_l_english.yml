@@ -5,7 +5,6 @@
   syracuse_start:0 "#t Syracuse#!\nDifficulty: #Y Hard#!\n\n$syracusan_heritage_desc$"
   thrace_start:0 "#T Thrace#!\nDifficulty: #y Normal#!\n\n$thrace_heritage_desc$"
   argos_start:0 "#t Argos#!\nDifficulty: #Y Hard#!\n\n$argive_heritage_desc$"
-  thebes_start:0 "#t Thebes#!\nDifficulty: #Y Very Hard#!\n\n$theban_heritage_desc$"
   massilia_start:0 "#t Massilia#!\nDifficulty: #Y Normal#!\n\n$massalian_heritage_desc$"
   sardinia_start:0 "#t Sardinians#!\nDifficulty: #Y Normal#!\n\n$rubrinsia_heritage_desc$"
   korkyra_start:0 "#t Korkyra#!\nDifficulty: #Y Hard#!\n\n$korkyra_heritage_desc$"
@@ -14,6 +13,13 @@
   odrysia_start:0 "#t Odrysia#!\nDifficulty: #Y Normal#!\n\n$odrysian_heritage_desc$"
   vasconia_start:0 "#t Vasconia#!\nDifficulty: #Y Normal#!\n\n$vasconian_heritage_desc$"
   cyrene_start:0 "#t Cyrenica#!\nDifficulty: #Y Normal#!\n\nA greek colony, Cyrenica has fallen under the control of the Dread Pirate Ptolemy, and his first mate, Antigonos. A new age of piracy has come for the Mediterranean!"
+  waset_start:0 "#t Waset#!\nDifficulty: #Y Normal#!\n\n$ptolemys_heritage_desc$"
+  aten_start:0 "#t Aten#!\nDifficulty: #Y Normal#!\n\n$aten_heritage_desc$"
+  faiyum_start:0 "#t Faiyum#!\nDifficulty: #Y Hard#!\n\n$faiyum_heritage_desc$"
+  memphis_start:0 "#t Memphis#!\nDifficulty: #Y Hard#!\n\n$memphis_heritage_desc$"
+  kerma_start:0 "#t Kerma#!\nDifficulty: #Y Easy#!\n\n$dodekaschoinos_heritage_desc$"
+  napata_start:0 "#t Napata#!\nDifficulty: #Y Normal#!\n\n$napata_heritage_desc$"
+  meroe_start:0 "#t Meroe#!\nDifficulty: #Y Normal#!\n\n$kushite_heritage_desc$"
 
   #Northern Europe
   scythia_start: "#t Scythia#!\nDifficulty: #y Easy#!\n\nScythia has been in great decline after king Ateas died at the hands of Philip II of Macedon. Despite shaky relations with the Greeks, some start to view their cities as pillars of strength and stability. Will Scythia change with the times or remain true to her nomadic way of life?"
@@ -37,6 +43,7 @@
   elam_start:0 "#t Elam#!\nDifficulty: #Y Normal#!\n\n$elam_heritage_desc$"
   babylon_start:0 "#t Babylonia#!\nDifficulty: #Y Normal#!\n\n$seleucus_heritage_desc$"
   persia_start:0 "#t Achaemenid Kingdom#!\nDifficulty: #Y Normal#!\n\n$heritage_of_persis_desc$"
+  apphana_start:0 "#t Apphana#!\nDifficulty: #Y Hard#!\n\nA hub of scum and villainy, Apphana is the foremost seat of piracy in the West. Perhaps this little city of merchants and pirates can become something much grander."
 
   #Africa
   egypt_start:0 "#t Egypt#!\nDifficulty: #y Very Easy#!\n\n$ptolemys_heritage_desc$"
@@ -50,6 +57,7 @@
   tadmor_start:0 "#t Tadmor#!\nDifficulty: #Y Normal#!\n\n$tadmor_heritage_desc$"
   hamath_start:0 "#t Hamath#!\nDifficulty: #Y Normal#!\n\n$hamath_heritage_desc$"
   aram_start:0 "#t Aram#!\nDifficulty: #Y Normal#!\n\n$aram_heritage_desc$"
+  tyre_start:0 "#t Tyre#!\nDifficulty: #Y Easy#!\n\nOnce the most powerful naval power in the Mediterranean, Tyre has since fallen from power. Will the ambitions of Azemilcus Tzorid be lofty enough to take Tyre to new heights?"
 
   #Asia
   antigonid_start:0 "#T Antigonid Kingdom#!\nDifficulty: #y Normal#!\n\n$antigonid_heritage_desc$"
@@ -86,3 +94,5 @@
   zhangzhung_start:0 "#t Zhangzhung#!\nDifficulty: #Y Normal#!\n\n$zhangzhung_heritage_desc$"
   paurava_start:0 "#t Paurava#!\nDifficulty: #Y Hard#!\n\n$paurava_heritage_desc$"
   nabhapakti_start:0 "#t Nabhapakti#!\nDifficulty: #Y Very Hard#!\n\n$nabhapakti_heritage_desc$"
+  thebes_start:0 "#t Thebes#!\nDifficulty: #Y Normal#!\n\n$The Thebans have always been a strong military power, even in more ancient times. The leader of the mighty Theban league, perhaps Thebes is ready to reclaim the heritage of Epaminondas, and to take her place as the leader of the Greeks.$"
+  athens_start:0 "#t Athens#!\nDifficulty: #Y Normal#!\n\n The greatest of all the Greek poleis, Athens is considered the center of the Greek philosphical and intelectual world. as of late, tensions have been rising between Athen's old enemy, Sparta, and Thebes."

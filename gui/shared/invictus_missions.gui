@@ -173,7 +173,20 @@ template north_europe_missions {
 			onclick = "[SetLobbyCountryTag('ADI')]"
 		}
 	}
-}
+	starting_nation = {
+		tooltip = "apphana_start"
+		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('AM4').Self )]"
+		blockoverride "flag"
+		{
+		texture = "[GetCountry('AM4').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+		frame = "[GetCountry('AM4').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+		}
+		blockoverride "click"
+		{
+		onclick = "[SetLobbyCountryTag('AM4')]"
+		}
+	}
+}	
 
 template africa_missions {
 	starting_nation = {
@@ -239,6 +252,19 @@ template africa_missions {
 		blockoverride "click"
 		{
 			onclick = "[SetLobbyCountryTag('JUD')]"
+		}
+	}
+	starting_nation = {
+		tooltip = "tyre_start"
+		nmousehierarchyenter = "[SetHighlightCountry( GetCountry('SWR').Self )]"
+		blockoverride "flag"
+		{
+		texture = "[GetCountry('SWR').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+		frame = "[GetCountry('SWR').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+		}
+		blockoverride "click"
+		{
+		onclick = "[SetLobbyCountryTag('SWR')]"
 		}
 	}
 }
