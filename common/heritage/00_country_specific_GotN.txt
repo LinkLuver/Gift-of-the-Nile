@@ -828,7 +828,7 @@ alexander_heritage = {
     }
     
     trigger = {
-        tag = MAC
+        always = no
     }
 }
 
@@ -843,7 +843,7 @@ cassanders_heritage = {
     }
 
     trigger = {
-        always = no
+        tag = MAC
     }
 }
 
@@ -956,8 +956,8 @@ epirote_heritage = {
 thrace_heritage = {
     modifier = {
         #good
-        war_score_cost = -0.05
-        price_state_investment_civic_cost_modifier = -0.1
+        fort_maintenance_cost = -0.05
+        heavy_cavalry_offensive = 0.1
 
         #bad
         subject_opinions = -10
@@ -980,6 +980,21 @@ rhodian_heritage = {
 
     trigger = {
         tag = RHO
+    }
+}
+
+korinth_heritage = {
+    modifier = {
+        #good
+        global_capital_trade_routes = 1
+        global_defensive = 0.1
+
+        #bad
+        manpower_recovery_speed = -0.05
+    }
+
+    trigger = {
+        tag = KOR
     }
 }
 
