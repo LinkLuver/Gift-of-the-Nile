@@ -89,13 +89,20 @@
  random_5_pops_convert_teshub_tt:0 "A random province will have #Y 5 pops#! converted to #E Teshubic#!."
  any_deity_hurrian_tt:0 "Any deity in our #Y Pantheon#! is #E Teshubic#!."
  hurri_40_percent_tt:0 "At least #G 40%#! of our #Y Pops#! follows the #E Teshubic#! faith."
- teshub_or_shaushka_holy_site_tt:0 "Either #Y Teshub#! or #Y Shaushka#! have a holy site dedicated to them in #E Tella#!."
+ teshub_or_shaushka_holy_site_tt:0 "Either #Y Teshub#! or #Y Shaushka#! have a holy site dedicated to them in #E Washshukanni#!."
  has_3_hurrian_cities_tt:0 "We have at least #Y 3 Hurrian#! cities."
  1_over_4_hurrian_tt:0 "Each of our #Y Non-Hurrian Pops#! will have a #G 20%#! chance to #E assimilate#!."
+ hurri_military_reform_tt:0 "Depending on our #E choices#!, we will recieve military #E rewards#!."
+ integrate_urartu_tt:0 "The #Y Urartu#! culture has been #G integrated#!."
+ gain_claims_nasbina_tt:0 "Gain claims on the #Y Nasibina#! area."
+ choose_capital_tt:0 "Choose whether or not to move your capital to #E Nineveh#!."
 
  #Modifiers
  teshubic_resurgence:0 "Resurgence of Teshub"
  might_of_hurrian_religion:0 "Might of the Hurrian Religion"
+ military_reforms_maryannu:0 "Military Reforms Underway"
+ inexperienced_soldiery:0 "Inexperienced Soldiers"
+ urartu_archers:0 "Archers of Urartu"
 
  #Others
 
@@ -130,19 +137,29 @@
  me_hurri_6_desc:0 ""
  me_hurri_6.a:0 ""
  me_hurri_6_tooltip:0 "The mission task '#Y $hurri_missions_task_6$#!' has now been #G Completed#!!"
- 
+
+ me_hurri_701_title:0 "$hurri_missions_task_7$"
+ me_hurri_701_desc:0 "The age of the chariot, revolutionized by the #E Mitanni Maryannu Chariots#! is... coming to a close. There is a divide in our military whether or not to abandon our tradition and modernize a new era of #E Maryannu#!, or whether to double down and continue our #E Charioteer#! prowess.\n\n\n#E Chariot#! units are generally not as good as Heavy Cavalry.#!"
+ me_hurri_701.a:0 "Tradition never falters."
+ me_hurri_701.b:0 "A new Maryannu for a new age."
+
+ me_hurri_702_title:0 "$hurri_missions_task_7$"
+ me_hurri_702_desc:0 "The #E Maryannu#! are traditionally made up of young, #E Mitanni#! men. In fact, the word #E Marya#! is supposedly one that comes from the east meaning young man. However, wars are often won on experience and keeping this young tradition may cost us in the short term. We have two candidates for the position of general who represent our two choices.\n\nOne, a young Mitanni warrior, who has just turned 18. They are #E Brave#!, yet #E Arrogant, Ambitious,#! and known for their #E Aggressive#! style. Or, we could choose the much older 62 year old seasonned Mitanni soldier."
+ me_hurri_702.a:0 "We will risk it on the youngun."
+ me_hurri_702.b:0 "Let us choose experience over ambition."
+
  me_hurri_7_title:0 "$hurri_missions_task_7$"
- me_hurri_7_desc:0 ""
- me_hurri_7.a:0 ""
+ me_hurri_7_desc:0 "Our military reforms shake our nation's ability to its core, but it was worth it. The hinderance of our military capability is no more, and we can operate at full capacity once again."
+ me_hurri_7.a:0 "It is time for Iron Age Maryannu."
  me_hurri_7_tooltip:0 "The mission task '#Y $hurri_missions_task_7$#!' has now been #G Completed#!!"
  
  me_hurri_8_title:0 "$hurri_missions_task_8$"
  me_hurri_8_desc:0 ""
  me_hurri_8.a:0 ""
  me_hurri_8_tooltip:0 "The mission task '#Y $hurri_missions_task_8$#!' has now been #G Completed#!!"
- 
+
  me_hurri_9_title:0 "$hurri_missions_task_9$"
- me_hurri_9_desc:0 ""
+ me_hurri_9_desc:0 "The #E Urartu#! once paid us a great service in protecting our culture" #up to you how to finish this, i just thought id give a lead--can ignore
  me_hurri_9.a:0 ""
  me_hurri_9_tooltip:0 "The mission task '#Y $hurri_missions_task_9$#!' has now been #G Completed#!!"
  

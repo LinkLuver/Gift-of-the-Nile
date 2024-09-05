@@ -62,3 +62,24 @@ might_of_hurrian_religion = { # Permanent
 	happiness_for_same_religion_modifier = 0.05
 	omen_power = 0.075
 }
+military_reforms_maryannu = { # Till End of Task
+	monthly_political_influence_modifier = -0.25
+	land_morale_modifier = -0.25
+}
+hurri_maryannu_chariots = {
+	chariots_cost = -0.10
+	chariots_morale = 0.10
+	chariots_discipline = 0.10
+}
+hurri_maryannu_heavy_cav = {
+	heavy_cavalry_cost = 0.05
+	heavy_cavalry_morale = 0.05
+	heavy_cavalry_discipline = 0.05
+}
+inexperienced_soldiery = {
+	discipline = -0.075
+}
+urartu_archers = {
+	archers_discipline = 0.075
+	archers_morale = 0.05
+}

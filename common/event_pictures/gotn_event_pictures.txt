@@ -93,3 +93,10 @@ tfoe_carthage = {
 	theme = Hubbub
 	picture = "gfx/interface/event_window/gotn_carthage_painting.dds"
 }
+
+# Other (Random Art/RA)
+
+ra_maryannu = {
+	theme = War
+	picture = "gfx/interface/event_window/gotn_maryannu_chariot.dds"
+}

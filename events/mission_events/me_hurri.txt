@@ -78,7 +78,7 @@ me_hurri.6 = {
 
     }
 }
-me_hurri.7 = {
+me_hurri.700 = {
     type = country_event
 
     title = me_hurri_7_title
@@ -87,8 +87,113 @@ me_hurri.7 = {
 
     option = {
         name = "me_hurri_7.a"
-        custom_tooltip = me_hurri_7_tooltip
+        add_country_modifier = {
+            name = military_reforms_maryannu
+            duration = -1
+        }
+        add_military_experience = -25
+        add_manpower = -2.5
+        add_treasury = -100
+        trigger_event = {
+            id = me_hurri.701
+            days = 72 #2/5ths of the duration
+        }
+    }
+}
+me_hurri.701 = {
+    type = country_event
 
+    title = me_hurri_701_title
+    desc = me_hurri_701_desc
+    picture = ra_maryannu
+
+    immediate = {
+        trigger_event = {
+            id = me_hurri.702
+            days = 72 #2/5ths of the duration
+        }
+    }
+
+    option = {
+        name = "me_hurri_701.a"
+        add_country_modifier = {
+            name = hurri_maryannu_chariots
+            duration = -1
+        }
+    }
+    option = {
+        name = "me_hurri_701.b"
+        add_country_modifier = {
+            name = hurri_maryannu_heavy_cav
+            duration = -1
+        }
+    }
+}
+me_hurri.702 = {
+    type = country_event
+
+    title = me_hurri_702_title
+    desc = me_hurri_702_desc
+    picture = ra_maryannu
+
+    option = {
+        name = "me_hurri_702.a"
+        create_character = {
+            culture = mitanni
+            age = 18
+            no_traits = yes
+            no_stats = yes
+            hidden_effect = {
+                add_trait = brave
+                add_trait = arrogant
+                add_trait = aggressive
+                add_trait = ambitious
+                amazing_martial_effect = yes
+                good_charisma_effect = yes
+                good_finesse_effect = yes
+                average_zeal_effect = yes
+                positive_martial_trait_effect = yes
+            }
+        }
+        add_country_modifier = {
+            name = inexperienced_soldiery
+            duration = 1825
+        }
+    }
+    option = {
+        name = "me_hurri_702.b"
+        create_character = {
+            culture = mitanni
+            age = 62
+            no_traits = yes
+            no_stats = yes
+            hidden_effect = {
+                add_trait = brave
+                add_trait = wise
+                add_trait = content
+                add_trait = self_controlled
+                great_martial_effect = yes
+                good_charisma_effect = yes
+                good_finesse_effect = yes
+                good_zeal_effect = yes
+            }
+        }
+    }
+}
+me_hurri.7 = {
+    type = country_event
+
+    title = me_hurri_7_title
+    desc = me_hurri_7_desc
+    picture = ra_maryannu
+
+    option = {
+        name = "me_hurri_7.a"
+        custom_tooltip = me_hurri_7_tooltip
+        remove_country_modifier = {
+            name = military_reforms_maryannu
+            duration = -1
+        }
     }
 }
 me_hurri.8 = {

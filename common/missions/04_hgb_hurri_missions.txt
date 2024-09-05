@@ -1,5 +1,5 @@
 ﻿hurri_missions = {
-    header = "mission_image_general"
+    header = "mission_image_scythian"
     icon = cde_new_city_founded
 
     repeatable = no
@@ -234,18 +234,53 @@
     }
     hurri_missions_task_7 = {
         icon = "task_political"
-        allow = {}
+        duration = 180
+        allow = {
+            military_experience >= 25
+            manpower >= 5
+            treasury >= 100
+        }
+        on_start = {
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = military_reforms_maryannu
+                    duration = -1
+                }
+            }
+            trigger_event = me_hurri.700
+        }
         on_completion = {
             trigger_event = me_hurri.7
             show_as_tooltip = {
-
+                remove_country_modifier = military_reforms_maryannu
+                custom_tooltip = hurri_military_reform_tt
             }
         }
     }
     hurri_missions_task_8 = {
         icon = "task_political"
         requires = { hurri_missions_task_5 hurri_missions_task_6 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                this = p:844
+            }
+        }
+        allow = {
+            p:844.state = {
+                calc_true_if = {
+                    amount >= 2
+                    state_improvement_religious_trigger = yes
+                    state_improvement_civic_trigger = yes
+                    state_improvement_oratory_trigger = yes
+                    state_improvement_military_trigger = yes
+                }
+            }
+            p:844 = {
+                num_of_used_building_slots >= 4
+                has_building = fortress_building
+                total_population >= 45
+            }
+        }
         on_completion = {
             trigger_event = me_hurri.8
             show_as_tooltip = {
@@ -254,20 +289,37 @@
         }
     }
     hurri_missions_task_9 = {
-        icon = "task_political"
+        icon = "task_conquest"
+        highlight = {
+            scope:province = {
+                dominant_province_culture = urtaian
+            }
+        }
         requires = { hurri_missions_task_7 }
-        allow = {}
+        allow = {
+            custom_tooltip = {
+                any_integrated_culture = {
+                    is_culture = urtaian
+                }
+                text = integrate_urartu_tt
+            }
+        }
         on_completion = {
             trigger_event = me_hurri.9
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = urartu_archers
+                    duration = -1
+                }
             }
         }
     }
     hurri_missions_task_10 = {
         icon = "task_political"
         requires = { hurri_missions_task_8 }
-        allow = {}
+        allow = {
+            
+        }
         on_completion = {
             trigger_event = me_hurri.10
             show_as_tooltip = {
@@ -278,7 +330,15 @@
     hurri_missions_task_11 = {
         icon = "task_political"
         requires = { hurri_missions_task_10 }
-        allow = {}
+        allow = {
+            p:862 = {
+                has_building = temple_building
+                has_building = population_building
+                has_building = military_building
+                total_population >= 35
+            }
+            p:862.state = { state_improvement_religious_trigger = yes }
+        }
         on_completion = {
             trigger_event = me_hurri.11
             show_as_tooltip = {
@@ -411,22 +471,37 @@
     hurri_missions_task_21 = {
         icon = "task_political"
         requires = { hurri_missions_task_6 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                is_in_area = nisibin_area
+            }
+        }
+        allow = {
+            political_influence >= 25
+        }
         on_completion = {
             trigger_event = me_hurri.21
             show_as_tooltip = {
-
+                add_political_influence = -25
+                custom_tooltip = gain_claims_nasbina_tt
             }
         }
     }
     hurri_missions_task_22 = {
         icon = "task_political"
         requires = { hurri_missions_task_21 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                this = p:862
+            }
+        }
+        allow = {
+            owns = 862
+        }
         on_completion = {
             trigger_event = me_hurri.22
             show_as_tooltip = {
-
+                custom_tooltip = choose_capital_tt
             }
         }
     }
