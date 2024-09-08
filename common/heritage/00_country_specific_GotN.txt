@@ -835,8 +835,8 @@ alexander_heritage = {
 cassanders_heritage = {
     modifier = {
         #good
-        diplomatic_relations = 2
-        global_manpower_modifier = 0.05
+        diplomatic_relations = 1
+        technology_investment = 0.07
 
         #bad
         diplomatic_reputation = -2

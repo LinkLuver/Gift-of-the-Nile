@@ -10,6 +10,8 @@
  kushite_heritage_desc:0 "The Kushites of Meroe sit at the uppermost point of the Nubian controlled Nile. And it was here where the Kushitic faith of was first forged as a distinct entity to the old Egyptian faith. The Kingdom of Meroe aims to reunite with its lost sister kingdoms to reform the legendary Kingdom of Kush."
  napata_heritage:0 "Heritage of Napata"
  napata_heritage_desc:0 "The city of Napata was the great city that would facilitate a period of Egyptian revivalism during the 25th Dynasty, or the Nubian Dynasty, of Egypt. However, Napata now is a former shell of its greatness, with Meroe and Kerma threatening her hegemony, the Napatan Kingdom will need to fight to survive, and only then will it thrive."
+ cassanders_heritage:0 "Heritage of Alexander The Wise"
+ cassanders_heritage_desc:0 "Under his father Phillip II, Macedon was united, but upon his untimely death, he left Macedon vulnerable against the tribes to their north, and the mighty Odrysian Kingdom to their east. Alexander, at the age of 17, ascended the throne of Macedon, and led a campaign against the tribal kingdoms. After subjugating the Paeonians and the Odrysians, Alexander The Wise turned his ambitions inward. Building up Macedon's economic and military strenght, Macedon is surely the most powerful greek state. Macedon has seen a flourishing in all fields of philosophical enquiry as many of the best minds of the Greek states take up the offer of royal commission. Still struggling to be seen on the same level as the other Greeks, Alexander's dreams of a Pan-Hellenic state have gone unfulfilled thus far." 
  
 
  seleucus_heritage:0 "Heritage of Babylon"
@@ -25,13 +27,11 @@
  roman_heritage:0 "Roman Heritage"
  roman_heritage_desc:0 "Born where the Greek south meets the Etruscan north, Rome has quickly risen to be the dominant force of central Italy and the leader of the a league of allies that stand ready to do their every bidding. Rome's unfailing capacity to mobilize its population and acquire the loyalty of the city states under its protection has over time grown into a strong imperialistic heritage."
  spartan_heritage:0 "Spartan Heritage"
- spartan_heritage_desc:0 "Once the dominant power of the Greek world, Sparta remains the carrier of an ancient martial heritage that few can question."
+ spartan_heritage_desc:0 "Once the dominant power of the Greek world, Sparta has fallen on hard times. Korinth as eclipsed her as the leader of the Peleponesian League, and Sparta now rules more by prestige, than actual military might. Regardless, the Spartans are still a mighty people."
  carthaginian_heritage:0 "Carthaginian Heritage"
  carthaginian_heritage_desc:0 "Founded as 'the new city' centuries ago by settlers from Tyre in faraway Phoenicia, Carthage is now the uncontested leader of the Punic, or Western Phoenician world. Her heritage is one of a strong naval and mercantile power, often led to greatness by charismatic generals."
  antigonid_heritage:1 "Heritage of Antigonos"
  antigonid_heritage_desc:0 "Few generals had as many unlikely successes as Antigonos Monophtalmos and his son Demetrios Poliorketes. Their heritage is one of strong siege-craft, and of championing the free Greek cities of the Mediterranean."
- cassanders_heritage:0 "Heritage of Kassandros"
- cassanders_heritage_desc:0 "Under the Argeads Macedon was built into the premier military force in the Greater Greek region, uniting mainland Greece under one rule. Even after the death of Alexander and the rise of the Antipatrids Macedon has an uncontested rule among Greek states, with the Macedonian barons making up the core of a strong military machine."
  maurya_heritage:1 "Heritage of Chandragupta"
  maurya_heritage_desc:0 "While the Maurya empire is a newcomer to the scene of Northern India it is also the carrier of an ancient Dharmic heritage that predates its own conception as well as that of the Nanda and Argead empires it displaced. The state built by Chandragupta is one of institutional strength but it must also harbor a great variety of peoples and faiths."
  judea_heritage:0 "Judean Heritage"
@@ -39,11 +39,11 @@
  byblos_heritage:0 "Heritage of Byblos"
  byblos_heritage_desc:0 "One of the oldest cities in the known world, Byblos has been the home of Phoenician maritime kingdoms for longer than most other countries have even been populated and it is from here that many of the settlers that founded the great Punic towns in the western Mediterranean originated."
  armenian_heritage:0 "Armenian Heritage"
- armenian_heritage_desc:0 "The kingdom of Armenia was founded many hundreds of years ago and has kept true to its own heritage for generations. Even while living under the domination of the Achaemenids and the armies of Alexander the Great, the kingdom has preserved its own traditions of kingship and warfare."
+ armenian_heritage_desc:0 "The kingdom of Armenia was founded many hundreds of years ago and has kept true to its own heritage for generations. Even while living under the domination of the Medians, the kingdom has preserved its own traditions of kingship and warfare."
  epirote_heritage:0 "Epirote Heritage"
  epirote_heritage_desc:0 "The green lands of Epirus were long divided between various states but have in time been united under the fist of the Molossians, often allied with the neighboring Argeads of Macedonia."
  thrace_heritage:0 "Heritage of Lysimachos"
- thrace_heritage_desc:0 "As one of Alexander's officers and former bodyguard Lysimachos was always an able general. The lasting heritage he brought to Thrace however was that of a state builder and a diplomat, able to leverage great gains from his victories in the successor wars despite his meager resources."
+ thrace_heritage_desc:0 "As one of Alexander's officers and former bodyguard Lysimachos was always an able general. The lasting heritage he brought to Thessaly however was that of a state builder and a military reformer. The Thessalian cavalry are the premier cavalry in the world, and could easily go toe to toe with any Greek army, even against the Macedonians. Despite all of this, Lysimachos has had a difficult time getting his Greek subjects to cooperate with him."
  rhodian_heritage:0 "Rhodian Heritage"
  rhodian_heritage_desc:0 "Founded many centuries ago Rhodes has risen to be one of the premier naval powers in the Aegean, but is also famous for its great workshops and its magnificent siege works. The most proud achievement of the island state remains being able to withstand the arduous siege of Demetrios Poliorketes, who brought the most advanced siege machinery in the world to the island but failed to breach its fortifications."
  athenian_heritage:0 "Athenian Heritage"
@@ -129,8 +129,7 @@
  late_scythian_heritage_desc:0 "After the last great king of the Scythians, Ateas, fell in battle against Philipp II of Macedon, their empire crumbled and their Golden Age ended. While they still remembered their nomadic heritage, they had begun to settle around the Crimea and started intermixing with the local Greek colonists."
  ###THRACE
  odrysian_heritage:0 "Odrysian Heritage"
- odrysian_heritage_desc:0 "The Odrysian Kingdom once ruled over the entire region of Thrace, before they were driven inland by the Macedonians. While they cannot match the economic might of their conquerors, they still remember the heritage of their former empire."
- ###ILLYRIA
+ odrysian_heritage_desc:0 "After being conquered by Alexander, the Odrysian Kingom has existed in a decaying state for some time. The Odrysians are little more than a puppet of Macedon, but a strong military force could still be assembled, that is if they manage to break the Macedonian yoke.""
  dardanian_heritage:0 "Dardanian Heritage"
  dardanian_heritage_desc:0 "The Dardanian kingdom looks back on a proud martial heritage, having extorted tribute from the defeated Molossians and Macedonians more than once."
  ###DECCAN
