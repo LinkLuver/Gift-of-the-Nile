@@ -1526,7 +1526,7 @@
 		amount=1
 	}
 	freemen={
-		culture="pasargadi"
+		culture="daylamite"
 		amount=1
 	}
 	freemen={
@@ -1537,6 +1537,7 @@
 		amount=4
 	}
 	tribesmen={
+		culture="daylamite"
 		amount=4
 	}
 	citizen={
@@ -1565,10 +1566,12 @@
 		amount=4
 	}
 	slaves={
+		culture="daylamite"
 		religion="zoroaster"
 		amount=1
 	}
 	tribesmen={
+		culture="daylamite"
 		religion="zoroaster"
 		amount=1
 	}
@@ -2156,6 +2159,11 @@
 	tribesmen={
 		amount=3
 	}
+	tribesmen={
+		culture="daylamite"
+		religion="zurvan_religion"
+		amount=1
+	}
 }
 
 9610={ #Lissar
@@ -2188,8 +2196,8 @@
 
 9611={ #Paichenar
 	terrain="mountain"
-	culture="median"
-	religion="zoroaster"
+	culture="daylamite"
+	religion="mithra_religion"
 	trade_goods="base_metals"
 	civilization_value=29
 	barbarian_power=0

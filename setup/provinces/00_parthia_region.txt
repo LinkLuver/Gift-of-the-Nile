@@ -1102,11 +1102,11 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
+		culture="daylamite"
 		amount=2
 	}
 	citizen={
-		culture="pasargadi"
+		culture="daylamite"
 		amount=2
 	}
 	citizen={
@@ -1120,7 +1120,7 @@
 		amount=2
 	}
 	freemen={
-		culture="pasargadi"
+		culture="daylamite"
 		amount=2
 	}
 	slaves={
@@ -1133,7 +1133,7 @@
 
 4992={ #Portae
 	terrain="mountain"
-	culture="median"
+	culture="daylamite"
 	religion="mithra_religion"
 	trade_goods=""
 	civilization_value=0
@@ -1163,9 +1163,11 @@
 		amount=4
 	}
 	slaves={
+		culture="daylamite"
 		amount=6
 	}
 	tribesmen={
+		culture="daylamite"
 		amount=4
 	}
 	freemen={
@@ -1187,6 +1189,7 @@
 	}
 	slaves={
 		religion="zurvan_religion"
+		culture="daylamite"
 		amount=3
 	}
 }
@@ -1257,14 +1260,15 @@
 		amount=6
 	}
 	tribesmen={
+		culture="daylamite"
 		amount=6
 	}
 }
 
 4998={ #Shirga
 	terrain="mountain"
-	culture="parthian"
-	religion="mithra_religion"
+	culture="daylamite"
+	religion="zurvan_religion"
 	trade_goods="vegetables"
 	civilization_value=27
 	barbarian_power=0
@@ -2481,6 +2485,7 @@
 		amount=1
 	}
 	freemen={
+		culture="daylamite"
 		religion="zurvan_religion"
 		amount=1
 	}
@@ -2504,6 +2509,7 @@
 		amount=2
 	}
 	tribesmen={
+		culture="daylamite"
 		religion="zurvan_religion"
 		amount=2
 	}
@@ -2511,8 +2517,8 @@
 
 9633={ #Amanek
 	terrain="mountain"
-	culture="median"
-	religion="zoroaster"
+	culture="daylamite"
+	religion="mithra_religion"
 	trade_goods="stone"
 	civilization_value=29
 	barbarian_power=0
@@ -2524,8 +2530,8 @@
 
 9634={ #Waliabad
 	terrain="mountain"
-	culture="median"
-	religion="zoroaster"
+	culture="daylamite"
+	religion="zurvan_religion"
 	trade_goods="stone"
 	civilization_value=29
 	barbarian_power=0
@@ -2537,8 +2543,8 @@
 
 9635={ #Shemsek
 	terrain="mountain"
-	culture="median"
-	religion="zoroaster"
+	culture="daylamite"
+	religion="mithra_religion"
 	trade_goods="wild_game"
 	civilization_value=29
 	barbarian_power=0
@@ -2550,8 +2556,8 @@
 
 9636={ #Puhl/Mekhsas
 	terrain="mountain"
-	culture="amardian"
-	religion="zoroaster"
+	culture="daylamite"
+	religion="zurvan_religion"
 	trade_goods="base_metals"
 	civilization_value=29
 	barbarian_power=0
@@ -2579,6 +2585,8 @@
 		amount=2
 	}
 	tribesmen={
+		culture="daylamite"
+		religion="mithra_religion"
 		amount=3
 	}
 }
@@ -2601,6 +2609,7 @@
 		amount=2
 	}
 	tribesmen={
+		culture="daylamite"
 		amount=11
 	}
 }
@@ -2623,6 +2632,7 @@
 		amount=2
 	}
 	tribesmen={
+		culture="daylamite"
 		amount=3
 	}
 }

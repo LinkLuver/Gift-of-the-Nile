@@ -2430,8 +2430,8 @@
 
 5238={ #
 	terrain="impassable_terrain"
-	culture="cadusian"
-	religion="zoroaster"
+	culture="daylamite"
+	religion="mithra_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2441,7 +2441,7 @@
 5239={ #
 	terrain="impassable_terrain"
 	culture="amardian"
-	religion="zoroaster"
+	religion="zurvan_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
