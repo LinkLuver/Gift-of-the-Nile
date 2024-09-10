@@ -51,7 +51,7 @@
 
  deity_isis_demeter:0 "$omen_isis_demeter$"
  omen_isis_demeter:0 "Isis-Demeter"
- omen_isis_demeter_desc:0 "#Y Aegyptian Goddess#! \n"
+ omen_isis_demeter_desc:0 "#Y Aegyptian Goddess#! \nThe cult of Isis-Demeter grew quickly as Egypt opened her delta to Greek settlers. They centered on Demeter's search for her daughter Persephone and Isis' search for Osiris' body. In her cult, she is considered to have done both, her escapades to the underworld making her the only god of the living to have frequented the land of the dead. She represents hope and love, as well as parental care and weather. The city of Per-Ka would recognize Isis-Demeter as their patron goddess on their conversion to Orphic philosophies as a state religion."
  
  deity_anaxagoras:0 "$omen_anaxagoras$"
  omen_anaxagoras:0 "Anaxagoras"
@@ -62,26 +62,37 @@
  omen_zeno:0 "Zeno"
  omen_zeno_desc:0 "#Y Greek Philosopher#! \nZeno or Zenon of Kition was a great moral philosopher of Phoenician ancestry, who moved from his native Cyprus to Athens and eventually founded the Stoic school (named after the Stoa Poikile, the colonnade of the agora where he taught) after studying under the Cynic philosopher Crates of Thebes. Zeno divided philosophy into three parts - logic, physics and ethics. He taught that there were four stages in the process of gaining knowledge - perception, sinkatathesis (assent), katalepsis (comprehension), and finally true knowledge which only a wise man can possess. In physics, influenced by Heraclitus, Zeno taught a pantheistic view of the universe as a divine reasoning entity which creates with aether (divine artisan-fire), and the unity of the human soul with the world-soul. In ethics, Zeno took the Cynic view of happiness as the single goal of life, originating from the alignment of one's reason with universal reason. Unlike the Cynics, Zeno argued that acts which are morally indifferent have value if they aid the natural instinct for self-preservation, distinct from happiness."
 
- ##PYRRHONISM##
+ ###SKEPTICISM
  deity_pyrrho:0 "$omen_pyrrho$"
  omen_pyrrho:0 "Pyrrho"
  omen_pyrrho_desc:0 "#Y Greek Philosopher#! \nPyrrho was the founder of the Pyrrhonist or sceptic tradition, which sought to achieve ataraxia (a state of spiritual serenity) by the suspension of judgement. Pyrrho and his followers focused on developing methods to refute philosophical arguments rather than constructing counter-arguments, since arguing a viewpoint of one's own would impede the pursuit of ataraxia."
 
  deity_democritus:0 "$omen_democritus$"
  omen_democritus:0 "Democritus"
- omen_demicritus_desc:0 "#Y Greek Philosopher#! \n"
+ omen_demicritus_desc:0 "#Y Greek Philosopher#! \nThe famous father of the Atom, Democritus' name literally means 'The Chosen of the People.' Born in Thrace, he would produce 80 treatises on poetry, philosophy, Mesopotamian theology, and military tactics. Of course, he also was a proponent of ethics and existance. He would posit that atoms and the vacuum were the beginning of the universe; and that everything else existed only in opinion. He concluded that divisibility of matter comes to an end, and the smallest possible fragments must be bodies with sizes and shapes, although the exact argument for this conclusion of his is not known. The smallest and indivisible bodies he called atoms.
 
  deity_anaxarchus:0 "$omen_anaxarchus$"
  omen_anaxarchus:0 "Anaxarchus"
- omen_anaxarchus_desc:0 "#Y Greek Philosopher#! \n"
+ omen_anaxarchus_desc:0 "#Y Greek Philosopher#! \nBorn in Thrace, Anaxarchus was of the school of Democritus. With Pyrrho, Anaxarchus would travel into Asia, perhaps contributing to his ideas as it did for Pyrrho. He is thought to be the linkage between Democritus' school of atomism and Pyrrho's school of Skepticism. He is also thought to have shared ethical ideas with Cyrenaic and Cynic schools. He wrote a work named About the Monarchs. In it, he spouses that knowledge is useless without the ability to know when to speak and what to say in every occasion."
 
  deity_nausiphanes:0 "$omen_nausiphanes$"
  omen_nausiphanes:0 "Nausiphanes"
- omen_nausiphanes_desc:0 "#Y Greek Philosopher#! \n"
+ omen_nausiphanes_desc:0 "#Y Greek Philosopher#! \nAn atomist philospher from Teos in Ionia, Nausiphanes argued that the study of natural philosophy (physics) was the best foundation for studying rhetoric or politics. Nausiphanes was an adherent of Democritus's sceptical side and deemed human judgment as being no more than a realignment of atoms in the mind. Nausiphanes substituted the term akataplêxia (“undauntability”) for Democritus’ athambiê, “fearlessness,” as crucial for eudaimonia. Epicurus was at one time one of his students, but was unsatisfied with him, and apparently abused him in his writings."
 
- #deity_hecataeus:0 "$omen_hecataeus$"
- #omen_hecataeus:0 "Hecataeus"
- #omen_hecataeus_desc:0 "#Y Greek Philosopher#! \n"
-
+ deity_hecataeus:0 "$omen_hecataeus$"
+ omen_hecataeus:0 "Hecataeus"
+ omen_hecataeus_desc:0 "#Y Greek Philosopher#! \nHecataeus of Miletos was an early Greek historian and geographer. Hailing from a very wealthy family, he lived under Lydian control during the Greco-Lydian disputes. He would help lead a revolt against Lydian overlordship which would eventually grant Miletos more autonomy, amongst other Ionian states as well. Hecataeus is the first known Greek historian and was one of the first classical writers to mention the Celtic and Illyrian peoples. He is known as the Father of Geography."
 
  ##EPICUREANISM##
+ deity_epicurus:0 "$omen_epicurus$"
+ omen_epicurus:0 "Epicurus"
+ omen_epicurus_desc:0 "#Y Greek Philosopher#! \nEpicurus was an ancient Greek philosopher and sage who founded Epicureanism, a highly influential school of philosophy. He was born on the Greek island of Samos to Athenian parents. Influenced by Democritus, Aristippus, Pyrrho, and possibly the Cynics, he turned against the Platonism of his day and established his own school, known as "the Garden", in Athens. Epicurus asserted that philosophy's purpose is to attain as well as to help others attain happy (eudaimonic), tranquil lives characterized by ataraxia (peace and freedom from fear) and aponia (the absence of pain)."
+
+ ##HELLENIC##
+ deity_sappho:0 "$omen_sappho$"
+ omen_sappho:0 "Sappho"
+ omen_sappho_desc:0 "#Y Greek Poet#! \nThe famous Lesbian poet, Sappho was a prolific poet, probably composing around 10,000 lines. She was best-known in antiquity for her love poetry; other themes in the surviving fragments of her work include family and religion. She probably wrote poetry for both individual and choral performance. Most of her best-known and best-preserved fragments explore personal emotions and were probably composed for solo performance. Her works are known for their clarity of language, vivid images, and immediacy. The context in which she composed her poems has long been the subject of scholarly debate; the most influential suggestions have been that she had some sort of educational or religious role, or wrote for the symposium."
+
+ deity_homer:0 "$omen_homer$"
+ omen_homer:0 "Homer"
+ omen_homer_desc:0 "#Y Greek Poet#! \nHomer is considered one of the most revered and influential authors in history. The author of the epic poems, The Illiad and The Odyssey, his works ascend time itself in their sheer impact in the world. While only the Iliad and the Odyssey are associated with the name "Homer," a large number of other works were sometimes attributed to him, including the Homeric Hymns, the Contest of Homer and Hesiod, several epigrams, the Little Iliad, the Nostoi, the Thebaid, the Cypria, the Epigoni, the comic mini-epic Batrachomyomachia ("The Frog–Mouse War"), the Margites, the Capture of Oechalia, and the Phocais. These claims are not considered authentic today and were by no means universally accepted."\n\nMany interpreters, especially the Stoics, who believed that Homeric poems conveyed Stoic doctrines, regarded them as allegories, containing hidden wisdom.Perhaps partially because of the Homeric poems' extensive use in education, many authors believed that Homer's original purpose had been to educate. Homer's wisdom became so widely praised that he began to acquire the image of almost a prototypical philosopher."
