@@ -21,7 +21,6 @@
  gotn_events_8.a:0 "Who will determine the fate of the Western Mediterranean?"
 
  ## Median Collapse
- # Armenian Independence
  armenian_rebels:0 "Armenian Satrapy Rowdiness"
 
  ARZ:0 "Arzasha"
@@ -65,7 +64,8 @@
  median_collapse_21_title:0 "Sagartia Joins the Fray"
  median_collapse_21_desc:0 "Thanks to our shared faith of Mazdayasna, the Sargatians have finally left behind their tyrannical Median overlords and sworn loyalty to us! The Medians cannot be happy about this and will likely declare war on us for this reason. We should be ready."
  median_collapse_21.a:0 "Ahura Mazda will lead us!"
- 
+
+ ## Hanigalbat Events
  mitanni_nobility_return.1.t:0 "The future of Hanigalbat?"
  mitanni_nobility_return.1.desc:0 "With the steady recovery of the Assyrian nation there has been a sudden influx of Mitanni nobles into our territories, requesting to be allowed to settle our lands and bring with them their culture and faith. We, of course, have the next-best claim to the Assyrian Crown, and it would do good to let them take Asylum here. Whether they keep their status of nobility is up to our great ruler."
  mitanni_nobility_return.1.a:0 "They must become integral to our nation."
@@ -85,3 +85,16 @@
  hanigalbat_assyrian_missions.tt:0 "The mission #G "To Conquer the Universe"#! will become available."
  hanigalbat_hurrian_missions.tt:0 "We will take up the path of #Y Teshub#! like our ancestors. The mission #G "The Hurrian Tempest"#! will remain available."
  mitanni_opposition_name:0 "Assyrian Opposition"
+
+ ##Bharat Events
+ claims_on_hindush_tt:0 "Gain claims on the entire #Y Hindush#!, including #E Gandhara#!, #E Sindh#!, and #E Panchanada#!."
+ release_jehat_tt:0 "Creates a #Y Parsi#! citystate in the city of #E Jehat#!."
+ bharat_events_1_title:0 "The Shadow Kingdom"
+ bharat_events_1_desc:0 "The realms of the #E Hindush#!, many as they are, were once an integral part of the #E Persian#! sphere... but with the attention focussed westwards and seawards in the recent years, and the historic autonomy of the region, most #E Uparajas#! have stopped paying tribute. They have simply drifted apart from the Empire, and there is nothing the #E Achaemenid Kingdom#! can do about it."
+ bharat_events_1.a:0 "More of the same, really."
+ bharat_events_1.b:0 "We are a Mahajanapada!"
+ bharat_events_1.c:0 "We represent the #E Achaemenids#! still."
+ bharat_events_1.d:0 "We will leave gracefully."
+ bharat_events_1.e:0 "We are the rightful rulers of Hindush!"
+ JHE:0 "Jehat"
+ JHE_ADJ:0 "Jehati"

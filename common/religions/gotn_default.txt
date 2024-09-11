@@ -64,6 +64,17 @@ zurvan_religion = { # Zurvanism
 		global_pop_conversion_speed_modifier = 0.20
 	}
 }
+vaksh_religion = { # Vakshic
+	color = hsv { 0.03 0.7 0.7 }
+	modifier = {
+		global_commerce_modifier = 0.05
+		enact_holy_site_cost_modifier = -0.1
+		army_maintenance_cost = 0.05
+	}
+	religion_category = pantheon
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
 elamite_pantheon = { # Haltamic
 	color = rgb { 190 35 30 }
 	modifier = {

@@ -70,6 +70,18 @@
  
  persis_mission_1_freedom_task_23:0 "Elevate Persian Culture"
  persis_mission_1_freedom_task_23_DESC:0 "Now that we are in the position to do so, we should elevate our Persian culture to the preeminent position for all of Iran to follow, upending the Median status quo. \n\n\n\n\n\n\n\n\n\n\n@persia_mil9!"
+
+ persis_mission_1_freedom_task_24:0 "The Elamite Problem"
+ persis_mission_1_freedom_task_24_DESC:0 "The #Y Elamites#!... ever noisy they are. They refuse to accept our rule, and we must address this or watch them leave our sphere like the #E Indians#!. We cannot afford this. \n\n\n\n\n\n\n\n\n\n\n@persia_mil2!"
+
+ persis_mission_1_freedom_task_25:0 "The Anshan Answer"
+ persis_mission_1_freedom_task_25_DESC:0 "One solution is to give #E Anshan#! to the #Y Elamites#!... the ancestral Kingdom of Cyrus the Good. It would be a miserable conclusion, and surely cause our people much strife and doubt in our rule... however, perhaps we could eventually integrate the #Y Elamites#! afterwards? \n\n\n\n\n\n\n\n\n\n\n@persia_mil7!"
+
+ persis_mission_1_freedom_task_26:0 "The Susa Solution"
+ persis_mission_1_freedom_task_26_DESC:0 "A solution could be to proclaim that the #Y Elamites#! should only be #Y Susian#!. This will #R greatly upset#! our satrap, and they will surely declare war on us and try to bring in outside help. \n\n\n\n\n\n\n\n\n\n\n@persia_mil4!"
+
+ persis_mission_1_freedom_task_27:0 "The Uxii Ultimatum"
+ persis_mission_1_freedom_task_27_DESC:0 "Our connetions with the #Y Uxii#! could help us control their #Y Elamite#! cousins. It will mean we will have to grant the #Y Uxii#! a state of their own to rule, but, this might be worth it in the long run to control the #Y Elamites#! without giving then #E Anshan#!. \n\n\n\n\n\n\n\n\n\n\n@persia_mil5!"
  
  
  #Tooltips
@@ -78,6 +90,8 @@
  persis_mission_1_freedom_task_15_tt:0 "No country with provinces in the Gulf Coast has more ships than #Y [ROOT.GetCountry.GetName]#!"
  persis_mission_1_freedom_task_16_tt:0 "Demand #Y [GetCountry('SEL').GetName]#! to cede #Y [GetProvince('(int32)4780').GetArea.GetName]#! to #Y [SCOPE.GetRootScope.GetCountry.GetName]#!"
  persis_mission_1_freedom_task_17_tt:0 "[ROOT.GetCountry.GetCapital.GetArea.GetRegion.GetName] has at least #Y 75#! territories that are connected by roads."
+ elam_has_been_annoying_tt:0 "#Y Elam#! has #R neglected#! our demands."
+ india_gone_tt:0 "We have lost control of the #Y Hindush#! satrapies."
  
  #mods
  

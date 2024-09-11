@@ -693,4 +693,86 @@
             }
         }
     }
+    persis_mission_1_freedom_task_24 = { # The Elamite Question
+        icon = "task_religion"
+        highlight = {
+            scope:province = {
+                owner = c:ELM
+            }
+        }
+        requires = { persis_mission_1_freedom_task_2 }
+
+        allow = {
+            custom_tooltip = {
+                has_variable = elam_annoy
+                text = elam_has_been_annoying_tt
+            }
+            custom_tooltip = {
+                has_global_variable = india_milk
+                text = india_gone_tt
+            }
+        }
+
+        on_completion = {
+            trigger_event = me_persis.24
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    persis_mission_1_freedom_task_25 = { # The Anshan Answer
+        icon = "task_conquest"
+        highlight = {
+            scope:province = {
+                dominant_province_culture = anshanite
+            }
+        }
+        requires = { persis_mission_1_freedom_task_24 }
+
+        allow = {
+        }
+
+        on_completion = {
+            trigger_event = me_persis.24
+            show_as_tooltip = {
+                
+            }
+        }
+    }
+    persis_mission_1_freedom_task_26 = { # The Susa Solution
+        icon = "task_diplomatic"
+        requires = { persis_mission_1_freedom_task_24 }
+        highlight = {
+            scope:province = {
+                dominant_province_culture = elamite
+            }
+        }
+        allow = {
+        }
+
+        on_completion = {
+            trigger_event = me_persis.24
+            show_as_tooltip = {
+                
+            }
+        }
+    }
+    persis_mission_1_freedom_task_27 = { # The Uxii Ultimatum
+        icon = "task_political"
+        requires = { persis_mission_1_freedom_task_24 }
+        highlight = {
+            scope:province = {
+                dominant_province_culture = uxian
+            }
+        }
+        allow = {
+        }
+
+        on_completion = {
+            trigger_event = me_persis.24
+            show_as_tooltip = {
+                
+            }
+        }
+    }
 }

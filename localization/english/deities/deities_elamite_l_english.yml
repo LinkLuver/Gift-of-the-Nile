@@ -17,7 +17,7 @@
 
  deity_manzat:0 "$omen_manzat$"
  omen_manzat:0 "Manzat"
- omen_ashshur_desc:0 "The goddess of the rainbow, Manzat, was primarily worshipped in the Elamite lowlands, as well as in both Sumeria and Akkad, though it is not known if she originates from Mesopotamia or Elam. Manzat was especially venerated in an area near Susa known as Hubshen. The goddess was associated with prosperity, especially of cities. She is sometimes called 'Great Lady' in the Elamite language. She became incredibly rare in attestations after the first millenium BCE, showing she was likely less important after that era."
+ omen_manzat_desc:0 "The goddess of the rainbow, Manzat, was primarily worshipped in the Elamite lowlands, as well as in both Sumeria and Akkad, though it is not known if she originates from Mesopotamia or Elam. Manzat was especially venerated in an area near Susa known as Hubshen. The goddess was associated with prosperity, especially of cities. She is sometimes called 'Great Lady' in the Elamite language. She became incredibly rare in attestations after the first millenium BCE, showing she was likely less important after that era."
 
  deity_tepti:0 "$omen_tepti$"
  omen_tepti:0 "Tepti"
@@ -92,8 +92,8 @@
  omen_shala_desc:0 "Shala, the wife of Adad, was introduced to Elam at the same time as the cult of her husband was introduced to the area. It should be noted that both her and her husband were likely the Mesopotamian versions, and not the more familiar Canaanite versions. She was a goddess of weather, like her husband, and was associated with the Elamite deity, Shihhash. Shala was likely worshipped in Anshan as well as the Elamite lowlands near Susa."
 
  deity_jabru:0 "$omen_jabru$"
- omen_ashshur:0 "Jabru"
- omen_ashshur_desc:0 "The god Jabru is an interesting case. He is clearly stated in Mesopotamian sources as a god of Elam, however, he is found no where in Elamite sources. There are several theories as to what this means. One theory is that Jabru is the father of Humban, the king of gods, by comparing Jabru with Anu. Like Anu, Jabru wouldn't have been worshipped as much as other gods despite being the father of the king of gods, if this theory is true. Another theory, asserts that Jabru might be a taboo name for for Tepti, however this theory is heavily disputed and claims several other gods who we consider to be seperate are just taboo names for different Elamite gods."
+ omen_jabru:0 "Jabru"
+ omen_jabru_desc:0 "The god Jabru is an interesting case. He is clearly stated in Mesopotamian sources as a god of Elam, however, he is found no where in Elamite sources. There are several theories as to what this means. One theory is that Jabru is the father of Humban, the king of gods, by comparing Jabru with Anu. Like Anu, Jabru wouldn't have been worshipped as much as other gods despite being the father of the king of gods, if this theory is true. Another theory, asserts that Jabru might be a taboo name for for Tepti, however this theory is heavily disputed and claims several other gods who we consider to be seperate are just taboo names for different Elamite gods."
 
  deity_mashti:0 "$omen_mashti$"
  omen_mashti:0 "Mashti"

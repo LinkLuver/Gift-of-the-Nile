@@ -270,7 +270,7 @@ gw_effect_karnak_temple = {
 			great_work_effect_tier = gw_effect_tier_1
 			country_modifier = {
 				happiness_for_same_religion_modifier = 0.02
-				deify_ruler_cost_modifier = 0.02
+				deify_ruler_cost_modifier = -0.02
 			}
 			state_modifier = {
 				local_population_capacity_modifier = 0.025
@@ -280,7 +280,7 @@ gw_effect_karnak_temple = {
 			great_work_effect_tier = gw_effect_tier_2
 			country_modifier = {
 				happiness_for_same_religion_modifier = 0.05
-				deify_ruler_cost_modifier = 0.05
+				deify_ruler_cost_modifier = -0.05
 			}
 			state_modifier = {
 				local_population_capacity_modifier = 0.02
@@ -290,7 +290,7 @@ gw_effect_karnak_temple = {
 			great_work_effect_tier = gw_effect_tier_3
 			country_modifier = {
 				happiness_for_same_religion_modifier = 0.1
-				deify_ruler_cost_modifier = 0.1
+				deify_ruler_cost_modifier = -0.1
 			}
 			state_modifier = {
 				local_population_capacity_modifier = 0.03
@@ -300,7 +300,7 @@ gw_effect_karnak_temple = {
 			great_work_effect_tier = gw_effect_tier_4
 			country_modifier = {
 				happiness_for_same_religion_modifier = 0.2
-				deify_ruler_cost_modifier = 0.2
+				deify_ruler_cost_modifier = -0.2
 			}
 			state_modifier = {
 				local_population_capacity_modifier = 0.1
