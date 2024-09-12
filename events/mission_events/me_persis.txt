@@ -493,19 +493,141 @@ me_persis.17 = {
     }
 }
 
-me_persis.18 = {
+me_persis.18 = { # Median Satraps
     type = country_event
 
     title = me_persis_18_title
     desc = me_persis_18_desc
-    picture = road_construction
+    picture = tlc_city_night
+    left_portrait = current_ruler
+    right_portrait = char:222
+    right_portrait = char:225
+    right_portrait = char:227
+    left_portrait = scope:atropates_backup_scope
 
-    option = {
+    option = { # Atropates Proposal
         name = me_persis_18.a
-        custom_tooltip = me_persis_18_tooltip
+        add_aggressive_expansion = -10
+        p:1515 = {
+            create_country = {
+                name = {
+                    name = "ME2"
+                    adjective = "ME2_ADJ"
+                }
+                hidden_effect = {
+                    change_country_tag = ME2
+                    set_country_religion = zoroaster
+                    set_primary_culture_cleanup_effect = {
+                        NEW_PRIMARY_CULTURE = median
+                        MAKE_OLD_CULTURE_INTEGRATED = yes
+                    }
+                    change_country_color = media_atropatene_gray
+                    change_country_flag = MAP
+                    set_country_heritage = atropatenian_heritage
+                }
+                save_scope_as = media_atropatene_scope
+            }
+        }
+        hidden_effect = {
+            area:media_atropatene_area = {
+                every_area_province = {
+                    set_owned_by = scope:media_atropatene_scope
+                }
+            }
+            area:media_area = {
+                every_area_province = {
+                    set_owned_by = scope:media_atropatene_scope
+                }
+            }
+            area:aganzana_area = {
+                every_area_province = {
+                    set_owned_by = scope:media_atropatene_scope
+                }
+            }
+            area:kadousioi_area = {
+                every_area_province = {
+                    set_owned_by = scope:media_atropatene_scope
+                }
+            }
+            area:amardioi_area = {
+                every_area_province = {
+                    set_owned_by = scope:media_atropatene_scope
+                }
+            }
+            area:paytankert_area = {
+                every_area_province = {
+                    set_owned_by = scope:media_atropatene_scope
+                }
+            }
+        }
+        make_subject = {
+            target = scope:media_atropatene_scope
+            type = satrapy
+        }
+        if = {
+            limit = {
+                has_variable = atropates_died_var
+            }
+            scope:media_atropatene_scope = { set_as_ruler = scope:atropates_backup_scope }
+        }
+        if = {
+            limit = {
+                char:222 = { is_alive = yes }
+            }
+            scope:media_atropatene_scope = { set_as_ruler = char:222 }
+        }
+        if = {
+            limit = {
+                char:222 = { is_alive = no }
+                char:225 = { is_alive = yes }
+            }
+            scope:media_atropatene_scope = { set_as_ruler = char:225 }
+        }
+        if = {
+            limit = {
+                char:222 = { is_alive = no }
+                char:225 = { is_alive = no }
+                char:227 = { is_alive = no }
+            }
+            scope:media_atropatene_scope = { set_as_ruler = char:225 }
+        }
+        trigger_event = {
+            id = me_persis.181
+            days = 60
+        }
+    }
+    option = { #Reject Proposal
+        name = me_persis_18.b
+        add_aggressive_expansion = 10
+        add_stability = -5
+        custom_tooltip = atropates_revolt_tt
+        trigger_event = {
+            id = me_persis.181
+            days = 60
+        }
+        trigger_event = {
+            id = me_persis.182
+            days = 30
+        }
     }
 }
+me_persis.181 = { # Caspian Satraps
+    type = country_event
 
+    title = me_persis_181_title
+    desc = me_persis_181_desc
+    picture = tlc_city_mountains
+
+    option = { # 3 Satraps
+        name = me_persis_181.a
+    }
+    option = { # 1 Satrap
+        name = me_persis_181.b
+    }
+    option = { # No Satraps
+        name = me_persis_181.c
+    }
+}
 me_persis.19 = {
     type = country_event
 

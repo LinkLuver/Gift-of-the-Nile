@@ -92,6 +92,8 @@
  persis_mission_1_freedom_task_17_tt:0 "[ROOT.GetCountry.GetCapital.GetArea.GetRegion.GetName] has at least #Y 75#! territories that are connected by roads."
  elam_has_been_annoying_tt:0 "#Y Elam#! has #R neglected#! our demands."
  india_gone_tt:0 "We have lost control of the #Y Hindush#! satrapies."
+ create_median_satrapies_tt:0 "We will decide how to make #Y Satrapies#! from our #E Median#! lands."
+ atropates_revolt_tt:0 "#Y Atropates#! may try and #R revolt#!."
  
  #mods
  
@@ -113,6 +115,13 @@
  persis_mod_14:0 "Commander of the Gods"
  persis_mod_14_desc:0 ""
  persis_mod_15:0 "Elevation of Old Persian"
+ fire_temple_floor_2:0 "Great Temple Expansions"
+
+ #Other
+ ME2:0 "Atropatene"
+ ME2_ADJ:0 "Atropatenian"
+ media_atropatene_gray:0 "Atropatene Gray"
+ THE_GREAT:0 "the Great"
  
  #Events
  

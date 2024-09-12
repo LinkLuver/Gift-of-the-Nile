@@ -5,7 +5,7 @@
 		family = c:MAP.fam:Atropatids
 		birth_date=386.6.30
 		culture="median"
-		religion="mithra_religion"
+		religion="zoroaster"
 		no_stats=yes
 		add_martial=6
 		add_charisma=7
@@ -24,7 +24,7 @@
 		female=yes
 		birth_date=392.1.15
 		culture="median"
-		religion="mithra_religion"
+		religion="zoroaster"
 		marry_character=char:222
 		no_stats=yes
 		add_martial=6
@@ -42,7 +42,7 @@
 		female=yes
 		birth_date=406.8.9
 		culture="median"
-		religion="mithra_religion"
+		religion="zoroaster"
 		father="char:222"
 		mother="char:223"
 		no_stats=yes
@@ -60,7 +60,7 @@
 		family = c:MAP.fam:Atropatids
 		birth_date=410.9.28
 		culture="median"
-		religion="mithra_religion"
+		religion="zoroaster"
 		father="char:222"
 		mother="char:223"
 		no_stats=yes
@@ -79,7 +79,7 @@
 		female=yes
 		birth_date=414.1.13
 		culture="median"
-		religion="mithra_religion"
+		religion="zoroaster"
 		father="char:222"
 		mother="char:223"
 		no_stats=yes
@@ -97,7 +97,7 @@
 		family = c:MAP.fam:Atropatids
 		birth_date=418.7.8
 		culture="median"
-		religion="mithra_religion"
+		religion="zoroaster"
 		father="char:222"
 		mother="char:223"
 		no_stats=yes
@@ -115,7 +115,7 @@
 		family = c:MAP.fam:Cyaxarid
 		birth_date=386.6.30
 		culture="median"
-		religion="mithra_religion"
+		religion="zoroaster"
 		no_stats=yes
 		add_martial=6
 		add_charisma=7

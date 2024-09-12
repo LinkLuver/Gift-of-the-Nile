@@ -381,6 +381,14 @@
         on_completion = {
             trigger_event = me_persis.12
             show_as_tooltip = {
+                add_legitimacy = legitimacy_large
+                add_stability = 10
+                current_ruler = {
+                    add_nickname = "THE_GREAT"
+                    add_popularity = popularity_large
+                    add_martial = 2
+                    add_zeal = 2
+                }
             }
         }
     }
@@ -512,6 +520,14 @@
 
         on_completion = {
             trigger_event = me_persis.16
+            show_as_tooltip = {
+                p:1595 = {
+                    add_permanent_province_modifier = {
+                        name = fire_temple_floor_2
+                        duration = -1
+                    }
+                }
+            }
         }
     }
     persis_mission_1_freedom_task_17 = { #Expand the Royal Road
@@ -545,6 +561,7 @@
     }
     persis_mission_1_freedom_task_18 = { #Matter of Medians
         icon = "task_diplomatic"
+        duration = 120
         requires = { persis_mission_1_freedom_task_20 }
         highlight = {
             scope:province = {
@@ -553,10 +570,34 @@
         }
 
         allow = {
+            p:1515 = { governor_policy = local_autonomy }
+            p:1512 = { governor_policy = local_autonomy }
+            p:3387 = { governor_policy = local_autonomy }
+            p:4988 = { governor_policy = local_autonomy }
+            p:1595 = { governor_policy = civilization_effort }
         }
-
-        on_completion = {
+        on_start = {
+            if = {
+                limit = {
+                    char:222 = { is_alive = no }
+                    char:225 = { is_alive = no }
+                    char:227 = { is_alive = no }
+                }
+                create_character = {
+                    first_name="Cyaxares"
+                    family_name="Atropatid"
+                    age = 18
+                    add_trait = atropates
+                    save_scope_as = atropates_backup_scope
+                }
+                set_variable = atropates_died_var
+            }
             trigger_event = me_persis.18
+        }
+        on_completion = {
+            show_as_tooltip = {
+                custom_tooltip = create_median_satrapies_tt
+            }
         }
     }
     persis_mission_1_freedom_task_19 = { #Fortify Capitals
