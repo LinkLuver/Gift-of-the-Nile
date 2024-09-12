@@ -1,7 +1,7 @@
 ﻿6={ #Kymai
 	terrain="farmland"
-	culture="roman"
-	religion="italic_pantheon"
+	culture="italiotian"
+	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=37
 	barbarian_power=0
@@ -27,14 +27,12 @@
 		amount=1
 	}
 	citizen={
-		religion="roman_pantheon"
 		amount=4
 	}
 	freemen={
 		amount=5
 	}
 	freemen={
-		religion="roman_pantheon"
 		amount=6
 	}
 	slaves={
