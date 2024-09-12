@@ -384,7 +384,7 @@
                 add_legitimacy = legitimacy_large
                 add_stability = 10
                 current_ruler = {
-                    add_nickname = "THE_GREAT"
+                    add_nickname = "THE_CONQUERER"
                     add_popularity = popularity_large
                     add_martial = 2
                     add_zeal = 2
@@ -577,22 +577,24 @@
             p:1595 = { governor_policy = civilization_effort }
         }
         on_start = {
-            if = {
-                limit = {
-                    char:222 = { is_alive = no }
-                    char:225 = { is_alive = no }
-                    char:227 = { is_alive = no }
+            hidden_effect = {
+                    if = {
+                    limit = {
+                        char:222 = { is_alive = no }
+                        char:225 = { is_alive = no }
+                        char:227 = { is_alive = no }
+                    }
+                    create_character = {
+                        first_name="Cyaxares"
+                        family_name="Atropatid"
+                        age = 18
+                        add_trait = atropates
+                        save_scope_as = atropates_backup_scope
+                    }
+                    set_variable = atropates_died_var
                 }
-                create_character = {
-                    first_name="Cyaxares"
-                    family_name="Atropatid"
-                    age = 18
-                    add_trait = atropates
-                    save_scope_as = atropates_backup_scope
-                }
-                set_variable = atropates_died_var
+                trigger_event = me_persis.18
             }
-            trigger_event = me_persis.18
         }
         on_completion = {
             show_as_tooltip = {

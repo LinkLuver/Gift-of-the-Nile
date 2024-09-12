@@ -528,6 +528,7 @@ me_persis.18 = { # Median Satraps
                 save_scope_as = media_atropatene_scope
             }
         }
+        custom_tooltip = atropatene_granted_land_tt
         hidden_effect = {
             area:media_atropatene_area = {
                 every_area_province = {
@@ -562,7 +563,7 @@ me_persis.18 = { # Median Satraps
         }
         make_subject = {
             target = scope:media_atropatene_scope
-            type = satrapy
+            type = great_satrapy
         }
         if = {
             limit = {
@@ -618,14 +619,244 @@ me_persis.181 = { # Caspian Satraps
     desc = me_persis_181_desc
     picture = tlc_city_mountains
 
-    option = { # 3 Satraps
-        name = me_persis_181.a
-    }
     option = { # 1 Satrap
         name = me_persis_181.b
+        p:9638 = {
+            random_pops_in_province = {
+                set_pop_culture = amardian
+                set_pop_religion = zoroaster
+            }
+            create_country = {
+                name = {
+                    name="CS4"
+                    adjective="CS4_ADJ"
+                }
+                set_country_religion = zoroaster
+                set_primary_culture_cleanup_effect = {
+                    NEW_PRIMARY_CULTURE = amardian
+                    MAKE_OLD_CULTURE_INTEGRATED = yes
+                }
+                save_scope_as = hyrcania_satrap
+            }
+        }
+        hidden_effect = {
+            area:amardioi_area = {
+                every_area_province = {
+                    limit = {
+                        NOR = {
+                            province_id = 1628
+                            province_id = 1627
+                            province_id = 9605
+                            province_id = 3390
+                            province_id = 9612
+                            province_id = 3389
+                            province_id = 4987
+                            province_id = 9611
+                            province_id = 9613
+                        }
+                    }
+                    set_owned_by = scope:hyrcania_satrap
+                }
+            }
+            area:amardia_area = { every_area_province = { set_owned_by = scope:hyrcania_satrap } }
+            p:3434 = { set_owned_by = scope:hyrcania_satrap }
+        }
+        make_subject = {
+            target = scope:hyrcania_satrap
+            type = satrapy
+        }
+    }
+
+    option = { # 3 Satraps
+        name = me_persis_181.a
+        p:9638 = {
+            random_pops_in_province = {
+                set_pop_culture = amardian
+                set_pop_religion = mithra_religion
+            }
+            create_country = {
+                name = {
+                    name="CS2"
+                    adjective="CS2_ADJ"
+                }
+                set_country_religion = mithra_religion
+                set_primary_culture_cleanup_effect = {
+                    NEW_PRIMARY_CULTURE = amardian
+                    MAKE_OLD_CULTURE_INTEGRATED = yes
+                }
+                save_scope_as = amardii_satrap
+            }
+        }
+        p:4985 = {
+            random_pops_in_province = {
+                set_pop_culture = cadusian
+                set_pop_religion = zoroaster
+            }
+            create_country = {
+                name = {
+                    name="CS1"
+                    adjective="CS1_ADJ"
+                }
+                set_country_religion = zoroaster
+                set_primary_culture_cleanup_effect = {
+                    NEW_PRIMARY_CULTURE = cadusian
+                    MAKE_OLD_CULTURE_INTEGRATED = yes
+                }
+                save_scope_as = cadusii_satrap
+            }
+        }
+        p:4991 = {
+            random_pops_in_province = {
+                set_pop_culture = daylamite
+                set_pop_religion = zurvan_religion
+            }
+            create_country = {
+                name = {
+                    name="CS3"
+                    adjective="CS3_ADJ"
+                }
+                set_country_religion = zurvan_religion
+                set_primary_culture_cleanup_effect = {
+                    NEW_PRIMARY_CULTURE = daylamite
+                    MAKE_OLD_CULTURE_INTEGRATED = yes
+                }
+                save_scope_as = daylamite_satrap
+            }
+        }
+        hidden_effect = {
+            area:amardioi_area = {
+                every_area_province = {
+                    limit = {
+                        NOR = {
+                            province_id = 1628
+                            province_id = 1627
+                            province_id = 9605
+                            province_id = 3390
+                            province_id = 9612
+                            province_id = 3389
+                            province_id = 4987
+                            province_id = 9611
+                            province_id = 9613
+                        }
+                    }
+                    set_owned_by = scope:cadusii_satrap
+                }
+            }
+            area:amardia_area = {
+                every_area_province = {
+                    limit = {
+                        NOR = {
+                            province_id = 4998
+                            province_id = 9635
+                            province_id = 9634
+                            province_id = 9633
+                        }
+                    }
+                    set_owned_by = scope:amardii_satrap
+                }
+            }
+            p:4987 = { set_owned_by = scope:daylamite_satrap }
+            p:9611 = { set_owned_by = scope:daylamite_satrap }
+            p:9613 = { set_owned_by = scope:daylamite_satrap }
+            p:9633 = { set_owned_by = scope:daylamite_satrap }
+            p:9634 = { set_owned_by = scope:daylamite_satrap }
+            p:9635 = { set_owned_by = scope:daylamite_satrap }
+            p:4991 = { set_owned_by = scope:daylamite_satrap }
+            p:4994 = { set_owned_by = scope:daylamite_satrap }
+            p:4993 = { set_owned_by = scope:daylamite_satrap }
+            p:4998 = { set_owned_by = scope:daylamite_satrap }
+            p:3434 = { set_owned_by = scope:amardii_satrap }
+        }
+        make_subject = {
+            target = scope:cadusii_satrap
+            type = satrapy
+        }
+        make_subject = {
+            target = scope:amardii_satrap
+            type = satrapy
+        }
+        make_subject = {
+            target = scope:daylamite_satrap
+            type = satrapy
+        }
     }
     option = { # No Satraps
         name = me_persis_181.c
+        add_aggressive_expansion = 5
+    }
+}
+me_persis.182 = {
+    type = country_event
+
+    title = me_persis_182_title
+    desc = me_persis_182_desc
+    picture = tlc_city_night
+
+    immediate = {
+        p:1515 = {
+            create_country = {
+                name = {
+                    name = "ME2"
+                    adjective = "ME2_ADJ"
+                }
+                hidden_effect = {
+                    change_country_tag = ME2
+                    set_country_religion = zoroaster
+                    set_primary_culture_cleanup_effect = {
+                        NEW_PRIMARY_CULTURE = median
+                        MAKE_OLD_CULTURE_INTEGRATED = yes
+                    }
+                    change_country_color = media_atropatene_gray
+                    change_country_flag = MAP
+                    set_country_heritage = atropatenian_heritage
+                }
+                save_scope_as = media_atropatene_scope
+            }
+        }
+        hidden_effect = {
+            area:media_atropatene_area = {
+                every_area_province = {
+                    set_owned_by = scope:media_atropatene_scope
+                }
+            }
+        }
+        if = {
+            limit = {
+                has_variable = atropates_died_var
+            }
+            scope:media_atropatene_scope = { set_as_ruler = scope:atropates_backup_scope }
+        }
+        if = {
+            limit = {
+                char:222 = { is_alive = yes }
+            }
+            scope:media_atropatene_scope = { set_as_ruler = char:222 }
+        }
+        if = {
+            limit = {
+                char:222 = { is_alive = no }
+                char:225 = { is_alive = yes }
+            }
+            scope:media_atropatene_scope = { set_as_ruler = char:225 }
+        }
+        if = {
+            limit = {
+                char:222 = { is_alive = no }
+                char:225 = { is_alive = no }
+                char:227 = { is_alive = no }
+            }
+            scope:media_atropatene_scope = { set_as_ruler = char:225 }
+        }
+        scope:media_atropatene_scope = {
+            declare_war_with_wargoal = {
+                war_goal = independence_wargoal
+                province = capital_scope
+                target = c:PES
+            }
+        }
+    }
+    option = {
+        name = me_persis_182.a
     }
 }
 me_persis.19 = {

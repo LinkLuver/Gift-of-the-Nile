@@ -94,6 +94,7 @@
  india_gone_tt:0 "We have lost control of the #Y Hindush#! satrapies."
  create_median_satrapies_tt:0 "We will decide how to make #Y Satrapies#! from our #E Median#! lands."
  atropates_revolt_tt:0 "#Y Atropates#! may try and #R revolt#!."
+ atropatene_granted_land_tt:0 "#E Media-Atropatene#! is granted the areas of #Y [GetProvince('(int32)1515').GetArea.GetName]#!, #Y [GetProvince('(int32)1552').GetArea.GetName]#!, #Y [GetProvince('(int32)4988').GetArea.GetName]#!, #Y [GetProvince('(int32)3387').GetArea.GetName]#!, #Y [GetProvince('(int32)3389').GetArea.GetName]#!, and #Y [GetProvince('(int32)1631').GetArea.GetName]#!."
  
  #mods
  
@@ -120,8 +121,16 @@
  #Other
  ME2:0 "Atropatene"
  ME2_ADJ:0 "Atropatenian"
+ CS1:0 "Cadusia"
+ CS1_ADJ:0 "Cadusian"
+ CS2:0 "Amardia"
+ CS2_ADJ:0 "Amardian"
+ CS3:0 "Daylama"
+ CS3_ADJ:0 "Daylamite"
+ CS4:0 "Hyrcania"
+ CS4_ADJ:0 "Hyrcanian"
  media_atropatene_gray:0 "Atropatene Gray"
- THE_GREAT:0 "the Great"
+ THE_CONQUERER:0 "the Conqueror"
  
  #Events
  
@@ -231,8 +240,13 @@
  me_persis_17_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_17$#!' has now been #G Completed#!!"
  
  me_persis_18_title:0 "$persis_mission_1_freedom_task_18$"
- me_persis_18_desc:0 ""
- me_persis_18.a:0 ""
+ me_persis_18_desc:0 "The governance of the #E Medians#! won't be as easy as we would like. Already, many have come to us seeking the opportunity to govern as a satrap. While we could just directly rule over all of the #E Medes#!, it would show much favor towards us should we let them keep some land in the form of a semi-autonomous state. One such proposal is the one from the family of #E Atropates#!. The great family of the #E Median Empire#! was the only family who had converted away from the #E Mithraic#! faith in favor of our #E Mazdayasna#! one. Shall we grant them some land to the west of #E Hagmatana#!?"
+ me_persis_18.a:0 "Establish Media-Atropatene."
+ me_persis_18.b:0 "Govern all of Media directly."
+ me_persis_181_title:0 "Caspian Matters"
+ me_persis_181_desc:0 ""
+ me_persis_181.a:0 "Create #E Cadusian#!, #E Amardian#!, and #E Daylamite#! satraps."
+ me_persis_181.b:0 "Create a #E Hyrcanian#! satrap."
  me_persis_18_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_18$#!' has now been #G Completed#!!"
  
  me_persis_19_title:0 "$persis_mission_1_freedom_task_19$"
