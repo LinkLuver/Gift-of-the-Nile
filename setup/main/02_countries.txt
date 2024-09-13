@@ -1026,6 +1026,12 @@ country = {
 				9529 9525
 			}
 
+			pantheon = {
+				{ deity = 757 }
+				{ deity = 30802 }
+				{ deity = 30801 }
+				{ deity = 30803 }
+			}
 		}
 
 		ARS = {
@@ -2119,7 +2125,17 @@ country = {
 			own_control_core = {
 				743 744 745
 			}
+
+			pantheon = {
+
+				{ deity = 404 }
+				{ deity = 401 }
+				{ deity = 420 }
+				{ deity = 415 }
+
+			}
 		}
+
 		LTS = {
 			government = plutocratic_monarchy
 			primary_culture = alashiyan
