@@ -1156,12 +1156,28 @@ country = {
 			diplomatic_stance = appeasement_stance
 			monarchy_military_reforms = work_for_the_best
 			capital = 4951
+			succession_law=cognatic_succession_law
 
 			technology={
 			military_tech={ level=2 progress=0 }
 			civic_tech={ level=2 progress=0 }
 			oratory_tech={ level=2 progress=0 }
 			religious_tech= { level=2 progress=0  }
+			}
+
+			historical_regnal_numbers = {
+				Cyrus = 2
+				Darius = 3
+				Artaxerxes = 3
+				Sogdianus = 1
+				Xerxes = 2
+				Bardiya = 1
+				Cambyses = 2
+				Hystapes = 1
+				Arsames = 1
+				Ariaramnes = 1
+				Teispes = 1
+				Achaemenes = 1
 			}
 
 			own_control_core = 	{

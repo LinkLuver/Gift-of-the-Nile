@@ -746,6 +746,7 @@
     }
     persis_mission_1_freedom_task_24 = { # The Elamite Question
         icon = "task_religion"
+        potential = { any_subject = { primary_culture = elamite } }
         highlight = {
             scope:province = {
                 owner = c:ELM
@@ -767,12 +768,18 @@
         on_completion = {
             trigger_event = me_persis.24
             show_as_tooltip = {
-
+                c:ELM = {
+                    reverse_add_opinion = {
+                        modifier = sneaky_overlord_neg_opmod
+                        target = root
+                    }
+                }
             }
         }
     }
     persis_mission_1_freedom_task_25 = { # The Anshan Answer
         icon = "task_conquest"
+        potential = { any_subject = { primary_culture = elamite } }
         highlight = {
             scope:province = {
                 dominant_province_culture = anshanite
@@ -781,17 +788,31 @@
         requires = { persis_mission_1_freedom_task_24 }
 
         allow = {
+            owns = 4950
         }
 
         on_completion = {
-            trigger_event = me_persis.24
+            trigger_event = me_persis.25
             show_as_tooltip = {
-                
+                add_stability = -10
+                add_legitimacy = -20
+                current_ruler = {
+                    add_popularity = -15
+                    add_trait = depressed
+                }
+                p:4950 = { set_owned_by = c:ELM }
+                c:ELM = {
+                    add_country_modifier = {
+                        name = elamite_crisis_solved
+                        duration = -1
+                    }
+                }
             }
         }
     }
     persis_mission_1_freedom_task_26 = { # The Susa Solution
         icon = "task_diplomatic"
+        potential = { any_subject = { primary_culture = elamite } }
         requires = { persis_mission_1_freedom_task_24 }
         highlight = {
             scope:province = {
@@ -799,17 +820,33 @@
             }
         }
         allow = {
+            political_influence = 125
         }
 
-        on_completion = {
-            trigger_event = me_persis.24
+        on_completion = { #80% chance of War
+            random_subject = {
+                limit = {
+                    primary_culture = elamite
+                }
+                save_scope_as = elamite_satrap
+            }
+            trigger_event = me_persis.26
             show_as_tooltip = {
-                
+                add_country_modifier = {
+                    name = abuse_of_imperial_power
+                    duration = 1825
+                }
+                add_country_modifier = {
+                    name = strength_of_shah
+                    duration = -1
+                }
+                custom_tooltip = high_may_lead_to_war_tt
             }
         }
     }
     persis_mission_1_freedom_task_27 = { # The Uxii Ultimatum
         icon = "task_political"
+        potential = { any_subject = { primary_culture = elamite } }
         requires = { persis_mission_1_freedom_task_24 }
         highlight = {
             scope:province = {
@@ -817,12 +854,27 @@
             }
         }
         allow = {
+            political_influence = 50
+            custom_tooltip = {
+                OR = {
+                    any_country_culture = {
+                        is_culture = uxian
+                        has_country_culture_modifier = right_to_enter_contracts
+                    }
+                    any_country_culture = {
+                        is_culture = uxian
+                        is_integrated = yes
+                    }
+                }
+                text = "uxian_rights_tt"
+            }
         }
 
-        on_completion = {
-            trigger_event = me_persis.24
+        on_completion = { #25% chance of War
+            trigger_event = me_persis.27
             show_as_tooltip = {
-                
+                custom_tooltip = uxian_satrap_tt
+                custom_tooltip = low_may_lead_to_war_tt
             }
         }
     }

@@ -95,6 +95,13 @@
  create_median_satrapies_tt:0 "We will decide how to make #Y Satrapies#! from our #E Median#! lands."
  atropates_revolt_tt:0 "#Y Atropates#! may try and #R revolt#!."
  atropatene_granted_land_tt:0 "#E Media-Atropatene#! is granted the areas of #Y [GetProvince('(int32)1515').GetArea.GetName]#!, #Y [GetProvince('(int32)1552').GetArea.GetName]#!, #Y [GetProvince('(int32)4988').GetArea.GetName]#!, #Y [GetProvince('(int32)3387').GetArea.GetName]#!, #Y [GetProvince('(int32)3389').GetArea.GetName]#!, and #Y [GetProvince('(int32)1631').GetArea.GetName]#!."
+ uxian_rights_tt:0 "#Y Uxian#! culture has been granted the #G Right to Enter Legal Contracts#! or is #E integrated#!."
+ high_may_lead_to_war_tt:0 "There is a #R high chance#! that this will lead to war."
+ low_may_lead_to_war_tt:0 "There is a #T moderate chance#! that this will lead to war."
+ abuse_of_imperial_power:0 "Abuse of Authority"
+ strength_of_shah:0 "Absolute Authority"
+ uxian_satrap_tt:0 "The #Y Uxians#! will be granted the province of #Y [GetProvince('(int32)4978').GetArea.GetName]#! as an autonomous satrapy."
+ uxian_ambassadors_tt:0 "The #Y Uxians#! will go to #G Elam#! to negotiate. This has a #T moderate#! chance of war."
  
  #mods
  
@@ -117,6 +124,7 @@
  persis_mod_14_desc:0 ""
  persis_mod_15:0 "Elevation of Old Persian"
  fire_temple_floor_2:0 "Great Temple Expansions"
+ elamite_crisis_solved:0 "Elam Pacified"
 
  #Other
  ME2:0 "Atropatene"
@@ -129,6 +137,10 @@
  CS3_ADJ:0 "Daylamite"
  CS4:0 "Hyrcania"
  CS4_ADJ:0 "Hyrcanian"
+ shushun_name:0 "Shushun"
+ susian_adj:0 "Susian"
+ UX1_name:0 "Uxia"
+ UX1_adj:0 "Uxian"
  media_atropatene_gray:0 "Atropatene Gray"
  THE_CONQUERER:0 "the Conqueror"
  
@@ -245,9 +257,12 @@
  me_persis_18.a:0 "Establish Media-Atropatene."
  me_persis_18.b:0 "Govern all of Media directly."
  me_persis_181_title:0 "Caspian Matters"
- me_persis_181_desc:0 ""
+ me_persis_181_desc:0 "The #E Caspian#! region has always had a distinct identity of many people groups. Namely, for us, the three groups that propose satraps are the #E Cadusians#! of the western coast, the #E Amardians#! of the southern coast, and the #E Daylamites#! of the Daylam mountains. We have the option of either granting each of these people their own satrapies, or we could instead create a single #E Hyrcanian#! satrap."
  me_persis_181.a:0 "Create #E Cadusian#!, #E Amardian#!, and #E Daylamite#! satraps."
  me_persis_181.b:0 "Create a #E Hyrcanian#! satrap."
+ me_persis_182_title:0 "Atropatene Matters"
+ me_persis_182_desc:0 "As we suspected, the dastardly #E Atropatid#! family has revolted in their family holdings of #E Media Atropatene#!. They demand independence, but their rebellion is small. We should be able to crush them quickly."
+ me_persis_182.a:0 "They will regret this mistake."
  me_persis_18_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_18$#!' has now been #G Completed#!!"
  
  me_persis_19_title:0 "$persis_mission_1_freedom_task_19$"
@@ -274,4 +289,32 @@
  me_persis_23_desc:0 "Although our culture has often played second fiddle to the #E Medians#! for a long time, with some even believing that the light of Persian civilization would never surpass that of the #E Medes#!, we have proven to the entire world that one should never bet against [SCOPE.GetRootScope.GetCountry.GetName], for we are capable of achieving magnificent feats that other nations can only dream of.\n\nSend riders to the corners of the Earth and announce that our era has begun - all shall prostrate themselves before the reborn Persian authority!"
  me_persis_23.a:0 "Our culture, like an all-consuming fire fanned by the wind, spreads unchecked..."
  me_persis_23_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_23$#!' has now been #G Completed#!!"
- 
+
+ me_persis_24_title:0 "$persis_mission_1_freedom_task_24$"
+ me_persis_24_desc:0 "The rage within us that is induced by #E Elam's#! frequent dismissal of our rule CANNOT CONTINUE ANY LONGER. Since the reign of #E Xerxes#! and the failure of the siege of #E Hagmatana#! all those years ago, the haughty #E Elamites#! think of themselves as somehow greater than us. Since then, they have demanded our ancestral lands from us, and the once great #E Persian#! land surrounding #E Anshan#! has been reduced to just the great city itself. We must decide what to do with the #E Elamites#! now. Shall we punish them, try and work with them, or should we actually consider giving the jewel of #E Cyrus the Good#! himself, #E Anshan#!.\n\nWhatever we choose, if it comes to blows with #E Elam#!... we may have to worry about the #E Babylonians#! intervening on their behalf."
+ me_persis_24.a:0 "We have much to discuss."
+ me_persis_24_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_24$#!' has now been #G Completed#!!"
+
+ me_persis_25_title:0 "$persis_mission_1_freedom_task_25$"
+ me_persis_25_desc:0 "We have regrettably decided to give up the city of Cyrus the Good, #E Anshan#!. Our people may hate us temporarily, however, this is a necessary price for the stability of the Empire. With #E Elam#! pacified, we will be able to wield them as a sword against our enemies. Perhaps eventually, they will become a more integrated part of our nation once again."
+ me_persis_25.a:0 "We make peace, not war."
+ me_persis_25_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_25$#!' has now been #G Completed#!!"
+
+ me_persis_26_title:0 "$persis_mission_1_freedom_task_26$"
+ me_persis_26_desc:0 "Our solution comes in the other great #E Elamite#! city, #E Susa#!. For centuries, the seat of the kings of #E Elam#! has sat not in #E Anshan#!, but in their western capital. Thus, we shall reinagurate the satrapy as #E Shushun#!! If they disagree, they're welcome to reject the ultimatum... at the cost of war! If they accept, we will be taking the territories that they do not deserve."
+ me_persis_26.a:0 "Mischievious dogs will be punished."
+ me_persis_26_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_26$#!' has now been #G Completed#!!"
+
+ me_persis_261_desc:0 "Those #E Persians#!... they dare claim #E Anshan#! as THEIRS! They have sent us an ultimatum. We kneel down and revoke our claim to be #E Elam#!, we accept their rule and become '#E Shushun#!,' and we lose our ability to rival #E Persia#! ever again. Can we even THINK to agree to these terms?"
+ me_persis_261.a:0 "It's time to kill some Persians!"
+ me_persis_261.b:0 "There is nothing we can do..."
+
+ me_persis_27_title:0 "$persis_mission_1_freedom_task_27$"
+ me_persis_27_desc:0 "Our friends, the #E Uxians#! are familiar with the #E Elamites#!. They know how to deal with them. Granting the #E Uxians#! a satrap of their own will incentivize the #E Uxians#! to act on our behalf and 'convince' the #E Elamites#! to settle down. The idea is that the #E Uxians#! will present the idea of their own satrap as a compromise only happening if #E Elam#! returns the whole of the province #E Anzan#! to us, and drop their claims. This may not prove to be enough, but as tricky as the #E Elamites#! are, they have always had a soft spot for their cousins."
+ me_persis_27.a:0 "The Uxians are our friends forever."
+ me_persis_27_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_27$#!' has now been #G Completed#!!"
+
+ me_persis_271_title:0 "$persis_mission_1_freedom_task_27$"
+ me_persis_271_desc:0 "Our cousins come to us. The #E Uxians#! have told us something troubling. The #E Persians#! would grant them a satrapy of their own, and all we need to do is to back off of our claim to the #E Anzan Area#!. As much as it would pain us to do, and we would have to fall in line somewhat, this would avoid war with the #E Persians#!, allow us to feign alliegience for longer, and perhaps the #E Uxians#! could be used against the #E Persians#! in the future... it's a risky plan, but the way the #E Uxians#! communicated it to us assures us. It's clear the #E Persians#! would have no way of knowing of this plan either. Should we trust this?"
+ me_persis_271.a:0 "Not one step back. It's time for war!"
+ me_persis_271.b:0 "We must take one step back to go two forward."

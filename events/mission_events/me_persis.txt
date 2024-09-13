@@ -987,3 +987,248 @@ me_persis.23 = {
         }
     }
 }
+me_persis.24 = {
+    type = country_event
+
+    title = me_persis_24_title
+    desc = me_persis_24_desc
+    picture = war_council
+
+    option = {
+        name = me_persis_24.a
+        custom_tooltip = me_persis_24_tooltip
+        c:ELM = {
+            reverse_add_opinion = {
+                modifier = sneaky_overlord_neg_opmod
+                target = root
+            }
+        }
+    }
+}
+
+me_persis.25 = {
+    type = country_event
+
+    title = me_persis_25_title
+    desc = me_persis_25_desc
+    picture = persia_marching
+
+    option = {
+        name = me_persis_25.a
+        custom_tooltip = me_persis_25_tooltip
+        add_stability = -10
+        add_legitimacy = -20
+        current_ruler = {
+            add_popularity = -15
+            add_trait = depressed
+        }
+        p:4950 = { set_owned_by = c:ELM }
+        c:ELM = {
+            add_country_modifier = {
+                name = elamite_crisis_solved
+                duration = -1
+            }
+        }
+    }
+}
+me_persis.26 = {
+    type = country_event
+
+    title = me_persis_26_title
+    desc = me_persis_26_desc
+    picture = persepolis
+
+    option = {
+        name = me_persis_26.a
+        custom_tooltip = me_persis_26_tooltip
+        add_country_modifier = {
+            name = abuse_of_imperial_power
+            duration = 1825
+        }
+        add_country_modifier = {
+            name = strength_of_shah
+            duration = -1
+        }
+        custom_tooltip = high_may_lead_to_war_tt
+        hidden_effect = {
+            c:ELM = {
+                random_list = {
+                    75 = { trigger_event = me_persis.261 }
+                    25 = {
+                        if = {
+                            limit = {
+                                is_ai = no
+                            }
+                            trigger_event = me_persis.261
+                        }
+                        if = {
+                            limit = {
+                                is_ai = yes
+                            }
+                            change_country_name = shushun_name
+                            change_country_adjective = susian_adj
+                            area:pars_area = {
+                                every_area_province = {
+                                    set_owned_by = c:PES
+                                }
+                            }
+                            area:anzan_area = {
+                                every_area_province = {
+                                    set_owned_by = c:PES
+                                }
+                            }
+                            add_country_modifier = {
+                                name = elamite_crisis_solved
+                                duration = -1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+me_persis.261 = {
+    type = country_event
+
+    title = me_persis_26_title
+    desc = me_persis_26_desc
+    picture = persepolis
+
+    option = {
+        trigger = { is_ai = yes }
+        exclusive = yes
+        name = me_persis_261.a
+        declare_war_with_wargoal = {
+            war_goal = independence_wargoal
+            province = p:4950
+            target = c:PES
+        }
+    }
+    option = {
+        name = me_persis_261.a
+        declare_war_with_wargoal = {
+            war_goal = independence_wargoal
+            province = p:4950
+            target = c:PES
+        }
+    }
+    option = {
+        name = me_persis_261.b
+        change_country_name = shushun_name
+        change_country_adjective = susian_adj
+        area:pars_area = {
+            every_area_province = {
+                set_owned_by = c:PES
+            }
+        }
+        area:anzan_area = {
+            every_area_province = {
+                set_owned_by = c:PES
+            }
+        }
+        add_country_modifier = {
+            name = elamite_crisis_solved
+            duration = -1
+        }
+    }
+}
+me_persis.27 = {
+    type = country_event
+
+    title = me_persis_27_title
+    desc = me_persis_27_desc
+    picture = steppe_cavalry_honor
+
+    option = {
+        name = me_persis_27.a
+        custom_tooltip = me_persis_27_tooltip
+        p:4978 = {
+            random_pops_in_province = {
+                set_pop_culture = uxian
+                set_pop_religion = elamite_pantheon
+            }
+            create_country = {
+                name = {
+                    name = UX1_name
+                    adjective = UX1_adj
+                }
+                set_country_religion = elamite_pantheon
+                set_primary_culture_cleanup_effect = {
+                    NEW_PRIMARY_CULTURE = uxian
+                    MAKE_OLD_CULTURE_INTEGRATED = yes
+                }
+                save_scope_as = uxian_satrap
+            }
+        }
+        make_subject = {
+            target = scope:uxian_satrap
+            type = satrapy
+        }
+        area:uxia_area = {
+            every_area_province = {
+                set_owned_by = scope:uxian_satrap
+            }
+        }
+        custom_tooltip = uxian_ambassadors_tt
+        hidden_effect = {
+            c:ELM = {
+                trigger_event = me_persis.271
+            }
+        }
+    }
+}
+me_persis.271 = {
+    type = country_event
+
+    title = me_persis_271_title
+    desc = me_persis_271_desc
+    picture = steppe_cavalry_honor
+
+    option = {
+        trigger = {
+            is_ai = yes
+        }
+        name = me_persis_271.a
+        random_list = {
+            33 = {
+                declare_war_with_wargoal = {
+                    war_goal = independence_wargoal
+                    province = p:4950
+                    target = c:PES
+                }
+            }
+            66 = {
+                area:anzan_area = {
+                    every_area_province = {
+                        set_owned_by = c:PES
+                    }
+                }
+                add_country_modifier = {
+                    name = elamite_crisis_solved
+                    duration = -1
+                }
+            }
+        }
+    }
+    option = {
+        name = me_persis_271.a
+        declare_war_with_wargoal = {
+            war_goal = independence_wargoal
+            province = p:4950
+            target = c:PES
+        }
+    }
+    option = {
+        name = me_persis_271.b
+        area:anzan_area = {
+            every_area_province = {
+                set_owned_by = c:PES
+            }
+        }
+        add_country_modifier = {
+            name = elamite_crisis_solved
+            duration = -1
+        }
+    }
+}

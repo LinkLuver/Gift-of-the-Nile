@@ -5,3 +5,14 @@
 	local_migration_attraction = 2
 	local_building_slot = 1
 }
+elamite_crisis_solved = {
+	loyalty_to_overlord = 50
+}
+abuse_of_imperial_power = {
+	governor_loyalty = -10
+	monthly_political_influence_modifier = -0.15
+}
+strength_of_shah = {
+	governor_loyalty = 5
+	monthly_political_influence_modifier = 0.05
+}
