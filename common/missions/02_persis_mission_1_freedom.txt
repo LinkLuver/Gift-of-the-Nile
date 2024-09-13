@@ -236,39 +236,47 @@
         highlight = {
             scope:province = {
                 OR = {
-                    this = p:975
-                    this = p:970
-                    this = p:940
-                    this = p:938
-                    this = p:935
-                    this = p:932
-                    this = p:930
-                    this = p:929
-                    this = p:960
+                    this = p:9692
+                    this = p:4973
+                    this = p:9632
+                    this = p:4975
+                    this = p:6954
+                    this = p:4982
+                    this = p:1595
                 }
             }
         }
         allow = {
-            treasury >= 150
-            owns_or_subject_owns_area = meshan_area
-            owns_or_subject_owns_area = susiana_area
-            owns_or_subject_owns_area = veh_kavad_area
-            owns_or_subject_owns_area = asoristan_area
+            treasury >= 250
+            owns_or_subject_owns_area = uxia_area
+            owns_or_subject_owns_area = aspadana_area
+            owns_or_subject_owns_area = goyman_area
+            owns_or_subject_owns_area = ecbatana_area
+            owns_or_subject_owns_area = media_choromithrene
         }
 
         on_completion = {
             trigger_event = me_persis.8       
             show_as_tooltip = {
-                p:946 = { add_road_towards = p:975 }
-                p:975 = { add_road_towards = p:970 }
-                p:970 = { add_road_towards = p:940 }
-                p:940 = { add_road_towards = p:938 }
-                p:938 = { add_road_towards = p:935 }
-                p:935 = { add_road_towards = p:932 }
-                p:932 = { add_road_towards = p:930 }
-                p:930 = { add_road_towards = p:929 }
-                p:929 = { add_road_towards = p:960 }
-                add_treasury = -150
+                p:9692 = { add_road_towards = p:4972 }
+                p:4972 = { add_road_towards = p:9691 }
+                p:9691 = { add_road_towards = p:9697 }
+                p:9697 = { add_road_towards = p:4973 }
+                p:4973 = { add_road_towards = p:4974 }
+                p:4974 = { add_road_towards = p:9632 }
+                p:9632 = { add_road_towards = p:9631 }
+                p:9631 = { add_road_towards = p:4976 }
+                p:4976 = { add_road_towards = p:9623 }
+                p:9623 = { add_road_towards = p:9625 }
+                p:9625 = { add_road_towards = p:4975 }
+                p:4975 = { add_road_towards = p:4983 }
+                p:4983 = { add_road_towards = p:6954 }
+                p:6954 = { add_road_towards = p:9615 }
+                p:9615 = { add_road_towards = p:6959 }
+                p:6959 = { add_road_towards = p:4982 }
+                p:4982 = { add_road_towards = p:9684 }
+                p:9684 = { add_road_towards = p:1595 }
+                add_treasury = -250
             }
         }
     }
