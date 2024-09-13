@@ -167,7 +167,7 @@
  me_persis_5_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_5$#!' has now been #G Completed#!!"
  
  me_persis_6_title:0 "$persis_mission_1_freedom_task_6$"
- me_persis_6_desc:0 "Our architects report to us that the work in [GetProvince('(int32)4781').GetName] is completed, and because we expanded the residential districts in the city, word is spreading that Anshan is the place to be these days. Thankfully, we are certain that there is room for everyone, thanks to the care demonstrated by [SCOPE.GetRootScope.GetCountry.GetRuler.GetName] when drawing up the designs with our engineers. We wonder how long these good times will last!"
+ me_persis_6_desc:0 "Our architects report to us that the work in [GetProvince('(int32)4950').GetName] is completed, and because we expanded the residential districts in the city, word is spreading that [GetProvince('(int32)4950').GetName] is the place to be these days. Thankfully, we are certain that there is room for everyone, thanks to the care demonstrated by [SCOPE.GetRootScope.GetCountry.GetRuler.GetName] when drawing up the designs with our engineers. We wonder how long these good times will last!"
  me_persis_6.a:0 "Tremendous news...one day we shall visit Anshan ourselves"
  me_persis_6_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_6$#!' has now been #G Completed#!!"
  
@@ -197,8 +197,8 @@
  me_persis_11_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_11$#!' has now been #G Completed#!!"
 
  me_persis_12_title:0 "$persis_mission_1_freedom_task_12$"
- me_persis_12_desc:0 ""
- me_persis_12.a:0 "We are not worried about our generals too much..."
+ me_persis_12_desc:0 "The conquest of #E Hagmatana#! is a feat not even #E Cyrus the Good#! nor #E Darius the Great#! could boast. Perhaps we have just survived the two centuries long war of attrition, but let no man nor woman underappreciate this impressive feat. The head of the #E Medes#! is cut off, now all is left is the body. Onwards, we will unite two kingdoms yet."
+ me_persis_12.a:0 "For Ahuramazda and all of Iran!"
  me_persis_12_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_12$#!' has now been #G Completed#!!"
  
  me_persis_13_title:0 "$persis_mission_1_freedom_task_13$"
@@ -217,9 +217,10 @@
  me_persis_15_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_15$#!' has now been #G Completed#!!"
  
  me_persis_16_title:0 "$persis_mission_1_freedom_task_16$"
- me_persis_16_desc:0 ""
- me_persis_16.a:0 ""
- 
+ me_persis_16_desc:0 "The Great Fire Temple in #E Hagmatana#! is one of the last major #E Mazdayasna#! constructions before the schism between #E Persians#! and #E Medians#!. It stands magnificantly in the #E Median#! capital, however, it has been a century of half-hazard maintenance. While repairing the temple, we were given the opportunity to expand it to another floor. All will marvel at the might Ahuramazda has granted our people, surely!"
+ me_persis_16.a:0 "One floor closer to the wise one."
+ me_persis_16_tooltip:0 "The mission task '#Y $persis_mission_1_freedom_task_16$#!' has now been #G Completed#!!"
+
  me_persis.160.t:0 "Demands of [GetCountry('PES').GetName]"
  me_persis.160.desc:0 "[GetCountry('PES').GetName] has requested we cede the province of [GetProvince('(int32)4780').GetName] to them. Some of our advisors say this would be wise to appease our subjects as it has been said they could rise up against our rule at any time."
  me_persis.160.desc2:0 "[GetCountry('PES').GetName] is demanding that we cede the entire area of [GetProvince('(int32)4780').GetArea.GetName]. Many say this would clearly show the world our weakness. But there are others who say this will only serve to strengthen our ties with [GetCountry('PES').GetName]."
