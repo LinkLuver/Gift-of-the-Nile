@@ -156,7 +156,7 @@
 	tribesmen={
 		amount=5
 	}
-	holy_site=omen_daniel
+	holy_site=omen_inshushinak
 }
 
 947={ #Madaktu
@@ -345,6 +345,7 @@
 	tribesmen={
 		amount=5
 	}
+	holy_site=omen_humban
 }
 
 969={ #Darak
@@ -721,6 +722,7 @@
 	tribesmen={
 		amount=2
 	}
+	holy_site=omen_kiririsha
 	port_building=1
 }
 
