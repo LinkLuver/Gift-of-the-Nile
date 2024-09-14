@@ -654,6 +654,10 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 
+	2319 = ( #arelate
+	    fortress_building = 1
+    } 	
+
 	2347 = { #avaricum
 		fortress_building = 1
 	}
@@ -722,7 +726,15 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 
-	#Isthmus of Corinth
+	1278 = { #orki
+		fortress_building = 1
+    }
+
+	3095 = { #portus magnus
+		fortress_building = 1
+	}
+
+    #Isthmus of Corinth
 	418 = { #Corinth
 		 modifier = { modifier = lesser_pass_modifier always = yes }
 	}

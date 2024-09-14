@@ -1452,12 +1452,16 @@
 3541={ #Agathum
 	terrain="forest"
 	culture="ligurian"
-	religion="italic_pantheon"
+	religion="roman_pantheon"
 	trade_goods="fish"
-	civilization_value=9
+	civilization_value=13
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		amount=1
+	}
+	citizen={
+		culture="massalian"
 		amount=1
 	}
 	freemen={
