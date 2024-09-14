@@ -5529,7 +5529,7 @@ country = {
 			government = democratic_republic
 			primary_culture = atlosian
 			religion = roman_pantheon
-			capital = 3092
+			capital = 3095
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -7131,11 +7131,10 @@ country = {
 		}
 
 		OXB = {
-			government = tribal_kingdom
+			government = oligarchic_republic
 			primary_culture = ligurian
-			religion = druidism
-			centralization=10
-
+			religion = roman_pantheon
+			
 			capital = 3541
 
 			own_control_core = 	{
@@ -10804,7 +10803,7 @@ country = {
 		PAP = {
 			government = despotic_monarchy
 			primary_culture = paphlagonian
-			religion = anatolian_religion
+			religion = hatti_religion
 
 			capital = 198
 

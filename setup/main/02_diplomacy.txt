@@ -137,15 +137,17 @@ diplomacy = {
 	dependency = { first = MAC second = AMK subject_type = tributary }
 	dependency = { first = MAC second = AKR subject_type = tributary }
 	#dependency = { first = MAC second = KOR subject_type = subject_league_city_state }
-	dependency = { first = MAC second = TRE subject_type = client_state }
 	dependency = { first = MAC second = ODR subject_type = tributary }
 
 	#Massalian League
 	dependency = { first = MAS second = MGO subject_type = feudatory }
+	dependency = { first = MAS second = OXB subject_type = feudatory }
 	dependency = { first = MAS second = SRB subject_type = tributary }
-	dependency = { first = MAS second = OXB subject_type = tributary }
 	dependency = { first = MAS second = SLV subject_type = tributary }
 	dependency = { first = MAS second = DCA subject_type = tributary }
+
+	#Emporion-Indiketia
+	dependency = { first = EPO second = IDK subject_type = tributary }
 
 	#Free Massalian States
 	defensive_league = {
