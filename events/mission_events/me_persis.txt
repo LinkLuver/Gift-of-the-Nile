@@ -570,6 +570,18 @@ me_persis.18 = { # Median Satraps
             }
             area:kadousioi_area = {
                 every_area_province = {
+                    limit = {
+                        NOR = {
+                            province_id = 4985
+                            province_id = 1630
+                            province_id = 9610
+                            province_id = 9606
+                            province_id = 9607
+                            province_id = 9608
+                            province_id = 4986
+                            province_id = 9609
+                        }
+                    }
                     set_owned_by = scope:media_atropatene_scope
                 }
             }
@@ -1230,5 +1242,24 @@ me_persis.271 = {
             name = elamite_crisis_solved
             duration = -1
         }
+    }
+}
+me_persis.28 = {
+    type = country_event
+
+    title = me_persis_28_title
+    desc = me_persis_28_desc
+    picture = tlc_cave_temple
+
+    option = {
+        name = me_persis_28.a
+    }
+    option = {
+        name = me_persis_28.b
+        set_variable = lands_of_revelation_var
+        change_country_name = IRAN_NAME
+        change_country_adjective = IRAN_ADJ
+        change_country_color = iran_green
+        change_country_flag = PES_2
     }
 }

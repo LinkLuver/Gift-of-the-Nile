@@ -1,0 +1,255 @@
+missions_iran_1 = {
+    header = "persia_mission"
+    icon = "persia_3"
+
+    repeatable = no
+    chance = 1000
+
+    potential = {
+        NOT = { has_variable = mission_cooldown_var }
+        tag = c:PES
+        trigger_if = {
+            limit = {
+                is_ai = yes
+            }
+            always = no
+        }
+    }
+
+    abort = {}
+    on_start = {
+        start_mission_ai_effect = yes
+    }
+    on_abort = {
+        custom_tooltip = general_mission_cooldown_tt
+        set_variable = {
+            name = mission_cooldown_var
+            days = 7300
+        }
+    }
+    on_completion = {}
+    missions_iran_1_task_1 = {
+        icon = "task_political"
+        allow = {
+            political_influence >= 100
+            stability >= 60
+        }
+        on_completion = {
+            trigger_event = me_iran.1
+            show_as_tooltip = {
+                custom_tooltip = annex_everyone_tt
+            }
+        }
+    }
+    missions_iran_1_task_2 = {
+        icon = "task_political"
+        highlight = {
+            scope:province = {
+                this = p:4985
+            }
+        }
+        requires = { missions_iran_1_task_1 }
+        allow = {
+            owns_or_subject_owns = p:4985
+            treasury >= 300
+            p:4985 = {
+                is_holy_site = no
+                dominant_province_religion = zoroaster
+            }
+            p:4985.state = {
+                state_improvement_religious_trigger = yes
+            }
+        }
+        on_completion = {
+            trigger_event = me_iran.2
+            show_as_tooltip = {
+                add_treasury = -300
+                p:4985 = {
+                    set_province_deity = deity:omen_thraetaona
+                }
+            }
+        }
+    }
+    missions_iran_1_task_3 = {
+        icon = "task_political"
+        requires = { missions_iran_1_task_1 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_iran.3
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    missions_iran_1_task_4 = {
+        icon = "task_political"
+        requires = { missions_iran_1_task_1 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_iran.4
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    missions_iran_1_task_5 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_iran.5
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    missions_iran_1_task_6 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_iran.6
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    missions_iran_1_task_7 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_iran.7
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    missions_iran_1_task_8 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_iran.8
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    missions_iran_1_task_9 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_iran.9
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    missions_iran_1_task_10 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_iran.10
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    missions_iran_1_task_11 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_iran.11
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    missions_iran_1_task_12 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_iran.12
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    missions_iran_1_task_13 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_iran.13
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    missions_iran_1_task_14 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_iran.14
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    missions_iran_1_task_15 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_iran.15
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    missions_iran_1_task_16 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_iran.16
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    missions_iran_1_task_17 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_iran.17
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    missions_iran_1_task_18 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_iran.18
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    missions_iran_1_task_19 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_iran.19
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    missions_iran_1_task_20 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_iran.20
+            show_as_tooltip = {
+
+            }
+        }
+    }
+}
