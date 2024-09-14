@@ -345,7 +345,6 @@
 	tribesmen={
 		amount=5
 	}
-	holy_site=omen_humban
 }
 
 969={ #Darak
@@ -774,6 +773,7 @@
 		religion="elamite_pantheon"
 		amount=6
 	}
+	holy_site=omen_humban
 }
 
 4953={ #Croatis

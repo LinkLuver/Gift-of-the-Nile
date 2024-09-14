@@ -1,0 +1,26 @@
+﻿"BAC"={
+	country="BAC"
+	154={
+		first_name="Saubhuti"
+		family = c:BAC.fam:Sophytid
+		birth_date=398.5.8
+		culture="bactrian"
+		religion="vaksh_religion"
+		no_stats=yes
+		add_martial=7
+		add_charisma=6
+		add_finesse=7
+		add_zeal=6
+		no_traits=yes
+		add_trait="ambitious"
+		add_trait="uncaring"
+		add_trait="crafty"
+		add_trait="good_natured"
+		add_gold=500
+		add_popularity=60
+		c:BAC={
+			set_as_ruler=char:154
+		}
+		dna="EfgR+GuboH/ykvKSAokCiQJuAm4CkAKQAmYCZgKQApACeAJ4A6cDpwJ/An8CcAJwAnQCdAJrAmsCbQJtBNcE1wJmAmYCfQJ9AnsCewKNAo0CfgJ+AowCjAKEAoQDoAOgAnYCdgKYApgCjAKMAmcCZwKBAoECewJ7ApkCmQKVApUCkQKRAocChwFdAV0BTAFMAoQChAJ+An4CfwJ/ApMCkwJsAmwCbAJsAoUChQS0BLQCiAKIApcClwKWApYBYQFhAm4CbgKRApECcQJxAo4CjgKGAoYCjQKNAmkCaQJ0AnQChgKGAnQCdAIdAh0BdAF0ARIBEgD7APsAcgByAK0ArQDYANgBEwETAooCigBJAEkDZANkAR4BHgB/AH8AvgC+AEEAQQCeAJ4A2ADYAUMBQwBnAGcCywLLASIBIgB/AH8A+wD7AEEAQQBlAGUALgAuATQBNAFTAVMATwBPAG8AbwB6AHoBNAE0AWgBaAMoAygCdAJ0AH8AfwQrBCsQPgVwAPAA8Ai7BY8N/wJDAjICMgAAAAAAAAAAAAAAAA=="
+	}
+}

@@ -420,23 +420,26 @@
 	trade_goods="earthware"
 	civilization_value=24
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
-		amount=1
+		amount=5
+	}
+	citizen={
+		culture="lydian"
+		religion="anatolian_religion"
+		amount=5
 	}
 	freemen={
-		amount=2
+		amount=7
 	}
 	slaves={
-		amount=1
+		amount=8
 	}
 	tribesmen={
-		amount=1
+		amount=3
 	}
 }
 

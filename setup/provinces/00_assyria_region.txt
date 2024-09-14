@@ -252,15 +252,15 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
+		culture="qardu"
 		amount=1
 	}
 	citizen={
 		amount=7
 	}
 	citizen={
-		culture="hebrew"
-		religion="judaism"
+		culture="qardu"
+		religion="hurrian_pantheon"
 		amount=2
 	}
 	freemen={
@@ -268,7 +268,7 @@
 		amount=3
 	}
 	freemen={
-		amount=11
+		amount=5
 	}
 	freemen={
 		culture="qardu"
@@ -276,7 +276,7 @@
 		amount=3
 	}
 	slaves={
-		amount=10
+		amount=5
 	}
 	slaves={
 		culture="qardu"
@@ -573,26 +573,29 @@
 	trade_goods="dates"
 	civilization_value=31
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=5
+	}
 	citizen={
-		amount=2
+		amount=12
 	}
 	freemen={
 		religion="mesopotamian_religion"
-		amount=1
+		amount=7
 	}
 	freemen={
-		amount=1
+		amount=5
 	}
 	slaves={
 		religion="mesopotamian_religion"
-		amount=1
+		amount=5
 	}
 	slaves={
-		amount=2
+		amount=6
 	}
 	tribesmen={
-		amount=2
+		amount=6
 	}
 }
 
