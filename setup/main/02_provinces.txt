@@ -1296,7 +1296,9 @@ provinces = { #Any entry must contain a comment with city name.
 	2468 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Caleti
 	3086 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Siga
 	3344 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Egypt
-	3372 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Cyrenaica
+	3372 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Cyrenaica1
+	3360 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Cyrenaica2
+	3352 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Cyrenaica3
 	3546 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Liguria
 	3843 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Menapi
 	3898 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Varini

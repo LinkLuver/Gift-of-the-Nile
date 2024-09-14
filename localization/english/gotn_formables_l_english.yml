@@ -27,6 +27,10 @@
  form_babylon:0 "Chaldean Empire"
  form_babylon_desc:0 "#E Babylon#! was once the home to the greatest of powers. For a long time, we suffered under the foot of the #Y Neo-Assyrians#!, until we gloriously broke free. Now we have come to dominate the lands we once struggled with under the Neo-Assyrians. The dawn of #Y Neo-Babylon#! has come, otherwise called the #Y Chaldean Empire#!."
  BABYLON_NAME_true:0 "Chaldean Empire"
+ NINIVE_NAME:0 "Ninive"
+ NINIVE_ADJECTIVE:0 "Ninivean"
+ form_ninive: "Reform the Kingdom of Ninive"
+ form_ninive_desc: "The #Y Qardu#! once ruled #Y Nineveh#!. We must reconqer our city from the #Y Assyrians#!, and reclaim our heritage!"
 
  ## Italy Formables
  # Shikala
@@ -40,6 +44,11 @@
  IBERIA_ADJECTIVE2:0 "Spanian"
  form_spania:0 "Form Spania"
  form_spania_desc:0 "The #Y Ibero-Punic#! people of #Y Iberia#! call this land #Y Spania#!, and henceforth all shall know it as the great land of the #Y Spanians#!! From humble origins being the furthest of #Y Phoenecian#! coloniae, we now proclaim ourselves a proper powerhouse of this land, on the exact opposite side to that of our forefathers."
+ LEAGUE_NAME:0 "League of The Pillars"
+ LEAGUE_NAME:0 "Pillarian"
+ form_league:0 "Form the League of The Pillars"
+ form_league_desc:0 "The wealthy cities centered around the #Y 'Pillars of Hercules'#! could become rich beyond comparison, if they can be united. These cities could surely surpass the grandeur of the great cities of the East."
+ 
 
  ## Greek Formables
  formable_eteocrete:0 "Minoa"

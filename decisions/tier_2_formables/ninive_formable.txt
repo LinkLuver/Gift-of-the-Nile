@@ -1,0 +1,53 @@
+country_decisions = {
+	form_ninive = {
+		potential = {
+			num_of_cities >= 1
+			OR = {
+				tag = KDR
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+				has_variable = has_formed_ninive
+			}
+		}
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 862 #Nineveh
+				}
+			}
+		}
+		allow = {
+			owns = 852 #Nineveh
+			
+		}
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "NINIVE_NAME"
+			tribal_formable_government_change_effect = yes
+			capital_scope = {
+				capital_formable_small_effect = yes
+			}
+			add_2_free_province_investments = yes
+			hidden_effect = {
+				change_country_adjective = "NINIVE_FORMABLE_ADJECTIVE"
+				change_country_tag = NIN
+				change_country_color = ariarathid_color
+				hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+				   		 	is_in_region = assyria_region
+				    		
+						}
+
+					}
+					add_claim = root
+					}
+					set_variable = has_formed_ninive
+				}
+			}
+		}
+	}	
+}	
