@@ -20,6 +20,11 @@
 		religion="shamanism"
 		amount=3
 	}
+	freemen={
+		culture="dumarian"
+		religion="druidism"
+		amount=1
+	}
 	holy_site=omen_hephaestus
 	port_building=1
 }
@@ -62,6 +67,11 @@
 	freemen={
 		amount=2
 	}
+	freemen={
+		culture="dumarian"
+		religion="druidism"
+		amount=1
+	}
 	slaves={
 		amount=2
 	}
@@ -70,8 +80,8 @@
 
 342={ #Salmydessos
 	terrain="forest"
-	culture="odrysi"
-	religion="roman_pantheon"
+	culture="dumarian"
+	religion="druidism"
 	trade_goods="fish"
 	civilization_value=24
 	barbarian_power=0
@@ -107,9 +117,11 @@
 		amount=2
 	}
 	slaves={
+		culture="scythian"
 		amount=1
 	}
 	tribesmen={
+		culture="scythian"
 		religion="shamanism"
 		amount=2
 	}
@@ -181,19 +193,24 @@
 	slaves={
 		amount=8
 	}
+	freemen={
+		culture="dumarian"
+		religion="druidism"
+		amount=1
+	}
 	port_building=1
 }
 
 348={ #Bergula
 	terrain="forest"
-	culture="thracian"
-	religion="roman_pantheon"
+	culture="dumarian"
+	religion="druidism"
 	trade_goods="wine"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="macedonian"
+		culture="odrysi"
 		amount=1
 	}
 	citizen={
@@ -203,6 +220,7 @@
 		amount=10
 	}
 	slaves={
+		culture="thracian"
 		amount=3
 	}
 	tribesmen={
@@ -261,6 +279,11 @@
 	freemen={
 		amount=24
 	}
+	freemen={
+		culture="dumarian"
+		religion="druidism"
+		amount=4
+	}
 	slaves={
 		amount=17
 	}
@@ -314,6 +337,8 @@
 		amount=1
 	}
 	slaves={
+		culture="scythian"
+		religion="indo_iranian_religion"
 		amount=2
 	}
 }
@@ -362,6 +387,8 @@
 		amount=2
 	}
 	freemen={
+		culture="scythian"
+		religion="indo_iranian_religion"
 		amount=2
 	}
 	tribesmen={
@@ -413,6 +440,11 @@
 	freemen={
 		amount=7
 	}
+	freemen={
+		culture="dumarian"
+		religion="druidism"
+		amount=2
+	}
 	slaves={
 		amount=6
 	}
@@ -448,8 +480,8 @@
 
 479={ #Kabyle
 	terrain="hills"
-	culture="macedonian"
-	religion="roman_pantheon"
+	culture="tylian"
+	religion="druidism"
 	trade_goods="honey"
 	civilization_value=18
 	barbarian_power=0
@@ -527,6 +559,11 @@
 	tribesmen={
 		culture="moesi"
 		religion="shamanism"
+		amount=1
+	}
+	freemen={
+		culture="dumarian"
+		religion="druidism"
 		amount=1
 	}
 	port_building=1
@@ -676,6 +713,7 @@
 		amount=1
 	}
 	freemen={
+		culture="scythian"
 		amount=2
 	}
 	slaves={
@@ -873,6 +911,11 @@
 		culture="bithynian"
 		amount=2
 	}
+	freemen={
+		culture="dumarian"
+		religion="druidism"
+		amount=1
+	}
 	port_building=1
 }
 
@@ -915,6 +958,7 @@
 		amount=2
 	}
 	slaves={
+		culture="scythian"
 		amount=3
 	}
 }
@@ -991,6 +1035,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
+		culture="scythian"
 		amount=1
 	}
 }

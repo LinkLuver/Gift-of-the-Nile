@@ -7,13 +7,15 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		culture="aistian"
+		religion="druidism"
+		amount=5
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
@@ -26,7 +28,14 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
+		culture="aistian"
+		religion="druidism"
 		amount=7
+	}
+	freemen={
+		culture="dumarian"
+		religion="druidism"
+		amount=1
 	}
 	freemen={
 		amount=4
@@ -49,6 +58,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="aistian"
+		religion="druidism"
 		amount=2
 	}
 	freemen={
@@ -57,13 +68,17 @@
 		amount=1
 	}
 	freemen={
+		culture="aistian"
+		religion="druidism"
 		amount=1
 	}
 	slaves={
+		culture="aistian"
+		religion="druidism"
 		amount=1
 	}
 	tribesmen={
-		amount=1
+		amount=4
 	}
 }
 
@@ -126,6 +141,11 @@
 	freemen={
 		religion="mithra_religion"
 		amount=4
+	}
+	freemen={
+		culture="dumarian"
+		religion="druidism"
+		amount=1
 	}
 	slaves={
 		amount=4
@@ -664,6 +684,11 @@
 	}
 	slaves={
 		amount=2
+	}
+	freemen={
+		culture="dumarian"
+		religion="druidism"
+		amount=1
 	}
 	tribesmen={
 		culture="cappadocian"

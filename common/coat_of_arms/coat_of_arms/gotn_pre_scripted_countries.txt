@@ -733,3 +733,20 @@ PES_3 = {
 		color2 = rgb { 0 156 255 }
 	}
 }
+TYL = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 104 17 65 }
+	color2 = rgb { 104 17 65 }
+
+	colored_emblem = {
+		texture = "ce_pictenia_pattern.dds"
+		color1 = rgb { 104 54 81 }
+		color2 = rgb { 104 54 81 }
+		instance = { rotation = 90 }
+	}
+	colored_emblem = {
+		texture = "ce_janus_tylis_a.dds"
+		color1 = "pitch_black"
+		color2 = "iberian_sun"
+	}
+}

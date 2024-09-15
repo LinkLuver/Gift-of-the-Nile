@@ -2748,9 +2748,23 @@ country = {
 			}
 
 		}
+
+		MOE = {
+            government = tribal_kingdom
+            primary_culture = scythian
+            religion = shamanism
+            capital = 4246
+            own_control_core =  {
+                4238
+                4239 4240 4241 4242 4243
+                4246 4351 4253 4252 4256
+                4257 4512 4515 4514 4518
+                4517 4518 4520
+            }
+        }
 		
 		TYL = {
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = tylian
 			diplomatic_stance=warmongering_stance
 			religion = druidism
@@ -2758,9 +2772,8 @@ country = {
 			capital = 4244
 
 			own_control_core = 	{
-				4258 4247 4307 479 4244 4259 4245
+				4258 4247 4307 479 4244 4259 4245 4251
 			}
-
 		}
 		
 		TH1 = {
@@ -9089,6 +9102,43 @@ country = {
 
 			own_control_core = 	{
 				4227 4226 4224 4223 4217 4220 4221 4222 4115 4116 4230 4228 4225 4232 4229 4233 4231
+				4235 4234 4236 4237
+			}
+		}
+
+		BRL = {
+			government = plutocratic_monarchy
+			primary_culture = dumarian
+			religion = druidism
+
+			capital = 348
+
+			own_control_core = 	{
+				348 342
+			}
+		}
+
+		GLP = {
+			government = plutocratic_republic
+			primary_culture = dumarian
+			religion = druidism
+
+			capital = 1809
+
+			own_control_core = 	{
+				1809
+			}
+		}
+
+		IDI = {
+			government = tribal_chiefdom
+			primary_culture = aistian
+			religion = druidism
+
+			capital = 1730
+
+			own_control_core = 	{
+				1730 1729 1731
 			}
 		}
 
@@ -10866,8 +10916,7 @@ country = {
 
 			own_control_core = 	{
 				1789 1790 1833 1834 1838 1839 1840 1845 1846 #pontus_colopene_region
-				1791 1792 1804 1819 1821 1822 1823 1824 1826 1831 1837 #pontus_region
-				1809
+				1791 1792 1819 1821 1822 1823 1824 1826 1831 1837 #pontus_region
 				1786 1787 1793 1801 1806 7994 7998 7999
 			}
 		}
@@ -11100,7 +11149,7 @@ country = {
 				1706 1737 1711 1714 1715 1717 1735 #colchis_region
 				1705 1707 1746 1748 #suaneti_region
 				1739 1740 #abasgoi_region
-				1722 1723 1724 1725 1726 1727 1729 1730 1731 #bekhyria_region
+				1722 1723 1724 1725 1726 1727 #bekhyria_region
 			}
 
 		}

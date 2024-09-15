@@ -174,6 +174,11 @@
 		amount=1
 	}
 	freemen={
+		culture="dumarian"
+		religion="druidism"
+		amount=1
+	}
+	freemen={
 		culture="mariandynian"
 		amount=1
 	}
@@ -203,6 +208,11 @@
 	}
 	slaves={
 		amount=2
+	}
+	freemen={
+		culture="dumarian"
+		religion="druidism"
+		amount=1
 	}
 	slaves={
 		culture="paphlagonian"
@@ -639,6 +649,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		culture="dumarian"
+		religion="druidism"
 		amount=1
 	}
 	citizen={
@@ -656,6 +668,8 @@
 		amount=1
 	}
 	tribesmen={
+		culture="dumarian"
+		religion="druidism"
 		amount=2
 	}
 	tribesmen={
@@ -1450,26 +1464,44 @@
 
 1809={ #Gadilon
 	terrain="forest"
-	culture="cappadocian"
-	religion="roman_pantheon"
+	culture="dumarian"
+	religion="druidism"
 	trade_goods="wine"
 	civilization_value=9
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
+		amount=5
+	}
+	citizen={
+		culture="cappadocian"
 		amount=1
 	}
 	freemen={
+		culture="cappadocian"
 		amount=2
 	}
 	freemen={
 		culture="greco_pontic"
 		amount=1
 	}
+	freemen={
+		amount=8
+	}
+	freemen={
+		culture="dumarian"
+		religion="druidism"
+		amount=1
+	}
 	slaves={
+		culture="cappadocian"
 		amount=1
 	}
 	tribesmen={
+		culture="cappadocian"
 		religion="anatolian_religion"
 		amount=2
 	}
@@ -1478,6 +1510,10 @@
 		religion="anatolian_religion"
 		amount=1
 	}
+	tribesmen={
+		amount=3
+	}
+	port_building=1
 }
 
 1810={ #Zaliches
@@ -1537,6 +1573,11 @@
 	freemen={
 		culture="paphlagonian"
 		religion="anatolian_religion"
+		amount=1
+	}
+	freemen={
+		culture="dumarian"
+		religion="druidism"
 		amount=1
 	}
 	slaves={
@@ -1599,8 +1640,8 @@
 
 1815={ #Abonouteichos
 	terrain="hills"
-	culture="cappadocian"
-	religion="roman_pantheon"
+	culture="dumarian"
+	religion="druidism"
 	trade_goods="cloth"
 	civilization_value=18
 	barbarian_power=0
@@ -1613,6 +1654,11 @@
 		amount=2
 	}
 	slaves={
+		amount=1
+	}
+	freemen={
+		culture="dumarian"
+		religion="druidism"
 		amount=1
 	}
 	tribesmen={
@@ -1629,8 +1675,8 @@
 
 1816={ #Karambis
 	terrain="hills"
-	culture="cappadocian"
-	religion="roman_pantheon"
+	culture="dumarian"
+	religion="druidism"
 	trade_goods="fish"
 	civilization_value=18
 	barbarian_power=0
