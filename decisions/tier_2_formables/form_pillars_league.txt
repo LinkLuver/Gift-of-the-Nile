@@ -1,0 +1,79 @@
+country_decisions = {
+	form_league = {
+		potential = {
+			num_of_cities >= 1
+			OR = {
+				tag = GAE
+                tag = GAD
+                tag = ABA
+				tag = CIP
+				tag = CPA
+				tag = KUS
+				tag = LIX
+				tag = ASA
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+				has_variable = has_formed_league
+			}
+		}
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 3061 #Tingis
+					province_id = 1347 #Baelo
+					province_id = 3064 #Arzeila
+					province_id = 3062 #Lixus
+					province_id = 1342 #Hastaia
+					province_id = 1344 #Gades
+					province_id = 1346 #Lascutaia
+					province_id = 1348 #Carteia
+					province_id = 1350 #Lacippo
+					province_id = 1362 #Malaca
+					province_id = 1278 #PortosMagnos
+				}
+			}
+		}
+		allow = {
+			owns_or_subject_owns = 3061 #Tingis
+			owns_or_subject_owns = 1347 #Baelo
+			owns_or_subject_owns = 3064 #Arzeila
+			owns_or_subject_owns = 3062 #Lixus
+			owns_or_subject_owns = 1342 #Hastaia
+			owns_or_subject_owns = 1344 #Gades
+			owns_or_subject_owns = 1346 #Lascutaia
+			owns_or_subject_owns = 1348 #Carteia
+			owns_or_subject_owns = 1350 #Lacippo
+			owns_or_subject_owns = 1362 #Malaca
+			owns_or_subject_owns = 1278 #PortosMagnos
+		}
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "LEAGUE_NAME"
+			tribal_formable_government_change_effect = yes
+			add_3_free_province_investments = yes
+			capital_scope = {
+				capital_formable_small_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "LEAGUE_FORMABLE_ADJECTIVE"
+				change_country_tag = LOP
+				change_country_color = achaemenid_purple
+				hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+				   		 	is_in_region = mauretainia_region
+				    		is_in_region = baetica_region
+						}
+
+					}
+					add_claim = root
+					}
+					set_variable = has_formed_league
+				}
+			}
+		}
+	}	
+}	

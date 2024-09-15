@@ -1400,8 +1400,21 @@ country = {
 			religious_tech= { level=2 progress=0  }
 			}
 
+			poptype_rights = {
+				{
+					culture = babylonian
+					type = citizen
+				}
+			}
 			own_control_core = 	{
 				9486 
+			}
+			
+			pantheon = {
+				{ deity = 101 }
+				{ deity = 751 }
+				{ deity = 111 }
+				{ deity = 754 }
 			}
 		}
 
@@ -1531,7 +1544,7 @@ country = {
 		}
 
 		ISU = { # Isauria
-			government = tribal_kingdom
+			government = tribal_federation
 			primary_culture = isaurian
 			religion = anatolian_religion
 
@@ -1625,15 +1638,22 @@ country = {
 		}
 
 		KDR = {
-			government = tribal_federation
+			government = despotic_monarchy
 			primary_culture = qardu
-			religion = hurrian_pantheon
+			religion = ashur_religion
 
 			technology={
 				military_tech={ level=1 progress=0 }
 				civic_tech={ level=1 progress=0 }
 				oratory_tech={ level=1 progress=0 }
 				religious_tech= { level=1 progress=0  }
+			}
+
+			poptype_rights = {
+				{
+					culture = assyrian
+					type = citizen
+				}
 			}
 
 			capital = 9500
