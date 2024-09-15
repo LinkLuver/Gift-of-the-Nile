@@ -202,7 +202,11 @@
  letobician:0 "Letobician"
  celtic_pannonian:1 "Scordiscian"
  eravisci:0 "Eraviscian"
- galatian:0 "Galatian"
+ #Galatian
+ galatian:0 "Katosian"
+ tylian:0 "Tylian"
+ dumarian:0 "Dumarian"
+ aistian:0 "Aistian"
  #Germanic
  saxonian:0 "Saxonian"
  anglian:0 "Anglian"
