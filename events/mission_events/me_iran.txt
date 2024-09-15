@@ -235,7 +235,10 @@ me_iran.17 = {
     option = {
         name = "me_iran_17.a"
         custom_tooltip = me_iran_17_tooltip
-
+        change_country_name = "Airyanem_Vaejah"
+        change_country_adjective = "Airyanem_Vaejah_ADJ"
+        change_country_color = airyanem_blue
+        change_country_flag = PES_3
     }
 }
 me_iran.18 = {

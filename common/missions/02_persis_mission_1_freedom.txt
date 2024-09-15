@@ -31,6 +31,7 @@
 
     on_completion = {
 		complete_mission_effect = yes
+        trigger_event = me_persis.28
 	}
 
     persis_mission_1_freedom_task_1 = { #Restore Persepolis
@@ -641,7 +642,6 @@
     }
     persis_mission_1_freedom_task_20 = { #Reunite with Media
         icon = "task_heracles"
-        final = yes
         requires = { persis_mission_1_freedom_task_12 persis_mission_1_freedom_task_21 }
         highlight = {
             scope:province = {
@@ -743,6 +743,7 @@
                 }
             }
         }
+        final = yes
     }
     persis_mission_1_freedom_task_24 = { # The Elamite Question
         icon = "task_religion"

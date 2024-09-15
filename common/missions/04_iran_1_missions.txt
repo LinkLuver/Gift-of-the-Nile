@@ -7,13 +7,7 @@ missions_iran_1 = {
 
     potential = {
         NOT = { has_variable = mission_cooldown_var }
-        tag = c:PES
-        trigger_if = {
-            limit = {
-                is_ai = yes
-            }
-            always = no
-        }
+        has_variable = lands_of_revelation_var
     }
 
     abort = {}
@@ -37,6 +31,7 @@ missions_iran_1 = {
         on_completion = {
             trigger_event = me_iran.1
             show_as_tooltip = {
+                add_political_influence = -100
                 custom_tooltip = annex_everyone_tt
             }
         }
@@ -55,6 +50,7 @@ missions_iran_1 = {
             p:4985 = {
                 is_holy_site = no
                 dominant_province_religion = zoroaster
+                total_population >= 35
             }
             p:4985.state = {
                 state_improvement_religious_trigger = yes
@@ -72,8 +68,20 @@ missions_iran_1 = {
     }
     missions_iran_1_task_3 = {
         icon = "task_political"
+        highlight = {
+            scope:province = {
+                this = p:4991
+            }
+        }
         requires = { missions_iran_1_task_1 }
-        allow = {}
+        allow = {
+            p:4991 = {
+                has_building = temple_building
+                has_building = military_building
+                has_building = court_building
+                total_population >= 35
+            }
+        }
         on_completion = {
             trigger_event = me_iran.3
             show_as_tooltip = {
@@ -83,7 +91,12 @@ missions_iran_1 = {
     }
     missions_iran_1_task_4 = {
         icon = "task_political"
-        requires = { missions_iran_1_task_1 }
+        requires = { missions_iran_1_task_18 }
+        highlight = {
+            scope:province = {
+                is_in_area = transoxus_area
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_iran.4
@@ -94,6 +107,12 @@ missions_iran_1 = {
     }
     missions_iran_1_task_5 = {
         icon = "task_political"
+        requires = { missions_iran_1_task_1 }
+        highlight = {
+            scope:province = {
+                this = p:3434
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_iran.5
@@ -104,6 +123,12 @@ missions_iran_1 = {
     }
     missions_iran_1_task_6 = {
         icon = "task_political"
+        requires = { missions_iran_1_task_18 }
+        highlight = {
+            scope:province = {
+                is_in_area = sogdiana_area
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_iran.6
@@ -114,6 +139,12 @@ missions_iran_1 = {
     }
     missions_iran_1_task_7 = {
         icon = "task_political"
+        requires = { missions_iran_1_task_18 }
+        highlight = {
+            scope:province = {
+                this = p:9241
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_iran.7
@@ -124,6 +155,12 @@ missions_iran_1 = {
     }
     missions_iran_1_task_8 = {
         icon = "task_political"
+        requires = { missions_iran_1_task_18 }
+        highlight = {
+            scope:province = {
+                this = p:6668
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_iran.8
@@ -134,6 +171,12 @@ missions_iran_1 = {
     }
     missions_iran_1_task_9 = {
         icon = "task_political"
+        requires = { missions_iran_1_task_18 }
+        highlight = {
+            scope:province = {
+                this = p:6558
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_iran.9
@@ -144,6 +187,12 @@ missions_iran_1 = {
     }
     missions_iran_1_task_10 = {
         icon = "task_political"
+        requires = { missions_iran_1_task_18 }
+        highlight = {
+            scope:province = {
+                this = p:6678
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_iran.10
@@ -154,6 +203,12 @@ missions_iran_1 = {
     }
     missions_iran_1_task_11 = {
         icon = "task_political"
+        requires = { missions_iran_1_task_19 }
+        highlight = {
+            scope:province = {
+                is_in_area = pactya_area
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_iran.11
@@ -164,6 +219,12 @@ missions_iran_1 = {
     }
     missions_iran_1_task_12 = {
         icon = "task_political"
+        requires = { missions_iran_1_task_19 }
+        highlight = {
+            scope:province = {
+                is_in_area = arachosia_area
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_iran.12
@@ -174,6 +235,12 @@ missions_iran_1 = {
     }
     missions_iran_1_task_13 = {
         icon = "task_political"
+        requires = { missions_iran_1_task_19 }
+        highlight = {
+            scope:province = {
+                this = p:6648
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_iran.13
@@ -184,6 +251,26 @@ missions_iran_1 = {
     }
     missions_iran_1_task_14 = {
         icon = "task_political"
+        requires = { missions_iran_1_task_19 }
+        highlight = {
+            scope:province = {
+                OR = {
+                    AND = {
+                        is_in_area = bamyan_area
+                        NOR = {
+                            province_id = 6614
+                            province_id = 6638
+                            province_id = 6628
+                            province_id = 6631
+                            province_id = 6642
+                            province_id = 6644
+                            province_id = 6643
+                        }
+                    }
+                    is_in_area = sattagydia_area
+                }
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_iran.14
@@ -194,6 +281,15 @@ missions_iran_1 = {
     }
     missions_iran_1_task_15 = {
         icon = "task_political"
+        requires = { missions_iran_1_task_19 }
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_region = gandhara_region
+                    is_in_region = panchab_region
+                }
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_iran.15
@@ -204,6 +300,12 @@ missions_iran_1 = {
     }
     missions_iran_1_task_16 = {
         icon = "task_political"
+        requires = { missions_iran_1_task_19 }
+        highlight = {
+            scope:province = {
+                this = p:6639
+            }
+        }
         allow = {}
         on_completion = {
             trigger_event = me_iran.16
@@ -214,7 +316,15 @@ missions_iran_1 = {
     }
     missions_iran_1_task_17 = {
         icon = "task_political"
-        allow = {}
+        requires = { missions_iran_1_task_11 missions_iran_1_task_12 missions_iran_1_task_13 missions_iran_1_task_14 missions_iran_1_task_15 missions_iran_1_task_16 }
+        highlight = {
+            scope:province = {
+                is_in_area = aria_area
+            }
+        }
+        allow = {
+
+        }
         on_completion = {
             trigger_event = me_iran.17
             show_as_tooltip = {
@@ -224,32 +334,53 @@ missions_iran_1 = {
     }
     missions_iran_1_task_18 = {
         icon = "task_political"
-        allow = {}
+        requires = { missions_iran_1_task_2 missions_iran_1_task_3 missions_iran_1_task_5 }
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_region = bactriana_region
+                    is_in_region = sakia_region
+                    is_in_region = parthia_region
+                }
+            }
+        }
+        allow = {
+            political_influence >= 50
+            treasury >= 300
+        }
         on_completion = {
             trigger_event = me_iran.18
             show_as_tooltip = {
-
+                add_political_influence = -50
+                add_treasury = -300
+                custom_tooltip = claims_bactria_persia_tt
             }
         }
     }
     missions_iran_1_task_19 = {
         icon = "task_political"
-        allow = {}
+        requires = { missions_iran_1_task_4 missions_iran_1_task_6 missions_iran_1_task_7 missions_iran_1_task_8 missions_iran_1_task_9 missions_iran_1_task_10 }
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_region = gandhara_region
+                    is_in_region = ariana_region
+                    is_in_region = panchab_region
+                }
+            }
+        }
+        allow = {
+            political_influence >= 50
+            treasury >= 300
+        }
         on_completion = {
             trigger_event = me_iran.19
             show_as_tooltip = {
-
+                add_political_influence = -50
+                add_treasury = -300
+                custom_tooltip = claims_india_persia_tt
             }
         }
-    }
-    missions_iran_1_task_20 = {
-        icon = "task_political"
-        allow = {}
-        on_completion = {
-            trigger_event = me_iran.20
-            show_as_tooltip = {
-
-            }
-        }
+        final = yes
     }
 }
