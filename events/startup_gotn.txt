@@ -228,24 +228,16 @@ gotn_events.8 = {
     trigger = {
         is_ai = no
         OR = {
-            tag = GAE
-            tag = GAD
-            tag = CPA
-            tag = CIP
-            tag = CTU
-            tag = BAI
-            tag = ASA 
-            tag = TRP
-            tag = LP1
-            tag = SP1
-            tag = LP2
-            tag = AGG
-          }
-        capital_scope = {  
+           primary_culture = carthaginian
+           primary_culture = ibero_punic
+           primary_culture = atlosian
+        }
+        OR = { capital_scope = {  
             OR = {
                 is_in_region = africa_region
                 is_in_region = numidia_region
                 is_in_region = mauretainia_region
+                
             }
         }
     }
