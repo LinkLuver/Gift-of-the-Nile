@@ -85,10 +85,7 @@ diplomacy = {
 		member = KRK
 		member = APO
 	}
-	dependency = { first = ATH second = ABD subject_type = subject_league_city_state }
-	dependency = { first = ATH second = AEN subject_type = subject_league_city_state }
-	dependency = { first = ATH second = CRD subject_type = subject_league_city_state }
-
+	
 	#Neo-Peloponnesan League
 	defensive_league = {
 		member = SPA
@@ -130,14 +127,20 @@ diplomacy = {
 		member = AET
 		member = LAM
 	}
-	dependency = { first = MAC second = KOR subject_type = subject_league_city_state }
+	dependency = { first = MAC second = PTI subject_type = client_state }
+	dependency = { first = MAC second = ABD subject_type = subject_league_city_state }
+	dependency = { first = MAC second = AEN subject_type = subject_league_city_state }
 	dependency = { first = MAC second = PAA subject_type = vassal_tribe }
 	dependency = { first = MAC second = MAD subject_type = vassal_tribe }
-	dependency = { first = MAC second = ORE subject_type = feudatory }
-	dependency = { first = MAC second = AMK subject_type = tributary }
+	dependency = { first = MAC second = TH1 subject_type = vassal_tribe }
+    dependency = { first = MAC second = TH2 subject_type = vassal_tribe }
+    dependency = { first = MAC second = TH3 subject_type = vassal_tribe }
+    dependency = { first = MAC second = TH4 subject_type = vassal_tribe }
+    dependency = { first = MAC second = AMK subject_type = tributary }
 	dependency = { first = MAC second = AKR subject_type = tributary }
-	#dependency = { first = MAC second = KOR subject_type = subject_league_city_state }
-	dependency = { first = MAC second = ODR subject_type = tributary }
+
+	#Macedonian-Thessalian Alliance
+	alliance = { first = TRE second = MAC }
 
 	#Massalian League
 	dependency = { first = MAS second = MGO subject_type = feudatory }
@@ -148,6 +151,11 @@ diplomacy = {
 
 	#Emporion-Indiketia
 	dependency = { first = EPO second = IDK subject_type = tributary }
+
+	#Thessalian Subjects
+    dependency = { first = TRE second = PHO subject_type = feudatory }
+    dependency = { first = TRE second = ORE subject_type = feudatory }
+    dependency = { first = TRE second = LAM subject_type = feudatory }
 
 	#Free Massalian States
 	defensive_league = {

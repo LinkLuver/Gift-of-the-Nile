@@ -266,18 +266,17 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="macedonian"
-		amount=4
+		amount=3
 	}
 	citizen={
 		culture="macedonian"
 		amount=3
 	}
 	citizen={
-		amount=3
+		amount=2
 	}
 	freemen={
-		amount=24
+		amount=5
 	}
 	freemen={
 		culture="dumarian"
@@ -285,7 +284,7 @@
 		amount=4
 	}
 	slaves={
-		amount=17
+		amount=5
 	}
 	tribesmen={
 		culture="odrysi"
@@ -350,25 +349,29 @@
 	trade_goods="wine"
 	civilization_value=28
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
+	province_rank="city"
+	nobles={
 		amount=1
+	}
+	citizen={
+		amount=2
 	}
 	freemen={
 		culture="macedonian"
 		amount=2
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		culture="odrysi"
 		religion="shamanism"
 		amount=1
 	}
+	port_building=1
 }
 
 357={ #Maroneia
@@ -431,14 +434,13 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="macedonian"
-		amount=4
+		amount=3
 	}
 	citizen={
 		amount=3
 	}
 	freemen={
-		amount=7
+		amount=5
 	}
 	freemen={
 		culture="dumarian"
@@ -446,12 +448,12 @@
 		amount=2
 	}
 	slaves={
-		amount=6
+		amount=4
 	}
 	tribesmen={
 		culture="odrysi"
 		religion="shamanism"
-		amount=5
+		amount=4
 	}
 	port_building=1
 }

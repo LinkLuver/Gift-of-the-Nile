@@ -12,8 +12,11 @@
  napata_heritage_desc:0 "The city of Napata was the great city that would facilitate a period of Egyptian revivalism during the 25th Dynasty, or the Nubian Dynasty, of Egypt. However, Napata now is a former shell of its greatness, with Meroe and Kerma threatening her hegemony, the Napatan Kingdom will need to fight to survive, and only then will it thrive."
  cassanders_heritage:0 "Heritage of Alexander The Wise"
  cassanders_heritage_desc:0 "Under his father Phillip II, Macedon was united, but upon his untimely death, he left Macedon vulnerable against the tribes to their north, and the mighty Odrysian Kingdom to their east. Alexander, at the age of 17, ascended the throne of Macedon, and led a campaign against the tribal kingdoms. After subjugating the Paeonians and the Odrysians, Alexander The Wise turned his ambitions inward. Building up Macedon's economic and military strenght, Macedon is surely the most powerful greek state. Macedon has seen a flourishing in all fields of philosophical enquiry as many of the best minds of the Greek states take up the offer of royal commission. Still struggling to be seen on the same level as the other Greeks, Alexander's dreams of a Pan-Hellenic state have gone unfulfilled thus far." 
- 
 
+ cyrenaican_heritage:0 "Cyrenaican Heritage"
+ cyrenaican_heritage_desc:0 "The Greek colony of Cyrene was established by settlers fleeing a famine on the island of Thera. They successfully integrated the native inhabitants and established the famed Pentapolis, or five cities, now a byword for the entire region. After being taken over by the Dread Pirate Ptolemy, and his First Mate Antigonus, Cyrenaica has become the hub of piracy in the Mediterranean, much to the ire of the Lydians."
+ 
+ 
  seleucus_heritage:0 "Heritage of Babylon"
  seleucus_heritage_desc:0 "The city of Babylon is arguably the greatest of the ancient world, and it remains great in this new era. The current Kingdom of Babylonia resides over the entirety of lower Mesopotamia. Although they remain in a diplomatically difficult area with little room for easy expansion, the ancient cities of the Tigris and Euphrates provide it with a formiddable powerbase regardless."
  atropatenian_heritage:0 "Median Heritage"
@@ -77,8 +80,6 @@
  helot_heritage_desc:0 "When the Spartans were defeated by Epaminondas of Thebes, he founded the city of Messene and gave it to the Helots. We have always been the main population group in both Laconia and Messenia, but for centuries we were slaves under Sparta. As a free nation we can finally benefit from our own hard work. As a free nation we must also never forget that we were once slaves under Sparta, and forcefully be on our guard against those who would enslave us once again."
  heraclea_pontican_heritage:0 "Heraclean Heritage"
  heraclea_pontican_heritage_desc:0 "The people of Heraclea Pontica are descendants of the people of Megara, settled along the Bithynian coast and named for Herakles who had traveled into the realm of Hades nearby. Once a colony itself, it settled many cities along the Black Sea."
- cyrenaican_heritage:0 "Cyrenaican Heritage"
- cyrenaican_heritage_desc:0 "The Greek colony of Cyrene was established by settlers fleeing a famine on the island of Thera. They successfully integrated the native inhabitants and established the famed Pentapolis, or five cities, now a byword for the entire region. A center of trade and learning, Cyrenaica holds a unique position if they can maintain independence from their powerful neighbors."
  ionian_heritage:0 "Ionian Heritage"
  ionian_heritage_desc:0 "The birthplace of many of the most influential philosophers of the Hellenic world, the mindset of the Ionians is inherently inquisitive and dismissive of religious superstitions."
  aeolian_heritage:0 "Aeolian Heritage"
@@ -128,8 +129,8 @@
  late_scythian_heritage:0 "Late Scythian Heritage"
  late_scythian_heritage_desc:0 "After the last great king of the Scythians, Ateas, fell in battle against Philipp II of Macedon, their empire crumbled and their Golden Age ended. While they still remembered their nomadic heritage, they had begun to settle around the Crimea and started intermixing with the local Greek colonists."
  ###THRACE
- odrysian_heritage:0 "Odrysian Heritage"
- odrysian_heritage_desc:0 "After being conquered by Alexander, the Odrysian Kingom has existed in a decaying state for some time. The Odrysians are little more than a puppet of Macedon, but a strong military force could still be assembled, that is if they manage to break the Macedonian yoke."
+ odrysia_heritage:0 "Odrysian Heritage"
+ odrysia_heritage_desc:0 "After being conquered by Alexander, the Odrysian Kingom was split up between the Greeks, and lost it's southern territory. With the rest of Thrace being controlled by foreign peoples, Odrysia seems doomed. Even with a shattered kingdom, the Thracians are mighty warriors, and it will take more than one war to defeat them."
  dardanian_heritage:0 "Dardanian Heritage"
  dardanian_heritage_desc:0 "The Dardanian kingdom looks back on a proud martial heritage, having extorted tribute from the defeated Molossians and Macedonians more than once."
  ###DECCAN
