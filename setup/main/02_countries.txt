@@ -1315,7 +1315,7 @@ country = {
 				4985 4986 4987 4989 3389 4988 3383 3388 4984 3385 3384 4990 # Amardioi
 				4997 4998 4996 3434 7638 7639 #hyrcania
 				6954 6955 6956 6957 6958 6959 6960 6961 6962 6963 6964 #Media Choromithrene
-				1594 1596 1597 1598 1599 1601 3393 4965 4968 4966 #kossioi
+				1594 1596 1597 1598 1599 1601 3393 4965 #kossioi
 				4991 4999 3381 3396 3382 4983 3395 3394 3452 4993 3453 # rhagai
 				4994 3459 3458 4995 3457 3456 3439 #parthia_komishene
 				1595 4963 4964 4981 4982 4980 4979 3391 4976 4974 3392 4975 #ecbatana
@@ -1333,7 +1333,7 @@ country = {
 				9681 9682 9683 9684 9685 9686 9687 9689 9690 9691
 				9694 9697 3399
 
-				9781 9798 9811 9801 9785 9748 9749 9750
+				9781 9798 9811 9801 9748 9749 9750
 				
 			}
 
@@ -1547,8 +1547,70 @@ country = {
 			capital = 1919
 
 			own_control_core = {
-				1919 1785 1780 169 1955 7964 1784 7963
+				1919 1780 169 1955 7964 1784 7963
 				1918 1920 7961 1922
+			}
+		}
+
+		CM1 = { # Aurokra
+			government = tribal_chiefdom
+			primary_culture = cimmerian
+			religion = anatolian_religion
+
+			capital = 182
+
+			own_control_core = {
+				182 179 230 178 1777 181 183
+			}
+		}
+
+		CM2 = { # Gamir
+			government = tribal_chiefdom
+			primary_culture = cimmerian
+			religion = indo_iranian_religion
+
+			capital = 1694
+
+			own_control_core = {
+				1694 1691 1692 1689 1690 1785
+				1699 1695
+				1703 1704 1705 1746 1748
+			}
+		}
+
+		CM3 = { # Parnassos
+			government = tribal_chiefdom
+			primary_culture = cimmerian
+			religion = anatolian_religion
+
+			capital = 1811
+
+			own_control_core = {
+				1811 1820 1813
+			}
+		}
+
+		CM4 = { # Indaruaya
+			government = tribal_chiefdom
+			primary_culture = cimmerian
+			religion = indo_iranian_religion
+
+			capital = 9785
+
+			own_control_core = {
+				9785 4966 4968
+			}
+		}
+
+		CM5 = { # Soatra
+			government = tribal_chiefdom
+			primary_culture = cimmerian
+			religion = anatolian_religion
+
+			capital = 1971
+
+			own_control_core = {
+				1971 1914 174 177 180 176 190 191
 			}
 		}
 
@@ -1577,16 +1639,16 @@ country = {
 				251 253 254 264 #mysia_region
 				294 #ionia_region
 				1953 #milyas_region
-				174 176 177 180 181 191 1914 1916 1934 1965 1971 #lycaonia_region
+				1916 1934 1965 #lycaonia_region
 				1924 1950 1975 1969 #isauria_region
-				178 182 230 1777 1926 1928 1930 1937 1939 #phrygia_parorea_region
-				183 227 302 312 313 314 315 316 317 318 319 328#phrygia_epiktetos
+				1926 1928 1930 1937 1939 #phrygia_parorea_region
+				227 302 312 313 314 315 316 317 318 319 328#phrygia_epiktetos
 				184 185 186 187 309 311 339 1936 1941 1942 1943 1944 #phrygia_region
-				179 1956
+				1956
 				249 218 7938 7939 7941 # Prokonnesos + New Anatolia
 				1945 1948 1946 1947 1962 1963 1966 295 1952
 				1938 1940 1888 1951 173 1978 1925 1985 1788
-				1817 1818 1957 1820 1913 190 7981 1813 1811
+				1817 1818 1957 1913 7981
 				267 262
 			}
 		}
@@ -11122,11 +11184,11 @@ country = {
 			capital = 1676
 
 			own_control_core = 	{
-				1676 1679 1680 1683 1685 1689 1690 1691 1692 1694 #caucasian_iberia_region
+				1676 1679 1680 1683 1685 #caucasian_iberia_region
 				1611 1612 1657 1658 1678 1687 #kahetia_region
-				1586 1587 1610 1677 1686 1695 1696 1699 1700 1702 #gugark_region
+				1586 1587 1610 1677 1686 1696 1700 1702 #gugark_region
 				1697 1701 1752 1753 1754 1755 1756 #tayk_region
-			  1607 1609 1703 1704 1681
+				1607 1609 1681
 			}
 
 		}
@@ -11148,7 +11210,7 @@ country = {
 
 			own_control_core = 	{
 				1706 1737 1711 1714 1715 1717 1735 #colchis_region
-				1705 1707 1746 1748 #suaneti_region
+				1707 #suaneti_region
 				1739 1740 #abasgoi_region
 				1722 1723 1724 1725 #bekhyria_region
 			}

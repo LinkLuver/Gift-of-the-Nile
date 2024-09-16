@@ -90,6 +90,11 @@ CYP = "setup/countries/anatolia/paphos.txt"
 BRL = "setup/countries/anatolia/bergoule.txt"
 IDI = "setup/countries/anatolia/aistia.txt"
 GLP = "setup/countries/anatolia/galiopolis.txt"
+CM1 = "setup/countries/anatolia/aurokra.txt"
+CM2 = "setup/countries/anatolia/gamir.txt"
+CM3 = "setup/countries/anatolia/parnassos.txt"
+CM4 = "setup/countries/anatolia/indaruaya.txt"
+CM5 = "setup/countries/anatolia/soatra.txt"
 
 # Levant
 SWR = "setup/countries/levant/tyros.txt"
