@@ -459,26 +459,18 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
 		amount=2
 	}
 	nobles={
-		culture="median"
 		religion="mithra_religion"
 		amount=2
 	}
 	citizen={
-		culture="hebrew"
-		religion="judaism"
+		culture="zoroaster"
 		amount=2
 	}
 	citizen={
 		amount=4
-	}
-	freemen={
-		culture="hebrew"
-		religion="judaism"
-		amount=1
 	}
 	freemen={
 		amount=10
@@ -486,15 +478,9 @@
 	slaves={
 		amount=9
 	}
-	slaves={
-		culture="hebrew"
-		religion="judaism"
-		amount=1
-	}
 	tribesmen={
 		amount=12
 	}
-	holy_site=omen_esther
 }
 
 1596={ #Deh Bozen

@@ -237,7 +237,131 @@
 		hyksos = {}
 		alashiyan = {}
 		syrion = {}
-		hebrew = {
+		hebrew = { #Israelite
+			male_names = {
+				Abraham Abtalyon Abihayyil Abiyyah Adam Adu_ Aharon Ahazay Alim Amas Amittay Amotz
+				Atalyah Azaryahu Babba Baruk Benaya Bunay Buta Binyamin Daniyyel David El_azar
+				Eli Elisha_ Eliyyahu Elnatan Elyaqum Eytan Ezra Gamla Gamli_el Gebiha
+				Gid_on Guryon Haggay Hanan Hanan_el Hananyah Hanila_i Hasina_i Hayyim
+				Hillel Hilqiyahu Hiyya Hizqiyahu Honi Honiyyo Hoshe_ Hutzpit Iyyob Kaleb Levi Mahalal_el
+				Mal_aki Mardakay Mattay Mattityahu Me_ir Menahem Menashshe Mika_el
+				Mikayyahu Moshe Nahum Natan Natan_el Nehemyah Nehunyah Neriyyah Nittay
+				No_am Nuri Obadyah Patza_el Perahyah Pesisa Pinhas Qayyapa Shama_yah
+				Shammay Shamu_el Sha_ul Shetah Shim_on Sholomo Tabbay Tabi Tobiyyah
+				Tzadoq Tzepanyah Uzzi_el Ya_qob Yannay Yared Yedidyah Yehezqiyah
+				Yeho_azar Yehohanan Yehoshu_ Yehoyaqim Yehuda Yarmiyahu Yishay Yishma_el
+				Yisra_el Yitro Yitzhaq Yo_el Yohanan Yona Yonatan Yosep Yoshu_ Yotam
+				Zakkay Zebadyah Zekaryah Zerubbabel
+			}
+
+			female_names = {
+				Abigayyil Abihayyil Abiyyah Ahino_m Asnat Atalyah Beruryah Debora Dina
+				Elisheba_ Eprat Ester Hadassa Hannah Havva Hayya Heptzibah Hulda
+				Immashalom Le_a Mahalat Marta Maryam Mazal Milka Maryam Na_omi Orpa
+				Peninna Qetzi_a Rahab Rahel Ribqa Rut Sara Shelomtziyyon Shalomit Shipra
+				Shoshanna Tamar Tzappira Tzeruyyah Tzibya Tzippora Ya_el Yedida
+				Yehosheba_ Yehudit Yemima Yiska Yohana Yokebed
+			}
+
+			family = {
+				Appus.Appuset.Appus.Appus
+				Ashshuri.Ashshurit.Ashshuri.Ashshuri
+				Babli.Bablit.Babli.Babli
+				Batirayyi.Batirayyit.Batirayyid.Batirayyid
+				Binyamini.Bat-Binyamini.Binyaminid.Binyaminid
+				Dani.Bat-Dani.Danid.Danid
+				Edomi.Edomit.Edomi.Edomi
+				El_azari.El_azarit.El_azarid.El_azarid
+				Eprayyi.Bat-'Eprayyi.Eprayyid.Eprayyid
+				Galili.Galilit.Galili.Galili
+				Gil_adi.Gil_adit.Gil_adi.Gil_adi
+				Hashmonay.Hashmonayyit.Hashmonay.Hashmonay
+				Hitzoni.Hitzonit.Hitzoni.Hitzoni
+				Hurqanos.Hurqanit.Hurqanid.Hurqanid
+				Ibri.Ibrit.Ibri.Ibri
+				Kohen.Bat-Kohen.Kohen.Kohen
+				Levi.Bat-Levi.Levi.Levi
+				Maymoni.Maymonit.Maymonid.Maymonid
+				ha-Makkabbi.ha-Makkabbi.Makkabbi.Makkabbi
+				Matri.Matrit.Matrid.Matrid
+				Menashshi.Bat-Menashshi.Menashshid.Menashshid
+				Nuri.Nurit.Nurid.Nurid
+				Ossayyi.Ossayyit.Ossayyi.Ossayyi
+				Parushi.Parushit.Parushi.Parushi
+				ha-Qannay.ha-qannayyit.Qannay.Qannay
+				Shim_oni.Bat-Shim'oni.Shim_onid.Shim_onid
+				Tassi.Tassit.Tassi.Tassi
+				Tzadoqi.Tzadoqit.Tzadoqi.Tzadoqi
+				Yannayyi.Yannayit.Yannayyid.Yannayyid
+				Ya_qobi.Ya_qobit.Ya_qobid.Ya_qobid
+				Yishayyi.Yishayyit.Yishayyid.Yishayyid
+				Yisra_eli.Yisra_elit.Yisra_elid.Yisra_elid
+				Yosepi.Yosepit.Yosepid.Yosepid
+			}
+		}
+		ammonite = { #Lotite
+			male_names = {
+				Abraham Abtalyon Abihayyil Abiyyah Adam Adu_ Aharon Ahazay Alim Amas Amittay Amotz
+				Atalyah Azaryahu Babba Baruk Benaya Bunay Buta Binyamin Daniyyel David El_azar
+				Eli Elisha_ Eliyyahu Elnatan Elyaqum Eytan Ezra Gamla Gamli_el Gebiha
+				Gid_on Guryon Haggay Hanan Hanan_el Hananyah Hanila_i Hasina_i Hayyim
+				Hillel Hilqiyahu Hiyya Hizqiyahu Honi Honiyyo Hoshe_ Hutzpit Iyyob Kaleb Levi Mahalal_el
+				Mal_aki Mardakay Mattay Mattityahu Me_ir Menahem Menashshe Mika_el
+				Mikayyahu Moshe Nahum Natan Natan_el Nehemyah Nehunyah Neriyyah Nittay
+				No_am Nuri Obadyah Patza_el Perahyah Pesisa Pinhas Qayyapa Shama_yah
+				Shammay Shamu_el Sha_ul Shetah Shim_on Sholomo Tabbay Tabi Tobiyyah
+				Tzadoq Tzepanyah Uzzi_el Ya_qob Yannay Yared Yedidyah Yehezqiyah
+				Yeho_azar Yehohanan Yehoshu_ Yehoyaqim Yehuda Yarmiyahu Yishay Yishma_el
+				Yisra_el Yitro Yitzhaq Yo_el Yohanan Yona Yonatan Yosep Yoshu_ Yotam
+				Zakkay Zebadyah Zekaryah Zerubbabel
+			}
+
+			female_names = {
+				Abigayyil Abihayyil Abiyyah Ahino_m Asnat Atalyah Beruryah Debora Dina
+				Elisheba_ Eprat Ester Hadassa Hannah Havva Hayya Heptzibah Hulda
+				Immashalom Le_a Mahalat Marta Maryam Mazal Milka Maryam Na_omi Orpa
+				Peninna Qetzi_a Rahab Rahel Ribqa Rut Sara Shelomtziyyon Shalomit Shipra
+				Shoshanna Tamar Tzappira Tzeruyyah Tzibya Tzippora Ya_el Yedida
+				Yehosheba_ Yehudit Yemima Yiska Yohana Yokebed
+			}
+
+			family = {
+				Appus.Appuset.Appus.Appus
+				Ashshuri.Ashshurit.Ashshuri.Ashshuri
+				Babli.Bablit.Babli.Babli
+				Batirayyi.Batirayyit.Batirayyid.Batirayyid
+				Binyamini.Bat-Binyamini.Binyaminid.Binyaminid
+				Dani.Bat-Dani.Danid.Danid
+				Edomi.Edomit.Edomi.Edomi
+				El_azari.El_azarit.El_azarid.El_azarid
+				Eprayyi.Bat-'Eprayyi.Eprayyid.Eprayyid
+				Galili.Galilit.Galili.Galili
+				Gil_adi.Gil_adit.Gil_adi.Gil_adi
+				Hashmonay.Hashmonayyit.Hashmonay.Hashmonay
+				Hitzoni.Hitzonit.Hitzoni.Hitzoni
+				Hurqanos.Hurqanit.Hurqanid.Hurqanid
+				Ibri.Ibrit.Ibri.Ibri
+				Kohen.Bat-Kohen.Kohen.Kohen
+				Levi.Bat-Levi.Levi.Levi
+				Maymoni.Maymonit.Maymonid.Maymonid
+				ha-Makkabbi.ha-Makkabbi.Makkabbi.Makkabbi
+				Matri.Matrit.Matrid.Matrid
+				Menashshi.Bat-Menashshi.Menashshid.Menashshid
+				Nuri.Nurit.Nurid.Nurid
+				Ossayyi.Ossayyit.Ossayyi.Ossayyi
+				Parushi.Parushit.Parushi.Parushi
+				ha-Qannay.ha-qannayyit.Qannay.Qannay
+				Shim_oni.Bat-Shim'oni.Shim_onid.Shim_onid
+				Tassi.Tassit.Tassi.Tassi
+				Tzadoqi.Tzadoqit.Tzadoqi.Tzadoqi
+				Yannayyi.Yannayit.Yannayyid.Yannayyid
+				Ya_qobi.Ya_qobit.Ya_qobid.Ya_qobid
+				Yishayyi.Yishayyit.Yishayyid.Yishayyid
+				Yisra_eli.Yisra_elit.Yisra_elid.Yisra_elid
+				Yosepi.Yosepit.Yosepid.Yosepid
+			}
+		}
+		edomite = { #Edomite
 			male_names = {
 				Abraham Abtalyon Abihayyil Abiyyah Adam Adu_ Aharon Ahazay Alim Amas Amittay Amotz
 				Atalyah Azaryahu Babba Baruk Benaya Bunay Buta Binyamin Daniyyel David El_azar

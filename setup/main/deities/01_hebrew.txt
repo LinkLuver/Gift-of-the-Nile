@@ -1,0 +1,39 @@
+deity_manager = {
+	deities_database = { ### KEYS 31101-31200 ###
+		31101 = {
+			key = omen_jezebel
+			deity = deity_jezebel
+			deify_ruler = 326
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31102 = {
+			key = omen_moab
+			deity = deity_moab
+			deify_ruler = 338
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31103 = {
+			key = omen_baasha
+			deity = deity_baasha
+			deify_ruler = 324
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31104 = {
+			key = omen_nahash
+			deity = deity_nahash
+			deify_ruler = 325
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31105 = {
+			key = omen_ahab
+			deity = deity_ahab
+			deify_ruler = 488
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+	}
+}
