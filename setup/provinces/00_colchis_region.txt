@@ -1211,6 +1211,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="aistian"
 		amount=1
 	}
 	freemen={
@@ -1248,6 +1249,7 @@
 		amount=2
 	}
 	tribesmen={
+		culture="aistian"
 		amount=1
 	}
 	tribesmen={
@@ -1768,6 +1770,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="aistian"
 		amount=1
 	}
 	freemen={
@@ -1930,7 +1933,7 @@
 		amount=1
 	}
 	freemen={
-		culture="armenian"
+		culture="aistian"
 		amount=1
 	}
 	slaves={
@@ -1939,7 +1942,7 @@
 		amount=1
 	}
 	slaves={
-		religion="caucasian_religion"
+		culture="aistian"
 		amount=1
 	}
 	slaves={
@@ -1964,7 +1967,7 @@
 		amount=1
 	}
 	freemen={
-		culture="ibero"
+		culture="aistian"
 		amount=1
 	}
 	slaves={
@@ -1972,7 +1975,7 @@
 		amount=2
 	}
 	slaves={
-		religion="anahitic_religion"
+		culture="aistian"
 		amount=1
 	}
 	tribesmen={

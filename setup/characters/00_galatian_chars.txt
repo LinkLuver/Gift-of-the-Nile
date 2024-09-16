@@ -159,7 +159,7 @@
 	country="IDI"
 	573={
 		first_name="Verkaelon"
-		last_name="Dures"
+		family_name="Dures"
 		birth_date=410.10.10
 		culture="aistian"
 		religion="druidism"
@@ -174,8 +174,9 @@
 		add_trait=stubborn
 		add_trait=aggressive
 		add_popularity=100
-	}
-	c:IDI={
-		set_as_ruler=char:573
+		c:IDI={
+			set_as_ruler=char:573
+		}
+		dna="/3mlNHd3d3cYfBh8AokCiQKGAoYCmAKYAn8CfwFmAWYBYgFiAB8AHwJwAnAChgKGAoQChATkBOQCiQKJApACkAKDAoMCdwJ3AUwBTATgBOACbwJvAoUChQJ1AnUCkwKTAm0CbQJuAm4ExATEAm4CbgKVApUCfwJ/AocChwJzAnMCbQJtAoACgAFfAV8CmAKYAokCiQKAAoAClgKWAnICcgJsAmwCiQKJAnsCewKTApMCegJ6BLYEtgKHAocCbgJuAooCigJ7AnsCcQJxAnMCcwKGAoYCZwJnA6IDogJvAm8CiQKJAo0CjQJNAk0BeAF4ABUAFQAXABcBSAFIAUYBRgAGAAYAXQBdAVgBWABlAGUArwCvAr0CvQB/AH8ApwCnARMBEwC3ALcA3QDdABkAGQDpAOkAJAAkAUkBSQB/AH8AsQCxANcA1wEZARkATQBNAOEA4QBVAFUBHwEfA34DfgAmACYBKgEqAGYAZgMoAygMWwxbAH8AfwN8A3wIywhyAPkA+QQABEQGZAZkCSgJKAAAAAAAAAAAAAAAAA=="
 	}
 }

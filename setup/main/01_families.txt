@@ -274,7 +274,7 @@ family={
 			key = "Amyntid"
 			prestige=200
 			culture=macedonian
-			owner=CAP
+			owner=CRD
 		}
 		#Kios
 		35={
@@ -568,12 +568,12 @@ family={
 			prestige=300
 			owner=EPI
 		}
-		#Arachosia
+		#Knossos
 		100 = {
 			key = "Sibyrtid"
 			prestige=300
 			culture=cretan
-			owner=ARS
+			owner=KNO
 		}
 		#Chera Dynasty
 		250={
@@ -795,6 +795,13 @@ family={
 			prestige=100
 			culture=hittite
 			owner=KAR
+		}
+		#GOTN Africa
+		2400 = {
+			key = "Herakleides"
+			prestige=100
+			culture=atlosian
+			owner=MSL
 		}
 	}
 }
