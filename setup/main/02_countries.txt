@@ -1101,6 +1101,7 @@ country = {
 		}
 
 		HAG = {
+			family = 100
 			government = despotic_monarchy
 			primary_culture = hurrian
 			religion = ashur_religion
@@ -10273,7 +10274,6 @@ country = {
 				oratory_tech={ level=2 progress=0 }
 				religious_tech= { level=2 progress=0  }
 			}
-			family = 100
 
 			capital = 358
 			own_control_core = 	{
