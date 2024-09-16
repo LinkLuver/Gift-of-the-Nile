@@ -994,7 +994,6 @@ deity_chemosh = {
 # Edomite Prophets
 deity_eliphaz = {
 	trigger = {
-    	polytheistic_check_religion_trigger = yes
 		OR = {
 			rare_deity_trigger = {
 				RELIGION = judaism
@@ -1255,8 +1254,12 @@ deity_baasha = {
 # Qedarite Prophets
 deity_ishmael = {
 	trigger = {
-		religion = judaism
-		primary_culture = qedarite
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = judaism
+			}
+			primary_culture = qedarite
+		}
 	}
 	icon = deity_war
 	passive_modifier = { archers_discipline = 0.10 }

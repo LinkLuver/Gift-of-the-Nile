@@ -1572,7 +1572,7 @@ country = {
 			capital = 1694
 
 			own_control_core = {
-				1694 1691 1692 1689 1690 1785
+				1694 1691 1692 1689 1690
 				1699 1695
 				1703 1704 1705 1746 1748
 			}
@@ -1644,7 +1644,7 @@ country = {
 				1926 1928 1930 1937 1939 #phrygia_parorea_region
 				227 302 312 313 314 315 316 317 318 319 328#phrygia_epiktetos
 				184 185 186 187 309 311 339 1936 1941 1942 1943 1944 #phrygia_region
-				1956
+				1956 1785
 				249 218 7938 7939 7941 # Prokonnesos + New Anatolia
 				1945 1948 1946 1947 1962 1963 1966 295 1952
 				1938 1940 1888 1951 173 1978 1925 1985 1788
@@ -2462,6 +2462,7 @@ country = {
 
 			own_control_core = 	{
 				727 4600 724 725 726 4602 4613 4612 4601
+				704 728 730 729 707 706 705
 			}
 		}
 
@@ -2498,21 +2499,11 @@ country = {
 
 		MOA = {
 			government = theocratic_monarchy
-			primary_culture = hebrew
+			primary_culture = ammonite
 			religion = judaism
 			monarchy_military_reforms = recruit_from_nobles
 
-			capital = 681
-
-			pantheon = {
-
-				{ deity = 907 }
-				{ deity = 902 }
-				{ deity = 905 }
-				{ deity = 909 }
-
-			}
-
+			capital = 717
 			technology={
 				military_tech={ level=1 progress=0 }
 				civic_tech={ level=1 progress=0 }
@@ -2527,7 +2518,7 @@ country = {
 
 		SMA	= { #Samarian Subject State, at the start loyal to the Antigonids. Would later be a Ptolemaic subject.
 			family = 58
-			government = nomarchy
+			government = theocratic_republic
 			primary_culture = hebrew
 			religion = judaism
 			monarchy_military_reforms = recruit_from_nobles
@@ -2542,14 +2533,14 @@ country = {
 			capital = 680
 
 			own_control_core = 	{
-				671 676 678 679 680 682 719 663 664 665
+				679 680 682
 				683 684 685 686
 			}
 		}
 
 		EDO = {
 			government = aristocratic_monarchy
-			primary_culture = hebrew
+			primary_culture = edomite
 			religion = judaism
 			monarchy_military_reforms = recruit_from_nobles
 
@@ -2560,16 +2551,16 @@ country = {
 				religious_tech= { level=1 progress=0  }
 			}
 
-			capital = 729
+			capital = 709
 
 			own_control_core =  {
-				729 700 702 699 709 708 730 703 707 728 706 705 704
+				700 702 699 709 708 703
 			}
 		}
 
 		AMM = {
 			government = aristocratic_monarchy
-			primary_culture = hebrew
+			primary_culture = ammonite
 			religion = judaism
 			monarchy_military_reforms = recruit_from_nobles
 
@@ -2613,6 +2604,18 @@ country = {
 
 			own_control_core = 	{
 				669 672 677 673 674 648
+				671 719 678 676
+			}
+		}
+		YPO = {
+			government = plutocratic_republic
+			primary_culture = hebrew
+			religion = judaism
+
+			capital = 663
+
+			own_control_core = 	{
+				663 664 665
 			}
 		}
 
