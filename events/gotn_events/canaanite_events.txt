@@ -113,3 +113,250 @@ flavor_canaan.99 = { # Kill
 		remove_global_variable = payday_melqart
 	}
 }
+flavor_canaan.2 = { # Hewbrew Faith
+	type = country_event
+	title = flavor_canaan_2_title
+	desc = flavor_canaan_2_desc
+	picture = religious_rite
+	left_portrait = current_ruler
+
+	immediate = {
+		random_country = {
+			limit = {
+				tag = JUD
+			}
+			save_scope_as = judea_scope
+		}
+		random_country = {
+			limit = {
+				tag = SMA
+			}
+			save_scope_as = samaria_scope
+		}
+		random_country = {
+			limit = {
+				tag = GAL
+			}
+			save_scope_as = galilee_scope
+		}
+		random_country = {
+			limit = {
+				tag = MOA
+			}
+			save_scope_as = moab_scope
+		}
+		random_country = {
+			limit = {
+				tag = AMM
+			}
+			save_scope_as = ammon_scope
+		}
+		random_country = {
+			limit = {
+				tag = EDO
+			}
+			save_scope_as = edom_scope
+		}
+	}
+
+	option = {
+		name = flavor_canaan_2.a
+		set_variable = yahweh_var
+		scope:judea_scope = {
+			add_opinion = {
+				modifier = hebrew_same_religion
+				target = ROOT
+			}
+		}
+		scope:samaria_scope = {
+			add_opinion = {
+				modifier = hebrew_same_religion
+				target = ROOT
+			}
+		}
+		scope:galilee_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:moab_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:ammon_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:edom_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+	}
+	option = {
+		name = flavor_canaan_2.b
+		set_variable = asherah_var
+		scope:judea_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:samaria_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:galilee_scope = {
+			add_opinion = {
+				modifier = hebrew_same_religion
+				target = ROOT
+			}
+		}
+		scope:moab_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:ammon_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:edom_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+	}
+	option = {
+		name = flavor_canaan_2.c
+		set_variable = chemosh_var
+		scope:judea_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:samaria_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:galilee_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:moab_scope = {
+			add_opinion = {
+				modifier = hebrew_same_religion
+				target = ROOT
+			}
+		}
+		scope:ammon_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:edom_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+	}
+	option = {
+		name = flavor_canaan_2.d
+		set_variable = milkom_var
+		scope:judea_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:samaria_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:galilee_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:moab_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:ammon_scope = {
+			add_opinion = {
+				modifier = hebrew_same_religion
+				target = ROOT
+			}
+		}
+		scope:edom_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+	}
+	option = {
+		name = flavor_canaan_2.e
+		set_variable = qaus_var
+		scope:judea_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:samaria_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:galilee_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:moab_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:ammon_scope = {
+			add_opinion = {
+				modifier = hebrew_wrong_religion
+				target = ROOT
+			}
+		}
+		scope:edom_scope = {
+			add_opinion = {
+				modifier = hebrew_same_religion
+				target = ROOT
+			}
+		}
+	}
+}

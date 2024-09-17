@@ -335,10 +335,17 @@ deity_noah = {
 
 deity_samuel = {
 	trigger = {
-		religion = judaism
-		NOR = {
-		  tag = SMA
-			heritage = samaria_heritage
+		OR = {
+			AND = {
+				religion = judaism
+				primary_culture = hebrew
+				NOR = {
+					tag = SMA
+					tag = GAL
+					heritage = samaria_heritage
+				}
+			}
+			has_variable = yahweh_var
 		}
 	}
 	icon = deity_eloquence
@@ -360,10 +367,17 @@ deity_samuel = {
 
 deity_david = {
 	trigger = {
-		religion = judaism
-		NOR = {
-		  tag = SMA
-			heritage = samaria_heritage
+		OR = {
+			AND = {
+				religion = judaism
+				primary_culture = hebrew
+				NOR = {
+					tag = SMA
+					tag = GAL
+					heritage = samaria_heritage
+				}
+			}
+			has_variable = yahweh_var
 		}
 	}
 	icon = deity_wealth
@@ -384,10 +398,17 @@ deity_david = {
 
 deity_solomon = {
 	trigger = {
-		religion = judaism
-		NOR = {
-		  tag = SMA
-			heritage = samaria_heritage
+		OR = {
+			AND = {
+				religion = judaism
+				primary_culture = hebrew
+				NOR = {
+					tag = SMA
+					tag = GAL
+					heritage = samaria_heritage
+				}
+			}
+			has_variable = yahweh_var
 		}
 	}
 	icon = deity_eloquence
@@ -620,10 +641,17 @@ deity_nehemiah = {
 
 deity_job = {
 	trigger = {
-		religion = judaism
-		NOR = {
-		  tag = SMA
-			heritage = samaria_heritage
+		OR = {
+			AND = {
+				religion = judaism
+				primary_culture = hebrew
+				NOR = {
+					tag = SMA
+					tag = GAL
+					heritage = samaria_heritage
+				}
+			}
+			has_variable = yahweh_var
 		}
 	}
 	icon = deity_eloquence
@@ -642,10 +670,17 @@ deity_job = {
 
 deity_isaiah = {
 	trigger = {
-		religion = judaism
-		NOR = {
-		  tag = SMA
-			heritage = samaria_heritage
+		OR = {
+			AND = {
+				religion = judaism
+				primary_culture = hebrew
+				NOR = {
+					tag = SMA
+					tag = GAL
+					heritage = samaria_heritage
+				}
+			}
+			has_variable = yahweh_var
 		}
 	}
 	icon = deity_wealth
@@ -664,10 +699,17 @@ deity_isaiah = {
 
 deity_jeremiah = {
 	trigger = {
-		religion = judaism
-		NOR = {
-		  tag = SMA
-			heritage = samaria_heritage
+		OR = {
+			AND = {
+				religion = judaism
+				primary_culture = hebrew
+				NOR = {
+					tag = SMA
+					tag = GAL
+					heritage = samaria_heritage
+				}
+			}
+			has_variable = yahweh_var
 		}
 	}
 	icon = deity_love
@@ -686,10 +728,17 @@ deity_jeremiah = {
 
 deity_elijah = {
 	trigger = {
-		religion = judaism
-		NOR = {
-		  tag = SMA
-			heritage = samaria_heritage
+		OR = {
+			AND = {
+				religion = judaism
+				primary_culture = hebrew
+				NOR = {
+					tag = SMA
+					tag = GAL
+					heritage = samaria_heritage
+				}
+			}
+			has_variable = yahweh_var
 		}
 	}
 	icon = deity_eloquence
@@ -711,10 +760,15 @@ deity_elijah = {
 
 deity_abishua = {
 	trigger = {
-		religion = judaism
 		OR = {
-			tag = SMA
-			heritage = samaria_heritage
+			AND = {
+				religion = judaism
+				OR = {
+					tag = SMA
+					heritage = samaria_heritage
+				}
+			}
+			has_variable = yahweh_var
 		}
 	}
 	icon = deity_eloquence
@@ -734,10 +788,15 @@ deity_abishua = {
 
 deity_uzzi = {
 	trigger = {
-		religion = judaism
 		OR = {
-			tag = SMA
-			heritage = samaria_heritage
+			AND = {
+				religion = judaism
+				OR = {
+					tag = SMA
+					heritage = samaria_heritage
+				}
+			}
+			has_variable = yahweh_var
 		}
 	}
 	icon = deity_eloquence
@@ -757,10 +816,15 @@ deity_uzzi = {
 
 deity_abdel = {
 	trigger = {
-		religion = judaism
 		OR = {
-			tag = SMA
-			heritage = samaria_heritage
+			AND = {
+				religion = judaism
+				OR = {
+					tag = SMA
+					heritage = samaria_heritage
+				}
+			}
+			has_variable = yahweh_var
 		}
 	}
 	icon = deity_love
@@ -782,18 +846,22 @@ deity_abdel = {
 
 deity_yahweh = {
     trigger = {
-    	polytheistic_check_religion_trigger = yes
-    	AND = {
-			primary_culture = hebrew
-			NOT = { tag = GAL }
-		}
-		OR = {
-			rare_deity_trigger = {
-				RELIGION = judaism
+    	OR = {
+    		AND = {
+		    	AND = {
+					primary_culture = hebrew
+					NOT = { tag = GAL }
+				}
+				OR = {
+					rare_deity_trigger = {
+						RELIGION = judaism
+					}
+					deity:omen_yahweh = {
+						holy_site_deity_check_trigger = yes
+					}
+				}
 			}
-			deity:omen_yahweh = {
-				holy_site_deity_check_trigger = yes
-			}
+			has_variable = yahweh_var
 		}
 	}
     icon = deity_eloquence
@@ -856,22 +924,17 @@ deity_yahweh = {
 
 deity_asherah = {
 	trigger = {
-		polytheistic_check_religion_trigger = yes
 		NOR = {
 			tag = JUD
 			tag = SMA
 		}
-		primary_culture = hebrew
 		OR = {
-			rare_deity_trigger = {
-				RELIGION = carthaginian_pantheon
-			}
-			rare_deity_trigger = {
-				RELIGION = judaism
-			}
+			primary_culture = hebrew
 			deity:omen_asherah = {
 				holy_site_deity_check_trigger = yes
 			}
+			has_variable = asherah_var
+			tag = GAL
 		}
 	}
 	icon = deity_love
@@ -890,17 +953,10 @@ deity_asherah = {
 
 deity_qaus = { #Province 4714, Hegra ; Province 706, Bossia
 	trigger = {
-		polytheistic_check_religion_trigger = yes
+		#polytheistic_check_religion_trigger = yes
 		OR = {
-			rare_deity_trigger = {
-				RELIGION = carthaginian_pantheon
-			}
-			AND = {
-				rare_deity_trigger = {
-					RELIGION = judaism
-				}
-				primary_culture = edomite
-			}
+			has_variable = qaus_var
+			primary_culture = edomite
 			deity:omen_qaus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -922,18 +978,12 @@ deity_qaus = { #Province 4714, Hegra ; Province 706, Bossia
 
 deity_milkom = {
 	trigger = {
-		polytheistic_check_religion_trigger = yes
-		AND = {
-			primary_culture = ammonite
-			tag = AMM
-		}
 		OR = {
-			common_deity_trigger = {
-				RELIGION = carthaginian_pantheon
+			AND = {
+				primary_culture = ammonite
+				tag = AMM
 			}
-			rare_deity_trigger = {
-				RELIGION = judaism
-			}
+			has_variable = milkom_var
 			deity:omen_milkom = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -955,23 +1005,13 @@ deity_milkom = {
 
 deity_chemosh = {
 	trigger = {
-		polytheistic_check_religion_trigger = yes
+		#polytheistic_check_religion_trigger = yes
 		OR = {
 			primary_culture = phoenician
 			primary_culture = aramaic
 			primary_culture = nabatean
-			AND = {
-				primary_culture = ammonite
-				tag = MOA
-			}
-		}
-		OR = {
-			very_rare_deity_trigger = {
-				RELIGION = carthaginian_pantheon
-			}
-			rare_deity_trigger = {
-				RELIGION = judaism
-			}
+			tag = MOA
+			has_variable = chemosh_var
 			deity:omen_chemosh = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -995,18 +1035,90 @@ deity_chemosh = {
 deity_eliphaz = {
 	trigger = {
 		OR = {
-			rare_deity_trigger = {
-				RELIGION = judaism
-			}
-			deity:omen_yahweh = {
+			primary_culture = edomite
+			deity:omen_eliphaz = {
 				holy_site_deity_check_trigger = yes
 			}
+			has_variable = qaus_var
 		}
 	}
     icon = deity_eloquence
     passive_modifier = { navy_maintenance_cost = deity_navy_maintenance_cost_svalue }
     omen = { happiness_for_same_culture_modifier = omen_happiness_for_same_culture_modifier_svalue } #Bonus from Omen
-    religion = carthaginian_pantheon
+    religion = judaism
+    deity_category = war #This Deity uses a War Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+	}
+}
+deity_adah = {
+	trigger = {
+		OR = {
+			primary_culture = edomite
+			deity:omen_adah = {
+				holy_site_deity_check_trigger = yes
+			}
+			has_variable = qaus_var
+		}
+	}
+    icon = deity_eloquence
+    passive_modifier = { navy_maintenance_cost = deity_navy_maintenance_cost_svalue }
+    omen = { happiness_for_same_culture_modifier = omen_happiness_for_same_culture_modifier_svalue } #Bonus from Omen
+    religion = judaism
+    deity_category = fertility #This Deity uses a Fertility Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+	}
+}
+deity_obadiah = {
+	trigger = {
+		OR = {
+			primary_culture = edomite
+			primary_culture = hebrew
+			NOT = {
+				tag = GAL
+			}
+			deity:omen_obadiah = {
+				holy_site_deity_check_trigger = yes
+			}
+			has_variable = qaus_var
+		}
+	}
+    icon = deity_eloquence
+    passive_modifier = { navy_maintenance_cost = deity_navy_maintenance_cost_svalue }
+    omen = { happiness_for_same_culture_modifier = omen_happiness_for_same_culture_modifier_svalue } #Bonus from Omen
+    religion = judaism
+    deity_category = economy #This Deity uses an Economy Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+	}
+}
+deity_esau = {
+	trigger = {
+		OR = {
+			primary_culture = edomite
+			deity:omen_esau = {
+				holy_site_deity_check_trigger = yes
+			}
+			has_variable = qaus_var
+		}
+	}
+    icon = deity_eloquence
+    passive_modifier = { navy_maintenance_cost = deity_navy_maintenance_cost_svalue }
+    omen = { happiness_for_same_culture_modifier = omen_happiness_for_same_culture_modifier_svalue } #Bonus from Omen
+    religion = judaism
     deity_category = culture #This Deity uses a Culture Slot
 
 	deification_trigger = {
@@ -1020,11 +1132,16 @@ deity_eliphaz = {
 # Galilee Prophets
 deity_jezebel = {
 	trigger = {
-		religion = judaism
-		primary_culture = hebrew
-		NOR = {
-			tag = JUD
-			tag = SMA
+		OR = {
+			AND = {
+				religion = judaism
+				primary_culture = hebrew
+				NOR = {
+					tag = JUD
+					tag = SMA
+				}
+			}
+			has_variable = asherah_var
 		}
 	}
 	icon = deity_love
@@ -1086,11 +1203,16 @@ deity_jezebel = {
 }
 deity_manasseh = {
 	trigger = {
-		religion = judaism
 		OR = {
-			tag = GAL
-			tag = SMA
-			heritage = samaria_heritage
+			AND = {
+				religion = judaism
+				OR = {
+					tag = GAL
+					tag = SMA
+					heritage = samaria_heritage
+				}
+			}
+			has_variable = asherah_var
 		}
 	}
 	icon = deity_wealth
@@ -1109,11 +1231,16 @@ deity_manasseh = {
 }
 deity_ahab = {
 	trigger = {
-		religion = judaism
-		primary_culture = hebrew
-		NOR = {
-		  	tag = SMA
-			tag = JUD
+		OR = {
+			AND = {
+				religion = judaism
+				primary_culture = hebrew
+				NOR = {
+				  	tag = SMA
+					tag = JUD
+				}
+			}
+			has_variable = asherah_var
 		}
 	}
 	icon = deity_war
@@ -1131,10 +1258,17 @@ deity_ahab = {
 }
 # Moabite Prophets
 deity_moab = {
-	religion = judaism
-	OR = {
-		NOT = { tag = AMM }
-		primary_culture = ammonite
+	trigger = {
+		OR = {
+			AND = {
+				religion = judaism
+				tag = MOA
+			}
+			deity:omen_moab = {
+				holy_site_deity_check_trigger = yes
+			}
+			has_variable = chemosh_var
+		}
 	}
 	icon = deity_wealth
 	passive_modifier = { monthly_political_influence_modifier = deity_monthly_political_influence_modifier_svalue }
@@ -1182,14 +1316,19 @@ deity_moab = {
 }
 deity_ruth = {
 	trigger = {
-		religion = judaism
 		OR = {
-			primary_culture = hebrew
-			primary_culture = ammonite
-		}
-		NOR = {
-		  	tag = SMA
-			tag = AMM
+			AND = {
+				religion = judaism
+				OR = {
+					primary_culture = hebrew
+					primary_culture = ammonite
+				}
+				NOR = {
+				  	tag = SMA
+					tag = AMM
+				}
+			}
+			has_variable = chemosh_var
 		}
 	}
 	icon = deity_eloquence
@@ -1208,9 +1347,14 @@ deity_ruth = {
 # Ammonite Prophets
 deity_nahash = {
 	trigger = {
-		religion = judaism
-		primary_culture = ammonite
-		NOT = { tag = MOA }
+		OR = {
+			AND = {
+				religion = judaism
+				primary_culture = ammonite
+				NOT = { tag = MOA }
+			}
+			has_variable = milkom_var
+		}
 	}
 	icon = deity_eloquence
 	passive_modifier = { global_monthly_state_loyalty = deity_global_monthly_state_loyalty_svalue }
@@ -1227,9 +1371,14 @@ deity_nahash = {
 }
 deity_baasha = {
 	trigger = {
-		religion = judaism
-		primary_culture = ammonite
-		NOT = { tag = MOA }
+		OR = {
+			AND = {
+				religion = judaism
+				primary_culture = ammonite
+				NOT = { tag = MOA }
+			}
+			has_variable = milkom_var
+		}
 	}
 	icon = deity_war
 	passive_modifier = { cohort_reinforcement_speed = deity_cohort_reinforcement_speed_svalue }
@@ -1255,10 +1404,19 @@ deity_baasha = {
 deity_ishmael = {
 	trigger = {
 		OR = {
-			rare_deity_trigger = {
-				RELIGION = judaism
+			deity:omen_ishmael = {
+				holy_site_deity_check_trigger = yes
 			}
-			primary_culture = qedarite
+			AND = {
+				religion = judaism
+				OR = {
+					primary_culture = nabatean
+					primary_culture = qedarite
+				}
+			}
+		}
+		NOT = {
+			primary_culture = hebrew
 		}
 	}
 	icon = deity_war

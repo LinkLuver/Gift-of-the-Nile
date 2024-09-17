@@ -475,6 +475,7 @@ country_decisions = {
 			change_religion_effect = {
 				RELIGION = judaism
 			}
+			trigger_event = flavor_canaan.2
 		}
 		
 		ai_will_do = {

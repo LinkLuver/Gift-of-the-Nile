@@ -35,5 +35,40 @@ deity_manager = {
 			deify_ruler_permanent = yes
 			is_universal_deity = yes
 		}
+		31106 = {
+			key = omen_ishmael
+			deity = deity_ishmael
+			deify_ruler = 574
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31107 = {
+			key = omen_esau
+			deity = deity_esau
+			deify_ruler = 575
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31108 = {
+			key = omen_adah
+			deity = deity_adah
+			deify_ruler = 576
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31109 = {
+			key = omen_eliphaz
+			deity = deity_eliphaz
+			deify_ruler = 577
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31110 = {
+			key = omen_obadiah
+			deity = deity_obadiah
+			deify_ruler = 578
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
 	}
 }

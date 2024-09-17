@@ -11,6 +11,7 @@
  zoroaster:0 "Mazdayasna"
 
  judaism:0 "Hebrew"
+ desc_judaism:0 "Unusually amongst contemporary faiths, the Hebrews worship a monotheistic religion. Following a series of prophets and teachers, the Hebrews have multiple different holy books, like the Torah for the Israelites of Judea and Samaria which contains the details of a covenant created between God (Yaheweh) and the children of Israel. The Edomites, Moabites, and Ammonites each have their own books for their respective gods of Qaus, Chemosh, and Milkom respectively. The Galilee Israelites instead believe in a single Goddess, Asherah."
  
  italic_pantheon:0 "Italic"
 
@@ -144,6 +145,9 @@
  
  convert_to_uralic_pantheon:0 "Adopt Ilmaric Pantheon"
  convert_to_uralic_pantheon_desc:0 "The supreme god of the sky, Ilma, has been adopted by many of our people. They talk of the vibrant light of the first dawn and the deafening black of the last ray of the sun. From the Finns to the Ugrics, and to us as well now, the lights shine. It is time to open the curtains of the nation and adopt the Ilamric religion."
+
+ convert_to_judaism:0 "Embrace Hebrew Faith"
+ convert_to_judaism_desc:0 "We have lately seen a large swathe of our people turn to the worship of only one god, on of the Hebrew ones. Defying the polytheistic teachings of other faiths, the strength of their belief have convinced many of the lower class to turn their prayers to the one true god."
 
 
  # Egyptian Religious Flavor

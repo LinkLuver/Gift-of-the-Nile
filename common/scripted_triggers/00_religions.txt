@@ -141,6 +141,17 @@ country_shramanic_religion_trigger = {
 	}
 }
 
+country_hellenic_religion_trigger = {
+	OR = {
+		religion = platonism
+		religion = epicureanism
+		religion = stoicism
+		religion = pyrrhonism
+		religion = hermes_religion
+		religion = isis_religion
+	}
+}
+
 own_religious_center_province_trigger = { #List of locations of particular religious importance
 	custom_tooltip = {
 		text = holy_site_tooltip
@@ -947,6 +958,7 @@ polytheistic_check_religion_trigger = {
 		religion = zurvan_religion
 		religion = sobek_religion
 		religion = isis_religion
+		country_hellenic_religion_trigger = yes
 		country_shramanic_religion_trigger = yes
 	}
 }

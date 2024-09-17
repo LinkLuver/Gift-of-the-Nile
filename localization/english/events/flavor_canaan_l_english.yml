@@ -13,6 +13,17 @@
 
  melqart_blessing:0 "Blessing of Lord Melqart"
 
+ flavor_canaan_2_title:0 "The One True God"
+ flavor_canaan_2_desc:0 "The #E Hebrew#! faith is a divided one, with different kingdoms claiming different 'true gods.' To fully convert to this faith, we must decide which god is the truly true one. #E Yahweh#! of the Kingdoms of Israel and Samaria, #E Asherah#! of the Kingdom of Galilee, #E Chemosh#! of the Kingdom of Moab, #E Melkom#! of the Kingdom of Ammon, or #E Qaus#! of the Kingdom of Edom. We must choose carefully, as belief in one god means making yourself an enemy of all others!"
+ flavor_canaan_2.a:0 "Yahweh, god of Israelites"
+ flavor_canaan_2.b:0 "Asherah, goddess of Galileeans"
+ flavor_canaan_2.c:0 "Chemosh, god of Moabites"
+ flavor_canaan_2.d:0 "Melkom, god of Ammonites"
+ flavor_canaan_2.e:0 "Qaus, god of Edom"
+
+ hebrew_same_religion:0 "Believers of the One True God"
+ hebrew_wrong_religion:0 "Believers of the False Gods"
+
  #Zorgo <3
  nazani_blinding_charmod: "Imperial Blinding"
  nazani_blinding_charmod_desc: "This character was politically blinded and is now unable to hold military command or assume any office within #E [ROOT.GetCharacter.GetCountry.GetName]#!."
