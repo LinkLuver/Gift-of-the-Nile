@@ -1053,6 +1053,13 @@ deity_eliphaz = {
 	}
 
 	on_activate = {
+		if = {
+			limit = { manpower_percentage < 0.8 }
+			add_manpower = 1.5
+		}
+		else = {
+			add_military_experience = 2
+		}
 	}
 }
 deity_adah = {
@@ -1066,8 +1073,8 @@ deity_adah = {
 		}
 	}
     icon = deity_eloquence
-    passive_modifier = { navy_maintenance_cost = deity_navy_maintenance_cost_svalue }
-    omen = { happiness_for_same_culture_modifier = omen_happiness_for_same_culture_modifier_svalue } #Bonus from Omen
+    passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
+    omen = { happiness_for_wrong_religion_modifier = 0.05 } #Bonus from Omen
     religion = judaism
     deity_category = fertility #This Deity uses a Fertility Slot
 
@@ -1076,15 +1083,20 @@ deity_adah = {
 	}
 
 	on_activate = {
+		culture_apotheosis_assimilate_effect = yes
 	}
 }
 deity_obadiah = {
 	trigger = {
 		OR = {
-			primary_culture = edomite
-			primary_culture = hebrew
-			NOT = {
-				tag = GAL
+			AND = {
+				OR = {
+					primary_culture = edomite
+					primary_culture = hebrew
+				}
+				NOT = {
+					tag = GAL
+				}
 			}
 			deity:omen_obadiah = {
 				holy_site_deity_check_trigger = yes
@@ -1093,8 +1105,8 @@ deity_obadiah = {
 		}
 	}
     icon = deity_eloquence
-    passive_modifier = { navy_maintenance_cost = deity_navy_maintenance_cost_svalue }
-    omen = { happiness_for_same_culture_modifier = omen_happiness_for_same_culture_modifier_svalue } #Bonus from Omen
+    passive_modifier = { religious_tech_investment = deity_religious_tech_investment_svalue }
+    omen = { global_tax_modifier = omen_global_tax_modifier_svalue } #Bonus from Omen
     religion = judaism
     deity_category = economy #This Deity uses an Economy Slot
 
@@ -1103,6 +1115,50 @@ deity_obadiah = {
 	}
 
 	on_activate = {
+		if = {
+			limit = {
+				exists = scope:deified_ruler
+				any_owned_province = {
+					any_pops_in_province = {
+						NOT = {
+							pop_religion = judaism
+						}
+					}
+				}
+			}
+			custom_tooltip = convert_pops_omen
+		}
+		hidden_effect = {
+			while = {
+				count = 5
+				limit = {
+					any_owned_province = {
+						any_pops_in_province = {
+							NOT = {
+								pop_religion = judaism
+							}
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						any_pops_in_province = {
+							NOT = {
+								pop_religion = judaism
+							}
+						}
+					}
+					random_pops_in_province = {
+						limit = {
+							NOT = {
+								pop_religion = judaism
+							}
+						}
+						set_pop_religion = judaism
+					}
+				}
+			}
+		}
 	}
 }
 deity_esau = {
@@ -1126,10 +1182,31 @@ deity_esau = {
 	}
 
 	on_activate = {
+		add_stability = 10
 	}
 }
 
 # Galilee Prophets
+deity_macaah = {
+	OR = {
+		AND = {
+			religion = judaism
+			tag = GAL
+		}
+		has_variable = asherah_var
+	}
+	icon = deity_love
+	passive_modifier = { global_monthly_civilization = deity_global_monthly_civilization_svalue }
+	omen = { enact_holy_site_cost_modifier = -0.15 }
+	religion = judaism
+	deity_category = culture #This Deity uses a Culture Slot
+	on_activate = {
+		create_2_citizens_effect = yes
+	}
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
 deity_jezebel = {
 	trigger = {
 		OR = {
@@ -1256,6 +1333,37 @@ deity_ahab = {
 		can_deify_trigger = yes
 	}
 }
+# Shared Prophet
+deity_lot = {
+	trigger = {
+		OR = {
+			AND = {
+				religion = judaism
+				primary_culture = ammonite
+			}
+			deity:omen_lot = {
+				holy_site_deity_check_trigger = yes
+			}
+			has_variable = chemosh_var
+			has_variable = milkom_var
+		}
+	}
+	icon = deity_culture
+	passive_modifier = { monthly_political_influence_modifier = deity_monthly_political_influence_modifier_svalue }
+	omen = { ruler_popularity_gain = omen_ruler_popularity_gain_svalue } #Bonus from Omen
+	religion = judaism
+	deity_category = culture #This Deity uses a Culture Slot
+	on_activate = {
+		add_research = {
+			technology = oratory_tech
+			value = 10
+		}
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
 # Moabite Prophets
 deity_moab = {
 	trigger = {
@@ -1344,7 +1452,219 @@ deity_ruth = {
 		can_deify_trigger = yes
 	}
 }
+deity_balaam = {
+	trigger = {
+		OR = {
+			AND = {
+				religion = judaism
+				tag = MOA
+			}
+			AND = {
+				religion = judaism
+				OR = {
+					tag = SMA
+					tag = JUD
+				}
+			}
+			deity:omen_balaam = {
+				holy_site_deity_check_trigger = yes
+			}
+			has_variable = chemosh_var
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { research_points_modifier = deity_research_points_modifier_svalue }
+	omen = { happiness_for_same_religion_modifier = omen_happiness_for_same_religion_modifier_svalue } #Bonus from Omen
+	religion = judaism
+	deity_category = culture #This Deity uses a Culture Slot'
+	on_activate = {
+		add_research = {
+			technology = religious_tech
+			value = 10
+		}
+	}
+}
+deity_balak = {
+	trigger = {
+		OR = {
+			AND = {
+				religion = judaism
+				primary_culture = ammonite
+				tag = MOA
+			}
+			has_variable = chemosh_var
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { global_monthly_state_loyalty = deity_global_monthly_state_loyalty_svalue }
+	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
+	religion = judaism
+	deity_category = war #This Deity uses a War Slot
+	on_activate = {
+		add_stability = 10
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+deity_mesheh = {
+	trigger = {
+		OR = {
+			AND = {
+				religion = judaism
+				primary_culture = ammonite
+				tag = MOA
+			}
+			has_variable = chemosh_var
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
+	omen = { governor_loyalty = -5 } #Bonus from Omen
+	religion = judaism
+	deity_category = fertility #This Deity uses a Fertility Slot
+	on_activate = {
+		if = {
+			limit = {
+				exists = scope:deified_ruler
+				any_owned_province = {
+					any_pops_in_province = {
+						NOT = {
+							pop_religion = scope:deified_ruler.religion
+						}
+					}
+				}
+			}
+			custom_tooltip = convert_pops_omen
+		}
+		hidden_effect = {
+			while = {
+				count = 5
+				limit = {
+					exists = scope:deified_ruler
+					any_owned_province = {
+						any_pops_in_province = {
+							NOT = {
+								pop_religion = scope:deified_ruler.religion
+							}
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						any_pops_in_province = {
+							NOT = {
+								pop_religion = scope:deified_ruler.religion
+							}
+						}
+					}
+					random_pops_in_province = {
+						limit = {
+							NOT = {
+								pop_religion = scope:deified_ruler.religion
+							}
+						}
+						set_pop_religion = scope:deified_ruler.religion
+					}
+				}
+			}
+		}
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
 # Ammonite Prophets
+deity_aman = {
+	trigger = {
+		OR = {
+			AND = {
+				religion = judaism
+				tag = AMM
+			}
+			deity:omen_aman = {
+				holy_site_deity_check_trigger = yes
+			}
+			has_variable = milkom_var
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { stability_cost_modifier = deity_stability_cost_modifier }
+	omen = { monthly_political_influence_modifier = deity_monthly_political_influence_modifier_svalue } #Bonus from Omen
+	religion = judaism
+	deity_category = economy #This Deity uses a Culture Slot
+	on_activate = {
+		if = {
+			limit = {
+				exists = scope:deified_ruler
+				any_character = {
+					has_any_position = yes
+					NOT = { has_religion = scope:deified_ruler.religion }
+				}
+			}
+			custom_tooltip = converts_one_employed_character
+		}
+		else = {
+			custom_tooltip = no_converts
+		}
+		hidden_effect = {
+			while = {
+				count = 2
+				limit = {
+					exists = scope:deified_ruler
+					any_character = {
+						has_any_position = yes
+						NOT = { has_religion = scope:deified_ruler.religion }
+					}
+				}
+				random_character = {
+					limit = {
+						has_any_position = yes
+						NOT = { has_religion = scope:deified_ruler.religion }
+					}
+					set_character_religion = scope:deified_ruler.religion
+				}
+			}
+		}
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+deity_namaah = {
+	trigger = {
+		OR = {
+			AND = {
+				religion = judaism
+				primary_culture = ammonite
+				NOT = { tag = MOA }
+			}
+			has_variable = milkom_var
+		}
+	}
+	icon = deity_war
+	passive_modifier = { happiness_for_same_religion_modifier = deity_happiness_for_same_religion_modifier }
+	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
+	religion = judaism
+	deity_category = war #This Deity uses a War slot.
+
+	on_activate = {
+		if = {
+			limit = { manpower_percentage < 0.8 }
+			add_manpower = 1.5
+		}
+		else = {
+			add_military_experience = 2
+		}
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
 deity_nahash = {
 	trigger = {
 		OR = {

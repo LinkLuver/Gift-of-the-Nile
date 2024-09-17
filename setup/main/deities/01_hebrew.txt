@@ -70,5 +70,58 @@ deity_manager = {
 			deify_ruler_permanent = yes
 			is_universal_deity = yes
 		}
+		31111 = {
+			key = omen_lot
+			deity = deity_lot
+			deify_ruler = 579
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31113 = {
+			key = omen_aman
+			deity = deity_aman
+			deify_ruler = 581
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31114 = {
+			key = omen_balaam
+			deity = deity_balaam
+			deify_ruler = 582
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31115 = {
+			key = omen_balak
+			deity = deity_balak
+			deify_ruler = 583
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31116 = {
+			key = omen_mesheh
+			deity = deity_mesheh
+			deify_ruler = 584
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31117 = {
+			key = omen_nahash
+			deity = deity_nahash
+			deify_ruler = 585
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31118 = {
+			key = omen_namaah
+			deity = deity_namaah
+		}
+		31119 = {
+			key = omen_macaah
+			deity = deity_macaah
+			deify_ruler = 586
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
 	}
 }
