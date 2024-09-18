@@ -361,13 +361,14 @@
 
 4966={ #Khaydalu
 	terrain="mountain"
-	culture="gutian"
+	culture="cimmerian"
 	religion="mithra_religion"
 	trade_goods="marble"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="gutian"
 		religion="mithra_religion"
 		amount=1
 	}
@@ -418,13 +419,14 @@
 
 4968={ #Tappeh
 	terrain="mountain"
-	culture="gutian"
+	culture="cimmerian"
 	religion="mithra_religion"
 	trade_goods="marble"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="gutian"
 		religion="mithra_religion"
 		amount=1
 	}
@@ -1413,7 +1415,7 @@
 
 9785={ #PROV9785
 	terrain="mountain"
-	culture="gutian"
+	culture="cimmerian"
 	religion="zoroaster"
 	trade_goods="feathers"
 	civilization_value=29

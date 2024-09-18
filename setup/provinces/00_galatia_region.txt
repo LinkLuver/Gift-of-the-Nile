@@ -34,7 +34,7 @@
 
 174={ #Kongoustos
 	terrain="plains"
-	culture="lycaonian"
+	culture="cimmerian"
 	religion="anatolian_religion"
 	trade_goods="salt"
 	civilization_value=26
@@ -83,7 +83,7 @@
 
 176={ #Ekdaoumaoua
 	terrain="plains"
-	culture="phrygian"
+	culture="cimmerian"
 	religion="anatolian_religion"
 	trade_goods="horses"
 	civilization_value=26
@@ -110,7 +110,7 @@
 
 177={ #Kindyria
 	terrain="plains"
-	culture="lycaonian"
+	culture="cimmerian"
 	religion="anatolian_religion"
 	trade_goods="obsidian"
 	civilization_value=26
@@ -145,7 +145,7 @@
 
 178={ #Tyriaion
 	terrain="plains"
-	culture="oroandian"
+	culture="cimmerian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
 	civilization_value=26
@@ -175,7 +175,7 @@
 
 179={ #Okenoi
 	terrain="marsh"
-	culture="phrygian"
+	culture="cimmerian"
 	religion="anatolian_religion"
 	trade_goods="wood"
 	civilization_value=22
@@ -201,7 +201,7 @@
 
 180={ #Keissia
 	terrain="plains"
-	culture="lycaonian"
+	culture="cimmerian"
 	religion="anatolian_religion"
 	trade_goods="leather"
 	civilization_value=26
@@ -247,7 +247,7 @@
 
 182={ #Aurokra
 	terrain="marsh"
-	culture="phrygian"
+	culture="cimmerian"
 	religion="anatolian_religion"
 	trade_goods="wood"
 	civilization_value=22
@@ -814,7 +814,7 @@
 
 230={ #Thymbrion
 	terrain="plains"
-	culture="oroandian"
+	culture="cimmerian"
 	religion="anatolian_religion"
 	trade_goods="grain"
 	civilization_value=26
@@ -1281,7 +1281,7 @@
 
 1777={ #Klaneos
 	terrain="plains"
-	culture="phrygian"
+	culture="cimmerian"
 	religion="anatolian_religion"
 	trade_goods="grain"
 	civilization_value=26
@@ -1431,7 +1431,7 @@
 
 1914={ #Perta
 	terrain="plains"
-	culture="lycaonian"
+	culture="cimmerian"
 	religion="anatolian_religion"
 	trade_goods="wine"
 	civilization_value=26
@@ -2175,7 +2175,7 @@
 
 1971={ #Soatra
 	terrain="plains"
-	culture="lycaonian"
+	culture="cimmerian"
 	religion="anatolian_religion"
 	trade_goods="salt"
 	civilization_value=26

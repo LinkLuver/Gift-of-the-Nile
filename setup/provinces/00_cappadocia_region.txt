@@ -483,7 +483,7 @@
 
 1811={ #Parnassos
 	terrain="plains"
-	culture="morimenian"
+	culture="cimmerian"
 	religion="anatolian_religion"
 	trade_goods="salt"
 	civilization_value=20
@@ -510,7 +510,7 @@
 
 1813={ #Nyssa
 	terrain="plains"
-	culture="morimenian"
+	culture="cimmerian"
 	religion="anatolian_religion"
 	trade_goods="salt"
 	civilization_value=20
@@ -520,15 +520,14 @@
 		amount=1
 	}
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="morimenian"
 		amount=1
 	}
 	freemen={
 		amount=2
 	}
 	freemen={
-		culture="cappadocian"
+		culture="morimenian"
 		amount=1
 	}
 	slaves={
@@ -538,7 +537,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="lycaonian"
+		culture="morimenian"
 		amount=1
 	}
 }
@@ -617,11 +616,11 @@
 		amount=1
 	}
 	freemen={
-		culture="cappadocian"
+		culture="morimenian"
 		amount=1
 	}
 	freemen={
-		culture="phrygian"
+		culture="morimenian"
 		amount=1
 	}
 	slaves={
@@ -631,7 +630,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="lycaonian"
+		culture="morimenian"
 		amount=1
 	}
 }

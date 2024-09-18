@@ -334,7 +334,7 @@
 
 1691={ #Doghlauri
 	terrain="plains"
-	culture="ibero"
+	culture="cimmerian"
 	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=20
@@ -353,7 +353,7 @@
 
 1692={ #Tskhinvali
 	terrain="hills"
-	culture="ibero"
+	culture="cimmerian"
 	religion="caucasian_religion"
 	trade_goods="wine"
 	civilization_value=18
@@ -375,7 +375,7 @@
 
 1694={ #Vani
 	terrain="plains"
-	culture="ibero"
+	culture="cimmerian"
 	religion="caucasian_religion"
 	trade_goods="grain"
 	civilization_value=20
@@ -573,7 +573,7 @@
 
 1703={ #Bori
 	terrain="forest"
-	culture="ibero"
+	culture="cimmerian"
 	religion="caucasian_religion"
 	trade_goods="wine"
 	civilization_value=18
@@ -607,7 +607,7 @@
 
 1704={ #Shorapani
 	terrain="plains"
-	culture="colchian"
+	culture="cimmerian"
 	religion="caucasian_religion"
 	trade_goods="vegetables"
 	civilization_value=19
@@ -1673,7 +1673,7 @@
 
 1746={ #Itkhvissi
 	terrain="plains"
-	culture="suani"
+	culture="cimmerian"
 	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=20
@@ -1709,7 +1709,7 @@
 
 1748={ #Modinakhe
 	terrain="mountain"
-	culture="suani"
+	culture="cimmerian"
 	religion="caucasian_religion"
 	trade_goods="honey"
 	civilization_value=16
