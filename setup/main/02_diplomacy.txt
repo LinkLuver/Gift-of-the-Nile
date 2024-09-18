@@ -157,12 +157,22 @@ diplomacy = {
     dependency = { first = TRE second = ORE subject_type = feudatory }
     dependency = { first = TRE second = LAM subject_type = feudatory }
 
+	#Dardania-Serdia
+	dependency = { first = DRD second = SDI subject_type = feudatory }
+
 	#Free Massalian States
 	defensive_league = {
 		member = EPO
 		member = HBA
 		member = HMK
 		member = ALE
+	}
+    
+	#Troan League
+	defensive_league = {
+		member = TWT
+		member = TW1
+		member = TW2
 	}
 
 	#Siceliote City States
