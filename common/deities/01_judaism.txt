@@ -1188,12 +1188,14 @@ deity_esau = {
 
 # Galilee Prophets
 deity_macaah = {
-	OR = {
-		AND = {
-			religion = judaism
-			tag = GAL
+	trigger = {
+		OR = {
+			AND = {
+				religion = judaism
+				tag = GAL
+			}
+			has_variable = asherah_var
 		}
-		has_variable = asherah_var
 	}
 	icon = deity_love
 	passive_modifier = { global_monthly_civilization = deity_global_monthly_civilization_svalue }
