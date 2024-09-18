@@ -3,7 +3,7 @@
 	588={
 		first_name="Aristocles"
 		nickname="PLATO_NICKNAME"
-		family="Aristonid"
+		family_name="Aristonid"
 		birth_date=329.1.2
 		death_date=405.1.2
 		culture="athenian"
@@ -25,7 +25,7 @@
 	}
 	589={
 		first_name="Socrates"
-		family="Sophroniscid"
+		family_name="Sophroniscid"
 		birth_date=283.1.2
 		death_date=354.1.2
 		culture="athenian"
@@ -52,7 +52,7 @@
 	country="CRO"
 	590={
 		first_name="Pythias"
-		family ="Samosid"
+		family_name ="Samosid"
 		birth_date=162.1.2
 		death_date=229.1.2
 		female=yes
@@ -71,7 +71,7 @@
 	}
 	591={
 		first_name="Pythagoras"
-		family="Samosid"
+		family_name="Samosid"
 		birth_date=183.1.2
 		death_date=258.1.2
 		culture="italiotian"
@@ -93,7 +93,7 @@
 	}
 	592={
 		first_name="Theano"
-		family="Samosid"
+		family_name="Samosid"
 		birth_date=188.1.2
 		death_date=259.1.2
 		female=yes
@@ -116,7 +116,7 @@
 	country="MET"
 	593={
 		first_name="Hippasus"
-		family="Metapontid"
+		family_name="Metapontid"
 		birth_date=253.1.2
 		death_date=326.1.2
 		culture="italiotian"
@@ -141,7 +141,7 @@
 	country="DEL"
 	594={
 		first_name="Pherecydes"
-		family="Babysid"
+		family_name="Babysid"
 		birth_date=153.1.2
 		death_date=233.1.2
 		culture="aegean"
@@ -164,7 +164,7 @@
 	country="TWT"
 	595={
 		first_name="Anaxagoras"
-		family="Clazomenid"
+		family_name="Clazomenid"
 		birth_date=253.1.2
 		death_date=325.1.2
 		culture="aegean"
@@ -187,7 +187,7 @@
 	country"ABD"
 	596={
 		first_name="Democritus"
-		family="Democritid"
+		family_name="Democritid"
 		birth_date=293.1.2
 		death_date=383.1.2
 		culture="aegean"
@@ -208,7 +208,7 @@
 	}
 	597={
 		first_name="Anaxarchus"
-		family="Anaxarchid"
+		family_name="Anaxarchid"
 		birth_date=373.1.2
 		death_date=433.1.2
 		culture="aegean"
@@ -232,7 +232,7 @@
 	country="MLO"
 	598={
 		first_name="Hecataeus"
-		family="Miletosid"
+		family_name="Miletosid"
 		birth_date=203.1.2
 		death_date=277.1.2
 		culture="aeolian"
@@ -255,7 +255,7 @@
 	country="GAY"
 	599={
 		first_name="Sappho"
-		family="Cleïsid"
+		family_name="Cleïsid"
 		birth_date=123.1.2
 		death_date=183.1.2
 		culture="aeolian"
@@ -274,94 +274,5 @@
 		add_trait="intelligent"
 		add_trait="generous"
 		dna="FvwW/Ix1jHWwkLCQAm8CbwKRApECaQJpApECkQKSApICbgJuAoUChQJ/An8CfQJ9AV8BXwJ+An4CdQJ1AVYBVgOxA7EDngOeAVsBWwTSBNICdQJ1AnsCewTHBMcEwQTBAmgCaAJ2AnYCfgJ+AmYCZgJrAmsClAKUAnECcQKKAooCagJqAmYCZgJoAmgDpQOlAnYCdgOuA64CgAKAA64DrgJzAnMCbgJuAngCeAJ+An4ChwKHAnUCdQKCAoICjgKOAncCdwKXApcCeAJ4AosCiwKKAooCcgJyAosCiwKUApQCjAKMBMcExwJ6AnoA0wDTAK8ArwACAAIA1wDXAIcAhwCTAJMBZwFnAPAA8AAEAAQEyATIAA0ADQB/AH8BUAFQAXEBcQADAAMAMAAwApECkQEPAQ8CrQKtAEoASgB/AH8AvwC/ANoA2gD4APgAzwDPAvsC+wBXAFcAYABgAJ0AnQApACkDLAMsAFIAUgB7AHsBawFrAH8AfwHBAcEFHAXJAA0ADQUIBQgCyQLJAr8CvwAAAAAAAAAAAAAAAA=="
-	}
-}
-"ION" = {
-	country="ION"
-	600={
-		first_name="Nausiphanes"
-		family="Teosid"
-		birth_date=428.1.2
-		culture="aeolian"
-		religion="pyrrhonism"
-		no_stats=yes
-		add_martial=1
-		add_charisma=13
-		add_finesse=8
-		add_zeal=11
-		no_traits=yes
-		add_trait="ambitious"
-		add_trait="blunt"
-		add_trait="sceptical"
-		add_trait="scholar"
-		add_trait="intelligent"
-		dna="H+sf64mGiYb0+/T7Am8CbwJ3AncCkgKSAnECcQFiAWICkAKQApUClQKJAokCigKKApICkgJnAmcCaQJpA5oDmgJ7AnsCgQKBAVgBWABKAEoCiAKIAnECcQJ8AnwCjQKNAoYChgKDAoMCbgJuAoQChAJwAnADmgOaAmgCaAJ2AnYCbQJtA7ADsAKPAo8ClQKVApcClwJ/An8ClgKWAmYCZgKCAoICawJrApkCmQJ2AnYCmAKYAooCigA6ADoDoAOgApgCmAFbAVsCkgKSAocChwKRApEChQKFAoICggJ3AncCeQJ5AooCigDdAN0AiQCJAMAAwACHAIcArQCtAX4BfgKOAo4BSQFJABgAGAFuAW4A+AD4AMQAxAB/AH8AggCCATUBNQKwArAChwKHAD8APwEQARAAiACIAH0AfQB/AH8AQgBCAL0AvQCzALMA+wD7AMsAywKAAoABKgEqA30DfQAWABYCygLKATsBOwCRAJEI7QjtAH8AfwG7AbsFeQV5AIYAhgWnBacCcgJyAjMCMwAAAAAAAAAAAAAAAA=="
-	}
-	601={
-		first_name="Epicurus"
-		family="Neoclid"
-		birth_date=412.2.2
-		culture="athenian"
-		religion="epicureanism"
-		no_stats=yes
-		add_martial=1
-		add_charisma=13
-		add_finesse=8
-		add_zeal=11
-		no_traits=yes
-		add_trait="wise"
-		add_trait="sceptical"
-		add_trait="good_natured"
-		add_trait="intelligent"
-		add_trait="loving"
-		add_trait="founder"
-		dna="ioqKiouJi4nsnuyeAokCiQKGAoYCZwJnAnQCdAJ8AnwCjQKNAm4CbgKXApcCfgJ+An8CfwJ0AnQBVgFWABkAGQKKAooCbQJtApMCkwFkAWQChQKFApICkgThBOECfgJ+AoECgQKUApQChQKFAo4CjgJ0AnQChwKHApcClwKRApECjAKMAokCiQJzAnMChgKGA6ADoAJzAnMClwKXAoMCgwJvAm8CcQJxApYClgJ5AnkBVAFUAmYCZgKQApACawJrAnMCcwJzAnMCfAJ8An0CfQKIAogCjAKMApICkgKOAo4CbQJtAoYChgJ/An8ACgAKARABEAKOAo4AzgDOAVQBVADBAMEAJgAmAUsBSwAGAAYBaAFoAD4APgB/AH8AmACYAEIAQgDIAMgAFwAXAAwADABuAG4B4gHiAqUCpQB/AH8AlgCWALwAvADtAO0AYgBiApECkQFFAUUBYAFgAzEDMQFgAWAAWwBbAysDKwMTAxME2wTbAH8AfwBxAHEFqAWBAEcARwCRBfQCnwKfAqoCqgAAAAAAAAAAAAAAAA=="
-	}
-}
-"KIT"={
-	country="KIT"
-	602={
-		first_name="Zeno"
-		family="Mnaseasid"
-		birth_date=419.1.2
-		culture="alashiyan"
-		religion="stoicism"
-		no_stats=yes
-		add_martial=1
-		add_charisma=13
-		add_finesse=8
-		add_zeal=11
-		no_traits=yes
-		add_trait="wise"
-		add_trait="founder"
-		add_trait="righteous"
-		add_trait="humble"
-		add_trait="good_natured"
-		add_trait="just"
-		dna="EfMR875/vn//0P/QAnECcQJ7AnsCjQKNAnwCfAJwAnABYQFhAokCiQKXApcEygTKAocChwS5BLkCegJ6Ao0CjQJ+An4DmwObAn0CfQKWApYChAKEAoYChgKSApIE4gTiAn0CfQKEAoQClwKXAnQCdAJ+An4CjAKMAnICcgKDAoMChgKGAnsCewOiA6ICkwKTBM4EzgJ6AnoCdwJ3ApUClQKDAoMCgwKDAnkCeQJ4AngCdgJ2AoICggJ+An4ChgKGA54DngJ4AngCggKCAnoCegJ4AngCkQKRApECkQJ6AnoClwKXApUClQKHAocAsACwATEBMQC3ALcBZgFmAMoAygFjAWMBSQFJAO8A7wLRAtEDDAMMAREBEQB/AH8A4gDiAFAAUAFtAW0BdAF0AOwA7ADBAMED0QPRAFUAVQB/AH8BYwFjAtIC0gFqAWoAiwCLACYAJgN4A3gBHAEcALsAuwBeAF4AzADMAWMBYwFDAUMI9wj3AH8AfwSZBJkFvQW9AH4AfgCJBYkChgKGArACsAAAAAAAAAAAAAAAAA=="
-	}
-}
-"ELI"={
-	country="ELI"
-	603={
-		first_name="Pyrrho"
-		family="Klytiosid"
-		birth_date=388.1.2
-		culture="aetolian"
-		religion="pyrrhonism"
-		no_stats=yes
-		add_martial=1
-		add_charisma=13
-		add_finesse=8
-		add_zeal=11
-		no_traits=yes
-		add_trait="founder"
-		add_trait="sceptical"
-		add_trait="wise"
-		add_trait="good_natured"
-		add_trait="humble"
-		add_trait="scholar"
-		add_trait="patient"
-		dna="WtZa1rh+uH7Wv9a/BNgE2AKPAo8CmAKYAogCiAJ2AnYClAKUADEAMQKRApEDrgOuApECkQKXApcCZgJmA6wDrAKKAooDqwOrAnICcgKOAo4CcwJzAnsCewJrAmsCcQJxA5cDlwJ0AnQDrQOtApICkgJsAmwCiwKLAm8CbwJ+An4CjAKMAnECcQKVApUCjQKNAocChwAxADECcwJzAooCigOvA68CiQKJAmoCagKAAoACmAKYAo8CjwOhA6ECeAJ4AnsCewKVApUCggKCAnwCfAKCAoICbQJtAmgCaAJwAnACcgJyAB0AHQIsAiwArwCvAq4CrgE6AToCmAKYApICkgKEAoQAHgAeAVIBUgCaAJoDewN7AJoAmgB/AH8ARABEAB8AHwFwAXAApACkAuQC5AKXApcATgBOAXMBcwB/AH8BYwFjAXUBdQCUAJQBLgEuAO8A7wFiAWIAiQCJAykDKQEyATIAbwBvABIAEgMAAwAJdgl2AH8AfwNYA1gF8QXxALMAswBYBVgCtwK3Ah0CHQAAAAAAAAAAAAAAAA=="
 	}
 }
