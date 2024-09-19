@@ -24,6 +24,15 @@ missions_iran_1 = {
     on_completion = {}
     missions_iran_1_task_1 = {
         icon = "task_political"
+        highlight = {
+            scope:province = {
+                has_owner = yes
+                owner = {
+                    is_subject = yes
+                    overlord = ROOT
+                }
+            }
+        }
         allow = {
             political_influence >= 100
             stability >= 60
@@ -113,7 +122,16 @@ missions_iran_1 = {
                 this = p:3434
             }
         }
-        allow = {}
+        allow = {
+            p:3434 = {
+                num_goods_produced >= 3
+                total_population >= 20
+                civilization_value >= 50
+            }
+            p:3434.state = {
+                state_improvement_oratory_trigger = yes
+            }
+        }
         on_completion = {
             trigger_event = me_iran.5
             show_as_tooltip = {
@@ -145,7 +163,27 @@ missions_iran_1 = {
                 this = p:9241
             }
         }
-        allow = {}
+        allow = {
+            trigger_if = {
+                limit = {
+                    p:9243 = {
+                        has_food_trade_good_trigger = yes
+                    }
+                }
+                p:9243 = { has_building = basic_settlement_infratructure_building }
+            }
+            trigger_if = {
+                limit = {
+                    p:9240 = {
+                        has_food_trade_good_trigger = yes
+                    }
+                }
+                p:9240 = { has_building = basic_settlement_infratructure_building }
+            }
+            p:9241 = {
+                has_building = workshop_building
+            }
+        }
         on_completion = {
             trigger_event = me_iran.7
             show_as_tooltip = {
