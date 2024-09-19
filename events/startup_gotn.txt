@@ -232,14 +232,6 @@ gotn_events.8 = {
            primary_culture = ibero_punic
            primary_culture = atlosian
         }
-        OR = { capital_scope = {  
-            OR = {
-                is_in_region = africa_region
-                is_in_region = numidia_region
-                is_in_region = mauretainia_region
-                
-            }
-        }
     }
     fire_only_once = yes
     
@@ -248,29 +240,32 @@ gotn_events.8 = {
     }
 }
 
-gotn_events.9 = { # Bloodlines Startup
+gotn_events.9 = { 
+    
     type = country_event
-    hidden = yes
-    immediate = {
-        #c:PRY.current_ruler = {
-        #    add_trait = hazael
-        #    every_child = { add_trait = hazael }
-        #}
-        #c:HAM.current_ruler = {
-        #    add_trait = zakor
-        #    every_child = { add_trait = zakor }
-        #}
-        #c:KAR.current_ruler = {
-        #    add_trait = talmi_teshub
-        #    every_child = { add_trait = talmi_teshub }
-        #}
-        #c:LHT.current_ruler = {
-        #    add_trait = urhilina
-        #    every_child = { add_trait = urhilina }
-        #}
-        #c:SPH.current_ruler = {
-        #    add_trait = sarduri
-        #    every_child = { add_trait = sarduri }
-        #}
+    title = "gotn_events_9_title"
+    desc = "gotn_events_9_desc"
+    picture = interesting_histories_celt_chariot
+    left_portrait = current_ruler
+    left_portrait = c:ODR.current_ruler
+    left_portrait = c:CRD.current_ruler
+    right_portrait = c:MOE.current_ruler
+    right_portrait = c:TYL.current_ruler
+    right_portrait = c:DRD.current_ruler
+
+    trigger = {
+        is_ai = no
+        OR = {
+            primary_culture = thracian
+            primary_culture = odrysi
+            primary_culture = tylian
+            primary_culture = dumarian
+            primary_culture = dardanian
+         }
+    }
+    fire_only_once = yes
+    
+    option = {
+        name = "gotn_events_9.a"
     }
 }
