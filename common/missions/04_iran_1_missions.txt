@@ -72,6 +72,10 @@ missions_iran_1 = {
                 p:4985 = {
                     set_province_deity = deity:omen_thraetaona
                 }
+                add_country_modifier = {
+                    name = varena_mod
+                    duration = -1
+                }
             }
         }
     }
@@ -94,7 +98,10 @@ missions_iran_1 = {
         on_completion = {
             trigger_event = me_iran.3
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = ragha_mod
+                    duration = -1
+                }
             }
         }
     }
@@ -110,7 +117,10 @@ missions_iran_1 = {
         on_completion = {
             trigger_event = me_iran.4
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = nisai_mod
+                    duration = -1
+                }
             }
         }
     }
@@ -135,7 +145,10 @@ missions_iran_1 = {
         on_completion = {
             trigger_event = me_iran.5
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = vehrkane_mod
+                    duration = -1
+                }
             }
         }
     }
@@ -151,7 +164,10 @@ missions_iran_1 = {
         on_completion = {
             trigger_event = me_iran.6
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = gava_mod
+                    duration = -1
+                }
             }
         }
     }
@@ -187,7 +203,10 @@ missions_iran_1 = {
         on_completion = {
             trigger_event = me_iran.7
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = urva_mod
+                    duration = -1
+                }
             }
         }
     }
@@ -203,7 +222,10 @@ missions_iran_1 = {
         on_completion = {
             trigger_event = me_iran.8
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = mouru_mod
+                    duration = -1
+                }
             }
         }
     }
@@ -219,7 +241,10 @@ missions_iran_1 = {
         on_completion = {
             trigger_event = me_iran.9
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = haroiva_mod
+                    duration = -1
+                }
             }
         }
     }
@@ -235,7 +260,10 @@ missions_iran_1 = {
         on_completion = {
             trigger_event = me_iran.10
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = bakhdi_mod
+                    duration = -1
+                }
             }
         }
     }
@@ -251,7 +279,10 @@ missions_iran_1 = {
         on_completion = {
             trigger_event = me_iran.11
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = haeutmant_mod
+                    duration = -1
+                }
             }
         }
     }
@@ -267,7 +298,10 @@ missions_iran_1 = {
         on_completion = {
             trigger_event = me_iran.12
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = harakhvaiti_mod
+                    duration = -1
+                }
             }
         }
     }
@@ -283,7 +317,10 @@ missions_iran_1 = {
         on_completion = {
             trigger_event = me_iran.13
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = vaekereta_mod
+                    duration = -1
+                }
             }
         }
     }
@@ -313,7 +350,10 @@ missions_iran_1 = {
         on_completion = {
             trigger_event = me_iran.14
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = chakhra_mod
+                    duration = -1
+                }
             }
         }
     }
@@ -332,7 +372,10 @@ missions_iran_1 = {
         on_completion = {
             trigger_event = me_iran.15
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = hapta_hendu_mod
+                    duration = -1
+                }
             }
         }
     }
@@ -348,7 +391,10 @@ missions_iran_1 = {
         on_completion = {
             trigger_event = me_iran.16
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = ranha_mod
+                    duration = -1
+                }
             }
         }
     }
