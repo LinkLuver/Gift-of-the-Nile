@@ -269,3 +269,34 @@ gotn_events.9 = {
         name = "gotn_events_9.a"
     }
 }
+
+gotn_events.10 = { 
+    
+    type = country_event
+    title = "gotn_events_10_title"
+    desc = "gotn_events_10_desc"
+    picture = tyre_city
+    left_portrait = current_ruler
+    left_portrait = c:ODR.current_ruler
+    left_portrait = c:CRD.current_ruler
+    right_portrait = c:MOE.current_ruler
+    right_portrait = c:TYL.current_ruler
+    right_portrait = c:DRD.current_ruler
+
+    trigger = {
+        is_ai = no
+        OR = {
+            capital_scope = {
+                is_in_region = syria_region
+            }
+            capital_scope = {
+                is_in_region = palestine_region
+            }
+        }
+    }
+    fire_only_once = yes
+    
+    option = {
+        name = "gotn_events_9.a"
+    }
+}
