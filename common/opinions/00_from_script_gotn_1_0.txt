@@ -16,3 +16,7 @@ hebrew_same_religion = {
 hebrew_wrong_religion = {
 	value = -50
 }
+direct_control_of_canaan = {
+	value = -50
+	yearly_decay = 2
+}

@@ -323,7 +323,15 @@ me_damascus.2 = {
     option = {
         name = "me_damascus_2.a"
         custom_tooltip = me_damascus_2_tooltip
-
+        custom_tooltip = add_claims_canaan_tt
+        hidden_effect = {
+            region:palestine_region = {
+                every_region_province = {
+                    add_claim = ROOT
+                }
+            }
+        }
+        add_treasury = -50
     }
 }
 me_damascus.3 = {
@@ -336,7 +344,24 @@ me_damascus.3 = {
     option = {
         name = "me_damascus_3.a"
         custom_tooltip = me_damascus_3_tooltip
-
+        add_political_influence = -50
+        add_aggressive_expansion = 2.5
+        add_tyranny = 3
+        c:GAL = {
+            every_owned_province = {
+                set_owned_by = ROOT
+            }
+        }
+        every_country = {
+            limit = {
+                religion = judaism
+                NOT = { is_subject = yes }
+            }
+            add_opinion = {
+                modifier = direct_control_of_canaan
+                target = c:AMM
+            }
+        }
     }
 }
 me_damascus.4 = {
@@ -349,7 +374,10 @@ me_damascus.4 = {
     option = {
         name = "me_damascus_4.a"
         custom_tooltip = me_damascus_4_tooltip
-
+        add_country_modifier = {
+            name = invasion_prepped_mod
+            duration = 1825
+        }
     }
 }
 me_damascus.5 = {
