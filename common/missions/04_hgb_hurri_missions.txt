@@ -13,6 +13,9 @@
 		NOT = { has_variable = mitanni_hanigalbat }
 		NOT = { has_variable = assur_hanigalbat }
     }
+    allow = {
+		primary_culture = hurrian
+    }
 
     abort = {
         ai_mission_back_out_trigger = yes
