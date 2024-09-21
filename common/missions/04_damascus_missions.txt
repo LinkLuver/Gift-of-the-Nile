@@ -39,9 +39,11 @@ damascus_missions = {
             }
         }
     }
-    damascus_missions_task_2 = {
+    damascus_missions_task_2 = { # Claims on Canaan
         icon = "task_political"
-        allow = {}
+        allow = {
+            # befriend OR annex
+        }
         on_completion = {
             trigger_event = me_damascus.2
             show_as_tooltip = {
@@ -49,8 +51,9 @@ damascus_missions = {
             }
         }
     }
-    damascus_missions_task_3 = {
+    damascus_missions_task_3 = { # Betray Galilee
         icon = "task_political"
+        requires = { damascus_missions_task_2 }
         allow = {}
         on_completion = {
             trigger_event = me_damascus.3
@@ -59,8 +62,9 @@ damascus_missions = {
             }
         }
     }
-    damascus_missions_task_4 = {
+    damascus_missions_task_4 = { # Prepare for Invasion
         icon = "task_political"
+        requires = { damascus_missions_task_3 }
         allow = {}
         on_completion = {
             trigger_event = me_damascus.4
@@ -69,8 +73,9 @@ damascus_missions = {
             }
         }
     }
-    damascus_missions_task_5 = {
+    damascus_missions_task_5 = { # Invade Israel
         icon = "task_political"
+        requires = { damascus_missions_task_4 }
         allow = {}
         on_completion = {
             trigger_event = me_damascus.5
@@ -79,8 +84,9 @@ damascus_missions = {
             }
         }
     }
-    damascus_missions_task_6 = {
+    damascus_missions_task_6 = { # Invade Lotites
         icon = "task_political"
+        requires = { damascus_missions_task_4 }
         allow = {}
         on_completion = {
             trigger_event = me_damascus.6
@@ -89,18 +95,19 @@ damascus_missions = {
             }
         }
     }
-    damascus_missions_task_7 = {
+    damascus_missions_task_7 = { # Damascene Jerusalem
         icon = "task_political"
+        requires = { damascus_missions_task_5 damascus_missions_task_6 }
         allow = {}
-        on_completion = {
-            trigger_event = me_damascus.7
+        on_completion = {            trigger_event = me_damascus.7
             show_as_tooltip = {
 
             }
         }
     }
-    damascus_missions_task_8 = {
+    damascus_missions_task_8 = { # Temples for the Hebrews
         icon = "task_political"
+        requires = { damascus_missions_task_7 }
         allow = {}
         on_completion = {
             trigger_event = me_damascus.8
@@ -109,8 +116,9 @@ damascus_missions = {
             }
         }
     }
-    damascus_missions_task_9 = {
+    damascus_missions_task_9 = { # Befriend Galilee
         icon = "task_political"
+        requires = { damascus_missions_task_2 }
         allow = {}
         on_completion = {
             trigger_event = me_damascus.9
@@ -119,8 +127,9 @@ damascus_missions = {
             }
         }
     }
-    damascus_missions_task_10 = {
+    damascus_missions_task_10 = { # Invade Israelites
         icon = "task_political"
+        requires = { damascus_missions_task_9 }
         allow = {}
         on_completion = {
             trigger_event = me_damascus.10
@@ -129,8 +138,9 @@ damascus_missions = {
             }
         }
     }
-    damascus_missions_task_11 = {
+    damascus_missions_task_11 = { # Invade Loites
         icon = "task_political"
+        requires = { damascus_missions_task_9 }
         allow = {}
         on_completion = {
             trigger_event = me_damascus.11
@@ -139,8 +149,9 @@ damascus_missions = {
             }
         }
     }
-    damascus_missions_task_12 = {
+    damascus_missions_task_12 = { # Fate of Northern Canaan
         icon = "task_political"
+        requires = { damascus_missions_task_10 damascus_missions_task_11 }
         allow = {}
         on_completion = {
             trigger_event = me_damascus.12
@@ -149,8 +160,9 @@ damascus_missions = {
             }
         }
     }
-    damascus_missions_task_13 = {
+    damascus_missions_task_13 = { # Sponser Asherahism
         icon = "task_political"
+        requires = { damascus_missions_task_12 }
         allow = {}
         on_completion = {
             trigger_event = me_damascus.13
@@ -159,8 +171,9 @@ damascus_missions = {
             }
         }
     }
-    damascus_missions_task_14 = {
+    damascus_missions_task_14 = { # Sponser Samarian Reconstruction
         icon = "task_political"
+        requires = { damascus_missions_task_12 }
         allow = {}
         on_completion = {
             trigger_event = me_damascus.14
@@ -171,6 +184,7 @@ damascus_missions = {
     }
     damascus_missions_task_15 = {
         icon = "task_political"
+        requires = { damascus_missions_task_8 damascus_missions_task_13 damascus_missions_task_14 }
         allow = {}
         on_completion = {
             trigger_event = me_damascus.15

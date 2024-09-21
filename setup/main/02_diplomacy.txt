@@ -160,6 +160,9 @@ diplomacy = {
 	#Dardania-Serdia
 	dependency = { first = DRD second = SDI subject_type = feudatory }
 
+	#Kingdom of Damascus
+	dependency = { first = PRY second = GAL subject_type = client_state }
+
 	#Free Massalian States
 	defensive_league = {
 		member = EPO
