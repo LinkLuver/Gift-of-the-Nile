@@ -13,7 +13,8 @@ ninurta_apal_ekur_two_coronation.1 = {
 	immediate = {
 	}
 	option = {
-		name = ninurta_apal_ekur_two_coronation.1.a #Mitanni first, Hurrian Second
+		name = ninurta_apal_ekur_two_coronation.1.a #i colonize your mom
+		custom_tooltip = big_coronation_hgb.tt
 		trigger_event = {
 			id = ninurta_apal_ekur_two_coronation.2
 			days = { 7 10 }
@@ -198,6 +199,7 @@ ninurta_apal_ekur_two_coronation.9 = {
 			change_country_flag = HAG
 		}
 		set_variable = mitanni_deities
+		set_variable = hurri_hanigalbat
 	}
 }
 #Mitanni coup against Hiketas I Sibyrtid! the rebirth of a Mitanni state!

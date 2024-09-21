@@ -9,9 +9,7 @@
 
     potential = {
         NOT = { has_variable = hurri_missions_cooldown_var }
-        tag = HAG
-		NOT = { has_variable = mitanni_hanigalbat }
-		NOT = { has_variable = assur_hanigalbat }
+        has_variable = hurri_hanigalbat
     }
     allow = {
 		primary_culture = hurrian

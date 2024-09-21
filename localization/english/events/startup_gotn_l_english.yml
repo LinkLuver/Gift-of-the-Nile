@@ -90,8 +90,17 @@
  mitanni_deities.tt:0 "[THIS.GetCountry.GetName] will gain access to #E Mitanni#! deities."
  hanigalbat_to_rule_the_universe.tt:0 "We will pursue our ambitions to rule the #t Universe.#!"
  hanigalbat_assyrian_missions.tt:0 "The mission #G "To Conquer the Universe"#! will become available."
- hanigalbat_hurrian_missions.tt:0 "We will take up the path of #Y Teshub#! like our ancestors. The mission #G "The Hurrian Tempest"#! will remain available."
+ hanigalbat_hurrian_missions.tt:0 "We will take up the path of #Y Teshub#! like our ancestors. The mission #G "The Hurrian Tempest"#! will become accessible."
  mitanni_opposition_name:0 "Assyrian Opposition"
+ ## Hanigalbat Event 2 LOL
+ ninurta_apal_ekur_two_coronation.1.t:0 "For He has Spoken To Me"
+ ninurta_apal_ekur_two_coronation.1.desc:0 "On the day when Hiketas I Sibyrtid decided his future, he was visited by visions of HIM - Imploring him to leave, and seek out the ruins of ASSYRIA, for it was his duty to rule in HIS name and restore order to The Four Corners Of The Universe. And now? With his own fiefdom he impatiently lies in wait, with ambitions grander than any seen before, and a name to live up to.."
+ ninurta_apal_ekur_two_coronation.1.a:0 "And The World Shakes In Anticipation."
+ ninurta_apal_ekur_two_coronation.2.t:0 "And His Word Was Law"
+ ninurta_apal_ekur_two_coronation.2.desc:0 ""
+ ninurta_apal_ekur_two_coronation.2.a:0 "And The Sun Shines Upon Him."
+ ninurta_apal_ekur_two_coronation.2.b:0 "And The Morning Sun Greets A New Hanigalbat."
+ big_coronation_hgb.tt:0 "#E A Grand Coronation is on the Horizon.#! \n #R This will anger those underrepresented in our nation."
 
  ##Bharat Events
  claims_on_hindush_tt:0 "Gain claims on the entire #Y Hindush#!, including #E Gandhara#!, #E Sindh#!, and #E Panchanada#!."
