@@ -1,23 +1,23 @@
 ﻿l_english:
 
- damascus_missions:0 "Damascus Missions"
- damascus_missions_DESCRIPTION:0 "Mission description"
- damascus_missions_CRITERIA_DESCRIPTION:0 "This mission will be completed when"
- damascus_missions_BUTTON_TOOLTIP:0 ""
+ damascus_missions:0 "The Children of Haze'il"
+ damascus_missions_DESCRIPTION:0 "Centuries ago, our forefather Haze'il established himself as king of Damascus, and brought her to unparalleled heights. Yet he failed to secure his kingdom against the passage of time and with his death came a rebellion among his former vassals, this combined with Assyrian invasion saw his kingdom brought to ruin. With the collapse of Assyria came the rule of the Urartians, under whom our kingdom managed to rebuild itself as a wealthy, yet still minor power. Then came the dominance of Kummuh and Bit Adini, who in recent years have begun to deplete themselves in constant wars against each other, perhaps it is time for Damascus to once more champion the cause of a united, Aramaic Kingdom?"
+ damascus_missions_CRITERIA_DESCRIPTION:0 "This mission will be completed when Damascus has secured itself as the dominant power in Aram and Canaan."
+ damascus_missions_BUTTON_TOOLTIP:0 "Heed the call of the lord of heaven."
  
  #Missions
  
  damascus_missions_task_1:0 "Pan-Aramaic Congress"
- damascus_missions_task_1_DESC:0 ""
+ damascus_missions_task_1_DESC:0 "For centuries the vision of a unification of the Arameans in the face of their oppressors has seemed just barely at the edge of feasibility. With both us and our friends in Bit Agushi workind tirelessly to achieve it. After the decline of Urartu we found ourselves forming an alliance with Tadmor and managed to enjoy an era of peace. Yet a vestige of the Assyrian threat would return, as the loyalists in Bit Adini refused to acknowledge their empire had lost the region, and, finding common ground with the Hammathites, launched an immensely bloody series of campaigns to bring an end to the independence of Bit Agushi who had for so long sought to undermine Assyrian rule. In recent years the kingdom of Kummuh has also enjoyed a renaissance, and her kings have styled themselves as the Great Kings of the Hittites. Amidst this chaos, perhaps we should hold a congress in Haleb to propose a new, more permanent league?"
  
- damascus_missions_task_2:0 "Claims on Canaan"
- damascus_missions_task_2_DESC:0 ""
+ damascus_missions_task_2:0 "A new Canaanite policy?"
+ damascus_missions_task_2_DESC:0 "Our relationship with the southerners has been a rather rocky one throughout history. Allies of convenience against the Assyrians, the Samaritans have also envied our wealth, and after the death of Haze'il their betrayal brought ruin to our kingdom. A century ago, under Pareqi-Hadad we sacked their capital and installed a more reliable dynasty. Yet this time our ruin came not from the scheming of treacherous monarchs, but from popular distrust of our regime. Culminating in the exile of our friends to Galilee, and a rule by priests and judges. We now face ourselves facing two choices here, do we seek a restoration of our friends? Or should we cease operating through ineffectual intermediaries and bring Samaria directly into our kingdom?"
  
- damascus_missions_task_3:0 "Betray Galilee"
- damascus_missions_task_3_DESC:0 ""
+ damascus_missions_task_3:0 "A more direct approach"
+ damascus_missions_task_3_DESC:0 "Our Galilaean vassals have proven ineffectual in maintaining control over Samaria, and the alternative of allowing our Samaritan rivals to dominate the region and continue to oppose us is unappealing. Thus, we have decided to bring an end to their independence, and to bring Samaria fully into the fold."
  
  damascus_missions_task_4:0 "Prepare for Invasion"
- damascus_missions_task_4_DESC:0 ""
+ damascus_missions_task_4_DESC:0 "In order to support our new direct approach towards our southern neighbors, we should build up our holdings in Galilee, both to support the force necessary to finally and fully subdue the Samaritans, and as a foundation for future campaigns in the region."
  
  damascus_missions_task_5:0 "Invade Sons of Abram"
  damascus_missions_task_5_DESC:0 ""
@@ -31,7 +31,7 @@
  damascus_missions_task_8:0 "Temples for the Hebrews"
  damascus_missions_task_8_DESC:0 ""
  
- damascus_missions_task_9:0 "Befirend Galilee"
+ damascus_missions_task_9:0 "Befriend Galilee"
  damascus_missions_task_9_DESC:0 ""
  
  damascus_missions_task_10:0 "War with Israelites"
