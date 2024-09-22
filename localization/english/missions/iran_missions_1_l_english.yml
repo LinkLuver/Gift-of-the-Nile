@@ -63,11 +63,44 @@
  
  missions_iran_1_task_19:0 "Aryans, Arians, and Ariyans"
  missions_iran_1_task_19_DESC:0 "The lands to the east are some of the richest of all, we are familiar with them as they have served as our subjects many times. But now, they are to come under us as brothers, the lands of #E Aryans#!, the regions of #Y Arians#!, together they will form the southeast #E Ariyans#!."
+
+ missions_iran_1_task_20:0 "Protectors of All Noblemen"  
+ missions_iran_1_task_20_DESC:0 "As we expand our identity to include the whole of the #Y Ariyans#! in the world, we must consider how we all are different. In reconciling these differences, we could promote a #Y Pan-Ariyan#! identity."  
+ 
+ missions_iran_1_task_21:0 "Worship of Devils"  
+ missions_iran_1_task_21_DESC:0 "The #T Vedic#! faith is a difficult one to stomach. They directly worship the #R Daevas#!, and thus they cannot discern the differences between #E Asha#!, truth, and #E Druj#!, falsehoods. However, there are a few options. While they reject #Y Ahuramazda#!, saying that 'Ashura must not be worshipped,' they seem more maleable to the idea of #Y Mithra#!. The worship of #Y Mithra#!, although slightly wayward, may help us bridge the gap and bring our cousins back into the fold. Otherwise, we can force them to forget their #R Daeva#! worship, greatly upsetting them."  
+ 
+ missions_iran_1_task_22:0 "The 7 Gods of Scythia"  
+ missions_iran_1_task_22_DESC:0 "The #Y Scythians#! and their related groups all lack the revelations of #Y Zoroaster#!, and instead they worship the #Y 7 Gods#!. If we accept these gods as #Y Yashtas#! and servants to #Y Ahuramazda#!, we can have an easier time integrating them."  
+ 
+ missions_iran_1_task_23:0 "Canonize the Role of Vakhsh"  
+ missions_iran_1_task_23_DESC:0 "In the lands far north, the god #Y Vakhsh#! reigns supreme over his domain, the #E Oxus#! river. However, other than that, we have many similarities with the #E Bactrio-Sogdian#! faith. Embelishing a #R Fire Temple#! at the origin of the #E Oxus#! will surely show our good will and have the #E Vakhshites#! join us in devotion to #Y Ahuramazda#!."  
+ 
+ missions_iran_1_task_24:0 "Reconcile with Wayward Faiths"  
+ missions_iran_1_task_24_DESC:0 "The many different #E Ariyans#! have lost the way of #Y Ahuramazda#! and forget the teachings of #Y Zoroaster#!. We will have to reconcile with these faiths in order to promote a unifying cultural identity."
+
+ missions_iran_1_task_25:0 "Rights for All Ariyans"
+ missions_iran_1_task_25_DESC:0 "It would be unjust of us to rule over our brothers and claim we are the same while in practice we are different. We must grant rights to all #E Ariyans#!, and only then will they accept the identity and our protection."
+
+ missions_iran_1_task_26:0 "Matter of Mithra"
+ missions_iran_1_task_26_DESC:0 "#Y Mithra#! is one of the most popular of all gods, yet some proclaim him even greater than that of #Y Ahuramazda#!, going so far as rejecting #Y Zoroaster#!. We must reel them by use of the #E Magi#! of #E Media#!, the home of the worship of #Y Mithra#!."
+
+ missions_iran_1_task_27:0 "Role of Zurvan"
+ missions_iran_1_task_27_DESC:0 "#Y Zurvan#! and his cult have taken a turn that one can only call heretical, believing that #Y Zurvan#! exists outside the double-sided coin of #Y Ahuramazda#! and #Y Ahriman#!. Regardless, the #E Zurvanite#! faith can be reconciled with. We shall refine the role of #Y Zurvan#!, and object to any other interpretation."
+
+ missions_iran_1_task_28:0 "Pan-Ariyanism"
+ missions_iran_1_task_28_DESC:0 "With the gods of the #E Ariyans#! as well as the rights of the #E Ariyans#! in place, under the wisdom of the all-great #Y Ahuramazda#!, we can now promote our #E Pan-Ariyan#! identity!"
  
  #Tooltips
  annex_everyone_tt:0 "All subjects will be #E annexed#! immediately."
  claims_india_persia_tt:0 "Gain claims on the #Y Ariana#!, #Y Gandhara#!, and #Y Panchanada#! regions."
  claims_bactria_persia_tt:0 "Gain claims on the #Y Parthia#!, #Y Bactriana#!, and #Y Sakia#! regions."
+ fate_of_vedas_tt:0 "Decide what to do with the #T Vedic#! adherants."
+ fate_of_scythians_tt:0 "Decide what to do with the #G Ardavda#! adherants."
+ fate_of_vaksh_tt:0 "Decide what to do with the #T Vakhshic#! adherants."
+ fate_of_zurvan_tt:0 "Decide what to do with the #Y Zurvanist#! adherants."
+ backup_religion_parthia_tt:0 "All of #Y Parthia#! has been converted to #E Mazdayasna#!."
+ 10_zurvanist_provinces_tt:0 "We own #Y 10#! provinces with #E Zurvanist#! religion."
  
  #Modifiers
  varena_mod:0 "Thraetaona's Might"
