@@ -4354,7 +4354,7 @@ country = {
 			government = aristocratic_republic
 			diplomatic_stance=warmongering_stance
 			primary_culture = samnite
-			religion = roman_pantheon
+			religion = italic_pantheon
 			centralization=10
 			capital = 32
 
@@ -4376,7 +4376,7 @@ country = {
 		MRS = {
 			government = tribal_kingdom
 			primary_culture = roman
-			religion = roman_pantheon
+			religion = italic_pantheon
 			centralization=8
 			capital = 30
 
@@ -4420,7 +4420,7 @@ country = {
 			government = plutocratic_republic
 			diplomatic_stance=trading_stance
 			primary_culture = samnite
-			religion = roman_pantheon
+			religion = italic_pantheon
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4440,7 +4440,7 @@ country = {
 		PIE = {
 			government = tribal_kingdom
 			primary_culture = samnite
-			religion = roman_pantheon
+			religion = italic_pantheon
 			centralization = 35
 			capital = 106
 
@@ -4461,7 +4461,7 @@ country = {
 		ETR = {
 			government = oligarchic_republic
 			primary_culture = etruscan
-			religion = roman_pantheon
+			religion = italic_pantheon
 			diplomatic_stance=trading_stance
 			capital = 114
 			family = 18
@@ -4486,7 +4486,7 @@ country = {
 		PRU = {
 			government = oligarchic_republic
 			primary_culture = etruscan
-			religion = roman_pantheon
+			religion = italic_pantheon
 			diplomatic_stance=trading_stance
 			capital = 120
 
@@ -4505,7 +4505,7 @@ country = {
 		FUF = {
 			government = oligarchic_republic
 			primary_culture = etruscan
-			religion = roman_pantheon
+			religion = italic_pantheon
 			diplomatic_stance=trading_stance
 			capital = 126
 
@@ -4524,7 +4524,7 @@ country = {
 		PSA = {
 			government = oligarchic_republic
 			primary_culture = etruscan
-			religion = roman_pantheon
+			religion = italic_pantheon
 			diplomatic_stance=trading_stance
 			capital = 136
 
@@ -4543,7 +4543,7 @@ country = {
 		AIR = {
 			government = oligarchic_republic
 			primary_culture = etruscan
-			religion = roman_pantheon
+			religion = italic_pantheon
 			diplomatic_stance=trading_stance
 			capital = 131
 
@@ -4561,7 +4561,7 @@ country = {
 
 		ALE = {
 			government = plutocratic_republic
-			primary_culture = massalian
+			primary_culture = etruscan
 			religion = roman_pantheon
 			diplomatic_stance=trading_stance
 			capital = 3515
@@ -4582,7 +4582,7 @@ country = {
 		FNT = {
 			government = tribal_kingdom
 			primary_culture = ligurian
-			religion = roman_pantheon
+			religion = italic_pantheon
 			centralization=8
 			capital = 138
 			diplomatic_stance=trading_stance
@@ -4603,7 +4603,7 @@ country = {
 		SAB = {
 			government = tribal_kingdom
 			primary_culture = samnite
-			religion = roman_pantheon
+			religion = italic_pantheon
 			centralization=8
 			capital = 107
 			diplomatic_stance=trading_stance
@@ -4625,7 +4625,7 @@ country = {
 		UMB = {
 			government = aristocratic_republic
 			primary_culture = umbrian
-			religion = roman_pantheon
+			religion = italic_pantheon
 			centralization=8
 			capital = 103
 			diplomatic_stance=warmongering_stance
@@ -4701,7 +4701,7 @@ country = {
 		LCA = {
 			government = tribal_kingdom
 			primary_culture = lucanian
-			religion = roman_pantheon
+			religion = italic_pantheon
 			centralization=8
 			capital = 53
 			diplomatic_stance=appeasement_stance
@@ -4722,7 +4722,7 @@ country = {
 		BRT = {
 			government = tribal_kingdom
 			primary_culture = bruttian
-			religion = roman_pantheon
+			religion = italic_pantheon
 			centralization=8
 			capital = 77
 
@@ -4806,7 +4806,7 @@ country = {
 		INM = {
 			government = tribal_kingdom
 			primary_culture = ligurian
-			religion = roman_pantheon
+			religion = italic_pantheon
 
 			capital = 3545
 
@@ -4826,7 +4826,7 @@ country = {
 		IGN = {
 			government = tribal_kingdom
 			primary_culture = ligurian
-			religion = roman_pantheon
+			religion = italic_pantheon
 
 			capital = 3547
 
@@ -4845,7 +4845,7 @@ country = {
 		GUN = {
 			government = tribal_kingdom
 			primary_culture = ligurian
-			religion = roman_pantheon
+			religion = italic_pantheon
 
 			capital = 141
 
@@ -4887,7 +4887,7 @@ country = {
 		EPA = {
 			government = tribal_kingdom
 			primary_culture = ligurian
-			religion = roman_pantheon
+			religion = italic_pantheon
 
 			capital = 3553
 
@@ -4992,7 +4992,7 @@ country = {
 		VNT = {
 			government = tribal_kingdom
 			primary_culture = venetic
-			religion = roman_pantheon
+			religion = italic_pantheon
 			centralization=60
 
 			capital = 3598
@@ -5006,7 +5006,7 @@ country = {
 		HIS = {
 			government = tribal_kingdom
 			primary_culture = histrian
-			religion = roman_pantheon
+			religion = italic_pantheon
 
 			capital = 4019
 
@@ -5019,7 +5019,7 @@ country = {
 		KRN = { #change Galatia
 			government = tribal_kingdom
 			primary_culture = carnian
-			religion = roman_pantheon
+			religion = italic_pantheon
 			centralization=10
 
 			capital = 4025
@@ -5032,7 +5032,7 @@ country = {
 		RAE = {
 			government = tribal_kingdom
 			primary_culture = rhaetian
-			religion = roman_pantheon
+			religion = italic_pantheon
 			centralization=10
 
 			capital = 3663
@@ -5219,7 +5219,7 @@ country = {
 		FRE = {
 			government = tribal_kingdom
 			primary_culture = samnite
-			religion = roman_pantheon
+			religion = italic_pantheon
 			#Vassal of Rome
 			capital = 35
 
@@ -5240,7 +5240,7 @@ country = {
 		PEL = {
 			government = tribal_kingdom
 			primary_culture = samnite
-			religion = roman_pantheon
+			religion = italic_pantheon
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -6518,7 +6518,7 @@ country = {
 		BLD = {
 			government = tribal_federation
 			primary_culture = talaiotic
-			religion = carthaginian_pantheon
+			religion = nuragic_pantheon
 
 			capital = 1465
 
@@ -8865,7 +8865,7 @@ country = {
 		DIT = { #Iapodia
 			government = tribal_kingdom
 			primary_culture = iapodian
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 
 			capital = 4033
 
@@ -8877,7 +8877,7 @@ country = {
 		LBN = {
 			government = tribal_kingdom
 			primary_culture = liburnian_culture
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 
 			capital = 4053
 
@@ -8889,7 +8889,7 @@ country = {
 		DLM = {
 			government = tribal_kingdom
 			primary_culture = greco_illyrian
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 
 			capital = 4066
 
@@ -8901,7 +8901,7 @@ country = {
 		PII = {
 			government = tribal_kingdom
 			primary_culture = greco_illyrian
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 
 			capital = 4083
 
@@ -8913,7 +8913,7 @@ country = {
 		DRI = {
 			government = tribal_kingdom
 			primary_culture = greco_illyrian
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 
 			capital = 4086
 
@@ -8925,7 +8925,7 @@ country = {
 		CAA = { #change Galatia
 			government = tribal_kingdom
 			primary_culture = catari
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 
 			capital = 4177
 
@@ -8937,7 +8937,7 @@ country = {
 		LTB = { #change Galatia
 			government = tribal_kingdom
 			primary_culture = carnian
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 
 			capital = 4027
 
@@ -8949,7 +8949,7 @@ country = {
 		ABI = {
 			government = tribal_kingdom
 			primary_culture = taulantian
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 
 			capital = 4091
 
@@ -8961,7 +8961,7 @@ country = {
 		CVI = {
 			government = tribal_kingdom
 			primary_culture = taulantian
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 
 			capital = 4092
 
@@ -8973,7 +8973,7 @@ country = {
 		DNT = { #change Galatia
 			government = tribal_kingdom
 			primary_culture = greco_illyrian
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 
 			capital = 4061
 
@@ -8985,7 +8985,7 @@ country = {
 		BCI = {
 			government = tribal_kingdom
 			primary_culture = pannonian
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 
 			capital = 4077
 
@@ -8997,7 +8997,7 @@ country = {
 		DUI = {
 			government = tribal_kingdom
 			primary_culture = deurian
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 
 			capital = 4068
 
@@ -9009,7 +9009,7 @@ country = {
 		AMI = {
 			government = tribal_kingdom
 			primary_culture = deraemestian
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 
 			capital = 4106
 
@@ -9021,7 +9021,7 @@ country = {
 		OXU = {
 			government = tribal_kingdom
 			primary_culture = deraemestian
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 
 			capital = 4105
 
@@ -9102,7 +9102,7 @@ country = {
 			family = 53
 			government = despotic_monarchy
 			primary_culture = taulantian
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 
 			capital = 415
 
@@ -9528,7 +9528,7 @@ country = {
 			family = 50
 			government = tribal_kingdom
 			primary_culture = paeonian
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 			diplomatic_stance=appeasement_stance
 			capital = 397 #Stobi
 
@@ -9542,7 +9542,7 @@ country = {
 		MAD = {
 			government = tribal_kingdom
 			primary_culture = paeonian
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 			diplomatic_stance=appeasement_stance
 			capital = 498 #
 
@@ -14990,7 +14990,7 @@ country = {
 		ADZ = {
 			government = tribal_kingdom
 			primary_culture = pannonian
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 			centralization = 25
 
 
@@ -15004,7 +15004,7 @@ country = {
 		AMA = {
 			government = tribal_kingdom
 			primary_culture = pannonian
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 			centralization = 25
 
 			capital = 4192
@@ -15095,7 +15095,7 @@ country = {
 		SEG = { #Segestania
 			government = tribal_kingdom
 			primary_culture = catari
-			religion = roman_pantheon
+			religion = illyrian_pantheon
 			centralization = 25
 
 
@@ -15497,7 +15497,7 @@ country = {
 		X47 = {
 			government = tribal_kingdom
 			primary_culture = corsian
-			religion = carthaginian_pantheon
+			religion = nuragic_pantheon
 			centralization = 50
 
 			pantheon = {
@@ -15517,7 +15517,7 @@ country = {
 		CRC = {
 			government = tribal_kingdom
 			primary_culture = nuragic
-			religion = carthaginian_pantheon
+			religion = nuragic_pantheon
 			centralization = 50
 
 			pantheon = {
@@ -15537,7 +15537,7 @@ country = {
 		LUG = {
 			government = tribal_kingdom
 			primary_culture = nuragic
-			religion = carthaginian_pantheon
+			religion = nuragic_pantheon
 			centralization = 50
 
 			pantheon = {
@@ -15557,7 +15557,7 @@ country = {
 		KEL = {
 			government = tribal_kingdom
 			primary_culture = nuragic
-			religion = carthaginian_pantheon
+			religion = nuragic_pantheon
 			centralization = 50
 
 			pantheon = {
@@ -15577,7 +15577,7 @@ country = {
 		RUB = {
 			government = tribal_kingdom
 			primary_culture = nuragic
-			religion = carthaginian_pantheon
+			religion = nuragic_pantheon
 			centralization = 50
 
 			pantheon = {

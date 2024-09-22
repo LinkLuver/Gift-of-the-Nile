@@ -1024,7 +1024,7 @@ etruscan_heritage = {
     }
 
     trigger = {
-        tag = ETR
+        primary_culture = etruscan
     }
 }
 

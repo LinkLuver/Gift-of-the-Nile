@@ -176,6 +176,7 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
+		religion="zurvan_religion"
 		amount=1
 	}
 	citizen={
@@ -183,6 +184,7 @@
 		amount=2
 	}
 	freemen={
+		religion="zurvan_religion"
 		amount=3
 	}
 	slaves={
