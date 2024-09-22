@@ -8041,21 +8041,6 @@ cyrti_heritage = {
     }
 }
 
-subartu_heritage = {
-    modifier = {
-        #good
-        happiness_for_wrong_culture_group_modifier = 0.03
-        mountain_combat_bonus = 0.10
-        
-        #bad
-        global_population_capacity_modifier = -0.05
-    }
-    
-    trigger = {
-        primary_culture = shubar
-    }
-}
-
 tukri_heritage = {
     modifier = {
         #good
@@ -8068,6 +8053,21 @@ tukri_heritage = {
     
     trigger = {
         primary_culture = tukri
+    }
+}
+
+subartu_heritage = {
+    modifier = {
+        #good
+        happiness_for_wrong_culture_group_modifier = 0.03
+        mountain_combat_bonus = 0.10
+        
+        #bad
+        global_population_capacity_modifier = -0.05
+    }
+    
+    trigger = {
+        tag = AT7
     }
 }
 
