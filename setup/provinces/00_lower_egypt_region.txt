@@ -286,12 +286,17 @@
 	civilization_value=32
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		culture="retenuan"
+		religion="aten_religion"
+		amount=3
+	}
 	citizen={
 		amount=11
 	}
 	citizen={
 		culture="hebrew"
-		religion="judaism"
+		religion="edomite"
 		amount=3
 	}
 	freemen={
@@ -309,6 +314,7 @@
 		amount=2
 	}
 	port_building=1
+	fortress_building=2
 }
 
 510={ #Tahpanhes

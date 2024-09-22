@@ -99,8 +99,16 @@
  fate_of_scythians_tt:0 "Decide what to do with the #G Ardavda#! adherants."
  fate_of_vaksh_tt:0 "Decide what to do with the #T Vakhshic#! adherants."
  fate_of_zurvan_tt:0 "Decide what to do with the #Y Zurvanist#! adherants."
+ fate_of_mitra_tt:0 "Decide what to do with the #R Mithraic#! adherants."
+ 5_vedic_provinces_tt:0 "We own #Y 5#! provinces with #E Vedic#! religion."
+ backup_religion_vedic_tt:0 "None of #Y Sindh#!, #Y Panchanada#!, and #Y Gandhara#! worship the #E Vedic#! religion.."
+ 10_heptadic_provinces_tt:0 "We own #Y 10#! provinces with #E Ardavda#! religion."
  backup_religion_parthia_tt:0 "All of #Y Parthia#! has been converted to #E Mazdayasna#!."
  10_zurvanist_provinces_tt:0 "We own #Y 10#! provinces with #E Zurvanist#! religion."
+ backup_religion_bactria_tt:0 "All of #Y Bactriana#! and #Y Sogdiana#! has been converted to #E Mazdayasna#!."
+ 10_vaksh_provinces_tt:0 "We own #Y 10#! provinces with #E Vakhshic#! religion."
+ annex_subjects_tt:0 "We immediately #E annex#! all of our #Y Subjects#!."
+ any_mitra_variant_tt:0 "We worship any form of the god #Y Mithra#!."
  
  #Modifiers
  varena_mod:0 "Thraetaona's Might"

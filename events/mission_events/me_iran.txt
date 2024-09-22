@@ -19,14 +19,17 @@ me_iran.1 = {
     option = {
         name = "me_iran_1.a"
         custom_tooltip = me_iran_1_tooltip
-        every_country = {
-            limit = {
-                has_variable = annexees_persia
-            }
-            every_owned_province = {
-                set_owned_by = c:PES
+        hidden_effect = {
+            every_country = {
+                limit = {
+                    has_variable = annexees_persia
+                }
+                every_owned_province = {
+                    set_owned_by = c:PES
+                }
             }
         }
+        custom_tooltip = annex_subjects_tt
         add_treasury = 100
     }
 }

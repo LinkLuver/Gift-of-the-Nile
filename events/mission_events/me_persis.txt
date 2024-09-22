@@ -1251,14 +1251,6 @@ me_persis.28 = {
     desc = me_persis_28_desc
     picture = tlc_cave_temple
 
-    immediate = {
-        every_subject = {
-            limit = {
-                overlord = c:PES
-            }
-            set_variable = anexee_var
-        }
-    }
     option = {
         name = me_persis_28.b
         set_variable = lands_of_revelation_var
@@ -1266,15 +1258,5 @@ me_persis.28 = {
         change_country_adjective = IRAN_ADJ
         change_country_color = iran_green
         change_country_flag = PES_2
-        hidden_effect = {
-            every_country = {
-                limit = {
-                    has_variable = anexee_var
-                }
-                every_owned_province = {
-                    set_owned_by = ROOT
-                }
-            }
-        }
     }
 }

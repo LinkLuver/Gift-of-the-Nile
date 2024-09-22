@@ -54,7 +54,7 @@ diplomacy = {
 	dependency = { first = LYD second = MLO subject_type = subject_league_city_state }
 	dependency = { first = LYD second = MYD subject_type = tributary }
 	dependency = { first = LYD second = BIT subject_type = tributary }
-	dependency = { first = LYD second = PGM subject_tyle = satrapy }
+	dependency = { first = LYD second = PGM subject_type = satrapy }
 
 	#Numidian Kingdom
 	dependency = { first = MSS second = IOL subject_type = tributary }
@@ -72,6 +72,9 @@ diplomacy = {
 
 	#Hamath
 	dependency = { first = HAM second = LHT subject_type = client_state }
+
+	#Que
+	dependency = { first = HAM second = HT2 subject_type = tributary }
 
 	##Greek Leagues
 	#Neo-Dellian League
