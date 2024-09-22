@@ -2228,7 +2228,7 @@ CHRYSAORIC_FLAG = {
 	}
 }
 
-PERGAMON_FLAG = {
+PGM = {
 	pattern = "pattern_solid.tga"
 	color1 = "mid_grey"
 	color2 = "offwhite"

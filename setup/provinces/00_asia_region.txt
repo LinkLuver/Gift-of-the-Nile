@@ -858,32 +858,32 @@
 278={ #Pergamon
 	terrain="forest"
 	culture="mysian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods="papyrus"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="macedonian"
-		religion="roman_pantheon"
+		culture="troan"
 		amount=2
 	}
 	citizen={
 		amount=2
+		religion="anatolian_religion"
 	}
 	citizen={
-		culture="hebrew"
-		religion="judaism"
+		culture="lydian"
+		religion="anatolian_religion"
 		amount=1
 	}
 	citizen={
-		culture="macedonian"
+		culture="troan"
 		religion="roman_pantheon"
 		amount=1
 	}
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="lydian"
+		religion="anatolian_religion"
 		amount=1
 	}
 	citizen={
@@ -895,8 +895,8 @@
 		amount=4
 	}
 	freemen={
-		culture="hebrew"
-		religion="judaism"
+		culture="lydian"
+		religion="anatolian_religion"
 		amount=1
 	}
 	freemen={
@@ -905,12 +905,12 @@
 		amount=2
 	}
 	freemen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="lydian"
+		religion="anatolian_religion"
 		amount=1
 	}
 	freemen={
-		culture="macedonian"
+		culture="troan"
 		religion="roman_pantheon"
 		amount=1
 	}
