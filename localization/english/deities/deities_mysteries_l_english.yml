@@ -17,13 +17,33 @@
 
  ###PLATONISM
  deity_socrates:0 "$omen_socrates$"
- omen_socrates:0 "Socrates"
+ omen_socrates:0 "Sokrates"
  omen_socrates_desc:0 "#Y Platonic Philosopher#! \nSocrates is one of the greatest of the Greek philosophers and had a profound influence on everyone who came after him. According to his pupil Plato, Socrates claimed that the only thing he could truly know was his own ignorance and that true knowledge was impossible for humans to reach but that the pursuit of knowledge was inherently virtuous. Rather than teaching a fixed doctrine, Socrates used a novel dialectical method to seek truth. The Socratic method begins by seeking a definition of the subject and then proceeds to identify inconsistencies with regard to the definition by questioning, hoping to reach a new definition which is closer to absolute truth. Eventually, Socrates was put on trial for corrupting the minds of the young men of Athens and insulting the gods of the state. In an unsuccessful defence he claimed that he had been valuable to the state by stinging it like a gadfly in the service of divine truth, and that he could not have corrupted anyone since he would then have been in danger of being corrupted himself which no thinking person would want. He proposed that the city give him free food and housing as a 'punishment' for his services to truth, but instead the jury of citizens sentenced him to death by hemlock poisoning."
 
  deity_plato:0 "$omen_plato$"
- omen_plato:0 "Plato"
+ omen_plato:0 "Platon"
  omen_plato_desc:0 "#Y Platonic Philosopher#! \nPlato, born Aristocles, was a student of Socrates and one of the most influential philosophers of all time in his own right. In his best-known work,#E Politeia#!, also called the#E Republic#!, Plato makes use of characters including Socrates to expound on justice and virtue, to consider and dismiss various types of government - settling on rule by an enlightened Philosopher-King as the ideal political system - and to elaborate his theory of Forms, which he claims are the underlying essences of all things and the only sources of true knowledge. He likens the material world to shadows cast on a wall by objects in firelight, observed by prisoners in a cave who know no greater reality. The philosopher, then, is like a former prisoner who comes to understand the true nature of the shadows and experience higher knowledge - in the light of the Sun rather than the firelight inside - only after leaving the cave. In Plato's theory, the Form of the Good is the mysterious highest Form in existence, that which virtue seeks to replicate and of which knowledge results in justice."
- PLATO_NICKNAME:0 "Plato"
+ PLATO_NICKNAME:0 "Platon"
+
+ deity_aristotle:0 "$omen_aristotle$"
+ omen_aristotle:0 "Aristoteles"
+ omen_aristotle_desc:0 "#Y Peripatetic Philosopher#! \nAristoteles, also called Aristotle, was a native of Stagira in Macedonia, but moved to Athens at a young age and studied under Plato for 20 years. After the death of Plato, Aristotle spent time studying the flora and fauna of Lesbos with Theophrastus before taking up a royal commission as tutor to Philip II of Macedon's young heir, the later Alexander III. Returning to Athens a decade later, Aristotle founded his own school at the Lykeion or Lyceum (a temple to the god Apollo Lykeios) where he lectured to the public and amassed scholarly texts in a great library. In philosophy, Aristotle is best known for his formalisation of syllogistic logic and his ontology of immanent realism which contrasts with Plato in asserting that universal forms are only what is present in every instance. He was famed for his systematic approach to natural philosophy, including studies in mechanics, optics, astronomy and biology."
+
+ deity_theophrastus:0 "$omen_theophrastus$"
+ omen_theophrastus:0 "Theophrastos"
+ omen_theophrastus_desc:0 "#Y Peripatetic Philosopher#! \nTheophrastos, born Turtamos, was a native of Lesbos, a student of Plato and later of Aristotle with whom he travelled and pursued natural philosophy after Plato's death. Much like Aristotle, he was a prolific writer on a broad range of topics."
+
+ deity_speusippus:0 "$omen_speusippus$"
+ omen_speusippus:0 "Speusippos"
+ omen_speusippus_desc:0 "#Y Platonic Philosopher#! \nSpeusippos was one of Plato's most prominent students as well as his nephew. He took over leadership of the Academy following Plato's death but resigned after suffering a stroke some years later. He diverged significantly from his uncle's teachings, including in rejecting the theory of forms and the primacy of the Good. He was most interested in the differences between things and in categorising species of things, furthering the differentiation of branches of knowledge in order to more fully understand them. In contrast to Eudoxos, who identified the Good with pleasure, Speusippos identified the Good as being in between pleasure and pain."
+
+ deity_eudoxus:0 "$omen_eudoxus$"
+ omen_eudoxus:0 "Eudoxos"
+ omen_eudoxus_desc:0 "#Y Platonic Philosopher#! \nEudoxos of Knidos was a student of Plato and a polymath who made important contributions to astronomy and mathematics. In ethics he was a hedonist, identifying the Good with pleasure for which all men and all things aim."
+
+ deity_xenocrates:0 "$omen_xenocrates$""
+ omen_xenocrates:0 "Xenokrates"
+ omen_xenocrates_desc:0 "#Y Platonic Philosopher#! \nXenokrates of Chalkedon was a student of Plato who succeeded Speusippos as scholarch of the Academy. He attempted to develop Plato's theories, often using mathematical elements. He distinguished three forms of being - the sensible, the intelligible, and a third form combining the other two. He believed unity and duality to be gods which rule the universe, and the soul to be a self-moving number. He held that mathematical objects and ideals are identical, unlike Plato who distinguished them. He taught that virtue produces happiness but can be helped by external goods."
 
  ###ORPHISM
  deity_pythagoras:0 "$omen_pythagoras$"
@@ -48,7 +68,7 @@
 
  deity_zagreus:0 "$omen_zagreus$"
  omen_zagreus:0 "Zagreus"
- omen_zagreus_desc:0 "#Y Pythagorean God#! \nZagreus is an Orphic version of Dionysus, reincarnated after his death at the hands of the Titans. The earliest mentions of this name in literature describe him as a partner of Gaia and call him the highest god. Aeschylus linked Zagreus with Hades, as either Hades' son or Hades himself, while others call him a son of Zeus with the mortal Selebe. Orphics venerate Zagreus/Dionysus as the creator of the human soul and the inspiration for human creativity."
+ omen_zagreus_desc:0 "#Y Greek God#! \nZagreus is an Orphic version of Dionysus, reincarnated after his death at the hands of the Titans. The earliest mentions of this name in literature describe him as a partner of Gaia and call him the highest god. Aeschylus linked Zagreus with Hades, as either Hades' son or Hades himself, while others call him a son of Zeus with the mortal Selebe. Orphics venerate Zagreus/Dionysus as the creator of the human soul and the inspiration for human creativity."
 
  deity_isis_demeter:0 "$omen_isis_demeter$"
  omen_isis_demeter:0 "Isis-Demeter"
@@ -60,8 +80,36 @@
 
  ###STOICISM
  deity_zeno:0 "$omen_zeno$"
- omen_zeno:0 "Zeno"
- omen_zeno_desc:0 "#Y Stoic Philosopher#! \nZeno or Zenon of Kition was a great moral philosopher of Phoenician ancestry, who moved from his native Cyprus to Athens and eventually founded the Stoic school (named after the Stoa Poikile, the colonnade of the agora where he taught) after studying under the Cynic philosopher Crates of Thebes. Zeno divided philosophy into three parts - logic, physics and ethics. He taught that there were four stages in the process of gaining knowledge - perception, sinkatathesis (assent), katalepsis (comprehension), and finally true knowledge which only a wise man can possess. In physics, influenced by Heraclitus, Zeno taught a pantheistic view of the universe as a divine reasoning entity which creates with aether (divine artisan-fire), and the unity of the human soul with the world-soul. In ethics, Zeno took the Cynic view of happiness as the single goal of life, originating from the alignment of one's reason with universal reason. Unlike the Cynics, Zeno argued that acts which are morally indifferent have value if they aid the natural instinct for self-preservation, distinct from happiness."
+ omen_zeno:0 "Zenon"
+ omen_zeno_desc:0 "#Y Stoic Philosopher#! \nZeno or Zenon of Kition was a great moral philosopher of Phoenician ancestry, who moved from his native Cyprus to Athens and eventually founded the Stoic school (named after the Stoa Poikile, the colonnade of the agora where he taught) after studying under the Cynic philosopher Crates of Thebes. Zenon divided philosophy into three parts - logic, physics and ethics. He taught that there were four stages in the process of gaining knowledge - perception, sinkatathesis (assent), katalepsis (comprehension), and finally true knowledge which only a wise man can possess. In physics, influenced by Heraclitus, Zenon taught a pantheistic view of the universe as a divine reasoning entity which creates with aether (divine artisan-fire), and the unity of the human soul with the world-soul. In ethics, Zenon took the Cynic view of happiness as the single goal of life, originating from the alignment of one's reason with universal reason. Unlike the Cynics, Zenon argued that acts which are morally indifferent have value if they aid the natural instinct for self-preservation, distinct from happiness."
+
+ deity_diogenes:0 "$omen_diogenes$"
+ omen_diogenes:0 "Diogenes"
+ omen_diogenes_desc:0 "#Y Cynic Philosopher#! \nDiogenes of Sinope was a founder of the Cynic ('dog-like') school of thought. He led a turbulent life, being banished from his native Sinope for debasing currency and then moving to Athens where he lived as a beggar and slept in a large ceramic jar in the marketplace. From his marginal position in Athenian society he would mock and criticise social norms. Later, he was kidnapped by pirates and sold into slavery in Corinth. In Corinth, he became a teacher to Krates of Thebes."
+
+ deity_crates:0 "$omen_crates$"
+ omen_crates:0 "Krates"
+ omen_crates_desc:0 "#Y Cynic Philosopher#! \nKrates of Thebes was the most famous student of Diogenes, and later teacher of Zeno. He was also the husband of Hipparchia."
+
+ deity_hipparchia:0 "$omen_hipparchia$"
+ omen_hipparchia:0 "Hipparchia"
+ omen_hipparchia_desc:0 "#Y Cynic Philosopher#! \nHipparchia of Maroneia was a prominent female Cynic, the wife of Krates and sister of Metrokles. She was born in Thrace but, after moving to Athens with her family, she fell in love with Krates who was already an established philosopher. She told her parents that she would kill herself if they kept her from marrying Krates. After marrying him she adopted male clothing, and the couple lived as equals. Her love for Krates and rejection of the norms expected of Greek women became a popular theme for storytellers."
+
+ deity_metrocles:0 "$omen_metrocles$"
+ omen_metrocles:0 "Metrokles"
+ omen_metrocles_desc:0 "#Y Cynic Philosopher#! \nMetrokles of Maroneia was a philosopher of Thracian origins who originally studied with the Peripatetic master Theophrastus but subsequently became a student of Krates. He was the brother of Hipparchia, and one of the first to write Cynic morality stories or chreiai. According to legend, while a student at the Lyceum he farted while practising a speech and became so embarrassed by this that he attempted to starve himself to death. Krates visited Metrokles at home and told him that what he had done was natural and nothing to be ashamed of. To Cynics and Stoics, this anecdote demonstrates the worthlessness of conventional book learning prioritised by the Peripatetics."
+
+ deity_cleanthes:0 "$omen_cleanthes$"
+ omen_cleanthes:0 "Kleanthes"
+ omen_cleanthes_desc:0 "#Y Stoic Philosopher#! \nKleanthes of Assos was a successful boxer who became an early student of Zenon after moving to Athens with only 4 drachmae in his possession. He was renowned for his honesty and diligence, supporting himself as a water-carrier at night in order to study philosophy all day. He is remembered for his emphasis on action in accordance with nature and fate, as shown in his prayer - \n\n'Lead me, Zeus, and you too, Destiny, \nTo wherever your decrees have assigned me. \nI follow readily, but if I choose not, \nWretched though I am, I must follow still. \nFate guides the willing, but drags the unwilling.'"
+
+ deity_euclid_megara:0 "$omen_euclid_megara$"
+ omen_euclid_megara:0 "Eukleides o Megareus"
+ omen_crates_desc:0 "#Y Megarian Philosopher#! \nEuclid of Megara was a student of Socrates and founder of the Megarian school of philosophy. He synthesised Eleatic and Socratic ideas, positing the Eleatic 'One' as identical with the Socratic/Platonic 'Form of the Good' and as the true eternal essence of being. He took great interest in logic, where his eristic method influenced the Stoics."
+
+ deity_stilpo:0 "$omen_stilpo$"
+ omen_stilpo:0 "Stilpon"
+ omen_stilpo_desc:0 "#Y Megarian Philosopher#! \nStilpon or Stilpo was a philosopher of the Megarian school who taught both Pyrrhon and Zenon. He was known as a great logician and debater, and for overcoming his alcoholism through the pursuit of a simple lifestyle in keeping with his emphasis on virtue."
 
  ###SKEPTICISM
  deity_pyrrho:0 "$omen_pyrrho$"
@@ -92,12 +140,12 @@
  ##HELLENIC##
  deity_sappho:0 "$omen_sappho$"
  omen_sappho:0 "Sappho"
- omen_sappho_desc:0 "#Y Greek Poet#! \nThe famous Lesbian poet, Sappho was a prolific poet, probably composing around 10,000 lines. She was best-known in antiquity for her love poetry; other themes in the surviving fragments of her work include family and religion. She probably wrote poetry for both individual and choral performance. Most of her best-known and best-preserved fragments explore personal emotions and were probably composed for solo performance. Her works are known for their clarity of language, vivid images, and immediacy. The context in which she composed her poems has long been the subject of scholarly debate; the most influential suggestions have been that she had some sort of educational or religious role, or wrote for the symposium."
+ omen_sappho_desc:0 "#Y Greek Poet#! \nPerhaps the most famous Lesbian, Sappho was a prolific poet, probably composing around 10,000 lines. She is best-known for her love poetry, which is often homoerotic. Other themes in the surviving fragments of her work include family and religion. She probably wrote poetry for both individual and choral performance. Most of her best-known and best-preserved fragments explore personal emotions and were probably composed for solo performance. Her works are known for their clarity of language, vivid images, and immediacy. The context in which she composed her poems has long been the subject of scholarly debate; the most influential suggestions have been that she had some sort of educational or religious role, or wrote for the symposium."
 
  deity_homer:0 "$omen_homer$"
  omen_homer:0 "Homer"
- omen_homer_desc:0 "#Y Greek Poet#! \nHomer is considered one of the most revered and influential authors in history. The author of the epic poems, The Illiad and The Odyssey, his works ascend time itself in their sheer impact in the world. While only the Iliad and the Odyssey are associated with the name "Homer," a large number of other works were sometimes attributed to him, including the Homeric Hymns, the Contest of Homer and Hesiod, several epigrams, the Little Iliad, the Nostoi, the Thebaid, the Cypria, the Epigoni, the comic mini-epic Batrachomyomachia ("The Frog–Mouse War"), the Margites, the Capture of Oechalia, and the Phocais. These claims are not considered authentic today and were by no means universally accepted."\n\nMany interpreters, especially the Stoics, who believed that Homeric poems conveyed Stoic doctrines, regarded them as allegories, containing hidden wisdom.Perhaps partially because of the Homeric poems' extensive use in education, many authors believed that Homer's original purpose had been to educate. Homer's wisdom became so widely praised that he began to acquire the image of almost a prototypical philosopher."
+ omen_homer_desc:0 "#Y Greek Poet#! \nHomer was the revered author of the epic poems, the Iliad and the Odyssey. A large number of other works were sometimes attributed to him, including the Homeric Hymns, the Contest of Homer and Hesiod, several epigrams, the Little Iliad, the Nostoi, the Thebaid, the Cypria, the Epigoni, the comic mini-epic Batrachomyomachia ('The Frog–Mouse War'), the Margites, the Capture of Oechalia, and the Phocais.\n\nMany interpreters, especially the Stoics, who believed that Homeric poems conveyed Stoic doctrines, regarded them as allegories, containing hidden wisdom.Perhaps partially because of the Homeric poems' extensive use in education, many authors believed that Homer's original purpose had been to educate. Homer's wisdom became so widely praised that he began to acquire the image of almost a prototypical philosopher."
 
- deity_aeneus:0 "$omen_aeneus"
+ deity_aeneus:0 "$omen_aeneus$"
  omen_aeneus:0 "Aeneus"
- omen_aeneus_desc:0 "#Y Greek Hero#! \nAeneus, not to be confused with the Trojan hero Aeneas, is the Son of Apollo and the Nymph Stilbe. He is the mythical founder of the city of  Ainos. Although little known outside the city, the residents claim it is Aeneus who has led the town to prosperity. The son of Aeneus, Cyzicus is perhaps more well known, as he founded the city of Cyzicus, and welcomed the Argonauts on their voyage to Colchis. Shortly thereafter, he was slain by the Argonauts, as they confused him and his soldiers for Pelasgaians that were constantly harassing them."
+ omen_aeneus_desc:0 "#Y Greek Hero#! \nAeneus, not to be confused with the Trojan hero Aeneas, is the Son of Apollo and the Nymph Stilbe. He is the mythical founder of the city of Ainos. Although little known outside the city, the residents claim it is Aeneus who has led the town to prosperity. The son of Aeneus, Cyzicus is perhaps more well known, as he founded the city of Cyzicus, and welcomed the Argonauts on their voyage to Colchis. Shortly thereafter, he was slain by the Argonauts, as they confused him and his soldiers for Pelasgaians that were constantly harassing them."
