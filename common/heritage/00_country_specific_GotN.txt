@@ -729,11 +729,11 @@ cappadocian_heritage = {
 phrygian_heritage = {
     modifier = {
         #good
-        hostile_attrition = 0.05
+        global_pop_assimilation_speed_modifier = 0.10
         army_maintenance_cost = -0.1
 
         #bad
-        global_pop_assimilation_speed_modifier = 0.10
+        monthly_governor_wage = 0.05
 
     }
 
@@ -745,14 +745,14 @@ pamphylian_heritage = {
     modifier = {
         #good
         navy_movement_speed = 0.05
-        navy_maintenance_cost = -0.1
+        discipline = 0.05
 
         #bad
-        discipline = 0.05
+        navy_maintenance_cost = 0.10
     }
 
     trigger = {
-        tag = KTN
+        primary_culture = pamphylian
     }
 }
 #ONLY for heritages with a specific tag(list) as trigger
@@ -8052,10 +8052,7 @@ subartu_heritage = {
     }
     
     trigger = {
-        OR = {
-            primary_culture = shubar
-            tag = AT7
-        }
+        primary_culture = shubar
     }
 }
 
@@ -8446,7 +8443,7 @@ aenos_heritage = {
 potidaea_heritage = {
     modifier = {
         #good
-        hostile_attrition = 0.05
+        hostile_attrition = 1
         global_import_commerce_modifier = 0.10
         #bad
         war_score_cost = 0.10

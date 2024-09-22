@@ -2766,12 +2766,12 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=1
+		amount=3
 	}
 	nobles={
-		culture="pasargadi"
-		religion="zoroaster"
-		amount=1
+		culture="lydian"
+		religion="anatolian_religion"
+		amount=2
 	}
 	citizen={
 		culture="hebrew"
@@ -2779,35 +2779,31 @@
 		amount=1
 	}
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
-		amount=1
+		culture="lydian"
+		religion="anatolian_religion"
+		amount=2
 	}
 	citizen={
-		amount=3
-	}
-	freemen={
 		amount=4
 	}
 	freemen={
+		amount=5
+	}
+	freemen={
 		culture="hebrew"
 		religion="judaism"
 		amount=1
 	}
 	freemen={
 		culture="ionian"
-		amount=1
+		amount=3
 	}
-	freemen={
+	slaves={
 		culture="ionian"
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=2
-	}
-	tribesmen={
-		religion="anatolian_religion"
-		amount=1
 	}
 	port_building=1
 }

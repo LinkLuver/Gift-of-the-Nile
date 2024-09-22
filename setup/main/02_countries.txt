@@ -1971,7 +1971,7 @@ country = {
 			own_control_core = 	{
 				1882 1889 #cilicia_trachea_region
 				1874 1875 1879 1880 1881 #cilicia_pedias_region
-				7934 1873 1877 1878
+			    1873 1877 1878
 			}
 		}
 
@@ -10951,9 +10951,9 @@ country = {
 		}
 
 		HKS = { #Halikarnassos
-			government = plutocratic_republic
+			government = plutocratic_monarchy
 			diplomatic_stance=trading_stance
-			primary_culture = ionian
+			primary_culture = carian
 			religion = roman_pantheon
 			capital = 1981
 
@@ -10964,7 +10964,7 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
-			own_control_core = 	{ 1981 7935 }
+			own_control_core = 	{ 1981 7935 7934 }
 
             treasures = { 116 }
 		}
@@ -10991,7 +10991,7 @@ country = {
 		PON = {
 			government = tribal_kingdom
 			primary_culture = cappadocian
-			religion = zoroaster
+			religion = anatolian_religion
 
 			capital = 1819
 			centralization=10
