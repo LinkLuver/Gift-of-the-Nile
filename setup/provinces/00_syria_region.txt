@@ -1185,6 +1185,7 @@
 		religion="judaism"
 		amount=2
 	}
+	holy_site=omen_ebrimusha
 }
 
 791={ #Darkus
@@ -1337,6 +1338,7 @@
 		culture="hittite"
 		amount=1
 	}
+	holy_site=omen_teshub
 }
 
 799={ #Occaraba
@@ -1516,6 +1518,7 @@
 	slaves={
 		amount=5
 	}
+	holy_site=omen_kubaba
 }
 
 810={ #Zuqarra
