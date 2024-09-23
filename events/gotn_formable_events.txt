@@ -146,3 +146,39 @@ gotn_formable_event.2 = { # New Zagrossian Culture Group Event
     	custom_tooltip = dont_culture_group_tt
     }
 }
+gotn_formable_event.3 = { #Formation of Canaan, religion change + claims
+	type = country_event
+	title = gotn_formable_event_3_title
+	desc = gotn_formable_event_3_desc
+	picture = rep_hattusa
+
+	option = {
+		name = gotn_formable_event_3.a
+		custom_tooltip = urartu_assimilation_effect_tt
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					NOR = {
+						primary_culture = sophene
+						primary_culture = mitanni
+						primary_culture = arzonian
+						primary_culture = urtaian
+					}
+				}
+				every_pops_in_province = {
+					random_list = {
+						90 = { }
+						10 = { set_pop_culture = urtaian }
+					}
+				}
+			}
+		}
+		set_primary_culture_cleanup_effect = {
+	  		NEW_PRIMARY_CULTURE = urtaian
+  			MAKE_OLD_CULTURE_INTEGRATED = no
+    	}
+	}
+	option = {
+		name = gotn_formable_event_3.b
+	}
+}

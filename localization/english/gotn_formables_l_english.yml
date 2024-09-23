@@ -37,12 +37,19 @@
  subartu_mod:0 "Subartu Reborn"
  form_subartu: "Reform the Kingdom of Subartu"
  form_subartu_desc: "Our people once ruled the land between the rivers #Y Tigris#! and #Y Euphrates#!, and at the foothills of the #Y Zagros#!. We are an ancient people, and we do not forget our past wrongs. We must enact our revenge, reclaim our lands, and smite those who had reduced us to a petty tribe dwelling in the mountains. #Y Subartu#! is reborn!"
+
+ # Urartu
  URARTU_NAME: "Urartu"
  URARTU_ADJECTIVE: "Urartian"
  form_urartu_claims_tooltip:0 "We will gain claims on the regions of #Y Naharin#!, #Y Assyria#!, #Y Zagros#!, #Y Armenia#!, and #Y Syria#!"
  urartu_mod:0 "Legacy of Urartu"
  form_urartu: "Restore Sardurid Legacy"
  form_urartu_desc: "Our dynasty, the last of the #Y Sardurids#!, is the only nation that can truly claim the mantle of the #Y Urartian Kingdom#!. By controlling the lands of what once belonged to #Y Urartu#!, at last we can avenge our ancestors. May #Y Khaldi#! once again lead #Y Urartu#! to prosperity!"
+ gotn_formable_event_3_title:0 "Return of Urartu Identity"
+ gotn_formable_event_3_desc:0 "With the legacy of the #E Sardurids#! renewed, we can choose to reinstate the #E Urartu#! national identity. The #E Urartu#! were a noble social class, thus, reasserting that we are #E Urartu#! will cause many to identify with this class. Otherwise, we can continue our ways as #E Urartu#! descended royals ruling over a core of #E Sophene#! people. The choice is ours to make."
+ gotn_formable_event_3.a:0 "The #Y Urartu#! identity is reinstated!"
+ gotn_formable_event_3.b:0 "Our kings, #Y Urartu#!; our people #Y Sophene#!."
+ urartu_assimilation_effect_tt:0 "Up to #Y 10%#! of our non-#E Sophene#! pops will be #E assimilated#! into #E Urartu#! culture."
 
  ## Italy Formables
  # Shikala
