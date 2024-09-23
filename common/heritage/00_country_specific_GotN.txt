@@ -8454,3 +8454,33 @@ potidaea_heritage = {
                     
     }
 }
+
+aistian_heritage = {
+    modifier = {
+        #good
+        land_unit_attrition = -0.05
+        horse_archers_offensive = 0.10
+        #bad
+        research_points_modifier= -0.20
+    }
+   
+    trigger = {
+       tag = IDI
+                    
+    }
+}
+
+pergamon_heritage = {
+    modifier = {
+        #good
+        max_research_efficiency = 0.20
+        global_monthly_food_modifier = 0.10
+        #bad
+        build_cost = 0.05
+    }
+   
+    trigger = {
+       tag = PGM
+                    
+    }
+}
