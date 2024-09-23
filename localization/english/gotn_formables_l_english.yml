@@ -30,12 +30,19 @@
  NINIVE_NAME:0 "Ninive"
  NINIVE_ADJECTIVE:0 "Ninivean"
  form_ninive: "Reform the Kingdom of Ninive"
- form_ninive_desc: "The #Y Qardu#! once ruled #Y Nineveh#!. We must reconqer our city from the #Y Assyrians#!, and reclaim our heritage!"
+ form_ninive_desc: "The #Y Qardu#! once ruled #Y Nineveh#!. We must reconqer our city from the #Y Assyrians#!, and reclaim what is our right!"
  SUBARTU_NAME: "Subartu"
  SUBARTU_ADJECTIVE:0 "Subari"
- form_subartu_claims_tooltip:0 "Gain claims on the regions of #Y Assyria#!, #Y Naharin#! #Y Zagros#! and #Y Mesopotamia#!."
+ form_subartu_claims_tooltip:0 "We will gain claims on the regions of #Y Assyria#!, #Y Naharin#! #Y Zagros#! and #Y Mesopotamia#!."
+ subartu_mod:0 "Subartu Reborn"
  form_subartu: "Reform the Kingdom of Subartu"
  form_subartu_desc: "Our people once ruled the land between the rivers #Y Tigris#! and #Y Euphrates#!, and at the foothills of the #Y Zagros#!. We are an ancient people, and we do not forget our past wrongs. We must enact our revenge, reclaim our lands, and smite those who had reduced us to a petty tribe dwelling in the mountains. #Y Subartu#! is reborn!"
+ URARTU_NAME: "Urartu"
+ URARTU_ADJECTIVE: "Urartian"
+ form_urartu_claims_tooltip:0 "We will gain claims on the regions of #Y Naharin#!, #Y Assyria#!, #Y Zagros#!, #Y Armenia#!, and #Y Syria#!"
+ urartu_mod:0 "Legacy of Urartu"
+ form_urartu: "Restore Sardurid Legacy"
+ form_urartu_desc: "Our dynasty, the last of the #Y Sardurids#!, is the only nation that can truly claim the mantle of the #Y Urartian Kingdom#!. By controlling the lands of what once belonged to #Y Urartu#!, at last we can avenge our ancestors. May #Y Khaldi#! once again lead #Y Urartu#! to prosperity!"
 
  ## Italy Formables
  # Shikala
@@ -57,6 +64,12 @@
 
  ## Greek Formables
  formable_eteocrete:0 "Minoa"
+ GPAEONIA_NAME:0 "Greater Paeonia"
+ GPAEONIA_ADJECTIVE:0 "Paeonian"
+ form_greater_paeonia_claims_tooltip:0 "We will recieve claims on the regions of #Y Macedon#! and #Y Thrace#!"
+ paeonia_mod:0 "Greater Paeonia Realized"
+ form_greater_paeonia: "Reclaim our Ancestral Lands"
+ form_greater_paeonia_desc: "In our tribal halls, Stories are still told of times when our people roamed from the mountains Macedon, to the abundant plains and forests of Thrace, and when we walked along the Propontis, and touched the sea. Such idyllic times seem like a dream, but our people are not one to give up so easily. By will alone, we could recreate our lost realm, and walk on the fields of Thrace once again."
 
  ## Africa Formables
  ATLAS_NAME:0 "Atlas"

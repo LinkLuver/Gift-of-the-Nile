@@ -51,7 +51,7 @@ country_decisions = {
 				formable_capital_modifier_normal_effect = yes
 			}
 			add_country_modifier = {
-				name = subartu_mod
+			    name = subartu_mod
 				duration = -1
 			}
 			hidden_effect = {
