@@ -1,0 +1,124 @@
+achaemenid_missions_01_task = {
+    header = "mission_image_general"
+    icon = "general_1"
+
+    repeatable = no
+    chance = 1000
+
+    potential = {
+        NOT = { has_variable = mission_cooldown_var }
+    }
+
+    abort = {}
+    on_start = {
+        start_mission_ai_effect = yes
+    }
+    on_abort = {
+        custom_tooltip = general_mission_cooldown_tt
+        set_variable = {
+            name = mission_cooldown_var
+            days = 7300
+        }
+    }
+    on_completion = {}
+    achaemenid_missions_01_task_1 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_achaemenid.1
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    achaemenid_missions_01_task_2 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_achaemenid.2
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    achaemenid_missions_01_task_3 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_achaemenid.3
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    achaemenid_missions_01_task_4 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_achaemenid.4
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    achaemenid_missions_01_task_5 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_achaemenid.5
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    achaemenid_missions_01_task_6 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_achaemenid.6
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    achaemenid_missions_01_task_7 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_achaemenid.7
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    achaemenid_missions_01_task_8 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_achaemenid.8
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    achaemenid_missions_01_task_9 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_achaemenid.9
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    achaemenid_missions_01_task_10 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_achaemenid.10
+            show_as_tooltip = {
+
+            }
+        }
+    }
+}

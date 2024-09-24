@@ -346,7 +346,16 @@ missions_iran_1 = {
                 }
             }
         }
-        allow = {}
+        allow = {
+            owns_or_subject_owns_area = sattagydia_area
+            owns_or_subject_owns = 6614
+            owns_or_subject_owns = 6638
+            owns_or_subject_owns = 6628
+            owns_or_subject_owns = 6631
+            owns_or_subject_owns = 6642
+            owns_or_subject_owns = 6644
+            owns_or_subject_owns = 6643
+        }
         on_completion = {
             trigger_event = me_iran.14
             show_as_tooltip = {
@@ -368,7 +377,9 @@ missions_iran_1 = {
                 }
             }
         }
-        allow = {}
+        allow = {
+            #owns_or_subject_owns =
+        }
         on_completion = {
             trigger_event = me_iran.15
             show_as_tooltip = {
@@ -387,7 +398,9 @@ missions_iran_1 = {
                 this = p:6639
             }
         }
-        allow = {}
+        allow = {
+            owns_or_subject_owns = 6639
+        }
         on_completion = {
             trigger_event = me_iran.16
             show_as_tooltip = {
@@ -407,12 +420,12 @@ missions_iran_1 = {
             }
         }
         allow = {
-
+            owns_or_subject_owns_area = aria_area
         }
         on_completion = {
             trigger_event = me_iran.17
             show_as_tooltip = {
-
+                custom_tooltip = achieved_goal_tt
             }
         }
     }
