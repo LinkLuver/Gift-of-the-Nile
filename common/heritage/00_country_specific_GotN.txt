@@ -8056,7 +8056,7 @@ tukri_heritage = {
     }
 }
 
-subartu_heritage = {
+shubar_heritage = {
     modifier = {
         #good
         happiness_for_wrong_culture_group_modifier = 0.03
@@ -8067,7 +8067,7 @@ subartu_heritage = {
     }
     
     trigger = {
-        tag = AT7
+        primary_culture = shubar
     }
 }
 
@@ -8483,4 +8483,66 @@ pergamon_heritage = {
        tag = PGM
                     
     }
+}
+
+northern_cimmerian_heritage = {
+	modifier = {
+		#good
+		light_cavalry_defensive = 0.1
+		hills_combat_bonus = 0.10
+	   
+		#bad
+		global_monthly_food_modifier = -0.05
+	}
+   
+	trigger = {
+		tag = CM2
+	}
+}
+
+eastern_cimmerian_heritage = {
+	modifier = {
+		#good
+		light_cavalry_discipline = 0.10
+		global_defensive = 0.05
+	   
+		#bad
+		global_population_capacity_modifier = -0.05
+	}
+   
+	trigger = {
+		tag = CM4
+	}
+}
+
+arzonian_heritage = {
+	modifier = {
+		#good
+		happiness_for_same_culture_modifier = 0.06
+		fort_limit = 1
+		#bad
+		improve_relation_cost_modifier = 0.30
+	}
+   
+	trigger = {
+		primary_culture = arzonian
+	}
+}
+
+western_cimmerian_heritage = {
+	modifier = {
+		#good
+		light_cavalry_morale = 0.1
+		army_movement_speed = 0.1
+	   
+		#bad
+		general_loyalty = -5 
+	}
+   
+	trigger = {
+        OR = {
+        tag = CM1
+        tag = CM3
+        tag = CM5
+	}
 }
