@@ -37,7 +37,13 @@
  subartu_mod:0 "Subartu Reborn"
  form_subartu: "Reform the Kingdom of Subartu"
  form_subartu_desc: "Our people once ruled the land between the rivers #Y Tigris#! and #Y Euphrates#!, and at the foothills of the #Y Zagros#!. We are an ancient people, and we do not forget our past wrongs. We must enact our revenge, reclaim our lands, and smite those who had reduced us to a petty tribe dwelling in the mountains. #Y Subartu#! is reborn!"
-
+ NHITTITE_NAME: "Hittite Kingdom"
+ NHITTITE_ADJECTIVE:0 "Hittites"
+ form_hittite_claims_tooltip:0 "We will gain claims on the provinces of #Y Cicilia Pedias#!, #Y Syria#!, #Y Apamene#!, and #Y Cyrrhestica#!"
+ hittite_mod:0 "Hittite Royal Chariots"
+ form_hittite_kingdom: "Unite the Hittites"
+ form_hittite_kingdom_desc: "Our ancestors once ruled over a mighty realm in Anatolia. Although the days of the Hittite Empire are long gone, we, the Hittite people still remain. Let us unite, and forge a new path."
+ 
  # Urartu
  URARTU_NAME: "Urartu"
  URARTU_ADJECTIVE: "Urartian"
@@ -50,7 +56,7 @@
  gotn_formable_event_3.a:0 "The #Y Urartu#! identity is reinstated!"
  gotn_formable_event_3.b:0 "Our kings, #Y Urartu#!; our people #Y Sophene#!."
  urartu_assimilation_effect_tt:0 "Up to #Y 10%#! of our non-#E Sophene#! pops will be #E assimilated#! into #E Urartu#! culture."
-
+ 
  ## Italy Formables
  # Shikala
  SHIKALA_NAME:0 "Shikala"
@@ -92,7 +98,7 @@
  KASSITE_NAME:0 "Neo-Kassite Kingdom"
  KASSITE_ADJECTIVE:0 "Kassite"
  form_kassite:0 "Restore Kassite Babylon"
- form_kassite_desc:0 "The once great #Y Kassite#! realm dominated #Y Mesopotamia#!. Unfortuantely, our ancestors fell during the #T Bronze Age Collapse#!, pushed into the mountains, and for a thousand years #Y Mesopotamia#! has not been ours. Now, we have come back to our rightful thrones. Once more, the #Y Four Corners of the Universe#! will belong to US!"
+ form_kassite_desc:0 "The once great #Y Kassite#! realm dominated #Y Mesopotamia#!. Unfortuantely, our ancestors fell during the #Y Bronze Age Collapse#!, pushed into the mountains, and for a thousand years #Y Mesopotamia#! has not been ours. Now, we have come back to our rightful thrones. Once more, the #Y Four Corners of the Universe#! will belong to US!"
  formable_not_kassite_exists:0 "The #Y Kassite Kingdom#! does not exist."
 
  LULLUBI_NAME:0 "Lullubi Kingdom"
@@ -100,6 +106,12 @@
  form_lullubi:0 "Restore Lullubi Kingdom"
  form_lullubi_desc:0 "Once, the #Y Lullu#! tribes were united. They represented a front against the ever-meddling and ever-haughty #Y Mesopotamians#!. Whether from #Y Babylon#! or #Y Asshur#!, neither would conquer the mighty #Y Zagrosian#! kingdom of #Y Lullu#!. Today we bring back our beloved past, restoring the #E Lullubi Kingdom#!!"
  formable_not_lullubi_exists:0 "The #Y Lullubi Kingdom#! does not exist."
+
+ GUTIAN_KINGDOM_NAME: "Gutian Kingdom"
+ GUTIAN_KINGDOM_ADJECTIVE: "Gutian"
+ formable_not_gutian_kingdom_exists: "#Y The Gutian Kingdom#! does not exist#!."
+ form_gutian_kingdom:0 "Pronounce a new Gutian Kingdom"
+ form_gutian_kingdom_desc:0 "Although we are only related in name to the Gutians who once ruled Babylon, it would be wise of us to settle in the rich, fertile lands of Babylon, and create a kingdom of our own."
 
  ZAGROS_NAME:0 "Zagrosia"
  ZAGROS_ADJECTIVE:0 "Zagrosian"

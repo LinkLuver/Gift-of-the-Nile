@@ -1,0 +1,71 @@
+country_decisions = {
+	form_hittite_kingdom = {
+		potential = {
+			num_of_cities >= 1
+			OR = {
+			  primary_culture = hittite
+			}
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+				has_variable = has_formed_hittite_kingdom
+			}
+		}
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 792
+					province_id = 1881
+					province_id = 786
+					province_id = 809
+					province_id = 811
+					province_id = 787
+					province_id = 798
+				}
+			}
+		}
+		allow = {
+			owns = 792
+			owns = 1881
+			owns = 786
+			owns = 809
+			owns = 811
+			owns = 787
+			owns = 798
+		}
+
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			change_country_name = "NHITTITE_NAME"
+			add_2_free_province_investments = yes
+			custom_tooltip = "form_hittite_claims_tooltip"
+			capital_scope = {
+				capital_formable_small_effect = yes
+			}
+			add_country_modifier = {
+			    name = hittite_mod
+				duration = -1
+			}
+			hidden_effect = {
+				change_country_adjective = "NHITTITE_ADJECTIVE"
+				change_country_color = ck2_black
+				change_country_tag = NHT
+			hidden_effect = {
+			every_province = {
+					limit = {
+						OR = {
+							is_in_area = cilicia_pedias_area
+							is_in_area = syria_cyrrestice_area
+							is_in_area = syria_area
+							is_in_area = apamene_area
+						}
+
+					}
+					add_claim = root
+					}
+					set_variable = has_formed_hittite_kingdom
+				}
+			}
+		}
+	}	
+}			

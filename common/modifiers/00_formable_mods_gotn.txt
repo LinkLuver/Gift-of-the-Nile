@@ -17,3 +17,7 @@ paeonia_mod = {
 	omen_power = 0.10
 	global_monthly_food_modifier = 0.05
 }
+hittite_mod = {
+	chariots_morale = 0.10
+	ruler_popularity_gain = 0.02
+}
