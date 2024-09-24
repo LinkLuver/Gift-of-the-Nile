@@ -23,7 +23,7 @@ missions_iran_1 = {
     }
     on_completion = {}
     missions_iran_1_task_1 = {
-        icon = "task_political"
+        icon = "task_atlas"
         highlight = {
             scope:province = {
                 has_owner = yes
@@ -46,7 +46,7 @@ missions_iran_1 = {
         }
     }
     missions_iran_1_task_2 = {
-        icon = "task_political"
+        icon = "task_expansion"
         highlight = {
             scope:province = {
                 this = p:4985
@@ -602,14 +602,13 @@ missions_iran_1 = {
         icon = "task_political"
         requires = { missions_iran_1_task_20 }
         allow = {
-
+            tyranny <= 5
         }
         on_completion = {
             trigger_event = me_iran.24
             show_as_tooltip = {
-                add_country_modifier = {
-                    name = medes_persis_unity_mod
-                    duration = -1
+                current_ruler = {
+                    add_zeal = 2
                 }
             }
         }
@@ -631,13 +630,41 @@ missions_iran_1 = {
             }
         }
         allow = {
+            custom_tooltip = {
+                any_country_culture = {
+                    THIS.culture.culture_group = p:5261.culture.culture_group
+                    has_country_culture_modifier = right_to_enter_contracts
+                }
+                text = "contracts_bactria"
+            }
+            custom_tooltip = {
+                any_country_culture = {
+                    OR = {
+                        THIS.culture.culture_group = p:7291.culture.culture_group
+                        THIS.culture.culture_group = p:5357.culture.culture_group
+                    }
+                    has_country_culture_modifier = right_to_enter_contracts
+                }
+                text = "contracts_india"
+            }
+            custom_tooltip = {
+                any_country_culture = {
+                    OR = {
+                        THIS.culture.culture_group = p:7640.culture.culture_group
+                        THIS.culture.culture_group = p:5324.culture.culture_group
+                        THIS.culture.culture_group = p:9120.culture.culture_group
+                    }
+                    has_country_culture_modifier = right_to_enter_contracts
+                }
+                text = "contracts_scythia"
+            }
         }
         on_completion = {
             trigger_event = me_iran.25
             show_as_tooltip = {
-                add_country_modifier = {
-                    name = hyrcania_prosperity_mod
-                    duration = -1
+                current_ruler = {
+                    add_nickname = the_great
+                    add_popularity = popularity_large
                 }
             }
         }
@@ -732,19 +759,20 @@ missions_iran_1 = {
     missions_iran_1_task_28 = {
         icon = "task_political"
         requires = { missions_iran_1_task_25 }
-        highlight = {
-            scope:province = {
-                is_in_region = carmania_region
+        allow = {
+            stability >= 50
+            current_ruler = {
+                popularity >= 80
             }
         }
-        allow = {}
         on_completion = {
             trigger_event = me_iran.27
             show_as_tooltip = {
                 add_country_modifier = {
-                    name = carmania_mod
-                    duration = -1
+                    name = quick_assimilation_ariya
+                    duration = 1825
                 }
+                custom_tooltip = create_ariyan_tt
             }
         }
     }

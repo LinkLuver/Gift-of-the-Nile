@@ -12,6 +12,8 @@
 			}
 			NOT = {
 				tag = PER
+				tag = PES
+				tag = MAP
 			}
 			OR = {
 				is_ai = no

@@ -175,7 +175,7 @@ gotn_formable_event.3 = { #Formation of Canaan, religion change + claims
 		}
 		set_primary_culture_cleanup_effect = {
 	  		NEW_PRIMARY_CULTURE = urtaian
-  			MAKE_OLD_CULTURE_INTEGRATED = no
+  			MAKE_OLD_CULTURE_INTEGRATED = yes
     	}
 	}
 	option = {

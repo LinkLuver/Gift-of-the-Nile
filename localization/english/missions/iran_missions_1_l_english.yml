@@ -109,7 +109,11 @@
  10_vaksh_provinces_tt:0 "We own #Y 10#! provinces with #E Vakhshic#! religion."
  annex_subjects_tt:0 "We immediately #E annex#! all of our #Y Subjects#!."
  any_mitra_variant_tt:0 "We worship any form of the god #Y Mithra#!."
- 
+ contracts_bactria:0 "Any culture in the #Y Bactrian#! group has the #E Right to Enter Legal Contracts#! cultural decision."
+ contracts_india:0 "Any culture in the #Y Aryan#! or #Y Pracyan#! group has the #E Right to Enter Legal Contracts#! cultural decision."
+ contracts_scythia:0 "Any culture in the #Y Scythian#!, #Y Samartian#!, or #Y Sakan#! group has the #E Right to Enter Legal Contracts#! cultural decision."
+ create_ariyan_tt:0 "Establish a pan-#Y Ariyan#! culture."
+
  #Modifiers
  varena_mod:0 "Thraetaona's Might"
  ragha_mod:0 "The Three Classes"
@@ -137,11 +141,12 @@
  PES_2:0 "Ariyakhsasha Standard"
  PES_3:0 "Airyanem Vaejah Standard"
  airyanem_blue:0 "Ariyan Blue"
+ the_great:0 "the Great"
  
  #Events
  me_iran_1_title:0 "$missions_iran_1_task_1$"
  me_iran_1_desc:0 "The Lands of Revelation are those which #E Zoroaster#! converted to #E Mazdayasna#! first. They total in 16, and many fall within our bounds, while many others do not. We must unite the lands piece by piece, and the first step is to develop, conquer, or embelish the lands under our control. These are #E Varena#!, #E Ragha#!, #E Khnenta#!, and #E Nisaya#!."
- me_iran_1.a:0 ""
+ me_iran_1.a:0 "Let us begin our efforts."
  me_iran_1_tooltip:0 "The mission task '#Y $missions_iran_1_task_1$#!' has now been #G Completed#!!"
  
  me_iran_2_title:0 "$missions_iran_1_task_2$"

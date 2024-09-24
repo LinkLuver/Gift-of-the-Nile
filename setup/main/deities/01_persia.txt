@@ -1,0 +1,9 @@
+deity_manager = {
+	deities_database = { ### KEYS 31201-31300 ###
+		31201 = {
+			key = omen_thraetaona
+			deity = deity_thraetaona
+		}
+	}
+}
+

@@ -5,7 +5,7 @@ me_iran.1 = {
 
     title = me_iran_1_title
     desc = me_iran_1_desc
-    picture = great_library
+    picture = persia_marching
 
     immediate = {
         every_subject = {
@@ -43,7 +43,15 @@ me_iran.2 = {
     option = {
         name = "me_iran_2.a"
         custom_tooltip = me_iran_2_tooltip
-
+        add_treasury = -300
+        set_variable = thraetaona_special_var
+        p:4985 = {
+            set_province_deity = deity:omen_thraetaona
+        }
+        add_country_modifier = {
+            name = varena_mod
+            duration = -1
+        }
     }
 }
 me_iran.3 = {
