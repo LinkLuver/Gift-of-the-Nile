@@ -2374,7 +2374,7 @@ on_character_death = {
 			}
 			set_variable = dad_died
 			trigger_event = {
-				name = me_waset.69
+				id = me_waset.69
 				days = { 3 5 }
 			}
 		}

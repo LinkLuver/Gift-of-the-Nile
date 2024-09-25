@@ -1,4 +1,4 @@
-missions_iran_1 = {
+﻿missions_iran_1 = {
     header = "persia_mission"
     icon = "persia_3"
 
@@ -498,7 +498,7 @@ missions_iran_1 = {
         requires = { missions_iran_1_task_24 }
         highlight = {
             scope:province = {
-                AND {
+                AND = {
                     owner = ROOT
                     dominant_province_religion = hindu
                 }
@@ -541,7 +541,7 @@ missions_iran_1 = {
         requires = { missions_iran_1_task_24 }
         highlight = {
             scope:province = {
-                AND {
+                AND = {
                     owner = ROOT
                     dominant_province_religion = indo_iranian_religion
                 }
@@ -569,7 +569,7 @@ missions_iran_1 = {
         requires = { missions_iran_1_task_24 }
         highlight = {
             scope:province = {
-                AND {
+                AND = {
                     owner = ROOT
                     dominant_province_religion = vaksh_religion
                 }
@@ -734,7 +734,7 @@ missions_iran_1 = {
         requires = { missions_iran_1_task_24 }
         highlight = {
             scope:province = {
-                AND {
+                AND = {
                     owner = ROOT
                     dominant_province_religion = zurvan_religion
                 }

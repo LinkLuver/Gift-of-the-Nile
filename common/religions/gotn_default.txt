@@ -273,7 +273,7 @@ platonism = { # Platonist
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
 stoicism = { # Stoicist
-	color = rgb { 30 100 250 }
+	color = rgb { 30 200 100 }
 	modifier = { 
 		monthly_corruption = -0.01
 		happiness_for_same_culture_modifier = 0.05

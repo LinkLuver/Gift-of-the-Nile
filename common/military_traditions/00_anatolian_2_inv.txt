@@ -24,6 +24,13 @@
 			}
 			primary_culture = greco_pontic
 		}
+		trigger_else_if = {
+			limit = { country_culture_group = lydio_phrygian }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = lydio_phrygian
+		}
 		trigger_if = {
 			limit = { country_culture_group = hurro_urartian }
 			custom_tooltip = {
@@ -59,13 +66,6 @@
 				has_variable = anatolian_influence
 			}
 			custom_tooltip = tradition_unlock_requirement_anatolian
-		}
-		trigger_else_if = {
-			limit = { country_culture_group = lydio_phrygian }
-			custom_tooltip = {
-				text = "began_with_tradition_group"
-			}
-			country_culture_group = lydio_phrygian
 		}
 	}
 

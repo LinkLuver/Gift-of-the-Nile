@@ -27,7 +27,7 @@ me_damascus.1 = {
         name = "me_damascus_1.a"
         custom_tooltip = send_invite
         trigger_event = {
-            id = me_damscus.105
+            id = me_damascus.105
             days = 30
         }
         scope:tadmor_scope = {

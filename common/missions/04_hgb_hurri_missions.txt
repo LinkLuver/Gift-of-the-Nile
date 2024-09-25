@@ -34,7 +34,9 @@
     hurri_missions_task_1 = {
         icon = "task_heracles"
         allow = {
-            zeal >= 8 #Startup event could grant the ruler with a specific amount of zeal--this can def be defined
+            current_ruler = {
+                zeal >= 8 #Startup event could grant the ruler with a specific amount of zeal--this can def be defined
+            }
             custom_tooltip = {
                 any_pantheon_deity = {
                     deity_religion = hurrian_pantheon

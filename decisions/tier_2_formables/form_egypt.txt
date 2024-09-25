@@ -132,7 +132,7 @@
 			}
 			else = {
 				limit = {
-					NOT = { is_reublic = no }
+					NOT = { is_republic = no }
 				}
 				change_country_name = "KEMET_NAME"
 			}
