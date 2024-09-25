@@ -1259,4 +1259,9 @@ me_persis.28 = {
         change_country_color = iran_green
         change_country_flag = PES_2
     }
+    option = {
+        name = me_persis_28.a
+        set_variable = universal_empire
+        change_country_name = FARSI_NAME
+    }
 }

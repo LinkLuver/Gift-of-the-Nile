@@ -190,10 +190,7 @@ me_hurri.7 = {
     option = {
         name = "me_hurri_7.a"
         custom_tooltip = me_hurri_7_tooltip
-        remove_country_modifier = {
-            name = military_reforms_maryannu
-            duration = -1
-        }
+        remove_country_modifier = military_reforms_maryannu
     }
 }
 me_hurri.8 = {
@@ -211,7 +208,6 @@ me_hurri.8 = {
 }
 me_hurri.9 = {
     type = country_event
-
     title = me_hurri_9_title
     desc = me_hurri_9_desc
     picture = great_library

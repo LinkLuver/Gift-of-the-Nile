@@ -14,7 +14,7 @@ bharat_events.1 = { # Uparaja Secession
         }
         OR = {
             any_country = {
-                country_culture = pasargadi
+                primary_culture = pasargadi
                 owns_or_subject_owns = p:1595
             }
             c:PES = {

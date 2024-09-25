@@ -9,16 +9,17 @@ median_collapse.1 = { # Initial
             tag = MAP
             OR = {
                 war_with = c:PES
-                any_region_province = {
-                    is_in_region = armenia_region
-                    state_loyalty <= 50
+                region:armenia_region = {
+                    any_region_province = {
+                        state_loyalty <= 50
+                    }
                 }
                 AND = {
                     current_date > 465.10.10
                     war = yes
                 }
                 c:ARM = {
-                    loyalty_to_overlord <= 35
+                    has_subject_loyalty <= 35
                 }
             }
         }

@@ -157,15 +157,15 @@ gotn_formable_event.3 = { #Formation of Canaan, religion change + claims
 		custom_tooltip = urartu_assimilation_effect_tt
 		hidden_effect = {
 			every_owned_province = {
-				limit = {
-					NOR = {
-						primary_culture = sophene
-						primary_culture = mitanni
-						primary_culture = arzonian
-						primary_culture = urtaian
-					}
-				}
 				every_pops_in_province = {
+					limit = {
+						NOR = {
+							pop_culture = sophene
+							pop_culture = mitanni
+							pop_culture = arzonian
+							pop_culture = urtaian
+						}
+					}
 					random_list = {
 						90 = { }
 						10 = { set_pop_culture = urtaian }

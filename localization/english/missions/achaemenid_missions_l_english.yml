@@ -1,99 +1,103 @@
 ﻿l_english:
 
-achaemenid_missions_01_task:0 "Achaemenid Missions 01 Task"
-achaemenid_missions_01_task_DESCRIPTION:0 "Mission description"
-achaemenid_missions_01_task_CRITERIA_DESCRIPTION:0 "This mission will be completed when"
-achaemenid_missions_01_task_BUTTON_TOOLTIP:0 ""
-
-#Missions
-
-achaemenid_missions_01_task_1:0 ""
-achaemenid_missions_01_task_1_DESC:0 ""
-
-achaemenid_missions_01_task_2:0 ""
-achaemenid_missions_01_task_2_DESC:0 ""
-
-achaemenid_missions_01_task_3:0 ""
-achaemenid_missions_01_task_3_DESC:0 ""
-
-achaemenid_missions_01_task_4:0 ""
-achaemenid_missions_01_task_4_DESC:0 ""
-
-achaemenid_missions_01_task_5:0 ""
-achaemenid_missions_01_task_5_DESC:0 ""
-
-achaemenid_missions_01_task_6:0 ""
-achaemenid_missions_01_task_6_DESC:0 ""
-
-achaemenid_missions_01_task_7:0 ""
-achaemenid_missions_01_task_7_DESC:0 ""
-
-achaemenid_missions_01_task_8:0 ""
-achaemenid_missions_01_task_8_DESC:0 ""
-
-achaemenid_missions_01_task_9:0 ""
-achaemenid_missions_01_task_9_DESC:0 ""
-
-achaemenid_missions_01_task_10:0 ""
-achaemenid_missions_01_task_10_DESC:0 ""
-
-
-#Tooltips
-
-
-
-#Modifiers
-
-
-
-#Events
-me_achaemenid_1_title:0 "$achaemenid_missions_01_task_task_1$"
-me_achaemenid_1_desc:0 ""
-me_achaemenid_1.a:0 ""
-me_achaemenid_1_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_1$#!' has now been #G Completed#!!"
-
-me_achaemenid_2_title:0 "$achaemenid_missions_01_task_task_2$"
-me_achaemenid_2_desc:0 ""
-me_achaemenid_2.a:0 ""
-me_achaemenid_2_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_2$#!' has now been #G Completed#!!"
-
-me_achaemenid_3_title:0 "$achaemenid_missions_01_task_task_3$"
-me_achaemenid_3_desc:0 ""
-me_achaemenid_3.a:0 ""
-me_achaemenid_3_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_3$#!' has now been #G Completed#!!"
-
-me_achaemenid_4_title:0 "$achaemenid_missions_01_task_task_4$"
-me_achaemenid_4_desc:0 ""
-me_achaemenid_4.a:0 ""
-me_achaemenid_4_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_4$#!' has now been #G Completed#!!"
-
-me_achaemenid_5_title:0 "$achaemenid_missions_01_task_task_5$"
-me_achaemenid_5_desc:0 ""
-me_achaemenid_5.a:0 ""
-me_achaemenid_5_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_5$#!' has now been #G Completed#!!"
-
-me_achaemenid_6_title:0 "$achaemenid_missions_01_task_task_6$"
-me_achaemenid_6_desc:0 ""
-me_achaemenid_6.a:0 ""
-me_achaemenid_6_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_6$#!' has now been #G Completed#!!"
-
-me_achaemenid_7_title:0 "$achaemenid_missions_01_task_task_7$"
-me_achaemenid_7_desc:0 ""
-me_achaemenid_7.a:0 ""
-me_achaemenid_7_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_7$#!' has now been #G Completed#!!"
-
-me_achaemenid_8_title:0 "$achaemenid_missions_01_task_task_8$"
-me_achaemenid_8_desc:0 ""
-me_achaemenid_8.a:0 ""
-me_achaemenid_8_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_8$#!' has now been #G Completed#!!"
-
-me_achaemenid_9_title:0 "$achaemenid_missions_01_task_task_9$"
-me_achaemenid_9_desc:0 ""
-me_achaemenid_9.a:0 ""
-me_achaemenid_9_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_9$#!' has now been #G Completed#!!"
-
-me_achaemenid_10_title:0 "$achaemenid_missions_01_task_task_10$"
-me_achaemenid_10_desc:0 ""
-me_achaemenid_10.a:0 ""
-me_achaemenid_10_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_10$#!' has now been #G Completed#!!"
-
+ achaemenid_missions_01_task:0 "Four Corners of the Universe"
+ achaemenid_missions_01_task_DESCRIPTION:0 "The ancient land of the two rivers, #E Tigris and Euphrates#!. Here the first #Y King of the Universe#! was born, #E Sargon of Akkad#!. Since then, empires have risen, fallen, thrived, and struggled at the behest of the capricious #E Dinigir#! (Gods). We have long struggled against the #E Kingdom of Babylon#!. They sit on their thrones, watching as #E Medians#! and #E Persians#! were at each other's throats, intervening only to make sure that we do not succeed. The time has come for retribution... but we shall do so in the way #E Cyrus the Good#! would have wanted us to, and with the decisiveness of #E Darius the Great#!. How can we call ourselves a #Y Universal Empire#! if we do not control the very universe itself."
+ achaemenid_missions_01_task_CRITERIA_DESCRIPTION:0 "This mission will be completed when we have conquered the universe."
+ achaemenid_missions_01_task_BUTTON_TOOLTIP:0 "The four corners will soon be ours."
+ 
+ #Missions
+ 
+ achaemenid_missions_01_task_1:0 ""
+ achaemenid_missions_01_task_1_DESC:0 ""
+ 
+ achaemenid_missions_01_task_2:0 ""
+ achaemenid_missions_01_task_2_DESC:0 ""
+ 
+ achaemenid_missions_01_task_3:0 ""
+ achaemenid_missions_01_task_3_DESC:0 ""
+ 
+ achaemenid_missions_01_task_4:0 ""
+ achaemenid_missions_01_task_4_DESC:0 ""
+ 
+ achaemenid_missions_01_task_5:0 ""
+ achaemenid_missions_01_task_5_DESC:0 ""
+ 
+ achaemenid_missions_01_task_6:0 ""
+ achaemenid_missions_01_task_6_DESC:0 ""
+ 
+ achaemenid_missions_01_task_7:0 ""
+ achaemenid_missions_01_task_7_DESC:0 ""
+ 
+ achaemenid_missions_01_task_8:0 ""
+ achaemenid_missions_01_task_8_DESC:0 ""
+ 
+ achaemenid_missions_01_task_9:0 ""
+ achaemenid_missions_01_task_9_DESC:0 ""
+ 
+ achaemenid_missions_01_task_10:0 ""
+ achaemenid_missions_01_task_10_DESC:0 ""
+ 
+ 
+ #Tooltips
+ 
+ 
+ 
+ #Modifiers
+ 
+ 
+ #Others
+ FARSI_NAME:0 "Achaemenid Empire"
+ 
+ 
+ #Events
+ me_achaemenid_1_title:0 "$achaemenid_missions_01_task_task_1$"
+ me_achaemenid_1_desc:0 ""
+ me_achaemenid_1.a:0 ""
+ me_achaemenid_1_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_1$#!' has now been #G Completed#!!"
+ 
+ me_achaemenid_2_title:0 "$achaemenid_missions_01_task_task_2$"
+ me_achaemenid_2_desc:0 ""
+ me_achaemenid_2.a:0 ""
+ me_achaemenid_2_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_2$#!' has now been #G Completed#!!"
+ 
+ me_achaemenid_3_title:0 "$achaemenid_missions_01_task_task_3$"
+ me_achaemenid_3_desc:0 ""
+ me_achaemenid_3.a:0 ""
+ me_achaemenid_3_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_3$#!' has now been #G Completed#!!"
+ 
+ me_achaemenid_4_title:0 "$achaemenid_missions_01_task_task_4$"
+ me_achaemenid_4_desc:0 ""
+ me_achaemenid_4.a:0 ""
+ me_achaemenid_4_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_4$#!' has now been #G Completed#!!"
+ 
+ me_achaemenid_5_title:0 "$achaemenid_missions_01_task_task_5$"
+ me_achaemenid_5_desc:0 ""
+ me_achaemenid_5.a:0 ""
+ me_achaemenid_5_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_5$#!' has now been #G Completed#!!"
+ 
+ me_achaemenid_6_title:0 "$achaemenid_missions_01_task_task_6$"
+ me_achaemenid_6_desc:0 ""
+ me_achaemenid_6.a:0 ""
+ me_achaemenid_6_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_6$#!' has now been #G Completed#!!"
+ 
+ me_achaemenid_7_title:0 "$achaemenid_missions_01_task_task_7$"
+ me_achaemenid_7_desc:0 ""
+ me_achaemenid_7.a:0 ""
+ me_achaemenid_7_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_7$#!' has now been #G Completed#!!"
+ 
+ me_achaemenid_8_title:0 "$achaemenid_missions_01_task_task_8$"
+ me_achaemenid_8_desc:0 ""
+ me_achaemenid_8.a:0 ""
+ me_achaemenid_8_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_8$#!' has now been #G Completed#!!"
+ 
+ me_achaemenid_9_title:0 "$achaemenid_missions_01_task_task_9$"
+ me_achaemenid_9_desc:0 ""
+ me_achaemenid_9.a:0 ""
+ me_achaemenid_9_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_9$#!' has now been #G Completed#!!"
+ 
+ me_achaemenid_10_title:0 "$achaemenid_missions_01_task_task_10$"
+ me_achaemenid_10_desc:0 ""
+ me_achaemenid_10.a:0 ""
+ me_achaemenid_10_tooltip:0 "The mission task '#Y $achaemenid_missions_01_task_task_10$#!' has now been #G Completed#!!"
+ 
+ 
