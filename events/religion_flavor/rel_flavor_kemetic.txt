@@ -26,8 +26,8 @@ rel_flavor_kemetic.1 = {
 		random_owned_province = {
 			limit = {
 				OR = {
-					dominant_province_culture_group = north_african
-					dominant_province_culture_group = meroitic_group
+					dominant_province_culture_group = p:5342.culture_group
+					dominant_province_culture_group = p:5328.culture_group
 				}
 				has_city_status = yes
 				is_capital = no
@@ -1020,7 +1020,7 @@ rel_flavor_kemetic.9 = {
 						OR = {
 							religion = sobek_religion
 							religion = egyptian_pantheon
-							culture = middle_egyptian
+							has_culture = middle_egyptian
 						}
 					}
 					set_variable = {
@@ -3750,7 +3750,6 @@ rel_flavor_kemetic.50 = {	#Religious leader inspired to become better
 	right_portrait = scope:random_advisor
 
 	trigger = {
-		name = "rel_flavor_kemetic.49.t"
 		NOT = { has_variable = rel_flavor_kemetic_50_cooldown }
 		current_ruler = {
 			char_is_religious_trigger = yes
