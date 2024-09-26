@@ -80,9 +80,10 @@
   ach_heraclea_persica_start:0 "#t Heraclea Pontica#!\nDifficulty: #Y Very Hard#!\n\n$heraclea_pontican_heritage_desc$"
   tylos_start:0 "#t Tylos#!\nDifficulty: #Y Very Hard#!\n\n$tylosian_heritage_desc$"
   lycia_start:0 "#t Lycia#!\nDifficulty: #y Normal#!\n\n$lycian_heritage_desc$"
-  lydia_start:0 "#t Lydia#!\nDifficulty: #y Easy#!\n\n$lidyan_heritage_desc$"
+  lydia_start:0 "#t Lydia#!\nDifficulty: #y Easy#!\n\nLydian grasp over it's realm has been slipping for over 40 years. Macedonian-funded piracy, revolting subjects, and internal troubles have rendered the Lydian state unable to maintain itself. Will Lydia reassert it's control, or will Lydia be shattered?"
   armenia_start:0 "#t Armenia#!\nDifficulty: #y Normal#!\n\nA Satrapy of Media, Armenia is ready to exploit the current weakness of the Median state, and to seize eastern Median lands for themselves."
   que_start:0 "#t Que#!\nDifficulty: #y Hard#!\n\n$que_heritage_desc$"
+  phrygia_start:0 "#t Phrygia#!\nDifficulty: #y Hard#!\n\nClaimed by some to be migrants from the west, specifically the southern areas comprising the Balkans, the Phrygians are said to have moved into the lands of Anatolia following the collapse of the Hittite Empire. Emerging from the destruction left behind by the Sea Peoples, the ancestors of the Phrygians were quick to capitalize in the wake of apocalypse, thus establishing the city of Gordium, raising high their sovereignty to all the lands. With a foundation thus in place, the Phrygians were able to make more than due with tradings towards the Greeks over in Europe, with the elites of Phrygian society have grown wealthy."
 
   #India
   maurya_start:0 "#t Maurya#!\nDifficulty: #Y Easy#!\n\n$maurya_heritage_desc$"
@@ -99,3 +100,5 @@
   korinth_start:0 "#t Korinth#!\nDifficulty: #Y Normal#!\n\nThe leader of the Peloponnesian league, a conflict between Korinth and Athens seems inevitable. Perhaps this is a chance for Korinth to finally get rid of those Athenians once and for all."
   macedon_start:0 "#t Macedon#!\nDifficulty: #Y Normal#!\n\nAlexander the Wise has a vision of a panhellenic state, now is the time for the Greeks to be united under one banner!"
   sparta_start:0 "#t Sparta#!\nDifficulty: #Y Hard#!\n\nSparta is little more than a dream of a once glorious past. Will Sparta be able to make the dream a reality, or will she fade in the passage of time?"
+  odrysia_start:0 "#t Odrysia#!\nDifficulty: #Y Hard#!\n\nThe Odrysian Kingdom was destroyed due to the folly of Seuthes III Odrysid, and the martial prowess of Alexander the Wise. Will Seuthes redeem himself, or has Zalmoxis abandoned him?"
+  kios_start:0 "#t Kios#!\nDifficulty: #Y Hard#!\n\nMithradates was able to establish his own personal realm, after his Anabasis with his army of 5,000 through Media, Assyria, Armenia, and Anatolia. A skilled negiotator, Mithradates has been able to achieve his aims thus far. However, the crown of Lydia would look very nice on his head..."

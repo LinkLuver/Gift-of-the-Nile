@@ -403,4 +403,30 @@ template indian_missions {
 			onclick = "[SetLobbyCountryTag('KOR')]"
 		}
 	}
+	starting_nation = {
+		tooltip = "odrysia_start"
+		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ODR').Self )]"
+		blockoverride "flag"
+		{
+			texture = "[GetCountry('ODR').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+			frame = "[GetCountry('ODR').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+		}
+		blockoverride "click"
+		{
+			onclick = "[SetLobbyCountryTag('ODR')]"
+		}
+	}
+	starting_nation = {
+		tooltip = "kios_start"
+		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('KIO').Self )]"
+		blockoverride "flag"
+		{
+			texture = "[GetCountry('KIO').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+			frame = "[GetCountry('KIO').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+		}
+		blockoverride "click"
+		{
+			onclick = "[SetLobbyCountryTag('KIO')]"
+		}
+	}
 }
