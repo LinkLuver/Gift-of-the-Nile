@@ -8529,6 +8529,48 @@ arzonian_heritage = {
 	}
 }
 
+parion_heritage = {
+	modifier = {
+		#good
+		global_tax_modifier= 0.10
+        global_import_commerce_modifier = 0.05
+		#bad
+		monthly_wage_modifier = 0.05
+	}
+   
+	trigger = {
+		tag = TW2
+	}
+}
+
+lampsakos_heritage = {
+	modifier = {
+		#good
+		global_citizen_output = 0.10
+		global_tax_modifier = 0.05
+		#bad
+		monthly_political_influence_modifier = -0.05
+	}
+   
+	trigger = {
+		tag = TW1
+	}
+}
+
+lesbian_heritage = {
+	modifier = {
+		#good
+		change_governor_policy_cost_modifier = -0.25
+		global_citizen_happyness = 0.05
+		#bad
+		enact_law_cost_modifier = 0.10
+	}
+   
+	trigger = {
+		tag = GAY
+	}
+}
+
 western_cimmerian_heritage = {
 	modifier = {
 		#good
