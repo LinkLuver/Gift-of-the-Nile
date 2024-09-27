@@ -1,7 +1,7 @@
 ﻿"Elysium_ATH"={
 	country="ATH"
 	588={
-		first_name="Aristocles"
+		first_name="Aristokles"
 		nickname="PLATO_NICKNAME"
 		family_name="Aristonid"
 		birth_date=329.1.2
@@ -17,14 +17,14 @@
 		add_trait="scholar"
 		add_trait="wise"
 		add_trait="just"
-		add_trait="good_natured"
+		add_trait="proud"
 		add_trait="intelligent"
 		add_trait="polymath"
 		add_trait="righteous"
 		dna="AFqpxcJ/wn/I3cjdAncCdwArACsCaQJpA64DrgKPAo8ClwKXAoMCgwFfAV8DsQOxAo0CjQJwAnAChAKEAowCjAJ9An0CagJqApkCmQKAAoAClgKWAoQChAOZA5kCawJrAnYCdgJ+An4CkwKTAnkCeQKBAoEClwKXAnICcgJtAm0CbQJtAmYCZgKTApMCfQJ9AmwCbAOpA6kDrgOuAm8CbwKNAo0CdAJ0AnECcQJ3AncCfwJ/AnYCdgJmAmYANAA0AnoCegJ4AngCjwKPAm0CbQJ9An0CfwJ/AmcCZwJwAnADqQOpAmwCbADjAOMAOgA6Ap4CngBQAFAA9QD1ANsA2wCuAK4BUAFQAAYABgByAHIDJwMnAB8AHwB/AH8A2gDaAsoCygBiAGIBKAEoADIAMgE4ATgByQHJAMAAwAB/AH8AKwArAWUBZQBqAGoBTQFNAE0ATQDmAOYCjAKMAOAA4AKIAogDVANUAJIAkgCrAKsKDAptAH8AfwETARMQTAWVAE8ATwX9BbwClgKWAvAC8AAAAAAAAAAAAAAAAA=="
 	}
 	589={
-		first_name="Socrates"
+		first_name="Sokrates"
 		family_name="Sophroniscid"
 		birth_date=283.1.2
 		death_date=354.1.2
@@ -51,7 +51,7 @@
 "Elysium_CRO"={
 	country="CRO"
 	590={
-		first_name="Pythias"
+		first_name="Pythaïs"
 		family_name ="Samosid"
 		birth_date=162.1.2
 		death_date=229.1.2
@@ -71,7 +71,7 @@
 	}
 	591={
 		first_name="Pythagoras"
-		family_name="Samosid"
+		family_name="Samid"
 		birth_date=183.1.2
 		death_date=258.1.2
 		culture="italiotian"
@@ -89,11 +89,12 @@
 		add_trait="just"
 		add_trait="founder"
 		add_trait="scholar"
+		add_trait="paranoid"
 		dna="Kq8P5pRylHIsayxrAWQBZAOjA6MCkwKTApMCkwJ5AnkCkAKQApkCmQKGAoYBYwFjAVMBUwKGAoYCiAKIApACkAOiA6ICbwJvApECkQKQApAClQKVAnACcAJvAm8BagFqAooCigKXApcCegJ6ACAAIAJ+An4DoQOhAnICcgJ+An4BVQFVApUClQJoAmgCdQJ1AVcBVwJ+An4ClQKVAnQCdAKEAoQCmQKZAm4CbgKLAosCZgJmAnoCegKSApICiQKJAnkCeQJzAnMDnwOfAngCeAKDAoMCegJ6AoUChQJqAmoCcwJzAm0CbQDZANkAMgAyAIMAgwFGAUYAKQApAIAAgAD4APgA8QDxACAAIAEsASwBOgE6At0C3QB/AH8C3wLfARcBFwBLAEsAxgDGABcAFwElASUDfQN9AK4ArgB/AH8BFwEXAN8A3wFiAWIAzQDNAAAAAATYBNgBYAFgAFEAUQDDAMMBdQF1AFQAVABwAHAHggGCAH8AfwEFAQUF3AVrAMYAxgXFBfACmQKZAvkC+QAAAAAAAAAAAAAAAA=="
 	}
 	592={
 		first_name="Theano"
-		family_name="Samosid"
+		family_name="Samid"
 		birth_date=188.1.2
 		death_date=259.1.2
 		female=yes
@@ -109,13 +110,14 @@
 		add_trait="devout"
 		add_trait="just"
 		add_trait="good_natured"
+		add_trait="humble"
 		dna="iLCIsMCAwIAMhAyEAnMCcwJ3AncCeQJ5AnYCdgJ0AnQCcgJyAokCiQKFAoUCawJrApcClwKKAooCaQJpApACkAJuAm4CdQJ1AnwCfAJ/An8CawJrAm8CbwJ2AnYDrgOuAogCiAKRApECZwJnAo8CjwJ3AncCcQJxAnICcgJ+An4ChQKFAoACgAJ6AnoCeQJ5AoECgQJ6AnoCeQJ5AV8BXwKJAokDnQOdAn8CfwOrA6sCeAJ4AokCiQKJAokCjQKNAU0BTQJwAnACkgKSAngCeAKJAokCkwKTAnwCfAOfA58CmQKZAncCdwI7AjsAEgASAIAAgAF1AXUBAQEBATcBNwFqAWoCtwK3AooCigB1AHUAIgAiAFkAWQB/AH8AIgAiAHwAfAF+AX4ATQBNAQYBBgK8ArwBgQGBAQ0BDQB/AH8BIAEgAGUAZQL7AvsBZgFmAGcAZwFOAU4AJgAmAxMDEwFoAWgDWwNbAXUBdQTuBO4HkAeQAH8AfwFjAWMFawVrAOMA4wVfBV8CHQIdAg8CDwAAAAAAAAAAAAAAAA=="
 	}
 }
 "Elysium_MET"={
 	country="MET"
 	593={
-		first_name="Hippasus"
+		first_name="Hippasos"
 		family_name="Metapontid"
 		birth_date=253.1.2
 		death_date=326.1.2
@@ -155,7 +157,7 @@
 		add_trait="devout"
 		add_trait="wise"
 		add_trait="scholar"
-		add_trait="pious"
+		add_trait="ambitious"
 		add_trait="sceptical"
 		dna="BucG54OFg4Wz7bPtApICkgKHAocCawJrAo4CjgKWApYCawJrAoYChgKXApcCcwJzAmkCaQKYApgAJgAmAB4AHgKKAooCcgJyAWABYAKMAowDqQOpAoACgAJ4AngCZgJmAocChwJxAnEChwKHApMCkwKEAoQCdgJ2AoQChAJsAmwCcAJwAncCdwKWApYAOgA6AnUCdQKZApkCewJ7ApgCmAKUApQCkAKQBNwE3AKEAoQCbgJuAnACcAJmAmYCjgKOAnECcQOxA7ECZgJmAncCdwBEAEQCbgJuAmwCbAOrA6sCcwJzAnYCdgIAAgABbgFuAXgBeABjAGMBLwEvAHQAdAAmACYBPgE+ATUBNQACAAIDSgNKAMUAxQB/AH8AVABUADoAOgAjACMABwAHAUcBRwEFAQUDfAN8AqQCpAB/AH8AfAB8ADQANAB5AHkCwQLBAsMCwwBvAG8AfwB/ArwCvAC0ALQBfQF9AEcARwE5ATkCfAJ8AH8AfwAIAAgFmgWaAOoAVADlBeUCcAJwAqQCpAAAAAAAAAAAAAAAAA=="
 	}
@@ -168,7 +170,7 @@
 		birth_date=253.1.2
 		death_date=325.1.2
 		culture="aegean"
-		religion="isis_religion"
+		religion="roman_pantheon"
 		no_stats=yes
 		add_martial=1
 		add_charisma=13
@@ -186,12 +188,12 @@
 "Elysium_ABD" = {
 	country="ABD"
 	596={
-		first_name="Democritus"
-		family_name="Democritid"
+		first_name="Demokritos"
+		family_name="Demokritid"
 		birth_date=293.1.2
 		death_date=383.1.2
 		culture="aegean"
-		religion="pyrrhonism"
+		religion="roman_pantheon"
 		no_stats=yes
 		add_martial=1
 		add_charisma=13
@@ -207,7 +209,7 @@
 		dna="A/ED8YGIgYj+0f7RAWUBZQJ9An0CjgKOApMCkwJ7AnsCawJrAm8CbwKNAo0CZwJnA54DngKUApQCfwJ/AmoCagKDAoMCkAKQAV0BXQKMAowBZQFlAm4CbgJoAmgCbwJvAogCiAJxAnECigKKAngCeAFmAWYClAKUAoUChQKQApADpwOnApkCmQJsAmwCbQJtAokCiQKMAowBYwFjAo0CjQKYApgCjQKNAoYChgOeA54CZwJnAC4ALgKCAoICjAKMAmoCagJ9An0CiAKIApkCmQKOAo4CfgJ+ApACkAKCAoICiQKJApcClwRvBG8A1wDXAXoBegA/AD8BPgE+AP8A/wBQAFAAuAC4AQsBCwB8AHwBAgECABAAEAB/AH8A9wD3AUQBRALUAtQARQBFAFMAUwEkASQA7ADsATABMAB/AH8AjACMAIAAgADwAPAAZABkAXwBfAC9AL0C1gLWAzsDOwCgAKAAGAAYA0UDRQBeAF4DZANkAH8AfwMzAzMFqAW3AJYAlgDlBc4CBwIHArcCtwAAAAAAAAAAAAAAAA=="
 	}
 	597={
-		first_name="Anaxarchus"
+		first_name="Anaxarchos"
 		family_name="Anaxarchid"
 		birth_date=373.1.2
 		death_date=433.1.2
@@ -231,8 +233,8 @@
 "Elysium_MLO" = {
 	country="MLO"
 	598={
-		first_name="Hecataeus"
-		family_name="Miletosid"
+		first_name="Hekataios"
+		family_name="Miletid"
 		birth_date=203.1.2
 		death_date=277.1.2
 		culture="aeolian"

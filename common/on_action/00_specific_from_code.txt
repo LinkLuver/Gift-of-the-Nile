@@ -545,6 +545,14 @@ on_ruler_change = {
 			trigger_event = diadochi_flavor.8 #Antigonus bad
 			trigger_event = diadochi_flavor.9 #Antigonus good
 		}
+		if = {
+			limit = {
+				is_ai = no
+				is_monarchy = yes
+			}
+			remove_variable = regnal_year_var
+			set_variable = { name = regnal_year_var value = 1 }
+		}
 	}
 	on_actions = {
 		on_republic_ruler_change
@@ -2113,6 +2121,18 @@ on_move_country = { #scope:old_country is the origin country
 	}
 }
 
+yearly_country_pulse = {
+	effect = {
+		if = {
+			limit = {
+				is_ai = no
+				is_monarchy = yes
+			}
+			change_variable = { name = regnal_year_var add = 1 }
+		}
+	}
+}
+
 on_game_initialized = {
 	effect = {
 		### Unique Mechanics ###
@@ -2540,6 +2560,13 @@ on_game_initialized = {
 					}
 				}
 			}
+		}
+		if = {
+			limit = {
+				is_ai = no
+				is_monarchy = yes
+			}
+			set_variable = { name = regnal_year_var value = 1 }
 		}
 	} 
 	events = {
