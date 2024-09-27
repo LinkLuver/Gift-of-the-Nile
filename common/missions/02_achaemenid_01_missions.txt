@@ -7,6 +7,7 @@ achaemenid_missions_01_task = {
 
     potential = {
         NOT = { has_variable = mission_cooldown_var }
+        has_variable = king_of_universe_var
     }
 
     abort = {}

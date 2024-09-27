@@ -848,3 +848,41 @@ deity_wayu = { # ECONOMY
 		can_deify_trigger = yes
 	}
 }
+deity_miitra = { # CULTURE
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		is_monarchy = yes
+		NOT = {
+			religion = mithra_religion
+		}
+		OR = {
+			common_deity_culture_trigger = {
+				RELIGION = hurrian_pantheon
+				CULTURE = mitanni
+			}
+			deity:omen_miitra = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { monthly_legitimacy = 0.03 }
+	omen = { global_nobles_output = omen_global_nobles_output_svalue } #Bonus from Omen
+	on_activate = {
+		culture_apotheosis_characters_effect = yes
+		if = {
+			limit = {
+				is_monarchy = yes
+			}
+			current_ruler = {
+				add_popularity = 5
+			}
+		}
+	}
+	religion = hurrian_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}

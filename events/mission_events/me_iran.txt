@@ -363,11 +363,118 @@ me_iran.20 = {
 
     title = me_iran_20_title
     desc = me_iran_20_desc
-    picture = great_library
+    picture = persepolis
 
     option = {
         name = "me_iran_20.a"
         custom_tooltip = me_iran_20_tooltip
         add_political_influence = 50
+    }
+}
+
+me_iran.21 = {
+    type = country_event
+
+    title = me_iran_21_title
+    desc = me_iran_21_desc
+    picture = persepolis
+
+    option = {
+        name = "me_iran_21.a"
+        custom_tooltip = me_iran_21_tooltip
+    }
+}
+
+me_iran.22 = {
+    type = country_event
+
+    title = me_iran_22_title
+    desc = me_iran_22_desc
+    picture = persepolis
+
+    option = {
+        name = "me_iran_22.a"
+        custom_tooltip = me_iran_22_tooltip
+    }
+}
+
+me_iran.23 = {
+    type = country_event
+
+    title = me_iran_23_title
+    desc = me_iran_23_desc
+    picture = persepolis
+
+    option = {
+        name = "me_iran_23.a"
+        custom_tooltip = me_iran_23_tooltip
+    }
+}
+
+me_iran.24 = {
+    type = country_event
+
+    title = me_iran_24_title
+    desc = me_iran_24_desc
+    picture = tlc_cave_temple
+
+    option = {
+        name = "me_iran_24.a"
+        custom_tooltip = me_iran_24_tooltip
+        current_ruler = {
+            add_zeal = 2
+        }
+    }
+}
+
+me_iran.25 = {
+    type = country_event
+
+    title = me_iran_25_title
+    desc = me_iran_25_desc
+    picture = persepolis
+
+    option = {
+        name = "me_iran_25.a"
+        custom_tooltip = me_iran_25_tooltip
+    }
+}
+
+me_iran.26 = {
+    type = country_event
+
+    title = me_iran_26_title
+    desc = me_iran_26_desc
+    picture = persepolis
+
+    option = {
+        name = "me_iran_26.a"
+        custom_tooltip = me_iran_26_tooltip
+    }
+}
+
+me_iran.27 = {
+    type = country_event
+
+    title = me_iran_27_title
+    desc = me_iran_27_desc
+    picture = persepolis
+
+    option = {
+        name = "me_iran_27.a"
+        custom_tooltip = me_iran_27_tooltip
+    }
+}
+
+me_iran.28 = {
+    type = country_event
+
+    title = me_iran_28_title
+    desc = me_iran_28_desc
+    picture = persepolis
+
+    option = {
+        name = "me_iran_28.a"
+        custom_tooltip = me_iran_28_tooltip
     }
 }

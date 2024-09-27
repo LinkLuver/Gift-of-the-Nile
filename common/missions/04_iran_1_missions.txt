@@ -481,7 +481,7 @@
         final = yes
     }
     missions_iran_1_task_20 = {
-        icon = "task_political"
+        icon = "task_diplomatic"
         allow = {
             c:PES = { num_of_cities >= 500 }
         }
@@ -494,7 +494,7 @@
     }
 
     missions_iran_1_task_21 = {
-        icon = "task_political"
+        icon = "task_shiva"
         requires = { missions_iran_1_task_24 }
         highlight = {
             scope:province = {
@@ -537,7 +537,7 @@
     }
 
     missions_iran_1_task_22 = {
-        icon = "task_political"
+        icon = "task_atlas"
         requires = { missions_iran_1_task_24 }
         highlight = {
             scope:province = {
@@ -565,7 +565,7 @@
     }
 
     missions_iran_1_task_23 = {
-        icon = "task_political"
+        icon = "task_durga"
         requires = { missions_iran_1_task_24 }
         highlight = {
             scope:province = {
@@ -612,7 +612,7 @@
     }
 
     missions_iran_1_task_24 = {
-        icon = "task_political"
+        icon = "task_religion"
         requires = { missions_iran_1_task_20 }
         allow = {
             tyranny <= 5
@@ -628,7 +628,7 @@
     }
 
     missions_iran_1_task_25 = {
-        icon = "task_political"
+        icon = "task_happiness"
         requires = { missions_iran_1_task_23 missions_iran_1_task_26 missions_iran_1_task_27 }
         highlight = {
             scope:province = {
@@ -730,7 +730,7 @@
     }
 
     missions_iran_1_task_27 = {
-        icon = "task_political"
+        icon = "task_heracles"
         requires = { missions_iran_1_task_24 }
         highlight = {
             scope:province = {
@@ -770,7 +770,7 @@
         }
     }
     missions_iran_1_task_28 = {
-        icon = "task_political"
+        icon = "task_economical"
         requires = { missions_iran_1_task_25 }
         allow = {
             stability >= 50
