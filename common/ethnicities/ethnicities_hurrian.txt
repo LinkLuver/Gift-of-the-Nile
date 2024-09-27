@@ -26,49 +26,42 @@
 		# # White
 		# 5 = { 0.0 0.0 0.25 0.25 }										
 	}
-}
 
 
-hairstyles = {
-    10 = { name = germanic_hairstyles          range = { 0.74 0.75 } }
-    50 = { name = scythian_hairstyles          range = { 0.0 0.365 } }
-    2 = { name = celtic_hairstyles          range = { 0.31 0.365 } }
-}
+	hairstyles = {
+	    10 = { name = germanic_hairstyles          range = { 0.74 0.75 } }
+	    50 = { name = scythian_hairstyles          range = { 0.0 0.365 } }
+	    2 = { name = celtic_hairstyles          range = { 0.31 0.365 } }
+	}
 
-eyebrows = {
-    10 = { name = north_african_eyebrows        range = { 0.0 1.0 } }
-}
+	eyebrows = {
+	    10 = { name = north_african_eyebrows        range = { 0.0 1.0 } }
+	}
 
-beards = {
-    10 = { name = persian_beards          range = { 0.0 1.0 } }
-}
-
-
-clothes = {
-    10 = { name = carthaginian_clothes            range = { 0.0 0.31 } }
-
-    10 = { name = celtic_clothes            range = { 0.65 0.66 } }
-    10 = { name = celtic_clothes            range = { 0.84 1.00 } }
-    #2 = { name = no_clothes            range = { 0.0 1.0 } }
-}
-
-clothes_layer2 = {
-    10 = { name = bactrian_top_layer            range = { 0.0 0.53 } }
-    40 = { name = carthaginian_top_layer            range = { 0.0 1.0 } }
-}
+	beards = {
+	    10 = { name = persian_beards          range = { 0.0 1.0 } }
+	}
 
 
-complexion = {
-    10 = { name = levantine_1            range = { 0.0 1.0 } }
+	clothes = {
+	    10 = { name = carthaginian_clothes            range = { 0.0 0.31 } }
+
+	    10 = { name = celtic_clothes            range = { 0.65 0.66 } }
+	    10 = { name = celtic_clothes            range = { 0.84 1.00 } }
+	    #2 = { name = no_clothes            range = { 0.0 1.0 } }
+	}
+
+	clothes_layer2 = {
+	    10 = { name = bactrian_top_layer            range = { 0.0 0.53 } }
+	    40 = { name = carthaginian_top_layer            range = { 0.0 1.0 } }
+	}
 
 
-complexion = {
-    10 = { name = levantine_1            range = { 0.0 1.0 } }
-    10 = { name = roman_1            range = { 0.0 1.0 } }
-    10 = { name = roman_2            range = { 0.0 1.0 } }
-    10 = { name = roman_3            range = { 0.0 1.0 } }
-    10 = { name = roman_5            range = { 0.0 1.0 } }
-}
-
-
+	complexion = {
+		10 = { name = levantine_1            range = { 0.0 1.0 } }
+		10 = { name = roman_1            range = { 0.0 1.0 } }
+		10 = { name = roman_2            range = { 0.0 1.0 } }
+		10 = { name = roman_3            range = { 0.0 1.0 } }
+		10 = { name = roman_5            range = { 0.0 1.0 } }
+	}
 }

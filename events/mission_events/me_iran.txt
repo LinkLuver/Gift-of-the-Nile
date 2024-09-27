@@ -85,6 +85,14 @@ me_iran.4 = {
             duration = -1
         }
     }
+    option = {
+        name = "me_iran_4.b"
+        custom_tooltip = me_iran_4_tooltip
+        add_country_modifier = {
+            name = nisai_mod
+            duration = -1
+        }
+    }
 }
 me_iran.5 = {
     type = country_event

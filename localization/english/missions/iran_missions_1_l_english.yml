@@ -151,18 +151,19 @@
  me_iran_1_tooltip:0 "The mission task '#Y $missions_iran_1_task_1$#!' has now been #G Completed#!!"
  
  me_iran_2_title:0 "$missions_iran_1_task_2$"
- me_iran_2_desc:0 ""
- me_iran_2.a:0 ""
+ me_iran_2_desc:0 "The populace of #E Varena#! have begun to identify their heritage to that of the legendary #E Thraetaona#!. The great king's memory serves us well, inspiring our troops, and keeping the whole of the country watchful against the corruption of #E Angra Mainyu#! (Ahriman)."
+ me_iran_2.a:0 "In the memory of our collective greatness."
  me_iran_2_tooltip:0 "The mission task '#Y $missions_iran_1_task_2$#!' has now been #G Completed#!!"
  
  me_iran_3_title:0 "$missions_iran_1_task_3$"
- me_iran_3_desc:0 ""
- me_iran_3.a:0 ""
+ me_iran_3_desc:0 "The sins of #E Ragha#! implanted by the evil one will be cleansed over time. We return to the position that #E Ahuramazda#! put #E Ragha#! in, a land of 3 classes. We can take this strategy and implement this throughout our growing protectorship of the #E Ariyans#!."
+ me_iran_3.a:0 "We grow internally, and then externally."
  me_iran_3_tooltip:0 "The mission task '#Y $missions_iran_1_task_3$#!' has now been #G Completed#!!"
  
  me_iran_4_title:0 "$missions_iran_1_task_4$"
- me_iran_4_desc:0 ""
+ me_iran_4_desc:0 "The far land of #E Nisai#!, it is difficult to pinpoint exactly where, however, we have determined the approximate area it should be located in. Where shall we choose to build the land between the two?"
  me_iran_4.a:0 ""
+ me_iran_4.b:0 ""
  me_iran_4_tooltip:0 "The mission task '#Y $missions_iran_1_task_4$#!' has now been #G Completed#!!"
  
  me_iran_5_title:0 "$missions_iran_1_task_5$"

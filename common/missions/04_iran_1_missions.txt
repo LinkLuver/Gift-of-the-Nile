@@ -113,7 +113,9 @@
                 is_in_area = transoxus_area
             }
         }
-        allow = {}
+        allow = {
+            owns_or_subject_owns_area = transoxus_area
+        }
         on_completion = {
             trigger_event = me_iran.4
             show_as_tooltip = {
