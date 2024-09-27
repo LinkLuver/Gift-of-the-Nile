@@ -6065,12 +6065,13 @@ country = {
 					culture = turdetanian
 					type = citizen
 				}
+				{
 					culture = atlosian
 					type = citizen
 				}
 			}
 
-			own_control_core = 	{
+			own_control_core =  {
 				1348
 			}
 		}
