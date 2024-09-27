@@ -13,7 +13,7 @@
  gotn_events_3.a:0 "Will the gulf be painted red with blood, or yellow with gold?"
 
  gotn_events_4_title:0 "Due for the Duat"
- gotn_events_4_desc:0 "The great Pharaoh of the 29th Dynasty of Egypt, #E [ROOT.GetRuler.GetName]#!, in the year [ROOT.GetCountry.MakeScope.Var('regnal_year_var').GetValue|2] of his reign, is not far from the #E Duat#!. He has led our armies against the tyrants of the so-called divine light, #E Aten#!. He has captured the city of #E Swenett#! from the hands of encroaching #E Nubians#!. And he has stolen the hearts of the #E Egyptians#! of #E Waset#!!\n\nBut now, #E Anpi#! (Anubis) awaits him with the feather of #E Ma'at#! in his hand. #E Pharaoh Siamun#! has been stuck with cancer. For a #E Pharaoh#! at his age, he must be prepared to make the journey. The funding of his tomb has begun in the hidden #E Necropolis#!."
+ gotn_events_4_desc:0 "The great Pharaoh of the 29th Dynasty of Egypt, #E [ROOT.GetCountry.GetRuler.GetName]#!, in the year [ROOT.GetCountry.MakeScope.Var('regnal_year_var').GetValue|2] of his reign, is not far from the #E Duat#!. He has led our armies against the tyrants of the so-called divine light, #E Aten#!. He has captured the city of #E Swenett#! from the hands of encroaching #E Nubians#!. And he has stolen the hearts of the #E Egyptians#! of #E Waset#!!\n\nBut now, #E Anpi#! (Anubis) awaits him with the feather of #E Ma'at#! in his hand. #E Pharaoh Siamun#! has been stuck with cancer. For a #E Pharaoh#! at his age, he must be prepared to make the journey. The funding of his tomb has begun in the hidden #E Necropolis#!."
  gotn_events_4.a:0 "Osiris calls to me."
 
  gotn_events_8_title:0 "Calamity in Carthage"
