@@ -105,13 +105,13 @@ deity_manager = {
 			deify_ruler_permanent = yes
 			is_universal_deity = yes
 		}
-		31117 = {
-			key = omen_nahash
-			deity = deity_nahash
-			deify_ruler = 585
-			deify_ruler_permanent = yes
-			is_universal_deity = yes
-		}
+		#31117 = {
+			#key = omen_nahash
+			#deity = deity_nahash
+			#deify_ruler = 585
+			#deify_ruler_permanent = yes
+			#is_universal_deity = yes
+		#}
 		31118 = {
 			key = omen_namaah
 			deity = deity_namaah

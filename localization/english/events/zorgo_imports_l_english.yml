@@ -83,3 +83,5 @@
  me_zorgoomni.40.a: "Welcome to your new home, [SCOPE.sCharacter('random_warlock').GetFirstName]"
  me_zorgoomni.40.b: "We cannot afford to procure this mage's service"
  me_zorgoomni.40_tooltip: "The mission task '#Y The Warlock#!' has now been #G Completed#!!"
+
+ is_on_omni_adventure_tt:0 "Has not gone on an adventure in the last 10 years."
