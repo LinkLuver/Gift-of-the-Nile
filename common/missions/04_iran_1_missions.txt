@@ -80,7 +80,7 @@
         }
     }
     missions_iran_1_task_3 = {
-        icon = "task_political"
+        icon = "task_economical"
         highlight = {
             scope:province = {
                 this = p:4991
@@ -106,7 +106,7 @@
         }
     }
     missions_iran_1_task_4 = {
-        icon = "task_political"
+        icon = "task_diplomatic"
         requires = { missions_iran_1_task_18 }
         highlight = {
             scope:province = {
@@ -162,7 +162,9 @@
                 is_in_area = sogdiana_area
             }
         }
-        allow = {}
+        allow = {
+            owns_or_subject_owns_area = sogdiana_area
+        }
         on_completion = {
             trigger_event = me_iran.6
             show_as_tooltip = {
@@ -432,7 +434,7 @@
         }
     }
     missions_iran_1_task_18 = {
-        icon = "task_political"
+        icon = "task_atlas"
         requires = { missions_iran_1_task_2 missions_iran_1_task_3 missions_iran_1_task_5 }
         highlight = {
             scope:province = {
@@ -539,7 +541,7 @@
     }
 
     missions_iran_1_task_22 = {
-        icon = "task_atlas"
+        icon = "task_artemis"
         requires = { missions_iran_1_task_24 }
         highlight = {
             scope:province = {

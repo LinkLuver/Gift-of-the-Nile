@@ -143,6 +143,7 @@
  PES_3:0 "Airyanem Vaejah Standard"
  airyanem_blue:0 "Ariyan Blue"
  the_great:0 "the Great"
+ Nisai:0 "Nisai"
  
  #Events
  me_iran_1_title:0 "$missions_iran_1_task_1$"
@@ -162,13 +163,13 @@
  
  me_iran_4_title:0 "$missions_iran_1_task_4$"
  me_iran_4_desc:0 "The far land of #E Nisai#!, it is difficult to pinpoint exactly where, however, we have determined the approximate area it should be located in. Where shall we choose to build the land between the two?"
- me_iran_4.a:0 ""
- me_iran_4.b:0 ""
+ me_iran_4.a:0 "Dilyar, where 4 roads meet."
+ me_iran_4.b:0 "Deshikli, where there is no shortage of trees."
  me_iran_4_tooltip:0 "The mission task '#Y $missions_iran_1_task_4$#!' has now been #G Completed#!!"
  
  me_iran_5_title:0 "$missions_iran_1_task_5$"
- me_iran_5_desc:0 ""
- me_iran_5.a:0 ""
+ me_iran_5_desc:0 "The men of #E Zurvan#!, the #E Parthians#! have seen our opulance and grace, bestowed to them by the might of #E Ahuramazda#! himself. While the transcendance of #E Zurvan#! is great, even the lord of time bows to the lord of all. While they have yet to fully understand this, in time, they shall learn this truth. For now, we reap the benefits from #E Khnenta#! and #E Zurvan#!."
+ me_iran_5.a:0 "Time heals all sin."
  me_iran_5_tooltip:0 "The mission task '#Y $missions_iran_1_task_5$#!' has now been #G Completed#!!"
  
  me_iran_6_title:0 "$missions_iran_1_task_6$"
@@ -232,13 +233,13 @@
  me_iran_17_tooltip:0 "The mission task '#Y $missions_iran_1_task_17$#!' has now been #G Completed#!!"
  
  me_iran_18_title:0 "$missions_iran_1_task_18$"
- me_iran_18_desc:0 ""
- me_iran_18.a:0 ""
+ me_iran_18_desc:0 "The lands of the #E Bactrians#! and #E Scythians#! seems to stretch on forever. To conquer it all... is it truly possible? It must be. For there was once that it was all under the reign of #E Ahuramazda#!. And thus they must be protected by us! We shall march through mountains, deserts, and marshes; the land of #E Zoroaster#! awaits us."
+ me_iran_18.a:0 "Onwards!"
  me_iran_18_tooltip:0 "The mission task '#Y $missions_iran_1_task_18$#!' has now been #G Completed#!!"
  
  me_iran_19_title:0 "$missions_iran_1_task_19$"
- me_iran_19_desc:0 ""
- me_iran_19.a:0 ""
+ me_iran_19_desc:0 "The final frontier we must journey to are the lands of the south and east. They call the lands #E Ariana#! and #E Hindush#!, and they call themselves #E Arians#! and #E Aryans#! respectively. Truly, their noble blood was not lost on them, yet the have deviated from the path of #E Ahuramazda#! nonetheless. We shall remind them with the sword, and then encourage them with the shield."
+ me_iran_19.a:0 "We are all brothers."
  me_iran_19_tooltip:0 "The mission task '#Y $missions_iran_1_task_19$#!' has now been #G Completed#!!"
 
  me_iran_20_title:0 "$missions_iran_1_task_20$"
