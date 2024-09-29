@@ -318,7 +318,7 @@ me_damascus.2 = {
 
     title = me_damascus_2_title
     desc = me_damascus_2_desc
-    picture = great_library
+    picture = council_country
 
     option = {
         name = "me_damascus_2.a"
@@ -437,12 +437,17 @@ me_damascus.9 = {
 
     title = me_damascus_9_title
     desc = me_damascus_9_desc
-    picture = great_library
+    picture = diadochi_new_city_founded
 
     option = {
         name = "me_damascus_9.a"
         custom_tooltip = me_damascus_9_tooltip
-
+        c:GAL = {
+            add_country_modifier = {
+                name = gal_mil_eco_mod
+                duration = -1
+            }
+        }
     }
 }
 me_damascus.10 = {
@@ -450,12 +455,37 @@ me_damascus.10 = {
 
     title = me_damascus_10_title
     desc = me_damascus_10_desc
-    picture = great_library
+    picture = greeks_marching
+
+    immediate = {
+        random_country = {
+            limit = {
+                tag = JUD
+            }
+            save_scope_as = scope_jew
+        }
+        random_country = {
+            limit = {
+                tag = SMA
+            }
+            save_scope_as = scope_sam
+        }
+    }
 
     option = {
         name = "me_damascus_10.a"
         custom_tooltip = me_damascus_10_tooltip
-
+        declare_war_with_wargoal = {
+            war_goal = conquer_wargoal
+            target = scope:scope_jew
+            province = p:687
+        }
+        declare_war_with_wargoal = {
+            war_goal = conquer_wargoal
+            target = scope:scope_sam
+            province = p:684
+        }
+        add_political_influence = -25
     }
 }
 me_damascus.11 = {
@@ -463,12 +493,37 @@ me_damascus.11 = {
 
     title = me_damascus_11_title
     desc = me_damascus_11_desc
-    picture = great_library
+    picture = greeks_marching
+
+    immediate = {
+        random_country = {
+            limit = {
+                tag = AMM
+            }
+            save_scope_as = scope_amm
+        }
+        random_country = {
+            limit = {
+                tag = MOA
+            }
+            save_scope_as = scope_moa
+        }
+    }
 
     option = {
         name = "me_damascus_11.a"
         custom_tooltip = me_damascus_11_tooltip
-
+        declare_war_with_wargoal = {
+            war_goal = conquer_wargoal
+            target = scope:scope_amm
+            province = p:718
+        }
+        declare_war_with_wargoal = {
+            war_goal = conquer_wargoal
+            target = scope:scope_moa
+            province = p:717
+        }
+        add_political_influence = -25
     }
 }
 me_damascus.12 = {
@@ -478,10 +533,181 @@ me_damascus.12 = {
     desc = me_damascus_12_desc
     picture = great_library
 
+    immediate = {
+        random_subject = {
+            limit = {
+                tag = GAL
+            }
+            save_scope_as = gal_scope
+        }
+    }
+
     option = {
         name = "me_damascus_12.a"
         custom_tooltip = me_damascus_12_tooltip
+        scope:gal_scope = {
+            custom_tooltip = "tier_2_formable_tooltip"
+            change_country_name = "ISRAEL_FORMABLE_NAME"
+            monarchy_formable_government_change_effect = yes
+            capital_scope = {
+                capital_formable_small_effect = yes
+            }
+            add_3_free_province_investments = yes
+            hidden_effect = {
+                change_country_adjective = "ISRAEL_FORMABLE_ADJECTIVE"
+                #change_country_color =  "israel_color"
+                change_country_tag = ISR
+                #change_country_flag = ISRAEL_FLAG
+                change_government = judean_empire
+                if = {
+                    limit = {
+                        NOT = {
+                            any_character = {
+                                is_co_ruler = yes
+                                has_same_family = char:150
+                                is_head_of_family = yes
+                            }
+                        }
+                    }
+                    random_character = {
+                        limit = {
+                            is_head_of_family = yes
+                            has_same_family = char:150
+                        }
+                        save_scope_as = new_judean_co_ruler
+                    }
+                    random_character = {
+                        limit = {
+                            is_co_ruler = yes
+                        }
+                        save_scope_as = misery_for_me
+                        remove_all_positions = yes
+                        move_country = c:MER
+                    }
+                    set_as_coruler = scope:new_judean_co_ruler
+                }
 
+                trigger_event = {
+                    id = judea_inv.52
+                    days = 1
+                }
+            }
+        }
+        area:judea_area = {
+            every_area_province = {
+                set_owned_by = scope:gal_scope
+            }
+        }
+        area:samaria_area = {
+            every_area_province = {
+                limit = {
+                    NOR = {
+                        province_id = 665
+                        province_id = 664
+                        province_id = 663
+                    }  
+                }
+                set_owned_by = scope:gal_scope
+            }
+        }
+    }
+    option = {
+        name = "me_damascus_12.b"
+        custom_tooltip = me_damascus_12_tooltip
+        scope:gal_scope = {
+            custom_tooltip = "tier_2_formable_tooltip"
+            change_country_name = "ISRAEL_FORMABLE_NAME"
+            monarchy_formable_government_change_effect = yes
+            capital_scope = {
+                capital_formable_small_effect = yes
+            }
+            add_3_free_province_investments = yes
+            hidden_effect = {
+                change_country_adjective = "ISRAEL_FORMABLE_ADJECTIVE"
+                #change_country_color =  "israel_color"
+                change_country_tag = ISR
+                #change_country_flag = ISRAEL_FLAG
+                change_government = judean_empire
+                if = {
+                    limit = {
+                        NOT = {
+                            any_character = {
+                                is_co_ruler = yes
+                                has_same_family = char:150
+                                is_head_of_family = yes
+                            }
+                        }
+                    }
+                    random_character = {
+                        limit = {
+                            is_head_of_family = yes
+                            has_same_family = char:150
+                        }
+                        save_scope_as = new_judean_co_ruler
+                    }
+                    random_character = {
+                        limit = {
+                            is_co_ruler = yes
+                        }
+                        save_scope_as = misery_for_me
+                        remove_all_positions = yes
+                        move_country = c:MER
+                    }
+                    set_as_coruler = scope:new_judean_co_ruler
+                }
+
+                trigger_event = {
+                    id = judea_inv.52
+                    days = 1
+                }
+            }
+        }
+        area:judea_area = {
+            every_area_province = {
+                set_owned_by = scope:gal_scope
+            }
+        }
+        area:samaria_area = {
+            every_area_province = {
+                limit = {
+                    NOR = {
+                        province_id = 665
+                        province_id = 664
+                        province_id = 663
+                    }  
+                }
+                set_owned_by = scope:gal_scope
+            }
+        }
+        area:galilee_area = {
+            every_area_province = {
+                limit = {
+                    NOR = {
+                        province_id = 667
+                        province_id = 668
+                        province_id = 666
+                        province_id = 670
+                    }  
+                }
+                set_owned_by = scope:gal_scope
+            }
+        }
+        area:peraea_area = {
+            every_area_province = {
+                limit = {
+                    NOR = {
+                        province_id = 709
+                        province_id = 700
+                        province_id = 699
+                        province_id = 698
+                    }  
+                }
+                set_owned_by = scope:gal_scope
+            }
+        }
+        p:718 = { set_owned_by = scope:gal_scope }
+        p:721 = { set_owned_by = scope:gal_scope }
+        p:675 = { set_owned_by = scope:gal_scope }
     }
 }
 me_damascus.13 = {

@@ -17,3 +17,7 @@ invasion_prepped_mod = {
 	war_score_cost = -0.10
 	discipline = 0.05
 }
+gal_mil_eco_mod = {
+	land_morale_modifier = 0.10
+	loyalty_to_overlord = 20
+}

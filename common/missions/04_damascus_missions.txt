@@ -178,35 +178,69 @@
                 owner = c:GAL
             }
         }
-        allow = {}
+        allow = {
+            hidden:c:GAL = {
+                opinion = {
+                    target = root
+                    value >= 125
+                }
+            }
+        }
         on_completion = {
             trigger_event = me_damascus.9
             show_as_tooltip = {
-
+                c:GAL = {
+                    add_country_modifier = {
+                        name = gal_mil_eco_mod
+                        duration = -1
+                    }
+                }
             }
         }
     }
     damascus_missions_task_10 = { # Invade Israelites
-        icon = "task_political"
+        icon = "task_conquest"
         requires = { damascus_missions_task_9 }
         bypass = { has_completed_mission_task = damascus_missions_task_3 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    owner = c:JUD
+                    owner = c:SMA
+                }
+            }
+        }
+        allow = {
+            political_influence >= 25
+        }
         on_completion = {
             trigger_event = me_damascus.10
             show_as_tooltip = {
-
+                add_political_influence = -25
+                custom_tooltip = declare_war_with_samaria_tt
             }
         }
     }
-    damascus_missions_task_11 = { # Invade Loites
-        icon = "task_political"
+    damascus_missions_task_11 = { # Invade Lotites
+        icon = "task_conquest"
         requires = { damascus_missions_task_9 }
         bypass = { has_completed_mission_task = damascus_missions_task_3 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    owner = c:AMM
+                    owner = c:MOA
+                }
+            }
+        }
+        allow = {
+            political_influence >= 25
+        }
         on_completion = {
             trigger_event = me_damascus.11
             show_as_tooltip = {
-
+                add_political_influence = -25
+                custom_tooltip = declare_war_with_ammon_tt
             }
         }
     }
@@ -214,11 +248,76 @@
         icon = "task_political"
         requires = { damascus_missions_task_10 damascus_missions_task_11 }
         bypass = { has_completed_mission_task = damascus_missions_task_3 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_area = judea_area
+                    AND = {
+                        is_in_area = samaria_area
+                        NOR = {
+                            province_id = 665
+                            province_id = 664
+                            province_id = 663
+                        }
+                    }
+                    AND = {
+                        is_in_area = galilee_area
+                        NOR = {
+                            province_id = 667
+                            province_id = 668
+                            province_id = 666
+                            province_id = 670
+                        }
+                    }
+                    AND = {
+                        is_in_area = peraea_area
+                        NOR = {
+                            province_id = 709
+                            province_id = 700
+                            province_id = 699
+                            province_id = 698
+                        }
+                    }
+                    this = p:718
+                    this = p:721
+                    this = p:675
+                }
+            }
+        }
+        allow = {
+            custom_tooltip = {
+                owns_or_subject_owns_area = judea_area
+                owns_or_subject_owns = 682
+                owns_or_subject_owns = 679
+                owns_or_subject_owns = 680
+                owns_or_subject_owns = 678
+                owns_or_subject_owns = 719
+                owns_or_subject_owns = 676
+                owns_or_subject_owns = 720
+                owns_or_subject_owns = 671
+                owns_or_subject_owns = 669
+                owns_or_subject_owns = 667
+                owns_or_subject_owns = 648
+                owns_or_subject_owns = 674
+                owns_or_subject_owns = 672
+                owns_or_subject_owns = 673
+                owns_or_subject_owns = 714
+                owns_or_subject_owns = 716
+                owns_or_subject_owns = 717
+                owns_or_subject_owns = 712
+                owns_or_subject_owns = 731
+                owns_or_subject_owns = 681
+                owns_or_subject_owns = 710
+                owns_or_subject_owns = 718
+                owns_or_subject_owns = 721
+                owns_or_subject_owns = 675
+                text = owns_palestine_tt
+            }
+        }
         on_completion = {
             trigger_event = me_damascus.12
             show_as_tooltip = {
-
+                custom_tooltip = fate_of_palestine_tt
             }
         }
     }

@@ -72,6 +72,10 @@
  invite_syrion_2:0 "Sends an invite to #E Ugarit#! to join the #Y Pan-Aramaic Congress#!"
  invite_syrion_3:0 "Sends an invite to #E Arados#! to join the #Y Pan-Aramaic Congress#!"
  add_claims_canaan_tt:0 "Gain claims on #Y Canaan#!."
+ declare_war_with_samaria_tt:0 "Declare war on #Y Judea#! and #Y Samaria#!."
+ declare_war_with_ammon_tt:0 "Declare war on #Y Ammon#! and #Y Moab#!."
+ owns_palestine_tt:0 "Owns or subject owns all #Y Israelite#! and #Y Lotite#! territories."
+ fate_of_palestine_tt:0 "Decide what to do with the territories of #E Northern Canaan#!."
  
  
  #Modifiers
@@ -80,6 +84,7 @@
  syrion_joined:0 "Pan-Aramaic Council: Syrions"
  direct_control_of_canaan:0 "Violated Hebrew Autonomy"
  invasion_prepped_mod:0 "Prepared to Invade"
+ gal_mil_eco_mod:0 "Galilaean Independence Reassured"
  
  #Events
  me_damascus_1_title:0 "The Pan-Aramaic Congress"
@@ -108,9 +113,9 @@
  me_damascus_107_desc:0 "The Syrions have decided to join our Pan-Aramaic League!"
  me_damascus_107.a:0 "Excellent!"
  
- me_damascus_2_title:0 "A change in policy?"
- me_damascus_2_desc:0 "Our rule in Samaria was never very firm or popular, only kept in place because the dynasty installed by Pareqi-Hadad was already controversial, and the great successes under that king. After his death the kingdom fell into near constant revolt, and would ultimately disintegrate while we were exhausted by our wars with Hamath and Ammon and distracted by our intervention against Bit Agushi. The kingdom of Galilee is all that remains of this venture, and with our recent stabilization we find ourselves questioning the need for this rump state. Perhaps it is time to end it and destroy the kingdom of Samaria permanently? Or perhaps we should take a more active hand in our subject's affairs? It may be easier than having to occupy all of this by ourselves after all."
- me_damascus_2.a:0 ""
+ me_damascus_2_title:0 "A Change in Policy?"
+ me_damascus_2_desc:0 "Our rule in #E Samaria#! was never very firm or popular, only kept in place because the dynasty installed by #E Pareqi-Hadad#! was already controversial, and the great successes under that king. After his death the kingdom fell into near constant revolt, and would ultimately disintegrate while we were exhausted by our wars with Hamath and Ammon and distracted by our intervention against Bit Agushi. The kingdom of Galilee is all that remains of this venture, and with our recent stabilization we find ourselves questioning the need for this rump state. Perhaps it is time to end it and destroy the kingdom of #E Samaria#! permanently? Or perhaps we should take a more active hand in our subject's affairs? It may be easier than having to occupy all of this by ourselves after all."
+ me_damascus_2.a:0 "Let us reconsider our approach."
  me_damascus_2_tooltip:0 "The mission task '#Y $damascus_missions_task_2$#!' has now been #G Completed#!!"
  
  me_damascus_3_title:0 "The invasion of Galilee"
