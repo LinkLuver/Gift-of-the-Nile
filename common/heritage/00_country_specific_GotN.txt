@@ -1555,7 +1555,7 @@ cnidusian_heritage = {
 ciusan_heritage = {
     modifier = {
         #good
-        navy_maintenance_cost = -0.1
+        heavy_infantry_defensive = 0.10
         global_population_growth = 0.03
 
         #bad
@@ -8205,20 +8205,6 @@ dertossa_heritage = {
     }
 }
 
-gordyene_heritage = {
-    modifier = {
-        #good
-        light_infantry_discipline = 0.05
-        siege_ability = 0.1
-
-        #bad
-        monthly_centralization = -0.03
-    }
-
-    trigger = {
-        tag = AT2
-    }
-}
 
 sophene_heritage = {
     modifier = {
@@ -8232,6 +8218,21 @@ sophene_heritage = {
 
     trigger = {
         tag = SPH
+    }
+}
+
+gordyene_heritage = {
+    modifier = {
+        #good
+        light_infantry_discipline = 0.05
+        siege_ability = 0.1
+
+        #bad
+        monthly_centralization = -0.03
+    }
+
+    trigger = {
+        tag = AT2
     }
 }
 
@@ -8365,21 +8366,6 @@ tylian_heritage = {
     }
 }
 
-abderan_heritage = {
-    modifier = {
-        #good
-        global_migration_speed_modifier = 0.02
-        global_population_growth = 0.05
-        #bad
-        global_defensive = -0.10
-    }
-   
-    trigger = {
-        tag = ABD
-                    
-    }
-}
-
 cardia_heritage = {
     modifier = {
         #good
@@ -8391,6 +8377,21 @@ cardia_heritage = {
    
     trigger = {
         tag = CRD
+                    
+    }
+}
+
+abderan_heritage = {
+    modifier = {
+        #good
+        global_migration_speed_modifier = 0.02
+        global_population_growth = 0.05
+        #bad
+        global_defensive = -0.10
+    }
+   
+    trigger = {
+        tag = ABD
                     
     }
 }
@@ -8571,6 +8572,48 @@ lesbian_heritage = {
 	}
 }
 
+ammon_heritage = {
+	modifier = {
+		#good
+	    light_infantry_defensive = 0.10
+        global_food_capacity = 300
+		#bad
+		diplomatic_reputation = -2
+	}
+   
+	trigger = {
+		tag = AMM
+	}
+}
+
+jaffa_heritage = {
+	modifier = {
+		#good
+		religious_tech_investment= 0.10
+        change_pantheon_cost_modifier = -0.20
+		#bad
+		land_morale_modifier = -0.03
+	}
+   
+	trigger = {
+		tag = YPO
+	}
+}
+
+edom_heritage = {
+	modifier = {
+		#good
+		global_slaves_output = 0.10
+        monthly_legitimacy = 0.03
+		#bad
+		diplomatic_relations= -1
+	}
+   
+	trigger = {
+		tag = EDO
+	}
+}
+
 western_cimmerian_heritage = {
 	modifier = {
 		#good
@@ -8580,11 +8623,40 @@ western_cimmerian_heritage = {
 		#bad
 		general_loyalty = -5 
 	}
-   
+
 	trigger = {
         OR = {
         tag = CM1
         tag = CM3
         tag = CM5
+        }
 	}
+}
+
+moab_heritage = {
+    modifier = {
+        #good
+        agressive_expansion_monthly_change = -0.04
+        global_start_experience = 5
+        #bad
+        global_unrest = 0.05
+    }
+
+    trigger = {
+        tag = MOA
+    }
+}
+
+galilee_heritage = {
+    modifier = {
+        #good
+        global_population_growth = 0.03
+        global_freemen_output = 0.05
+        #bad
+        ruler_popularity_gain = -0.05
+    }
+
+    trigger = {
+        tag = GAL 
+    }
 }

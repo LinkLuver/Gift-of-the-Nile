@@ -14,6 +14,8 @@ ninurta_apal_ekur_two_coronation.1 = {
 	}
 	option = {
 		name = ninurta_apal_ekur_two_coronation.1.a #i colonize your mom
+		add_political_influence = 25
+		add_stability = -5
 		custom_tooltip = big_coronation_hgb.tt
 		trigger_event = {
 			id = ninurta_apal_ekur_two_coronation.2
@@ -161,7 +163,7 @@ ninurta_apal_ekur_two_coronation.7 = {
 		}
 		set_variable = assur_hanigalbat
 		
-		add_stability = -10
+		add_stability = 10
 		add_political_influence = -25
 		if = {
 			limit = {
@@ -208,11 +210,28 @@ ninurta_apal_ekur_two_coronation.8 = {
 	title = ninurta_apal_ekur_two_coronation.8.t
 	desc = ninurta_apal_ekur_two_coronation.8.desc
 	picture = aqueducts
-	left_portrait = current_ruler
 	trigger = {
 		tag = HAG
 	}
+	left_portrait = current_ruler
+	right_portrait = scope:new_ruler
+
 	immediate = {
+		hidden_effect = {
+			create_character = {
+				female = no
+				culture = root.culture
+				religion = hurrian_pantheon
+				add_charisma = 4
+				add_finesse = 4
+				add_martial = 4
+				add_zeal = 4
+				add_trait = founder
+				add_popularity = 80
+				add_gold = 300
+				save_scope_as = new_ruler
+			}
+		}
 	}
 	option = {
 		name = ninurta_apal_ekur_two_coronation.8.a #become mitanni
@@ -247,6 +266,7 @@ ninurta_apal_ekur_two_coronation.8 = {
 			set_country_heritage = mitanni_heritage
 			set_variable = mitanni_hanigalbat
 		}
+		set_as_ruler = scope:new_ruler
 		capital_scope = {
 			define_pop = {
 				culture = mitanni
@@ -268,10 +288,6 @@ ninurta_apal_ekur_two_coronation.8 = {
 				religion = hurrian_pantheon
 				type = citizen
 			}
-		}
-		trigger_event = {
-			id = mitanni_nobility_return.2
-			days = 7
 		}
 	}
 }
