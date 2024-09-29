@@ -5,12 +5,26 @@ me_hurri.1 = {
 
     title = me_hurri_1_title
     desc = me_hurri_1_desc
-    picture = great_library
+    picture = ship_in_storm
 
     option = {
         name = "me_hurri_1.a"
         custom_tooltip = me_hurri_1_tooltip
-
+        add_country_modifier = {
+            name = teshubic_resurgence
+            duration = 1825
+        }
+        hidden_effect = {
+            random_owned_province = {
+                while = {
+                    count = 5
+                    random_pops_in_province = {
+                        set_pop_religion = hurrian_pantheon
+                    }
+                }
+            }
+        }
+        custom_tooltip = random_5_pops_convert_teshub_tt
     }
 }
 me_hurri.2 = {
@@ -18,12 +32,35 @@ me_hurri.2 = {
 
     title = me_hurri_2_title
     desc = me_hurri_2_desc
-    picture = great_library
+    picture = religious_rite
 
     option = {
         name = "me_hurri_2.a"
         custom_tooltip = me_hurri_2_tooltip
-
+        custom_tooltip = 3_pops_per_prov_shingar_tt
+        hidden_effect = { #Copy paste into event
+            area:amudha_area = {
+                every_area_province = {
+                    while = {
+                        count = 3
+                        limit = {
+                            any_pops_in_province = {
+                                NOT = { pop_religion = hurrian_pantheon }
+                            }
+                        }
+                        random_pops_in_province = {
+                            limit = {
+                                NOT = { pop_religion = hurrian_pantheon }
+                            }
+                            set_pop_religion = hurrian_pantheon
+                        }
+                    }
+                }
+            }
+        }
+        capital_scope.state = {
+            add_state_food = -300
+        }
     }
 }
 me_hurri.3 = {
@@ -31,12 +68,32 @@ me_hurri.3 = {
 
     title = me_hurri_3_title
     desc = me_hurri_3_desc
-    picture = great_library
+    picture = aco_construction
 
     option = {
         name = "me_hurri_3.a"
         custom_tooltip = me_hurri_3_tooltip
-
+        custom_tooltip = 3_pops_per_prov_amudha_tt
+        hidden_effect = { #Copy paste into event
+            area:amudha_area = {
+                every_area_province = {
+                    while = {
+                        count = 3
+                        limit = {
+                            any_pops_in_province = {
+                                NOT = { pop_religion = hurrian_pantheon }
+                            }
+                        }
+                        random_pops_in_province = {
+                            limit = {
+                                NOT = { pop_religion = hurrian_pantheon }
+                            }
+                            set_pop_religion = hurrian_pantheon
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 me_hurri.4 = {
@@ -44,12 +101,16 @@ me_hurri.4 = {
 
     title = me_hurri_4_title
     desc = me_hurri_4_desc
-    picture = great_library
+    picture = diadochi_new_city_founded
 
     option = {
         name = "me_hurri_4.a"
         custom_tooltip = me_hurri_4_tooltip
-
+        add_country_modifier = {
+            name = recent_convert_modifier
+            duration = 1825
+        }
+        add_2_free_province_investments = yes
     }
 }
 me_hurri.5 = {
@@ -62,7 +123,6 @@ me_hurri.5 = {
     option = {
         name = "me_hurri_5.a"
         custom_tooltip = me_hurri_5_tooltip
-
     }
 }
 me_hurri.6 = {
@@ -70,12 +130,35 @@ me_hurri.6 = {
 
     title = me_hurri_6_title
     desc = me_hurri_6_desc
-    picture = great_library
+    picture = greeks_marching
 
     option = {
         name = "me_hurri_6.a"
         custom_tooltip = me_hurri_6_tooltip
-
+        add_political_influence = -25
+        custom_tooltip = claims_on_naharin_plus_tt
+        hidden_effect = {
+            region:upper_mesopotamia_region = {
+                every_region_province = {
+                    add_claim = root
+                }
+            }
+            area:nisibin_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+            area:niniveh_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+            area:tigris_area = {
+                every_area_province = {
+                    add_claim = root
+                }
+            }
+        }
     }
 }
 me_hurri.700 = {
@@ -301,12 +384,23 @@ me_hurri.16 = {
 
     title = me_hurri_16_title
     desc = me_hurri_16_desc
-    picture = great_library
+    picture = rep_hattusa
 
     option = {
         name = "me_hurri_16.a"
         custom_tooltip = me_hurri_16_tooltip
-
+        hidden_effect = {
+            every_owned_province = {
+                every_pops_in_province = {
+                    limit = { NOT = { pop_culture = hurrian } }
+                    random_list = {
+                        20 = { set_pop_culture = hurrian }
+                        80 = {}
+                    }
+                }
+            }
+        }
+        custom_tooltip = 1_over_4_hurrian_tt
     }
 }
 me_hurri.17 = {
@@ -358,6 +452,78 @@ me_hurri.20 = {
     option = {
         name = "me_hurri_20.a"
         custom_tooltip = me_hurri_20_tooltip
+    }
+}
+me_hurri.21 = {
+    type = country_event
 
+    title = me_hurri_21_title
+    desc = me_hurri_21_desc
+    picture = catafalc
+
+    option = {
+        name = "me_hurri_21.a"
+        custom_tooltip = me_hurri_21_tooltip
+        p:830 = {
+            every_pops_in_province = {
+                limit = {
+                    OR = {
+                        pop_type = nobles
+                        pop_type = citizen
+                    }
+                }
+                set_pop_culture = hurrian
+            }
+        }
+    }
+    option = {
+        name = "me_hurri_21.b"
+        custom_tooltip = me_hurri_21_tooltip
+        random_country_culture = {
+            limit = { is_culture = qardu }
+            ROOT = { integrate_country_culture = PREV }
+        }
+        p:830 = {
+            add_province_modifier = {
+                name = qardu_city_flourishes
+                duration = -1
+            }
+        }
+    }
+}
+me_hurri.22 = {
+    type = country_event
+
+    title = me_hurri_22_title
+    desc = me_hurri_22_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_22.a"
+        custom_tooltip = me_hurri_22_tooltip
+    }
+}
+me_hurri.23 = {
+    type = country_event
+
+    title = me_hurri_23_title
+    desc = me_hurri_23_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_23.a"
+        custom_tooltip = me_hurri_23_tooltip
+    }
+}
+me_hurri.24 = {
+    type = country_event
+
+    title = me_hurri_24_title
+    desc = me_hurri_24_desc
+    picture = great_library
+
+    option = {
+        name = "me_hurri_24.a"
+        custom_tooltip = me_hurri_24_tooltip
     }
 }

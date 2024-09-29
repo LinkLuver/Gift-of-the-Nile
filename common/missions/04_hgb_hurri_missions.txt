@@ -226,12 +226,26 @@
         }
     }
     hurri_missions_task_6 = {
-        icon = "task_political"
-        allow = {}
+        icon = "task_expansion"
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_area = niniveh_area
+                    is_in_area = tigris_area
+                    is_in_region = upper_mesopotamia_region
+                    is_in_area = nisibin_area
+                    is_in_area = shingar_area
+                }
+            }
+        }
+        allow = {
+            political_influence >= 25
+        }
         on_completion = {
             trigger_event = me_hurri.6
             show_as_tooltip = {
-
+                add_political_influence = -25
+                custom_tooltip = claims_on_naharin_plus_tt
             }
         }
     }
@@ -472,7 +486,7 @@
         }
     }
     hurri_missions_task_21 = {
-        icon = "task_political"
+        icon = "task_battle"
         requires = { hurri_missions_task_6 }
         highlight = {
             scope:province = {
@@ -480,13 +494,12 @@
             }
         }
         allow = {
-            political_influence >= 25
+            owns_or_subject_owns_area = nisibin_area
         }
         on_completion = {
             trigger_event = me_hurri.21
             show_as_tooltip = {
-                add_political_influence = -25
-                custom_tooltip = gain_claims_nasbina_tt
+                custom_tooltip = qardu_thoughts_tt
             }
         }
     }

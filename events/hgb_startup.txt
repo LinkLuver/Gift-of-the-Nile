@@ -188,6 +188,24 @@ ninurta_apal_ekur_two_coronation.9 = {
 	trigger = {
 		tag = HAG
 	}
+	immediate = {
+		hidden_effect = {
+			create_character = {
+				female = no
+				culture = root.culture
+				religion = hurrian_pantheon
+				no_stats = yes
+				add_charisma = 6
+				add_finesse = 3
+				add_martial = 5
+				add_zeal = 8
+				add_trait = founder
+				add_popularity = 80
+				add_gold = 300
+				save_scope_as = new_ruler
+			}
+		}
+	}
 	option = {
 		name = ninurta_apal_ekur_two_coronation.9.a #become hurri
 		custom_tooltip = mitanni_nobility_priviliges.tt
@@ -202,6 +220,7 @@ ninurta_apal_ekur_two_coronation.9 = {
 		}
 		set_variable = mitanni_deities
 		set_variable = hurri_hanigalbat
+		set_as_ruler = scope:new_ruler
 	}
 }
 #Mitanni coup against Hiketas I Sibyrtid! the rebirth of a Mitanni state!
@@ -222,10 +241,11 @@ ninurta_apal_ekur_two_coronation.8 = {
 				female = no
 				culture = root.culture
 				religion = hurrian_pantheon
-				add_charisma = 4
-				add_finesse = 4
-				add_martial = 4
-				add_zeal = 4
+				no_stats = yes
+				add_charisma = 6
+				add_finesse = 3
+				add_martial = 5
+				add_zeal = 8
 				add_trait = founder
 				add_popularity = 80
 				add_gold = 300
