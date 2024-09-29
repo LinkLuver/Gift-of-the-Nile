@@ -76,7 +76,8 @@
  declare_war_with_ammon_tt:0 "Declare war on #Y Ammon#! and #Y Moab#!."
  owns_palestine_tt:0 "Owns or subject owns all #Y Israelite#! and #Y Lotite#! territories."
  fate_of_palestine_tt:0 "Decide what to do with the territories of #E Northern Canaan#!."
- 
+ if_done_both_tt:0 "If we have done both #E Sponsor#! tasks, we will recieve the following modifier:"
+ hebrew_temples_made:0 "Temples to Our Gods"
  
  #Modifiers
  tadmor_joined:0 "Pan-Aramaic Council: Tadmor"
@@ -85,6 +86,9 @@
  direct_control_of_canaan:0 "Violated Hebrew Autonomy"
  invasion_prepped_mod:0 "Prepared to Invade"
  gal_mil_eco_mod:0 "Galilaean Independence Reassured"
+ asherah_sponsored:0 "Great Temple of Asherah"
+ samaria_friends:0 "Master Damascene Diplomats"
+ damascene_jerusalem:0 "Damascene Jerusalem"
  
  #Events
  me_damascus_1_title:0 "The Pan-Aramaic Congress"

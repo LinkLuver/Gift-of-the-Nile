@@ -717,10 +717,29 @@ me_damascus.13 = {
     desc = me_damascus_13_desc
     picture = great_library
 
+    immediate = {
+        set_variable = damascus_friends
+    }
+
     option = {
         name = "me_damascus_13.a"
         custom_tooltip = me_damascus_13_tooltip
-
+        if = {
+            limit = {
+                NOT = { has_variable = damascus_friends }
+            }
+            set_variable = damascus_friends
+        }
+        if = {
+            limit = {
+                has_variable = damascus_friends
+            }
+            add_country_modifier = {
+                name = samaria_friends
+                duration = -1
+            }
+            remove_variable = damascus_friends
+        }
     }
 }
 me_damascus.14 = {
@@ -733,7 +752,22 @@ me_damascus.14 = {
     option = {
         name = "me_damascus_14.a"
         custom_tooltip = me_damascus_14_tooltip
-
+        if = {
+            limit = {
+                NOT = { has_variable = damascus_friends }
+            }
+            set_variable = damascus_friends
+        }
+        if = {
+            limit = {
+                has_variable = damascus_friends
+            }
+            add_country_modifier = {
+                name = samaria_friends
+                duration = -1
+            }
+            remove_variable = damascus_friends
+        }
     }
 }
 me_damascus.15 = {

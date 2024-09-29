@@ -26,6 +26,14 @@
     damascus_missions_task_1 = { # Pan-Aramaic Congress
         icon = "task_diplomatic"
         duration = 365
+        highlight = {
+            scope:province = {
+                OR = {
+                    dominant_province_culture = aramaic
+                    dominant_province_culture = syriac
+                }
+            }
+        }
         allow = {
             treasury >= 100
         }
@@ -126,11 +134,47 @@
         icon = "task_political"
         requires = { damascus_missions_task_4 }
         bypass = { has_completed_mission_task = damascus_missions_task_9 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    owner = c:JUD
+                    owner = c:SMA
+                }
+            }
+        }
+        allow = {
+            owns_or_subject_owns = 687
+            owns_or_subject_owns = 680
+            owns_or_subject_owns = 686
+            owns_or_subject_owns = 684
+            owns_or_subject_owns = 673
+            owns_or_subject_owns = 676
+        }
         on_completion = {
             trigger_event = me_damascus.5
             show_as_tooltip = {
-
+                p:687 = {
+                    every_pops_in_province = {
+                        limit = {
+                            OR = {
+                                pop_type = citizen
+                                pop_type = nobles
+                            }
+                        }
+                        set_pop_culture = aramaic
+                    }
+                }
+                p:680 = {
+                    every_pops_in_province = {
+                        limit = {
+                            OR = {
+                                pop_type = citizen
+                                pop_type = nobles
+                            }
+                        }
+                        set_pop_culture = aramaic
+                    }
+                }
             }
         }
     }
@@ -138,11 +182,46 @@
         icon = "task_political"
         requires = { damascus_missions_task_4 }
         bypass = { has_completed_mission_task = damascus_missions_task_9 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    owner = c:AMM
+                    owner = c:MOA
+                }
+            }
+        }
+        allow = {
+            owns_or_subject_owns = 718
+            owns_or_subject_owns = 713
+            owns_or_subject_owns = 717
+            owns_or_subject_owns = 712
+            owns_or_subject_owns = 681
+        }
         on_completion = {
             trigger_event = me_damascus.6
             show_as_tooltip = {
-
+                p:718 = {
+                    every_pops_in_province = {
+                        limit = {
+                            OR = {
+                                pop_type = citizen
+                                pop_type = nobles
+                            }
+                        }
+                        set_pop_culture = aramaic
+                    }
+                }
+                p:717 = {
+                    every_pops_in_province = {
+                        limit = {
+                            OR = {
+                                pop_type = citizen
+                                pop_type = nobles
+                            }
+                        }
+                        set_pop_culture = aramaic
+                    }
+                }
             }
         }
     }
@@ -150,22 +229,81 @@
         icon = "task_political"
         requires = { damascus_missions_task_5 damascus_missions_task_6 }
         bypass = { has_completed_mission_task = damascus_missions_task_9 }
-        allow = {}
-        on_completion = {            trigger_event = me_damascus.7
+        highlight = {
+            scope:province = {
+                province_id = 687
+            }
+        }
+        allow = {
+            p:687.state = {
+                state_improvement_civic_trigger = yes
+            }
+        }
+        on_completion = {
+            trigger_event = me_damascus.7
             show_as_tooltip = {
-
+                p:687 = {
+                    add_province_modifier = {
+                        name = damascene_jerusalem
+                        duration = -1
+                    }
+                    create_pop = nobles
+                    create_pop = citizen
+                    create_pop = citizen
+                    create_pop = citizen
+                }
             }
         }
     }
     damascus_missions_task_8 = { # Temples for the Hebrews
-        icon = "task_political"
+        icon = "task_religion"
         requires = { damascus_missions_task_7 }
         bypass = { has_completed_mission_task = damascus_missions_task_9 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    this = p:687
+                    this = p:717
+                    this = p:718
+                    this = p:680
+                }
+            }
+        }
+        allow = {
+            p:687 = {
+                has_building = temple_building
+            }
+            p:717 = {
+                has_building = temple_building
+            }
+            p:718 = {
+                has_building = temple_building
+            }
+            p:680 = {
+                has_building = temple_building
+            }
+        }
         on_completion = {
             trigger_event = me_damascus.8
             show_as_tooltip = {
-
+                random_country_culture = {
+                    limit = {
+                        is_culture = ammonite
+                    }
+                    add_country_culture_modifier = {
+                        name = hebrew_temples_made
+                        duration = -1
+                    }
+                }
+                random_country_culture = {
+                    limit = {
+                        is_culture = hebrew
+                    }
+                    add_country_culture_modifier = {
+                        name = hebrew_temples_made
+                        duration = -1
+                    }
+                }
             }
         }
     }
@@ -322,35 +460,136 @@
         }
     }
     damascus_missions_task_13 = { # Sponser Asherahism
-        icon = "task_political"
+        icon = "task_economical"
         requires = { damascus_missions_task_12 }
         bypass = { has_completed_mission_task = damascus_missions_task_3 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                this = p:673
+            }
+        }
+        allow = {
+            treasury >= 150
+        }
         on_completion = {
             trigger_event = me_damascus.13
             show_as_tooltip = {
-
+                add_treasury = -150
+                p:673 = {
+                    add_building_level = temple_building
+                    add_province_modifier = {
+                        name = asherah_sponsored
+                        duration = -1
+                    }
+                }
+                custom_tooltip = if_done_both_tt
+                add_country_modifier = {
+                    name = samaria_friends
+                    duration = -1
+                }
             }
         }
     }
     damascus_missions_task_14 = { # Sponser Samarian Reconstruction
-        icon = "task_political"
+        icon = "task_economical"
         requires = { damascus_missions_task_12 }
         bypass = { has_completed_mission_task = damascus_missions_task_3 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                this = p:679
+            }
+        }
+        allow = {
+            treasury >= 150
+        }
         on_completion = {
             trigger_event = me_damascus.14
+            show_as_tooltip = {
+                add_treasury = -150
+                p:679 = {
+                    set_city_status = city
+                    create_pop = nobles
+                    create_pop = citizen
+                    create_pop = citizen
+                    create_pop = citizen
+                    create_pop = freemen
+                    create_pop = freemen
+                    create_pop = freemen
+                    create_pop = freemen
+                    create_pop = freemen
+                }
+                custom_tooltip = if_done_both_tt
+                add_country_modifier = {
+                    name = samaria_friends
+                    duration = -1
+                }
+            }
+        }
+    }
+    damascus_missions_task_15 = {
+        icon = "task_atlas"
+        requires = { damascus_missions_task_8 damascus_missions_task_13 damascus_missions_task_14 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_damascus.15
+            show_as_tooltip = {
+                custom_tooltip = "tier_1_formable_tooltip"
+                change_country_name = "ARAM_NAME"
+                hidden_effect = {
+                    change_country_adjective = "ARAM_ADJECTIVE"
+                    change_country_tag = "PRY"
+                }
+                capital_scope = {
+                    capital_formable_medium_effect = yes
+                    formable_capital_modifier_normal_effect = yes
+                }
+                add_2_free_province_investments = yes
+                set_capital = 750
+                p:750 = {
+                    capital_formable_medium_effect = yes
+                }
+            }
+        }
+    }
+    damascus_missions_task_16 = {
+        icon = "task_atlas"
+        requires = { damascus_missions_task_1 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_damascus.16
             show_as_tooltip = {
 
             }
         }
     }
-    damascus_missions_task_15 = {
-        icon = "task_political"
-        requires = { damascus_missions_task_8 damascus_missions_task_13 damascus_missions_task_14 }
+    damascus_missions_task_17 = {
+        icon = "task_atlas"
+        requires = { damascus_missions_task_16 }
         allow = {}
         on_completion = {
-            trigger_event = me_damascus.15
+            trigger_event = me_damascus.17
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    damascus_missions_task_18 = {
+        icon = "task_atlas"
+        requires = { damascus_missions_task_17 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_damascus.18
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    damascus_missions_task_19 = {
+        icon = "task_atlas"
+        requires = { damascus_missions_task_18 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_damascus.19
             show_as_tooltip = {
 
             }
