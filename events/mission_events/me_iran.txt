@@ -133,7 +133,7 @@ me_iran.6 = {
 
     title = me_iran_6_title
     desc = me_iran_6_desc
-    picture = great_library
+    picture = hellenic_marketplace
 
     option = {
         name = "me_iran_6.a"
@@ -142,6 +142,9 @@ me_iran.6 = {
             name = gava_mod
             duration = -1
         }
+        p:6711 = {
+            set_trade_goods = steppe_horses
+        }
     }
 }
 me_iran.7 = {
@@ -149,7 +152,7 @@ me_iran.7 = {
 
     title = me_iran_7_title
     desc = me_iran_7_desc
-    picture = great_library
+    picture = farming
 
     option = {
         name = "me_iran_7.a"
@@ -165,7 +168,7 @@ me_iran.8 = {
 
     title = me_iran_8_title
     desc = me_iran_8_desc
-    picture = great_library
+    picture = hk_sumerian_court
 
     option = {
         name = "me_iran_8.a"
@@ -181,7 +184,7 @@ me_iran.9 = {
 
     title = me_iran_9_title
     desc = me_iran_9_desc
-    picture = great_library
+    picture = road_construction
 
     option = {
         name = "me_iran_9.a"
@@ -197,7 +200,7 @@ me_iran.10 = {
 
     title = me_iran_10_title
     desc = me_iran_10_desc
-    picture = great_library
+    picture = great_work_architect
 
     option = {
         name = "me_iran_10.a"
@@ -229,7 +232,7 @@ me_iran.12 = {
 
     title = me_iran_12_title
     desc = me_iran_12_desc
-    picture = great_library
+    picture = Event_dangerous_mountain_crossing
 
     option = {
         name = "me_iran_12.a"
@@ -245,7 +248,7 @@ me_iran.13 = {
 
     title = me_iran_13_title
     desc = me_iran_13_desc
-    picture = great_library
+    picture = steppe_cavalry
 
     option = {
         name = "me_iran_13.a"
@@ -261,7 +264,7 @@ me_iran.14 = {
 
     title = me_iran_14_title
     desc = me_iran_14_desc
-    picture = great_library
+    picture = Event_dangerous_mountain_crossing
 
     option = {
         name = "me_iran_14.a"
@@ -277,7 +280,7 @@ me_iran.15 = {
 
     title = me_iran_15_title
     desc = me_iran_15_desc
-    picture = great_library
+    picture = farming
 
     option = {
         name = "me_iran_15.a"
@@ -293,7 +296,7 @@ me_iran.16 = {
 
     title = me_iran_16_title
     desc = me_iran_16_desc
-    picture = great_library
+    picture = aqueducts
 
     option = {
         name = "me_iran_16.a"
@@ -309,7 +312,7 @@ me_iran.17 = {
 
     title = me_iran_17_title
     desc = me_iran_17_desc
-    picture = great_library
+    picture = great_work_celebration
 
     option = {
         name = "me_iran_17.a"
@@ -318,6 +321,46 @@ me_iran.17 = {
         change_country_adjective = "Airyanem_Vaejah_ADJ"
         change_country_color = airyanem_blue
         change_country_flag = PES_3
+        set_capital = p:6647
+        p:6647 = {
+            change_province_name = ariyanem_vaejah
+            custom_tooltip = 20_pops_tt
+            hidden_effect = {
+                create_pop = freemen
+                create_pop = freemen
+                create_pop = freemen
+                create_pop = freemen
+                create_pop = freemen
+                create_pop = freemen
+                create_pop = freemen
+                create_pop = freemen
+                create_pop = freemen
+                create_pop = citizen
+                create_pop = citizen
+                create_pop = citizen
+                create_pop = citizen
+                create_pop = citizen
+                create_pop = citizen
+                create_pop = nobles
+                create_pop = nobles
+                create_pop = nobles
+                create_pop = nobles
+                create_pop = nobles
+            }
+            set_city_status = city
+            hidden_effect = {
+                p:6647.state = {
+                    add_state_modifier = {
+                        name = ariyanem_vaejah_capital_2
+                        duration = -1
+                    }
+                }
+            }
+            add_province_modifier = {
+                name = ariyanem_vaejah_capital
+                duration = -1
+            }
+        }
     }
 }
 me_iran.18 = {
@@ -403,11 +446,59 @@ me_iran.21 = {
 
     title = me_iran_21_title
     desc = me_iran_21_desc
-    picture = persepolis
+    picture = pataliputra
 
     option = {
         name = "me_iran_21.a"
         custom_tooltip = me_iran_21_tooltip
+        p:7314 = { set_province_deity = deity:omen_mitra }
+        add_country_modifier = {
+            name = vedic_mitra
+            duration = 3650
+        }
+    }
+    option = {
+        name = "me_iran_21.b"
+        custom_tooltip = me_iran_21_tooltip
+        custom_tooltip = following_modifier_vedic_tt
+        hidden_effect = {
+            region:indus_region = {
+                every_region_province = {
+                    every_owned_province = {
+                        add_province_modifier = {
+                            name = vedicism_banned
+                            duration = 5475
+                        }
+                    }
+                }
+            }
+            region:panchab_region = {
+                every_region_province = {
+                    every_owned_province = {
+                        add_province_modifier = {
+                            name = vedicism_banned
+                            duration = 5475
+                        }
+                    }
+                }
+            }
+            region:gandhara_region = {
+                every_region_province = {
+                    every_owned_province = {
+                        add_province_modifier = {
+                            name = vedicism_banned
+                            duration = 5475
+                        }
+                    }
+                }
+            }
+        }
+        p:7314 = {
+            add_province_modifier = {
+                name = vedicism_banned
+                duration = 5475
+            }
+        }
     }
 }
 
@@ -416,11 +507,26 @@ me_iran.22 = {
 
     title = me_iran_22_title
     desc = me_iran_22_desc
-    picture = persepolis
+    picture = steppe_cavalry_honor
 
     option = {
         name = "me_iran_22.a"
         custom_tooltip = me_iran_22_tooltip
+        random_country_culture = {
+            limit = {
+                OR = {
+                    is_culture = derbiccan
+                    is_culture = kharesmian
+                }
+            }
+            add_country_culture_modifier = {
+                name = ardavda_canonized
+                duration = -1
+            }
+        }
+        current_ruler = {
+            add_trait = improviser
+        }
     }
 }
 
@@ -429,11 +535,30 @@ me_iran.23 = {
 
     title = me_iran_23_title
     desc = me_iran_23_desc
-    picture = persepolis
+    picture = interesting_histories_asia_mountains
 
     option = {
         name = "me_iran_23.a"
         custom_tooltip = me_iran_23_tooltip
+        add_treasury = -500
+        add_political_influence = -50
+        p:6694 = {
+            add_permanent_province_modifier = {
+                name = fire_temple_floor_2
+                duration = -1
+            }
+        }
+    }
+    option = {
+        name = "me_iran_23.b"
+        custom_tooltip = me_iran_23_tooltip
+        custom_tooltip = add_deity_to_pantheon_vakhsh_tt
+        hidden_effect = {
+            add_deity_to_pantheon = {
+                deity = deity:omen_yakhsha
+            }
+        }
+        set_variable = yakhsha_unlocked
     }
 }
 
@@ -458,11 +583,16 @@ me_iran.25 = {
 
     title = me_iran_25_title
     desc = me_iran_25_desc
-    picture = persepolis
+    picture = tlc_city_mountains
 
     option = {
         name = "me_iran_25.a"
         custom_tooltip = me_iran_25_tooltip
+        current_ruler = {
+            add_nickname = the_great
+            add_popularity = popularity_large
+            add_trait = founder
+        }
     }
 }
 
@@ -471,11 +601,48 @@ me_iran.26 = {
 
     title = me_iran_26_title
     desc = me_iran_26_desc
-    picture = persepolis
+    picture = hk_tower_babylon
 
     option = {
         name = "me_iran_26.a"
         custom_tooltip = me_iran_26_tooltip
+        custom_tooltip = 25_percent_zoroaster_tt
+        hidden_effect = {
+            region:media_region = {
+                every_region_province = {
+                    every_pops_in_province = {
+                        limit = {
+                            pop_religion = mithra_religion
+                        }
+                        random_list = {
+                            25 = { set_pop_religion = zoroaster }
+                            75 = {}
+                        }
+                    }
+                }
+            }
+            region:parthia_region = {
+                every_region_province = {
+                    every_pops_in_province = {
+                        limit = {
+                            pop_religion = mithra_religion
+                        }
+                        random_list = {
+                            25 = { set_pop_religion = zoroaster }
+                            75 = {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "me_iran_26.b"
+        custom_tooltip = me_iran_26_tooltip
+        add_country_modifier = {
+            name = light_of_mithra
+            duration = -1
+        }
     }
 }
 
@@ -484,11 +651,47 @@ me_iran.27 = {
 
     title = me_iran_27_title
     desc = me_iran_27_desc
-    picture = persepolis
+    picture = tlc_city_night
 
     option = {
         name = "me_iran_27.a"
         custom_tooltip = me_iran_27_tooltip
+        random_country_culture = {
+            limit = {
+                is_culture = parthian
+            }
+            add_country_culture_modifier = {
+                name = zurvanist_unhappy
+                duration = 5475
+            }
+        }
+        hidden_effect = {
+            region:parthia_region = {
+                every_region_province = {
+                    add_province_modifier = {
+                        name = zurvanist_convert
+                        duration = 5475
+                    }
+                }
+            }
+        }
+        custom_tooltip = "we_get_this_mod_parthia_tt"
+        show_as_tooltip = {
+            p:4997 = {
+                add_province_modifier = {
+                    name = zurvanist_convert
+                    duration = 5475
+                }
+            }
+        }
+    }
+    option = {
+        name = "me_iran_27.b"
+        custom_tooltip = me_iran_27_tooltip
+        add_country_modifier = {
+            name = shield_of_zurvan
+            duration = -1
+        }
     }
 }
 
@@ -502,5 +705,35 @@ me_iran.28 = {
     option = {
         name = "me_iran_28.a"
         custom_tooltip = me_iran_28_tooltip
+        custom_tooltip = convert_33_percent_ariyans_tt
+        hidden_effect = {
+            every_owned_province = {
+                every_pops_in_province = {
+                    limit = {
+                        NOR = {
+                            primary_culture = elamite
+                            primary_culture = anshanite
+                            primary_culture = uxian
+                            primary_culture = cossian
+                            primary_culture = brahui
+                            primary_culture = harrapan
+                            primary_culture = logali
+                        }
+                    }
+                    random_list = {
+                        33 = { set_pop_culture = ariyan }
+                        66 = {}
+                    }
+                }
+            }
+        }
+        set_primary_culture_cleanup_effect = {
+            NEW_PRIMARY_CULTURE = ariyan
+            MAKE_OLD_CULTURE_INTEGRATED = no
+        }
+        add_country_modifier = {
+            name = quick_assimilation_ariya
+            duration = 1825
+        }
     }
 }

@@ -117,7 +117,10 @@
  omen_poleramma:0 "Poleramma"
  omen_poleramma_desc:0 "#Y Agamic Goddess#! \nPoleramma, the consort of Shiva. The goddess of plague and smallpox, let us venerate her lest we wish to suffer the many ailments she has at her disposal."
 
-#Mitanni
+ deity_mitra:0 "$omen_mitra$"
+ omen_mitra:0 "Mitra"
+ omen_mitra_desc:0 "#Y Vedic God#! \nAlthough an Asura god, typically associated with demons or devils, Mitra holds a distinction of being worshipped like a regular daeva, perhaps due to his association with Varuna (oft being invoked as Mitra-Varuna), or perhaps do to his affiliation with the Aditya gods, the sons of goddess Aditi, which includes mainly solar deities like Surya."
+
  deity_vayu:0 "$omen_vayu$"
  omen_vayu:0 "Vayu"
  omen_vayu_desc:0 "#Y Vedic God#! \nVayu, the god of winds. He is closely associated with Indra and is sometimes called the 'life breath of the world.' It is said that whenever Vishnu reincarnates, Vayu does too to accompany and aid him."

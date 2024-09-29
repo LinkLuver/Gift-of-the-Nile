@@ -581,3 +581,26 @@ deity_thraetaona = {
 }
 
 ### Exclusive Deity Checks ###
+
+deity_yakhsha = { # FERTILITY
+    trigger = {
+        OR = {
+        	has_variable = yakhsha_unlocked
+            deity:omen_yakhsha = {
+                holy_site_deity_check_trigger = yes
+            }
+        }
+    }
+    icon = deity_tribal_love
+    passive_modifier = { global_capital_trade_routes = 2 }
+    omen = { global_population_growth = omen_global_population_growth } #Bonus from Omen
+    religion = zoroaster
+    deity_category = fertility #This Deity uses a Fertility slot.
+    deification_trigger = {
+        can_deify_trigger = yes
+    }
+
+    on_activate = {
+        economy_income_effect = yes
+    }
+}

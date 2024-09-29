@@ -155,7 +155,7 @@
         }
     }
     missions_iran_1_task_6 = {
-        icon = "task_political"
+        icon = "task_economical"
         requires = { missions_iran_1_task_18 }
         highlight = {
             scope:province = {
@@ -176,7 +176,7 @@
         }
     }
     missions_iran_1_task_7 = {
-        icon = "task_political"
+        icon = "task_happiness"
         requires = { missions_iran_1_task_18 }
         highlight = {
             scope:province = {
@@ -222,7 +222,12 @@
                 this = p:6668
             }
         }
-        allow = {}
+        allow = {
+            p:6668 = {
+                num_of_court_building = 3
+                has_building = town_hall_building
+            }
+        }
         on_completion = {
             trigger_event = me_iran.8
             show_as_tooltip = {
@@ -234,14 +239,20 @@
         }
     }
     missions_iran_1_task_9 = {
-        icon = "task_political"
+        icon = "task_zeus_cornucopia"
         requires = { missions_iran_1_task_18 }
         highlight = {
             scope:province = {
                 this = p:6558
             }
         }
-        allow = {}
+        allow = {
+            p:6558 = {
+                incoming_trade_routes >= 3
+                outgoing_trade_routes >= 2
+                has_building = commerce_building
+            }
+        }
         on_completion = {
             trigger_event = me_iran.9
             show_as_tooltip = {
@@ -253,14 +264,19 @@
         }
     }
     missions_iran_1_task_10 = {
-        icon = "task_political"
+        icon = "task_heracles"
         requires = { missions_iran_1_task_18 }
         highlight = {
             scope:province = {
                 this = p:6678
             }
         }
-        allow = {}
+        allow = {
+            p:6678 = {
+                has_building = temple_building
+            }
+            treasury >= 500
+        }
         on_completion = {
             trigger_event = me_iran.10
             show_as_tooltip = {
@@ -268,18 +284,26 @@
                     name = bakhdi_mod
                     duration = -1
                 }
+                p:6678 = {
+                    add_province_modifier = {
+                        name = bactria_fire_temple
+                        duration = -1
+                    }
+                }
             }
         }
     }
     missions_iran_1_task_11 = {
-        icon = "task_political"
+        icon = "task_religion"
         requires = { missions_iran_1_task_19 }
         highlight = {
             scope:province = {
                 is_in_area = pactya_area
             }
         }
-        allow = {}
+        allow = {
+            owns_or_subject_owns_area = pactya_area
+        }
         on_completion = {
             trigger_event = me_iran.11
             show_as_tooltip = {
@@ -291,14 +315,16 @@
         }
     }
     missions_iran_1_task_12 = {
-        icon = "task_political"
+        icon = "task_artemis"
         requires = { missions_iran_1_task_19 }
         highlight = {
             scope:province = {
                 is_in_area = arachosia_area
             }
         }
-        allow = {}
+        allow = {
+            owns_or_subject_owns_area = arachosia_area
+        }
         on_completion = {
             trigger_event = me_iran.12
             show_as_tooltip = {
@@ -310,14 +336,16 @@
         }
     }
     missions_iran_1_task_13 = {
-        icon = "task_political"
+        icon = "task_economical"
         requires = { missions_iran_1_task_19 }
         highlight = {
             scope:province = {
                 this = p:6648
             }
         }
-        allow = {}
+        allow = {
+            owns_or_subject_owns = 6648
+        }
         on_completion = {
             trigger_event = me_iran.13
             show_as_tooltip = {
@@ -329,7 +357,7 @@
         }
     }
     missions_iran_1_task_14 = {
-        icon = "task_political"
+        icon = "task_heracles"
         requires = { missions_iran_1_task_19 }
         highlight = {
             scope:province = {
@@ -371,7 +399,7 @@
         }
     }
     missions_iran_1_task_15 = {
-        icon = "task_political"
+        icon = "task_diplomatic"
         requires = { missions_iran_1_task_19 }
         highlight = {
             scope:province = {
@@ -395,7 +423,7 @@
         }
     }
     missions_iran_1_task_16 = {
-        icon = "task_political"
+        icon = "task_expansion"
         requires = { missions_iran_1_task_19 }
         highlight = {
             scope:province = {
@@ -432,6 +460,7 @@
                 custom_tooltip = achieved_goal_tt
             }
         }
+        final = yes
     }
     missions_iran_1_task_18 = {
         icon = "task_atlas"
@@ -459,7 +488,7 @@
         }
     }
     missions_iran_1_task_19 = {
-        icon = "task_political"
+        icon = "task_durga"
         requires = { missions_iran_1_task_4 missions_iran_1_task_6 missions_iran_1_task_7 missions_iran_1_task_8 missions_iran_1_task_9 missions_iran_1_task_10 }
         highlight = {
             scope:province = {
@@ -502,13 +531,20 @@
         requires = { missions_iran_1_task_24 }
         highlight = {
             scope:province = {
-                AND = {
-                    owner = ROOT
-                    dominant_province_religion = hindu
+                OR = {
+                    AND = {
+                        owner = ROOT
+                        dominant_province_religion = hindu
+                    }
+                    this = p:7314
                 }
             }
         }
         allow = {
+            owns = 7314
+            p:7314 = {
+                is_holy_site = no
+            }
             OR = {
                 custom_tooltip = {
                     any_owned_province = {
@@ -682,6 +718,7 @@
                 current_ruler = {
                     add_nickname = the_great
                     add_popularity = popularity_large
+                    add_trait = founder
                 }
             }
         }
@@ -783,7 +820,7 @@
             }
         }
         on_completion = {
-            trigger_event = me_iran.27
+            trigger_event = me_iran.28
             show_as_tooltip = {
                 add_country_modifier = {
                     name = quick_assimilation_ariya
