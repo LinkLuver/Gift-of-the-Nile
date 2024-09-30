@@ -533,12 +533,6 @@
         on_completion = {
             trigger_event = me_damascus.15
             show_as_tooltip = {
-                custom_tooltip = "tier_1_formable_tooltip"
-                change_country_name = "ARAM_NAME"
-                hidden_effect = {
-                    change_country_adjective = "ARAM_ADJECTIVE"
-                    change_country_tag = "PRY"
-                }
                 capital_scope = {
                     capital_formable_medium_effect = yes
                     formable_capital_modifier_normal_effect = yes
@@ -554,33 +548,81 @@
     damascus_missions_task_16 = {
         icon = "task_atlas"
         requires = { damascus_missions_task_1 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    owner = c:HAM
+                    owner = c:LHT
+                }
+            }
+        }
+        allow = {
+            owns_or_subject_owns = 777
+            owns_or_subject_owns = 778
+            owns_or_subject_owns = 782
+            owns_or_subject_owns = 761
+        }
         on_completion = {
             trigger_event = me_damascus.16
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = zakkor_shattered
+                    duration = -1
+                }
             }
         }
     }
     damascus_missions_task_17 = {
-        icon = "task_atlas"
+        icon = "task_heracles"
         requires = { damascus_missions_task_16 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                this = p:792
+            }
+        }
+        allow = {
+            owns_or_subject_owns = 792
+            p:792 = {
+                has_building = fortress_building
+                has_building = commerce_building
+                has_building = temple_building
+            }
+        }
         on_completion = {
             trigger_event = me_damascus.17
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = restorers_of_legacy
+                    duration = -1
+                }
             }
         }
     }
     damascus_missions_task_18 = {
         icon = "task_atlas"
         requires = { damascus_missions_task_17 }
-        allow = {}
+        highlight = {
+            scope:province = {
+                AND = {
+                    is_in_area = syria_region
+                    owner = ROOT
+                }
+            }
+        }
+        allow = {
+            political_influence >= 50
+            hidden:c:AGU = {
+                opinion = {
+                    target = root
+                    value >= 125
+                }
+            }
+        }
         on_completion = {
             trigger_event = me_damascus.18
             show_as_tooltip = {
-
+                add_political_influence = -50
+                custom_tooltip = fate_of_north_tt
             }
         }
     }
@@ -591,7 +633,12 @@
         on_completion = {
             trigger_event = me_damascus.19
             show_as_tooltip = {
-
+                custom_tooltip = "tier_1_formable_tooltip"
+                change_country_name = "ARAM_NAME"
+                hidden_effect = {
+                    change_country_adjective = "ARAM_ADJECTIVE"
+                    change_country_tag = "PRY"
+                }
             }
         }
     }

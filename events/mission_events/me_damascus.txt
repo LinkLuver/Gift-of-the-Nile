@@ -780,6 +780,95 @@ me_damascus.15 = {
     option = {
         name = "me_damascus_15.a"
         custom_tooltip = me_damascus_15_tooltip
+    }
+}
 
+me_damascus.16 = {
+    type = country_event
+
+    title = me_damascus_16_title
+    desc = me_damascus_16_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_16.a"
+        custom_tooltip = me_damascus_16_tooltip
+    }
+}
+
+me_damascus.17 = {
+    type = country_event
+
+    title = me_damascus_17_title
+    desc = me_damascus_17_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_17.a"
+        custom_tooltip = me_damascus_17_tooltip
+        add_country_modifier = {
+            name = restorers_of_legacy
+            duration = -1
+        }
+    }
+}
+
+me_damascus.18 = {
+    type = country_event
+
+    title = me_damascus_18_title
+    desc = me_damascus_18_desc
+    picture = great_library
+
+    immediate = {
+        hidden_effect = {
+            region:syria_region = {
+                every_region_province = {
+                    add_claim = root
+                }
+            }
+        }
+        custom_tooltip = claims_on_all_syria_tt
+    }
+
+    option = {
+        name = "me_damascus_18.a"
+        custom_tooltip = me_damascus_18_tooltip
+        make_subject = {
+            target = c:AGU
+            type = feudatory
+        }
+        p:7985 = { set_owned_by = c:AGU }
+        p:797 = { set_owned_by = c:AGU }
+        p:793 = { set_owned_by = c:AGU }
+        p:791 = { set_owned_by = c:AGU }
+        p:787 = { set_owned_by = c:AGU }
+        p:792 = { set_owned_by = c:AGU }
+        p:794 = { set_owned_by = c:AGU }
+        p:852 = { set_owned_by = c:AGU }
+        p:812 = { set_owned_by = c:AGU }
+    }
+    option = {
+        name = "me_damascus_18.b"
+        custom_tooltip = me_damascus_18_tooltip
+        c:AGU = {
+            add_opinion = {
+                modifier = opinion_dishonored_alliance
+                target = ROOT
+            }
+        }
+    }
+}
+
+me_damascus.19 = {
+    type = country_event
+
+    title = me_damascus_19_title
+    desc = me_damascus_19_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_19.a"
+        custom_tooltip = me_damascus_19_tooltip
     }
 }

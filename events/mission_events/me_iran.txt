@@ -464,31 +464,34 @@ me_iran.21 = {
         hidden_effect = {
             region:indus_region = {
                 every_region_province = {
-                    every_owned_province = {
-                        add_province_modifier = {
-                            name = vedicism_banned
-                            duration = 5475
-                        }
+                    limit = {
+                        owner = ROOT
+                    }
+                    add_province_modifier = {
+                        name = vedicism_banned
+                        duration = 5475
                     }
                 }
             }
             region:panchab_region = {
                 every_region_province = {
-                    every_owned_province = {
-                        add_province_modifier = {
-                            name = vedicism_banned
-                            duration = 5475
-                        }
+                    limit = {
+                        owner = ROOT
+                    }
+                    add_province_modifier = {
+                        name = vedicism_banned
+                        duration = 5475
                     }
                 }
             }
             region:gandhara_region = {
                 every_region_province = {
-                    every_owned_province = {
-                        add_province_modifier = {
-                            name = vedicism_banned
-                            duration = 5475
-                        }
+                    limit = {
+                        owner = ROOT
+                    }
+                    add_province_modifier = {
+                        name = vedicism_banned
+                        duration = 5475
                     }
                 }
             }
@@ -711,13 +714,13 @@ me_iran.28 = {
                 every_pops_in_province = {
                     limit = {
                         NOR = {
-                            primary_culture = elamite
-                            primary_culture = anshanite
-                            primary_culture = uxian
-                            primary_culture = cossian
-                            primary_culture = brahui
-                            primary_culture = harrapan
-                            primary_culture = logali
+                            is_culture = elamite
+                            is_culture = anshanite
+                            is_culture = uxian
+                            is_culture = cossian
+                            is_culture = brahui
+                            is_culture = harrapan
+                            is_culture = logali
                         }
                     }
                     random_list = {

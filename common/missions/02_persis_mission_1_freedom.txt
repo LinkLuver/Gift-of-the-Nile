@@ -756,10 +756,10 @@
         requires = { persis_mission_1_freedom_task_2 }
 
         allow = {
-            custom_tooltip = {
-                has_variable = elam_annoy
-                text = elam_has_been_annoying_tt
-            }
+            #custom_tooltip = {
+            #    has_variable = elam_annoy
+            #    text = elam_has_been_annoying_tt
+            #}
             custom_tooltip = {
                 has_global_variable = india_milk
                 text = india_gone_tt

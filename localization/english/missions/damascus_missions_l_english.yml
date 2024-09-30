@@ -78,6 +78,8 @@
  fate_of_palestine_tt:0 "Decide what to do with the territories of #E Northern Canaan#!."
  if_done_both_tt:0 "If we have done both #E Sponsor#! tasks, we will recieve the following modifier:"
  hebrew_temples_made:0 "Temples to Our Gods"
+ fate_of_north_tt:0 "Decide what to do with #Y Syria#!."
+ claims_on_all_syria_tt:0 "Gain claims on the #Y Syria#! region."
  
  #Modifiers
  tadmor_joined:0 "Pan-Aramaic Council: Tadmor"
@@ -89,6 +91,8 @@
  asherah_sponsored:0 "Great Temple of Asherah"
  samaria_friends:0 "Master Damascene Diplomats"
  damascene_jerusalem:0 "Damascene Jerusalem"
+ zakkor_shattered:0 "House of Zakor Shattered"
+ restorers_of_legacy:0 "Restorers of Cities"
  
  #Events
  me_damascus_1_title:0 "The Pan-Aramaic Congress"
@@ -138,52 +142,71 @@
  me_damascus_5_tooltip:0 "The mission task '#Y $damascus_missions_task_5$#!' has now been #G Completed#!!"
  
  me_damascus_6_title:0 "$damascus_missions_task_6$"
- me_damascus_6_desc:0 ""
- me_damascus_6.a:0 ""
+ me_damascus_6_desc:0 "$damascus_missions_task_6_DESC$"
+ me_damascus_6.a:0 "Excellent!"
  me_damascus_6_tooltip:0 "The mission task '#Y $damascus_missions_task_6$#!' has now been #G Completed#!!"
  
  me_damascus_7_title:0 "$damascus_missions_task_7$"
- me_damascus_7_desc:0 ""
- me_damascus_7.a:0 ""
+ me_damascus_7_desc:0 "$damascus_missions_task_7_DESC$"
+ me_damascus_7.a:0 "Excellent!"
  me_damascus_7_tooltip:0 "The mission task '#Y $damascus_missions_task_7$#!' has now been #G Completed#!!"
  
  me_damascus_8_title:0 "$damascus_missions_task_8$"
- me_damascus_8_desc:0 ""
- me_damascus_8.a:0 ""
+ me_damascus_8_desc:0 "$damascus_missions_task_8_DESC$"
+ me_damascus_8.a:0 "Excellent!"
  me_damascus_8_tooltip:0 "The mission task '#Y $damascus_missions_task_8$#!' has now been #G Completed#!!"
  
  me_damascus_9_title:0 "$damascus_missions_task_9$"
- me_damascus_9_desc:0 ""
- me_damascus_9.a:0 ""
+ me_damascus_9_desc:0 "$damascus_missions_task_9_DESC$"
+ me_damascus_9.a:0 "Excellent!"
  me_damascus_9_tooltip:0 "The mission task '#Y $damascus_missions_task_9$#!' has now been #G Completed#!!"
  
  me_damascus_10_title:0 "$damascus_missions_task_10$"
- me_damascus_10_desc:0 ""
- me_damascus_10.a:0 ""
+ me_damascus_10_desc:0 "$damascus_missions_task_10_DESC$"
+ me_damascus_10.a:0 "Excellent!"
  me_damascus_10_tooltip:0 "The mission task '#Y $damascus_missions_task_10$#!' has now been #G Completed#!!"
  
  me_damascus_11_title:0 "$damascus_missions_task_11$"
- me_damascus_11_desc:0 ""
- me_damascus_11.a:0 ""
+ me_damascus_11_desc:0 "$damascus_missions_task_11_DESC$"
+ me_damascus_11.a:0 "Excellent!"
  me_damascus_11_tooltip:0 "The mission task '#Y $damascus_missions_task_11$#!' has now been #G Completed#!!"
  
  me_damascus_12_title:0 "$damascus_missions_task_12$"
- me_damascus_12_desc:0 ""
- me_damascus_12.a:0 ""
+ me_damascus_12_desc:0 "$damascus_missions_task_12_DESC$"
+ me_damascus_12.a:0 "Excellent!"
  me_damascus_12_tooltip:0 "The mission task '#Y $damascus_missions_task_12$#!' has now been #G Completed#!!"
  
  me_damascus_13_title:0 "$damascus_missions_task_13$"
- me_damascus_13_desc:0 ""
- me_damascus_13.a:0 ""
+ me_damascus_13_desc:0 "$damascus_missions_task_13_DESC$"
+ me_damascus_13.a:0 "Excellent!"
  me_damascus_13_tooltip:0 "The mission task '#Y $damascus_missions_task_13$#!' has now been #G Completed#!!"
  
  me_damascus_14_title:0 "$damascus_missions_task_14$"
- me_damascus_14_desc:0 ""
- me_damascus_14.a:0 ""
+ me_damascus_14_desc:0 "$damascus_missions_task_14_DESC$"
+ me_damascus_14.a:0 "Excellent!"
  me_damascus_14_tooltip:0 "The mission task '#Y $damascus_missions_task_14$#!' has now been #G Completed#!!"
  
  me_damascus_15_title:0 "$damascus_missions_task_15$"
- me_damascus_15_desc:0 ""
- me_damascus_15.a:0 ""
+ me_damascus_15_desc:0 "$damascus_missions_task_15_DESC$"
+ me_damascus_15.a:0 "Excellent!"
  me_damascus_15_tooltip:0 "The mission task '#Y $damascus_missions_task_15$#!' has now been #G Completed#!!"
-
+ 
+ me_damascus_16_title:0 "$damascus_missions_task_16$"
+ me_damascus_16_desc:0 "$damascus_missions_task_16_DESC$"
+ me_damascus_16.a:0 "Excellent!"
+ me_damascus_16_tooltip:0 "The mission task '#Y $damascus_missions_task_16$#!' has now been #G Completed#!!"
+ 
+ me_damascus_17_title:0 "$damascus_missions_task_17$"
+ me_damascus_17_desc:0 "$damascus_missions_task_17_DESC$"
+ me_damascus_17.a:0 "Excellent!"
+ me_damascus_17_tooltip:0 "The mission task '#Y $damascus_missions_task_17$#!' has now been #G Completed#!!"
+ 
+ me_damascus_18_title:0 "$damascus_missions_task_18$"
+ me_damascus_18_desc:0 "$damascus_missions_task_18_DESC$"
+ me_damascus_18.a:0 "Excellent!"
+ me_damascus_18_tooltip:0 "The mission task '#Y $damascus_missions_task_18$#!' has now been #G Completed#!!"
+ 
+ me_damascus_19_title:0 "$damascus_missions_task_19$"
+ me_damascus_19_desc:0 "$damascus_missions_task_19_DESC$"
+ me_damascus_19.a:0 "Excellent!"
+ me_damascus_19_tooltip:0 "The mission task '#Y $damascus_missions_task_19$#!' has now been #G Completed#!!"

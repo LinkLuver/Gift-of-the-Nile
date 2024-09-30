@@ -10,9 +10,7 @@
     potential = {
         NOT = { has_variable = hurri_missions_cooldown_var }
         has_variable = hurri_hanigalbat
-    }
-    allow = {
-		primary_culture = hurrian
+        primary_culture = hurrian
     }
 
     abort = {

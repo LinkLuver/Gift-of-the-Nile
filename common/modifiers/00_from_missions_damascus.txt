@@ -45,3 +45,12 @@ qardu_city_flourishes = {
 	local_building_slot = 3
 	local_base_trade_routes = 3
 }
+zakkor_shattered = {
+	global_defensive = 0.10
+	happiness_for_same_culture_modifier = 0.05
+}
+restorers_of_legacy = {
+	monthly_legitimacy = 0.05
+	agressive_expansion_impact = -0.05
+	happiness_for_same_culture_modifier = 0.05
+}
