@@ -141,14 +141,14 @@
  me_damascus_5.a:0 "This is a gladdening day!"
  me_damascus_5_tooltip:0 "The mission task '#Y $damascus_missions_task_5$#!' has now been #G Completed#!!"
  
- me_damascus_6_title:0 "$damascus_missions_task_6$"
- me_damascus_6_desc:0 "$damascus_missions_task_6_DESC$"
+ me_damascus_6_title:0 "The fall of Ammon"
+ me_damascus_6_desc:0 "The Ammonites were cunning rivals of the league of Haleb, even after Hamath was forced to pay tribute by Amur'il they continued to harbor a number of claimants and opponents to Damascene rule. While few of these would prove very popular with the rebels who came to dominate the land, it still did not aid in Damascus' efforts to collaborate with their southern neighbors. With the collapse of Ammon and their southern neighbors, a major sanctuary for the opposition has been shattered,"
  me_damascus_6.a:0 "Excellent!"
  me_damascus_6_tooltip:0 "The mission task '#Y $damascus_missions_task_6$#!' has now been #G Completed#!!"
  
- me_damascus_7_title:0 "$damascus_missions_task_7$"
- me_damascus_7_desc:0 "$damascus_missions_task_7_DESC$"
- me_damascus_7.a:0 "Excellent!"
+ me_damascus_7_title:0 "The Royal City"
+ me_damascus_7_desc:0 "Truly there is no more sure sign of the prosperity brought to Canaan by Damascus than the city of Jerusalem itself! The city has been rebuilt as the jewel of the kingdom's Canaanite holdings, and a capital second only to Damascus itself! A testimony to the justice of our rule and a base from which we will strike down any future rebellion."
+ me_damascus_7.a:0 "Peace to you!"
  me_damascus_7_tooltip:0 "The mission task '#Y $damascus_missions_task_7$#!' has now been #G Completed#!!"
  
  me_damascus_8_title:0 "$damascus_missions_task_8$"
@@ -156,14 +156,14 @@
  me_damascus_8.a:0 "Excellent!"
  me_damascus_8_tooltip:0 "The mission task '#Y $damascus_missions_task_8$#!' has now been #G Completed#!!"
  
- me_damascus_9_title:0 "$damascus_missions_task_9$"
- me_damascus_9_desc:0 "$damascus_missions_task_9_DESC$"
+ me_damascus_9_title:0 "The kingdom of Galilee"
+ me_damascus_9_desc:0 "Established in the aftermath of the death of Amur'Il from the ruins of the kingdom of Samaria. Galilee is a rather unstable state. Preserved from disintegration mainly from local religious disagreements with their southern neighbors as well as an intervention by the king of Damascus and the neighboring Qedarites. The kingdom owes its continued existence to Damascus, and has the potential to be rebuilt into a loyal vassal through which the domination of Canaan will be achieved."
  me_damascus_9.a:0 "Excellent!"
  me_damascus_9_tooltip:0 "The mission task '#Y $damascus_missions_task_9$#!' has now been #G Completed#!!"
  
- me_damascus_10_title:0 "$damascus_missions_task_10$"
- me_damascus_10_desc:0 "$damascus_missions_task_10_DESC$"
- me_damascus_10.a:0 "Excellent!"
+ me_damascus_10_title:0 "The restoration of Samaria"
+ me_damascus_10_desc:0 "The kingdom of Samaria collapsed into a theocratic state founded on the view that the god 'Il was the only ruler suitable to operate as king, and that the state should much rather be ruled solely by his divinely appointed intermediaries. This has led to the birth of a state radically opposed to our rule, as such [ROOT.GetCountry.GetRuler.GetName|E] has opted to overthrow it and bring about the reestablishment of the dynasty first installed by Pareqi-Hadad."
+ me_damascus_10.a:0 "Hopefully with a more secure foundation now."
  me_damascus_10_tooltip:0 "The mission task '#Y $damascus_missions_task_10$#!' has now been #G Completed#!!"
  
  me_damascus_11_title:0 "$damascus_missions_task_11$"
