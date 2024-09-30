@@ -188,17 +188,17 @@
  me_damascus_14_tooltip:0 "The mission task '#Y $damascus_missions_task_14$#!' has now been #G Completed#!!"
  
  me_damascus_15_title:0 "Malkut Ma'rba"
- me_damascus_15_desc:0 "Centuries ago, Damascus ruled over much of Canaan and Aram, but this was brought down by our lack of control over our vassals and by their disloyalty. Now, having learned from these mistakes, we have not only come to dominate these lands, but have established ourselves a kingdom which even the Assyrians in their prime would fear!"
+ me_damascus_15_desc:0 "Centuries ago, Damascus ruled over much of Canaan and Aram, but this was brought down by our lack of control over our vassals and by their disloyalty. Now, having learned from these mistakes, we have not only come to dominate these lands, but have established ourselves a kingdom which even the Assyrians in their prime would fear! After centuries of constant conflict and invasion, Damascus has emerged as the dominant power in the lands west of the Euphrates. The kings of Tyre and Sidon have accepted our suzerainty, and everything from Hamath to Tur Sinay is under our dominion."
  me_damascus_15.a:0 "Excellent!"
  me_damascus_15_tooltip:0 "The mission task '#Y $damascus_missions_task_15$#!' has now been #G Completed#!!"
  
- me_damascus_16_title:0 "$damascus_missions_task_16$"
- me_damascus_16_desc:0 "$damascus_missions_task_16_DESC$"
- me_damascus_16.a:0 "Excellent!"
+ me_damascus_16_title:0 "The fall of the Anaeans"
+ me_damascus_16_desc:0 "Ever since Zakkor the Anaean claimed kingship over the Hamathites, they have proven to be our greatest rival among the Aramaic states. Until recently we had not been able to justify the expense necessary to fully subjugate their cities and end their dominion, that has ended today. A rivalry which has lasted four hundred years has finally come to an end."
+ me_damascus_16.a:0 "And I brought to ruin the house of Zakkor."
  me_damascus_16_tooltip:0 "The mission task '#Y $damascus_missions_task_16$#!' has now been #G Completed#!!"
  
- me_damascus_17_title:0 "$damascus_missions_task_17$"
- me_damascus_17_desc:0 "$damascus_missions_task_17_DESC$"
+ me_damascus_17_title:0 "The restoration of Sem'el"
+ me_damascus_17_desc:0 "The capital of Yadiya, the city of Sem'el, has prospered massively from our rule. With Damascene protection has come freedom from the constant wars with Gurgum, Bit Adini, and Que, as well as a great renovation launched under the initiative of [ROOT.GetCountry.GetRuler.GetName|E]. The city has regained the prosperity it once knew under the house of Gabbar."
  me_damascus_17.a:0 "Excellent!"
  me_damascus_17_tooltip:0 "The mission task '#Y $damascus_missions_task_17$#!' has now been #G Completed#!!"
  
