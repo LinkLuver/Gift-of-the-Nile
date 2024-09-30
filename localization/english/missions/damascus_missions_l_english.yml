@@ -163,17 +163,18 @@
  
  me_damascus_10_title:0 "The restoration of Samaria"
  me_damascus_10_desc:0 "The kingdom of Samaria collapsed into a theocratic state founded on the view that the god 'Il was the only ruler suitable to operate as king, and that the state should much rather be ruled solely by his divinely appointed intermediaries. This has led to the birth of a state radically opposed to our rule, as such [ROOT.GetCountry.GetRuler.GetName|E] has opted to overthrow it and bring about the reestablishment of the dynasty first installed by Pareqi-Hadad."
- me_damascus_10.a:0 "Hopefully with a more secure foundation now."
+ me_damascus_10.a:0 "Hopefully with a more stable foundation now."
  me_damascus_10_tooltip:0 "The mission task '#Y $damascus_missions_task_10$#!' has now been #G Completed#!!"
  
- me_damascus_11_title:0 "$damascus_missions_task_11$"
- me_damascus_11_desc:0 "$damascus_missions_task_11_DESC$"
- me_damascus_11.a:0 "Excellent!"
+ me_damascus_11_title:0 "The subjugation of the Ammonites"
+ me_damascus_11_desc:0 "Ammon played a significant role in undermining the old kingdom of Samaria, and through careful diplomacy has in recent years risen to become our greatest rival in the region. So long as they and their Moabite allies remain independent, they will continue to rise up against us, threatening to cut short our resurgence. If our rule is to have any hope of lasting in the region then we must ensure that they also are brought into the fold."
+ me_damascus_11.a:0 "I will break down their fortifications and subdue their king."
  me_damascus_11_tooltip:0 "The mission task '#Y $damascus_missions_task_11$#!' has now been #G Completed#!!"
  
- me_damascus_12_title:0 "$damascus_missions_task_12$"
- me_damascus_12_desc:0 "$damascus_missions_task_12_DESC$"
- me_damascus_12.a:0 "Excellent!"
+ me_damascus_12_title:0 "The kingdom of Israel"
+ me_damascus_12_desc:0 "The alliance between Damascus and Galilee has borne fruit, Samaria has been subdued and Ammon despoiled. [GAL.GetCountry.GetRuler.GetName|E] has been restored as king of Israel! Now comes the decision on how best to govern these lands, as Ammon is rather remote and cut off from our main holdings, it has been suggested that it should be given to the kings of Israel to ensure their continued loyalty and that we can direct our resources towards other endeavors."
+ me_damascus_12.a:0 "Israel has been restored by my hand."
+	me_damascus_12.b:0 "Let us cede them also the land of the Ammonites."
  me_damascus_12_tooltip:0 "The mission task '#Y $damascus_missions_task_12$#!' has now been #G Completed#!!"
  
  me_damascus_13_title:0 "$damascus_missions_task_13$"
@@ -181,13 +182,13 @@
  me_damascus_13.a:0 "Excellent!"
  me_damascus_13_tooltip:0 "The mission task '#Y $damascus_missions_task_13$#!' has now been #G Completed#!!"
  
- me_damascus_14_title:0 "$damascus_missions_task_14$"
- me_damascus_14_desc:0 "$damascus_missions_task_14_DESC$"
+ me_damascus_14_title:0 "The restoration of Samaria"
+ me_damascus_14_desc:0 "Samaria, the city of the kings of Israel, has been rebuilt. A restoration only possible through the aid of [ROOT.GetCountry.GetRuler.GetName|E], and one which serves as a model of the fruit of cooperation. The record of this treaty is even inscribed in the very stones of the house of the king, a testament to our faithfulness, and a curse on all who'd transgress against us by breaking this agreement."
  me_damascus_14.a:0 "Excellent!"
  me_damascus_14_tooltip:0 "The mission task '#Y $damascus_missions_task_14$#!' has now been #G Completed#!!"
  
- me_damascus_15_title:0 "$damascus_missions_task_15$"
- me_damascus_15_desc:0 "$damascus_missions_task_15_DESC$"
+ me_damascus_15_title:0 "Malkut Ma'rba"
+ me_damascus_15_desc:0 "Centuries ago, Damascus ruled over much of Canaan and Aram, but this was brought down by our lack of control over our vassals and by their disloyalty. Now, having learned from these mistakes, we have not only come to dominate these lands, but have established ourselves a kingdom which even the Assyrians in their prime would fear!"
  me_damascus_15.a:0 "Excellent!"
  me_damascus_15_tooltip:0 "The mission task '#Y $damascus_missions_task_15$#!' has now been #G Completed#!!"
  
