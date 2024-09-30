@@ -1,0 +1,28 @@
+﻿elamite = {
+    # The Main Two
+	946 = PROV946_elamite # Shushun
+    4950 = PROV4950_elamite # Anzan
+
+    # Elamite
+    940 = PROV940_elamite # Dur-Yarin
+    943 = PROV943_elamtie # Hidalu
+    945 = PROV945_elamite # Nagargallu
+    947 = PROV947_elamite # Madaktu
+    948 = PROV948_elamite # Awan
+    950 = PROV950_elamite # Adamdun
+    951 = PROV951_elamite # Ayapir
+    966 = PROV966_elamite # Huhnuri
+    967 = PROV967_elamite # Dur Untash
+    980 = PROV980_elamite # Urua
+    4780 = PROV4780_elamite # Arigan
+    4787 = PROV4787_elamite # Liyan
+    4779 = PROV4779_elamite # Salahu
+    4969 = PROV4969_elamite # Adamshakh
+
+    970 = PROV970_elamite # Emedu
+    975 = PROV975_elamite # Gug
+    4786 = PROV4786_elamite # Dakkanu
+    4784 = PROV4784_elamite # Erishanu
+    4782 = PROV4782_elamite # Tulaspid
+    4785 = PROV4785_elamite # Zilittu
+}

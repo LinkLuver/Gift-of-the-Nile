@@ -9545,195 +9545,195 @@ add_scaling_gold_cost_effect = {
 	}
 }
 
-antigonids_asia_transfer_effect = {
-	if = { # Asia Satrapy
-		limit = { exists = scope:asia_satrapy }
-		custom_tooltip = diadochi_flavor.50.tt7
-		hidden_effect = {			
-			scope:asia_satrapy = {
-				every_owned_province = {
-					add_claim = c:SEL
-					add_claim = c:EGY
-					add_claim = c:TRE
-					add_claim = c:MAC
-				}
-			}
-			c:TRE = {
-				make_subject = {
-					target = scope:asia_satrapy
-					type = satrapy
-				}
-			}
-			if = {
-				limit = { exists = scope:phoenix_scope }
-				scope:phoenix_scope = {
-					if = {
-						limit = {
-							is_minor_character = no
-							from_ruler_family = no
-						}
-						family = {
-							every_family_member = {
-								limit = {
-									is_ruler = no
-								}
-								remove_all_positions = yes
-								move_country = scope:asia_satrapy
-								remove_character_modifier = foreign_citizen
-								set_home_country = scope:asia_satrapy
-							}
-							move_family = scope:asia_satrapy
-						}
-					}
-					remove_all_positions = yes
-					move_country = scope:asia_satrapy
-					remove_character_modifier = foreign_citizen
-					set_home_country = scope:asia_satrapy
-					scope:asia_satrapy = {
-						set_as_ruler = scope:phoenix_scope
-						set_primary_culture_cleanup_effect = {
-							NEW_PRIMARY_CULTURE = macedonian
-							MAKE_OLD_CULTURE_INTEGRATED = no
-						}
-						set_country_religion = roman_pantheon
-						add_treasury = 300
-						add_manpower = 8
-						add_political_influence = 100
-					}
-					if = {
-						limit = {
-							is_married = yes
-							spouse = {
-								employer = scope:antigonids_scope
-								prisoner = no
-							}
-						}
-						spouse = {
-							remove_all_positions = yes
-							move_country = scope:asia_satrapy
-							remove_character_modifier = foreign_citizen
-							set_home_country = scope:asia_satrapy
-						}
-					}
-					if = {
-						limit = {
-							num_of_children > 0
-							any_child = {
-								employer = scope:antigonids_scope
-								prisoner = no
-							}
-						}
-						every_child = {
-							limit = {
-								employer = scope:antigonids_scope
-								prisoner = no
-							}
-							remove_all_positions = yes
-							move_country = scope:asia_satrapy
-							remove_character_modifier = foreign_citizen
-							set_home_country = scope:asia_satrapy
-						}
-					}
-				}
-			}
-		}
-	}
-}
+#antigonids_asia_transfer_effect = {
+#	if = { # Asia Satrapy
+#		limit = { exists = scope:asia_satrapy }
+#		custom_tooltip = diadochi_flavor.50.tt7
+#		hidden_effect = {			
+#			scope:asia_satrapy = {
+#				every_owned_province = {
+#					add_claim = c:SEL
+#					add_claim = c:EGY
+#					add_claim = c:TRE
+#					add_claim = c:MAC
+#				}
+#			}
+#			c:TRE = {
+#				make_subject = {
+#					target = scope:asia_satrapy
+#					type = satrapy
+#				}
+#			}
+#			if = {
+#				limit = { exists = scope:phoenix_scope }
+#				scope:phoenix_scope = {
+#					if = {
+#						limit = {
+#							is_minor_character = no
+#							from_ruler_family = no
+#						}
+#						family = {
+#							every_family_member = {
+#								limit = {
+#									is_ruler = no
+#								}
+#								remove_all_positions = yes
+#								move_country = scope:asia_satrapy
+#								remove_character_modifier = foreign_citizen
+#								set_home_country = scope:asia_satrapy
+#							}
+#							move_family = scope:asia_satrapy
+#						}
+#					}
+#					remove_all_positions = yes
+#					move_country = scope:asia_satrapy
+#					remove_character_modifier = foreign_citizen
+#					set_home_country = scope:asia_satrapy
+#					scope:asia_satrapy = {
+#						set_as_ruler = scope:phoenix_scope
+#						set_primary_culture_cleanup_effect = {
+#							NEW_PRIMARY_CULTURE = macedonian
+#							MAKE_OLD_CULTURE_INTEGRATED = no
+#						}
+#						set_country_religion = roman_pantheon
+#						add_treasury = 300
+#						add_manpower = 8
+#						add_political_influence = 100
+#					}
+#					if = {
+#						limit = {
+#							is_married = yes
+#							spouse = {
+#								employer = scope:antigonids_scope
+#								prisoner = no
+#							}
+#						}
+#						spouse = {
+#							remove_all_positions = yes
+#							move_country = scope:asia_satrapy
+#							remove_character_modifier = foreign_citizen
+#							set_home_country = scope:asia_satrapy
+#						}
+#					}
+#					if = {
+#						limit = {
+#							num_of_children > 0
+#							any_child = {
+#								employer = scope:antigonids_scope
+#								prisoner = no
+#							}
+#						}
+#						every_child = {
+#							limit = {
+#								employer = scope:antigonids_scope
+#								prisoner = no
+#							}
+#							remove_all_positions = yes
+#							move_country = scope:asia_satrapy
+#							remove_character_modifier = foreign_citizen
+#							set_home_country = scope:asia_satrapy
+#						}
+#					}
+#				}
+#			}
+#		}
+#	}
+#}
 
-antigonids_galatia_transfer_effect = {
-	if = { # Phrygia Satrapy
-		limit = { exists = scope:galatia_satrapy }
-		custom_tooltip = diadochi_flavor.50.tt8
-		hidden_effect = {
-			scope:galatia_satrapy = {
-				every_owned_province = {
-					add_claim = c:SEL
-					add_claim = c:EGY
-					add_claim = c:TRE
-					add_claim = c:MAC
-				}			
-			}
-			c:TRE = {
-				make_subject = {
-					target = scope:galatia_satrapy
-					type = satrapy
-				}
-			}
-			if = {
-				limit = { exists = scope:dokimos_scope }
-				scope:dokimos_scope = {
-					if = {
-						limit = {
-							is_minor_character = no
-							from_ruler_family = no
-						}
-						family = {
-							every_family_member = {
-								limit = {
-									is_ruler = no
-								}
-								remove_all_positions = yes
-								move_country = scope:galatia_satrapy
-								remove_character_modifier = foreign_citizen
-								set_home_country = scope:galatia_satrapy
-							}
-							move_family = scope:galatia_satrapy
-						}
-					}
-					remove_all_positions = yes
-					move_country = scope:galatia_satrapy
-					remove_character_modifier = foreign_citizen
-					set_home_country = scope:galatia_satrapy
-					scope:galatia_satrapy = {
-						set_as_ruler = scope:dokimos_scope
-						set_primary_culture_cleanup_effect = {
-							NEW_PRIMARY_CULTURE = macedonian
-							MAKE_OLD_CULTURE_INTEGRATED = no
-						}
-						set_country_religion = roman_pantheon
-						add_treasury = 300
-						add_manpower = 8
-						add_political_influence = 100
-					}
-					if = {
-						limit = {
-							is_married = yes
-							spouse = {
-								employer = scope:antigonids_scope
-								prisoner = no
-							}
-						}
-						spouse = {
-							remove_all_positions = yes
-							move_country = scope:galatia_satrapy
-							remove_character_modifier = foreign_citizen
-							set_home_country = scope:galatia_satrapy
-						}
-					}
-					if = {
-						limit = {
-							num_of_children > 0
-							any_child = {
-								employer = scope:antigonids_scope
-								prisoner = no
-							}
-						}
-						every_child = {
-							limit = {
-								employer = scope:antigonids_scope
-								prisoner = no
-							}
-							remove_all_positions = yes
-							move_country = scope:galatia_satrapy
-							remove_character_modifier = foreign_citizen
-							set_home_country = scope:galatia_satrapy
-						}
-					}
-				}
-			}
-		}
-	}
-}
+#antigonids_galatia_transfer_effect = {
+#	if = { # Phrygia Satrapy
+#		limit = { exists = scope:galatia_satrapy }
+#		custom_tooltip = diadochi_flavor.50.tt8
+#		hidden_effect = {
+#			scope:galatia_satrapy = {
+#				every_owned_province = {
+#					add_claim = c:SEL
+#					add_claim = c:EGY
+#					add_claim = c:TRE
+#					add_claim = c:MAC
+#				}			
+#			}
+#			c:TRE = {
+#				make_subject = {
+#					target = scope:galatia_satrapy
+#					type = satrapy
+#				}
+#			}
+#			if = {
+#				limit = { exists = scope:dokimos_scope }
+#				scope:dokimos_scope = {
+#					if = {
+#						limit = {
+#							is_minor_character = no
+#							from_ruler_family = no
+#						}
+#						family = {
+#							every_family_member = {
+#								limit = {
+#									is_ruler = no
+#								}
+#								remove_all_positions = yes
+#								move_country = scope:galatia_satrapy
+#								remove_character_modifier = foreign_citizen
+#								set_home_country = scope:galatia_satrapy
+#							}
+#							move_family = scope:galatia_satrapy
+#						}
+#					}
+#					remove_all_positions = yes
+#					move_country = scope:galatia_satrapy
+#					remove_character_modifier = foreign_citizen
+#					set_home_country = scope:galatia_satrapy
+#					scope:galatia_satrapy = {
+#						set_as_ruler = scope:dokimos_scope
+#						set_primary_culture_cleanup_effect = {
+#							NEW_PRIMARY_CULTURE = macedonian
+#							MAKE_OLD_CULTURE_INTEGRATED = no
+#						}
+#						set_country_religion = roman_pantheon
+#						add_treasury = 300
+#						add_manpower = 8
+#						add_political_influence = 100
+#					}
+#					if = {
+#						limit = {
+#							is_married = yes
+#							spouse = {
+#								employer = scope:antigonids_scope
+#								prisoner = no
+#							}
+#						}
+#						spouse = {
+#							remove_all_positions = yes
+#							move_country = scope:galatia_satrapy
+#							remove_character_modifier = foreign_citizen
+#							set_home_country = scope:galatia_satrapy
+#						}
+#					}
+#					if = {
+#						limit = {
+#							num_of_children > 0
+#							any_child = {
+#								employer = scope:antigonids_scope
+#								prisoner = no
+#							}
+#						}
+#						every_child = {
+#							limit = {
+#								employer = scope:antigonids_scope
+#								prisoner = no
+#							}
+#							remove_all_positions = yes
+#							move_country = scope:galatia_satrapy
+#							remove_character_modifier = foreign_citizen
+#							set_home_country = scope:galatia_satrapy
+#						}
+#					}
+#				}
+#			}
+#		}
+#	}
+#}
 
 attalids_move_thrace_effect = {
 	c:TRE = { save_scope_as = thrace_scope }
@@ -10218,339 +10218,339 @@ remove_espionage_variables_effect = {  #cScope
 }
 
 #antigonid_legion_setup_effect = {
-	char:38 = { remove_all_positions = yes } # Demetrios, son of Antigonos
-	capital_scope.governorship = {
-		raise_legion = {
-			create_unit = {
-				name = "Basilike Taxis"
-				location = p:407 # Chalkis
-				sub_unit = heavy_infantry
-				save_scope_as = legion_scope
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = light_infantry
-				add_subunit = light_infantry
-				add_subunit = heavy_cavalry
-				add_subunit = heavy_cavalry
-				add_subunit = warelephant
-				add_subunit = archers
-				add_subunit = archers
-				add_subunit = supply_train
-			}
-			add_legion_history = { # Orkynia, battle against Eumenes
-				key = orkynia_history
-				commander = char:37 # Antigonos
-				province = p:1788 # Tyanitis
-				date = 435.7.13
-			}
-			add_legion_history = { # Kretopolis, battle against Perdikkan satraps
-				key = kretopolis_history
-				commander = char:37 # Antigonos
-				province = p:1986 # Kretopolis
-				date = 435.8.12
-			}
-			add_legion_history = { # Paraitakene, battle against Eumenes
-				key = paraitakene_history
-				commander = char:37 # Antigonos
-				province = p:4976 # Paraitakene
-				date = 437.7.7
-			}
-			add_legion_history = { # Gabiene, battle against Eumenes
-				key = gabiene_history
-				commander = char:37 # Antigonos
-				province = p:4972 # Gabiene
-				date = 439.2.13
-			}
-			add_legion_history = { # Tyros, siege against Ptolemy
-				key = tyros_siege_history
-				commander = char:37 # Antigonos
-				province = p:743 # Tyros
-				date = 441.5.24
-			}
-			add_legion_history = { #Gaza, battle against Ptolemy
-				key = gaza_history
-				commander = char:38 # Demetrios
-				province = p:659 # Gaza
-				date = 442.11.27
-			}
-			add_legion_history = { # Babylon, siege against Seleukos
-				key = babylon_history
-				commander = char:38 # Demetrios
-				province = p:918 # Babylon
-				date = 444.9.13
-			}
-			add_legion_history = { # Babylon, siege against Seleukos
-				key = babylon_2_history
-				commander = char:37 # Antigonos
-				province = p:918 # Babylon
-				date = 445.1.23
-			}
-			add_legion_history = { # 25 Abu, battle against Seleukos
-				key = abu_history
-				commander = char:37 # Antigonos
-				province = p:962 # Chaldaea
-				date = 445.8.25
-			}
-			add_legion_history = { # Athenai, siege against Kassandros
-				key = athens_siege_history
-				commander = char:38 # Demetrios
-				province = p:416 # Athenai
-				date = 447.9.16
-			}
-			add_legion_history = { # Salamis, battle against Ptolemaios
-				key = salamis_history
-				commander = char:38 # Demetrios
-				province = p:331 # Salamis
-				date = 448.5.16
-			}
-			add_legion_history = { # Rhodos, siege against Rhodians
-				key = rhodes_siege_history
-				commander = char:38 # Demetrios
-				province = p:266 # Rhodos
-				date = 450.7.9
-			}
-			add_legion_history = { # Chalkis, siege against Kassandros
-				key = chalkis_siege_history
-				commander = char:38 # Demetrios
-				province = p:407 # Chalkis
-				date = 450.9.17
-			}
-			char:38 = { add_to_legion = PREV } # Demetrios, son of Antigonos
-			random_legion_unit = { set_as_commander = char:38 }
-			if = {
-				limit = { has_dlc = "Heirs of Alexander" }
-				add_distinction = distinction_legio_primagena
-			}
-		}
-	}
+#	char:38 = { remove_all_positions = yes } # Demetrios, son of Antigonos
+#	capital_scope.governorship = {
+#		raise_legion = {
+#			create_unit = {
+#				name = "Basilike Taxis"
+#				location = p:407 # Chalkis
+#				sub_unit = heavy_infantry
+#				save_scope_as = legion_scope
+#				add_subunit = heavy_infantry
+#				add_subunit = heavy_infantry
+#				add_subunit = heavy_infantry
+#				add_subunit = light_infantry
+#				add_subunit = light_infantry
+#				add_subunit = heavy_cavalry
+#				add_subunit = heavy_cavalry
+#				add_subunit = warelephant
+#				add_subunit = archers
+#				add_subunit = archers
+#				add_subunit = supply_train
+#			}
+#			add_legion_history = { # Orkynia, battle against Eumenes
+#				key = orkynia_history
+#				commander = char:37 # Antigonos
+#				province = p:1788 # Tyanitis
+#				date = 435.7.13
+#			}
+#			add_legion_history = { # Kretopolis, battle against Perdikkan satraps
+#				key = kretopolis_history
+#				commander = char:37 # Antigonos
+#				province = p:1986 # Kretopolis
+#				date = 435.8.12
+#			}
+#			add_legion_history = { # Paraitakene, battle against Eumenes
+#				key = paraitakene_history
+#				commander = char:37 # Antigonos
+#				province = p:4976 # Paraitakene
+#				date = 437.7.7
+#			}
+#			add_legion_history = { # Gabiene, battle against Eumenes
+#				key = gabiene_history
+#				commander = char:37 # Antigonos
+#				province = p:4972 # Gabiene
+#				date = 439.2.13
+#			}
+#			add_legion_history = { # Tyros, siege against Ptolemy
+#				key = tyros_siege_history
+#				commander = char:37 # Antigonos
+#				province = p:743 # Tyros
+#				date = 441.5.24
+#			}
+#			add_legion_history = { #Gaza, battle against Ptolemy
+#				key = gaza_history
+#				commander = char:38 # Demetrios
+#				province = p:659 # Gaza
+#				date = 442.11.27
+#			}
+#			add_legion_history = { # Babylon, siege against Seleukos
+#				key = babylon_history
+#				commander = char:38 # Demetrios
+#				province = p:918 # Babylon
+#				date = 444.9.13
+#			}
+#			add_legion_history = { # Babylon, siege against Seleukos
+#				key = babylon_2_history
+#				commander = char:37 # Antigonos
+#				province = p:918 # Babylon
+#				date = 445.1.23
+#			}
+#			add_legion_history = { # 25 Abu, battle against Seleukos
+#				key = abu_history
+#				commander = char:37 # Antigonos
+#				province = p:962 # Chaldaea
+#				date = 445.8.25
+#			}
+#			add_legion_history = { # Athenai, siege against Kassandros
+#				key = athens_siege_history
+#				commander = char:38 # Demetrios
+#				province = p:416 # Athenai
+#				date = 447.9.16
+#			}
+#			add_legion_history = { # Salamis, battle against Ptolemaios
+#				key = salamis_history
+#				commander = char:38 # Demetrios
+#				province = p:331 # Salamis
+#				date = 448.5.16
+#			}
+#			add_legion_history = { # Rhodos, siege against Rhodians
+#				key = rhodes_siege_history
+#				commander = char:38 # Demetrios
+#				province = p:266 # Rhodos
+#				date = 450.7.9
+#			}
+#			add_legion_history = { # Chalkis, siege against Kassandros
+#				key = chalkis_siege_history
+#				commander = char:38 # Demetrios
+#				province = p:407 # Chalkis
+#				date = 450.9.17
+#			}
+#			char:38 = { add_to_legion = PREV } # Demetrios, son of Antigonos
+#			random_legion_unit = { set_as_commander = char:38 }
+#			if = {
+#				limit = { has_dlc = "Heirs of Alexander" }
+#				add_distinction = distinction_legio_primagena
+#			}
+#		}
+#	}
 #}
 #
 #seleukid_legion_setup_effect = {
-	char:26 = { remove_all_positions = yes } # Antiochos, Seleukos' son
-	capital_scope.governorship = {
-		raise_legion = {
-			create_unit = {
-				name = "Babyloniake Taxis"
-				location = p:918 # Babylon
-				sub_unit = heavy_infantry
-				save_scope_as = legion_scope
-				add_subunit = heavy_infantry
-				add_subunit = light_infantry
-				add_subunit = light_infantry
-				add_subunit = light_infantry
-				add_subunit = light_infantry
-				add_subunit = light_cavalry
-				add_subunit = light_cavalry
-				add_subunit = archers
-				add_subunit = archers
-				add_subunit = supply_train
-			}
-			add_legion_history = { #Gaza, battle against Demetrios
-				key = gaza_sel_history
-				commander = char:24 # Seleukos
-				province = p:659 # Gaza
-				date = 442.11.27
-			}
-			add_legion_history = { # Babylon, siege against Antigonids
-				key = babylon_sel_history
-				commander = char:24 # Seleukos
-				province = p:918 # Babylon
-				date = 443.1.15
-			}
-			add_legion_history = { # Tigris, battle against Antigonids
-				key = tigris_sel_history
-				commander = char:24 # Seleukos
-				province = p:7716 # Tigris
-				date = 443.7.19
-			}
-			add_legion_history = { # 25 Abu, battle against Antigonos
-				key = abu_sel_history
-				commander = char:24 # Seleukos
-				province = p:962 # Khay
-				date = 445.8.25
-			}
-			char:26 = { add_to_legion = PREV } # Antiochos, Seleukos' son
-			random_legion_unit = { set_as_commander = char:26 }
-			if = {
-				limit = { has_dlc = "Heirs of Alexander" }
-				add_distinction = distinction_legio_primagena
-			}
-		}
-	}
+#	char:26 = { remove_all_positions = yes } # Antiochos, Seleukos' son
+#	capital_scope.governorship = {
+#		raise_legion = {
+#			create_unit = {
+#				name = "Babyloniake Taxis"
+#				location = p:918 # Babylon
+#				sub_unit = heavy_infantry
+#				save_scope_as = legion_scope
+#				add_subunit = heavy_infantry
+#				add_subunit = light_infantry
+#				add_subunit = light_infantry
+#				add_subunit = light_infantry
+#				add_subunit = light_infantry
+#				add_subunit = light_cavalry
+#				add_subunit = light_cavalry
+#				add_subunit = archers
+#				add_subunit = archers
+#				add_subunit = supply_train
+#			}
+#			add_legion_history = { #Gaza, battle against Demetrios
+#				key = gaza_sel_history
+#				commander = char:24 # Seleukos
+#				province = p:659 # Gaza
+#				date = 442.11.27
+#			}
+#			add_legion_history = { # Babylon, siege against Antigonids
+#				key = babylon_sel_history
+#				commander = char:24 # Seleukos
+#				province = p:918 # Babylon
+#				date = 443.1.15
+#			}
+#			add_legion_history = { # Tigris, battle against Antigonids
+#				key = tigris_sel_history
+#				commander = char:24 # Seleukos
+#				province = p:7716 # Tigris
+#				date = 443.7.19
+#			}
+#			add_legion_history = { # 25 Abu, battle against Antigonos
+#				key = abu_sel_history
+#				commander = char:24 # Seleukos
+#				province = p:962 # Khay
+#				date = 445.8.25
+#			}
+#			char:26 = { add_to_legion = PREV } # Antiochos, Seleukos' son
+#			random_legion_unit = { set_as_commander = char:26 }
+#			if = {
+#				limit = { has_dlc = "Heirs of Alexander" }
+#				add_distinction = distinction_legio_primagena
+#			}
+#		}
+#	}
 #}
 #
 #egypt_legion_setup_effect = {
-	char:46 = { remove_all_positions = yes } # Magas, Ptolemaios' son-in-law
-	capital_scope.governorship = {
-		raise_legion = {
-			create_unit = {
-				name = "Aigyptiake Taxis"
-				location = p:509 # Pilousion
-				sub_unit = heavy_infantry
-				save_scope_as = legion_scope
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = light_infantry
-				add_subunit = light_infantry
-				add_subunit = heavy_cavalry
-				add_subunit = heavy_cavalry
-				add_subunit = warelephant
-				add_subunit = supply_train
-			}
-			add_legion_history = { # Camel Fort, battle against Perdikkas
-				key = camel_fort_history
-				commander = char:42 # Ptolemaios
-				province = p:508 # Tanis
-				date = 433.4.12
-			}
-			add_legion_history = { #Syria, battles against Laomedon
-				key = syria_history
-				commander = char:42 # Ptolemaios
-				province = p:750 # Damaskos
-				date = 434.5.7
-			}
-			add_legion_history = { #Kyrene, battles against Laomedon
-				key = kyrene_history
-				commander = char:42 # Ptolemaios
-				province = p:3360 # Kyrene
-				date = 442.7.4
-			}
-			add_legion_history = { #Gaza, battle against Demetrios
-				key = gaza_egy_history
-				commander = char:42 # Ptolemaios
-				province = p:659 # Gaza
-				date = 442.11.27
-			}
-			add_legion_history = { #Kaunos, siege against Antigonids
-				key = phaselis_history
-				commander = char:42 # Ptolemaios
-				province = p:1989 # Kaunos
-				date = 446.4.28
-			}
-			char:46 = { add_to_legion = PREV } # Magas, Ptolemaios' son-in-law
-			random_legion_unit = { set_as_commander = char:46 }
-			if = {
-				limit = { has_dlc = "Heirs of Alexander" }
-				add_distinction = distinction_legio_primagena
-			}
-		}
-	}
+#	char:46 = { remove_all_positions = yes } # Magas, Ptolemaios' son-in-law
+#	capital_scope.governorship = {
+#		raise_legion = {
+#			create_unit = {
+#				name = "Aigyptiake Taxis"
+#				location = p:509 # Pilousion
+#				sub_unit = heavy_infantry
+#				save_scope_as = legion_scope
+#				add_subunit = heavy_infantry
+#				add_subunit = heavy_infantry
+#				add_subunit = heavy_infantry
+#				add_subunit = light_infantry
+#				add_subunit = light_infantry
+#				add_subunit = heavy_cavalry
+#				add_subunit = heavy_cavalry
+#				add_subunit = warelephant
+#				add_subunit = supply_train
+#			}
+#			add_legion_history = { # Camel Fort, battle against Perdikkas
+#				key = camel_fort_history
+#				commander = char:42 # Ptolemaios
+#				province = p:508 # Tanis
+#				date = 433.4.12
+#			}
+#			add_legion_history = { #Syria, battles against Laomedon
+#				key = syria_history
+#				commander = char:42 # Ptolemaios
+#				province = p:750 # Damaskos
+#				date = 434.5.7
+#			}
+#			add_legion_history = { #Kyrene, battles against Laomedon
+#				key = kyrene_history
+#				commander = char:42 # Ptolemaios
+#				province = p:3360 # Kyrene
+#				date = 442.7.4
+#			}
+#			add_legion_history = { #Gaza, battle against Demetrios
+#				key = gaza_egy_history
+#				commander = char:42 # Ptolemaios
+#				province = p:659 # Gaza
+#				date = 442.11.27
+#			}
+#			add_legion_history = { #Kaunos, siege against Antigonids
+#				key = phaselis_history
+#				commander = char:42 # Ptolemaios
+#				province = p:1989 # Kaunos
+#				date = 446.4.28
+#			}
+#			char:46 = { add_to_legion = PREV } # Magas, Ptolemaios' son-in-law
+#			random_legion_unit = { set_as_commander = char:46 }
+#			if = {
+#				limit = { has_dlc = "Heirs of Alexander" }
+#				add_distinction = distinction_legio_primagena
+#			}
+#		}
+#	}
 #}
 #
 #macedon_legion_setup_effect = {
-	char:149 = { remove_all_positions = yes } # Philippos, Kassandros' brother
-	capital_scope.governorship = {
-		raise_legion = {
-			create_unit = {
-				name = "Basilike Taxis"
-				location = p:379 # Pella
-				sub_unit = heavy_infantry
-				save_scope_as = legion_scope
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = light_infantry
-				add_subunit = light_infantry
-				add_subunit = light_cavalry
-				add_subunit = light_cavalry
-				add_subunit = heavy_cavalry
-				add_subunit = heavy_cavalry
-				add_subunit = supply_train
-
-			}
-			add_legion_history = { # Pydna, siege against Olympias
-				key = pydna_history
-				commander = char:32 # Kassandros
-				province = p:6399 # Pydna
-				date = 439.6.13
-			}
-			add_legion_history = { # Kenchreai/Korinthos, siege against Alexandros
-				key = korinthos_history
-				commander = char:32 # Kassandros
-				province = p:418 # Korinthos
-				date = 440.9.5
-			}
-			add_legion_history = { # Hebrus/Dimalion, battle against Glaukias
-				key = hebrus_history
-				commander = char:32 # Kassandros
-				province = p:455 # Dimalion
-				date = 441.3.14
-			}
-			add_legion_history = { # Oiniadai, battle against Aeacides
-				key = oeniadae_history
-				commander = char:149 # Philippos
-				province = p:7803 # Oiniadai
-				date = 441.7.31
-			}
-			add_legion_history = { # Apollonia, battle against Apollonia
-				key = apollonia_history
-				commander = char:32 # Kassandros
-				province = p:422 # Apollonia
-				date = 443.3.27
-			}
-			char:149 = { add_to_legion = PREV } # Philippos, Kassandros' brother
-			random_legion_unit = { set_as_commander = char:149 }
-			if = {
-				limit = { has_dlc = "Heirs of Alexander" }
-				add_distinction = distinction_legio_primagena
-			}
-		}
-	}
+#	char:149 = { remove_all_positions = yes } # Philippos, Kassandros' brother
+#	capital_scope.governorship = {
+#		raise_legion = {
+#			create_unit = {
+#				name = "Basilike Taxis"
+#				location = p:379 # Pella
+#				sub_unit = heavy_infantry
+#				save_scope_as = legion_scope
+#				add_subunit = heavy_infantry
+#				add_subunit = heavy_infantry
+#				add_subunit = heavy_infantry
+#				add_subunit = light_infantry
+#				add_subunit = light_infantry
+#				add_subunit = light_cavalry
+#				add_subunit = light_cavalry
+#				add_subunit = heavy_cavalry
+#				add_subunit = heavy_cavalry
+#				add_subunit = supply_train
+#
+#			}
+#			add_legion_history = { # Pydna, siege against Olympias
+#				key = pydna_history
+#				commander = char:32 # Kassandros
+#				province = p:6399 # Pydna
+#				date = 439.6.13
+#			}
+#			add_legion_history = { # Kenchreai/Korinthos, siege against Alexandros
+#				key = korinthos_history
+#				commander = char:32 # Kassandros
+#				province = p:418 # Korinthos
+#				date = 440.9.5
+#			}
+#			add_legion_history = { # Hebrus/Dimalion, battle against Glaukias
+#				key = hebrus_history
+#				commander = char:32 # Kassandros
+#				province = p:455 # Dimalion
+#				date = 441.3.14
+#			}
+#			add_legion_history = { # Oiniadai, battle against Aeacides
+#				key = oeniadae_history
+#				commander = char:149 # Philippos
+#				province = p:7803 # Oiniadai
+#				date = 441.7.31
+#			}
+#			add_legion_history = { # Apollonia, battle against Apollonia
+#				key = apollonia_history
+#				commander = char:32 # Kassandros
+#				province = p:422 # Apollonia
+#				date = 443.3.27
+#			}
+#			char:149 = { add_to_legion = PREV } # Philippos, Kassandros' brother
+#			random_legion_unit = { set_as_commander = char:149 }
+#			if = {
+#				limit = { has_dlc = "Heirs of Alexander" }
+#				add_distinction = distinction_legio_primagena
+#			}
+#		}
+#	}
 #}
 #
 #thrace_legion_setup_effect = {
-	char:368 = { remove_all_positions = yes } # Alkimachos, Lysimachos' nephew
-	capital_scope.governorship = {
-		raise_legion = {
-			create_unit = {
-				name = "Thrakike Taxis"
-				location = p:350 # Lysimacheia
-				sub_unit = heavy_infantry
-				save_scope_as = legion_scope
-				add_subunit = heavy_infantry
-				add_subunit = light_infantry
-				add_subunit = light_infantry
-				add_subunit = heavy_cavalry
-				add_subunit = heavy_cavalry
-				add_subunit = archers
-				add_subunit = archers
-				add_subunit = supply_train
-
-			}
-			add_legion_history = { # Kebakle?, battle against Seuthes
-				key = kebakle_history
-				commander = char:41 # Lysimachos
-				province = p:496 # Bergoule
-				date = 432.4.3
-			}
-			add_legion_history = { # Odessos, siege against Pontic cities
-				key = odessos_history
-				commander = char:41 # Lysimachos
-				province = p:4248 # Odessos
-				date = 440.9.12
-			}
-			add_legion_history = { # Kallatis, battle against Skythoi
-				key = kallatis_history
-				commander = char:41 # Lysimachos
-				province = p:4254 # Kallatis
-				date = 441.4.18
-			}
-			add_legion_history = { # Haemiana, battle against Seuthes
-				key = haemiana_history
-				commander = char:41 # Lysimachos
-				province = p:4245 # Haemiana
-				date = 441.7.5
-			}
-			char:368 = { add_to_legion = PREV } # Alkimachos, Lysimachos' nephew
-			random_legion_unit = { set_as_commander = char:368 }
-			if = {
-				limit = { has_dlc = "Heirs of Alexander" }
-				add_distinction = distinction_legio_primagena
-			}
-		}
-	}
+#	char:368 = { remove_all_positions = yes } # Alkimachos, Lysimachos' nephew
+#	capital_scope.governorship = {
+#		raise_legion = {
+#			create_unit = {
+#				name = "Thrakike Taxis"
+#				location = p:350 # Lysimacheia
+#				sub_unit = heavy_infantry
+#				save_scope_as = legion_scope
+#				add_subunit = heavy_infantry
+#				add_subunit = light_infantry
+#				add_subunit = light_infantry
+#				add_subunit = heavy_cavalry
+#				add_subunit = heavy_cavalry
+#				add_subunit = archers
+#				add_subunit = archers
+#				add_subunit = supply_train
+#
+#			}
+#			add_legion_history = { # Kebakle?, battle against Seuthes
+#				key = kebakle_history
+#				commander = char:41 # Lysimachos
+#				province = p:496 # Bergoule
+#				date = 432.4.3
+#			}
+#			add_legion_history = { # Odessos, siege against Pontic cities
+#				key = odessos_history
+#				commander = char:41 # Lysimachos
+#				province = p:4248 # Odessos
+#				date = 440.9.12
+#			}
+#			add_legion_history = { # Kallatis, battle against Skythoi
+#				key = kallatis_history
+#				commander = char:41 # Lysimachos
+#				province = p:4254 # Kallatis
+#				date = 441.4.18
+#			}
+#			add_legion_history = { # Haemiana, battle against Seuthes
+#				key = haemiana_history
+#				commander = char:41 # Lysimachos
+#				province = p:4245 # Haemiana
+#				date = 441.7.5
+#			}
+#			char:368 = { add_to_legion = PREV } # Alkimachos, Lysimachos' nephew
+#			random_legion_unit = { set_as_commander = char:368 }
+#			if = {
+#				limit = { has_dlc = "Heirs of Alexander" }
+#				add_distinction = distinction_legio_primagena
+#			}
+#		}
+#	}
 #}
 
 epirus_legion_setup_effect = {
@@ -10613,248 +10613,248 @@ pergamon_setup_effect = {
 	add_stability_effect = yes
 }
 
-antigonid_split_area_effect = {
-	$COUNTRY$ = { save_scope_as = antigonid_transfer_scope }
-	$AREA$ = { save_scope_as = antigonid_transfer_area }
-	if = {
-		limit = {
-			scope:antigonid_transfer_area = { # Does PRY actually own territory in the area?
-				any_area_province = {
-					has_owner = yes
-					owner = scope:antigonids_scope
-				}
-			}
-		}
-		c:EGY = { add_to_list = antigonid_transfer_list } # List simplifies scripting to these countries
-		c:TRE = { add_to_list = antigonid_transfer_list }
-		c:MAC = { add_to_list = antigonid_transfer_list }
-		c:SEL = { add_to_list = antigonid_transfer_list }
-		# Annex territory to historical Diadochi OR whoever got there first instead
-		if = {
-			limit = {
-				scope:antigonid_transfer_area = { # Area is not already owned by the wrong Diadochi
-					NOT = {
-						any_area_province = {
-							count > antigonids_area_transfer_min_value # defines number of territories (default at least 3 AND more than historical) which need to be owned by another Diadochi for them to take it instead of historical country
-							has_owner = yes
-							owner = {
-								NOT = { THIS = scope:antigonid_transfer_scope }
-								is_in_list = antigonid_transfer_list
-							}
-						}
-					}
-				}
-			}
-			scope:antigonid_transfer_area = {  # Annex all Diadochi owned territories in an area
-				every_area_province = {
-					limit = {
-						has_owner = yes
-						OR = {
-							owner = scope:antigonids_scope
-							owner = c:MAC
-							owner = c:TRE
-							owner = c:EGY
-							owner = c:SEL
-						}
-						NOT = { owner = scope:antigonid_transfer_scope }
-						antigonids_special_area_trigger = yes # Specific exceptions here, e.g. Tyros
-					}
-					if = { # Special case for Caria/Pleistarchus
-						limit = {
-							scope:antigonid_transfer_scope = { has_variable = pleistarchus_transfer_flag } 
-						}
-						scope:pleistarchus_satrapy = { save_scope_as = antigonid_transfer_receiver_scope }
-					}
-					else_if = { # Special case for Asia satrapy
-						limit = {
-							exists = scope:asia_satrapy
-							is_in_region = asia_region
-							NOR = {
-								is_in_area = mysia_area
-								is_in_area = aeolia_area
-								is_in_area = milyas_area
-								is_in_area = inland_caria_area
-								is_in_area = coastal_caria_area
-								trigger_if = {
-									limit = {
-										NOT = { province_id = 285 } # Kyme
-									}
-									is_in_area = ionia_area
-								}
-								trigger_if = {
-	                                limit = {
-	                                    scope:asia_satrapy = {
-	                                        NOT = { owns = 278 }
-	                                    }
-	                                }
-	                                is_in_area = mysia_abrettene_area
-	                            }
-							}
-						}
-						scope:asia_satrapy = { save_scope_as = antigonid_transfer_receiver_scope }
-					}
-					else_if = { # Special case for Phrygia satrapy
-						limit = {
-							exists = scope:galatia_satrapy
-							is_in_region = galatia_region
-							NOT = { is_in_area = isauria_area }
-						}
-						scope:galatia_satrapy = { save_scope_as = antigonid_transfer_receiver_scope }
-					}
-				 	else = { # Set owned by ROOT of event (Egypt/Thrace/Seleukids/Macedon)
-				 		scope:antigonid_transfer_scope = { save_scope_as = antigonid_transfer_receiver_scope } 
-					}
-					if = {
-						limit = {
-							has_owner = yes
-							NOT = { owner = scope:antigonid_transfer_receiver_scope }
-						}
-						hidden_effect = { set_conquered_by = scope:antigonid_transfer_receiver_scope }
-					}
-				}
-			}
-		}
-		else_if = { # EGY was faster AND root is not EGY
-			limit = {
-				NOT = { scope:antigonid_transfer_scope = c:EGY }
-				scope:antigonid_transfer_area = {
-					any_area_province = {
-						count > antigonids_area_transfer_min_value
-						has_owner = yes
-						owner = c:EGY
-					}
-				}
-			}
-			hidden_effect = {
-				scope:antigonid_transfer_area = {
-					every_area_province = {
-						limit = {
-							has_owner = yes
-							OR = {
-								owner = scope:antigonids_scope
-								owner = c:MAC
-								owner = c:TRE
-								owner = c:EGY
-								owner = c:SEL
-							}
-							NOT = { owner = c:EGY }
-						}
-						set_conquered_by = c:EGY
-					}
-				}
-				c:EGY = { save_scope_as = antigonid_transfer_receiver_scope }
-			}
-		}
-		else_if = { # TRE was faster AND root is not TRE
-			limit = {
-				NOT = { scope:antigonid_transfer_scope = c:TRE }
-				scope:antigonid_transfer_area = {
-					any_area_province = {
-						count > antigonids_area_transfer_min_value
-						has_owner = yes
-						owner = c:TRE
-					}
-				}
-			}
-			hidden_effect = {
-				scope:antigonid_transfer_area = {
-					every_area_province = {
-						limit = {
-							has_owner = yes
-							OR = {
-								owner = scope:antigonids_scope
-								owner = c:MAC
-								owner = c:TRE
-								owner = c:EGY
-								owner = c:SEL
-							}
-							NOT = { owner = c:TRE }
-						}
-						set_conquered_by = c:TRE
-					}
-				}
-				c:TRE = { save_scope_as = antigonid_transfer_receiver_scope }
-			}
-		}
-		else_if = { # MAC was faster AND root is not MAC
-			limit = {
-				NOT = { scope:antigonid_transfer_scope = c:MAC }
-				scope:antigonid_transfer_area = {
-					any_area_province = {
-						count > antigonids_area_transfer_min_value
-						has_owner = yes
-						owner = c:MAC
-					}
-				}
-			}
-			hidden_effect = {
-				scope:antigonid_transfer_area = {
-					every_area_province = {
-						limit = {
-							has_owner = yes
-							OR = {
-								owner = scope:antigonids_scope
-								owner = c:MAC
-								owner = c:TRE
-								owner = c:EGY
-								owner = c:SEL
-							}
-							NOT = { owner = c:MAC }
-						}
-						set_conquered_by = c:MAC
-					}
-				}
-				c:MAC = { save_scope_as = antigonid_transfer_receiver_scope }
-			}
-		}
-		else_if = { # SEL was faster AND root is not SEL
-			limit = {
-				NOT = { scope:antigonid_transfer_scope = c:SEL }
-				scope:antigonid_transfer_area = {
-					any_area_province = {
-						count > antigonids_area_transfer_min_value
-						has_owner = yes
-						owner = c:SEL
-					}
-				}
-			}
-			hidden_effect = {
-				scope:antigonid_transfer_area = {
-					every_area_province = {
-						limit = {
-							has_owner = yes
-							OR = {
-								owner = scope:antigonids_scope
-								owner = c:MAC
-								owner = c:TRE
-								owner = c:EGY
-								owner = c:SEL
-							}
-							NOT = { owner = c:SEL }
-						}
-						set_conquered_by = c:SEL
-					}
-				}
-				c:SEL = { save_scope_as = antigonid_transfer_receiver_scope }
-			}
-		}
-		if = { # to keep tooltips cleanish
-			limit = {
-				NOR = {
-					AND = {
-						exists = scope:asia_satrapy
-						scope:antigonid_transfer_receiver_scope = scope:asia_satrapy
-					}
-					AND = {
-						exists = scope:galatia_satrapy
-						scope:antigonid_transfer_receiver_scope = scope:galatia_satrapy
-					}
-				}
-			}
-			custom_tooltip = antigonid_receiver_tt
-		}
-	}
-}
+#antigonid_split_area_effect = {
+#	$COUNTRY$ = { save_scope_as = antigonid_transfer_scope }
+#	$AREA$ = { save_scope_as = antigonid_transfer_area }
+#	if = {
+#		limit = {
+#			scope:antigonid_transfer_area = { # Does PRY actually own territory in the area?
+#				any_area_province = {
+#					has_owner = yes
+#					owner = scope:antigonids_scope
+#				}
+#			}
+#		}
+#		c:EGY = { add_to_list = antigonid_transfer_list } # List simplifies scripting to these countries
+#		c:TRE = { add_to_list = antigonid_transfer_list }
+#		c:MAC = { add_to_list = antigonid_transfer_list }
+#		c:SEL = { add_to_list = antigonid_transfer_list }
+#		# Annex territory to historical Diadochi OR whoever got there first instead
+#		if = {
+#			limit = {
+#				scope:antigonid_transfer_area = { # Area is not already owned by the wrong Diadochi
+#					NOT = {
+#						any_area_province = {
+#							count > antigonids_area_transfer_min_value # defines number of territories (default at #least 3 AND more than historical) which need to be owned by another Diadochi for them to #take it instead of historical country
+#							has_owner = yes
+#							owner = {
+#								NOT = { THIS = scope:antigonid_transfer_scope }
+#								is_in_list = antigonid_transfer_list
+#							}
+#						}
+#					}
+#				}
+#			}
+#			scope:antigonid_transfer_area = {  # Annex all Diadochi owned territories in an area
+#				every_area_province = {
+#					limit = {
+#						has_owner = yes
+#						OR = {
+#							owner = scope:antigonids_scope
+#							owner = c:MAC
+#							owner = c:TRE
+#							owner = c:EGY
+#							owner = c:SEL
+#						}
+#						NOT = { owner = scope:antigonid_transfer_scope }
+#						antigonids_special_area_trigger = yes # Specific exceptions here, e.g. Tyros
+#					}
+#					if = { # Special case for Caria/Pleistarchus
+#						limit = {
+#							scope:antigonid_transfer_scope = { has_variable = pleistarchus_transfer_flag } 
+#						}
+#						scope:pleistarchus_satrapy = { save_scope_as = antigonid_transfer_receiver_scope }
+#					}
+#					else_if = { # Special case for Asia satrapy
+#						limit = {
+#							exists = scope:asia_satrapy
+#							is_in_region = asia_region
+#							NOR = {
+#								is_in_area = mysia_area
+#								is_in_area = aeolia_area
+#								is_in_area = milyas_area
+#								is_in_area = inland_caria_area
+#								is_in_area = coastal_caria_area
+#								trigger_if = {
+#									limit = {
+#										NOT = { province_id = 285 } # Kyme
+#									}
+#									is_in_area = ionia_area
+#								}
+#								trigger_if = {
+#	                                limit = {
+#	                                    scope:asia_satrapy = {
+#	                                        NOT = { owns = 278 }
+#	                                    }
+#	                                }
+#	                                is_in_area = mysia_abrettene_area
+#	                            }
+#							}
+#						}
+#						scope:asia_satrapy = { save_scope_as = antigonid_transfer_receiver_scope }
+#					}
+#					else_if = { # Special case for Phrygia satrapy
+#						limit = {
+#							exists = scope:galatia_satrapy
+#							is_in_region = galatia_region
+#							NOT = { is_in_area = isauria_area }
+#						}
+#						scope:galatia_satrapy = { save_scope_as = antigonid_transfer_receiver_scope }
+#					}
+#				 	else = { # Set owned by ROOT of event (Egypt/Thrace/Seleukids/Macedon)
+#				 		scope:antigonid_transfer_scope = { save_scope_as = antigonid_transfer_receiver_scope } 
+#					}
+#					if = {
+#						limit = {
+#							has_owner = yes
+#							NOT = { owner = scope:antigonid_transfer_receiver_scope }
+#						}
+#						hidden_effect = { set_conquered_by = scope:antigonid_transfer_receiver_scope }
+#					}
+#				}
+#			}
+#		}
+#		else_if = { # EGY was faster AND root is not EGY
+#			limit = {
+#				NOT = { scope:antigonid_transfer_scope = c:EGY }
+#				scope:antigonid_transfer_area = {
+#					any_area_province = {
+#						count > antigonids_area_transfer_min_value
+#						has_owner = yes
+#						owner = c:EGY
+#					}
+#				}
+#			}
+#			hidden_effect = {
+#				scope:antigonid_transfer_area = {
+#					every_area_province = {
+#						limit = {
+#							has_owner = yes
+#							OR = {
+#								owner = scope:antigonids_scope
+#								owner = c:MAC
+#								owner = c:TRE
+#								owner = c:EGY
+#								owner = c:SEL
+#							}
+#							NOT = { owner = c:EGY }
+#						}
+#						set_conquered_by = c:EGY
+#					}
+#				}
+#				c:EGY = { save_scope_as = antigonid_transfer_receiver_scope }
+#			}
+#		}
+#		else_if = { # TRE was faster AND root is not TRE
+#			limit = {
+#				NOT = { scope:antigonid_transfer_scope = c:TRE }
+#				scope:antigonid_transfer_area = {
+#					any_area_province = {
+#						count > antigonids_area_transfer_min_value
+#						has_owner = yes
+#						owner = c:TRE
+#					}
+#				}
+#			}
+#			hidden_effect = {
+#				scope:antigonid_transfer_area = {
+#					every_area_province = {
+#						limit = {
+#							has_owner = yes
+#							OR = {
+#								owner = scope:antigonids_scope
+#								owner = c:MAC
+#								owner = c:TRE
+#								owner = c:EGY
+#								owner = c:SEL
+#							}
+#							NOT = { owner = c:TRE }
+#						}
+#						set_conquered_by = c:TRE
+#					}
+#				}
+#				c:TRE = { save_scope_as = antigonid_transfer_receiver_scope }
+#			}
+#		}
+#		else_if = { # MAC was faster AND root is not MAC
+#			limit = {
+#				NOT = { scope:antigonid_transfer_scope = c:MAC }
+#				scope:antigonid_transfer_area = {
+#					any_area_province = {
+#						count > antigonids_area_transfer_min_value
+#						has_owner = yes
+#						owner = c:MAC
+#					}
+#				}
+#			}
+#			hidden_effect = {
+#				scope:antigonid_transfer_area = {
+#					every_area_province = {
+#						limit = {
+#							has_owner = yes
+#							OR = {
+#								owner = scope:antigonids_scope
+#								owner = c:MAC
+#								owner = c:TRE
+#								owner = c:EGY
+#								owner = c:SEL
+#							}
+#							NOT = { owner = c:MAC }
+#						}
+#						set_conquered_by = c:MAC
+#					}
+#				}
+#				c:MAC = { save_scope_as = antigonid_transfer_receiver_scope }
+#			}
+#		}
+#		else_if = { # SEL was faster AND root is not SEL
+#			limit = {
+#				NOT = { scope:antigonid_transfer_scope = c:SEL }
+#				scope:antigonid_transfer_area = {
+#					any_area_province = {
+#						count > antigonids_area_transfer_min_value
+#						has_owner = yes
+#						owner = c:SEL
+#					}
+#				}
+#			}
+#			hidden_effect = {
+#				scope:antigonid_transfer_area = {
+#					every_area_province = {
+#						limit = {
+#							has_owner = yes
+#							OR = {
+#								owner = scope:antigonids_scope
+#								owner = c:MAC
+#								owner = c:TRE
+#								owner = c:EGY
+#								owner = c:SEL
+#							}
+#							NOT = { owner = c:SEL }
+#						}
+#						set_conquered_by = c:SEL
+#					}
+#				}
+#				c:SEL = { save_scope_as = antigonid_transfer_receiver_scope }
+#			}
+#		}
+#		if = { # to keep tooltips cleanish
+#			limit = {
+#				NOR = {
+#					AND = {
+#						exists = scope:asia_satrapy
+#						scope:antigonid_transfer_receiver_scope = scope:asia_satrapy
+#					}
+#					AND = {
+#						exists = scope:galatia_satrapy
+#						scope:antigonid_transfer_receiver_scope = scope:galatia_satrapy
+#					}
+#				}
+#			}
+#			custom_tooltip = antigonid_receiver_tt
+#		}
+#	}
+#}
 
 galatia_phrgyia_satrapy_creation_effect = {
 	hidden_effect = {

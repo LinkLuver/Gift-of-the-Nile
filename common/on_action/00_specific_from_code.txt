@@ -545,6 +545,14 @@ on_ruler_change = {
 			trigger_event = diadochi_flavor.8 #Antigonus bad
 			trigger_event = diadochi_flavor.9 #Antigonus good
 		}
+		if = {
+			limit = {
+				is_ai = no
+				is_monarchy = yes
+			}
+			remove_variable = regnal_year_var
+			set_variable = { name = regnal_year_var value = 1 }
+		}
 	}
 	on_actions = {
 		on_republic_ruler_change
@@ -2113,6 +2121,18 @@ on_move_country = { #scope:old_country is the origin country
 	}
 }
 
+yearly_country_pulse = {
+	effect = {
+		if = {
+			limit = {
+				is_ai = no
+				is_monarchy = yes
+			}
+			change_variable = { name = regnal_year_var add = 1 }
+		}
+	}
+}
+
 on_game_initialized = {
 	effect = {
 		### Unique Mechanics ###
@@ -2142,33 +2162,33 @@ on_game_initialized = {
 		add_innovation = {
 			value = religious_tech
 		}
-		if = {
-			limit = { tag = PRY }
-			current_ruler = {
-				add_rival = C:EGY.current_ruler
-				add_rival = C:SEL.current_ruler
-				add_rival = C:MAC.current_ruler
-			}
-			char:97 = {
-				add_friend = char:38
-			} 
-			random_navy = {
-				add_subunit = mega_galley
-				add_subunit = mega_galley
-				add_subunit = mega_galley
-				add_subunit = octere
-				add_subunit = octere
-				add_subunit = octere
-				add_subunit = octere
-				add_subunit = octere
-			}
-			set_variable = me_ant_start_flag
-			antigonid_legion_setup_effect = yes
-			add_opinion = { target = c:MAC modifier = diadochi_rivals }
-			add_opinion = { target = c:TRE modifier = diadochi_rivals }
-			add_opinion = { target = c:EGY modifier = diadochi_rivals }
-			add_opinion = { target = c:SEL modifier = diadochi_rivals }
-		}
+		#if = {
+		#	limit = { tag = PRY }
+		#	current_ruler = {
+		#		add_rival = C:EGY.current_ruler
+		#		add_rival = C:SEL.current_ruler
+		#		add_rival = C:MAC.current_ruler
+		#	}
+		#	char:97 = {
+		#		add_friend = char:38
+		#	} 
+		#	random_navy = {
+		#		add_subunit = mega_galley
+		#		add_subunit = mega_galley
+		#		add_subunit = mega_galley
+		#		add_subunit = octere
+		#		add_subunit = octere
+		#		add_subunit = octere
+		#		add_subunit = octere
+		#		add_subunit = octere
+		#	}
+		#	set_variable = me_ant_start_flag
+		#	antigonid_legion_setup_effect = yes
+		#	add_opinion = { target = c:MAC modifier = diadochi_rivals }
+		#	add_opinion = { target = c:TRE modifier = diadochi_rivals }
+		#	add_opinion = { target = c:EGY modifier = diadochi_rivals }
+		#	add_opinion = { target = c:SEL modifier = diadochi_rivals }
+		#}
 		if = {
 			limit = { tag = MAC }
 			char:32 = {
@@ -2194,11 +2214,11 @@ on_game_initialized = {
 			char:10 = { move_country = C:PRY } #Antipatrid mother
 			char:97 = { move_country = C:PRY } #Mithridates in Phrygia
 			set_variable = me_mac_start_flag
-			macedon_legion_setup_effect = yes
-			add_opinion = { target = c:PRY modifier = diadochi_rivals }
-			add_opinion = { target = c:TRE modifier = diadochi_rivals }
-			add_opinion = { target = c:EGY modifier = diadochi_rivals }
-			add_opinion = { target = c:SEL modifier = diadochi_rivals }
+		#	macedon_legion_setup_effect = yes
+		#	add_opinion = { target = c:PRY modifier = diadochi_rivals }
+		#	add_opinion = { target = c:TRE modifier = diadochi_rivals }
+		#	add_opinion = { target = c:EGY modifier = diadochi_rivals }
+		#	add_opinion = { target = c:SEL modifier = diadochi_rivals }
 		}
 		if = {
 			limit = { tag = TRE }
@@ -2206,38 +2226,38 @@ on_game_initialized = {
 				add_friend = C:MAC.current_ruler
 			}
 			set_variable = me_thrace_start_flag
-			thrace_legion_setup_effect = yes
-			add_opinion = { target = c:MAC modifier = diadochi_rivals }
-			add_opinion = { target = c:PRY modifier = diadochi_rivals }
-			add_opinion = { target = c:EGY modifier = diadochi_rivals }
-			add_opinion = { target = c:SEL modifier = diadochi_rivals }
+			#thrace_legion_setup_effect = yes
+		#	add_opinion = { target = c:MAC modifier = diadochi_rivals }
+		#	add_opinion = { target = c:PRY modifier = diadochi_rivals }
+		#	add_opinion = { target = c:EGY modifier = diadochi_rivals }
+		#	add_opinion = { target = c:SEL modifier = diadochi_rivals }
 		}
-		if = {
-			limit = { tag = EGY }
-			current_ruler = {
-				add_rival = C:PRY.current_ruler
-				add_friend = C:SEL.current_ruler
-			}
-			egypt_legion_setup_effect = yes
-			trigger_event = dhe_body.4
-			add_opinion = { target = c:MAC modifier = diadochi_rivals }
-			add_opinion = { target = c:TRE modifier = diadochi_rivals }
-			add_opinion = { target = c:PRY modifier = diadochi_rivals }
-			add_opinion = { target = c:SEL modifier = diadochi_rivals }
-		}
-		if = {
-			limit = { tag = SEL }
-			current_ruler = {
-				add_rival = C:PRY.current_ruler
-				add_friend = C:EGY.current_ruler
-			}
-			trigger_event = { id = country_rename.2 }
-			seleukid_legion_setup_effect = yes
-			add_opinion = { target = c:MAC modifier = diadochi_rivals }
-			add_opinion = { target = c:TRE modifier = diadochi_rivals }
-			add_opinion = { target = c:EGY modifier = diadochi_rivals }
-			add_opinion = { target = c:PRY modifier = diadochi_rivals }
-		}
+		#if = {
+		#	limit = { tag = EGY }
+		#	current_ruler = {
+		#		add_rival = C:PRY.current_ruler
+		#		add_friend = C:SEL.current_ruler
+		#	}
+		#	egypt_legion_setup_effect = yes
+		#	trigger_event = dhe_body.4
+		#	add_opinion = { target = c:MAC modifier = diadochi_rivals }
+		#	add_opinion = { target = c:TRE modifier = diadochi_rivals }
+		#	add_opinion = { target = c:PRY modifier = diadochi_rivals }
+		#	add_opinion = { target = c:SEL modifier = diadochi_rivals }
+		#}
+		#if = {
+		#	limit = { tag = SEL }
+		#	current_ruler = {
+		#		add_rival = C:PRY.current_ruler
+		#		add_friend = C:EGY.current_ruler
+		#	}
+		#	trigger_event = { id = country_rename.2 }
+		#	seleukid_legion_setup_effect = yes
+		#	add_opinion = { target = c:MAC modifier = diadochi_rivals }
+		#	add_opinion = { target = c:TRE modifier = diadochi_rivals }
+		#	add_opinion = { target = c:EGY modifier = diadochi_rivals }
+		#	add_opinion = { target = c:PRY modifier = diadochi_rivals }
+		#}
 		if = {
 			limit = { tag = EPI }
 			if = {
@@ -2540,6 +2560,13 @@ on_game_initialized = {
 					}
 				}
 			}
+		}
+		if = {
+			limit = {
+				is_ai = no
+				is_monarchy = yes
+			}
+			set_variable = { name = regnal_year_var value = 1 }
 		}
 	} 
 	events = {

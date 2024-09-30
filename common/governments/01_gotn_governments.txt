@@ -111,6 +111,29 @@ assyrian_imperium = {
 	color = rgb { 170 90 15 }
 }
 
+daran_administration = {
+	religious_ideas = 1
+	civic_ideas = 2
+	revolt = no
+	type = monarchy
+
+	bonus = {
+        global_population_capacity_modifier = 0.1
+	}
+	base = {
+		country_civilization_value = 20
+        global_monthly_state_loyalty = 0.05
+	}
+
+	use_regnal_numbers = yes
+
+
+	election_delay = 0
+
+
+	color = rgb { 181 61 82 }
+}
+
 piratical_diarchy = {
 	military_ideas = 2
 	oratory_ideas = 1
@@ -132,4 +155,50 @@ piratical_diarchy = {
 	has_co_ruler = yes
 
 	color = rgb { 10 10 10 }
+}
+
+mahajanapada_monarchy = {
+	military_ideas = 2
+	civic_ideas = 1
+	type = monarchy
+	
+	bonus = {
+		diplomatic_reputation = 2.0
+		ruler_popularity_gain = 0.05
+	}
+	base = {
+		country_civilization_value = 20
+		global_nobles_city_desired_pop_ratio = 0.05
+	}
+	
+	election_delay = 0
+	use_regnal_numbers = yes
+	
+	ruler_consort_benefits = yes
+	
+	color = rgb { 178  169  13 }
+}
+
+gaul_princely_state = { #Dugrum Republic
+	oratory_ideas = 1
+	religious_ideas = 2
+	type = republic
+
+	bonus = {
+		global_tribesmen_city_desired_pop_ratio = 0.1
+		global_import_commerce_modifier = 0.10
+	}
+
+	base = {
+		country_civilization_value = 10
+		global_tribesmen_happyness = happiness_large_svalue
+	}
+
+	minimum_electable_age = 35
+	election_delay = 10
+	ruler_term = 5
+
+	color = rgb { 100 200 170 }
+
+	can_deify_ruler = yes
 }

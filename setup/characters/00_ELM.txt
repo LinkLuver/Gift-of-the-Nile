@@ -1,0 +1,24 @@
+﻿"ELM"={
+	country="ELM"
+	529={
+		first_name="Tepti-Humban-Inshushinak"
+		family = c:ELM.fam:Shushunid
+		birth_date=417.4.11
+		culture="elamite"
+		religion="elamite_pantheon"
+		no_stats=yes
+		add_martial=10
+		add_charisma=5
+		add_finesse=7
+		add_zeal=5
+		no_traits=yes
+		add_trait="tactician"
+		add_trait="stubborn"
+		add_trait="shushunid"
+		add_gold=300
+		add_popularity=100
+		c:ELM = {
+			set_as_ruler=char:529
+		}
+	}
+}

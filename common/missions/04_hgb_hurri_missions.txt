@@ -1,0 +1,544 @@
+﻿hurri_missions = {
+    header = "mission_image_scythian"
+    icon = cde_new_city_founded
+
+    repeatable = no
+    chance = {
+		factor = 100
+	}
+
+    potential = {
+        NOT = { has_variable = hurri_missions_cooldown_var }
+        has_variable = hurri_hanigalbat
+        primary_culture = hurrian
+    }
+
+    abort = {
+        ai_mission_back_out_trigger = yes
+    }
+    on_start = {
+        start_mission_ai_effect = yes
+        save_scope_as = mission_country
+    }
+    on_abort = {
+        custom_tooltip = general_mission_cooldown_tt
+        set_variable = {
+            name = hurrian_missions_cooldown_var
+            days = 7300
+        }
+    }
+    on_completion = {}
+
+    hurri_missions_task_1 = {
+        icon = "task_heracles"
+        allow = {
+            current_ruler = {
+                zeal >= 8 #Startup event could grant the ruler with a specific amount of zeal--this can def be defined
+            }
+            custom_tooltip = {
+                any_pantheon_deity = {
+                    deity_religion = hurrian_pantheon
+                }
+                text = any_deity_hurrian_tt
+            }
+        }
+        on_completion = {
+            trigger_event = me_hurri.1
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = teshubic_resurgence
+                    duration = 1825
+                }
+                hidden_effect = {
+                    random_owned_province = {
+                        while = {
+                            count = 5
+                            random_pops_in_province = {
+                                set_pop_religion = hurrian_pantheon
+                            }
+                        }
+                    }
+                }
+                custom_tooltip = random_5_pops_convert_teshub_tt
+            }
+        }
+    }
+    hurri_missions_task_2 = {
+        icon = "task_zeus_cornucopia"
+        requires = { hurri_missions_task_1 }
+        highlight = {
+            scope:province = {
+                is_in_area = shingar_area
+            }
+        }
+        allow = {
+            capital_scope.state = {
+                has_state_food >= lots_of_stored_food_svalue
+            }
+            custom_tooltip = {
+                text = perform_divine_sacrifice_please_stab_the_pig
+                has_country_modifier = stability_investment
+            }
+        }
+        on_completion = {
+            trigger_event = me_hurri.2
+            show_as_tooltip = {
+                custom_tooltip = 3_pops_per_prov_shingar_tt
+                hidden_effect = { #Copy paste into event
+                    area:amudha_area = {
+                        every_area_province = {
+                            while = {
+                                count = 3
+                                limit = {
+                                    any_pops_in_province = {
+                                        NOT = { pop_religion = hurrian_pantheon }
+                                    }
+                                }
+                                random_pops_in_province = {
+                                    limit = {
+                                        NOT = { pop_religion = hurrian_pantheon }
+                                    }
+                                    set_pop_religion = hurrian_pantheon
+                                }
+                            }
+                        }
+                    }
+                }
+                capital_scope.state = {
+                    add_state_food = -300
+                }
+            }
+        }
+    }
+    hurri_missions_task_3 = {
+        icon = "task_economical"
+        requires = { hurri_missions_task_1 }
+        highlight = {
+            scope:province = {
+                is_in_area = amudha_area
+            }
+        }
+        allow = {
+            #custom_tooltip = {
+            #    any_owned_province = {
+            #        count >= 3
+            #        num_of_temple_building >= 1
+            #    }
+            #    text = "has_3_great_temples_tt"
+            #}
+            custom_tooltip = {
+                any_owned_province = {
+                    num_of_temple_building >= 1
+                }
+                text = "has_1_great_temples_tt"
+            }
+        }
+        on_completion = {
+            trigger_event = me_hurri.3
+            show_as_tooltip = {
+                custom_tooltip = 3_pops_per_prov_amudha_tt
+                hidden_effect = { #Copy paste into event
+                    area:amudha_area = {
+                        every_area_province = {
+                            while = {
+                                count = 3
+                                limit = {
+                                    any_pops_in_province = {
+                                        NOT = { pop_religion = hurrian_pantheon }
+                                    }
+                                }
+                                random_pops_in_province = {
+                                    limit = {
+                                        NOT = { pop_religion = hurrian_pantheon }
+                                    }
+                                    set_pop_religion = hurrian_pantheon
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    hurri_missions_task_4 = {
+        icon = "task_religion"
+        requires = { hurri_missions_task_2 hurri_missions_task_3 }
+        highlight = {
+            scope:province = {
+                AND = {
+                    dominant_province_religion = hurrian_pantheon
+                    owner = ROOT
+                }
+            }
+        }
+        allow = {
+            custom_tooltip = {
+                paurava_missions_task_26_current >= paurava_missions_task_26_needed
+                text = "hurri_40_percent_tt"
+            }
+        }
+        on_completion = {
+            trigger_event = me_hurri.4
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = recent_convert_modifier
+                    duration = 1825
+                }
+                add_2_free_province_investments = yes
+            }
+        }
+    }
+    hurri_missions_task_5 = {
+        icon = "task_battle"
+        highlight = {
+            scope:province = {
+                dominant_province_culture = hurrian
+            }
+        }
+        allow = {
+            custom_tooltip = {
+                any_owned_province = {
+                    count >= 3
+                    has_city_status = yes
+                    dominant_province_culture = hurrian
+                }
+                text = "has_3_hurrian_cities_tt"
+            }
+        }
+        on_completion = {
+            trigger_event = me_hurri.5
+            show_as_tooltip = {
+                hidden_effect = {
+                    every_owned_province = {
+                        every_pops_in_province = {
+                            limit = { NOT = { pop_culture = hurrian } }
+                            random_list = {
+                                20 = { set_pop_culture = hurrian }
+                                80 = {}
+                            }
+                        }
+                    }
+                }
+                custom_tooltip = 1_over_4_hurrian_tt
+            }
+        }
+    }
+    hurri_missions_task_6 = {
+        icon = "task_expansion"
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_area = niniveh_area
+                    is_in_area = tigris_area
+                    is_in_region = upper_mesopotamia_region
+                    is_in_area = nisibin_area
+                    is_in_area = shingar_area
+                }
+            }
+        }
+        allow = {
+            political_influence >= 25
+        }
+        on_completion = {
+            trigger_event = me_hurri.6
+            show_as_tooltip = {
+                add_political_influence = -25
+                custom_tooltip = claims_on_naharin_plus_tt
+            }
+        }
+    }
+    hurri_missions_task_7 = {
+        icon = "task_political"
+        duration = 180
+        allow = {
+            military_experience >= 25
+            manpower >= 5
+            treasury >= 100
+        }
+        on_start = {
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = military_reforms_maryannu
+                    duration = -1
+                }
+            }
+            trigger_event = me_hurri.700
+        }
+        on_completion = {
+            trigger_event = me_hurri.7
+            show_as_tooltip = {
+                remove_country_modifier = military_reforms_maryannu
+                custom_tooltip = hurri_military_reform_tt
+            }
+        }
+    }
+    hurri_missions_task_8 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_5 hurri_missions_task_6 }
+        highlight = {
+            scope:province = {
+                this = p:844
+            }
+        }
+        allow = {
+            p:844.state = {
+                calc_true_if = {
+                    amount >= 2
+                    state_improvement_religious_trigger = yes
+                    state_improvement_civic_trigger = yes
+                    state_improvement_oratory_trigger = yes
+                    state_improvement_military_trigger = yes
+                }
+            }
+            p:844 = {
+                num_of_used_building_slots >= 4
+                has_building = fortress_building
+                total_population >= 45
+            }
+        }
+        on_completion = {
+            trigger_event = me_hurri.8
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_9 = {
+        icon = "task_conquest"
+        highlight = {
+            scope:province = {
+                dominant_province_culture = urtaian
+            }
+        }
+        requires = { hurri_missions_task_7 }
+        allow = {
+            custom_tooltip = {
+                any_integrated_culture = {
+                    is_culture = urtaian
+                }
+                text = integrate_urartu_tt
+            }
+        }
+        on_completion = {
+            trigger_event = me_hurri.9
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = urartu_archers
+                    duration = -1
+                }
+            }
+        }
+    }
+    hurri_missions_task_10 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_8 }
+        allow = {
+            
+        }
+        on_completion = {
+            trigger_event = me_hurri.10
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_11 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_10 }
+        allow = {
+            p:862 = {
+                has_building = temple_building
+                has_building = population_building
+                has_building = military_building
+                total_population >= 35
+            }
+            p:862.state = { state_improvement_religious_trigger = yes }
+        }
+        on_completion = {
+            trigger_event = me_hurri.11
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_12 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_11 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.12
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_13 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_11 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.13
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_14 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_9 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.14
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_15 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_14 }
+        allow = {
+        }
+        on_completion = {
+            trigger_event = me_hurri.15
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_16 = {
+        icon = "task_happiness"
+        requires = { hurri_missions_task_4 }
+        highlight = {
+            scope:province = {
+                this = p:844
+            }
+        }
+        allow = {
+            custom_tooltip = {
+                OR = {
+                    any_holy_site = {
+                        this = p:844
+                        province_deity = deity:omen_teshub
+                    }
+                    any_holy_site = {
+                        this = p:844
+                        province_deity = deity:omen_shaushka
+                    }
+                }
+                text = teshub_or_shaushka_holy_site_tt
+            }
+        }
+        on_completion = {
+            trigger_event = me_hurri.16
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = might_of_hurrian_religion
+                    duration = -1
+                }
+            }
+        }
+    }
+    hurri_missions_task_17 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_12 hurri_missions_task_13 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.17
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_18 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_15 hurri_missions_task_16 hurri_missions_task_17 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.18
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_19 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_22 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.19
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_20 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_19 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.20
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_21 = {
+        icon = "task_battle"
+        requires = { hurri_missions_task_6 }
+        highlight = {
+            scope:province = {
+                is_in_area = nisibin_area
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = nisibin_area
+        }
+        on_completion = {
+            trigger_event = me_hurri.21
+            show_as_tooltip = {
+                custom_tooltip = qardu_thoughts_tt
+            }
+        }
+    }
+    hurri_missions_task_22 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_21 }
+        highlight = {
+            scope:province = {
+                this = p:862
+            }
+        }
+        allow = {
+            owns = 862
+        }
+        on_completion = {
+            trigger_event = me_hurri.22
+            show_as_tooltip = {
+                custom_tooltip = choose_capital_tt
+            }
+        }
+    }
+    hurri_missions_task_23 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_22 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.23
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    hurri_missions_task_24 = {
+        icon = "task_political"
+        requires = { hurri_missions_task_23 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_hurri.24
+            show_as_tooltip = {
+
+            }
+        }
+    }
+}

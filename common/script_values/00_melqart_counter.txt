@@ -1,0 +1,14 @@
+﻿payday_melqart_svalue = {
+	value = global_var:payday_melqart
+	multiply = 50
+	divide = 4
+}
+payday_melqart_double_svalue = {
+	value = global_var:payday_melqart
+	multiply = 50
+	divide = 2
+}
+payday_melqart_full_svalue = {
+	value = global_var:payday_melqart
+	multiply = 50
+}

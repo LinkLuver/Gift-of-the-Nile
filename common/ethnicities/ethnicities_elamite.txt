@@ -1,0 +1,70 @@
+﻿# Receives data from /genes
+# Ethnicities are used in /cultures 
+
+
+elamite = {
+    template = "ethnities_template"
+
+    skin_color = {
+        10 = { 0.5 0.60 0.7 0.65 }
+    }
+    eye_color = {
+        #Green
+        5 = { 0.33 0.35 0.67 0.65 }
+        #Brown
+        100 = { 0.67 0.5 1.0 1.0 }              
+    }
+    hair_color = {
+        # Dark Brown
+        1 = { 0.15 0.8 0.45 0.9 }
+        # Auburn
+        #5 = { 0.8 0.5 1.0 0.8 }
+        # Red
+        #10 = { 0.95 0.0 1.0 0.4 }
+        # Black
+        80 = { 0.0 0.9 0.15 1.0 }
+        ## # Gray
+        # 5 = { 0.0 0.3 0.15 0.5 }
+        ## # White
+        # 5 = { 0.0 0.0 0.25 0.25 }                                     
+    }
+
+        
+    
+hairstyles = {
+    15 = { name = bactrian_hairstyles          range = { 0.75 0.76 } }
+    #20 = { name = carthaginian_hairstyles          range = { 0.00 1.00 } }
+    35 = { name = dravidian_hairstyles          range = { 0.40 1.00 } }
+}
+
+eyebrows = {
+    10 = { name = caucasian_eyebrows        range = { 0.0 1.0 } }
+}
+
+beards = {
+    10 = { name = indian_beards          range = { 0.64 1.0 } }
+    10 = { name = indian_beards          range = { 0.00 0.1 } }
+    10 = { name = persian_beards          range = { 0.0 1.0 } }
+    
+}
+
+clothes = {
+    70 = { name = persian_clothes            range = { 0.00 1.00 } }
+    20 = { name = scythian_clothes            range = { 0.00 1.00 } }
+}
+
+clothes_layer2 = {
+    10 = { name = persian_top_layer            range = { 0.0 1.00 } } #Tiger skin
+    10 = { name = scythian_top_layer            range = { 0.0 1.0 } }
+}
+
+complexion = {
+    100 = { name = levantine_1            range = { 0.0 1.0 } }
+    10 = { name = roman_2            range = { 0.0 1.0 } }
+    10 = { name = roman_3            range = { 0.0 1.0 } }
+    10 = { name = roman_4            range = { 0.0 1.0 } }
+    10 = { name = roman_5            range = { 0.0 1.0 } }
+}
+
+}
+

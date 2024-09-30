@@ -1,0 +1,157 @@
+﻿## This is for specifying the culture groups in the checks for trads
+is_italian_culture_group_trigger = {
+	this.culture.culture_group = culture_group:latin
+	this.culture = culture:messapian
+}
+
+is_celtic_culture_group_trigger = {
+	OR = {
+		this.culture.culture_group = culture_group:gallic
+		this.culture.culture_group = culture_group:celto_pannonian_group
+		this.culture.culture_group = culture_group:belgae_group
+		this.culture.culture_group = culture_group:britannic
+	}
+}
+
+is_germanic_culture_group_trigger = {
+	OR = {
+		this.culture.culture_group = culture_group:germanic
+		this.culture.culture_group = culture_group:baltic
+	}
+}
+
+is_iberian_culture_group_trigger = {
+	OR = {
+		this.culture.culture_group = culture_group:celt_iberia
+		this.culture.culture_group = culture_group:iberia
+		this.culture.culture_group = culture_group:proto_european
+	}
+}
+
+is_north_african_culture_group_trigger = {
+	OR = {
+		this.culture.culture_group = culture_group:numidian
+		this.culture.culture_group = culture_group:fezzani
+		this.culture = culture:atlosian
+		this.culture = culture:carthaginian
+	}
+}
+
+is_levantine_culture_group_trigger = { #military traditions
+	OR = {
+		AND = {
+			this.culture.culture_group = culture_group:west_levantine
+			NOT = {
+				this.culture = culture:carthaginian
+			}
+		}		
+		#this.culture.culture_group = culture_group:north_african
+		this.culture.culture_group = culture_group:east_levantine
+	}
+}
+
+is_greek_culture_group_trigger = {
+	this.culture.culture_group = culture_group:hellenic
+}
+
+is_haemic_culture_group_trigger = {
+	OR = {
+		this.culture.culture_group = culture_group:illyrian_group
+		this.culture.culture_group = culture_group:dacia_group
+		this.culture.culture_group = culture_group:thrace_group
+	}
+}
+
+is_arabian_culture_group_trigger = { #for mil trads
+	OR = {
+		this.culture.culture_group = culture_group:south_levantine
+		this.culture.culture_group = culture_group:south_arabian
+		this.culture.culture_group = culture_group:meroitic_group
+		this.culture.culture_group = culture_group:aksumite_group
+		this.culture.culture_group = culture_group:nilotic_group
+		this.culture.culture_group = culture_group:east_semetic
+	}	
+}
+
+is_indian_culture_group_trigger = {
+	OR = {
+		this.culture.culture_group = culture_group:aryan
+		this.culture.culture_group = culture_group:pracyan
+		this.culture.culture_group = culture_group:indian
+		this.culture.culture_group = culture_group:tibetan
+		this.culture.culture_group = culture_group:pu
+		this.culture.culture_group = culture_group:indus
+		this.culture.culture_group = culture_group:adivasi
+	}
+}
+
+is_big_persia_culture_group_trigger = {
+	OR = {
+		this.culture.culture_group = culture_group:persia
+		this.culture.culture_group = culture_group:mesopotamian
+		this.culture.culture_group = culture_group:elam
+		this.culture.culture_group = culture_group:armenian_group
+	}
+}
+
+is_anatolian_culture_group_trigger = {
+	OR = {
+		this.culture.culture_group = culture_group:anatolian
+		this.culture.culture_group = culture_group:caucasian
+		this.culture.culture_group = culture_group:hurro_urartian
+		this.culture.culture_group = culture_group:armenian_group
+	}
+}
+
+is_steppe_culture_group_trigger = {
+	OR = {
+		this.culture.culture_group = culture_group:bactrian
+		this.culture.culture_group = culture_group:saka_g
+		this.culture.culture_group = culture_group:scythian_east
+		this.culture.culture_group = culture_group:sarmatian_group
+		this.culture.culture_group = culture_group:xiyu
+	}
+}
+
+#Begin Decisions
+is_old_egyptian_culture_group_trigger = {
+	OR = {
+		this.culture.culture_group = culture_group:aksumite_group
+		this.culture.culture_group = culture_group:meroitic_group
+		this.culture.culture_group = culture_group:nilotic_group
+		this.culture.culture_group = culture_group:north_african
+		this.culture = culture:aegyptos
+		this.culture = culture:libyan
+	}
+}
+is_arabian_decision_culture_group_trigger = { #for Inventions
+	OR = {
+		this.culture.culture_group = culture_group:south_levantine
+		this.culture.culture_group = culture_group:south_arabian
+		this.culture.culture_group = culture_group:east_semetic
+	}
+}
+
+#Begin Techs
+is_persian_culture_group_trigger = {
+	this.culture.culture_group = culture_group:persia	
+}
+is_mesopotamian_culture_group_trigger = {
+	this.culture.culture_group = culture_group:mesopotamian
+}
+
+is_levantine_decision_culture_group_trigger = {
+	this.culture.culture_group = culture_group:west_levantine
+	this.culture.culture_group = culture_group:east_levantine
+}
+
+is_ariyan_culture_trigger = {
+	pop_culture_group = persia
+	pop_culture_group = scythia
+	pop_culture_group = sarmatian_group
+	pop_culture_group = saka_g
+	pop_culture_group = scythian_east
+	pop_culture_group = bactrian
+	pop_culture_group = pracyan
+	pop_culture_group = aryan
+}

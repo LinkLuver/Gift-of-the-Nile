@@ -1,0 +1,36 @@
+deity_manager = {
+    deities_database = { ### KEYS 31001 - 31100 ###
+		31001 = {
+			key = omen_singbonga
+			deity = deity_singbonga
+		}
+		31002 = {
+			key = omen_burubonga
+			deity = deity_burubonga
+		}
+		31003 = {
+			key = omen_jaherayo
+			deity = deity_jaherayo
+		}
+		31004 = {
+			key = omen_hatubongako
+			deity = deity_hatubongako
+		}
+		31005 = {
+			key = omen_orabongako
+			deity = deity_orabongako
+		}
+		31006 = {
+			key = omen_rankini
+			deity = deity_rankini
+		}
+		31007 = {
+			key = omen_lulukola
+			deity = deity_lulukola
+		}
+		31008 = {
+			key = omen_dewri
+			deity = deity_dewri
+		}
+	}
+}

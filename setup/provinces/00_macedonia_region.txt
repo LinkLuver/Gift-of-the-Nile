@@ -1,0 +1,1429 @@
+﻿356={ #Thasos
+	terrain="hills"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="precious_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+363={ #Neapolis Thrake
+	terrain="plains"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="stone"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		culture="paeonian"
+		religion="illyrian_pantheon"
+		amount=2
+	}
+}
+
+364={ #Philippoi
+	terrain="farmland"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="iron"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		culture="odrysi"
+		religion="shamanism"
+		amount=1
+	}
+	slaves={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+	tribesmen={
+		culture="odrysi"
+		religion="shamanism"
+		amount=1
+	}
+	tribesmen={
+		culture="paeonian"
+		religion="illyrian_pantheon"
+		amount=1
+	}
+}
+
+365={ #Amphipolis
+	terrain="hills"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="precious_metals"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=17
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=9
+	}
+	port_building=1
+}
+
+366={ #Tragilos
+	terrain="hills"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+369={ #Serrhai
+	terrain="plains"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="wine"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+371={ #Berge
+	terrain="plains"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="glass"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+373={ #Thessalonike
+	terrain="hills"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="glass"
+	civilization_value=36
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=4
+	}
+	citizen={
+		culture="hebrew"
+		religion="judaism"
+		amount=2
+	}
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=11
+	}
+	slaves={
+		amount=11
+	}
+	slaves={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	port_building=2
+}
+
+374={ #Kalindoia
+	terrain="hills"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="macedonian"
+		amount=2
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+376={ #Poteidaia
+	terrain="plains"
+	culture="achaean"
+	religion="roman_pantheon"
+	trade_goods="precious_metals"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=3
+	}
+	citizen={
+		amount=10
+	}
+	freemen={
+		culture="macedonian"
+		amount=10
+	}
+	slaves={
+		amount=7
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+377={ #Akanthos
+	terrain="hills"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="pearls"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		culture="macedonian"
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+378={ #Torone
+	terrain="hills"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="athenian"
+		amount=2
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		culture="macedonian"
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+379={ #Pella
+	terrain="farmland"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="wine"
+	civilization_value=47
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=5
+	}
+	citizen={
+		amount=8
+	}
+	citizen={
+		culture="athenian"
+		amount=1
+	}
+	citizen={
+		culture="achaean"
+		amount=2
+	}
+	citizen={
+		culture="italiotian"
+		amount=1
+	}
+	citizen={
+		culture="aeolian"
+		amount=1
+	}
+	citizen={
+		culture="syracusan"
+		amount=1
+	}
+	freemen={
+		amount=13
+	}
+	freemen={
+		culture="hebrew"
+		religion="judaism"
+		amount=2
+	}
+	slaves={
+		amount=12
+	}
+	slaves={
+		religion="illyrian_pantheon"
+		culture="paeonian"
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+	port_building=2
+}
+
+380={ #Dion
+	terrain="hills"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="stone"
+	civilization_value=36
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=2
+	}
+}
+
+381={ #Beroia
+	terrain="plains"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="cattle"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=9
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=6
+	}
+}
+
+382={ #Edessa
+	terrain="farmland"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="glass"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=4
+	}
+}
+
+383={ #Europos Almopias
+	terrain="farmland"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+384={ #Gortynia
+	terrain="plains"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="wood"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=8
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+385={ #Tauriana
+	terrain="plains"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="horses"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=5
+	}
+}
+
+386={ #Asseros
+	terrain="farmland"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="grain"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+388={ #Gonnoi
+	terrain="hills"
+	culture="thessalian"
+	religion="roman_pantheon"
+	trade_goods="hemp"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+}
+
+389={ #Larisa
+	terrain="farmland"
+	culture="thessalian"
+	religion="roman_pantheon"
+	trade_goods="horses"
+	civilization_value=37
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		culture="macedonian"
+		amount=1
+	}
+	citizen={
+		amount=8
+	}
+	citizen={
+		culture="hebrew"
+		religion="judaism"
+		amount=2
+	}
+	freemen={
+		amount=14
+	}
+	freemen={
+		culture="macedonian"
+		amount=3
+	}
+	slaves={
+		culture="hebrew"
+		religion="judaism"
+		amount=2
+	}
+	slaves={
+		amount=12
+	}
+}
+
+390={ #Pherai
+	terrain="farmland"
+	culture="thessalian"
+	religion="roman_pantheon"
+	trade_goods="earthware"
+	civilization_value=37
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=3
+	}
+}
+
+391={ #Pagasai
+	terrain="hills"
+	culture="thessalian"
+	religion="roman_pantheon"
+	trade_goods="grain"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	port_building=1
+}
+
+392={ #Meliboia
+	terrain="hills"
+	culture="thessalian"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+393={ #Pelagonia
+	terrain="forest"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="vegetables"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+394={ #Pharsalos
+	terrain="farmland"
+	culture="thessalian"
+	religion="roman_pantheon"
+	trade_goods="cloth"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=11
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=13
+	}
+}
+
+395={ #Trikke
+	terrain="farmland"
+	culture="thessalian"
+	religion="roman_pantheon"
+	trade_goods="wine"
+	civilization_value=38
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+}
+
+396={ #Oichalia
+	terrain="plains"
+	culture="thessalian"
+	religion="roman_pantheon"
+	trade_goods="vegetables"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+397={ #Stoboi
+	terrain="hills"
+	culture="paeonian"
+	religion="illyrian_pantheon"
+	trade_goods="leather"
+	civilization_value=23
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		religion="shamanism"
+		amount=1
+	}
+	holy_site=omen_dualos
+}
+
+398={ #Halos
+	terrain="marsh"
+	culture="thessalian"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+400={ #Elimeia
+	terrain="farmland"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="leather"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=3
+	}
+}
+
+404={ #Oloosson
+	terrain="plains"
+	culture="thessalian"
+	religion="roman_pantheon"
+	trade_goods="honey"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+405={ #Stymbara
+	terrain="forest"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="cattle"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+408={ #Arnisa
+	terrain="forest"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="cattle"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+411={ #Herakleia Lynkestis
+	terrain="forest"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="grain"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+412={ #Lychnidos
+	terrain="mountain"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="vegetables"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="taulantian"
+		religion="illyrian_pantheon"
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+414={ #Keirpara
+	terrain="hills"
+	culture="paeonian"
+	religion="illyrian_pantheon"
+	trade_goods="iron"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	citizen={
+		religion="roman_pantheon"
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+	tribesmen={
+		religion="shamanism"
+		amount=1
+	}
+}
+
+415={ #Epidamnos
+	terrain="farmland"
+	culture="italiotian"
+	religion="roman_pantheon"
+	trade_goods="salt"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	port_building=1
+}
+
+420={ #Peparethos
+	terrain="hills"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+422={ #Apollonia Epidamnon
+	terrain="farmland"
+	culture="italiotian"
+	religion="roman_pantheon"
+	trade_goods="earthware"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+428={ #Methone
+	terrain="plains"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="rice"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=5
+	}
+}
+
+455={ #Dimallon
+	terrain="farmland"
+	culture="epirote"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+497={ #Herakleia Sintike
+	terrain="hills"
+	culture="paeonian"
+	religion="illyrian_pantheon"
+	trade_goods="iron"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		religion="roman_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+498={ #Skaptopara
+	terrain="hills"
+	culture="paeonian"
+	religion="illyrian_pantheon"
+	trade_goods="leather"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+499={ #Spinopara
+	terrain="farmland"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="leather"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	holy_site=omen_zibelthiurdos
+}
+
+1445={ #Chrysondyon
+	terrain="mountain"
+	culture="taulantian"
+	religion="illyrian_pantheon"
+	trade_goods="leather"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2213={ #Albanopolis
+	terrain="hills"
+	culture="taulantian"
+	religion="illyrian_pantheon"
+	trade_goods="fur"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2264={ #Parthos
+	terrain="mountain"
+	culture="taulantian"
+	religion="illyrian_pantheon"
+	trade_goods="leather"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+2336={ #Lissos
+	terrain="farmland"
+	culture="taulantian"
+	religion="illyrian_pantheon"
+	trade_goods="fish"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	holy_site=omen_redon
+	port_building=1
+}
+
+3125={ #Keletron
+	terrain="mountain"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="vegetables"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3175={ #Eratyra
+	terrain="hills"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="cattle"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3356={ #Beue
+	terrain="mountain"
+	culture="taulantian"
+	religion="illyrian_pantheon"
+	trade_goods="fur"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		religion="roman_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4096={ #Skoupoi
+	terrain="farmland"
+	culture="dardanian"
+	religion="illyrian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	holy_site=omen_dracondracaena
+}
+
+4097={ #Helice
+	terrain="hills"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="base_metals"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4117={ #Pautalia
+	terrain="hills"
+	culture="dardanian"
+	religion="illyrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	tribesmen={
+		religion="shamanism"
+		amount=1
+	}
+}
+
+4152={ #Tranoupara
+	terrain="farmland"
+	culture="dardanian"
+	religion="illyrian_pantheon"
+	trade_goods="woad"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4153={ #Alexandropolis Maedica
+	terrain="hills"
+	culture="paeonian"
+	religion="illyrian_pantheon"
+	trade_goods="wood"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4302={ #Doberos
+	terrain="hills"
+	culture="paeonian"
+	religion="illyrian_pantheon"
+	trade_goods="wood"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="roman_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4303={ #Astraia
+	terrain="hills"
+	culture="paeonian"
+	religion="illyrian_pantheon"
+	trade_goods="cattle"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4304={ #Astibos
+	terrain="farmland"
+	culture="paeonian"
+	religion="illyrian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	tribesmen={
+		religion="shamanism"
+		amount=1
+	}
+}
+
+4305={ #Bylazora
+	terrain="hills"
+	culture="paeonian"
+	religion="illyrian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4306={ #Kiropolis
+	terrain="mountain"
+	culture="paeonian"
+	religion="illyrian_pantheon"
+	trade_goods="wood"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6399={ #Pydna
+	terrain="plains"
+	culture="macedonian"
+	religion="roman_pantheon"
+	trade_goods="earthware"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=3
+	}
+	port_building=1
+}
+
+8023={ #Tempe Pass
+	terrain="mountain"
+	culture="thessalian"
+	religion="roman_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+8024={ #Boloustana Pass
+	terrain="mountain"
+	culture="thessalian"
+	religion="roman_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+8025={ #Petra Pass
+	terrain="mountain"
+	culture="thessalian"
+	religion="roman_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+

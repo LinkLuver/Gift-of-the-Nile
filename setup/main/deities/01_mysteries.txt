@@ -1,0 +1,16 @@
+deity_manager = {
+	deities_database = { ### KEYS 30501 - 30600
+		30501 = {
+			key = omen_isis_demeter
+			deity = deity_isis_demeter
+		}
+		30502 = {
+			key = omen_zagreus
+			deity = deity_zagreus
+		}
+		30503 = {
+			key = omen_aeneus
+			deity = deity_aeneus
+		}
+	}
+}

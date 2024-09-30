@@ -61,10 +61,33 @@ bloodline_on_born_effect = {
     pass_down_bloodline_character_effect = { BLOODLINE = "blood_of_pharnavazid"}
     pass_down_bloodline_character_effect = { BLOODLINE = "blood_of_shaushtatar" }
     pass_down_bloodline_character_effect = { BLOODLINE = "blood_of_forcos" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "blood_of_pandava" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "blood_of_arhan" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "antenorid" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "blood_of_midas" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "saba" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "ateas" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "eurypontid" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "blood_of_teres" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "blood_of_pylaemenes" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "blood_of_albion_kings" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "balbid" }
 
     #GOTN Bloodlines
     pass_down_bloodline_character_effect = { BLOODLINE = "thutmosid" }
     pass_down_bloodline_character_effect = { BLOODLINE = "ahmesid" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "cyaxarid" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "shushunid" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "nergilid" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "shamashid" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "shimannid" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "arakhid" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "adaside" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "talmi_teshub" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "hazael" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "sarduri" }
+    pass_down_bloodline_character_effect = { BLOODLINE = "zakor"}
+    pass_down_bloodline_character_effect = { BLOODLINE = "urhilina" }
 }
 
 bloodline_setup_effect = {
@@ -127,10 +150,32 @@ bloodline_setup_effect = {
     pass_down_bloodline_effect = { BLOODLINE = "blood_of_pharnavazid"}
     pass_down_bloodline_effect = { BLOODLINE = "blood_of_shaushtatar" }
     pass_down_bloodline_effect = { BLOODLINE = "blood_of_forcos" }
+    pass_down_bloodline_effect = { BLOODLINE = "blood_of_pandava" }
+    pass_down_bloodline_effect = { BLOODLINE = "antenorid" }
+    pass_down_bloodline_effect = { BLOODLINE = "saba" }
+    pass_down_bloodline_effect = { BLOODLINE = "ateas" }
+    pass_down_bloodline_effect = { BLOODLINE = "blood_of_teres" }
+    pass_down_bloodline_effect = { BLOODLINE = "eurypontid" }
+    pass_down_bloodline_effect = { BLOODLINE = "blood_of_pylaemenes" }
+    pass_down_bloodline_effect = { BLOODLINE = "blood_of_midas" }
+    pass_down_bloodline_effect = { BLOODLINE = "blood_of_albion_kings" }
+    pass_down_bloodline_effect = { BLOODLINE = "balbid" }
 
     ## GOTN
     pass_down_bloodline_effect = { BLOODLINE = "thutmosid" }
     pass_down_bloodline_effect = { BLOODLINE = "ahmesid" }
+    pass_down_bloodline_effect = { BLOODLINE = "cyaxarid" }
+    pass_down_bloodline_effect = { BLOODLINE = "shushunid" }
+    pass_down_bloodline_effect = { BLOODLINE = "nergilid" }
+    pass_down_bloodline_effect = { BLOODLINE = "shamashid" }
+    pass_down_bloodline_effect = { BLOODLINE = "shimannid" }
+    pass_down_bloodline_effect = { BLOODLINE = "arakhid" }
+    pass_down_bloodline_effect = { BLOODLINE = "adaside" }
+    pass_down_bloodline_effect = { BLOODLINE = "talmi_teshub" }
+    pass_down_bloodline_effect = { BLOODLINE = "hazael" }
+    pass_down_bloodline_effect = { BLOODLINE = "sarduri" }
+    pass_down_bloodline_effect = { BLOODLINE = "zakor" }
+    pass_down_bloodline_effect = { BLOODLINE = "urhilina" }
 }
 
 pass_down_bloodline_effect = {

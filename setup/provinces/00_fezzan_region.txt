@@ -1,7 +1,7 @@
 ﻿8123={ #Tarfawi
 	terrain="desert"
 	culture="nasamonian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -11,7 +11,7 @@
 8124={ #Qabr
 	terrain="desert"
 	culture="nasamonian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -21,7 +21,7 @@
 8125={ #Mawahi
 	terrain="desert"
 	culture="nasamonian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="camel"
 	civilization_value=10
 	barbarian_power=0
@@ -34,7 +34,7 @@
 8126={ #Gicherra
 	terrain="oasis"
 	culture="nasamonian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="dates"
 	civilization_value=10
 	barbarian_power=0
@@ -58,7 +58,7 @@
 8127={ #Gialo
 	terrain="oasis"
 	culture="nasamonian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="dates"
 	civilization_value=10
 	barbarian_power=0
@@ -71,7 +71,7 @@
 	}
 	slaves={
 		culture="siwan_egyptian"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 	tribesmen={
@@ -82,7 +82,7 @@
 8128={ #Augila
 	terrain="oasis"
 	culture="nasamonian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="dates"
 	civilization_value=10
 	barbarian_power=0
@@ -95,7 +95,7 @@
 	}
 	freemen={
 		culture="siwan_egyptian"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=2
 	}
 	slaves={
@@ -103,7 +103,7 @@
 	}
 	slaves={
 		culture="siwan_egyptian"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=2
 	}
 	slaves={
@@ -120,7 +120,7 @@
 8129={ #Bu Athla
 	terrain="desert"
 	culture="nasamonian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="wild_game"
 	civilization_value=10
 	barbarian_power=0
@@ -133,7 +133,7 @@
 8130={ #Sahabi
 	terrain="desert"
 	culture="nasamonian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -157,7 +157,7 @@
 8131={ #Kalanshah
 	terrain="desert"
 	culture="nasamonian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -170,7 +170,7 @@
 8132={ #Jabbanah
 	terrain="desert"
 	culture="nasamonian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -183,7 +183,7 @@
 8133={ #Maradah
 	terrain="desert"
 	culture="nasamonian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -204,7 +204,7 @@
 8134={ #Jafr
 	terrain="desert"
 	culture="nasamonian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="wild_game"
 	civilization_value=10
 	barbarian_power=0
@@ -217,7 +217,7 @@
 8136={ #Talhah
 	terrain="desert"
 	culture="nasamonian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="wild_game"
 	civilization_value=10
 	barbarian_power=0
@@ -230,7 +230,7 @@
 8137={ #Tagrifet
 	terrain="desert"
 	culture="nasamonian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -248,7 +248,7 @@
 8138={ #Meduin
 	terrain="desert"
 	culture="nasamonian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="camel"
 	civilization_value=10
 	barbarian_power=0
@@ -266,7 +266,7 @@
 8139={ #Zala
 	terrain="desert"
 	culture="nasamonian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="camel"
 	civilization_value=10
 	barbarian_power=0
@@ -284,7 +284,7 @@
 8140={ #Jufrah
 	terrain="desert"
 	culture="macaean"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="wild_game"
 	civilization_value=10
 	barbarian_power=0
@@ -297,7 +297,7 @@
 8141={ #Fuqaha
 	terrain="desert"
 	culture="macaean"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -335,7 +335,7 @@
 	province_rank="settlement"
 	slaves={
 		culture="nasamonian"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 	slaves={
@@ -358,7 +358,7 @@
 	province_rank="settlement"
 	slaves={
 		culture="nasamonian"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 	tribesmen={
@@ -447,7 +447,7 @@
 	}
 	slaves={
 		culture="nasamonian"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 	tribesmen={
@@ -455,7 +455,7 @@
 	}
 	tribesmen={
 		culture="garamantic"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=2
 	}
 	aqueduct_building=1
@@ -492,7 +492,7 @@
 	}
 	tribesmen={
 		culture="garamantic"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 }
@@ -515,12 +515,12 @@
 	}
 	tribesmen={
 		culture="garamantic"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=2
 	}
 	tribesmen={
 		culture="nasamonian"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 }
@@ -538,7 +538,7 @@
 	}
 	tribesmen={
 		culture="garamantic"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 }
@@ -556,7 +556,7 @@
 	}
 	tribesmen={
 		culture="garamantic"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 }
@@ -652,7 +652,7 @@
 	province_rank="settlement"
 	slaves={
 		culture="libyan"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 	slaves={
@@ -662,7 +662,7 @@
 	}
 	slaves={
 		culture="nasamonian"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 	tribesmen={
@@ -670,7 +670,7 @@
 	}
 	tribesmen={
 		culture="garamantic"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=2
 	}
 }
@@ -699,12 +699,12 @@
 	}
 	slaves={
 		culture="nasamonian"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 	slaves={
 		culture="libyan"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=2
 	}
 	slaves={
@@ -744,7 +744,7 @@
 	}
 	slaves={
 		culture="nasamonian"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 	tribesmen={
@@ -752,7 +752,7 @@
 	}
 	tribesmen={
 		culture="garamantic"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 	aqueduct_building=2
@@ -781,7 +781,7 @@
 	}
 	tribesmen={
 		culture="garamantic"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 }
@@ -812,7 +812,7 @@
 	}
 	tribesmen={
 		culture="garamantic"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 }
@@ -833,12 +833,12 @@
 	}
 	tribesmen={
 		culture="libyan"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 	tribesmen={
 		culture="garamantic"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=2
 	}
 	aqueduct_building=1
@@ -860,7 +860,7 @@
 	}
 	tribesmen={
 		culture="garamantic"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 }
@@ -878,7 +878,7 @@
 	}
 	tribesmen={
 		culture="garamantic"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 }
@@ -896,7 +896,7 @@
 	}
 	tribesmen={
 		culture="garamantic"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 }
@@ -927,7 +927,7 @@
 	}
 	tribesmen={
 		culture="garamantic"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 }
@@ -945,12 +945,12 @@
 	}
 	slaves={
 		culture="nasamonian"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 	tribesmen={
 		culture="garamantic"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 }
@@ -1294,7 +1294,7 @@
 	terrain="desert"
 	culture="macaean"
 	religion="berber_religion"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"

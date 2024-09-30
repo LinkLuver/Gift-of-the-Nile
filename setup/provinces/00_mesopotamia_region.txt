@@ -1,373 +1,6 @@
-﻿824={ #Chabora
-	terrain="desert"
-	culture="assyrian"
-	religion="mesopotamian_religion"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-}
-
-825={ #Magdala
-	terrain="desert"
-	culture="aramaic"
-	religion="mesopotamian_religion"
-	trade_goods="leather"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=3
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-826={ #Appadana
-	terrain="desert"
-	culture="aramaic"
-	religion="mesopotamian_religion"
-	trade_goods="camel"
-	civilization_value=23
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=4
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-}
-
-827={ #Phaliga
-	terrain="desert"
-	culture="aramaic"
-	religion="mesopotamian_religion"
-	trade_goods="stone"
-	civilization_value=23
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	freemen={
-		religion="carthaginian_pantheon"
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		religion="arabian_pantheon"
-		amount=1
-	}
-}
-
-828={ #Asicha
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=23
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=5
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-829={ #Doura Europos
-	terrain="desert"
-	culture="aramaic"
-	religion="mesopotamian_religion"
-	trade_goods="stone"
-	civilization_value=23
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	freemen={
-		culture="hebrew"
-		religion="judaism"
-		amount=2
-	}
-	freemen={
-		religion="arabian_pantheon"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		religion="arabian_pantheon"
-		amount=1
-	}
-}
-
-835={ #Hatra
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="horses"
-	civilization_value=33
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=7
-	}
-	freemen={
-		culture="hebrew"
-		religion="judaism"
-		amount=1
-	}
-	freemen={
-		culture="assyrian"
-		religion="zoroaster"
-		amount=3
-	}
-	slaves={
-		amount=3
-	}
-	slaves={
-		culture="hebrew"
-		religion="judaism"
-		amount=1
-	}
-	slaves={
-		culture="assyrian"
-		religion="zoroaster"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-883={ #Libanai
-	terrain="plains"
-	culture="assyrian"
-	religion="mesopotamian_religion"
-	trade_goods="earthware"
-	civilization_value=38
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		religion="zoroaster"
-		amount=1
-	}
-	citizen={
-		amount=6
-	}
-	freemen={
-		amount=8
-	}
-	freemen={
-		culture="hebrew"
-		religion="judaism"
-		amount=2
-	}
-	freemen={
-		religion="zoroaster"
-		amount=4
-	}
-	slaves={
-		amount=5
-	}
-	slaves={
-		culture="hebrew"
-		religion="judaism"
-		amount=2
-	}
-	holy_site=omen_ashshur
-}
-
-885={ #Kyparisson
-	terrain="plains"
-	culture="assyrian"
-	religion="zoroaster"
-	trade_goods="vegetables"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-888={ #Lair
-	terrain="plains"
-	culture="assyrian"
-	religion="zoroaster"
-	trade_goods="honey"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-889={ #Physkon
-	terrain="plains"
-	culture="babylonian"
-	religion="zoroaster"
-	trade_goods="wild_game"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		religion="mesopotamian_religion"
-		amount=1
-	}
-}
-
-890={ #Gouba
-	terrain="plains"
-	culture="babylonian"
-	religion="zoroaster"
-	trade_goods="cattle"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		culture="assyrian"
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		religion="mesopotamian_religion"
-		amount=1
-	}
-}
-
-891={ #Birtha
-	terrain="plains"
-	culture="assyrian"
-	religion="mesopotamian_religion"
-	trade_goods="wild_game"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=6
-	}
-	slaves={
-		amount=2
-	}
-}
-
-892={ #Doura
-	terrain="plains"
-	culture="assyrian"
-	religion="mesopotamian_religion"
-	trade_goods="cattle"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=5
-	}
-	slaves={
-		religion="zoroaster"
-		amount=1
-	}
-	slaves={
-		culture="babylonian"
-		amount=1
-	}
-}
-
-893={ #Souma
-	terrain="plains"
-	culture="assyrian"
-	religion="mesopotamian_religion"
-	trade_goods="earthware"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=6
-	}
-	slaves={
-		amount=2
-	}
-}
-
-894={ #Apameia Archidos
+﻿896={ #Halashar
 	terrain="flood_plain"
-	culture="babylonian"
-	religion="mesopotamian_religion"
-	trade_goods="dates"
-	civilization_value=33
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=3
-	}
-}
-
-895={ #Apollonia Tigridos
-	terrain="flood_plain"
-	culture="babylonian"
-	religion="mesopotamian_religion"
-	trade_goods="vegetables"
-	civilization_value=33
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-}
-
-896={ #Artemita
-	terrain="plains"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="fruits"
 	civilization_value=31
@@ -394,8 +27,8 @@
 
 897={ #Daskara
 	terrain="plains"
-	culture="babylonian"
-	religion="zoroaster"
+	culture="sutean"
+	religion="mesopotamian_religion"
 	trade_goods="wine"
 	civilization_value=31
 	barbarian_power=0
@@ -419,11 +52,11 @@
 	}
 }
 
-898={ #Nikatoropolis
+898={ #Nahrawan
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
-	trade_goods="dates"
+	trade_goods="grain"
 	civilization_value=33
 	barbarian_power=0
 	province_rank="settlement"
@@ -435,42 +68,7 @@
 	}
 }
 
-899={ #Antiocheia Opida
-	terrain="flood_plain"
-	culture="babylonian"
-	religion="mesopotamian_religion"
-	trade_goods="earthware"
-	civilization_value=38
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=10
-	}
-	slaves={
-		amount=15
-	}
-}
-
-900={ #Symbra
-	terrain="flood_plain"
-	culture="babylonian"
-	religion="mesopotamian_religion"
-	trade_goods="glass"
-	civilization_value=33
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=5
-	}
-}
-
-901={ #Kounaxa
+901={ #Hunahsha
 	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -486,24 +84,8 @@
 	}
 }
 
-902={ #Misiche
-	terrain="desert"
-	culture="assyrian"
-	religion="mesopotamian_religion"
-	trade_goods="leather"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-}
-
-903={ #Karbela
-	terrain="desert"
+903={ #Harbavla
+	terrain="marsh"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
@@ -518,165 +100,75 @@
 	}
 }
 
-904={ #Isiopolis
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="leather"
-	civilization_value=28
+910={ #Sippar
+	terrain="flood_plain"
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	trade_goods="cloth"
+	civilization_value=33
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	citizen={
+		culture="sittacenean"
+		amount=2
+	}
 	freemen={
+		culture="sutean"
 		amount=3
 	}
 	freemen={
-		culture="nabatean"
-		religion="mesopotamian_religion"
-		amount=1
+		amount=4
+	}
+	slaves={
+		amount=3
 	}
 	slaves={
 		culture="assyrian"
-		religion="mesopotamian_religion"
-		amount=1
-	}
-	slaves={
-		amount=3
-	}
-}
-
-905={ #Bechchouphrein
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="cattle"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-906={ #Anatho
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="leather"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-}
-
-907={ #Haradon
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-908={ #Eddana
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="leather"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-909={ #Neardea
-	terrain="flood_plain"
-	culture="babylonian"
-	religion="mesopotamian_religion"
-	trade_goods="vegetables"
-	civilization_value=33
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=4
-	}
-	freemen={
-		amount=4
-	}
-	slaves={
-		amount=8
-	}
-}
-
-910={ #Seleukeia Euphratos
-	terrain="flood_plain"
-	culture="babylonian"
-	religion="mesopotamian_religion"
-	trade_goods="cloth" #changed from grain
-	civilization_value=33
-	barbarian_power=0
-	province_rank="city" #Sippar should be a city
-	freemen={
-		amount=4
-	}
-	slaves={
 		amount=5
 	}
 	holy_site=omen_shamash
 }
 
-911={ #Seleukeia
+911={ #Saliq
 	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="papyrus"
 	civilization_value=52
 	barbarian_power=0
-	province_rank="city" #Without Seleukos, it makes no sense for Seleukia to be a city - should probably change this afterwards
+	province_rank="city"
 	nobles={
-		amount=10
+		amount=5
 	}
 	citizen={
-		amount=22
+		amount=12
 	}
 	citizen={
-		culture="hebrew"
-		religion="judaism"
+		culture="assyrian"
+		religion="ashur_religion"
 		amount=1
 	}
 	freemen={
 		amount=10
 	}
 	freemen={
-		culture="hebrew"
-		religion="judaism"
+		culture="assyrian"
+		religion="ashur_religion"
 		amount=2
 	}
 	slaves={
-		amount=15
+		culture="sutean"
+		amount=6
 	}
 }
 
-912={ #Ktesiphon
+912={ #Qtisfon
 	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -691,16 +183,16 @@
 		amount=3
 	}
 	citizen={
-		culture="hebrew"
-		religion="judaism"
+		culture="assyrian"
+		religion="ashur_religion"
 		amount=1
 	}
 	freemen={
 		amount=7
 	}
 	freemen={
-		culture="hebrew"
-		religion="judaism"
+		culture="qedarite"
+		religion="arabian_pantheon"
 		amount=3
 	}
 	slaves={
@@ -712,7 +204,7 @@
 	port_building=1
 }
 
-913={ #Meinas Sabattha
+913={ #Kaparum-Basi
 	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -732,8 +224,8 @@
 	holy_site=omen_nergal
 }
 
-914={ #Opis
-	terrain="flood_plain"
+914={ #Upija
+	terrain="plains"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="elephants"
@@ -751,27 +243,30 @@
 	}
 }
 
-915={ #Koutha
+915={ #Kutha
 	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
-	trade_goods="wine" #changed from fruits
+	trade_goods="wine"
 	civilization_value=33
 	barbarian_power=0
-	province_rank="city" #Kutha should be a city
+	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
-		amount=3
+		amount=4
 	}
 	freemen={
-		amount=5
+		amount=7
 	}
 	slaves={
-		amount=5
+		amount=8
 	}
 	holy_site=omen_ereshkigal
 }
 
-916={ #Barophtas
+916={ #Girumu
 	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -787,7 +282,7 @@
 	}
 }
 
-917={ #Pakoria
+917={ #Kishshatu
 	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -806,7 +301,7 @@
 	}
 }
 
-918={ #Babylon
+918={ #Babili
 	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -815,32 +310,30 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=5
+		amount=7
 	}
 	citizen={
-		culture="hebrew"
-		religion="judaism"
+		culture="chaldean"
 		amount=4
 	}
 	citizen={
-		amount=19
+		amount=21
 	}
 	freemen={
 		amount=11
 	}
 	slaves={
-		culture="hebrew"
-		religion="judaism"
+		culture="sutean"
 		amount=4
 	}
 	slaves={
-		amount=13
+		amount=14
 	}
 	holy_site=omen_marduk
 	port_building=1
 }
 
-919={ #Borsippa
+919={ #Barsip
 	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -849,24 +342,23 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="hebrew"
-		religion="judaism"
+		culture="chaldean"
 		amount=2
 	}
 	citizen={
 		amount=8
 	}
 	freemen={
-		culture="hebrew"
-		religion="judaism"
+		culture="assyrian"
+		religion="ashur_religion"
 		amount=2
 	}
 	freemen={
 		amount=7
 	}
 	freemen={
-		culture="carian"
-		religion="egyptian_pantheon"
+		culture="qedarite"
+		religion="arabian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -875,46 +367,64 @@
 	holy_site=omen_nabu
 }
 
-920={ #Soura
+920={ #Dilbat
 	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="wine"
 	civilization_value=31
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=3
+	}
+	citizen={
+		amount=5
+	}
 	freemen={
+		amount=10
+	}
+	freemen={
+		culture="sutean"
 		amount=1
 	}
 	slaves={
-		amount=1
+		culture="chaldean"
+		amount=12
 	}
 }
 
-921={ #Belgynaia
+921={ #Marad
 	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
-	trade_goods="grain"
+	trade_goods="horses"
 	civilization_value=33
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
 		amount=2
 	}
 	freemen={
+		culture="chaldean"
 		amount=3
 	}
+	freemen={
+		amount=5
+	}
 	slaves={
-		amount=7
+		amount=10
 	}
 }
 
-922={ #Alexandreia Pallakotas
-	terrain="desert"
+922={ #'Aqola
+	terrain="marsh"
 	culture="babylonian"
 	religion="mesopotamian_religion"
-	trade_goods="camel"
+	trade_goods="grain"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
@@ -936,8 +446,8 @@
 	holy_site=omen_ezekiel
 }
 
-923={ #Pharga
-	terrain="flood_plain"
+923={ #Qadissiyya
+	terrain="marsh"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="leather"
@@ -956,8 +466,8 @@
 	}
 }
 
-924={ #Baliktanor
-	terrain="flood_plain"
+924={ #'Abberta
+	terrain="plains"
 	culture="babylonian"
 	religion="mesopotamian_religion"
 	trade_goods="cloth"
@@ -969,7 +479,7 @@
 	}
 }
 
-925={ #Laodikeia Chaldaias
+925={ #Shemali
 	terrain="plains"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -993,9 +503,9 @@
 	}
 }
 
-926={ #Diadochoupolis
+926={ #Didhhofli
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="sittacenean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=33
@@ -1009,39 +519,52 @@
 	}
 }
 
-927={ #Sittake
-	terrain="flood_plain"
-	culture="babylonian"
+927={ #Stagh
+	terrain="plains"
+	culture="sittacenean"
 	religion="mesopotamian_religion"
-	trade_goods="grain"
+	trade_goods="horses"
 	civilization_value=33
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=8
+	}
 	slaves={
-		amount=3
+		amount=13
 	}
 }
 
-928={ #Derou
-	terrain="hills"
-	culture="babylonian"
+928={ #Deru
+	terrain="plains"
+	culture="sittacenean"
 	religion="mesopotamian_religion"
 	trade_goods="honey"
 	civilization_value=29
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=1
+		amount=10
+	}
+	tribesmen={
+		culture="cossian"
+		amount=3
 	}
 	slaves={
-		amount=4
+		amount=8
 	}
 }
 
-929={ #Nippour
+929={ #Nippur
 	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -1049,25 +572,27 @@
 	civilization_value=38
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
-		culture="hebrew"
-		religion="judaism"
+		culture="chaldean"
 		amount=2
 	}
 	citizen={
 		amount=8
 	}
 	freemen={
-		amount=1
+		amount=4
 	}
 	freemen={
-		culture="carian"
-		religion="egyptian_pantheon"
+		culture="assyrian"
+		religion="ashur_religion"
 		amount=1
 	}
 	slaves={
-		culture="hebrew"
-		religion="judaism"
+		culture="aramaic"
+		religion="hurrian_pantheon"
 		amount=2
 	}
 	slaves={
@@ -1076,14 +601,14 @@
 	holy_site=omen_enlil
 }
 
-930={ #Balagaia
-	terrain="flood_plain"
-	culture="babylonian"
+930={ #Kisik
+	terrain="marsh"
+	culture="chaldean"
 	religion="mesopotamian_religion"
-	trade_goods="horses"
+	trade_goods="leather"
 	civilization_value=33
 	barbarian_power=0
-	province_rank="city" #Kish should be a city
+	province_rank="city"
 	freemen={
 		amount=5
 	}
@@ -1093,7 +618,7 @@
 	holy_site=omen_bau
 }
 
-931={ #Kolarina
+931={ #Isin
 	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -1110,27 +635,30 @@
 	holy_site=omen_nanaya
 }
 
-932={ #Dabron
+932={ #Karkaru
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="horses"
 	civilization_value=33
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=2
+		amount=5
 	}
 	slaves={
-		amount=4
+		amount=9
 	}
 }
 
-933={ #Apameia Tigridos
+933={ #Dighva
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
-	trade_goods="dates"
+	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
@@ -1166,9 +694,9 @@
 	}
 }
 
-934={ #Apameia Selaios
+934={ #Kashkar
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="wine"
 	civilization_value=27
@@ -1182,9 +710,9 @@
 	}
 }
 
-935={ #Pantibiblos
+935={ #Girsu
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="steppe_horses"
 	civilization_value=27
@@ -1198,9 +726,9 @@
 	}
 }
 
-936={ #Antiocheia Inannos
+936={ #Medain
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=27
@@ -1221,39 +749,42 @@
 	}
 }
 
-937={ #Orchoe
+937={ #Uruk
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
-	trade_goods="base_metals"
+	trade_goods="incense"
 	civilization_value=37
 	barbarian_power=0
-	province_rank="city" #Uruk should be a city
-	citizen={
-		culture="hebrew"
-		religion="judaism"
-		amount=2
-	}
-	citizen={
-		amount=5
-	}
-	freemen={
+	province_rank="city"
+	nobles={
+		culture="babylonian"
 		amount=3
 	}
+	citizen={
+		culture="assyrian"
+		amount=2
+	}
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=13
+	}
 	slaves={
-		culture="hebrew"
-		religion="judaism"
+		culture="sutean"
+		religion="arabian_pantheon"
 		amount=2
 	}
 	slaves={
-		amount=5
+		amount=15
 	}
 	holy_site=omen_ishtar
 }
 
 938={ #Nina
-	terrain="flood_plain"
-	culture="babylonian"
+	terrain="marsh"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="spices"
 	civilization_value=27
@@ -1267,16 +798,16 @@
 	}
 }
 
-939={ #Alexandreia Euphratos
+939={ #Larsa
 	terrain="flood_plain"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
-	trade_goods="earthware" #changed from vegetables
+	trade_goods="earthware"
 	civilization_value=27
 	barbarian_power=0
-	province_rank="city" #Larsa should be a city
+	province_rank="city"
 	citizen={
-		religion="zoroaster"
+		religion="elamite_pantheon"
 		amount=1
 	}
 	citizen={
@@ -1286,11 +817,11 @@
 		amount=3
 	}
 	freemen={
-		religion="zoroaster"
+		religion="elamite_pantheon"
 		amount=1
 	}
 	slaves={
-		religion="zoroaster"
+		religion="elamite_pantheon"
 		amount=1
 	}
 	slaves={
@@ -1298,84 +829,9 @@
 	}
 }
 
-940={ #Antiocheia Sousianes
-	terrain="flood_plain"
-	culture="elamite"
-	religion="mesopotamian_religion"
-	trade_goods="cloth"
-	civilization_value=56
-	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=2
-	}
-	citizen={
-		amount=9
-	}
-	freemen={
-		amount=7
-	}
-	freemen={
-		culture="babylonian"
-		religion="zoroaster"
-		amount=1
-	}
-	freemen={
-		culture="babylonian"
-		religion="mesopotamian_religion"
-		amount=1
-	}
-	slaves={
-		culture="babylonian"
-		religion="zoroaster"
-		amount=2
-	}
-	slaves={
-		amount=9
-	}
-	slaves={
-		culture="babylonian"
-		religion="mesopotamian_religion"
-		amount=2
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		culture="babylonian"
-		religion="mesopotamian_religion"
-		amount=10
-	}
-	port_building=3
-	holy_site=omen_nanshe
-}
-
-941={ #Oratha
-	terrain="flood_plain"
-	culture="babylonian"
-	religion="zoroaster"
-	trade_goods="dates"
-	civilization_value=33
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=4
-	}
-	freemen={
-		amount=4
-	}
-	slaves={
-		amount=5
-	}
-	slaves={
-		culture="elamite"
-		amount=1
-	}
-}
-
-942={ #Apologou Emporion
+942={ #'Aflogh
 	terrain="marsh"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="dates"
 	civilization_value=27
@@ -1393,128 +849,11 @@
 	holy_site=omen_ezra
 }
 
-953={ #Achaiachala
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="leather"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=1
-	}
-}
-
-954={ #Haditha
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="vegetables"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	freemen={
-		culture="assyrian"
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		culture="nabatean"
-		amount=1
-	}
-}
-
-955={ #Gorbatha
-	terrain="plains"
-	culture="assyrian"
-	religion="mesopotamian_religion"
-	trade_goods="grain"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	freemen={
-		religion="zoroaster"
-		amount=1
-	}
-}
-
-956={ #Peloriarcha
-	terrain="desert"
-	culture="assyrian"
-	religion="mesopotamian_religion"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-958={ #Hurhisht
-	terrain="hills"
-	culture="assyrian"
-	religion="zoroaster"
-	trade_goods="leather"
-	civilization_value=19
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-959={ #Siasouron
-	terrain="hills"
-	culture="assyrian"
-	religion="zoroaster"
-	trade_goods="cattle"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-960={ #Theboura
+960={ #Zivlia
 	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
-	trade_goods="fruits"
+	trade_goods="dates"
 	civilization_value=33
 	barbarian_power=0
 	province_rank="settlement"
@@ -1529,7 +868,26 @@
 	}
 }
 
-961={ #Doumatha
+961={ #Adab
+	terrain="flood_plain"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="grain"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+962={ #Khay
 	terrain="flood_plain"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -1548,26 +906,7 @@
 	}
 }
 
-962={ #Saouara
-	terrain="flood_plain"
-	culture="babylonian"
-	religion="mesopotamian_religion"
-	trade_goods="grain"
-	civilization_value=33
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=4
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-963={ #Ikaros
+963={ #Failaka
 	terrain="plains"
 	culture="babylonian"
 	religion="mesopotamian_religion"
@@ -1586,10 +925,10 @@
 	}
 }
 
-964={ #Diridotis
+964={ #Tiridatish
 	terrain="marsh"
-	culture="babylonian"
-	religion="zoroaster"
+	culture="chaldean"
+	religion="mesopotamian_religion"
 	trade_goods="earthware"
 	civilization_value=27
 	barbarian_power=0
@@ -1603,10 +942,10 @@
 	port_building=1
 }
 
-965={ #Apphana
+965={ #Itamos
 	terrain="marsh"
-	culture="babylonian"
-	religion="zoroaster"
+	culture="chaldean"
+	religion="mesopotamian_religion"
 	trade_goods="dates"
 	civilization_value=27
 	barbarian_power=0
@@ -1622,11 +961,11 @@
 	}
 }
 
-968={ #Eridou
-	terrain="desert"
-	culture="babylonian"
+968={ #Iritu
+	terrain="marsh"
+	culture="chaldean"
 	religion="mesopotamian_religion"
-	trade_goods="dates"
+	trade_goods="cattle"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
@@ -1650,76 +989,9 @@
 	holy_site=omen_ea
 }
 
-969={ #Seleukeia Erythraia
-	terrain="marsh"
-	culture="elamite"
-	religion="mesopotamian_religion"
-	trade_goods="dates"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-971={ #Ampe
-	terrain="marsh"
-	culture="babylonian"
-	religion="zoroaster"
-	trade_goods="vegetables"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-973={ #Kissia
+976={ #Savdhah
 	terrain="flood_plain"
-	culture="babylonian"
-	religion="mesopotamian_religion"
-	trade_goods="grain"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=3
-	}
-}
-
-974={ #Kossaia
-	terrain="hills"
-	culture="babylonian"
-	religion="mesopotamian_religion"
-	trade_goods="leather"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=3
-	}
-}
-
-976={ #Sabdata
-	terrain="flood_plain"
-	culture="babylonian"
+	culture="sittacenean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=31
@@ -1733,9 +1005,9 @@
 	}
 }
 
-977={ #Boubia
+977={ #Shathrafan
 	terrain="plains"
-	culture="babylonian"
+	culture="sutean"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=31
@@ -1749,9 +1021,9 @@
 	}
 }
 
-979={ #Charra
+979={ #Mandali
 	terrain="plains"
-	culture="babylonian"
+	culture="sittacenean"
 	religion="mesopotamian_religion"
 	trade_goods="fruits"
 	civilization_value=31
@@ -1780,138 +1052,9 @@
 	}
 }
 
-981={ #Chala
-	terrain="hills"
-	culture="assyrian"
-	religion="mesopotamian_religion"
-	trade_goods="leather"
-	civilization_value=34
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=10
-	}
-	citizen={
-		culture="babylonian"
-		religion="mesopotamian_religion"
-		amount=1
-	}
-	freemen={
-		amount=6
-	}
-	freemen={
-		culture="median"
-		religion="zoroaster"
-		amount=2
-	}
-	slaves={
-		amount=6
-	}
-	slaves={
-		culture="babylonian"
-		religion="mesopotamian_religion"
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-	tribesmen={
-		culture="babylonian"
-		religion="mesopotamian_religion"
-		amount=1
-	}
-}
-
-982={ #Zagros
-	terrain="hills"
-	culture="assyrian"
-	religion="zoroaster"
-	trade_goods="leather"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-983={ #Paikoulis
-	terrain="hills"
-	culture="assyrian"
-	religion="zoroaster"
-	trade_goods="stone"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=3
-	}
-}
-
-1603={ #Zagrou Pylai
-	terrain="mountain"
-	culture="cossian"
-	religion="mesopotamian_religion"
-	trade_goods="stone"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		culture="assyrian"
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-4970={ #Zaranis
-	terrain="mountain"
-	culture="cossian"
-	religion="mesopotamian_religion"
-	trade_goods="marble"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-4971={ #Sabatika
-	terrain="mountain"
-	culture="cossian"
-	religion="mesopotamian_religion"
-	trade_goods="marble"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
 5399={ #Hawmah
 	terrain="desert"
-	culture="babylonian"
+	culture="chaldean"
 	religion="mesopotamian_religion"
 	trade_goods="camel"
 	civilization_value=5
@@ -1922,31 +1065,11 @@
 	}
 }
 
-7566={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-7567={ #Arabia Deserta
-	terrain="desert"
-	culture="babylonian"
+7723={ #Durum
+	terrain="marsh"
+	culture="chaldean"
 	religion="mesopotamian_religion"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-7723={ #Charmande
-	terrain="flood_plain"
-	culture="babylonian"
-	religion="mesopotamian_religion"
-	trade_goods="dates"
+	trade_goods="vegetables"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -1960,5 +1083,681 @@
 		amount=7
 	}
 	holy_site=omen_sin
+}
+
+9297={ #Nagsu
+	terrain="flood_plain"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="spices"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=3
+	}
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="sutean"
+		amount=5
+	}
+	freemen={
+		culture="babylonian"
+		amount=1
+	}
+	slaves={
+		culture="elamite"
+		religion="elamite_pantheon"
+		amount=3
+	}
+	slaves={
+		culture="sutean"
+		amount=6
+	}
+}
+
+9298={ #Lagash
+	terrain="flood_plain"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="spices"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+}
+
+9299={ #Hmara
+	terrain="marsh"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="vegetables"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+9441={ #Dur-Papsukkal
+	terrain="plains"
+	culture="sutean"
+	religion="mesopotamian_religion"
+	trade_goods="leather"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9442={ #Basum
+	terrain="flood_plain"
+	culture="sutean"
+	religion="mesopotamian_religion"
+	trade_goods="wine"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9443={ #Datebir
+	terrain="plains"
+	culture="sutean"
+	religion="mesopotamian_religion"
+	trade_goods="vegetables"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9444={ #Gannanate
+	terrain="plains"
+	culture="sittacenean"
+	religion="mesopotamian_religion"
+	trade_goods="grain"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9445={ #Yadburu
+	terrain="plains"
+	culture="sittacenean"
+	religion="mesopotamian_religion"
+	trade_goods="wine"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9446={ #Sulaya
+	terrain="plains"
+	culture="sittacenean"
+	religion="mesopotamian_religion"
+	trade_goods="dates"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9447={ #Diniktum
+	terrain="plains"
+	culture="sittacenean"
+	religion="mesopotamian_religion"
+	trade_goods="grain"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9448={ #Namlada
+	terrain="plains"
+	culture="sittacenean"
+	religion="mesopotamian_religion"
+	trade_goods="cloth"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9449={ #Handa
+	terrain="plains"
+	culture="sittacenean"
+	religion="mesopotamian_religion"
+	trade_goods="spices"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9452={ #Surru
+	terrain="flood_plain"
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	trade_goods="grain"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9453={ #Pugdan
+	terrain="flood_plain"
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	trade_goods="honey"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9454={ #Mugdan
+	terrain="flood_plain"
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	trade_goods="fruits"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9455={ #Kaida
+	terrain="flood_plain"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="grain"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9456={ #Pakoria
+	terrain="flood_plain"
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	trade_goods="cloth"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9457={ #Qidrina
+	terrain="marsh"
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	trade_goods="dates"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9458={ #Aban
+	terrain="marsh"
+	culture="qedarite"
+	religion="mesopotamian_religion"
+	trade_goods="vegetables"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9459={ #Rhatta
+	terrain="marsh"
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	trade_goods="vegetables"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9460={ #Sinnin
+	terrain="marsh"
+	culture="qedarite"
+	religion="mesopotamian_religion"
+	trade_goods="camel"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9461={ #Uru
+	terrain="marsh"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="base_metals"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	nobles={
+		culture="babylonian"
+		amount=5
+	}
+	citizen={
+		amount=10
+	}
+	freemen={
+		amount=15
+	}
+	slaves={
+		amount=17
+	}
+}
+
+9462={ #Gishbanda
+	terrain="marsh"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="grain"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9463={ #Shahrinu
+	terrain="flood_plain"
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	trade_goods="earthware"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9464={ #Banneshu
+	terrain="flood_plain"
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	trade_goods="cloth"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9465={ #Alu-sha-Arbaya
+	terrain="flood_plain"
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	trade_goods="grain"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9466={ #Puzrish-Dagan
+	terrain="flood_plain"
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	trade_goods="grain"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9467={ #Kissura
+	terrain="flood_plain"
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	trade_goods="grain"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=4
+	}
+	freemen={
+		culture="chaldean"
+		amount=3
+	}
+	slaves={
+		amount=7
+	}
+}
+
+9468={ #Tummal
+	terrain="flood_plain"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="grain"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9469={ #Giramu
+	terrain="flood_plain"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="dates"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9470={ #Musherin
+	terrain="flood_plain"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="grain"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9471={ #Eresh
+	terrain="flood_plain"
+	culture="babylonian"
+	religion="mesopotamian_religion"
+	trade_goods="horses"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9472={ #Mashkan-Shapir
+	terrain="flood_plain"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="cloth"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9473={ #Kesh
+	terrain="flood_plain"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="grain"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9474={ #Larak
+	terrain="flood_plain"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="leather"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		culture="babylonian"
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		culture="babylonian"
+		amount=3
+	}
+	slaves={
+		amount=5
+	}
+	slaves={
+		culture="elamite"
+		religion="elamite_pantheon"
+		amount=3
+	}
+}
+
+9475={ #Agaziza
+	terrain="marsh"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="incense"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9476={ #Umma
+	terrain="flood_plain"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="cloth"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9477={ #Patibira
+	terrain="flood_plain"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="fish"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=4
+	}
+	freemen={
+		culture="sutean"
+		amount=3
+	}
+	slaves={
+		amount=9
+	}
+}
+
+9478={ #Dumatha
+	terrain="plains"
+	culture="sutean"
+	religion="mesopotamian_religion"
+	trade_goods="grain"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9479={ #Apin-Kude
+	terrain="flood_plain"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="vegetables"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9480={ #Dur-Yakin
+	terrain="marsh"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="cattle"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9481={ #Dabitha
+	terrain="marsh"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="horses"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9482={ #Digba
+	terrain="plains"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="grain"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9483={ #Thelme
+	terrain="marsh"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="grain"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9484={ #Nehargur
+	terrain="marsh"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="fish"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+}
+
+9485={ #Cheiriphe
+	terrain="marsh"
+	culture="chaldean"
+	religion="mesopotamian_religion"
+	trade_goods="vegetables"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
 }
 

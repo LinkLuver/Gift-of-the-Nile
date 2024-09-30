@@ -7,13 +7,15 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		culture="aistian"
+		religion="druidism"
+		amount=5
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
@@ -26,7 +28,14 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
+		culture="aistian"
+		religion="druidism"
 		amount=7
+	}
+	freemen={
+		culture="dumarian"
+		religion="druidism"
+		amount=1
 	}
 	freemen={
 		amount=4
@@ -49,6 +58,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="aistian"
+		religion="druidism"
 		amount=2
 	}
 	freemen={
@@ -57,13 +68,17 @@
 		amount=1
 	}
 	freemen={
+		culture="aistian"
+		religion="druidism"
 		amount=1
 	}
 	slaves={
+		culture="aistian"
+		religion="druidism"
 		amount=1
 	}
 	tribesmen={
-		amount=1
+		amount=4
 	}
 }
 
@@ -126,6 +141,11 @@
 	freemen={
 		religion="mithra_religion"
 		amount=4
+	}
+	freemen={
+		culture="dumarian"
+		religion="druidism"
+		amount=1
 	}
 	slaves={
 		amount=4
@@ -397,7 +417,7 @@
 	}
 }
 
-1781={ #Kogoniya
+1781={ #Basgoedariza
 	terrain="hills"
 	culture="cappadocian"
 	religion="anahitic_religion"
@@ -665,6 +685,11 @@
 	slaves={
 		amount=2
 	}
+	freemen={
+		culture="dumarian"
+		religion="druidism"
+		amount=1
+	}
 	tribesmen={
 		culture="cappadocian"
 		religion="zoroaster"
@@ -915,7 +940,7 @@
 1823={ #Diakopa
 	terrain="hills"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="cattle"
 	civilization_value=9
 	barbarian_power=0
@@ -942,7 +967,7 @@
 1824={ #Andrapa
 	terrain="forest"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="hemp"
 	civilization_value=9
 	barbarian_power=0
@@ -969,7 +994,7 @@
 1826={ #Pteria Pontias
 	terrain="forest"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="hemp"
 	civilization_value=9
 	barbarian_power=0
@@ -996,7 +1021,7 @@
 1831={ #Pimolisa
 	terrain="hills"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="wood"
 	civilization_value=9
 	barbarian_power=0
@@ -1080,7 +1105,7 @@
 1837={ #Euchaita
 	terrain="hills"
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="vegetables"
 	civilization_value=9
 	barbarian_power=0
@@ -1223,7 +1248,7 @@
 	}
 }
 
-1844={ #Samuha
+1844={ #Talaura
 	terrain="forest"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1372,7 +1397,7 @@
 	}
 }
 
-1851={ #Kangal
+1851={ #Euspena
 	terrain="forest"
 	culture="lesser_armenian"
 	religion="anatolian_religion"

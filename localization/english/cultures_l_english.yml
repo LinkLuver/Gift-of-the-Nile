@@ -19,12 +19,15 @@
  illyrian_group:0 "Illyrian"
  indian:0 "Dravidian"
  latin:1 "Italic"
+ lydio_phrygian:0 "Lydio-Phrygian"
  meroitic_group:0 "Nubian"
  north_african:2 "Egyptian"
  persia:0 "Iranian"
  pracyan:0 "Pracyan"
  proto_european:1 "Occidental"
- scythia:0 "Sakan"
+ scythia:0 "Scythian"
+ saka_g:0 "Sakan"
+ sarmatian_group:0 "Sarmatian"
  south_levantine:0 "Arabian"
  south_arabian:0 "Yemeni"
  tibetan:0 "Tibetan"
@@ -36,6 +39,35 @@
  pu:0 "Pu"
  elam:0 "Elamite"
  armenian_group:0 "Armenian"
+ adivasi:0 "Adivasi"
+ xiyu:0 "Tocharian"
+ east_semetic:0 "Magani"
+ hurro_urartian:0 "Hurro-Urartian"
+ finnic_group:0 "Finnic"
+ zagrosian:0 "Zagrosian"
+ 
+ #Hurrio-Urartian
+ matienian:0 "Matienian"
+ salaian:0 "Salaian"
+ urtaian:0 "Urartian"
+ phasian:0 "Phasian"
+ palaian:0 "Palaian"
+ alarodian:0 "Alarodian"
+ arzonian:0 "Arzonian"
+ cardukoi:0 "Carduchii"
+ mitanni:0 "Mitanni"
+ hurrian:0 "Hurrian"
+ shubar:0 "Shubar"
+ tukri:0 "Tukri"
+ 
+ #Adivasi
+ bhil:0 "Bhil"
+ gond:0 "Gond"
+ santal:0 "Santal"
+ oraon:0 "Kurukh"
+ khond:0 "Khond"
+ munda:0 "Munda"
+ banjara:0 "Banjara"
 
  #Armenian Group
  armenian:0 "Ayrarat"
@@ -74,8 +106,10 @@
  wusun:0 "Wusun"
  saka:2 "Khotanese"
  yuezhi:0 "Yuezhi"
- tocharian:0 "Tocharian"
  khotanese:0 "Khotanese"
+ #Tocharian
+ tocharian:0 "Tocharian"
+ loulan:0 "Loulan"
  #Gaelic
  manavian:0 "Manavian"
  hibernian:0 "Hibernian"
@@ -168,7 +202,11 @@
  letobician:0 "Letobician"
  celtic_pannonian:1 "Scordiscian"
  eravisci:0 "Eraviscian"
- galatian:0 "Galatian"
+ #Galatian
+ galatian:0 "Katosian"
+ tylian:0 "Tylian"
+ dumarian:0 "Dumarian"
+ aistian:0 "Aistian"
  #Germanic
  saxonian:0 "Saxonian"
  anglian:0 "Anglian"
@@ -196,6 +234,7 @@
  italiotian:0 "Italiotian"
  thracian:2 "Propontic"
  cretan:0 "Cretan"
+ eteocretan:0 "Eteocretan"
  achaean:0 "Achaean"
  argolian:0 "Argolian"
  arcadian:0 "Arcadian"
@@ -217,7 +256,9 @@
  syracusan:0 "Siceliote"
  cyrenaican:0 "Cyrenaican"
  massalian:0 "Massalian"
+ enetoian:0 "Enetoian"
  hellenistic:0 "Hellenic"
+ atlosian:0 "Atlosian"
  #Iberian
  oretanian:0 "Oretanian"
  contestanian:0 "Contestanian"
@@ -259,6 +300,14 @@
  pandyan:0 "Pandyan"
  andhran:0 "Andhran"
  assaka:0 "Assakan"
+ trigartan:0 "Trigartan"
+ shivi:0 "Shivi"
+ salwan:0 "Salwan"
+
+ brahui:0 "Malaian"
+ harrapan:0 "Harrapan"
+ logali:0 "Logali"
+ indus:0 "Meluhhan"
  #Proto-European
  nuragic:0 "Nuragic"
  corsian:0 "Corsian"
@@ -276,13 +325,18 @@
  vrji:0 "Vrji"
  malla:0 "Mallan"
  himalayan:0 "Nepali"
+ licchavi:0 "Licchavi"
  #Latin
- roman:0 "Roman"
- osco_umbrian:0 "Osco-Umbrian"
+ roman:0 "Latin"
+ osco_umbrian:0 "Oscan"
  messapic:0 "Messapian"
+ faliscan:0 "Faliscan"
+ rutulian:0 "Rutulian"
  venetic:0 "Venetic"
  ligurian:0 "Ligurian"
  etruscan:0 "Etruscan"
+ faliscan:0 "Faliscan"
+ rutulian:0 "Rutulian"
  rhaetian:0 "Rhaetian"
  umbrian:0 "Umbrian"
  samnite:0 "Sabellian"
@@ -296,7 +350,11 @@
  budinian:0 "Budinian"
  chernolian:0 "Borysthenian"
  melanchlaenian:0 "Melanchlaenian"
+ #Finnic Group
  androphagian:0 "Androphagian"
+ fennic:0 "Fennic"
+ volgaic:0 "Volgaic"
+ mordvin:0 "Mordvin"
  #North African
  egyptian:1 "Memphite"
  upper_egyptian:0 "Wasetic"
@@ -312,6 +370,7 @@
  tenuwan_egyptian:0 "Tenuwan"
  mafkatian_egyptian:0 "Mafkatian"
  retenuan:0 "Retenuan"
+ aegyptos:0 "Aegyptos"
 
  #Aksumite
  blemmyan:0 "Beja"
@@ -350,12 +409,14 @@
  capariensian:0 "Capariensian"
  abannaean:0 "Abannaean"
  cetianian:0 "Cetianian"
- #Persian
+ #Elamite
  elamite:0 "Susian"
  utian:0 "Utian"
+ anshanite:0 "Anshanite"
+ uxian:0 "Uxian"
+ #Persian
  pasargadi:0 "Persian"
  sagartian:0 "Agartian"
- uxian:0 "Anshanite"
  amardian:0 "Amardian"
  sarangian:0 "Sarangian"
  pactyan:0 "Pactyan"
@@ -368,6 +429,11 @@
  gedrosian:0 "Gedrosian"
  hyrcanian:0 "Hyrcanian"
  sattagydian:0 "Sattagydian"
+ gutian:0 "Gutian"
+ cyrtian:0 "Cyrtian"
+ daylamite:0 "Daylamite"
+ parsa:0 "Parsi"
+ ariyan:0 "Ariyan"
  #Anatolian
  cappadocian:0 "Cappadocian"
  carian:0 "Carian"
@@ -389,12 +455,16 @@
  mysian:0 "Mysian"
  lydian:0 "Lydian"
  pamphylian:0 "Pamphylian"
- hittite:0 "Hittite"
  #Caucasian
  albanian:0 "Albanian"
+ caspian:0 "Caspian"
  ibero:0 "Iberic"
  colchian:0 "Colchian"
  legian:0 "Legian"
+ abasgoi:0 "Abasgian"
+ lazi:0 "Laz"
+ sasperian:0 "Sasperian"
+ suani:0 "Suanian"
  #Scythian east
  scythian:0 "Scythian"
  sarmatian:0 "Sarmatian"
@@ -410,27 +480,38 @@
  sakan:0 "Sakan"
  #West Levantine
  carthaginian:1 "Punic"
+ ibero_punic:0 "Spanian"
  phoenician:0 "Phoenician"
  nabatean:0 "Nabatean"
- hebrew:0 "Hebrew"
+ hebrew:0 "Israelite"
+ edomite:0 "Edomite"
+ ammonite:0 "Lotite"
  hyksos:0 "Hyksos"
  alashiyan:0 "Alashiyan"
  syrion:0 "Syrion"
  #East Levantine
  aramaic:0 "Aramaic"
  syriac:0 "Syriac"
- cardukoi:0 "Cardukoi"
+ hittite:0 "Hittite"
  #Mesopotamian
  assyrian:0 "Assyrian"
  babylonian:0 "Babylonian"
+ sutean:0 "Sutean"
+ chaldean:0 "Chaldean"
+ sittacenean:0 "Sittacenean"
+ qardu:0 "Qardu"
+ lullu:0 "Lullu"
+ #East Semetic
+ yamama:0 "Yamama"
+ gerrhan:0 "Gerrhan"
  dilmunite:0 "Dilmunite"
+ makan:0 "Makan"
  #South Levantine
  hadhrami:0 "Hadhrami"
  qatabanian:0 "Qatabanian"
  sheban:0 "Sabaean"
  minaean:0 "Minaean"
  himjar:0 "Himyaritic"
- makan:0 "Makan"
  taif:0 "Ta'ific"
  thamudi:0 "Thamudic"
  qedarite:0 "Qedarite"
@@ -439,6 +520,12 @@
  sumpa:0 "Sumpa"
  yarlung:0 "Yarlung"
  tsang:0 "Tsang"
+ #Zagrosian
+ lurs:0 "Lurs"
+ kurdish:0 "Kurdish"
+ lullutukri:0 "Lullutukri"
+ subari:0 "Shubri"
+ karduki:0 "Karduki"
  #New Fezzani
  nasamonian:0 "Nasamonian"
  macaean:0 "Macaean"
@@ -476,6 +563,14 @@
  alani:0 "Alani"
  jurcan:0 "Jurcan"
  #Naming
+ adivasi_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ adivasi_femalename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ hurro_urartian_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ hurro_urartian_femalename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ indus_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ indus_femalename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ lydio_phrygian_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ lydio_phrygian_femalename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  aksumite_group_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  aksumite_group_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  anatolian_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
@@ -554,6 +649,12 @@
  mesopotamian_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  armenian_group_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  armenian_group_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ finnic_group_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ finnic_group_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ xiyu_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ xiyu_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ zagrosian_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ zagrosian_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
 
 
 
@@ -581,7 +682,44 @@
  COHORT_NAME_pu:1 "$COHORT_NAME_magadhi$"
  LEGION_NAME_pu:0 "$LEGION_NAME_magadhi$"
 
- # Mesopotamian
+ #Mesopotamian
  ARMY_NAME_mesopotamian:0 "$NUM$$ORDER$ Army"
- COHORT_NAME_mesopotamian:0 "$COHORT_NAME_east_levantine$"
  NAVY_NAME_mesopotamian:0 "$NUM$$ORDER$ Navy"
+ COHORT_NAME_mesopotamian:0 "$COHORT_NAME_east_levantine$"
+ LEGION_NAME_mesopotamian:0 "$LEGION_NAME_east_levantine$"
+
+ #Lydio-Phrygian
+ ARMY_NAME_lydio_phrygian:0 "$NUM$$ORDER$ Army"
+ NAVY_NAME_lydio_phrygian:0 "$NUM$$ORDER$ Navy"
+ COHORT_NAME_lydio_phrygian:1 "$COHORT_NAME_anatolian$"
+ LEGION_NAME_lydio_phrygian:0 "$LEGION_NAME_anatolian$"
+
+ #Meluhhan
+ ARMY_NAME_indus:0 "$NUM$$ORDER$ Army"
+ NAVY_NAME_indus:0 "$NUM$$ORDER$ Navy"
+ COHORT_NAME_indus:0 "$COHORT_NAME_magadhi$"
+ LEGION_NAME_indus:0 "$LEGION_NAME_magadhi$"
+
+ #Adivasi
+ ARMY_NAME_adivasi:0 "$NUM$$ORDER$ Army"
+ NAVY_NAME_adivasi:0 "$NUM$$ORDER$ Navy"
+ COHORT_NAME_adivasi:0 "$COHORT_NAME_magadhi$"
+ LEGION_NAME_adivasi:0 "$LEGION_NAME_magadhi$"
+
+ #Finnic
+ ARMY_NAME_finnic_group:0 "$NUM$$ORDER$ Army"
+ NAVY_NAME_finnic_group:0 "$NUM$$ORDER$ Navy"
+ COHORT_NAME_finnic_group:1 "$COHORT_NAME_baltic$"
+ LEGION_NAME_finnic_groupt:0 "$LEGION_NAME_baltic$"
+
+ #Tocharian
+ ARMY_NAME_xiyu:0 "$NUM$$ORDER$ Army"
+ NAVY_NAME_xiyu:0 "$NUM$$ORDER$ Navy"
+ COHORT_NAME_xiyu:0 "$COHORT_NAME_persia$"
+ LEGION_NAME_xiyu:0 "$LEGION_NAME_persia$"
+
+ #Zagrosian
+ ARMY_NAME_zagrosian:0 "$NUM$$ORDER$ Army"
+ NAVY_NAME_zagrosian:0 "$NUM$$ORDER$ Navy"
+ COHORT_NAME_zagrosian:0 "$COHORT_NAME_persia$"
+ LEGION_NAME_zagrosian:0 "$LEGION_NAME_persia$"

@@ -1,0 +1,85 @@
+﻿wassukani_resurges = {
+	build_cost = -0.1
+	build_time = -0.1
+	global_population_growth = 0.25
+}
+admin_reforms_mitanni = {
+	monthly_political_influence = -0.05
+	global_population_happiness = -0.05
+}
+vengence_continues = {
+	global_pop_assimilation_speed = 0.1
+	happiness_for_wrong_culture_modifier = -0.05
+}
+assyria_forgiven = {
+	happiness_for_wrong_culture_modifier = 0.1
+	global_pop_assimilation_speed = -0.1
+}
+military_reforms_mitanni = {
+	discipline = -0.05
+	land_morale_modifier = -0.05
+	army_maintenance_cost = 0.1
+	naval_morale = -0.05
+}
+neo_mitanni_army = {
+	land_morale_modifier = 0.05
+	discipline = 0.05
+}
+neo_mitanni_navy = {
+	naval_range = 0.25
+	naval_morale_modifier = 0.05
+	navy_maintenance_cost = -0.05
+	navy_movement_speed = 0.05
+}
+neo_bronze_age_military = {
+	chariots_cost = -0.15
+	chariots_discipline = 0.15
+	chariots_morale = 0.15
+	chariots_movement_speed = 0.15
+}
+neo_mitanni_diplomacy = {
+	diplomatic_reputation = 2
+	diplomatic_relations = 1
+	change_diplomatic_stance_cost_modifier = -0.1
+	monthly_political_influence_modifier = 0.1
+}
+ugarit_trade_hub = {
+	global_commerce_modifier = 0.08
+	global_capital_trade_routes = 2
+}
+rapid_centralization = {
+	monthly_centralization = 0.1
+}
+
+# GOTN
+teshubic_resurgence = { # 5 years
+	global_pop_conversion_speed_modifier = 0.25
+	happiness_for_same_religion_modifier = 0.10
+	omen_power = 0.15
+}
+might_of_hurrian_religion = { # Permanent
+	global_pop_conversion_speed_modifier = 0.10
+	happiness_for_same_religion_modifier = 0.05
+	omen_power = 0.075
+}
+military_reforms_maryannu = { # Till End of Task
+	monthly_political_influence_modifier = -0.25
+	land_morale_modifier = -0.25
+}
+hurri_maryannu_chariots = {
+	chariots_cost = -0.10
+	chariots_morale = 0.10
+	chariots_discipline = 0.10
+}
+hurri_maryannu_heavy_cav = {
+	heavy_cavalry_cost = 0.05
+	heavy_cavalry_morale = 0.05
+	heavy_cavalry_discipline = 0.05
+}
+inexperienced_soldiery = {
+	discipline = -0.075
+}
+urartu_archers = {
+	archers_discipline = 0.075
+	archers_morale = 0.05
+}

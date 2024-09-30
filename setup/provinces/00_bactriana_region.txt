@@ -14,31 +14,54 @@
 	}
 }
 
-6609={ #Orthospana
-	terrain="mountain"
-	culture="sattagydian"
-	religion="zoroaster"
-	trade_goods="vegetables"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-6611={ #Alexandreia Kaukasou
+6611={ #Alexandria ad Caucasum
 	terrain="mountain"
 	culture="sattagydian"
 	religion="buddhism"
 	trade_goods="lapis"
 	civilization_value=42
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6614={ #Cartana
+	terrain="plains"
+	culture="sattagydian"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+	holy_site=omen_bamyan
+}
+
+6625={ #Kapissa
+	terrain="mountain"
+	culture="sattagydian"
+	religion="zoroaster"
+	trade_goods="precious_metals"
+	civilization_value=27
 	barbarian_power=0
 	province_rank="city"
 	citizen={
@@ -76,166 +99,6 @@
 	tribesmen={
 		culture="sattagydian"
 		religion="hindu"
-		amount=1
-	}
-}
-
-6612={ #Nikaia Indike
-	terrain="mountain"
-	culture="sattagydian"
-	religion="zoroaster"
-	trade_goods="stone"
-	civilization_value=32
-	barbarian_power=0
-	province_rank="city"
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=17
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-6613={ #Andaca
-	terrain="mountain"
-	culture="sattagydian"
-	religion="zoroaster"
-	trade_goods="vegetables"
-	civilization_value=7
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-6614={ #Kartane
-	terrain="plains"
-	culture="sattagydian"
-	religion="zoroaster"
-	trade_goods="cattle"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-	holy_site=omen_bamyan
-}
-
-6615={ #Alexandreia Opiane
-	terrain="hills"
-	culture="sattagydian"
-	religion="hindu"
-	trade_goods="leather"
-	civilization_value=44
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=8
-	}
-	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		culture="sattagydian"
-		religion="vaksh_religion"
-		amount=2
-	}
-	tribesmen={
-		culture="sattagydian"
-		religion="hindu"
-		amount=1
-	}
-}
-
-6621={ #Sangar
-	terrain="mountain"
-	culture="sattagydian"
-	religion="zoroaster"
-	trade_goods="precious_metals"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-6623={ #Tazora
-	terrain="hills"
-	culture="pactyan"
-	religion="zoroaster"
-	trade_goods="spices"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=5
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-6624={ #Liman
-	terrain="hills"
-	culture="pactyan"
-	religion="zoroaster"
-	trade_goods="cattle"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-6625={ #Kapissa
-	terrain="mountain"
-	culture="sattagydian"
-	religion="zoroaster"
-	trade_goods="precious_metals"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
 		amount=1
 	}
 }
@@ -281,7 +144,7 @@
 	}
 }
 
-6628={ #Nysa Paropamisidaia
+6628={ #Nysa Paropamisadarum
 	terrain="mountain"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -297,7 +160,7 @@
 	}
 }
 
-6629={ #Kourianda
+6629={ #Curianda
 	terrain="mountain"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -319,7 +182,7 @@
 	}
 }
 
-6630={ #Zauiaspa
+6630={ #Zaviaspa
 	terrain="mountain"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -458,7 +321,7 @@
 	}
 }
 
-6637={ #Alexandreia Baktriane
+6637={ #Cheshme Shafa
 	terrain="hills"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -480,7 +343,7 @@
 	}
 }
 
-6638={ #Paros Paropamisidaia
+6638={ #Paros Paropamisadorum
 	terrain="mountain"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -493,60 +356,6 @@
 	}
 	tribesmen={
 		amount=2
-	}
-}
-
-6639={ #Rhana
-	terrain="mountain"
-	culture="sattagydian"
-	religion="zoroaster"
-	trade_goods="stone"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-6640={ #Alkon
-	terrain="mountain"
-	culture="sattagydian"
-	religion="zoroaster"
-	trade_goods="silk"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-6641={ #Naulibis
-	terrain="mountain"
-	culture="sattagydian"
-	religion="zoroaster"
-	trade_goods="glass"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=4
-	}
-	tribesmen={
-		amount=1
 	}
 }
 
@@ -604,20 +413,7 @@
 	}
 }
 
-6645={ #Tamazan
-	terrain="mountain"
-	culture="sattagydian"
-	religion="zoroaster"
-	trade_goods="stone"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=3
-	}
-}
-
-6648={ #Drapsaka
+6648={ #Varvarliz
 	terrain="hills"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -679,7 +475,7 @@
 	}
 }
 
-6650={ #Kabolitis
+6650={ #Cabolita
 	terrain="mountain"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -699,7 +495,7 @@
 	}
 }
 
-6651={ #Choatina
+6651={ #Kalak
 	terrain="mountain"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -728,7 +524,7 @@
 	}
 }
 
-6652={ #Komeia
+6652={ #Comia
 	terrain="steppes"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -749,7 +545,7 @@
 	}
 }
 
-6653={ #Komiana
+6653={ #Comiana
 	terrain="steppes"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -766,7 +562,7 @@
 	}
 }
 
-6654={ #Indikomordana
+6654={ #Tarmita
 	terrain="plains"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -803,7 +599,7 @@
 	}
 }
 
-6655={ #Marakodra
+6655={ #Kumsar
 	terrain="plains"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -860,7 +656,7 @@
 	}
 }
 
-6667={ #Syrrheusa Margiana
+6667={ #Confluenta Margiana
 	terrain="steppes"
 	culture="margian"
 	religion="vaksh_religion"
@@ -883,7 +679,7 @@
 	}
 }
 
-6668={ #Alexandreia Margiana
+6668={ #Marv
 	terrain="plains"
 	culture="margian"
 	religion="vaksh_religion"
@@ -914,7 +710,7 @@
 	}
 }
 
-6669={ #Tapouria
+6669={ #Tapuria
 	terrain="steppes"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -969,7 +765,7 @@
 	}
 }
 
-6672={ #Rhoitia
+6672={ #Garuli
 	terrain="plains"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -1043,7 +839,7 @@
 	}
 }
 
-6674={ #Menapila
+6674={ #Emshi
 	terrain="steppes"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -1077,7 +873,7 @@
 	terrain="desert"
 	culture="bactrian"
 	religion="vaksh_religion"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
@@ -1155,7 +951,7 @@
 	}
 }
 
-6678={ #Baktra
+6678={ #Bakhtri
 	terrain="hills"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -1209,7 +1005,7 @@
 	holy_site=omen_trapusa_and_bahalika
 }
 
-6679={ #Kaouaris
+6679={ #Rustam
 	terrain="hills"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -1241,7 +1037,7 @@
 	}
 }
 
-6680={ #Tochara
+6680={ #Qush
 	terrain="hills"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -1266,7 +1062,7 @@
 	}
 }
 
-6681={ #Tachora
+6681={ #Qurgan
 	terrain="hills"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -1315,7 +1111,7 @@
 	}
 }
 
-6685={ #Argadina
+6685={ #Alan
 	terrain="steppes"
 	culture="bactrian"
 	religion="mithra_religion"
@@ -1345,7 +1141,7 @@
 	}
 }
 
-6686={ #Alexandreia Tarmite
+6686={ #Tirmiz
 	terrain="farmland"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -1380,10 +1176,9 @@
 	tribesmen={
 		amount=3
 	}
-	holy_site=omen_vakhsh
 }
 
-6688={ #Alexandreia Oxou
+6688={ #Mazar
 	terrain="plains"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -1428,7 +1223,7 @@
 	}
 }
 
-6689={ #Pandokheion
+6689={ #Khatta
 	terrain="mountain"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -1444,7 +1239,7 @@
 	}
 }
 
-6690={ #Antiocheia Tarmita
+6690={ #Sangin
 	terrain="plains"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -1497,7 +1292,7 @@
 	}
 }
 
-6692={ #Aoronos
+6692={ #Kum
 	terrain="hills"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -1525,7 +1320,7 @@
 	}
 }
 
-6693={ #Astakana
+6693={ #Tamali
 	terrain="mountain"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -1551,7 +1346,7 @@
 	}
 }
 
-6694={ #Alexandreia Ochou
+6694={ #Oskobara
 	terrain="farmland"
 	culture="bactrian"
 	religion="vaksh_religion"
@@ -1589,9 +1384,10 @@
 	tribesmen={
 		amount=2
 	}
+	holy_site=omen_vakhsh
 }
 
-6695={ #Cholbisina
+6695={ #Samti
 	terrain="hills"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -1622,7 +1418,7 @@
 	}
 }
 
-6696={ #Boubakene
+6696={ #Kokul
 	terrain="hills"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -1653,7 +1449,7 @@
 	}
 }
 
-6697={ #Margineia
+6697={ #Kafr
 	terrain="hills"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -1697,7 +1493,7 @@
 	}
 }
 
-6723={ #Gouriane
+6723={ #Dushak
 	terrain="plains"
 	culture="margian"
 	religion="vaksh_religion"
@@ -1751,7 +1547,7 @@
 	}
 }
 
-6759={ #Oskobara
+6759={ #Shur
 	terrain="farmland"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -1798,7 +1594,7 @@
 	}
 }
 
-7226={ #Sirake
+7226={ #Kaahka
 	terrain="plains"
 	culture="margian"
 	religion="vaksh_religion"
@@ -1815,7 +1611,7 @@
 	}
 }
 
-7227={ #Zamm
+7227={ #Kerki
 	terrain="steppes"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -1832,7 +1628,7 @@
 	}
 }
 
-7228={ #Ebousmou Anassa
+7228={ #Dilbarjin
 	terrain="steppes"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -1849,7 +1645,7 @@
 	}
 }
 
-7229={ #Kariatas
+7229={ #Shordepe
 	terrain="steppes"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -1866,7 +1662,7 @@
 	}
 }
 
-7230={ #Sourogana
+7230={ #Kerkichi
 	terrain="steppes"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -1879,7 +1675,7 @@
 	}
 }
 
-7232={ #Tarmantis
+7232={ #Tillya
 	terrain="hills"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -1892,7 +1688,7 @@
 	}
 }
 
-7233={ #Bazaria
+7233={ #Challa
 	terrain="hills"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -1905,7 +1701,7 @@
 	}
 }
 
-7234={ #Bazistris
+7234={ #Dabil
 	terrain="steppes"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -1922,7 +1718,7 @@
 	}
 }
 
-7235={ #Choana Baktriane
+7235={ #Deshikli
 	terrain="steppes"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -1959,7 +1755,7 @@
 	terrain="steppes"
 	culture="sogdian"
 	religion="vaksh_religion"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=21
 	barbarian_power=0
 	province_rank="settlement"
@@ -1971,7 +1767,7 @@
 	}
 }
 
-7239={ #Phratroua
+7239={ #Farab
 	terrain="steppes"
 	culture="sogdian"
 	religion="vaksh_religion"

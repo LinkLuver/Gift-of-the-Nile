@@ -3,21 +3,26 @@
     icon = "cde_kushite"
 
     repeatable = no
-    chance = 1000
+    chance = {
+        factor = 100
+    }
 
     potential = {
-        NOT = { has_variable = mission_cooldown_var }
+        NOT = { has_variable = waset_missions_cooldown_var }
         tag = EGY
     }
 
-    abort = {}
+    abort = {
+        ai_mission_back_out_trigger = yes   
+    }
     on_start = {
         start_mission_ai_effect = yes
+        save_scope_as = mission_country
     }
     on_abort = {
         custom_tooltip = general_mission_cooldown_tt
         set_variable = {
-            name = mission_cooldown_var
+            name = waset_missions_cooldown_var
             days = 7300
         }
     }
@@ -947,5 +952,6 @@
                 add_5_free_province_investments = yes
             }
         }
+        final = yes
     }
 }

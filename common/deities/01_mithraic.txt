@@ -47,13 +47,12 @@ deity_cyrus = { # WAR
 	trigger = {
 		OR = {
 			rare_deity_trigger = {
-				RELIGION = mithra_religion
+				RELIGION = zoroaster
 			}
 			tag = HCP
 			deity:omen_cyrus = {
 				holy_site_deity_check_trigger = yes
 			}
-			religion = judaism
 		}
 	}
 	icon = deity_war
@@ -62,7 +61,7 @@ deity_cyrus = { # WAR
 	on_activate = {
 		military_apotheosis_military_experience_effect = yes
 	}
-	religion = mithra_religion
+	religion = zoroaster
 	deity_category = war #This Deity uses a War Slot
 
 	deification_trigger = {
@@ -150,6 +149,7 @@ deity_shoithrapati = { # FERTILITY
 
 deity_thraetona = { # WAR
 	trigger = {
+		NOT = { tag = PES }
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			rare_deity_trigger = {

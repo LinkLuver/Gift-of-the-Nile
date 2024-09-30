@@ -3,23 +3,23 @@
 
  ## Levantine Formables ##
  # Aramaic Kingdom
- form_aramaic_kingdom:0 "Establish Aramaic Kingdom"
- form_aramaic_kingdom_desc:0 "From the great cities of #E Darmashq#!, #E Qarqar#!, #E Halba#!, #E Tadhmor#!, and #E 'Adhma#!, to name a few of our fabulous cities, the many #Y Aramaic#! peoples have come together as one! We have been dominated by the #Y Assyrians#! for far too long, and played second fiddle to the #Y Neo-Hittites#! and #Y Phoenecians#! who surround us. Now, we take the center stage, long live the #E Aramaic Kingdom#!!"
+ form_aramaic_kingdom:0 "Kingship over the Arameans"
+ form_aramaic_kingdom_desc:0 "From the great cities of #E Darmashq#!, #E Qarqar#!, #E Halba#!, #E Tadhmor#!, and #E 'Adhma#!, to name a few of our fabulous cities, the many #Y Aramaic#! peoples have come together as one! We have been dominated by the #Y Assyrians#! for far too long, and played second fiddle to the #Y Neo-Hittites#! and #Y Phoenicians#! who surround us. Now, we take the center stage, long live the #E Kingdom of the Arameans#!!"
  ARAM_NAME:0 "Aram"
- ARAM2_NAME:0 "Aramaic Kingdom"
+ ARAM2_NAME:0 "Kingdom of the Arameans"
  ARAM_ADJECTIVE:0 "Aramaic"
  form_aramaic_claims_tooltip:0 "Gain claims on the regions of #Y Syria#! and #Y Canaan#!."
  # Aram
  form_aram:0 "Claim Aram"
- form_aram_desc:0 "The state of #E Darmeshq#!, also called #E Aram#!, has fallen. We are able to claim their legacy as the true #Y Aramaic#! people and call ourselves as #E Aram#!."
+ form_aram_desc:0 "With the fall of the kingdom of #E Darmeshq#!, also called #E Aram#!, a power vaccum has ensued. We are now in a position to claim leadership of the #Y Aramaic#! people and take on the mantle of #E Aram#!."
  formable_not_aram_exists:0 "#Y Aram#! does not exist."
  # Palestine
  form_palestine:0 "Proclaim Kingdom of Philistine"
  form_palestine_desc:0 "We are called many things. The #Y Egyptians#! call us as the new #Y Hyksos#!. The #Y Greeks#! call us as the new #Y Philistines#!. Whatever we may be called, we have chosen to establish ourselves a new kingdom, the #E Kingom of Philistine#!. We have chosen the #Y Greek#! name for ourselves to distance ourselves from the #E Pharaohs#! in #E Egypt#! as we forge our own new destiny in the #E Levant#!.\n\n#R We will lose our #E Nomarchy#! government form.#!"
- PHOENECIAN_NAME_2:0 "Philistine"
+ PHOENECIAN_NAME_2:0 "Form Philistine"
  PHOENICIA_ADJECTIVE_2:0 "Philistinians"
  # Israel
- ISRAEL_FORMABLE_NAME_2:0 "Kena'an"
+ ISRAEL_FORMABLE_NAME_2:0 "Form Kena'an"
  ISRAEL_FORMABLE_ADJECTIVE_2:0 "Hebrew"
  
  ## Mesopotamian Formables ##
@@ -27,6 +27,98 @@
  form_babylon:0 "Chaldean Empire"
  form_babylon_desc:0 "#E Babylon#! was once the home to the greatest of powers. For a long time, we suffered under the foot of the #Y Neo-Assyrians#!, until we gloriously broke free. Now we have come to dominate the lands we once struggled with under the Neo-Assyrians. The dawn of #Y Neo-Babylon#! has come, otherwise called the #Y Chaldean Empire#!."
  BABYLON_NAME_true:0 "Chaldean Empire"
+ NINIVE_NAME:0 "Ninive"
+ NINIVE_ADJECTIVE:0 "Ninivean"
+ form_ninive: "Reform the Kingdom of Ninive"
+ form_ninive_desc: "The #Y Qardu#! once ruled #Y Nineveh#!. We must reconqer our city from the #Y Assyrians#!, and reclaim what is our right!"
+ SUBARTU_NAME: "Subartu"
+ SUBARTU_ADJECTIVE:0 "Subari"
+ form_subartu_claims_tooltip:0 "We will gain claims on the regions of #Y Assyria#!, #Y Naharin#! #Y Zagros#! and #Y Mesopotamia#!."
+ subartu_mod:0 "Subartu Reborn"
+ form_subartu: "Reform the Kingdom of Subartu"
+ form_subartu_desc: "Our people once ruled the land between the rivers #Y Tigris#! and #Y Euphrates#!, and at the foothills of the #Y Zagros#!. We are an ancient people, and we do not forget our past wrongs. We must enact our revenge, reclaim our lands, and smite those who had reduced us to a petty tribe dwelling in the mountains. #Y Subartu#! is reborn!"
+ NHITTITE_NAME: "Hittite Kingdom"
+ NHITTITE_ADJECTIVE:0 "Hittites"
+ form_hittite_claims_tooltip:0 "We will gain claims on the provinces of #Y Cicilia Pedias#!, #Y Syria#!, #Y Apamene#!, and #Y Cyrrhestica#!"
+ hittite_mod:0 "Hittite Royal Chariots"
+ form_hittite_kingdom: "Unite the Hittites"
+ form_hittite_kingdom_desc: "Our ancestors once ruled over a mighty realm in Anatolia. Although the days of the Hittite Empire are long gone, we, the Hittite people still remain. Let us unite, and forge a new path."
+ 
+ # Urartu
+ URARTU_NAME: "Urartu"
+ URARTU_ADJECTIVE: "Urartian"
+ form_urartu_claims_tooltip:0 "We will gain claims on the regions of #Y Naharin#!, #Y Assyria#!, #Y Zagros#!, #Y Armenia#!, and #Y Syria#!"
+ urartu_mod:0 "Legacy of Urartu"
+ form_urartu: "Restore Sardurid Legacy"
+ form_urartu_desc: "Our dynasty, the last of the #Y Sardurids#!, is the only nation that can truly claim the mantle of the #Y Urartian Kingdom#!. By controlling the lands of what once belonged to #Y Urartu#!, at last we can avenge our ancestors. May #Y Khaldi#! once again lead #Y Urartu#! to prosperity!"
+ gotn_formable_event_3_title:0 "Return of Urartu Identity"
+ gotn_formable_event_3_desc:0 "With the legacy of the #E Sardurids#! renewed, we can choose to reinstate the #E Urartu#! national identity. The #E Urartu#! were a noble social class, thus, reasserting that we are #E Urartu#! will cause many to identify with this class. Otherwise, we can continue our ways as #E Urartu#! descended royals ruling over a core of #E Sophene#! people. The choice is ours to make."
+ gotn_formable_event_3.a:0 "The #Y Urartu#! identity is reinstated!"
+ gotn_formable_event_3.b:0 "Our kings, #Y Urartu#!; our people #Y Sophene#!."
+ urartu_assimilation_effect_tt:0 "Up to #Y 10%#! of our non-#E Sophene#! pops will be #E assimilated#! into #E Urartu#! culture."
+ 
+ ## Italy Formables
+ # Shikala
+ SHIKALA_NAME:0 "Shikala"
+ SHIKALA_ADJECTIVE:0 "Shekelesh"
+ form_shikala:0 "Form Shikala"
+ form_shikala_desc:0 "With power consolodated across the island of #Y Shikala#!, the ancient home of the #Y Shekelesh#! has been claimed by the kin of the #Y Nile#!. We shall usher in a new era for this island, a rare piece of #Y Kemet#! away from #Y Kemet#!."
+
+ ## Iberia Formables
+ IBERIA_NAME2:0 "Spania"
+ IBERIA_ADJECTIVE2:0 "Spanian"
+ form_spania:0 "Form Spania"
+ form_spania_desc:0 "The #Y Ibero-Punic#! people of #Y Iberia#! call this land #Y Spania#!, and henceforth all shall know it as the great land of the #Y Spanians#!! From humble origins being the furthest of #Y Phoenecian#! coloniae, we now proclaim ourselves a proper powerhouse of this land, on the exact opposite side to that of our forefathers."
+ LEAGUE_NAME:0 "League of The Pillars"
+ LEAGUE_NAME:0 "Pillarian"
+ form_league:0 "Form the League of The Pillars"
+ form_league_desc:0 "The wealthy cities centered around the #Y 'Pillars of Hercules'#! could become rich beyond comparison, if they can be united. These cities could surely surpass the grandeur of the great cities of the East."
+ 
+
+ ## Greek Formables
+ formable_eteocrete:0 "Minoa"
+ GPAEONIA_NAME:0 "Greater Paeonia"
+ GPAEONIA_ADJECTIVE:0 "Paeonian"
+ form_greater_paeonia_claims_tooltip:0 "We will recieve claims on the regions of #Y Macedon#! and #Y Thrace#!"
+ paeonia_mod:0 "Greater Paeonia Realized"
+ form_greater_paeonia: "Reclaim our Ancestral Lands"
+ form_greater_paeonia_desc: "In our tribal halls, Stories are still told of times when our people roamed from the mountains Macedon, to the abundant plains and forests of Thrace, and when we walked along the Propontis, and touched the sea. Such idyllic times seem like a dream, but our people are not one to give up so easily. By will alone, we could recreate our lost realm, and walk on the fields of Thrace once again."
+
+ ## Africa Formables
+ ATLAS_NAME:0 "Atlas"
+ ATLAS_ADJECTIVE:0 "Atlosian"
+ form_atlas:0 "Form Atlas"
+ form_atlas_desc:0 "The namesake of our mighty people, the #Y Atlas Mountains#!, has fallen under our glorious rule. All shall crumble under the power of #Y Atlas#!!"
+ TETRAPOLITANIA_NAME:0 "Tetrapolitania"
+ TETRAPOLITANIA_ADJECTIVE:0 "Tetrapolitanian"
+ form_tetrapolitania:0 "Unite the Four Cities"
+ form_tetrapolitania_desc:0 "The four cities of #Y Tetrapolitania#! can only become great by unification!"
+
+ ## Zagros Formables
+ KASSITE_NAME:0 "Neo-Kassite Kingdom"
+ KASSITE_ADJECTIVE:0 "Kassite"
+ form_kassite:0 "Restore Kassite Babylon"
+ form_kassite_desc:0 "The once great #Y Kassite#! realm dominated #Y Mesopotamia#!. Unfortuantely, our ancestors fell during the #Y Bronze Age Collapse#!, pushed into the mountains, and for a thousand years #Y Mesopotamia#! has not been ours. Now, we have come back to our rightful thrones. Once more, the #Y Four Corners of the Universe#! will belong to US!"
+ formable_not_kassite_exists:0 "The #Y Kassite Kingdom#! does not exist."
+
+ LULLUBI_NAME:0 "Lullubi Kingdom"
+ LULLUBI_ADJECTIVE:0 "Lullu"
+ form_lullubi:0 "Restore Lullubi Kingdom"
+ form_lullubi_desc:0 "Once, the #Y Lullu#! tribes were united. They represented a front against the ever-meddling and ever-haughty #Y Mesopotamians#!. Whether from #Y Babylon#! or #Y Asshur#!, neither would conquer the mighty #Y Zagrosian#! kingdom of #Y Lullu#!. Today we bring back our beloved past, restoring the #E Lullubi Kingdom#!!"
+ formable_not_lullubi_exists:0 "The #Y Lullubi Kingdom#! does not exist."
+
+ GUTIAN_KINGDOM_NAME: "Gutian Kingdom"
+ GUTIAN_KINGDOM_ADJECTIVE: "Gutian"
+ formable_not_gutian_kingdom_exists: "#Y The Gutian Kingdom#! does not exist#!."
+ form_gutian_kingdom:0 "Pronounce a new Gutian Kingdom"
+ form_gutian_kingdom_desc:0 "Although we are only related in name to the Gutians who once ruled Babylon, it would be wise of us to settle in the rich, fertile lands of Babylon, and create a kingdom of our own."
+
+ ZAGROS_NAME:0 "Zagrosia"
+ ZAGROS_ADJECTIVE:0 "Zagrosian"
+ form_zagrosia:0 "Form Zagrosia"
+ form_zagrosia_desc:0 "The many tribes and peoples of the #Y Zagros Mountains#! have never been united, yet all of them share many features. Raiding the rich lands to the west, east, north, or south; living in the tall, mighty mountains; and fighting like warriors until the last man. We will forge a #G New Cultural Identity#! as #Y Zagrosians#!!"
+ formable_not_zagrosia_exists:0 "#Y Zagrosia#! does not exist."
+ zagros_claims:0 "Gain claims on the #Y Zagrosia#! region."
 
  ### Reaffirmation Decisions ###
  # Reaffirm Media
@@ -37,4 +129,13 @@
  affirm_assyria:0 "Reaffirm Assyrian Dominance"
  affirm_assyria_desc:0 "The Neo-Assyrian Empire suffered a slow, painful collapse. We have utterly rebounded and reclaimed our lands. The return of #Y Neo-Assyria#! is upon us!"
 
- italic_pantheon:0 "Italic"
+
+ ## Extras ##
+
+ # Zagrosian Culture Group
+ change_culture_group_tt:0 "We will change into the #Y Zagrosian Culture Group#!, and every province we own with a #E Zagrosian Identity#! will also change into the #Y Zagrosian Culture Group#!."
+ dont_culture_group_tt:0 "We will keep our current primary culture and not promote a #Y Zagrosian#! identity."
+ gotn_formable_event_2_title:0 "Zagrosian Ethnogenesis"
+ gotn_formable_event_2_desc:0 "As many have pointed out, the many tribes and peoples of the #E Zagros Mountains#! have never been united before. And now that we have, we can easily call upon our shared cultural values, as despite our many diverse and disparate groups, we share many features. Raiding the rich lands to the west, east, north, or south; living in the tall, mighty mountains; and fighting like warriors until the last man. This presents us with the striking possibility to promote an #E ethnogenesis#!, creating a new shared cultural grouping known as #E Zagrosian#!."
+ gotn_formable_event_2_a:0 "We are Zagrosians first, [SCOPE.GetRootScope.GetCountry.GetRuler.GetCulture.GetName] second."
+ gotn_formable_event_2_b:0 "We are [SCOPE.GetRootScope.GetCountry.GetRuler.GetCulture.GetName] first, Zagrosians second."

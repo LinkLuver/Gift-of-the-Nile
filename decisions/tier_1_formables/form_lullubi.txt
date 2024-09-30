@@ -1,0 +1,68 @@
+﻿country_decisions = {
+	
+	# Form Lullubi Kingdom
+	form_lullubi = {
+		
+		potential = {
+			num_of_cities >= 1
+			primary_culture = lullu
+			NOT = {
+				tag = ZG2
+			}
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 981
+					province_id = 1602
+					province_id = 9768
+					province_id = 959
+					province_id = 958
+					province_id = 9756
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = formable_not_lullubi_exists
+				NOT = {
+					any_country = {
+						tag = ZG2
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns = 981
+			owns_or_subject_owns = 1602
+			owns_or_subject_owns = 9768
+			owns_or_subject_owns = 959
+			owns_or_subject_owns = 958
+			owns_or_subject_owns = 9756
+		}
+		
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			change_country_name = "LULLUBI_NAME"
+			hidden_effect = {
+				change_country_adjective = "LULLUBI_ADJECTIVE"
+				change_country_tag = ZG2
+			}
+			change_government = aristocratic_monarchy
+			switch_government_type_event_clearup_effect = yes
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+} 
+

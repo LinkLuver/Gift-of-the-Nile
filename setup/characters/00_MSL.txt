@@ -1,0 +1,23 @@
+﻿"MSL"={
+	country="MSL"
+	566={
+		first_name="Izamramsen"
+		family = c:MSL.fam:Herakleides
+		birth_date=423.10.23
+		culture="atlosian"
+		religion="berber_religion"
+		no_stats=yes
+		add_martial=11
+		add_charisma=8
+		add_finesse=3
+		add_zeal=9
+		no_traits=yes
+		add_trait="ambitious"
+		add_trait="zealous"
+		add_trait="aggressive"
+		add_gold=100
+		c:MSL={
+			set_as_ruler=char:566
+		}
+	}
+}

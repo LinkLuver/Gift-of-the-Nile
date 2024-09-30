@@ -1,0 +1,1244 @@
+﻿477={ #Serdica
+	terrain="hills"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4112={ #Navissos
+	terrain="farmland"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="cattle"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4115={ #Remesiana
+	terrain="hills"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="honey"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4116={ #Ballanstra
+	terrain="hills"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4208={ #Taliata
+	terrain="plains"
+	culture="celtic_pannonian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=6
+	}
+	slaves={
+		religion="shamanism"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4209={ #Egeta
+	terrain="plains"
+	culture="celtic_pannonian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		religion="shamanism"
+		amount=1
+	}
+}
+
+4214={ #Clevora
+	terrain="plains"
+	culture="celtic_pannonian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		religion="shamanism"
+		amount=1
+	}
+}
+
+4215={ #Dortium
+	terrain="farmland"
+	culture="dacian"
+	religion="shamanism"
+	trade_goods="vegetables"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4216={ #Dunonia
+	terrain="farmland"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="vegetables"
+	civilization_value=12
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4217={ #Ratiaria
+	terrain="plains"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="earthware"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4218={ #Castra Martis
+	terrain="plains"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="hemp"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4219={ #Timacum
+	terrain="plains"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="woad"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4220={ #Combustica
+	terrain="plains"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4221={ #Montana
+	terrain="hills"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4222={ #Turres
+	terrain="hills"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4223={ #Almus
+	terrain="plains"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4224={ #Cebrus
+	terrain="plains"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="earthware"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4225={ #Tautiomosis
+	terrain="hills"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="vegetables"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4226={ #Vicus Siamus
+	terrain="forest"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4227={ #Oescus
+	terrain="forest"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4228={ #Trullensium
+	terrain="forest"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="horses"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4229={ #Longinopara
+	terrain="plains"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4230={ #Scretisca
+	terrain="hills"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4231={ #Asamus
+	terrain="forest"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4232={ #Ad Putea
+	terrain="plains"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="vegetables"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4233={ #Storgosia
+	terrain="forest"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="vegetables"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4234={ #Melta
+	terrain="plains"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4235={ #Sostra
+	terrain="hills"
+	culture="odrysi"
+	religion="shamanism"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4236={ #Emporium Discoduraterae
+	terrain="hills"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="tylian"
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4237={ #Nikopolis
+	terrain="forest"
+	culture="moesi"
+	religion="shamanism"
+	trade_goods="wood"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="tylian"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4238={ #Novae
+	terrain="forest"
+	culture="triballoi"
+	religion="shamanism"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4239={ #Trimammium
+	terrain="plains"
+	culture="moesi"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4240={ #Prista
+	terrain="forest"
+	culture="moesi"
+	religion="shamanism"
+	trade_goods="vegetables"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4241={ #Appiara
+	terrain="forest"
+	culture="moesi"
+	religion="shamanism"
+	trade_goods="vegetables"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		culture="scythian"
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="scythian"
+		amount=5
+	}
+}
+
+4242={ #Transmarisca
+	terrain="forest"
+	culture="scythian"
+	religion="shamanism"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4243={ #Abritus
+	terrain="plains"
+	culture="moesi"
+	religion="shamanism"
+	trade_goods="vegetables"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4244={ #Tylis
+	terrain="plains"
+	culture="tylian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=5
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4245={ #Haemiana
+	terrain="hills"
+	culture="moesi"
+	religion="shamanism"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="tylian"
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4246={ #Silistra
+	terrain="forest"
+	culture="scythian"
+	religion="indo_iranian_religion"
+	trade_goods="earthware"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		culture="moesi"
+		religion="shamanism"
+		amount=4
+	}
+	slaves={
+		culture="moesi"
+		religion="shamanism"
+		amount=3
+	}
+}
+
+4247={ #Erite
+	terrain="plains"
+	culture="moesi"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="dumarian"
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+4248={ #Odessos
+	terrain="plains"
+	culture="bosporan"
+	religion="roman_pantheon"
+	trade_goods="earthware"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="moesi"
+		amount=1
+	}
+	slaves={
+		culture="moesi"
+		amount=1
+	}
+	tribesmen={
+		culture="moesi"
+		religion="shamanism"
+		amount=6
+	}
+	holy_site=omen_derzelas
+	port_building=1
+}
+
+4249={ #Krounoi
+	terrain="plains"
+	culture="moesi"
+	religion="roman_pantheon"
+	trade_goods="leather"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		culture="bosporan"
+		amount=2
+	}
+	freemen={
+		culture="bosporan"
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		religion="shamanism"
+		amount=3
+	}
+}
+
+4250={ #Tirizis
+	terrain="plains"
+	culture="moesi"
+	religion="roman_pantheon"
+	trade_goods="fish"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="shamanism"
+		amount=2
+	}
+	holy_site=omen_thrax
+}
+
+4251={ #Parthenopolis
+	terrain="plains"
+	culture="moesi"
+	religion="shamanism"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4252={ #Helis
+	terrain="forest"
+	culture="moesi"
+	religion="shamanism"
+	trade_goods="grain"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="scythian"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4253={ #Palmatis
+	terrain="forest"
+	culture="moesi"
+	religion="shamanism"
+	trade_goods="cattle"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4254={ #Kallatis
+	terrain="plains"
+	culture="bosporan"
+	religion="roman_pantheon"
+	trade_goods="leather"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="getian"
+		amount=2
+	}
+	tribesmen={
+		culture="getian"
+		religion="shamanism"
+		amount=6
+	}
+	port_building=1
+}
+
+4255={ #Tomis
+	terrain="plains"
+	culture="bosporan"
+	religion="roman_pantheon"
+	trade_goods="salt"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		culture="scythian"
+		amount=1
+	}
+	tribesmen={
+		culture="getian"
+		religion="shamanism"
+		amount=3
+	}
+}
+
+4256={ #Tropaeum
+	terrain="forest"
+	culture="moesi"
+	religion="shamanism"
+	trade_goods="leather"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4257={ #Sacidava
+	terrain="forest"
+	culture="moesi"
+	religion="shamanism"
+	trade_goods="vegetables"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4258={ #Panisus
+	terrain="hills"
+	culture="moesi"
+	religion="shamanism"
+	trade_goods="stone"
+	civilization_value=8
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="tylian"
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4259={ #Zikideba
+	terrain="plains"
+	culture="moesi"
+	religion="shamanism"
+	trade_goods="earthware"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="tylian"
+		amount=1
+	}
+	freemen={
+		culture="tylian"
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4512={ #Axiopolis
+	terrain="forest"
+	culture="scythian"
+	religion="indo_iranian_religion"
+	trade_goods="cattle"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4513={ #Histros
+	terrain="plains"
+	culture="bosporan"
+	religion="roman_pantheon"
+	trade_goods="earthware"
+	civilization_value=31
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="scythian"
+		amount=1
+	}
+	slaves={
+		culture="getian"
+		amount=2
+	}
+	tribesmen={
+		culture="getian"
+		religion="shamanism"
+		amount=5
+	}
+	port_building=1
+}
+
+4514={ #Kios Skythike
+	terrain="marsh"
+	culture="scythian"
+	religion="indo_iranian_religion"
+	trade_goods="honey"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		religion="shamanism"
+		amount=4
+	}
+}
+
+4515={ #Skenopsis
+	terrain="forest"
+	culture="getian"
+	religion="roman_pantheon"
+	trade_goods="vegetables"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		religion="shamanism"
+		amount=3
+	}
+}
+
+4516={ #Orgame
+	terrain="forest"
+	culture="getian"
+	religion="roman_pantheon"
+	trade_goods="hemp"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		culture="bosporan"
+		amount=1
+	}
+	freemen={
+		culture="bosporan"
+		amount=2
+	}
+	freemen={
+		culture="scythian"
+		amount=1
+	}
+	tribesmen={
+		religion="shamanism"
+		amount=2
+	}
+}
+
+4517={ #Libida
+	terrain="forest"
+	culture="getian"
+	religion="roman_pantheon"
+	trade_goods="vegetables"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="shamanism"
+		amount=1
+	}
+}
+
+4518={ #Beroe Skythike
+	terrain="marsh"
+	culture="scythian"
+	religion="indo_iranian_religion"
+	trade_goods="grain"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4519={ #Halmyris
+	terrain="forest"
+	culture="scythian"
+	religion="indo_iranian_religion"
+	trade_goods="fish"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="shamanism"
+		culture="getian"
+		amount=1
+	}
+	port_building=1
+}
+
+4520={ #Troismis
+	terrain="marsh"
+	culture="scythian"
+	religion="indo_iranian_religion"
+	trade_goods="vegetables"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		religion="shamanism"
+		amount=4
+	}
+}
+

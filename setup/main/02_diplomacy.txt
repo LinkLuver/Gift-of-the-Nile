@@ -3,12 +3,37 @@ diplomacy = {
 	### GOTN DIPLOMACY ###
 	#Babylonian Empire
 	dependency = { first = SEL second = TYO subject_type = tributary }
+	dependency = { first = SEL second = AM4 subject_type = subject_league_city_state }
 
 	#Achaemenid Kingdom
 	dependency = { first = PES second = ARS subject_type = satrapy }
-	dependency = { first = PES second = GED subject_type = satrapy }
-	dependency = { first = PES second = ELM subject_type = satrapy }
+	dependency = { first = PES second = GED subject_type = uparaja_subject }
+	dependency = { first = PES second = ELM subject_type = great_satrapy }
+	dependency = { first = PES second = GHA subject_type = great_satrapy }
 	dependency = { first = PES second = MAK subject_type = tributary }
+	dependency = { first = PES second = SIV subject_type = uparaja_subject }
+	dependency = { first = PES second = BRA subject_type = uparaja_subject }
+	dependency = { first = PES second = PAT subject_type = uparaja_subject }
+	dependency = { first = PES second = SAV subject_type = uparaja_subject }
+	dependency = { first = PES second = SMB subject_type = uparaja_subject }
+	dependency = { first = PES second = ABH subject_type = uparaja_subject }
+	dependency = { first = PES second = KEK subject_type = uparaja_subject }
+	dependency = { first = PES second = MLT subject_type = uparaja_subject }
+	dependency = { first = PES second = AAT subject_type = uparaja_subject }
+	dependency = { first = PES second = KOT subject_type = uparaja_subject }
+	dependency = { first = PES second = MRA subject_type = uparaja_subject }
+	dependency = { first = PES second = LAH subject_type = uparaja_subject }
+	dependency = { first = PES second = PRA subject_type = uparaja_subject }
+	dependency = { first = PES second = SLW subject_type = uparaja_subject }
+	dependency = { first = PES second = HR2 subject_type = uparaja_subject }
+	dependency = { first = PES second = PTM subject_type = uparaja_subject }
+	dependency = { first = PES second = PT2 subject_type = uparaja_subject }
+	dependency = { first = PES second = ML2 subject_type = uparaja_subject }
+	dependency = { first = PES second = ATA subject_type = uparaja_subject }
+	dependency = { first = PES second = REH subject_type = uparaja_subject }
+	dependency = { first = PES second = JAI subject_type = uparaja_subject }
+	dependency = { first = PES second = CHN subject_type = uparaja_subject }
+	dependency = { first = PES second = TR2 subject_type = uparaja_subject }
 
 	#Median Empire
 	dependency = { first = MAP second = PAR subject_type = satrapy }
@@ -16,7 +41,10 @@ diplomacy = {
 	dependency = { first = MAP second = CAP subject_type = satrapy }
 	dependency = { first = MAP second = ARM subject_type = satrapy }
 	dependency = { first = MAP second = SPH subject_type = satrapy }
+	dependency = { first = MAP second = MFX subject_type = satrapy }
+	dependency = { first = MAP second = ARE subject_type = satrapy }
 	dependency = { first = MAP second = AR2 subject_type = tributary }
+
 
 	#Lydian Kingdom
 	dependency = { first = LYD second = PHR subject_type = satrapy }
@@ -26,12 +54,28 @@ diplomacy = {
 	dependency = { first = LYD second = MLO subject_type = subject_league_city_state }
 	dependency = { first = LYD second = MYD subject_type = tributary }
 	dependency = { first = LYD second = BIT subject_type = tributary }
+	dependency = { first = LYD second = PGM subject_type = satrapy }
+	dependency = { first = LYD second = HKS subject_type = feudatory }
 
+	#Numidian Kingdom
+	dependency = { first = MSS second = IOL subject_type = tributary }
+	dependency = { first = MSS second = MSY subject_type = tributary }
+	dependency = { first = MSS second = GYZ subject_type = tributary }
+	dependency = { first = MSS second = RS1 subject_type = tributary }
+	dependency = { first = MSS second = RS4 subject_type = tributary }
+
+	#Nuran Protectorates
+	dependency = { first = CTU second = RS2 subject_type = tributary }
+	dependency = { first = CTU second = RS3 subject_type = tributary }
+	
 	#Bit-Adini
-	dependency = { first = BMB second = KAR subject_type = subject_league_city_state }
+	dependency = { first = BMB second = KAR subject_type = hittite_viceroyalty }
 
 	#Hamath
 	dependency = { first = HAM second = LHT subject_type = client_state }
+
+	#Que
+	dependency = { first = HAM second = HT2 subject_type = tributary }
 
 	##Greek Leagues
 	#Neo-Dellian League
@@ -46,10 +90,7 @@ diplomacy = {
 		member = KRK
 		member = APO
 	}
-	dependency = { first = ATH second = ABD subject_type = subject_league_city_state }
-	dependency = { first = ATH second = AEN subject_type = subject_league_city_state }
-	dependency = { first = ATH second = CRD subject_type = subject_league_city_state }
-
+	
 	#Neo-Peloponnesan League
 	defensive_league = {
 		member = SPA
@@ -91,15 +132,103 @@ diplomacy = {
 		member = AET
 		member = LAM
 	}
-	dependency = { first = MAC second = KOR subject_type = subject_league_city_state }
+	dependency = { first = MAC second = PTI subject_type = client_state }
+	dependency = { first = MAC second = ABD subject_type = subject_league_city_state }
+	dependency = { first = MAC second = AEN subject_type = subject_league_city_state }
 	dependency = { first = MAC second = PAA subject_type = vassal_tribe }
 	dependency = { first = MAC second = MAD subject_type = vassal_tribe }
-	dependency = { first = MAC second = ORE subject_type = feudatory }
-	dependency = { first = MAC second = AMK subject_type = tributary }
+	dependency = { first = MAC second = TH1 subject_type = vassal_tribe }
+    dependency = { first = MAC second = TH2 subject_type = vassal_tribe }
+    dependency = { first = MAC second = TH3 subject_type = vassal_tribe }
+    dependency = { first = MAC second = TH4 subject_type = vassal_tribe }
+    dependency = { first = MAC second = AMK subject_type = tributary }
 	dependency = { first = MAC second = AKR subject_type = tributary }
-	#dependency = { first = MAC second = KOR subject_type = subject_league_city_state }
-	dependency = { first = MAC second = TRE subject_type = client_state }
-	dependency = { first = MAC second = ODR subject_type = tributary }
+
+	#Macedonian-Thessalian Alliance
+	alliance = { first = TRE second = MAC }
+
+	#Massalian League
+	dependency = { first = MAS second = MGO subject_type = feudatory }
+	dependency = { first = MAS second = OXB subject_type = feudatory }
+	dependency = { first = MAS second = SRB subject_type = tributary }
+	dependency = { first = MAS second = SLV subject_type = tributary }
+	dependency = { first = MAS second = DCA subject_type = tributary }
+
+	#Emporion-Indiketia
+	dependency = { first = EPO second = IDK subject_type = tributary }
+
+	#Thessalian Subjects
+    dependency = { first = TRE second = PHO subject_type = feudatory }
+    dependency = { first = TRE second = ORE subject_type = feudatory }
+    dependency = { first = TRE second = LAM subject_type = feudatory }
+
+	#Dardania-Serdia
+	dependency = { first = DRD second = SDI subject_type = feudatory }
+
+	#Kingdom of Damascus
+	dependency = { first = PRY second = GAL subject_type = client_state }
+
+	#Free Massalian States
+	defensive_league = {
+		member = EPO
+		member = HBA
+		member = HMK
+		member = ALE
+	}
+    
+	#Troan League
+	defensive_league = {
+		member = TWT
+		member = TW1
+		member = TW2
+	}
+
+	#Siceliote City States
+	defensive_league = {
+    	member = SY1
+    	member = GEL
+    	member = ACR
+    	member = HEM
+    	member = SIN
+	}
+
+	#Southern Italiotes
+	defensive_league = {
+    	member = RHG
+    	member = LOC
+	}
+
+	#Northern Italiotes
+	defensive_league = {
+    	member = CPU
+    	member = NEA
+    	}
+
+	#Carthaginian League Remnant
+	defensive_league = {
+    	member = CAR
+    	member = UTC
+    	member = KIR
+    	member = KUA
+	}
+
+	#Tetrapolitania
+	defensive_league = {
+    	member = TRP
+    	member = LP1
+    	member = EMP
+	}
+
+	#Gadiran League
+	defensive_league = {
+		member = GAD
+		member = KUS
+		member = LIX
+		member = RSS
+		member = MGD
+		member = ABA
+		member = RS5
+	}
 
 	##Deltan Leagues
 	#Sunset League
@@ -159,18 +288,13 @@ diplomacy = {
 		member = PAL
 	}
 
+
 	### VANILLA DIPLOMACY ###
 
 	defensive_league = {
 		member = MET
 		member = HCL
 		member = CRO
-	}
-
-	defensive_league = {
-		member = MAS
-		member = EPO
-		member = HMK
 	}
 
 	defensive_league = {
@@ -188,12 +312,6 @@ diplomacy = {
 		member = TYN
 		member = CLA
 	}
-
-	#Rome
-	dependency = { first = ROM second = PEL subject_type = feudatory }
-	dependency = { first = ROM second = FRE subject_type = feudatory }
-	dependency = { first = ROM second = MRS subject_type = feudatory }
-	dependency = { first = ROM second = NUC subject_type = feudatory }
 
 	#Samnium - Lucania Alliance
 	guarantee = { first = LCA second = SAM }
@@ -214,11 +332,6 @@ diplomacy = {
 	dependency = { first = BRT second = HPO subject_type = tributary }
 	dependency = { first = BRT second = THU subject_type = tributary }
 
-	#Syracuse
-	dependency = { first = SYR second = LOC subject_type = feudatory }
-	dependency = { first = SYR second = RHG subject_type = feudatory }
-	dependency = { first = SYR second = GEL subject_type = feudatory }
-
 	#Knossos
 	dependency = { first = KNO second = ELT subject_type = feudatory }
 
@@ -234,28 +347,6 @@ diplomacy = {
 
 	#Etruria
 	alliance = { first = ETR second = FNT }
-
-	#Carthage
-	#dependency = { first = CAR second = BLD subject_type = feudatory }
-	#dependency = { first = CAR second = CTI subject_type = feudatory }
-	#dependency = { first = CAR second = MLK subject_type = feudatory }
-	dependency = { first = CAR second = MSL subject_type = vassal_tribe }
-	dependency = { first = CAR second = MSY subject_type = vassal_tribe }
-	dependency = { first = CAR second = TPS subject_type = feudatory }
-	dependency = { first = CAR second = UTC subject_type = feudatory }
-	dependency = { first = CAR second = HDR subject_type = feudatory }
-	dependency = { first = CAR second = ACO subject_type = feudatory }
-	dependency = { first = CAR second = LPT subject_type = feudatory }
-	dependency = { first = CAR second = TRP subject_type = feudatory }
-	dependency = { first = CAR second = EMP subject_type = feudatory }
-	dependency = { first = CAR second = IOL subject_type = feudatory }
-	dependency = { first = CAR second = KUA subject_type = feudatory }
-	dependency = { first = CAR second = HEM subject_type = client_state } # Intentional subject of Carthage (as they cannot be feudatories, as they are Greek)
-	dependency = { first = CAR second = SIN subject_type = client_state } # Also intentional, same as above
-	dependency = { first = CAR second = IBA subject_type = feudatory }
-	dependency = { first = CAR second = GIN subject_type = vassal_tribe } # New
-	dependency = { first = CAR second = THA subject_type = feudatory } # New Vassal on Mauretanian Coast
-	dependency = { first = CAR second = AGG subject_type = feudatory } # New Vassal on Mauretanian Coast
 
 	#Massylia
 	#alliance = { first = MSY second = MSL }
@@ -334,11 +425,11 @@ diplomacy = {
 	#dependency = { first = PRY second = PYK subject_type = tributary } #Physkos
 
 	#Mauryans
-	dependency = { first = MRY second = ATV subject_type = tributary } #Atavis
-	dependency = { first = MRY second = HYA subject_type = tributary } #Haihayas
-	dependency = { first = MRY second = PLD subject_type = tributary } #Paladas
-	dependency = { first = MRY second = YDD subject_type = feudatory } #Yadheuya
-	dependency = { first = MRY second = PRA subject_type = tributary } #Pauravas
+	#dependency = { first = MRY second = ATV subject_type = tributary } #Atavis
+	#dependency = { first = MRY second = HYA subject_type = tributary } #Haihayas
+	#dependency = { first = MRY second = PLD subject_type = tributary } #Paladas
+	#dependency = { first = MRY second = YDD subject_type = feudatory } #Yadheuya
+	#dependency = { first = MRY second = PRA subject_type = tributary } #Pauravas
 	#dependency = { first = PRY second = EUB subject_type = feudatory } #Freed by Demetrios in 304
 
 	#Opuntians
@@ -387,15 +478,6 @@ diplomacy = {
 	#Hastan tributary
 	dependency = { first = ASA second = LSC subject_type = tributary }
 	
-	#Circle of the Strait
-	defensive_league = {
-		member = GAD
-		member = KUS
-		member = LIX
-		member = RSS
-		member = MGD
-	}
-
 	#Carmoia and Lacinippo
 	defensive_league = {
 		member = CRM

@@ -1,4 +1,4 @@
-﻿3301={ #Tsabratan
+﻿3301={ #Tzabraton
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -17,7 +17,7 @@
 	}
 	slaves={
 		culture="garamantic"
-		religion="berber_religion"
+		religion="amun_religion"
 		amount=1
 	}
 	tribesmen={
@@ -25,7 +25,7 @@
 	}
 	tribesmen={
 		culture="garamantic"
-		religion="berber_religion"
+		religion="amun_religion"
 		amount=1
 	}
 	holy_site=omen_nanna_tala
@@ -47,7 +47,7 @@
 	}
 }
 
-3303={ #Oyat
+3303={ #Woyot
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
@@ -63,12 +63,12 @@
 	}
 	freemen={
 		culture="garamantic"
-		religion="berber_religion"
+		religion="amun_religion"
 		amount=2
 	}
 	freemen={
 		culture="garamantic"
-		religion="berber_religion"
+		religion="amun_religion"
 		amount=1
 	}
 	slaves={
@@ -79,7 +79,7 @@
 	}
 	tribesmen={
 		culture="garamantic"
-		religion="berber_religion"
+		religion="amun_religion"
 		amount=1
 	}
 	port_building=1
@@ -101,7 +101,7 @@
 	}
 	tribesmen={
 		culture="garamantic"
-		religion="berber_religion"
+		religion="amun_religion"
 		amount=1
 	}
 }
@@ -122,62 +122,108 @@
 	}
 }
 
-3306={ #Lapki
+3306={ #'Illapqi
 	terrain="plains"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
 	trade_goods="stone"
 	civilization_value=26
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	nobles={
-		amount=1
+		amount=2
 	}
 	citizen={
 		amount=2
 	}
 	freemen={
+		culture="peloponnesian"
+		religion="roman_pantheon"
 		amount=2
 	}
 	freemen={
-		culture="garamantic"
-		religion="berber_religion"
-		amount=1
+		amount=2
+	}
+	freemen={
+		culture="macaean"
+		religion="amun_religion"
+		amount=2
 	}
 	slaves={
-		amount=3
+		amount=2
+	}
+	slaves={
+		culture="garamantic"
+		religion="amun_religion"
+		amount=2
 	}
 }
 
 3324={ #Kinyps
 	terrain="desert"
-	culture="carthaginian"
-	religion="carthaginian_pantheon"
+	culture="peloponnesian"
+	religion="roman_pantheon"
 	trade_goods="leather"
-	civilization_value=23
+	civilization_value=24
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=2
+	}
 	citizen={
 		amount=2
 	}
 	freemen={
-		amount=1
+		amount=5
+	}
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		culture="macaean"
+		amount=3
 	}
 }
 
-3325={ #Takash
+3325={ #Thubactis
 	terrain="desert"
-	culture="carthaginian"
-	religion="carthaginian_pantheon"
-	trade_goods="cattle"
-	civilization_value=23
+	culture="macaean"
+	religion="amun_religion"
+	trade_goods="dye"
+	civilization_value=24
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=2
+	}
 	citizen={
+		amount=2
+	}
+	citizen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
 		amount=3
 	}
+	freemen={
+		culture="peloponnesian"
+		religion="roman_pantheon"
+		amount=2
+	}
 	slaves={
-		amount=1
+		amount=3
 	}
 	holy_site=omen_gurzil
 	port_building=1
@@ -196,12 +242,12 @@
 	}
 	freemen={
 		culture="garamantic"
-		religion="berber_religion"
+		religion="amun_religion"
 		amount=1
 	}
 	slaves={
 		culture="garamantic"
-		religion="berber_religion"
+		religion="amun_religion"
 		amount=1
 	}
 }
@@ -219,7 +265,7 @@
 	}
 	freemen={
 		culture="garamantic"
-		religion="berber_religion"
+		religion="amun_religion"
 		amount=1
 	}
 	slaves={
@@ -240,7 +286,7 @@
 	}
 	freemen={
 		culture="garamantic"
-		religion="berber_religion"
+		religion="amun_religion"
 		amount=2
 	}
 	slaves={
@@ -261,12 +307,12 @@
 	}
 	freemen={
 		culture="garamantic"
-		religion="berber_religion"
+		religion="amun_religion"
 		amount=2
 	}
 	slaves={
 		culture="garamantic"
-		religion="berber_religion"
+		religion="amun_religion"
 		amount=2
 	}
 }
@@ -274,7 +320,7 @@
 3332={ #Dysopon
 	terrain="desert"
 	culture="psyllic"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -292,7 +338,7 @@
 3333={ #Euphranta
 	terrain="desert"
 	culture="psyllic"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="olive"
 	civilization_value=10
 	barbarian_power=0
@@ -310,7 +356,7 @@
 3334={ #Iscina
 	terrain="desert"
 	culture="psyllic"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="olive"
 	civilization_value=10
 	barbarian_power=0
@@ -328,7 +374,7 @@
 3335={ #Aulazon
 	terrain="desert"
 	culture="psyllic"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
@@ -341,7 +387,7 @@
 3336={ #Ad Palmam
 	terrain="desert"
 	culture="psyllic"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -357,7 +403,7 @@
 3337={ #Digdida Selorum
 	terrain="desert"
 	culture="psyllic"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -373,7 +419,7 @@
 3338={ #Arae Philaenorum
 	terrain="desert"
 	culture="psyllic"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -394,7 +440,7 @@
 3339={ #Automalax
 	terrain="desert"
 	culture="nasamonian"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
@@ -430,7 +476,7 @@
 	}
 	slaves={
 		culture="garamantic"
-		religion="berber_religion"
+		religion="amun_religion"
 		amount=1
 	}
 }
@@ -479,7 +525,7 @@
 3343={ #Korniklanon
 	terrain="desert"
 	culture="libyan"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="horses"
 	civilization_value=18
 	barbarian_power=0
@@ -514,7 +560,7 @@
 	}
 	slaves={
 		culture="libyan"
-		religion="berber_religion"
+		religion="amun_religion"
 		amount=2
 	}
 	port_building=1
@@ -523,7 +569,7 @@
 3345={ #Chorotos
 	terrain="desert"
 	culture="libyan"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="horses"
 	civilization_value=18
 	barbarian_power=0
@@ -557,10 +603,10 @@
 	}
 }
 
-3347={ #Chaminos
+3347={ #Talliamunera
 	terrain="desert"
 	culture="libyan"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="olive"
 	civilization_value=18
 	barbarian_power=0
@@ -600,10 +646,10 @@
 	}
 }
 
-3349={ #Zaou Katastema
+3349={ #Zau Taberna
 	terrain="desert"
 	culture="libyan"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="stone"
 	civilization_value=18
 	barbarian_power=0
@@ -640,7 +686,7 @@
 	}
 	slaves={
 		culture="libyan"
-		religion="berber_religion"
+		religion="amun_religion"
 		amount=4
 	}
 }
@@ -648,7 +694,7 @@
 3351={ #Chairekla
 	terrain="desert"
 	culture="libyan"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="cattle"
 	civilization_value=18
 	barbarian_power=0
@@ -716,7 +762,7 @@
 	}
 	slaves={
 		culture="libyan"
-		religion="berber_religion"
+		religion="amun_religion"
 		amount=1
 	}
 	port_building=1
@@ -725,7 +771,7 @@
 3357={ #Barke
 	terrain="desert"
 	culture="cyrenaican"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="olive"
 	civilization_value=26
 	barbarian_power=0
@@ -738,12 +784,12 @@
 	}
 	slaves={
 		culture="libyan"
-		religion="berber_religion"
+		religion="amun_religion"
 		amount=6
 	}
 	tribesmen={
 		culture="libyan"
-		religion="berber_religion"
+		religion="amun_religion"
 		amount=1
 	}
 }
@@ -767,10 +813,10 @@
 	}
 }
 
-3359={ #Balagrai
+3359={ #Balagrae
 	terrain="desert"
 	culture="libyan"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="cattle"
 	civilization_value=18
 	barbarian_power=0
@@ -839,7 +885,7 @@
 3362={ #Agabis
 	terrain="desert"
 	culture="libyan"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="cattle"
 	civilization_value=18
 	barbarian_power=0
@@ -874,7 +920,7 @@
 3364={ #Marandis
 	terrain="desert"
 	culture="libyan"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="vegetables"
 	civilization_value=18
 	barbarian_power=0
@@ -936,7 +982,7 @@
 	port_building=1
 }
 
-3367={ #Petra Mikra
+3367={ #Petras Mikros
 	terrain="desert"
 	culture="cyrenaican"
 	religion="roman_pantheon"
@@ -968,7 +1014,7 @@
 	}
 	tribesmen={
 		culture="libyan"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 }
@@ -976,7 +1022,7 @@
 3369={ #Gonia
 	terrain="desert"
 	culture="libyan"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="vegetables"
 	civilization_value=28
 	barbarian_power=0
@@ -992,7 +1038,7 @@
 3370={ #Antipyrgos
 	terrain="desert"
 	culture="libyan"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="olive"
 	civilization_value=28
 	barbarian_power=0
@@ -1012,7 +1058,7 @@
 3371={ #Kyrthanion
 	terrain="desert"
 	culture="libyan"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="olive"
 	civilization_value=28
 	barbarian_power=0
@@ -1028,7 +1074,7 @@
 3372={ #Menelaos
 	terrain="desert"
 	culture="libyan"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="fish"
 	civilization_value=28
 	barbarian_power=0
@@ -1046,10 +1092,10 @@
 	port_building=1
 }
 
-3373={ #Plynos Limen
+3373={ #Catabathmus Maior
 	terrain="desert"
 	culture="libyan"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="salt"
 	civilization_value=33
 	barbarian_power=0
@@ -1069,10 +1115,10 @@
 	}
 }
 
-3374={ #Ainesisphyra
+3374={ #Nesus
 	terrain="desert"
 	culture="libyan"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="fish"
 	civilization_value=28
 	barbarian_power=0
@@ -1088,7 +1134,7 @@
 3375={ #Chettaia
 	terrain="desert"
 	culture="libyan"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="olive"
 	civilization_value=28
 	barbarian_power=0
@@ -1136,7 +1182,7 @@
 	}
 }
 
-3378={ #Paraitonion
+3378={ #Per-Wasir
 	terrain="desert"
 	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
@@ -1220,7 +1266,7 @@
 	}
 }
 
-3478={ #Derrhas
+3478={ #Derras
 	terrain="desert"
 	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
@@ -1239,7 +1285,7 @@
 5536={ #Sitra
 	terrain="oasis"
 	culture="siwan_egyptian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="leather"
 	civilization_value=28
 	barbarian_power=0
@@ -1252,10 +1298,10 @@
 	}
 }
 
-5537={ #Ammonion
+5537={ #Sekht-Am
 	terrain="oasis"
 	culture="siwan_egyptian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="dates"
 	civilization_value=36
 	barbarian_power=0
@@ -1272,12 +1318,13 @@
 	tribesmen={
 		amount=2
 	}
+	holy_site=omen_ammon
 }
 
 5538={ #Gargara
 	terrain="desert"
 	culture="siwan_egyptian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="wild_game"
 	civilization_value=28
 	barbarian_power=0
@@ -1293,7 +1340,7 @@
 5539={ #Zethin
 	terrain="desert"
 	culture="siwan_egyptian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="camel"
 	civilization_value=28
 	barbarian_power=0
@@ -1306,7 +1353,7 @@
 5540={ #Areg
 	terrain="desert"
 	culture="siwan_egyptian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="dates"
 	civilization_value=28
 	barbarian_power=0
@@ -1316,10 +1363,10 @@
 	}
 }
 
-5550={ #Alexandrou Parembole
+5550={ #Tehu Sekht-Am
 	terrain="desert"
 	culture="siwan_egyptian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="dates"
 	civilization_value=38
 	barbarian_power=0
@@ -1332,10 +1379,10 @@
 	}
 }
 
-5551={ #Ouarias
+5551={ #Varias
 	terrain="desert"
 	culture="siwan_egyptian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="base_metals"
 	civilization_value=28
 	barbarian_power=0
@@ -1348,8 +1395,8 @@
 5552={ #Klimax
 	terrain="desert"
 	culture="siwan_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="cattle"
+	religion="amun_religion"
+	trade_goods="feathers"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
@@ -1367,7 +1414,7 @@
 5553={ #Graias
 	terrain="desert"
 	culture="siwan_egyptian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="salt"
 	civilization_value=28
 	barbarian_power=0
@@ -1380,10 +1427,10 @@
 	}
 }
 
-5554={ #Sanos
+5554={ #Sanus
 	terrain="desert"
 	culture="siwan_egyptian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="leather"
 	civilization_value=28
 	barbarian_power=0
@@ -1393,10 +1440,10 @@
 	}
 }
 
-5555={ #Karnasa
+5555={ #Carnasa
 	terrain="desert"
 	culture="siwan_egyptian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="cattle"
 	civilization_value=28
 	barbarian_power=0
@@ -1409,7 +1456,7 @@
 5556={ #Abid
 	terrain="desert"
 	culture="siwan_egyptian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="dates"
 	civilization_value=28
 	barbarian_power=0
@@ -1425,7 +1472,7 @@
 8121={ #Tubat
 	terrain="desert"
 	culture="siwan_egyptian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="camel"
 	civilization_value=28
 	barbarian_power=0
@@ -1441,14 +1488,14 @@
 8122={ #Jaghbub
 	terrain="oasis"
 	culture="siwan_egyptian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods="cattle"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
 		culture="nasamonian"
-		religion="egyptian_pantheon"
+		religion="amun_religion"
 		amount=1
 	}
 	tribesmen={
@@ -1459,7 +1506,7 @@
 8153={ #Hait
 	terrain="desert"
 	culture="siwan_egyptian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1469,9 +1516,10 @@
 8158={ #Shaqiq
 	terrain="desert"
 	culture="siwan_egyptian"
-	religion="egyptian_pantheon"
+	religion="amun_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
+

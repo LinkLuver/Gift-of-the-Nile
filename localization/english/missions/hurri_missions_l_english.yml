@@ -1,0 +1,238 @@
+﻿l_english:
+
+ hurri_missions:0 "The Hurrian Tempest"
+ hurri_missions_DESCRIPTION:0 "For the first time in history, a nation ruled by the #E Hurri#! has been established. Unlike the #E Mitanni#! of before, we are its true rulers this time. We must ensure stability and prosperity in our nation, And in the name of #E Teshub#! - May we succeed."
+ hurri_missions_CRITERIA_DESCRIPTION:0 "This mission will be completed once the state of the #E Hurrians#! has united all of their Lands."
+ hurri_missions_BUTTON_TOOLTIP:0 "The storm of #E Teshub#! brews."
+
+ #Missions
+
+ hurri_missions_task_1:0 "A Brewing Storm"
+ hurri_missions_task_1_DESC:0 ""
+ 
+ hurri_missions_task_2:0 "Offerings to Shaushka"
+ hurri_missions_task_2_DESC:0 ""
+ 
+ hurri_missions_task_3:0 "Temples to Teshub"
+ hurri_missions_task_3_DESC:0 ""
+ 
+ hurri_missions_task_4:0 "Restoring Beliefs"
+ hurri_missions_task_4_DESC:0 ""
+ 
+ hurri_missions_task_5:0 "The Hurrian Resurgence"
+ hurri_missions_task_5_DESC:0 ""
+ 
+ hurri_missions_task_6:0 "A Path to Greatness"
+ hurri_missions_task_6_DESC:0 ""
+ 
+ hurri_missions_task_7:0 "Reform the Maryannu"
+ hurri_missions_task_7_DESC:0 ""
+ 
+ hurri_missions_task_8:0 "Growth of Ussukkanni"
+ hurri_missions_task_8_DESC:0 ""
+ 
+ hurri_missions_task_9:0 "Archers of Urartu"
+ hurri_missions_task_9_DESC:0 ""
+ 
+ hurri_missions_task_10:0 "Fate of the Qardu"
+ hurri_missions_task_10_DESC:0 ""
+ 
+ hurri_missions_task_11:0 "Rebuilding Nineveh"
+ hurri_missions_task_11_DESC:0 ""
+ 
+ hurri_missions_task_12:0 "The Last Stand of Carchemish"
+ hurri_missions_task_12_DESC:0 ""
+ 
+ hurri_missions_task_13:0 "Port of Ugaritu"
+ hurri_missions_task_13_DESC:0 ""
+ 
+ hurri_missions_task_14:0 "Sharpen our Spears"
+ hurri_missions_task_14_DESC:0 ""
+ 
+ hurri_missions_task_15:0 "Guided by Shaushka"
+ hurri_missions_task_15_DESC:0 ""
+ 
+ hurri_missions_task_16:0 "A Center of Worship"
+ hurri_missions_task_16_DESC:0 ""
+ 
+ hurri_missions_task_17:0 "Babylon, City of Wonders"
+ hurri_missions_task_17_DESC:0 ""
+ 
+ hurri_missions_task_18:0 "Hurrian Ascendance"
+ hurri_missions_task_18_DESC:0 ""
+ 
+ hurri_missions_task_19:0 "The Walls of Bersiba"
+ hurri_missions_task_19_DESC:0 ""
+ 
+ hurri_missions_task_20:0 "Conquest of Damascus"
+ hurri_missions_task_20_DESC:0 ""
+ 
+ hurri_missions_task_21:0 "Onwards to Nasibina!"
+ hurri_missions_task_20_DESC:0 ""
+ 
+ hurri_missions_task_22:0 "The City of Shaushka"
+ hurri_missions_task_22_DESC:0 ""
+ 
+ hurri_missions_task_23:0 "From the Urartian Highlands"
+ hurri_missions_task_23_DESC:0 ""
+ 
+ hurri_missions_task_24:0 "To the Lands of Haltamti"
+ hurri_missions_task_24_DESC:0 ""
+
+
+ #Tooltips
+ 3_pops_per_prov_amudha_tt:0 "Up to #Y 3 pops#! per province in #E Kulishinas#! will convert to #Y Teshubic#!"
+ 3_pops_per_prov_shingar_tt:0 "Up to #Y 3 pops#! per province in #E Shingar#! will convert to #Y Teshubic#!"
+ #3_pops_per_prov_hurria_tt:0 "Up to #Y 3 pops#! per province in [SCOPE.GetRootScope.GetCountry.GetCapital.GetArea.GetName|E] will convert to #Y Teshubic#!."
+ has_3_great_temples_tt:0 "At least #Y 3 provinces#! have a #E Great Temple#! building."
+ has_1_great_temples_tt:0 "Any province has a #E Great Temple#! building."
+ random_5_pops_convert_teshub_tt:0 "A random province will have #Y 5 pops#! converted to #E Teshubic#!."
+ any_deity_hurrian_tt:0 "Any deity in our #Y Pantheon#! is #E Teshubic#!."
+ hurri_40_percent_tt:0 "At least #G 40%#! of our #Y Pops#! follows the #E Teshubic#! faith."
+ teshub_or_shaushka_holy_site_tt:0 "Either #Y Teshub#! or #Y Shaushka#! have a holy site dedicated to them in #E Washshukanni#!."
+ has_3_hurrian_cities_tt:0 "We have at least #Y 3 Hurrian#! cities."
+ 1_over_4_hurrian_tt:0 "Each of our #Y Non-Hurrian Pops#! will have a #G 20%#! chance to #E assimilate#!."
+ hurri_military_reform_tt:0 "Depending on our #E choices#!, we will recieve military #E rewards#!."
+ integrate_urartu_tt:0 "The #Y Urartu#! culture has been #G integrated#!."
+ qardu_thoughts_tt:0 "Decide what to do with the city of #Y Nsivin#!."
+ choose_capital_tt:0 "Choose whether or not to move your capital to #E Nineveh#!."
+ claims_on_naharin_plus_tt:0 "Gain claims on the region of #Y Naharin#! and areas of #Y Nasibina#!, #Y Nineveh#!, and #Y Asshur#!."
+
+ #Modifiers
+ teshubic_resurgence:0 "Resurgence of Teshub"
+ might_of_hurrian_religion:0 "Might of the Hurrian Religion"
+ military_reforms_maryannu:0 "Military Reforms Underway"
+ inexperienced_soldiery:0 "Inexperienced Soldiers"
+ urartu_archers:0 "Archers of Urartu"
+ qardu_city_flourishes:0 "Great Qardu City"
+
+ #Others
+
+
+ #Events
+ me_hurri_1_title:0 "$hurri_missions_task_1$"
+ me_hurri_1_desc:0 "Although it has been a long time since #E Teshub#! has been a regular name in the region of #E Naharin#!, we have taken the first steps towards reinstituting the traditional #E Hurrian#! faith. Many have started devoting themselves to #E Teshubic#! religion."
+ me_hurri_1.a:0 "So the storm brews."
+ me_hurri_1_tooltip:0 "The mission task '#Y $hurri_missions_task_1$#!' has now been #G Completed#!!"
+ 
+ me_hurri_2_title:0 "$hurri_missions_task_2$"
+ me_hurri_2_desc:0 "#E Shaushka#!, the maginficent one, is perhaps the only deity who could be compared to the greatness of #E Teshub#!. The goddess of love and war, she inspires many in our nation to pay tribute and give their worship."
+ me_hurri_2.a:0 "The greatest queen of the gods, and queen of the Hurrians."
+ me_hurri_2_tooltip:0 "The mission task '#Y $hurri_missions_task_2$#!' has now been #G Completed#!!"
+ 
+ me_hurri_3_title:0 "$hurri_missions_task_3$"
+ me_hurri_3_desc:0 "Building temples to #E Teshub#! will surely please the great god of storms. It shall aid him in his infinite cycle against #E Kumarbi#!, and will aid us in rebuilding our country as well. Many have already begun to go to the temple and establish their own worships of #E Teshub#!."
+ me_hurri_3.a:0 "Our position becomes more and more secure!"
+ me_hurri_3_tooltip:0 "The mission task '#Y $hurri_missions_task_3$#!' has now been #G Completed#!!"
+ 
+ me_hurri_4_title:0 "$hurri_missions_task_4$"
+ me_hurri_4_desc:0 "With the worship of the siblings #E Teshub#! and #E Shaushka#! restored, we can now feel confident in our position. We have begun to 'fix' the problem of the #E Elishites#! who reject everyone but #E Ashshur#!. While there is still some instability in our nation, it should be fixed in time."
+ me_hurri_4.a:0 "Nothing could go wrong."
+ me_hurri_4_tooltip:0 "The mission task '#Y $hurri_missions_task_4$#!' has now been #G Completed#!!"
+ 
+ me_hurri_5_title:0 "$hurri_missions_task_5$"
+ me_hurri_5_desc:0 ""
+ me_hurri_5.a:0 ""
+ me_hurri_5_tooltip:0 "The mission task '#Y $hurri_missions_task_5$#!' has now been #G Completed#!!"
+ 
+ me_hurri_6_title:0 "$hurri_missions_task_6$"
+ me_hurri_6_desc:0 "The path towards our restoration is quite clear. The disparate #E Urarto-Hurrian#! tribes of the north and the resurgent #E Empire of Assyria#! to the east. It won't be easy, but at least the way forward is clear!"
+ me_hurri_6.a:0 "Simple yes, easy no."
+ me_hurri_6_tooltip:0 "The mission task '#Y $hurri_missions_task_6$#!' has now been #G Completed#!!"
+
+ me_hurri_701_title:0 "$hurri_missions_task_7$"
+ me_hurri_701_desc:0 "The age of the chariot, revolutionized by the #E Mitanni Maryannu Chariots#! is... coming to a close. There is a divide in our military whether or not to abandon our tradition and modernize a new era of #E Maryannu#!, or whether to double down and continue our #E Charioteer#! prowess.\n\n\n#E Chariot#! units are generally not as good as Heavy Cavalry.#!"
+ me_hurri_701.a:0 "Tradition never falters."
+ me_hurri_701.b:0 "A new Maryannu for a new age."
+
+ me_hurri_702_title:0 "$hurri_missions_task_7$"
+ me_hurri_702_desc:0 "The #E Maryannu#! are traditionally made up of young, #E Mitanni#! men. In fact, the word #E Marya#! is supposedly one that comes from the east meaning young man. However, wars are often won on experience and keeping this young tradition may cost us in the short term. We have two candidates for the position of general who represent our two choices.\n\nOne, a young Mitanni warrior, who has just turned 18. They are #E Brave#!, yet #E Arrogant, Ambitious,#! and known for their #E Aggressive#! style. Or, we could choose the much older 62 year old seasonned Mitanni soldier."
+ me_hurri_702.a:0 "We will risk it on the youngun."
+ me_hurri_702.b:0 "Let us choose experience over ambition."
+
+ me_hurri_7_title:0 "$hurri_missions_task_7$"
+ me_hurri_7_desc:0 "Our military reforms shake our nation's ability to its core, but it was worth it. The hinderance of our military capability is no more, and we can operate at full capacity once again."
+ me_hurri_7.a:0 "It is time for Iron Age Maryannu."
+ me_hurri_7_tooltip:0 "The mission task '#Y $hurri_missions_task_7$#!' has now been #G Completed#!!"
+ 
+ me_hurri_8_title:0 "$hurri_missions_task_8$"
+ me_hurri_8_desc:0 ""
+ me_hurri_8.a:0 ""
+ me_hurri_8_tooltip:0 "The mission task '#Y $hurri_missions_task_8$#!' has now been #G Completed#!!"
+
+ me_hurri_9_title:0 "$hurri_missions_task_9$"
+ me_hurri_9_desc:0 "The #E Urartu#! once paid us a great service in protecting our culture" #up to you how to finish this, i just thought id give a lead--can ignore
+ me_hurri_9.a:0 ""
+ me_hurri_9_tooltip:0 "The mission task '#Y $hurri_missions_task_9$#!' has now been #G Completed#!!"
+ 
+ me_hurri_10_title:0 "$hurri_missions_task_10$"
+ me_hurri_10_desc:0 ""
+ me_hurri_10.a:0 ""
+ me_hurri_10_tooltip:0 "The mission task '#Y $hurri_missions_task_10$#!' has now been #G Completed#!!"
+ 
+ me_hurri_11_title:0 "$hurri_missions_task_11$"
+ me_hurri_11_desc:0 ""
+ me_hurri_11.a:0 ""
+ me_hurri_11_tooltip:0 "The mission task '#Y $hurri_missions_task_11$#!' has now been #G Completed#!!"
+ 
+ me_hurri_12_title:0 "$hurri_missions_task_12$"
+ me_hurri_12_desc:0 ""
+ me_hurri_12.a:0 ""
+ me_hurri_12_tooltip:0 "The mission task '#Y $hurri_missions_task_12$#!' has now been #G Completed#!!"
+ 
+ me_hurri_13_title:0 "$hurri_missions_task_13$"
+ me_hurri_13_desc:0 ""
+ me_hurri_13.a:0 ""
+ me_hurri_13_tooltip:0 "The mission task '#Y $hurri_missions_task_13$#!' has now been #G Completed#!!"
+ 
+ me_hurri_14_title:0 "$hurri_missions_task_14$"
+ me_hurri_14_desc:0 ""
+ me_hurri_14.a:0 ""
+ me_hurri_14_tooltip:0 "The mission task '#Y $hurri_missions_task_14$#!' has now been #G Completed#!!"
+ 
+ me_hurri_15_title:0 "$hurri_missions_task_15$"
+ me_hurri_15_desc:0 ""
+ me_hurri_15.a:0 ""
+ me_hurri_15_tooltip:0 "The mission task '#Y $hurri_missions_task_15$#!' has now been #G Completed#!!"
+ 
+ me_hurri_16_title:0 "$hurri_missions_task_16$"
+ me_hurri_16_desc:0 "The worship of our traditional gods has begun to impact the culture of our populace. Although many have been #E Assyrianized#! over the last several centuries, we are having much success restoring the #E Hurrian#! culture!"
+ me_hurri_16.a:0 "The blessings of #E Teshub#! are numerous indeed."
+ me_hurri_16_tooltip:0 "The mission task '#Y $hurri_missions_task_16$#!' has now been #G Completed#!!"
+ 
+ me_hurri_17_title:0 "$hurri_missions_task_17$"
+ me_hurri_17_desc:0 ""
+ me_hurri_17.a:0 ""
+ me_hurri_17_tooltip:0 "The mission task '#Y $hurri_missions_task_17$#!' has now been #G Completed#!!"
+ 
+ me_hurri_18_title:0 "$hurri_missions_task_18$"
+ me_hurri_18_desc:0 ""
+ me_hurri_18.a:0 ""
+ me_hurri_18_tooltip:0 "The mission task '#Y $hurri_missions_task_18$#!' has now been #G Completed#!!"
+ 
+ me_hurri_19_title:0 "$hurri_missions_task_19$"
+ me_hurri_19_desc:0 ""
+ me_hurri_19.a:0 ""
+ me_hurri_19_tooltip:0 "The mission task '#Y $hurri_missions_task_19$#!' has now been #G Completed#!!"
+ 
+ me_hurri_20_title:0 "$hurri_missions_task_20$"
+ me_hurri_20_desc:0 ""
+ me_hurri_20.a:0 ""
+ me_hurri_20_tooltip:0 "The mission task '#Y $hurri_missions_task_20$#!' has now been #G Completed#!!"
+ 
+ me_hurri_21_title:0 "$hurri_missions_task_20$"
+ me_hurri_21_desc:0 "The city of #E Nsvin#! is the second largest city of the #E Qardu#!. The #E Qardu#! are an interesting group, having helped peel away #E Assyrian#! influence over #E Naharin#!. Furthermore, they kept the #E Hurrian#! religion of #E Teshubic#! alive this far east. Perhaps we should grant them rights for their efforts?"
+ me_hurri_21.a:0 "Install #E Hurrians#! in the upper classes."
+ me_hurri_21.b:0 "Grant the #E Qardu#! rights."
+ me_hurri_21_tooltip:0 "The mission task '#Y $hurri_missions_task_20$#!' has now been #G Completed#!!"
+ 
+ me_hurri_22_title:0 "$hurri_missions_task_20$"
+ me_hurri_22_desc:0 ""
+ me_hurri_22.a:0 ""
+ me_hurri_22_tooltip:0 "The mission task '#Y $hurri_missions_task_20$#!' has now been #G Completed#!!"
+ 
+ me_hurri_23_title:0 "$hurri_missions_task_20$"
+ me_hurri_23_desc:0 ""
+ me_hurri_23.a:0 ""
+ me_hurri_23_tooltip:0 "The mission task '#Y $hurri_missions_task_20$#!' has now been #G Completed#!!"
+

@@ -129,3 +129,89 @@ egyptian_unification_wargoal = {
 	}
 	ticking_war_score = 0.5
 }
+gulf_war_wargoal = {
+    type = superiority
+    uses_civil_war_conquest = yes
+    allow = { #Will this show up in the declare war window.
+        #is_subject = no
+        OR = { 
+			tag = MAP
+			tag = ELM
+			tag = PES
+			tag = SEL
+			tag = ADI
+		}
+        NOT = { has_variable = epigoni } #No longer usable if you had the Epigoni event
+        has_variable = war_of_the_diadochs #Turns on after the intro event which explains what it does.
+        scope:defender = {
+            OR = {
+			tag = MAP
+			tag = ELM
+			tag = PES
+			tag = SEL
+			tag = ADI
+			}
+        }
+    }
+
+    attacker = {
+        conquer_cost = 0.6
+    }
+    defender = {
+        conquer_cost = 0.6
+    }
+    ticking_war_score = 0.5
+
+}
+
+fratricide_wargoal = {
+    type = superiority
+    uses_civil_war_conquest = yes
+    allow = { #Will this show up in the declare war window.
+        is_subject = no
+        OR = { 
+			tag = MAP
+			tag = PES
+		}
+        has_variable = fratricide_war #Turns on after the intro event which explains what it does.
+        scope:defender = {
+            OR = {
+			tag = MAP
+			tag = PES
+			}
+        }
+    }
+
+    attacker = {
+        conquer_cost = 0.6
+    }
+    defender = {
+        conquer_cost = 0.6
+    }
+    ticking_war_score = 0.5
+
+}
+
+conquer_wargoal_uparaja = {
+	type = take_province
+	allow = {
+		is_subject = yes
+		OR = {
+        primary_culture = salwan
+        primary_culture = gandhari
+        primary_culture = sindhi
+        primary_culture = brahui
+        primary_culture = purus
+        primary_culture = trigartan
+        primary_culture = shivi
+		tag = ELM
+		}
+	}
+	
+	attacker = {
+		conquer_cost = -0.25
+	}
+	defender = {
+	}
+	ticking_war_score = 1
+}

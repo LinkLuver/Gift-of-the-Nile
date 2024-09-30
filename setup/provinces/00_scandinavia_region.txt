@@ -1,0 +1,1151 @@
+﻿3855={ #Marijoniz
+	terrain="marsh"
+	culture="ingvaeonic"
+	religion="germanic_religion"
+	trade_goods="amber"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+3856={ #Theudamariskaz
+	terrain="marsh"
+	culture="ingvaeonic"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3857={ #Hultasetijo
+	terrain="plains"
+	culture="ingvaeonic"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+3859={ #Warjingijo
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+3860={ #Kinulaferthuz
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="salt"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+3861={ #Akranaferthuz
+	terrain="plains"
+	culture="ingvaeonic"
+	religion="germanic_religion"
+	trade_goods="woad"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3862={ #Angulinaz
+	terrain="plains"
+	culture="ingvaeonic"
+	religion="germanic_religion"
+	trade_goods="leather"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+3863={ #Idisistadiz
+	terrain="marsh"
+	culture="ingvaeonic"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3864={ #Tundrajaz
+	terrain="marsh"
+	culture="ingvaeonic"
+	religion="germanic_religion"
+	trade_goods="amber"
+	civilization_value=1
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+3865={ #Sundawiduz
+	terrain="forest"
+	culture="ingvaeonic"
+	religion="germanic_religion"
+	trade_goods="leather"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3866={ #Jesabergaz
+	terrain="forest"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="amber"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3867={ #Rinnonhaimaz
+	terrain="forest"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+3868={ #Raudahwo
+	terrain="forest"
+	culture="ingvaeonic"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+3869={ #Kaldungiz
+	terrain="forest"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3870={ #Hrussanasja
+	terrain="plains"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3871={ #Diuzislanda
+	terrain="plains"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="salt"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+3872={ #Rauzabekiz
+	terrain="forest"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+3873={ #Wihabergaz
+	terrain="plains"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3874={ #Hlaiwahaimawiko
+	terrain="forest"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="amber"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3875={ #Tiwastadiz
+	terrain="forest"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="salt"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	port_building=1
+}
+
+3876={ #Flunthrijonsaiwiz
+	terrain="forest"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="stone"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3877={ #Hazdaripo
+	terrain="forest"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+3878={ #Himbralanda
+	terrain="forest"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+3879={ #Skaganijo
+	terrain="forest"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="amber"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+3880={ #Wandilo
+	terrain="forest"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3881={ #Gudahaimaz
+	terrain="plains"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="amber"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+	port_building=1
+}
+
+3882={ #Fogijanaz
+	terrain="plains"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+3883={ #Wodanaswiha
+	terrain="plains"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="salt"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3884={ #Lauhalanda
+	terrain="plains"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="amber"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3885={ #Nasjathwaita
+	terrain="plains"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3886={ #Selhunda
+	terrain="plains"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	holy_site=omen_nerthus
+}
+
+3887={ #Halsingo
+	terrain="plains"
+	culture="cimbrian"
+	religion="germanic_religion"
+	trade_goods="leather"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	port_building=1
+}
+
+3888={ #Hammo
+	terrain="plains"
+	culture="ingvaeonic"
+	religion="germanic_religion"
+	trade_goods="leather"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3889={ #Trewo
+	terrain="plains"
+	culture="ingvaeonic"
+	religion="germanic_religion"
+	trade_goods="horses"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6000={ #Skadinawjo
+	terrain="plains"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="leather"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6001={ #Ihwastadiz
+	terrain="plains"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6002={ #Haslihulmaz
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="wild_game"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6003={ #Angulahulmaz
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="hemp"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6004={ #Burgundahulmaz
+	terrain="plains"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6005={ #Lidastrilanda
+	terrain="plains"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="wild_game"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+6006={ #Blaikingawjo
+	terrain="plains"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6007={ #Moriz
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="salt"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6008={ #Theustaz
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+6009={ #Awjolanda
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="salt"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+6010={ #Gutinland
+	terrain="plains"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6011={ #Hallulanda
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6012={ #Kuningahallijo
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="salt"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+6013={ #Gautagutinriki
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6014={ #Finnwaidjia
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6015={ #Werandaz
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6016={ #Thwaitjo
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6017={ #Neudungaz
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6018={ #Ihwadra
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="vegetables"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6019={ #Wikobuaz
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="woad"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6020={ #Kinthija
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6021={ #Asko
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="vegetables"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6022={ #Falakaupangaz
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6023={ #Gautalanda
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="wild_game"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6024={ #Thunrabotho
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6025={ #Truzlahattuz
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="grain"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6026={ #Sunthramannlanda
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="wild_game"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6027={ #Narikiz
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6028={ #Aurabrowo
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6029={ #Hrugjodaz
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="salt"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6030={ #Aganafetiz
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	port_building=1
+}
+
+6031={ #Lacodaz
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="woad"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6032={ #Upplanda
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="woad"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	holy_site=omen_hludana
+}
+
+6033={ #Dalaslanda
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6034={ #Ranariki
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="wild_game"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6035={ #Austrafaludaz
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="woad"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6036={ #Ahwogangija
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="hemp"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6037={ #Raumoriki
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="vegetables"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6038={ #Westrafaludaz
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="hemp"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+6039={ #Thelimarko
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="wild_game"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6040={ #Arnidala
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6041={ #Soknidala
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="woad"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+6042={ #Klempaz
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+6043={ #Karmasunda
+	terrain="forest"
+	culture="scandian"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+

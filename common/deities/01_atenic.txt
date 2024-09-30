@@ -95,3 +95,28 @@ deity_atenhotep = {
 		war_apotheosis_martial_tech_effect = yes
 	}
 }
+
+deity_sekhtaten = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = aten_religion
+			}
+			deity:omen_sekhtaten = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_kemetic_wealth_2
+	passive_modifier = { supply_limit_modifier = 0.20 }
+	omen = { global_commerce_modifier = 0.15 } #Bonus from Omen
+	religion = aten_religion
+	deity_category = economy #This Deity uses a Culture slot.
+	deification_trigger = {
+		can_deify_trigger = no
+	}
+
+	on_activate = {
+		economy_income_effect = yes
+	}
+}

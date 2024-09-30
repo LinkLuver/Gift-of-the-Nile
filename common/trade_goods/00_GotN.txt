@@ -1,0 +1,82 @@
+﻿rice = {
+	category = 1
+
+	gold = 0.2
+	
+	province = { 
+		local_monthly_food = 7
+	}
+	
+	country = { 
+		global_monthly_food_modifier = 0.05
+	}
+	
+	color = rgb { 252 240 31 }
+}
+
+wootz_steel = {
+	category = 0
+	gold = 0.5
+	province = {
+		local_tax_modifier = 0.02
+	}
+	country = {
+		heavy_infantry_offensive = 0.1
+		light_infantry_offensive = 0.1
+		spearmen_offensive = 0.1
+	}
+	
+	color = rgb { 108 108 108 }
+}
+
+ebony = {
+	category = 3
+	gold = 0.4
+	province = {
+		local_base_trade_routes_modifier = 0.05
+	}
+	country = {
+		global_manpower_modifier = 0.025
+	}
+	
+	color = rgb { 21 12 13 }
+}
+
+pearls = {
+	category = 4
+	gold = 0.35
+	province = {
+		local_freemen_output = 0.03
+	}
+	country = {
+		diplomatic_range_modifier = 0.1
+	}
+	
+	color = rgb { 186 193 251 }
+}
+
+obsidian = {
+	category = 2
+	gold = 0.5
+	province = {
+		local_nobles_output = 0.03
+	}
+	country = {
+		global_nobles_city_desired_pop_ratio = 0.035
+	}
+	
+	color = rgb { 16 17 19 }
+}
+
+feathers = {
+	category = 5
+	gold = 0.25
+	province = {
+		local_tribesmen_output = 0.05
+	}
+	country = {
+		global_pop_promotion_speed_modifier = 0.15
+	}
+	
+	color = rgb { 182 160 255 }
+}

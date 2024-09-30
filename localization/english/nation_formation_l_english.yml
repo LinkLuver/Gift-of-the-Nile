@@ -471,3 +471,10 @@
  kush_claims_tooltip:0 "$KSH$ will gain Claims on the region of #Y $nubia_region$#!."
  KSH:0 "Kush"
  KSH_ADJECTIVE:0 "Kushite"
+ #Canaan
+ form_canaan:0 "Unite Canaan"
+ form_canaan_desc:0 "The peoples of Canaan have never stood as a unified state, much to their detriment in light of our close proximity to Egypt and the rise of the Hebrew tribes, but the old ways of Canaan have not yet been extinguished. Let us bring forth the glory of Ba'al, and bring the Canaanites to lead their own powerful state!"
+ canaan_changes_pantheon_tt:0 "If $CANAAN_FORMABLE_NAME$ is of any other religion, you will switch to the #Y $carthaginian_pantheon$#! faith."
+ CANAAN_FORMABLE_NAME:0 "Kena'an"
+ CANAAN_FORMABLE_ADJECTIVE:0 "Canaanite" 
+ canaan_formable_claim_tt:0 "Canaan will gain claims over the regions of #Y $palestine_region$#! and #Y $syria_region$#!"

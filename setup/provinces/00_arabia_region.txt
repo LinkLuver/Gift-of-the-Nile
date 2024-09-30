@@ -50,7 +50,7 @@
 	}
 }
 
-944={ #Arethousa
+944={ #Akkaz
 	terrain="desert"
 	culture="gerrhan"
 	religion="elamite_pantheon"
@@ -565,7 +565,7 @@
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
-	trade_goods="salt"
+	trade_goods="pearls"
 	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
@@ -1009,7 +1009,7 @@
 5400={ #Mahzul
 	terrain="desert"
 	culture="dilmunite"
-	religion="mesopotamian_religion"
+	religion="arabian_pantheon"
 	trade_goods="wild_game"
 	civilization_value=5
 	barbarian_power=0
@@ -1022,7 +1022,7 @@
 5401={ #Hamatiyat
 	terrain="desert"
 	culture="dilmunite"
-	religion="mesopotamian_religion"
+	religion="arabian_pantheon"
 	trade_goods="leather"
 	civilization_value=5
 	barbarian_power=0
@@ -1279,7 +1279,7 @@
 	terrain="hills"
 	culture="makan"
 	religion="arabian_pantheon"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
@@ -1434,7 +1434,7 @@
 	}
 }
 
-7197={ #Itamos
+7197={ #Mallaba
 	terrain="desert"
 	culture="gerrhan"
 	religion="arabian_pantheon"
@@ -1534,7 +1534,7 @@
 	terrain="plains"
 	culture="dilmunite"
 	religion="mesopotamian_religion"
-	trade_goods="gems"
+	trade_goods="pearls"
 	civilization_value=32
 	barbarian_power=0
 	province_rank="city"
@@ -1644,7 +1644,7 @@
 	terrain="desert"
 	culture="makan"
 	religion="mesopotamian_religion"
-	trade_goods="camel"
+	trade_goods="pearls"
 	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
@@ -1741,7 +1741,7 @@
 	terrain="desert"
 	culture="makan"
 	religion="arabian_pantheon"
-	trade_goods="fish"
+	trade_goods="pearls"
 	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
@@ -1965,6 +1965,26 @@
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7566={ #Arabia Deserta
+	terrain="desert"
+	culture="qedarite"
+	religion="mesopotamian_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7567={ #Arabia Deserta
+	terrain="desert"
+	culture="babylonian"
+	religion="mesopotamian_religion"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2802,7 +2822,7 @@
 	terrain="plains"
 	culture="dilmunite"
 	religion="arabian_pantheon"
-	trade_goods="dye"
+	trade_goods="pearls"
 	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
@@ -2979,7 +2999,7 @@
 	terrain="desert_hills"
 	culture="thamudi"
 	religion="arabian_pantheon"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"

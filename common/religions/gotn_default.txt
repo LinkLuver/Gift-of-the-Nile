@@ -1,4 +1,4 @@
-﻿# Neo-Axial Age
+﻿# Egypt Religions
 aten_religion = { # Atenic
 	color = hsv { 0.2  0.5  1 }
 	modifier = { 
@@ -18,40 +18,40 @@ sobek_religion = { # Sobekite
 		global_monthly_civilization = 0.02
 		character_loyalty = -3
 	}
+	religion_category = sages
+	can_deify_ruler = yes
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+amun_religion = { # Ammonism
+	color = hsv { 0.01  0.9  0.25 }
+	modifier = { 
+		oasis_combat_bonus = 0.08
+		omen_power = 0.10
+		pop_food_consumption = 0.03
+	}
 	religion_category = pantheon
 	can_deify_ruler = yes
 	sacrifice_icon = sacrifice_incense
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
-#isis_religion = { # Assetic
-#	color = hsv { 0.3  0.8  1 }
-#	modifier = { 
-#		ruler_popularity_gain = 0.08
-#		global_monthly_civilization = 0.02
-#		character_loyalty = -3
-#	}
-#	religion_category = prophets
-#	can_deify_ruler = yes
-#	sacrifice_icon = sacrifice_incense
-#	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
-#}
-#ashur_religion = { # Asshuric
-#	color = hsv { 0.5 1.0 0.5 }
-#	modifier = { 
-#		agressive_expansion_impact = -0.1
-#		global_defensive = 0.1
-#		general_loyalty = -3
-#	}
-#	religion_category = prophets
-#}
-
-#Polytheist
 kushite_pantheon = { # Kushitic
 	color = rgb { 120 60 10 }
 	modifier = { 
 		build_cost = -0.05
 		country_civilization_value = 3.0
 		fort_maintenance_cost = 0.05
+	}
+	religion_category = pantheon
+}
+
+# Persio-Potamian-Anatolio-Levantine
+ashur_religion = { # Elishite
+	color = rgb { 220 130 10 }
+	modifier = { 
+		agressive_expansion_impact = -0.1
+		global_defensive = 0.1
+		general_loyalty = -3
 	}
 	religion_category = pantheon
 }
@@ -63,6 +63,17 @@ zurvan_religion = { # Zurvanism
 		global_pop_promotion_speed_modifier = -0.05
 		global_pop_conversion_speed_modifier = 0.20
 	}
+}
+vaksh_religion = { # Vakshic
+	color = hsv { 0.03 0.7 0.7 }
+	modifier = {
+		global_commerce_modifier = 0.05
+		enact_holy_site_cost_modifier = -0.1
+		army_maintenance_cost = 0.05
+	}
+	religion_category = pantheon
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
 elamite_pantheon = { # Haltamic
 	color = rgb { 190 35 30 }
@@ -81,4 +92,207 @@ hurrian_pantheon = { # Teshubic
 		general_loyalty = -5
 	}
 	religion_category = pantheon
+}
+
+# Indian Religions
+buddhism = { # Buddhism
+	color = hsv { 0.15 0.7 1 }
+	modifier = { 
+		global_pop_conversion_speed_modifier = 0.25
+		happiness_for_same_religion_modifier = 0.05
+		war_score_cost = 0.05
+	}
+	religion_category = sages
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+jainism = { # Jain
+	color = hsv { 0.7 0.2 0.2 }
+	modifier = { 
+		global_pop_conversion_speed_modifier = 0.25
+		improve_relation_impact = 0.25
+		war_score_cost = 0.05
+	}
+	religion_category = sages
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+ajivika = { # Ajivika
+	color = rgb { 26 173 0 }
+	modifier = { 
+		global_pop_conversion_speed_modifier = 0.25
+		global_population_growth = 0.05
+		war_score_cost = 0.05
+	}
+	religion_category = sages
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+charvaka = { # Carvaka
+	color = rgb { 100 100 100 }
+	modifier = {
+		happiness_for_same_religion_modifier = -0.05
+		global_pop_conversion_speed_modifier = 0.3
+		research_points_modifier = 0.10
+	}
+	religion_category = sages
+}
+ajnana = { # Ajnana
+	color = rgb { 140 18 100 }
+	modifier = {
+		global_pop_conversion_speed_modifier = 0.25
+		global_freemen_output = 0.10
+		global_population_happiness = -0.02
+	}
+	religion_category = sages
+}
+kassapan = { # Niskriyavada
+	color = rgb { 10 50 250 }
+	modifier = {
+		light_infantry_discipline = 0.05
+		global_freemen_output = 0.10
+		civil_war_threshold = -0.025
+	}
+	religion_category = sages
+}
+sassatavada = { # Sassatavada
+	color = rgb { 250 13 18 }
+	modifier = {
+		global_monthly_civilization = 0.02
+		monthly_political_influence_modifier = 0.05
+		build_cost = 0.05
+	}
+	religion_category = sages
+}
+masto_pantheon = { # Mastoic
+	color = hsv { 0.1 0.6 0.75 }
+	modifier = {
+		global_pop_conversion_speed_modifier = 0.25
+		hostile_attrition = 2
+		monthly_centralization = -0.03
+		monthly_legitimacy = -0.02
+		monthly_party_approval = -0.01
+	}
+	religion_category = pantheon
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+sarna_pantheon = { # Sarnaism
+	color = hsv { 0.4 0.2 0.8 }
+	modifier = {
+		global_pop_conversion_speed_modifier = 0.25
+		global_tribesmen_output = 0.10
+		monthly_centralization = -0.03
+		monthly_legitimacy = -0.02
+		monthly_party_approval = -0.01
+	}
+	religion_category = pantheon
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+
+# China
+
+taoism = { # Daoism
+	color = hsv { 0.33 0.9 0.22 }
+	modifier = {
+		global_population_growth = 0.05
+		manpower_recovery_speed = 0.05
+		war_exhaustion = 0.05
+	}
+	religion_category = sages
+}
+
+#Invictus Ports
+eastern_animism = { # Swanco
+	color = hsv { 0.8 0.35 0.54 }
+	modifier = { 
+		omen_power = 0.1
+		global_population_happiness = 0.03
+		fort_maintenance_cost = 0.1
+	}
+	religion_category = pantheon
+}
+armenian_religion = { # Khaldic
+	color = { 0.00 0.3 0.1 }
+	modifier = { 
+		global_freemen_output = output_small_svalue 
+		heavy_cavalry_morale = 0.05
+		heavy_cavalry_maintenance_cost = 0.1
+	}
+	religion_category = pantheon
+}
+
+#Philosophos Religions
+isis_religion = { # Orphism
+	color = hsv { 0.9  0.9  0.3 }
+	modifier = { 
+		happiness_for_same_religion_modifier = 0.05
+		build_cost = -0.075
+		global_pop_assimilation_speed_modifier = -0.025
+	}
+	religion_category = sages
+	can_deify_ruler = yes
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+hermes_religion = { # Hermetic
+	color = hsv { 0.3  0.8  1 }
+	modifier = { 
+		ruler_popularity_gain = 0.08
+		global_monthly_civilization = 0.02
+		character_loyalty = -3
+	}
+	religion_category = sages
+	can_deify_ruler = yes
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+epicureanism = { # Epicureanist
+	color = rgb { 250 100 210 }
+	modifier = { 
+		global_citizen_happyness = 0.10
+		global_freemen_output = 0.10
+		global_manpower_modifier = -0.10
+	}
+	religion_category = sages
+	can_deify_ruler = yes
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+platonism = { # Platonist
+	color = rgb { 30 100 250 }
+	modifier = { 
+		global_citizen_output = 0.10
+		country_civilization_value = 0.05
+		global_freemen_happyness = -0.05
+	}
+	religion_category = sages
+	can_deify_ruler = yes
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+stoicism = { # Stoicist
+	color = rgb { 30 200 100 }
+	modifier = { 
+		monthly_corruption = -0.01
+		happiness_for_same_culture_modifier = 0.05
+		global_slaves_output = -0.05
+	}
+	religion_category = sages
+	can_deify_ruler = yes
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+pyrrhonism = { # Skeptic
+	color = rgb { 235 60 10 }
+	modifier = { 
+		global_pop_conversion_speed_modifier = 0.25
+		global_citizen_output = 0.10
+		global_population_happiness = -0.02
+	}
+	religion_category = sages
+	can_deify_ruler = yes
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }

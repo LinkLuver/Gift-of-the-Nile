@@ -91,26 +91,18 @@ media_legion_setup_effect = {
 				add_subunit = heavy_cavalry
 				add_subunit = heavy_cavalry
 				add_subunit = heavy_cavalry
-				add_subunit = light_cavalry
-				add_subunit = light_cavalry
-				add_subunit = light_cavalry
-				add_subunit = light_cavalry
 				add_subunit = heavy_infantry
 				add_subunit = heavy_infantry
-				add_subunit = light_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
 				add_subunit = heavy_cavalry
 				add_subunit = heavy_cavalry
 				add_subunit = heavy_cavalry
 				add_subunit = heavy_cavalry
-				add_subunit = light_cavalry
-				add_subunit = light_cavalry
-				add_subunit = light_cavalry
-				add_subunit = light_cavalry
+				add_subunit = horse_archers
+				add_subunit = horse_archers
 				add_subunit = heavy_infantry
 				add_subunit = heavy_infantry
-				add_subunit = light_infantry
-				add_subunit = engineer_cohort
-				add_subunit = supply_train
 				add_subunit = supply_train
 			}
 			if = {
@@ -139,7 +131,6 @@ persia_legion_setup_effect = {
 				add_subunit = heavy_infantry
 				add_subunit = light_infantry
 				add_subunit = light_infantry
-				add_subunit = light_cavalry
 				add_subunit = light_cavalry
 				add_subunit = light_cavalry
 				add_subunit = light_cavalry
@@ -239,42 +230,6 @@ waset_legion_setup_effect = {
 				limit = { has_dlc = "Heirs of Alexander" }
 				add_distinction = distinction_legio_primagena
 			}
-		}
-	}
-}
-### Event Effects GOTN ###
-##Take Care to add to bastard_major_bloodline_effect below as well 
-pass_down_traits_effect_gotn = {
-	scope:newborn = {
-		if = {
-			limit = {
-				is_alive = yes
-				exists = mother
-				mother = {
-					has_trait = thutmosid
-				}
-				NOT = {
-					has_trait = thutmosid
-				}
-			}
-			add_trait = thutmosid
-		}
-	}
-}
-pass_down_traits_effect_gotn = {
-	scope:newborn = {
-		if = {
-			limit = {
-				is_alive = yes
-				exists = mother
-				mother = {
-					has_trait = ahmesid
-				}
-				NOT = {
-					has_trait = ahmesid
-				}
-			}
-			add_trait = ahmesid
 		}
 	}
 }

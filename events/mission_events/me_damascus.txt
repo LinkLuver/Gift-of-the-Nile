@@ -1,0 +1,874 @@
+﻿namespace = me_damascus
+
+me_damascus.1 = {
+    type = country_event
+
+    title = me_damascus_1_title
+    desc = me_damascus_1_desc
+    picture = great_library
+
+    immediate = {
+        random_country = {
+            limit = {
+                tag = PAL
+            }
+            save_scope_as = tadmor_scope
+        }
+        random_country = {
+            limit = {
+                tag = AGU
+            }
+            save_scope_as = agushi_scope
+        }
+        add_treasury = -100
+    }
+
+    option = {
+        name = "me_damascus_1.a"
+        custom_tooltip = send_invite
+        trigger_event = {
+            id = me_damascus.105
+            days = 30
+        }
+        scope:tadmor_scope = {
+            trigger_event = {
+                id = me_damascus.102
+                days = 15
+            }
+        }
+        scope:agushi_scope = {
+            trigger_event = {
+                id = me_damascus.102
+                days = 15
+            }
+        }
+    }
+}
+me_damascus.102 = { # Invite from Damascus
+    type = country_event
+
+    title = me_damascus_102_title
+    desc = me_damascus_102_desc
+    picture = great_library
+
+    immediate = {
+        add_treasury = 50
+    }
+    option = {
+        name = "me_damascus_102.b"
+        trigger = {
+            is_ai = yes
+            ROOT = {
+                any_allied_country = {
+                    tag = HAM
+                }
+            }
+        }
+        custom_tooltip = join_pan_aram_congress_no
+        exclusive = yes
+    }
+    option = {
+        name = "me_damascus_102.a"
+        custom_tooltip = join_pan_aram_congress_yes
+        if = {
+            limit = {
+                tag = PAL
+            }
+            add_country_modifier = {
+                name = tadmor_joined
+                duration = 7300
+            }
+            c:PRY = {
+                trigger_event = {
+                    id = me_damascus.103
+                    days = { 1 5 }
+                }
+            }
+        }
+        if = {
+            limit = {
+                tag = AGU
+            }
+            add_country_modifier = {
+                name = agushi_joined
+                duration = 7300
+            }
+            c:PRY = {
+                trigger_event = {
+                    id = me_damascus.104
+                    days = { 1 5 }
+                }
+            }
+        }
+        ai_chance = {
+            base = 100
+        }
+    }
+    option = {
+        name = "me_damascus_102.b"
+        custom_tooltip = join_pan_aram_congress_no
+        ai_chance = {
+            base = 0
+        }
+    }
+}
+me_damascus.103 = { # Tadmor Joins
+    type = minor_country_event
+    title = me_damascus_103_title
+    desc = me_damascus_103_desc
+    left_portrait = scope:tadmor_scope.current_ruler
+    interface_lock = no
+
+    option = {
+        name = "me_damascus_103.a"
+        add_country_modifier = {
+            name = tadmor_joined
+            duration = 7300
+        }
+        add_alliance = scope:tadmor_scope
+    }
+}
+me_damascus.104 = { # Agushi Joins
+    type = minor_country_event
+    title = me_damascus_104_title
+    desc = me_damascus_104_desc
+    left_portrait = scope:agushi_scope.current_ruler
+    interface_lock = no
+
+    option = {
+        name = "me_damascus_103.a"
+        add_country_modifier = {
+            name = agushi_joined
+            duration = 7300
+        }
+        add_alliance = scope:agushi_scope
+    }
+}
+me_damascus.105 = { # Invite Syrions
+    type = country_event
+    title = me_damascus_105_title
+    desc = me_damascus_105_desc
+    picture = great_library
+
+    immediate = {
+        random_country = {
+            limit = {
+                tag = AKH
+            }
+            save_scope_as = alalakh_scope
+        }
+        random_country = {
+            limit = {
+                tag = UGR
+            }
+            save_scope_as = ugarit_scope
+        }
+        random_country = {
+            limit = {
+                tag = ARA
+            }
+            save_scope_as = arados_scope
+        }
+    }
+
+    option = {
+        custom_tooltip = invite_syrion_1
+        trigger = {
+            scope:alalakh_scope = {
+                has_land = yes
+            }
+        }
+        name = "me_damascus_105.a"
+        scope:alalakh_scope = {
+            trigger_event = {
+               id = me_damascus.106
+               days = 5
+            }
+        }
+    }
+    option = {
+        custom_tooltip = invite_syrion_2
+        trigger = {
+            scope:ugarit_scope = {
+                has_land = yes
+            }
+        }
+        scope:ugarit_scope = {
+            trigger_event = {
+               id = me_damascus.106
+               days = 5
+            }
+        }
+        name = "me_damascus_105.b"
+    }
+    option = {
+        custom_tooltip = invite_syrion_3
+        trigger = {
+            scope:arados_scope = {
+                has_land = yes
+            }
+        }
+        scope:arados_scope = {
+            trigger_event = {
+               id = me_damascus.106
+               days = 5
+            }
+        }
+        name = "me_damascus_105.c"
+    }
+}
+me_damascus.106 = { # Selected Syrion Response
+    type = country_event
+    title = me_damascus_106_title
+    desc = me_damascus_106_desc
+    picture = great_library
+
+    immediate = {
+        set_variable = syrion_var
+    }
+
+    option = {
+        name = "me_damascus_106.b"
+        trigger = {
+            is_ai = yes
+            ROOT = {
+                any_allied_country = {
+                    tag = HAM
+                }
+            }
+        }
+        custom_tooltip = join_pan_aram_congress_no
+        exclusive = yes
+    }
+
+    option = {
+        name = "me_damascus_106.a"
+        custom_tooltip = join_pan_aram_congress_yes
+        c:PRY = { trigger_event = me_damascus.107 }
+        add_country_modifier = {
+            name = syrion_joined
+            duration = 7300
+        }
+        ai_chance = {
+            base = 100
+        }
+    }
+    option = {
+        name = "me_damascus_106.b"
+        custom_tooltip = join_pan_aram_congress_no
+        ai_chance = {
+            base = 0
+        }
+    }
+}
+me_damascus.107 = { # Syrion Joins
+    type = minor_country_event
+    title = me_damascus_107_title
+    desc = me_damascus_107_desc
+    left_portrait = c:PRY.current_ruler
+    interface_lock = no
+
+    option = {
+        name = "me_damascus_107.a"
+        if = {
+            limit = {
+                scope:alalakh_scope = {
+                    has_variable = syrion_var
+                }
+            }
+            add_alliance = scope:alalakh_scope
+        }
+        if = {
+            limit = {
+                scope:ugarit_scope = {
+                    has_variable = syrion_var
+                }
+            }
+            add_alliance = scope:ugarit_scope
+        }
+        if = {
+            limit = {
+                scope:arados_scope = {
+                    has_variable = syrion_var
+                }
+            }
+            add_alliance = scope:arados_scope
+        }
+        add_country_modifier = {
+            name = syrion_joined
+            duration = 7300
+        }
+    }
+}
+me_damascus.101 = {
+    type = country_event
+
+    title = me_damascus_1_title
+    desc = me_damascus_1_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_1.a"
+        custom_tooltip = me_damascus_1_tooltip
+
+    }
+}
+me_damascus.2 = {
+    type = country_event
+
+    title = me_damascus_2_title
+    desc = me_damascus_2_desc
+    picture = council_country
+
+    option = {
+        name = "me_damascus_2.a"
+        custom_tooltip = me_damascus_2_tooltip
+        custom_tooltip = add_claims_canaan_tt
+        hidden_effect = {
+            region:palestine_region = {
+                every_region_province = {
+                    add_claim = ROOT
+                }
+            }
+        }
+        add_treasury = -50
+    }
+}
+me_damascus.3 = {
+    type = country_event
+
+    title = me_damascus_3_title
+    desc = me_damascus_3_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_3.a"
+        custom_tooltip = me_damascus_3_tooltip
+        add_political_influence = -50
+        add_aggressive_expansion = 2.5
+        add_tyranny = 3
+        c:GAL = {
+            every_owned_province = {
+                set_owned_by = ROOT
+            }
+        }
+        every_country = {
+            limit = {
+                religion = judaism
+                NOT = { is_subject = yes }
+            }
+            add_opinion = {
+                modifier = direct_control_of_canaan
+                target = c:AMM
+            }
+        }
+    }
+}
+me_damascus.4 = {
+    type = country_event
+
+    title = me_damascus_4_title
+    desc = me_damascus_4_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_4.a"
+        custom_tooltip = me_damascus_4_tooltip
+        add_country_modifier = {
+            name = invasion_prepped_mod
+            duration = 1825
+        }
+    }
+}
+me_damascus.5 = {
+    type = country_event
+
+    title = me_damascus_5_title
+    desc = me_damascus_5_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_5.a"
+        custom_tooltip = me_damascus_5_tooltip
+
+    }
+}
+me_damascus.6 = {
+    type = country_event
+
+    title = me_damascus_6_title
+    desc = me_damascus_6_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_6.a"
+        custom_tooltip = me_damascus_6_tooltip
+
+    }
+}
+me_damascus.7 = {
+    type = country_event
+
+    title = me_damascus_7_title
+    desc = me_damascus_7_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_7.a"
+        custom_tooltip = me_damascus_7_tooltip
+
+    }
+}
+me_damascus.8 = {
+    type = country_event
+
+    title = me_damascus_8_title
+    desc = me_damascus_8_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_8.a"
+        custom_tooltip = me_damascus_8_tooltip
+
+    }
+}
+me_damascus.9 = {
+    type = country_event
+
+    title = me_damascus_9_title
+    desc = me_damascus_9_desc
+    picture = diadochi_new_city_founded
+
+    option = {
+        name = "me_damascus_9.a"
+        custom_tooltip = me_damascus_9_tooltip
+        c:GAL = {
+            add_country_modifier = {
+                name = gal_mil_eco_mod
+                duration = -1
+            }
+        }
+    }
+}
+me_damascus.10 = {
+    type = country_event
+
+    title = me_damascus_10_title
+    desc = me_damascus_10_desc
+    picture = greeks_marching
+
+    immediate = {
+        random_country = {
+            limit = {
+                tag = JUD
+            }
+            save_scope_as = scope_jew
+        }
+        random_country = {
+            limit = {
+                tag = SMA
+            }
+            save_scope_as = scope_sam
+        }
+    }
+
+    option = {
+        name = "me_damascus_10.a"
+        custom_tooltip = me_damascus_10_tooltip
+        declare_war_with_wargoal = {
+            war_goal = conquer_wargoal
+            target = scope:scope_jew
+            province = p:687
+        }
+        declare_war_with_wargoal = {
+            war_goal = conquer_wargoal
+            target = scope:scope_sam
+            province = p:684
+        }
+        add_political_influence = -25
+    }
+}
+me_damascus.11 = {
+    type = country_event
+
+    title = me_damascus_11_title
+    desc = me_damascus_11_desc
+    picture = greeks_marching
+
+    immediate = {
+        random_country = {
+            limit = {
+                tag = AMM
+            }
+            save_scope_as = scope_amm
+        }
+        random_country = {
+            limit = {
+                tag = MOA
+            }
+            save_scope_as = scope_moa
+        }
+    }
+
+    option = {
+        name = "me_damascus_11.a"
+        custom_tooltip = me_damascus_11_tooltip
+        declare_war_with_wargoal = {
+            war_goal = conquer_wargoal
+            target = scope:scope_amm
+            province = p:718
+        }
+        declare_war_with_wargoal = {
+            war_goal = conquer_wargoal
+            target = scope:scope_moa
+            province = p:717
+        }
+        add_political_influence = -25
+    }
+}
+me_damascus.12 = {
+    type = country_event
+
+    title = me_damascus_12_title
+    desc = me_damascus_12_desc
+    picture = great_library
+
+    immediate = {
+        random_subject = {
+            limit = {
+                tag = GAL
+            }
+            save_scope_as = gal_scope
+        }
+    }
+
+    option = {
+        name = "me_damascus_12.a"
+        custom_tooltip = me_damascus_12_tooltip
+        scope:gal_scope = {
+            custom_tooltip = "tier_2_formable_tooltip"
+            change_country_name = "ISRAEL_FORMABLE_NAME"
+            monarchy_formable_government_change_effect = yes
+            capital_scope = {
+                capital_formable_small_effect = yes
+            }
+            add_3_free_province_investments = yes
+            hidden_effect = {
+                change_country_adjective = "ISRAEL_FORMABLE_ADJECTIVE"
+                #change_country_color =  "israel_color"
+                change_country_tag = ISR
+                #change_country_flag = ISRAEL_FLAG
+                change_government = judean_empire
+                if = {
+                    limit = {
+                        NOT = {
+                            any_character = {
+                                is_co_ruler = yes
+                                has_same_family = char:150
+                                is_head_of_family = yes
+                            }
+                        }
+                    }
+                    random_character = {
+                        limit = {
+                            is_head_of_family = yes
+                            has_same_family = char:150
+                        }
+                        save_scope_as = new_judean_co_ruler
+                    }
+                    random_character = {
+                        limit = {
+                            is_co_ruler = yes
+                        }
+                        save_scope_as = misery_for_me
+                        remove_all_positions = yes
+                        move_country = c:MER
+                    }
+                    set_as_coruler = scope:new_judean_co_ruler
+                }
+
+                trigger_event = {
+                    id = judea_inv.52
+                    days = 1
+                }
+            }
+        }
+        area:judea_area = {
+            every_area_province = {
+                set_owned_by = scope:gal_scope
+            }
+        }
+        area:samaria_area = {
+            every_area_province = {
+                limit = {
+                    NOR = {
+                        province_id = 665
+                        province_id = 664
+                        province_id = 663
+                    }  
+                }
+                set_owned_by = scope:gal_scope
+            }
+        }
+    }
+    option = {
+        name = "me_damascus_12.b"
+        custom_tooltip = me_damascus_12_tooltip
+        scope:gal_scope = {
+            custom_tooltip = "tier_2_formable_tooltip"
+            change_country_name = "ISRAEL_FORMABLE_NAME"
+            monarchy_formable_government_change_effect = yes
+            capital_scope = {
+                capital_formable_small_effect = yes
+            }
+            add_3_free_province_investments = yes
+            hidden_effect = {
+                change_country_adjective = "ISRAEL_FORMABLE_ADJECTIVE"
+                #change_country_color =  "israel_color"
+                change_country_tag = ISR
+                #change_country_flag = ISRAEL_FLAG
+                change_government = judean_empire
+                if = {
+                    limit = {
+                        NOT = {
+                            any_character = {
+                                is_co_ruler = yes
+                                has_same_family = char:150
+                                is_head_of_family = yes
+                            }
+                        }
+                    }
+                    random_character = {
+                        limit = {
+                            is_head_of_family = yes
+                            has_same_family = char:150
+                        }
+                        save_scope_as = new_judean_co_ruler
+                    }
+                    random_character = {
+                        limit = {
+                            is_co_ruler = yes
+                        }
+                        save_scope_as = misery_for_me
+                        remove_all_positions = yes
+                        move_country = c:MER
+                    }
+                    set_as_coruler = scope:new_judean_co_ruler
+                }
+
+                trigger_event = {
+                    id = judea_inv.52
+                    days = 1
+                }
+            }
+        }
+        area:judea_area = {
+            every_area_province = {
+                set_owned_by = scope:gal_scope
+            }
+        }
+        area:samaria_area = {
+            every_area_province = {
+                limit = {
+                    NOR = {
+                        province_id = 665
+                        province_id = 664
+                        province_id = 663
+                    }  
+                }
+                set_owned_by = scope:gal_scope
+            }
+        }
+        area:galilee_area = {
+            every_area_province = {
+                limit = {
+                    NOR = {
+                        province_id = 667
+                        province_id = 668
+                        province_id = 666
+                        province_id = 670
+                    }  
+                }
+                set_owned_by = scope:gal_scope
+            }
+        }
+        area:peraea_area = {
+            every_area_province = {
+                limit = {
+                    NOR = {
+                        province_id = 709
+                        province_id = 700
+                        province_id = 699
+                        province_id = 698
+                    }  
+                }
+                set_owned_by = scope:gal_scope
+            }
+        }
+        p:718 = { set_owned_by = scope:gal_scope }
+        p:721 = { set_owned_by = scope:gal_scope }
+        p:675 = { set_owned_by = scope:gal_scope }
+    }
+}
+me_damascus.13 = {
+    type = country_event
+
+    title = me_damascus_13_title
+    desc = me_damascus_13_desc
+    picture = great_library
+
+    immediate = {
+        set_variable = damascus_friends
+    }
+
+    option = {
+        name = "me_damascus_13.a"
+        custom_tooltip = me_damascus_13_tooltip
+        if = {
+            limit = {
+                NOT = { has_variable = damascus_friends }
+            }
+            set_variable = damascus_friends
+        }
+        if = {
+            limit = {
+                has_variable = damascus_friends
+            }
+            add_country_modifier = {
+                name = samaria_friends
+                duration = -1
+            }
+            remove_variable = damascus_friends
+        }
+    }
+}
+me_damascus.14 = {
+    type = country_event
+
+    title = me_damascus_14_title
+    desc = me_damascus_14_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_14.a"
+        custom_tooltip = me_damascus_14_tooltip
+        if = {
+            limit = {
+                NOT = { has_variable = damascus_friends }
+            }
+            set_variable = damascus_friends
+        }
+        if = {
+            limit = {
+                has_variable = damascus_friends
+            }
+            add_country_modifier = {
+                name = samaria_friends
+                duration = -1
+            }
+            remove_variable = damascus_friends
+        }
+    }
+}
+me_damascus.15 = {
+    type = country_event
+
+    title = me_damascus_15_title
+    desc = me_damascus_15_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_15.a"
+        custom_tooltip = me_damascus_15_tooltip
+    }
+}
+
+me_damascus.16 = {
+    type = country_event
+
+    title = me_damascus_16_title
+    desc = me_damascus_16_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_16.a"
+        custom_tooltip = me_damascus_16_tooltip
+    }
+}
+
+me_damascus.17 = {
+    type = country_event
+
+    title = me_damascus_17_title
+    desc = me_damascus_17_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_17.a"
+        custom_tooltip = me_damascus_17_tooltip
+        add_country_modifier = {
+            name = restorers_of_legacy
+            duration = -1
+        }
+    }
+}
+
+me_damascus.18 = {
+    type = country_event
+
+    title = me_damascus_18_title
+    desc = me_damascus_18_desc
+    picture = great_library
+
+    immediate = {
+        hidden_effect = {
+            region:syria_region = {
+                every_region_province = {
+                    add_claim = root
+                }
+            }
+        }
+        custom_tooltip = claims_on_all_syria_tt
+    }
+
+    option = {
+        name = "me_damascus_18.a"
+        custom_tooltip = me_damascus_18_tooltip
+        make_subject = {
+            target = c:AGU
+            type = feudatory
+        }
+        p:7985 = { set_owned_by = c:AGU }
+        p:797 = { set_owned_by = c:AGU }
+        p:793 = { set_owned_by = c:AGU }
+        p:791 = { set_owned_by = c:AGU }
+        p:787 = { set_owned_by = c:AGU }
+        p:792 = { set_owned_by = c:AGU }
+        p:794 = { set_owned_by = c:AGU }
+        p:852 = { set_owned_by = c:AGU }
+        p:812 = { set_owned_by = c:AGU }
+    }
+    option = {
+        name = "me_damascus_18.b"
+        custom_tooltip = me_damascus_18_tooltip
+        c:AGU = {
+            add_opinion = {
+                modifier = opinion_dishonored_alliance
+                target = ROOT
+            }
+        }
+    }
+}
+
+me_damascus.19 = {
+    type = country_event
+
+    title = me_damascus_19_title
+    desc = me_damascus_19_desc
+    picture = great_library
+
+    option = {
+        name = "me_damascus_19.a"
+        custom_tooltip = me_damascus_19_tooltip
+    }
+}

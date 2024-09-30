@@ -1,0 +1,882 @@
+﻿persis_mission_1_freedom = {
+    header = "persia_mission"
+    icon = "egypt_3"
+
+    repeatable = no
+
+    chance = {
+		factor = 100
+	}
+
+    potential = {
+    	tag = PES
+    	NOT = { has_variable = persis_missions_cooldown }
+    }
+
+    abort = {
+        ai_mission_back_out_trigger = yes
+    }
+
+    on_start = {
+   		start_mission_ai_effect = yes
+   	}
+
+    on_abort = {
+        custom_tooltip = general_mission_cooldown_tt
+        set_variable = {
+            name = persis_missions_cooldown
+            days = 7300
+        }
+    }
+
+    on_completion = {
+		complete_mission_effect = yes
+        trigger_event = me_persis.28
+	}
+
+    persis_mission_1_freedom_task_1 = { #Restore Persepolis
+        icon = "task_diplomatic"
+
+        highlight = {
+            scope:province = {
+                this = p:4799
+            }
+        }
+
+        allow = {
+            #  (Persepolis has a Academy, Court of Law, Tax Office, and Training Camp)
+            p:4799 = {
+                num_of_academy_building >= 1
+                num_of_court_building >= 1
+                num_of_town_hall_building >= 1
+                num_of_military_building >= 1
+                has_no_ongoing_construction = yes
+            }
+        }
+
+        on_completion = {
+            trigger_event = me_persis.1
+            show_as_tooltip = {
+            #  Gain a civilization, pop growth and migration attraction bonus in Persepolis. Gain a free province investment.
+                p:4799 = {
+                    add_province_modifier = {
+                        name = persis_mod_1
+                        duration = -1
+                    }
+                }
+                add_1_free_province_investments = yes
+            }
+        }
+    }
+
+    persis_mission_1_freedom_task_2 = { #Reach out to the Uxii
+        icon = "task_battle"
+        highlight = {
+            scope:province = {
+                dominant_province_culture = uxian
+            }
+        }
+        allow = {
+            #  100 treasury and political influence
+            treasury >= 100
+            political_influence >= 20
+        }
+
+        on_completion = {
+            trigger_event = me_persis.2
+            show_as_tooltip = {
+                add_treasury = -100
+				add_political_influence = -20
+				# get a skirmisher bonus similar to the Spartan "Recruiting the Skiritai" mission, and unlocks a decision that lets you pay gold to spawn an Uxian barbarian raid in Seleukid territory (has a cooldown) that won't attack you. Also makes you more disloyal.
+                add_country_modifier = {
+                    name = persis_mod_2
+                    duration = -1
+                }
+            }
+        }
+    }
+
+    persis_mission_1_freedom_task_4 = { #Urbanize Suravan
+        icon = "task_political"
+        requires = { persis_mission_1_freedom_task_1 }
+        duration = 365
+        highlight = {
+            scope:province = {
+                OR = {
+                    province_id = 4977
+                    province_id = 4950
+                    province_id = 4788
+                    province_id = 3402
+                    province_id = 3407
+                    province_id = 3410
+                    province_id = 3413
+                    province_id = 6529
+                    province_id = 6581
+                }
+            }
+        }
+        allow = {
+            political_influence >= 50
+            treasury >= 100
+        }
+        on_start = {
+            trigger_event = me_persis.400
+        }
+        on_completion = {
+            trigger_event = me_persis.4
+            show_as_tooltip = {
+                #  Gain +2 Building Slots in Suravan.
+                random_owned_province = {
+                    add_province_modifier = {
+                        name = persis_mod_3
+                        duration = -1
+                    }
+                }
+            }
+        }
+    }
+
+    persis_mission_1_freedom_task_5 = { #Beautify Batrakash
+        icon = "task_happiness"
+        requires = { persis_mission_1_freedom_task_1 }
+        highlight = {
+            scope:province = {
+                this = p:4951
+            }
+        }
+        allow = {
+            # 20 pops in Batrakash, Academy, Court of Law)
+            p:4951 = {
+                total_population >= 45
+                num_of_used_building_slots >= 7
+                has_no_ongoing_construction = yes
+            }
+        }
+
+        on_completion = {
+            trigger_event = me_persis.5
+            show_as_tooltip = {
+                # Gain a migration and pop growth bonus the next 360 months. Gain a free province investment.
+                p:4951 = {
+                    add_province_modifier = {
+                        name = persis_mod_4
+                        duration = 900
+                    }
+                }
+            }
+        }
+    }
+
+    persis_mission_1_freedom_task_6 = { #Expand Kazerun
+        icon = "task_battle"
+        requires = { persis_mission_1_freedom_task_1 }
+        highlight = {
+            scope:province = {
+                this = p:4950
+            }
+        }
+        allow = {
+            # 20 pops in Kazerun, five buildings total
+            p:4950 = {
+                total_population >= 40
+                num_of_used_building_slots >= 6
+                has_no_ongoing_construction = yes
+            }
+        }
+
+        on_completion = {
+            trigger_event = me_persis.6
+            show_as_tooltip = {
+                #  # Gain a migration and pop growth bonus the next 360 months. Gain a free province investment.
+                p:4950 = {
+                    add_province_modifier = {
+                        name = persis_mod_5
+                        duration = 900
+                    }
+                }
+            }
+        }
+    }
+
+    persis_mission_1_freedom_task_7 = { #Restore Heartland Economy
+        icon = "task_economical"
+        requires = { persis_mission_1_freedom_task_4 persis_mission_1_freedom_task_5 }
+
+        allow = {
+            treasury >= 300
+        }
+
+        on_completion = {
+            trigger_event = me_persis.7
+            show_as_tooltip = {
+                add_treasury = -300
+                # Triggers an event talking about the improvements you've made and gives every city you own a pop growth and civilization bonus, as well as some noble pops in Persepolis, Suravan and Batrakash. Also gain a significant building cost reduction the next 240 months.
+                add_country_modifier = {
+                    name = persis_mod_6
+                    duration = 2880
+                }
+                p:4799 = {
+                    create_state_pop = nobles
+                    create_state_pop = nobles
+                }
+                p:4951 = {
+                    create_state_pop = nobles
+                    create_state_pop = nobles
+                }
+                p:4782 = {
+                    create_state_pop = nobles
+                    create_state_pop = nobles
+                }
+            }
+        }
+    }
+    persis_mission_1_freedom_task_8 = { #Connect Kish
+        icon = "task_religion"
+        duration = 120
+        requires = { persis_mission_1_freedom_task_22 }
+        highlight = {
+            scope:province = {
+                OR = {
+                    this = p:9692
+                    this = p:4973
+                    this = p:9632
+                    this = p:4975
+                    this = p:6954
+                    this = p:4982
+                    this = p:1595
+                }
+            }
+        }
+        allow = {
+            treasury >= 250
+            owns_or_subject_owns_area = uxia_area
+            owns_or_subject_owns_area = aspadana_area
+            owns_or_subject_owns_area = goyman_area
+            owns_or_subject_owns_area = ecbatana_area
+            owns_or_subject_owns_area = media_choromithrene
+        }
+
+        on_completion = {
+            trigger_event = me_persis.8       
+            show_as_tooltip = {
+                p:9692 = { add_road_towards = p:4972 }
+                p:4972 = { add_road_towards = p:9691 }
+                p:9691 = { add_road_towards = p:9697 }
+                p:9697 = { add_road_towards = p:4973 }
+                p:4973 = { add_road_towards = p:4974 }
+                p:4974 = { add_road_towards = p:9632 }
+                p:9632 = { add_road_towards = p:9631 }
+                p:9631 = { add_road_towards = p:4976 }
+                p:4976 = { add_road_towards = p:9623 }
+                p:9623 = { add_road_towards = p:9625 }
+                p:9625 = { add_road_towards = p:4975 }
+                p:4975 = { add_road_towards = p:4983 }
+                p:4983 = { add_road_towards = p:6954 }
+                p:6954 = { add_road_towards = p:9615 }
+                p:9615 = { add_road_towards = p:6959 }
+                p:6959 = { add_road_towards = p:4982 }
+                p:4982 = { add_road_towards = p:9684 }
+                p:9684 = { add_road_towards = p:1595 }
+                add_treasury = -250
+            }
+        }
+    }
+    persis_mission_1_freedom_task_9 = { #Urbanize Kish
+        icon = "task_political"
+        requires = { persis_mission_1_freedom_task_6 }
+        highlight = {
+            scope:province = {
+                this = p:4956
+            }
+        }
+        allow = {
+            # Kish is a city with 20 pops
+            p:4956 = {
+                total_population >= 20
+                has_city_status = yes
+            }
+        }
+
+        on_completion = {
+            trigger_event = me_persis.9
+            show_as_tooltip = {
+                #  Gain +2 Building Slots in Kish.
+                p:4956 = {
+                    add_province_modifier = {
+                        name = persis_mod_5
+                        duration = 900
+                    }
+                }
+            }
+        }
+    }
+    persis_mission_1_freedom_task_10 = { #Restore Paradises
+        icon = "task_expansion"
+        requires = { persis_mission_1_freedom_task_7 }
+
+        allow = {
+            # Have five farms or slave estates
+            custom_tooltip = {
+                text = persis_mission_1_freedom_task_10_tt
+                any_owned_province = {
+                    count >= 5
+                    OR = {
+                        num_of_basic_settlement_infratructure_building = 1
+                        num_of_latifundia_building = 1
+                    }
+                }
+            }
+        }
+
+        on_completion = {
+            trigger_event = me_persis.10
+            show_as_tooltip = {
+                # Reduce slaves required for surplus in the provinces in question by 3 and give a+25% export value bonus the next 240 months.
+                ordered_owned_province = {
+                    limit = {
+                        OR = {
+                            num_of_basic_settlement_infratructure_building = 1
+                            num_of_latifundia_building = 1
+                        }
+                    }
+                    order_by = total_population
+                    max = 5
+                    add_permanent_province_modifier = {
+                        name = persis_mod_7
+                    }
+                }
+                add_country_modifier = {
+                    name = persis_mod_8
+                    duration = 2880
+                }
+            }
+        }
+    }
+    persis_mission_1_freedom_task_11 = { #Reeasablish the Immortals
+        icon = "task_conquest"
+        requires = { persis_mission_1_freedom_task_21 }
+
+        allow = {
+            # 10 military experience, 5000 max manpower
+            military_experience >= 10
+            manpower >= 5
+        }
+
+        on_completion = {
+            trigger_event = me_persis.11
+            show_as_tooltip = {
+                add_military_experience = -10
+                add_manpower = -5
+                #  Get a +5.00% heavy infantry discipline bonus, also makes you more disloyal.
+                add_country_modifier = {
+                    name = persis_mod_9
+                    duration = -1
+                }
+            }
+        }
+    }
+
+    persis_mission_1_freedom_task_12 = { # Secure Hagmatana
+        icon = "task_diplomatic"
+        highlight = {
+            scope:province = {
+                this = p:1595
+            }
+        }
+        allow = {
+            owns = 1595
+            war = no
+        }
+        on_completion = {
+            trigger_event = me_persis.12
+            show_as_tooltip = {
+                add_legitimacy = legitimacy_large
+                add_stability = 10
+                current_ruler = {
+                    add_nickname = "THE_CONQUERER"
+                    add_popularity = popularity_large
+                    add_martial = 2
+                    add_zeal = 2
+                }
+            }
+        }
+    }
+
+    persis_mission_1_freedom_task_13 = { #Fortify the Passes
+        icon = "task_diplomatic"
+        requires = { persis_mission_1_freedom_task_9 persis_mission_1_freedom_task_10 }
+        highlight = {
+            scope:province = {
+                OR = {
+                    this = p:3409
+                    this = p:4978
+                    this = p:4955
+                    this = p:4956
+                }
+            }
+        }
+        allow = {
+            # Forts in Qatre(3409), Kuh-e Bul(4978) and either Oarakta(4955) or Kish(4956)
+            OR = {
+                p:3409 = {
+                    num_of_fortress_building >= 1
+                }
+                p:4978 = {
+                    num_of_fortress_building >= 1
+                }
+            }
+            OR = {
+                p:4955 = {
+                    num_of_fortress_building >= 1
+                }
+                p:4956 = {
+                    num_of_fortress_building >= 1
+                }
+            }
+        }
+
+        on_completion = {
+            trigger_event = me_persis.13
+            show_as_tooltip = {
+                # Lowers your opinion of the Seleukids and their opinion of you extremely, gives you three free province investments and 80 military experience.
+                add_military_experience = 25
+                add_2_free_province_investments = yes
+                c:SEL = {
+                    add_opinion = {
+                        modifier = sneaky_overlord_neg_opmod
+                        target = root
+                    }
+                }
+            }
+        }
+    }
+    persis_mission_1_freedom_task_14 = { #Build Ports
+        icon = "task_expansion"
+        highlight = {
+            scope:province = {
+                OR = {
+                    this = p:4791
+                    this = p:4956
+                }
+            }
+        }
+        allow = {
+            # Port level three in Hormirazad(4791) and Kish(4956)
+            p:4791 = {
+                num_of_port_building >= 3
+            }
+            p:4956 = {
+                num_of_port_building >= 3
+            }
+        }
+
+        on_completion = {
+            trigger_event = me_persis.14
+            show_as_tooltip = {
+                p:4791 = {
+                    add_province_modifier = {
+                        name = persis_mod_10
+                        duration = -1
+                    }
+                }
+                p:4956 = {
+                    add_province_modifier = {
+                        name = persis_mod_10
+                        duration = -1
+                    }
+                }
+            }
+        }
+    }
+    persis_mission_1_freedom_task_15 = { #Control the Gulf
+        icon = "task_atlas"
+        requires = { persis_mission_1_freedom_task_14 }
+
+        allow = {
+            num_of_ships >= 50
+        }
+
+        on_completion = {
+            trigger_event = me_persis.15
+            show_as_tooltip = {
+                add_treasury = 500
+            }
+        }
+    }
+    persis_mission_1_freedom_task_16 = { #Expand Great Fire Temple
+        icon = "task_diplomatic"
+        requires = { persis_mission_1_freedom_task_12 }
+        highlight = {
+            scope:province = {
+                province_id = 1595
+            }
+        }
+
+        allow = {
+            owns = 1595
+            treasury >= 500
+            p:1595 = {
+                dominant_province_religion = zoroaster
+                has_city_status = yes
+            }
+        }
+
+        bypass = {
+            p:1595 = {
+                has_great_work = no
+            }
+        }
+
+        on_completion = {
+            trigger_event = me_persis.16
+            show_as_tooltip = {
+                p:1595 = {
+                    add_permanent_province_modifier = {
+                        name = fire_temple_floor_2
+                        duration = -1
+                    }
+                }
+            }
+        }
+    }
+    persis_mission_1_freedom_task_17 = { #Expand the Royal Road
+        icon = "task_happiness"
+        requires = { persis_mission_1_freedom_task_13 persis_mission_1_freedom_task_22 }
+
+        allow = {
+            # A significant amount of roads lol
+            custom_tooltip = {
+                text = persis_mission_1_freedom_task_17_tt
+                capital_scope.region = {
+                    any_region_province = {
+                        count >= 75
+                        any_neighbor_province = { has_road_towards = PREV }
+                    }
+                }
+            }
+        }
+
+        on_completion = {
+            trigger_event = me_persis.17
+            show_as_tooltip = {
+                # Gain a treasury reward, and a permanent tax and trade income bonus. Gain two free province investments.
+                add_country_modifier = {
+                    name = persis_mod_11
+                    duration = -1
+                }
+                add_2_free_province_investments = yes
+            }
+        }
+    }
+    persis_mission_1_freedom_task_18 = { #Matter of Medians
+        icon = "task_diplomatic"
+        duration = 120
+        requires = { persis_mission_1_freedom_task_20 }
+        highlight = {
+            scope:province = {
+                is_in_region = media_region
+            }
+        }
+
+        allow = {
+            p:1515 = { governor_policy = local_autonomy }
+            p:1512 = { governor_policy = local_autonomy }
+            p:3387 = { governor_policy = local_autonomy }
+            p:4988 = { governor_policy = local_autonomy }
+            p:1595 = { governor_policy = civilization_effort }
+        }
+        on_start = {
+            hidden_effect = {
+                    if = {
+                    limit = {
+                        char:222 = { is_alive = no }
+                        char:225 = { is_alive = no }
+                        char:227 = { is_alive = no }
+                    }
+                    create_character = {
+                        first_name="Cyaxares"
+                        family_name="Atropatid"
+                        age = 18
+                        add_trait = atropates
+                        save_scope_as = atropates_backup_scope
+                    }
+                    set_variable = atropates_died_var
+                }
+                trigger_event = me_persis.18
+            }
+        }
+        on_completion = {
+            show_as_tooltip = {
+                custom_tooltip = create_median_satrapies_tt
+            }
+        }
+    }
+    persis_mission_1_freedom_task_19 = { #Fortify Capitals
+        icon = "task_political"
+        requires = { persis_mission_1_freedom_task_13 }
+
+        allow = {
+            any_owned_province = {
+                count >= 5
+                has_building = fortress_building
+            }
+        }
+
+        on_completion = {
+            trigger_event = me_persis.19
+            show_as_tooltip = {
+                # Gain a defensiveness bonus in all forts.
+                ordered_owned_province = {
+                    limit = {
+                        fort_level >= 1
+                    }
+                    order_by = fort_level
+                    max = 5
+                    add_province_modifier = {
+                        name = persis_mod_12
+                        duration = -1
+                    }
+                }
+            }
+        }
+    }
+    persis_mission_1_freedom_task_20 = { #Reunite with Media
+        icon = "task_heracles"
+        requires = { persis_mission_1_freedom_task_12 persis_mission_1_freedom_task_21 }
+        highlight = {
+            scope:province = {
+                is_in_region = media_region
+            }
+        }
+        allow = {
+            owns_or_subject_owns_region = media_region
+        }
+
+        on_completion = {
+            trigger_event = me_persis.20
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = persis_mod_13
+                    duration = -1
+                }
+            }
+        }
+    }
+    persis_mission_1_freedom_task_21 = { #Commander of the Gods
+        icon = "task_conquest"
+        requires = { persis_mission_1_freedom_task_1 }
+        highlight = {
+            scope:province = {
+                this = root.capital_scope
+            }
+        }
+        allow = {
+            capital_scope = {
+                num_of_nobles >= 5
+            }
+        }
+
+        on_completion = {
+            trigger_event = me_persis.21
+            show_as_tooltip = {
+                # Triggers a cool event with a coronation ceremony. Get a permanent legitimacy and stability bonus.
+                add_country_modifier = {
+                    name = persis_mod_14
+                    duration = -1
+                }
+            }
+        }
+    }
+    persis_mission_1_freedom_task_22 = { #Patronize Magi
+        icon = "task_calm"
+        requires = { persis_mission_1_freedom_task_20 }
+        highlight = {
+            scope:province = {
+                this = root.capital_scope
+            }
+        }
+        allow = {
+            # Open Religion invention, Grand Temple in Persepolis
+            invention = global_unrest_inv_2
+            hidden:capital_scope = {
+                has_building = temple_building
+            }
+        }
+
+        on_completion = {
+            trigger_event = me_persis.22
+            show_as_tooltip = {
+                # Ruler gets +3 Zeal and spawns a character with high Zeal.
+                current_ruler = {
+                    add_zeal = 3
+                    add_popularity = 20
+                }
+            }
+        }
+    }
+    persis_mission_1_freedom_task_23 = { #Restore Persian Culture
+        icon = "task_religion"
+        requires = { persis_mission_1_freedom_task_17 persis_mission_1_freedom_task_18 }
+
+        allow = {
+            # 100 treasury
+            treasury >= 100
+        }
+
+        on_completion = {
+            trigger_event = me_persis.23
+            show_as_tooltip = {
+                # Gain a large cultural assimilation bonus and six Persian cultured noble and citizen pops to distribute to one city via event.
+                capital_scope = {
+                    while = {
+                        count = 6
+                        define_pop = {
+                            type = nobles
+                            culture = pasargadi
+                            religion = zoroaster
+                        }
+                    }
+                }
+                add_country_modifier = {
+                    name = persis_mod_15
+                    duration = 2880
+                }
+            }
+        }
+        final = yes
+    }
+    persis_mission_1_freedom_task_24 = { # The Elamite Question
+        icon = "task_religion"
+        potential = { any_subject = { primary_culture = elamite } }
+        highlight = {
+            scope:province = {
+                owner = c:ELM
+            }
+        }
+        requires = { persis_mission_1_freedom_task_2 }
+
+        allow = {
+            #custom_tooltip = {
+            #    has_variable = elam_annoy
+            #    text = elam_has_been_annoying_tt
+            #}
+            custom_tooltip = {
+                has_global_variable = india_milk
+                text = india_gone_tt
+            }
+        }
+
+        on_completion = {
+            trigger_event = me_persis.24
+            show_as_tooltip = {
+                c:ELM = {
+                    reverse_add_opinion = {
+                        modifier = sneaky_overlord_neg_opmod
+                        target = root
+                    }
+                }
+            }
+        }
+    }
+    persis_mission_1_freedom_task_25 = { # The Anshan Answer
+        icon = "task_conquest"
+        potential = { any_subject = { primary_culture = elamite } }
+        highlight = {
+            scope:province = {
+                dominant_province_culture = anshanite
+            }
+        }
+        requires = { persis_mission_1_freedom_task_24 }
+
+        allow = {
+            owns = 4950
+        }
+
+        on_completion = {
+            trigger_event = me_persis.25
+            show_as_tooltip = {
+                add_stability = -10
+                add_legitimacy = -20
+                current_ruler = {
+                    add_popularity = -15
+                    add_trait = depressed
+                }
+                p:4950 = { set_owned_by = c:ELM }
+                c:ELM = {
+                    add_country_modifier = {
+                        name = elamite_crisis_solved
+                        duration = -1
+                    }
+                }
+            }
+        }
+    }
+    persis_mission_1_freedom_task_26 = { # The Susa Solution
+        icon = "task_diplomatic"
+        potential = { any_subject = { primary_culture = elamite } }
+        requires = { persis_mission_1_freedom_task_24 }
+        highlight = {
+            scope:province = {
+                dominant_province_culture = elamite
+            }
+        }
+        allow = {
+            political_influence = 125
+        }
+
+        on_completion = { #80% chance of War
+            random_subject = {
+                limit = {
+                    primary_culture = elamite
+                }
+                save_scope_as = elamite_satrap
+            }
+            trigger_event = me_persis.26
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = abuse_of_imperial_power
+                    duration = 1825
+                }
+                add_country_modifier = {
+                    name = strength_of_shah
+                    duration = -1
+                }
+                custom_tooltip = high_may_lead_to_war_tt
+            }
+        }
+    }
+    persis_mission_1_freedom_task_27 = { # The Uxii Ultimatum
+        icon = "task_political"
+        potential = { any_subject = { primary_culture = elamite } }
+        requires = { persis_mission_1_freedom_task_24 }
+        highlight = {
+            scope:province = {
+                dominant_province_culture = uxian
+            }
+        }
+        allow = {
+            political_influence = 50
+            custom_tooltip = {
+                OR = {
+                    any_country_culture = {
+                        is_culture = uxian
+                        has_country_culture_modifier = right_to_enter_contracts
+                    }
+                    any_country_culture = {
+                        is_culture = uxian
+                        is_integrated = yes
+                    }
+                }
+                text = "uxian_rights_tt"
+            }
+        }
+
+        on_completion = { #25% chance of War
+            trigger_event = me_persis.27
+            show_as_tooltip = {
+                custom_tooltip = uxian_satrap_tt
+                custom_tooltip = low_may_lead_to_war_tt
+            }
+        }
+    }
+}

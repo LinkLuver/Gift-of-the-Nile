@@ -1,0 +1,1603 @@
+﻿3908={ #Viritium
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="earthware"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4750={ #Rugia
+	terrain="forest"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="amber"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="aestian"
+		religion="matrist_religion"
+		amount=1
+	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
+	}
+	port_building=1
+}
+
+4751={ #Rhugium
+	terrain="plains"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
+	}
+}
+
+4752={ #Viadrus
+	terrain="plains"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+	port_building=1
+}
+
+4753={ #Rhuticlia Helveconia
+	terrain="plains"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="amber"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4754={ #Turcilingia
+	terrain="plains"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4755={ #Sciria Rugia
+	terrain="forest"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		culture="aestian"
+		religion="matrist_religion"
+		amount=1
+	}
+}
+
+4756={ #Eughum
+	terrain="forest"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="amber"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4757={ #Lemoviana
+	terrain="forest"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="hemp"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4758={ #Seurgium
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="woad"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+4759={ #Iadua
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
+	}
+}
+
+4760={ #Campia
+	terrain="plains"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="hemp"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+4761={ #Ascaucalis
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
+	}
+}
+
+4762={ #Buguntia
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="horses"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
+	}
+}
+
+4763={ #Helveconia
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="vegetables"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="aestian"
+		religion="matrist_religion"
+		amount=1
+	}
+}
+
+4764={ #Helveconiana
+	terrain="forest"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		culture="aestian"
+		religion="matrist_religion"
+		amount=1
+	}
+}
+
+4765={ #Carinia
+	terrain="plains"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4766={ #Cariniana
+	terrain="plains"
+	culture="gothonic"
+	religion="germanic_religion"
+	trade_goods="grain"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4767={ #Buguntiana
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="grain"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
+	}
+}
+
+4768={ #Erbia
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="woad"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+	holy_site=omen_alcis
+}
+
+4769={ #Manimia
+	terrain="plains"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
+	}
+}
+
+4770={ #Vindua
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4773={ #Elysia
+	terrain="plains"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="woad"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4774={ #Elysiana
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
+	}
+}
+
+4775={ #Setideva
+	terrain="plains"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4776={ #Naharvalorum
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="irminonic"
+		religion="germanic_religion"
+		amount=1
+	}
+}
+
+4862={ #Vistuliana
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="amber"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4863={ #Voreynica
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4864={ #Venedica
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+4865={ #Venedicana
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="amber"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6277={ #Duretica
+	terrain="forest"
+	culture="bastarnae"
+	religion="germanic_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6278={ #Mornal
+	terrain="plains"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6279={ #Vadina
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="feathers"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+6280={ #Brigare
+	terrain="forest"
+	culture="vandal"
+	religion="germanic_religion"
+	trade_goods="woad"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6281={ #Follia
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="woad"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6282={ #Cureta
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="salt"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6283={ #Anacureta
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="hemp"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6284={ #Anavenedica
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6285={ #Nullica
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="salt"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6286={ #Marone
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6287={ #Anavella
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="hemp"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6288={ #Gurina
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+6289={ #Toll
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7298={ #Venedia Australis
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="amber"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7804={ #Ossioia Occidentalis
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7805={ #Sudinoia
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+7806={ #Sudinoia Borealis
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="woad"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7807={ #Saloia
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="leather"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+7808={ #Rubonia
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7809={ #Rubonia Occidentalis
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7810={ #Turuntia Australis
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7811={ #Turuntia
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+}
+
+7812={ #Turuntia Borealis
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7813={ #Veltaea Australis
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7814={ #Veltaea
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7815={ #Veltaea Borealis
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="feathers"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7816={ #Carbonia Occidentalis
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="fish"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7817={ #Carbonia
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7818={ #Careotaia Borealis
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+}
+
+7819={ #Careotaia Australis
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7820={ #Ossioia
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+7821={ #Ossioia Orientalis
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7822={ #Sudionoia Australis
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7823={ #Sudionoia Orientalis
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7825={ #Sentia
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+7830={ #Galindia Occidentalis
+	terrain="forest"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="amber"
+	civilization_value=3
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	port_building=1
+}
+
+7831={ #Galindia Orientalis
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7832={ #Venedia Borealis
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+7833={ #Venedia
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+7834={ #Chrononia Borealis
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="leather"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7835={ #Chrononia
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="grain"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7836={ #Chrononia Australis
+	terrain="plains"
+	culture="aestian"
+	religion="matrist_religion"
+	trade_goods="grain"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+8481={ #Maciejowice
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8482={ #Lukow
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8483={ #Ogorodniki
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8484={ #Lysobyki
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8485={ #Starorzecze
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="base_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8486={ #Seroczyn
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8487={ #Bielsk
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8488={ #Biebrzankski
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8489={ #Kulesze
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8490={ #Bialystok
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8491={ #Monki
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8492={ #Grodno
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8493={ #Sniardwy
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8494={ #Mamry
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8495={ #Dob
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="iron"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8496={ #Wigierski
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8497={ #Utinoye
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8498={ #Vistytis
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8499={ #Orija
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8500={ #Dzukjos
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8501={ #Pagramancio
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8502={ #Timofeevo
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="hemp"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8503={ #Borodinskoye
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8504={ #Paezeriai
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="feathers"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8505={ #Glitu
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="stone"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8506={ #Tytuvenu
+	terrain="marsh"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="base_metals"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8507={ #Aristava
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8508={ #Zagares
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="horses"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8509={ #Joniskis
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="vegetables"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8510={ #Zirnajai
+	terrain="marsh"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="fur"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8511={ #Asvejos
+	terrain="marsh"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8512={ #Bauska
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8513={ #Birzu
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="woad"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8514={ #Sartu
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8515={ #Grazutes
+	terrain="marsh"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8516={ #Paliene
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8517={ #Daugava
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="cattle"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8518={ #Viku
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="leather"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8519={ #Jekabpils
+	terrain="forest"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="wild_game"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+8520={ #Garais
+	terrain="marsh"
+	culture="androphagian"
+	religion="matrist_religion"
+	trade_goods="grain"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+

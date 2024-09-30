@@ -8,10 +8,21 @@
 		religion="aten_religion"
 		culture="akhenite_egyptian"
 		no_traits=yes
+		add_trait=devout
+		add_trait=depressed
+		add_trait=pharaoh
 		no_stats=yes
+		add_zeal=11
+		add_finesse=7
+		add_martial=5
+		add_charisma=4
 		c:ATN={
 			set_as_ruler=char:517
 		}
+		set_variable = {
+        	name = pharaoh_is_alive
+            value = 1
+        }
 	}
 	518={
 		first_name="Meriaten" #3rd
@@ -26,6 +37,10 @@
 		add_trait="barren"
 		add_trait="energetic"
 		no_stats=yes
+		add_zeal=5
+		add_finesse=4
+		add_martial=1
+		add_charisma=15
 		female=yes
 	}
 	519={
@@ -41,6 +56,10 @@
 		add_trait="inbred"
 		add_trait="energetic"
 		no_stats=yes
+		add_zeal=4
+		add_finesse=4
+		add_martial=4
+		add_charisma=4
 		female=yes
 	}
 	520={
@@ -58,6 +77,10 @@
 		add_trait="one_eyed"
 		add_trait="brain_damaged"
 		no_stats=yes
+		add_zeal=5
+		add_finesse=1
+		add_martial=9
+		add_charisma=2
 	}
 	521={
 		first_name="Atenmosis"
@@ -88,7 +111,7 @@
 		no_stats=yes
 	}
 	523={
-		first_name="Horematen"
+		first_name="Iqrefaten"
 		family = c:ATN.fam:Iqrefid
 		father="char:517"
 		mother="char:518"
@@ -100,6 +123,10 @@
 		add_trait="thutmosid"
 		add_trait="inbred"
 		no_stats=yes
+		add_zeal=11
+		add_martial=14
+		add_finesse=1
+		add_charisma=3
 	}
 	524={
 		first_name="Neferneferuaten"
@@ -113,7 +140,75 @@
 		no_traits=yes
 		add_trait="thutmosid"
 		add_trait="inbred"
+		add_trait=intelligent
 		no_stats=yes
+		add_zeal=3
+		add_finesse=11
+		add_charisma=5
+		add_martial=7
+		female=yes
+	}
+}
+"MEN"={
+	country="MEN"
+	551={
+		first_name="Ptahmose"
+		family = c:MEN.fam:Intefid 
+		birth_date=422.3.29
+		religion="egyptian_pantheon"
+		culture="egyptian"
+		no_traits=yes
+		add_trait = just
+		add_trait = scholar
+		add_trait = prominent
+		no_stats=yes
+		add_zeal=5
+		add_finesse=10
+		add_charisma=10
+		add_martial=9
+		c:MEN={
+			set_as_ruler=char:551
+		}
+	}
+	552={
+		first_name="Tatenis"
+		family = c:MEN.fam:Intefid 
+		birth_date=424.10.3
+		religion="aten_religion"
+		culture="middle_egyptian"
+		marry_character=char:551
+		no_traits=yes
+		add_trait = submissive
+		add_trait = good_natured
+		no_stats=yes
+		add_zeal=8
+		add_finesse=9
+		add_charisma=3
+		add_martial=1
+		female=yes
+	}
+	553={
+		first_name="Khafra"
+		family = c:MEN.fam:Intefid 
+		father="char:551"
+		mother="char:552"
+		birth_date=444.4.4
+		religion="egyptian_pantheon"
+		culture="egyptian"
+		no_stats=yes
+		add_zeal=1
+		add_finesse=3
+		add_charisma=4
+		add_martial=2
+	}
+	554={
+		first_name="Aya"
+		family = c:MEN.fam:Intefid 
+		father="char:551"
+		mother="char:552"
+		birth_date=449.6.12
+		religion="egyptian_pantheon"
+		culture="egyptian"
 		female=yes
 	}
 }

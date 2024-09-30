@@ -1,6 +1,6 @@
 ﻿elam = {
 	
-	levy_template = levy_iran
+	levy_template = levy_elam
 	
 	primary = heavy_infantry
 	second = archers
@@ -22,16 +22,25 @@
 		Zunkir-Nappipir-nisaa Kamnaskires-nisaa Tammaritu-nisaa Iddin-nisaa
 	}
 	family = {
-		Inshushinak.Mer.Shushinak.Nahhunte
-		Shilhak.Nirah.Kirash.Nashur
-		Sin.Humban
+		Inshushinak.Inshushinak.Inshushinak.Inshushinak
+		Mer.Mer.Mer.Mer
+		Shushinak.Shushinak.Shushinak.Shushinak
+		Nahhunte.Nahhunte.Nahhunte.Nahhunte
+		Shilhak.Shilhak.Shilhak.Shilhak
+		Nirah.Nirah.Nirah.Nirah
+		Kirash.Kirash.Kirash.Kirash
+		Nashur.Nashur.Nashur.Nashur
+		Sin.Sin.Sin.Sin
+		Humban.Humban.Humban.Humban
 	}
 
 	culture = {
 		###
 		elamite = {} # Susian
-		uxian = {}
+		anshanite = {}
+		uxian = { levy_template = levy_iran }
 		cossian = {
+			levy_template = levy_parthian
 			male_names = {
 				Hita Puzur Shilhak Kirwashir Tukulti Atta-Khumma Tepti Tahrah Kutir Shushinak Inshushinak-Zunkir-Nappipir
 				Kamnaskires Tammaritu Puzur Kuk Shilhaha Shilhishkia Atarshumki Iddin
@@ -181,6 +190,6 @@
 	
 	graphical_culture = persian_gfx
 	ethnicities = {
-		10 = persian
+		10 = elamite
 	}
 }

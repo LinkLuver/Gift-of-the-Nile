@@ -1,0 +1,102 @@
+﻿country_decisions = {
+	
+	#form Zagrosia
+	form_zagrosia = {
+		
+		potential = {
+			num_of_cities >= 1
+			OR = {
+				primary_culture = cyrtian
+				primary_culture = shubar
+				primary_culture = tukri
+				primary_culture = lullu
+				primary_culture = cossian
+				primary_culture = gutian
+				primary_culture = cardukoi
+				primary_culture = qardu
+			}
+			NOT = {
+				tag = ZG3
+			}
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					this = p:4967
+					this = p:9766
+					this = p:9451
+					this = p:981
+					this = p:3393
+					this = p:959
+					this = p:958
+					this = p:985
+					this = p:9501
+					this = p:1517
+					this = p:9785
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = "formable_not_zagrosia_exists"
+				NOT = {
+					any_country = {
+						tag = ZG3
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns = 4967
+			owns_or_subject_owns = 9766
+			owns_or_subject_owns = 9451
+			owns_or_subject_owns = 981
+			owns_or_subject_owns = 3393
+			owns_or_subject_owns = 959
+			owns_or_subject_owns = 958
+			owns_or_subject_owns = 985
+			owns_or_subject_owns = 9501
+			owns_or_subject_owns = 1517
+			owns_or_subject_owns = 9785
+		}
+
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "ZAGROS_NAME"
+			hidden_effect = {
+				change_country_adjective = "ZAGROS_ADJECTIVE"
+				change_country_tag = "ZG3"
+				region:zagros_region = {
+					every_region_province = {
+						add_claim = root
+					}
+				}
+				change_country_color = zagrosian_brown
+			}
+			custom_tooltip = zagros_claims
+			capital_scope = {
+				capital_formable_large_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			change_government = stratocratic_monarchy
+			switch_government_type_event_clearup_effect = yes
+			add_2_free_province_investments = yes
+			trigger_event = {
+				id = gotn_formable_event.2
+				days = { 1 30 }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+}

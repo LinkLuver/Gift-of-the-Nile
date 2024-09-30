@@ -1,7 +1,7 @@
 ﻿3810={ #Embadina
 	terrain="mountain"
 	culture="gandhari"
-	religion="buddhism"
+	religion="vaksh_religion"
 	trade_goods="stone"
 	civilization_value=12
 	barbarian_power=0
@@ -24,7 +24,7 @@
 4300={ #Pushkalavati
 	terrain="mountain"
 	culture="gandhari"
-	religion="hindu"
+	religion="zoroaster"
 	trade_goods="earthware"
 	civilization_value=12
 	barbarian_power=0
@@ -76,60 +76,15 @@
 	}
 	citizen={
 		religion="buddhism"
-		amount=1
+		amount=2
 	}
 	slaves={
 		religion="ajivika"
-		amount=2
+		amount=3
 	}
 	tribesmen={
 		religion="jainism"
-		amount=2
-	}
-}
-
-4315={ #Jobnathnagar
-	terrain="forest"
-	culture="purus"
-	religion="jainism"
-	trade_goods="grain"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		religion="hindu"
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-4316={ #Mong
-	terrain="forest"
-	culture="purus"
-	religion="hindu"
-	trade_goods="cedar"
-	civilization_value=39
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=4
-	}
-	tribesmen={
-		amount=4
+		amount=5
 	}
 }
 
@@ -220,7 +175,7 @@
 
 4321={ #Kutte Mar
 	terrain="forest"
-	culture="gandhari"
+	culture="shivi"
 	religion="jainism"
 	trade_goods="horses"
 	civilization_value=24
@@ -244,8 +199,8 @@
 
 4322={ #Manikyal
 	terrain="forest"
-	culture="gandhari"
-	religion="jainism"
+	culture="pasargadi"
+	religion="zoroaster"
 	trade_goods="cedar"
 	civilization_value=39
 	barbarian_power=0
@@ -288,7 +243,7 @@
 4324={ #Gorya
 	terrain="mountain"
 	culture="gandhari"
-	religion="hindu"
+	religion="charvaka"
 	trade_goods="gems"
 	civilization_value=7
 	barbarian_power=0
@@ -399,26 +354,26 @@
 	trade_goods="grain"
 	civilization_value=26
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		religion="jainism"
-		amount=1
+		amount=3
 	}
 	freemen={
 		amount=2
 	}
 	slaves={
 		religion="jainism"
-		amount=3
+		amount=6
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
 4330={ #Gogaraioi
 	terrain="desert"
-	culture="gandhari"
+	culture="shivi"
 	religion="hindu"
 	trade_goods="cattle"
 	civilization_value=23
@@ -431,6 +386,8 @@
 		amount=2
 	}
 	freemen={
+		culture="pasargadi"
+		religion="zoroaster"
 		amount=1
 	}
 	slaves={
@@ -444,7 +401,7 @@
 
 4331={ #Khushab
 	terrain="forest"
-	culture="gandhari"
+	culture="shivi"
 	religion="jainism"
 	trade_goods="dates"
 	civilization_value=24
@@ -469,7 +426,7 @@
 4332={ #Puranadisthana
 	terrain="forest"
 	culture="dardic"
-	religion="jainism"
+	religion="masto_pantheon"
 	trade_goods="grain"
 	civilization_value=8
 	barbarian_power=0
@@ -524,7 +481,7 @@
 4335={ #Labaka
 	terrain="mountain"
 	culture="dardic"
-	religion="hindu"
+	religion="ajnana"
 	trade_goods="glass"
 	civilization_value=6
 	barbarian_power=0
@@ -592,7 +549,7 @@
 4338={ #Anantanaga
 	terrain="forest"
 	culture="dardic"
-	religion="jainism"
+	religion="masto_pantheon"
 	trade_goods="incense"
 	civilization_value=8
 	barbarian_power=0
@@ -630,41 +587,10 @@
 	}
 }
 
-4340={ #Sakala
-	terrain="farmland"
-	culture="purus"
-	religion="buddhism"
-	trade_goods="cloth"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=2
-	}
-	citizen={
-		religion="hindu"
-		amount=4
-	}
-	freemen={
-		amount=11
-	}
-	freemen={
-		religion="ajivika"
-		amount=1
-	}
-	slaves={
-		amount=11
-	}
-	tribesmen={
-		religion="jainism"
-		amount=1
-	}
-}
-
 4341={ #Akhnur
 	terrain="mountain"
 	culture="dardic"
-	religion="hindu"
+	religion="masto_pantheon"
 	trade_goods="precious_metals"
 	civilization_value=6
 	barbarian_power=0
@@ -684,26 +610,6 @@
 	}
 }
 
-4342={ #Parvata
-	terrain="hills"
-	culture="dardic"
-	religion="hindu"
-	trade_goods="cedar"
-	civilization_value=8
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=3
-	}
-	tribesmen={
-		religion="jainism"
-		amount=2
-	}
-}
-
 4343={ #Budia
 	terrain="mountain"
 	culture="dardic"
@@ -717,102 +623,10 @@
 	}
 }
 
-4344={ #Chhamb
-	terrain="marsh"
-	culture="dardic"
-	religion="ajivika"
-	trade_goods="elephants"
-	civilization_value=6
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-4345={ #Jhelum
-	terrain="hills"
-	culture="purus"
-	religion="hindu"
-	trade_goods="elephants"
-	civilization_value=8
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		religion="ajivika"
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-4346={ #Madra
-	terrain="farmland"
-	culture="purus"
-	religion="hindu"
-	trade_goods="silk"
-	civilization_value=33
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=11
-	}
-	tribesmen={
-		amount=10
-	}
-	tribesmen={
-		religion="ajivika"
-		amount=1
-	}
-}
-
-4347={ #Magaris
-	terrain="marsh"
-	culture="dardic"
-	religion="jainism"
-	trade_goods="elephants"
-	civilization_value=6
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		religion="hindu"
-		amount=1
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		religion="buddhism"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
 4348={ #Sibipura
 	terrain="plains"
-	culture="sivi"
-	religion="hindu"
+	culture="shivi"
+	religion="kassapan"
 	trade_goods="cloth"
 	civilization_value=26
 	barbarian_power=0
@@ -836,50 +650,44 @@
 	}
 }
 
-4349={ #Mallia
+4350={ #Mulasthanapura
 	terrain="farmland"
-	culture="sivi"
-	religion="hindu"
+	culture="shivi"
+	religion="jainism"
 	trade_goods="dates"
-	civilization_value=39
+	civilization_value=41
 	barbarian_power=0
 	province_rank="city"
 	nobles={
 		amount=6
 	}
 	citizen={
-		amount=6
+		amount=11
 	}
 	freemen={
-		amount=12
-	}
-	freemen={
-		religion="buddhism"
-		amount=1
+		amount=9
 	}
 	slaves={
-		amount=12
-	}
-	tribesmen={
-		religion="jainism"
-		amount=3
-	}
-	slaves={
-		amount=1
+		amount=8
 	}
 	slaves={
 		religion="ajivika"
-		amount=1
+		amount=3
 	}
 	tribesmen={
-		amount=7
+		religion="jainism"
+		amount=2
 	}
-	holy_site=omen_kubera
+	freemen={
+		religion="buddhism"
+		amount=4
+	}
+	holy_site=omen_samba
 }
 
 4351={ #Apakara
-	terrain="desert"
-	culture="sivi"
+	terrain="plains"
+	culture="shivi"
 	religion="hindu"
 	trade_goods="vegetables"
 	civilization_value=23
@@ -938,146 +746,26 @@
 	}
 }
 
-4378={ #Osioi
-	terrain="plains"
-	culture="sivi"
-	religion="jainism"
-	trade_goods="grain"
-	civilization_value=32
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		religion="hindu"
-		amount=1
-	}
-	freemen={
-		amount=4
-	}
-	slaves={
-		amount=4
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-4379={ #Phegas
-	terrain="farmland"
-	culture="purus"
+4377={ #Bisambritai
+	terrain="desert"
+	culture="shivi"
 	religion="hindu"
-	trade_goods="cattle"
-	civilization_value=28
+	trade_goods="wild_game"
+	civilization_value=23
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
-	}
-}
-
-4380={ #Mallava
-	terrain="plains"
-	culture="gandhari"
-	religion="jainism"
-	trade_goods="grain"
-	civilization_value=26
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=6
-	}
-	freemen={
-		religion="hindu"
-		amount=3
-	}
-	slaves={
-		religion="ajivika"
-		amount=4
-	}
-	tribesmen={
-		amount=6
-	}
-	tribesmen={
-		religion="buddhism"
-		amount=1
-	}
-}
-
-4381={ #Shudrakai
-	terrain="plains"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="cattle"
-	civilization_value=26
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=6
-	}
-	slaves={
-		amount=8
-	}
-	tribesmen={
-		amount=2
-	}
-	slaves={
-		religion="jainism"
-		amount=1
-	}
-}
-
-4382={ #Anatachara
-	terrain="farmland"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="earthware"
-	civilization_value=41
-	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=6
-	}
-	citizen={
-		amount=9
-	}
-	citizen={
-		religion="jainism"
-		amount=1
-	}
-	citizen={
-		religion="buddhism"
-		amount=3
-	}
-	freemen={
-		amount=12
-	}
-	tribesmen={
-		amount=6
-	}
-	slaves={
-		religion="jainism"
-		amount=3
 	}
 }
 
 4383={ #Abortai
 	terrain="desert"
-	culture="gandhari"
-	religion="hindu"
+	culture="shivi"
+	religion="zoroaster"
 	trade_goods="vegetables"
 	civilization_value=23
 	barbarian_power=0
@@ -1098,7 +786,7 @@
 
 4384={ #Kekayai
 	terrain="plains"
-	culture="gandhari"
+	culture="shivi"
 	religion="hindu"
 	trade_goods="horses"
 	civilization_value=26
@@ -1124,455 +812,54 @@
 	}
 }
 
-4388={ #Pancapura
+4385={ #Shivai
 	terrain="plains"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="horses"
-	civilization_value=26
+	culture="shivi"
+	religion="jainism"
+	trade_goods="cloth"
+	civilization_value=32
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=6
+		amount=3
 	}
-	freemen={
+	citizen={
+		religion="zoroaster"
 		amount=4
 	}
+	freemen={
+		amount=2
+	}
 	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-4389={ #Iravatyavar
-	terrain="farmland"
-	culture="purus"
-	religion="hindu"
-	trade_goods="earthware"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
+		religion="buddhism"
 		amount=1
 	}
-	freemen={
+	slaves={
 		religion="ajivika"
 		amount=1
 	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-4390={ #Jalandhara
-	terrain="farmland"
-	culture="purus"
-	religion="hindu"
-	trade_goods="cloth"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=17
-	}
-	slaves={
-		amount=4
-	}
-	tribesmen={
-		amount=5
-	}
-}
-
-4391={ #Udambhara
-	terrain="hills"
-	culture="dardic"
-	religion="buddhism"
-	trade_goods="base_metals"
-	civilization_value=8
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-4392={ #Sarvamanapura
-	terrain="farmland"
-	culture="purus"
-	religion="hindu"
-	trade_goods="base_metals"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=4
-	}
-	tribesmen={
-		amount=10
-	}
-}
-
-4393={ #Okara
-	terrain="plains"
-	culture="purus"
-	religion="hindu"
-	trade_goods="grain"
-	civilization_value=26
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=7
-	}
-	freemen={
-		amount=6
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		religion="jainism"
-		amount=3
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-4394={ #Adrestai
-	terrain="forest"
-	culture="dardic"
-	religion="hindu"
-	trade_goods="elephants"
-	civilization_value=8
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
 	tribesmen={
 		amount=4
 	}
 }
 
-4395={ #Turvasha
-	terrain="plains"
-	culture="sivi"
-	religion="jainism"
-	trade_goods="dates"
-	civilization_value=26
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		religion="hindu"
-		amount=4
-	}
-	slaves={
-		amount=4
-	}
-	tribesmen={
-		amount=5
-	}
-}
-
-4396={ #Chandaniot
-	terrain="farmland"
-	culture="purus"
-	religion="hindu"
-	trade_goods="grain"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=6
-	}
-	freemen={
-		religion="buddhism"
-		amount=4
-	}
-	slaves={
-		amount=4
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-4397={ #Vipasha
-	terrain="farmland"
-	culture="purus"
+4386={ #Jadamapura
+	terrain="desert"
+	culture="shivi"
 	religion="ajivika"
-	trade_goods="cattle"
-	civilization_value=28
+	trade_goods="wild_game"
+	civilization_value=23
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		religion="hindu"
 		amount=5
 	}
-	citizen={
-		religion="hindu"
-		amount=2
-	}
 	slaves={
-		amount=4
-	}
-	tribesmen={
 		amount=3
 	}
-}
-
-4398={ #Bhatiai
-	terrain="plains"
-	culture="purus"
-	religion="hindu"
-	trade_goods="silk"
-	civilization_value=26
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=5
-	}
-	freemen={
-		religion="buddhism"
-		amount=2
-	}
-	slaves={
-		religion="ajivika"
-		amount=2
-	}
-	tribesmen={
-		amount=6
-	}
-}
-
-4399={ #Jayapura
-	terrain="farmland"
-	culture="purus"
-	religion="hindu"
-	trade_goods="cloth"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=5
-	}
-	slaves={
-		religion="jainism"
-		amount=1
-	}
 	tribesmen={
 		amount=4
-	}
-}
-
-4400={ #Taki
-	terrain="farmland"
-	culture="purus"
-	religion="hindu"
-	trade_goods="grain"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=4
-	}
-	freemen={
-		religion="jainism"
-		amount=3
-	}
-	slaves={
-		religion="buddhism"
-		amount=2
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-4401={ #Rupar
-	terrain="forest"
-	culture="dardic"
-	religion="jainism"
-	trade_goods="cedar"
-	civilization_value=8
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=5
-	}
-	tribesmen={
-		amount=5
-	}
-}
-
-4409={ #Arispara
-	terrain="forest"
-	culture="kuru"
-	religion="buddhism"
-	trade_goods="grain"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=4
-	}
-	freemen={
-		amount=4
-	}
-	slaves={
-		amount=4
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-4410={ #Tabarhindh
-	terrain="forest"
-	culture="kuru"
-	religion="hindu"
-	trade_goods="camel"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=5
-	}
-	tribesmen={
-		amount=5
-	}
-}
-
-4414={ #Salagishsha
-	terrain="plains"
-	culture="kuru"
-	religion="hindu"
-	trade_goods="cloth"
-	civilization_value=26
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=4
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=4
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-4415={ #Sirsa
-	terrain="plains"
-	culture="kuru"
-	religion="hindu"
-	trade_goods="horses"
-	civilization_value=26
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=5
-	}
-	tribesmen={
-		amount=8
-	}
-}
-
-4416={ #Sunam
-	terrain="forest"
-	culture="kuru"
-	religion="hindu"
-	trade_goods="grain"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		religion="buddhism"
-		amount=3
-	}
-	slaves={
-		amount=4
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-4418={ #Satadru
-	terrain="plains"
-	culture="kuru"
-	religion="hindu"
-	trade_goods="base_metals"
-	civilization_value=26
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=4
-	}
-	tribesmen={
-		amount=5
 	}
 }
 
@@ -1598,14 +885,20 @@
 	}
 }
 
-5445={ #Grodaka
-	terrain="plains"
-	culture="kuru"
-	religion="hindu"
-	trade_goods="wild_game"
-	civilization_value=18
+6613={ #Andaca
+	terrain="mountain"
+	culture="sattagydian"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
 	tribesmen={
 		amount=1
 	}
@@ -1636,7 +929,7 @@
 6997={ #Ora
 	terrain="mountain"
 	culture="gandhari"
-	religion="hindu"
+	religion="sassatavada"
 	trade_goods="cattle"
 	civilization_value=7
 	barbarian_power=0
@@ -1658,33 +951,35 @@
 7314={ #Taksasila
 	terrain="plains"
 	culture="gandhari"
-	religion="buddhism"
+	religion="zoroaster"
 	trade_goods="papyrus"
 	civilization_value=37
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=1
+		culture="pasargadi"
+		religion="buddhism"
+		amount=2
 	}
 	nobles={
 		culture="pasargadi"
-		religion="zoroaster"
-		amount=1
+		religion="buddhism"
+		amount=2
 	}
 	nobles={
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=7
-	}
-	freemen={
-		amount=8
-	}
-	slaves={
 		amount=9
 	}
+	freemen={
+		amount=11
+	}
+	slaves={
+		amount=13
+	}
 	tribesmen={
-		amount=3
+		amount=5
 	}
 	holy_site=omen_varuna
 }
@@ -1713,7 +1008,7 @@
 }
 
 7361={ #Salutara
-	terrain="mountain"
+	terrain="forest"
 	culture="gandhari"
 	religion="jainism"
 	trade_goods="base_metals"
@@ -1732,53 +1027,6 @@
 	}
 	tribesmen={
 		amount=2
-	}
-}
-
-7399={ #Rajagrha
-	terrain="forest"
-	culture="purus"
-	religion="buddhism"
-	trade_goods="cattle"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		religion="hindu"
-		amount=1
-	}
-	freemen={
-		religion="jainism"
-		amount=3
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-7485={ #Sodal
-	terrain="plains"
-	culture="purus"
-	religion="hindu"
-	trade_goods="dates"
-	civilization_value=36
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=5
-	}
-	slaves={
-		amount=6
-	}
-	tribesmen={
-		religion="buddhism"
-		amount=5
 	}
 }
 
@@ -1805,7 +1053,7 @@
 7657={ #Purushapura
 	terrain="hills"
 	culture="gandhari"
-	religion="hindu"
+	religion="zoroaster"
 	trade_goods="incense"
 	civilization_value=14
 	barbarian_power=0
@@ -1827,9 +1075,9 @@
 
 9257={ #Gomal
 	terrain="plains"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="grain"
+	culture="shivi"
+	religion="charvaka"
+	trade_goods="camel"
 	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
@@ -1857,7 +1105,7 @@
 
 9258={ #Nuktani
 	terrain="plains"
-	culture="sivi"
+	culture="shivi"
 	religion="hindu"
 	trade_goods="grain"
 	civilization_value=19
@@ -1883,374 +1131,486 @@
 	}
 }
 
-9259={ #Yazman
+9341={ #Tavela
 	terrain="plains"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="dates"
-	civilization_value=19
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		religion="buddhism"
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		religion="jainism"
-		amount=1
-	}
-}
-
-9260={ #Marot
-	terrain="desert"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="camel"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		religion="buddhism"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		religion="buddhism"
-		amount=1
-	}
-}
-
-9261={ #Kanganwala
-	terrain="plains"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="salt"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	freemen={
-		religion="jainism"
-		amount=1
-	}
-	slaves={
-		religion="buddhism"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		religion="buddhism"
-		amount=1
-	}
-}
-
-9262={ #Patan Minara
-	terrain="plains"
-	culture="sivi"
-	religion="buddhism"
-	trade_goods="cloth"
-	civilization_value=23
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=4
-	}
-	freemen={
-		amount=5
-	}
-	freemen={
-		amount=2
-	}
-	freemen={
-		religion="jainism"
-		amount=2
-	}
-	slaves={
-		religion="hindu"
-		amount=2
-	}
-	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		religion="hindu"
-		amount=1
-	}
-	holy_site=omen_sila_parami
-}
-
-9263={ #Inayati
-	terrain="plains"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="leather"
-	civilization_value=19
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	freemen={
-		religion="ajivika"
-		amount=1
-	}
-	slaves={
-		religion="hindu"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-9264={ #Chishtian
-	terrain="plains"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="grain"
-	civilization_value=21
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=4
-	}
-	freemen={
-		religion="jainism"
-		amount=2
-	}
-	slaves={
-		religion="hindu"
-		amount=2
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-9265={ #Rojhanwali
-	terrain="plains"
-	culture="sivi"
-	religion="buddhism"
-	trade_goods="horses"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	citizen={
-		religion="hindu"
-		amount=1
-	}
-	freemen={
-		amount=3
-	}
-	freemen={
-		religion="jainism"
-		amount=1
-	}
-	slaves={
-		religion="hindu"
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-9266={ #Anupgarh
-	terrain="plains"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="cattle"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	freemen={
-		religion="ajivika"
-		amount=1
-	}
-	slaves={
-		religion="buddhism"
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-9267={ #Badopal
-	terrain="plains"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="vegetables"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		religion="buddhism"
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	freemen={
-		religion="buddhism"
-		amount=1
-	}
-	freemen={
-		religion="jainism"
-		amount=1
-	}
-	slaves={
-		religion="ajivika"
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-9278={ #Atari
-	terrain="plains"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="fruits"
-	civilization_value=37
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=6
-	}
-	slaves={
-		amount=5
-	}
-	tribesmen={
-		religion="ajivika"
-		amount=1
-	}
-	freemen={
-		religion="jainism"
-		amount=2
-	}
-}
-
-9279={ #Harapa
-	terrain="farmland"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="horses"
-	civilization_value=34
-	barbarian_power=0
-	province_rank="settlement"
-	nobles={
-		amount=1
-	}
-	citizen={
-		amount=5
-	}
-	freemen={
-		amount=5
-	}
-	slaves={
-		amount=6
-	}
-	tribesmen={
-		religion="ajivika"
-		amount=1
-	}
-}
-
-9280={ #Kot Kamalia
-	terrain="plains"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="cloth"
-	civilization_value=35
-	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=6
-	}
-	citizen={
-		amount=8
-	}
-	freemen={
-		amount=12
-	}
-	slaves={
-		amount=8
-	}
-	tribesmen={
-		religion="ajivika"
-		amount=1
-	}
-}
-
-9281={ #Sukah
-	terrain="plains"
-	culture="sivi"
-	religion="hindu"
-	trade_goods="grain"
-	civilization_value=38
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=4
-	}
-	freemen={
-		amount=6
-	}
-	slaves={
-		amount=6
-	}
-	tribesmen={
-		religion="ajivika"
-		amount=2
-	}
-}
-
-9282={ #Nokhar
-	terrain="farmland"
-	culture="purus"
+	culture="shivi"
 	religion="hindu"
 	trade_goods="silk"
 	civilization_value=27
 	barbarian_power=0
-	province_rank="city"
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9372={ #Jarpura
+	terrain="desert"
+	culture="salwan"
+	religion="ajnana"
+	trade_goods="camel"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
 	citizen={
 		amount=7
+	}
+}
+
+9374={ #Kulaband
+	terrain="plains"
+	culture="shivi"
+	religion="ajivika"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+9375={ #Kanpat
+	terrain="desert"
+	culture="shivi"
+	religion="sassatavada"
+	trade_goods="wild_game"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9376={ #Manguela
+	terrain="farmland"
+	culture="shivi"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9377={ #Rehman Dheri
+	terrain="desert"
+	culture="harrapan"
+	religion="jainism"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9378={ #Varna
+	terrain="plains"
+	culture="shivi"
+	religion="buddhism"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9379={ #Arithapura
+	terrain="plains"
+	culture="shivi"
+	religion="ajnana"
+	trade_goods="cloth"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9380={ #Reika
+	terrain="desert"
+	culture="harrapan"
+	religion="charvaka"
+	trade_goods="camel"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+9381={ #Makeala
+	terrain="hills"
+	culture="shivi"
+	religion="ajivika"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9382={ #Banar
+	terrain="forest"
+	culture="shivi"
+	religion="sassatavada"
+	trade_goods="cedar"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+9383={ #Maneshra
+	terrain="hills"
+	culture="gandhari"
+	religion="kassapan"
+	trade_goods="stone"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9384={ #Seraipaka
+	terrain="hills"
+	culture="gandhari"
+	religion="jainism"
+	trade_goods="earthware"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9385={ #Karian
+	terrain="plains"
+	culture="gandhari"
+	religion="buddhism"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=9
+	}
+}
+
+9386={ #Ashurakot
+	terrain="plains"
+	culture="gandhari"
+	religion="ajnana"
+	trade_goods="elephants"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=9
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9387={ #Kurushakot
+	terrain="forest"
+	culture="gandhari"
+	religion="charvaka"
+	trade_goods="cedar"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9388={ #Rajagriha
+	terrain="forest"
+	culture="gandhari"
+	religion="ajivika"
+	trade_goods="cedar"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9389={ #Darapura
+	terrain="plains"
+	culture="gandhari"
+	religion="sassatavada"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=12
+	}
+}
+
+9390={ #Sehanaghazi
+	terrain="plains"
+	culture="gandhari"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=11
+	}
+}
+
+9391={ #Kapisi
+	terrain="hills"
+	culture="gandhari"
+	religion="jainism"
+	trade_goods="base_metals"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9392={ #Grondari
+	terrain="hills"
+	culture="gandhari"
+	religion="buddhism"
+	trade_goods="base_metals"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9393={ #Karticha
+	terrain="forest"
+	culture="gandhari"
+	religion="ajnana"
+	trade_goods="vegetables"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+}
+
+9394={ #Parvala
+	terrain="mountain"
+	culture="gandhari"
+	religion="charvaka"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9395={ #Merali
+	terrain="mountain"
+	culture="gandhari"
+	religion="ajivika"
+	trade_goods="vegetables"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9396={ #Randroli
+	terrain="mountain"
+	culture="gandhari"
+	religion="sassatavada"
+	trade_goods="base_metals"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9397={ #Balak
+	terrain="hills"
+	culture="gandhari"
+	religion="kassapan"
+	trade_goods="grain"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=9
+	}
+}
+
+9398={ #Satpura Kaleri
+	terrain="mountain"
+	culture="gandhari"
+	religion="jainism"
+	trade_goods="base_metals"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
 	}
 	freemen={
 		amount=7
 	}
 	slaves={
-		amount=8
+		amount=2
 	}
 	tribesmen={
-		religion="ajivika"
-		amount=1
+		amount=4
 	}
 }
 

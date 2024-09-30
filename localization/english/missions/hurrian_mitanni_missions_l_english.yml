@@ -1,0 +1,244 @@
+﻿l_english:
+
+ hurrian_mitanni_missions:0 "From Brazen Ashes"
+ hurrian_mitanni_missions_DESCRIPTION:0 "A reinstatement of the Mitanni Kingdom requires much effort, from the re-establishment of our culture to the veneration of our deities, so much was lost in the wake of the Assyrian onslaught.. But we will rise from the Ashes, a nation reborn."
+ hurrian_mitanni_missions_CRITERIA_DESCRIPTION:0 "This mission will be completed when the Mitanni are fully re-established and modernized to take on the ages to come."
+ hurrian_mitanni_missions_BUTTON_TOOLTIP:0 "A new #E Mitanni Kingdom#! must rise from centuries of foreign domination."
+
+ #Missions
+
+ hurrian_mitanni_missions_task_1:0 "Urbanize Wassukanni"
+ hurrian_mitanni_missions_task_1_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_2:0 "Cultural Resurgence"
+ hurrian_mitanni_missions_task_2_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_3:0 "Expand Thannuris" #874
+ hurrian_mitanni_missions_task_3_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_4:0 "The Worship of Intar"
+ hurrian_mitanni_missions_task_4_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_5:0 "The Port of Ugarit"
+ hurrian_mitanni_missions_task_5_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_6:0 "Growth of Marde" #871
+ hurrian_mitanni_missions_task_6_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_7:0 "Assimilating the Qardu"
+ hurrian_mitanni_missions_task_7_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_8:0 "Repay Their Crimes Twofold"
+ hurrian_mitanni_missions_task_8_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_9:0 "Reconcile our Past"
+ hurrian_mitanni_missions_task_9_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_10:0 "The Sun sets on Assyria"
+ hurrian_mitanni_missions_task_10_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_11:0 "Incorporate Ashur"
+ hurrian_mitanni_missions_task_11_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_12:0 "Reap the Benefits"
+ hurrian_mitanni_missions_task_12_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_13:0 "Total Subjugation"
+ hurrian_mitanni_missions_task_13_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_14:0 "To the lands of Kemet!"
+ hurrian_mitanni_missions_task_14_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_15:0 "An Extinguished Flame"
+ hurrian_mitanni_missions_task_15_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_16:0 "Renewing the Maryannu"
+ hurrian_mitanni_missions_task_16_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_17:0 "A new supply of Horses"
+ hurrian_mitanni_missions_task_17_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_18:0 "The Fall of Assur"
+ hurrian_mitanni_missions_task_18_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_19:0 "Hurrian Archers"
+ hurrian_mitanni_missions_task_19_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_20:0 "Charioteers of Wassukanni"
+ hurrian_mitanni_missions_task_20_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_21:0 "Into Tadmor"
+ hurrian_mitanni_missions_task_21_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_22:0 "Camels of the South"
+ hurrian_mitanni_missions_task_22_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_23:0 "Learning from our Downfall"
+ hurrian_mitanni_missions_task_23_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_24:0 "Warriors of Urartu"
+ hurrian_mitanni_missions_task_24_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_25:0 "Found Military Colonies"
+ hurrian_mitanni_missions_task_25_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_26:0 "A reforged Army"
+ hurrian_mitanni_missions_task_26_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_27:0 "The City of Babylon"
+ hurrian_mitanni_missions_task_27_DESC:0 ""
+ 
+ hurrian_mitanni_missions_task_28:0 "From Brazen Ashes"
+ hurrian_mitanni_missions_task_28_DESC:0 ""
+
+
+ #Tooltips
+
+
+ #Modifiers
+
+
+ #Others
+
+
+ #Events
+ me_hurrian_mitanni_1_title:0 "$hurrian_mitanni_missions_task_1$"
+ me_hurrian_mitanni_1_desc:0 ""
+ me_hurrian_mitanni_1.a:0 ""
+ me_hurrian_mitanni_1_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_1$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_2_title:0 "$hurrian_mitanni_missions_task_2$"
+ me_hurrian_mitanni_2_desc:0 ""
+ me_hurrian_mitanni_2.a:0 ""
+ me_hurrian_mitanni_2_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_2$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_3_title:0 "$hurrian_mitanni_missions_task_3$"
+ me_hurrian_mitanni_3_desc:0 ""
+ me_hurrian_mitanni_3.a:0 ""
+ me_hurrian_mitanni_3_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_3$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_4_title:0 "$hurrian_mitanni_missions_task_4$"
+ me_hurrian_mitanni_4_desc:0 ""
+ me_hurrian_mitanni_4.a:0 ""
+ me_hurrian_mitanni_4_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_4$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_5_title:0 "$hurrian_mitanni_missions_task_5$"
+ me_hurrian_mitanni_5_desc:0 ""
+ me_hurrian_mitanni_5.a:0 ""
+ me_hurrian_mitanni_5_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_5$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_6_title:0 "$hurrian_mitanni_missions_task_6$"
+ me_hurrian_mitanni_6_desc:0 ""
+ me_hurrian_mitanni_6.a:0 ""
+ me_hurrian_mitanni_6_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_6$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_7_title:0 "$hurrian_mitanni_missions_task_7$"
+ me_hurrian_mitanni_7_desc:0 ""
+ me_hurrian_mitanni_7.a:0 ""
+ me_hurrian_mitanni_7_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_7$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_8_title:0 "$hurrian_mitanni_missions_task_8$"
+ me_hurrian_mitanni_8_desc:0 ""
+ me_hurrian_mitanni_8.a:0 ""
+ me_hurrian_mitanni_8_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_8$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_9_title:0 "$hurrian_mitanni_missions_task_9$"
+ me_hurrian_mitanni_9_desc:0 ""
+ me_hurrian_mitanni_9.a:0 ""
+ me_hurrian_mitanni_9_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_9$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_10_title:0 "$hurrian_mitanni_missions_task_10$"
+ me_hurrian_mitanni_10_desc:0 ""
+ me_hurrian_mitanni_10.a:0 ""
+ me_hurrian_mitanni_10_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_10$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_11_title:0 "$hurrian_mitanni_missions_task_11$"
+ me_hurrian_mitanni_11_desc:0 ""
+ me_hurrian_mitanni_11.a:0 ""
+ me_hurrian_mitanni_11_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_11$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_12_title:0 "$hurrian_mitanni_missions_task_12$"
+ me_hurrian_mitanni_12_desc:0 ""
+ me_hurrian_mitanni_12.a:0 ""
+ me_hurrian_mitanni_12_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_12$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_13_title:0 "$hurrian_mitanni_missions_task_13$"
+ me_hurrian_mitanni_13_desc:0 ""
+ me_hurrian_mitanni_13.a:0 ""
+ me_hurrian_mitanni_13_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_13$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_14_title:0 "$hurrian_mitanni_missions_task_14$"
+ me_hurrian_mitanni_14_desc:0 ""
+ me_hurrian_mitanni_14.a:0 ""
+ me_hurrian_mitanni_14_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_14$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_15_title:0 "$hurrian_mitanni_missions_task_15$"
+ me_hurrian_mitanni_15_desc:0 ""
+ me_hurrian_mitanni_15.a:0 ""
+ me_hurrian_mitanni_15_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_15$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_16_title:0 "$hurrian_mitanni_missions_task_16$"
+ me_hurrian_mitanni_16_desc:0 ""
+ me_hurrian_mitanni_16.a:0 ""
+ me_hurrian_mitanni_16_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_16$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_17_title:0 "$hurrian_mitanni_missions_task_17$"
+ me_hurrian_mitanni_17_desc:0 ""
+ me_hurrian_mitanni_17.a:0 ""
+ me_hurrian_mitanni_17_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_17$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_18_title:0 "$hurrian_mitanni_missions_task_18$"
+ me_hurrian_mitanni_18_desc:0 ""
+ me_hurrian_mitanni_18.a:0 ""
+ me_hurrian_mitanni_18_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_18$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_19_title:0 "$hurrian_mitanni_missions_task_19$"
+ me_hurrian_mitanni_19_desc:0 ""
+ me_hurrian_mitanni_19.a:0 ""
+ me_hurrian_mitanni_19_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_19$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_20_title:0 "$hurrian_mitanni_missions_task_20$"
+ me_hurrian_mitanni_20_desc:0 ""
+ me_hurrian_mitanni_20.a:0 ""
+ me_hurrian_mitanni_20_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_20$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_21_title:0 "$hurrian_mitanni_missions_task_21$"
+ me_hurrian_mitanni_21_desc:0 ""
+ me_hurrian_mitanni_21.a:0 ""
+ me_hurrian_mitanni_21_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_21$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_22_title:0 "$hurrian_mitanni_missions_task_22$"
+ me_hurrian_mitanni_22_desc:0 ""
+ me_hurrian_mitanni_22.a:0 ""
+ me_hurrian_mitanni_22_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_22$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_23_title:0 "$hurrian_mitanni_missions_task_23$"
+ me_hurrian_mitanni_23_desc:0 ""
+ me_hurrian_mitanni_23.a:0 ""
+ me_hurrian_mitanni_23_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_23$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_24_title:0 "$hurrian_mitanni_missions_task_24$"
+ me_hurrian_mitanni_24_desc:0 ""
+ me_hurrian_mitanni_24.a:0 ""
+ me_hurrian_mitanni_24_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_24$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_25_title:0 "$hurrian_mitanni_missions_task_25$"
+ me_hurrian_mitanni_25_desc:0 ""
+ me_hurrian_mitanni_25.a:0 ""
+ me_hurrian_mitanni_25_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_25$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_26_title:0 "$hurrian_mitanni_missions_task_26$"
+ me_hurrian_mitanni_26_desc:0 ""
+ me_hurrian_mitanni_26.a:0 ""
+ me_hurrian_mitanni_26_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_26$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_27_title:0 "$hurrian_mitanni_missions_task_27$"
+ me_hurrian_mitanni_27_desc:0 ""
+ me_hurrian_mitanni_27.a:0 ""
+ me_hurrian_mitanni_27_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_27$#!' has now been #G Completed#!!"
+ 
+ me_hurrian_mitanni_28_title:0 "$hurrian_mitanni_missions_task_28$"
+ me_hurrian_mitanni_28_desc:0 ""
+ me_hurrian_mitanni_28.a:0 ""
+ me_hurrian_mitanni_28_tooltip:0 "The mission task '#Y $hurrian_mitanni_missions_task_28$#!' has now been #G Completed#!!"
+

@@ -1,0 +1,56 @@
+﻿country_decisions = {
+	form_tetrapolitania = {
+	potential = {
+		num_of_cities >= 1
+		OR = {
+			tag = LP2
+			tag = TRP
+			tag = SP1
+			tag = LP1
+		}
+		NOR = {
+			is_tier_1_formable_trigger = yes
+			is_endgame_tag_trigger = yes
+			has_variable = has_formed_tetrapolitania
+		}
+	}
+	highlight = {
+		scope:province = {
+			OR = {
+				province_id = 3324 #Kinypes
+				province_id = 3306 #Leptis Magna
+				province_id = 3303 #Oea
+				province_id = 3325 #Thubactis
+			}
+		}
+	}
+	allow = {
+		owns_or_subject_owns = 3324 #Kinypes
+		owns_or_subject_owns = 3306 #Leptis Magna
+		owns_or_subject_owns = 3303 #Oea
+		owns_or_subject_owns = 3325 #Thubactis
+	}
+	effect = {
+		custom_tooltip = "tier_1_formable_tooltip"
+		change_country_name = "TETRAPOLITANIA_NAME"
+		tribal_formable_government_change_effect = yes
+		add_3_free_province_investments = yes
+		hidden_effect = {
+			change_country_adjective = "TETRAPOLITANIA_FORMABLE_ADJECTIVE"
+			change_country_tag = TET
+			change_country_color = borysthenia_color
+			hidden_effect = {
+			every_province = {
+				limit = {
+					OR = {
+						is_in_region = cyrenaica_region
+					}
+				
+				}
+				add_claim = root
+				}
+				set_variable = has_formed_tetrapolitania
+			}
+		}
+	}
+}

@@ -1,0 +1,1267 @@
+﻿namespace = me_persis
+
+me_persis.1 = {
+    type = country_event
+
+    title = me_persis_1_title
+    desc = me_persis_1_desc
+    picture = hanging_gardens
+
+    option = {
+        name = me_persis_1.a
+        custom_tooltip = me_persis_1_tooltip
+        p:4799 = {
+            add_province_modifier = {
+                name = persis_mod_1
+                duration = -1
+            }
+        }
+        add_1_free_province_investments = yes
+    }
+}
+me_persis.2 = {
+    type = country_event
+
+    title = me_persis_2_title
+    desc = me_persis_2_desc
+    picture = war_council
+
+    option = {
+        name = me_persis_2.a
+        custom_tooltip = me_persis_2_tooltip
+		add_treasury = -100
+		add_political_influence = -20
+        add_country_modifier = {
+            name = persis_mod_2
+            duration = -1
+        }
+    }
+}
+me_persis.400 = {
+    type = country_event
+
+    title = me_persis_400_title
+    desc = me_persis_400_desc
+    picture = interesting_histories_hellenic_city_rebuild
+
+    immediate = {
+        add_political_influence = -50
+        add_treasury = -100
+    }
+
+    option = {
+        name = me_persis_400.a
+        p:4977 = {
+            set_variable = {
+                name = gets_mod_pes
+                days = 500
+            }
+            create_pop = citizen
+        }
+    }
+    option = {
+        name = me_persis_400.b
+        p:4950 = {
+            set_variable = {
+                name = gets_mod_pes
+                days = 500
+            }
+            create_pop = citizen
+        }
+    }
+    option = {
+        name = me_persis_400.c
+        p:4788 = {
+            set_variable = {
+                name = gets_mod_pes
+                days = 500
+            }
+            create_pop = citizen
+        }
+    }
+    option = {
+        name = me_persis_400.d
+        p:3402 = {
+            set_variable = {
+                name = gets_mod_pes
+                days = 500
+            }
+            create_pop = citizen
+        }
+    }
+    option = {
+        name = me_persis_400.e
+        p:3407 = {
+            set_variable = {
+                name = gets_mod_pes
+                days = 500
+            }
+            create_pop = citizen
+        }
+    }
+    option = {
+        name = me_persis_400.f
+        p:3410 = {
+            set_variable = {
+                name = gets_mod_pes
+                days = 500
+            }
+            create_pop = citizen
+        }
+    }
+    option = {
+        name = me_persis_400.g
+        p:3413 = {
+            set_variable = {
+                name = gets_mod_pes
+                days = 500
+            }
+            create_pop = citizen
+        }
+    }
+    option = {
+        name = me_persis_400.h
+        p:6529 = {
+            set_variable = {
+                name = gets_mod_pes
+                days = 500
+            }
+            create_pop = citizen
+        }
+    }
+    option = {
+        name = me_persis_400.i
+        p:6581 = {
+            set_variable = {
+                name = gets_mod_pes
+                days = 500
+            }
+            create_pop = citizen
+        }
+    }
+}
+me_persis.4 = {
+    type = country_event
+
+    title = me_persis_4_title
+    desc = me_persis_4_desc
+    picture = interesting_histories_hellenic_city_rebuild
+
+    option = {
+        name = me_persis_4.a
+        custom_tooltip = me_persis_4_tooltip
+        random_owned_province = {
+            limit = {
+                has_variable = gets_mod_pes
+            }
+            add_province_modifier = {
+                name = persis_mod_3
+                duration = -1
+            }
+            set_city_status = city
+        }
+    }
+}
+me_persis.5 = {
+    type = country_event
+
+    title = me_persis_5_title
+    desc = me_persis_5_desc
+    picture = great_work_architect
+    left_portrait = current_ruler
+
+    option = {
+        name = me_persis_5.a
+        custom_tooltip = me_persis_5_tooltip
+        p:4951 = {
+            add_province_modifier = {
+                name = persis_mod_4
+                duration = 900
+            }
+        }
+    }
+}
+me_persis.6 = {
+    type = country_event
+
+    title = me_persis_6_title
+    desc = me_persis_6_desc
+    picture = hellenic_marketplace
+
+    option = {
+        name = me_persis_6.a
+        custom_tooltip = me_persis_6_tooltip
+        p:4950 = {
+            add_province_modifier = {
+                name = persis_mod_5
+                duration = 900
+            }
+        }
+    }
+}
+me_persis.7 = {
+    type = country_event
+
+    title = me_persis_7_title
+    desc = me_persis_7_desc
+    picture = war_chest
+
+    option = {
+        name = me_persis_7.a
+        custom_tooltip = me_persis_7_tooltip
+        add_treasury = -300
+        add_country_modifier = {
+            name = persis_mod_6
+            duration = 2880
+        }
+        p:4799 = {
+            create_state_pop = nobles
+            create_state_pop = nobles
+        }
+        p:4951 = {
+            create_state_pop = nobles
+            create_state_pop = nobles
+        }
+        p:4782 = {
+            create_state_pop = nobles
+            create_state_pop = nobles
+        }
+    }
+}
+me_persis.8 = {
+    type = country_event
+
+    title = me_persis_8_title
+    desc = me_persis_8_desc
+    picture = trade_port
+
+    option = {
+        name = me_persis_8.a
+        custom_tooltip = me_persis_8_tooltip
+        p:9692 = { add_road_towards = p:4972 }
+        p:4972 = { add_road_towards = p:9691 }
+        p:9691 = { add_road_towards = p:9697 }
+        p:9697 = { add_road_towards = p:4973 }
+        p:4973 = { add_road_towards = p:4974 }
+        p:4974 = { add_road_towards = p:9632 }
+        p:9632 = { add_road_towards = p:9631 }
+        p:9631 = { add_road_towards = p:4976 }
+        p:4976 = { add_road_towards = p:9623 }
+        p:9623 = { add_road_towards = p:9625 }
+        p:9625 = { add_road_towards = p:4975 }
+        p:4975 = { add_road_towards = p:4983 }
+        p:4983 = { add_road_towards = p:6954 }
+        p:6954 = { add_road_towards = p:9615 }
+        p:9615 = { add_road_towards = p:6959 }
+        p:6959 = { add_road_towards = p:4982 }
+        p:4982 = { add_road_towards = p:9684 }
+        p:9684 = { add_road_towards = p:1595 }
+        add_treasury = -250
+    }
+}
+me_persis.9 = {
+    type = country_event
+
+    title = me_persis_9_title
+    desc = me_persis_9_desc
+    picture = interesting_histories_fish_market
+
+    option = {
+        name = me_persis_9.a
+        custom_tooltip = me_persis_9_tooltip
+        p:4956 = {
+            add_province_modifier = {
+                name = persis_mod_5
+                duration = 900
+            }
+        }
+    }
+}
+me_persis.10 = {
+    type = country_event
+
+    title = me_persis_10_title
+    desc = me_persis_10_desc
+    picture = farming
+
+    option = {
+        name = me_persis_10.a
+        custom_tooltip = me_persis_10_tooltip
+        ordered_owned_province = {
+            limit = {
+                OR = {
+                    num_of_basic_settlement_infratructure_building = 1
+                    num_of_latifundia_building = 1
+                }
+            }
+            order_by = total_population
+            max = 5
+            add_permanent_province_modifier = {
+                name = persis_mod_7
+            }
+        }
+        add_country_modifier = {
+            name = persis_mod_8
+            duration = 2880
+        }
+    }
+}
+me_persis.11 = {
+    type = country_event
+
+    title = me_persis_11_title
+    desc = me_persis_11_desc
+    picture = persia_marching
+
+    option = {
+        name = me_persis_11.a
+        custom_tooltip = me_persis_11_tooltip
+        add_military_experience = -10
+        add_manpower = -5
+        add_country_modifier = {
+            name = persis_mod_9
+            duration = -1
+        }
+    }
+}
+
+me_persis.12 = {
+    type = country_event
+
+    title = me_persis_12_title
+    desc = me_persis_12_desc
+    picture = tlc_city_walls
+
+    option = {
+        name = me_persis_12.a
+        custom_tooltip = me_persis_12_tooltip
+        add_legitimacy = legitimacy_large
+        add_stability = 10
+        current_ruler = {
+            add_nickname = "THE_CONQUERER"
+            add_popularity = popularity_large
+            add_martial = 2
+            add_zeal = 2
+        }
+    }
+}
+
+me_persis.13 = {
+    type = country_event
+
+    title = me_persis_13_title
+    desc = me_persis_13_desc
+    picture = Event_dangerous_mountain_crossing
+
+    option = {
+        name = me_persis_13.a
+        custom_tooltip = me_persis_13_tooltip
+        add_military_experience = 25
+        add_2_free_province_investments = yes
+        c:SEL = {
+            add_opinion = {
+                modifier = sneaky_overlord_neg_opmod
+                target = root
+            }
+        }
+    }
+}
+me_persis.14 = {
+    type = country_event
+
+    title = me_persis_14_title
+    desc = me_persis_14_desc
+    picture = interesting_histories_ship_port_africa
+    left_portrait = current_ruler
+
+    option = {
+        name = me_persis_14.a
+        custom_tooltip = me_persis_14_tooltip
+        p:4791 = {
+            add_province_modifier = {
+                name = persis_mod_10
+                duration = -1
+            }
+        }
+        p:4956 = {
+            add_province_modifier = {
+                name = persis_mod_10
+                duration = -1
+            }
+        }
+    }
+}
+me_persis.15 = {
+    type = country_event
+
+    title = me_persis_15_title
+    desc = me_persis_15_desc
+    picture = grand_ship
+
+    option = {
+        name = me_persis_15.a
+        custom_tooltip = me_persis_15_tooltip
+        add_treasury = 500
+    }
+}
+me_persis.16 = {
+    type = country_event
+
+    title = me_persis_16_title
+    desc = me_persis_16_desc
+    picture = tlc_cave_temple
+
+    option = {
+        name = me_persis_16.a
+        custom_tooltip = me_persis_16_tooltip
+        p:1595 = {
+            add_permanent_province_modifier = {
+                name = fire_temple_floor_2
+                duration = -1
+            }
+        }
+    }
+}
+
+#me_persis.161 = {
+#    type = country_event
+#    title = me_persis.161.t
+#    desc = {
+#        first_valid = {
+#            triggered_desc = {
+#                trigger = {
+#                    var:response_flag = flag:accepted
+#                    var:offer_flag = flag:entire_area
+#                }
+#                desc = "me_persis.161.desc"
+#            }
+#            triggered_desc = {
+#                trigger = {
+#                    var:response_flag = flag:accepted
+#                    var:offer_flag = flag:only_prov
+#                }
+#                desc = "me_persis.161.desc2"
+#            }
+#            triggered_desc = {
+#                trigger = {
+#                    var:response_flag = flag:rejected
+#                    var:offer_flag = flag:only_prov
+#                }
+#                desc = "me_persis.161.desc3"
+#            }
+#            triggered_desc = {
+#                trigger = {
+#                    var:response_flag = flag:rejected
+#                    var:offer_flag = flag:entire_area
+#                }
+#                desc = "me_persis.161.desc4"
+#            }
+#        }
+#    }
+#    picture = aqueducts
+#    
+#    left_portrait = current_ruler
+#
+#    option = {      
+#        name = me_persis.161.a
+#        trigger = {
+#            var:response_flag = flag:accepted
+#        }
+#        if = {
+#            limit = {
+#                var:offer_flag = flag:entire_area
+#            }
+#            p:4780.area = {
+#                every_area_province = {
+#                    limit = { owner = c:SEL }
+#                    set_owned_by = c:PES
+#                }
+#            }
+#            add_political_influence = 15
+#        }
+#        else = {    
+#            p:4780 = {
+#                set_owned_by = c:PES
+#            }
+#            add_political_influence = 10
+#        }
+#    }
+#    option = {      
+#        name = me_persis.161.b
+#        trigger = {
+#            var:response_flag = flag:rejected
+#        }
+#        add_opinion = {
+#            modifier = overlord_neg_opmod
+#            target = c:SEL
+#        }
+#        add_political_influence = -5
+#    }
+#}
+me_persis.17 = {
+    type = country_event
+
+    title = me_persis_17_title
+    desc = me_persis_17_desc
+    picture = road_construction
+
+    option = {
+        name = me_persis_17.a
+        custom_tooltip = me_persis_17_tooltip
+        add_country_modifier = {
+            name = persis_mod_11
+            duration = -1
+        }
+        add_2_free_province_investments = yes
+    }
+}
+
+me_persis.18 = { # Median Satraps
+    type = country_event
+
+    title = me_persis_18_title
+    desc = me_persis_18_desc
+    picture = tlc_city_night
+    left_portrait = current_ruler
+    right_portrait = char:222
+    right_portrait = char:225
+    right_portrait = char:227
+    left_portrait = scope:atropates_backup_scope
+
+    option = { # Atropates Proposal
+        name = me_persis_18.a
+        add_aggressive_expansion = -10
+        p:1515 = {
+            create_country = {
+                name = {
+                    name = "ME2"
+                    adjective = "ME2_ADJ"
+                }
+                hidden_effect = {
+                    change_country_tag = ME2
+                    set_country_religion = zoroaster
+                    set_primary_culture_cleanup_effect = {
+                        NEW_PRIMARY_CULTURE = median
+                        MAKE_OLD_CULTURE_INTEGRATED = yes
+                    }
+                    change_country_color = media_atropatene_gray
+                    change_country_flag = MAP
+                    set_country_heritage = atropatenian_heritage
+                }
+                save_scope_as = media_atropatene_scope
+            }
+        }
+        custom_tooltip = atropatene_granted_land_tt
+        hidden_effect = {
+            area:media_atropatene_area = {
+                every_area_province = {
+                    set_owned_by = scope:media_atropatene_scope
+                }
+            }
+            area:media_area = {
+                every_area_province = {
+                    set_owned_by = scope:media_atropatene_scope
+                }
+            }
+            area:aganzana_area = {
+                every_area_province = {
+                    set_owned_by = scope:media_atropatene_scope
+                }
+            }
+            area:kadousioi_area = {
+                every_area_province = {
+                    limit = {
+                        NOR = {
+                            province_id = 4985
+                            province_id = 1630
+                            province_id = 9610
+                            province_id = 9606
+                            province_id = 9607
+                            province_id = 9608
+                            province_id = 4986
+                            province_id = 9609
+                        }
+                    }
+                    set_owned_by = scope:media_atropatene_scope
+                }
+            }
+            area:amardioi_area = {
+                every_area_province = {
+                    set_owned_by = scope:media_atropatene_scope
+                }
+            }
+            area:paytankert_area = {
+                every_area_province = {
+                    set_owned_by = scope:media_atropatene_scope
+                }
+            }
+        }
+        make_subject = {
+            target = scope:media_atropatene_scope
+            type = great_satrapy
+        }
+        if = {
+            limit = {
+                has_variable = atropates_died_var
+            }
+            scope:media_atropatene_scope = { set_as_ruler = scope:atropates_backup_scope }
+        }
+        if = {
+            limit = {
+                char:222 = { is_alive = yes }
+            }
+            scope:media_atropatene_scope = { set_as_ruler = char:222 }
+        }
+        if = {
+            limit = {
+                char:222 = { is_alive = no }
+                char:225 = { is_alive = yes }
+            }
+            scope:media_atropatene_scope = { set_as_ruler = char:225 }
+        }
+        if = {
+            limit = {
+                char:222 = { is_alive = no }
+                char:225 = { is_alive = no }
+                char:227 = { is_alive = no }
+            }
+            scope:media_atropatene_scope = { set_as_ruler = char:225 }
+        }
+        trigger_event = {
+            id = me_persis.181
+            days = 60
+        }
+    }
+    option = { #Reject Proposal
+        name = me_persis_18.b
+        add_aggressive_expansion = 10
+        add_stability = -5
+        custom_tooltip = atropates_revolt_tt
+        trigger_event = {
+            id = me_persis.181
+            days = 60
+        }
+        trigger_event = {
+            id = me_persis.182
+            days = 30
+        }
+    }
+}
+me_persis.181 = { # Caspian Satraps
+    type = country_event
+
+    title = me_persis_181_title
+    desc = me_persis_181_desc
+    picture = tlc_city_mountains
+
+    option = { # 1 Satrap
+        name = me_persis_181.b
+        p:9638 = {
+            random_pops_in_province = {
+                set_pop_culture = amardian
+                set_pop_religion = zoroaster
+            }
+            create_country = {
+                name = {
+                    name="CS4"
+                    adjective="CS4_ADJ"
+                }
+                set_country_religion = zoroaster
+                set_primary_culture_cleanup_effect = {
+                    NEW_PRIMARY_CULTURE = amardian
+                    MAKE_OLD_CULTURE_INTEGRATED = yes
+                }
+                save_scope_as = hyrcania_satrap
+            }
+        }
+        hidden_effect = {
+            area:amardioi_area = {
+                every_area_province = {
+                    limit = {
+                        NOR = {
+                            province_id = 1628
+                            province_id = 1627
+                            province_id = 9605
+                            province_id = 3390
+                            province_id = 9612
+                            province_id = 3389
+                            province_id = 4987
+                            province_id = 9611
+                            province_id = 9613
+                        }
+                    }
+                    set_owned_by = scope:hyrcania_satrap
+                }
+            }
+            area:amardia_area = { every_area_province = { set_owned_by = scope:hyrcania_satrap } }
+            p:3434 = { set_owned_by = scope:hyrcania_satrap }
+        }
+        make_subject = {
+            target = scope:hyrcania_satrap
+            type = satrapy
+        }
+    }
+
+    option = { # 3 Satraps
+        name = me_persis_181.a
+        p:9638 = {
+            random_pops_in_province = {
+                set_pop_culture = amardian
+                set_pop_religion = mithra_religion
+            }
+            create_country = {
+                name = {
+                    name="CS2"
+                    adjective="CS2_ADJ"
+                }
+                set_country_religion = mithra_religion
+                set_primary_culture_cleanup_effect = {
+                    NEW_PRIMARY_CULTURE = amardian
+                    MAKE_OLD_CULTURE_INTEGRATED = yes
+                }
+                save_scope_as = amardii_satrap
+            }
+        }
+        p:4985 = {
+            random_pops_in_province = {
+                set_pop_culture = cadusian
+                set_pop_religion = zoroaster
+            }
+            create_country = {
+                name = {
+                    name="CS1"
+                    adjective="CS1_ADJ"
+                }
+                set_country_religion = zoroaster
+                set_primary_culture_cleanup_effect = {
+                    NEW_PRIMARY_CULTURE = cadusian
+                    MAKE_OLD_CULTURE_INTEGRATED = yes
+                }
+                save_scope_as = cadusii_satrap
+            }
+        }
+        p:4991 = {
+            random_pops_in_province = {
+                set_pop_culture = daylamite
+                set_pop_religion = zurvan_religion
+            }
+            create_country = {
+                name = {
+                    name="CS3"
+                    adjective="CS3_ADJ"
+                }
+                set_country_religion = zurvan_religion
+                set_primary_culture_cleanup_effect = {
+                    NEW_PRIMARY_CULTURE = daylamite
+                    MAKE_OLD_CULTURE_INTEGRATED = yes
+                }
+                save_scope_as = daylamite_satrap
+            }
+        }
+        hidden_effect = {
+            area:amardioi_area = {
+                every_area_province = {
+                    limit = {
+                        NOR = {
+                            province_id = 1628
+                            province_id = 1627
+                            province_id = 9605
+                            province_id = 3390
+                            province_id = 9612
+                            province_id = 3389
+                            province_id = 4987
+                            province_id = 9611
+                            province_id = 9613
+                        }
+                    }
+                    set_owned_by = scope:cadusii_satrap
+                }
+            }
+            area:amardia_area = {
+                every_area_province = {
+                    limit = {
+                        NOR = {
+                            province_id = 4998
+                            province_id = 9635
+                            province_id = 9634
+                            province_id = 9633
+                        }
+                    }
+                    set_owned_by = scope:amardii_satrap
+                }
+            }
+            p:4987 = { set_owned_by = scope:daylamite_satrap }
+            p:9611 = { set_owned_by = scope:daylamite_satrap }
+            p:9613 = { set_owned_by = scope:daylamite_satrap }
+            p:9633 = { set_owned_by = scope:daylamite_satrap }
+            p:9634 = { set_owned_by = scope:daylamite_satrap }
+            p:9635 = { set_owned_by = scope:daylamite_satrap }
+            p:4991 = { set_owned_by = scope:daylamite_satrap }
+            p:4994 = { set_owned_by = scope:daylamite_satrap }
+            p:4993 = { set_owned_by = scope:daylamite_satrap }
+            p:4998 = { set_owned_by = scope:daylamite_satrap }
+            p:3434 = { set_owned_by = scope:amardii_satrap }
+        }
+        make_subject = {
+            target = scope:cadusii_satrap
+            type = satrapy
+        }
+        make_subject = {
+            target = scope:amardii_satrap
+            type = satrapy
+        }
+        make_subject = {
+            target = scope:daylamite_satrap
+            type = satrapy
+        }
+    }
+    option = { # No Satraps
+        name = me_persis_181.c
+        add_aggressive_expansion = 5
+    }
+}
+me_persis.182 = {
+    type = country_event
+
+    title = me_persis_182_title
+    desc = me_persis_182_desc
+    picture = tlc_city_night
+
+    immediate = {
+        p:1515 = {
+            create_country = {
+                name = {
+                    name = "ME2"
+                    adjective = "ME2_ADJ"
+                }
+                hidden_effect = {
+                    change_country_tag = ME2
+                    set_country_religion = zoroaster
+                    set_primary_culture_cleanup_effect = {
+                        NEW_PRIMARY_CULTURE = median
+                        MAKE_OLD_CULTURE_INTEGRATED = yes
+                    }
+                    change_country_color = media_atropatene_gray
+                    change_country_flag = MAP
+                    set_country_heritage = atropatenian_heritage
+                }
+                save_scope_as = media_atropatene_scope
+            }
+        }
+        hidden_effect = {
+            area:media_atropatene_area = {
+                every_area_province = {
+                    set_owned_by = scope:media_atropatene_scope
+                }
+            }
+        }
+        if = {
+            limit = {
+                has_variable = atropates_died_var
+            }
+            scope:media_atropatene_scope = { set_as_ruler = scope:atropates_backup_scope }
+        }
+        if = {
+            limit = {
+                char:222 = { is_alive = yes }
+            }
+            scope:media_atropatene_scope = { set_as_ruler = char:222 }
+        }
+        if = {
+            limit = {
+                char:222 = { is_alive = no }
+                char:225 = { is_alive = yes }
+            }
+            scope:media_atropatene_scope = { set_as_ruler = char:225 }
+        }
+        if = {
+            limit = {
+                char:222 = { is_alive = no }
+                char:225 = { is_alive = no }
+                char:227 = { is_alive = no }
+            }
+            scope:media_atropatene_scope = { set_as_ruler = char:225 }
+        }
+        scope:media_atropatene_scope = {
+            declare_war_with_wargoal = {
+                war_goal = independence_wargoal
+                province = capital_scope
+                target = c:PES
+            }
+        }
+    }
+    option = {
+        name = me_persis_182.a
+    }
+}
+me_persis.19 = {
+    type = country_event
+
+    title = me_persis_19_title
+    desc = me_persis_19_desc
+    picture = great_work_celebration
+
+    option = {
+        name = me_persis_19.a
+        custom_tooltip = me_persis_19_tooltip
+        ordered_owned_province = {
+            limit = {
+                fort_level >= 1
+            }
+            order_by = fort_level
+            max = 5
+            add_province_modifier = {
+                name = persis_mod_12
+                duration = -1
+            }
+        }
+    }
+}
+me_persis.20 = {
+    type = country_event
+
+    title = me_persis_20_title
+    desc = me_persis_20_desc
+    picture = epirote_phalanx
+
+    option = {
+        name = me_persis_20.a
+        custom_tooltip = me_persis_20_tooltip
+        add_country_modifier = {
+            name = persis_mod_13
+            duration = -1
+        }
+    }
+}
+me_persis.21 = {
+    type = country_event
+
+    title = me_persis_21_title
+    desc = me_persis_21_desc
+    picture = interesting_histories_greek_lady
+
+    option = {
+        name = me_persis_21.a
+        custom_tooltip = me_persis_21_tooltip
+        add_country_modifier = {
+            name = persis_mod_14
+            duration = -1
+        }
+    }
+}
+me_persis.22 = {
+    type = country_event
+
+    title = me_persis_22_title
+    desc = me_persis_22_desc
+    picture = religious_rite
+    left_portrait = current_ruler
+
+    option = {
+        name = me_persis_22.a
+        custom_tooltip = me_persis_22_tooltip
+        current_ruler = {
+            add_zeal = 3
+            add_popularity = 20
+        }
+        custom_tooltip = "create_high_martial_rising_star"
+        hidden_effect = {
+            create_character = {
+                add_martial = 8
+                add_trait = conqueror
+            }
+        }
+    }
+}
+me_persis.23 = {
+    type = country_event
+
+    title = me_persis_23_title
+    desc = me_persis_23_desc
+    picture = diadochi_coronation
+
+    option = {
+        name = me_persis_23.a
+        custom_tooltip = me_persis_23_tooltip
+        capital_scope = {
+            while = {
+                count = 6
+                define_pop = {
+                    type = nobles
+                    culture = pasargadi
+                    religion = zoroaster
+                }
+            }
+        }
+        add_country_modifier = {
+            name = persis_mod_15
+            duration = 2880
+        }
+    }
+}
+me_persis.24 = {
+    type = country_event
+
+    title = me_persis_24_title
+    desc = me_persis_24_desc
+    picture = war_council
+
+    option = {
+        name = me_persis_24.a
+        custom_tooltip = me_persis_24_tooltip
+        c:ELM = {
+            reverse_add_opinion = {
+                modifier = sneaky_overlord_neg_opmod
+                target = root
+            }
+        }
+    }
+}
+
+me_persis.25 = {
+    type = country_event
+
+    title = me_persis_25_title
+    desc = me_persis_25_desc
+    picture = persia_marching
+
+    option = {
+        name = me_persis_25.a
+        custom_tooltip = me_persis_25_tooltip
+        add_stability = -10
+        add_legitimacy = -20
+        current_ruler = {
+            add_popularity = -15
+            add_trait = depressed
+        }
+        p:4950 = { set_owned_by = c:ELM }
+        c:ELM = {
+            add_country_modifier = {
+                name = elamite_crisis_solved
+                duration = -1
+            }
+        }
+    }
+}
+me_persis.26 = {
+    type = country_event
+
+    title = me_persis_26_title
+    desc = me_persis_26_desc
+    picture = persepolis
+
+    option = {
+        name = me_persis_26.a
+        custom_tooltip = me_persis_26_tooltip
+        add_country_modifier = {
+            name = abuse_of_imperial_power
+            duration = 1825
+        }
+        add_country_modifier = {
+            name = strength_of_shah
+            duration = -1
+        }
+        custom_tooltip = high_may_lead_to_war_tt
+        hidden_effect = {
+            c:ELM = {
+                random_list = {
+                    75 = { trigger_event = me_persis.261 }
+                    25 = {
+                        if = {
+                            limit = {
+                                is_ai = no
+                            }
+                            trigger_event = me_persis.261
+                        }
+                        if = {
+                            limit = {
+                                is_ai = yes
+                            }
+                            change_country_name = shushun_name
+                            change_country_adjective = susian_adj
+                            area:pars_area = {
+                                every_area_province = {
+                                    set_owned_by = c:PES
+                                }
+                            }
+                            area:anzan_area = {
+                                every_area_province = {
+                                    set_owned_by = c:PES
+                                }
+                            }
+                            add_country_modifier = {
+                                name = elamite_crisis_solved
+                                duration = -1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+me_persis.261 = {
+    type = country_event
+
+    title = me_persis_26_title
+    desc = me_persis_26_desc
+    picture = persepolis
+
+    option = {
+        trigger = { is_ai = yes }
+        exclusive = yes
+        name = me_persis_261.a
+        declare_war_with_wargoal = {
+            war_goal = independence_wargoal
+            province = p:4950
+            target = c:PES
+        }
+    }
+    option = {
+        name = me_persis_261.a
+        declare_war_with_wargoal = {
+            war_goal = independence_wargoal
+            province = p:4950
+            target = c:PES
+        }
+    }
+    option = {
+        name = me_persis_261.b
+        change_country_name = shushun_name
+        change_country_adjective = susian_adj
+        area:pars_area = {
+            every_area_province = {
+                set_owned_by = c:PES
+            }
+        }
+        area:anzan_area = {
+            every_area_province = {
+                set_owned_by = c:PES
+            }
+        }
+        add_country_modifier = {
+            name = elamite_crisis_solved
+            duration = -1
+        }
+    }
+}
+me_persis.27 = {
+    type = country_event
+
+    title = me_persis_27_title
+    desc = me_persis_27_desc
+    picture = steppe_cavalry_honor
+
+    option = {
+        name = me_persis_27.a
+        custom_tooltip = me_persis_27_tooltip
+        p:4978 = {
+            random_pops_in_province = {
+                set_pop_culture = uxian
+                set_pop_religion = elamite_pantheon
+            }
+            create_country = {
+                name = {
+                    name = UX1_name
+                    adjective = UX1_adj
+                }
+                set_country_religion = elamite_pantheon
+                set_primary_culture_cleanup_effect = {
+                    NEW_PRIMARY_CULTURE = uxian
+                    MAKE_OLD_CULTURE_INTEGRATED = yes
+                }
+                save_scope_as = uxian_satrap
+            }
+        }
+        make_subject = {
+            target = scope:uxian_satrap
+            type = satrapy
+        }
+        area:uxia_area = {
+            every_area_province = {
+                set_owned_by = scope:uxian_satrap
+            }
+        }
+        custom_tooltip = uxian_ambassadors_tt
+        hidden_effect = {
+            c:ELM = {
+                trigger_event = me_persis.271
+            }
+        }
+    }
+}
+me_persis.271 = {
+    type = country_event
+
+    title = me_persis_271_title
+    desc = me_persis_271_desc
+    picture = steppe_cavalry_honor
+
+    option = {
+        trigger = {
+            is_ai = yes
+        }
+        name = me_persis_271.a
+        random_list = {
+            33 = {
+                declare_war_with_wargoal = {
+                    war_goal = independence_wargoal
+                    province = p:4950
+                    target = c:PES
+                }
+            }
+            66 = {
+                area:anzan_area = {
+                    every_area_province = {
+                        set_owned_by = c:PES
+                    }
+                }
+                add_country_modifier = {
+                    name = elamite_crisis_solved
+                    duration = -1
+                }
+            }
+        }
+    }
+    option = {
+        name = me_persis_271.a
+        declare_war_with_wargoal = {
+            war_goal = independence_wargoal
+            province = p:4950
+            target = c:PES
+        }
+    }
+    option = {
+        name = me_persis_271.b
+        area:anzan_area = {
+            every_area_province = {
+                set_owned_by = c:PES
+            }
+        }
+        add_country_modifier = {
+            name = elamite_crisis_solved
+            duration = -1
+        }
+    }
+}
+me_persis.28 = {
+    type = country_event
+
+    title = me_persis_28_title
+    desc = me_persis_28_desc
+    picture = tlc_cave_temple
+
+    option = {
+        name = me_persis_28.b
+        set_variable = lands_of_revelation_var
+        change_country_name = IRAN_NAME
+        change_country_adjective = IRAN_ADJ
+        change_country_color = iran_green
+        change_country_flag = PES_2
+    }
+    option = {
+        name = me_persis_28.a
+        set_variable = universal_empire
+        change_country_name = FARSI_NAME
+    }
+}

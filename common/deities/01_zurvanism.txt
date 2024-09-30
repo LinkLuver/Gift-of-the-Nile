@@ -51,7 +51,7 @@ deity_zurvan_khusmani = {
 	trigger = {
 		OR = {
 			rare_deity_trigger = {
-				RELIGION = aten_religion
+				RELIGION = zurvan_religion
 			}
 			deity:omen_zurvan_khusmani = {
 				holy_site_deity_check_trigger = yes
@@ -61,7 +61,7 @@ deity_zurvan_khusmani = {
 	icon = deity_war
 	passive_modifier = { heavy_cavalry_discipline = 0.05 }
 	omen = { army_maintenance_cost = omen_mercenary_land_maintenance_cost_svalue } #Bonus from Omen
-	religion = aten_religion
+	religion = zurvan_religion
 	deity_category = war #This Deity uses a War slot.
 	deification_trigger = {
 		can_deify_trigger = no

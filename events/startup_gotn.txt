@@ -20,16 +20,20 @@ gotn_events.1 = {
             tag = MAP
             tag = SEL
             tag = ADI
-            tag = GED
+           #tag = GED
             tag = ARS
             tag = SAG
             tag = PAR
+            tag = HAG
+            tag = NSI
+            tag = BYI
         }
     }
     fire_only_once = yes
 
     option = {
         name = "gotn_events_1.a"
+        set_variable = war_of_the_diadochs
     }
 }
 
@@ -129,7 +133,7 @@ gotn_events.4 = { # Due for the Duat
             add_gold = -2000
         }
         p:570 = {
-            add_country_modifier = {
+            add_province_modifier = {
                 name = valley_of_the_kings_prep
                 duration = 1825
             }
@@ -174,8 +178,125 @@ gotn_events.6 = {
     hidden = yes
     immediate = {
         trigger_event = {
-            name = median_collapse.20
+            id = median_collapse.20
             days = { 180 365 }
         }
+    }
+}
+
+gotn_events.7 = { # For Canaanite Stuff
+    type = country_event
+    hidden = yes
+    immediate = {
+        c:SWR = { save_scope_as = melqart_ruler }
+        p:743 = { save_scope_as = melqart_site }
+        set_global_variable = {
+            name = payday_melqart
+            value = 0
+        }
+        every_country = {
+            limit = {
+                primary_culture = carthaginian
+                OR = {
+                    religion = carthaginian_pantheon
+                    has_deity_in_pantheon = deity:omen_melqart
+                    has_deity_in_pantheon = deity:omen_rasap_melqart
+                }
+            }
+            add_to_list = melqart_enjoyers
+        }
+        trigger_event = {
+            id = flavor_canaan.1
+            days = { 15 30 }
+        }
+    }
+}
+
+gotn_events.8 = { 
+    
+    type = country_event
+    title = "gotn_events_8_title"
+    desc = "gotn_events_8_desc"
+    picture = tfoe_carthage
+    left_portrait = current_ruler
+    left_portrait = c:MSS.current_ruler
+    left_portrait = c:CAR.current_ruler
+    right_portrait = c:CTU.current_ruler
+    right_portrait = c:MSL.current_ruler
+    right_portrait = c:CPA.current_ruler
+
+    trigger = {
+        is_ai = no
+        OR = {
+           primary_culture = carthaginian
+           primary_culture = ibero_punic
+           primary_culture = atlosian
+        }
+    }
+    fire_only_once = yes
+    
+    option = {
+        name = "gotn_events_8.a"
+    }
+}
+
+gotn_events.9 = { 
+    
+    type = country_event
+    title = "gotn_events_9_title"
+    desc = "gotn_events_9_desc"
+    picture = interesting_histories_celt_chariot
+    left_portrait = current_ruler
+    left_portrait = c:ODR.current_ruler
+    left_portrait = c:CRD.current_ruler
+    right_portrait = c:MOE.current_ruler
+    right_portrait = c:TYL.current_ruler
+    right_portrait = c:DRD.current_ruler
+
+    trigger = {
+        is_ai = no
+        OR = {
+            primary_culture = thracian
+            primary_culture = odrysi
+            primary_culture = tylian
+            primary_culture = dumarian
+            primary_culture = dardanian
+         }
+    }
+    fire_only_once = yes
+    
+    option = {
+        name = "gotn_events_9.a"
+    }
+}
+
+gotn_events.10 = { 
+    
+    type = country_event
+    title = "gotn_events_10_title"
+    desc = "gotn_events_10_desc"
+    picture = tyre_city
+    left_portrait = current_ruler
+    left_portrait = c:ODR.current_ruler
+    left_portrait = c:CRD.current_ruler
+    right_portrait = c:MOE.current_ruler
+    right_portrait = c:TYL.current_ruler
+    right_portrait = c:DRD.current_ruler
+
+    trigger = {
+        is_ai = no
+        OR = {
+            capital_scope = {
+                is_in_region = syria_region
+            }
+            capital_scope = {
+                is_in_region = palestine_region
+            }
+        }
+    }
+    fire_only_once = yes
+    
+    option = {
+        name = "gotn_events_9.a"
     }
 }

@@ -215,7 +215,7 @@
 	terrain="mountain"
 	culture="cappadocian"
 	religion="anatolian_religion"
-	trade_goods="stone"
+	trade_goods="obsidian"
 	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
@@ -234,7 +234,7 @@
 	}
 }
 
-1794={ #Kyzistra
+1794={ #Korama
 	terrain="marsh"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -253,7 +253,7 @@
 	}
 }
 
-1796={ #Arathia
+1796={ #Arasaxa
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -483,7 +483,7 @@
 
 1811={ #Parnassos
 	terrain="plains"
-	culture="morimenian"
+	culture="cimmerian"
 	religion="anatolian_religion"
 	trade_goods="salt"
 	civilization_value=20
@@ -510,7 +510,7 @@
 
 1813={ #Nyssa
 	terrain="plains"
-	culture="morimenian"
+	culture="cimmerian"
 	religion="anatolian_religion"
 	trade_goods="salt"
 	civilization_value=20
@@ -520,15 +520,14 @@
 		amount=1
 	}
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="morimenian"
 		amount=1
 	}
 	freemen={
 		amount=2
 	}
 	freemen={
-		culture="cappadocian"
+		culture="morimenian"
 		amount=1
 	}
 	slaves={
@@ -538,7 +537,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="lycaonian"
+		culture="morimenian"
 		amount=1
 	}
 }
@@ -605,7 +604,7 @@
 	}
 }
 
-1820={ #Saraouene
+1820={ #Odogra
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -617,11 +616,11 @@
 		amount=1
 	}
 	freemen={
-		culture="cappadocian"
+		culture="morimenian"
 		amount=1
 	}
 	freemen={
-		culture="phrygian"
+		culture="morimenian"
 		amount=1
 	}
 	slaves={
@@ -631,7 +630,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="lycaonian"
+		culture="morimenian"
 		amount=1
 	}
 }
@@ -667,7 +666,7 @@
 	}
 }
 
-1836={ #Pteria Kappadokias
+1836={ #Pteria
 	terrain="plains"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -738,7 +737,7 @@
 	}
 }
 
-1852={ #Pisonos
+1852={ #Sinispora
 	terrain="mountain"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -785,7 +784,7 @@
 	}
 }
 
-1854={ #Melitene
+1854={ #Melitia
 	terrain="forest"
 	culture="cataonian"
 	religion="zoroaster"
@@ -841,7 +840,7 @@
 	}
 }
 
-1859={ #Arka
+1859={ #Arca
 	terrain="hills"
 	culture="cataonian"
 	religion="anatolian_religion"
@@ -948,7 +947,7 @@
 	}
 }
 
-1888={ #Padyandos
+1888={ #Podandus
 	terrain="hills"
 	culture="kennataian"
 	religion="anatolian_religion"
@@ -1187,7 +1186,7 @@
 	}
 }
 
-1907={ #Argyrion
+1907={ #Agranai
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1252,7 +1251,7 @@
 	}
 }
 
-1913={ #Sakoina
+1913={ #Sakoena
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -1340,7 +1339,7 @@
 	}
 }
 
-1932={ #Euaissa
+1932={ #Seiousa
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1401,7 +1400,7 @@
 	}
 }
 
-1940={ #Kybistra
+1940={ #Cybistra
 	terrain="plains"
 	culture="lycaonian"
 	religion="anatolian_religion"
@@ -1431,7 +1430,7 @@
 	}
 }
 
-1951={ #Tyana
+1951={ #Tuwana
 	terrain="plains"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1510,7 +1509,7 @@
 	}
 }
 
-1954={ #Garsaura
+1954={ #Nenassa
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -1598,7 +1597,7 @@
 	}
 }
 
-1978={ #Salamboreia
+1978={ #Salambriai
 	terrain="hills"
 	culture="lycaonian"
 	religion="anatolian_religion"
@@ -1731,7 +1730,7 @@
 	holy_site=omen_ahura_mazda
 }
 
-1999={ #Maroga
+1999={ #Tanadaris
 	terrain="hills"
 	culture="cataonian"
 	religion="anatolian_religion"

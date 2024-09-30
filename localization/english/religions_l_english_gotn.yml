@@ -1,20 +1,178 @@
 ﻿l_english:
  kushite_pantheon:0 "Kushitic"
- desc_kushite_pantheon:0 ""
+ desc_kushite_pantheon:0 "Heavily influenced by the Egyptians down the Nile, the Kushitic faith has developped as its own traditions, with a version of Horus, Mandulus, leading the pantheon."
+
  aten_religion:0 "Atenic"
- desc_aten_religion:0 ""
+ desc_aten_religion:0 "The cult of the Aten started towards the middle of New Kingdom Egypt's religion and formed into its own Henotheistic faith by the time of the prophet Akhenaten. Ever since then, the faith has remained entrenched in Middle Egypt, from the Faiyum to Amarna."
+
  mesopotamian_religion:0 "Mesopotamian"
- desc_mesopotamian_religion:0 "The history of the Chaldean pantheon stretches back many thousands of years. Worshiping gods such as Anu, Enki and Nanna, the devotees of the Chaldean religion construct imposing temples in honor of their chosen God."
+ desc_mesopotamian_religion:0 "The history of the Mesopotamian pantheon stretches back many thousands of years. Worshiping gods such as Anu, Enki, and Sin, the devotees of the Mesopotamian religion construct imposing temples in honor of their chosen God."
+
  zoroaster:0 "Mazdayasna"
- zurvan_religion:0 "Zurvanism"
- desc_zurvan_religion:0 "Zurvanism is a branch of traditional Zoroastrianism that has gone quite 'astray,' or so the Mazdayasna may say as such. Through foreign influences, the god of time, Zurvan (Zorvan), has been elevated into the central focal point of this cult."
- vaksh_religion:0 "Vakshic"
+
+ judaism:0 "Hebrew"
+ desc_judaism:0 "Unusually amongst contemporary faiths, the Hebrews worship a monotheistic religion. Following a series of prophets and teachers, the Hebrews have multiple different holy books, like the Torah for the Israelites of Judea and Samaria which contains the details of a covenant created between God (Yaheweh) and the children of Israel. The Edomites, Moabites, and Ammonites each have their own books for their respective gods of Qaus, Chemosh, and Milkom respectively. The Galilee Israelites instead believe in a single Goddess, Asherah."
+
+ indo_iranian_religion:0 "Ardavda"
+ 
+ italic_pantheon:0 "Italic"
+
+ zurvan_religion:0 "Zurvanist"
+ desc_zurvan_religion:0 "Zurvanism is a branch of traditional Zoroastrianism that has gone quite 'astray,' or so the Mazdayasna may remark. Through foreign influences, the god of time, Zurvan (Zorvan), has been elevated into the central focal point of this cult."
+ vaksh_religion:0 "Vakhshic"
+
  elamite_pantheon:0 "Haltamic"
  desc_elamite_pantheon:0 "Haltamic is the ancient Elamite pantheon that has existed since far before the Iranic peoples became the dominant force of the region. The most important deity of this religion during this period is Humban of Anshan, and Inshushinak of Susa. The ancient Haltamic faith lives on with influence from Persia to Dilmun."
  hurrian_pantheon:0 "Teshubic"
- desc_hurrian_pantheon:0 ""
+
  sobek_religion:0 "Sobekite"
- desc_sobek_religion:0 ""
+ desc_sobek_religion:0 "From the priests of the Faiyum, syncretism between the Old Gods and the Aten has resulted in the emergence of the Cult of Sobek-Aten, the Dazzling Crocodile. His aspects are elevated, and his wife, Renenutet-Nefertiti has also become a part of the pantheon."
+
+ ashur_religion:0 "Elishite"
+ desc_ashur_religion:0 ""The Elishite faith of Assyria is set apart from its neighbors by the primacy of Assur-Enlil, the Lord of the Totality of Heaven and thus the source for all existence, earthly and divine. It also places heavy emphasis on the Assyrian kings as his viceroy on earth and the Assyrian Empire not merely as a state, but as an instrument of divine will. The extreme focus on the Assyrian monarchy does however limit the cult's spread in lands not heavily tied to the empire. Thus comes the name, 'The Way of the Heavens' (Elish)."
+
+ hurrian_pantheon:0 "Teshubic"
+ desc_hurrian_pantheon:0 "The Hurrian pantheon, led by the storm god Teshub, is a rich tapestry of deities and mythologies. Influenced by both Mesopotamian and Hittite cultures, the Teshubic faith centers on the worship of gods who control the forces of nature, ensuring the prosperity and protection of their followers."
+
+ vaksh_religion:0 "Vakhshic"
+ desc_vaksh_religion:0 "The Vakhshic religion, named after the Vakhsh River, is a regional faith that combines elements of Zoroastrianism with local animistic traditions. It venerates the natural spirits of the river, mountains, and sky, emphasizing a deep connection with the environment and the cycles of nature."
+
+ sarna_pantheon:0 "Sarnaism"
+ desc_sarna_pantheon:0 "Sarnaism, the ancient religion of the Adivasi of India. They believe in the Sarna groves, a grove of sal trees in which they may pray to their spirits and gods including Singbonga and Marang Buru, the gods of the Sun and the Mountains. This belief system predates that of the Vedic beliefs and they hold strong in their faith."
+
+ sassatavada:0 "Sassatavada"
+ desc_sassatavada:0 "Sassatavada is a philosophical and religious doctrine from ancient India, which asserts the eternal existence of the soul and rejects the concept of a transient, changing self. This belief contrasts sharply with the doctrines of Buddhism and Jainism, emphasizing an unchanging and eternal essence at the core of all beings."
+
+ ajnana:0 "Ajnana"
+ desc_ajnana:0 "Ajnana is an ancient Indian school of thought that focuses on skepticism and agnosticism. Its followers question the possibility of certain knowledge, emphasizing the limitations of human perception and understanding. Ajnana philosophy advocates for a life of simplicity and humility, acknowledging the inherent uncertainty of existence."
+
+ kassapan:0 "Niskriyavada"
+ desc_kassapan:0 "Niskriyavada, based on the teachings of Purana Kassapa, is an ancient Indian faith that emphasizes moral nihilism and determinism. Purana Kassapa taught that actions, whether good or evil, do not have consequences, rejecting the traditional Indian notions of karma and rebirth. This philosophy advocates for a detached and neutral approach to life, free from the moral and ethical constraints imposed by other religious doctrines."
+
+ masto_pantheon:0 "Mastoic"
+ desc_masto_pantheon:0 "Mastoic is the religion of the Dardic people. They venerate the Masto god, his 12 Masto brothers, and his 9 Duraga sisters. Mastoic also incorporates shamanist and naturalistic beliefs, especially through the Jhankri shamans, who channel spirits and deities. It's likely that Mastoicism predates Vedicism in India; however, it's also possible that it came later. It is generally a mixture of Indo-Iranic and Indo-Aryan origins leading to something completely unique."
+
+ charvaka:0 "Carvaka"
+ desc_charvaka:0 "Carvaka, or Charvaka, also called Lokayata, was a Shramanic faith like Ajivika, Buddhism, and Jainism. Before it was a proper school of thought, Carvaka was a concept generally relating to the denial of the existence of an afterlife. This is the main idea of Carvaka, and thus, it is the most recognizably 'atheist' belief, comparable to Nihlism in modern-day times. Carvaka would have a renaissance of belief in the 7th century, resulting in its prolonged existence until the 12th century before it faded away."
+
+ amun_religion:0 "Ammonist"
+ desc_amun_religion:0 "The Ammonistic faith, particularly venerated in the Siwa Oasis, represents a unique fusion of Egyptian and Libyan religious traditions. The cult of Amun in Siwa is renowned for its powerful oracle, which influenced both local tribes and distant rulers. This tradition emphasizes Amun's role as a hidden, all-knowing deity who provides guidance and protection, revered by the Libyan tribes and the inhabitants of the Western Desert. Pilgrimages to the Siwa Oasis to seek the oracle's wisdom were a vital aspect of this distinct Ammonism worship."
+
+ uralic_pantheon:0 "Ilmaric"
+ desc_uralic_pantheon:0 "Ilmaric represents the Finno-Ugric culture group's religion. It includes a vast array of cultures and beliefs, all revolving around the lead god, Ilma, who was most certainly venerated in all Finno-Ugric cultures. Along with Ilma, Ilmaric beliefs include an emphasis on the light of the Night and Day skies—the Moon and Sun."
+
+ hatti_religion:0 "Estanic"
+ desc_hatti_religion:0 "The ancient faith of the Hatti survies to this day. Their reverence of their supreme deity, the goddess Estan, remains ever dutiful; their  faithful are in tune with the natural cycles of the seasons and the Earth itself. They make offerings and libations in order to serve Mother Estan, and to keep the fields fertile to prevent celestial calamities from overwhelming the land."
+
+ isis_religion:0 "Orphic"
+ desc_isis_religion:0 "Orphism is a mystery religion named after the legendary poet-hero Orpheus. Orpheus is believed to be the originator of the Mysteries of Dionysus, which play a significant role in Orphic practice. The religion is also known as Pythagoreanism, after one of its greatest proponents, the polymath and sage Pythagoras of Samos. Under Pythagoras' leadership, Orphic practices spread and became predominant in the Italiot colonies."
+
+ hermes_religion:0 "Hermetic"
+ des_hermes_religion:0 "Hermeticism is a philosophical and religious tradition based primarily on the writings attributed to Hermes Trismegistus, a syncretic deity that combines aspects of the Greek god Hermes and the Egyptian god Thoth. This tradition encompasses a wide range of esoteric beliefs, including the concepts of a divine, transcendent reality, the interconnectedness of all things, and the pursuit of spiritual knowledge. Hermeticism emphasizes the importance of achieving gnosis, or direct knowledge of the divine, through personal spiritual practice and mystical insight. Key principles include the idea that the macrocosm (the universe) and microcosm (the individual) reflect each other."
+
+ stoicism:0 "Stoic"
+ desc_stoicism:0 "Stoicism is a systematic philosophy which draws on the earlier Cynics among others to assert the practice of virtue in pursuit of true knowledge as the highest good. For Stoics, a virtuous act is one which accords with one of the four major virtues - wisdom, courage, temperance and justice - while many other acts are neither virtuous nor evil but may aid in the pursuit of virtue. In the view of the Stoics, the purpose of philosophy is the practice of virtue, and true philosophy is constructed from three spheres of knowledge - logic, physics (in which they taught metaphysical monism), and naturalistic virtue ethics. Zeno, founder of the Stoic school, taught that there were four stages in the process of gaining knowledge - perception, sinkatathesis (assent), katalepsis (comprehension), and finally true knowledge which only a wise man can possess."
+
+ epicureanism:0 "Epicurean"
+ desc_epicureanism:0 "A school of philosophy founded in Mytilene, Lesbos, by the sage Epicurus who later popularised his ideas in Athens. The school rejects determinism and advocates a restrained form of hedonism in the pursuit of modest and sustainable pleasure, favouring simple meals and open discussion. Epicureans hold ataraxia (freedom from anxiety and mental pain, especially, for Epicureans, from fear of death and fear of the gods) to be the highest good and the goal of a good life. Epicurus allowed women and slaves to participate in his school as a matter of principle."
+
+ platonism:0 "Platonist"
+ desc_platonism:0 "Platonism is a school of philosophy founded in Athens by Plato, a disciple of Socrates. Platonists are concerned with the quality of human life, believing in unchanging and eternal realities independent of the changing physical world perceived by the senses. They believe that abstract entities such as mathematical objects are real and independent of human thought, existing outside of time and space."
+
+ pyrrhonism:0 "Skeptic"
+ desc_pyrrhonism:0 "Skepticism is primarily represented by Pyrrho and his school but draws on the pre-Socratic atomist tradition. Skeptics pursue the suspension of judgement on all non-evident matters as a means to achieve ataraxia (freedom from mental pain) and believe this to be the goal of philosophy. Pyrrho and his followers focused on developing methods to refute philosophical arguments rather than constructing counter-arguments, since arguing a viewpoint of one's own would impede the pursuit of ataraxia. The atomists, an earlier school most prominently represented by Democritus, believed that the world was composed of an infinite number of indivisible particles called atoms. By moving in the void, the atoms created the illusion of physical phenomena while the only real things were atoms and the void. The atomist belief, which in itself was acknowledged to be unverifiable, was used by the Pyrrhonists to refute other religious and philosophical beliefs by arguing that any explanation of physical phenomena was unnecessary."
+
+ taoism:0 "Daoist"
+ desc_taoism:0 "Daoism, also known as Taoism or the School of the Way, offers a profound philosophical path deeply rooted in ancient Chinese thought. It centers on the concept of the Tao, the eternal and ever-flowing Way, advocating for a harmonious life by aligning with the natural rhythms of the universe. Taoism encourages simplicity, spontaneity, and the cultivation of inner balance as keys to a meaningful existence."
+
+
+ # Conversions
+
+ convert_to_indo_iranian_religion:0 "Embrace the Ardavda Pantheon"
+
+ convert_to_masto_pantheon:0 "Accept Mastoic Beliefs"
+ convert_to_masto_pantheon_desc:0 "The Masto god and his powerful siblings have made an impression upon our country. Some even are seeking the spiritual connection of the Jhankri. We too could accept the religion of the Dardic people as our national faith."
+
+ convert_to_charvaka:0 "Adopt Carvaka Principles"
+ convert_to_charvaka_desc:0 "The questioning of gods themselves has taken root in our capital. Is there an afterlife to look forward to, or is it all just mortal folly? The Carvaka populace has their answer, shall we ourselves forsake the gods in favor of the principles of Carvaka?"
 
  convert_to_elamite_pantheon:0 "Accept Haltamic Pantheon"
  convert_to_elamite_pantheon_desc:0 "The gods who would terrorize those of Sumer and Akkad, lead by Humban in Anshan and Inshushinak in Susa, they have found themselves in the hearts of our people. And now we ask, should we accept the religion of Elam as the religion of our nation."
+
+ convert_to_amun_religion:0 "Embrace Ammon Faith"
+ convert_to_amun_religion_desc:0 "The powerful cult of Ammon, particularly revered in the Siwa Oasis, has influenced many in our nation. The oracle of Ammon, known for its wisdom and guidance, calls out to our people. Shall we embrace Ammonism and let the Hidden One guide our destiny?"
+
+ convert_to_sobek_religion:0 "Adopt Sobekite Beliefs"
+ convert_to_sobek_religion_desc:0 "The worship of Sobek, the Dazzling Crocodile, has grown in popularity, especially in the Faiyum region. As Sobek-Aten, his influence merges with that of the Aten, representing a powerful syncretism. Shall we adopt the Sobekite beliefs as our national faith and revere the mighty crocodile god?"
+
+ convert_to_aten_religion:0 "Embrace Atenic Worship"
+ convert_to_aten_religion_desc:0 "The cult of Aten, propagated by the prophet Akhenaten, has remained a significant force in Middle Egypt. Its henotheistic approach and reverence for the sun disk have drawn many followers. Shall we embrace Atenic worship and honor the radiant Aten as our supreme deity?"
+
+ convert_to_ashur_religion:0 "Accept Elishite Faith"
+ convert_to_ashur_religion_desc:0 "The cult of Asshur, central to the Assyrian way of life, promotes Asshur above all other gods. This henotheistic faith, known as Elishite, represents 'The Way of the Heavens.' Shall we accept the Elishite faith and elevate Asshur as our principal deity, guiding our nation through his divine wisdom?"
+
+ convert_to_sarna_pantheon:0 "Adopt Sarnaic Beliefs"
+ convert_to_sarna_pantheon_desc:0 "The Sarnaic faith, with its rich traditions and spiritual depth, has found a place in the hearts of our people. The worship of Sarna and the veneration of natural forces resonate deeply with our citizens. Shall we adopt Sarnaism as our national religion and align ourselves with the natural world?"
+
+ convert_to_sassatavada:0 "Adopt Sassatavada Principles"
+ convert_to_sassatavada_desc:0 "The teachings of Sassatavada, with its unique perspective on existence and morality, have begun to influence our populace. This Shramanic faith challenges conventional beliefs and offers a distinct path. Shall we adopt Sassatavada principles as the guiding philosophy of our nation?"
+
+ convert_to_ajnana:0 "Embrace Ajnana Teachings"
+ convert_to_ajnana_desc:0 "The skeptical and philosophical teachings of Ajnana have garnered attention among our intellectuals. This ancient Indian tradition questions the certainty of knowledge and emphasizes doubt. Shall we embrace Ajnana teachings and adopt this critical approach as our national doctrine?"
+
+ convert_to_kassapan:0 "Adopt Niskriyavada Doctrine"
+ convert_to_kassapan_desc:0 "The doctrines of Niskriyavada, based on the teachings of Purana Kassapa, advocate for moral nihilism and determinism. Rejecting traditional notions of karma and rebirth, this faith offers a unique worldview. Shall we adopt the Niskriyavada doctrine as the foundation of our national belief system?"
+
+ convert_to_taoism:0 "Follow the Dao"
+ convert_to_taoism_desc:0 "In the quiet corners of our land, the teachings of Daoism have found a home, offering profound insights into the mysteries of existence. As whispers of the way of the Universe, the Dao, permeate through all layers of our society, we confront a pivotal question. Should we wholeheartedly embrace the wisdom of Taoism as the guiding light of our nation, guiding us on a unique path of understanding and serenity?"
+
+ convert_to_isis_religion:0 "Embrace Orphic Beliefs"
+ convert_to_isis_religion_desc:0 "The mystical teachings of Orphism, influenced by Pythagoreanism and enriched with elements of Isis mysticism, have captivated many seeking spiritual enlightenment. Orphism offers insights into the nature of the soul, reincarnation, and the pursuit of spiritual purification. Shall we embrace the mysteries of Orphic beliefs and delve into the depths of divine wisdom?"
+
+ convert_to_hermes_religion:0 "Embrace Hermetic Beliefs"
+ convert_to_hermes_religion_desc:0 "The mystical and esoteric teachings of Hermeticism, with its profound insights into the nature of the cosmos and spiritual knowledge, have begun to intrigue our scholars. This tradition emphasizes the interconnectedness of all things and the pursuit of direct, personal knowledge of the divine. Shall we embrace Hermetic teachings and adopt this path of spiritual enlightenment as our national doctrine?"
+
+ convert_to_platonism:0 "Embrace Platonic Beliefs"
+ convert_to_platonism_desc:0 "The philosophical teachings of Platonism, with its profound insights into the nature of reality and ethics, have begun to captivate our thinkers. This philosophy emphasizes the existence of abstract, eternal forms and the pursuit of higher knowledge. Shall we adopt Platonic principles as the guiding philosophy of our nation?"
+
+ convert_to_epicurianism:0 "Embrace Epicurian Beliefs"
+ convert_to_epicurianism_desc:0 "The hedonistic yet intellectually rich philosophy of Epicureanism has found resonance among our populace. This school advocates for the pursuit of mental pleasure and freedom from fear as the highest goods. Shall we embrace Epicurean teachings and adopt this pursuit of tranquility and happiness as our national doctrine?"
+
+ convert_to_stoicism:0 "Embrace Stoic Beliefs"
+ convert_to_stoicism_desc:0 "The systematic and virtue-centered philosophy of Stoicism has garnered interest for its emphasis on ethics and rational living. This school teaches that virtue, derived from logic and naturalistic ethics, is essential for a well-reasoned life. Shall we adopt Stoic principles as the foundation of our national belief system?"
+
+ convert_to_pyrrhonism:0 "Embrace Skeptic Beliefs"
+ convert_to_pyrrhonism_desc:0 "The philosophy of Skepticism, with its emphasis on questioning certainty and embracing doubt, offers a path to tranquility through the suspension of judgment. Skepticism encourages a life free from dogmatic beliefs, focusing on empirical observation and the recognition of our limitations. We are considering adopting Skeptic principles as the foundation of our national belief system."
+
+ convert_to_hatti_religion:0 "Adopt Estanic Pantheon"
+ convert_to_hatti_religion_desc:0 "The ancient faith of the people of northern Anatolia has survived invador after invador. Surely, this tenacity says something about their belief in the Mother Estan. Our people seem to agree, at least a portion do. We are presented with the option to commit this religion to law as our state religion."
+ 
+ convert_to_uralic_pantheon:0 "Adopt Ilmaric Pantheon"
+ convert_to_uralic_pantheon_desc:0 "The supreme god of the sky, Ilma, has been adopted by many of our people. They talk of the vibrant light of the first dawn and the deafening black of the last ray of the sun. From the Finns to the Ugrics, and to us as well now, the lights shine. It is time to open the curtains of the nation and adopt the Ilamric religion."
+
+ convert_to_judaism:0 "Embrace Hebrew Faith"
+ convert_to_judaism_desc:0 "We have lately seen a large swathe of our people turn to the worship of only one god, on of the Hebrew ones. Defying the polytheistic teachings of other faiths, the strength of their belief have convinced many of the lower class to turn their prayers to the one true god."
+
+ convert_to_zurvan_religion:0 "Adopt Zurvanist Doctrines"
+ convert_to_zurvan_religion_desc:0 "Our people clamor on about the truth of Zorvan, the ascendant one, the one who is all time and all space, the one who is beyond even Ahuramazda and Ahriman. Should we accept these doctrines of the all-powerful God of Time?"
+
+
+ # Egyptian Religious Flavor
+ rel_flavor_kemetic.1.d:0 "We will hold a celebration of the laws of the Aten."
+ country_improvement_appeased_aten:0 "Appeased the Aten"
+ country_improvement_temple_of_nefertiti:0 "Temple to the Prophetess"
+ rel_flavor_kemetic.3.c:0 "Anything for the wife of Akhenaten."
+ festival_of_aten:0 "Festival of the Aten"
+ festival_of_sobek:0 "Festival of Sobek"
+ rel_flavor_kemetic.9.desc_1:0 "Amun-Ra who hears the prayer, who comes at the cry of the poor and distressed...beware of him! Repeat him to son and daughter, to great and small; relate him to generations of generations who have not yet come into being; relate him to fishes in the deep, to birds in heaven; repeat him to him who does not know him and to him who knows him ... Though it may be that the servant is normal in doing wrong, yet the Lord is normal in being merciful. The Lord of Thebes does not spend an entire day angry. As for his anger...in the completion of a moment, there is no remnant. Holding a national festival in honor of the great Amun has been suggested by the High Priest."
+ rel_flavor_kemetic.9.desc_2:0 "Osiris is the god of fertility, agriculture, the afterlife, the dead, resurrection, life, and vegetation in Kemetic religion. He is depicted as a green-skinned deity with a Pharaoh's beard, partially mummy-wrapped at the legs, wearing a distinctive atef crown, and holding a symbolic crook and flail. A national celebration in the honor of Osiris should be held in [SCOPE.GetRootScope.GetCountry.GetCapital.GetName]."
+ rel_flavor_kemetic.9.desc_3:0 "The Pyramid Texts describe the nature of the Pharaoh in different characters as both Horus and Osiris. The Pharaoh as Horus in life becomes the Pharaoh as Osiris in death, where he is united with the other gods. New incarnations of Horus succeeded the deceased Pharaoh on earth in the form of new Pharaohs. We should honor the life of the great Pharaoh by holding a grand religious festival in the name of Horus."
+ rel_flavor_kemetic.9.desc_4:0 "The sun is the giver of life, controlling the ripening of crops which are worked by man. Because of the life-giving qualities of the sun, Egyptians worship the fiery orb as the god Ra. Holding a national religious festival for Ra will ensure our prosperity in the coming years."
+ rel_flavor_kemetic.9.desc_5:0 "The Aten, the radiant sun disk, is the source of all life and the focus of devotion in the worship of the sun. The Aten's rays extend their blessings to all corners of the earth, nurturing the growth of plants and sustaining all living beings. The visible sun, revered for its life-giving light and warmth. A national festival dedicated to the Aten will reaffirm our commitment to this divine light and its central role in our lives. Let us celebrate the Aten's splendor with offerings and hymns, ensuring prosperity and harmony for our land. Proclaim the Aten's glory to every generation, so that his brilliance continues to shine upon us all."
+ rel_flavor_kemetic.9.desc_6:0 "Sobek, the mighty god of the Nile, lord of crocodiles, is the embodiment of strength and protection, symbolizing the fierce and untamed power of the river. Sobek ensures the fertility of the land, controlling the waters that bring life to the fields. Let us honor Sobek, the protector of the people and the provider of sustenance, by holding a grand festival in his name, invoking his blessings for bountiful harvests and unyielding protection. Teach his praise to the young and the old, to the fish in the river and the birds in the sky, so that his mighty presence is known to all."
+ country_improvement_war_aten_blessing:0 "Blessing of the Aten"
+ country_improvement_war_sobek_blessing:0 "Blessing of Sobek"
+ rel_flavor_kemetic.46.f:0 "Sobek shall devour them"
+ rel_flavor_kemetic.46.g:0 "The Aten will eliminate our foes"
+ rel_flavor_kemetic.49.t:0 "The Egyptian Faith"
+ rel_flavor_kemetic.50.t:0 "By the Gods"

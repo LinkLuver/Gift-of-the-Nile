@@ -1,0 +1,413 @@
+﻿# Black Sea Missions "Pontus" - Temple of Artemis Tauropolos
+#gw_effect_taurican_temple = {
+#	icon = "gw_effect_religious_science_doctrine"
+#	flags = {
+#		"slave_population"
+#		"population"
+#		"religious"
+#		"naval"
+#		"military"
+#		"education"
+#		"civic"
+#		"oratory"
+#		"commerce"
+#		"civilization"
+#		"government"
+#		"diplomacy"
+#		"defense"
+#	}
+#	allow = {
+#		always = no
+#	}
+#	great_work_tier_effect_modifiers = {
+#		gw_effect_taurican_temple_tier_1 = {
+#			great_work_effect_tier = gw_effect_tier_1
+#			country_modifier = {
+#				happiness_for_wrong_culture_group_modifier = 0.01
+#				happiness_for_same_religion_modifier = 0.01
+#				religious_tech_investment = 0.025
+#			}
+#		}
+#		gw_effect_taurican_temple_tier_2 = {
+#			great_work_effect_tier = gw_effect_tier_2
+#			country_modifier = {
+#				happiness_for_wrong_culture_group_modifier = 0.02
+#				happiness_for_same_religion_modifier = 0.02
+#				religious_tech_investment = 0.05
+#			}
+#		} 
+#		gw_effect_taurican_temple_tier_3 = {
+#			great_work_effect_tier = gw_effect_tier_3
+#			country_modifier = {
+#				happiness_for_wrong_culture_group_modifier = 0.03
+#				happiness_for_same_religion_modifier = 0.03
+#				religious_tech_investment = 0.075
+#			}
+#		} 
+#		gw_effect_taurican_temple_tier_4 = {
+#			great_work_effect_tier = gw_effect_tier_4
+#			country_modifier = {
+#				happiness_for_wrong_culture_group_modifier = 0.05
+#				happiness_for_same_religion_modifier = 0.05
+#				religious_tech_investment = 0.1
+#			}
+#		}
+#	}
+#}
+gw_effect_garden_nineveh = {
+	icon = "gw_effect_diplomats_supreme"
+
+	allow = {
+		always = no
+	}
+
+	great_work_tier_effect_modifiers = {
+		gw_effect_garden_nineveh_tier_1 = {
+			great_work_effect_tier = gw_effect_tier_1
+			country_modifier = {
+				research_points_modifier = 0.01
+			}
+			state_modifier = {
+				local_monthly_food_modifier = 0.025
+				local_population_capacity_modifier = 0.025
+			}
+		}
+		gw_effect_garden_nineveh_tier_2 = {
+			great_work_effect_tier = gw_effect_tier_2
+			country_modifier = {
+				research_points_modifier = 0.02
+			}
+			state_modifier = {
+				local_monthly_food_modifier = 0.05
+				local_population_capacity_modifier = 0.05
+			}
+		}
+		gw_effect_garden_nineveh_tier_3 = {
+			great_work_effect_tier = gw_effect_tier_3
+			country_modifier = {
+				research_points_modifier = 0.03
+			}
+			state_modifier = {
+				local_monthly_food_modifier = 0.1
+				local_population_capacity_modifier = 0.075
+			}
+		}
+		gw_effect_garden_nineveh_tier_4 = {
+			great_work_effect_tier = gw_effect_tier_4
+			country_modifier = {
+				research_points_modifier = 0.05
+			}
+			state_modifier = {
+				local_monthly_food_modifier = 0.15
+				local_population_capacity_modifier = 0.1
+			}
+		}
+	}
+}
+gw_effect_elam_ziggurat = {
+	icon = "gw_effect_slaves_pop_doctrine"
+
+	flags = {
+		"civic"
+	}
+
+	allow = {
+		always = no
+	}
+	
+	great_work_tier_effect_modifiers = {
+		gw_effect_elam_ziggurat_tier_1 = {
+			great_work_effect_tier = gw_effect_tier_1
+			country_modifier = {
+				omen_power = 0.05
+				civic_tech_investment = 0.05
+			}
+			state_modifier = {
+				local_monthly_food_modifier = 0.05
+			}
+		}
+		gw_effect_elam_ziggurat_tier_2 = {
+			great_work_effect_tier = gw_effect_tier_2
+			country_modifier = {
+				omen_power = 0.1
+				civic_tech_investment = 0.1
+			}
+			state_modifier = {
+				local_monthly_food_modifier = 0.1
+			}
+		}
+		gw_effect_elam_ziggurat_tier_3 = {
+			great_work_effect_tier = gw_effect_tier_3
+			country_modifier = {
+				omen_power = 0.15
+				civic_tech_investment = 0.15
+			}
+			state_modifier = {
+				local_monthly_food_modifier = 0.15
+			}
+		}
+		gw_effect_elam_ziggurat_tier_4 = {
+			great_work_effect_tier = gw_effect_tier_4
+			country_modifier = {
+				omen_power = 0.2
+				civic_tech_investment = 0.2
+			}
+			state_modifier = {
+				local_monthly_food_modifier = 0.2
+			}
+		}
+	}
+}
+gw_effect_apadana_palace = {
+	icon = "gw_effect_diplomats_supreme"
+
+	allow = {
+		always = no
+	}
+
+	great_work_tier_effect_modifiers = {
+		gw_effect_garden_apadana_tier_1 = {
+			great_work_effect_tier = gw_effect_tier_1
+			country_modifier = {
+				army_maintenance_cost = -0.01
+			}
+			state_modifier = {
+				local_nobles_desired_pop_ratio = 0.01
+				local_population_capacity_modifier = 0.025
+			}
+		}
+		gw_effect_garden_apadana_tier_2 = {
+			great_work_effect_tier = gw_effect_tier_2
+			country_modifier = {
+				army_maintenance_cost = -0.03
+			}
+			state_modifier = {
+				local_nobles_desired_pop_ratio = 0.02
+				local_population_capacity_modifier = 0.02
+			}
+		}
+		gw_effect_garden_apadana_tier_3 = {
+			great_work_effect_tier = gw_effect_tier_3
+			country_modifier = {
+				army_maintenance_cost = -0.05
+			}
+			state_modifier = {
+				local_nobles_desired_pop_ratio = 0.03
+				local_population_capacity_modifier = 0.03
+			}
+		}
+		gw_effect_garden_apadana_tier_4 = {
+			great_work_effect_tier = gw_effect_tier_4
+			country_modifier = {
+				army_maintenance_cost = -0.10
+			}
+			state_modifier = {
+				local_nobles_desired_pop_ratio = 0.05
+				local_population_capacity_modifier = 0.1
+			}
+		}
+	}
+}
+gw_effect_fire_temple = {
+	icon = "gw_effect_omen_doctrine"
+
+	allow = {
+		always = no
+	}
+
+	great_work_tier_effect_modifiers = {
+		gw_effect_fire_temple_tier_1 = {
+			great_work_effect_tier = gw_effect_tier_1
+			country_modifier = {
+				happiness_for_wrong_religion_modifier = 0.01
+			}
+			state_modifier = {
+				religious_tech_investment = 0.01
+				local_population_capacity_modifier = 0.025
+			}
+		}
+		gw_effect_fire_temple_tier_2 = {
+			great_work_effect_tier = gw_effect_tier_2
+			country_modifier = {
+				happiness_for_wrong_religion_modifier = 0.02
+			}
+			state_modifier = {
+				religious_tech_investment = 0.02
+				local_population_capacity_modifier = 0.02
+			}
+		}
+		gw_effect_fire_temple_tier_3 = {
+			great_work_effect_tier = gw_effect_tier_3
+			country_modifier = {
+				happiness_for_wrong_religion_modifier = 0.05
+			}
+			state_modifier = {
+				religious_tech_investment = 0.05
+				local_population_capacity_modifier = 0.03
+			}
+		}
+		gw_effect_fire_temple_tier_4 = {
+			great_work_effect_tier = gw_effect_tier_4
+			country_modifier = {
+				happiness_for_wrong_religion_modifier = 0.1
+			}
+			state_modifier = {
+				religious_tech_investment = 0.1
+				local_population_capacity_modifier = 0.1
+			}
+		}
+	}
+}
+gw_effect_karnak_temple = {
+	icon = "gw_effect_omen_doctrine"
+
+	allow = {
+		always = no
+	}
+
+	great_work_tier_effect_modifiers = {
+		gw_effect_karnak_temple_tier_1 = {
+			great_work_effect_tier = gw_effect_tier_1
+			country_modifier = {
+				happiness_for_same_religion_modifier = 0.02
+				deify_ruler_cost_modifier = -0.02
+			}
+			state_modifier = {
+				local_population_capacity_modifier = 0.025
+			}
+		}
+		gw_effect_karnak_temple_tier_2 = {
+			great_work_effect_tier = gw_effect_tier_2
+			country_modifier = {
+				happiness_for_same_religion_modifier = 0.05
+				deify_ruler_cost_modifier = -0.05
+			}
+			state_modifier = {
+				local_population_capacity_modifier = 0.02
+			}
+		}
+		gw_effect_karnak_temple_tier_3 = {
+			great_work_effect_tier = gw_effect_tier_3
+			country_modifier = {
+				happiness_for_same_religion_modifier = 0.1
+				deify_ruler_cost_modifier = -0.1
+			}
+			state_modifier = {
+				local_population_capacity_modifier = 0.03
+			}
+		}
+		gw_effect_karnak_temple_tier_4 = {
+			great_work_effect_tier = gw_effect_tier_4
+			country_modifier = {
+				happiness_for_same_religion_modifier = 0.2
+				deify_ruler_cost_modifier = -0.2
+			}
+			state_modifier = {
+				local_population_capacity_modifier = 0.1
+			}
+		}
+	}
+}
+gw_effect_cyrus_tomb = {
+	icon = "gw_effect_diplomacy_supreme"
+
+	allow = {
+		always = no
+	}
+
+	great_work_tier_effect_modifiers = {
+		gw_effect_cyrus_tomb_tier_1 = {
+			great_work_effect_tier = gw_effect_tier_1
+			country_modifier = {
+				happiness_for_wrong_culture_modifier = 0.03
+			}
+			state_modifier = {
+				local_population_happiness = 0.02
+				#local_population_capacity = 5
+			}
+		}
+		gw_effect_cyrus_tomb_tier_2 = {
+			great_work_effect_tier = gw_effect_tier_2
+			country_modifier = {
+				happiness_for_wrong_culture_modifier = 0.05
+			}
+			state_modifier = {
+				local_population_happiness = 0.04
+				local_population_capacity = 5
+			}
+		}
+		gw_effect_cyrus_tomb_tier_3 = {
+			great_work_effect_tier = gw_effect_tier_3
+			country_modifier = {
+				happiness_for_wrong_culture_modifier = 0.07
+				monthly_wage_modifier = -0.025
+			}
+			state_modifier = {
+				local_population_happiness = 0.06
+				local_population_capacity = 10
+			}
+		}
+		gw_effect_cyrus_tomb_tier_4 = {
+			great_work_effect_tier = gw_effect_tier_4
+			country_modifier = {
+				happiness_for_wrong_culture_modifier = 0.10
+				monthly_wage_modifier = -0.05
+				diplomatic_relations = 2
+			}
+			state_modifier = {
+				local_population_happiness = 0.08
+				local_population_capacity = 15
+			}
+		}
+	}
+}
+gw_effect_atum_pillars = {
+	icon = "gw_effect_omen_doctrine"
+
+	allow = {
+		always = no
+	}
+
+	great_work_tier_effect_modifiers = {
+		gw_effect_atum_pillars_tier_1 = {
+			great_work_effect_tier = gw_effect_tier_1
+			country_modifier = {
+				omen_power = 0.03
+			}
+			state_modifier = {
+				religious_tech_investment = 0.01
+				local_population_capacity_modifier = 0.025
+			}
+		}
+		gw_effect_atum_pillars_tier_2 = {
+			great_work_effect_tier = gw_effect_tier_2
+			country_modifier = {
+				omen_power = 0.05
+			}
+			state_modifier = {
+				religious_tech_investment = 0.02
+				local_population_capacity_modifier = 0.02
+			}
+		}
+		gw_effect_atum_pillars_tier_3 = {
+			great_work_effect_tier = gw_effect_tier_3
+			country_modifier = {
+				omen_power = 0.05
+			}
+			state_modifier = {
+				religious_tech_investment = 0.05
+				local_population_capacity_modifier = 0.03
+			}
+		}
+		gw_effect_atum_pillars_tier_4 = {
+			great_work_effect_tier = gw_effect_tier_4
+			country_modifier = {
+				omen_power = 0.1
+			}
+			state_modifier = {
+				religious_tech_investment = 0.1
+				local_population_capacity_modifier = 0.1
+			}
+		}
+	}
+}

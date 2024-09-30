@@ -1,5 +1,5 @@
 ﻿namespace = diadochi_flavor
-#
+
 #diadochi_flavor.1 = { #Antigonid
 #	type = country_event
 #	title = "diadochi_flavor.1.t"
@@ -16,7 +16,7 @@
 #	goto_location = p:418 # Korinthos
 #	
 #	trigger = {
-#		tag = MAP
+#		tag = PRY
 #		NOR = {
 #			has_variable = war_of_the_diadochs
 #			has_variable = antigonus_death
@@ -90,7 +90,7 @@
 #		}
 #	}
 #}
-#
+
 #diadochi_flavor.2 = { #Macedonian
 #	type = country_event
 #	title = "diadochi_flavor.1.t"
@@ -239,7 +239,7 @@
 #		}
 #	}
 #}
-#
+
 #diadochi_flavor.6 = { #Epigoni
 #	type = country_event
 #	title = "diadochi_flavor.6.t"
@@ -250,26 +250,26 @@
 #	picture = throneroom
 #	
 #	trigger = {
-#		OR = {
-#			has_variable = war_of_the_diadochs
-#			tag = PRY #to not upset things.
-#		}
-#		NOR = { 
-#			has_variable = epigoni
-#			tag = ALX
-#			has_variable = formed_argead_empire
-#		}
-#		trigger_if = {
-#			limit = { tag = PRY }
-#			has_variable = antigonus_death
-#		}
+#		#OR = {
+#		#	has_variable = war_of_the_diadochs
+#		#	tag = PRY #to not upset things.
+#		#}
+#		#NOR = { 
+#		#	has_variable = epigoni
+#		#	tag = ALX
+#		#	has_variable = formed_argead_empire
+#		#}
+#		#trigger_if = {
+#		#	limit = { tag = PRY }
+#		#	has_variable = antigonus_death
+#		#}
 #	}
 #	
 #	immediate = {
-#		set_variable = {
-#			name = epigoni
-#			value = yes
-#		}
+#		#set_variable = {
+#		#	name = epigoni
+#		#	value = yes
+#		#}
 #	}
 #	
 #	option = {
@@ -331,7 +331,7 @@
 #		}
 #	}
 #}
-#
+
 #diadochi_flavor.7 = { #Capital for the Empire
 #	type = country_event
 #	title = "diadochi_flavor.7.t"
@@ -457,8 +457,8 @@
 #		}
 #	}
 #}
-#
-##The Antigonid Cause Wavers
+
+#The Antigonid Cause Wavers
 #diadochi_flavor.8 = { 
 #	type = country_event
 #	title = "diadochi_flavor.8.t"
@@ -1162,8 +1162,8 @@
 #	}
 #
 #}
-#
-##The Antigonid Cause is Strong
+
+#The Antigonid Cause is Strong
 #diadochi_flavor.9 = { 
 #	type = country_event
 #	title = "diadochi_flavor.9.t"
@@ -1331,8 +1331,8 @@
 #    	}
 #    }
 #}
-#
-##Egypt Coronation
+
+#Egypt Coronation
 #diadochi_flavor.11 = {
 #    type = country_event
 #    title = diadochi_flavor.11.t
@@ -1535,8 +1535,8 @@
 #    	}
 #    }
 #}
-#
-##Fourth war of the diadochi
+
+#Fourth war of the diadochi
 #diadochi_flavor.15 = {
 #    type = country_event
 #    title = diadochi_flavor.15.t
@@ -1715,7 +1715,7 @@
 #		}
 #	}
 #}
-#
+
 #diadochi_flavor.16 = { #Macedon War Choice
 #    type = country_event
 #    title = diadochi_flavor.16.t
@@ -2557,9 +2557,9 @@
 #						NOT = { is_in_region = palestine_region }
 #						NOT = { is_in_region = greece_region }
 #					}
-#				}
-#				ROOT = {
-#					set_capital = PREV
+#					ROOT = {
+#						set_capital = PREV
+#					}
 #				}
 #			}
 #		}
@@ -4824,8 +4824,8 @@
 #				set_home_country = scope:pleistarchus_satrapy
 #			}
 #			scope:pleistarchus_satrapy = {
-#				set_variable = formed_caria
-#				set_variable = pleistarchus_satrapy_flag
+##				set_variable = formed_caria
+#				#set_variable = pleistarchus_satrapy_flag
 #				set_as_ruler = scope:pleistarchus_scope
 #				change_country_name = CIA
 #				change_country_adjective = CIA_ADJ
@@ -5277,7 +5277,7 @@
 #		}
 #	}
 #}
-#
+
 #diadochi_flavor.56 = { # Attalids defect PRY
 #	type = country_event
 #    title = diadochi_flavor.56.t
@@ -5865,256 +5865,245 @@
 #	}
 #}
 #
-diadochi_flavor.100 = {#NS
-	type = country_event
-	title = "diadochi_flavor.100.t"
-	desc = "diadochi_flavor.100.desc"
-	
-	picture = steppe_cavalry
-	
-	left_portrait = root.current_ruler
-	right_portrait = scope:origin.current_ruler
-	
-	trigger = {
-		NOT = {
-			has_global_variable = triggered_parthian_horde
-		}
-		OR = {
-			has_variable = horde_invasion_origin
-			AND = {
-				country_culture_group = scythia
-				is_ai = no
-				num_of_cities >= 50
-			}
-		}
-		war = no
-		exists = c:MAP
-		any_neighbour_country = {
-			OR = {
-				this = c:MAP
-				AND = {
-					exists = c:PAR
-					this = c:PAR
-				}
-			}
-		}
-		c:MAP = {
-			num_of_cities >= 40
-		}
-	}
-	
-	fire_only_once = yes
-	
-	immediate = {
-		#Added a medium sized army and give money to pay for it
-		set_global_variable = triggered_parthian_horde
-		hidden_effect = {
-			add_country_modifier = {
-				name = parthian_death_lasers
-				duration = 3650
-			}
-		}
-		area:parthia_area = {
-			while = {
-				count = 10
-				random_area_province = {
-					limit = {
-						any_pops_in_province = {
-							pop_religion = indo_iranian_religion
-						}
-					}
-					random_pops_in_province = {
-						limit = {
-							pop_religion = indo_iranian_religion
-						}
-						set_pop_religion = zurvan_religion
-					}
-				}
-			}
-		}
-		set_country_religion = zurvan_religion
-        add_treasury = 750
-        add_manpower = 20
-        create_unit = {
-            navy = no
-            location = p:6657
-            while = {
-	            count = 6
-	            add_subunit = light_infantry
-            }
-            while = {
-                count = 15
-                add_subunit = horse_archers
-            }
-            while = {
-                count = 5
-                add_subunit = light_cavalry
-            }                                                    
-            add_food = 100
-            add_morale = 2
-        }
-        create_unit = {
-            navy = no
-            location = p:6812
-            while = {
-	            count = 6
-	            add_subunit = light_infantry
-            }
-            while = {
-                count = 10
-                add_subunit = horse_archers
-            }
-            while = {
-                count = 3
-                add_subunit = light_cavalry
-            }                                                    
-            add_food = 100
-            add_morale = 2
-        }
-		c:MAP = {
-			save_scope_as = origin
-			current_ruler = {
-				save_scope_as = sel_rul
-			}
-		}
-		save_scope_as = target
-	}
-	
-	option = {
-		name = "diadochi_flavor.100.a"
-		declare_war_with_wargoal = {
-			war_goal = horde_conquest
-			target = scope:origin
-		}
-		add_manpower = 20
-		scope:origin = {
-			scope:sel_rul = {
-				death = {
-					death_reason = death_battle
-					killer = scope:target.current_ruler
-				}
-			}
-			if = {
-				limit = {
-					is_ai = yes
-				}
-				add_manpower = -15
-				add_stability = -10
-				add_country_modifier = {
-					name = parthian_attack_lasers
-					duration = 3650
-				}
-				every_subject = { 
-					limit = { is_ai = yes }
-					add_stability = -10
-					add_manpower = -10
-					add_country_modifier = {
-						name = parthian_attack_lasers
-						duration = 3650
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				scope:origin = {
-					is_ai = yes
-				}
-				exists = c:PAR
-				c:PAR = {
-					is_ai = yes
-					is_subject_of = scope:origin
-				}
-			}
-			c:PAR = {
-				every_owned_province = {
-					set_owned_by = root
-				}
-			}
-		}
-		every_country = {
-			limit = {
-				NOT = {
-					this = root
-				}
-			}
-			trigger_event = {
-				id = diadochi_flavor.101
-			}
-		}
-	}
-	
-	option = {
-		name = "diadochi_flavor.100.b"
-		current_ruler = {
-			add_popularity = -25
-		}
-		
-		ai_chance = {
-			factor = 0
-		}
-	}
-	#after = {
-	#	c:MAP = {
-	#		trigger_event = diadochi_flavor.999
-	#	}	
-	#}
-}
-
-diadochi_flavor.101 = {#NS
-	type = country_event
-	title = "diadochi_flavor.101.t"
-	desc = "diadochi_flavor.101.desc"
-	
-	picture = steppe_cavalry 
-	
-	left_portrait = scope:target.current_ruler
-	right_portrait = scope:sel_rul
-	
-	option = {
-		name = "diadochi_flavor.101.a"
-		custom_tooltip = diadochi_flavor_101_tooltip
-		show_as_tooltip = {
-			scope:target = {
-				scope:sel_rul = { 
-					death = {
-						death_reason = death_battle
-						killer = scope:target.current_ruler
-					}
-				}
-			}
-			if = {
-				limit = {
-					NOT = {
-						this = scope:origin
-					}
-				}
-				scope:origin = {
-					add_country_modifier = {
-						name = seleucid_struggles
-						duration = 3650
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				this = scope:origin
-			}
-			add_country_modifier = {
-				name = seleucid_struggles 
-				duration = 3650
-			}
-		}
-	}
-	
-}
-
+#diadochi_flavor.100 = {#NS
+#	type = country_event
+#	title = "diadochi_flavor.100.t"
+#	desc = "diadochi_flavor.100.desc"
+#	
+#	picture = steppe_cavalry
+#	
+#	left_portrait = root.current_ruler
+#	right_portrait = scope:origin.current_ruler
+#	
+#	trigger = {
+#		NOT = {
+#			has_global_variable = triggered_parthian_horde
+#		}
+#		OR = {
+#			has_variable = horde_invasion_origin
+#			AND = {
+#				country_culture_group = scythia
+#				is_ai = no
+#				num_of_cities >= 50
+#			}
+#		}
+#		war = no
+#		exists = c:SEL
+#		any_neighbour_country = {
+#			OR = {
+#				this = c:SEL
+#				AND = {
+#					exists = c:PAR
+#					this = c:PAR
+#				}
+#			}
+#		}
+#		c:SEL = {
+#			num_of_cities >= 60
+#		}
+#	}
+#	
+#	fire_only_once = yes
+#	
+#	immediate = {
+#		#Added a medium sized army and give money to pay for it
+#		set_global_variable = triggered_parthian_horde
+#		hidden_effect = {
+#			add_country_modifier = {
+#				name = parthian_death_lasers
+#				duration = 3650
+#			}
+#		}
+#        add_treasury = 750
+#        add_manpower = 20
+#        create_unit = {
+#            navy = no
+#            location = p:6657
+#            while = {
+#	            count = 6
+#	            add_subunit = light_infantry
+#            }
+#            while = {
+#                count = 15
+#                add_subunit = horse_archers
+#            }
+#            while = {
+#                count = 5
+#                add_subunit = light_cavalry
+#            }                                                    
+#            add_food = 100
+#            add_morale = 2
+#        }
+#        create_unit = {
+#            navy = no
+#            location = p:6812
+#            while = {
+#	            count = 6
+#	            add_subunit = light_infantry
+#            }
+#            while = {
+#                count = 10
+#                add_subunit = horse_archers
+#            }
+#            while = {
+#                count = 3
+#                add_subunit = light_cavalry
+#            }                                                    
+#            add_food = 100
+#            add_morale = 2
+#        }
+#		c:SEL = {
+#			save_scope_as = origin
+#			current_ruler = {
+#				save_scope_as = sel_rul
+#			}
+#		}
+#		save_scope_as = target
+#	}
+#	
+#	option = {
+#		name = "diadochi_flavor.100.a"
+#		declare_war_with_wargoal = {
+#			war_goal = horde_conquest
+#			target = scope:origin
+#		}
+#		add_manpower = 20
+#		scope:origin = {
+#			scope:sel_rul = {
+#				death = {
+#					death_reason = death_battle
+#					killer = scope:target.current_ruler
+#				}
+#			}
+#			if = {
+#				limit = {
+#					is_ai = yes
+#				}
+#				add_manpower = -15
+#				add_stability = -10
+#				add_country_modifier = {
+#					name = parthian_attack_lasers
+#					duration = 3650
+#				}
+#				every_subject = { 
+#					limit = { is_ai = yes }
+#					add_stability = -10
+#					add_manpower = -10
+#					add_country_modifier = {
+#						name = parthian_attack_lasers
+#						duration = 3650
+#					}
+#				}
+#			}
+#		}
+#		if = {
+#			limit = {
+#				scope:origin = {
+#					is_ai = yes
+#				}
+#				exists = c:PAR
+#				c:PAR = {
+#					is_ai = yes
+#					is_subject_of = scope:origin
+#				}
+#			}
+#			c:PAR = {
+#				every_owned_province = {
+#					set_owned_by = root
+#				}
+#			}
+#		}
+#		every_country = {
+#			limit = {
+#				NOT = {
+#					this = root
+#				}
+#			}
+#			trigger_event = {
+#				id = diadochi_flavor.101
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "diadochi_flavor.100.b"
+#		current_ruler = {
+#			add_popularity = -25
+#		}
+#		
+#		ai_chance = {
+#			factor = 0
+#		}
+#	}
+#	after = {
+#		c:SEL = {
+#			trigger_event = diadochi_flavor.999
+#		}	
+#	}
+#}
+#
+#diadochi_flavor.101 = {#NS
+#	type = country_event
+#	title = "diadochi_flavor.101.t"
+#	desc = "diadochi_flavor.101.desc"
+#	
+#	picture = steppe_cavalry 
+#	
+#	left_portrait = scope:target.current_ruler
+#	right_portrait = scope:sel_rul
+#	
+#	option = {
+#		name = "diadochi_flavor.101.a"
+#		custom_tooltip = diadochi_flavor_101_tooltip
+#		show_as_tooltip = {
+#			scope:target = {
+#				scope:sel_rul = { 
+#					death = {
+#						death_reason = death_battle
+#						killer = scope:target.current_ruler
+#					}
+#				}
+#			}
+#			if = {
+#				limit = {
+#					NOT = {
+#						this = scope:origin
+#					}
+#				}
+#				scope:origin = {
+#					add_country_modifier = {
+#						name = seleucid_struggles
+#						duration = 3650
+#					}
+#				}
+#			}
+#		}
+#		if = {
+#			limit = {
+#				this = scope:origin
+#			}
+#			add_country_modifier = {
+#				name = seleucid_struggles 
+#				duration = 3650
+#			}
+#		}
+#	}
+#	
+#}
+#
 #diadochi_flavor.999 = {#NS
 #	type = country_event
 #	title = "diadochi_flavor.999.t"
 #	desc = "diadochi_flavor.999.desc"
-#	picture = steppe_cavalry 
+#	picture = steppe_cavalry
+#
+#	trigger = {
+#		c:BAC = {
+#			exists = yes
+#		}
+#	}
+#
+#	fire_only_once = yes
 #	
 #	immediate = {
 #		random_current_war = {

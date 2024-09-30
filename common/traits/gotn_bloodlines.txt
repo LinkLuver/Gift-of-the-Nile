@@ -1,5 +1,4 @@
-﻿
-thutmosid = {    
+﻿thutmosid = {    
 	type = status
 	
 	prominence = 20
@@ -17,5 +16,137 @@ ahmesid = {
 	country = {
 		omen_power = 0.1
 		stability_monthly_change = 0.03
+	}
+}
+
+cyaxarid = {
+	type = status
+
+	prominence = 30
+	martial = 1
+	country = {
+		army_maintenance_cost = -0.10
+	}
+}
+
+shushunid = {
+	type = status
+
+	prominence = 10
+	zeal = 1
+	country = {
+		land_morale_modifier = 0.05
+	}
+}
+
+nergilid = {
+	type = status
+
+	prominence = 20
+	charisma = 1
+	country = {
+		build_cost = -0.10
+	}
+}
+
+shamashid = {
+	type = status
+	charisma = 1
+	country = {
+		diplomatic_relations = 2
+	}
+	prominence = 20
+}
+
+shimannid = {
+	type = status
+	martial = 1
+	country = {
+		assault_ability = 0.05
+	}
+	prominence = 10
+}
+
+arakhid = {
+	type = status
+	zeal = 1
+	country = {
+		happiness_for_wrong_culture_group_modifier = 0.05
+	}
+	prominence = 10
+}
+
+adaside = {
+	type = status
+
+	prominence = 20
+	martial = 1
+	country = {
+		war_score_cost = -0.05
+	}
+}
+
+eurypontid = { 
+    type = status
+    prominence = 20
+    country = {
+      military_tech_investment = 0.05
+    }
+    province = {
+        local_manpower_modifier = 0.1
+    }   
+}
+
+talmi_teshub = {
+	type = status
+	finesse = 1
+	country = {
+		build_time = -0.05
+		build_cost = -0.05
+	}
+	prominence = 20
+}
+
+hazael = {
+	type = status
+	martial = 1
+	country = {
+		light_infantry_discipline = 0.05
+	}
+	prominence = 10
+}
+
+sarduri = {
+	type = status
+	charisma = 1
+	country = {
+		fort_maintenance_cost = -0.1
+	}
+	prominence = 10
+}
+
+zakor = {
+	type = status
+	zeal = 1
+	country = {
+		global_defensive = 0.1
+	}
+	prominence = 10
+}
+
+urhilina = {
+	type = status
+	charisma = 1
+	country = {
+		light_cavalry_morale = 0.05
+	}
+	prominence = 10
+}
+
+ailymasid = {
+	type = status
+	martial = 1
+	country = {
+		light_cavalry_discipline = 0.05
 	}
 }

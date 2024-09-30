@@ -26,13 +26,13 @@
 		religion="mithra_religion"
 		marry_character="char:28"
 		no_stats=yes
-		add_martial=3
-		add_charisma=4
+		add_martial=10
+		add_charisma=12
 		add_finesse=6
 		add_zeal=4
 		no_traits=yes
-		add_trait="submissive"
-		add_trait="cautious"
+		add_trait="founder"
+		add_trait="orator"
 		add_gold=400
 		add_popularity=70
 		c:KIO={

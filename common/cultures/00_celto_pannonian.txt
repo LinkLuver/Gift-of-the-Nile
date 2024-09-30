@@ -1,0 +1,190 @@
+﻿celto_pannonian_group = {
+	color = hsv { 0.32 0.45 0.9 }
+
+	primary = archers
+	second = chariots
+	flank = light_cavalry
+
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+
+	levy_template = levy_gallic_panonian
+
+	male_names = {
+		#Acco Addedomarus Adiatuanus Adminius Aiorix Ambicatos
+		#Andecombogius Aneroestes Ariovistus Arverus Arvirargus
+		#Atis Avitus Bellicianus Bellovesus Boduognatus Boio
+		#Boiorix Bolgios Brennus Bricussa Britomaris Brucetius
+		#Buite Cailtram Caractacus Carvilius Cassivellaunus
+		#Cattulanus Cartorites Catugnatus Cavarinus Cavarus
+		#Celatus Cingetorix Coilus Commios Comux Concolitanus
+		#Correus Cottius Crixus Cunobelinus Diviciacus Divico
+		#Donnus Drappes Dubnovellaunus Dumnacus Ducarius Duratios
+		#Dumnocoveros Dumnorix Elitovius Etitovius Epatticus
+		#Galan Galba Guiderius Iacus Iccius Immanuentius
+		#Inamarcus Inammicus Indutiomarus Kimarcus Lucterius
+		#Lugotorix Lutarius Mallaius Mandubracius Marganus
+		#Mascelio Orgetorix Prasutagus Segovax Sinatus Sinorix
+		#Sisillius Talorc Tasciovanus Tasgetius Taximagulus
+		#Teutomalius Tincomarus Togodumnus Vertiscus Venutius
+		#Viridorix Vosenius Vodenos
+
+		Adiatorix Aioiorix Albiorix Aldorix Ambitoutos
+		Ambosynios Arteinos Artiknos Ateporix Aueior Aueiorix
+		Bepolitanos Bitocos Bitoitos Bitognatos Bitorix
+		Blesamios Boisagaros Bokerix Boudorix Brigatos
+		Brogimaros Brogitaros Brogorix Kassignatos Katomaros
+		Katmaros Kauaros Kaouaros Kentoarates Kombaromaros
+		Komboiomaros Kombolomaros Konbatiakos Kanklados
+		Konklatos Konnakorix Deietaros Deiotarianos Deiotaros
+		Dobedon Domneion Domnekleios Domnilaos Donnonataieus
+		Dyrialos Dysagoras Dyteutos Ebourenos Ebourianos
+		Epatorix Eporedorix Eposognatos Gaizatodiastos
+		Gaizatorix Gaulotos Leonnorios Lostoiekos Loutourios
+		Olorix Ortiagon Orgiagon Sentamos Sinatos Sinorix
+		Synorix Skingorios Zmertomaros Zmerton Zmertorix
+		Solouettios Tektomaros Ouastex Brennos Bolgios
+		Akichorios Kerethrios Komontorios Kritasiros
+	}
+	female_names = {
+		Aife Airmed Ancasta Banna Billica Boudica Bricta Cata
+		Cartimandua Chiomara Damona Diseta Gwendolen Litavis
+		Iamcilla Maeve Verica Cingetessa Conna Catia Carssouna
+		Cunovinna Illica Lovernisca Magunna Lucilia Oconea Ria
+		Rosula Senica Sentica Sulicena Vassura Vinoma Vorvena
+		Urca Veloriga Velibia Totia Titocuna Velbutena
+		Seniciana Senila Vrocata Exuperata Deiana Cunolava
+		Cunsa Aucissa Allauna Alatucca Aessicunia Bodicacia
+		Britivenda Catissena Cantisena
+
+		Adobogiona Arde Kamma Chiomara Kominka Ebourena Epone
+		Meliginna Rossomara Zmertomara
+	}
+	family = {
+		#Ambonus.Ambona.Ambonii.Ambonid
+		#Auaroses.Auarosa.Auarosii.Auarosian
+		#Audaxus.Audaxa.Audaxii.Audaxian
+		#Carosus.Carosa.Carosii.Carosian
+		#Culchus.Culcha.Culchi.Culchian
+		#Leukus.Leuka.Leuki.Leukian
+		#Mandonus.Mandonia.Mandonii.Mandonian
+		#Punicus.Punica.Punici.Punician
+		#Tautalus.Tautala.Tautalii.Tautalid
+		#Correius.Correia.Correid.Correian
+		#Divicus.Divica.Divici.Divicid
+		#Duratus.Durata.Duratii.Duratian
+		#Elitovus.Elitova.Elitovii.Elitovian
+		#Galbus.Galba.Galbi.Galbid
+		#Iacus.Iaca.Iaci.Iacid
+		#Marganus.Margana.Marganii.Marganid
+		#Sinatus.Sinata.Sinatii.Sinatid
+		#Vodenosus.Vodenosa.Vodenosii.Vodenosian
+		#Indutius.Indutia.Indutii.Indutian
+		#Dumnus.Dumna.Dumnii.Dumnid
+		#Epatticus.Epattica.Epatticii.Epatticid
+		#Teutomalus.Teutomala.Teutomalii.Teutomalian
+		#Viridorrius.Viridorria.Viridorrii.Viridorrian
+		#Magunnus.Magunna.Magunnii.Magunnid
+		#Brennus.Brenna.Brennii.Brennid
+		#Boius.Boia.Boii.Boian
+		#Tannus.Tanna.Tanni.Tannid
+		#Iccuius.Iccuia.Iccui.Iccian
+		#Galanus.Galana.Galanii.Galanid
+
+		#tribal
+		Aigosagios.Aigosagia.Aigosagioi.Aigosagid
+		Ambitoutos.Ambitouta.Ambitoutoi.Ambitoutid
+		Trinobantenos.Trinobantena.Trinobantenoi.Trinobantenid
+		Nobantenos.Nobantena.Nobantenoi.Nobantenid
+		Okondianos.Okondiana.Okondianoi.Okondianid
+		Rigosagios.Rigosagia.Rigosagioi.Rigosagid
+		Tektosagios.Tektosagia.Tektosagioi.Tektosagid
+		Tolistoagios.Tolistoagia.Tolistoagioi.Tolistoagid
+		Tolistobogios.Tolistobogia.Tolistobogioi.Tolistobogid
+		Tosiopos.Tosiopa.Tosiopoi.Tosiopid
+		Toutobodiacos.Toutobodiaca.Toutobodiacoi.Toutobodiacid
+		Trokmos.Trokma.Trokmoi.Trokmid
+		Trokmenos.Trokmena.Trokmenoi.Trokmenid
+		Troknas.Troknada.Troknades.Troknadid
+
+		#patronymic
+		Akitorigiakos.Akitorigiaka.Akitorigiakoi.Akitorigiac
+		Brenniakos.Brenniaka.Brenniakoi.Brenniac
+		Bolgiakos.Bolgiaka.Bolgiakoi.Bolgiac
+		Leonnoriakos.Leonnoriaka.Leonnoriakoi.Leonnoriac
+
+		#geographic
+		Artikniakonos.Artikniakona.Artikniakonoi.Artikniakonan
+		Aldorigos.Aldoriga.Aldorigoi.Aldorigan
+		Ekobrogios.Ekobrogia.Ekobrogioi.Ekobrogian
+		Erigobrogios.Erigobrogia.Erigobrogioi.Erigobrogian
+		Ikotarionos.Ikotariona.Ikotarionoi.Ikotarionan
+		Ipetobrogenos.Ipetobrogena.Ipetobrogenoi.Ipetobrogenan
+		Sinorios.Sinoria.Sinorioi.Sinorian
+		Sinorigios.Sinorigia.Sinorigioi.Sinorigian
+		Sintoionos.Sintoiona.Sintoionoi.Sintoionan
+		Tymbrios.Tymbria.Tymbrioi.Tymbrian
+		Tenbroggios.Tenbroggia.Tenbroggioi.Tenbroggian
+		Tolastochorios.Tolastochoria.Tolastochorioi.Tolastochorian
+		Ouindianos.Ouindiana.Ouindianoi.Ouindian
+	}
+	culture = {
+		#celtic_pannonian = {}
+		#letobician = {}
+		#carnian = {}
+		#noric = { levy_template = levy_norican }
+		#boian = {}
+		#eravisci = {}
+		galatian = {} #Katosians
+		tylian = { levy_template = levy_thracians }
+		dumarian = {}
+		aistian = {
+			levy_template = levy_gallic_scythian
+			male_names = {
+				Adiatorix Aioiorix Albiorix Aldorix Ambitoutos
+				Ambosynios Arteinos Artiknos Ateporix Aueior Aueiorix
+				Bepolitanos Bitocos Bitoitos Bitognatos Bitorix
+				Blesamios Boisagaros Bokerix Boudorix Brigatos
+				Brogimaros Brogitaros Brogorix Kassignatos Katomaros
+				Katmaros Kauaros Kaouaros Kentoarates Kombaromaros
+				Komboiomaros Kombolomaros Konbatiakos Kanklados
+				Konklatos Konnakorix Deietaros Deiotarianos Deiotaros
+				Dobedon Domneion Domnekleios Domnilaos Donnonataieus
+				Dyrialos Dysagoras Dyteutos Ebourenos Ebourianos
+				Epatorix Eporedorix Eposognatos Gaizatodiastos
+				Gaizatorix Gaulotos Leonnorios Lostoiekos Loutourios
+				Olorix Ortiagon Orgiagon Sentamos Sinatos Sinorix
+				Synorix Skingorios Zmertomaros Zmerton Zmertorix
+				Solouettios Tektomaros Ouastex Brennos Bolgios
+				Akichorios Kerethrios Komontorios Kritasiros
+				Airawanta Ajatasatru Ajite Alp Ambare Ampratasarme Amrataraksite Amratodane Anande Anathapindike Aniruddhe Andhave Anktsas Arjune Aranemi Arnyartate Arslam Arthadarsi Aryamarg Aryaske Aryatewe Aryawarme Aryottame Asokamitre Asokaraksite Asoke Asarte Astawi Atakke Atidivakare Atyuccagami Atraikatte Bimbasare Caitike Caiytiska Cakravar Cakule Candramukhe Candravasu Candre Caracate Cina Cinatyuti Citre Cittaraksite Cowaske Dandakamal Devarakste Dhanike Dipankar Dirghanakhe Dravyasvare Durmukhe Ekasrinke Erkatsole Esmine Etrise Gayakasyape Gayasirs Gaye Gunacamdre Gunasampade Hariscandre Hastake Hetubalike Indradhvaje Indratewe Indre Indriske Issapake Jatisrone Jetavam Jnanacamndre Jnanaghose Jnanakame Jnanakupte Jnanamokse Jnanasene Jnanasome Jnanasthite Jnanawirye Kadike Kalodaye Kalyanamokse Kalyanavraddhi Kalyanawartane Kanake Kanaske Kanthake Kapilavarne Kapilavastu Kas Kasyap Katakarni Kaundinye
+				Kauravye Kausal Kemarcune Kentarske Kercampey Kercapiske Kerdipole Kereptanne Kimne Klenkarako Klpapatre Klyotiska Kotile Koysam Ksemankare Ksmarjune Ksmawarme Ksmate Ksmateworsa Ksmika Kulkera Kumarapunye Kumpante Kunacamttrakau Kunacamttre Kwirapabhadra Lariska Mahasammate Mahisvare Manisvare Mitrakseme Mitraske Mitre Moksasene Moksasome Moksawarme Molyoke Mukalanti Munkhare Murdhagate Nandabala Nandake Nande Nandipale Nasme Natte Naradeve Nirot Nupura Nyagrodhe Padmakesar Padmottare Pakacandre Pancasikhi Pawaske Pesane Prabhankare Prabhase Pranada Prasamnake
+				Pravare Priyadeve Ptompile Punaiyse Punakame Punaraksite Punicamndre Punyamitre Purtas Rahule Raktadewe Ratnacuda Ratnasikhi Rsivadam Rudramukhe Rudrasarme Sagare Samantatir Samcite Samghatrate Sanavasi Sanghasarme Sankene Sanum Saputanase Sarasike Sarmacamdre Sarsire Satuma Satyake Satyaraksite Sidhasamgha Siladewe Silamitre Silarakite Silaraksi Silasoma Silavande Silawarne Silayase Silopake Simpraye Sincake Sinke Sinku Skanatatte Skwarle Slacamndre Solarke Some Srestake Sudarse Sudas Suddhodane Sujate Sukase Suklodane Sunaksatre Sunetre Sutasome Sutate Swarnabuspe Swarnatepe Tarmacandre Tarmaraksite Tenare Tohkem Tonke Tukik Tunka Tusi Udanalankar Udayi Ulkamukhe Uluke Upage Upagupte Upanande
+				Uposathe Urbilvakasyape Uttaraphalguni Uttare Vaisravane Vaitike Varddhane Vidusake Vimalapuspe Vinaise Visale Wamsok Warwattaske Waryaruci Waryasene Wasampile Wasave Wiryadewe Wiryamitre Wiryasanti Wiryasini Wisikke Wrauske Yanayase Yarpalaske Yasa Yasawine Yase Yasonaka Yastare Yonge Yonu Ype Yudhisthire Yugaraje
+			}
+			female_names = {
+				Aife Airmed Ancasta Banna Billica Boudica Bricta Cata
+				Cartimandua Chiomara Damona Diseta Gwendolen Litavis
+				Iamcilla Maeve Verica Cingetessa Conna Catia Carssouna
+				Cunovinna Illica Lovernisca Magunna Lucilia Oconea Ria
+				Rosula Senica Sentica Sulicena Vassura Vinoma Vorvena
+				Urca Veloriga Velibia Totia Titocuna Velbutena
+				Seniciana Senila Vrocata Exuperata Deiana Cunolava
+				Cunsa Aucissa Allauna Alatucca Aessicunia Bodicacia
+				Britivenda Catissena Cantisena
+
+				Adobogiona Arde Kamma Chiomara Kominka Ebourena Epone
+				Meliginna Rossomara Zmertomara
+				Ampratasene Amratasene Arjuna Arunavati Aryakose Aryaraksite Ayardhyame Bhadra Canca Dhrtirastre Jnati Kolite Kosthile Malika Maya Nagasene Priyasarini Punyasene Purike Purnaya Purohite Putere Raknaska Revati Roce Saci Santa Santisene Sari Sthulananda Sudarsane Sumagati Sumaise Sumati Sundari Suwarte Tarmawirne Tartvisara Tati Tisye Upatisye Uppal Uppalavarna Vasisthe Vitasake Yasaraksite Yasodhara
+			}
+		}
+	}
+
+	barbarian_names = { TECTOSAGES TOLISTOBOGES TROCMES AIGOSAGES DAGUTENES INOVANTENES OKONDIANES RIGOSAGES }
+
+	graphical_culture = pannonian_gfx
+	ethnicities = {
+		10 = celtic
+	}
+}

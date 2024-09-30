@@ -1,4 +1,4 @@
-﻿445={ #Leukaspis
+﻿445={ #Hedjikam
 	terrain="desert"
 	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
@@ -20,7 +20,7 @@
 	}
 }
 
-453={ #Taposiris Megale
+453={ #Wenmeri-Asar
 	terrain="desert"
 	culture="tenuwan_egyptian"
 	religion="aten_religion"
@@ -42,7 +42,7 @@
 	}
 }
 
-500={ #Memphis
+500={ #Menfe
 	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -80,7 +80,7 @@
 	holy_site=omen_ptah
 }
 
-501={ #Heliopolis
+501={ #Awnu
 	terrain="flood_plain"
 	culture="egyptian"
 	religion="aten_religion"
@@ -118,7 +118,7 @@
 	holy_site=omen_atenhotep
 }
 
-502={ #Heroopolis
+502={ #Per-Atum
 	terrain="desert"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -137,7 +137,7 @@
 	}
 }
 
-503={ #Boubastis
+503={ #Per-Bastet
 	terrain="flood_plain"
 	culture="avarite_egyptian"
 	religion="egyptian_pantheon"
@@ -160,7 +160,7 @@
 	holy_site=omen_bastet
 }
 
-504={ #Leontopolis
+504={ #Taremu
 	terrain="flood_plain"
 	culture="danetic_egyptian"
 	religion="egyptian_pantheon"
@@ -180,7 +180,7 @@
 	holy_site=omen_sekhmet
 }
 
-505={ #Klysma
+505={ #Per-Aten
 	terrain="desert"
 	culture="egyptian"
 	religion="aten_religion"
@@ -197,11 +197,11 @@
 	tribesmen={
 		amount=1
 	}
-	port_building=1
 	holy_site=omen_tutankhaten
+	port_building=1
 }
 
-506={ #Arsinoe
+506={ #Meswet-ir-Biau
 	terrain="desert"
 	culture="mafkatian_egyptian"
 	religion="egyptian_pantheon"
@@ -226,7 +226,7 @@
 	holy_site=omen_miriam
 }
 
-507={ #Leonton Polis
+507={ #Iunu-Het
 	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -256,7 +256,7 @@
 	port_building=1
 }
 
-508={ #Tanis
+508={ #Dja'net
 	terrain="marsh"
 	culture="danetic_egyptian"
 	religion="egyptian_pantheon"
@@ -278,7 +278,7 @@
 	}
 }
 
-509={ #Pilousion
+509={ #Per-Amun
 	terrain="marsh"
 	culture="avarite_egyptian"
 	religion="egyptian_pantheon"
@@ -286,12 +286,17 @@
 	civilization_value=32
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		culture="retenuan"
+		religion="aten_religion"
+		amount=3
+	}
 	citizen={
 		amount=11
 	}
 	citizen={
 		culture="hebrew"
-		religion="judaism"
+		religion="edomite"
 		amount=3
 	}
 	freemen={
@@ -309,9 +314,10 @@
 		amount=2
 	}
 	port_building=1
+	fortress_building=2
 }
 
-510={ #Daphnai Pelousiai
+510={ #Tahpanhes
 	terrain="flood_plain"
 	culture="danetic_egyptian"
 	religion="egyptian_pantheon"
@@ -335,7 +341,7 @@
 	}
 }
 
-511={ #Phakousai
+511={ #Hut-Waret
 	terrain="flood_plain"
 	culture="avarite_egyptian"
 	religion="egyptian_pantheon"
@@ -361,7 +367,7 @@
 	holy_site=omen_joseph
 }
 
-512={ #Letous Polis
+512={ #Sekhem
 	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -390,7 +396,7 @@
 	}
 }
 
-513={ #Athribis
+513={ #Hut-Hery-Ib
 	terrain="flood_plain"
 	culture="danetic_egyptian"
 	religion="egyptian_pantheon"
@@ -414,7 +420,7 @@
 	}
 }
 
-514={ #Nikiou
+514={ #Per-Asset
 	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -433,7 +439,7 @@
 	}
 }
 
-515={ #Naukratis
+515={ #Piemro
 	terrain="flood_plain"
 	culture="neithic_egyptian"
 	religion="aten_religion"
@@ -448,6 +454,7 @@
 		amount=18
 	}
 	freemen={
+		culture="aegyptos"
 		amount=9
 	}
 	freemen={
@@ -465,7 +472,7 @@
 	holy_site=omen_nefertiti
 }
 
-516={ #Alexandreia
+516={ #Rhakote
 	terrain="flood_plain"
 	culture="tenuwan_egyptian"
 	religion="aten_religion"
@@ -490,6 +497,7 @@
 		amount=6
 	}
 	freemen={
+		culture="aegyptos"
 		amount=4
 	}
 	freemen={
@@ -511,7 +519,7 @@
 	court_building=1
 }
 
-517={ #Hermopolis Mikra
+517={ #Damanhur
 	terrain="flood_plain"
 	culture="wadjetic_egyptian"
 	religion="egyptian_pantheon"
@@ -528,11 +536,11 @@
 	slaves={
 		amount=25
 	}
-	port_building=1
 	holy_site=omen_ra
+	port_building=1
 }
 
-518={ #Boutos
+518={ #Per-Wadjet
 	terrain="marsh"
 	culture="wadjetic_egyptian"
 	religion="egyptian_pantheon"
@@ -552,7 +560,7 @@
 	holy_site=omen_wadjet
 }
 
-519={ #Sais
+519={ #Sau
 	terrain="flood_plain"
 	culture="neithic_egyptian"
 	religion="egyptian_pantheon"
@@ -572,11 +580,11 @@
 	slaves={
 		amount=22
 	}
-	port_building=1
 	holy_site=omen_neith
+	port_building=1
 }
 
-520={ #Xois
+520={ #Khasut
 	terrain="flood_plain"
 	culture="neithic_egyptian"
 	religion="egyptian_pantheon"
@@ -597,12 +605,12 @@
 		amount=14
 	}
 	slaves={
-		amount=5
 		religion="aten_religion"
+		amount=5
 	}
 }
 
-521={ #Sebennytos
+521={ #Tjeb-Netjer
 	terrain="flood_plain"
 	culture="neithic_egyptian"
 	religion="aten_religion"
@@ -622,7 +630,7 @@
 	port_building=1
 }
 
-522={ #Diospolis Kato
+522={ #Semabehdet
 	terrain="marsh"
 	culture="neithic_egyptian"
 	religion="egyptian_pantheon"
@@ -642,7 +650,7 @@
 	port_building=1
 }
 
-523={ #Pachneumounis
+523={ #Iaret-wer-Netjer
 	terrain="marsh"
 	culture="wadjetic_egyptian"
 	religion="egyptian_pantheon"
@@ -661,7 +669,7 @@
 	}
 }
 
-524={ #Pharbaithos
+524={ #Setennu
 	terrain="flood_plain"
 	culture="danetic_egyptian"
 	religion="egyptian_pantheon"
@@ -680,7 +688,7 @@
 	}
 }
 
-525={ #Sile
+525={ #Tjaru
 	terrain="desert"
 	culture="avarite_egyptian"
 	religion="egyptian_pantheon"
@@ -699,7 +707,7 @@
 	}
 }
 
-526={ #Onouphis Ano
+526={ #Iaret-wer-Wen
 	terrain="flood_plain"
 	culture="neithic_egyptian"
 	religion="egyptian_pantheon"
@@ -718,7 +726,7 @@
 	}
 }
 
-527={ #Momemphis
+527={ #Imu
 	terrain="flood_plain"
 	culture="neithic_egyptian"
 	religion="aten_religion"
@@ -737,7 +745,7 @@
 	}
 }
 
-528={ #Iseion
+528={ #Taua
 	terrain="flood_plain"
 	culture="neithic_egyptian"
 	religion="egyptian_pantheon"
@@ -756,7 +764,7 @@
 	}
 }
 
-529={ #Kanopos
+529={ #Pikuat
 	terrain="flood_plain"
 	culture="wadjetic_egyptian"
 	religion="egyptian_pantheon"
@@ -776,7 +784,7 @@
 	port_building=1
 }
 
-530={ #Bolbitine
+530={ #Khito
 	terrain="marsh"
 	culture="wadjetic_egyptian"
 	religion="egyptian_pantheon"
@@ -795,7 +803,7 @@
 	}
 }
 
-531={ #Psenemphaia
+531={ #Menew-iryt-Hawey
 	terrain="flood_plain"
 	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
@@ -814,7 +822,7 @@
 	}
 }
 
-532={ #Chaireon
+532={ #Per-Anpu
 	terrain="flood_plain"
 	culture="wadjetic_egyptian"
 	religion="egyptian_pantheon"
@@ -838,7 +846,7 @@
 	}
 }
 
-533={ #Boutike Limne
+533={ #Ah-Bity
 	terrain="marsh"
 	culture="wadjetic_egyptian"
 	religion="egyptian_pantheon"
@@ -857,7 +865,7 @@
 	}
 }
 
-534={ #Mendes
+534={ #Djedet
 	terrain="flood_plain"
 	culture="danetic_egyptian"
 	religion="egyptian_pantheon"
@@ -886,7 +894,7 @@
 	}
 }
 
-535={ #Ostrakine
+535={ #Ta-Het
 	terrain="desert"
 	culture="retenuan"
 	religion="egyptian_pantheon"
@@ -917,7 +925,7 @@
 	}
 }
 
-536={ #Babylon Aigyptou
+536={ #Akhet-Khufu
 	terrain="flood_plain"
 	culture="egyptian"
 	religion="egyptian_pantheon"
@@ -952,7 +960,7 @@
 	port_building=1
 }
 
-537={ #Panarachthis
+537={ #Iaret-wer-Tepihu
 	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
@@ -976,7 +984,7 @@
 	}
 }
 
-538={ #Aphroditopolis
+538={ #Tepihu
 	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="aten_religion"
@@ -999,7 +1007,7 @@
 	}
 }
 
-539={ #Ptolemais Euergetis
+539={ #Shedet
 	terrain="oasis"
 	culture="middle_egyptian"
 	religion="sobek_religion"
@@ -1037,7 +1045,7 @@
 	holy_site=omen_sobekaten
 }
 
-540={ #Dionysias
+540={ #Per-Demy-Ma
 	terrain="oasis"
 	culture="middle_egyptian"
 	religion="sobek_religion"
@@ -1068,7 +1076,7 @@
 	}
 }
 
-541={ #Karanis
+541={ #Bandiq
 	terrain="oasis"
 	culture="middle_egyptian"
 	religion="sobek_religion"
@@ -1090,7 +1098,7 @@
 	}
 }
 
-542={ #Ankyronpolis
+542={ #Tayu-Djayet
 	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="aten_religion"
@@ -1110,7 +1118,7 @@
 	}
 }
 
-543={ #Neiloupolis
+543={ #Delas
 	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="aten_religion"
@@ -1133,7 +1141,7 @@
 	}
 }
 
-544={ #Irakleiopolis
+544={ #Henen-nesut
 	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="aten_religion"
@@ -1166,10 +1174,9 @@
 		religion="sobek_religion"
 		amount=3
 	}
-	#holy_site=omen_atenhotep
 }
 
-545={ #Oxyrrhynchos
+545={ #Per-Medjed
 	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="aten_religion"
@@ -1198,7 +1205,7 @@
 	holy_site=omen_medjed
 }
 
-546={ #Kynopolis
+546={ #Saka
 	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="aten_religion"
@@ -1215,7 +1222,7 @@
 	}
 }
 
-547={ #Chysis
+547={ #Shusha
 	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="aten_religion"
@@ -1236,7 +1243,7 @@
 	}
 }
 
-548={ #Alabastronpolis
+548={ #Hebenou
 	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="aten_religion"
@@ -1256,7 +1263,7 @@
 	}
 }
 
-550={ #Peentalis
+550={ #Temsey
 	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="aten_religion"
@@ -1280,7 +1287,7 @@
 	}
 }
 
-655={ #Serapieion
+655={ #Per-Apis
 	terrain="desert"
 	culture="avarite_egyptian"
 	religion="egyptian_pantheon"
@@ -1302,7 +1309,7 @@
 	}
 }
 
-656={ #Rhinokoloura
+656={ #Rinokoloura
 	terrain="desert"
 	culture="retenuan"
 	religion="carthaginian_pantheon"
@@ -1358,7 +1365,7 @@
 	}
 }
 
-1600={ #Medeia
+1600={ #Marah
 	terrain="desert"
 	culture="mafkatian_egyptian"
 	religion="arabian_pantheon"
@@ -1460,7 +1467,7 @@
 	}
 }
 
-1693={ #Oros Choreb
+1693={ #Horeb Mons
 	terrain="desert_hills"
 	culture="mafkatian_egyptian"
 	religion="arabian_pantheon"
@@ -1503,7 +1510,7 @@
 	}
 }
 
-1710={ #Sinai Boreioi
+1710={ #Sina Meridionalis
 	terrain="desert"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1516,7 +1523,7 @@
 	}
 }
 
-5531={ #Oasis Deutera
+5531={ #Parva
 	terrain="oasis"
 	culture="deshretic_egyptian"
 	religion="egyptian_pantheon"
@@ -1638,7 +1645,7 @@
 	}
 }
 
-5544={ #Gheron
+5544={ #Gerum
 	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
@@ -1703,7 +1710,7 @@
 	}
 }
 
-5549={ #Takiris
+5549={ #Tasur
 	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
@@ -1722,7 +1729,7 @@
 		amount=7
 	}
 	slaves={
-		religion=aten_religion
+		religion="aten_religion"
 		amount=1
 	}
 	holy_site=omen_sobekra
@@ -1747,7 +1754,7 @@
 	}
 }
 
-7688={ #Thenisos
+7688={ #Thenessos
 	terrain="marsh"
 	culture="danetic_egyptian"
 	religion="egyptian_pantheon"
@@ -1766,7 +1773,7 @@
 	}
 }
 
-7689={ #Ermou Polis
+7689={ #Weprehwy
 	terrain="flood_plain"
 	culture="danetic_egyptian"
 	religion="egyptian_pantheon"
@@ -1786,7 +1793,7 @@
 	holy_site=omen_thoth
 }
 
-7690={ #Tamiathis
+7690={ #Tamiat
 	terrain="marsh"
 	culture="danetic_egyptian"
 	religion="egyptian_pantheon"
@@ -1823,3 +1830,4 @@
 		amount=5
 	}
 }
+

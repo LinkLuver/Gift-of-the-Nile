@@ -1,0 +1,833 @@
+﻿missions_iran_1 = {
+    header = "persia_mission"
+    icon = "persia_3"
+
+    repeatable = no
+    chance = 1000
+
+    potential = {
+        NOT = { has_variable = mission_cooldown_var }
+        has_variable = lands_of_revelation_var
+    }
+
+    abort = {}
+    on_start = {
+        start_mission_ai_effect = yes
+    }
+    on_abort = {
+        custom_tooltip = general_mission_cooldown_tt
+        set_variable = {
+            name = mission_cooldown_var
+            days = 7300
+        }
+    }
+    on_completion = {}
+    missions_iran_1_task_1 = {
+        icon = "task_atlas"
+        highlight = {
+            scope:province = {
+                has_owner = yes
+                owner = {
+                    is_subject = yes
+                    overlord = ROOT
+                }
+            }
+        }
+        allow = {
+            political_influence >= 100
+            stability >= 60
+        }
+        on_completion = {
+            trigger_event = me_iran.1
+            show_as_tooltip = {
+                add_political_influence = -100
+                custom_tooltip = annex_everyone_tt
+            }
+        }
+    }
+    missions_iran_1_task_2 = {
+        icon = "task_expansion"
+        highlight = {
+            scope:province = {
+                this = p:4985
+            }
+        }
+        requires = { missions_iran_1_task_1 }
+        allow = {
+            owns_or_subject_owns = p:4985
+            treasury >= 300
+            p:4985 = {
+                is_holy_site = no
+                dominant_province_religion = zoroaster
+                total_population >= 35
+            }
+            p:4985.state = {
+                state_improvement_religious_trigger = yes
+            }
+        }
+        on_completion = {
+            trigger_event = me_iran.2
+            show_as_tooltip = {
+                add_treasury = -300
+                p:4985 = {
+                    set_province_deity = deity:omen_thraetaona
+                }
+                add_country_modifier = {
+                    name = varena_mod
+                    duration = -1
+                }
+            }
+        }
+    }
+    missions_iran_1_task_3 = {
+        icon = "task_economical"
+        highlight = {
+            scope:province = {
+                this = p:4991
+            }
+        }
+        requires = { missions_iran_1_task_1 }
+        allow = {
+            p:4991 = {
+                has_building = temple_building
+                has_building = military_building
+                has_building = court_building
+                total_population >= 35
+            }
+        }
+        on_completion = {
+            trigger_event = me_iran.3
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = ragha_mod
+                    duration = -1
+                }
+            }
+        }
+    }
+    missions_iran_1_task_4 = {
+        icon = "task_diplomatic"
+        requires = { missions_iran_1_task_18 }
+        highlight = {
+            scope:province = {
+                is_in_area = transoxus_area
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = transoxus_area
+        }
+        on_completion = {
+            trigger_event = me_iran.4
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = nisai_mod
+                    duration = -1
+                }
+            }
+        }
+    }
+    missions_iran_1_task_5 = {
+        icon = "task_political"
+        requires = { missions_iran_1_task_1 }
+        highlight = {
+            scope:province = {
+                this = p:3434
+            }
+        }
+        allow = {
+            p:3434 = {
+                num_goods_produced >= 3
+                total_population >= 20
+                civilization_value >= 50
+            }
+            p:3434.state = {
+                state_improvement_oratory_trigger = yes
+            }
+        }
+        on_completion = {
+            trigger_event = me_iran.5
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = vehrkane_mod
+                    duration = -1
+                }
+            }
+        }
+    }
+    missions_iran_1_task_6 = {
+        icon = "task_economical"
+        requires = { missions_iran_1_task_18 }
+        highlight = {
+            scope:province = {
+                is_in_area = sogdiana_area
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = sogdiana_area
+        }
+        on_completion = {
+            trigger_event = me_iran.6
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = gava_mod
+                    duration = -1
+                }
+            }
+        }
+    }
+    missions_iran_1_task_7 = {
+        icon = "task_happiness"
+        requires = { missions_iran_1_task_18 }
+        highlight = {
+            scope:province = {
+                this = p:9241
+            }
+        }
+        allow = {
+            trigger_if = {
+                limit = {
+                    p:9243 = {
+                        has_food_trade_good_trigger = yes
+                    }
+                }
+                p:9243 = { has_building = basic_settlement_infratructure_building }
+            }
+            trigger_if = {
+                limit = {
+                    p:9240 = {
+                        has_food_trade_good_trigger = yes
+                    }
+                }
+                p:9240 = { has_building = basic_settlement_infratructure_building }
+            }
+            p:9241 = {
+                has_building = workshop_building
+            }
+        }
+        on_completion = {
+            trigger_event = me_iran.7
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = urva_mod
+                    duration = -1
+                }
+            }
+        }
+    }
+    missions_iran_1_task_8 = {
+        icon = "task_political"
+        requires = { missions_iran_1_task_18 }
+        highlight = {
+            scope:province = {
+                this = p:6668
+            }
+        }
+        allow = {
+            p:6668 = {
+                num_of_court_building = 3
+                has_building = town_hall_building
+            }
+        }
+        on_completion = {
+            trigger_event = me_iran.8
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = mouru_mod
+                    duration = -1
+                }
+            }
+        }
+    }
+    missions_iran_1_task_9 = {
+        icon = "task_zeus_cornucopia"
+        requires = { missions_iran_1_task_18 }
+        highlight = {
+            scope:province = {
+                this = p:6558
+            }
+        }
+        allow = {
+            p:6558 = {
+                incoming_trade_routes >= 3
+                outgoing_trade_routes >= 2
+                has_building = commerce_building
+            }
+        }
+        on_completion = {
+            trigger_event = me_iran.9
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = haroiva_mod
+                    duration = -1
+                }
+            }
+        }
+    }
+    missions_iran_1_task_10 = {
+        icon = "task_heracles"
+        requires = { missions_iran_1_task_18 }
+        highlight = {
+            scope:province = {
+                this = p:6678
+            }
+        }
+        allow = {
+            p:6678 = {
+                has_building = temple_building
+            }
+            treasury >= 500
+        }
+        on_completion = {
+            trigger_event = me_iran.10
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = bakhdi_mod
+                    duration = -1
+                }
+                p:6678 = {
+                    add_province_modifier = {
+                        name = bactria_fire_temple
+                        duration = -1
+                    }
+                }
+            }
+        }
+    }
+    missions_iran_1_task_11 = {
+        icon = "task_religion"
+        requires = { missions_iran_1_task_19 }
+        highlight = {
+            scope:province = {
+                is_in_area = pactya_area
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = pactya_area
+        }
+        on_completion = {
+            trigger_event = me_iran.11
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = haeutmant_mod
+                    duration = -1
+                }
+            }
+        }
+    }
+    missions_iran_1_task_12 = {
+        icon = "task_artemis"
+        requires = { missions_iran_1_task_19 }
+        highlight = {
+            scope:province = {
+                is_in_area = arachosia_area
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = arachosia_area
+        }
+        on_completion = {
+            trigger_event = me_iran.12
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = harakhvaiti_mod
+                    duration = -1
+                }
+            }
+        }
+    }
+    missions_iran_1_task_13 = {
+        icon = "task_economical"
+        requires = { missions_iran_1_task_19 }
+        highlight = {
+            scope:province = {
+                this = p:6648
+            }
+        }
+        allow = {
+            owns_or_subject_owns = 6648
+        }
+        on_completion = {
+            trigger_event = me_iran.13
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = vaekereta_mod
+                    duration = -1
+                }
+            }
+        }
+    }
+    missions_iran_1_task_14 = {
+        icon = "task_heracles"
+        requires = { missions_iran_1_task_19 }
+        highlight = {
+            scope:province = {
+                OR = {
+                    AND = {
+                        is_in_area = bamyan_area
+                        NOR = {
+                            province_id = 6614
+                            province_id = 6638
+                            province_id = 6628
+                            province_id = 6631
+                            province_id = 6642
+                            province_id = 6644
+                            province_id = 6643
+                        }
+                    }
+                    is_in_area = sattagydia_area
+                }
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = sattagydia_area
+            owns_or_subject_owns = 6614
+            owns_or_subject_owns = 6638
+            owns_or_subject_owns = 6628
+            owns_or_subject_owns = 6631
+            owns_or_subject_owns = 6642
+            owns_or_subject_owns = 6644
+            owns_or_subject_owns = 6643
+        }
+        on_completion = {
+            trigger_event = me_iran.14
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = chakhra_mod
+                    duration = -1
+                }
+            }
+        }
+    }
+    missions_iran_1_task_15 = {
+        icon = "task_diplomatic"
+        requires = { missions_iran_1_task_19 }
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_region = gandhara_region
+                    is_in_region = panchab_region
+                }
+            }
+        }
+        allow = {
+            #owns_or_subject_owns =
+        }
+        on_completion = {
+            trigger_event = me_iran.15
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = hapta_hendu_mod
+                    duration = -1
+                }
+            }
+        }
+    }
+    missions_iran_1_task_16 = {
+        icon = "task_expansion"
+        requires = { missions_iran_1_task_19 }
+        highlight = {
+            scope:province = {
+                this = p:6639
+            }
+        }
+        allow = {
+            owns_or_subject_owns = 6639
+        }
+        on_completion = {
+            trigger_event = me_iran.16
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = ranha_mod
+                    duration = -1
+                }
+            }
+        }
+    }
+    missions_iran_1_task_17 = {
+        icon = "task_political"
+        requires = { missions_iran_1_task_11 missions_iran_1_task_12 missions_iran_1_task_13 missions_iran_1_task_14 missions_iran_1_task_15 missions_iran_1_task_16 }
+        highlight = {
+            scope:province = {
+                is_in_area = aria_area
+            }
+        }
+        allow = {
+            owns_or_subject_owns_area = aria_area
+        }
+        on_completion = {
+            trigger_event = me_iran.17
+            show_as_tooltip = {
+                custom_tooltip = achieved_goal_tt
+            }
+        }
+        final = yes
+    }
+    missions_iran_1_task_18 = {
+        icon = "task_atlas"
+        requires = { missions_iran_1_task_2 missions_iran_1_task_3 missions_iran_1_task_5 }
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_region = bactriana_region
+                    is_in_region = sakia_region
+                    is_in_region = parthia_region
+                }
+            }
+        }
+        allow = {
+            political_influence >= 50
+            treasury >= 300
+        }
+        on_completion = {
+            trigger_event = me_iran.18
+            show_as_tooltip = {
+                add_political_influence = -50
+                add_treasury = -300
+                custom_tooltip = claims_bactria_persia_tt
+            }
+        }
+    }
+    missions_iran_1_task_19 = {
+        icon = "task_durga"
+        requires = { missions_iran_1_task_4 missions_iran_1_task_6 missions_iran_1_task_7 missions_iran_1_task_8 missions_iran_1_task_9 missions_iran_1_task_10 }
+        highlight = {
+            scope:province = {
+                OR = {
+                    is_in_region = gandhara_region
+                    is_in_region = ariana_region
+                    is_in_region = panchab_region
+                }
+            }
+        }
+        allow = {
+            political_influence >= 50
+            treasury >= 300
+        }
+        on_completion = {
+            trigger_event = me_iran.19
+            show_as_tooltip = {
+                add_political_influence = -50
+                add_treasury = -300
+                custom_tooltip = claims_india_persia_tt
+            }
+        }
+        final = yes
+    }
+    missions_iran_1_task_20 = {
+        icon = "task_diplomatic"
+        allow = {
+            c:PES = { num_of_cities >= 500 }
+        }
+        on_completion = {
+            trigger_event = me_iran.20
+            show_as_tooltip = {
+                add_political_influence = 50
+            }
+        }
+    }
+
+    missions_iran_1_task_21 = {
+        icon = "task_shiva"
+        requires = { missions_iran_1_task_24 }
+        highlight = {
+            scope:province = {
+                OR = {
+                    AND = {
+                        owner = ROOT
+                        dominant_province_religion = hindu
+                    }
+                    this = p:7314
+                }
+            }
+        }
+        allow = {
+            owns = 7314
+            p:7314 = {
+                is_holy_site = no
+            }
+            OR = {
+                custom_tooltip = {
+                    any_owned_province = {
+                        count >= 5
+                        dominant_province_religion = hindu
+                    }
+                    text = 5_vedic_provinces_tt
+                }
+                custom_tooltip = {
+                    AND = {
+                        owns_or_subject_owns_region = gandhara_region
+                        owns_or_subject_owns_region = panchab_region
+                        owns_or_subject_owns_region = indus_region
+                        NOT = {
+                            any_owned_province = {
+                                dominant_province_religion = hindu
+                            }
+                        }
+                    }
+                    text = backup_religion_vedic_tt
+                }
+            }
+        }
+        on_completion = {
+            trigger_event = me_iran.21
+            show_as_tooltip = {
+                custom_tooltip = fate_of_vedas_tt
+            }
+        }
+    }
+
+    missions_iran_1_task_22 = {
+        icon = "task_artemis"
+        requires = { missions_iran_1_task_24 }
+        highlight = {
+            scope:province = {
+                AND = {
+                    owner = ROOT
+                    dominant_province_religion = indo_iranian_religion
+                }
+            }
+        }
+        allow = {
+            custom_tooltip = {
+                any_owned_province = {
+                    count >= 10
+                    dominant_province_religion = indo_iranian_religion
+                }
+                text = 10_heptadic_provinces_tt
+            }
+        }
+        on_completion = {
+            trigger_event = me_iran.22
+            show_as_tooltip = {
+                custom_tooltip = fate_of_scythians_tt
+            }
+        }
+    }
+
+    missions_iran_1_task_23 = {
+        icon = "task_durga"
+        requires = { missions_iran_1_task_24 }
+        highlight = {
+            scope:province = {
+                AND = {
+                    owner = ROOT
+                    dominant_province_religion = vaksh_religion
+                }
+            }
+        }
+        allow = {
+            owns_or_subject_owns = 6694
+            treasury >= 500
+            political_influence >= 50
+            OR = {
+                custom_tooltip = {
+                    any_owned_province = {
+                        count >= 10
+                        dominant_province_religion = vaksh_religion
+                    }
+                    text = 10_vaksh_provinces_tt
+                }
+                custom_tooltip = {
+                    AND = {
+                        owns_or_subject_owns_region = bactriana_region
+                        owns_or_subject_owns_region = sogdiana_region
+                        NOT = {
+                            any_owned_province = {
+                                dominant_province_religion = vaksh_religion
+                            }
+                        }
+                    }
+                    text = backup_religion_bactria_tt
+                }
+            }
+        }
+        on_completion = {
+            trigger_event = me_iran.23
+            show_as_tooltip = {
+                add_treasury = -500
+                add_political_influence = -50
+                custom_tooltip = fate_of_vaksh_tt
+            }
+        }
+    }
+
+    missions_iran_1_task_24 = {
+        icon = "task_religion"
+        requires = { missions_iran_1_task_20 }
+        allow = {
+            tyranny <= 5
+        }
+        on_completion = {
+            trigger_event = me_iran.24
+            show_as_tooltip = {
+                current_ruler = {
+                    add_zeal = 2
+                }
+            }
+        }
+    }
+
+    missions_iran_1_task_25 = {
+        icon = "task_happiness"
+        requires = { missions_iran_1_task_23 missions_iran_1_task_26 missions_iran_1_task_27 }
+        highlight = {
+            scope:province = {
+                OR = {
+                    dominant_province_culture_group = root.culture_group
+                    dominant_province_culture_group = p:7640.culture_group
+                    dominant_province_culture_group = p:5324.culture_group
+                    dominant_province_culture_group = p:9120.culture_group
+                    dominant_province_culture_group = p:5357.culture_group
+                    dominant_province_culture_group = p:5261.culture_group
+                }
+            }
+        }
+        allow = {
+            custom_tooltip = {
+                any_country_culture = {
+                    THIS.culture.culture_group = p:5261.culture.culture_group
+                    has_country_culture_modifier = right_to_enter_contracts
+                }
+                text = "contracts_bactria"
+            }
+            custom_tooltip = {
+                any_country_culture = {
+                    OR = {
+                        THIS.culture.culture_group = p:7291.culture.culture_group
+                        THIS.culture.culture_group = p:5357.culture.culture_group
+                    }
+                    has_country_culture_modifier = right_to_enter_contracts
+                }
+                text = "contracts_india"
+            }
+            custom_tooltip = {
+                any_country_culture = {
+                    OR = {
+                        THIS.culture.culture_group = p:7640.culture.culture_group
+                        THIS.culture.culture_group = p:5324.culture.culture_group
+                        THIS.culture.culture_group = p:9120.culture.culture_group
+                    }
+                    has_country_culture_modifier = right_to_enter_contracts
+                }
+                text = "contracts_scythia"
+            }
+        }
+        on_completion = {
+            trigger_event = me_iran.25
+            show_as_tooltip = {
+                current_ruler = {
+                    add_nickname = the_great
+                    add_popularity = popularity_large
+                    add_trait = founder
+                }
+            }
+        }
+    }
+
+    missions_iran_1_task_26 = {
+        icon = "task_political"
+        requires = { missions_iran_1_task_24 }
+        highlight = {
+            scope:province = {
+                dominant_province_religion = mithra_religion
+            }
+        }
+        allow = {
+            OR = {
+                custom_tooltip = {
+                    any_pantheon_deity = {
+                        OR = {
+                            this = deity:omen_mithra
+                            this = deity:omen_mihr
+                            this = deity:omen_mithra_baga
+                            this = deity:omen_mithra_nergal
+                            this = deity:omen_miitra
+                            this = deity:omen_mithra_shamash
+                            this = deity:omen_apollo_mithras
+                        }
+                    }
+                    text = "any_mitra_variant_tt"
+                }
+                trigger_if = {
+                    limit = {
+                        exists = job_holder:office_high_priest_monarchy
+                    }
+                    job_holder:office_high_priest_monarchy = {
+                        loyalty >= 75
+                        zeal >= 8
+                    }
+                }
+                trigger_else = {
+                    NOT = { office_is_empty = office_high_priest_monarchy }
+                }
+            }
+        }
+        on_completion = {
+            trigger_event = me_iran.26
+            show_as_tooltip = {
+                custom_tooltip = fate_of_mitra_tt
+            }
+        }
+    }
+
+    missions_iran_1_task_27 = {
+        icon = "task_heracles"
+        requires = { missions_iran_1_task_24 }
+        highlight = {
+            scope:province = {
+                AND = {
+                    owner = ROOT
+                    dominant_province_religion = zurvan_religion
+                }
+            }
+        }
+        allow = {
+            OR = {
+                custom_tooltip = {
+                    any_owned_province = {
+                        count >= 10
+                        dominant_province_religion = zurvan_religion
+                    }
+                    text = 10_zurvanist_provinces_tt
+                }
+                custom_tooltip = {
+                    AND = {
+                        owns_or_subject_owns_region = parthia_region
+                        NOT = {
+                            any_owned_province = {
+                                dominant_province_religion = zurvan_religion
+                            }
+                        }
+                    }
+                    text = backup_religion_parthia_tt
+                }
+            }
+        }
+        on_completion = {
+            trigger_event = me_iran.27
+            show_as_tooltip = {
+                custom_tooltip = fate_of_zurvan_tt
+            }
+        }
+    }
+    missions_iran_1_task_28 = {
+        icon = "task_economical"
+        requires = { missions_iran_1_task_25 }
+        allow = {
+            stability >= 50
+            current_ruler = {
+                popularity >= 80
+            }
+        }
+        on_completion = {
+            trigger_event = me_iran.28
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = quick_assimilation_ariya
+                    duration = 1825
+                }
+                custom_tooltip = create_ariyan_tt
+            }
+        }
+    }
+}

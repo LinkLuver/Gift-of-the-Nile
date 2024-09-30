@@ -1,0 +1,78 @@
+deity_manager = {
+	deities_database = { ### KEYS 30901 - 31000
+		30901 = {
+			key = omen_asama
+			deity = deity_asama
+			deify_ruler = 547
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		30902 = {
+			key = omen_niskriya
+			deity = deity_niskriya
+		}
+		30903 = {
+			key = omen_abhaya
+			deity = deity_abhaya
+			deify_ruler = 548
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		30904 = {
+			key = omen_mahali
+			deity = deity_mahali
+			deify_ruler = 549
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		30905 = {
+			key = omen_vacchagota
+			deity = deity_vacchagota
+			deify_ruler = 550
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		30906 = {
+			key = omen_sanjaya
+			deity = deity_sanjaya
+			deify_ruler = 535
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		30907 = {
+			key = omen_suppiya
+			deity = deity_suppiya
+			deify_ruler = 536
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		30908 = {
+			key = omen_tattvalabdha
+			deity = deity_tattvalabdha
+			deify_ruler = 537
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		30909 = {
+			key = omen_yajnavalkya
+			deity = deity_yajnavalkya
+			deify_ruler = 538
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		30910 = {
+			key = omen_maitreyi
+			deity = deity_maitreyi
+			deify_ruler = 539
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		30911 = {
+			key = omen_anuvada
+			deity = deity_anuvada
+			deify_ruler = 541
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+	}
+}

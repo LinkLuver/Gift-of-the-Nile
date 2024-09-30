@@ -1,0 +1,139 @@
+﻿namespace = bharat_events
+
+bharat_events.1 = { # Uparaja Secession
+    type = country_event
+    title = bharat_events_1_title
+    desc = bharat_events_1_desc
+    picture = indian_city
+
+    trigger = {
+        OR = {
+            tag = PES
+            is_subject_type = uparaja_subject
+            tag = GHA
+        }
+        OR = {
+            any_country = {
+                primary_culture = pasargadi
+                owns_or_subject_owns = p:1595
+            }
+            c:PES = {
+                owns_or_subject_owns = p:1595
+            }
+            current_date > 500.1.1
+        }
+    }
+    fire_only_once = yes
+
+    immediate = {
+        set_global_variable = india_milk
+        every_subject = {
+            limit = {
+                OR = {
+                    is_subject_type = uparaja_subject
+                    tag = GHA
+                }
+            }
+            trigger_event = bharat_events.2
+        }
+    }
+
+    option = {
+        trigger = {
+            is_subject_type = uparaja_subject
+        }
+        name = "bharat_events_1.a"
+        add_treasury = 100
+    }
+    option = {
+        trigger = {
+            is_subject_type = great_satrapy
+        }
+        name = "bharat_events_1.b"
+        add_opinion = {
+            modifier = demanding_overlord
+            target = c:PES
+        }
+        reverse_add_opinion = {
+            modifier = dde_hostile_neighbor
+            target = c:PES
+        }
+    }
+    option = {
+        trigger = {
+            is_subject_type = great_satrapy
+        }
+        name = "bharat_events_1.c"
+        change_country_name = "Hindushstan"
+        change_government = aristocratic_monarchy
+        add_opinion = {
+            modifier = dde_friendly_neighbor
+            target = c:PES
+        }
+        reverse_add_opinion = {
+            modifier = dde_friendly_neighbor
+            target = c:PES
+        }
+    }
+    option = {
+        trigger = {
+            tag = PES
+        }
+        name = "bharat_events_1.d"
+        custom_tooltip = release_jehat_tt
+        p:9369 = { add_claim = ROOT }
+        add_treasury = 300
+        hidden_effect = {
+            p:9369 = {
+                random_pops_in_province = {
+                    set_pop_culture = parsa
+                    set_pop_religion = zoroaster
+                }
+                create_country = {
+                    name = {
+                        name = "JHE"
+                        adjective = "JHE_ADJ"
+                    }
+                    set_country_religion = zoroaster
+                    set_primary_culture_cleanup_effect = {
+                        NEW_PRIMARY_CULTURE = parsa
+                        MAKE_OLD_CULTURE_INTEGRATED = yes
+                    }
+                    change_government = theocratic_republic
+                }
+            }
+        }
+    }
+    option = {
+        trigger = {
+            tag = PES
+        }
+        name = "bharat_events_1.e"
+        custom_tooltip = claims_on_hindush_tt
+        hidden_effect = {
+            region:gandhara_region = {
+                every_region_province = {
+                    add_claim = root
+                }
+            }
+            region:panchab_region = {
+                every_region_province = {
+                    add_claim = root
+                }
+            }
+            region:indus_region = {
+                every_region_province = {
+                    add_claim = root
+                }
+            }
+        }
+    }
+}
+bharat_events.2 = {
+    type = country_event
+    hidden = yes
+
+    immediate = {
+        c:PES = { release_subject = ROOT }
+    }
+}

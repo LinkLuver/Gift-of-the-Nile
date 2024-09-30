@@ -1,26 +1,6 @@
-﻿1510={ #Shno
-	terrain="mountain"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="cattle"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		religion="mithra_religion"
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-1512={ #Sagapani
+﻿1512={ #Sagapani
 	terrain="hills"
-	culture="median"
+	culture="tukri"
 	religion="mithra_religion"
 	trade_goods="leather"
 	civilization_value=19
@@ -38,9 +18,9 @@
 	}
 }
 
-1513={ #Barozha
-	terrain="mountain"
-	culture="median"
+1513={ #Piranshahr
+	terrain="hills"
+	culture="tukri"
 	religion="mithra_religion"
 	trade_goods="wood"
 	civilization_value=17
@@ -57,9 +37,9 @@
 	}
 }
 
-1514={ #Fakhrikah
+1514={ #Pasveh
 	terrain="plains"
-	culture="median"
+	culture="tukri"
 	religion="mithra_religion"
 	trade_goods="wood"
 	civilization_value=21
@@ -78,7 +58,7 @@
 }
 
 1515={ #Ganzak
-	terrain="hills"
+	terrain="farmland"
 	culture="median"
 	religion="mithra_religion"
 	trade_goods="wood"
@@ -107,7 +87,7 @@
 }
 
 1516={ #Shah Tepe
-	terrain="plains"
+	terrain="marsh"
 	culture="median"
 	religion="mithra_religion"
 	trade_goods="horses"
@@ -126,26 +106,6 @@
 	}
 }
 
-1517={ #Zir Tepe
-	terrain="plains"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="fish"
-	civilization_value=21
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		religion="mithra_religion"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
 1520={ #Bonab Qal'eh
 	terrain="plains"
 	culture="median"
@@ -155,8 +115,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
 		religion="zoroaster"
+		amount=1
 	}
 	freemen={
 		amount=1
@@ -235,8 +195,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	freemen={
 		amount=1
@@ -286,6 +246,25 @@
 	}
 }
 
+1527={ #Parsk
+	terrain="plains"
+	culture="arzasha"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
 1552={ #Adjalu
 	terrain="hills"
 	culture="median"
@@ -308,7 +287,7 @@
 
 1553={ #Dashband
 	terrain="hills"
-	culture="median"
+	culture="tukri"
 	religion="mithra_religion"
 	trade_goods="leather"
 	civilization_value=19
@@ -318,8 +297,8 @@
 		amount=1
 	}
 	freemen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	slaves={
 		amount=1
@@ -335,8 +314,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	freemen={
 		amount=1
@@ -376,14 +355,14 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=3
 	}
 	freemen={
 		religion="mithra_religion"
-		amount=1
+		amount=5
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
@@ -416,8 +395,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	freemen={
 		amount=1
@@ -427,9 +406,9 @@
 	}
 }
 
-1565={ #Shahi Island
+1565={ #Sarav
 	terrain="plains"
-	culture="median"
+	culture="cadusian"
 	religion="mithra_religion"
 	trade_goods="fish"
 	civilization_value=21
@@ -439,31 +418,11 @@
 		amount=1
 	}
 	freemen={
-		amount=1
 		religion="zoroaster"
-	}
-	slaves={
-		amount=1
-	}
-}
-
-1574={ #Pylai Kelishinias
-	terrain="mountain"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="cattle"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
 		amount=1
 	}
 	slaves={
 		amount=1
-		religion="mithra_religion"
 	}
 }
 
@@ -477,10 +436,10 @@
 	province_rank="city"
 	citizen={
 		religion="mithra_religion"
-		amount=9
+		amount=12
 	}
 	freemen={
-		amount=5
+		amount=7
 	}
 	slaves={
 		religion="mithra_religion"
@@ -491,23 +450,7 @@
 	}
 }
 
-1594={ #Herakleia Medias
-	terrain="hills"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="horses"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=10
-	}
-	slaves={
-		amount=6
-	}
-}
-
-1595={ #Epiphaneia Ekbatana
+1595={ #Hagmatana
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -516,26 +459,18 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
 		amount=2
 	}
 	nobles={
-		culture="median"
 		religion="mithra_religion"
 		amount=2
 	}
 	citizen={
-		culture="hebrew"
-		religion="judaism"
+		culture="zoroaster"
 		amount=2
 	}
 	citizen={
 		amount=4
-	}
-	freemen={
-		culture="hebrew"
-		religion="judaism"
-		amount=1
 	}
 	freemen={
 		amount=10
@@ -543,18 +478,12 @@
 	slaves={
 		amount=9
 	}
-	slaves={
-		culture="hebrew"
-		religion="judaism"
-		amount=1
-	}
 	tribesmen={
 		amount=12
 	}
-	holy_site=omen_esther
 }
 
-1596={ #Apameia Medias
+1596={ #Deh Bozen
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -578,127 +507,62 @@
 	}
 }
 
-1597={ #Konkobar
-	terrain="mountain"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="earthware"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	citizen={
-		culture="pasargadi"
-		amount=1
-	}
-	freemen={
-		religion="mithra_religion"
-		amount=1
-	}
-	slaves={
-		amount=2
-		religion="mithra_religion"
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-1598={ #Bagastana
-	terrain="mountain"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="grain"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1599={ #Darathe
-	terrain="mountain"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="wood"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-		religion="mithra_religion"
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=4
-	}
-	tribesmen={
-		amount=1
-		religion="mithra_religion"
-	}
-}
-
-1601={ #Nikaia Nialia
-	terrain="mountain"
-	culture="median"
-	religion="mithra_religion"
+1618={ #Mish
+	terrain="hills"
+	culture="cadusian"
+	religion="zoroaster"
 	trade_goods="leather"
-	civilization_value=27
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
-		amount=4
-	}
-	slaves={
-		amount=3
+	tribesmen={
+		amount=2
 	}
 	tribesmen={
+		culture="armenian"
+		religion="mithra_religion"
+		amount=1
+	}
+	slaves={
+		culture="caspian"
+		religion="caucasian_religion"
 		amount=2
 	}
 }
 
-1602={ #Korine
-	terrain="mountain"
-	culture="cossian"
-	religion="mesopotamian_religion"
-	trade_goods="cattle"
-	civilization_value=27
+1619={ #Dish
+	terrain="hills"
+	culture="cadusian"
+	religion="mithra_religion"
+	trade_goods="wild_game"
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=4
-		religion="zoroaster"
-	}
-	slaves={
+	tribesmen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		culture="armenian"
+		religion="zoroaster"
+		amount=1
+	}
+	slaves={
+		culture="caspian"
+		religion="caucasian_religion"
+		amount=1
+	}
+	slaves={
+		culture="sasperian"
+		religion="caucasian_religion"
+		amount=1
 	}
 }
 
 1620={ #Aharawan
 	terrain="plains"
-	culture="median"
+	culture="cadusian"
 	religion="mithra_religion"
-	trade_goods="cattle"
+	trade_goods="feathers"
 	civilization_value=21
 	barbarian_power=0
 	province_rank="settlement"
@@ -716,7 +580,7 @@
 
 1621={ #Arvandj
 	terrain="plains"
-	culture="median"
+	culture="cadusian"
 	religion="mithra_religion"
 	trade_goods="vegetables"
 	civilization_value=21
@@ -735,7 +599,7 @@
 
 1622={ #Seqindel
 	terrain="hills"
-	culture="armenian"
+	culture="arzasha"
 	religion="mithra_religion"
 	trade_goods="wood"
 	civilization_value=19
@@ -754,7 +618,7 @@
 
 1624={ #Chaharla
 	terrain="mountain"
-	culture="median"
+	culture="cadusian"
 	religion="mithra_religion"
 	trade_goods="stone"
 	civilization_value=17
@@ -764,8 +628,8 @@
 		amount=1
 	}
 	freemen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	slaves={
 		amount=1
@@ -774,7 +638,7 @@
 
 1625={ #Kuh-i Bolagh
 	terrain="plains"
-	culture="median"
+	culture="cadusian"
 	religion="mithra_religion"
 	trade_goods="horses"
 	civilization_value=21
@@ -874,45 +738,246 @@
 	}
 }
 
-3381={ #Sigriane
+1630={ #Langarkanan
 	terrain="plains"
 	culture="cadusian"
 	religion="mithra_religion"
-	trade_goods="dye"
-	civilization_value=31
+	trade_goods="fish"
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		religion="zoroaster"
+		amount=1
 	}
 	freemen={
+		religion="zoroaster"
 		amount=1
 	}
 	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		culture="cadusian"
+		religion="caucasian_religion"
+		amount=1
+	}
+	slaves={
+		culture="cadusian"
+		religion="caucasian_religion"
+		amount=1
+	}
+}
+
+1631={ #Spandaran
+	terrain="hills"
+	culture="cadusian"
+	religion="mithra_religion"
+	trade_goods="hemp"
+	civilization_value=19
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		religion="zoroaster"
+		amount=1
+	}
+	slaves={
+		religion="zoroaster"
+		amount=1
+	}
+	tribesmen={
 		amount=3
 	}
 }
 
-3382={ #Baaka
+1632={ #Balanrot
 	terrain="plains"
-	culture="amardian"
+	culture="caspian"
 	religion="mithra_religion"
-	trade_goods="cattle"
-	civilization_value=31
+	trade_goods="vegetables"
+	civilization_value=21
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		religion="mithra_religion"
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
 		amount=3
+	}
+}
+
+1638={ #Warthan
+	terrain="plains"
+	culture="cadusian"
+	religion="mithra_religion"
+	trade_goods="grain"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		culture="armenian"
+		religion="anahitic_religion"
+		amount=1
+	}
+	tribesmen={
+		religion="caucasian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=1
+	}
+	tribesmen={
+		culture="albanian"
+		religion="caucasian_religion"
+		amount=2
+	}
+}
+
+1647={ #Salyan
+	terrain="plains"
+	culture="caspian"
+	religion="caucasian_religion"
+	trade_goods="salt"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		religion="mithra_religion"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		religion="mithra_religion"
+		amount=1
+	}
+	tribesmen={
+		culture="albanian"
+		religion="caucasian_religion"
+		amount=1
+	}
+	slaves={
+		culture="albanian"
+		religion="caucasian_religion"
+		amount=1
+	}
+}
+
+1648={ #Ghizil-Agaj
+	terrain="plains"
+	culture="cadusian"
+	religion="mithra_religion"
+	trade_goods="fish"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="caucasian_religion"
+		amount=1
+	}
+	tribesmen={
+		religion="caucasian_religion"
+		amount=2
+	}
+	tribesmen={
+		culture="albanian"
+		religion="caucasian_religion"
+		amount=1
+	}
+	tribesmen={
+		culture="albanian"
+		religion="zoroaster"
+		amount=1
+	}
+}
+
+1649={ #Masalas
+	terrain="plains"
+	culture="caspian"
+	religion="mithra_religion"
+	trade_goods="cattle"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=1
+	}
+}
+
+1652={ #Talish
+	terrain="plains"
+	culture="caspian"
+	religion="mithra_religion"
+	trade_goods="steppe_horses"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=5
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=3
+	}
+	tribesmen={
+		culture="albanian"
+		religion="caucasian_religion"
+		amount=1
+	}
+}
+
+1654={ #Mochi
+	terrain="plains"
+	culture="caspian"
+	religion="mithra_religion"
+	trade_goods="cattle"
+	civilization_value=21
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		religion="zoroaster"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="caucasian_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		culture="albanian"
+		religion="caucasian_religion"
+		amount=1
+	}
+	tribesmen={
+		culture="albanian"
+		religion="zoroaster"
+		amount=1
 	}
 }
 
@@ -942,54 +1007,58 @@
 
 3384={ #Kul
 	terrain="plains"
-	culture="cadusian"
+	culture="median"
 	religion="mithra_religion"
 	trade_goods="hemp"
 	civilization_value=21
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=6
 	}
 	slaves={
 		religion="zoroaster"
 		amount=1
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
 3385={ #Aba
 	terrain="plains"
-	culture="cadusian"
+	culture="median"
 	religion="mithra_religion"
 	trade_goods="incense"
 	civilization_value=21
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=3
+	}
 	citizen={
-		amount=1
+		amount=7
 	}
 	citizen={
 		culture="pasargadi"
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=13
 	}
 	slaves={
-		religion="mithra_religion"
+		culture="pasargadi"
+		religion="zoroaster"
 		amount=2
 	}
 	tribesmen={
-		amount=1
+		amount=4
 	}
 }
 
 3386={ #Bilqa
 	terrain="hills"
-	culture="cadusian"
+	culture="median"
 	religion="mithra_religion"
 	trade_goods="fur"
 	civilization_value=19
@@ -1012,7 +1081,7 @@
 
 3387={ #Mediana
 	terrain="plains"
-	culture="cadusian"
+	culture="median"
 	religion="mithra_religion"
 	trade_goods="leather"
 	civilization_value=26
@@ -1040,7 +1109,7 @@
 
 3388={ #Ekkana
 	terrain="hills"
-	culture="cadusian"
+	culture="median"
 	religion="mithra_religion"
 	trade_goods="honey"
 	civilization_value=19
@@ -1070,7 +1139,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=7
+		amount=10
 	}
 	citizen={
 		culture="pasargadi"
@@ -1085,6 +1154,9 @@
 	}
 	tribesmen={
 		amount=6
+	}
+	freemen={
+		amount=2
 	}
 }
 
@@ -1112,7 +1184,7 @@
 	}
 }
 
-3391={ #Anarous
+3391={ #Navish
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -1121,8 +1193,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
 		religion="mithra_religion"
+		amount=2
 	}
 	freemen={
 		amount=2
@@ -1132,8 +1204,8 @@
 	}
 }
 
-3392={ #Sebabikina
-	terrain="hills"
+3392={ #Nassar
+	terrain="mountain"
 	culture="median"
 	religion="mithra_religion"
 	trade_goods="dates"
@@ -1150,262 +1222,12 @@
 		amount=2
 	}
 	tribesmen={
-		amount=3
-		religion="mithra_religion"
-	}
-}
-
-3393={ #Onoadas
-	terrain="hills"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="grain"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-		religion="mithra_religion"
-	}
-	freemen={
-		amount=9
-	}
-	slaves={
-		amount=2
-		religion="mithra_religion"
-	}
-	tribesmen={
-		amount=1
-		religion="mithra_religion"
-	}
-}
-
-3394={ #Charax Persias
-	terrain="plains"
-	culture="amardian"
-	religion="mithra_religion"
-	trade_goods="earthware"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
 		religion="mithra_religion"
 		amount=3
 	}
 }
 
-3395={ #Nizamabada
-	terrain="plains"
-	culture="amardian"
-	religion="mithra_religion"
-	trade_goods="earthware"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		religion="mithra_religion"
-		amount=2
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-3396={ #Trauaxa
-	terrain="hills"
-	culture="cadusian"
-	religion="mithra_religion"
-	trade_goods="steppe_horses"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=4
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		religion="mithra_religion"
-		amount=3
-	}
-}
-
-3397={ #Gindes
-	terrain="plains"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="wine"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-		religion="zoroaster"
-	}
-	tribesmen={
-		amount=3
-	}
-	holy_site=omen_angra_mainyu
-}
-
-3398={ #Themantika
-	terrain="plains"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="steppe_horses"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=3
-		religion="mithra_religion"
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-3432={ #Kular
-	terrain="desert"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="cattle"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		religion="zoroaster"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-3433={ #Aradriphe
-	terrain="hills"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="glass"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		religion="mithra_religion"
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-3442={ #Kanatha
-	terrain="desert"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="stone"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	tribesmen={
-		religion="mithra_religion"
-		amount=2
-	}
-}
-
-3443={ #Siakos
-	terrain="desert"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="stone"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		religion="zoroaster"
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-	holy_site=omen_shoithrapati
-}
-
-3452={ #Goziris
-	terrain="desert"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="steppe_horses"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-		religion="mithra_religion"
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-3453={ #Choara
-	terrain="desert"
-	culture="amardian"
-	religion="mithra_religion"
-	trade_goods="wine"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		religion="mithra_religion"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-4963={ #Laodikeia Chosroi
+4963={ #Nithavanta
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -1414,8 +1236,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
 		religion="mithra_religion"
+		amount=1
 	}
 	slaves={
 		amount=1
@@ -1425,7 +1247,7 @@
 	}
 }
 
-4964={ #Malauera
+4964={ #Malaver
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -1448,8 +1270,8 @@
 	}
 }
 
-4965={ #Tibrakana
-	terrain="mountain"
+4965={ #Makash
+	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
 	trade_goods="leather"
@@ -1460,149 +1282,9 @@
 		amount=6
 	}
 	slaves={
-		amount=2
 		religion="mithra_religion"
-	}
-}
-
-4966={ #Parachana
-	terrain="mountain"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="marble"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-		religion="mithra_religion"
-	}
-	slaves={
-		amount=3
-	}
-	slaves={
-		culture="cossian"
-		religion="mesopotamian_religion"
-		amount=1
-	}
-	tribesmen={
 		amount=2
 	}
-}
-
-4967={ #Sabandan
-	terrain="mountain"
-	culture="cossian"
-	religion="mesopotamian_religion"
-	trade_goods="camel"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-		religion="zoroaster"
-	}
-	freemen={
-		culture="median"
-		religion="mithra_religion"
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		religion="mithra_religion"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-4968={ #Thebarga
-	terrain="mountain"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="marble"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-		religion="mithra_religion"
-	}
-	freemen={
-		amount=4
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-4972={ #Gabai
-	terrain="hills"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="earthware"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=1
-		religion="mithra_religion"
-	}
-}
-
-4973={ #Aspadana
-	terrain="hills"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="camel"
-	civilization_value=36
-	barbarian_power=0
-	province_rank="city"
-	nobles={
-		culture="pasargadi"
-		amount=1
-	}
-	citizen={
-		amount=2
-		religion="mithra_religion"
-	}
-	citizen={
-		culture="hebrew"
-		religion="judaism"
-		amount=1
-	}
-	citizen={
-		culture="pasargadi"
-		amount=2
-	}
-	freemen={
-		amount=6
-	}
-	freemen={
-		culture="hebrew"
-		religion="judaism"
-		amount=2
-	}
-	freemen={
-		culture="pasargadi"
-		amount=4
-	}
-	slaves={
-		amount=7
-	}
-	tribesmen={
-		amount=12
-	}
-	holy_site=omen_vata
 }
 
 4974={ #Gadamarta
@@ -1617,15 +1299,15 @@
 		amount=2
 	}
 	slaves={
-		amount=2
 		religion="mithra_religion"
+		amount=2
 	}
 	tribesmen={
 		amount=2
 	}
 }
 
-4975={ #Gaumana
+4975={ #Goyman
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -1641,8 +1323,8 @@
 		amount=1
 	}
 	freemen={
-		amount=3
 		religion="mithra_religion"
+		amount=3
 	}
 	slaves={
 		amount=3
@@ -1652,7 +1334,7 @@
 	}
 }
 
-4976={ #Paraitekene
+4976={ #Parataka
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -1677,7 +1359,7 @@
 	}
 }
 
-4979={ #Sidikes
+4979={ #Rahjerd
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -1700,11 +1382,11 @@
 	}
 }
 
-4980={ #Astiana
+4980={ #Ashtian
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
-	trade_goods="steppe_horses"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1723,7 +1405,7 @@
 	}
 }
 
-4981={ #Rhapsa
+4981={ #Meyghan
 	terrain="mountain"
 	culture="median"
 	religion="mithra_religion"
@@ -1769,54 +1451,9 @@
 	}
 }
 
-4983={ #Zania
-	terrain="plains"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="camel"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-		religion="zoroaster"
-	}
-	freemen={
-		amount=4
-	}
-	slaves={
-		religion="zoroaster"
-		amount=2
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-4984={ #Kaspin
-	terrain="plains"
-	culture="cadusian"
-	religion="mithra_religion"
-	trade_goods="base_metals"
-	civilization_value=21
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
 4985={ #Rasht
-	terrain="hills"
-	culture="cadusian"
+	terrain="forest"
+	culture="amardian"
 	religion="mithra_religion"
 	trade_goods="silk"
 	civilization_value=28
@@ -1857,22 +1494,25 @@
 		religion="zoroaster"
 		amount=10
 	}
+	citizen={
+		amount=3
+	}
 	holy_site=omen_yima
 }
 
 4986={ #Padishkhvargar
 	terrain="farmland"
-	culture="cadusian"
+	culture="amardian"
 	religion="mithra_religion"
 	trade_goods="grain"
 	civilization_value=23
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		amount=1
 	}
 	freemen={
-		culture="pasargadi"
+		culture="daylamite"
 		amount=1
 	}
 	freemen={
@@ -1883,7 +1523,17 @@
 		amount=4
 	}
 	tribesmen={
+		culture="daylamite"
 		amount=4
+	}
+	citizen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		amount=2
 	}
 }
 
@@ -1902,10 +1552,12 @@
 		amount=4
 	}
 	slaves={
+		culture="daylamite"
 		religion="zoroaster"
 		amount=1
 	}
 	tribesmen={
+		culture="daylamite"
 		religion="zoroaster"
 		amount=1
 	}
@@ -1913,28 +1565,37 @@
 
 4988={ #Aganzana
 	terrain="plains"
-	culture="cadusian"
+	culture="median"
 	religion="mithra_religion"
 	trade_goods="horses"
 	civilization_value=21
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		religion="zoroaster"
 		amount=1
+	}
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=7
 	}
 	slaves={
 		religion="zoroaster"
 		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=5
 	}
 }
 
 4989={ #Ekur
 	terrain="plains"
-	culture="cadusian"
+	culture="median"
 	religion="mithra_religion"
 	trade_goods="horses"
 	civilization_value=21
@@ -1942,19 +1603,19 @@
 	province_rank="settlement"
 	freemen={
 		religion="mithra_religion"
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=7
 	}
 }
 
 4990={ #Molla
 	terrain="hills"
-	culture="cadusian"
+	culture="median"
 	religion="mithra_religion"
 	trade_goods="base_metals"
 	civilization_value=19
@@ -1975,172 +1636,7 @@
 	}
 }
 
-4991={ #Europos Rhagai
-	terrain="hills"
-	culture="amardian"
-	religion="mithra_religion"
-	trade_goods="cloth"
-	civilization_value=36
-	barbarian_power=0
-	province_rank="city"
-	nobles={
-		culture="pasargadi"
-		amount=2
-	}
-	citizen={
-		culture="pasargadi"
-		amount=2
-	}
-	citizen={
-		amount=6
-	}
-	freemen={
-		religion="mithra_religion"
-		amount=5
-	}
-	freemen={
-		amount=2
-	}
-	freemen={
-		culture="pasargadi"
-		amount=2
-	}
-	slaves={
-		amount=5
-	}
-	tribesmen={
-		amount=8
-	}
-}
-
-4992={ #Pylai Hyrkanikai
-	terrain="mountain"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-4993={ #Apameia Rhagiane
-	terrain="hills"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="earthware"
-	civilization_value=36
-	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=1
-	}
-	citizen={
-		amount=4
-	}
-	citizen={
-		culture="pasargadi"
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-	slaves={
-		amount=6
-	}
-	tribesmen={
-		amount=4
-	}
-	freemen={
-		religion="zoroaster"
-		amount=4
-	}
-}
-
-4999={ #Herakleia Achais
-	terrain="plains"
-	culture="amardian"
-	religion="mithra_religion"
-	trade_goods="steppe_horses"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="pasargadi"
-		amount=1
-	}
-	citizen={
-		amount=2
-	}
-	freemen={
-		religion="mithra_religion"
-		amount=2
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-6507={ #Nain
-	terrain="hills"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="honey"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=3
-	}
-	tribesmen={
-		religion="mithra_religion"
-		amount=1
-	}
-}
-
-6509={ #Andriake
-	terrain="desert"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="vegetables"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		religion="mithra_religion"
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-6510={ #Oroubikaria
-	terrain="desert"
-	culture="median"
-	religion="mithra_religion"
-	trade_goods="steppe_horses"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		religion="mithra_religion"
-		amount=1
-	}
-}
-
-6954={ #Choana
+6954={ #Kumandan
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -2178,7 +1674,7 @@
 	}
 }
 
-6955={ #Gouriamna
+6955={ #Saavakineh
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -2202,7 +1698,7 @@
 	}
 }
 
-6956={ #Rhazounda
+6956={ #Danak
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -2215,11 +1711,11 @@
 		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=5
 	}
 }
 
-6957={ #Alisdaka
+6957={ #Pirra
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -2243,7 +1739,7 @@
 	}
 }
 
-6958={ #Orakana
+6958={ #Bijar
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -2252,17 +1748,17 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=4
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=1
 	}
 }
 
-6959={ #Sanais
+6959={ #Garlogh
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -2271,7 +1767,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=7
 	}
 	tribesmen={
 		religion="mithra_religion"
@@ -2279,7 +1775,7 @@
 	}
 }
 
-6960={ #Dariausa
+6960={ #Iasonia
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -2303,7 +1799,7 @@
 	}
 }
 
-6961={ #Nigouza
+6961={ #Razan
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -2312,11 +1808,11 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=3
 	}
 	freemen={
 		religion="zoroaster"
-		amount=4
+		amount=6
 	}
 	slaves={
 		amount=1
@@ -2326,7 +1822,7 @@
 	}
 }
 
-6962={ #Choastra
+6962={ #Jaganlu
 	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
@@ -2349,7 +1845,7 @@
 	}
 }
 
-6963={ #Bazigraban
+6963={ #Sigria
 	terrain="hills"
 	culture="median"
 	religion="mithra_religion"
@@ -2372,8 +1868,8 @@
 	}
 }
 
-6964={ #Auradis
-	terrain="hills"
+6964={ #Golan
+	terrain="plains"
 	culture="median"
 	religion="mithra_religion"
 	trade_goods="cattle"
@@ -2392,6 +1888,895 @@
 	tribesmen={
 		religion="mithra_religion"
 		amount=2
+	}
+}
+
+9579={ #Kaghan
+	terrain="plains"
+	culture="cadusian"
+	religion="mesopotamian_religion"
+	trade_goods="wild_game"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9598={ #Vernik
+	terrain="plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="wild_game"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9599={ #Serchem
+	terrain="plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="honey"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9600={ #Hissa
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9601={ #Zinjan
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9602={ #Mezwan
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9603={ #Shehrek
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="horses"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9604={ #Kalunabad
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="hemp"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9605={ #Naushehr
+	terrain="hills"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="stone"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9606={ #Kholaser
+	terrain="forest"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="wood"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9607={ #Enzeli
+	terrain="forest"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9608={ #Kudam
+	terrain="forest"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="wood"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9609={ #Lahijan
+	terrain="farmland"
+	culture="amardian"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		culture="daylamite"
+		religion="zurvan_religion"
+		amount=1
+	}
+}
+
+9610={ #Lissar
+	terrain="forest"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="wood"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	citizen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9611={ #Paichenar
+	terrain="mountain"
+	culture="daylamite"
+	religion="mithra_religion"
+	trade_goods="base_metals"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+9612={ #Senleg
+	terrain="mountain"
+	culture="cadusian"
+	religion="zoroaster"
+	trade_goods="base_metals"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9613={ #Nasirabad
+	terrain="plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="stone"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9614={ #Sagsabad
+	terrain="plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9615={ #Manzarieh
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="vegetables"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9616={ #Falanduz
+	terrain="plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="steppe_horses"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9617={ #Nuveran
+	terrain="plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9618={ #Dauletabad
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="earthware"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9619={ #Burujird
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="wild_game"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+9620={ #Kadach
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="steppe_horses"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9621={ #Naudeh
+	terrain="plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9622={ #Avah
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9623={ #Derbend
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9624={ #Khurha
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="wild_game"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9625={ #Diliun
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="wild_game"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9626={ #Mehma
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9627={ #Kultepe
+	terrain="plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="wild_game"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9628={ #Khakhurd
+	terrain="plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9629={ #Zarniran
+	terrain="plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9630={ #Kargabad
+	terrain="plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="wild_game"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9631={ #Kumain
+	terrain="mountain"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="iron"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9632={ #Dehnau
+	terrain="mountain"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="iron"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9681={ #Shahwur
+	terrain="plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9682={ #Ainadpur
+	terrain="mountain"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9683={ #Ture
+	terrain="hills"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9684={ #Milaghird
+	terrain="plains"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+9781={ #PROV9781
+	terrain="mountain"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="stone"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+9798={ #PROV9798
+	terrain="mountain"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="wild_game"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+9801={ #PROV9801
+	terrain="mountain"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="stone"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+9811={ #PROV9811
+	terrain="mountain"
+	culture="median"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
 	}
 }
 

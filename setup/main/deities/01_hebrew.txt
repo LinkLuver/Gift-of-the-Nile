@@ -1,0 +1,127 @@
+deity_manager = {
+	deities_database = { ### KEYS 31101-31200 ###
+		31101 = {
+			key = omen_jezebel
+			deity = deity_jezebel
+			deify_ruler = 326
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31102 = {
+			key = omen_moab
+			deity = deity_moab
+			deify_ruler = 338
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31103 = {
+			key = omen_baasha
+			deity = deity_baasha
+			deify_ruler = 324
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31104 = {
+			key = omen_nahash
+			deity = deity_nahash
+			deify_ruler = 325
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31105 = {
+			key = omen_ahab
+			deity = deity_ahab
+			deify_ruler = 488
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31106 = {
+			key = omen_ishmael
+			deity = deity_ishmael
+			deify_ruler = 574
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31107 = {
+			key = omen_esau
+			deity = deity_esau
+			deify_ruler = 575
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31108 = {
+			key = omen_adah
+			deity = deity_adah
+			deify_ruler = 576
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31109 = {
+			key = omen_eliphaz
+			deity = deity_eliphaz
+			deify_ruler = 577
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31110 = {
+			key = omen_obadiah
+			deity = deity_obadiah
+			deify_ruler = 578
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31111 = {
+			key = omen_lot
+			deity = deity_lot
+			deify_ruler = 579
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31113 = {
+			key = omen_aman
+			deity = deity_aman
+			deify_ruler = 581
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31114 = {
+			key = omen_balaam
+			deity = deity_balaam
+			deify_ruler = 582
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31115 = {
+			key = omen_balak
+			deity = deity_balak
+			deify_ruler = 583
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		31116 = {
+			key = omen_mesheh
+			deity = deity_mesheh
+			deify_ruler = 584
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+		#31117 = {
+			#key = omen_nahash
+			#deity = deity_nahash
+			#deify_ruler = 585
+			#deify_ruler_permanent = yes
+			#is_universal_deity = yes
+		#}
+		31118 = {
+			key = omen_namaah
+			deity = deity_namaah
+		}
+		31119 = {
+			key = omen_macaah
+			deity = deity_macaah
+			deify_ruler = 586
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
+		}
+	}
+}

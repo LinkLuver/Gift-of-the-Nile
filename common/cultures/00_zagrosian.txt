@@ -1,0 +1,169 @@
+﻿zagrosian = {
+
+        levy_template = levy_hurrian
+        
+        primary = light_infantry
+        second = spearmen
+        flank = heavy_cavalry
+
+        primary_navy = tetrere
+        secondary_navy = octere
+        flank_navy = liburnian
+
+        color = hsv { 0.05  0.6  0.3 }
+	
+	male_names = {
+		Aramu Lutipre Sardure Ishpuine Minua Argishte Rusa Erimena
+                Atal-s_en Biridaswa Kikkula Kirta Mattiwaza Parattarna Parsatatar S_atar-mat Sattawaza Saushtatar Shuttarna Tehiptilla Tis_ata Tushratta Abi-tisan Adal-seni Aga-tisan Agap-eli Agap-tanu Aya-zi Aka-ya Aki-ya Aki-yan Aki-ra Aku-ya Alla-e Allae-kiyazi Allai-az Alli-turah Amma-ta-n Amman-kiyazi Amman-tahi Ammen-ammume Ammen-ki Ammin-na Ana-ta-n Anis-hurpe Anis-kipa-l Anni-kabi Anni-sar Ara-zah Arda-kanda Arim-adal Arip-hurmis Arip-Negal Arip-Tesub Ari-tupki Arip-turi Ari-ab Arip-an Arriyuk Aru-pa Aru-pal Arzi-hip Asar-musni Asa-kka Asma-ate Asmun-saki Asta-kuzi Astu Astua-unna Asu-zi Atta-ha-n Atta-za Attu-Aya Attu-e Attu-ki Attu-zar Awi-yazi Awis-na Azi-za-n Azu-na-n Azzu Azzu-e Azzu-eli Azzu-ka Azzu-kki Azzu-nni Ehli Ehlip-adal Ehlip-sarri Ela-ni Ela-pi Elan-kiyazi Elan-saki Elan-za Ela-patal Ela-paraluh Elen-za Elili-s Elili-sa Elum-sehir-e Enis-agum Eni-ya Etem-meni Ete-ya Ewe Ewe-ni Ewenni-kki Hama-nna Hame-za Hapa-luk Hapi-ya Hapu-ri Hari-pan Hari-ya Hari-yazu Hazip-adal Hazip-aranzih Hazi-pa Hazi-pa-n Hazip-Kakka Hazip-Kuzuli Hazip-Nawar Hazip-saki Hazip-saya Hazip-sarri Hazip-Tesub Hazip-ulme Hazu-ka-n Herzu-k Hui-zzi Hupa-zza Hupa-za-n Iku-za Illu-te Ilu-Ila Ilu-Ili Ima-ku Inna-ha-n Ira-he Iwari Iza-mu Izi-za Iza-n Izza-ni Izzu-nni Kabi Kabi-ata Kabi-pursa Kabi-ta Kabi-ta-ya Kabi-ya Kai-ta Kali-ya Kana-n Kani-pa-n Kanni Kannu-kka Kanzu Kari-ta-n Kari-ya Katir-he Katu-li Kilip-sarri Kili-ya Kilum-allai Kilum-ana Kimma Kinum-adal Kinzi-ya Kipa-r Kipi-ri Kipu-seni Kiyazi Kizzi-ya Kupa-m Kupa-n Kuppi-ya Kuta-te Kutti Kuwari-ya Kuza-n Kuza-ri-na Kuza-zzi Kuzi Kuzuh-adal Kuzu-zari Kuza-ri Memen-kanazi Memen-ki Memen-saki Mema-nna Menna Mulu-ka-n Muza-n-adal Muza-ni Muzu-m Muzum-eni Nana-kka Nana-ta-n Nani-ku Nanip-naya Nanip-sawri Nani-ya Nawar-adal Nawar-kanazi Nawar-zi Nenis-naya Nergal-adal Nikir-sarri Nubar-ela Nubar-sarri Nubar-wari Nuki-za-n Nupa-ta Nupa-tiya Nupu-ri Nupu-ta Nuza-pa Nuza-wari Nuzu-kka Paban-sarri Pahar-mi Pai-la Pai-pa Paip-sarri Paki-annae Paki-la Paku-zi Pala-Ila Pala-mi Pala-n Pandi Pandi-ya Papu-zi Paru-ri Patala-n Patalla Pata-ni-te Pinzi-ya Pirhen-saki Pirhu-na Pir-kina Pir-kinnu Pir-paya Piru-ya-n Pisr-uhli Pthu-na Piz-kina Puhe-n Puh-tani Purama-n Puram-zi Purra-n Puta-ma-n Puta-n Sadum-naya Sadun-sarri Sahis-menni Saki-ya-n Sama-his Sama-hul Samba-ri Sanin-naya Sa-pi-lum-kiyazi Sas-karu Sat-pa Satta-kiyazi Sattu-ri Sazu-e Sazum-sarri Sahhi-ya Sehlip-sarri Sehlum-naya Sehrum-nirzi Seh-saya Sena-m Sena-ya Senip-sarri Senis-wari Senu-urhi Serum-naya Ser-za-n Sewa-ni Sewum-sarri Sime-tagup Sim-kinna Sinim-sali Sinis-tar-e Sinu-ka Sukrum-nawar Sukrum-Tesub Suk-siya Sur-e Sur-siya Susa-ki Taga-zi Tagi Tagis-nati-e Tagu-zza Tahi Tahi-ya Tahu-k Tahu-za-n Tai-ra Tai-zi Taki-ki Taki-ya Taku-na Talmu-asihi Tamaku-meni TAmar-tahi Tamaru Tamar-zi Tami Tamma Tanu-ta Tapu-zi Tarma-ri-s Tasap-kildi Tata-ra Tatta Tawe-nna Tidi-ka-n Tis-ulme Tisan-ki Tiswen-adal Tizi-ha-n Tizwi-na Tuli-s Tundi Tupki Turip-seni Turum-nadki Tuza-na Tuza-ya Ullu-ki Ullum-tisni Ullu-ni Ullu-ri Ullu-waru Ulme Una-kka Unap-sarri Unap-se Unap-tagi Una-tis Una-ya Uni-na Un-takki Unus-kiyazi Ura-ki Urra-n Usse Uski-za-n Ussu-ultu Usta-ni Ustan-sarri Ustap-adal Ustap-kiris Usta-ya Uti-na Uwe-hul-e Uza-na Uzi Uzzi-ya Uzzu Uzu-li Uzu-na-n Wari-kipa Wari-muza Wari-taldu Zata-n Zaza-naya Zazi-ya Zigi Zigil-tanu-m Zika-n Zina-ki Zirbi-kuni Ziri-ta-n Zirri Zitu-ya Ziwe-ni Ziza-pa-n Zuna-n Zunna Zunzu-m Zuwe-ne Zuza-n Zuzu Zip-musni Keret
+                Abulites Achaimenes Anaphes Arbupales Ariabignes Ariaspes Ariobarzanes Aristozanes Arsames Arses Arsites Artabazos Artaphernes Artayntes Artaxerxes Artochmes Artostes Aspastes Aspathines Atizyes Atropates Autophradates Bagoas Barsaintes Baryaxes Barzanes Batis Belesys Bessos Bisthanes Bubales Chorienes Dareios Datames Dataphernes Datis Gergis Harmamitres Haustanes Histanes Hydarnes Hystaspes Ithamitres Katanes Kophenes Kyros Madates Mardonios Masistes Mauakes Mazakes Mazaios Mazaros Megapanos Mithradates Mithraustes Mithrines Mithrobaios Mithrobuzanes Nabarzanes Niphates Ochos Oiobazos Okontobates Omares Onthotopates Ordanes Orontes Orxines Otaspes Oxathres Oxyartes Oxydates Petines Pharasmanes Pharnabazos Pharnuches Pherendates Phrasaortes Phrataphernes Prexaspes Rheomitres Rhoisakes Sabakos Sataspes Satibarzanes Siromitres Sisamnes Sisines Smerdomenes Spitamenes Spithridates Tiriaspes Tissaphernes Tritantaichmes Xerxes Abdagas Ara Aram Aramu Arbaces Ardashir Argishti Ariovast Arkha Armin Arsaces Artabanus Artabazus Artasyras Artavazd Artaxias Aryanes Asheri Asina Ashina Astashpa Astyages Atamaita Aturpat BagayashBayad Chosroes Cyaxares Cyrus Darius Deioces Evagoras Fravarti Gaumata Gobryas Gotarzes Haldita Hidarnes Manchihr Mardonius Martiya Mazaces Megabyzus Menua Nambed Napad Orodes Osroes Pacorus Peucestas Phraates Phraortes Rusa Sames Sarduri Sarsamas Savaces Shapur Sinatruces Tigraios Tigranes Tiridates Umamaita Upadarma Vahbarz Vardanes Vologases Vonones
+                Mardukbeli Mardukbelshunu Mardukeriba Marduketir Mardukibni
+		Mardukiddin Mardukuballit Kidinmarduk Lusthammarmarduk Nidintimarduk
+		Rihatmarduk Shamshimarduk Shipqatmarduk Tanittumarduk Tukultimarduk
+		Belbeli Belbelshunu Beleriba Beletir Belibni Beliddin Beluballit
+		Kidinbel Lusthammarbel Nidintibel Rihatbel Shamshibel Shipqatbel
+		Tanittubel Tukultibel Shamashbeli Shamashbelshunu Shamasheriba
+		Shamashetir Shamashibni Shamashiddin Shamashuballit Kidinshamash
+		Lusthammarshamash Nidintishamash Rihatshamash Shamshishamash
+		Shipqatshamash Tanittushamash Tukultishamash Ashshurbeli
+		Ashshurbelshunu Ashshureriba Ashshuretir Ashshuribni Ashshuriddin
+		Ashshuruballit Kidinashshur Lusthammarashshur Nidintiashshur
+		Rihatashshur Shamshiashshur Shipqatashshur Tanittuashshur
+		Tukultiashshur Ishtarbeli Ishtarbelshunu Ishtareriba Ishtaretir
+		Ishtaribni Ishtariddin Ishtaruballit Kidinishtar Lusthammarishtar
+		Nidintiishtar Rihatishtar Shamshiishtar Shipqatishtar Tanittuishtar
+		Tukultiishtar Adadbeli Adadbelshunu Adaderiba Adadetir Adadibni
+		Adadiddin Adaduballit Kidinadad Lusthammaradad Nidintiadad Rihatadad
+		Shamshiadad Shipqatadad Tanittuadad Tukultiadad Nergalbeli
+		Nergalbelshunu Nergaleriba Nergaletir Nergalibni Nergaliddin
+		Nergaluballit Kidinnergal Lusthammarnergal Nidintinergal Rihatnergal
+		Shamshinergal Shipqatnergal Tanittunergal Tukultinergal Sinbeli
+		Sinbelshunu Sineriba Sinetir Sinibni Siniddin Sinuballit Kidinsin
+		Lusthammarsin Nidintisin Rihatsin Shamshisin Shipqatsin Tanittusin
+		Tukultisin Enlilbeli Enlilbelshunu Enlileriba Enliletir Enlilibni
+		Enliliddin Enliluballit Kidinenlil Lusthammarenlil Nidintienlil
+		Rihatenlil Shamshienlil Shipqatenlil Tanittuenlil Tukultienlil
+		Ninurtabeli Ninurtabelshunu Ninurtaeriba Ninurtaetir Ninurtaibni
+		Ninurtaiddin Ninurtauballit Kidinninurta Lusthammarninurta
+		Nidintininurta Rihatninurta Shamshininurta Shipqatninurta
+		Tanittuninurta Tukultininurta Belshimanni Nidinbel
+		Hita Puzur Shilhak Kirwashir Tukulti Atta-Khumma Tepti Tahrah Kutir Shushinak Inshushinak-Zunkir-Nappipir
+		Kamnaskires Tammaritu Puzur Kuk Shilhaha Shilhishkia Atarshumki Iddin
+		Abba Abbadhi Avishlem Ahun Adin Afrahath Agush
+		Avinergal Adday Avrohmu Ahar Aqiva Ammive_l
+		Arya Asa Ashshurhel
+		Ashshurhanni Ashshur_emar Ashshurnethan Ashshur_eqav
+		Ashshurshema_ Ashshurtares
+		Attambe_l Attarshumki
+		Avdes Avdishshar Avdsemya
+		Avgar Avira Afrem Aziz Bahyanu
+		Bama Bar_abba Barbava Barga_ya Barhadad
+		Barnaviya Barnergal Barneshra Barrahiv Barramman
+		Barsabba Barsur Bartabbay Bartalmay
+		Bashshana
+		Bava Behra
+		Be_lesus Bethlahyehav Bethu_el
+		Baytel Busbuhra Hartha Haza_el Hilfay
+		Hiqar Hiyya Diqla Elgheval Elan Elim Elkudh Eni_el
+		Ezadh Ezri_aw
+		Ezron Farhath Frahadh Gabbar Ga_ya Gushi
+		Hadad_ezer Hadhram Hadhyon Hayran Hayya Hayyanu Hezyon
+		Kefa
+		Kfar Hushan Lavan Ladhar Levashmarduh Ma_aha Magha
+		Makkava Ma_nu Maqon Maranyehav Mardahai Mari
+		Marya Mati_el Mayon Mazday Mazdah Maz_ur
+		Me_ir Mlave_l Mlehi Na_man Narsay Neshrihav
+		Nasor Neshru Nergaldammar Neshranethan Nevudhayyan Nevughabbar Nevuvna
+		Nona Nuhra Ovda Odhaynath Pappa Paqor Pratha Phidha Piqa
+		Qlofa Ra_yan Radyan Rahiv Ramman Rehov 
+		Raqyan Sahu Sahwi Shehar Sabba Saflul Sanatruq Sarithra Shamshi_el
+		Shemshon Shmeshkeram Sha_il Sloh Sohaim Sumka Sur Tabbay
+		Talmay Ta_oma Tavrimmon
+		Thadday To_i Urana Uratham Urhulenu Walghash
+		Yaludh Yalur Yamlihu Yaqma Yawvadi Zabbay Zakkur Zavda Zavdelah Ze_ora
+		Zotos Qarli Panamu Appuwash Ahav Adhriyaw Yawb_ad
+		Arsawu Etakkam Avyati Avdahadhadh
+	}
+	female_names = {
+		Gilukhepa Tadukhepa Ahahuia Ahassunu Ahat-abisha Ahat-kubi Ahatiia Akim-ninu Ala-Pusha Alitu Allai-talma Allai-tatta Allai-turahe Allai-wahri Allaishe Allie-shar Allisha Anza-peki Arip-umella Elhip-ninu Elip-nuzu Epiritu Eres-kenni Erwin-nirshe Halb-abusa Halb-ahi Halu-teni Haluti Tulpun-naja Nama-zzani
+		Amirta Esther
+		Babatha Bathzabbay
+		Brurya Hawa Hulda Gamilath Haghra
+		Idhra Imama Ma_aha Mamaya Martha Maysa Mliha Na_ila Nohara Nona Pasa_el
+		Rabbel Rehel Sha_litta Shamiram Shirin Shloma Shu_dhath Sohaym Sumaha
+		Tadi
+		Tayara Thaqilath Tvitha Urana Ya_la Yuthaf
+		Zveda
+
+		Huldu Shaqilath Shagilath
+
+		Wardatmarduk Wardatbel Wardatshamash Wardatashshur
+		Wardatishtar Wardatadad Wardatnergal Wardatsin Wardatenlil
+		Wardatninurta
+		Amastris Amytis Anzaza Artazostre Artystone Atossa Barsine Damaspia Mandane Parmys Parysatis Phaedymia Rinu Stateira Vashti Apame Artakama Artanis Arystone Orypetis Rhoxane Sisygambis
+	}
+	family = {	
+	        Artashumara.Artashumara.Artashumara.Artashumara
+	        Artama.Artama.Artama.Artama
+	        Baratarna.Baratarna.Baratarna.Baratarna
+	        Kirta.Kirta.Kirta.Kirta
+	        Shattiwaza.Shattiwaza.Shattiwaza.Shattiwaza
+	        Shattuara.Shattuara.Shattuara.Shattuara
+	        Shuttarna.Shuttarna.Shuttarna.Shuttarna
+	        Arameid.Arameid.Arameid.Arameid
+	        Lutipreid.Lutipreid.Lutipreid.Lutipreid
+	        Sardurid.Sardurid.Sardurid.Sardurid
+	        Ishpuenid.Ishpuenid.Ishpuenid.Ishpuenid
+	        Menuid.Menuid.Menuid.Menuid
+	        Argishteid.Argishteid.Argishteid.Argishteid
+	        Rusaid.Rusaid.Rusaid.Rusaid
+	        Erimenid.Erimenid.Erimenid.Erimenid
+	        Vanid.Vanid.Vanid.Vanid
+	        Aramid.Aramid.Aramids.Aramid
+		Arid.Arid.Arids.Arid
+		Arkhid.Arkhid.Arkhids.Arkhid
+		Asinid.Asinid.Asinids.Asinid
+		Arsacid.Arsacid.Arsacids.Arsacid
+		Deiocid.Deiocid.Deiocids.Deiocid
+		Menid.Menid.Menids.Menid
+		Pacorid.Pacorid.Pacorids.Pacorid
+		Savacid.Savacid.Savacids.Savacid
+		Vardanid.Vardanid.Vardanids.Vardanid
+		Suren.Suren.Surenids.Surenid
+		Karin.Karin.Karinids.Karinid
+		Gaumatid.Gaumatid.Gaumatids.Gaumatid
+		Gobryasid.Gobryasid.Gobryasids.Gobryasid
+		Hydarnid.Hydarnid.Hydarnids.Hydarnid
+		Smerdid.Smerdid.Smerdids.Smerdid
+		Vivanid.Vivanid.Vivanids.Vivanid
+		Xerxid.Xerxid.Xerxids.Xerxid
+		Abadanid.Abadanid.Abadanids.Abadanid
+		Orontid.Orontid.Orontids.Orontid
+		Atropatid.Atropatid.Atropatids.Atropatid
+		Mithridatid.Mithridatid.Mithridatids.Mithridatid
+		Artiaxid.Artiaxid.Artiaxids.Artiaxid
+		Sassanid.Sassanid.Sassanids.Sassanid
+		Mihranid.Mihranid.Mihranids.Mihranid
+		Chosroid.Chosroid.Chosroids.Chosroid
+		Artashid.Artashid.Artashids.Artashid
+		Bagabignid.Bagabignid.Bagabignids.Bagabignid
+		Cambysid.Cambysid.Cambysids.Cambysid
+		Frataraka.Frataraka.Frataraka.Frataraka
+	}
+
+	culture = {
+		lurs = {} # Gutians, Cossians -> Lurs
+        	kurdish = {} # Medians, Cyrtians -> Kurdish
+        	karduki = {} # Cardukoi, Qardu -> Karduki
+        	lullutukri = {} # Lullu, Tukri -> Lullutukri
+        	subari = {} # Shubar -> Subari
+	}
+	
+	barbarian_names = { AMARDI ANARIACAE AUGASII CASPII CHORASMII CYRTII DAHAE DERBICII ISSEDONES LEGAE MATIANI MASSAGETAE PARNI SACAE SARMATAE SOANES VITII }
+	
+	graphical_culture = persian_gfx
+	ethnicities = {
+	        1 = luwian
+		4 = hurrian
+		5 = persian
+	}
+}

@@ -336,9 +336,6 @@ provinces = { #Any entry must contain a comment with city name.
 	790 = {
 		library_building = 5
 	}
-	795={
-		modifier = { modifier = alexandria always = yes }
-	}
 	818 = {
 		fortress_building = 1
 	}
@@ -346,9 +343,6 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 	943 = { barracks_building = 1 }
-	1968={
-		modifier = { modifier = alexandria always = yes }
-	}
 	1788 = { # Nora
 		fortress_building = 1
 	}
@@ -411,14 +405,6 @@ provinces = { #Any entry must contain a comment with city name.
 
 	6611 = {	 #Indo Greek Capital
 		aqueduct_building = 2
-		modifier = { modifier = alexandria always = yes }
-	}
-
-	6615 = { # Alexandreia Opiane
-		modifier = { modifier = alexandria always = yes }
-	}
-	6821 = {
-		modifier = { modifier = alexandria always = yes }
 	}
 	7202 = {
 		fortress_building = 1
@@ -668,6 +654,10 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 
+	2319 = ( #arelate
+	    fortress_building = 1
+    } 	
+
 	2347 = { #avaricum
 		fortress_building = 1
 	}
@@ -736,7 +726,15 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 
-	#Isthmus of Corinth
+	1278 = { #orki
+		fortress_building = 1
+    }
+
+	3095 = { #portus magnus
+		fortress_building = 1
+	}
+
+    #Isthmus of Corinth
 	418 = { #Corinth
 		 modifier = { modifier = lesser_pass_modifier always = yes }
 	}
@@ -1298,7 +1296,9 @@ provinces = { #Any entry must contain a comment with city name.
 	2468 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Caleti
 	3086 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Siga
 	3344 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Egypt
-	3372 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Cyrenaica
+	3372 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Cyrenaica1
+	3360 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Cyrenaica2
+	3352 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Cyrenaica3
 	3546 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Liguria
 	3843 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Menapi
 	3898 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Varini
@@ -1323,8 +1323,8 @@ provinces = { #Any entry must contain a comment with city name.
 	7216 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Omana
 	7500 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Red Sea
 	7528 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Opone
-	8769 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Arakan
-
+	9486 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Apphana
+	
 	#Buildings
 	103 = { # Plestia
 		aqueduct_building = 2
@@ -1399,6 +1399,7 @@ provinces = { #Any entry must contain a comment with city name.
 		court_building = 2
 		military_building = 1
 		town_hall_building = 3
+		modifier = { modifier = alexandria always = yes }
 	}
 	380 = { # Dion
 		temple_building = 1
@@ -1820,18 +1821,25 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	4799 = { #Persepolis
 		library_building = 4
+		aqueduct_building = 2
 		treasure_slots = { treasures = { 189 190 } }
+		modifier = { modifier = city_of_kurush always = yes }
 	}
 	4973 = { # Aspadana
 		aqueduct_building = 1
 	}
-	4951 = {
-		library_building=1
-		fortress_building=1
+	4950 = { #Anshan
+		aqueduct_building = 3
+		library_building = 1
+	}
+	4951 = { #Pasargadae
+		library_building = 3
+		fortress_building = 1
+		aqueduct_building = 1
 		treasure_slots = { treasures = { 188 228 } }
+		modifier = { modifier = persian_capital_modifier always = yes }
 	}
 	4959 = { #Alexandria Carmana
-		modifier = { modifier = alexandria always = yes }
 		aqueduct_building = 2
 		fortress_building = 1
 	}
@@ -1876,7 +1884,6 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	6637 = {
 		aqueduct_building = 2
-		modifier = { modifier = alexandria always = yes }
 	}
 	6648 = { # Drapsaca
 		fortress_building = 1
@@ -1886,12 +1893,6 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	6682 = { # Marakanda
 		aqueduct_building = 2
-	}
-	6686 = { # Alexandreia Tarmita
-		modifier = { modifier = alexandria always = yes }
-	}
-	6688 = { # Alexandria Oxiana
-		modifier = { modifier = alexandria always = yes }
 	}
 	6697 = { # Kafir
 		aqueduct_building = 2
@@ -2033,58 +2034,23 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 
 	#Special Places:
-
-	#Alexandrias (ie greek Settlements founded by Alexander, small civilization boost.
-	516 = { #By the Nile
-		modifier = { modifier = alexandria always = yes }
-	}
-	940 = { #In Mesopotamia
-		modifier = { modifier = alexandria always = yes }
-	}
+	
 	3672 = {
 		modifier = { modifier = noric_steel always = yes }
 	}
 	4131 = {
 		modifier = { modifier = noric_steel always = yes }
 	}
-	4316 = { # Boukephalia
-		modifier = { modifier = alexandria always = yes }
-	}
-	4322 = { # Alexandreia Nikaia
-		modifier = { modifier = alexandria always = yes }
-	}
-	4371 = { #By the Indus
-		modifier = { modifier = alexandria always = yes }
-	}
-	4372 = { # Alexandria Sogdiana
-		modifier = { modifier = alexandria always = yes }
-	}
-	5550 = { # Alexandrou Parembole
-		modifier = { modifier = alexandria always = yes }
-	}
-	6620 = { # Alexandria Rhambacia
-		modifier = { modifier = alexandria always = yes }
-	}
 	6518 = { # Alexandreia Prophtasia
 		fortress_building = 1
-		modifier = { modifier = alexandria always = yes }
-	}
-	6552 = { #Sacastene
-		modifier = { modifier = alexandria always = yes }
 	}
 	6558 = { #Alexandreia Areiois
-		modifier = { modifier = alexandria always = yes }
 		fortress_building = 1
 	}
 	6541 = { #Arachosia
-		modifier = { modifier = alexandria always = yes }
 		aqueduct_building = 1
 	}
-	6668 = { #In Persia
-		modifier = { modifier = alexandria always = yes }
-	}
 	6704 = { #Eschate
-		modifier = { modifier = alexandria always = yes }
 		aqueduct_building = 1
 		library_building = 2
 	}
@@ -2120,9 +2086,6 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	7484 = { # Bhawaniganj
 		barracks_building = 1
-	}
-	7485 = { # Alexandria Hypasis
-		modifier = { modifier = alexandria always = yes }
 	}
 	7519 = {
 		aqueduct_building = 1

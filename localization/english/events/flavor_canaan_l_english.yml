@@ -1,0 +1,34 @@
+﻿l_english:
+
+ #Melqart Event
+ flavor_canaan_100_title:0 "Tribute to Melqart"
+ flavor_canaan_100_desc:0 "As loyal subjects to the great lord, wandering Melqart, we are expected to pay tribute to the Temple of Melqart, as a remnant of our colonial past tribute to the mother city, Tyre. We are expected to pay every 5 years.\n\nGiving money to the temple will surely win favor with Melqart, however, it is far from necessary to do so. What shall we do?"
+ flavor_canaan_100.a:0 "Spare no expense for Lord Melqart."
+ flavor_canaan_100.b:0 "Lord Melqart will understand we're on a budget."
+ flavor_canaan_100.c:0 "We refuse to pay a penny for this colonial tribute!"
+
+ flavor_canaan_101_title:0 "Treasures for Melqart"
+ flavor_canaan_101_desc:0 "Many Canaanite colonies across the seas have sent the priesthood of Melqart money. Of course, as the holders of this holy site to the Lord Melqart, we get certain 'benefits' from this tribute. We recieve 1/4th of the total gifts to Melqart."
+ flavor_canaan_101.a:0 "This too is his blessing after all."
+
+ melqart_blessing:0 "Blessing of Lord Melqart"
+
+ flavor_canaan_2_title:0 "The One True God"
+ flavor_canaan_2_desc:0 "The #E Hebrew#! faith is a divided one, with different kingdoms claiming different 'true gods.' To fully convert to this faith, we must decide which god is the truly true one. #E Yahweh#! of the Kingdoms of Israel and Samaria, #E Asherah#! of the Kingdom of Galilee, #E Chemosh#! of the Kingdom of Moab, #E Melkom#! of the Kingdom of Ammon, or #E Qaus#! of the Kingdom of Edom. We must choose carefully, as belief in one god means making yourself an enemy of all others!"
+ flavor_canaan_2.a:0 "Yahweh, god of Israelites"
+ flavor_canaan_2.b:0 "Asherah, goddess of Galilaeans"
+ flavor_canaan_2.c:0 "Chemosh, god of Moabites"
+ flavor_canaan_2.d:0 "Melkom, god of Ammonites"
+ flavor_canaan_2.e:0 "Qaus, god of Edom"
+
+ hebrew_same_religion:0 "Believers of the One True God"
+ hebrew_wrong_religion:0 "Believers of the False Gods"
+
+ #Zorgo <3
+ nazani_blinding_charmod: "Imperial Blinding"
+ nazani_blinding_charmod_desc: "This character was politically blinded and is now unable to hold military command or assume any office within #E [ROOT.GetCharacter.GetCountry.GetName]#!."
+ blind_character:0 "Imperial Blinding"
+ blind_character_past:0 "Character Blinded!"
+ blind_character_act:0 "Blind $CHAR$"
+ blind_character_act_past:0 "$COUNTRY$ blinded $CHAR$!"
+ nazani_blind_effect_tt:0 "[SCOPE.sChar('target').GetName] will be #R Blinded#! and will be unable to lead an army or hold any office in #E [ROOT.GetCharacter.GetCountry.GetName]#!."

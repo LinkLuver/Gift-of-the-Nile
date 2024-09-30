@@ -48,7 +48,7 @@
  desc_bon_religion:0 "Bon represents a collection of folk religions originally practiced on the Tibetan plateau. Aspects of ancestor worship and animism appear frequently, as well as nascent polytheism."
  indo_iranian_religion:0 "Heptadic"
  desc_indo_iranian_religion:0 "Originating in Scythian lands, this pantheistic faith worshiped seven principal gods, often equated to those of the Greek pantheon. Elements of the earlier polytheistic folk religion of the Scythian's still remains, as does the practice of horse sacrifice and chariot burials, similar to those of the Celts."
- anatolian_religion:0 "Cybelene"
+ anatolian_religion:0 "Anatolian"
  desc_anatolian_religion:0 "The Phrygian cult of Cybele is linked to prehistoric Mother-Goddess worship. Evolving over thousands of years, the cult of Cybele often claimed relationship to mythical figures and heroes, and practiced their religion with the veneration of idols."
  armenian_religion:0 "Khaldic"
  desc_armenian_religion:0 "The Khaldic pantheon represents a religion which grew out of the Urartian culture, many centuries before. A principally polytheistic faith, the chief god was known as Khaldi, and was worshiped as a warrior god."
@@ -412,8 +412,12 @@
  war_goal_egyptian_unification_wargoal:0 "4th Intermediate Period"
  war_goal_egyptian_unification_wargoal_desc:0 "The 4th Intermediate Period is a time of chaos and discomfort in the lands of the Nile. As a Pharoanic Dynasty, we can directly annex any land in Kemet.\n\nThis resembles an #Y Imperial Wargoal#! casus belli."
  egyptian_unification_wargoal:0 "Pharaonic Conquest"
-
- #New Terrain
+ war_goal_gulf_war_wargoal:0 "War for the Gulf"
+ war_goal_gulf_war_wargoal_desc:0 "#E The Gulf#! is a seedbed of strife and tensions, and wars here are fought with the intent to remove competitors from the equation. As a nation embroiled in this strife, we may take part in this, and levy our strength against our enemies. Any #Y provinces#! immediately fall to the #R occupier#!."
+ fratricide_wargoal:0 "Brothers' War"
+ war_goal_fratricide_wargoal:0 "Brothers' War"
+ war_goal_fratricide_wargoal_desc:0 "#E Pārsā#! and #E Māda#!, two brother nations, born out of one conflict, now drawn into another. \n\n There can only be #R One Outcome.#!"
+ gulf_war_wargoal:0 "War for the Gulf"
  oasis:0 "Oasis"
  oasis_desc:0 "A desert Oasis, full of life in a land surrounded by endless desert."
  desert_hills:0 "Desert Hills"
@@ -422,13 +426,33 @@
  flood_plain_desc:0 "Prosperous floodplains lay on the edge of many rivers and provide life to the surrounding communities."
  flood_plain_combat_bonus: "Floodplain Combat Bonus"
  steppes:0 "Steppe"
- steppes_desc:0  "An endless sea of grass, stretching far beyond the horizon."
+ steppes_desc:0  "An endless sea of grass, stretching far beyond the horizon.""
+ uparaja_subject:0 "Uparaja"
+ AM_uparaja_subject:2 "#T $LIST$#!\nUparaja of $LIST$"
+ LEAD_uparaja_subject:2 "#T $LIST$#!\nUparaja"
+ CANCEL_uparaja_subjectTITLE:0 "Cancel Uparaja"
+ CANCEL_uparaja_subject_DESC:0 "We can end our influence over this state, removing their status of Uparaja."
+ CANCEL_uparaja_subject_FLAVOR:0 "Canceling our relationship with our Uparaja will make them independent and stop their payments to us, but we will no longer need to protect them."
+ CANCEL_uparaja_subject_TOOLTIP_HEADER:0 "Cancel reign over $NAME$"
+ great_satrapy:0 "Kshatrapa"
+ AM_great_satrapy:2 "#T $LIST$#!\nKshatrapa of $LIST$"
+ LEAD_great_satrapy:2 "#T $LIST$#!\nKshatrapa"
+ conquer_wargoal_uparaja:0 "Conquer"
+ war_goal_conquer_wargoal_uparaja:0 "Take $PROV$"
+ war_goal_conquer_wargoal_uparaja_desc:0 "War goal is to take $PROV$"
  
  get_oasis:0 "in an oasis."
  get_desert_hills:0 "in desert hills."
  get_flood_plain:0 "in floodplains."
  get_steppes:0 "in steppes."
- 
+ sugar:0 "Sugar"
+ sugarDESC:0 "A sweet substance refined from sugarcane grasses, introduced to India around 500 B.C."
+ rice:"Rice"
+ riceDESC:"Often found growing in carefully cultivated terraces, rice is a starchy grain that is the foundation of many Eastern cuisines."
+ wootz_steel: "Wootz Steel"
+ wootz_steelDESC: "Blacksmiths in southern India created this carbon-infused alloy of steel hundreds of years ago, which has quickly become prized for its strength and durability. A sword made from wootz steel is often worth its weight in gold."
+ pearls: "Pearls"
+ pearlsDESC: "When an irritant like a grain of sand enters the shell of a mollusk, eventually a beautiful pearl is produced."
  
  
  mission_claim_region_tooltip:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#! gain a claim on [ THIS.GetProvince.GetArea.GetRegion.GetName]"
@@ -502,3 +526,9 @@
  boar_vessel.1.b:0 "Go use it on the farm or something, we don't need this"
  boar_vessel:0 "Boar Vessel"
  boar_vessel_desc:0 "A clay jar in the shape of a wild boar. It gives off an ominous omen..."
+
+ #death reason
+ death_cursed_by_old_gods:0 "the curse of the old gods."
+
+ #modifiers
+ price_revoke_city_status_cost_modifier:0 "Revoke City Status"

@@ -22,7 +22,15 @@
 			}
 			country_culture_group = west_levantine
 		}
-
+		trigger_else_if = {
+			limit = {
+				country_culture_group = east_levantine		
+			}
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = east_levantine
+		}
 		trigger_else = {
 			custom_tooltip = {
 				text = "tradition_unlock_requirement_cultural_decision"

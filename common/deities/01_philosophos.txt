@@ -1,0 +1,370 @@
+﻿### General Deity Checks ###
+### Hermeticism
+deity_thoth_hermes = {
+	trigger = {
+		has_dlc = "Heirs of Alexander"
+		polytheistic_check_religion_trigger = yes
+		#is_monarchy = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = hermes_religion
+			}
+			deity:omen_thoth_hermes = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+		NOT = { country_culture_group = latin }
+		OR = {
+			AND = {
+				country_egyptian_religion_trigger = yes
+				religion_pops_in_country = {
+					target = roman_pantheon
+					value >= common_deity_svalue
+				}
+			}
+			AND = {
+				religion = roman_pantheon
+				religion_pops_in_country = {
+					target = egyptian_pantheon
+					value >= common_deity_svalue
+				}
+			}
+			deity:omen_thoth_hermes = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_diadochi_economy
+	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
+	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
+	religion = hermes_religion
+	deity_category = economy #This Deity uses a Culture slot.
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		culture_apotheosis_characters_effect = yes
+	}
+}
+deity_serapis = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			OR = {
+				common_deity_trigger = {
+					RELIGION = hermes_religion
+				}
+				deity:omen_serapis = {
+					holy_site_deity_check_trigger = yes
+				}
+			}
+			AND = {
+				religion = roman_pantheon
+				has_country_modifier = royal_serapis_cult
+			}
+			AND = {
+				country_egyptian_religion_trigger = yes
+				has_country_modifier = royal_serapis_cult
+			}
+			AND = {
+				country_egyptian_religion_trigger = yes
+				religion_pops_in_country = {
+					target = roman_pantheon
+					value >= very_rare_deity_svalue
+				}
+			}
+			deity:omen_serapis = {
+				holy_site_deity_check_trigger = yes
+			}
+			has_variable = deity_serapis_unlocked
+			OR = {
+				common_deity_trigger = {
+					RELIGION = isis_religion
+				}
+				deity:omen_serapis = {
+					holy_site_deity_check_trigger = yes
+				}
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { stability_monthly_change = deity_stability_monthly_change }
+	omen = { global_population_happiness = omen_global_population_happiness } #Bonus from Omen
+	religion = hermes_religion
+	deity_category = culture #This Deity uses a Culture Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		culture_apotheosis_capital_effect = yes
+	}
+}
+deity_harpocrates = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			OR = {
+				common_deity_trigger = {
+					RELIGION = hermes_religion
+				}
+				deity:omen_harpocrates = {
+					holy_site_deity_check_trigger = yes
+				}
+			}
+			AND = {
+				religion = roman_pantheon
+				has_country_modifier = royal_serapis_cult
+			}
+			AND = {
+				country_egyptian_religion_trigger = yes
+				has_country_modifier = royal_serapis_cult
+			}
+			AND = {
+				country_egyptian_religion_trigger = yes
+				religion_pops_in_country = {
+					target = roman_pantheon
+					value >= very_rare_deity_svalue
+				}
+			}
+			OR = {
+				common_deity_trigger = {
+					RELIGION = isis_religion
+				}
+				deity:omen_harpocrates = {
+					holy_site_deity_check_trigger = yes
+				}
+			}
+			deity:omen_harpocrates = {
+				holy_site_deity_check_trigger = yes
+			}
+			has_variable = deity_harpocrates_unlocked
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { monthly_corruption = deity_monthly_corruption_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue } #Bonus from Omen
+	religion = hermes_religion
+	deity_category = culture #This Deity uses a Culture Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		culture_apotheosis_civic_tech_effect = yes
+	}
+}
+deity_zeus_amun = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			AND = {
+				religion = roman_pantheon
+				has_country_modifier = royal_serapis_cult
+			}
+			AND = {
+				country_egyptian_religion_trigger = yes
+				has_country_modifier = royal_serapis_cult
+			}
+			AND = {
+				religion = roman_pantheon
+				has_variable = deity_zeus_amun_unlocked
+			}
+			AND = {
+				country_egyptian_religion_trigger = yes
+				has_variable = deity_zeus_amun_unlocked
+			}
+			AND = {
+				country_egyptian_religion_trigger = yes
+				religion_pops_in_country = {
+					target = roman_pantheon
+					value >= very_rare_deity_svalue
+				}
+			}
+			OR = {
+				common_deity_trigger = {
+					RELIGION = isis_religion
+				}
+				deity:omen_zeus_amun = {
+					holy_site_deity_check_trigger = yes
+				}
+			}
+			OR = {
+				common_deity_trigger = {
+					RELIGION = hermes_religion
+				}
+				deity:omen_zeus_amun = {
+					holy_site_deity_check_trigger = yes
+				}
+			}
+			OR = {
+				rare_deity_trigger = {
+					RELIGION = amun_religion
+				}
+				deity:omen_zeus_amun = {
+					holy_site_deity_check_trigger = yes
+				}
+			}
+			deity:omen_zeus_amun = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { global_pop_conversion_speed_modifier = deity_global_pop_conversion_speed_modifier_svalue }
+	omen = { happiness_for_same_religion_modifier = omen_happiness_for_same_religion_modifier_svalue } #Bonus from Omen
+	religion = hermes_religion
+	deity_category = culture #This Deity uses a Culture Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		culture_apotheosis_assimilate_effect = yes
+	}
+}
+### Orphism
+deity_isis_demeter = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		NOT = {
+			has_deity_in_pantheon = deity:omen_isis
+		}
+		OR = {
+			has_variable = isis_cult
+			AND = {
+				religion = roman_pantheon
+				has_country_modifier = royal_serapis_cult
+			}
+			AND = {
+				country_egyptian_religion_trigger = yes
+				has_country_modifier = royal_serapis_cult
+			}
+			AND = {
+				country_egyptian_religion_trigger = yes
+				religion_pops_in_country = {
+					target = roman_pantheon
+					value >= very_rare_deity_svalue
+				}
+			}
+			deity:omen_isis_demeter = {
+				holy_site_deity_check_trigger = yes
+			}
+			has_variable = deity_hermanubis_unlocked
+			OR = {
+				common_deity_trigger = {
+					RELIGION = isis_religion
+				}
+				deity:omen_isis_demeter = {
+					holy_site_deity_check_trigger = yes
+				}
+			}
+		}
+	}
+	icon = deity_kemetic_love
+	passive_modifier = { stability_monthly_change = deity_stability_monthly_change }
+	omen = { happiness_for_wrong_culture_group_modifier = omen_happiness_for_wrong_culture_group_modifier_svalue } #Bonus from Omen
+	on_activate = {
+		fertility_apotheosis_food_effect = yes
+	}
+	religion = isis_religion
+	deity_category = fertility #This Deity uses a Fertility Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+deity_zagreus = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = roman_pantheon
+			}
+			deity:omen_zagreus = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+		OR = {
+			common_deity_trigger = {
+				RELIGION = isis_religion
+			}
+			deity:omen_zagreus = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { global_freemen_output = deity_global_freemen_output_svalue }
+	omen = { global_freemen_happyness = omen_global_freemen_happiness_svalue } #Bonus from Omen
+	religion = isis_religion
+	deity_category = culture #This Deity uses a Fertility Slot
+
+	on_activate = {
+		military_apotheosis_capital_freemen_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+deity_hermanubis ={
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			AND = {
+				religion = roman_pantheon
+				has_country_modifier = royal_serapis_cult
+			}
+			AND = {
+				country_egyptian_religion_trigger = yes
+				has_country_modifier = royal_serapis_cult
+			}
+			AND = {
+				country_egyptian_religion_trigger = yes
+				religion_pops_in_country = {
+					target = roman_pantheon
+					value >= very_rare_deity_svalue
+				}
+			}
+			deity:omen_hermanubis = {
+				holy_site_deity_check_trigger = yes
+			}
+			has_variable = deity_hermanubis_unlocked
+			OR = {
+				common_deity_trigger = {
+					RELIGION = isis_religion
+				}
+				deity:omen_hermanubis = {
+					holy_site_deity_check_trigger = yes
+				}
+			}
+			OR = {
+				common_deity_trigger = {
+					RELIGION = hermes_religion
+				}
+				deity:omen_hermanubis = {
+					holy_site_deity_check_trigger = yes
+				}
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { global_tax_modifier = deity_global_tax_modifier_svalue }
+	omen = { global_slaves_happyness = omen_global_slaves_happiness_svalue } #Bonus from Omen
+	religion = isis_religion
+	deity_category = economy #This Deity uses an Economy Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		economy_income_effect = yes
+	}
+}

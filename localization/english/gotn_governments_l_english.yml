@@ -1,18 +1,18 @@
 ﻿l_english:
  nomarchy:0 "Nomarchy"
- nomarchy_desc:0 "The Egyptian empire was divided into smaller regions called nomes, and rich nobles were assigned to  look after each region and were therefore called Nomarchs."
+ nomarchy_desc:0 "The Egyptian empire was divided into smaller regions called nomes, and rich nobles were assigned to look after each region and were therefore called Nomarchs."
  nomarchy_ruler:0 "Nomarch"
  nomarchy_female:0 "Nomarch"
  nomarchy_consort:0 "Consort"
 
  egyptian_dynasty:0 "Pharonic Dynasty"
- egyptian_dynasty_desc:0 "Pharonic dynasties have a Pharaoh as the highest power. The Pharaoh is an absolute monarch who  is considered divine themselves. An Egyptian dynasty claims all land typically associated with the Egyptian Nile."
+ egyptian_dynasty_desc:0 "Pharonic dynasties have a Pharaoh as the highest power. The Pharaoh is an absolute monarch who is considered divine themselves. An Egyptian dynasty claims all land typically associated with the Egyptian Nile."
  egyptian_dynasty_ruler:0 "Pharaoh"
  egyptian_dynasty_ruler_female:0 "Pharaoh"
- egyptian_dynasty_consort:0 "Queen"
+ egyptian_dynasty_consort:0 "Consort of the Netjer"
 
- assyrian_imperium:0 "Assyrian Imperium"
- assyrian_imperium_desc:0 "The governance of the Neo-Assyrian Empire has remained one of few establishments that remains  in-tact from the crumbling state. Its ancient system of imperial divinity keeps the government stable."
+ assyrian_imperium:0 "Assyrian Shalituta"
+ assyrian_imperium_desc:0 "The governance of the Neo-Assyrian Empire has remained one of few establishments that remains intact from the crumbling state. Its ancient system of imperial divinity keeps the government stable."
  assyrian_imperium_ruler:0 "Shar"
  assyrian_imperium_ruler_female:0 "Sharrat"
  assyrian_imperium_consort:0 "Segallu"
@@ -24,8 +24,31 @@
  great_chiefdom_of_ma_consort:0 "Great Consort"
 
  piratical_diarchy:0 "Piratical Diarchy"
- piratical_diarchy_desc:0 ""
+ piratical_diarchy_desc:0 "A kingdom with two pirate kings, this absurdly rare government type was only able to happen in the specific conditions of privateers sponsored by a powerful state devolving into a hostile takeover of a whole country."
  piratical_diarchy_ruler:0 "Captain"
  piratical_diarchy_co_ruler:0 "First Mate"
- piratical_diarchy_consort:0 "Consort"
+ piratical_diarchy_consort:0 "Love Mate"
  piratical_diarchy_ruler_female:0 "Captain"
+
+ mahajanapada_monarchy:0 "Mahajanapada"
+ mahajanapada_monarchy_desc:0 "The 16 great Mahajanapadas were and are important states that have existed since the beginning of the post-vedic period. These great kingdoms carry a prestige with them that regular Indian monarchies have yet to match."
+ mahajanapada_monarchy_ruler:0 "Maharaja"
+ mahajanapada_monarchy_ruler_female:0 "Maharani"
+ mahajanapada_monarchy_consort:0 "Rani"
+
+ daran_administration:0 "Darayan Realm"
+ daran_administration_desc:0 "Since the reforms of Darayus, the Achaemenid Realm has been the forefront nation in regards to its handling of the lands it lords over, with an administrative system matched by close-to-none. It truly is a testament to Darayus' reforms!"
+ daran_administration_ruler:0 "Xsayathiya Xsayathiyanam"
+ daran_administration_ruler_female:0 "Mana-Pashni"
+ daran_administration_consort:0 "Mana-Pashni"
+
+ gaul_princely_state:0 "Drungus"
+ gaul_princely_state_desc:0 ""
+ gaul_princely_state_ruler:0 "Rixo"
+ gaul_princely_state_ruler_female:0 "Riga"
+ gaul_princely_state_consort:0 "Consort"
+
+
+ #Subject Types
+ AM_hittite_viceroyalty:0 "#T $LIST$#!\nHittite Principality of $LIST$."
+ LEAD_hittite_viceroyalty:0 "#T $LIST$#!\nHittite Principality"

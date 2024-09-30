@@ -6,3 +6,17 @@ cradle_rivals = {
 	value = -75
 	yearly_decay = 1
 }
+levant_friends = {
+	value = 40
+	yearly_decay = 1
+}
+hebrew_same_religion = {
+	value = 50
+}
+hebrew_wrong_religion = {
+	value = -50
+}
+direct_control_of_canaan = {
+	value = -50
+	yearly_decay = 2
+}

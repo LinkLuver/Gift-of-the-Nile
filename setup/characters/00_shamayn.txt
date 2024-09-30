@@ -1,0 +1,70 @@
+﻿"SPH"={
+	country="SPH"
+	561={
+		first_name="Argishti"
+		family = c:SPH.fam:Sarduri
+		birth_date=432.3.19
+		culture="urtaian"
+		religion="armenian_religion"
+		add_trait = sarduri
+		c:SPH = {
+			set_as_ruler=char:561
+		}
+	}
+}
+"HAM"={
+	country="HAM"
+	562={
+		first_name="Bar-Bel"
+		family = c:HAM.fam:Zakor
+		birth_date=404.1.13
+		culture="aramaic"
+		religion="carthaginian_pantheon"
+		add_trait = zakor
+		c:HAM = {
+			set_as_ruler=char:562
+		}
+	}
+}
+"LHT"={
+	country="LHT"
+	563={
+		first_name="Hadad-Mari"
+		family = c:LHT.fam:Urhilina
+		birth_date=433.11.3
+		culture="syriac"
+		religion="hurrian_pantheon"
+		add_trait = urhilina
+		c:LHT = {
+			set_as_ruler=char:563
+		}
+	}
+}
+"KAR"={
+	country="KAR"
+	564={
+		first_name="Zannanza"
+		family = c:KAR.fam:Talmi_Teshub
+		birth_date=421.5.30
+		culture="hittite"
+		religion="hurrian_pantheon"
+		add_trait = talmi_teshub
+		c:KAR = {
+			set_as_ruler=char:564
+		}
+	}
+}
+"PRY"={
+	country="PRY"
+	565={
+		first_name="Rasyan"
+		family = c:PRY.fam:Beth_Hazeil
+		birth_date=429.7.25
+		culture="aramaic"
+		religion="carthaginian_pantheon"
+		add_trait = hazael
+		c:PRY = {
+			set_as_ruler=char:565
+		}
+	}
+}

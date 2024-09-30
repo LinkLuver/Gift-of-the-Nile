@@ -1,8 +1,8 @@
-﻿"CAP"={
-	country="CAP"
+﻿"CRD"={
+	country="CRD"
 	51={
 		first_name="Amyntas"
-		family = c:CAP.fam:Amyntid
+		family = c:CRD.fam:Amyntid
 		birth_date=408.12.3
 		culture="macedonian"
 		religion="roman_pantheon"
@@ -14,20 +14,14 @@
 		no_traits=yes
 		add_trait="uncaring"
 		add_trait="ugly"
-		add_gold=300
-		add_popularity=30
-		c:CAP={
-			set_as_ruler=char:51
-		}
 		dna="cEBwQL2EvYSqhKqEApICkgA2ADYBTwFPApcClwJ0AnQCeAJ4AngCeAKTApMCjgKOAmoCagKYApgCbQJtAokCiQOkA6QCmQKZAmoCagOxA7ECdgJ2AmYCZgKFAoUBZgFmAoECgQKAAoACfgJ+AnYCdgS4BLgCiQKJAoACgAJoAmgDmQOZAn8CfwJ5AnkCkgKSAowCjAJsAmwE5ATkAngCeAJ2AnYCkgKSA5wDnAJuAm4CaAJoAooCigKTApMCdQJ1Am8CbwJ4AngCZwJnAWYBZgJ1AnUCjwKPAnACcAKUApQCmAKYAnoCegRyBHIA3QDdAFkAWQBDAEMCswKzAu0C7QF3AXcAHwAfAL8AvwFQAVAEqwSrAWYBZgAAAAABBwEHAokCiQDzAPMBUQFRATYBNgABAAEBcgFyAroCugAAAAAA1gDWASYBJgD7APsC2ALYAEcARwMuAy4BAAEAAB8AHwCaAJoAowCjAxADEABhAGEGZgZmAAAAAAGRAZEFAQUBAK8ArwUVBRUCLgIuAtAC0AAAAAAAAAAAAAAAAA=="
 	}
 	#Eumenes of cardia = dead
 	431 = {
 		first_name="Eumenes"
 		family_name = Eumenid
-		nickname="NICKNAME_CARDIA"
+		#nickname="NICKNAME_CARDIA"
 		birth_date=392.7.3
-		death_date=438.3.7
 		culture="thracian"
 		religion="roman_pantheon"
 		no_stats=yes
@@ -39,13 +33,39 @@
 		add_trait = "eumenid"
 		add_trait="ambitious"	
 		add_trait="silver_tongued"
+		add_gold=300
+		add_popularity=90
+		c:CRD={
+			set_as_ruler=char:431
+		}
 		dna="jpWOlbN4s3jIx8jHAosCiwKXApcChQKFAnwCfAJ4AngCgAKAAncCdwKLAosCjgKOAnICcgFjAWMCjgKOADoAOgJ7AnsCjQKNAmkCaQJzAnMCgAKAAoQChAKGAoYCfQJ9AnsCewKPAo8CawJrAokCiQJ5AnkClAKUAmYCZgJ1AnUCkgKSA68DrwJtAm0CjgKOACIAIgJ/An8CewJ7ApQClAJ3AncCgAKAAU4BTgJyAnICagJqApICkgJ4AngCgQKBAnoCegJuAm4CgwKDAooCigJ4AngCggKCAoUChQKPAo8DmQOZAoYChgKPAo8AOQA5AQABAAB1AHUBKwErAUIBQgA8ADwAlACUAT4BPgAtAC0CYgJiAIoAigB/AH8AhACEAWEBYQEGAQYACAAIAPAA8AAbABsA6ADoAB4AHgB/AH8AqwCrAIEAgQCxALEBSAFIATYBNgCmAKYAKgAqAQEBAQDEAMQAJgAmAIQAhAM0AzQC6QLpAH8AfwCaAJoFMwUzAKsAqwW4BdwqywLLAvgC+AAAAAAAAAAAAAAAAA=="
 	}
-	#Artonis, eumenes Wife = alive
-	432 = {
+	432 = {	#Eumenes first son of eumenes
+		first_name="Eumenes"
+		family_name = Eumenid
+		father="char:431"
+		birth_date=433.12.3
+		culture="thracian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=10
+		add_charisma=9
+		add_finesse=4
+		add_zeal=6
+		no_traits=yes
+		add_trait = "eumenid"
+		add_trait="ambitious"
+		add_gold=300
+		add_popularity=70
+		dna="m9ZW0612o4jrvevUAlACagKAApMCbwJvAjQCcAKGAoYCfgJ+ApACkAJ3AncDpwOnAgEClQJ8AmkCdQJ1AnoCjwJ/An8CegJ6AncCdwOjA6MCcAJwAn8CfwFVAVUCbAJsAoICggJ5AnkClwKXAoACgAJmAmYCeQJ5AnoCiAKZApkChAKEAmcCZwKKAooAQgBCApgCmAJwAnABTwFPAoYChgKZApkCdQJ1AnECcQTfBN8CcgJyAnACcAJsAmwChwKHAmwCbAKHAocDsgOyAmgCaAJ/An8ClwKXAncCdwJ2AnYCcgJyAmYCZgLDAsMASABIACsAKwBVAFUAQQBBAOwA7AKCAoIAhACEAt8C3wDPAM8BSwFLAO0A7QB/AH8A2QDZAP0AkQECAVgBAAEVAbIBIgIBAu8DAgOEABMAwQAAAH8CgwLWAqwCqgCWAH8BgwFCAGIAywFkAWQAVgDrAAAA5wAAAtwAfACVAJMARgB7AGoBZwaRAKUAfwE1AS0FsgUQAAIAgQVxBRQCyALIAlECPgAAAAAAAAAAAAEAAA=="		
+	}
+}
+"ARS"={
+	country="ARS"
+	433 = { #Artonis, eumenes Wife = alive
 		first_name="Artonis"
 		female=yes
-		family_name = Eumenid
+		family_name = Pharnabazid
 		birth_date=400.12.3
 		culture="pasargadi"
 		religion="zoroaster"
@@ -59,35 +79,15 @@
 		add_trait="ambitious"
 		add_gold=300
 		add_popularity=70		
-	}
-	#Eumenes first son of eumenes
-	433 = {
-		first_name="Eumenes"
-		family_name = Eumenid
-		father="char:431"
-		mother="char:432"
-		birth_date=433.12.3
-		culture="thracian"
-		religion="roman_pantheon"
-		no_stats=yes
-		add_martial=10
-		add_charisma=9
-		add_finesse=4
-		add_zeal=6
-		no_traits=yes
-		add_trait = "eumenid"
-		add_trait = "pharnabazid"
-		add_trait="ambitious"
-		add_gold=300
-		add_popularity=70
-		dna= "m9ZW0612o4jrvevUAlACagKAApMCbwJvAjQCcAKGAoYCfgJ+ApACkAJ3AncDpwOnAgEClQJ8AmkCdQJ1AnoCjwJ/An8CegJ6AncCdwOjA6MCcAJwAn8CfwFVAVUCbAJsAoICggJ5AnkClwKXAoACgAJmAmYCeQJ5AnoCiAKZApkChAKEAmcCZwKKAooAQgBCApgCmAJwAnABTwFPAoYChgKZApkCdQJ1AnECcQTfBN8CcgJyAnACcAJsAmwChwKHAmwCbAKHAocDsgOyAmgCaAJ/An8ClwKXAncCdwJ2AnYCcgJyAmYCZgLDAsMASABIACsAKwBVAFUAQQBBAOwA7AKCAoIAhACEAt8C3wDPAM8BSwFLAO0A7QB/AH8A2QDZAP0AkQECAVgBAAEVAbIBIgIBAu8DAgOEABMAwQAAAH8CgwLWAqwCqgCWAH8BgwFCAGIAywFkAWQAVgDrAAAA5wAAAtwAfACVAJMARgB7AGoBZwaRAKUAfwE1AS0FsgUQAAIAgQVxBRQCyALIAlECPgAAAAAAAAAAAAEAAA=="		
+		c:ARS={
+			set_as_ruler=char:433
+		}
 	}
 	#Partimenes second son of eumenes
 	434 = {
 		first_name="Partimenes"
-		family_name = Eumenid
-		father="char:431"
-		mother="char:432"		
+		family_name = Pharnabazid
+		mother="char:433"		
 		birth_date=439.12.3
 		culture="thracian"
 		religion="roman_pantheon"
@@ -97,7 +97,6 @@
 		add_finesse=7
 		add_zeal=8
 		no_traits=yes
-		add_trait = "eumenid"
 		add_trait = "pharnabazid"
 		add_trait="ambitious"
 		add_gold=300
@@ -106,20 +105,18 @@
 	#Barsine, daughter of eumenes
 	435 = {
 		first_name="Barsine"
-		family_name = Eumenid
+		family_name = Pharnabazid
 		female=yes
 		birth_date=435.12.3
 		culture="thracian"
 		religion="roman_pantheon"
-		father="char:431"
-		mother="char:432"		
+		mother="char:433"		
 		no_stats=yes
 		add_martial=7
 		add_charisma=9
 		add_finesse=10
 		add_zeal=4
 		no_traits=yes	
-		add_trait = "eumenid"	
 		add_trait = "pharnabazid"
 	}
 }

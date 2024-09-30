@@ -5,3 +5,4 @@ tags={
 name="Gift of the Nile"
 supported_version="2.0.4"
 remote_file_id="3208403334"
+path=mod/gift_of_the_nile

@@ -1,0 +1,315 @@
+﻿namespace = ninurta_apal_ekur_two_coronation
+#A deeply ambitious and eccentric man is planning to conquer the universe, but first? he needs a crown
+ninurta_apal_ekur_two_coronation.1 = {
+	type = country_event
+	title = ninurta_apal_ekur_two_coronation.1.t
+	desc = ninurta_apal_ekur_two_coronation.1.desc
+	picture = aqueducts
+	left_portrait = current_ruler
+	trigger = {
+		tag = HAG
+	}
+    fire_only_once = yes
+	immediate = {
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.1.a #i colonize your mom
+		add_political_influence = 25
+		add_stability = -5
+		custom_tooltip = big_coronation_hgb.tt
+		trigger_event = {
+			id = ninurta_apal_ekur_two_coronation.2
+			days = { 7 10 }
+		}
+	}
+}
+#The crown of ASSYRIA is all but in his grasp, but even so? the MITANNI nobility plot against him.
+ninurta_apal_ekur_two_coronation.2 = {
+	type = country_event
+	title = ninurta_apal_ekur_two_coronation.2.t
+	desc = ninurta_apal_ekur_two_coronation.2.desc
+	picture = aqueducts
+	left_portrait = current_ruler
+	trigger = {
+		tag = HAG
+	}
+	immediate = {
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.2.a #Crack down on/appease them!
+		trigger_event = {
+			id = ninurta_apal_ekur_two_coronation.3
+			days = { 17 20 }
+		}
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.2.b #Im sure its nothing!
+		trigger_event = {
+			id = ninurta_apal_ekur_two_coronation.8
+			days = { 17 20 }
+		}
+		custom_tooltip = incomplete_for_2_1
+	}
+}
+#The MITANNI nobility appeased! Our rule is just a little more guaranteed
+ninurta_apal_ekur_two_coronation.3 = {
+	type = country_event
+	title = ninurta_apal_ekur_two_coronation.3.t
+	desc = ninurta_apal_ekur_two_coronation.3.desc
+	picture = aqueducts
+	left_portrait = current_ruler
+	trigger = {
+		tag = HAG
+	}
+	immediate = {
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.3.a #Everything is proceeding according to plan.
+		trigger_event = {
+			id = ninurta_apal_ekur_two_coronation.4
+			days = { 13 15 }
+		}
+	}
+}
+#
+ninurta_apal_ekur_two_coronation.4 = {
+	type = country_event
+	title = ninurta_apal_ekur_two_coronation.4.t
+	desc = ninurta_apal_ekur_two_coronation.4.desc
+	picture = aqueducts
+	left_portrait = current_ruler
+	trigger = {
+		tag = HAG
+	}
+	immediate = {
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.4.a #
+		trigger_event = {
+			id = ninurta_apal_ekur_two_coronation.5
+			days = { 30 35 }
+		}
+	}
+}
+#Attempted coup by the Hurrians!
+ninurta_apal_ekur_two_coronation.5 = {
+	type = country_event
+	title = ninurta_apal_ekur_two_coronation.5.t
+	desc = ninurta_apal_ekur_two_coronation.5.desc
+	picture = aqueducts
+	left_portrait = current_ruler
+	trigger = {
+		tag = HAG
+	}
+	immediate = {
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.5.a #The coup is swiftly shut down by the royal guards!
+		trigger_event = {
+			id = ninurta_apal_ekur_two_coronation.6
+			days = { 11 15 }
+		}
+		custom_tooltip = incomplete_for_2_1
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.5.b #The coup is successful! Hiketas' realm falls as easily as it was established.
+		trigger_event = {
+			id = ninurta_apal_ekur_two_coronation.9
+			days = { 11 15 }
+		}
+	}
+}
+#
+ninurta_apal_ekur_two_coronation.6 = {
+	type = country_event
+	title = ninurta_apal_ekur_two_coronation.6.t
+	desc = ninurta_apal_ekur_two_coronation.6.desc
+	picture = aqueducts
+	left_portrait = current_ruler
+	trigger = {
+		tag = HAG
+	}
+	immediate = {
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.6.a #
+		trigger_event = {
+			id = ninurta_apal_ekur_two_coronation.7
+			days = { 17 20 }
+		}
+	}
+}
+#One ambition realized, many remain.
+ninurta_apal_ekur_two_coronation.7 = {
+	type = country_event
+	title = ninurta_apal_ekur_two_coronation.7.t
+	desc = ninurta_apal_ekur_two_coronation.7.desc
+	picture = aqueducts
+	left_portrait = current_ruler
+	trigger = {
+		tag = HAG
+	}
+	immediate = {
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.7.a #All hail to NINURTA-APAL-EKUR!
+		custom_tooltip = hanigalbat_to_rule_the_universe.tt
+		custom_tooltip = mitanni_culture_warning.tt
+		custom_tooltip = hanigalbat_assyrian_missions.tt
+		hidden_effect = {
+			change_country_flag = HANIGALBAT_FLAG
+			change_country_color = blood_red
+			set_country_heritage = assyrian_heritage
+			change_country_adjective = HAG_ADJ
+			change_country_name = HAG_ASSUR
+		}
+		set_variable = assur_hanigalbat
+		
+		add_stability = 10
+		add_political_influence = -25
+		if = {
+			limit = {
+				NOT = {
+					primary_culture = assyrian
+				}
+			}
+			set_primary_culture_cleanup_effect = {
+				NEW_PRIMARY_CULTURE = assyrian
+				MAKE_OLD_CULTURE_INTEGRATED = yes
+			}
+		}
+	}
+}
+#Hurrian insurrection overthrows the kingdom of Mat Hannigalbat, the first Hurri kingdom in ages.
+ninurta_apal_ekur_two_coronation.9 = {
+	type = country_event
+	title = ninurta_apal_ekur_two_coronation.9.t
+	desc = ninurta_apal_ekur_two_coronation.9.desc
+	picture = aqueducts
+	left_portrait = current_ruler
+	trigger = {
+		tag = HAG
+	}
+	immediate = {
+		hidden_effect = {
+			create_character = {
+				female = no
+				culture = root.culture
+				religion = hurrian_pantheon
+				no_stats = yes
+				add_charisma = 6
+				add_finesse = 3
+				add_martial = 5
+				add_zeal = 8
+				add_trait = founder
+				add_popularity = 80
+				add_gold = 300
+				save_scope_as = new_ruler
+			}
+		}
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.9.a #become hurri
+		custom_tooltip = mitanni_nobility_priviliges.tt
+		custom_tooltip = mitanni_deities.tt
+		set_country_religion = hurrian_pantheon
+		custom_tooltip = hanigalbat_hurrian_missions.tt
+		hidden_effect = {
+			change_country_color = ck2_green
+			change_country_adjective = HURRIA_ADJ
+			change_country_name = HURRIA_NAME
+			change_country_flag = HAG
+		}
+		set_variable = mitanni_deities
+		set_variable = hurri_hanigalbat
+		set_as_ruler = scope:new_ruler
+	}
+}
+#Mitanni coup against Hiketas I Sibyrtid! the rebirth of a Mitanni state!
+ninurta_apal_ekur_two_coronation.8 = {
+	type = country_event
+	title = ninurta_apal_ekur_two_coronation.8.t
+	desc = ninurta_apal_ekur_two_coronation.8.desc
+	picture = aqueducts
+	trigger = {
+		tag = HAG
+	}
+	left_portrait = current_ruler
+	right_portrait = scope:new_ruler
+
+	immediate = {
+		hidden_effect = {
+			create_character = {
+				female = no
+				culture = root.culture
+				religion = hurrian_pantheon
+				no_stats = yes
+				add_charisma = 6
+				add_finesse = 3
+				add_martial = 5
+				add_zeal = 8
+				add_trait = founder
+				add_popularity = 80
+				add_gold = 300
+				save_scope_as = new_ruler
+			}
+		}
+	}
+	option = {
+		name = ninurta_apal_ekur_two_coronation.8.a #become mitanni
+		custom_tooltip = mitanni_culture_warning.tt
+		custom_tooltip = mitanni_unlocked_missions.tt
+		custom_tooltip = mitanni_military_trads.tt
+		
+		set_variable = mitanni_deities
+		
+		add_stability = -10
+		add_political_influence = -25
+		if = {
+			limit = {
+				NOT = {
+					primary_culture = mitanni
+				}
+			}
+			set_primary_culture_cleanup_effect = {
+				NEW_PRIMARY_CULTURE = mitanni
+				MAKE_OLD_CULTURE_INTEGRATED = yes
+			}
+		}
+		set_country_religion = hurrian_pantheon
+		custom_tooltip = switch_culture_mitanni.tt
+		custom_tooltip = mitanni_deities.tt
+		hidden_effect = {
+			change_country_adjective = MTT_ADJ
+			change_country_name = MTT
+			set_graphical_culture = anatolian_gfx
+			change_country_flag = MITANNI_FLAG
+			change_country_color = purple
+			set_country_heritage = mitanni_heritage
+			set_variable = mitanni_hanigalbat
+		}
+		set_as_ruler = scope:new_ruler
+		capital_scope = {
+			define_pop = {
+				culture = mitanni
+				religion = hurrian_pantheon
+				type = citizen
+			}
+			define_pop = {
+				culture = mitanni
+				religion = hurrian_pantheon
+				type = citizen
+			}
+			define_pop = {
+				culture = mitanni
+				religion = hurrian_pantheon
+				type = citizen
+			}
+			define_pop = {
+				culture = mitanni
+				religion = hurrian_pantheon
+				type = citizen
+			}
+		}
+	}
+}

@@ -76,7 +76,7 @@ family={
 			color = 0
 		}
 		10={
-			key = "Euryclid"
+			key = "Eurypontid"
 			prestige=300
 			culture=peloponnesian
 			owner=SPA
@@ -105,13 +105,13 @@ family={
 			color = 2
 		}
 		#Adiabene
-		14={
-			key = "Orontids"
-			prestige=300
-			culture=assyrian
-			owner=ADI
-			color = 0
-		}
+		#14={
+		#	key = "Orontids"
+		#	prestige=300
+		#	culture=assyrian
+		#	owner=ADI
+		#	color = 0
+		#}
 		15={
 			key = "Alanid"
 			prestige=300
@@ -119,13 +119,13 @@ family={
 			owner=ADI
 			color = 1
 		}
-		16={
-			key = "Azonid"
-			prestige=300
-			culture=assyrian
-			owner=ADI
-			color = 2
-		}
+		#16={
+		#	key = "Azonid"
+		#	prestige=300
+		#	culture=assyrian
+		#	owner=ADI
+		#	color = 2
+		#}
 		17={
 			key = "Silicid"
 			prestige=300
@@ -274,7 +274,7 @@ family={
 			key = "Amyntid"
 			prestige=200
 			culture=macedonian
-			owner=CAP
+			owner=CRD
 		}
 		#Kios
 		35={
@@ -427,7 +427,7 @@ family={
 			key = "Ailymasid"
 			prestige=300
 			culture=massylian
-			owner=MSY
+			owner=MSS
 		}
 		#Wakekiye
 		57={
@@ -568,12 +568,12 @@ family={
 			prestige=300
 			owner=EPI
 		}
-		#Arachosia
+		#Knossos
 		100 = {
 			key = "Sibyrtid"
 			prestige=300
 			culture=cretan
-			owner=ARS
+			owner=HAG
 		}
 		#Chera Dynasty
 		250={
@@ -701,12 +701,107 @@ family={
 			culture=upper_egyptian
 			owner=EGY
 		}
+		2004 = {
+			key = "Intefid"
+			prestige=100
+			culture=egyptian
+			owner=MEN
+		}
 		#GOTN Macedon
 		2100 = {
 			key = "Argead"
-			prestige = 300
+			prestige=300
 			culture=macedonian
 			owner=MAC
+		}
+		#GOTN Persiapotamia
+		2200 = {
+			key = "Cyaxarid"
+			prestige=300
+			culture=median
+			owner=MAP
+		}
+		2201 = {
+			key = "Shushunid"
+			prestige=100
+			culture=elamite
+			owner=ELM
+		}
+		2202 = {
+			key = "Nergilid"
+			prestige=200
+			culture=babylonian
+			owner=SEL
+		}
+		2203 = {
+			key = "Bar_Hanni"
+			prestige=100
+			culture=assyrian
+			owner=ADI
+			color = 0
+		}
+		2204 = {
+			key = "Adaside"
+			prestige=500
+			culture=assyrian
+			owner=ADI
+			color = 2
+		}
+		2205 = {
+			key = "Arakhid"
+			prestige=50
+			culture=armenian
+			owner=SEL
+		}
+		2206 = {
+			key = "Shamashid"
+			prestige=200
+			culture=sittacenean
+			owner=SEL
+		}
+		2207 = {
+			key = "Shimannid"
+			prestige=100
+			culture=babylonian
+			owner=SEL
+		}
+		#GOTN Levant
+		2300 = {
+			key = "Beth_Hazeil"
+			prestige=100
+			culture=aramaic
+			owner=PRY
+		}
+		2301 = {
+			key = "Zakor"
+			prestige=100
+			culture=aramaic
+			owner=HAM
+		}
+		2302 = {
+			key = "Sarduri"
+			prestige=100
+			culture=urtaian
+			owner=SPH
+		}
+		2303 = {
+			key = "Urhilina"
+			prestige=100
+			culture=syriac
+			owner=LHT
+		}
+		2304 = {
+			key = "Talmi_Teshub"
+			prestige=100
+			culture=hittite
+			owner=KAR
+		}
+		#GOTN Africa
+		2400 = {
+			key = "Herakleides"
+			prestige=100
+			culture=atlosian
+			owner=MSL
 		}
 	}
 }

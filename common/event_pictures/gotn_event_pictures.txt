@@ -1,0 +1,109 @@
+﻿# Total War Pharaoh
+twp_pyramid_delta = {
+	theme = Hubbub
+	picture = "gfx/interface/event_window/gotn_delta_pyramids.dds"
+}
+twp_battle_delta = {
+	theme = War
+	picture = "gfx/interface/event_window/gotn_battle_of_delta.dds"
+}
+twp_battle_delta_marching = {
+	theme = Marching
+	picture = "gfx/interface/event_window/gotn_battle_of_delta.dds"
+}
+twp_pharaoh_court = {
+	theme = Senate
+	picture = "gfx/interface/event_window/gotn_egypt_court.dds"
+}
+
+
+# Assassin's Creed Origins
+aco_pyramid_deserts = {
+	theme = Wonder
+	picture = "gfx/interface/event_window/gotn_egypt_hills.dds"
+}
+aco_hippo_lion_fight = {
+	theme = Unrest
+	picture = "gfx/interface/event_window/gotn_egypt_hippo_lion.dds"
+}
+aco_village = {
+	theme = Happy
+	picture = "gfx/interface/event_window/gotn_egypt_village.dds"
+}
+aco_construction = {
+	theme = Civic
+	picture = "gfx/interface/event_window/gotn_egypt_working.dds"
+}
+aco_amun_temple = {
+	theme = Religion
+	picture = "gfx/interface/event_window/gotn_faiyumic_temple.dds"
+}
+aco_nile_sunset = {
+	theme = Naval
+	picture = "gfx/interface/event_window/gotn_nile_sunset.dds"
+}
+aco_ptah_temple = {
+	theme = Religion
+	picture = "gfx/interface/event_window/gotn_ptah_temple.dds"
+}
+
+# Prince of Persia: The Lost Crown
+tlc_city_night = {
+	theme = Unrest
+	picture = "gfx/interface/event_window/gotn_persia_night.dds"
+}
+tlc_city_walls = {
+	theme = Honor
+	picture = "gfx/interface/event_window/gotn_persia_walls.dds"
+}
+tlc_city_mountains = {
+	theme = Uncategorized
+	picture = "gfx/interface/event_window/gotn_persia_mountain.dds"
+}
+tlc_cave_temple = {
+	theme = Religion
+	picture = "gfx/interface/event_window/gotn_persia_cave.dds"
+}
+
+# Humankind
+hk_cleopatra = {
+	theme = Honor
+	picture = "gfx/interface/event_window/hk_cleopatra.dds"
+}
+hk_babbling_babylon = {
+	theme = Hubbub
+	picture = "gfx/interface/event_window/hk_babbling_babylon.dds"
+}
+hk_hittite_chariot = {
+	theme = War
+	picture = "gfx/interface/event_window/hk_hittite_chariot.dds"
+}
+hk_sumerian_court = {
+	theme = Senate
+	picture = "gfx/interface/event_window/hk_sumerian_court.dds"
+}
+hk_tower_babylon = {
+	theme = Wonder
+	picture = "gfx/interface/event_window/hk_tower_babylon.dds"
+}
+
+# The Fate of Empire
+
+tfoe_carthage = {
+	theme = Hubbub
+	picture = "gfx/interface/event_window/gotn_carthage_painting.dds"
+}
+
+# Other (Random Art/RA)
+
+ra_maryannu = {
+	theme = War
+	picture = "gfx/interface/event_window/gotn_maryannu_chariot.dds"
+}
+
+# Rocío Espín Piñar
+
+rep_hattusa = {
+	theme = Wonder
+	picture = "gfx/interface/event_window/rep_hatussa.dds"
+}
