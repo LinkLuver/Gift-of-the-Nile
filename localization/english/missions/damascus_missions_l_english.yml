@@ -202,12 +202,13 @@
  me_damascus_17.a:0 "Excellent!"
  me_damascus_17_tooltip:0 "The mission task '#Y $damascus_missions_task_17$#!' has now been #G Completed#!!"
  
- me_damascus_18_title:0 "$damascus_missions_task_18$"
- me_damascus_18_desc:0 "$damascus_missions_task_18_DESC$"
- me_damascus_18.a:0 "Excellent!"
+ me_damascus_18_title:0 "The division of the North"
+ me_damascus_18_desc:0 "The kingdom of Bit Agushi has been our ally ever since the downfall of Urartu, through a great number of tribulations they have stood by us. Now, we have the chance to reward their loyalty by ceding to them some of our more remote northern possessions, in exchange for them fully endorsing our claim to Aramaic primacy. However, relying on unreliable vassals and tributaries has been a failing of many previous Damascene kings, most notably with the downfall of Bar-Hadad III after the death of Haze'il."
+ me_damascus_18.a:0 "Let us reward Bit Agushi for their loyalty."
+	me_damascus_18.b:0 "We have no need to rely on lesser kings."
  me_damascus_18_tooltip:0 "The mission task '#Y $damascus_missions_task_18$#!' has now been #G Completed#!!"
  
- me_damascus_19_title:0 "$damascus_missions_task_19$"
- me_damascus_19_desc:0 "$damascus_missions_task_19_DESC$"
+ me_damascus_19_title:0 "The rebirth of Aram"
+ me_damascus_19_desc:0 "The city of Damascus now sits as the undisputed capital of the region, no longer opposed by the Hamathites and Assyrians. Vast quanitites of trade flow into it from Tadmor, Samaria, and Cilicia. Its temples have been rebuilt and its fields flourish. In the temple of Hadad are inscribed the many lesser kings and lords who have come to recognize its dominion. A promise of continued prosperity so long as the kingdom endures, and of immense retribution against all who would turn against it. /n/n Meanwhile, in the north, where Qarqar once stood, a monument has been erected to our independence. The city of Hamath enjoys renewed prosperity due to its renewed trade ties with Damascus and Tadmor, and the Assyrian state of Bit Adini finds itself isolated and contained. The Arameans enter a new golden age, and Damascus will be their head."
  me_damascus_19.a:0 "Excellent!"
  me_damascus_19_tooltip:0 "The mission task '#Y $damascus_missions_task_19$#!' has now been #G Completed#!!"
