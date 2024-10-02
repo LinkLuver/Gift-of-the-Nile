@@ -1982,13 +1982,16 @@ deity_orpheus = { # CULTURE
 			}
 			primary_culture = macedonian
 			primary_culture = thessalian
+			common_deity_trigger = {
+				RELIGION = isis_religion
+			}
 		}
 	}
 	icon = deity_greek_culture
 
 	passive_modifier = { global_population_happiness = omen_global_population_happiness }
 	omen = { global_citizen_output = deity_global_citizen_output_svalue }
-	religion = roman_pantheon
+	religion = isis_religion
 	deity_category = culture #This Deity uses a Culture Slot
 
 	deification_trigger = {
