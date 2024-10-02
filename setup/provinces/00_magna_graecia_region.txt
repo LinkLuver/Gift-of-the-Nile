@@ -2237,18 +2237,18 @@
 	trade_goods="glass"
 	civilization_value=24
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
-		amount=5
+		amount=7
 	}
 	slaves={
-		amount=5
+		amount=7
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -2478,7 +2478,7 @@
 	trade_goods="wood"
 	civilization_value=24
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	nobles={
 		amount=4
 	}
