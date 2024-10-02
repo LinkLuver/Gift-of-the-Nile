@@ -116,7 +116,7 @@ medjed_heritage = {
     modifier = {
         #good
         global_defensive = 0.1
-        hostile_attrition = 0.01
+        hostile_attrition = 2
 
         #bad
         camels_offensive = -0.10
@@ -6401,8 +6401,8 @@ siculia_heritage = {
 calactea_heritage = {
     modifier = {
         #good
-        bribe_pi_cost_modifier = -0.4
-        global_population_growth = 0.03
+        ruler_popularity_gain = 0.06
+        global_population_growth = 0.04
        
         #bad
         global_freemen_output = -0.05
