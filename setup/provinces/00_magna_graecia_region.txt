@@ -1683,19 +1683,19 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=2
+		amount=5
 	}
 	citizen={
-		amount=5
+		amount=10
 	}
 	citizen={
 		religion="roman_pantheon"
 		culture="boeotian"
-		amount=3
+		amount=5
 	}
 	freemen={
 		religion="isis_religion"
-		amount=7
+		amount=10
 	}
 	freemen={
 		religion="isis_religion"
@@ -1708,15 +1708,15 @@
 	slaves={
 		religion="isis_religion"
 		culture="boeotian"
-		amount=2
+		amount=5
 	}
 	tribesmen={
 		religion="roman_pantheon"
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		religion="italic_pantheon"
-		amount=1
+		amount=3
 	}
 	holy_site=omen_isis_demeter
 	port_building=1
@@ -1759,30 +1759,34 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
+		amount=5
+	}
+	citizen={
+		amount=10
+	}
+	citizen={
+		culture="achaean"
+		religion="roman_pantheon"
 		amount=3
 	}
-	citizen={
-		amount=6
-	}
-	citizen={
-		culture="achaean"
-		religion="roman_pantheon"
-		amount=1
-	}
 	freemen={
-		amount=6
+		amount=8
 	}
 	freemen={
 		culture="achaean"
 		religion="roman_pantheon"
-		amount=1
+		amount=2
 	}
 	slaves={
 		religion="roman_pantheon"
 		amount=14
 	}
 	tribesmen={
-		amount=2
+		amount=3
+	}
+	tribesmen={
+		culture="siculian"
+		amount=5
 	}
 	holy_site=omen_arethousa
 	port_building=3
@@ -2475,14 +2479,22 @@
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
+	nobles={
+		amount=4
+	}
+	citizen={
+		amount=10
+	}
 	freemen={
-		amount=1
+		culture="siculian"
+		amount=10
 	}
 	slaves={
-		amount=2
+		amount=8
 	}
 	tribesmen={
-		amount=1
+		culture="siculian"
+		amount=5
 	}
 }
 

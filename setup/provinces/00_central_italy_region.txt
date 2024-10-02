@@ -6,20 +6,12 @@
 	civilization_value=44
 	barbarian_power=0
 	province_rank="city"
-	citizen={
-		culture="hebrew"
-		religion="judaism"
-		amount=4
-	}
 	nobles={
-		amount=4
-	}
-	nobles={
-		religion="roman_pantheon"
+		culture="faliscan"
 		amount=1
 	}
 	citizen={
-		amount=13
+		amount=7
 	}
 	citizen={
 		culture="etruscan"
@@ -31,18 +23,19 @@
 		amount=4
 	}
 	freemen={
-		amount=14
+		amount=7
 	}
 	freemen={
+		culture="faliscan"
 		religion="roman_pantheon"
-		amount=8
+		amount=4
 	}
 	slaves={
-		amount=4
+		amount=2
 	}
 	tribesmen={
 		religion="roman_pantheon"
-		amount=4
+		amount=2
 	}
 	holy_site=omen_jupiter
 }
@@ -244,8 +237,8 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="hebrew"
-		religion="judaism"
+		culture="faliscan"
+		religion="italic_pantheon"
 		amount=2
 	}
 	citizen={
@@ -262,11 +255,13 @@
 		amount=1
 	}
 	citizen={
+		culture="faliscan"
 		religion="roman_pantheon"
 		amount=2
 	}
 	citizen={
-		religion="roman_pantheon"
+		culture="faliscan"
+		religion="italic_pantheon"
 		amount=3
 	}
 	freemen={
@@ -282,7 +277,7 @@
 		amount=3
 	}
 	slaves={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		religion="roman_pantheon"
@@ -293,13 +288,14 @@
 
 16={ #Veii
 	terrain="farmland"
-	culture="roman"
+	culture="etruscan"
 	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=35
 	barbarian_power=0
 	province_rank="city"
 	nobles={
+		culture="faliscan"
 		amount=1
 	}
 	nobles={
@@ -307,18 +303,18 @@
 		amount=1
 	}
 	nobles={
-		culture="etruscan"
+		culture="faliscan"
 		amount=1
 	}
 	citizen={
 		amount=9
 	}
 	citizen={
-		culture="etruscan"
+		culture="faliscan"
 		amount=3
 	}
 	citizen={
-		culture="etruscan"
+		culture="faliscan"
 		religion="italic_pantheon"
 		amount=2
 	}
@@ -330,7 +326,7 @@
 		amount=4
 	}
 	freemen={
-		culture="etruscan"
+		culture="faliscan"
 		amount=3
 	}
 	freemen={
@@ -400,33 +396,36 @@
 
 18={ #Nepete
 	terrain="hills"
-	culture="etruscan"
+	culture="faliscan"
 	religion="italic_pantheon"
 	trade_goods="earthware"
 	civilization_value=24
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
+	province_rank="city"
+	nobles={
+		amount=3
 	}
 	citizen={
-		culture="roman"
-		amount=1
+		amount=7
+	}
+	citizen={
+		culture="etruscan"
+		amount=8
 	}
 	citizen={
 		culture="roman"
 		religion="roman_pantheon"
-		amount=2
+		amount=7
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=4
+		amount=5
 	}
 	slaves={
 		religion="roman_pantheon"
-		amount=2
+		amount=11
 	}
 	tribesmen={
 		amount=5
@@ -465,7 +464,7 @@
 
 20={ #Cures
 	terrain="hills"
-	culture="roman"
+	culture="faliscan"
 	religion="italic_pantheon"
 	trade_goods="iron"
 	civilization_value=24
@@ -592,11 +591,12 @@
 	terrain="hills"
 	culture="samnite"
 	religion="italic_pantheon"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="faliscan"
 		amount=3
 	}
 	freemen={

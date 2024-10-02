@@ -4149,7 +4149,7 @@ country = {
 		}
 
 		CLA = {
-			government = oligarchic_republic
+			government = aristocratic_monarchy
 			primary_culture = syracusan
 			religion = roman_pantheon
 
@@ -4160,10 +4160,17 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
-			capital = 100
+			capital = 7840
 
 			own_control_core = {
-				100 98 89 7839
+				100 98 89 7839 88 7840
+			}
+
+			poptype_rights = {
+				{
+					culture = siculian
+					type = citizen
+				}
 			}
 		}
 
@@ -4216,7 +4223,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				83 84 88 101 87 7837 7840
+				83 84 101 87 7837
 			}
 		}
 
@@ -4359,6 +4366,13 @@ country = {
 
 			own_control_core = 	{
 				18 16 1 15 23 3 4 20
+			}
+
+			poptype_rights = {
+				{
+					culture = etruscan
+					type = citizen
+				}
 			}
 
 			#professional_soldiers = yes

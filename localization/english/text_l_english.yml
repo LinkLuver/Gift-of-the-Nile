@@ -455,6 +455,8 @@
  pearlsDESC: "When an irritant like a grain of sand enters the shell of a mollusk, eventually a beautiful pearl is produced."
  
  
+ province_improvement_warm_period:0 "Warm Period"
+ desc_province_improvement_warm_period:0 "It seems the gods have blessed us with warmth and better growth these last years."
  mission_claim_region_tooltip:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#! gain a claim on [ THIS.GetProvince.GetArea.GetRegion.GetName]"
  
  mrptt_1:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#! owns at least "
