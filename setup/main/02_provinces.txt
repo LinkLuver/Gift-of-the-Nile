@@ -734,6 +734,10 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 
+	3095 = { #Syrakousai
+		aqueduct_building = 1
+	}
+
     #Isthmus of Corinth
 	418 = { #Corinth
 		 modifier = { modifier = lesser_pass_modifier always = yes }
@@ -1379,10 +1383,8 @@ provinces = { #Any entry must contain a comment with city name.
 		town_hall_building = 2
 	}
 	350 = { #Lysimachea
-		military_building = 1
 		fortress_building = 1
-		town_hall_building = 2
-		aqueduct_building = 1
+		town_hall_building = 1
 	}
 	353 = { #Kypsela
 		latifundia_building = 1

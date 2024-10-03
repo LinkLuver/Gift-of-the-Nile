@@ -199,49 +199,49 @@
 		#	add_opinion = { target = c:EGY modifier = diadochi_rivals }
 		#	add_opinion = { target = c:SEL modifier = diadochi_rivals }
 		#}
-		if = {
-			limit = { tag = MAC }
-			char:32 = {
-				trigger_event = {
-					id = dhe_macedon.1 # Cassander illness
-					days = { 700 760 } # 2 years
-				}
-			}
-			char:288 = {
-				trigger_event = {
-					id = dhe_macedon.2 # Philip IV illness
-					days = { 1400 1520 } # 4 years
-				}
-			}
-			add_opinion = {
-				modifier = pyrrhos_crowned_opmod
-				target = c:EPI
-			}
-			current_ruler = {
+		#if = {
+			#limit = { tag = MAC }
+			#char:32 = {
+				#trigger_event = {
+					#id = dhe_macedon.1 # Cassander illness
+					#days = { 700 760 } # 2 years
+				#}
+			#}
+			#char:288 = {
+				#trigger_event = {
+					#id = dhe_macedon.2 # Philip IV illness
+					#days = { 1400 1520 } # 4 years
+				#}
+			#}
+			#add_opinion = {
+				#modifier = pyrrhos_crowned_opmod
+				#target = c:EPI
+			#}
+			#current_ruler = {
 				#add_rival = C:PRY.current_ruler
-				add_friend = C:TRE.current_ruler
-			}
+				#add_friend = C:TRE.current_ruler
+			#}
 			#char:10 = { move_country = C:PRY } #Antipatrid mother
-			char:97 = { move_country = C:KIO } #Mithridates in Phrygia
-			set_variable = me_mac_start_flag
-			macedon_legion_setup_effect = yes
+			#char:97 = { move_country = C:KIO } #Mithridates in Phrygia
+			#set_variable = me_mac_start_flag
+			#macedon_legion_setup_effect = yes
 			#add_opinion = { target = c:PRY modifier = diadochi_rivals }
 			#add_opinion = { target = c:TRE modifier = diadochi_rivals }
 			#add_opinion = { target = c:EGY modifier = diadochi_rivals }
 			#add_opinion = { target = c:SEL modifier = diadochi_rivals }
 		}
-		if = {
-			limit = { tag = TRE }
-			current_ruler = {
-				add_friend = C:MAC.current_ruler
-			}
-			set_variable = me_thrace_start_flag
+		#if = {
+			#limit = { tag = TRE }
+			#current_ruler = {
+				#add_friend = C:MAC.current_ruler
+			#}
+			#set_variable = me_thrace_start_flag
 			#thrace_legion_setup_effect = yes
 			#add_opinion = { target = c:MAC modifier = diadochi_rivals }
 			#add_opinion = { target = c:PRY modifier = diadochi_rivals }
 			#add_opinion = { target = c:EGY modifier = diadochi_rivals }
 			#add_opinion = { target = c:SEL modifier = diadochi_rivals }
-		}
+		#}
 		if = {
 			limit = { tag = HNT }
 			current_ruler = {

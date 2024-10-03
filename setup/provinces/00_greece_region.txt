@@ -1163,14 +1163,14 @@
 	culture="argolian"
 	religion="roman_pantheon"
 	trade_goods="olive"
-	civilization_value=26
+	civilization_value=22
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=1
 	}
 	freemen={
-		amount=5
+		amount=2
 	}
 	slaves={
 		amount=2

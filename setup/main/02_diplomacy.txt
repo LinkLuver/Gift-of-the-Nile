@@ -93,6 +93,7 @@ diplomacy = {
 	
 	#Neo-Peloponnesan League
 	defensive_league = {
+		member = KOR
 		member = SPA
 		member = HRM
 		member = EPD
@@ -125,13 +126,7 @@ diplomacy = {
 	dependency = { first = THE second = OPU subject_type = client_state }
 	dependency = { first = THE second = CHL subject_type = subject_league_city_state }
 
-	#Macedonian League / League of Korinth
-	defensive_league = {
-		member = KOR
-		member = ARG
-		member = AET
-		member = LAM
-	}
+
 	dependency = { first = MAC second = PTI subject_type = client_state }
 	dependency = { first = MAC second = ABD subject_type = subject_league_city_state }
 	dependency = { first = MAC second = AEN subject_type = subject_league_city_state }

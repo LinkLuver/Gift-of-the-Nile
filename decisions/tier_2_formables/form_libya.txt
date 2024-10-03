@@ -1,0 +1,80 @@
+country_decisions = {
+	
+	# Form Libya
+	form_libya = {
+		
+		potential = {
+			num_of_cities >= 1
+			primary_culture = libyan
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = cyrenaica_inferioris_area
+					is_in_area = cyrenaica_superioris_area
+					is_in_area = marmarica_occidentalis_area
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = "formable_not_libya_exists"
+				NOT = {
+					any_country = {
+						tag = "LIB"
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns_area = cyrenaica_inferioris_area
+			owns_or_subject_owns_area = cyrenaica_superioris_area
+			owns_or_subject_owns_area = marmarica_occidentalis_area
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "LIBYA_NAME"
+			tribal_formable_government_change_effect = yes
+			custom_tooltip = "form_libya_claims_tooltip"
+			hidden_effect = {
+				change_country_adjective = "LIBYA_ADJECTIVE"
+				change_country_color = "CMB_brown"
+				change_country_tag = "LIB"
+			}
+			capital_scope = {
+				capital_formable_small_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_3_free_province_investments = yes
+			add_country_modifier = {
+				name = libya_mod
+				duration = -1
+			}
+			hidden_effect = {
+				every_province = {
+						limit = {
+							OR = {
+								is_in_region = cyrenaica_region
+								is_in_region = lower_egypt_region
+							}
+	
+						}
+						add_claim = root
+						}
+						set_variable = has_formed_libya
+					}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+}

@@ -21,3 +21,12 @@ hittite_mod = {
 	chariots_morale = 0.10
 	ruler_popularity_gain = 0.02
 }
+troas_mod = {
+	global_migration_speed_modifier = 0.05
+	global_capital_trade_routes = 1
+}
+libya_mod = {
+	desert_combat_bonus = 0.10
+	army_weight_modifier = -0.05
+	war_score_cost = -0.05
+}

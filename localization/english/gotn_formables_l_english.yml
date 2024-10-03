@@ -83,6 +83,12 @@
  paeonia_mod:0 "Greater Paeonia Realized"
  form_greater_paeonia: "Reclaim our Ancestral Lands"
  form_greater_paeonia_desc: "In our tribal halls, Stories are still told of times when our people roamed from the mountains Macedon, to the abundant plains and forests of Thrace, and when we walked along the Propontis, and touched the sea. Such idyllic times seem like a dream, but our people are not one to give up so easily. By will alone, we could recreate our lost realm, and walk on the fields of Thrace once again."
+ TROAS_NAME:0 "Troas"
+ TROAS_NAME_ADJECTIVE:0 "Trojan"
+ troas_mod:0 "Cities of The Troad"
+ formable_not_troas_exists:0 "#Y Troas#! does not exist." 
+ form_troas:0 "Unite the Cities of The Troad"
+ form_troas_desc:0 "The cities of #Y The Troad#! are home to merchants, philosophers, and proud leaders. Uniting our polities would protect us from foreign interence, and become a formidable state."
 
  ## Africa Formables
  ATLAS_NAME:0 "Atlas"
@@ -93,6 +99,13 @@
  TETRAPOLITANIA_ADJECTIVE:0 "Tetrapolitanian"
  form_tetrapolitania:0 "Unite the Four Cities"
  form_tetrapolitania_desc:0 "The four cities of #Y Tetrapolitania#! can only become great by unification!"
+ LIBYA_NAME:0 "Libya"
+ LIBYA_ADJECTIVE:0 "Libyan"
+ libya_mod:0 "Warriors of Libya"
+ formable_not_libya_exists:0 "#Y Libya#! does not exist." 
+ form_libya_claims_tooltip:0 "We will gain claims on the regions of #Y Cyrenaica#!, and #Y Lower Egypt#!"
+ form_libya:0 "Form Libya"
+ form_libya_desc:0 "Our people have lived in these lands for time immemorial. The shifting sands may cover up other peoples, but we, the #Y Libyans#! are the undisputed masters of the deserts. Let us push out from our desert homelands, and retake what has been lost to us by the #Y Greeks#! and #Y Egyptians#!."
 
  ## Zagros Formables
  KASSITE_NAME:0 "Neo-Kassite Kingdom"

@@ -8660,3 +8660,17 @@ galilee_heritage = {
         tag = GAL 
     }
 }
+
+aigina_heritage = {
+    modifier = {
+        #good
+        ship_cost = -0.10
+        global_import_commerce_modifier = 0.05
+        #bad
+        global_manpower_modifier = -0.15
+    }
+   
+    trigger = {
+        tag = AGI
+    }
+}
