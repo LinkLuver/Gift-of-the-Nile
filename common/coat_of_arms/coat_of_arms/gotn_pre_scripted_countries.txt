@@ -899,3 +899,175 @@ MSL = {
 		color2 = rgb { 170 173 58 } 
 	}
 }
+
+HIT = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 171 138 8 }
+	color2 = rgb {110 106 204}
+
+	colored_emblem = {
+		texture = "ce_twp_denyen.dds"
+		color1 = rgb { 245 237 222 }
+		color2 = rgb { 8 84 135 }
+	}
+	colored_emblem = {
+		texture = "ce_border_stars_03.dds"
+		color1 = rgb { 8 84 135 }
+	}
+	colored_emblem = {
+		texture = "ce_border_stars_03.dds"
+		color1 = rgb { 8 84 135 }
+		instance = { position = { 0.50 0.50 } rotation = 180 }
+	}
+}
+
+TWT = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 171 80 14 }
+	
+	colored_emblem = {
+		texture = "ce_bosporan_league_achilles.dds"
+		color1 = hsv { 0.05 0.04 0.91 }
+		color2 = rgb { 142 100 22 }
+		instance = { scale = { 0.80 0.80 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_greek_06.dds"
+		color1 = rgb { 114 115 123 } 
+		color2 = hsv { 0.05 0.04 0.91 }
+	}
+}
+
+ABD = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 45 128 86 }
+
+	colored_emblem = {
+		texture = "ce_kantharos.dds"
+		color1 = rgb { 245 237 222 }
+		instance = { scale = { 0.75 0.75 } position = { 0.50 0.50 } }
+	}
+	colored_emblem = {
+		texture = "ce_hellenistic_dec_06.dds"
+		color1 = rgb { 150 137 64 }
+		color2 = rgb { 65 7 76 }
+		instance = { rotation = 70 }
+	}
+	colored_emblem = {
+		texture = "ce_hellenistic_frame_02.dds"
+		color1 = rgb { 150 137 64 }
+	}
+}
+
+CRD = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 145 109 167 }
+	
+	colored_emblem = {
+		texture = "ce_helmet_thracian_a.dds"
+		color1 = rgb { 147 137 43 }
+		color2 = "ck2_white"
+	}
+	colored_emblem = {
+		texture = "ce_helmet_thracian_b.dds"
+		color1 = rgb { 114 115 123 } 
+	}
+}
+
+AEN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 197 208 176 }
+	
+	colored_emblem = {
+		texture = "ce_star_16pt.dds"
+		color1 = rgb { 200 192 15 }
+	}
+}
+
+TW2 = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 54 72 137 } 
+	
+	colored_emblem = {
+		texture = "ce_gorgon_02_a.dds"
+		color1 = rgb { 10 57 2}
+		color2 = rgb { 10 57 2}
+		instance = { scale = { 1.20 1.20 } position = { 0.50 0.50 } }
+	}
+	colored_emblem = {
+		texture = "ce_gorgon_02_b.dds"
+		color1 = rgb { 84 87 98 } 
+		instance = { scale = { 1.20 1.20 } position = { 0.50 0.50 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_meander_10.dds"		
+		color1 = rgb { 84 87 98 } 
+		color2 = rgb { 10 57 2}
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+}
+
+TR3 = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 84 27 92 }
+	
+	colored_emblem = {
+		texture = "ce_mesopatamian_weapons_3.dds"
+		color1 = rgb { 200 192 15 }
+	}
+	colored_emblem = {
+		texture = "ce_border_triangles_01.dds"
+		color1 = rgb { 200 192 15 }
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
+	}
+}
+
+AT2 = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 100 64 0 }
+	color2 = rgb { 128 0 64 }
+
+	colored_emblem = { 
+		texture = "ce_square_mask.dds"
+		color1 = "mid_grey"
+		instance = { position = { 0.5 0.5 } scale = { 1.25 1 }}
+		instance = { position = { 0.5 0.75 } scale = { 1.25 1 }}
+		instance = { position = { 0.5 0.25 } scale = { 1.25 1 }}
+	}
+
+	colored_emblem = { 
+		texture = "ce_corduene_petroglyph.dds"
+		color1 = "offwhite"
+		instance = { scale = { 0.95 0.9 }}
+	}
+}
+
+KDR = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 84 27 92 }
+	
+	colored_emblem = {
+		texture = "ce_venetic_goat_1.dds"
+		color1 = rgb { 46 32 9 }
+		color2 = rgb { 158 144 121 }
+	}
+	colored_emblem = {
+		texture = "ce_border_simple_square.dds"
+		color1 = rgb { 142 140 44 }
+	}
+}
+
+CLA = {
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = "ck2_white"
+	color2 = "roman_red"
+	color3 = "ck2_white"
+	
+	colored_emblem = {
+		texture = "ce_venetic_warrior.dds"
+		color1 = "pink_skin"
+		color2 = rgb { 125 79 5 }
+	}
+}
