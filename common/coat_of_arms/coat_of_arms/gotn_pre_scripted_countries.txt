@@ -1269,3 +1269,114 @@ AKH = {
 		instance = { rotation = -90 } 
 	}
 }
+
+BRL = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 78 112 58 }
+
+	colored_emblem = {
+		texture = "ce_tyrsenia_sea_people.dds"
+		color1 = rgb { 111 80 36 }
+		instance = { scale { 0.95 0.95 } position = { 0.50 0.50 } } 
+	}
+	colored_emblem = {
+		texture = "ce_border_dacian_01.dds"
+		color1 = rgb { 48 118 124 }
+		instance = { position = { 0.50 1.30 } }
+	}
+}
+
+MOE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 132 142 149 }
+	
+	colored_emblem = {
+		texture = "ce_border_centre_thracian_base_02.dds"
+		color1 = rgb { 26 91 138 }
+		color2 = "silver"
+		instance = { scale { 1.20 1.20 } }
+	}
+	colored_emblem = {
+		texture = "ce_scythia.dds"
+		color1 = rgb { 26 91 138 }
+		color2 = "silver"
+		instance = { scale { 0.55 0.55 } position { 0.25 0.50 } }
+
+	}
+	colored_emblem = {
+		texture = "ce_scythia.dds"
+		color1 = rgb { 26 91 138 }
+		color2 = "silver"
+		instance = { scale { 0.55 0.55 } position { 0.75 0.50 } }
+	}
+}
+
+AGU = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 115 91 127 }
+
+	colored_emblem = {
+		texture = "ce_bipennis_metokos.dds"
+		color1 = "silver"
+		color2 = "roman_gold"
+		instance = { position { 0.50 0.50 } scale { 0.90 0.90 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_simple_03.dds"
+		color1 = rgb { 115 91 127 }
+		color2 = "roman_gold"
+	}
+	colored_emblem = {
+		texture = "ce_border_simple_03.dds"
+		color1 = "roman_gold"
+		color2 = rgb { 115 91 127 }
+		instance = { position = { 0.50 1.38 } }
+	}
+}
+
+OXB = {
+	pattern = "pattern_solid.tga"
+	color1 = "desaturated_green"
+
+	colored_emblem = {
+		texture = "ce_bull_05.dds"
+		color1 = rgb { 26 91 138 }
+		color2 = "iberian_sun"
+	}
+	colored_emblem = {
+		texture = "ce_11_2.dds"
+		color1 = rgb { 26 91 138 }
+		color2 = "iberian_sun"
+		instance = { scale { 0.80 0.80 } position = { 0.50 0.50 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_meander_04.dds"
+		color1 = rgb { 26 91 138 }
+		color2 = "iberian_sun"
+	}
+	colored_emblem = {
+		texture = "ce_border_meander_04.dds"
+		color1 = rgb { 26 91 138 }
+		color2 = "iberian_sun"
+		instance = { position = { 0.50 1.40 } }
+	}
+}
+
+CPA = {
+	pattern = "pattern_solid.tga"
+	color1 = "iberian_sun"
+
+	colored_emblem = {
+		texture = "ce_venetic_arm.dds"
+		color1 = rgb { 209 208 204 }
+	}
+	colored_emblem = {
+		texture = "ce_border_iberian_sun_02.dds"
+		color1 = rgb { 209 208 204 }
+	}
+	colored_emblem = {
+		texture = "ce_border_iberian_sun_02.dds"
+		color1 = rgb { 209 208 204 }
+		instance = { position = { 0.50 0.50} rotation = 180 } }
+	}
+}
