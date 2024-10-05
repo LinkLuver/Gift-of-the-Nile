@@ -1071,3 +1071,93 @@ CLA = {
 		color2 = rgb { 125 79 5 }
 	}
 }
+
+PHR = {
+    pattern = "pattern_solid.tga"
+    color1 = rgb { 21 80 13 }
+    color2 = "light_gold"
+
+    colored_emblem = {
+        texture = "ce_helladic_glyph_6.dds"
+        color1 = "light_gold"
+        instance = { scale = { 0.9 0.9 } }
+    }
+
+    colored_emblem = {
+		texture = "ce_border_stars_01.dds"
+		color1 = "light_gold"
+        instance = {
+            rotation = 0
+        }
+        instance = {
+            rotation = 180
+        }
+	}
+}
+
+LYC = {
+    pattern = "pattern_solid.tga"
+    color1 = rgb { 212 7 25 }
+    color2 = "numidia_yellow"
+
+    colored_emblem = {
+        texture = "ce_ship_01.dds"
+        color1 = "numidia_yellow"
+        instance = {
+            scale = { 0.9 0.9 }
+        }
+    }
+}
+
+AMM = {
+    pattern = "pattern_solid.tga"
+    color1 = rgb { 15 108 4 }
+    color2 = rgb { 135 89 0 }
+
+    colored_emblem = {
+        texture = "ce_seven_gates.dds"
+        color1 = rgb { 162 113 17 }
+		color2 = rgb { 162 113 17 }
+    }
+    colored_emblem = {
+		texture = "ce_border_leaves_01.dds"
+		color1 = rgb { 162 113 17 }
+		color2 = "ck2_white"
+		
+		instance = { scale = { 1.0 1.0 }  position = { 0.50 0.50 } rotation = 180 }
+	}
+	colored_emblem = {
+		texture = "ce_border_leaves_01.dds"
+		color1 = rgb { 162 113 17 }
+		color2 = "ck2_white"
+		
+		instance = { scale = { 1.0 1.0 }  position = { 0.50 -0.38 } rotation = 180 }
+	}
+}
+
+MOA = {
+    pattern = "pattern_solid.tga"
+    color1 = "roman_red"
+ 
+    colored_emblem = {
+        texture = "ce_sumerian_goat.dds"
+        color1 = "silver"
+        instance = { position = { 0.5 0.55 } }
+	}	
+	colored_emblem = {
+		texture = "ce_border_zigzag_03.dds"
+		color1 = "silver"
+		color2 = rgb { 4 0 0 }
+	}
+}	
+
+EDO = {
+    pattern = "pattern_solid.tga"
+    color1 = rgb { 3 0 0 }
+    
+    colored_emblem = {
+        texture = "ce_judea_symbol.dds"
+        color1 = rgb { 115 2 2 }
+    }
+}
+
