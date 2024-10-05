@@ -1153,11 +1153,119 @@ MOA = {
 
 EDO = {
     pattern = "pattern_solid.tga"
-    color1 = rgb { 3 0 0 }
+    color1 = hsv { 0.9 0.5 0.2 }
     
     colored_emblem = {
         texture = "ce_judea_symbol.dds"
-        color1 = rgb { 115 2 2 }
+        color1 = rgb { 132 6 21 }
     }
 }
 
+SWR = {
+    pattern = "pattern_solid.tga"
+    color1 = rgb { 64 125 145 }
+    
+    colored_emblem = {
+        texture = "ce_tyre_coin.dds"
+        color1 = rgb { 162 187 206 }
+		instance = { scale = { 0.9 0.9 } position = { 0.50 0.50 } }
+    }
+	colored_emblem = {
+        texture = "ce_tyre_letters.dds"
+        color1 = "silver"
+		instance = { scale = { 0.5 0.5 } position = { 0.50 0.75 } } 
+    }
+}
+
+YPO = {
+    pattern = "pattern_solid.tga"
+    color1 = rgb { 234 235 212 }
+    
+    colored_emblem = {
+        texture = "ce_prow_demetrias.dds"
+        color1 = "silver"
+		color2 = rgb { 115 2 2 }
+		color3 = rgb { 234 235 212 }
+		instance = { scale = { 0.8 0.8 } position = { 0.50 0.75 } } 
+    }
+	colored_emblem = {
+        texture = "ce_sun_01.dds"
+        color1 = rgb { 199 201 108 }
+		instance = { scale = { 0.6 0.6 } position = { 0.50 0.30 } }
+    }
+}
+
+HKS = {
+	pattern = "pattern_solid.tga"
+	color1 = hsv { 0.82 0.30 0.80 }
+	
+	colored_emblem = {
+		texture = "ce_caria_satrapy_star.dds"
+		color1 = rgb {31 64 80}
+		color2 = "iberian_sun"
+	}
+}
+
+GAL = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {155 64 129 }
+
+	colored_emblem = {
+		texture = "ce_grain_pair.dds"
+		color1 = "iberian_sun"
+	}
+}
+
+KIT = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {132 142 149 }
+
+	colored_emblem = {
+		texture = "ce_egypt_kitty.dds"
+		color1 = rgb { 26 91 138 }
+	}
+}
+
+CYP = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 26 91 138 }
+
+	colored_emblem = {
+		texture = "ce_aphrodite_a.dds"
+		color1 = "iberian_sun"
+		color2 = rgb { 154 185 208 }
+	}
+	colored_emblem = {
+		texture = "ce_aphrodite_b.dds"
+		color1 = "iberian_sun"
+	}
+}
+
+AKH = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 67 60 52 }
+
+	colored_emblem = {
+		texture = "ce_venetic_dagger.dds"
+		color1 = "iberian_sun"
+		instance = { scale { 1.30 1.30 } rotation = 35 } 
+	}
+	colored_emblem = {
+		texture = "ce_club.dds"
+		color1 = "iberian_sun"
+		color2 = "silver"
+		instance = { scale { 1.10 1.10 } rotation = -35 }
+	}
+	colored_emblem = {
+		texture = "ce_border_rug_03.dds"
+		color1 = rgb { 67 60 52 }
+		color2 = "iberian_sun"
+		instance = { rotation = 90 } 
+	}
+	colored_emblem = {
+		texture = "ce_border_rug_03.dds"
+		color1 = rgb { 67 60 52 }
+		color2 = "iberian_sun"
+		instance = { rotation = -90 } 
+	}
+}
