@@ -20,11 +20,17 @@
  PHOENICIA_ADJECTIVE_2:0 "Philistinians"
  # Israel
  ISRAEL_FORMABLE_NAME_2:0 "Form Kena'an"
- ISRAEL_FORMABLE_ADJECTIVE_2:0 "Hebrew"
+ ISRAEL_FORMABLE_ADJECTIVE_2:0 "Kena'anite"
+
+ # Kingdom of Ishmael
+ form_ishmael:0 "Found the Kingdom of Isma'il"
+ form_ishmael_desc:0 "Once cast out into the deserts, the prophet #Y Isma'il#! became patron of the #Y Qedarites#!. We now reclaim his rightful birthplace, for we are the sons of that very same #Y Isma'il#!, we are the righteous sons! May #E Alaha#! guide us to glory!"
+ ISHMAEL_FORMABLE_NAME:0 "Kingdom of Isma'il"
+ ISHMAEL_FORMABLE_ADJECTIVE:0 "Ismailite"
  
  ## Mesopotamian Formables ##
  # Chaldean Empire
- form_babylon:0 "Chaldean Empire"
+ form_babylon:0 "Found Chaldean Empire"
  form_babylon_desc:0 "#E Babylon#! was once the home to the greatest of powers. For a long time, we suffered under the foot of the #Y Neo-Assyrians#!, until we gloriously broke free. Now we have come to dominate the lands we once struggled with under the Neo-Assyrians. The dawn of #Y Neo-Babylon#! has come, otherwise called the #Y Chaldean Empire#!."
  BABYLON_NAME_true:0 "Chaldean Empire"
  NINIVE_NAME:0 "Ninive"

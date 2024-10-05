@@ -1,0 +1,63 @@
+﻿country_decisions = {
+	form_ishmael = {
+		potential = {
+			num_of_cities >= 1
+			tag = QAY 
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+				tag = ISH
+			}
+		}
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 723 #Hippos
+					province_id = 680 #Shekhem
+					province_id = 684 #Jericho
+					province_id = 687 #Jerusalem
+					province_id = 691 #Hebron
+					province_id = 742 #Kadasa
+					province_id = 670 #Ake
+					province_id = 660 #Askalon
+					province_id = 664 #Apollonia Palaistinias
+					province_id = 732
+				}
+			}
+		}
+		allow = {
+			trigger_if = {
+				limit = {
+					is_ai = no
+				}
+				religion = judaism
+			}
+			owns_or_subject_owns = 723 #Hippos
+			owns_or_subject_owns = 680 #Shekhem
+			owns_or_subject_owns = 684 #Jericho
+			owns_or_subject_owns = 687 #Jerusalem
+			owns_or_subject_owns = 691 #Hebron
+			owns_or_subject_owns = 742 #Kadasa
+			owns_or_subject_owns = 670 #Ake
+			owns_or_subject_owns = 660 #Askalon
+			owns_or_subject_owns = 664 #Apollonia Palaistinias
+			owns_or_subject_owns = 732 #Ishmael's Holy Site
+		}
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "ISHMAEL_FORMABLE_NAME"
+			monarchy_formable_government_change_effect = yes
+			capital_scope = {
+				capital_formable_small_effect = yes
+			}
+			add_3_free_province_investments = yes
+			set_country_religion = judaism
+			hidden_effect = {
+				change_country_adjective = "ISHMAEL_FORMABLE_ADJECTIVE"
+				change_country_tag = ISR
+				change_government = judean_empire
+				change_country_color = ck2_green
+			}
+		}
+	}
+}
