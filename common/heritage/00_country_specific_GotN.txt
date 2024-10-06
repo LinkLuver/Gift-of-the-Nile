@@ -1025,6 +1025,9 @@ etruscan_heritage = {
 
     trigger = {
         primary_culture = etruscan
+        NOR = {
+            tag = ALE
+        }
     }
 }
 
@@ -8176,21 +8179,6 @@ mago_heritage = {
     }
 }
 
-aleria_heritage = {
-    modifier = {
-        #good
-        garrison_size = 0.15
-        ship_capture_chance = 0.1      
-        
-        #bad
-        naval_damage_taken = 0.05
-    }
-    
-    trigger = {
-        tag = ALE
-    }
-}
-
 dertossa_heritage = {
     modifier = {
         #good
@@ -8672,5 +8660,33 @@ aigina_heritage = {
    
     trigger = {
         tag = AGI
+    }
+}
+
+ourkinion_heritage = {
+    modifier = {
+        #good
+        manpower_recovery_speed = 0.06
+        spearmen_defensive = 0.10
+        #bad
+        happiness_for_wrong_culture_group_modifier = -0.06
+    }
+   
+    trigger = {
+        tag = OUR
+    }
+}
+
+alerian_heritage = {
+    modifier = {
+        #good
+        global_citizen_output = 0.05
+        global_tax_modifier= 0.10
+        #bad
+        naval_damage_taken = 0.10
+    }
+   
+    trigger = {
+        tag = ALE
     }
 }

@@ -10,6 +10,7 @@ country_decisions = {
 				is_tier_1_formable_trigger = yes
 				is_tier_2_formable_trigger = yes
 				is_endgame_tag_trigger = yes
+				has_variable = has_formed_troas
 			}
 		}
 		
@@ -20,8 +21,9 @@ country_decisions = {
 					province_id = 256
 					province_id = 255
 					province_id = 281
-					province_id = 268
+					province_id = 261
 					province_id = 258
+					province_id = 259
 				}
 			}
 		}
@@ -40,13 +42,15 @@ country_decisions = {
 			owns_or_subject_owns = 256
 			owns_or_subject_owns = 255
 			owns_or_subject_owns = 281
-			owns_or_subject_owns = 268
+			owns_or_subject_owns = 261
 			owns_or_subject_owns = 258
+			owns_or_subject_owns = 259
 		}
 		
 		effect = {
 			custom_tooltip = "tier_1_formable_tooltip"
 			change_country_name = "TROAS_NAME"
+			set_variable = has_formed_troas
 			hidden_effect = {
 				change_country_adjective = "TROAS_ADJECTIVE"
 				change_country_color = "spartan_ocra"

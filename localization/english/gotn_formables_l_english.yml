@@ -67,7 +67,21 @@
  SHIKALA_NAME:0 "Shikala"
  SHIKALA_ADJECTIVE:0 "Shekelesh"
  form_shikala:0 "Form Shikala"
- form_shikala_desc:0 "With power consolodated across the island of #Y Shikala#!, the ancient home of the #Y Shekelesh#! has been claimed by the kin of the #Y Nile#!. We shall usher in a new era for this island, a rare piece of #Y Kemet#! away from #Y Kemet#!."
+ form_shikala_desc:0 "With power consolodated across the island of #Y Shikala#!, the ancient home of the #Y Shekelesh#! has been claimed by the kin of the #Y Nile#!. We shall usher in a new era for this island, a rare piece of #Y Kemet#! away from #Y Kemet#!." 
+ # Kingdom of Sardin and Kyrsm
+ SARDIN_NAME:0 "League of Sardin and Kyrsm"
+ SARDIN_NAME:0 "Sardinian"
+ formable_not_sardin_exists:0 "The #Y League Sardin and Kyrsm#! doesn't exist."
+ sardin_mod:0 "Punic Prosperity"
+ form_sardin:0 "Declare Punic hegemony over Sardin and Kyrsm"
+ form_sardin_desc:0 "For generations we have inhabited these islands, building, farming, and trading. No longer will we be pestered by the #Y Nuragic#! tribes, #Y Sardin#! and #Y Kyrsm#! must belong to us!"
+ # Kyrnos 
+ KYRNOS_NAME:0 "Kyrnos"
+ KYRNOS_ADJECTIVE: "Kyrnossan"
+ formable_not_kyrnos_exists:0 "#Y Kyrnos#! doesn't exist"
+ kyrnos_mod:0 "Reclamation of Alalia"
+ form_kyrnos:0 "Reclaim Alalia"
+ form_kyrnos_desc:0 "Over 140 years ago, those accursed #Y Etruscans#! forced us out of our city, #Y Alalia#!. Between them and the #Y Corsicans#!, the island of Kyrnos must be controlled one group. We will reconquer #Y Alalia#!, and conquer Kyrnos for ourselves!"
 
  ## Iberia Formables
  IBERIA_NAME2:0 "Spania"
@@ -75,7 +89,7 @@
  form_spania:0 "Form Spania"
  form_spania_desc:0 "The #Y Ibero-Punic#! people of #Y Iberia#! call this land #Y Spania#!, and henceforth all shall know it as the great land of the #Y Spanians#!! From humble origins being the furthest of #Y Phoenecian#! coloniae, we now proclaim ourselves a proper powerhouse of this land, on the exact opposite side to that of our forefathers."
  LEAGUE_NAME:0 "League of The Pillars"
- LEAGUE_NAME:0 "Pillarian"
+ LEAGUE_ADJECTIVE:0 "Pillarian"
  form_league:0 "Form the League of The Pillars"
  form_league_desc:0 "The wealthy cities centered around the #Y 'Pillars of Hercules'#! could become rich beyond comparison, if they can be united. These cities could surely surpass the grandeur of the great cities of the East."
  

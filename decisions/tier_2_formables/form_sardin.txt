@@ -1,0 +1,65 @@
+country_decisions = {
+	
+	# Form Sardin and Krysm
+	form_sardin = {
+		
+		potential = {
+			num_of_cities >= 1
+			tag = CTU
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = sardinia_meridionalis
+					is_in_area = sardinia_septentrionalis
+					is_in_area = corsica_area
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = "formable_not_sardin_exists"
+				NOT = {
+					any_country = {
+						tag = "SKD"
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns_area = sardinia_meridionalis
+			owns_or_subject_owns_area = sardinia_septentrionalis
+			owns_or_subject_owns_area = corsica_area
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "SARDIN_NAME"
+			hidden_effect = {
+				change_country_adjective = "SARDIN_ADJECTIVE"
+				change_country_color = "silver"
+				change_country_tag = "SKD"
+			}
+			capital_scope = {
+				capital_formable_large_effect = yes
+				formable_capital_modifier_large_effect = yes
+			}
+			add_3_free_province_investments = yes
+			add_country_modifier = {
+				name = sardin_mod
+				duration = 3520
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+}

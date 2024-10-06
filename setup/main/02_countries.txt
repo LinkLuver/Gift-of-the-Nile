@@ -11004,7 +11004,7 @@ country = {
 		}
 
 		PON = {
-			government = tribal_kingdom
+			government = tribal_federation
 			primary_culture = cappadocian
 			religion = anatolian_religion
 
@@ -11019,7 +11019,7 @@ country = {
 		}
 
 		PAP = {
-			government = despotic_monarchy
+			government = tribal_federation
 			primary_culture = paphlagonian
 			religion = hatti_religion
 
@@ -15543,7 +15543,7 @@ country = {
 			capital = 3505
 
 			own_control_core = {
-				3505 3506 3504
+				3505 3506 3504 3508 3509
 			}
 		}
 		#Coracensia
@@ -16237,6 +16237,27 @@ country = {
 			9071 9072 9073 9074 9075 9076 9077 9078 9079 9080 9081 9082
 			8959 8960 8961 8962 8963 8964 8965 8966 8967 8968 8969
 			}
+		}
+
+		OUR = {
+			government = aristocratic_republic
+			primary_culture = massalian
+			diplomatic_stance=warmongering_stance
+			religion = roman_pantheon
+	
+			capital = 3510
+	
+			technology={
+			military_tech={ level=2 progress=0 }
+			civic_tech={ level=2 progress=0 }
+			oratory_tech={ level=2 progress=0 }
+			religious_tech= { level=2 progress=0  }
+			}
+	
+			own_control_core = 	{
+			3510 3511 3512
+			}
+	
 		}
 		
 		SA4 = {

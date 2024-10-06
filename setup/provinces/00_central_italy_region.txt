@@ -1,4 +1,4 @@
-﻿1={ #Roma
+1={ #Roma
 	terrain="farmland"
 	culture="roman"
 	religion="italic_pantheon"
@@ -2586,44 +2586,66 @@
 
 3510={ #Ourkinion
 	terrain="hills"
-	culture="corsian"
-	religion="nuragic_pantheon"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		religion="druidism"
+	province_rank="city"
+	nobles={
 		amount=2
+	}
+	citizen={
+		amount=3
 	}
 	freemen={
-		amount=2
+		amount=3
+	}
+	freemen={
+		culture="etruscan"
+		religion="italic_pantheon"
+		amount=1
+	}
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	freemen={
+		culture="corsian"
+		religion="nuragic_pantheon"
+		amount=4
 	}
 	slaves={
-		religion="druidism"
+		culture="corsian"
+		religion="nuragic_pantheon"
 		amount=1
 	}
 	tribesmen={
+		culture="corsian"
+		religion="nuragic_pantheon"
 		amount=2
 	}
+	port_building=1
 }
 
 3511={ #Alouka
 	terrain="hills"
-	culture="corsian"
-	religion="nuragic_pantheon"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		religion="druidism"
 		amount=1
 	}
 	freemen={
 		amount=2
 	}
 	slaves={
+		culture="corsian"
+		religion="nuragic_pantheon"
 		amount=1
 	}
 	port_building=1
@@ -2631,14 +2653,15 @@
 
 3512={ #Rhopikon
 	terrain="hills"
-	culture="corsian"
+	culture="nuragic"
 	religion="nuragic_pantheon"
 	trade_goods="fish"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		religion="druidism"
+		culture="massalian"
+		religion="roman_pantheon"
 		amount=3
 	}
 	freemen={
@@ -2700,8 +2723,8 @@
 
 3515={ #Alalia
 	terrain="farmland"
-	culture="massalian"
-	religion="roman_pantheon"
+	culture="etruscan"
+	religion="italic_pantheon"
 	trade_goods="honey"
 	civilization_value=39
 	barbarian_power=0
@@ -2726,7 +2749,8 @@
 		amount=6
 	}
 	freemen={
-		culture="etruscan"
+		culture="massalian"
+		religion="roman_pantheon"
 		amount=2
 	}
 	slaves={
