@@ -3,6 +3,7 @@
 		potential = {
 			num_of_cities >= 1
 			tag = ADI
+			NOT = { has_variable = affirm_assyria_var }
 		}
 		highlight = {
 			scope:province = {
@@ -21,6 +22,7 @@
 			owns_or_subject_owns_region = palestine_region
 		}
 		effect = {
+			set_variable = affirm_assyria_var
 			capital_scope = {
 				capital_formable_small_effect = yes
 				formable_capital_modifier_normal_effect = yes

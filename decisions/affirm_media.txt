@@ -3,6 +3,7 @@
 		potential = {
 			num_of_cities >= 1
 			tag = MAP
+			has_variable = affirm_media_var
 		}
 		highlight = {
 			scope:province = {
@@ -25,6 +26,7 @@
 			owns_or_subject_owns_region = ariana_region
 		}
 		effect = {
+			set_variable = affirm_media_var
 			change_government = imperium
 			capital_scope = {
 				capital_formable_small_effect = yes

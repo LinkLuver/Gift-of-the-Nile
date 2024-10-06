@@ -116,7 +116,7 @@ medjed_heritage = {
     modifier = {
         #good
         global_defensive = 0.1
-        hostile_attrition = 2
+        hostile_attrition = 0.5
 
         #bad
         camels_offensive = -0.10
