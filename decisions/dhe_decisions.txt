@@ -1,7 +1,14 @@
 ﻿country_decisions = {
 	construction_of_the_pharos = {
 		potential = {
+			NOT = { has_global_variable = started_building_pharos }
 			num_of_cities >= 1
+			OR = {
+				owns = 516
+				owns = 529
+				owns = 7691
+				owns = 7688
+			}
 			region:lower_egypt_region = {
 				any_region_province = {
 					NOR = { 
@@ -20,17 +27,35 @@
 		highlight = {
 			scope:province = {
 				province_id = 516
+				province_id = 529
+				province_id = 7691
+				province_id = 7688
 			}
 		}
 		allow = {
 			treasury >= 1200
 			stability > 50
-			p:516 = {
-				free_building_slots >= 1
-				great_work_locator_is_free = secondary_great_work
+			OR = {
+				p:516 = {
+					free_building_slots >= 1
+					great_work_locator_is_free = primary_great_work
+				}
+				p:529 = {
+					free_building_slots >= 1
+					great_work_locator_is_free = primary_great_work
+				}
+				p:7691 = {
+					free_building_slots >= 1
+					great_work_locator_is_free = primary_great_work
+				}
+				p:7688 = {
+					free_building_slots >= 1
+					great_work_locator_is_free = primary_great_work
+				}
 			}
 		}
 		effect = {
+			set_global_variable = started_building_pharos
 			add_treasury = -1200
 			custom_tooltip = "dhe_pharos_tooltip"	
 			hidden_effect = {
@@ -49,12 +74,24 @@
 					id = "dhe_pharos_lighthouse.1"
 					days = { 200 400 }
 				}
-				p:516 = {
+				random_owned_province = {
+					limit = {
+						OR = {
+							province_id = 516
+							province_id = 529
+							province_id = 7691
+							province_id = 7688
+						}
+						owner = ROOT
+						free_building_slots >= 1
+						great_work_locator_is_free = primary_great_work
+					}
 					begin_great_work_construction = {
 						great_work = "lighthouse_of_alexandria"
-						locator = secondary_great_work
+						locator = primary_great_work
 						is_ancient = yes						
 					}
+					save_scope_as = lighthouse_scope
 				}
 			}
 		}
@@ -171,7 +208,7 @@
 			religion = roman_pantheon
 			p:266 = {
 				free_building_slots >= 1
-				great_work_locator_is_free = secondary_great_work
+				great_work_locator_is_free = primary_great_work
 			}
 		}
 		effect = {
@@ -204,7 +241,7 @@
 				p:266 = {
 					begin_great_work_construction = {
 						great_work = "colossus_of_rhodes"
-						locator = secondary_great_work
+						locator = primary_great_work
 						is_ancient = yes						
 					}
 				}

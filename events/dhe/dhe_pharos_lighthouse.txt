@@ -9,7 +9,7 @@ dhe_pharos_lighthouse.1 = {
 		if = {
 			limit = { # Check if the building is completed or under progress
 				var:pharos_lighthouse_progress < 5 
-				owns = 516
+				owns = scope:lighthouse_scope
 			}
 			random_list = { # Progress Events
 				2 = { # Building progresses without any event
@@ -21,7 +21,7 @@ dhe_pharos_lighthouse.1 = {
 				2 = { # Complication - Drought
 					trigger = {
 						NOT = {
-							p:516 = {
+							scope:lighthouse_scope = {
 								has_province_modifier = province_diminishment_starvation_lighthouse
 							}
 						}
@@ -73,7 +73,7 @@ dhe_pharos_lighthouse.1 = {
 		else_if = {
 			limit = {
 				var:pharos_lighthouse_progress = 5
-				owns = 516
+				scope:lighthouse_scope
 			}
 			if = {
 				limit = {
@@ -117,10 +117,10 @@ dhe_pharos_lighthouse.2 = {
 	left_portrait = current_ruler
 	right_portrait = scope:random_advisor
 
-	goto_location = p:516
+	goto_location = scope:lighthouse_scope
 	
 	trigger = {
-		owns = 516
+		owns = scope:lighthouse_scope
 		any_character = {
 			has_any_office = yes
 			is_ruler = no
@@ -157,7 +157,7 @@ dhe_pharos_lighthouse.2 = {
 			min = -900
 			max = -250
 		}
-		p:516 = {
+		scope:lighthouse_scope = {
 			add_province_modifier = {
 				name = province_diminishment_starvation_lighthouse
 				duration = 3650
@@ -174,7 +174,7 @@ dhe_pharos_lighthouse.2 = {
 	option = {
 		name = "dhe_pharos_lighthouse.2.c"
 		custom_tooltip = "dhe_pharos_lighthouse.2.c.tt"
-		p:516 = {
+		scope:lighthouse_scope = {
 			add_province_modifier = {
 				name = province_diminishment_starvation_lighthouse
 				duration = 3650
@@ -198,10 +198,10 @@ dhe_pharos_lighthouse.3 = {
 	left_portrait = current_ruler
 	right_portrait = scope:random_advisor
 	
-	goto_location = p:516
+	goto_location = scope:lighthouse_scope
 
 	trigger = {
-		owns = 516
+		owns = scope:lighthouse_scope
 		any_character = {
 			has_any_office = yes
 			is_ruler = no
@@ -261,10 +261,10 @@ dhe_pharos_lighthouse.4 = {
 	picture = quarry
 	left_portrait = current_ruler
 	
-	goto_location = p:516
+	goto_location = scope:lighthouse_scope
 
 	trigger = {
-		owns = 516
+		owns = scope:lighthouse_scope
 	}
 
 	immediate = {
@@ -314,10 +314,10 @@ dhe_pharos_lighthouse.5 = {
 	picture = natural_disaster
 	left_portrait = current_ruler
 	
-	goto_location = p:516
+	goto_location = scope:lighthouse_scope
 
 	trigger = {
-		owns = 516
+		owns = scope:lighthouse_scope
 	}
 
 	immediate = {
@@ -355,10 +355,10 @@ dhe_pharos_lighthouse.6 = {
 	picture = quarry
 	left_portrait = current_ruler
 	
-	goto_location = p:516
+	goto_location = scope:lighthouse_scope
 
 	trigger = {
-		owns = 516
+		owns = scope:lighthouse_scope
 	}
 
 	immediate = {
@@ -404,10 +404,10 @@ dhe_pharos_lighthouse.10 = {
 
 	left_portrait = current_ruler
 	
-	goto_location = p:516
+	goto_location = scope:lighthouse_scope
 
 	trigger = {
-		owns = 516
+		owns = scope:lighthouse_scope
 	}
 
 	immediate = {
@@ -428,22 +428,22 @@ dhe_pharos_lighthouse.11 = {
 
 	left_portrait = current_ruler
 
-	goto_location = p:516
+	goto_location = scope:lighthouse_scope
 	
 	trigger = {
-		owns = 516
+		owns = scope:lighthouse_scope
 	}
 
 	immediate = {
-
+		remove_global_variable = started_building_pharos
 	}
 
 	option = {
 		name = "dhe_pharos_lighthouse.11.a"
-		p:516 = {
+		scope:lighthouse_scope = {
 			finish_great_work_construction = {
 				great_work = "lighthouse_of_alexandria"
-				locator = secondary_great_work
+				locator = primary_great_work
 			}
 			set_variable = {
 				name = built_pharos
@@ -465,22 +465,22 @@ dhe_pharos_lighthouse.12 = {
 
 	left_portrait = current_ruler
 
-	goto_location = p:516
+	goto_location = scope:lighthouse_scope
 	
 	trigger = {
-		owns = 516
+		owns = scope:lighthouse_scope
 	}
 
 	immediate = {
-
+		remove_global_variable = started_building_pharos
 	}
 
 	option = {
 		name = "dhe_pharos_lighthouse.12.a"
-		p:516 = {
+		scope:lighthouse_scope = {
 			finish_great_work_construction = {
 				great_work = "lighthouse_of_alexandria"
-				locator = secondary_great_work
+				locator = primary_great_work
 			}
 			set_variable = {
 				name = built_pharos
@@ -502,22 +502,22 @@ dhe_pharos_lighthouse.13 = {
 
 	left_portrait = current_ruler
 	
-	goto_location = p:516
+	goto_location = scope:lighthouse_scope
 
 	trigger = {
-		owns = 516
+		owns = scope:lighthouse_scope
 	}
 
 	immediate = {
-
+		remove_global_variable = started_building_pharos
 	}
 
 	option = {
 		name = "dhe_pharos_lighthouse.13.a"
-		p:516 = {
+		scope:lighthouse_scope = {
 			finish_great_work_construction = {
 				great_work = "lighthouse_of_alexandria"
-				locator = secondary_great_work
+				locator = primary_great_work
 			}
 			set_variable = {
 				name = built_pharos
