@@ -10774,6 +10774,15 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
+			pantheon = {
+
+				{ deity = 175 }
+				{ deity = 354 }
+				{ deity = 30504 }
+				{ deity = 117 }
+	
+				}
+
 			own_control_core = 	{
 				257 260 268 261
 			}

@@ -2589,17 +2589,17 @@
 	culture="massalian"
 	religion="roman_pantheon"
 	trade_goods="wood"
-	civilization_value=0
+	civilization_value=23
 	barbarian_power=0
 	province_rank="city"
 	nobles={
 		amount=2
 	}
 	citizen={
-		amount=3
+		amount=2
 	}
 	freemen={
-		amount=3
+		amount=2
 	}
 	freemen={
 		culture="etruscan"
@@ -2619,7 +2619,7 @@
 	slaves={
 		culture="corsian"
 		religion="nuragic_pantheon"
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		culture="corsian"
@@ -2634,7 +2634,7 @@
 	culture="massalian"
 	religion="roman_pantheon"
 	trade_goods="fish"
-	civilization_value=0
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -2656,7 +2656,7 @@
 	culture="nuragic"
 	religion="nuragic_pantheon"
 	trade_goods="fish"
-	civilization_value=0
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={

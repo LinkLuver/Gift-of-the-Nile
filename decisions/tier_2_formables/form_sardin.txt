@@ -10,6 +10,7 @@ country_decisions = {
 				is_tier_1_formable_trigger = yes
 				is_tier_2_formable_trigger = yes
 				is_endgame_tag_trigger = yes
+				has_variable = has_formed_sardin
 			}
 		}
 		
@@ -41,6 +42,7 @@ country_decisions = {
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
 			change_country_name = "SARDIN_NAME"
+			set_variable = has_formed_sardin
 			hidden_effect = {
 				change_country_adjective = "SARDIN_ADJECTIVE"
 				change_country_color = "silver"
