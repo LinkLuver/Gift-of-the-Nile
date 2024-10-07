@@ -26,10 +26,12 @@
 		}
 		highlight = {
 			scope:province = {
-				province_id = 516
-				province_id = 529
-				province_id = 7691
-				province_id = 7688
+				OR = {
+					province_id = 516
+					province_id = 529
+					province_id = 7691
+					province_id = 7688
+				}
 			}
 		}
 		allow = {
@@ -57,7 +59,7 @@
 		effect = {
 			set_global_variable = started_building_pharos
 			add_treasury = -1200
-			custom_tooltip = "dhe_pharos_tooltip"	
+			custom_tooltip = "dhe_pharos_tooltip"
 			hidden_effect = {
 				set_variable = {
 					name = pharos_lighthouse_progress
