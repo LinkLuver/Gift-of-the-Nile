@@ -106,68 +106,68 @@
 		}
 	}
 
-	found_the_museion = { #Library of Alexandria
-		potential = {
-			has_dlc = "Hellenistic World Flavor Pack"
-			num_of_cities >= 1
-			owns = 516
-			country_culture_group = hellenic
-			p:516 = {
-				NOR = { 
-					has_province_modifier = museion_of_alexandria 
-					has_province_modifier = country_modifier_broken_museion
-					has_variable = museion_of_alexandria_var
-				}
-			}
-			NOT = {
-				has_variable = museion_progress
-			}
-		}
-		highlight = {
-			scope:province = {
-				province_id = 516
-			}
-		}
-		allow = {
-			treasury >= 1500
-			stability > 60
-			p:516 = {
-				free_building_slots >= 1
-				great_work_locator_is_free = primary_great_work
-			}
-		}
-		effect = {
-			add_treasury = -1500
-			custom_tooltip = "dhe_museion_tooltip"
-			hidden_effect = {
-				set_variable = {
-					name = museion_progress
-					value = 1
-				}
-				trigger_event = {
-					id = "dhe_museion.10"
-				}
-				trigger_event = {
-					id = "dhe_museion.1"
-					days = { 200 400 }
-				}
-				p:516 = {
-					begin_great_work_construction = {
-						great_work = "library_of_alexandria"
-						locator = primary_great_work
-						is_ancient = yes						
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				war = yes
-			}
-		}
-	}
+	#found_the_museion = { #Library of Alexandria
+	#	potential = {
+	#		has_dlc = "Hellenistic World Flavor Pack"
+	#		num_of_cities >= 1
+	#		owns = 882
+	#		country_culture_group = mesopotamian
+	#		p:882 = {
+	#			NOR = { 
+	#				has_province_modifier = museion_of_alexandria 
+	#				has_province_modifier = country_modifier_broken_museion
+	#				has_variable = museion_of_alexandria_var
+	#			}
+	#		}
+	#		NOT = {
+	#			has_variable = museion_progress
+	#		}
+	#	}
+	#	highlight = {
+	#		scope:province = {
+	#			province_id = 882
+	#		}
+	#	}
+	#	allow = {
+	#		treasury >= 1500
+	#		stability > 60
+	#		p:882 = {
+	#			free_building_slots >= 1
+	#			great_work_locator_is_free = primary_great_work
+	#		}
+	#	}
+	#	effect = {
+	#		add_treasury = -1500
+	#		custom_tooltip = "dhe_museion_tooltip"
+	#		hidden_effect = {
+	#			set_variable = {
+	#				name = museion_progress
+	#				value = 1
+	#			}
+	#			trigger_event = {
+	#				id = "dhe_museion.10"
+	#			}
+	#			trigger_event = {
+	#				id = "dhe_museion.1"
+	#				days = { 200 400 }
+	#			}
+	#			p:516 = {
+	#				begin_great_work_construction = {
+	#					great_work = "library_of_alexandria"
+	#					locator = primary_great_work
+	#					is_ancient = yes						
+	#				}
+	#			}
+	#		}
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#		modifier = {
+	#			factor = 0
+	#			war = yes
+	#		}
+	#	}
+	#}
 
 	construction_of_the_colossus = {
 		potential = {
