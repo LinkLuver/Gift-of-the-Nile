@@ -761,6 +761,50 @@ deity_baalsemed = { # CULTURE
 		}
 	}
 }
+deity_mopsos = { # CULTURE
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			tag = HIT
+			primary_culture = cypriot
+			primary_culture = alashiyan
+			OR = {
+				AND = {
+					religion = hurrian_pantheon
+					religion_pops_in_country = {
+						target = roman_pantheon
+						value >= common_deity_svalue
+					}
+				}
+				AND = {
+					religion = roman_pantheon
+					religion_pops_in_country = {
+						target = hurrian_pantheon
+						value >= common_deity_svalue
+					}
+				}
+				deity:omen_mopsos = {
+					holy_site_deity_check_trigger = yes
+				}
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { ruler_popularity_gain = deity_ruler_popularity_gain_svalue }
+	omen = { happiness_for_wrong_culture_modifier = omen_happiness_for_wrong_culture_modifier_svalue }
+	religion = hurrian_pantheon
+	deity_category = culture
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_assimilate_effect = yes
+		storm_of_the_century_effect = {
+			REGION = mediterranean_region
+		}
+	}
+}
 
 # Mitanni
 deity_nasatyanna = { # CULTURE

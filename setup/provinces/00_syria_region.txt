@@ -1236,6 +1236,7 @@
 		religion="carthaginian_pantheon"
 		amount=4
 	}
+	holy_site=omen_karmin
 }
 
 793={ #Gindaros
@@ -1338,7 +1339,7 @@
 		culture="hittite"
 		amount=1
 	}
-	holy_site=omen_teshub
+	holy_site=omen_hadad_tarhunz
 }
 
 799={ #Occaraba

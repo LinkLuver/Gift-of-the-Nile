@@ -696,7 +696,7 @@
 	}
 }
 
-1872={ #Cilician Gates
+1872={ #Azzattiwadaya
 	terrain="mountain"
 	culture="kennataian"
 	religion="hurrian_pantheon"
@@ -722,6 +722,7 @@
 		culture="lalasian"
 		amount=1
 	}
+	holy_site=omen_tiwad
 }
 
 1873={ #Erana
@@ -953,6 +954,7 @@
 		amount=2
 	}
 	port_building=1
+	holy_site=omen_mopsos
 }
 
 1881={ #Mallos

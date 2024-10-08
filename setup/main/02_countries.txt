@@ -1695,7 +1695,7 @@ country = {
 		LYC = { # Lycia
 			government = oligarchic_republic
 			primary_culture = lycian
-			religion = anatolian_religion
+			religion = hurrian_pantheon
 
 			technology={
 				military_tech={ level=2 progress=0 }

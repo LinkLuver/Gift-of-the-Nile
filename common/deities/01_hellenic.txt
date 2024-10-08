@@ -2450,16 +2450,15 @@ deity_artemis_reitia = {
 deity_aeneus = { 
 	trigger = {
 		OR = {
-		  deity:omen_aeneus = {
-			holy_site_deity_check_trigger = yes
-		  }
-		  tag = AEN
-	}
-}		  
+			deity:omen_aeneus = {
+				holy_site_deity_check_trigger = yes
+			}
+			tag = AEN
+		}
+	}	  
 	icon = deity_diadochi_economy
-
-	passive_modifier = { build_cost = deity_build_cost_svalue }
-	omen = { global_capital_trade_routes = deity_global_capital_trade_routes_svalue  } #Bonus from Omen
+	passive_modifier = { global_capital_trade_routes = deity_global_capital_trade_routes_svalue }
+	omen = { build_cost = omen_build_cost_svalue } #Bonus from Omen
 	religion = roman_pantheon
 	deity_category = economy #This Deity uses a Culture Slot
 
@@ -2468,24 +2467,22 @@ deity_aeneus = {
 	}
 
 	on_activate = {
-		culture_apotheosis_capital_effect = yes
+		economy_apotheosis_province_improvement_effect = yes
 	}
 }
 
 deity_patroclus = {
     trigger = {
         OR = {
-          deity:omen_patroclus = {
-            holy_site_deity_check_trigger = yes
-          }
-          tag = TWT
-    }
-}        
-    icon = deity_diadochi_war
-
-
+        	deity:omen_patroclus = {
+        		holy_site_deity_check_trigger = yes
+        	}
+        	tag = TWT
+    	}
+	}
+    icon = deity_diadochi_culture
     passive_modifier = { civic_tech_investment = deity_civic_tech_investment_svalue }
-    omen = {  land_morale_modifier = deity_land_morale_modifier_svalue } #Bonus from Omen
+    omen = { assault_ability = omen_assault_ability_svalue } #Bonus from Omen
     religion = roman_pantheon
     deity_category = culture #This Deity uses a Culture Slot
 
@@ -2493,7 +2490,6 @@ deity_patroclus = {
     deification_trigger = {
         can_deify_trigger = yes
     }
-
 
     on_activate = {
         culture_apotheosis_capital_effect = yes
