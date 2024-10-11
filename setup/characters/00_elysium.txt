@@ -286,7 +286,7 @@
 		female=yes
 		no_stats=yes
 		add_martial=1
-		add_charisma=17
+		add_charisma=15
 		add_finesse=6
 		add_zeal=6
 		no_traits=yes
@@ -297,5 +297,71 @@
 		add_trait="intelligent"
 		add_trait="generous"
 		dna="FvwW/Ix1jHWwkLCQAm8CbwKRApECaQJpApECkQKSApICbgJuAoUChQJ/An8CfQJ9AV8BXwJ+An4CdQJ1AVYBVgOxA7EDngOeAVsBWwTSBNICdQJ1AnsCewTHBMcEwQTBAmgCaAJ2AnYCfgJ+AmYCZgJrAmsClAKUAnECcQKKAooCagJqAmYCZgJoAmgDpQOlAnYCdgOuA64CgAKAA64DrgJzAnMCbgJuAngCeAJ+An4ChwKHAnUCdQKCAoICjgKOAncCdwKXApcCeAJ4AosCiwKKAooCcgJyAosCiwKUApQCjAKMBMcExwJ6AnoA0wDTAK8ArwACAAIA1wDXAIcAhwCTAJMBZwFnAPAA8AAEAAQEyATIAA0ADQB/AH8BUAFQAXEBcQADAAMAMAAwApECkQEPAQ8CrQKtAEoASgB/AH8AvwC/ANoA2gD4APgAzwDPAvsC+wBXAFcAYABgAJ0AnQApACkDLAMsAFIAUgB7AHsBawFrAH8AfwHBAcEFHAXJAA0ADQUIBQgCyQLJAr8CvwAAAAAAAAAAAAAAAA=="
+	}
+}
+"Elysium_KOR" = {
+	country="KOR"
+	601={
+		first_name="Diogenes"
+		family_name="Hicesid"
+		birth_date=341.1.2
+		death_date=430.1.2
+		culture="greco_pontic"
+		religion="stoicism"
+		female=yes
+		no_stats=yes
+		add_martial=4
+		add_charisma=20
+		add_finesse=1
+		add_zeal=7
+		no_traits=yes
+		add_trait="blunt"
+		add_trait="sceptical"
+		add_trait="crafty"
+		add_trait="abrasive"
+		add_trait="intelligent"
+		add_trait="confident"
+	}
+}
+"Elysium_MGA" = {
+	country="MGA"
+	603={
+		first_name="Eukleides"
+		family_name="Megaraid"
+		birth_date=318.1.2
+		death_date=388.1.2
+		culture="athenian"
+		religion="stoicism"
+		female=yes
+		no_stats=yes
+		add_martial=3
+		add_charisma=9
+		add_finesse=9
+		add_zeal=9
+		no_traits=yes
+		add_trait="wise"
+		add_trait="good_natured"
+		add_trait="intelligent"
+	}
+}
+"Eysium_KNI" = {
+	country="KNI"
+	604={
+		first_name="Eudoxus"
+		family_name="Aeschineid"
+		birth_date=363.1.2
+		death_date=413.1.2
+		culture="ionian"
+		religion="stoicism"
+		female=yes
+		no_stats=yes
+		add_martial=7
+		add_charisma=7
+		add_finesse=11
+		add_zeal=7
+		no_traits=yes
+		add_trait="wise"
+		add_trait="polymath"
+		add_trait="intelligent"
 	}
 }

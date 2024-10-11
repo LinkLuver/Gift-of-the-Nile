@@ -24,11 +24,11 @@ deity_manager = {
 			is_universal_deity = yes
 		}
 		30506 = {
-			key = omen_aristotle
+			key = omen_aristotle #needs dna
 			deity = deity_aristotle
-			#deify_ruler = i forgor
-			#deify_ruler_permanent = yes
-			#is_universal_deity = yes
+			deify_ruler = 587
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
 		}
 		30507 = {
 			key = omen_socrates
@@ -40,9 +40,9 @@ deity_manager = {
 		30508 = {
 			key = omen_theophrastus
 			deity = deity_theophrastus
-			#deify_ruler = i forgor
-			#deify_ruler_permanent = yes
-			#is_universal_deity = yes
+			deify_ruler = 232
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
 		}
 		30509 = {
 			key = omen_pythagoras
@@ -89,23 +89,23 @@ deity_manager = {
 		30515 = {
 			key = omen_speusippus
 			deity = deity_speusippus
-			#deify_ruler = i forgor
-			#deify_ruler_permanent = yes
-			#is_universal_deity = yes
+			deify_ruler = 605 #needs dna
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
 		}
 		30516 = {
 			key = omen_eudoxus
 			deity = deity_eudoxus
-			#deify_ruler = i forgor
-			#deify_ruler_permanent = yes
-			#is_universal_deity = yes
+			deify_ruler = 604 #needs dna
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
 		}
 		30517 = {
 			key = omen_xenocrates
 			deity = deity_xenocrates
-			#deify_ruler = i forgor
-			#deify_ruler_permanent = yes
-			#is_universal_deity = yes
+			deify_ruler = 606 #needs dna
+			deify_ruler_permanent = yes
+			is_universal_deity = yes
 		}
 		30518 = {
 		    key = omen_zeno
@@ -117,51 +117,51 @@ deity_manager = {
 		30519 = {
 		    key = omen_diogenes
 		    deity = deity_diogenes
-		    #deify_ruler = i forgor
-		    #deify_ruler_permanent = yes
-		    #is_universal_deity = yes
+		    deify_ruler = 601 # NEEDs dna
+		    deify_ruler_permanent = yes
+		    is_universal_deity = yes
 		}
 		30520 = {
 		    key = omen_crates
 		    deity = deity_crates
-		    #deify_ruler = i forgor
-		    #deify_ruler_permanent = yes
-		    #is_universal_deity = yes
+		    deify_ruler = 75
+		    deify_ruler_permanent = yes
+		    is_universal_deity = yes
 		}
 		30521 = {
 		    key = omen_hipparchia
 		    deity = deity_hipparchia
-		    #deify_ruler = i forgor
-		    #deify_ruler_permanent = yes
-		    #is_universal_deity = yes
+		    deify_ruler = 76
+		    deify_ruler_permanent = yes
+		    is_universal_deity = yes
 		}
 		30522 = {
 		    key = omen_metrocles
 		    deity = deity_metrocles
-		    #deify_ruler = i forgor
-		    #deify_ruler_permanent = yes
-		    #is_universal_deity = yes
+		    deify_ruler = 602 #needs dna
+		    deify_ruler_permanent = yes
+		    is_universal_deity = yes
 		}
 		30523 = {
 		    key = omen_cleanthes
 		    deity = deity_cleanthes
-		    #deify_ruler = i forgor
-		    #deify_ruler_permanent = yes
-		    #is_universal_deity = yes
+		    deify_ruler = 221
+		    deify_ruler_permanent = yes
+		    is_universal_deity = yes
 		}
 		30524 = {
 		    key = omen_euclid_megara
 		    deity = deity_euclid_megara
-		    #deify_ruler = i forgor
-		    #deify_ruler_permanent = yes
-		    #is_universal_deity = yes
+		    deify_ruler = 603 #needs dna
+		    deify_ruler_permanent = yes
+		    is_universal_deity = yes
 		}
 		30525 = {
 		    key = omen_stilpo
 		    deity = deity_stilpo
-		    #deify_ruler = i forgor
-		    #deify_ruler_permanent = yes
-		    #is_universal_deity = yes
+		    deify_ruler = 217
+		    deify_ruler_permanent = yes
+		    is_universal_deity = yes
 		}
 		30526 = {
 		    key = omen_pyrrho

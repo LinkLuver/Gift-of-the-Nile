@@ -346,4 +346,40 @@
 		add_gold=100
 		add_popularity=70
 	}
+	605={
+		first_name="Speusippos"
+		family_name="Eurymedonid"
+		birth_date=346.1.2
+		death_date=414.1.2
+		culture="athenian"
+		religion="platonism"
+		female=yes
+		no_stats=yes
+		add_martial=8
+		add_charisma=8
+		add_finesse=8
+		add_zeal=7
+		no_traits=yes
+		add_trait="wise"
+		add_trait="good_natured"
+		add_trait="intelligent"
+	}
+	606={
+		first_name="Xenocrates"
+		family_name="Agathonid"
+		birth_date=357.1.2
+		death_date=440.1.2
+		culture="greco_pontic"
+		religion="platonism"
+		female=yes
+		no_stats=yes
+		add_martial=4
+		add_charisma=9
+		add_finesse=6
+		add_zeal=11
+		no_traits=yes
+		add_trait="wise"
+		add_trait="good_natured"
+		add_trait="intelligent"
+	}
 }
