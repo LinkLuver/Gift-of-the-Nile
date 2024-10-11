@@ -309,7 +309,6 @@
 		death_date=430.1.2
 		culture="greco_pontic"
 		religion="stoicism"
-		female=yes
 		no_stats=yes
 		add_martial=4
 		add_charisma=20
@@ -334,7 +333,6 @@
 		death_date=388.1.2
 		culture="athenian"
 		religion="stoicism"
-		female=yes
 		no_stats=yes
 		add_martial=3
 		add_charisma=9
@@ -356,7 +354,6 @@
 		death_date=413.1.2
 		culture="ionian"
 		religion="stoicism"
-		female=yes
 		no_stats=yes
 		add_martial=7
 		add_charisma=7
