@@ -1022,32 +1022,7 @@ deity_epicurus = {
 	trigger = {
 		OR = {
 			very_common_deity_trigger = {
-				RELIGION = pyrrhonism
-			}
-			deity:omen_epicurus = {
-				holy_site_deity_check_trigger = yes
-			}
-		}
-	}
-	icon = deity_eloquence
-	passive_modifier = { monthly_tyranny = deity_monthly_tyranny_svalue }
-	omen = { global_monthly_civilization = omen_global_monthly_civilization_svalue } #Bonus from Omen
-	religion = epicureanism
-	deity_category = culture
-	deification_trigger = {
-		can_deify_trigger = yes
-	}
-
-	on_activate = {
-		culture_apotheosis_assimilate_effect = yes
-	}
-}
-### Epicureanism
-deity_epicurus = {
-	trigger = {
-		OR = {
-			very_common_deity_trigger = {
-				RELIGION = pyrrhonism
+				RELIGION = epicureanism
 			}
 			deity:omen_epicurus = {
 				holy_site_deity_check_trigger = yes
@@ -1072,7 +1047,7 @@ deity_sappho = {
 	trigger = {
 		OR = {
 			rare_deity_trigger = {
-				RELIGION = pyrrhonism
+				RELIGION = roman_pantheon
 			}
 			deity:omen_sappho = {
 				holy_site_deity_check_trigger = yes
@@ -1082,7 +1057,7 @@ deity_sappho = {
 	icon = deity_love
 	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
 	omen = { global_monthly_civilization = omen_global_monthly_civilization_svalue } #Bonus from Omen
-	religion = hellenic
+	religion = roman_pantheon
 	deity_category = fertility
 	deification_trigger = {
 		can_deify_trigger = yes
@@ -1096,7 +1071,7 @@ deity_homer = {
 	trigger = {
 		OR = {
 			rare_deity_trigger = {
-				RELIGION = pyrrhonism
+				RELIGION = roman_pantheon
 			}
 			deity:omen_homer = {
 				holy_site_deity_check_trigger = yes
@@ -1106,7 +1081,7 @@ deity_homer = {
 	icon = deity_eloquence
 	passive_modifier = { happiness_for_same_culture_modifier = deity_happiness_for_same_culture_modifier_svalue }
 	omen = { global_pop_assimilation_speed_modifier = omen_global_pop_assimilation_speed_modifier_svalue } #Bonus from Omen
-	religion = hellenic
+	religion = roman_pantheon
 	deity_category = culture
 	deification_trigger = {
 		can_deify_trigger = yes

@@ -24,7 +24,7 @@ deity_manager = {
 			is_universal_deity = yes
 		}
 		30506 = {
-			key = omen_aristotle #needs dna
+			key = omen_aristotle
 			deity = deity_aristotle
 			deify_ruler = 587
 			deify_ruler_permanent = yes
@@ -89,21 +89,21 @@ deity_manager = {
 		30515 = {
 			key = omen_speusippus
 			deity = deity_speusippus
-			deify_ruler = 605 #needs dna
+			deify_ruler = 605
 			deify_ruler_permanent = yes
 			is_universal_deity = yes
 		}
 		30516 = {
 			key = omen_eudoxus
 			deity = deity_eudoxus
-			deify_ruler = 604 #needs dna
+			deify_ruler = 604
 			deify_ruler_permanent = yes
 			is_universal_deity = yes
 		}
 		30517 = {
 			key = omen_xenocrates
 			deity = deity_xenocrates
-			deify_ruler = 606 #needs dna
+			deify_ruler = 606
 			deify_ruler_permanent = yes
 			is_universal_deity = yes
 		}
@@ -117,7 +117,7 @@ deity_manager = {
 		30519 = {
 		    key = omen_diogenes
 		    deity = deity_diogenes
-		    deify_ruler = 601 # NEEDs dna
+		    deify_ruler = 601
 		    deify_ruler_permanent = yes
 		    is_universal_deity = yes
 		}
@@ -152,7 +152,7 @@ deity_manager = {
 		30524 = {
 		    key = omen_euclid_megara
 		    deity = deity_euclid_megara
-		    deify_ruler = 603 #needs dna
+		    deify_ruler = 603
 		    deify_ruler_permanent = yes
 		    is_universal_deity = yes
 		}
