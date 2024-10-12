@@ -108,6 +108,11 @@
  formable_not_troas_exists:0 "#Y Troas#! does not exist." 
  form_troas:0 "Unite the Cities of The Troad"
  form_troas_desc:0 "The cities of #Y The Troad#! are home to merchants, philosophers, and proud leaders. Uniting our polities would protect us from foreign interence, and become a formidable state."
+ formable_not_argead_exists: "The #Y Hellenic Empire#! does not exist."
+ hellenic_kingdom_tooltip:0 "We will recieve claims on the regions of #Y Macedon#!, #Y Thrace#! , #Y Greece#! , #Y Lydia#! , #Y Moesia Inferior#! , #Y Taurica#! , #Y Colchis#! , #Y Bithynia Et Paphlagonia#! , #Y Cappadocia Pontica#! #Y Cyrenaica#! #Y Cicilia#! , #Y Illyria#! , #Y Magna Graecia#! , #Y Transalpine Gaul#! , #Y Tarraconensis#! , #Y Contestania#! , #Y Baetica#! , and #Y Mauretania#!."
+ hellenic_kingdom_mod:0 "Pan-Hellenic Dream Realized"
+ form_argead_unification:0 "Unite the Children of Hellen"
+ form_argead_unification_desc:0 "From the fertile lands of #Y Magna Graecia#!, to the ancient cities of #Y Greece#!, and to the colonies of the west, the Greek people have long been scattered, never being united by one group. By controlling the various poleis of the Hellenes, we can forge a new legacy- that of a new, #Y Pan-Hellenic Kingdom#!"
 
  ## Africa Formables
  ATLAS_NAME:0 "Atlas"

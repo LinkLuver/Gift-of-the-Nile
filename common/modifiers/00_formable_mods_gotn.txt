@@ -39,7 +39,7 @@ kyrnos_mod = {
 	global_citizen_happyness = 0.05
 }
 hellenic_kingdom_mod = {
-	happiness_for_wrong_culture_group_modifier = 0.06
+	happiness_for_wrong_culture_modifier = 0.06
 	global_monthly_civilization = 0.02
 	naval_range= 1
 	control_range_modifier = 0.50
