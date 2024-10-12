@@ -1410,3 +1410,23 @@ CPA = {
 		instance = { position = { 0.50 0.50 } rotation = 180 } 
 	}
 }
+
+PHZ = {
+	pattern = "pattern_solid.tga"
+	color1 = "ck2_white"
+	color2 = rgb { 147 0 26 }
+
+	colored_emblem = {
+		texture = "ce_venetic_bird.dds"
+		color1 = rgb { 98 7 23 }
+	}
+	colored_emblem = {
+		texture = "ce_border_triangles_03.dds"
+		color1 = rgb { 86 81 54 }
+	}
+	colored_emblem = {
+		texture = "ce_border_triangles_03.dds"
+		color1 = rgb { 86 81 54 }
+		instance = { position = { 0.50 0.50 } rotation = 180 } 
+	}
+}

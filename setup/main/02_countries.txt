@@ -5471,7 +5471,7 @@ country = {
 		}
 
 		LP2 = { #Tubaqti
-			government = plutocratic_republic
+			government = punic_republic
 			primary_culture = macaean
 			religion = amun_religion
 			capital = 3325
@@ -5915,30 +5915,41 @@ country = {
 		}
 
 		MKA = {
-			government = tribal_federation
+			government = plutocratic_monarchy
 			primary_culture = macaean
-			religion = berber_religion
+			religion = amun_religion
+
+			poptype_rights = {
+				{
+					culture = garamantic
+					type = citizen
+				}
+			}
 
 			capital = 8218
 
 			own_control_core = {
-				8195 8196 8197 8198 #psyllia
-				8203 8204 8205 8206 8207 8208 8209 8210 8211 #zamzam
-				8212 8213 8214 8215 8216 8217 8218 8219 #girgiri
-				8220 8221 8222 8223 8224 8225 8226 8227 8228 #soffegin
+				8218 8217 8219
 			}
 		}
 
 		PHZ = {
-			government = tribal_federation
+			government = plutocratic_monarchy
 			primary_culture = phazani
-			religion = berber_religion
+			religion = amun_religion
 
 			technology={
 				military_tech={ level=1 progress=0 }
 				civic_tech={ level=1 progress=0 }
 				oratory_tech={ level=1 progress=0 }
 				religious_tech= { level=1 progress=0  }
+			}
+
+			poptype_rights = {
+				{
+					culture = garamantic
+					type = citizen
+				}
 			}
 
 			capital = 8233
@@ -5995,7 +6006,7 @@ country = {
 		}
 
 		GAR = {
-			government = tribal_kingdom
+			government = plutocratic_monarchy
 			primary_culture = garamantic
 			religion = amun_religion
 
@@ -6009,10 +6020,7 @@ country = {
 			capital = 8168
 
 			own_control_core = {
-				8149 8152 8154 8155 8156 8157 8159 8160 #shatti
-				8161 8162 8163 8164 8166 8168 8169 8171 #hayaa
-				8173 8174 8175 8178 8179 8181 8182 8184 #murzuq
-				8189 8190 8191 8192 8193 8194 #himka
+				8168 8169
 			}
 		}
 
@@ -16267,6 +16275,156 @@ country = {
 			3510 3511 3512
 			}
 	
+		}
+
+		GA1 = {
+			government = tribal_chiefdom
+			primary_culture = macaean
+			religion = berber_religion
+
+			centralization = -25
+
+			capital = 8216
+
+			own_control_core = {
+				8216 8215 8214 8213
+			}
+		}
+
+		GA2 = {
+			government = tribal_chiefdom
+			primary_culture = macaean
+			religion = berber_religion
+
+			centralization = -25
+
+			capital = 8226
+
+			own_control_core = {
+				8226 8221 8223 8228 8227 8224 8220 
+			}
+		}
+
+		GA4 = {
+			government = tribal_chiefdom
+			primary_culture = macaean
+			religion = berber_religion
+
+			centralization = -25
+
+			capital = 8196
+
+			own_control_core = {
+				8196 8198 8197 8203 8195 
+			}
+		}
+
+		GH1 = {
+			government = tribal_chiefdom
+			primary_culture = macaean
+			religion = berber_religion
+
+			centralization = -25
+
+			capital = 8207
+
+			own_control_core = {
+				8207 8210 8211 8209 8207 8208
+			}
+		}
+
+		GH2 = {
+			government = tribal_chiefdom
+			primary_culture = garamantic
+			religion = amun_religion
+
+			centralization = -25
+
+			capital = 8157
+
+			own_control_core = {
+				8157 8154 8160 8159 8156 8155 
+			}
+		}
+
+		BRK = {
+			government = theocratic_monarchy
+			primary_culture = garamantic
+			religion = amun_religion
+
+			capital = 8152
+
+			own_control_core = {
+				8152
+			}
+		}
+
+		SBH = {
+			government = tribal_chiefdom
+			primary_culture = garamantic
+			religion = amun_religion
+
+			centralization = -25
+
+			capital = 8162
+
+			own_control_core = {
+				8149 8161 8163 8162 8164
+			}
+		}
+
+		MZQ = {
+			government = plutocratic_monarchy
+			primary_culture = garamantic
+			religion = amun_religion
+
+			capital = 8174
+
+			own_control_core = {
+				8174 8175
+			}
+		}
+
+		LKS = {
+			government = tribal_chiefdom
+			primary_culture = garamantic
+			religion = amun_religion
+
+			centralization = -25
+
+			capital = 8166
+
+			own_control_core = {
+				8166 8178 8179 8184
+			}
+		}
+
+		MDJ = {
+			government = tribal_chiefdom
+			primary_culture = garamantic
+			religion = amun_religion
+
+			centralization = -50
+
+			capital = 8189
+
+			own_control_core = {
+				8189 8194 8191 8192 8190 8181 8182 8173 8171 8193
+			}
+		}
+
+		KNH = {
+			government = tribal_chiefdom
+			primary_culture = macaean
+			religion = berber_religion
+
+			centralization = -25
+
+			capital = 8222
+
+			own_control_core = {
+				8222 8212 8225 8205 8204 8206
+			}
 		}
 		
 		SA4 = {

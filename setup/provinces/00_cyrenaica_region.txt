@@ -160,7 +160,7 @@
 }
 
 3324={ #Kinyps
-	terrain="desert"
+	terrain="plains"
 	culture="peloponnesian"
 	religion="roman_pantheon"
 	trade_goods="leather"
@@ -191,7 +191,7 @@
 }
 
 3325={ #Thubactis
-	terrain="desert"
+	terrain="plains"
 	culture="macaean"
 	religion="amun_religion"
 	trade_goods="dye"
@@ -551,6 +551,11 @@
 	province_rank="city"
 	citizen={
 		amount=9
+	}
+	citizen={
+		culture="garamantic"
+		religion="amun_religion"
+		amount=1
 	}
 	freemen={
 		amount=2
@@ -1308,6 +1313,10 @@
 	province_rank="city"
 	citizen={
 		amount=2
+	}
+	citizen={
+		culture="garamantic"
+		amount=1
 	}
 	freemen={
 		amount=4
