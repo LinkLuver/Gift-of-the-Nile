@@ -182,3 +182,118 @@ gotn_formable_event.3 = { #Formation of Canaan, religion change + claims
 		name = gotn_formable_event_3.b
 	}
 }
+
+gotn_formable_event.4 = { #Capital for the Empire
+	type = country_event
+	title = "diadochi_flavor.7"
+	desc = "diadochi_flavor.7.desc"
+	
+	left_portrait = root.current_ruler
+	
+	picture = great_city
+
+	option = {
+		name = diadochi_flavor.7.a #Pella
+		trigger = {
+			owns = 379
+		}
+		if = {
+			limit = {
+				p:379 = { is_capital = no }
+			}
+			set_capital = 379
+			hidden_effect = { p:379.state = { set_state_capital = 379 } }
+			capital_scope = {
+				establish_city_effect = yes
+			}
+		}
+		p:379 = {
+			add_province_modifier = {
+				name = "hellenic_empire_pella_capital_modifier"
+				duration = -1
+			}
+		}
+	}
+
+	option = {
+		name = diadochi_flavor.7.b #Athens
+		trigger = {
+			owns = 416
+		}
+		if = {
+			limit = {
+				p:416 = { is_capital = no }
+			}
+			set_capital = 416
+			hidden_effect = { p:416.state = { set_state_capital = 416 } }
+			capital_scope = {
+				establish_city_effect = yes
+			}
+		}
+		p:416 = {
+			add_province_modifier = {
+				name = "hellenic_empire_athens_capital_modifier"
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = diadochi_flavor.7.c #Syrakousai
+		trigger = {
+			owns = 84
+		}
+		if = {
+			limit = {
+				p:84 = { is_capital = no }
+			}
+			set_capital = 84
+			hidden_effect = { p:84.state = { set_state_capital = 84 } }
+			capital_scope = {
+				establish_city_effect = yes
+			}
+		}
+		p:84 = {
+			add_province_modifier = {
+				name = "hellenic_empire_syrakousai_capital_modifier"
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = diadochi_flavor.7.d #Kalathousa
+		trigger = {
+			owns = 1347
+		}
+		if = {
+			limit = {
+				p:1347 = { is_capital = no }
+			}
+			set_capital = 1347
+			hidden_effect = { p:1347.state = { set_state_capital = 1347 } }
+			capital_scope = {
+				establish_city_effect = yes
+			}
+		}
+		p:1347 = {
+			add_province_modifier = {
+				name = "hellenic_empire_kalathousa_capital_modifier"
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = diadochi_flavor.7.e #Keep my own
+		trigger = { #Forced to keep the one you already have if one of these is your capital
+			p:416 = { is_capital = no } #Athens
+			p:379 = { is_capital = no } #Pella
+			p:84 = { is_capital = no } #Syrakousai
+			p:1347 = { is_capital = no } #Kalthousa
+		}
+		capital_scope = {
+			add_province_modifier = {
+				name = "hellenic_empire_generic_capital_modifier"
+				duration = -1
+			}
+		}
+	}
+}

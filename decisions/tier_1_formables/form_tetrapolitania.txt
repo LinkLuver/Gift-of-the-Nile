@@ -10,6 +10,7 @@
 		}
 		NOR = {
 			is_tier_1_formable_trigger = yes
+			is_tier_2_formable_trigger = yes
 			is_endgame_tag_trigger = yes
 			has_variable = has_formed_tetrapolitania
 		}
@@ -25,6 +26,15 @@
 		}
 	}
 	allow = {
+		custom_tooltip = {
+			text = "formable_not_tetrapolitania_exists"
+			NOT = {
+				any_country = {
+					tag = "TET"
+				}
+			}
+		}
+		can_form_nation_trigger = yes
 		owns_or_subject_owns = 3324 #Kinypes
 		owns_or_subject_owns = 3306 #Leptis Magna
 		owns_or_subject_owns = 3303 #Oea
@@ -34,11 +44,19 @@
 		custom_tooltip = "tier_1_formable_tooltip"
 		change_country_name = "TETRAPOLITANIA_NAME"
 		tribal_formable_government_change_effect = yes
-		add_3_free_province_investments = yes
+		add_2_free_province_investments = yes
 		hidden_effect = {
 			change_country_adjective = "TETRAPOLITANIA_FORMABLE_ADJECTIVE"
 			change_country_tag = TET
-			change_country_color = borysthenia_color
+			change_country_color = "stymphalian_light_blue"
+			capital_scope = {
+				capital_formable_small_effect = yes
+				formable_capital_modifier_normal_effect = yes
+				add_province_modifier = {
+					name = "tetrapolitania_mod"
+					duration = -1
+				}
+			}
 			hidden_effect = {
 			every_province = {
 				limit = {
@@ -50,6 +68,10 @@
 				add_claim = root
 				}
 				set_variable = has_formed_tetrapolitania
+				}
+				ai_will_do = {
+					base = 1
+				}
 			}
 		}
 	}
