@@ -39,7 +39,9 @@ is_tier_1_formable_trigger = {
 		tag = VIN #Vindelicia
 		tag = ZG2 #Lullubi Kingdom
 	 	tag = TET #Tetrapolitania
-		 tag = TRY #Troas
+		tag = TRY #Troas
+		tag = GIL #Illyrian League
+		tag = KYR #Kyrnos
 	 }
 }
 
@@ -101,7 +103,6 @@ is_tier_2_formable_trigger = {
 		tag = LIB #Libya
 		tag = ISH #Kingdom of Isma'il
 		tag = SKD #League of Sardin and Krysm 
-		tag = KYR #Kyrnos
 	}
 }
 

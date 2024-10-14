@@ -2614,17 +2614,17 @@
 	freemen={
 		culture="corsian"
 		religion="nuragic_pantheon"
-		amount=4
+		amount=2
 	}
 	slaves={
 		culture="corsian"
 		religion="nuragic_pantheon"
-		amount=3
+		amount=2
 	}
 	tribesmen={
 		culture="corsian"
 		religion="nuragic_pantheon"
-		amount=2
+		amount=1
 	}
 	port_building=1
 }

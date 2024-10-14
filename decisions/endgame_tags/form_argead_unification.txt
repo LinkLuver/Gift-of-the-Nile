@@ -161,7 +161,7 @@
 				change_country_flag = ARGEAD_FLAG
 				set_variable = formed_argead_empire
 			}
-			trigger_event = { id = gotn_formable_event_4.a }
+			trigger_event = { id = gotn_formable_event.4 }
 			}
 			hidden_effect = {
 				region:moesia_region = { formable_region_province_effect = yes }

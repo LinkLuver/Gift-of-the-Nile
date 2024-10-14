@@ -47,3 +47,12 @@ hellenic_kingdom_mod = {
 	research_points_modifier= 0.10
 	global_citizen_happyness = 0.08
 }
+tetrapolitania_mod = {
+	local_state_trade_routes = 2
+	local_commerce_value_modifier = 0.05
+}
+illyria_greek_mod = {
+	research_points_modifier= 0.10
+	global_pop_assimilation_speed_modifier = 0.05
+	global_pop_conversion_speed_modifier = 0.05
+}
