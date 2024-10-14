@@ -1758,6 +1758,10 @@ egypt_placeholder_three = { #11
 	provinces = { 502 511 655 9821 9871 9872 9873 9874 9875 }
 }
 
+egypt_placeholder_four = { #11
+	provinces = { 9878 9879 9880 9881 }
+}
+
 kemet_area = {
 	provinces = { 523 9854 9855 522 7688 7690 9825 9862 9863 9865 9866 }
 }
