@@ -1544,7 +1544,7 @@ LP2 = {
 
 AKE = {
 	pattern = "pattern_solid.tga"
-	color1 = hsv { 0.9 0.5 0.2 }
+	color1 = rgb { 47 43 45 }
 
 	colored_emblem = {
 		texture = "ce_mesopatamian_weapons_4.dds"
