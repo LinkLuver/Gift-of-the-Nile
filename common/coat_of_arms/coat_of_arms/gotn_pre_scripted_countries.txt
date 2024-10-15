@@ -1430,3 +1430,132 @@ PHZ = {
 		instance = { position = { 0.50 0.50 } rotation = 180 } 
 	}
 }
+
+AT7 = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 46 87 117 }
+
+	colored_emblem = {
+		texture = "ce_aegis_04.dds"
+		color1 = rgb { 159 151 51 }
+		color2 = rgb { 159 151 51 }
+		instance = { position = { 0.50 0.50 } scale = { 1.10 1.10 } }
+	}
+	colored_emblem = {
+		texture = "cuneiform_2.dds"
+		color1 = rgb { 42 44 44 }
+		instance = { scale { 0.45 0.45 } position = { 0.50 0.50 } rotation = 90 }
+	}
+}
+
+AM2 = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 95 68 129 }
+
+	colored_emblem = {
+		texture = "ce_tardunni.dds"
+		color1 = rgb { 136 121 94 }
+		color2 = "CMB_brown"
+		color3 = "silver"
+		instance = { scale { 0.80 0.80 } position = { 0.30 0.50 } }
+	}
+	colored_emblem = {
+		texture = "cuneiform_1.dds"
+		color1 = "silver"
+		instance = { scale { 0.40 0.40 } position = { 0.80 0.30 } }
+	}
+	colored_emblem = {
+		texture = "cuneiform_3.dds"
+		color1 = "silver"
+		instance = { scale { 0.40 0.40 } position = { 0.77 0.75 } rotation = 180 }
+	}
+}
+
+BRK = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 194 188 106 }
+
+	colored_emblem = {
+		texture = "ce_star_11.dds"
+		color1 = rgb { 20 18 4 }
+		instance = { scale { 0.90 0.90 } position = { 0.50 0.50 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_thracian_pattern_11.dds"
+		color1 = rgb { 194 188 106 }
+		color2 = rgb { 20 18 4 }
+		color3 = rgb { 20 18 4 }
+	}
+	colored_emblem = {
+		texture = "ce_border_thracian_pattern_11.dds"
+		color1 = rgb { 194 188 106 }
+		color2 = rgb { 20 18 4 }
+		color3 = rgb { 20 18 4 }
+		instance = { position = { 0.50 1.40 } }
+	}
+}
+
+LP1 = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 92 106 40 }
+
+	colored_emblem = {
+		texture = "ce_fish_small.dds"
+		color1 = rgb { 20 18 4 }
+		color2 = "airyanem_blue"
+	}
+	colored_emblem = {
+		texture = "ce_border_thracian_pattern_01.dds"
+		color1 = "airyanem_blue"
+		color2 = "airyanem_blue"
+		instance = { position = { 0.50 0.55 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_thracian_pattern_01.dds"
+		color1 = "airyanem_blue"
+		color2 = "airyanem_blue"
+		instance = { position = { 0.50 1.35 } }
+	}
+}
+
+LP2 = {
+	pattern = "pattern_solid.tga"
+	color1 = "ck2_white"
+
+	colored_emblem = {
+		texture = "ce_numidian_06.dds"
+		color1 = "green"
+		color2 = "ck2_white"
+		instance = { scale = { 0.90 0.90 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_simple_03.dds"
+		color1 = "green"
+		color2 = "ck2_white"
+		instance = { position = { 0.50 0.50 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_simple_03.dds"
+		color1 = "ck2_white"
+		color2 = "green"
+		instance = { position = { 0.50 1.38 } rotation = 360 }
+	}
+}
+
+AKE = {
+	pattern = "pattern_solid.tga"
+	color1 = hsv { 0.9 0.5 0.2 }
+
+	colored_emblem = {
+		texture = "ce_mesopatamian_weapons_4.dds"
+		color1 = "green"
+		color2 = "ck2_white"
+		instance = { scale = { 0.90 0.90 } }
+	}
+	colored_emblem = {
+		texture = "ce_persia_derafsh_shahbaz_frame.dds"
+		color1 = "green"
+		color2 = "ck2_white"
+		instance = { position = { 0.50 0.50 } }
+	}
+}

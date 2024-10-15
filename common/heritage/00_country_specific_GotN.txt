@@ -986,7 +986,7 @@ rhodian_heritage = {
 korinth_heritage = {
     modifier = {
         #good
-        global_capital_trade_routes = 1
+        global_capital_trade_routes = 2
         global_defensive = 0.1
 
         #bad
@@ -8272,7 +8272,7 @@ pergamon_heritage = {
 northern_cimmerian_heritage = {
 	modifier = {
 		#good
-		light_cavalry_defensive = 0.1
+		horse_archers_discipline = 0.1
 		hills_combat_bonus = 0.10
 	   
 		#bad
@@ -8287,7 +8287,7 @@ northern_cimmerian_heritage = {
 eastern_cimmerian_heritage = {
 	modifier = {
 		#good
-		light_cavalry_discipline = 0.10
+		archers_offensive = 0.10
 		global_defensive = 0.05
 	   
 		#bad
@@ -8400,7 +8400,7 @@ edom_heritage = {
 western_cimmerian_heritage = {
 	modifier = {
 		#good
-		light_cavalry_morale = 0.1
+		horse_archers_morale = 0.1
 		army_movement_speed = 0.1
 	   
 		#bad
@@ -8718,5 +8718,33 @@ garamantic_tribe_heritage = {
         tag = LKS
         tag = GH1
         }
+    }
+}
+
+hurhisht_heritage = {
+    modifier = {
+        #good
+        hills_combat_bonus = 0.10
+        happiness_for_same_culture_modifier = 0.04
+        #bad
+        global_population_capacity_modifier = -0.05
+    }
+
+    trigger = {
+        tag = AT6
+    }
+}
+
+nasibina_heritage = {
+    modifier = {
+        #good
+        global_citizen_happyness = 0.04
+        diplomatic_reputation= 2
+        #bad
+        global_pop_assimilation_speed_modifier = -0.05
+    }
+
+    trigger = {
+        tag = NSI
     }
 }

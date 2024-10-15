@@ -297,3 +297,39 @@ gotn_formable_event.4 = { #Capital for the Empire
 		}
 	}
 }
+
+gotn_formable_event.5 = { # Return of the Cimmerians
+    type = country_event
+
+    title = gotn_formable_event_5_title
+    desc = gotn_formable_event_5_desc
+    picture = rep_hattusa
+    left_portrait = current_ruler
+    left_portrait = c:LYD.current_ruler
+    left_portrait = c:PHR.current_ruler
+    right_portrait = c:ADI.current_ruler
+    right_portrait = c:MAP.current_ruler
+    right_portrait = c:ARM.current_ruler
+
+    trigger = {
+        OR = {
+            tag = LYD
+            tag = PHR
+            tag = MAP
+            tag = SEL
+            tag = ADI
+            tag = CM1
+            tag = CM1
+			tag = CM5
+			tag = CM3
+			tag = CIM
+        }
+    }
+    
+	option = {
+        name = "gotn_formable_event_5.a"
+    }
+	option = {
+        name = "gotn_formable_event_5.b"
+    }
+}

@@ -172,10 +172,25 @@
  formable_not_zagrosia_exists:0 "#Y Zagrosia#! does not exist."
  zagros_claims:0 "Gain claims on the #Y Zagrosia#! region."
 
- ## Anatolian Formables
- PHYRGIA_NAME:0 "Phyrgian Kingdom"
- form_phrygia:0 "Reclaim Phrygian Lands"
- form_phrygia_desc:0 "We have languished long enough under #Y Lydian#! rule. Our people lie scattered across these lands, under the rule of foreign conquerors, while we have grown fat, rich, and lazy in our golden city of #Y Gordium#!. We must remember our past, and forge a new path!"
+ ## Anatolia Formables
+ CIMMERIA_NAME:0 "Cimmeria"
+ CIMMERIA_ADJECTIVE:0 "Cimmerian"
+ form_cimmeria_claims_tooltip:0 "We will gain claims on the regions of #Y Phrygia#! and #Y Lydia#!"
+ cimmeria_mod:0 "Cimmerians of Anatolia United"
+ formable_not_cimmeria_exists:0 "#Y Cimmeria#! does not exist."
+ form_cimmeria:0 "Unite the Cimmerians of Anatolia"
+ form_cimmeria_desc:0 "Our people were once the scourge of the great civilizations, before we were reduced to simple plains and mountain dwellers. By uniting the #Y Cimmerians#! of #Y Anatolia#!, we could once again ride out onto the plains of #Y Phyrgia#!, and remind all of our might."
+ gotn_formable_event_5_title:0 "Cimmerian Resurgence"
+ gotn_formable_event_5_desc:0 "Many years ago, the #Y Cimmerian#! people led many great attacks all over #Y Anatolia#!, #Y Mesopotamia#!, and the #Y Levant#!. We had long assumed these people to be simple plains and mountain dwellers, no longer relevant. But, word has reached our capital of a new #Y Cimmerian#! state, one that is preparing for another great invasion..."
+ gotn_formable_event_5.a:0 "May our gods save us...."
+ gotn_formable_event_5.b:0 "Bah! We have defeated these horse riders once before, we shall defeat them again."
+
+ MYSIA_NAME:0 "Mysia"
+ MYSIA_ADJECTIVE:0 "Mysian" 
+ form_mysia_claims_tooltip:0 "We will gain claims of the areas of #Y Mysia Inferioris#! , #Y Mysia Superioris#! , #Y Bithynia Inferioris#! , and #Y Bithynia Superioris#!." 
+ formable_not_mysia_exists:0 "#Y Mysia#! does not exist."
+ form_mysia:0 "Proclaim a true Mysian Kingdom"
+ form_mysia_desc:0 "The Mysian people have long inhabited these lands, and it has been many years since a true #Y Mysian#! Kingdom was established. Although we have indeed prospered under the rule of the Lydians, we must seek our own destiny."
 
  ### Reaffirmation Decisions ###
  # Reaffirm Media
