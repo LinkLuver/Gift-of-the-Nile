@@ -5,7 +5,7 @@ me_damascus.1 = {
 
     title = me_damascus_1_title
     desc = me_damascus_1_desc
-    picture = great_library
+    picture = council_country
 
     immediate = {
         random_country = {
@@ -49,7 +49,7 @@ me_damascus.102 = { # Invite from Damascus
 
     title = me_damascus_102_title
     desc = me_damascus_102_desc
-    picture = great_library
+    picture = council_country
 
     immediate = {
         add_treasury = 50
@@ -116,6 +116,7 @@ me_damascus.103 = { # Tadmor Joins
     type = minor_country_event
     title = me_damascus_103_title
     desc = me_damascus_103_desc
+    picture = council_country
     left_portrait = scope:tadmor_scope.current_ruler
     interface_lock = no
 
@@ -148,7 +149,7 @@ me_damascus.105 = { # Invite Syrions
     type = country_event
     title = me_damascus_105_title
     desc = me_damascus_105_desc
-    picture = great_library
+    picture = council_country
 
     immediate = {
         random_country = {
@@ -221,7 +222,7 @@ me_damascus.106 = { # Selected Syrion Response
     type = country_event
     title = me_damascus_106_title
     desc = me_damascus_106_desc
-    picture = great_library
+    picture = council_country
 
     immediate = {
         set_variable = syrion_var
@@ -305,7 +306,7 @@ me_damascus.101 = {
 
     title = me_damascus_1_title
     desc = me_damascus_1_desc
-    picture = great_library
+    picture = council_country
 
     option = {
         name = "me_damascus_1.a"
