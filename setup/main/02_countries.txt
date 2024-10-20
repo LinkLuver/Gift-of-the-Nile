@@ -1005,7 +1005,7 @@ country = {
 			government = assyrian_imperium
 			primary_culture = assyrian
 			religion = ashur_religion
-
+			diplomatic_stance=warmongering_stance
 			capital = 882
 
 			technology={
@@ -1063,7 +1063,7 @@ country = {
 		}
 
 		NSI = {
-			government = despotic_monarchy
+			government = plutocratic_monarchy
 			primary_culture = assyrian
 			religion = ashur_religion
 			monarchy_citizen_law = foreign_law_for_minorities
@@ -9114,10 +9114,10 @@ country = {
 		}
 
 		HCN = {
-			government = tribal_kingdom
+			government = tribal_federation
 			primary_culture = eravisci
 			religion = druidism
-			centralization=10
+			centralization=25
 
 			capital = 4164
 
@@ -9127,10 +9127,10 @@ country = {
 		}
 
 		EVS = { #change Galatia
-			government = tribal_kingdom
+			government = tribal_federation
 			primary_culture = eravisci
 			religion = druidism
-			centralization=10
+			centralization=25
 
 			capital = 4157
 
