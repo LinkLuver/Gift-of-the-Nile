@@ -2593,10 +2593,10 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=2
+		amount=1
 	}
 	citizen={
-		amount=2
+		amount=1
 	}
 	freemen={
 		amount=2
@@ -2614,7 +2614,7 @@
 	freemen={
 		culture="corsian"
 		religion="nuragic_pantheon"
-		amount=2
+		amount=3
 	}
 	slaves={
 		culture="corsian"
@@ -2624,7 +2624,7 @@
 	tribesmen={
 		culture="corsian"
 		religion="nuragic_pantheon"
-		amount=1
+		amount=3
 	}
 	port_building=1
 }
@@ -2641,19 +2641,24 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
 		culture="corsian"
 		religion="nuragic_pantheon"
 		amount=1
 	}
+	tribesmen={
+		culture="corsian"
+		religion="nuragic_pantheon"
+		amount=2
+	}
 	port_building=1
 }
 
 3512={ #Rhopikon
 	terrain="hills"
-	culture="nuragic"
+	culture="corsian"
 	religion="nuragic_pantheon"
 	trade_goods="fish"
 	civilization_value=18
@@ -2662,7 +2667,7 @@
 	citizen={
 		culture="massalian"
 		religion="roman_pantheon"
-		amount=3
+		amount=2
 	}
 	freemen={
 		amount=1
@@ -2671,7 +2676,7 @@
 		amount=1
 	}
 	tribesmen={
-		amount=2
+		amount=3
 	}
 }
 

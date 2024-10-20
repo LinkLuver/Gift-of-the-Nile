@@ -1234,10 +1234,12 @@ CYP = {
 		texture = "ce_aphrodite_a.dds"
 		color1 = "iberian_sun"
 		color2 = rgb { 154 185 208 }
+		instance = { scale { 1.05 1.05 } }
 	}
 	colored_emblem = {
 		texture = "ce_aphrodite_b.dds"
 		color1 = "iberian_sun"
+		instance = { scale { 1.05 1.05 } }
 	}
 }
 
@@ -1365,11 +1367,12 @@ OXB = {
 OUR = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 150 135 122 }
+	color2 = rgb { 80 77 77 }
 
 	colored_emblem = {
 		texture = "ce_spearhead_01.dds"
 		color1 = rgb { 80 77 77 }
-		instance = { position = { 0.50 0.50 } rotation = -90 }
+		instance = { scale = { 0.90 0.90 } position = { 0.50 0.50 } rotation = -90 }
 	}
 	colored_emblem = {
 		texture = "ce_border_leaves_03.dds"
@@ -1557,5 +1560,158 @@ AKE = {
 		color1 = "green"
 		color2 = "ck2_white"
 		instance = { position = { 0.50 0.50 } }
+	}
+}
+
+CPU = {
+	pattern = "pattern_solid.tga"
+	color1 = "ck2_white"
+	color2 = "silver"
+
+	colored_emblem = {
+		texture = "ce_apollo_smintheus.dds"
+		color1 = rgb { 255 179 15 }
+	}
+	colored_emblem = {
+		texture = "ce_border_greek_07.dds"
+		color1 = "silver"
+		color2 = rgb { 255 179 15 }
+	}	
+}
+
+NEA = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 69 75 73 }
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_aeolia_barley.dds"
+		color1 = "roman_gold"
+	}
+	colored_emblem = {
+		texture = "ce_wreath_athenai_a.dds"
+		color1 = "roman_gold"
+		color2 = "pitch_black"
+	}
+}
+
+HT2 = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 159 47 87 }
+    color2 = "ariarathid_color"
+
+    colored_emblem = {
+        texture = "ce_griffin_seated.dds"
+        color1 = rgb { 161 159 73 }
+		color2 = "offwhite"
+		instance = { scale = { 1.10 1.10 } }
+    }
+}
+
+HAM = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 152 18 36 }
+    color2 = "ariarathid_color"
+
+    colored_emblem = {
+        texture = "ce_hadad_carry.dds"
+        color1 = rgb { 161 159 73 }
+		color2 = "rust_brown"
+		instance = { scale = { 0.65 0.65 } position = { 0.50 0.50 } }
+    }
+	colored_emblem = {
+        texture = "ce_border_iberian_sun_03.dds"
+        color1 = "silver"
+    }
+	colored_emblem = {
+        texture = "ce_border_iberian_sun_03.dds"
+        color1 = "silver"
+		instance = { position = { 0.50 1.34 } rotation = 360 }
+	}
+}
+
+GUR = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 20 114 39 }
+    color2 = "ariarathid_color"
+
+    colored_emblem = {
+        texture = "ce_venetic_stele_2.dds"
+        color1 = "light_gold"
+    }
+}
+
+CM1 = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 117 12 21 }
+    color2 = "ariarathid_color"
+
+    colored_emblem = {
+        texture = "ce_horse_08.dds"
+        color1 = "CMB_brown"
+		color2 = "offwhite"
+		instance = { scale = { 0.80 0.80 } }
+    }
+	colored_emblem = {
+		texture = "ce_border_triangles_01.dds"
+		color1 = "ck2_white"
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+}
+
+CM5 = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 148 145 41 }
+    color2 = "ariarathid_color"
+
+    colored_emblem = {
+        texture = "ce_horse_08.dds"
+        color1 = "CMB_brown"
+		color2 = "offwhite"
+		instance = { scale = { 0.45 0.45 } position = { 0.70 0.50 } }
+    }
+	colored_emblem = {
+        texture = "ce_horse_08.dds"
+        color1 = "CMB_brown"
+		color2 = "offwhite"
+		instance = { scale = { 0.45 0.45 } position = { 0.30 0.50 } }
+    }
+	colored_emblem = {
+		texture = "ce_border_triangles_01.dds"
+		color1 = "ck2_white"
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+}
+
+CM3 = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 177 42 70 }
+    color2 = "ariarathid_color"
+
+	colored_emblem = {
+        texture = "ce_horse_08.dds"
+        color1 = "CMB_brown"
+		color2 = "offwhite"
+		instance = { scale = { 0.35 0.35 } position = { 0.70 0.40 } }
+    }
+	colored_emblem = {
+        texture = "ce_horse_08.dds"
+        color1 = "CMB_brown"
+		color2 = "offwhite"
+		instance = { scale = { 0.35 0.35 } position = { 0.30 0.40 } }
+    }
+	colored_emblem = {
+        texture = "ce_horse_08.dds"
+        color1 = "CMB_brown"
+		color2 = "offwhite"
+		instance = { scale = { 0.35 0.35 } position = { 0.50 0.70 } }
+    }
+	colored_emblem = {
+		texture = "ce_border_triangles_01.dds"
+		color1 = "ck2_white"
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
 	}
 }
