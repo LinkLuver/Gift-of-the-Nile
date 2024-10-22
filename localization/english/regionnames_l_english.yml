@@ -99,9 +99,16 @@
  beth_daraye_area:1 "Sittacene"
  meshan_area:1 "Ur"
  susiana_area:0 "Susiana"
- western_delta_area:0 "Western Delta"
- eastern_delta_area:0 "Eastern Delta"
- central_delta_area:0 "Central Delta"
+ western_delta_area:0 "Per-Guat" #Kanopos/Pikuat
+ bolbitine_area:0 "Ra-Shadi" #Rossetta/Rashed/Bolbitine
+ manzala_area:0 "Per-Mandjiwri" #Lake Manzala
+ eastern_delta_area:0 "Sena" #Per-Amun
+ sabennytos_area:0 "Teb'n-Niwtr" #Sabennytos/Long Egyptian Name
+ central_delta_area:0 "Ta-Paraya" #Approx. from Ta-Paralia (Greek Loan), Lake Burulus
+ mendes_area:0 "Djedet" #Mendenic River
+ tanis_area:0 "Dja'Net" #Tanetic River
+ pharaoh_canal_area:0 "Shu-Neteru" #Divine Canal
+ khem_imu_area:0 "Khemiwt-Imu" #2 Nomes, Sehat Khemiwt and Imu
  memphis_area:0 "Memphis"
  heptanomis_area:0 "Faiyum"
  sinai_area:0 "Sinai"
