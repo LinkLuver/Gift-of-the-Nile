@@ -739,6 +739,10 @@
 	citizen={
 		amount=3
 	}
+	citizen={
+		culture="urtaian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}

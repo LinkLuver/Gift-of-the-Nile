@@ -10,7 +10,7 @@
 		amount=3
 	}
 	citizen={
-		culture="pasargadi"
+		culture="milyadian"
 		religion="hurrian_pantheon"
 		amount=1
 	}
@@ -620,7 +620,7 @@
 		amount=2
 	}
 	freemen={
-		culture="macedonian"
+		culture="syrion"
 		amount=1
 	}
 	freemen={
@@ -662,7 +662,7 @@
 		amount=2
 	}
 	freemen={
-		culture="macedonian"
+		culture="ionian"
 		amount=1
 	}
 	slaves={
@@ -794,6 +794,11 @@
 	}
 	citizen={
 		culture="ionian"
+		amount=1
+	}
+	citizen={
+		culture="syrion"
+		religion="carthaginian_pantheon"
 		amount=1
 	}
 	freemen={
@@ -936,7 +941,12 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=2
+		amount=1
+	}
+	citizen={
+		culture="syrion"
+		religion="carthaginian_pantheon"
+		amount=1
 	}
 	freemen={
 		amount=4
@@ -966,8 +976,6 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="macedonian"
-		religion="hurrian_pantheon"
 		amount=1
 	}
 	citizen={
@@ -978,7 +986,7 @@
 		amount=2
 	}
 	citizen={
-		culture="pasargadi"
+		culture="kennataian"
 		religion="hurrian_pantheon"
 		amount=2
 	}
@@ -1000,8 +1008,8 @@
 		amount=1
 	}
 	freemen={
-		culture="pasargadi"
-		religion="hurrian_pantheon"
+		culture="syrion"
+		religion="carthaginian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -1029,19 +1037,24 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="macedonian"
+		culture="ionian"
 		religion="hurrian_pantheon"
 		amount=1
 	}
 	citizen={
-		amount=2
+		culture="syrion"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	citizen={ 
+		amount=1
 	}
 	citizen={
 		culture="ionian"
 		amount=1
 	}
 	citizen={
-		culture="pasargadi"
+		culture="kennataian"
 		religion="hurrian_pantheon"
 		amount=1
 	}
@@ -1096,7 +1109,7 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
+		culture="hittite"
 		religion="hurrian_pantheon"
 		amount=1
 	}
@@ -1108,7 +1121,7 @@
 		amount=1
 	}
 	citizen={
-		culture="pasargadi"
+		culture="hittite"
 		religion="hurrian_pantheon"
 		amount=1
 	}
@@ -1576,7 +1589,7 @@
 		amount=3
 	}
 	citizen={
-		culture="pasargadi"
+		culture="lycian"
 		religion="hurrian_pantheon"
 		amount=1
 	}
@@ -2057,8 +2070,6 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
-		religion="hurrian_pantheon"
 		amount=1
 	}
 	citizen={
@@ -2070,7 +2081,7 @@
 		amount=1
 	}
 	citizen={
-		culture="pasargadi"
+		culture="lycian"
 		religion="hurrian_pantheon"
 		amount=1
 	}
@@ -2107,8 +2118,6 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
-		religion="hurrian_pantheon"
 		amount=1
 	}
 	nobles={
@@ -2118,7 +2127,7 @@
 		amount=3
 	}
 	citizen={
-		culture="pasargadi"
+		culture="pamphylian"
 		religion="hurrian_pantheon"
 		amount=1
 	}
@@ -2169,7 +2178,7 @@
 		amount=2
 	}
 	citizen={
-		culture="pasargadi"
+		culture="lydian"
 		religion="hurrian_pantheon"
 		amount=1
 	}
@@ -2182,7 +2191,7 @@
 		amount=1
 	}
 	freemen={
-		culture="pasargadi"
+		culture="pamphylian"
 		religion="hurrian_pantheon"
 		amount=2
 	}

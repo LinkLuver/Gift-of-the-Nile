@@ -8458,7 +8458,7 @@ aigina_heritage = {
         ship_cost = -0.10
         global_import_commerce_modifier = 0.05
         #bad
-        global_manpower_modifier = -0.15
+        global_manpower_modifier = -0.05
     }
    
     trigger = {
@@ -8821,5 +8821,18 @@ faliscian_heritage = {
 	}
 	trigger = {
 		tag = FLS
+	}
+}
+
+kythera_heritage = {
+	modifier = {
+		#good 
+		global_capital_trade_routes = 1
+        global_citizen_output = 0.10
+		#bad 
+	    happiness_for_same_culture_modifier = -0.03
+	}
+	trigger = {
+		tag = KR1
 	}
 } 

@@ -339,15 +339,14 @@
 	barbarian_power=0
 	province_rank="settlement"
 	nobles={
-		culture="pasargadi"
-		religion="anahitic_religion"
+		culture="urtaian"
 		amount=1
 	}
 	citizen={
 		amount=3
 	}
 	citizen={
-		culture="pasargadi"
+		culture="urtaian"
 		amount=1
 	}
 	citizen={
@@ -576,6 +575,10 @@
 	civilization_value=34
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		culture="urtaian"
+		amount=1
+	}
 	citizen={
 		amount=5
 	}
@@ -898,15 +901,18 @@
 	civilization_value=34
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		culture="urtaian"
+		amount=1
+	}
 	citizen={
-		culture="sophene"
-		religion="armenian_religion"
 		amount=2
 	}
 	citizen={
 		amount=3
 	}
 	freemen={
+		culture="urtaian"
 		amount=2
 	}
 	slaves={
@@ -1235,7 +1241,11 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=2
+	}
+	freemen={
+		culture="urtaian"
+		amount=2
 	}
 	slaves={
 		amount=2
@@ -1251,6 +1261,11 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	freemen={
+		culture="urtaian"
+		religion="armenian_religion"
 		amount=1
 	}
 	slaves={
@@ -1410,6 +1425,10 @@
 	freemen={
 		culture="syriac"
 		amount=4
+	}
+	freemen={
+		culture="urtaian"
+		amount=1
 	}
 	slaves={
 		religion="anatolian_religion"

@@ -610,7 +610,7 @@
 	culture="achaean"
 	religion="roman_pantheon"
 	trade_goods="earthware"
-	civilization_value=31
+	civilization_value=39
 	barbarian_power=0
 	province_rank="city"
 	nobles={
@@ -618,10 +618,10 @@
 		amount=1
 	}
 	nobles={
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=1
+		amount=4
 	}
 	citizen={
 		culture="hebrew"
@@ -634,11 +634,27 @@
 		amount=2
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	freemen={
 		culture="macedonian"
-		amount=2
+		amount=1
+	}
+	freemen={
+		culture="epirote"
+		amount=1
+	}
+	freemen={
+		culture="argolian"
+		amount=1
+	}
+	freemen={
+		culture="athenian"
+		amount=1
+	}
+	freemen={
+		culture="peloponnesian"
+		amount=1
 	}
 	slaves={
 		amount=3
@@ -851,7 +867,7 @@
 		amount=2
 	}
 	citizen={
-		amount=6
+		amount=4
 	}
 	freemen={
 		culture="hebrew"
@@ -859,10 +875,10 @@
 		amount=2
 	}
 	freemen={
-		amount=10
+		amount=8
 	}
 	slaves={
-		amount=5
+		amount=4
 	}
 }
 
@@ -1162,18 +1178,31 @@
 	terrain="plains"
 	culture="argolian"
 	religion="roman_pantheon"
-	trade_goods="olive"
+	trade_goods="base_metals"
 	civilization_value=22
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
+		amount=3
+	}
+	citizen={
+		culture="neithic_egyptian"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	citizen={
+		culture="tenuwan_egyptian"
+		religion="egyptian_pantheon"
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
-		amount=2
+		amount=3
 	}
 	port_building=1
 }
@@ -1683,18 +1712,46 @@
 	culture="peloponnesian"
 	religion="roman_pantheon"
 	trade_goods="pearls"
-	civilization_value=24
+	civilization_value=27
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
 		amount=2
+	}
+	citizen={
+		culture="hyksos"
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	citizen={
+		culture="neithic_egyptian"
+		religion="aten_religion"
+		amount=1
+	}
+	citizen={
+		culture="danetic_egyptian"
+		religion="egyptian_pantheon"
+		amount=1
 	}
 	freemen={
 		amount=3
 	}
+	freemen={
+		culture="aegyptos"
+		amount=1
+	}
+	freemen={
+		culture="tenuwan_egyptian"
+		religion="aten_religion"
+		amount=2
+	}
 	slaves={
 		amount=2
 	}
+	port_building=1
 }
 
 472={ #Karthaia

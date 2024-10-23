@@ -1405,26 +1405,17 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="argolian"
 		amount =1
 	}
 	citizen={
 		amount=2
 	}
-	citizen={
-		culture="argolian"
-		amount=2
-	}
 	freemen={
 		amount=3
 	}
-	freemen={
-		culture="argolian"
-		amount=2
-	}
 	tribesmen={
 		culture="greco_illyrian"
-		amount=1
+		amount=2
 	}
 	slaves={
 		culture="greco_illyrian"

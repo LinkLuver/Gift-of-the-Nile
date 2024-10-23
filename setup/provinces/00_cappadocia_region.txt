@@ -89,7 +89,6 @@
 		amount=1
 	}
 	tribesmen={
-		religion="zoroaster"
 		amount=2
 	}
 	tribesmen={
@@ -106,22 +105,18 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
-		religion="zoroaster"
 		amount=1
 	}
 	citizen={
 		amount=4
 	}
 	citizen={
-		religion="zoroaster"
 		amount=1
 	}
 	freemen={
 		amount=5
 	}
 	freemen={
-		religion="zoroaster"
 		amount=1
 	}
 	freemen={
@@ -304,43 +299,24 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="macedonian"
-		religion="roman_pantheon"
-		amount=1
-	}
-	nobles={
-		culture="pasargadi"
-		religion="zoroaster"
-		amount=1
-	}
-	citizen={
-		amount=1
-	}
-	citizen={
-		religion="zoroaster"
 		amount=2
 	}
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
 		amount=1
 	}
 	citizen={
-		culture="macedonian"
-		religion="roman_pantheon"
+		amount=3
+	}
+	citizen={
+		culture="ionian"
 		amount=1
 	}
 	freemen={
 		amount=5
 	}
 	freemen={
-		culture="macedonian"
-		religion="roman_pantheon"
-		amount=1
-	}
-	freemen={
 		culture="morimenian"
-		amount=1
+		amount=2
 	}
 	freemen={
 		culture="cataonian"
@@ -358,7 +334,6 @@
 		amount=1
 	}
 	slaves={
-		religion="zoroaster"
 		amount=3
 	}
 	tribesmen={
@@ -675,16 +650,13 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
-		religion="zoroaster"
 		amount=1
 	}
 	citizen={
 		amount=2
 	}
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="cimmerian"
 		amount=1
 	}
 	freemen={
@@ -793,7 +765,8 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
+		culture="urtaian"
+		religion="anahitic_religion"
 		amount=1
 	}
 	citizen={
@@ -805,6 +778,7 @@
 		amount=1
 	}
 	citizen={
+		culture="urtaian"
 		religion="anatolian_religion"
 		amount=2
 	}
@@ -815,6 +789,11 @@
 	}
 	freemen={
 		religion="anatolian_religion"
+		amount=3
+	}
+	freemen={
+		culture="urtaian"
+		religion="armenian_religion"
 		amount=3
 	}
 	freemen={
@@ -1027,8 +1006,6 @@
 	barbarian_power=0
 	province_rank="settlement"
 	nobles={
-		culture="pasargadi"
-		religion="zoroaster"
 		amount=1
 	}
 	citizen={
@@ -1292,11 +1269,6 @@
 	citizen={
 		amount=1
 	}
-	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
-		amount=1
-	}
 	freemen={
 		amount=2
 	}
@@ -1308,7 +1280,11 @@
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=1
+	}
+	tribesmen={
+		culture="cimmerian"
+		amount=3
 	}
 }
 
@@ -1439,16 +1415,14 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
-		religion="zoroaster"
 		amount=1
 	}
 	citizen={
 		amount=2
 	}
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="cicilian"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	citizen={
@@ -1461,12 +1435,11 @@
 	}
 	freemen={
 		culture="cilician"
-		religion="roman_pantheon"
+		religion="hurrian_pantheon"
 		amount=2
 	}
 	freemen={
-		culture="macedonian"
-		religion="roman_pantheon"
+		culture="cimmerian"
 		amount=1
 	}
 	freemen={
@@ -1518,8 +1491,6 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
-		religion="zoroaster"
 		amount=1
 	}
 	citizen={
@@ -1527,11 +1498,6 @@
 	}
 	citizen={
 		culture="cappadocian"
-		amount=1
-	}
-	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
 		amount=1
 	}
 	freemen={
@@ -1554,9 +1520,8 @@
 		amount=1
 	}
 	freemen={
-		culture="macedonian"
-		religion="roman_pantheon"
-		amount=1
+		culture="cimmerian"
+		amount=3
 	}
 	slaves={
 		amount=4
