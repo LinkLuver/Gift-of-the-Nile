@@ -99,18 +99,21 @@
  beth_daraye_area:1 "Sittacene"
  meshan_area:1 "Ur"
  susiana_area:0 "Susiana"
- western_delta_area:0 "Per-Guat" #Kanopos/Pikuat
- bolbitine_area:0 "Ra-Shadi" #Rossetta/Rashed/Bolbitine
- manzala_area:0 "Per-Mandjiwri" #Lake Manzala
+ western_delta_area:0 "Pikuat" #Kanopos/Pikuat/Per-Guat
+ bolbitine_area:0 "Rosetta" #Rossetta/Rashed/Bolbitine
+ manzala_area:0 "Mandjara" #Per-Mandjiwri / Manzala
  eastern_delta_area:0 "Sena" #Per-Amun
- sabennytos_area:0 "Teb'n-Niwtr" #Sabennytos/Long Egyptian Name
- central_delta_area:0 "Ta-Paraya" #Approx. from Ta-Paralia (Greek Loan), Lake Burulus
- mendes_area:0 "Djedet" #Mendenic River
- tanis_area:0 "Dja'Net" #Tanetic River
- pharaoh_canal_area:0 "Shu-Neteru" #Divine Canal
- khem_imu_area:0 "Khemiwt-Imu" #2 Nomes, Sehat Khemiwt and Imu
+ sabennytos_area:0 "Tabenuta" #Sabennytos/Teb'n-Niwtr
+ central_delta_area:0 "Taparaya" #Approx. from Ta-Paralia (Greek Loan), Lake Burulus, Ta-Paraya
+ mendes_area:0 "Mendes" #Mendenic River
+ tanis_area:0 "Tanis" #Tanetic River
+ pharaoh_canal_area:0 "Shunetru" #Divine Canal
+ khem_imu_area:0 "Khemimu" #2 Nomes, Sehat Khemiwt and Imu
  memphis_area:0 "Memphis"
- heptanomis_area:0 "Faiyum"
+ heptanomis_area:0 "Amarna"
+ deras_area:0 "Deras"
+ hut_nesut_area:0 "Hut-Nesut"
+ medjed_area:0 "Per-Medjed"
  sinai_area:0 "Sinai"
  philistia_area:0 "Philistia"
  arabia_petrea_area:0 "Arabia Petrea"
@@ -549,7 +552,8 @@
  khargana_area:0 "Khargana"
  kharga_area:0 "Kharga"
  farfara_area:0 "Farafra"
- parva_area:0 "Parva"
+ parva_area:0 "Lower Fayyum"
+ fayyum_area:0 "Upper Fayyum"
  taifa_area:0 "Taifa"
  herulia_area:0 "Herulia"
  east_gothia_area:0 "East Gothia"

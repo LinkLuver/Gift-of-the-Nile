@@ -740,10 +740,11 @@ lower_egypt_region = { #7 areas
 		manzala_area
 		khem_imu_area
 		bolbitine_area
-		egypt_placeholder_four
-		egypt_placeholder_five
-		egypt_placeholder_six
-		faiyum_placeholder
+		hut_nesut_area
+		deras_area
+		medjed_area
+		fayyum_area
+		kemet_placeholder_area
 	}
 }
 
