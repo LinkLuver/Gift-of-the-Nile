@@ -27,23 +27,27 @@
 	}
 }
 
-551={ #Besaw
+551={ #Akhetaton
 	terrain="flood_plain"
 	culture="akhenite_egyptian"
 	religion="aten_religion"
-	trade_goods="precious_metals"
+	trade_goods="stone"
 	civilization_value=31
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=6
+	}
 	citizen={
-		amount=3
+		amount=15
 	}
 	freemen={
-		amount=4
+		amount=17
 	}
 	slaves={
-		amount=2
+		amount=20
 	}
+	holy_site=omen_akhenaten
 }
 
 552={ #Qesy
@@ -164,27 +168,23 @@
 	}
 }
 
-557={ #Akhetaton
+557={ #Arty-Heru
 	terrain="flood_plain"
 	culture="akhenite_egyptian"
 	religion="aten_religion"
-	trade_goods="stone"
+	trade_goods="precious_metals"
 	civilization_value=31
 	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=6
-	}
+	province_rank="settlement"
 	citizen={
-		amount=15
+		amount=3
 	}
 	freemen={
-		amount=17
+		amount=4
 	}
 	slaves={
-		amount=20
+		amount=2
 	}
-	holy_site=omen_akhenaten
 }
 
 558={ #Hut-Repyt
