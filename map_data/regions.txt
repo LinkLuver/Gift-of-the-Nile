@@ -736,7 +736,6 @@ lower_egypt_region = { #7 areas
 		mendes_area
 		manzala_area
 		khem_imu_area
-		bolbitine_area
 	}
 }
 
@@ -1319,6 +1318,8 @@ upper_egypt_region = { #9 areas
 		kemet_placeholder_area
 		amarna_placeholder_1
 		waset_placeholder_1
+		bolbitine_area
+		deshret_placeholder_area
 	}
 }
 
