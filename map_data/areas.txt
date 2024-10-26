@@ -985,7 +985,7 @@ fanindrapura_area = { #12
 }
 
 farfara_area = { #10
-	provinces = { 582 505 9876 9877 650 }
+	provinces = { 582 505 9876 9877 650 9980 }
 }
 
 ferghana_area = { #11
@@ -1194,7 +1194,11 @@ kemet_placeholder_area = {
 }
 
 deshret_placeholder_area = {
-	provinces = { 9965 9966 9967 9968 9969 9970 9971 9972 9973 9974 9975 9976 9977 9978 9979 9980 9981 }
+	provinces = { 9965 9966 9967 9968 9969 9970 9971 9972 9973 9974 9975 9976 9977 9978 9979 9981 }
+}
+
+deshret_placeholder_area_2 = {
+	provinces = { 9982 9983 9984 9985 9986 9987 9988 9989 9990 9991 9992 9993 9994 9995 9996 9997 9998 9999 10000 }
 }
 
 heraclea_area = { #12
