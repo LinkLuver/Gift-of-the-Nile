@@ -1756,3 +1756,53 @@ KR1 = {
 		instance = { rotation = 180 }
 	}
 }
+
+FLS = { 
+	pattern = "pattern_vertical_split_01.tga"
+    color1 = rgb { 180 160 40 }
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_anchor_seleucid.dds"
+        color1 = "mid_grey"
+    }
+}
+
+INU = { 
+	pattern = "pattern_solid.tga"
+    color1 = "phoenicia_color"
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_obelisk_ambrakia.dds"
+        color1 = "mid_grey"
+		color2 = "light_green"
+    }
+	colored_emblem = {
+		texture = "ce_border_triangles_01.dds"
+		color1 = "mid_grey"
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
+	}
+}
+
+DOR = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 143 91 20 }
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_11_2.dds"
+        color1 = "mid_grey"
+		color2 = "mid_grey"
+		instance = { position = { 0.50 0.50 }  rotation = 220 }
+		instance = { position = { 0.50 0.50 }  rotation = -220 }
+    }
+	colored_emblem = {
+		texture = "ce_border_ancient_egyptian_pattern_01.dds"
+		color1 = "ck2_black"
+		color2 = rgb { 143 91 20 }
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+}
