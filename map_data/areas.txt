@@ -1174,15 +1174,23 @@ helvetia_superioris_area = { #10
 
 hema_nome_area = { #12
 	color = rgb { 220 70 93 }
-	provinces = { 553 554 555 556 557 558 559 560 561 }
+	provinces = { 556 557 558 559 560 561 }
+}
+
+qesy_area = { #12
+	provinces = { 552 553 554 555 9938 9939 9894 9895 }
 }
 
 heptanomis_area = { #12
-	provinces = { 547 548 9886 9889 9890 9891 9892 9893 9904 9915 9916 549 550 551 552 9831 }
+	provinces = { 547 548 9886 9889 9890 9891 9904 9915 550 9831 }
+}
+
+akhetaton_area = { #12
+	provinces = { 549 551 9892 9893 9916 9940 9941 9942 9943 }
 }
 
 kemet_placeholder_area = {
-	provinces = { 9894 9895 9896 9897 9898 9899 9900 9901 9902 9903 }
+	provinces = { 9896 9897 9898 9899 9900 9901 9902 9903 }
 }
 
 heraclea_area = { #12
@@ -1767,7 +1775,7 @@ memphis_area = { #11
 }
 
 amarna_placeholder_1 = { #11
-	provinces = { 9932 9933 9934 9935 9936 9937 9938 9939 9940 9941 9942 9943 }
+	provinces = { 9932 9933 9934 9935 9936 9937 }
 }
 
 waset_placeholder_1 = { #11

@@ -729,10 +729,7 @@ lower_egypt_region = { #7 areas
 	areas = {
 		central_delta_area
 		eastern_delta_area
-		heptanomis_area
 		memphis_area
-		parva_area
-		sinai_area
 		western_delta_area
 		pharaoh_canal_area
 		tanis_area
@@ -740,13 +737,6 @@ lower_egypt_region = { #7 areas
 		manzala_area
 		khem_imu_area
 		bolbitine_area
-		hut_nesut_area
-		deras_area
-		medjed_area
-		fayyum_area
-		kemet_placeholder_area
-		amarna_placeholder_1
-		waset_placeholder_1
 	}
 }
 
@@ -1319,7 +1309,6 @@ upper_egypt_region = { #9 areas
 	color = rgb { 255 245 193 }
 	areas = {
 		eastern_desert_area
-		farfara_area
 		hema_nome_area
 		kharga_area
 		khargana_area
@@ -1327,6 +1316,25 @@ upper_egypt_region = { #9 areas
 		myos_hormos_area
 		ptolemais_area
 		troglodytica_area
+		kemet_placeholder_area
+		amarna_placeholder_1
+		waset_placeholder_1
+	}
+}
+
+faiyum_region = { #9 areas
+	color = rgb { 32 97 2 }
+	areas = {
+		deras_area
+		fayyum_area
+		parva_area
+		hut_nesut_area
+		medjed_area
+		heptanomis_area
+		sinai_area
+		akhetaton_area
+		qesy_area
+		farfara_area
 	}
 }
 
