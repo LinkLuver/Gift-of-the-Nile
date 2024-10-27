@@ -1136,10 +1136,14 @@
 		amount=1
 	}
 	citizen={
-		amount=3
+		amount=4
 	}
 	freemen={
 		amount=6
+	}
+	freemen={
+		culture="peloponnesian"
+		amount=2
 	}
 	freemen={
 		culture="hebrew"
@@ -1147,7 +1151,7 @@
 		amount=1
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	holy_site=omen_hera
 	port_building=1
@@ -1161,8 +1165,23 @@
 	civilization_value=54
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
 		amount=2
+	}
+	citizen={
+		culture="achaean"
+		amount=1
+	}
+	citizen={
+		culture="athenian"
+		amount=1
+	}
+	citizen={
+		culture="macedonian"
+		amount=1
 	}
 	freemen={
 		amount=2

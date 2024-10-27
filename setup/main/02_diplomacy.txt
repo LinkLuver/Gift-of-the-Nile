@@ -107,6 +107,16 @@ diplomacy = {
 	}
 	dependency = { first = SPA second = LPR subject_type = client_state }
 
+	#Argolian League
+	defensive_league = {
+		member = ARG
+		member = AGI
+		member = MGA
+		member = KR1
+		member = PYR
+	}
+	dependency = { first = ARG second = KR2 subject_type = feudatory }
+
 	#Neo-Boetian Leaague
 	defensive_league = {
 		member = THE
@@ -124,7 +134,7 @@ diplomacy = {
 	}
 	dependency = { first = THE second = BOE subject_type = client_state }
 	dependency = { first = THE second = OPU subject_type = client_state }
-	dependency = { first = THE second = CHL subject_type = subject_league_city_state }
+	dependency = { first = THE second = TAN subject_type = subject_league_city_state }
 
 
 	dependency = { first = MAC second = PTI subject_type = client_state }

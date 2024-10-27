@@ -8836,3 +8836,16 @@ kythera_heritage = {
 		tag = KR1
 	}
 } 
+
+kyphanta_heritage = {
+	modifier = {
+		#good 
+        global_food_capacity = 300
+        heavy_infantry_defensive = 0.10
+		#bad 
+        loyalty_to_overlord= 30
+	}
+	trigger = {
+		tag = KR2
+	}
+} 
