@@ -1,4 +1,4 @@
-game_object_locator={
+﻿game_object_locator={
 	name="unit_stack"
 	clamp_to_water_level=yes
 	render_under_water=no
@@ -55387,7 +55387,7 @@ game_object_locator={
 		}
 		{
 			id=9969
-			position={ 3046.000000 0.000000 1287.000000 }
+			position={ 3055.035889 0.000000 1305.005127 }
 			rotation={ -0.000000 -0.000000 -0.000000 1.000000 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
@@ -55783,7 +55783,7 @@ game_object_locator={
 		}
 		{
 			id=10036
-			position={ 3376.000000 0.000000 1081.000000 }
+			position={ 3389.128662 0.000000 1080.258667 }
 			rotation={ -0.000000 -0.000000 -0.000000 1.000000 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
