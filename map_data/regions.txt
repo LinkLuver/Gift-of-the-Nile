@@ -745,13 +745,13 @@ lower_nubia_region = { #9 areas
 	areas = {
 		alana_area
 		allaqi_area
-		aswan_area
 		bayuda_area
 		gabgaba_area
 		napata_area
 		north_nubia_area
 		sinkat_area
 		south_nubia_area
+		per_srq_area
 	}
 }
 
@@ -1314,9 +1314,10 @@ upper_egypt_region = { #9 areas
 		myos_hormos_area
 		ptolemais_area
 		troglodytica_area
-		kemet_placeholder_area
-		amarna_placeholder_1
-		waset_placeholder_1
+		herui_area
+		abydos_area
+		iunet_area
+		aswan_area
 	}
 }
 
