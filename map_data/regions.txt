@@ -509,13 +509,12 @@ contestania_region = { #8 areas
 cyrenaica_region = { #7 areas
 	color = rgb { 17 127 237 }
 	areas = {
-		ammon_area
 		cyrenaica_inferioris_area
 		cyrenaica_superioris_area
 		marmarica_occidentalis_area
-		marmarica_orientalis_area
 		tripolitania_centralis_area
 		tripolitania_orientalis_area
+		jaghbub_area
 	}
 }
 
@@ -736,6 +735,7 @@ lower_egypt_region = { #7 areas
 		mendes_area
 		manzala_area
 		khem_imu_area
+		bolbitine_area
 	}
 }
 
@@ -1309,8 +1309,6 @@ upper_egypt_region = { #9 areas
 	areas = {
 		eastern_desert_area
 		hema_nome_area
-		kharga_area
-		khargana_area
 		luxor_area
 		myos_hormos_area
 		ptolemais_area
@@ -1318,12 +1316,21 @@ upper_egypt_region = { #9 areas
 		kemet_placeholder_area
 		amarna_placeholder_1
 		waset_placeholder_1
-		bolbitine_area
+	}
+}
+
+deshret_region = { #9 areas
+	color = rgb { 236 213 85 }
+	areas = {
 		deshret_placeholder_area
 		deshret_placeholder_area_2
 		deshret_placeholder_area_3
 		deshret_placeholder_area_4
 		deshret_placeholder_area_5
+		marmarica_orientalis_area
+		kharga_area
+		khargana_area
+		ammon_area
 	}
 }
 
