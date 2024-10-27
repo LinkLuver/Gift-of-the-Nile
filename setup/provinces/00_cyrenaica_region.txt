@@ -1510,7 +1510,15 @@
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	slaves={
+		culture="nasamonian"
+		religion="amun_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
 }
 
 8124={ #Qabr
@@ -1520,7 +1528,15 @@
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	slaves={
+		culture="nasamonian"
+		religion="amun_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
 }
 
 8153={ #Hait
@@ -1530,7 +1546,15 @@
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	slaves={
+		culture="nasamonian"
+		religion="amun_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
 }
 
 8158={ #Shaqiq
@@ -1540,6 +1564,14 @@
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	slaves={
+		culture="nasamonian"
+		religion="amun_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
 }
 

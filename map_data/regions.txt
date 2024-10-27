@@ -512,6 +512,7 @@ cyrenaica_region = { #7 areas
 		cyrenaica_inferioris_area
 		cyrenaica_superioris_area
 		marmarica_occidentalis_area
+		marmarica_orientalis_area
 		tripolitania_centralis_area
 		tripolitania_orientalis_area
 		jaghbub_area
@@ -1323,14 +1324,11 @@ deshret_region = { #9 areas
 	color = rgb { 236 213 85 }
 	areas = {
 		deshret_placeholder_area
-		deshret_placeholder_area_2
-		deshret_placeholder_area_3
 		deshret_placeholder_area_4
-		deshret_placeholder_area_5
-		marmarica_orientalis_area
 		kharga_area
 		khargana_area
 		ammon_area
+		faiyum_desert_area
 	}
 }
 
