@@ -1503,6 +1503,26 @@
 	}
 }
 
+8123={ #Tarfawi
+	terrain="desert"
+	culture="nasamonian"
+	religion="amun_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+8124={ #Qabr
+	terrain="desert"
+	culture="nasamonian"
+	religion="amun_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
 8153={ #Hait
 	terrain="desert"
 	culture="siwan_egyptian"

@@ -9168,3 +9168,13 @@
 	province_rank=""
 }
 
+10020={ #PROV9815
+	terrain="impassable_terrain"
+	culture="middle_egyptian"
+	religion="arabian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
