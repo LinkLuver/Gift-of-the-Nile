@@ -1597,8 +1597,13 @@
 	freemen={
 		amount=1
 	}
+	freemen={
+		culture="urtaian"
+		religion="armenian_religion"
+		amount=1
+	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
 		amount=1

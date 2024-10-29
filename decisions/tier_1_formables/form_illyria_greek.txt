@@ -1,0 +1,82 @@
+﻿country_decisions = {
+
+	#Form the Illyrian League
+	form_illyria_greek = {
+	potential = {
+		num_of_cities >= 1
+		OR = {
+			tag = APO
+			tag = EPM
+			tag = PHA
+			tag = ASP
+		}
+		NOR = {
+			is_tier_1_formable_trigger = yes
+			is_tier_2_formable_trigger = yes
+			is_endgame_tag_trigger = yes
+			has_variable = has_formed_illyria_greek
+		}
+	}
+	highlight = {
+		scope:province = {
+			OR = {
+				province_id = 4034
+				province_id = 8026
+				province_id = 4085
+				province_id = 422
+				province_id = 415
+			}
+		}
+	}
+	allow = {
+		custom_tooltip = {
+			text = "formable_not_illyria_greek_exists"
+			NOT = {
+				any_country = {
+					tag = "GIL"
+				}
+			}
+		}
+		can_form_nation_trigger = yes
+		owns_or_subject_owns = 4034
+		owns_or_subject_owns = 8026
+		owns_or_subject_owns = 4085
+		owns_or_subject_owns = 422
+		owns_or_subject_owns = 415
+	}
+	effect = {
+		custom_tooltip = "tier_1_formable_tooltip"
+		change_country_name = "ILLYRIA_GREEK_NAME"
+		add_2_free_province_investments = yes
+		custom_tooltip = "form_illyria_greek_claims_tooltip"
+		hidden_effect = {
+			change_country_adjective = "ILLYRIA_GREEK_ADJECTIVE"
+			change_country_tag = GIL
+			change_country_color = "desaturated_green"
+		}
+		capital_scope = {
+			capital_formable_small_effect = yes
+			formable_capital_modifier_normal_effect = yes
+		}
+		add_country_modifier = {
+			name = "illyria_greek_mod"
+			duration = 1825
+		}
+		hidden_effect = {
+		every_province = {
+			limit = {
+				OR = {
+					is_in_region = illyria_region
+				}
+				
+			}
+			add_claim = root
+			}
+			set_variable = has_formed_illyria_greek
+			}
+			ai_will_do = {
+				base = 1
+			}
+		}
+	}
+}

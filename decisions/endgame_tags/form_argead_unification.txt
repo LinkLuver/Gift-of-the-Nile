@@ -1,0 +1,191 @@
+﻿country_decisions = {
+	
+	# Hellenic Kingdom
+	form_argead_unification = {
+		
+		potential = {
+			NOT = { has_variable = formed_hellenic_kingdom }
+			num_of_cities >= 1
+			OR = {
+				country_culture_group = hellenic
+				has_variable = pentapotamia_hellenic_empire
+			}
+			is_monarchy = yes
+			NOT = {
+				tag = ALX
+			}
+			OR = {
+				is_ai = no
+				num_of_cities >= 40
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 379 #Pella
+					province_id = 418 #Corinth
+					province_id = 416 #Athens
+					province_id = 350 #Cardia
+					province_id = 389
+					province_id = 426
+					province_id = 439
+					province_id = 1835
+					province_id = 358
+					province_id = 266
+					province_id = 290
+					province_id = 257
+					province_id = 350
+					province_id = 1453
+					province_id = 4513
+					province_id = 1812
+					province_id = 4583
+					province_id = 4549
+					province_id = 476
+					province_id = 427
+					province_id = 78
+					province_id = 55
+					province_id = 4538
+					province_id = 86
+					province_id = 2325
+					province_id = 1000
+					province_id = 1031
+					province_id = 1347
+					province_id = 7
+					province_id = 1012
+					province_id = 3360
+					province_id = 3350
+					province_id = 334
+					province_id = 440
+					province_id = 84
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = formable_not_argeads_exists
+				NOT = {
+					any_country = {
+						tag = ALX
+					}
+				}
+			}
+			is_monarchy = yes
+			can_form_nation_trigger = yes
+			owns_or_subject_owns = 379 #Pella
+			owns_or_subject_owns = 418 #Corinth
+			owns_or_subject_owns = 426 #Thebes
+			owns_or_subject_owns = 427 #Sparta
+			owns_or_subject_owns = 440 #Argos
+			owns_or_subject_owns = 416 #Athens
+			owns_or_subject_owns = 350
+			owns_or_subject_owns = 389
+			owns_or_subject_owns = 426
+			owns_or_subject_owns = 439
+			owns_or_subject_owns = 1835
+			owns_or_subject_owns = 358
+			owns_or_subject_owns = 266
+			owns_or_subject_owns = 290
+			owns_or_subject_owns = 257
+			owns_or_subject_owns = 1453
+			owns_or_subject_owns = 4513
+			owns_or_subject_owns = 1812
+			owns_or_subject_owns = 4538
+			owns_or_subject_owns = 4549
+			owns_or_subject_owns = 476
+			owns_or_subject_owns = 427
+			owns_or_subject_owns = 78
+			owns_or_subject_owns = 55
+			owns_or_subject_owns = 86
+			owns_or_subject_owns = 2325
+			owns_or_subject_owns = 1000
+			owns_or_subject_owns = 1347
+			owns_or_subject_owns = 7
+			owns_or_subject_owns = 1012
+			owns_or_subject_owns = 3360
+			owns_or_subject_owns = 3350
+			owns_or_subject_owns = 334
+			owns_or_subject_owns = 84
+			owns_or_subject_owns = 4538
+		}
+		
+		
+		effect = {
+			custom_tooltip = "tier_3_formable_tooltip"
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+			}
+			if = {
+				limit = {
+					NOR = { 
+						government = imperium 
+						government = imperial_cult
+						government = spartan_monarchy
+						government = spartan_imperium
+						government = spartan_imperial_cult
+					}
+				}
+
+				republic_to_monarchy_law_variable_effect = yes # decide which legion law should be transferred
+				change_government = imperium
+				republic_to_monarchy_law_change_effect = yes # change legion law based on variable if present
+				switch_government_type_event_clearup_effect = yes
+			}
+			if = {
+				limit = {
+					NOR = {
+						government = spartan_imperial_cult
+						government = spartan_imperium
+					}
+					government = spartan_monarchy
+				}
+				change_government = spartan_imperium
+				switch_government_type_event_clearup_effect = yes
+			}
+			add_country_modifier = {
+				name = "hellenic_kingdom_mod"
+				duration = -1
+			}
+			add_5_free_province_investments = yes
+			custom_tooltip = hellenic_kingdom_tooltip
+			hidden_effect = { 
+				change_country_adjective = "MACEDONIAN_EMPIRE_ADJECTIVE" 
+				change_country_name = "MACEDONIAN_EMPIRE_NAME"
+				change_country_color = "argead_blue"
+				change_country_tag = ALX
+				change_country_flag = ARGEAD_FLAG
+				set_variable = formed_argead_empire
+			}
+			trigger_event = { id = gotn_formable_event.4 }
+			}
+			hidden_effect = {
+				region:moesia_region = { formable_region_province_effect = yes }
+				region:taurica_region = { formable_region_province_effect = yes }
+				region:cappadocia_pontica_region = { formable_region_province_effect = yes }
+				region:colchis_region = { formable_region_province_effect = yes }
+				region:cyrenaica_region = { formable_region_province_effect = yes }
+				region:magna_graecia_region = { formable_region_province_effect = yes }
+				region:illyria_region = { formable_region_province_effect = yes }
+				region:transalpine_gaul_region = { formable_region_province_effect = yes }
+				region:bithynia_region = { formable_region_province_effect = yes }
+				region:central_italy_region = { formable_region_province_effect = yes }
+				region:tarraconensis_region = { formable_region_province_effect = yes }
+				region:contestiana_region = { formable_region_province_effect = yes }
+				region:asia_region = { formable_region_province_effect = yes }
+				region:greece_region = { formable_region_province_effect = yes }
+				region:baetica_region = { formable_region_province_effect = yes }
+				region:mauretania_region = { formable_region_province_effect = yes }
+				region:cicilia_region = { formable_region_province_effect = yes }
+				region:macedonia_region = { formable_region_province_effect = yes }
+				region:thrace_region = { formable_region_province_effect = yes }
+			}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

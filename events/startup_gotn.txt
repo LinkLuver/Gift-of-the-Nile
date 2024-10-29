@@ -231,6 +231,7 @@ gotn_events.8 = {
            primary_culture = carthaginian
            primary_culture = ibero_punic
            primary_culture = atlosian
+           primary_culture = massylian
         }
     }
     fire_only_once = yes
@@ -298,5 +299,63 @@ gotn_events.10 = {
     
     option = {
         name = "gotn_events_9.a"
+    }
+}
+
+gotn_events.11 = { # gotn_events.2 = { # 4th Intermediatary Period
+    
+type = country_event
+title = "gotn_events_11_title"
+desc = "gotn_events_11_desc"
+picture = Event_fire_city
+left_portrait = current_ruler
+left_portrait = c:GAR.current_ruler
+left_portrait = c:PHZ.current_ruler
+right_portrait = c:MDJ.current_ruler
+right_portrait = c:LP1.current_ruler
+right_portrait = c:BRK.current_ruler
+
+trigger = {
+    is_ai = no
+    OR = {
+        tag = PHZ
+        tag = GAR
+        tag = MDJ
+        tag = LP1
+        tag = LP2
+        tag = GA1 
+        tag = GA2 
+        tag = GA4 
+        tag = GH1 
+        tag = GH2 
+        tag = BRK 
+        tag = SBH 
+        tag = MZQ
+        tag = LKS 
+        tag = KNH
+        tag = NAS
+        tag = MHY
+        tag = MKA
+        tag = PSY
+        tag = GIN
+        tag = EMP
+        tag = TRP
+        tag = SP1
+    }
+    capital_scope = {
+        OR = {
+            is_in_region = fezzan_region
+            is_in_region = cyrenaica_region
+        }
+    }
+}
+fire_only_once = yes
+
+option = {
+    name = "gotn_events_11.a"
+    add_country_modifier = {
+        name = garamantic_collapse
+        duration = 3500
+        }
     }
 }

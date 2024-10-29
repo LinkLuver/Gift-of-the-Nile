@@ -2286,7 +2286,7 @@
 }
 
 1471={ #'I Nun
-	terrain="desert"
+	terrain="hills"
 	culture="carthaginian"
 	religion="carthaginian_pantheon"
 	trade_goods="fish"
@@ -2294,13 +2294,23 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		amount=2
+	}
+	citizen={
+		culture="syracusan"
+		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="syracusan"
+		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 

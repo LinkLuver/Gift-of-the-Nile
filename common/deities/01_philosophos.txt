@@ -3,7 +3,6 @@
 deity_thoth_hermes = {
 	trigger = {
 		has_dlc = "Heirs of Alexander"
-		polytheistic_check_religion_trigger = yes
 		#is_monarchy = yes
 		OR = {
 			common_deity_trigger = {
@@ -50,7 +49,6 @@ deity_thoth_hermes = {
 }
 deity_serapis = {
 	trigger = {
-		polytheistic_check_religion_trigger = yes
 		OR = {
 			OR = {
 				common_deity_trigger = {
@@ -105,7 +103,6 @@ deity_serapis = {
 }
 deity_harpocrates = {
 	trigger = {
-		polytheistic_check_religion_trigger = yes
 		OR = {
 			OR = {
 				common_deity_trigger = {
@@ -160,7 +157,6 @@ deity_harpocrates = {
 }
 deity_zeus_amun = {
 	trigger = {
-		polytheistic_check_religion_trigger = yes
 		OR = {
 			AND = {
 				religion = roman_pantheon
@@ -231,7 +227,6 @@ deity_zeus_amun = {
 ### Orphism
 deity_isis_demeter = {
 	trigger = {
-		polytheistic_check_religion_trigger = yes
 		NOT = {
 			has_deity_in_pantheon = deity:omen_isis
 		}
@@ -281,7 +276,7 @@ deity_isis_demeter = {
 }
 deity_zagreus = {
 	trigger = {
-		polytheistic_check_religion_trigger = yes
+		#polytheistic_check_religion_trigger = yes
 		OR = {
 			rare_deity_trigger = {
 				RELIGION = roman_pantheon
@@ -315,7 +310,7 @@ deity_zagreus = {
 }
 deity_hermanubis ={
 	trigger = {
-		polytheistic_check_religion_trigger = yes
+		#polytheistic_check_religion_trigger = yes
 		OR = {
 			AND = {
 				religion = roman_pantheon
@@ -366,5 +361,733 @@ deity_hermanubis ={
 
 	on_activate = {
 		economy_income_effect = yes
+	}
+}
+deity_pythagoras = {
+	trigger = {
+		OR = {
+			very_common_deity_trigger = {
+				RELIGION = isis_religion
+			}
+			deity:omen_pythagoras = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { global_slaves_happyness = deity_global_slaves_happiness_svalue }
+	omen = { monthly_political_influence_modifier = 0.1 } #Bonus from Omen
+	religion = isis_religion
+	deity_category = culture
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		culture_apotheosis_characters_effect = yes
+	}
+}
+deity_theano = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = isis_religion
+			}
+			deity:omen_theano = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { global_capital_trade_routes = deity_global_capital_trade_routes_svalue }
+	omen = { monthly_wage_modifier = omen_monthly_wage_modifier_svalue } #Bonus from Omen
+	religion = isis_religion
+	deity_category = economy
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		economy_apotheosis_capital_noble_effect = yes
+	}
+}
+deity_pythais = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = isis_religion
+			}
+			deity:omen_pythais = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_supply_limit_modifier = deity_global_supply_limit_modifier_svalue }
+	omen = { global_freemen_output = 0.1 } #Bonus from Omen
+	religion = isis_religion
+	deity_category = fertility
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+}
+deity_pherecydes = {
+	trigger = {
+		OR = {
+			common_deity_trigger = {
+				RELIGION = isis_religion
+			}
+			deity:omen_pherecydes = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { discipline = deity_discipline_svalue }
+	omen = { fabricate_claim_speed = omen_fabricate_claim_speed_svalue } #Bonus from Omen
+	religion = isis_religion
+	deity_category = war
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+}
+deity_hippasus = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = isis_religion
+			}
+			deity:omen_hippasus = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { naval_damage_taken = deity_naval_damage_taken_svalue }
+	omen = { naval_morale_modifier = omen_naval_morale_modifier_svalue } #Bonus from Omen
+	religion = isis_religion
+	deity_category = war
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		naval_apotheosis_effect = yes
+		storm_of_the_century_effect = {
+			REGION = mediterranean_region
+		}
+	}
+}
+deity_anaxagoras = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = isis_religion
+			}
+			deity:omen_anaxagoras = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { global_citizen_happyness = deity_global_citizen_happiness_svalue }
+	omen = { global_pop_assimilation_speed_modifier = omen_global_pop_assimilation_speed_modifier_svalue } #Bonus from Omen
+	religion = isis_religion
+	deity_category = culture
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		culture_apotheosis_assimilate_effect = yes
+	}
+}
+### Platonism
+deity_plato = {
+	trigger = {
+		OR = {
+			very_common_deity_trigger = {
+				RELIGION = platonism
+			}
+			deity:omen_plato = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { oratory_tech_investment = deity_oratory_tech_investment_svalue }
+	omen = { monthly_political_influence_modifier = 0.1 } #Bonus from Omen
+	religion = platonism
+	deity_category = culture #This Deity uses a War Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		culture_apotheosis_capital_effect = yes
+	}
+}
+deity_aristotle = {
+	trigger = {
+		OR = {
+			common_deity_trigger = {
+				RELIGION = platonism
+			}
+			deity:omen_aristotle = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { monthly_military_experience_modifier = deity_monthly_military_experience_modifier_svalue }
+	omen = { military_tech_investment = omen_military_tech_investment } #Bonus from Omen
+	religion = platonism
+	deity_category = war
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		military_apotheosis_military_experience_effect = yes
+	}
+}
+deity_socrates = {
+	trigger = {
+		OR = {
+			common_deity_trigger = {
+				RELIGION = platonism
+			}
+			deity:omen_socrates = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
+	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
+	religion = platonism
+	deity_category = economy
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		economy_apotheosis_capital_noble_effect = yes
+	}
+}
+deity_theophrastus = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = platonism
+			}
+			deity:omen_theophrastus = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
+	omen = { global_citizen_output = omen_global_citizen_output_svalue } #Bonus from Omen
+	religion = platonism
+	deity_category = fertility
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		fertility_apotheosis_food_effect = yes
+	}
+}
+deity_speusippus = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = platonism
+			}
+			deity:omen_speusippus = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { global_freemen_output = deity_global_freemen_output_svalue }
+	omen = { civic_tech_investment = omen_civic_tech_investment_svalue } #Bonus from Omen
+	religion = platonism
+	deity_category = culture
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		culture_apotheosis_civic_tech_effect = yes
+	}
+}
+deity_eudoxus = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = platonism
+			}
+			deity:omen_eudoxus = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_citizen_happyness = deity_global_citizen_happiness_svalue }
+	omen = { global_population_growth = omen_global_population_growth } #Bonus from Omen
+	religion = platonism
+	deity_category = fertility
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+}
+deity_xenocrates = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = platonism
+			}
+			deity:omen_xenocrates = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { max_research_efficiency = 0.10 }
+	omen = { global_tax_modifier = omen_global_tax_modifier_svalue } #Bonus from Omen
+	religion = platonism
+	deity_category = fertility
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		economy_apotheosis_province_improvement_effect = yes
+	}
+}
+### Stoicism
+deity_zeno = {
+	trigger = {
+		OR = {
+			common_deity_trigger = {
+				RELIGION = stoicism
+			}
+			deity:omen_zeno = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { monthly_corruption = deity_monthly_corruption_svalue }
+	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
+	religion = stoicism
+	deity_category = culture
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		culture_apotheosis_assimilate_effect = yes
+	}
+}
+deity_diogenes = {
+	trigger = {
+		OR = {
+			common_deity_trigger = {
+				RELIGION = stoicism
+			}
+			deity:omen_diogenes = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_tribesmen_output = global_tribesmen_output_svalue }
+	omen = { global_population_capacity_modifier = omen_global_population_growth } #Bonus from Omen
+	religion = stoicism
+	deity_category = fertility
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		fertility_apotheosis_food_effect = yes
+	}
+}
+deity_crates = {
+	trigger = {
+		OR = {
+			very_rare_deity_trigger = {
+				RELIGION = stoicism
+			}
+			deity:omen_crates = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { war_score_cost = deity_war_score_cost_svalue }
+	omen = { global_defensive = omen_global_defensive_svalue } #Bonus from Omen
+	religion = stoicism
+	deity_category = military
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		war_apotheosis_martial_tech_effect = yes
+	}
+}
+deity_hipparchia = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = stoicism
+			}
+			deity:omen_hipparchia = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { monthly_wage_modifier = deity_monthly_wage_modifier_svalue }
+	omen = { build_cost = omen_build_cost_svalue } #Bonus from Omen
+	religion = stoicism
+	deity_category = economy
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		economy_apotheosis_province_improvement_effect = yes
+	}
+}
+deity_metrocles = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = stoicism
+			}
+			deity:omen_metrocles = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
+	omen = { mercenary_land_maintenance_cost = omen_mercenary_land_maintenance_cost_svalue } #Bonus from Omen
+	religion = stoicism
+	deity_category = economy
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		convert_to_nobles_deity_effect = yes
+	}
+}
+deity_cleanthes = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = stoicism
+			}
+			deity:omen_cleanthes = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { monthly_military_experience_modifier = deity_monthly_military_experience_modifier_svalue }
+	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
+	religion = stoicism
+	deity_category = war
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		military_apotheosis_military_experience_effect = yes
+	}
+}
+deity_euclid_megara = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = stoicism
+			}
+			deity:omen_euclid_megara = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { global_pop_conversion_speed_modifier = deity_global_pop_conversion_speed_modifier_svalue }
+	omen = { stability_monthly_change = omen_stability_monthly_change_svalue } #Bonus from Omen
+	religion = stoicism
+	deity_category = culture
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		culture_apotheosis_rel_tech_effect = yes
+	}
+}
+deity_stilpo = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = stoicism
+			}
+			deity:omen_stilpo = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
+	omen = { hostile_attrition = omen_hostile_attrition_svalue } #Bonus from Omen
+	religion = stoicism
+	deity_category = fertility
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+}
+### Skepticism
+deity_pyrrho = {
+	trigger = {
+		OR = {
+			common_deity_trigger = {
+				RELIGION = pyrrhonism
+			}
+			deity:omen_pyrrho = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_supply_limit_modifier = deity_global_supply_limit_modifier_svalue }
+	omen = { global_nobles_happyness = omen_global_nobles_happiness_svalue } #Bonus from Omen
+	religion = pyrrhonism
+	deity_category = fertility
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+}
+deity_democritus = {
+	trigger = {
+		OR = {
+			common_deity_trigger = {
+				RELIGION = pyrrhonism
+			}
+			deity:omen_democritus = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { research_points_modifier = deity_research_points_modifier_svalue }
+	omen = { civic_tech_investment = omen_civic_tech_investment_svalue } #Bonus from Omen
+	religion = pyrrhonism
+	deity_category = culture
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		economy_apotheosis_province_improvement_effect = yes
+	}
+}
+deity_anaxarchus = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = pyrrhonism
+			}
+			deity:omen_anaxarchus = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_manpower_modifier = deity_global_manpower_modifier_svalue }
+	omen = { assault_ability = omen_assault_ability_svalue } #Bonus from Omen
+	religion = pyrrhonism
+	deity_category = war
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		military_apotheosis_capital_freemen_effect = yes
+	}
+}
+deity_nausiphanes = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = pyrrhonism
+			}
+			deity:omen_nausiphanes = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
+	omen = { global_defensive = omen_global_defensive_svalue } #Bonus from Omen
+	religion = pyrrhonism
+	deity_category = war
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+}
+deity_nausiphanes = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = pyrrhonism
+			}
+			deity:omen_nausiphanes = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { build_time = deity_build_time_svalue }
+	omen = { religious_tech_investment = omen_religious_tech_investment_svalue } #Bonus from Omen
+	religion = pyrrhonism
+	deity_category = economy
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		economy_apotheosis_capital_citizens_effect = yes
+	}
+}
+deity_hecataeus = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = pyrrhonism
+			}
+			deity:omen_hecataeus = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
+	omen = { global_defensive = omen_global_defensive_svalue } #Bonus from Omen
+	religion = pyrrhonism
+	deity_category = war
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+}
+### Epicureanism
+deity_epicurus = {
+	trigger = {
+		OR = {
+			very_common_deity_trigger = {
+				RELIGION = epicureanism
+			}
+			deity:omen_epicurus = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { monthly_tyranny = deity_monthly_tyranny_svalue }
+	omen = { global_monthly_civilization = omen_global_monthly_civilization_svalue } #Bonus from Omen
+	religion = epicureanism
+	deity_category = culture
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		culture_apotheosis_assimilate_effect = yes
+	}
+}
+### Hellenic
+deity_sappho = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = roman_pantheon
+			}
+			deity:omen_sappho = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
+	omen = { global_monthly_civilization = omen_global_monthly_civilization_svalue } #Bonus from Omen
+	religion = roman_pantheon
+	deity_category = fertility
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+}
+deity_homer = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = roman_pantheon
+			}
+			deity:omen_homer = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { happiness_for_same_culture_modifier = deity_happiness_for_same_culture_modifier_svalue }
+	omen = { global_pop_assimilation_speed_modifier = omen_global_pop_assimilation_speed_modifier_svalue } #Bonus from Omen
+	religion = roman_pantheon
+	deity_category = culture
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		culture_apotheosis_oratory_tech_effect = yes
 	}
 }
