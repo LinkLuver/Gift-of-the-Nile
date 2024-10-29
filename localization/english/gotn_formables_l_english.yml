@@ -81,13 +81,14 @@
  formable_not_kyrnos_exists:0 "#Y Kyrnos#! doesn't exist"
  kyrnos_mod:0 "Reclamation of Alalia"
  form_kyrnos:0 "Reclaim Alalia"
- form_kyrnos_desc:0 "Over 140 years ago, those accursed #Y Etruscans#! forced us out of our city, #Y Alalia#!. Between them and the #Y Corsicans#!, the island of Kyrnos must be controlled one group. We will reconquer #Y Alalia#!, and conquer Kyrnos for ourselves!"
+ form_kyrnos_desc:0 "Over 140 years ago, those accursed #Y Etruscans#! forced us out of our city, #Y Alalia#!. Between them and the #Y Corsians#!, the island of Kyrnos must be controlled by one group. We will reconquer #Y Alalia#!, and take Kyrnos for ourselves!"
 
  ## Iberia Formables
  IBERIA_NAME2:0 "Spania"
  IBERIA_ADJECTIVE2:0 "Spanian"
  form_spania:0 "Form Spania"
  form_spania_desc:0 "The #Y Ibero-Punic#! people of #Y Iberia#! call this land #Y Spania#!, and henceforth all shall know it as the great land of the #Y Spanians#!! From humble origins being the furthest of #Y Phoenecian#! coloniae, we now proclaim ourselves a proper powerhouse of this land, on the exact opposite side to that of our forefathers."
+
  LEAGUE_NAME:0 "League of The Pillars"
  LEAGUE_ADJECTIVE:0 "Pillarian"
  form_league:0 "Form the League of The Pillars"
@@ -102,22 +103,41 @@
  paeonia_mod:0 "Greater Paeonia Realized"
  form_greater_paeonia: "Reclaim our Ancestral Lands"
  form_greater_paeonia_desc: "In our tribal halls, Stories are still told of times when our people roamed from the mountains Macedon, to the abundant plains and forests of Thrace, and when we walked along the Propontis, and touched the sea. Such idyllic times seem like a dream, but our people are not one to give up so easily. By will alone, we could recreate our lost realm, and walk on the fields of Thrace once again."
+ 
  TROAS_NAME:0 "Troas"
  TROAS_NAME_ADJECTIVE:0 "Trojan"
  troas_mod:0 "Cities of The Troad"
  formable_not_troas_exists:0 "#Y Troas#! does not exist." 
  form_troas:0 "Unite the Cities of The Troad"
  form_troas_desc:0 "The cities of #Y The Troad#! are home to merchants, philosophers, and proud leaders. Uniting our polities would protect us from foreign interence, and become a formidable state."
+ 
+ formable_not_argead_exists: "The #Y Hellenic Empire#! does not exist."
+ hellenic_kingdom_tooltip:0 "We will recieve claims on the regions of #Y Macedon#!, #Y Thrace#! , #Y Greece#! , #Y Lydia#! , #Y Moesia Inferior#! , #Y Taurica#! , #Y Colchis#! , #Y Bithynia Et Paphlagonia#! , #Y Cappadocia Pontica#! #Y Cyrenaica#! #Y Cicilia#! , #Y Illyria#! , #Y Magna Graecia#! , #Y Transalpine Gaul#! , #Y Tarraconensis#! , #Y Contestania#! , #Y Baetica#! , and #Y Mauretania#!."
+ hellenic_kingdom_mod:0 "Pan-Hellenic Dream Realized"
+ form_argead_unification:0 "Unite the Children of Hellen"
+ form_argead_unification_desc:0 "From the fertile lands of #Y Magna Graecia#!, to the ancient cities of #Y Greece#!, and to the colonies of the west, the Greek people have long been scattered, never being united by one group. By controlling the various poleis of the Hellenes, we can forge a new legacy- that of a new, #Y Pan-Hellenic Kingdom#!"
+ 
+ ILLYRIA_GREEK_NAME:0 "Illyrian League"
+ ILLYRIA_GREEK_ADJECTIVE:0 "Illyrian"
+ illyria_greek_mod:0 "Philosphers of Illyria"
+ formable_not_illyria_greek_exists:0 "The #Y Illyrian League#! does not exist." 
+ form_illyria_greek_claims_tooltip:0 "We will gain claims on the region of #Y Illyria#!"
+ form_illyria_greek:0 "Form the Illyrian League"
+ form_illyria_greek_desc:0 "The #Y Greek#! colonies of #Y Illyria#!, although younger and smaller when compared to the colonies of #Y Magna Graecia#!, could become just as strong. In order to do this, a league of our cities should be formed."
 
  ## Africa Formables
  ATLAS_NAME:0 "Atlas"
  ATLAS_ADJECTIVE:0 "Atlosian"
  form_atlas:0 "Form Atlas"
  form_atlas_desc:0 "The namesake of our mighty people, the #Y Atlas Mountains#!, has fallen under our glorious rule. All shall crumble under the power of #Y Atlas#!!"
+ 
+ tetrapolitania_mod:0 "Great Emporion of Tetrapolitania"
+ formable_not_tetrapolitania_exists:0 "#Y Tetrapolitania#! does not exist." 
  TETRAPOLITANIA_NAME:0 "Tetrapolitania"
  TETRAPOLITANIA_ADJECTIVE:0 "Tetrapolitanian"
  form_tetrapolitania:0 "Unite the Four Cities"
- form_tetrapolitania_desc:0 "The four cities of #Y Tetrapolitania#! can only become great by unification!"
+ form_tetrapolitania_desc:0 "After the implosion of the great #Y Garamantic#! realm, the independence of the #Y Tetrapolitanian#! cities are increasingly being threatened by tribal raids. If we wish to survive, we must be united under one flag."
+ 
  LIBYA_NAME:0 "Libya"
  LIBYA_ADJECTIVE:0 "Libyan"
  libya_mod:0 "Warriors of Libya"
@@ -151,6 +171,26 @@
  form_zagrosia_desc:0 "The many tribes and peoples of the #Y Zagros Mountains#! have never been united, yet all of them share many features. Raiding the rich lands to the west, east, north, or south; living in the tall, mighty mountains; and fighting like warriors until the last man. We will forge a #G New Cultural Identity#! as #Y Zagrosians#!!"
  formable_not_zagrosia_exists:0 "#Y Zagrosia#! does not exist."
  zagros_claims:0 "Gain claims on the #Y Zagrosia#! region."
+
+ ## Anatolia Formables
+ CIMMERIA_NAME:0 "Cimmeria"
+ CIMMERIA_ADJECTIVE:0 "Cimmerian"
+ form_cimmeria_claims_tooltip:0 "We will gain claims on the regions of #Y Phrygia#! and #Y Lydia#!"
+ cimmeria_mod:0 "Cimmerians of Anatolia United"
+ formable_not_cimmeria_exists:0 "#Y Cimmeria#! does not exist."
+ form_cimmeria:0 "Unite the Cimmerians of Anatolia"
+ form_cimmeria_desc:0 "Our people were once the scourge of the great civilizations, before we were reduced to simple plains and mountain dwellers. By uniting the #Y Cimmerians#! of #Y Anatolia#!, we could once again ride out onto the plains of #Y Phyrgia#!, and remind all of our might."
+ gotn_formable_event_5_title:0 "Cimmerian Resurgence"
+ gotn_formable_event_5_desc:0 "Many years ago, the #Y Cimmerian#! people led many great attacks all over #Y Anatolia#!, #Y Mesopotamia#!, and the #Y Levant#!. We had long assumed these people to be simple plains and mountain dwellers, no longer relevant. But, word has reached our capital of a new #Y Cimmerian#! state, one that is preparing for another great invasion..."
+ gotn_formable_event_5.a:0 "May our gods save us...."
+ gotn_formable_event_5.b:0 "Bah! We have defeated these horse riders once before, we shall defeat them again."
+
+ MYSIA_NAME:0 "Mysia"
+ MYSIA_ADJECTIVE:0 "Mysian" 
+ form_mysia_claims_tooltip:0 "We will gain claims of the areas of #Y Mysia Inferioris#! , #Y Mysia Superioris#! , #Y Bithynia Inferioris#! , and #Y Bithynia Superioris#!." 
+ formable_not_mysia_exists:0 "#Y Mysia#! does not exist."
+ form_mysia:0 "Proclaim a true Mysian Kingdom"
+ form_mysia_desc:0 "The Mysian people have long inhabited these lands, and it has been many years since a true #Y Mysian#! Kingdom was established. Although we have indeed prospered under the rule of the Lydians, we must seek our own destiny."
 
  ### Reaffirmation Decisions ###
  # Reaffirm Media

@@ -1,5 +1,27 @@
 ﻿"Elysium_ATH"={
 	country="ATH"
+	587={
+		first_name="Aristoteles"
+		family_name="Atarneid"
+		birth_date=369.1.2
+		death_date=431.1.2
+		culture="macedonian"
+		religion="platonism"
+		no_stats=yes
+		add_martial=3
+		add_charisma=10
+		add_finesse=12
+		add_zeal=9
+		no_traits=yes
+		add_trait="scholar"
+		add_trait="wise"
+		add_trait="just"
+		add_trait="proud"
+		add_trait="intelligent"
+		add_trait="polymath"
+		add_trait="righteous"
+		dna="mK+Yr6WBpYG+6L7oAmsCawKMAowCeQJ5AokCiQKDAoMCagJqAm4CbgKCAoIClgKWAmkCaQKQApACcAJwAnUCdQJpAmkCawJrApkCmQJqAmoChwKHAmYCZgJ0AnQChQKFAmoCagJ+An4CcQJxAm4CbgKTApMChAKEAoQChAJ6AnoCjwKPAn0CfQJpAmkClAKUAo4CjgKDAoMCigKKAmoCagJ6AnoCkgKSBOQE5AKRApECfAJ8AoECgQFXAVcCjAKMApQClAOdA50CdgJ2ApICkgKOAo4CdAJ0AVYBVgKRApECdgJ2Ao8CjwKKAooAJgAmApsCmwFFAUUAgwCDAAgACAB/AH8A/gD+AP4A/gFmAWYAsQCxAWkBaQB/AH8AhgCGAMsAywALAAsA2QDZATgBOAE+AT4DFgMWANYA1gB/AH8CvwK/ADcANwECAQIBFQEVAV4BXgBnAGcABwAHAM0AzQAUABQDTQNNAxIDEgTtBO0E+gT6AH8AfwJjAmMF/wWuAOgA6ADmBfUC3wLfAqECoQAAAAAAAAAAAAAAAA=="
+	}
 	588={
 		first_name="Aristokles"
 		nickname="PLATO_NICKNAME"
@@ -9,10 +31,10 @@
 		culture="athenian"
 		religion="platonism"
 		no_stats=yes
-		add_martial=1
+		add_martial=2
 		add_charisma=13
 		add_finesse=8
-		add_zeal=11
+		add_zeal=12
 		no_traits=yes
 		add_trait="scholar"
 		add_trait="wise"
@@ -31,10 +53,10 @@
 		culture="athenian"
 		religion="platonism"
 		no_stats=yes
-		add_martial=1
+		add_martial=4
 		add_charisma=13
 		add_finesse=8
-		add_zeal=11
+		add_zeal=10
 		no_traits=yes
 		add_trait="wise"
 		add_trait="founder"
@@ -59,9 +81,9 @@
 		culture="ionian"
 		religion="isis_religion"
 		no_stats=yes
-		add_martial=1
-		add_charisma=13
-		add_finesse=8
+		add_martial=2
+		add_charisma=7
+		add_finesse=10
 		add_zeal=11
 		no_traits=yes
 		add_trait="scholar"
@@ -79,10 +101,10 @@
 		mother="char:590"
 		marry_character="char:592"
 		no_stats=yes
-		add_martial=1
-		add_charisma=13
-		add_finesse=8
-		add_zeal=11
+		add_martial=5
+		add_charisma=7
+		add_finesse=13
+		add_zeal=12
 		no_traits=yes
 		add_trait="intelligent"
 		add_trait="wise"
@@ -101,10 +123,10 @@
 		culture="cretan"
 		religion="isis_religion"
 		no_stats=yes
-		add_martial=1
-		add_charisma=13
-		add_finesse=8
-		add_zeal=11
+		add_martial=3
+		add_charisma=8
+		add_finesse=6
+		add_zeal=12
 		no_traits=yes
 		add_trait="wise"
 		add_trait="devout"
@@ -124,10 +146,10 @@
 		culture="italiotian"
 		religion="isis_religion"
 		no_stats=yes
-		add_martial=1
-		add_charisma=13
-		add_finesse=8
-		add_zeal=11
+		add_martial=6
+		add_charisma=10
+		add_finesse=14
+		add_zeal=8
 		no_traits=yes
 		add_trait="intelligent"
 		add_trait="sceptical"
@@ -149,10 +171,10 @@
 		culture="aegean"
 		religion="isis_religion"
 		no_stats=yes
-		add_martial=1
-		add_charisma=13
-		add_finesse=8
-		add_zeal=11
+		add_martial=4
+		add_charisma=11
+		add_finesse=9
+		add_zeal=13
 		no_traits=yes
 		add_trait="devout"
 		add_trait="wise"
@@ -172,10 +194,10 @@
 		culture="aegean"
 		religion="roman_pantheon"
 		no_stats=yes
-		add_martial=1
-		add_charisma=13
-		add_finesse=8
-		add_zeal=11
+		add_martial=3
+		add_charisma=9
+		add_finesse=13
+		add_zeal=9
 		no_traits=yes
 		add_trait="intelligent"
 		add_trait="sceptical"
@@ -195,10 +217,10 @@
 		culture="aegean"
 		religion="roman_pantheon"
 		no_stats=yes
-		add_martial=1
-		add_charisma=13
-		add_finesse=8
-		add_zeal=11
+		add_martial=3
+		add_charisma=11
+		add_finesse=13
+		add_zeal=9
 		no_traits=yes
 		add_trait="wise"
 		add_trait="sceptical"
@@ -216,10 +238,10 @@
 		culture="aegean"
 		religion="pyrrhonism"
 		no_stats=yes
-		add_martial=1
-		add_charisma=13
-		add_finesse=8
-		add_zeal=11
+		add_martial=3
+		add_charisma=11
+		add_finesse=11
+		add_zeal=13
 		no_traits=yes
 		add_trait="good_natured"
 		add_trait="wise"
@@ -240,10 +262,10 @@
 		culture="aeolian"
 		religion="pyrrhonism"
 		no_stats=yes
-		add_martial=1
-		add_charisma=13
-		add_finesse=8
-		add_zeal=11
+		add_martial=4
+		add_charisma=12
+		add_finesse=6
+		add_zeal=10
 		no_traits=yes
 		add_trait="intelligent"
 		add_trait="sceptical"
@@ -265,9 +287,9 @@
 		female=yes
 		no_stats=yes
 		add_martial=1
-		add_charisma=13
-		add_finesse=8
-		add_zeal=11
+		add_charisma=15
+		add_finesse=6
+		add_zeal=6
 		no_traits=yes
 		add_trait="poet"
 		add_trait="humble"
@@ -276,5 +298,71 @@
 		add_trait="intelligent"
 		add_trait="generous"
 		dna="FvwW/Ix1jHWwkLCQAm8CbwKRApECaQJpApECkQKSApICbgJuAoUChQJ/An8CfQJ9AV8BXwJ+An4CdQJ1AVYBVgOxA7EDngOeAVsBWwTSBNICdQJ1AnsCewTHBMcEwQTBAmgCaAJ2AnYCfgJ+AmYCZgJrAmsClAKUAnECcQKKAooCagJqAmYCZgJoAmgDpQOlAnYCdgOuA64CgAKAA64DrgJzAnMCbgJuAngCeAJ+An4ChwKHAnUCdQKCAoICjgKOAncCdwKXApcCeAJ4AosCiwKKAooCcgJyAosCiwKUApQCjAKMBMcExwJ6AnoA0wDTAK8ArwACAAIA1wDXAIcAhwCTAJMBZwFnAPAA8AAEAAQEyATIAA0ADQB/AH8BUAFQAXEBcQADAAMAMAAwApECkQEPAQ8CrQKtAEoASgB/AH8AvwC/ANoA2gD4APgAzwDPAvsC+wBXAFcAYABgAJ0AnQApACkDLAMsAFIAUgB7AHsBawFrAH8AfwHBAcEFHAXJAA0ADQUIBQgCyQLJAr8CvwAAAAAAAAAAAAAAAA=="
+	}
+}
+"Elysium_KOR" = {
+	country="KOR"
+	601={
+		first_name="Diogenes"
+		family_name="Hicesid"
+		birth_date=341.1.2
+		death_date=430.1.2
+		culture="greco_pontic"
+		religion="stoicism"
+		no_stats=yes
+		add_martial=4
+		add_charisma=20
+		add_finesse=1
+		add_zeal=7
+		no_traits=yes
+		add_trait="blunt"
+		add_trait="sceptical"
+		add_trait="crafty"
+		add_trait="abrasive"
+		add_trait="intelligent"
+		add_trait="confident"
+		dna="nTudO4WGhYbXydfJAoQChAKRApECeQJ5AmgCaAJoAmgE4QThAokCiQFhAWEBWQFZAnwCfAKWApYCewJ7ApkCmQJ9An0CagJqAm0CbQKBAoECeAJ4A6EDoQTeBN4CdgJ2AnUCdQJpAmkCcQJxAngCeAJmAmYChAKEAm0CbQKHAocCjQKNAowCjAJzAnMCgQKBAmgCaAKKAooBVwFXAWQBZAFNAU0AJwAnAosCiwKXApcCfwJ/An8CfwJnAmcBZAFkAosCiwA0ADQCcQJxBHUEdQKCAoIChQKFAogCiAFNAU0BTQFNAn8CfwPuA+4AEwATAUoBSgCvAK8BdgF2AE8ATwKxArEA4QDhAJwAnAEiASIDAgMCASEBIQB/AH8AGwAbAPkA+QE3ATcAKAAoAu8C7wEYARgB9wH3AHcAdwB/AH8AzgDOAGUAZQEUARQBQQFBAGYAZgLCAsIAaQBpBMkEyQD4APgAwwDDAE4ATgADAAMAWABYAH8AfwEUARQFwAXAABcAFwX2BfYCrwKvAvcC9wAAAAAAAAAAAAAAAA=="
+	}
+}
+"Elysium_MGA" = {
+	country="MGA"
+	603={
+		first_name="Eukleides"
+		family_name="Megaraid"
+		birth_date=318.1.2
+		death_date=388.1.2
+		culture="athenian"
+		religion="stoicism"
+		no_stats=yes
+		add_martial=3
+		add_charisma=9
+		add_finesse=9
+		add_zeal=9
+		no_traits=yes
+		add_trait="wise"
+		add_trait="good_natured"
+		add_trait="intelligent"
+		dna="J9Un1byLvIv7xvvGAVkBWQKIAogCigKKAmYCZgKDAoMBZAFkAnYCdgJpAmkEwQTBAnACcABCAEICjAKMAoACgATDBMMCawJrAnoCegFeAV4CdAJ0An0CfQBFAEUCaAJoAmYCZgKRApEDsQOxBNgE2AOyA7IAKQApAoQChAJmAmYE3wTfAoUChQKHAocClwKXAnECcQKJAokCbAJsA60DrQAhACECZgJmAnYCdgJmAmYCigKKAooCigJ4AngChQKFApACkAOqA6oClQKVAm4CbgJoAmgCbwJvAnUCdQJ5AnkCiQKJAosCiwKhAqEAewB7AKUApQBXAFcBWQFZAGEAYQFwAXACsQKxAB0AHQFiAWICQwJDAUEBQQB/AH8A9wD3AUEBQQABAAEBfwF/AU8BTwBaAFoDyQPJAQUBBQB/AH8BJQElAPIA8gANAA0BCQEJAosCiwMMAwwAIAAgA1ADUAEfAR8DCQMJAxUDFQNEA0QAbABsAH8AfwDkAOQFOAW5AJsAmwX/BTYChAKEAjoCOgAAAAAAAAAAAAAAAA=="
+	}
+}
+"Eysium_KNI" = {
+	country="KNI"
+	604={
+		first_name="Eudoxus"
+		family_name="Aeschineid"
+		birth_date=363.1.2
+		death_date=413.1.2
+		culture="ionian"
+		religion="stoicism"
+		no_stats=yes
+		add_martial=7
+		add_charisma=7
+		add_finesse=11
+		add_zeal=7
+		no_traits=yes
+		add_trait="wise"
+		add_trait="polymath"
+		add_trait="intelligent"
+		dna="X9Jf0ouLi4vfrt+uAnYCdgKIAogCkgKSAn4CfgJqAmoChQKFBL8EvwKUApQCmAKYACsAKwOuA64CfwJ/AmcCZwJqAmoCawJrA5kDmQKIAogCeQJ5An8CfwKYApgCiQKJAocChwJvAm8CfAJ8An4CfgKFAoUChQKFAVABUAKOAo4DnAOcAmsCawJzAnMCmAKYAnoCegKBAoEBTwFPBOIE4gKCAoICiwKLAnECcQJ/An8CegJ6AmoCagFUAVQCagJqAmwCbAOjA6MCbgJuApcClwJ4AngCbQJtAnUCdQKVApUCbQJtAnECcQLgAuAAJgAmADUANQEUARQAdgB2ATwBPAFMAUwCpQKlAH4AfgF0AXQDIAMgANMA0wB/AH8AsACwAOwA7ABIAEgAZwBnAO0A7QDIAMgA6gDqABkAGQB/AH8AXQBdAEAAQACCAIIBZAFkAUkBSQK3ArcAMAAwA0YDRgBgAGAAfwB/ACEAIQCYAJgEWARYAH8AfwCDAIMFmwWbAGkAaQWjBaMCPgI+ApACkAAAAAAAAAAAAAAAAA=="
 	}
 }

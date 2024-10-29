@@ -298,35 +298,21 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		religion="roman_pantheon"
 		amount=2
 	}
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
-		amount=1
-	}
-	citizen={
-		culture="macedonian"
-		religion="roman_pantheon"
-		amount=1
-	}
-	freemen={
-		religion="roman_pantheon"
+		culture="lydian"
 		amount=2
 	}
 	freemen={
-		culture="pasargadi"
-		religion="zoroaster"
-		amount=1
+		amount=3
 	}
 	freemen={
-		culture="macedonian"
-		religion="roman_pantheon"
-		amount=2
+		culture="lydian"
+		amount=3
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=2
@@ -540,16 +526,14 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="lydian"
 		amount=1
 	}
 	citizen={
 		amount=5
 	}
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="lydian"
 		amount=1
 	}
 	freemen={
@@ -571,6 +555,10 @@
 	}
 	tribesmen={
 		culture="paphlagonian"
+		amount=2
+	}
+	tribesmen={
+		culture="cimmerian"
 		amount=2
 	}
 }
@@ -878,8 +866,7 @@
 		amount=2
 	}
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="lydian"
 		amount=1
 	}
 	freemen={
@@ -973,8 +960,7 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="lydian"
 		amount=1
 	}
 	citizen={
@@ -1061,16 +1047,14 @@
 		amount=1
 	}
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="lydian"
 		amount=1
 	}
 	freemen={
 		amount=3
 	}
 	freemen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="lydian"
 		amount=1
 	}
 	slaves={
@@ -1116,16 +1100,14 @@
 		amount=1
 	}
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="lydian"
 		amount=1
 	}
 	freemen={
 		amount=3
 	}
 	freemen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="lydian"
 		amount=1
 	}
 	slaves={
@@ -1167,8 +1149,7 @@
 		amount=1
 	}
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="lydian"
 		amount=1
 	}
 	freemen={
@@ -1745,8 +1726,7 @@
 		amount=2
 	}
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="lydian"
 		amount=1
 	}
 	freemen={
@@ -1757,8 +1737,7 @@
 		amount=1
 	}
 	freemen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="cimmerian"
 		amount=1
 	}
 	slaves={
@@ -1769,7 +1748,11 @@
 		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=2
+	}
+	tribesmen={
+		culture="cimmerian"
+		amount=1
 	}
 	tribesmen={
 		culture="lycaonian"
@@ -1790,26 +1773,18 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
-		religion="zoroaster"
-		amount=1
-	}
-	nobles={
-		culture="macedonian"
-		religion="roman_pantheon"
-		amount=1
+		culture="lydian"
+		amount=2
 	}
 	citizen={
 		amount=3
 	}
 	citizen={
-		culture="macedonian"
-		religion="roman_pantheon"
+		culture="milyadian"
 		amount=1
 	}
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="lydian"
 		amount=1
 	}
 	freemen={
@@ -1820,8 +1795,7 @@
 		amount=1
 	}
 	freemen={
-		culture="macedonian"
-		religion="roman_pantheon"
+		culture="lydian"
 		amount=2
 	}
 	slaves={
@@ -1903,30 +1877,25 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="lydian"
 		amount=1
 	}
 	nobles={
-		religion="roman_pantheon"
 		amount=1
 	}
 	citizen={
-		religion="roman_pantheon"
 		amount=3
 	}
 	citizen={
-		culture="macedonian"
-		religion="roman_pantheon"
+		culture="lydian"
 		amount=1
 	}
 	freemen={
-		culture="macedonian"
-		religion="roman_pantheon"
+		culture="lydian"
 		amount=2
 	}
 	freemen={
-		religion="roman_pantheon"
+		culture="pisidian"
 		amount=2
 	}
 	freemen={
@@ -1968,8 +1937,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="lydian"
 		amount=1
 	}
 	freemen={
@@ -2023,8 +1991,7 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="lydian"
 		amount=1
 	}
 	citizen={
@@ -2034,8 +2001,7 @@
 		amount=3
 	}
 	freemen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="lydian"
 		amount=1
 	}
 	slaves={
@@ -2207,11 +2173,6 @@
 	citizen={
 		amount=1
 	}
-	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
-		amount=1
-	}
 	freemen={
 		amount=2
 	}
@@ -2228,6 +2189,10 @@
 	tribesmen={
 		culture="isaurian"
 		amount=1
+	}
+	tribesmen={
+		culture="cimmerian"
+		amount=2
 	}
 }
 

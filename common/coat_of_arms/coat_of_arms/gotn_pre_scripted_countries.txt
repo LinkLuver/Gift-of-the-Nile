@@ -1390,6 +1390,13 @@ MGO = {
 		color2 = rgb { 112 104 21 }
 		color3 = rgb { 182 205 193 }
 	}
+	colored_emblem = {
+		texture = "ce_border_meander_05.dds"
+		color1 = rgb { 20 18 4 }
+		color2 = rgb { 112 104 21 }
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
 }
 
 CPA = {
@@ -1409,4 +1416,649 @@ CPA = {
 		color1 = rgb { 209 208 204 }
 		instance = { position = { 0.50 0.50 } rotation = 180 } 
 	}
+}
+
+PHZ = {
+	pattern = "pattern_solid.tga"
+	color1 = "ck2_white"
+	color2 = rgb { 147 0 26 }
+
+	colored_emblem = {
+		texture = "ce_venetic_bird.dds"
+		color1 = rgb { 98 7 23 }
+	}
+	colored_emblem = {
+		texture = "ce_border_triangles_03.dds"
+		color1 = rgb { 86 81 54 }
+	}
+	colored_emblem = {
+		texture = "ce_border_triangles_03.dds"
+		color1 = rgb { 86 81 54 }
+		instance = { position = { 0.50 0.50 } rotation = 180 } 
+	}
+}
+
+AT7 = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 46 87 117 }
+
+	colored_emblem = {
+		texture = "ce_aegis_04.dds"
+		color1 = rgb { 159 151 51 }
+		color2 = rgb { 159 151 51 }
+		instance = { position = { 0.50 0.50 } scale = { 1.10 1.10 } }
+	}
+	colored_emblem = {
+		texture = "cuneiform_2.dds"
+		color1 = rgb { 42 44 44 }
+		instance = { scale { 0.45 0.45 } position = { 0.50 0.50 } rotation = 90 }
+	}
+}
+
+AM2 = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 95 68 129 }
+
+	colored_emblem = {
+		texture = "ce_tardunni.dds"
+		color1 = rgb { 136 121 94 }
+		color2 = "CMB_brown"
+		color3 = "silver"
+		instance = { scale { 0.80 0.80 } position = { 0.50 0.50 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_meander_08.dds"
+		color1 = rgb { 95 68 129 }
+		color2 = rgb { 136 121 94 }
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+}
+
+BRK = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 194 188 106 }
+
+	colored_emblem = {
+		texture = "ce_star_11.dds"
+		color1 = rgb { 20 18 4 }
+		instance = { scale { 0.90 0.90 } position = { 0.50 0.50 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_thracian_pattern_11.dds"
+		color1 = rgb { 194 188 106 }
+		color2 = rgb { 20 18 4 }
+		color3 = rgb { 20 18 4 }
+	}
+	colored_emblem = {
+		texture = "ce_border_thracian_pattern_11.dds"
+		color1 = rgb { 194 188 106 }
+		color2 = rgb { 20 18 4 }
+		color3 = rgb { 20 18 4 }
+		instance = { position = { 0.50 1.40 } }
+	}
+}
+
+LP1 = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 92 106 40 }
+
+	colored_emblem = {
+		texture = "ce_fish_small.dds"
+		color1 = rgb { 20 18 4 }
+		color2 = "airyanem_blue"
+	}
+	colored_emblem = {
+		texture = "ce_border_thracian_pattern_01.dds"
+		color1 = "airyanem_blue"
+		color2 = "airyanem_blue"
+		instance = { position = { 0.50 0.55 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_thracian_pattern_01.dds"
+		color1 = "airyanem_blue"
+		color2 = "airyanem_blue"
+		instance = { position = { 0.50 1.35 } }
+	}
+}
+
+LP2 = {
+	pattern = "pattern_solid.tga"
+	color1 = "ck2_white"
+
+	colored_emblem = {
+		texture = "ce_numidian_06.dds"
+		color1 = "green"
+		color2 = "ck2_white"
+		instance = { scale = { 0.90 0.90 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_simple_03.dds"
+		color1 = "green"
+		color2 = "ck2_white"
+		instance = { position = { 0.50 0.50 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_simple_03.dds"
+		color1 = "ck2_white"
+		color2 = "green"
+		instance = { position = { 0.50 1.38 } rotation = 360 }
+	}
+}
+
+AKE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 47 43 45 }
+
+	colored_emblem = {
+		texture = "ce_mesopatamian_weapons_4.dds"
+		color1 = "green"
+		color2 = "ck2_white"
+		instance = { scale = { 0.90 0.90 } }
+	}
+	colored_emblem = {
+		texture = "ce_persia_derafsh_shahbaz_frame.dds"
+		color1 = "green"
+		color2 = "ck2_white"
+		instance = { position = { 0.50 0.50 } }
+	}
+}
+
+CPU = {
+	pattern = "pattern_solid.tga"
+	color1 = "ck2_white"
+	color2 = "silver"
+
+	colored_emblem = {
+		texture = "ce_apollo_smintheus.dds"
+		color1 = rgb { 255 179 15 }
+	}
+	colored_emblem = {
+		texture = "ce_border_greek_07.dds"
+		color1 = "silver"
+		color2 = rgb { 255 179 15 }
+	}	
+}
+
+NEA = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 69 75 73 }
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_aeolia_barley.dds"
+		color1 = "roman_gold"
+	}
+	colored_emblem = {
+		texture = "ce_wreath_athenai_a.dds"
+		color1 = "roman_gold"
+		color2 = "pitch_black"
+	}
+}
+
+HT2 = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 159 47 87 }
+    color2 = "ariarathid_color"
+
+    colored_emblem = {
+        texture = "ce_griffin_seated.dds"
+        color1 = rgb { 161 159 73 }
+		color2 = "offwhite"
+		instance = { scale = { 1.10 1.10 } }
+    }
+}
+
+HAM = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 152 18 36 }
+    color2 = "ariarathid_color"
+
+    colored_emblem = {
+        texture = "ce_hadad_carry.dds"
+        color1 = rgb { 161 159 73 }
+		color2 = "rust_brown"
+		instance = { scale = { 0.65 0.65 } position = { 0.50 0.50 } }
+    }
+	colored_emblem = {
+        texture = "ce_border_iberian_sun_03.dds"
+        color1 = "silver"
+    }
+	colored_emblem = {
+        texture = "ce_border_iberian_sun_03.dds"
+        color1 = "silver"
+		instance = { position = { 0.50 1.34 } rotation = 360 }
+	}
+}
+
+GUR = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 20 114 39 }
+    color2 = "ariarathid_color"
+
+    colored_emblem = {
+        texture = "ce_venetic_stele_2.dds"
+        color1 = "light_gold"
+    }
+}
+
+CM1 = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 117 12 21 }
+    color2 = "ariarathid_color"
+
+    colored_emblem = {
+        texture = "ce_horse_08.dds"
+        color1 = "CMB_brown"
+		color2 = "offwhite"
+		instance = { scale = { 0.80 0.80 } }
+    }
+	colored_emblem = {
+		texture = "ce_border_triangles_01.dds"
+		color1 = "ck2_white"
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+}
+
+CM5 = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 148 145 41 }
+    color2 = "ariarathid_color"
+
+    colored_emblem = {
+        texture = "ce_horse_08.dds"
+        color1 = "CMB_brown"
+		color2 = "offwhite"
+		instance = { scale = { 0.45 0.45 } position = { 0.70 0.50 } }
+    }
+	colored_emblem = {
+        texture = "ce_horse_08.dds"
+        color1 = "CMB_brown"
+		color2 = "offwhite"
+		instance = { scale = { 0.45 0.45 } position = { 0.30 0.50 } }
+    }
+	colored_emblem = {
+		texture = "ce_border_triangles_01.dds"
+		color1 = "ck2_white"
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+}
+
+CM3 = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 177 42 70 }
+    color2 = "ariarathid_color"
+
+	colored_emblem = {
+        texture = "ce_horse_08.dds"
+        color1 = "CMB_brown"
+		color2 = "offwhite"
+		instance = { scale = { 0.35 0.35 } position = { 0.70 0.40 } }
+    }
+	colored_emblem = {
+        texture = "ce_horse_08.dds"
+        color1 = "CMB_brown"
+		color2 = "offwhite"
+		instance = { scale = { 0.35 0.35 } position = { 0.30 0.40 } }
+    }
+	colored_emblem = {
+        texture = "ce_horse_08.dds"
+        color1 = "CMB_brown"
+		color2 = "offwhite"
+		instance = { scale = { 0.35 0.35 } position = { 0.50 0.70 } }
+    }
+	colored_emblem = {
+		texture = "ce_border_triangles_01.dds"
+		color1 = "ck2_white"
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+}
+
+LYD = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 129 46 45 } 
+    color2 = "ariarathid_color"
+
+    colored_emblem = {
+        texture = "ce_lydia_coin.dds"
+        color1 = rgb { 150 132 20 }
+		color2 = "offwhite"
+		instance = { scale = { 0.80 0.80 } }
+    }
+	colored_emblem = {
+		texture = "ce_border_meander_10.dds"
+		color1 = rgb { 129 46 45 } 
+		color2 = rgb { 150 132 20 }
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+}
+
+KR1 = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 98 135 62 } 
+    color2 = "ariarathid_color"
+
+    colored_emblem = {
+        texture = "ce_ankh.dds"
+        color1 = rgb { 164 161 76 }
+		color2 = "offwhite"
+		instance = { scale = { 0.80 0.80 } }
+    }
+	colored_emblem = {
+		texture = "ce_border_meander_01.tga"
+		color1 = rgb { 98 135 62 }
+		color2 = rgb { 164 161 76 }
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+}
+
+FLS = { 
+	pattern = "pattern_vertical_split_01.tga"
+    color1 = rgb { 180 160 40 }
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_anchor_seleucid.dds"
+        color1 = "mid_grey"
+    }
+}
+
+INU = { 
+	pattern = "pattern_solid.tga"
+    color1 = "ck2_purple"
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_obelisk_ambrakia.dds"
+        color1 = "mid_grey"
+		color2 = "light_green"
+    }
+	colored_emblem = {
+		texture = "ce_border_triangles_01.dds"
+		color1 = "mid_grey"
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
+	}
+}
+
+DOR = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 143 91 20 }
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_11_2.dds"
+        color1 = "mid_grey"
+		color2 = "mid_grey"
+		instance = { position = { 0.50 0.50 }  rotation = 220 }
+		instance = { position = { 0.50 0.50 }  rotation = -220 }
+    }
+	colored_emblem = {
+		texture = "ce_border_ancient_egyptian_pattern_01.dds"
+		color1 = "ck2_black"
+		color2 = rgb { 143 91 20 }
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+}
+
+TW1 = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 59 11 104 }
+    color2 = rgb { 59 11 104 }
+
+    colored_emblem = {
+        texture = "ce_zeus_kretagenes_a.dds"
+        color1 = "roman_gold"
+		color2 = "roman_gold"
+		instance = { scale = { 0.70 0.70 } }
+    }
+	colored_emblem = {
+        texture = "ce_zeus_kretagenes_b.dds"
+        color1 = "roman_gold"
+		instance = { scale = { 0.70 0.70 } }
+    }
+	colored_emblem = {
+        texture = "ce_border_meander_circle.dds"
+        color1 = rgb { 59 11 104 }
+		color2 = "roman_gold"
+		instance = { scale = { 1.30 1.30 } }
+    }
+}
+
+KR2 = { 
+	pattern = "pattern_solid.tga"
+    color1 = "offwhite"
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_caduceus_simple.dds"
+        color1 = "garnet_red"
+    }
+	colored_emblem = {
+        texture = "ce_border_greek_04.dds"
+        color1 = rgb { 59 11 104 }
+		color2 = rgb { 59 11 104 }
+    }
+}
+
+IDI = { 
+	pattern = "pattern_solid.tga"
+    color1 = "light_green"
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "cuneiform_1.dds"
+        color1 = "mid_grey"
+    }
+}
+
+AM3 = { 
+	pattern = "pattern_solid.tga"
+    color1 = "ck2_green"
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_thunderbolt_01.dds"
+        color1 = "roman_gold"
+    }
+}
+
+AM1 = { 
+	pattern = "pattern_solid.tga"
+    color1 = "garnet_red"
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_eagle_04.dds"
+        color1 = "mid_grey"
+		color2 = "silver"
+		instance = { scale = { 0.80 0.80 } position = { 0.50 0.50 } }
+	}
+	colored_emblem = {
+        texture = "ce_border_rug_03.dds"
+        color1 = "silver"
+		color2 = "garnet_red"
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+}
+
+PAL = { 
+	pattern = "pattern_checkers_diagonal_01.tga"
+    color1 = "poop_brown"
+    color2 = "CMB_brown"
+
+    colored_emblem = {
+        texture = "ce_palm_symbol.dds"
+        color1 = "mid_grey"
+		instance = { scale = { 1.10 1.10 } }
+    }
+}
+
+QAY = { 
+	pattern = "pattern_solid.tga"
+    color1 = "offwhite"
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_mesopatamian_weapons_2.dds"
+        color1 = "mid_grey"
+		color2 = "light_green"
+    }
+	colored_emblem = {
+		texture = "ce_border_leaves_03.dds"
+		color1 = "offwhite"
+		color2 = rgb { 44 104 143 }
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
+	}
+}
+
+BEI = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 13 122 46 }
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_byblos.dds"
+        color1 = "offwhite"
+		instance = { scale = { 1.15 1.15 } }
+    }
+}
+
+AT3 = { 
+	pattern = "pattern_solid.tga"
+    color1 = "roman_red"
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_horse_head.dds"
+        color1 = "mid_grey"
+		color2 = "CMB_brown"
+    }
+}
+
+AT1 = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 71 143 189 }
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_thunder_symbol.dds"
+        color1 = "roman_gold"
+    }
+	colored_emblem = {
+		texture = "ce_border_simple_03.dds"
+		color1 = "roman_gold"
+		color2 = rgb { 71 143 189 }
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
+	}
+}
+
+AT6 = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 75 164 158 }
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_bipennis_metokos.dds"
+        color1 = "offwhite"
+		color2= "roman_gold"
+		instance = { scale = { 1.15 1.15 } }
+    }
+}
+
+AT5 = { 
+	pattern = "pattern_solid.tga"
+    color1 = "phokaian_blue"
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_helladic_warrior_1.dds"
+        color1 = "offwhite"
+		color2 = "CMB_brown"
+		instance = { scale = { 1.05 1.05 } }
+    }
+}
+
+AT9 = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 82 161 187 }
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_eagle_thunderbolt.dds"
+        color1 = rgb { 155 117 52 }
+		instance = { scale = { 1.05 1.05 } } 
+    }
+}
+
+AM4 = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 13 122 46 }
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_byblos.dds"
+        color1 = "offwhite"
+		instance = { scale = { 1.15 1.15 } }
+    }
+}
+
+KSC = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 157 155 40 }
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_scarab.dds"
+        color1 = "phokaian_blue"
+		color2 = "ck2_black"
+		instance = { scale = { 0.80 0.80 } }
+    }
+	colored_emblem = {
+		texture = "ce_border_ancient_egyptian_pattern_01.dds"
+		color1 = rgb { 147 39 47 }
+		color2 = rgb { 157 155 40 }
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
+	}
+}
+
+MZQ = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 41 4 60 }
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_ram.dds"
+        color1 = "offwhite"
+		color2 = "silver"
+		instance = { scale = { 1.15 1.15 } }
+    }
+}
+
+LAM = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 94 140 46 }
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_marathon.dds"
+        color1 = "offwhite"
+		color2 = rgb { 144 133 45 }
+		instance = { scale = { 0.80 0.80 } }
+    }
+	colored_emblem = {
+        texture = "ce_hellenistic_frame_05.dds"
+        color1 = "offwhite"
+		color2 = "roman_gold"
+    }
 }

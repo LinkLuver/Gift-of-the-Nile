@@ -334,26 +334,24 @@
 	terrain="farmland"
 	culture="syriac"
 	religion="armenian_religion"
-	trade_goods="grain"
+	trade_goods="horses"
 	civilization_value=20
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	nobles={
-		culture="pasargadi"
-		religion="anahitic_religion"
-		amount=1
+		culture="urtaian"
+		amount=2
 	}
 	citizen={
 		amount=3
 	}
 	citizen={
-		culture="pasargadi"
-		amount=1
+		culture="urtaian"
+		amount=2
 	}
 	citizen={
-		culture="syriac"
 		religion="carthaginian_pantheon"
-		amount=2
+		amount=3
 	}
 	freemen={
 		culture="qedarite"
@@ -361,7 +359,12 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		culture="hittite"
+		religion="hurrian_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	slaves={
 		culture="cappadocian"

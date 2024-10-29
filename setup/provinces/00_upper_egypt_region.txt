@@ -1106,6 +1106,11 @@
 	citizen={
 		amount=2
 	}
+	citizen={
+		culture="garamantic"
+		religion="amun_religion"
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -1126,6 +1131,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		amount=1
+	}
+	citizen={
+		culture="garamantic"
 		amount=1
 	}
 	freemen={

@@ -37,4 +37,28 @@ sardin_mod = {
 kyrnos_mod = {
 	happiness_for_same_culture_modifier = 0.02
 	global_citizen_happyness = 0.05
-}	
+}
+hellenic_kingdom_mod = {
+	happiness_for_wrong_culture_modifier = 0.06
+	global_monthly_civilization = 0.02
+	naval_range= 1
+	control_range_modifier = 0.50
+	land_morale_modifier = 0.05
+	research_points_modifier= 0.10
+	global_citizen_happyness = 0.08
+}
+tetrapolitania_mod = {
+	local_state_trade_routes = 2
+	local_commerce_value_modifier = 0.05
+}
+illyria_greek_mod = {
+	research_points_modifier= 0.10
+	global_pop_assimilation_speed_modifier = 0.05
+	global_pop_conversion_speed_modifier = 0.05
+}
+cimmeria_mod = {
+	war_score_cost = -0.10
+	agressive_expansion_impact = -0.10
+	horse_archers_offensive = 0.10
+	levy_size_multiplier = 0.01
+}

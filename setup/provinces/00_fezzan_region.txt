@@ -3,7 +3,7 @@
 	culture="nasamonian"
 	religion="amun_religion"
 	trade_goods="camel"
-	civilization_value=10
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -16,7 +16,7 @@
 	culture="nasamonian"
 	religion="amun_religion"
 	trade_goods="dates"
-	civilization_value=10
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -31,7 +31,7 @@
 		amount=1
 	}
 	tribesmen={
-		amount=5
+		amount=3
 	}
 }
 
@@ -40,11 +40,11 @@
 	culture="nasamonian"
 	religion="amun_religion"
 	trade_goods="dates"
-	civilization_value=10
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
 		amount=2
@@ -64,14 +64,16 @@
 	culture="nasamonian"
 	religion="amun_religion"
 	trade_goods="dates"
-	civilization_value=10
+	civilization_value=13
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=2
+		amount=1
 	}
 	freemen={
-		amount=3
+		culture="garamantic"
+		religion="amun_religion"
+		amount=2
 	}
 	freemen={
 		culture="siwan_egyptian"
@@ -79,7 +81,7 @@
 		amount=2
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	slaves={
 		culture="siwan_egyptian"
@@ -92,9 +94,8 @@
 		amount=2
 	}
 	tribesmen={
-		amount=6
+		amount=5
 	}
-	aqueduct_building=1
 }
 
 8129={ #Bu Athla
@@ -102,7 +103,7 @@
 	culture="nasamonian"
 	religion="amun_religion"
 	trade_goods="wild_game"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -115,12 +116,9 @@
 	culture="nasamonian"
 	religion="amun_religion"
 	trade_goods="horses"
-	civilization_value=10
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
-		amount=1
-	}
 	slaves={
 		amount=1
 	}
@@ -130,7 +128,7 @@
 		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
@@ -139,7 +137,7 @@
 	culture="nasamonian"
 	religion="amun_religion"
 	trade_goods="leather"
-	civilization_value=10
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -152,7 +150,7 @@
 	culture="nasamonian"
 	religion="amun_religion"
 	trade_goods="leather"
-	civilization_value=10
+	civilization_value=4
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -165,7 +163,7 @@
 	culture="nasamonian"
 	religion="amun_religion"
 	trade_goods="horses"
-	civilization_value=10
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -177,7 +175,7 @@
 		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
@@ -186,7 +184,7 @@
 	culture="nasamonian"
 	religion="amun_religion"
 	trade_goods="wild_game"
-	civilization_value=10
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -199,7 +197,7 @@
 	culture="nasamonian"
 	religion="amun_religion"
 	trade_goods="wild_game"
-	civilization_value=10
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -212,7 +210,7 @@
 	culture="nasamonian"
 	religion="amun_religion"
 	trade_goods="cattle"
-	civilization_value=10
+	civilization_value=4
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -221,7 +219,7 @@
 		amount=1
 	}
 	tribesmen={
-		amount=2
+		amount=1
 	}
 }
 
@@ -230,7 +228,7 @@
 	culture="nasamonian"
 	religion="amun_religion"
 	trade_goods="camel"
-	civilization_value=10
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -248,7 +246,7 @@
 	culture="nasamonian"
 	religion="amun_religion"
 	trade_goods="camel"
-	civilization_value=10
+	civilization_value=4
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -257,7 +255,7 @@
 		amount=1
 	}
 	tribesmen={
-		amount=2
+		amount=1
 	}
 }
 
@@ -266,7 +264,7 @@
 	culture="macaean"
 	religion="amun_religion"
 	trade_goods="wild_game"
-	civilization_value=10
+	civilization_value=4
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -279,7 +277,7 @@
 	culture="macaean"
 	religion="amun_religion"
 	trade_goods="leather"
-	civilization_value=10
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -292,7 +290,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="dates"
-	civilization_value=10
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -301,6 +299,8 @@
 		amount=1
 	}
 	tribesmen={
+		culture="garamantic"
+		religion="amun_religion"
 		amount=3
 	}
 }
@@ -310,7 +310,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="horses"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -324,7 +324,7 @@
 		amount=1
 	}
 	tribesmen={
-		amount=4
+		amount=3
 	}
 }
 
@@ -333,7 +333,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="dates"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -351,7 +351,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="base_metals"
-	civilization_value=10
+	civilization_value=4
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -364,7 +364,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="leather"
-	civilization_value=10
+	civilization_value=4
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -377,7 +377,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="wild_game"
-	civilization_value=10
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -390,7 +390,7 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="wild_game"
-	civilization_value=10
+	civilization_value=4
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -411,13 +411,17 @@
 8152={ #Brak
 	terrain="oasis"
 	culture="garamantic"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="salt"
-	civilization_value=10
+	civilization_value=18
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=2
+		amount=1
+	}
+	citizen={
+		culture="siwan_egyptian"
+		amount=1
 	}
 	freemen={
 		amount=3
@@ -438,7 +442,6 @@
 		religion="amun_religion"
 		amount=2
 	}
-	aqueduct_building=1
 }
 
 8154={ #Wanin
@@ -446,7 +449,7 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="leather"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -459,7 +462,7 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="vegetables"
-	civilization_value=10
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -480,9 +483,9 @@
 8156={ #Bergin
 	terrain="oasis"
 	culture="garamantic"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="dates"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -491,12 +494,12 @@
 		amount=1
 	}
 	tribesmen={
-		amount=2
+		amount=1
 	}
 	tribesmen={
 		culture="garamantic"
 		religion="amun_religion"
-		amount=2
+		amount=1
 	}
 	tribesmen={
 		culture="nasamonian"
@@ -510,7 +513,7 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="horses"
-	civilization_value=10
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -528,7 +531,7 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="camel"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -546,7 +549,7 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="leather"
-	civilization_value=10
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -559,7 +562,7 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="cattle"
-	civilization_value=10
+	civilization_value=4
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -575,9 +578,9 @@
 8162={ #Sabha
 	terrain="oasis"
 	culture="garamantic"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="horses"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -595,13 +598,14 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="vegetables"
-	civilization_value=10
+	civilization_value=4
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
 		amount=1
 	}
 	tribesmen={
+		religion="amun_religion"
 		amount=2
 	}
 }
@@ -611,7 +615,7 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="grain"
-	civilization_value=10
+	civilization_value=4
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -625,9 +629,9 @@
 8166={ #Lecksair
 	terrain="oasis"
 	culture="garamantic"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="dates"
-	civilization_value=10
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -658,19 +662,35 @@
 8168={ #Garama
 	terrain="oasis"
 	culture="garamantic"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="earthware"
-	civilization_value=10
+	civilization_value=21
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
-		amount=5
+		amount=3
+	}
+	citizen={
+		culture="siwan_egyptian"
+		amount=1
+	}
+	citizen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=1
 	}
 	freemen={
-		amount=5
+		amount=2
+	}
+	freemen={
+		culture="siwan_egyptian"
+		amount=1
 	}
 	slaves={
-		amount=4
+		amount=1
 	}
 	slaves={
 		culture="macaean"
@@ -685,7 +705,7 @@
 	slaves={
 		culture="libyan"
 		religion="amun_religion"
-		amount=2
+		amount=1
 	}
 	slaves={
 		culture="carthaginian"
@@ -693,26 +713,20 @@
 		amount=1
 	}
 	tribesmen={
-		amount=8
+		amount=3
 	}
-	tribesmen={
-		culture="garamantic"
-		religion="berber_religion"
-		amount=2
-	}
-	aqueduct_building=3
 }
 
 8169={ #Zinchekra
 	terrain="oasis"
 	culture="garamantic"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="gems"
-	civilization_value=10
+	civilization_value=13
 	barbarian_power=0
 	province_rank="city"
 	freemen={
-		amount=3
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -728,14 +742,13 @@
 		amount=1
 	}
 	tribesmen={
-		amount=5
+		amount=2
 	}
 	tribesmen={
 		culture="garamantic"
 		religion="amun_religion"
 		amount=1
 	}
-	aqueduct_building=2
 }
 
 8170={ #Ninah
@@ -751,9 +764,9 @@
 8171={ #Gadduwah
 	terrain="desert"
 	culture="garamantic"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="wild_game"
-	civilization_value=10
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -779,9 +792,9 @@
 8173={ #Traghen
 	terrain="desert"
 	culture="garamantic"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="vegetables"
-	civilization_value=10
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -800,11 +813,17 @@
 8174={ #Murzuq
 	terrain="oasis"
 	culture="garamantic"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="horses"
-	civilization_value=10
+	civilization_value=16
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
 	slaves={
 		amount=2
 	}
@@ -813,23 +832,17 @@
 	}
 	tribesmen={
 		culture="libyan"
-		religion="amun_religion"
 		amount=1
 	}
-	tribesmen={
-		culture="garamantic"
-		religion="amun_religion"
-		amount=2
-	}
-	aqueduct_building=1
+	
 }
 
 8175={ #Dujal
 	terrain="oasis"
 	culture="garamantic"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="grain"
-	civilization_value=10
+	civilization_value=13
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -850,7 +863,7 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="leather"
-	civilization_value=10
+	civilization_value=4
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -868,7 +881,7 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="camel"
-	civilization_value=10
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -896,12 +909,9 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="dates"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
-	slaves={
-		amount=2
-	}
 	tribesmen={
 		amount=1
 	}
@@ -917,7 +927,7 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="dates"
-	civilization_value=10
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -940,7 +950,7 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="wild_game"
-	civilization_value=10
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -953,7 +963,7 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="vegetables"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -969,11 +979,11 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="camel"
-	civilization_value=10
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=2
+		amount=1
 	}
 }
 
@@ -982,7 +992,7 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="wild_game"
-	civilization_value=10
+	civilization_value=4
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -993,9 +1003,9 @@
 8192={ #Qatrun
 	terrain="oasis"
 	culture="garamantic"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="cattle"
-	civilization_value=10
+	civilization_value=4
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1008,11 +1018,11 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="horses"
-	civilization_value=10
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=2
+		amount=1
 	}
 }
 
@@ -1021,7 +1031,7 @@
 	culture="garamantic"
 	religion="berber_religion"
 	trade_goods="leather"
-	civilization_value=10
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1034,7 +1044,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="wild_game"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1047,7 +1057,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="cattle"
-	civilization_value=10
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -1065,7 +1075,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="leather"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -1083,7 +1093,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="horses"
-	civilization_value=10
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1096,7 +1106,7 @@
 	culture="psyllic"
 	religion="berber_religion"
 	trade_goods="camel"
-	civilization_value=10
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1109,7 +1119,7 @@
 	culture="psyllic"
 	religion="berber_religion"
 	trade_goods="cattle"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1122,7 +1132,7 @@
 	culture="psyllic"
 	religion="berber_religion"
 	trade_goods="leather"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1135,7 +1145,7 @@
 	culture="psyllic"
 	religion="berber_religion"
 	trade_goods="wild_game"
-	civilization_value=10
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1148,7 +1158,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="leather"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1161,11 +1171,16 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="cattle"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=3
+		culture="garamantic"
+		religion="amun_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
 	}
 }
 
@@ -1174,7 +1189,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="leather"
-	civilization_value=10
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1187,7 +1202,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="base_metals"
-	civilization_value=10
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1200,7 +1215,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="cattle"
-	civilization_value=10
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -1214,7 +1229,12 @@
 		amount=1
 	}
 	tribesmen={
-		amount=3
+		culture="garamantic"
+		religion="amun_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
 	}
 }
 
@@ -1223,7 +1243,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="wild_game"
-	civilization_value=10
+	civilization_value=4
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1236,7 +1256,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="precious_metals"
-	civilization_value=10
+	civilization_value=4
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1249,11 +1269,11 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="camel"
-	civilization_value=10
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=2
+		amount=1
 	}
 }
 
@@ -1262,7 +1282,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="wild_game"
-	civilization_value=10
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1275,7 +1295,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="feathers"
-	civilization_value=10
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1288,7 +1308,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="wild_game"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1301,7 +1321,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="horses"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1314,7 +1334,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="cattle"
-	civilization_value=10
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1327,7 +1347,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="leather"
-	civilization_value=10
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1340,7 +1360,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="base_metals"
-	civilization_value=10
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1353,11 +1373,21 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="earthware"
-	civilization_value=10
+	civilization_value=20
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		culture="garamantic"
+		religion="amun_religion"
+		amount=3
+	}
 	freemen={
-		amount=2
+		amount=3
+	}
+	freemen={
+		culture="garamantic"
+		religion="amun_religion"
+		amount=1
 	}
 	slaves={
 		culture="psyllic"
@@ -1370,7 +1400,7 @@
 		amount=1
 	}
 	tribesmen={
-		amount=6
+		amount=3
 	}
 }
 
@@ -1379,7 +1409,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="vegetables"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -1388,7 +1418,7 @@
 		amount=1
 	}
 	tribesmen={
-		amount=2
+		amount=1
 	}
 }
 
@@ -1397,7 +1427,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="stone"
-	civilization_value=10
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -1415,7 +1445,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="horses"
-	civilization_value=10
+	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -1424,7 +1454,7 @@
 		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=3
 	}
 }
 
@@ -1451,7 +1481,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="leather"
-	civilization_value=10
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1464,7 +1494,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="wild_game"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1477,7 +1507,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="camel"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1508,7 +1538,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="wild_game"
-	civilization_value=10
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1521,7 +1551,7 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="leather"
-	civilization_value=10
+	civilization_value=6
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1534,16 +1564,20 @@
 	culture="macaean"
 	religion="berber_religion"
 	trade_goods="base_metals"
-	civilization_value=10
+	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		culture="garamantic"
+		amount=1
+	}
 	slaves={
 		culture="carthaginian"
 		religion="carthaginian_pantheon"
 		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
@@ -1552,7 +1586,7 @@
 	culture="phazani"
 	religion="berber_religion"
 	trade_goods="dates"
-	civilization_value=10
+	civilization_value=12
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -1583,28 +1617,53 @@
 	culture="phazani"
 	religion="berber_religion"
 	trade_goods="dates"
-	civilization_value=10
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="garamantic"
+		amount=1
+	}
 	slaves={
 		culture="carthaginian"
 		religion="carthaginian_pantheon"
 		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=3
 	}
 }
 
 8233={ #Cydamus
 	terrain="oasis"
 	culture="phazani"
-	religion="berber_religion"
+	religion="amun_religion"
 	trade_goods="horses"
-	civilization_value=10
+	civilization_value=23
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=1
+	}
+	nobles={
+		culture="garamantic"
+		amount=2
+	}
 	citizen={
+		culture="garamantic"
+		amount=2
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="garamantic"
 		amount=4
 	}
 	slaves={
@@ -1621,9 +1680,9 @@
 		amount=2
 	}
 	tribesmen={
-		amount=9
+		amount=2
 	}
-	aqueduct_building=2
+	aqueduct_building=1
 }
 
 8234={ #Debdeb
@@ -1631,11 +1690,14 @@
 	culture="phazani"
 	religion="berber_religion"
 	trade_goods="cattle"
-	civilization_value=10
+	civilization_value=14
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=3
+	}
 	tribesmen={
-		amount=6
+		amount=3
 	}
 }
 
@@ -1644,7 +1706,7 @@
 	culture="phazani"
 	religion="berber_religion"
 	trade_goods="leather"
-	civilization_value=10
+	civilization_value=12
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
