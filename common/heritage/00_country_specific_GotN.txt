@@ -7719,7 +7719,7 @@ que_heritage = {
         navy_maintenance_cost = -0.1
         
         #bad
-        cultural_assimilation_speed_modifier = -0.1
+        global_pop_assimilation_speed_modifier = -0.1
     }
     trigger = {
         tag = HIT
@@ -8867,7 +8867,7 @@ lamia_heritage = {
 	modifier = {
 		#good 
         global_defensive = 0.10
-        global_tax_modifier= 0.05
+        agressive_expansion_monthly_change = -0.02
 		#bad 
         build_cost = 0.05
 	}
