@@ -96,8 +96,6 @@ diplomacy = {
 		member = KOR
 		member = SPA
 		member = HRM
-		member = EPD
-		member = TRN
 		member = DYM
 		member = PTA
 		member = AIG
@@ -107,7 +105,7 @@ diplomacy = {
 	}
 	dependency = { first = SPA second = LPR subject_type = client_state }
 
-	#Argolian League
+	#Argolian League of Love and Friendship
 	defensive_league = {
 		member = ARG
 		member = AGI
@@ -116,6 +114,13 @@ diplomacy = {
 		member = PYR
 	}
 	dependency = { first = ARG second = KR2 subject_type = feudatory }
+	dependency = { first = ARG second = EPD subject_type = feudatory }
+	dependency = { first = ARG second = TRN subject_type = feudatory }
+
+
+	#Aetolian League
+	dependency = { first = AET second = AMK subject_type = feudatory }
+	dependency = { first = AET second = AKR subject_type = feudatory }
 
 	#Neo-Boetian Leaague
 	defensive_league = {
@@ -146,8 +151,6 @@ diplomacy = {
     dependency = { first = MAC second = TH2 subject_type = vassal_tribe }
     dependency = { first = MAC second = TH3 subject_type = vassal_tribe }
     dependency = { first = MAC second = TH4 subject_type = vassal_tribe }
-    dependency = { first = MAC second = AMK subject_type = tributary }
-	dependency = { first = MAC second = AKR subject_type = tributary }
 
 	#Macedonian-Thessalian Alliance
 	alliance = { first = TRE second = MAC }

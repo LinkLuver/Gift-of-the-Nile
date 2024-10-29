@@ -8848,4 +8848,30 @@ kyphanta_heritage = {
 	trigger = {
 		tag = KR2
 	}
+}
+
+murzuq_heritage = {
+	modifier = {
+		#good 
+        diplomatic_range_modifier = 1
+        global_citizen_output = 0.10
+		#bad 
+        light_cavalry_morale = -0.10
+	}
+	trigger = {
+		tag = MZQ
+	}
+} 
+
+lamia_heritage = {
+	modifier = {
+		#good 
+        global_defensive = 0.10
+        global_tax_modifier= 0.05
+		#bad 
+        build_cost = 0.05
+	}
+	trigger = {
+		tag = LAM
+	}
 } 

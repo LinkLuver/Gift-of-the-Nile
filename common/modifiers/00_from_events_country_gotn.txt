@@ -57,3 +57,9 @@ hellenic_empire_generic_capital_modifier = {
     local_state_trade_routes = 3
     local_citizen_output = 0.10
 }
+garamantic_collapse = {
+    global_monthly_food_modifier = -0.05
+    global_monthly_civilization = -0.04
+    global_manpower_modifier = -0.10
+    global_population_capacity_modifier = -0.05
+}

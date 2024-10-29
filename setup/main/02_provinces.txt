@@ -2028,7 +2028,7 @@ provinces = { #Any entry must contain a comment with city name.
 	7968 = { # Kyinda
 		fortress_building = 1
 	}
-	8003 = { # Sikyon
+	1881 = { # Mallos
 		fortress_building = 1
 	}
 	8399 = { # Gelon
@@ -2091,9 +2091,6 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	7519 = {
 		aqueduct_building = 1
-	}
-	8003 = { # Sikyon
-		fortress_building = 1
 	}
 	8011 = { #Korlon
 		modifier = { modifier = cedars_of_lebanon always = yes }

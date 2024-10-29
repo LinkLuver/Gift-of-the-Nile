@@ -334,25 +334,24 @@
 	terrain="farmland"
 	culture="syriac"
 	religion="armenian_religion"
-	trade_goods="grain"
+	trade_goods="horses"
 	civilization_value=20
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	nobles={
 		culture="urtaian"
-		amount=1
+		amount=2
 	}
 	citizen={
 		amount=3
 	}
 	citizen={
 		culture="urtaian"
-		amount=1
+		amount=2
 	}
 	citizen={
-		culture="syriac"
 		religion="carthaginian_pantheon"
-		amount=2
+		amount=3
 	}
 	freemen={
 		culture="qedarite"
@@ -360,7 +359,12 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		culture="hittite"
+		religion="hurrian_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	slaves={
 		culture="cappadocian"
@@ -575,10 +579,6 @@
 	civilization_value=34
 	barbarian_power=0
 	province_rank="city"
-	nobles={
-		culture="urtaian"
-		amount=1
-	}
 	citizen={
 		amount=5
 	}
@@ -901,18 +901,15 @@
 	civilization_value=34
 	barbarian_power=0
 	province_rank="city"
-	nobles={
-		culture="urtaian"
-		amount=1
-	}
 	citizen={
+		culture="sophene"
+		religion="armenian_religion"
 		amount=2
 	}
 	citizen={
 		amount=3
 	}
 	freemen={
-		culture="urtaian"
 		amount=2
 	}
 	slaves={
@@ -1241,11 +1238,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
-	}
-	freemen={
-		culture="urtaian"
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=2
@@ -1261,11 +1254,6 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	freemen={
-		culture="urtaian"
-		religion="armenian_religion"
 		amount=1
 	}
 	slaves={
@@ -1425,10 +1413,6 @@
 	freemen={
 		culture="syriac"
 		amount=4
-	}
-	freemen={
-		culture="urtaian"
-		amount=1
 	}
 	slaves={
 		religion="anatolian_religion"
