@@ -3878,21 +3878,6 @@ Thamuda_heritage = {
     }
 }
 
-Gerrha_heritage = {
-    modifier = {
-        #good
-        global_population_happiness = 0.08
-        price_found_metropolis_cost_modifier = -0.25
-
-        #bad
-        land_morale_modifier = -0.1
-    }
-
-    trigger = {
-        tag = GRH
-    }
-}
-
 Maka_heritage = {
     modifier = {
         #good
@@ -8874,4 +8859,19 @@ lamia_heritage = {
 	trigger = {
 		tag = LAM
 	}
-} 
+}
+
+Gerrha_heritage = {
+    modifier = {
+        #good
+        global_export_commerce_modifier = 0.05
+        global_defensive = 0.10
+
+        #bad
+        land_morale_recovery = -0.05
+    }
+
+    trigger = {
+        tag = THJ
+    }
+}

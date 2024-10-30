@@ -9,7 +9,7 @@
 
 	events = {
 		###Spartan Diarchy
-		special_spartan_event.1
+		#special_spartan_event.1
 
 		###Birth Order Traits
 		firstborn_traits.1
@@ -50,7 +50,7 @@
 		bloodlines_startup.32 # Samaria
 
 		###Capadocian Flavor delay =  days =  10 30 for later Pulse for this now see above
-		flavor_cap.1
+		#flavor_cap.1
 
 		###Interesting Treasures
 		interesting_treasures.1
@@ -90,22 +90,22 @@
 		#interesting_histories_country_events.34
 
 		###Iberian Starts
-		iberian_starting_country_events.1
-		iberian_starting_country_events.2
-		iberian_starting_country_events.3
-		iberian_starting_country_events.4
-		iberian_starting_country_events.5
-		iberian_starting_country_events.6
+		#iberian_starting_country_events.1
+		#iberian_starting_country_events.2
+		#iberian_starting_country_events.3
+		#iberian_starting_country_events.4
+		#iberian_starting_country_events.5
+		#iberian_starting_country_events.6
 
 		#new starts
-		startup_events.9
-		startup_events.10
-		startup_events.11
-		startup_events.12
-		startup_events.13
-		startup_events.14
-		startup_events.15
-		startup_events.16
+		#startup_events.9
+		#startup_events.10
+		#startup_events.11
+		#startup_events.12
+		#startup_events.13
+		#startup_events.14
+		#startup_events.15
+		#startup_events.16
 		#the Diadochi CB code
 		province_siege.2
 		#Ashoka Temporary health boost
