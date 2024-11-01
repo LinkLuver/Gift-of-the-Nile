@@ -2104,13 +2104,26 @@ LTS = {
 
 ALE = { 
 	pattern = "pattern_solid.tga"
-    color1 = "ck2_green"
+    color1 = rgb { 122 21 21 }
     color2 = "offwhite"
 
     colored_emblem = {
-        texture = "ce_helladic_warrior_2.dds"
+        texture = "ce_hermes_a.dds"
+        color1 = "offwhite"
+		color2 = "roman_gold"
+		instance = { scale = { 0.70 0.70 } }
+    }
+	colored_emblem = {
+        texture = "ce_hermes_b.dds"
         color1 = "offwhite"
 		color2 = "silver"
+		instance = { scale = { 0.70 0.70 } }
+    }
+	colored_emblem = {
+        texture = "ce_border_floral_01.dds"
+        color1 = rgb { 25 108 12 }
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
     }
 }
 
@@ -2170,4 +2183,26 @@ THJ = {
 		color1 = "rust_brown"
 		instance = { scale = { 0.90 0.90 } }
     }
+}
+
+KENAAN_HADASHT_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "sicyon_purple"
+	
+	
+	
+	colored_emblem = {
+		texture = "ce_border_simple_02.tga"
+		color1 = "sicyon_purple"
+		color2 = "offwhite"
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+
+	colored_emblem = {
+		texture = "ce_tanit_01.dds"
+		color1 = "sicyon_purple"
+		instance = { scale = { 0.75 0.75 }  }
+	}
 }

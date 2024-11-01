@@ -876,6 +876,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		culture="urtaian"
+		religion="armenian_religion"
 		amount=1
 	}
 	tribesmen={
@@ -897,10 +899,20 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	freemen={
+		culture="urtaian"
+		religion="armenian_religion"
+		amount=1
+	}
+	slaves={
 		amount=3
 	}
 	slaves={
-		amount=5
+		culture="urtaian"
+		religion="armenian_religion"
+		amount=2
 	}
 	tribesmen={
 		amount=1

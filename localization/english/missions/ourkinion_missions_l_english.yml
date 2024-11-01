@@ -1,0 +1,113 @@
+﻿l_english:
+
+ourkinion_missions:0 "Ourkinionian Venegance"
+ourkinion_missions_DESCRIPTION:0 "144 years ago, [GetCountry('ALE').GetAdjective).|Y] forces expelled us from our colony of [GetProvince('(int32)3515').GetName|Y]. Since then, our people have eked out a living on the western coast of [GetProvince('(int32)3515').GetArea.GetName|Y]. we have managed to survive for this long, but the future of our people must be decided. The time has come for us to enact our revenge!"
+ourkinion_missions_CRITERIA_DESCRIPTION:0 "This mission will be completed when #E Ourkinion#! reclaims #Y Alalia#!, and cements herself as a powerful #Y Massalian#! state."
+ourkinion_missions_BUTTON_TOOLTIP:0 "The # Y Ourkinionians#! march forward!."
+
+#Missions
+
+ourkinion_missions_task_1:0 "Preparing Ourkinion"
+ourkinion_missions_task_1_DESC:0 "If we expect to wage war on our enemies, #Y Ourkinion#! must be built up. The current state of the city is pitiful compared to the infrastructure of Alalia."
+ourkinion_missions_task_2:0 "On the Corsians"
+ourkinion_missions_task_2_DESC:0 "Despite several previous attempts to bring the #Y Corsians#! closer to us, they have always failed. We should decide how we should handle these people."
+ourkinion_missions_task_3:0 "Crushing the Longogenses"
+ourkinion_missions_task_3_DESC:0 "The #Y Longogenses#!, who inhabit the southern tip of #Y Kyrnos#!, are a constant threat to our claims on the island. Our fleet should be sent to blockade the #Y Taphros Strait#!, and force them to cede their #Y Corscian#! lands."
+ourkinion_missions_task_4:0 "March on Alalia"
+ourkinion_missions_task_4_DESC:0 "Our generals have been formulating plans to invade #Y Aleria#!, and retake our city. We will march through the mountains, and take their army by surprise. We will not fail again.\n\nCompleting this mission will cause us to #R declare war on Aleria#!"
+ourkinion_missions_task_5:0 "Embellishing Alalia"
+ourkinion_missions_task_5_DESC:0 "At last, the home of our people has been reconquered. The #Y Etruscans#! have left the city in a good condition, but it is only fitting that we improve the city, and construct new buildings in the #Y Greek#! manner."
+ourkinion_missions_task_6:0 "Encouraging New Settlement"
+ourkinion_missions_task_6_DESC:0 "It would be prudent of us to encourage new #Y Greek#! settlement to our newly conquered lands. We will petition the #Y Siceliotes#! and the #Y Italiotes#! for assitance in this endeavor."
+ourkinion_missions_task_7:0 "To The South"
+ourkinion_missions_task_7_DESC:0 "Tensions have been brewing between us and the states on the rich and fertile island of #Y Sardinia#!. It is clear that we cannot co-exist with another competing power on this island-#Y Sardinia#! must be ours!"
+ourkinion_missions_task_8:0 "Corsian Tactics"
+ourkinion_missions_task_8_DESC:0 "There is a good deal to be learned from these tribesmen. If we can recruit some #Y Corsian#! warriors to teach our men in the fashion of their people, we will have an edge over our enemies."
+ourkinion_missions_task_9:0 "Learning From Our Past"
+ourkinion_missions_task_9_DESC:0 "Although a valiant effort on our part, the humilating defeat at #Y Alalia#! in 544 BCE has been a constant source of shame for us. The #Y Ourkinionians#! will never again be defeated so poorly again, on sea or on land."
+ourkinion_missions_task_10:0 "Etruscan Ideas"
+ourkinion_missions_task_10_DESC:0 "War is a constant for our people. We be may safe from the #Y Etruscans#! for now, but we should not be surprised if they come for us sooner or later. It would be foolish not to study their tactics and battle strategems."
+
+#Tooltips
+me_ourkinion_1_tt:0 "The mission task '#Y $ourkinion_missions_task_1$#!' has now been #G Completed#!!"
+
+me_ourkinion_2_tt:0 "The mission task '#Y $ourkinion_missions_task_2$#!' has now been #G Completed#!!"
+
+ourkinion_missions_task_3_tt_a:0 "A navy of at least 10 cohorts must be in the #Y Sea Mare Sardoum#!."
+me_ourkinion_3_tt:0 "The mission task '#Y $ourkinion_missions_task_4$#!' has now been #G Completed#!!"
+
+me_ourkinion_4_tt:0 "The mission task '#Y $ourkinion_missions_task_4$#!' has now been #G Completed#!!"
+
+me_ourkinion_5_tt:0 "The mission task '#Y $ourkinion_missions_task_5$#!' has now been #G Completed#!!"
+
+me_ourkinion_6_tt:0 "The mission task '#Y $ourkinion_missions_task_6$#!' has now been #G Completed#!!"
+
+me_ourkinion_7_tt:0 "The mission task '#Y $ourkinion_missions_task_7$#!' has now been #G Completed#!!"
+ourkinion_formed_kyrnos:0 "We must have taken the decision to form #Y Kyrnos#!."
+me_ourkinion_7_claims_tt:0 "We will claims on the island of #Y Sardinia#!."
+
+me_ourkinion_8_tt:0 "The mission task '#Y $ourkinion_missions_task_8$#!' has now been #G Completed#!!"
+
+me_ourkinion_9_tt:0 "The mission task '#Y $ourkinion_missions_task_9$#!' has now been #G Completed#!!"
+ourkinion_task_9_a_tooltip:0 "We must have a navy of at least 25 light or medium ships, and a commander with at least 8 martial."
+
+me_ourkinion_10_tt:0 "The mission task '#Y $ourkinion_missions_task_10$#!' has now been #G Completed#!!"
+ourkinion_unlocks_italic_trads_tt:0 "We will unlock the #G Italic military traditions#!."
+
+ourkinion_assimilation:0 "#R Depending on our choices, we will either grow closer with or anger the Corsian populous#!"
+
+ourkinion_aleria_war:0 "Completing this mission will cause us to #R declare war on Aleria#!."
+
+ourkinion_corsica_settlement:0 "We will petition the western #Y Greek#! states for settlers."
+
+
+#Modifiers
+
+ourkinion_prepared:0 "Ourkinion Prepared"
+corsian_tactics:0 "Corsian Tactics"
+ourkinionian_venegance:0 "Ourkinionian Venegance"
+retained_hellenic_ways:0 "Retained Hellenic Ways"
+accepted_corsians:0 "Accepted Corsians"
+lessons_from_our_past:0 "Lessons From Our Past"
+embellished_alalia:0 "Embellished Alalia"
+
+
+#Events
+
+me_ourkinion_1_title:0 "Ourkinion Prepared"
+me_ourkinion_1_desc:0 "After many days of planning and preparation, #Y Ourkinion#! has finally been brought up to our standards. Although no #Y Korinth#!, she will do for now. Our ports have never been busier, the city has been improved with new civic infrastructure, and our food supplies are plentiful. Even some of our countrymen have left from #Y Massalia#! to pursue oppourtunities here."
+me_ourkinion_1.a:0 "We shall prosper."
+
+me_ourkinion_2_title:0 "On The Corsians"
+me_ourkinion_2_desc:0 "The #Y Corsians#! have long been the inhabitants of this island. Despite our best efforts, they have mostly stayed true to their ways. Many in our government argue that these people should be treated as #Y Greeks#!- after all, the enemy of my enemy is my friend. However, such a decision would be a big change, as our traditions dictate that all #Y non-Greeks#! be treated as outsiders."
+me_ourkinion_2.a:0 "To allow the #Y Corsians#! to be treated on the same level as #Y Greeks#! would be sacrilege"
+me_ourkinion_2.b:0 "Our army could always use more soldiers.....this decision could benefit us greatly."
+
+me_ourkinion_3_title:0 "Crushing the Longogenses"
+me_ourkinion_3_desc:0 "Our navy moved to block the #Y Strait of Taphros#! at dawn, quickly cutting off their #Y Corsian#! lands. Our soldiers moved in shortly after, facing minimal resistance from the tribesmen."
+me_ourkinion_3.a:0 "Soon, all of #Y Corsica#! will be ours."
+
+
+me_ourkinion_4_title:0 "March on Aleria"
+me_ourkinion_4_desc:0 "Our army has never been more prepared for this event. After all these years, now is the time to take our revenge against the #Y Etruscans#!. With our soldiers prepared to march to #Y Alalia#!, our penultimate victory is at hand!"
+me_ourkinion_4.a:0 "May #Y Ares#! guide us!"
+
+me_ourkinion_5_title:0 "Embellishing Alalia"
+me_ourkinion_5_desc:0 ""
+
+me_ourkinion_6_title:0 "Greek Settlers"
+me_ourkinion_6_desc:0 ""
+
+me_ourkinion_7_title:0 "To The South"
+me_ourkinion_7_desc:0 ""
+
+me_ourkinion_8_title:0 "Corsian Tactics"
+me_ourkinion_8_desc:0 "Our training program has been very successful, and despite some complaints from soldiers about being told how to fight by a 'barbarian', these new ideas will allow our army to combat the natives more effectively."
+me_ourkinion_8.a:0 "Now, we can fight like a barbarian."
+
+me_ourkinion_9_title:0 "Learning From Our Past"
+me_ourkinion_9_desc:0 "After an extensive overhaul of our navy, orchestrated personally by [ROOT.GetCountry.GetRuler.GetName|E], we can truly say that the #Y Ourkinionian#! navy is now fit to challenge any in the region."
+me_ourkinion_9.a:0 "Our navy shall reign victorious!"
+
+me_ourkinion_10_title:0 "Etruscan Ideas"
+me_ourkinion_10_desc:0 ""

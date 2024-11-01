@@ -397,7 +397,7 @@
 }
 
 3417={ #Yazd
-	terrain="plains"
+	terrain="oasis"
 	culture="median"
 	religion="zoroaster"
 	trade_goods="cloth"
@@ -618,14 +618,17 @@
 	trade_goods="spices"
 	civilization_value=29
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
 		religion="zoroaster"
 		amount=2
 	}
 	freemen={
 		religion="zoroaster"
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=3

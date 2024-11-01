@@ -1261,7 +1261,7 @@ country = {
 		}
 
 		SAG = {
-			government = despotic_monarchy
+			government = tribal_federation
 			primary_culture = sagartian
 			religion = zoroaster
 			diplomatic_stance = appeasement_stance
@@ -1365,7 +1365,7 @@ country = {
 		}
 
 		ARE = {
-			government = despotic_monarchy
+			government = tribal_federation
 			primary_culture = sagartian
 			religion = zoroaster
 			diplomatic_stance = appeasement_stance
@@ -1935,7 +1935,7 @@ country = {
 
 		COM = {
 			government = despotic_monarchy
-			primary_culture = syriac
+			primary_culture = hittite
 			religion = mithra_religion
 
 			technology={
@@ -1949,7 +1949,7 @@ country = {
 
 			own_control_core = 	{
 				836 838 839 1862 1863 1864 #commagene_region
-				1860 6397 837 840 1847 9587 877
+				1860 6397 837 840 1847 9587 877 1869   
 			}
 
 		}
@@ -2010,7 +2010,7 @@ country = {
 
 			own_control_core = 	{
 				811 #syria_cyrrestice_region
-				1867 1868 9594 9597 9593 1869 1895 7986
+				1867 9597  1895 7986 9594 9593 1868
 			}
 		}
 		KAR = {

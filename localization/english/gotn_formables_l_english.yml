@@ -130,6 +130,20 @@
  ATLAS_ADJECTIVE:0 "Atlosian"
  form_atlas:0 "Form Atlas"
  form_atlas_desc:0 "The namesake of our mighty people, the #Y Atlas Mountains#!, has fallen under our glorious rule. All shall crumble under the power of #Y Atlas#!!"
+ ## Kena'an Hadasht
+ KENAAN_HADASHT_NAME:0 "Kena'an Hadasht"
+ KENAAN_HADASHT_ADJECTIVE:0 "Kena'anite"
+ formable_not_kenaan_hadasht_exists:0 "#Y Kena'an Hadasht#! does not exist." 
+ form_kenaan_hadasht_claims_tooltip:0 "We will gain claims on the region of #Y Africa#!, #Y Numidia#!, #Y Mauretania#!, #Y Atlas#!, #Y Baetica#! and on the area of #Y Tetrapolitania#!, #Y Sardinia Australis#!, and #Y Sicania#!."
+ form_kenaan_hadasht:0 "Unite the lands of New Canaan"
+ form_kenaan_hadasht_desc:0 "Our people, prosperous and mighty, have established a new homeland, far from our ancestor's homes of #Y Phoenica#! and #Y Canaan#!. Scattered all across this land, a united #Y Kena'an Hadasht#! could lead the #Y Punic#! peoples into a new golden age."
+ kenaan_hadasht_mod:0 "Punic People United"
+ kenaan_hadasht_capital:0 "Great Punic Capital"
+ gotn_formable_event_6_title:0 "Punic Unification"
+ gotn_formable_event_6_desc:0 "Led by [SCOPE.GetRootScope.GetCountry.GetRuler.GetName], a new #Y Punic#! state has been declared. This state, called #Y Kena'an Hadasht#!, encompasses the homelands of the #Y Punic#! people, a feat which has never been accomplished before. Who can say what this mighty new power might be able to do."
+ gotn_formable_event_6.a:0 "May Lord #Y Melqart#! bless us with prosperity, and may #Y Tanit#! lead us to victory!"
+ gotn_formable_event_6.b:0 "We should be ashamed that we were not the ones to claim this mantle..."
+
  
  tetrapolitania_mod:0 "Great Emporion of Tetrapolitania"
  formable_not_tetrapolitania_exists:0 "#Y Tetrapolitania#! does not exist." 
