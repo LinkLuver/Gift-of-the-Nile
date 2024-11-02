@@ -1074,16 +1074,27 @@
 5405={ #Thaj
 	terrain="oasis"
 	culture="gerrhan"
-	religion="arabian_pantheon"
+	religion="mesopotamian_religion"
 	trade_goods="earthware"
-	civilization_value=17
+	civilization_value=28
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
+		amount=1
+	}
+	citizen={
+		culture="chaldean"
 		amount=1
 	}
 	freemen={
 		amount=2
+	}
+	freemen={
+		culture="chaldean"
+		amount=3
 	}
 	freemen={
 		culture="elamite"

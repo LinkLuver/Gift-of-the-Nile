@@ -1,0 +1,128 @@
+﻿country_decisions = {
+	
+	# Form Kena'an Hadasht
+	form_kenaan_hadasht = {
+		
+		potential = {
+			num_of_cities >= 1
+			primary_culture = carthaginian
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+				tag = "CAR"
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = carthage_area
+					is_in_area = africa_septentrionalis_area
+					is_in_area = africa_meridionalis_area
+					is_in_area = tripolitania_occidentalis_area
+					province_id = 3264
+					province_id = 3225
+					province_id = 3227
+					province_id = 3150
+					province_id = 3116
+					province_id = 3121
+					province_id = 3481
+					province_id = 3483
+					province_id = 3484
+					province_id = 94
+					province_id = 96
+					province_id = 7842
+					province_id = 3303
+					province_id = 3306
+					province_id = 3306
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = "formable_not_kenaan_hadasht_exists"
+				NOT = {
+					any_country = {
+						tag = "KHD"
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns_area = carthage_area
+			owns_or_subject_owns_area = africa_septentrionalis_area
+			owns_or_subject_owns_area = africa_meridionalis_area
+			owns_or_subject_owns_area = tripolitania_occidentalis_area
+			owns_or_subject_owns = 3264
+			owns_or_subject_owns = 3225
+			owns_or_subject_owns = 3227
+			owns_or_subject_owns = 3150
+			owns_or_subject_owns = 3116
+			owns_or_subject_owns = 3121
+			owns_or_subject_owns = 3481
+			owns_or_subject_owns = 3483
+			owns_or_subject_owns = 3484
+			owns_or_subject_owns = 94
+			owns_or_subject_owns = 96
+			owns_or_subject_owns = 7842
+			owns_or_subject_owns = 3303
+			owns_or_subject_owns = 3306
+			owns_or_subject_owns = 3306
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "KENAAN_HADASHT_NAME"
+			tribal_formable_government_change_effect = yes
+			custom_tooltip = "form_kenaan_hadasht_claims_tooltip"
+			hidden_effect = {
+				change_country_adjective = "KENAAN_HADASHT_ADJECTIVE"
+				change_country_color = "sicyon_purple"
+				change_country_tag = KHD
+				change_country_flag = KENAAN_HADASHT_FLAG
+			}
+			capital_scope = {
+				capital_formable_large_effect = yes
+				formable_capital_modifier_large_effect = yes
+				add_province_modifier = {
+					name = kenaan_hadasht_capital
+					duration = -1
+				}
+			}
+			trigger_event = { id = gotn_formable_event.6 }
+			add_4_free_province_investments = yes
+			random_country_culture = {
+				limit = {
+					is_culture = carthaginian
+				}
+				add_country_culture_modifier = {
+					name = kenaan_hadasht_mod
+					duration = -1
+				}
+			}
+			hidden_effect = {
+				every_province = {
+						limit = {
+							OR = {
+								is_in_region = africa_region
+								is_in_region = numidia_region
+								is_in_region = mauretainia_region
+								is_in_region = baetica_region
+								is_in_region = atlas_region
+								is_in_area = sardinia_meridionalis
+								is_in_area = tripolitania_centralis_area
+								is_in_area = west_sicily_area
+							}
+	
+						}
+						add_claim = root
+						}
+						set_variable = has_formed_kenaan_hadasht
+					}
+			}
+			ai_will_do = {
+			base = 1
+		}
+	}
+}

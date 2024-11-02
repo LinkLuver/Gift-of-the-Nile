@@ -5,6 +5,7 @@
 			OR = {
 			  primary_culture = hittite
 			}
+			is_monarchy = yes
 			NOR = {
 				is_tier_1_formable_trigger = yes
 				is_endgame_tag_trigger = yes

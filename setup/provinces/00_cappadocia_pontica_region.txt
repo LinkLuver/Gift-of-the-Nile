@@ -1412,8 +1412,8 @@
 
 1858={ #Daskousa
 	terrain="hills"
-	culture="lesser_armenian"
-	religion="anatolian_religion"
+	culture="urtaian"
+	religion="armenian_religion"
 	trade_goods="salt"
 	civilization_value=18
 	barbarian_power=0
@@ -1422,7 +1422,7 @@
 		amount=2
 	}
 	tribesmen={
-		religion="roman_pantheon"
+		religion="anatolian_religion"
 		amount=1
 	}
 }
@@ -1453,7 +1453,6 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="urtaian"
 		amount=1
 	}
 	citizen={

@@ -1261,7 +1261,7 @@ country = {
 		}
 
 		SAG = {
-			government = despotic_monarchy
+			government = tribal_federation
 			primary_culture = sagartian
 			religion = zoroaster
 			diplomatic_stance = appeasement_stance
@@ -1365,7 +1365,7 @@ country = {
 		}
 
 		ARE = {
-			government = despotic_monarchy
+			government = tribal_federation
 			primary_culture = sagartian
 			religion = zoroaster
 			diplomatic_stance = appeasement_stance
@@ -1935,7 +1935,7 @@ country = {
 
 		COM = {
 			government = despotic_monarchy
-			primary_culture = syriac
+			primary_culture = hittite
 			religion = mithra_religion
 
 			technology={
@@ -1949,7 +1949,7 @@ country = {
 
 			own_control_core = 	{
 				836 838 839 1862 1863 1864 #commagene_region
-				1860 6397 837 840 1847 9587 877
+				1860 6397 837 840 1847 9587 877 1869   
 			}
 
 		}
@@ -2010,7 +2010,7 @@ country = {
 
 			own_control_core = 	{
 				811 #syria_cyrrestice_region
-				1867 1868 9594 9597 9593 1869 1895 7986
+				1867 9597  1895 7986 9594 9593 1868
 			}
 		}
 		KAR = {
@@ -2732,11 +2732,10 @@ country = {
 		LAM = {
 			family = 30
 			family = 70
-			government = aristocratic_monarchy
+			government = aristocratic_republic
 			primary_culture = aetolian
 			religion = roman_pantheon
 			diplomatic_stance=appeasement_stance
-			monarchy_military_reforms = work_for_the_best
 			capital = 399
 
 			technology={
@@ -2755,9 +2754,6 @@ country = {
 
 			}
 
-			historical_regnal_numbers = {
-				Antipatros = 1
-			}
 			own_control_core =  {
 				399 #Lamia
 				469 #Thaumakoi
@@ -16441,6 +16437,27 @@ country = {
 				5477 5479 5480 5481 5486
 			}
 		
+		}
+		THJ = { #Thaj
+			government = tribal_chiefdom
+			primary_culture = gerrhan
+			religion = mesopotamian_religion
+			diplomatic_stance=trading_stance
+
+			centralization = 20
+
+			capital = 5405 #Thaj
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = {
+				5405 5404 8881 5406 5407
+			}
 		}
 	}
 }

@@ -10,6 +10,7 @@
 		amount=5
 	}
 	freemen={
+		culture="urtaian"
 		amount=3
 	}
 	slaves={
@@ -901,15 +902,23 @@
 	civilization_value=34
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		culture="urtaian"
+		amount=1
+	}
 	citizen={
 		culture="sophene"
-		religion="armenian_religion"
 		amount=2
 	}
 	citizen={
 		amount=3
 	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="urtaian"
+		religion="armenian_religion"
 		amount=2
 	}
 	slaves={
@@ -939,7 +948,9 @@
 	slaves={
 		amount=1
 	}
-	tribesmen={
+	tribesmen={		
+		culture="urtaian"
+		religion="armenian_religion"
 		amount=1
 	}
 }
@@ -1157,6 +1168,7 @@
 		amount=2
 	}
 	tribesmen={
+		culture="urtaian"
 		amount=2
 	}
 	tribesmen={
@@ -1231,14 +1243,18 @@
 
 1855={ #Gareina
 	terrain="forest"
-	culture="sophene"
-	religion="zoroaster"
+	culture="urtaian"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=4
+	}
+	freemen={
+		religion="zoroaster"
+		amount=2
 	}
 	slaves={
 		amount=2
@@ -1254,6 +1270,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		culture="urtaian"
+		religion="armenian_religion"
 		amount=1
 	}
 	slaves={
@@ -1273,6 +1291,7 @@
 		amount=2
 	}
 	tribesmen={
+		culture="urtaian"
 		religion="armenian_religion"
 		amount=1
 	}
@@ -1527,9 +1546,11 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="urtaian"
 		amount=1
 	}
 	freemen={
+		culture="urtaian"
 		amount=2
 	}
 	slaves={

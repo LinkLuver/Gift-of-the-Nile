@@ -10,7 +10,8 @@
 		amount=1
 	}
 	freemen={
-		religion="mithra_religion"
+		culture="matienian"
+		religion="armenian_religion"
 		amount=1
 	}
 	slaves={
@@ -30,6 +31,8 @@
 		amount=1
 	}
 	freemen={
+		culture="matienian"
+		religion="zoroaster"
 		amount=1
 	}
 	slaves={
@@ -46,6 +49,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="matienian"
 		religion="mithra_religion"
 		amount=1
 	}
@@ -59,8 +63,8 @@
 
 1515={ #Ganzak
 	terrain="farmland"
-	culture="median"
-	religion="mithra_religion"
+	culture="matienian"
+	religion="zoroaster"
 	trade_goods="wood"
 	civilization_value=24
 	barbarian_power=0
@@ -73,6 +77,7 @@
 		amount=1
 	}
 	citizen={
+		culture="median"
 		religion="mithra_religion"
 		amount=2
 	}
@@ -88,8 +93,8 @@
 
 1516={ #Shah Tepe
 	terrain="marsh"
-	culture="median"
-	religion="mithra_religion"
+	culture="matienian"
+	religion="zoroaster"
 	trade_goods="horses"
 	civilization_value=21
 	barbarian_power=0
@@ -98,7 +103,6 @@
 		amount=1
 	}
 	freemen={
-		religion="zoroaster"
 		amount=1
 	}
 	slaves={
@@ -108,7 +112,7 @@
 
 1520={ #Bonab Qal'eh
 	terrain="plains"
-	culture="median"
+	culture="matienian"
 	religion="mithra_religion"
 	trade_goods="vegetables"
 	civilization_value=21
@@ -128,8 +132,8 @@
 
 1521={ #Akra-rudh
 	terrain="hills"
-	culture="median"
-	religion="mithra_religion"
+	culture="matienian"
+	religion="zoroaster"
 	trade_goods="cattle"
 	civilization_value=19
 	barbarian_power=0
@@ -138,7 +142,6 @@
 		amount=1
 	}
 	freemen={
-		religion="zoroaster"
 		amount=1
 	}
 	slaves={
@@ -148,8 +151,8 @@
 
 1522={ #Godjer
 	terrain="hills"
-	culture="median"
-	religion="mithra_religion"
+	culture="matienian"
+	religion="zoroaster"
 	trade_goods="leather"
 	civilization_value=19
 	barbarian_power=0
@@ -168,8 +171,8 @@
 
 1523={ #Phraaspa
 	terrain="hills"
-	culture="median"
-	religion="mithra_religion"
+	culture="matienian"
+	religion="zoroaster"
 	trade_goods="vegetables"
 	civilization_value=19
 	barbarian_power=0
@@ -199,6 +202,8 @@
 		amount=1
 	}
 	freemen={
+		culture="matienian"
+		religion="zoroaster"
 		amount=1
 	}
 	slaves={
@@ -208,8 +213,8 @@
 
 1525={ #Gurqal-eh
 	terrain="hills"
-	culture="median"
-	religion="mithra_religion"
+	culture="matienian"
+	religion="zoroaster"
 	trade_goods="cattle"
 	civilization_value=19
 	barbarian_power=0
@@ -228,13 +233,14 @@
 
 1526={ #Tarwakisa
 	terrain="hills"
-	culture="median"
-	religion="mithra_religion"
+	culture="matienian"
+	religion="zoroaster"
 	trade_goods="leather"
 	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="median"
 		religion="zoroaster"
 		amount=1
 	}
@@ -255,9 +261,11 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="matienian"
 		amount=1
 	}
 	freemen={
+		culture="matienian"
 		amount=1
 	}
 	slaves={
@@ -267,8 +275,8 @@
 
 1552={ #Adjalu
 	terrain="hills"
-	culture="median"
-	religion="mithra_religion"
+	culture="matienian"
+	religion="zoroaster"
 	trade_goods="steppe_horses"
 	civilization_value=19
 	barbarian_power=0
@@ -277,7 +285,8 @@
 		amount=1
 	}
 	freemen={
-		religion="zoroaster"
+		culture="median"
+		religion="mithra"
 		amount=1
 	}
 	slaves={
@@ -307,13 +316,14 @@
 
 1554={ #Ziwiye
 	terrain="hills"
-	culture="median"
-	religion="mithra_religion"
+	culture="matienian"
+	religion="zoroaster"
 	trade_goods="horses"
 	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="median"
 		religion="mithra_religion"
 		amount=1
 	}
@@ -1058,8 +1068,8 @@
 
 3386={ #Bilqa
 	terrain="hills"
-	culture="median"
-	religion="mithra_religion"
+	culture="matienian"
+	religion="zoroaster"
 	trade_goods="fur"
 	civilization_value=19
 	barbarian_power=0

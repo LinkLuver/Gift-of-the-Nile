@@ -1167,7 +1167,7 @@ SWR = {
     
     colored_emblem = {
         texture = "ce_tyre_coin.dds"
-        color1 = rgb { 162 187 206 }
+        color1 = "mid_grey"
 		instance = { scale = { 0.9 0.9 } position = { 0.50 0.50 } }
     }
 	colored_emblem = {
@@ -1197,11 +1197,11 @@ YPO = {
 
 HKS = {
 	pattern = "pattern_solid.tga"
-	color1 = hsv { 0.82 0.30 0.80 }
+	color1 = rgb { 124 30 152 }
 	
 	colored_emblem = {
 		texture = "ce_caria_satrapy_star.dds"
-		color1 = rgb {31 64 80}
+		color1 = "silver"
 		color2 = "iberian_sun"
 	}
 }
@@ -1229,6 +1229,7 @@ KIT = {
 CYP = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 26 91 138 }
+	color2 = "offwhite"
 
 	colored_emblem = {
 		texture = "ce_aphrodite_a.dds"
@@ -1634,11 +1635,17 @@ HAM = {
 GUR = { 
 	pattern = "pattern_solid.tga"
     color1 = rgb { 20 114 39 }
-    color2 = "ariarathid_color"
+    color2 = "offwhite"
 
     colored_emblem = {
-        texture = "ce_venetic_stele_2.dds"
-        color1 = "light_gold"
+        texture = "ce_lion_head_pherai_a.dds"
+        color1 = "epirus_yellow"
+		color2 = "CMB_yellow"
+    }
+	colored_emblem = {
+        texture = "ce_lion_head_pherai_b.dds"
+        color1 = rgb { 169 86 154 }
+		color2 = "epirus_yellow"
     }
 }
 
@@ -1853,8 +1860,9 @@ IDI = {
     color2 = "offwhite"
 
     colored_emblem = {
-        texture = "cuneiform_1.dds"
+        texture = "ce_bull_06.dds"
         color1 = "mid_grey"
+		color2= "offwhite"
     }
 }
 
@@ -2002,13 +2010,20 @@ AT9 = {
 
 AM4 = { 
 	pattern = "pattern_solid.tga"
-    color1 = rgb { 13 122 46 }
+    color1 = rgb { 124 30 152 }
     color2 = "offwhite"
 
     colored_emblem = {
-        texture = "ce_byblos.dds"
-        color1 = "offwhite"
-		instance = { scale = { 1.15 1.15 } }
+        texture = "ce_ishtar_lion.dds"
+        color1 = "silver"
+		instance = { scale = { 0.90 0.90 } } 
+    }
+	colored_emblem = {
+        texture = "ce_border_meander_07.dds"
+        color1 = rgb { 124 30 152 }
+		color2 = "silver"
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
     }
 }
 
@@ -2061,4 +2076,133 @@ LAM = {
         color1 = "offwhite"
 		color2 = "roman_gold"
     }
+}
+
+AT8 = { 
+	pattern = "pattern_solid.tga"
+    color1 = "ck2_green"
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_helladic_warrior_2.dds"
+        color1 = "offwhite"
+		color2 = "silver"
+    }
+}
+
+LTS = { 
+	pattern = "pattern_solid.tga"
+    color1 = "very_light_green"
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_helladic_hat_2.dds"
+        color1 = "dark_burgundy"
+		color2 = "ck2_yellow"
+    }
+}
+
+ALE = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 122 21 21 }
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_hermes_a.dds"
+        color1 = "offwhite"
+		color2 = "roman_gold"
+		instance = { scale = { 0.70 0.70 } }
+    }
+	colored_emblem = {
+        texture = "ce_hermes_b.dds"
+        color1 = "offwhite"
+		color2 = "silver"
+		instance = { scale = { 0.70 0.70 } }
+    }
+	colored_emblem = {
+        texture = "ce_border_floral_01.dds"
+        color1 = rgb { 25 108 12 }
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+    }
+}
+
+SAL= { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 140 42 136 }
+    color2 = "light_gold"
+
+    colored_emblem = {
+        texture = "ce_mesopatamian_astrological_1.dds"
+        color1 = "light_gold"
+    }
+}
+
+MAT= { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 50 33 123 }
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_amphora_01.dds"
+        color1 = "offwhite"
+		color2 = "light_green"
+		instance = { scale = { 0.80 0.80 } }
+    }
+	colored_emblem = {
+        texture = "ce_border_iberian_sun_04.dds"
+        color1 = "offwhite"
+    }
+}
+
+TYO = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 105 141 81 }
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_spartan_leopard.dds"
+        color1 = "offwhite"
+		color2 = "rust_brown"
+		instance = { scale = { 0.90 0.90 } }
+    }
+	colored_emblem = {
+        texture = "ce_dilmun.dds"
+        color1 = "ck2_white"
+		instance = { scale = { 1.10 1.10 } position = { 0.50 0.45 } }
+    }
+}
+
+THJ = { 
+	pattern = "pattern_solid.tga"
+    color1 = "light_gold"
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_helladic_glyph_4.dds"
+		color1 = "rust_brown"
+		instance = { scale = { 0.90 0.90 } }
+    }
+}
+
+KENAAN_HADASHT_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "sicyon_purple"
+	
+	
+	
+	colored_emblem = {
+		texture = "ce_border_simple_02.tga"
+		color1 = "sicyon_purple"
+		color2 = "offwhite"
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+
+	colored_emblem = {
+		texture = "ce_tanit_01.dds"
+		color1 = "sicyon_purple"
+		instance = { scale = { 0.75 0.75 }  }
+	}
 }

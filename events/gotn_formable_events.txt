@@ -146,7 +146,7 @@ gotn_formable_event.2 = { # New Zagrossian Culture Group Event
     	custom_tooltip = dont_culture_group_tt
     }
 }
-gotn_formable_event.3 = { #Formation of Canaan, religion change + claims
+gotn_formable_event.3 = { #Urartu Culture decison
 	type = country_event
 	title = gotn_formable_event_3_title
 	desc = gotn_formable_event_3_desc
@@ -183,7 +183,7 @@ gotn_formable_event.3 = { #Formation of Canaan, religion change + claims
 	}
 }
 
-gotn_formable_event.4 = { #Capital for the Empire
+gotn_formable_event.4 = { #Capital for the Empire (Hellenic Empire)
 	type = country_event
 	title = "diadochi_flavor.7"
 	desc = "diadochi_flavor.7.desc"
@@ -331,5 +331,28 @@ gotn_formable_event.5 = { # Return of the Cimmerians
     }
 	option = {
         name = "gotn_formable_event_5.b"
+    }
+}
+
+gotn_formable_event.6 = { # Punic Unification
+	type = country_event
+
+    title = gotn_formable_event_6_title
+    desc = gotn_formable_event_6_desc
+    picture = interesting_histories_punic_city_purple
+
+    trigger = {
+		OR = {
+        primary_culture= carthaginian
+		primary_culture= phoenician
+        }
+    }
+    
+	option = {
+        name = "gotn_formable_event_6.a"
+    }
+
+	option = {
+        name = "gotn_formable_event_6.b"
     }
 }

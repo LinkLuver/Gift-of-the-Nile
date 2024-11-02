@@ -77,6 +77,9 @@ diplomacy = {
 	#Que
 	dependency = { first = HAM second = HT2 subject_type = tributary }
 
+	#Kummuh
+	dependency = { first = COM second = GUR subject_type = client_state }
+
 	##Greek Leagues
 	#Neo-Dellian League
 	defensive_league = {

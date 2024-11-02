@@ -62,3 +62,12 @@ cimmeria_mod = {
 	horse_archers_offensive = 0.10
 	levy_size_multiplier = 0.01
 }
+kenaan_hadasht_capital = {
+	local_state_trade_routes = 2
+	local_citizen_output = 0.10
+	local_country_civilization_value = 20
+    local_tax_modifier = 0.10
+}
+kenaan_hadasht_mod = {
+	culture_happiness_modifier = 0.04
+}
