@@ -212,7 +212,6 @@ CPU = "setup/countries/italia/capua.txt"
 DAU = "setup/countries/italia/daunia.txt"
 FLS = "setup/countries/italia/falisca.txt"
 NEA = "setup/countries/italia/neapolis.txt"
-
 TQI = "setup/countries/italia/ardea.txt"
 #FII = "setup/countries/italia/falerii.txt"
 CAE = "setup/countries/italia/caere.txt"
@@ -232,7 +231,9 @@ AIR = "setup/countries/italia/arretium.txt"
 SAE = "setup/countries/italia/saena.txt"
 ALE = "setup/countries/italia/aleria.txt"
 GN1 = "setup/countries/italia/genoa.txt"
+RAV = "setup/countries/italia/ravna.txt"
 
+# Africa
 LBU = "setup/countries/africa/libu.txt"
 LP1 = "setup/countries/africa/leptis_magna.txt"
 LP2 = "setup/countries/africa/tubaqtis.txt"

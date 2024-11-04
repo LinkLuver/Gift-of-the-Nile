@@ -31,9 +31,6 @@
 					province_id = 1936 # Kelainai
 					province_id = 188 # Pessinous
 					province_id = 315
-					province_id = 189
-					province_id = 1945
-					province_id = 302
 				}
 			}
 		}
@@ -55,14 +52,12 @@
 			owns_or_subject_owns = 1936 # Kelainai
 			owns_or_subject_owns = 188 # Pessinous
 			owns_or_subject_owns = 315
-			owns_or_subject_owns = 189
-			owns_or_subject_owns = 1945
-			owns_or_subject_owns = 302
 		}
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
 			tribal_formable_government_change_effect = yes
+			change_country_name = "PHRYGIA_NAME"
 			hidden_effect = {
 				change_country_adjective = "PHRYGIA_ADJECTIVE"
 				change_country_color = "phrygia_red"

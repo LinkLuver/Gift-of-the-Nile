@@ -2192,7 +2192,8 @@
  #PRY_DYN:0 "[GetCountry('PRY').Custom('get_pry_name')]"
  #PRY_DYN_ADJ:0 "[GetCountry('PRY').Custom('get_pry_adj')]"
   
- TUSCIA_NAME:0 "Tuscia"
+ TUSCIA_NAME:0 "Etruria"
+ TUSCIA_ADJECTIVE:0 "Etruscan"
  
  ITA:0 "Italiote League"
  ITA_ADJ:0 "Italiote"

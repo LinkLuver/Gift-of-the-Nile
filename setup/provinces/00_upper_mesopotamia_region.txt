@@ -333,7 +333,7 @@
 
 836={ #Semsath
 	terrain="farmland"
-	culture="syriac"
+	culture="hittite"
 	religion="armenian_religion"
 	trade_goods="horses"
 	civilization_value=20
@@ -360,9 +360,9 @@
 		amount=1
 	}
 	freemen={
-		culture="hittite"
+		culture="syriac"
 		religion="hurrian_pantheon"
-		amount=1
+		amount=2
 	}
 	freemen={
 		amount=3
@@ -381,7 +381,7 @@
 
 837={ #Tarsa
 	terrain="farmland"
-	culture="syriac"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=20
@@ -439,7 +439,7 @@
 		amount=1
 	}
 	slaves={
-		culture="syriac"
+		culture="hittite"
 		religion="arabian_pantheon"
 		amount=1
 	}
@@ -455,7 +455,7 @@
 
 839={ #Nymphaios
 	terrain="hills"
-	culture="syriac"
+	culture="hittite"
 	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=18
@@ -510,7 +510,7 @@
 		amount=1
 	}
 	slaves={
-		culture="syriac"
+		culture="hittite"
 		religion="carthaginian_pantheon"
 		amount=1
 	}
@@ -1384,7 +1384,7 @@
 
 1864={ #Nisos
 	terrain="hills"
-	culture="syriac"
+	culture="hittite"
 	religion="anahitic_religion"
 	trade_goods="earthware"
 	civilization_value=20
@@ -2106,10 +2106,15 @@
 	freemen={
 		culture="syriac"
 		religion="hurrian_pantheon"
-		amount=3
+		amount=2
+	}
+	freemen={
+		culture="hittite"
+		religion="hurrian_pantheon"
+		amount=1
 	}
 	tribesmen={
-		amount=5
+		amount=4
 	}
 }
 

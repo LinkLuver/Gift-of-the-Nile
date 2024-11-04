@@ -698,10 +698,6 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 
-	3592 = { #feraria
-		fortress_building = 1
-	}
-
 	4787 = {
 		barracks_building = 1
 	}
@@ -2029,6 +2025,9 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 	1881 = { # Mallos
+		fortress_building = 1
+	}
+	3593 = { # Atria
 		fortress_building = 1
 	}
 	8399 = { # Gelon

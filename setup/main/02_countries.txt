@@ -1966,7 +1966,7 @@ country = {
 				religious_tech= { level=1 progress=0  }
 			}
 
-			capital = 1872
+			capital = 1881
 
 			own_control_core = 	{
 				1882 1889 #cilicia_trachea_region
@@ -4491,7 +4491,7 @@ country = {
 			primary_culture = etruscan
 			religion = italic_pantheon
 			diplomatic_stance=trading_stance
-			capital = 114
+			capital = 17
 			family = 18
 			family = 19
 			family = 89
@@ -4588,7 +4588,7 @@ country = {
 		}
 
 		ALE = {
-			government = plutocratic_republic
+			government = oligarchic_republic
 			primary_culture = etruscan
 			religion = roman_pantheon
 			diplomatic_stance=trading_stance
@@ -5003,7 +5003,7 @@ country = {
 			religion = druidism
 			centralization=60
 
-			capital = 142 #Ravenna
+			capital = 3589 #Hostilia
 
 			poptype_rights = {
 				{
@@ -5013,7 +5013,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				3589 3592 150 142 144 145 143 3593 3597
+				3589
 			}
 		}
 
@@ -16437,6 +16437,32 @@ country = {
 				5477 5479 5480 5481 5486
 			}
 		
+		}
+		RAV = { #Ravna
+			government = oligarchic_republic
+			primary_culture = etruscan
+			religion = italic_pantheon
+			diplomatic_stance=appeasement_stance
+
+			poptype_rights = {
+				{
+					culture = umbrian
+					type = citizen
+				}
+			}
+			
+			capital = 142 #Ravna
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = {
+				3593 3597 145 3592 150 144 142
+			}
 		}
 		THJ = { #Thaj
 			government = tribal_chiefdom

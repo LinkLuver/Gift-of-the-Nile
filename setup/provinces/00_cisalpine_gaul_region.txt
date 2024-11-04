@@ -260,10 +260,10 @@
 
 144={ #Spina
 	terrain="marsh"
-	culture="lepontic"
-	religion="druidism"
+	culture="etruscan"
+	religion="italic_pantheon"
 	trade_goods="fish"
-	civilization_value=7
+	civilization_value=14
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -275,42 +275,39 @@
 		amount=1
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=3
 	}
 	slaves={
-		culture="etruscan"
-		religion="italic_pantheon"
+		culture="lepontic"
+		religion="druidism"
 		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 	port_building=1
 }
 
 145={ #Corniculani
 	terrain="marsh"
-	culture="lepontic"
-	religion="druidism"
+	culture="etruscan"
+	religion="italic_pantheon"
 	trade_goods="salt"
-	civilization_value=7
+	civilization_value=13
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=1
 	}
 	slaves={
-		culture="etruscan"
-		religion="italic_pantheon"
-		amount=2
-	}
-	tribesmen={
+		culture="lepontic"
+		religion="druidism"
 		amount=2
 	}
 }
@@ -388,8 +385,8 @@
 
 150={ #Vicus Aventia
 	terrain="forest"
-	culture="lepontic"
-	religion="druidism"
+	culture="etruscan"
+	religion="italic_pantheon"
 	trade_goods="wine"
 	civilization_value=9
 	barbarian_power=0
@@ -404,8 +401,8 @@
 		amount=2
 	}
 	tribesmen={
-		culture="etruscan"
-		religion="italic_pantheon"
+		culture="lepontic"
+		religion="druidism"
 		amount=2
 	}
 }
@@ -1793,8 +1790,8 @@
 
 3592={ #Forum Alieni
 	terrain="farmland"
-	culture="lepontic"
-	religion="druidism"
+	culture="etruscan"
+	religion="italic_pantheon"
 	trade_goods="wine"
 	civilization_value=9
 	barbarian_power=0
@@ -1809,51 +1806,58 @@
 		amount=3
 	}
 	tribesmen={
-		culture="etruscan"
-		religion="italic_pantheon"
+		culture="lepontic"
+		religion="druidism"
 		amount=2
 	}
 }
 
 3593={ #Hatria
 	terrain="farmland"
-	culture="lepontic"
-	religion="druidism"
+	culture="etruscan"
+	religion="italic_pantheon"
 	trade_goods="cloth"
-	civilization_value=18
+	civilization_value=25
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=2
+	}
 	citizen={
 		amount=2
 	}
 	citizen={
-		culture="etruscan"
-		religion="italic_pantheon"
+		culture="umbrian"
 		amount=2
 	}
 	citizen={
 		culture="syracusan"
-		religion="italic_pantheon"
+		religion="roman_pantheon"
 		amount=2
 	}
 	citizen={
 		culture="venetic"
-		religion="italic_pantheon"
 		amount=1
 	}
 	freemen={
-		amount=3
+		amount=4
 	}
 	freemen={
 		culture="italiotian"
 		religion="roman_pantheon"
-		amount=1
+		amount=2
+	}
+	freemen={
+		culture="venetic"
+		amount=3
 	}
 	slaves={
-		amount=1
+		culture="lepontic"
+		religion="druidism"
+		amount=3
 	}
-	tribesmen={
-		amount=5
+	slaves={
+		amount=3
 	}
 	tribesmen={
 		culture="haedui"
@@ -1861,13 +1865,12 @@
 	}
 	tribesmen={
 		culture="venetic"
-		religion="italic_pantheon"
-		amount=6
+		amount=3
 	}
 	tribesmen={
-		culture="etruscan"
-		religion="italic_pantheon"
-		amount=6
+		culture="lepontic"
+		religion="druidism"
+		amount=1
 	}
 	port_building=1
 }
@@ -1961,23 +1964,30 @@
 
 3597={ #Anneianum
 	terrain="forest"
-	culture="lepontic"
+	culture="etruscan"
 	religion="italic_pantheon"
 	trade_goods="fish"
-	civilization_value=7
+	civilization_value=14
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
-		amount=3
+		amount=4
+	}
+	freemen={
+		culture="lepontic"
+		religion="druidism"
+		amount=2
 	}
 	slaves={
 		amount=3
 	}
 	tribesmen={
-		amount=6
+		culture="lepontic"
+		religion="druidism"
+		amount=2
 	}
 }
 
