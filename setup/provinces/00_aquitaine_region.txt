@@ -260,22 +260,36 @@
 	}
 }
 
-2236={ #Burdigala
-	terrain="marsh"
-	culture="biturigan"
-	religion="druidism"
+2236={ #Pytheapolis
+	terrain="plains"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=7
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=2
+	}
+	citizen={
+		amount=4
+	}
 	freemen={
+		amount=7
+	}
+	freemen={
+		culture="biturigan"
+		religion="druidism"
 		amount=1
 	}
 	tribesmen={
+		culture="biturigan"
+		religion="druidism"
 		amount=3
 	}
 	slaves={
 		culture="santonian"
+		religion="druidism"
 		amount=1
 	}
 	port_building=1

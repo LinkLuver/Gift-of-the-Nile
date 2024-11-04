@@ -1,0 +1,25 @@
+﻿"BDX"={
+	country="BDX"
+	394={
+		first_name="Pytheas"
+		family_name="Pytheid"
+		birth_date=393.8.25
+		culture="massalian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=2
+		add_charisma=7
+		add_finesse=10
+		add_zeal=5
+		no_traits=yes
+		add_trait="scholar"
+		add_trait="explorer"
+		add_trait="resourceful"		
+		add_gold=100
+		add_popularity=20
+		dna="jcCNwJeAl4DUmdSZAoYChgJyAnICiQKJApECkQKHAocCkAKQAowCjAKVApUBWQFZApACkAJyAnICbQJtAo8CjwKDAoMCiQKJAVEBUQKMAowAJgAmApUClQKDAoMAWwBbAnwCfAKVApUCdgJ2ApUClQJnAmcCaAJoAm8CbwJwAnACeAJ4BNUE1QKLAosCkgKSA5sDmwJ1AnUCgwKDAWEBYQJ8AnwCbwJvBOEE4QKTApMCiQKJAn8CfwJ6AnoCagJqAo8CjwJqAmoCkgKSAowCjAS4BLgCbQJtApUClQOjA6MCcAJwBN4E3gP0A/QA9gD2AH0AfQA7ADsC4ALgAPMA8wBnAGcAbgBuARQBFAFiAWIAhgCGATcBNwAAAAAAQgBCAFQAVAEsASwA3wDfAJgAmAA+AD4DuwO7AUkBSQAAAAACwwLDAV0BXQCaAJoAIgAiAsQCxABhAGEAmgCaA38DfwDrAOsAgACAAPQA9ATmBOYM3QzdAAAAAAIKAgoFqAWoAJUAlQWvBa8CDwIPAgkCCQAAAAAAAAAAAAAAAA=="
+		c:MAS={
+			set_as_ruler=char:394
+		}
+	}
+}

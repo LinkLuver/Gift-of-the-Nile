@@ -7586,6 +7586,19 @@ country = {
  			}
 		}
 
+		BDX = {
+			government = democratic_republic
+			primary_culture = massalian
+			religion = roman_pantheon
+			centralization=10
+
+			capital = 2236
+
+			own_control_core = {
+				2236
+			}
+		}
+
 		BTU = {
 			government = tribal_kingdom
 			primary_culture = biturigan
@@ -7595,7 +7608,7 @@ country = {
 			capital = 2235
 
 			own_control_core = 	{
-				2236 2235 2233
+				2235 2233
  			}
 		}
 
