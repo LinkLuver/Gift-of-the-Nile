@@ -255,6 +255,12 @@ provinces = { #Any entry must contain a comment with city name.
 	7575 = { #Mecca
 		treasure_slots = { treasures = { 186 } }
 	}
+	126 = { #Pupluna
+		treasure_slots = { treasures = { 888 } }
+	}
+	809 = { #Karkemish
+		treasure_slots = { treasures = { 889 } }
+	}
 
 	### BUILDINGS
 	1 = { #Rome

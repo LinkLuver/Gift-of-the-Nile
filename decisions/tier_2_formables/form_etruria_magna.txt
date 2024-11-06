@@ -52,12 +52,12 @@
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
+			add_3_free_province_investments = yes
 			hidden_effect = {
 			change_country_name = "TUSCIA_NAME"
 			change_country_adjective = "TUSCIA_ADJECTIVE"
 			change_country_flag = ETRURIA_FLAG
 			change_country_tag = ETA
-			add_3_free_province_investments = yes
 			change_country_color = "light_gold"
 			}
 			custom_tooltip = "etruria_claims"

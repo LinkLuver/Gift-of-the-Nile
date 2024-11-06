@@ -146,8 +146,8 @@
  HIT_ADJ:0 "Adanan"
  LYD:0 "Lydian Kingdom"
  LYD_ADJ:0 "Lydian"
- PHR:0 "Phrygia"
- PHR_ADJ:0 "Phrygian"
+ PHR:0 "Gordion"
+ PHR_ADJ:0 "Gordionite"
  AR2:0 "Lesser Armenia"
  AR2_ADJ:0 "Armenian"
  SPH:0 "Sophene"
@@ -502,5 +502,5 @@
  KNH_ADJ:0 "Khnafean"
 
  #CELTICA
- BTX:0 "Pytheapolis"
- BTX_ADJ:0 "Pytheapolitan"
+ BDX:0 "Pytheapolis"
+ BDX_ADJ:0 "Pytheapolitan"

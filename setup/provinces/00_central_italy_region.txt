@@ -357,10 +357,10 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=3
+		amount=6
 	}
 	citizen={
-		amount=4
+		amount=11
 	}
 	citizen={
 		culture="roman"
@@ -369,11 +369,19 @@
 	}
 	citizen={
 		culture="roman"
-		religion="italic_pantheon"
+		amount=1
+	}
+	citizen={
+		culture="faliscan"
+		amount=2
+	}
+	freemen={
+		culture="italiotian"
+		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
-		amount=6
+		amount=12
 	}
 	freemen={
 		culture="roman"
@@ -381,7 +389,7 @@
 		amount=2
 	}
 	slaves={
-		amount=3
+		amount=8
 	}
 	slaves={
 		religion="roman_pantheon"
@@ -498,10 +506,10 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=5
+		amount=3
 	}
 	citizen={
-		amount=14
+		amount=4
 	}
 	citizen={
 		culture="roman"
@@ -518,17 +526,21 @@
 		amount=2
 	}
 	freemen={
-		amount=11
+		amount=6
+	}
+	freemen={
+		culture="faliscan"
+		amount=2
 	}
 	freemen={
 		religion="roman_pantheon"
 		amount=2
 	}
 	slaves={
-		amount=13
+		amount=7
 	}
 	tribesmen={
-		amount=5
+		amount=4
 	}
 	holy_site=omen_voltumna
 }
@@ -1337,6 +1349,7 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
+		culture="etruscan"
 		amount=2
 	}
 	citizen={

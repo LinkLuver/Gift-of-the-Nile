@@ -4544,6 +4544,15 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
+			pantheon = {
+
+				{ deity = 1489 }
+				{ deity = 1455 }
+				{ deity = 1501 }
+				{ deity = 1456 }
+	
+			}
+
 			own_control_core = 	{
 				126 114 127 115 125 112
 			}
@@ -7590,9 +7599,15 @@ country = {
 			government = democratic_republic
 			primary_culture = massalian
 			religion = roman_pantheon
-			centralization=10
-
+			
 			capital = 2236
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
 
 			own_control_core = {
 				2236
