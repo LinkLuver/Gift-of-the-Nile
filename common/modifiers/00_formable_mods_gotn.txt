@@ -71,3 +71,7 @@ kenaan_hadasht_capital = {
 kenaan_hadasht_mod = {
 	culture_happiness_modifier = 0.04
 }
+maareb_mod = {
+	global_tax_modifier = 0.10
+	global_citizen_output = 0.05
+}

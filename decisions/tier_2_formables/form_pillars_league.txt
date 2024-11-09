@@ -2,16 +2,7 @@
 	form_league = {
 		potential = {
 			num_of_cities >= 1
-			OR = {
-				tag = GAE
-                tag = GAD
-                tag = ABA
-				tag = CIP
-				tag = CPA
-				tag = KUS
-				tag = LIX
-				tag = ASA
-			}
+			primary_culture = ibero_punic
 			NOR = {
 				is_tier_2_formable_trigger = yes
 				is_endgame_tag_trigger = yes
@@ -32,6 +23,12 @@
 					province_id = 1350 #Lacippo
 					province_id = 1362 #Malaca
 					province_id = 1278 #PortosMagnos
+					province_id = 3063
+					province_id = 8267
+					province_id = 8258
+					province_id = 3080
+					province_id = 1339
+					province_id = 1335
 				}
 			}
 		}
@@ -47,19 +44,32 @@
 			owns_or_subject_owns = 1350 #Lacippo
 			owns_or_subject_owns = 1362 #Malaca
 			owns_or_subject_owns = 1278 #PortosMagnos
+			owns_or_subject_owns = 3063
+			owns_or_subject_owns = 8267
+			owns_or_subject_owns = 8258
+			owns_or_subject_owns = 3080
+			owns_or_subject_owns = 1339
+			owns_or_subject_owns = 1335
 		}
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
 			change_country_name = "LEAGUE_NAME"
 			tribal_formable_government_change_effect = yes
 			add_3_free_province_investments = yes
+			custom_tooltip = "maareb_claims"
 			capital_scope = {
-				capital_formable_small_effect = yes
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_country_modifier = {
+				name = maareb_mod
+				duration = -1
 			}
 			hidden_effect = {
 				change_country_adjective = "LEAGUE_FORMABLE_ADJECTIVE"
 				change_country_tag = LOP
-				change_country_color = achaemenid_purple
+				change_country_color = "achaemenid_purple"
+				change_country_flag = MAAREB_FLAG
 				hidden_effect = {
 				every_province = {
 					limit = {
@@ -72,6 +82,9 @@
 					add_claim = root
 					}
 					set_variable = has_formed_league
+				}
+				ai_will_do = {
+					factor = 1
 				}
 			}
 		}

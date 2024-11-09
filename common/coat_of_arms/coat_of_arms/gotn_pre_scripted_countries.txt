@@ -2190,8 +2190,6 @@ KENAAN_HADASHT_FLAG = {
 	color1 = "offwhite"
 	color2 = "sicyon_purple"
 	
-	
-	
 	colored_emblem = {
 		texture = "ce_border_simple_02.tga"
 		color1 = "sicyon_purple"
@@ -2394,4 +2392,20 @@ AIR = {
 	}
 }
 
+MAAREB_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "sicyon_purple"
+	
+	colored_emblem = {
+		texture = "ce_sky_backround.dds"
+		color1 = "achaemenid_purple"
+	}
+
+	colored_emblem = {
+		texture = "ce_iberian_sun_01.dds"
+		color1 = "iberian_sun"
+		instance = { scale = { 1.10 1.10 } position = { 0.50 0.50 } }
+	}
+}
 

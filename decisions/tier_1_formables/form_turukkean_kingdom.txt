@@ -1,0 +1,64 @@
+﻿country_decisions = {
+	
+	# Form Turukkean Kingdom
+	form_turukkea = {
+		
+		potential = {
+			num_of_cities >= 1
+			primary_culture = tukri
+			NOT = {
+				tag = ZG2
+			}
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1517
+					province_id = 9752
+					province_id = 9534
+					province_id = 1512
+					province_id = 154
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = formable_not_turukkean_exists
+				NOT = {
+					any_country = {
+						tag = TK2
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns = 1517
+			owns_or_subject_owns = 9752
+			owns_or_subject_owns = 9534
+			owns_or_subject_owns = 1512
+			owns_or_subject_owns = 158
+		}
+		
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			change_country_name = "TUKRI_NAME"
+			hidden_effect = {
+				change_country_adjective = "TUKRI_ADJECTIVE"
+				change_country_tag = TK2
+			}
+			change_government = aristocratic_monarchy
+			switch_government_type_event_clearup_effect = yes
+			add_2_free_province_investments = yes
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+}
+

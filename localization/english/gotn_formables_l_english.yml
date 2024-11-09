@@ -82,21 +82,18 @@
  kyrnos_mod:0 "Reclamation of Alalia"
  form_kyrnos:0 "Reclaim Alalia"
  form_kyrnos_desc:0 "Over 140 years ago, those accursed #Y Etruscans#! forced us out of our city, #Y Alalia#!. Between them and the #Y Corsians#!, the island of Kyrnos must be controlled by one group. We will reconquer #Y Alalia#!, and take Kyrnos for ourselves!"
- #Etruria
- form_super_etruria:0 "Form Etruria"
- form_super_etruria_desc:0 "The #Y Etruscan#! people are some of the oldest and most prestigous group in #Y Italia#!. Although we have existed for a long time, we have never been truly united. A unification of our homelands of #Y Etruria#! would be very beneficial for us."
- etruria_claims:0 "We will gain claims on the region of #Y Italia#!."
-
+ 
  ## Iberia Formables
  IBERIA_NAME2:0 "Spania"
  IBERIA_ADJECTIVE2:0 "Spanian"
  form_spania:0 "Form Spania"
  form_spania_desc:0 "The #Y Ibero-Punic#! people of #Y Iberia#! call this land #Y Spania#!, and henceforth all shall know it as the great land of the #Y Spanians#!! From humble origins being the furthest of #Y Phoenecian#! coloniae, we now proclaim ourselves a proper powerhouse of this land, on the exact opposite side to that of our forefathers."
-
- LEAGUE_NAME:0 "League of The Pillars"
- LEAGUE_ADJECTIVE:0 "Pillarian"
- form_league:0 "Form the League of The Pillars"
- form_league_desc:0 "The wealthy cities centered around the #Y 'Pillars of Hercules'#! could become rich beyond comparison, if they can be united. These cities could surely surpass the grandeur of the great cities of the East."
+ LEAGUE_NAME:0 "Maareb"
+ LEAGUE_ADJECTIVE:0 "Spanian"
+ form_league:0 "Form Maareb"
+ form_league_desc:0 "#Y Maareb#!, the land of the setting sun, is the farthest area settled by our ancestors from #Y Phoenica#!. The wealthy and prosperous cities of #Y Maareb#! could rival the great cities of the east, if only our peoples could be united."
+ maareb_claims:0 "We will gain claims on the regions of #Y Mauretania#! and #Y Baetica#!."
+ maareb_mod:0 "Maareb Mercantilism"
  
 
  ## Greek Formables
@@ -107,14 +104,13 @@
  paeonia_mod:0 "Greater Paeonia Realized"
  form_greater_paeonia: "Reclaim our Ancestral Lands"
  form_greater_paeonia_desc: "In our tribal halls, Stories are still told of times when our people roamed from the mountains Macedon, to the abundant plains and forests of Thrace, and when we walked along the Propontis, and touched the sea. Such idyllic times seem like a dream, but our people are not one to give up so easily. By will alone, we could recreate our lost realm, and walk on the fields of Thrace once again."
- 
  TROAS_NAME:0 "Troas"
  TROAS_NAME_ADJECTIVE:0 "Trojan"
  troas_mod:0 "Cities of The Troad"
  formable_not_troas_exists:0 "#Y Troas#! does not exist." 
  form_troas:0 "Unite the Cities of The Troad"
  form_troas_desc:0 "The cities of #Y The Troad#! are home to merchants, philosophers, and proud leaders. Uniting our polities would protect us from foreign interence, and become a formidable state."
- 
+ ##Hellenic Empire
  formable_not_argead_exists: "The #Y Hellenic Empire#! does not exist."
  hellenic_kingdom_tooltip:0 "We will recieve claims on the regions of #Y Macedon#!, #Y Thrace#! , #Y Greece#! , #Y Lydia#! , #Y Moesia Inferior#! , #Y Taurica#! , #Y Colchis#! , #Y Bithynia Et Paphlagonia#! , #Y Cappadocia Pontica#! #Y Cyrenaica#! #Y Cicilia#! , #Y Illyria#! , #Y Magna Graecia#! , #Y Transalpine Gaul#! , #Y Tarraconensis#! , #Y Contestania#! , #Y Baetica#! , and #Y Mauretania#!."
  hellenic_kingdom_mod:0 "Pan-Hellenic Dream Realized"
@@ -189,6 +185,12 @@
  form_zagrosia_desc:0 "The many tribes and peoples of the #Y Zagros Mountains#! have never been united, yet all of them share many features. Raiding the rich lands to the west, east, north, or south; living in the tall, mighty mountains; and fighting like warriors until the last man. We will forge a #G New Cultural Identity#! as #Y Zagrosians#!!"
  formable_not_zagrosia_exists:0 "#Y Zagrosia#! does not exist."
  zagros_claims:0 "Gain claims on the #Y Zagrosia#! region."
+
+ TUKRI_NAME:0 "Turukkean Kingdom"
+ TUKRI_ADJECTIVE:0 "Tukri"
+ form_turukkea:0 "Form the Turukkean Kingdom"
+ form_turukkea_desc:0 "The #Y Tukri#! are some of the most fierce and warlike people in the #Y Zagros#!. To our north, the disintegrating #Y Median Empire#! lies, rich for the taking. To the south, we are bordered by other #Y Zagrosian#! tribes. It would be wise to unite our people into something more centralized."
+ formable_not_turukkean_exists:0 "the #Y Turukkean Kingdom#! does not exist."
 
  ## Anatolia Formables
  CIMMERIA_NAME:0 "Cimmeria"

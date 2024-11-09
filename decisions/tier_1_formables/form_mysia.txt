@@ -26,6 +26,7 @@
 					province_id = 253
 					province_id = 321
 					province_id = 273
+					province_id = 265
 				}
 			}
 		}
@@ -43,6 +44,7 @@
 			owns = 253
 			owns = 321
 			owns = 273
+			owns = 265
 		}
 		
 		effect = {
@@ -58,7 +60,7 @@
 				change_country_adjective = "MYSIA_ADJECTIVE"
 				change_country_tag = "MIA"
 				change_country_color = "dark_burgundy"
-				set_variable = has_formed_cimmeria
+				set_variable = has_formed_mysia
 			}
 			hidden_effect = {
 			every_province = {
