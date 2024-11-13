@@ -466,7 +466,7 @@
 		amount=2
 	}
 	citizen={
-		culture="zoroaster"
+		religion="zoroaster"
 		amount=2
 	}
 	citizen={
@@ -2728,7 +2728,7 @@
 	}
 }
 
-9781={ #PROV9781
+9781={ #Washatu
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
@@ -2741,7 +2741,7 @@
 	}
 }
 
-9798={ #PROV9798
+9798={ #Shugtu
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
@@ -2754,7 +2754,7 @@
 	}
 }
 
-9801={ #PROV9801
+9801={ #Lemnutu
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"
@@ -2767,7 +2767,7 @@
 	}
 }
 
-9811={ #PROV9811
+9811={ #Egeru
 	terrain="mountain"
 	culture="median"
 	religion="zoroaster"

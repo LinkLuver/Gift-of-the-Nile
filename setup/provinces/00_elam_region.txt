@@ -836,55 +836,55 @@
 		amount=2
 	}
 	nobles={
+		culture="babylonian"
+		religion="mesopotamian_religion"
 		amount=1
-	culture="babylonian"
-	religion="mesopotamian_religion"
 	}
 	citizen={
 		amount=2
 	}
 	citizen={
+		culture="euboean"
+		religion="roman_pantheon"
 		amount=1
-	culture="euboean"
-	religion="roman_pantheon"		
 	}
 	citizen={
+		culture="babylonian"
+		religion="mesopotamian_religion"
 		amount=1
-	culture="babylonian"
-	religion="mesopotamian_religion"
 	}
 	freemen={
 		amount=2
 	}
 	freemen={
+		culture="chaldean"
+		religion="mesopotamian_religion"
 		amount=1
-	culture="chaldean"
-	religion="mesopotamian_religion"	
 	}
 	freemen={
+		culture="babylonian"
+		religion="mesopotamian_religion"
 		amount=2
-	culture="babylonian"
-	religion="mesopotamian_religion"
 	}
 	freemen={
+		culture="dilmunite"
+		religion="arabian_pantheon"
 		amount=1
-	culture="dilmunite"
-	religion="arabian_pantheon"	
 	}
 	freemen={
+		culture="elamite"
+		religion="elamite_pantheon"
 		amount=1
-	culture="elamite"
-	religion="elamite_pantheon"	
 	}
 	slaves={
+		culture="elamite"
+		religion="elamite_pantheon"
 		amount=1
-	culture="elamite"
-	religion="elamite_pantheon"	
 	}
 	slaves={
+		culture="babylonian"
+		religion="mesopotamian_religion"
 		amount=1
-	culture="babylonian"
-	religion="mesopotamian_religion"	
 	}
 }
 

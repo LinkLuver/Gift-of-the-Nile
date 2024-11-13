@@ -417,7 +417,7 @@
 		culture="ibero_punic"
 		religion="carthaginian_pantheon"
 		amount=1
-	}	
+	}
 	citizen={
 		religion="animism"
 		amount=1
@@ -643,7 +643,7 @@
 	province_rank="city"
 	nobles={
 		amount=1
-	}	
+	}
 	citizen={
 		amount=2
 	}
@@ -681,7 +681,7 @@
 	tribesmen={
 		culture="turdetanian"
 		religion="animism"
-		amount= 1
+		amount=1
 	}
 	port_building=1
 }

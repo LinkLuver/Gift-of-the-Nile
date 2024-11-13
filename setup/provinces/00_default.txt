@@ -2979,7 +2979,7 @@
 }
 
 5293={ #Troikon Oros
-	terrain="impassable_terrain"
+	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="arabian_pantheon"
 	trade_goods=""
@@ -2989,7 +2989,7 @@
 }
 
 5294={ #Desert of Klysma
-	terrain="impassable_terrain"
+	terrain="flood_plain"
 	culture="egyptian"
 	religion="arabian_pantheon"
 	trade_goods=""
@@ -3369,7 +3369,7 @@
 }
 
 5333={ #Desert of Aswan
-	terrain="impassable_terrain"
+	terrain="desert"
 	culture="lower_nubian"
 	religion="egyptian_pantheon"
 	trade_goods=""
@@ -3379,7 +3379,7 @@
 }
 
 5334={ #Desert of Luxor
-	terrain="impassable_terrain"
+	terrain="flood_plain"
 	culture="upper_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods=""
@@ -3429,7 +3429,7 @@
 }
 
 5339={ #
-	terrain="impassable_terrain"
+	terrain="farmland"
 	culture="libyan"
 	religion="egyptian_pantheon"
 	trade_goods=""
@@ -3439,7 +3439,7 @@
 }
 
 5340={ #
-	terrain="impassable_terrain"
+	terrain="oasis"
 	culture="libyan"
 	religion="egyptian_pantheon"
 	trade_goods=""
@@ -3539,7 +3539,7 @@
 }
 
 5350={ #
-	terrain="impassable_terrain"
+	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
 	trade_goods=""
@@ -4649,7 +4649,7 @@
 }
 
 5994={ #Desert of Philoteris
-	terrain="impassable_terrain"
+	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
 	trade_goods=""
@@ -4659,7 +4659,7 @@
 }
 
 5995={ #Oasis Parva
-	terrain="impassable_terrain"
+	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
 	trade_goods=""
@@ -6509,7 +6509,7 @@
 }
 
 6499={ #
-	terrain="impassable_terrain"
+	terrain="desert"
 	culture="libyan"
 	religion="egyptian_pantheon"
 	trade_goods=""
@@ -9118,7 +9118,7 @@
 	province_rank=""
 }
 
-9816={ #PROV9815
+9816={ #PROV9816
 	terrain="impassable_terrain"
 	culture="gutian"
 	religion="zoroaster"
@@ -9128,7 +9128,7 @@
 	province_rank=""
 }
 
-9817={ #PROV9815
+9817={ #PROV9817
 	terrain="impassable_terrain"
 	culture="gutian"
 	religion="zoroaster"
@@ -9138,7 +9138,7 @@
 	province_rank=""
 }
 
-9818={ #PROV9815
+9818={ #PROV9818
 	terrain="impassable_terrain"
 	culture="gutian"
 	religion="zoroaster"
@@ -9148,7 +9148,7 @@
 	province_rank=""
 }
 
-9963={ #PROV9815
+9963={ #PROV9963
 	terrain="impassable_terrain"
 	culture="middle_egyptian"
 	religion="arabian_pantheon"
@@ -9158,8 +9158,8 @@
 	province_rank=""
 }
 
-9964={ #PROV9815
-	terrain="impassable_terrain"
+9964={ #PROV9964
+	terrain="flood_plain"
 	culture="middle_egyptian"
 	religion="arabian_pantheon"
 	trade_goods=""
@@ -9168,8 +9168,8 @@
 	province_rank=""
 }
 
-10020={ #PROV9815
-	terrain="impassable_terrain"
+10020={ #PROV10020
+	terrain="oasis"
 	culture="middle_egyptian"
 	religion="arabian_pantheon"
 	trade_goods=""
@@ -9178,8 +9178,8 @@
 	province_rank=""
 }
 
-10041={ #PROV9815
-	terrain="impassable_terrain"
+10041={ #PROV10041
+	terrain="desert"
 	culture="middle_egyptian"
 	religion="arabian_pantheon"
 	trade_goods=""
@@ -9188,7 +9188,7 @@
 	province_rank=""
 }
 
-10042={ #PROV9815
+10042={ #PROV10042
 	terrain="impassable_terrain"
 	culture="middle_egyptian"
 	religion="arabian_pantheon"

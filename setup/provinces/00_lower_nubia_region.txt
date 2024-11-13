@@ -1,103 +1,4 @@
-﻿576={ #Djeba
-	terrain="flood_plain"
-	culture="upper_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="earthware"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=1
-	}
-	holy_site=omen_horus
-}
-
-577={ #Nubet
-	terrain="flood_plain"
-	culture="upper_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="grain"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-591={ #Swenett
-	terrain="flood_plain"
-	culture="lower_nubian"
-	religion="egyptian_pantheon"
-	trade_goods="stone"
-	civilization_value=30
-	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=2
-	}
-	citizen={
-		amount=6
-	}
-	citizen={
-		culture="upper_egyptian"
-		religion="egyptian_pantheon"
-		amount=3
-	}
-	citizen={
-		culture="hebrew"
-		religion="judaism"
-		amount=4
-	}
-	freemen={
-		culture="hebrew"
-		religion="judaism"
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	citizen={
-		culture="egyptian"
-		religion="egyptian_pantheon"
-		amount=2
-	}
-	freemen={
-		culture="egyptian"
-		religion="egyptian_pantheon"
-		amount=8
-	}
-	nobles={
-		culture="egyptian"
-		religion="egyptian_pantheon"
-		amount=2
-	}
-	holy_site=omen_isis
-	port_building=1
-}
-
-592={ #Talmes
+﻿592={ #Talmes
 	terrain="flood_plain"
 	culture="lower_nubian"
 	religion="egyptian_pantheon"
@@ -117,7 +18,7 @@
 	holy_site=omen_anuket
 }
 
-593={ #Per-Selk
+593={ #Per-Serik
 	terrain="flood_plain"
 	culture="lower_nubian"
 	religion="egyptian_pantheon"
@@ -225,7 +126,7 @@
 	}
 }
 
-598={ #Nalot
+598={ #Narot
 	terrain="flood_plain"
 	culture="lower_nubian"
 	religion="egyptian_pantheon"
@@ -2043,6 +1944,25 @@
 	province_rank="settlement"
 	tribesmen={
 		amount=2
+	}
+}
+
+9962={ #PROV9962
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
 	}
 }
 

@@ -865,8 +865,8 @@
 		amount=2
 	}
 	citizen={
-		amount=2
 		religion="anatolian_religion"
+		amount=2
 	}
 	citizen={
 		culture="lydian"
@@ -2742,7 +2742,7 @@
 	}
 }
 
-1981={ #Halikarnassos
+1981={ #Karnos
 	terrain="hills"
 	culture="carian"
 	religion="roman_pantheon"
@@ -3154,6 +3154,24 @@
 	}
 	slaves={
 		amount=3
+	}
+}
+
+8122={ #Jaghbub
+	terrain="oasis"
+	culture="siwan_egyptian"
+	religion="amun_religion"
+	trade_goods="cattle"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		culture="nasamonian"
+		religion="amun_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
 	}
 }
 

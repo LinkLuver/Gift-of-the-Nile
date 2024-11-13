@@ -1420,8 +1420,8 @@
 		amount=3
 	}
 	freemen={
-		religion="roman_pantheon"
 		culture="bruttian"
+		religion="roman_pantheon"
 		amount=2
 	}
 	slaves={
@@ -1627,8 +1627,8 @@
 		amount=3
 	}
 	citizen={
-		religion="roman_pantheon"
 		culture="boeotian"
+		religion="roman_pantheon"
 		amount=2
 	}
 	freemen={
@@ -1689,8 +1689,8 @@
 		amount=10
 	}
 	citizen={
-		religion="roman_pantheon"
 		culture="boeotian"
+		religion="roman_pantheon"
 		amount=5
 	}
 	freemen={
@@ -1698,16 +1698,16 @@
 		amount=10
 	}
 	freemen={
-		religion="isis_religion"
 		culture="boeotian"
+		religion="isis_religion"
 		amount=4
 	}
 	slaves={
 		amount=9
 	}
 	slaves={
-		religion="isis_religion"
 		culture="boeotian"
+		religion="isis_religion"
 		amount=5
 	}
 	tribesmen={
@@ -2275,8 +2275,8 @@
 		amount=2
 	}
 	slaves={
-		religion="pyrrhonism"
 		culture="achaean"
+		religion="pyrrhonism"
 		amount=1
 	}
 	tribesmen={
@@ -2481,7 +2481,7 @@
 	}
 }
 
-7840={ #Menai
+7840={ #Palike
 	terrain="hills"
 	culture="syracusan"
 	religion="roman_pantheon"

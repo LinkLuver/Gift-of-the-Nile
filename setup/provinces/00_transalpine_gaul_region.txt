@@ -82,7 +82,7 @@
 	}
 }
 
-2256={ #Narbo
+2256={ #Narbon
 	terrain="plains"
 	culture="massalian"
 	religion="roman_pantheon"
@@ -111,7 +111,7 @@
 	port_building=1
 }
 
-2257={ #Ruscino
+2257={ #Rhouskinon
 	terrain="plains"
 	culture="indiketian"
 	religion="druidism"
@@ -693,7 +693,7 @@
 	}
 }
 
-2313={ #Sextantio
+2313={ #Sextantion
 	terrain="farmland"
 	culture="massalian"
 	religion="roman_pantheon"
@@ -815,7 +815,7 @@
 	}
 }
 
-2319={ #Arelatis
+2319={ #Arelate
 	terrain="farmland"
 	culture="massalian"
 	religion="roman_pantheon"
@@ -831,7 +831,7 @@
 	}
 	tribesmen={
 		culture="salluvian"
-	religion="druidism"
+		religion="druidism"
 		amount=3
 	}
 	slaves={
@@ -893,7 +893,7 @@
 	}
 }
 
-2323={ #Pisavi
+2323={ #Inkaros
 	terrain="plains"
 	culture="massalian"
 	religion="roman_pantheon"

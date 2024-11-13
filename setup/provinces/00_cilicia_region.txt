@@ -45,8 +45,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
 		religion="anatolian_religion"
+		amount=2
 	}
 	freemen={
 		culture="lycian"
@@ -70,8 +70,8 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=2
 		religion="anatolian_religion"
+		amount=2
 	}
 	citizen={
 		culture="lycian"
@@ -95,8 +95,8 @@
 		amount=1
 	}
 	tribesmen={
-		amount=2
 		religion="anatolian_religion"
+		amount=2
 	}
 }
 
@@ -963,8 +963,8 @@
 		religion="anatolian_religion"
 		amount=2
 	}
-	port_building=1
 	holy_site=omen_mopsos
+	port_building=1
 }
 
 1881={ #Mallos
@@ -1046,7 +1046,7 @@
 		religion="carthaginian_pantheon"
 		amount=1
 	}
-	citizen={ 
+	citizen={
 		amount=1
 	}
 	citizen={
@@ -2173,7 +2173,7 @@
 	province_rank="city"
 	nobles={
 		amount=1
-	}	
+	}
 	citizen={
 		amount=2
 	}
@@ -2241,7 +2241,7 @@
 	province_rank="city"
 	nobles={
 		amount=1
-	}	
+	}
 	citizen={
 		amount=2
 	}

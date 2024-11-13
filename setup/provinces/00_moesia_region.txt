@@ -20,7 +20,7 @@
 	}
 }
 
-4112={ #Navissos
+4112={ #Naissos
 	terrain="farmland"
 	culture="triballoi"
 	religion="shamanism"
@@ -39,7 +39,7 @@
 	}
 }
 
-4115={ #Remesiana
+4115={ #Rhemesiana
 	terrain="hills"
 	culture="triballoi"
 	religion="shamanism"
@@ -428,7 +428,7 @@
 	}
 }
 
-4230={ #Scretisca
+4230={ #Skretiska
 	terrain="hills"
 	culture="triballoi"
 	religion="shamanism"
@@ -1221,14 +1221,14 @@
 		amount=1
 	}
 	tribesmen={
-		religion="shamanism"
 		culture="getian"
+		religion="shamanism"
 		amount=1
 	}
 	port_building=1
 }
 
-4520={ #Troismis
+4520={ #Troesmis
 	terrain="marsh"
 	culture="scythian"
 	religion="indo_iranian_religion"
