@@ -2205,3 +2205,27 @@
 	}
 }
 
+7982={ #
+	terrain="hills"
+	culture="syriac"
+	religion="anahitic_religion"
+	trade_goods="earthware"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="armenian_religion"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		culture="qedarite"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
