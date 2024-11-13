@@ -690,9 +690,9 @@
 
 5531={ #Parva
 	terrain="oasis"
-	culture="deshretic_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="camel"
+	culture="middle_egyptian"
+	religion="sobek_religion"
+	trade_goods="fish"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
@@ -725,7 +725,7 @@
 	terrain="oasis"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
-	trade_goods="camel"
+	trade_goods="cattle"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
@@ -741,7 +741,7 @@
 5534={ #Varam
 	terrain="oasis"
 	culture="middle_egyptian"
-	religion="egyptian_pantheon"
+	religion="sobek_religion"
 	trade_goods="base_metals"
 	civilization_value=28
 	barbarian_power=0
@@ -770,56 +770,76 @@
 
 5541={ #Shunne
 	terrain="oasis"
-	culture="deshretic_egyptian"
+	culture="middle_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="cattle"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=3
+	}
 	tribesmen={
+		culture="libyan"
+		religion="amun_religion"
 		amount=1
 	}
 }
 
 5542={ #Murta
 	terrain="oasis"
-	culture="libyan"
+	culture="middle_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="fur"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=4
 	}
 	tribesmen={
+		culture="libyan"
+		religion="amun_religion"
 		amount=2
 	}
 }
 
 5543={ #Magrab
 	terrain="oasis"
-	culture="libyan"
-	religion="egyptian_pantheon"
+	culture="middle_egyptian"
+	religion="sobek_religion"
 	trade_goods="dates"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
+	}
+	tribesmen={
+		culture="libyan"
+		religion="amun_religion"
+		amount=2
 	}
 }
 
 5544={ #Gerum
 	terrain="oasis"
-	culture="libyan"
+	culture="middle_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="leather"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=1
+	}
+	tribesmen={
+		culture="libyan"
+		religion="amun_religion"
+		amount=2
 	}
 }
 
@@ -866,7 +886,7 @@
 	terrain="oasis"
 	culture="middle_egyptian"
 	religion="egyptian_pantheon"
-	trade_goods="wild_game"
+	trade_goods="grain"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
@@ -1062,21 +1082,29 @@
 	}
 }
 
-9881={ #PROV9881
+9881={ #Hawara
 	terrain="flood_plain"
-	culture="wadjetic_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="papyrus"
+	culture="middle_egyptian"
+	religion="aten_religion"
+	trade_goods="earthware"
 	civilization_value=27
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
+	province_rank="city"
+	nobles={
 		amount=2
+	}
+	citizen={
+		amount=4
 	}
 	freemen={
-		amount=2
+		amount=7
+	}
+	freemen={
+		religion="sobek_religion"
+		amount=3
 	}
 	slaves={
+		religion="egyptian_pantheon"
 		amount=5
 	}
 }
@@ -1632,11 +1660,33 @@
 	}
 }
 
-9923={ #PROV9923
+9923={ #Pa-Gereg'n-Wasir
 	terrain="oasis"
-	culture="wadjetic_egyptian"
+	culture="middle_egyptian"
 	religion="egyptian_pantheon"
-	trade_goods="papyrus"
+	trade_goods="feathers"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=3
+	}
+}
+
+9924={ #Khuraan
+	terrain="oasis"
+	culture="middle_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="grain"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -1651,11 +1701,78 @@
 	}
 }
 
-9924={ #PROV9924
+9925={ #Pay-n-Rennwt
 	terrain="oasis"
-	culture="wadjetic_egyptian"
-	religion="egyptian_pantheon"
+	culture="middle_egyptian"
+	religion="aten_religion"
+	trade_goods="earthware"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=2
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9926={ #Per-Senusret
+	terrain="oasis"
+	culture="middle_egyptian"
+	religion="sobek_religion"
 	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9927={ #Sobek Wat
+	terrain="oasis"
+	culture="middle_egyptian"
+	religion="sobek_religion"
+	trade_goods="vegetables"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="libyan"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+9928={ #Akhet-Biyahmu
+	terrain="oasis"
+	culture="middle_egyptian"
+	religion="sobek_religion"
+	trade_goods="grain"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
@@ -1670,14 +1787,36 @@
 	}
 }
 
-9925={ #PROV9925
+9929={ #Djanet Sheri
 	terrain="oasis"
-	culture="wadjetic_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="papyrus"
+	culture="middle_egyptian"
+	religion="aten_religion"
+	trade_goods="cloth"
 	civilization_value=27
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=6
+	}
+}
+
+9930={ #Per-Shesmu
+	terrain="oasis"
+	culture="middle_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="wine"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="city"
 	citizen={
 		amount=2
 	}
@@ -1689,106 +1828,11 @@
 	}
 }
 
-9926={ #PROV9926
+9931={ #Pa-Shin-Iten
 	terrain="oasis"
-	culture="wadjetic_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="papyrus"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=5
-	}
-}
-
-9927={ #PROV9927
-	terrain="oasis"
-	culture="wadjetic_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="papyrus"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=5
-	}
-}
-
-9928={ #PROV9928
-	terrain="oasis"
-	culture="wadjetic_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="papyrus"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=5
-	}
-}
-
-9929={ #PROV9929
-	terrain="oasis"
-	culture="wadjetic_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="papyrus"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=5
-	}
-}
-
-9930={ #PROV9930
-	terrain="oasis"
-	culture="wadjetic_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="papyrus"
-	civilization_value=27
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=5
-	}
-}
-
-9931={ #PROV9931
-	terrain="oasis"
-	culture="wadjetic_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="papyrus"
+	culture="middle_egyptian"
+	religion="aten_religion"
+	trade_goods="fruits"
 	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
