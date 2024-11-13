@@ -1,4 +1,4 @@
-game_object_locator={
+﻿game_object_locator={
 	name="combat"
 	clamp_to_water_level=yes
 	render_under_water=no
@@ -4507,7 +4507,7 @@ game_object_locator={
 		}
 		{
 			id=750
-			position={ 3491.220215 0.000000 1874.876099 }
+			position={ 3489.641357 0.000000 1873.515137 }
 			rotation={ 0.000000 0.221714 0.000000 0.975112 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
