@@ -720,7 +720,7 @@ colchis_area = { #10
 }
 
 commagene_area = { #12
-	provinces = { 836 837 838 839 1860 1862 1863 1864 1867 1895 6397 }
+	provinces = { 836 837 838 839 1860 1862 1863 1864 1867 1895 6397 7982 }
 }
 
 confluenta_area = { #11
@@ -2007,7 +2007,7 @@ north_nubia_area = { #12
 }
 
 north_phoenicia_area = { #10
-	provinces = { 766 767 769 771 779 780 784 785 786 788 }
+	provinces = { 766 767 768 769 771 779 780 784 785 786 788 783 }
 }
 
 north_sahyadri_area = { #12
@@ -2747,6 +2747,18 @@ syria_area = { #12
 
 syria_coele_area = { #12
 	provinces = { 738 750 751 753 757 758 759 760 763 764 765 770 }
+}
+
+syria_placeholder_area = { #12
+	provinces = { 10074 10075 10076 10077 10078 10079 10080 10081 10082 10084 10085 10086 10087 }
+}
+
+syria_placeholder_area_two = { #12
+	provinces = { 10088 10089 10090 10091 10092 10093 10094 10095 10096 10097 10098 10099 10100 }
+}
+
+syria_placeholder_area_three = { #12
+	provinces = { 10101 10102 10103 10104 10105 10106 10107 10108 10109 10110 10111 }
 }
 
 syria_cyrrestice_area = { #12

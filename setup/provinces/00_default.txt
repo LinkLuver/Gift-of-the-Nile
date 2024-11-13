@@ -1,4 +1,4 @@
-﻿768={ #Hor Lebanon
+﻿10083={ #Hor Lebanon
 	terrain="impassable_terrain"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -7679,16 +7679,6 @@
 }
 
 7980={ #
-	terrain="impassable_terrain"
-	culture="cappadocian"
-	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-7982={ #
 	terrain="impassable_terrain"
 	culture="cappadocian"
 	religion="anatolian_religion"
