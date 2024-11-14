@@ -2758,7 +2758,11 @@ syria_placeholder_area_two = { #12
 }
 
 syria_placeholder_area_three = { #12
-	provinces = { 10101 10102 10103 10104 10105 10106 10107 10108 10109 10110 10111 }
+	provinces = { 10101 10102 10103 10104 10105 10106 10107 10108 10109 10110 10111 10112 10113 }
+}
+
+syria_placeholder_area_four = { #12
+	provinces = { 10114 10115 10116 10117 10118 10119 10120 10121 10122 10123 10124 10125 10126 }
 }
 
 syria_cyrrestice_area = { #12
