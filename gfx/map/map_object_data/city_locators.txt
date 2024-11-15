@@ -1,4 +1,4 @@
-game_object_locator={
+﻿game_object_locator={
 	name="city"
 	clamp_to_water_level=no
 	render_under_water=no
@@ -11071,7 +11071,7 @@ game_object_locator={
 		}
 		{
 			id=1875
-			position={ 3383.547607 0.000000 2193.100586 }
+			position={ 3387.030029 0.000000 2182.142090 }
 			rotation={ 0.000000 0.996793 0.000000 -0.080019 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
