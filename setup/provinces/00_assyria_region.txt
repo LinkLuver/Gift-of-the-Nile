@@ -20,7 +20,7 @@
 }
 
 828={ #Terqa
-	terrain="desert"
+	terrain="plains"
 	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="wild_game"
@@ -2285,7 +2285,7 @@
 }
 
 9573={ #Karana
-	terrain="plains"
+	terrain="farmland"
 	culture="assyrian"
 	religion="ashur_religion"
 	trade_goods="vegetables"

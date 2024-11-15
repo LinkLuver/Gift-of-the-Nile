@@ -302,7 +302,7 @@
 }
 
 670={ #'Akko
-	terrain="forest"
+	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
 	trade_goods="glass"
@@ -1156,7 +1156,7 @@
 }
 
 712={ #Rabbat Mo'ab
-	terrain="plains"
+	terrain="hills"
 	culture="ammonite"
 	religion="judaism"
 	trade_goods="cloth"
@@ -1269,7 +1269,7 @@
 }
 
 717={ #Dibon
-	terrain="plains"
+	terrain="hills"
 	culture="ammonite"
 	religion="judaism"
 	trade_goods="leather"
@@ -1334,7 +1334,7 @@
 }
 
 720={ #'Ashopon
-	terrain="hills"
+	terrain="plains"
 	culture="ammonite"
 	religion="judaism"
 	trade_goods="grain"
@@ -1508,7 +1508,7 @@
 }
 
 731={ #Bet Shor
-	terrain="desert"
+	terrain="hills"
 	culture="ammonite"
 	religion="arabian_pantheon"
 	trade_goods="cattle"
@@ -1737,7 +1737,151 @@
 	province_rank=""
 }
 
-10044={ #Arabia Deserta
+10044={ #PROV10044
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10045={ #PROV10045
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10046={ #PROV10046
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10047={ #PROV10047
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10048={ #PROV10048
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10049={ #PROV10049
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10050={ #PROV10050
+	terrain="hills"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10051={ #PROV10051
+	terrain="desert_hills"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10052={ #PROV10052
+	terrain="desert_hills"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10053={ #PROV10053
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1753,7 +1897,7 @@
 	}
 }
 
-10045={ #Arabia Deserta
+10054={ #PROV10054
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1769,7 +1913,7 @@
 	}
 }
 
-10046={ #Arabia Deserta
+10055={ #PROV10055
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1785,7 +1929,199 @@
 	}
 }
 
-10047={ #Arabia Deserta
+10056={ #PROV10056
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10057={ #PROV10057
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10058={ #PROV10058
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10059={ #PROV10059
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10060={ #PROV10060
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10061={ #PROV10061
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10062={ #PROV10062
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10063={ #PROV10063
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10064={ #PROV10064
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10065={ #PROV10065
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10066={ #PROV10066
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10067={ #PROV10067
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10068={ #PROV10068
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1801,7 +2137,55 @@
 	}
 }
 
-10048={ #Arabia Deserta
+10069={ #PROV10069
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10070={ #PROV10070
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10071={ #PROV10071
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10072={ #PROV10072
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"
@@ -1817,391 +2201,7 @@
 	}
 }
 
-10049={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10050={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10051={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10052={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10053={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10054={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10055={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10056={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10057={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10058={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10059={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10060={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10061={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10062={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10063={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10064={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10065={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10066={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10067={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10068={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10069={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10070={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10071={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10072={ #Arabia Deserta
-	terrain="desert"
-	culture="qedarite"
-	religion="arabian_pantheon"
-	trade_goods="wild_game"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10073={ #Arabia Deserta
+10073={ #PROV10073
 	terrain="desert"
 	culture="qedarite"
 	religion="arabian_pantheon"

@@ -1,24 +1,4 @@
-﻿10083={ #Hor Lebanon
-	terrain="impassable_terrain"
-	culture="phoenician"
-	religion="carthaginian_pantheon"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-783={ #Bargylus Mons
-	terrain="impassable_terrain"
-	culture="phoenician"
-	religion="carthaginian_pantheon"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-3138={ #
+﻿3138={ #
 	terrain="impassable_terrain"
 	culture="massaesylian"
 	religion="berber_religion"
@@ -2309,7 +2289,7 @@
 }
 
 5226={ #Syrian Desert
-	terrain="impassable_terrain"
+	terrain="farmland"
 	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods=""
@@ -7709,7 +7689,7 @@
 }
 
 7987={ #
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="kennataian"
 	religion="anatolian_religion"
 	trade_goods=""
@@ -9188,7 +9168,17 @@
 	province_rank=""
 }
 
-10127={ #PROV10042
+10083={ #PROV10083
+	terrain="impassable_terrain"
+	culture="phoenician"
+	religion="carthaginian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10127={ #PROV10127
 	terrain="impassable_terrain"
 	culture="middle_egyptian"
 	religion="arabian_pantheon"
@@ -9196,5 +9186,71 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
+}
+
+10128={ #PROV10128
+	terrain="hills"
+	culture="hittite"
+	religion="mesopotamian_religion"
+	trade_goods="cedar"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10129={ #PROV10129
+	terrain="hills"
+	culture="hittite"
+	religion="mesopotamian_religion"
+	trade_goods="cedar"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10130={ #PROV10130
+	terrain="hills"
+	culture="hittite"
+	religion="mesopotamian_religion"
+	trade_goods="cedar"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 

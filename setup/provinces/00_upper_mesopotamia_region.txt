@@ -21,7 +21,7 @@
 }
 
 804={ #Kef Pratha
-	terrain="desert"
+	terrain="farmland"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
 	trade_goods="stone"
@@ -40,7 +40,7 @@
 }
 
 806={ #Birtha
-	terrain="desert"
+	terrain="plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
 	trade_goods="grain"
@@ -56,7 +56,7 @@
 }
 
 817={ #Batnai
-	terrain="plains"
+	terrain="farmland"
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="honey"
@@ -156,7 +156,7 @@
 }
 
 821={ #Resaina
-	terrain="plains"
+	terrain="farmland"
 	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
@@ -210,7 +210,7 @@
 }
 
 823={ #Shadikanni
-	terrain="desert"
+	terrain="plains"
 	culture="qedarite"
 	religion="mesopotamian_religion"
 	trade_goods="wild_game"
@@ -229,7 +229,7 @@
 }
 
 824={ #Qatnu
-	terrain="desert"
+	terrain="plains"
 	culture="qedarite"
 	religion="mesopotamian_religion"
 	trade_goods="wild_game"
@@ -242,7 +242,7 @@
 }
 
 825={ #Magdalu
-	terrain="desert"
+	terrain="plains"
 	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="leather"
@@ -258,7 +258,7 @@
 }
 
 826={ #Appadana
-	terrain="desert"
+	terrain="plains"
 	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="camel"
@@ -277,7 +277,7 @@
 }
 
 827={ #Circesium
-	terrain="desert"
+	terrain="plains"
 	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="stone"
@@ -622,7 +622,7 @@
 }
 
 844={ #Washshukanni
-	terrain="plains"
+	terrain="farmland"
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="earthware"
@@ -712,7 +712,7 @@
 }
 
 847={ #Dausara
-	terrain="plains"
+	terrain="farmland"
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="grain"
@@ -801,7 +801,7 @@
 }
 
 855={ #Siphrios
-	terrain="plains"
+	terrain="farmland"
 	culture="qardu"
 	religion="carthaginian_pantheon"
 	trade_goods="grain"
@@ -1096,7 +1096,7 @@
 }
 
 874={ #Thannuris
-	terrain="desert"
+	terrain="plains"
 	culture="qardu"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
@@ -1211,7 +1211,7 @@
 }
 
 1847={ #Bithias
-	terrain="plains"
+	terrain="farmland"
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
@@ -1481,6 +1481,30 @@
 	province_rank="settlement"
 	freemen={
 		amount=2
+	}
+}
+
+7982={ #Perrhe
+	terrain="hills"
+	culture="syriac"
+	religion="anahitic_religion"
+	trade_goods="earthware"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="armenian_religion"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		culture="qedarite"
+		amount=1
+	}
+	tribesmen={
+		amount=1
 	}
 }
 
@@ -1830,7 +1854,7 @@
 }
 
 9563={ #Ritalpha
-	terrain="plains"
+	terrain="farmland"
 	culture="qardu"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
@@ -1852,7 +1876,7 @@
 }
 
 9564={ #Rhene
-	terrain="plains"
+	terrain="farmland"
 	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
@@ -1872,7 +1896,7 @@
 }
 
 9565={ #Hadia
-	terrain="plains"
+	terrain="farmland"
 	culture="qardu"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
@@ -2093,7 +2117,7 @@
 }
 
 9588={ #Chabora
-	terrain="farmland"
+	terrain="plains"
 	culture="aramaic"
 	religion="hurrian_pantheon"
 	trade_goods="cattle"
@@ -2115,7 +2139,7 @@
 }
 
 9590={ #Athis
-	terrain="plains"
+	terrain="farmland"
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="cattle"
@@ -2137,7 +2161,7 @@
 }
 
 9591={ #Bersiba
-	terrain="plains"
+	terrain="farmland"
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="olive"
@@ -2162,7 +2186,7 @@
 }
 
 9592={ #Apamea
-	terrain="plains"
+	terrain="farmland"
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
@@ -2184,7 +2208,7 @@
 }
 
 9593={ #Caphrena
-	terrain="hills"
+	terrain="farmland"
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="feathers"
@@ -2202,30 +2226,6 @@
 	}
 	tribesmen={
 		amount=3
-	}
-}
-
-7982={ #
-	terrain="hills"
-	culture="syriac"
-	religion="anahitic_religion"
-	trade_goods="earthware"
-	civilization_value=20
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		religion="armenian_religion"
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		culture="qedarite"
-		amount=1
-	}
-	tribesmen={
-		amount=1
 	}
 }
 

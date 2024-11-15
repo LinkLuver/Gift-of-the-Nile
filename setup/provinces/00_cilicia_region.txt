@@ -750,7 +750,7 @@
 }
 
 1874={ #Oiniandos
-	terrain="farmland"
+	terrain="plains"
 	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="grain"
@@ -824,7 +824,7 @@
 }
 
 1877={ #Anazarbos
-	terrain="plains"
+	terrain="farmland"
 	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="olive"
@@ -1029,7 +1029,7 @@
 }
 
 1882={ #Adana
-	terrain="plains"
+	terrain="farmland"
 	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="olive"
@@ -1100,8 +1100,8 @@
 	}
 }
 
-1883={ #Tarsus
-	terrain="plains"
+1883={ #Tarshish
+	terrain="farmland"
 	culture="cilician"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
@@ -1194,7 +1194,7 @@
 }
 
 1887={ #Soloi
-	terrain="hills"
+	terrain="plains"
 	culture="cilician"
 	religion="hurrian_pantheon"
 	trade_goods="wine"
@@ -2591,7 +2591,7 @@
 }
 
 7968={ #Kyinda
-	terrain="mountain"
+	terrain="farmland"
 	culture="cilician"
 	religion="hurrian_pantheon"
 	trade_goods="obsidian"
@@ -2745,7 +2745,67 @@
 	}
 }
 
-10131={ #Cilician Gates
+10131={ #PROV10131
+	terrain="farmland"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10132={ #PROV10132
+	terrain="plains"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10133={ #PROV10133
+	terrain="hills"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10134={ #PROV10134
 	terrain="mountain"
 	culture="kennataian"
 	religion="hurrian_pantheon"
@@ -2765,7 +2825,7 @@
 	}
 }
 
-10132={ #Cilician Gates
+10135={ #PROV10135
 	terrain="mountain"
 	culture="kennataian"
 	religion="hurrian_pantheon"
@@ -2785,7 +2845,187 @@
 	}
 }
 
-10133={ #Cilician Gates
+10136={ #PROV10136
+	terrain="hills"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10137={ #PROV10137
+	terrain="plains"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10138={ #PROV10138
+	terrain="farmland"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10139={ #PROV10139
+	terrain="farmland"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10140={ #Kolation
+	terrain="farmland"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10141={ #PROV10141
+	terrain="farmland"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10142={ #PROV10142
+	terrain="hills"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10143={ #PROV10143
+	terrain="plains"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10144={ #PROV10144
+	terrain="plains"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10145={ #PROV10145
 	terrain="mountain"
 	culture="kennataian"
 	religion="hurrian_pantheon"
@@ -2805,7 +3045,7 @@
 	}
 }
 
-10134={ #Cilician Gates
+10146={ #PROV10146
 	terrain="mountain"
 	culture="kennataian"
 	religion="hurrian_pantheon"
@@ -2825,7 +3065,267 @@
 	}
 }
 
-10135={ #Cilician Gates
+10147={ #PROV10147
+	terrain="farmland"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10148={ #PROV10148
+	terrain="farmland"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10149={ #PROV10149
+	terrain="hills"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10150={ #PROV10150
+	terrain="hills"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10151={ #PROV10151
+	terrain="farmland"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10152={ #PROV10152
+	terrain="hills"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10153={ #PROV10153
+	terrain="plains"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10154={ #PROV10154
+	terrain="plains"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10155={ #PROV10155
+	terrain="plains"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10156={ #PROV10156
+	terrain="hills"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10157={ #PROV10157
+	terrain="plains"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10158={ #PROV10158
+	terrain="plains"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10159={ #PROV10159
+	terrain="plains"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10160={ #PROV10160
 	terrain="mountain"
 	culture="kennataian"
 	religion="hurrian_pantheon"
@@ -2845,7 +3345,307 @@
 	}
 }
 
-10136={ #Cilician Gates
+10161={ #PROV10161
+	terrain="farmland"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10162={ #PROV10162
+	terrain="plains"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10163={ #PROV10163
+	terrain="marsh"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10164={ #PROV10164
+	terrain="marsh"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10165={ #PROV10165
+	terrain="farmland"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10166={ #PROV10166
+	terrain="marsh"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10167={ #PROV10167
+	terrain="farmland"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10168={ #PROV10168
+	terrain="farmland"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10169={ #PROV10169
+	terrain="hills"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10170={ #PROV10170
+	terrain="hills"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10171={ #PROV10171
+	terrain="farmland"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10172={ #PROV10172
+	terrain="farmland"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10173={ #PROV10173
+	terrain="marsh"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10174={ #PROV10174
+	terrain="plains"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10175={ #PROV10175
+	terrain="plains"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+10176={ #PROV10176
 	terrain="mountain"
 	culture="kennataian"
 	religion="hurrian_pantheon"
@@ -2865,802 +3665,3 @@
 	}
 }
 
-10137={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10138={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10139={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10140={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10141={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10142={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10143={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10144={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10145={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10146={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10147={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10148={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10149={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10150={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10151={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10152={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10153={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10154={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10155={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10156={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10157={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10158={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10159={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10160={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10161={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10162={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10163={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10164={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10165={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10166={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10167={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10168={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10169={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10170={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10171={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10172={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10173={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10174={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10175={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10176={ #Cilician Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
