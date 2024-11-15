@@ -1966,7 +1966,7 @@ country = {
 				religious_tech= { level=1 progress=0  }
 			}
 
-			capital = 1872
+			capital = 1882
 
 			own_control_core = 	{
 				1882 1889 #cilicia_trachea_region
@@ -1991,7 +1991,7 @@ country = {
 			capital = 792
 
 			own_control_core = 	{
-				792 794 812 852 1870
+				792 812 852 1870
 			}
 		}
 		GUR = {
@@ -2029,7 +2029,7 @@ country = {
 			capital = 809
 
 			own_control_core = 	{
-				809
+				809 810 9596 9595
 			}
 			historical_regnal_numbers = {
 				Supiuliuma = 2
@@ -2045,6 +2045,42 @@ country = {
 				Sarri-Kusuh = 1
 				Kantuzilli = 1
 				Kurunta = 1
+			}
+		}
+		TR1 = {
+			government = aristocratic_monarchy
+			primary_culture = hittite
+			religion = hurrian_pantheon
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 1883
+
+			own_control_core = 	{
+				1872 1883 10161 10157 10155 10156
+			}
+		}
+		KTK = {
+			government = aristocratic_monarchy
+			primary_culture = hittite
+			religion = hurrian_pantheon
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 807
+
+			own_control_core = 	{
+				808 807 10103 10109 10110 805
 			}
 		}
 		LHT = {
@@ -2063,7 +2099,7 @@ country = {
 			capital = 787
 
 			own_control_core = 	{
-				787 791 793 797 7985 #syria_region
+				787 791 793 7985 #syria_region
 			}
 			historical_regnal_numbers = {
 				Taita = 2
@@ -2089,10 +2125,12 @@ country = {
 				religious_tech= { level=1 progress=0  }
 			}
 
-			capital = 798
+			capital = 794
 
 			own_control_core = 	{
 				798 813 814 851 #syria_region
+				10113 10105 10104 10106 10126 10111 10112 10102
+				797 794
 			}
 		}
 		PRY = { # Darmeshq
@@ -2176,7 +2214,7 @@ country = {
 			primary_culture = syriac
 			religion = hurrian_pantheon
 
-			capital = 807
+			capital = 817
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -2186,9 +2224,9 @@ country = {
 			}
 
 			own_control_core = 	{
-				807 810 804 805 808
+				804
 				817 818 819 820 848 849 854 853 879 #osroene_region
-				9595 9596 9581 9586 9585 9590 9591 9592 847 9582 9584
+				9581 9586 9585 9590 9591 9592 847 9582 9584
 			}
 
 			pantheon = {
@@ -14159,7 +14197,7 @@ country = {
 			capital = 1894
 
 			own_control_core = {
-				1894 1896 1890 1892 1872 1883 1887 7968 8022
+				1894 1896 1890 1892 1887 7968 8022
 			}
 		}
 
