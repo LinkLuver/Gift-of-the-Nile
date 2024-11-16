@@ -1991,7 +1991,7 @@ country = {
 			capital = 792
 
 			own_control_core = 	{
-				792 812 852 1870
+				792 812 1870 793 10128 10130 10090
 			}
 		}
 		GUR = {
@@ -2099,7 +2099,7 @@ country = {
 			capital = 787
 
 			own_control_core = 	{
-				787 791 793 7985 #syria_region
+				787 791 7985 10088 10089 10091 10094 10095 10096 10097 10098 10099 10100 #syria_region
 			}
 			historical_regnal_numbers = {
 				Taita = 2
@@ -2156,6 +2156,7 @@ country = {
 			own_control_core = 	{
 				740 741 742 749 #north_phoenicia
 				738 750 751 752 753 757 758 759 760 763 764 765 #syria_coele_region
+				10074 10075 10076 10077 10079 10080 10120
 			}
 
 			pantheon = {
@@ -2193,7 +2194,8 @@ country = {
 			}
 
 			own_control_core = 	{
-				772 761 762 770 774 776 777 778 781 782 799 816 8011 #apamene_region
+				772 761 762 774 777 778 781 782 799 8011 #apamene_region
+				10121 10122 10123 10124 10125
 			}
 			historical_regnal_numbers = {
 				Taita = 2
@@ -2205,6 +2207,63 @@ country = {
 				Azriyau = 1
 				Eni-il = 1
 				Yau = 1
+			}
+		}
+
+		TLD = {
+			government = aristocratic_monarchy
+			primary_culture = aramaic
+			religion = carthaginian_pantheon
+
+			capital = 816
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = 	{
+				816 10114 10115 10116 #apamene_region
+			}
+		}
+		
+		CRA = {
+			government = aristocratic_monarchy
+			primary_culture = aramaic
+			religion = carthaginian_pantheon
+
+			capital = 770
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = 	{
+				770 776 10117 10118 #apamene_region
+			}
+		}
+
+		KA1 = {
+			government = despotic_monarchy
+			primary_culture = hittite
+			religion = hurrian_pantheon
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 852
+
+			own_control_core = 	{
+				852 10101 10129
 			}
 		}
 
@@ -2339,7 +2398,7 @@ country = {
 			capital = 786
 
 			own_control_core = {
-				786 788 784 785
+				786 788 784 785 10084
 			}
 		}
 		AKE = {
@@ -2412,7 +2471,7 @@ country = {
 			capital = 769
 
 			own_control_core = {
-				769 767 771
+				769 767 771 10081
 			}
 		}
 		AKH = {
@@ -2430,7 +2489,7 @@ country = {
 			capital = 790
 
 			own_control_core = {
-				790 789 1871 795 796 8021
+				790 789 1871 795 796 8021 10085 10086 10092 10093 
 			}
 		}
 		BEI = {
@@ -2448,7 +2507,7 @@ country = {
 			capital = 748
 
 			own_control_core = {
-				748
+				748 10078
 			}
 		}
 		SID = { #Sidon
@@ -2485,7 +2544,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				779 780
+				779 780 10082 783 10087
 			}
 
 		}
@@ -2505,7 +2564,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				766
+				766 768
 			}
 		}
 

@@ -995,10 +995,28 @@
 	terrain="hills"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="cedar"
+	civilization_value=24
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		culture="ionian"
+		religion="hurrian_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		culture="aramaic"
+		amount=1
+	}
 }
 
 784={ #Sigon
