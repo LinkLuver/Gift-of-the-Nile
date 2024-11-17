@@ -305,7 +305,7 @@ country = {
 			government = nomarchy
 			primary_culture = deshretic_egyptian
 			religion = egyptian_pantheon
-			capital = 5514 #'Siwa'
+			capital = 5527
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -315,7 +315,7 @@ country = {
 			}
 
 			own_control_core = {
-				5526 5525 5524 5523 5528 5545 5527 5514
+				5525 5523 5528 5545 5527
 			}
 		}
 
@@ -509,7 +509,7 @@ country = {
 			}
 
 			own_control_core = {
-				516 531 453 445
+				516 531 453 445 5514
 			}
 		}
 
@@ -624,7 +624,7 @@ country = {
 			}
 
 			own_control_core = {
-				509 535 701 656
+				509 535 701 656 5526 9822
 			}
 		}
 
@@ -2099,7 +2099,8 @@ country = {
 			capital = 787
 
 			own_control_core = 	{
-				787 791 7985 10088 10089 10091 10094 10095 10096 10097 10098 10099 10100 #syria_region
+				787 791 793 7985 #syria_region
+				10091 10100 10098 10099 10097 10096 10095 10094 10088 10089 10090 10092
 			}
 			historical_regnal_numbers = {
 				Taita = 2
@@ -2154,9 +2155,9 @@ country = {
 			treasures = { 193 95 }
 
 			own_control_core = 	{
-				740 741 742 749 #north_phoenicia
+				741 749 #north_phoenicia
 				738 750 751 752 753 757 758 759 760 763 764 765 #syria_coele_region
-				10074 10075 10076 10077 10079 10080 10120
+				10056 10045 10057 10058 10059 10074 10076 10075 10077 10080 10079
 			}
 
 			pantheon = {
@@ -2194,8 +2195,9 @@ country = {
 			}
 
 			own_control_core = 	{
-				772 761 762 774 777 778 781 782 799 8011 #apamene_region
-				10121 10122 10123 10124 10125
+				772 761 762 770 774 776 777 778 781 782 799 816 8011 #apamene_region
+				10120 10118 10117 10116 10115 10114 10124 10125 10122 10123 10121
+				10091
 			}
 			historical_regnal_numbers = {
 				Taita = 2
@@ -2332,7 +2334,7 @@ country = {
 			capital = 743
 
 			own_control_core = {
-				743 744 745
+				743 682
 			}
 
 			pantheon = {
@@ -2342,6 +2344,25 @@ country = {
 				{ deity = 420 }
 				{ deity = 415 }
 
+			}
+		}
+
+		KAD = {
+			government = aristocratic_monarchy
+			primary_culture = phoenician
+			religion = carthaginian_pantheon
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 742
+
+			own_control_core = {
+				742 740 745 744
 			}
 		}
 
@@ -2398,7 +2419,7 @@ country = {
 			capital = 786
 
 			own_control_core = {
-				786 788 784 785 10084
+				786 788 784 785 10084 10085
 			}
 		}
 		AKE = {
@@ -2416,7 +2437,7 @@ country = {
 			capital = 670
 
 			own_control_core = {
-				670 666
+				670
 			}
 		}
 		DOR = {
@@ -2434,7 +2455,7 @@ country = {
 			capital = 667
 
 			own_control_core = {
-				667 668
+				667 666
 			}
 		}
 		KIT = {
@@ -2489,7 +2510,7 @@ country = {
 			capital = 790
 
 			own_control_core = {
-				790 789 1871 795 796 8021 10085 10086 10092 10093 
+				790 789 1871 795 796 8021 10086 10093
 			}
 		}
 		BEI = {
@@ -2544,10 +2565,11 @@ country = {
 			}
 
 			own_control_core = 	{
-				779 780 10082 783 10087
+				779 780 783 10087 10082
 			}
 
 		}
+
 		BYB	= {
 			family = 46
 			government = despotic_monarchy
@@ -2607,8 +2629,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				687 688 689 691 692 711 #judea_region
-				710
+				687 688 689 691 692 711 10048 #judea_region
 			}
 		}
 
@@ -2628,6 +2649,7 @@ country = {
 
 			own_control_core = 	{
 				681 731 712 717
+				10049 10051 10052 10053 10054 10055
 			}
 		} 
 
@@ -2648,7 +2670,7 @@ country = {
 			capital = 680
 
 			own_control_core = 	{
-				679 680 682
+				679 680 668
 				683 684 685 686
 			}
 		}
@@ -2666,10 +2688,11 @@ country = {
 				religious_tech= { level=1 progress=0  }
 			}
 
-			capital = 709
+			capital = 710
 
 			own_control_core =  {
 				700 702 699 709 708 703
+				10047 5524 710
 			}
 		}
 
@@ -2689,7 +2712,7 @@ country = {
 			capital = 718
 
 			own_control_core =  {
-				718 721 675 720 714 715 716 713
+				718 721 675 720 714 715 716 713 676 10060
 			}
 		}
 		QAY = {
@@ -2707,7 +2730,9 @@ country = {
 			capital = 732
 
 			own_control_core = 	{
-				739 723 733 722 737 735 734 732 736
+				739 733 737 735 734 732 736
+				10044 10061 10062 10063 10064 10065 10066 10067 10068 10069 10070 10071
+				10072 10073 10046
 			}
 		}
 		GAL = {
@@ -2719,7 +2744,7 @@ country = {
 
 			own_control_core = 	{
 				669 672 677 673 674 648
-				671 719 678 676
+				671 719 678 722 723 10050
 			}
 		}
 		YPO = {

@@ -1,4 +1,4 @@
-﻿REB = "setup/countries/rebels.txt"
+REB = "setup/countries/rebels.txt"
 PIR = "setup/countries/pirates.txt"
 BAR = "setup/countries/barbarians.txt"
 MER = "setup/countries/mercenaries.txt"
@@ -42,6 +42,7 @@ NAP = "setup/countries/africa/napata.txt"
 MRE = "setup/countries/africa/meroe.txt"
 SHE = "setup/countries/africa/sobek.txt"
 BUB = "setup/countries/africa/bastet.txt"
+#PL1 = "setup/countries/africa/00_placehold (1).txt"
 
 # Persia-Mesopotamia
 SEL = "setup/countries/persiamesopotamia/seleucid empire.txt"
@@ -134,6 +135,7 @@ TR1 = "setup/countries/levant/tarsus.txt"
 KA1 = "setup/countries/levant/kalno.txt"
 TLD = "setup/countries/levant/theleda.txt"
 CRA = "setup/countries/levant/cara.txt"
+KAD = "setup/countries/levant/kadesh.txt"
 
 # Greco-Macedon
 MAC = "setup/countries/greece/macedonia.txt"
