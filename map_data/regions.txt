@@ -171,7 +171,6 @@ upper_mesopotamia_region = { #7 areas
 		osroene_area
 		tella_area
 		amudha_area
-		commagene_area
 		corduene_area
 		sophene_area
 		euphrates_area
@@ -456,17 +455,12 @@ central_mediterranean_river_region = { #1 areas
 cilicia_region = { #7 areas
 	color = rgb { 227 103 61 }
 	areas = {
-		cilicia_pedias_area
 		cilicia_trachea_area
 		cyprus_area
 		lycia_area
 		milyas_area
 		pamphylia_area
 		pisidia_area
-		que_placeholder
-		que_placeholder_two
-		que_placeholder_three
-		que_placeholder_four
 	}
 }
 
@@ -1244,11 +1238,25 @@ syria_region = { #7 areas
 		south_phoenicia_area
 		syria_area
 		syria_coele_area
+		heliopolis_area
+		theleda_area
+		nahrain_area
+		arpadh_area
+		central_phoenicia_area
+	}
+}
+
+hatti_region = { #7 areas
+	color = rgb { 70 61 62 }
+	areas = {
 		syria_cyrrestice_area
-		syria_placeholder_area
-		syria_placeholder_area_two
-		syria_placeholder_area_three
-		syria_placeholder_area_four
+		commagene_area
+		karkemish_area
+		cilicia_pedias_area
+		que_placeholder
+		que_placeholder_two
+		que_placeholder_three
+		que_placeholder_four
 	}
 }
 
