@@ -78,21 +78,22 @@
 416;7902;sea;2604;2498;2078;2493;2077;Athens-Salamis
 417;7902;sea;2604;2482;2080;2487;2075;Megara-Salamis
 ### Nile River ###
-509;7688;river_large;7673;3263;1591;3255;1597;Pilousion-Thenessos
-503;507;river_large;7667;3201;1525;3205;1521;Boubastos-Leonton Polis
-504;528;river_large;7676;3176;1551;3167;1549;Leontopolis-Isieion
-503;504;river_large;7670;3197;1532;3193;1535;Boubastis-Leontopolis (North)
-528;527;river_large;7680;3153;1536;3149;1532;Iseion-Atarbechis
-513;514;river_large;7674;3175;1510;3164;1508;Athribis-Nikiou
-7691;530;river_large;7683;3109;1587;3104;1581;Perseos Skope-Bolbitine
-502;655;river_large;7685;3262;1535;3271;1537;Heroopolis-Serapieion
-545;546;river_large;9149;3179;1351;3191;1351;Oxyrhynchus-Kynopolis
-554;552;river_large;9151;3226;1235;3231;1247;Moirai-Koussai
-558;556;river_large;9152;3273;1199;3279;1211;Athribis-Antaiopolis
-562;561;river_large;9153;3343;1151;3346;1163;Diospolis Mikra-Abydos
-563;566;river_large;9154;3394;1159;3405;1160;Tenthyris-Koptos
-570;569;river_large;9155;3385;1130;3395;1124;Memnonia-Diospolis Magna/Luxor
-573;574;river_large;9156;3402;1085;3409;1094;Pathyris-Latopolis
+509;9866;river_large;7673;3267;1601;3261;1604;Pilousion-Thenessos
+501;507;river_large;7667;3197;1498;3203;1496;Boubastos-Leonton Polis
+512;514;river_large;7674;3170;1504;3172;1508;Leontopolis-Isieion
+500;9906;river_large;7687;3193;1473;3198;1474;Boubastis-Leontopolis (North)
+511;524;river_large;7671;3221;1559;3215;1561;Iseion-Atarbechis
+514;513;river_large;7674;3169;1514;3176;1518;Athribis-Nikiou
+7691;9835;river_large;7683;3109;1587;3104;1581;Perseos Skope-Bolbitine
+9874;655;river_large;7666;3262;1541;3262;1547;Heroopolis-Serapieion
+505;1604;river_large;7694;3297;1493;3302;1495;PerAten-Phoinikion
+9833;9884;river_large;9149;3182;1351;3191;1351;Oxyrhynchus-Kynopolis
+554;9938;river_large;9150;3226;1235;3231;1247;Moirai-Koussai
+9897;556;river_large;9152;3273;1199;3279;1211;Athribis-Antaiopolis
+9901;9900;river_large;9154;3343;1151;3346;1163;Diospolis Mikra-Abydos
+568;9960;river_large;9155;3394;1159;3405;1160;Tenthyris-Koptos
+572;569;river_large;9158;3385;1130;3395;1124;Memnonia-Diospolis Magna/Luxor
+544;9882;river_large;9148;3189;1389;3194;1388;Pathyris-Latopolis
 ### Indus River ###
 6821;6822;river_large;7693;6063;2221;6064;2231;Alexandrou Limen-Barbarikon
 6821;9417;river_large;9399;6063;2221;6057;2222;Alexandrou Limen-idk
