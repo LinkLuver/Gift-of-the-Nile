@@ -1,4 +1,4 @@
-game_object_locator={
+﻿game_object_locator={
 	name="fort"
 	clamp_to_water_level=no
 	render_under_water=no
@@ -45541,7 +45541,7 @@ game_object_locator={
 		}
 		{
 			id=9589
-			position={ 3596.902100 0.000000 2123.961426 }
+			position={ 3607.050781 0.000000 2124.587891 }
 			rotation={ -0.000000 -0.000000 -0.000000 1.000000 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
@@ -48973,8 +48973,8 @@ game_object_locator={
 		}
 		{
 			id=10177
-			position={ 3240.000000 0.000000 2104.000000 }
-			rotation={ -0.000000 -0.916600 -0.000000 0.399806 }
+			position={ 3539.431641 0.000000 2175.862305 }
+			rotation={ -0.000000 -0.982612 -0.000000 0.185673 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
 	}

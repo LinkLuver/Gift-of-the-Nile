@@ -1,4 +1,4 @@
-game_object_locator={
+﻿game_object_locator={
 	name="great_work"
 	clamp_to_water_level=no
 	render_under_water=no
@@ -48973,9 +48973,9 @@ game_object_locator={
 		}
 		{
 			id=10177
-			position={ 3240.000000 0.000000 2104.000000 }
-			rotation={ -0.000000 -0.916600 -0.000000 0.399806 }
-			scale={ 1.000000 1.000000 1.000000 }
+			position={ 3538.355225 0.000000 2162.781494 }
+			rotation={ -0.000000 -0.982612 -0.000000 0.185673 }
+			scale={ 0.741821 0.741821 0.741821 }
 		}
 	}
 }

@@ -548,7 +548,7 @@ cappadocia_cataonia_area = { #11
 }
 
 cappadocia_garsauritis_area = { #12
-	provinces = { 173 205 1788 1900 1938 1940 1951 1954 1978 }
+	provinces = { 173 205 1788 1900 1938 1940 1951 1954 1978 1888 }
 }
 
 cappadocia_melitene_area = { #12
@@ -2782,7 +2782,7 @@ que_placeholder_two = { #13
 }
 
 que_placeholder_three = { #13
-	provinces = { 10157 10158 10159 10161 10156 1887 1888 1872 10160 }
+	provinces = { 10157 10158 10159 10161 10156 1887 1872 10160 }
 }
 
 que_placeholder_four = { #12
