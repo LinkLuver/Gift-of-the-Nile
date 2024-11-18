@@ -184,7 +184,7 @@ arabia_maritimae_area = { #8
 }
 
 arabia_petrea_area = { #11
-	provinces = { 702 703 704 705 706 707 708 727 728 729 730 5524 }
+	provinces = { 704 705 706 707 727 728 729 730 }
 }
 
 arabia_relicta_area = { #12
@@ -860,7 +860,11 @@ daugava_river_area = { #4
 }
 
 decapolis_area = { #14
-	provinces = { 675 718 721 722 723 732 733 734 735 736 737 739 7554 7555 }
+	provinces = { 713 715 676 720 675 718 721 10060 }
+}
+
+gaulanitis_area = { #11
+	provinces = { 722 732 737 739 10044 10061 10062 10063 733 }
 }
 
 dedan_area = { #11
@@ -937,7 +941,7 @@ eastern_aral_area = { #9
 
 eastern_delta_area = { #12
 	color = rgb { 18 5 121 }
-	provinces = { 509 510 525 535 656 701 5526 9822 9824 9867 9868 }
+	provinces = { 509 510 525 535 701 5526 9822 9824 9867 9868 }
 }
 
 eastern_desert_area = { #8
@@ -1049,7 +1053,7 @@ galatia_trocmi_area = { #12
 }
 
 galilee_area = { #11
-	provinces = { 666 667 668 669 671 672 673 674 677 648 }
+	provinces = { 666 667 669 671 672 673 674 677 648 10050 719 723 }
 }
 
 galindia_area = { #16
@@ -1354,7 +1358,7 @@ jedi_area = { #11
 }
 
 judea_area = { #12
-	provinces = { 683 684 685 686 687 688 689 691 692 711 713 715 }
+	provinces = { 683 684 687 688 689 691 692 711 10048 }
 }
 
 kaccha_area = { #7
@@ -2224,7 +2228,11 @@ penner_river_area = { #2
 }
 
 peraea_area = { #11
-	provinces = { 681 698 699 700 709 710 712 714 716 717 731 }
+	provinces = { 712 714 716 717 731 10049 10051 10052 10053 10054 10055 681 }
+}
+
+edom_area = { #11
+	provinces = { 698 699 700 709 710 5524 10047 708 702 703 }
 }
 
 persepolis_area = { #13
@@ -2248,7 +2256,7 @@ phazania_area = { #14
 }
 
 philistia_area = { #12
-	provinces = { 657 658 659 660 661 662 690 693 694 695 696 697 }
+	provinces = { 657 658 659 660 661 662 690 693 694 695 696 697 656 }
 }
 
 phrygia_area = { #12
@@ -2412,15 +2420,15 @@ saharan_atlas_area = { #10
 }
 
 samaria_area = { #10
-	provinces = { 663 664 665 676 678 679 680 719 720 }
+	provinces = { 663 664 665 678 679 680 668 685 686 }
 }
 
 canaan_placeholder = { #10
-	provinces = { 10044 10045 10046 10047 10048 10049 10050 10051 10052 10053 10054 10055 10056 10057 10058 738 }
+	provinces = { 10045 10056 10057 10058 10059 10064 10065 738 }
 }
 
 canaan_placeholder_2 = { #10
-	provinces = { 10059 10060 10061 10062 10063 10064 10065 10066 10067 10068 10069 10070 10071 10072 10073 }
+	provinces = { 10066 10067 10068 10069 10070 10071 10072 10073 10046 734 735 736 7554 7555 }
 }
 
 samatata_area = { #13
