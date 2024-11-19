@@ -1493,7 +1493,7 @@ country = {
 				157 158 163 1852 1854 1859 1865 1886 1898 1929 #cappadocia_melitene_region
 				155 172 1802 1803 1893 1902 1976 1983 1994 1999 #cappadocia_cataonia_region
 				1794 1796 1799 1800 1805 1912 6420 #cappadocia_region
-				1853 1979 1982
+				1853 1982
 				1849 1891 1899
 			}
 
@@ -1969,8 +1969,10 @@ country = {
 			capital = 1882
 
 			own_control_core = 	{
-				1874 1877 1879 1880 1881 1882 1887 1889 #cilicia_trachea_region
-				10140 10147 10148 10158 10159 10161 10162 10163 10164 10165 10166 10167 10168 10169 10170 10172 10173 10174 10175
+				1874 1875 1879 1880 1881 1882 1887 1889 #cilicia_trachea_region
+				10139 10148 10158 10159 10161 10163 10164 10165 10166
+				10167 10168 10169 10170 10171 10172 10173 10174 10175
+				10136
 			}
 		}
 
@@ -2010,6 +2012,7 @@ country = {
 			own_control_core = 	{
 				811 #syria_cyrrestice_region
 				1867 1868 9594 9597 9593 1869 1895
+				7987
 			}
 		}
 		KAR = {
@@ -2061,7 +2064,7 @@ country = {
 			capital = 1883
 
 			own_control_core = 	{
-				1872 1883 10161 10157 10155 10156
+				1883 10161 10157 10155
 			}
 		}
 		KTK = {
@@ -14280,7 +14283,67 @@ country = {
 			capital = 1894
 
 			own_control_core = {
-				1894 1896 1890 1892 7968 8022
+				1894 1896 1890 1892 8022
+			}
+		}
+
+		KHK = { # khillika
+			government = theocratic_monarchy
+			primary_culture = cilician
+			religion = hurrian_pantheon
+
+			capital = 10162
+
+			own_control_core = {
+				10150 10151 10152 10153 10154 10162
+			}
+		}
+
+		THK = { # Thukan
+			government = theocratic_monarchy
+			primary_culture = cilician
+			religion = hurrian_pantheon
+
+			capital = 10156
+
+			own_control_core = {
+				1872 10156
+			}
+		}
+
+		IS2 = { # Thukan
+			government = theocratic_monarchy
+			primary_culture = cilician
+			religion = hurrian_pantheon
+
+			capital = 1877
+
+			own_control_core = {
+				10147 1877 10140 10138
+			}
+		}
+
+		TB1 = { # Thukan
+			government = theocratic_monarchy
+			primary_culture = cilician
+			religion = hurrian_pantheon
+
+			capital = 7968
+
+			own_control_core = {
+				7968 10141 10143 10144 10149 10131 10132 10137 10133 1873
+			}
+		}
+
+		KMN = { # Thukan
+			government = theocratic_monarchy
+			primary_culture = cilician
+			religion = hurrian_pantheon
+
+			capital = 10142
+
+			own_control_core = {
+				10142 1979 10135 1878 10134 10145
 			}
 		}
 
