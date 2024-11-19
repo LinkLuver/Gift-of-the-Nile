@@ -29,7 +29,7 @@
 	terrain="hills"
 	culture="syriac"
 	religion="hurrian_pantheon"
-	trade_goods="olive"
+	trade_goods="cattle"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -126,7 +126,7 @@
 	terrain="plains"
 	culture="nahric"
 	religion="hurrian_pantheon"
-	trade_goods="cedar"
+	trade_goods="cattle"
 	civilization_value=30
 	barbarian_power=0
 	province_rank="city"
@@ -251,7 +251,7 @@
 	terrain="farmland"
 	culture="hittite"
 	religion="hurrian_pantheon"
-	trade_goods="stone"
+	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -709,7 +709,7 @@
 	terrain="mountain"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="vegetables"
+	trade_goods="obsidian"
 	civilization_value=22
 	barbarian_power=0
 	province_rank="settlement"
@@ -917,7 +917,7 @@
 	terrain="plains"
 	culture="dnnym"
 	religion="hurrian_pantheon"
-	trade_goods="fish"
+	trade_goods="glass"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -1314,7 +1314,7 @@
 	terrain="farmland"
 	culture="cilician"
 	religion="hurrian_pantheon"
-	trade_goods="obsidian"
+	trade_goods="cloth"
 	civilization_value=22
 	barbarian_power=0
 	province_rank="settlement"
@@ -1466,7 +1466,7 @@
 	terrain="plains"
 	culture="nahric"
 	religion="mesopotamian_religion"
-	trade_goods="grain"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1554,7 +1554,7 @@
 	terrain="hills"
 	culture="hittite"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1576,7 +1576,7 @@
 	terrain="plains"
 	culture="nahric"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1598,7 +1598,7 @@
 	terrain="hills"
 	culture="hittite"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="stone"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1620,7 +1620,7 @@
 	terrain="hills"
 	culture="hittite"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="base_metals"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1642,7 +1642,7 @@
 	terrain="hills"
 	culture="hittite"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="base_metals"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1664,7 +1664,7 @@
 	terrain="farmland"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1684,7 +1684,7 @@
 	terrain="plains"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="vegetables"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1724,7 +1724,7 @@
 	terrain="mountain"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="stone"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1744,7 +1744,7 @@
 	terrain="mountain"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="stone"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1764,7 +1764,7 @@
 	terrain="hills"
 	culture="dnnym"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="incense"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1784,7 +1784,7 @@
 	terrain="plains"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="dates"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1804,7 +1804,7 @@
 	terrain="farmland"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1824,7 +1824,7 @@
 	terrain="farmland"
 	culture="dnnym"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1845,7 +1845,7 @@
 	terrain="farmland"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1865,7 +1865,7 @@
 	terrain="farmland"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1905,7 +1905,7 @@
 	terrain="plains"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1925,7 +1925,7 @@
 	terrain="plains"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="iron"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1945,7 +1945,7 @@
 	terrain="mountain"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="obsidian"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1985,7 +1985,7 @@
 	terrain="farmland"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2005,7 +2005,7 @@
 	terrain="farmland"
 	culture="dnnym"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2026,7 +2026,7 @@
 	terrain="hills"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="wild_game"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2046,7 +2046,7 @@
 	terrain="hills"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="precious_metals"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2066,7 +2066,7 @@
 	terrain="farmland"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="cedar"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2086,7 +2086,7 @@
 	terrain="hills"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="honey"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2106,7 +2106,7 @@
 	terrain="plains"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="vegetables"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2126,7 +2126,7 @@
 	terrain="plains"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="wine"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2146,7 +2146,7 @@
 	terrain="plains"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="vegetables"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2166,7 +2166,7 @@
 	terrain="hills"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="iron"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2186,7 +2186,7 @@
 	terrain="plains"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="olive"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2206,7 +2206,7 @@
 	terrain="plains"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="fish"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2226,7 +2226,7 @@
 	terrain="plains"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="fish"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2246,7 +2246,7 @@
 	terrain="mountain"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="obsidian"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2266,7 +2266,7 @@
 	terrain="farmland"
 	culture="kennataian"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2286,7 +2286,7 @@
 	terrain="plains"
 	culture="dnnym"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2307,7 +2307,7 @@
 	terrain="marsh"
 	culture="dnnym"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="fish"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2328,7 +2328,7 @@
 	terrain="marsh"
 	culture="dnnym"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2349,7 +2349,7 @@
 	terrain="farmland"
 	culture="dnnym"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2370,7 +2370,7 @@
 	terrain="marsh"
 	culture="dnnym"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="olive"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2391,7 +2391,7 @@
 	terrain="farmland"
 	culture="dnnym"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="olive"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2412,7 +2412,7 @@
 	terrain="farmland"
 	culture="dnnym"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="glass"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2433,7 +2433,7 @@
 	terrain="hills"
 	culture="dnnym"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="honey"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2454,7 +2454,7 @@
 	terrain="hills"
 	culture="dnnym"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="honey"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2475,7 +2475,7 @@
 	terrain="farmland"
 	culture="dnnym"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="spices"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2496,7 +2496,7 @@
 	terrain="farmland"
 	culture="dnnym"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2517,7 +2517,7 @@
 	terrain="marsh"
 	culture="dnnym"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="fish"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2538,7 +2538,7 @@
 	terrain="plains"
 	culture="dnnym"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="wine"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2559,7 +2559,7 @@
 	terrain="plains"
 	culture="dnnym"
 	religion="hurrian_pantheon"
-	trade_goods="base_metals"
+	trade_goods="olive"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"

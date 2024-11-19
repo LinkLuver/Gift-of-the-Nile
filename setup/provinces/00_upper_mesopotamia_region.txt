@@ -479,12 +479,12 @@
 		amount=11
 	}
 	nobles={
-		amount=1
 		culture="cretan"
+		amount=1
 	}
 	nobles={
-		amount=3
 		culture="mitanni"
+		amount=3
 	}
 	tribesmen={
 		culture="mitanni"
@@ -497,12 +497,12 @@
 		amount=4
 	}
 	freemen={
-		amount=4
 		culture="mitanni"
+		amount=4
 	}
 	slaves={
-		amount=5
 		culture="nahric"
+		amount=5
 	}
 }
 
@@ -1504,12 +1504,12 @@
 		amount=2
 	}
 	slaves={
-		amount=2
 		culture="qardu"
+		amount=2
 	}
 	tribesmen={
-		amount=4
 		culture="qardu"
+		amount=4
 	}
 }
 
@@ -1780,7 +1780,7 @@
 	terrain="farmland"
 	culture="nahric"
 	religion="hurrian_pantheon"
-	trade_goods="cattle"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"

@@ -102,7 +102,7 @@
 	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
-	trade_goods="cedar"
+	trade_goods="leather"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -237,7 +237,7 @@
 	terrain="forest"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
-	trade_goods="dye"
+	trade_goods="cloth"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="city"
@@ -361,7 +361,7 @@
 	terrain="plains"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
-	trade_goods="grain"
+	trade_goods="glass"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -404,7 +404,7 @@
 	terrain="hills"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
-	trade_goods="glass"
+	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -842,7 +842,7 @@
 	terrain="forest"
 	culture="aramaic"
 	religion="carthaginian_pantheon"
-	trade_goods="wine"
+	trade_goods="cedar"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="city"
@@ -1110,7 +1110,7 @@
 	terrain="forest"
 	culture="syrion"
 	religion="carthaginian_pantheon"
-	trade_goods="fish"
+	trade_goods="dye"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -1354,7 +1354,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="hurrian_pantheon"
-	trade_goods="cedar"
+	trade_goods="cattle"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -1403,7 +1403,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="hurrian_pantheon"
-	trade_goods="grain"
+	trade_goods="cattle"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -1499,7 +1499,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="hurrian_pantheon"
-	trade_goods="grain"
+	trade_goods="cattle"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -1574,7 +1574,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="hurrian_pantheon"
-	trade_goods="grain"
+	trade_goods="cattle"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -1647,7 +1647,7 @@
 	terrain="forest"
 	culture="syriac"
 	religion="hurrian_pantheon"
-	trade_goods="vegetables"
+	trade_goods="cedar"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -1698,7 +1698,7 @@
 	terrain="plains"
 	culture="aramaic"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1720,7 +1720,7 @@
 	terrain="plains"
 	culture="aramaic"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="hemp"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1742,7 +1742,7 @@
 	terrain="plains"
 	culture="aramaic"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1764,7 +1764,7 @@
 	terrain="plains"
 	culture="aramaic"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="glass"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1808,7 +1808,7 @@
 	terrain="plains"
 	culture="aramaic"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1830,7 +1830,7 @@
 	terrain="desert"
 	culture="aramaic"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="camel"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1896,7 +1896,7 @@
 	terrain="plains"
 	culture="syrion"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="incense"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1940,7 +1940,7 @@
 	terrain="plains"
 	culture="syrion"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="spices"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -1984,7 +1984,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2006,7 +2006,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2028,7 +2028,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2050,7 +2050,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2072,7 +2072,7 @@
 	terrain="plains"
 	culture="hittite"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="olive"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2094,7 +2094,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2116,7 +2116,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2138,7 +2138,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2182,7 +2182,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2204,7 +2204,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2226,7 +2226,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2248,7 +2248,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2270,7 +2270,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2292,7 +2292,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2314,7 +2314,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2336,7 +2336,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2358,7 +2358,7 @@
 	terrain="farmland"
 	culture="nahric"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2380,7 +2380,7 @@
 	terrain="farmland"
 	culture="nahric"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2402,7 +2402,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2424,7 +2424,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2446,7 +2446,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2468,7 +2468,7 @@
 	terrain="desert"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2490,7 +2490,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2512,7 +2512,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2534,7 +2534,7 @@
 	terrain="plains"
 	culture="aramaic"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2556,7 +2556,7 @@
 	terrain="plains"
 	culture="aramaic"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2578,7 +2578,7 @@
 	terrain="plains"
 	culture="aramaic"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2622,7 +2622,7 @@
 	terrain="plains"
 	culture="aramaic"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="earthware"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2644,7 +2644,7 @@
 	terrain="forest"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="hemp"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
@@ -2754,7 +2754,7 @@
 	terrain="plains"
 	culture="syriac"
 	religion="mesopotamian_religion"
-	trade_goods="cedar"
+	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
