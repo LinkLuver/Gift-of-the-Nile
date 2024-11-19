@@ -22,7 +22,7 @@
 
 804={ #Kef Pratha
 	terrain="farmland"
-	culture="aramaic"
+	culture="nahric"
 	religion="carthaginian_pantheon"
 	trade_goods="stone"
 	civilization_value=28
@@ -57,7 +57,7 @@
 
 817={ #Batnai
 	terrain="farmland"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="honey"
 	civilization_value=31
@@ -76,7 +76,7 @@
 
 818={ #'Adhma
 	terrain="plains"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="glass"
 	civilization_value=31
@@ -121,7 +121,7 @@
 
 819={ #Haran
 	terrain="plains"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="grain"
 	civilization_value=26
@@ -141,7 +141,7 @@
 
 820={ #Sahlala
 	terrain="plains"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="cattle"
 	civilization_value=24
@@ -157,7 +157,7 @@
 
 821={ #Resaina
 	terrain="farmland"
-	culture="syriac"
+	culture="hurrian"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=31
@@ -460,7 +460,7 @@
 
 844={ #Washshukanni
 	terrain="farmland"
-	culture="syriac"
+	culture="hurrian"
 	religion="hurrian_pantheon"
 	trade_goods="earthware"
 	civilization_value=31
@@ -478,6 +478,14 @@
 	citizen={
 		amount=11
 	}
+	nobles={
+		amount=1
+		culture="cretan"
+	}
+	nobles={
+		amount=3
+		culture="mitanni"
+	}
 	tribesmen={
 		culture="mitanni"
 		religion="hurrian_pantheon"
@@ -490,9 +498,11 @@
 	}
 	freemen={
 		amount=4
+		culture="mitanni"
 	}
 	slaves={
 		amount=5
+		culture="nahric"
 	}
 }
 
@@ -550,7 +560,7 @@
 
 847={ #Dausara
 	terrain="farmland"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="grain"
 	civilization_value=26
@@ -569,7 +579,7 @@
 
 848={ #Alagma
 	terrain="plains"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="horses"
 	civilization_value=23
@@ -585,7 +595,7 @@
 
 849={ #Ballatha
 	terrain="plains"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=26
@@ -601,7 +611,7 @@
 
 853={ #Ichnae
 	terrain="plains"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="wild_game"
 	civilization_value=23
@@ -618,7 +628,7 @@
 
 854={ #Ganaba
 	terrain="hills"
-	culture="syriac"
+	culture="nahric"
 	religion="mesopotamian_religion"
 	trade_goods="wild_game"
 	civilization_value=26
@@ -1005,7 +1015,7 @@
 
 879={ #Barbare
 	terrain="plains"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="grain"
 	civilization_value=26
@@ -1049,7 +1059,7 @@
 
 1847={ #Bithias
 	terrain="farmland"
-	culture="syriac"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=26
@@ -1481,43 +1491,45 @@
 
 9563={ #Ritalpha
 	terrain="farmland"
-	culture="qardu"
+	culture="hurrian"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=2
 	}
 	freemen={
 		amount=2
 	}
 	slaves={
 		amount=2
+		culture="qardu"
 	}
 	tribesmen={
-		amount=3
+		amount=4
+		culture="qardu"
 	}
 }
 
 9564={ #Rhene
 	terrain="farmland"
-	culture="syriac"
+	culture="hurrian"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=1
 	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
 		culture="qardu"
-		amount=3
+		amount=6
 	}
 }
 
@@ -1614,7 +1626,7 @@
 
 9581={ #Thalama
 	terrain="hills"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="grain"
 	civilization_value=29
@@ -1636,7 +1648,7 @@
 
 9582={ #Sinnaka
 	terrain="plains"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=29
@@ -1658,7 +1670,7 @@
 
 9584={ #Orgatha
 	terrain="plains"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=29
@@ -1679,7 +1691,7 @@
 
 9585={ #Sumatar
 	terrain="hills"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="earthware"
 	civilization_value=29
@@ -1701,7 +1713,7 @@
 
 9586={ #Sahal
 	terrain="plains"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="cattle"
 	civilization_value=29
@@ -1766,7 +1778,7 @@
 
 9590={ #Athis
 	terrain="farmland"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="cattle"
 	civilization_value=29
@@ -1788,7 +1800,7 @@
 
 9591={ #Bersiba
 	terrain="farmland"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="olive"
 	civilization_value=29
@@ -1813,7 +1825,7 @@
 
 9592={ #Apamea
 	terrain="farmland"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=29
@@ -1835,7 +1847,7 @@
 
 9593={ #Caphrena
 	terrain="farmland"
-	culture="syriac"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="feathers"
 	civilization_value=29

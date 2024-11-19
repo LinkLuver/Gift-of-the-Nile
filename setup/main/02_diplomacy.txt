@@ -70,12 +70,24 @@ diplomacy = {
 	
 	#Bit-Adini
 	dependency = { first = BMB second = KAR subject_type = hittite_viceroyalty }
+	
+	#Kummuh
+	dependency = { first = COM second = GUR subject_type = hittite_viceroyalty }
+	dependency = { first = COM second = KA1 subject_type = hittite_viceroyalty }
 
 	#Hamath
 	dependency = { first = HAM second = LHT subject_type = client_state }
+	dependency = { first = HAM second = TLD subject_type = client_state }
+	dependency = { first = HAM second = CRA subject_type = client_state }
 
 	#Que
-	dependency = { first = HAM second = HT2 subject_type = tributary }
+	dependency = { first = HIT second = IS2 subject_type = hittite_viceroyalty }
+	dependency = { first = HIT second = KHK subject_type = hittite_viceroyalty }
+	dependency = { first = HIT second = TR1 subject_type = hittite_viceroyalty }
+	dependency = { first = HIT second = TB1 subject_type = hittite_viceroyalty }
+	dependency = { first = HIT second = THK subject_type = hittite_viceroyalty }
+	dependency = { first = HIT second = HT2 subject_type = tributary }
+	dependency = { first = HIT second = AKH subject_type = tributary }
 
 	##Greek Leagues
 	#Neo-Dellian League

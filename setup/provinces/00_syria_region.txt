@@ -985,7 +985,7 @@
 
 781={ #Senzar
 	terrain="forest"
-	culture="aramaic"
+	culture="syriac"
 	religion="carthaginian_pantheon"
 	trade_goods="hemp"
 	civilization_value=24
@@ -1005,7 +1005,7 @@
 
 782={ #Qarqar
 	terrain="forest"
-	culture="syrion"
+	culture="syriac"
 	religion="carthaginian_pantheon"
 	trade_goods="glass"
 	civilization_value=29
@@ -1015,7 +1015,7 @@
 		amount=1
 	}
 	citizen={
-		culture="aramaic"
+		culture="syriac"
 		religion="carthaginian_pantheon"
 		amount=2
 	}
@@ -1478,7 +1478,7 @@
 
 805={ #Tafsah
 	terrain="farmland"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=26
@@ -1536,7 +1536,7 @@
 
 814={ #Barbalissus
 	terrain="farmland"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="grain"
 	civilization_value=26
@@ -2356,7 +2356,7 @@
 
 10107={ #PROV10107
 	terrain="farmland"
-	culture="syriac"
+	culture="nahric"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2378,7 +2378,7 @@
 
 10108={ #PROV10108
 	terrain="farmland"
-	culture="syriac"
+	culture="nahric"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2642,7 +2642,7 @@
 
 10121={ #PROV10121
 	terrain="forest"
-	culture="aramaic"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29

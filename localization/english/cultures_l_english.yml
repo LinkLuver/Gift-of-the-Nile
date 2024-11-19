@@ -9,7 +9,7 @@
  celt_iberia:0 "Celtiberian"
  celto_pannonian_group:0 "Galatian"
  dacia_group:1 "Dacian"
- east_levantine:0 "Aramaic"
+ east_levantine:0 "Syro-Hittite"
  mesopotamian:0 "Mesopotamian"
  gaelic:0 "Gaelic"
  gallic:0 "Gallic"
@@ -501,6 +501,8 @@
  aramaic:0 "Aramaic"
  syriac:0 "Syriac"
  hittite:0 "Hittite"
+ dnnym:0 "Denenic"
+ nahric:0 "Nahric"
  #Mesopotamian
  assyrian:0 "Assyrian"
  babylonian:0 "Babylonian"

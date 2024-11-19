@@ -124,7 +124,7 @@
 
 807={ #Manbugh
 	terrain="plains"
-	culture="syriac"
+	culture="nahric"
 	religion="hurrian_pantheon"
 	trade_goods="cedar"
 	civilization_value=30
@@ -276,7 +276,7 @@
 
 836={ #Semsath
 	terrain="farmland"
-	culture="syriac"
+	culture="hittite"
 	religion="armenian_religion"
 	trade_goods="horses"
 	civilization_value=20
@@ -324,7 +324,7 @@
 
 837={ #Tarsa
 	terrain="farmland"
-	culture="syriac"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=20
@@ -571,7 +571,7 @@
 
 1864={ #Nisos
 	terrain="hills"
-	culture="syriac"
+	culture="hittite"
 	religion="anahitic_religion"
 	trade_goods="earthware"
 	civilization_value=20
@@ -641,7 +641,7 @@
 
 1868={ #Tyba
 	terrain="hills"
-	culture="syriac"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="wood"
 	civilization_value=18
@@ -660,7 +660,7 @@
 
 1869={ #Rhabaine
 	terrain="hills"
-	culture="syriac"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="olive"
 	civilization_value=23
@@ -760,7 +760,7 @@
 
 1874={ #Oiniandos
 	terrain="plains"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="grain"
 	civilization_value=28
@@ -792,7 +792,7 @@
 
 1875={ #Kastabala
 	terrain="plains"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="honey"
 	civilization_value=31
@@ -834,7 +834,7 @@
 
 1877={ #Anazarbos
 	terrain="farmland"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="olive"
 	civilization_value=10
@@ -915,7 +915,7 @@
 
 1879={ #Aigaiai
 	terrain="plains"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="fish"
 	civilization_value=26
@@ -943,7 +943,7 @@
 
 1880={ #Beth Mopsha
 	terrain="farmland"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="wine"
 	civilization_value=33
@@ -978,7 +978,7 @@
 
 1881={ #Mallos
 	terrain="farmland"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=35
@@ -1039,7 +1039,7 @@
 
 1882={ #Adana
 	terrain="farmland"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="olive"
 	civilization_value=33
@@ -1205,7 +1205,7 @@
 
 1889={ #Magarsa
 	terrain="marsh"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="fish"
 	civilization_value=22
@@ -1342,7 +1342,7 @@
 
 7982={ #Perrhe
 	terrain="hills"
-	culture="syriac"
+	culture="hittite"
 	religion="anahitic_religion"
 	trade_goods="earthware"
 	civilization_value=20
@@ -1464,7 +1464,7 @@
 
 9595={ #Caeciliana
 	terrain="plains"
-	culture="syriac"
+	culture="nahric"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
 	civilization_value=29
@@ -1574,7 +1574,7 @@
 
 10110={ #PROV10110
 	terrain="plains"
-	culture="syriac"
+	culture="nahric"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -1762,7 +1762,7 @@
 
 10136={ #PROV10136
 	terrain="hills"
-	culture="kennataian"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -1822,7 +1822,7 @@
 
 10139={ #PROV10139
 	terrain="farmland"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -2003,7 +2003,7 @@
 
 10148={ #PROV10148
 	terrain="farmland"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -2284,7 +2284,7 @@
 
 10162={ #PROV10162
 	terrain="plains"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -2305,7 +2305,7 @@
 
 10163={ #PROV10163
 	terrain="marsh"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -2326,7 +2326,7 @@
 
 10164={ #PROV10164
 	terrain="marsh"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -2347,7 +2347,7 @@
 
 10165={ #PROV10165
 	terrain="farmland"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -2368,7 +2368,7 @@
 
 10166={ #PROV10166
 	terrain="marsh"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -2389,7 +2389,7 @@
 
 10167={ #PROV10167
 	terrain="farmland"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -2410,7 +2410,7 @@
 
 10168={ #PROV10168
 	terrain="farmland"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -2431,7 +2431,7 @@
 
 10169={ #PROV10169
 	terrain="hills"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -2452,7 +2452,7 @@
 
 10170={ #PROV10170
 	terrain="hills"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -2473,7 +2473,7 @@
 
 10171={ #PROV10171
 	terrain="farmland"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -2494,7 +2494,7 @@
 
 10172={ #PROV10172
 	terrain="farmland"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -2515,7 +2515,7 @@
 
 10173={ #PROV10173
 	terrain="marsh"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -2536,7 +2536,7 @@
 
 10174={ #PROV10174
 	terrain="plains"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -2557,7 +2557,7 @@
 
 10175={ #PROV10175
 	terrain="plains"
-	culture="hittite"
+	culture="dnnym"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -2578,7 +2578,7 @@
 
 10177={ #PROV10177
 	terrain="plains"
-	culture="syriac"
+	culture="nahric"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
 	civilization_value=29

@@ -1992,7 +1992,7 @@ country = {
 			capital = 792
 
 			own_control_core = 	{
-				792 812 1870 793 10128 10130 10090
+				792 812 1870 10128 10130 793 10090
 			}
 		}
 		GUR = {
@@ -2064,7 +2064,7 @@ country = {
 			capital = 1883
 
 			own_control_core = 	{
-				1883 10161 10157 10155
+				1883 10161 10157 10155 1872 10156
 			}
 		}
 		KTK = {
@@ -2101,8 +2101,8 @@ country = {
 			capital = 787
 
 			own_control_core = 	{
-				787 791 793 7985 #syria_region
-				10091 10100 10098 10099 10097 10096 10095 10094 10088 10089 10090 10092
+				787 791 7985 #syria_region
+				10091 10100 10098 10099 10097 10096 10095 10094 10088 10089 10092
 			}
 			historical_regnal_numbers = {
 				Taita = 2
@@ -14304,10 +14304,10 @@ country = {
 			primary_culture = cilician
 			religion = hurrian_pantheon
 
-			capital = 10156
+			capital = 1889
 
 			own_control_core = {
-				1872 10156
+			1889 10173
 			}
 		}
 
