@@ -45,6 +45,7 @@ is_tier_1_formable_trigger = {
 		tag = CIM #Cimmeria 
 		tag = MYS #Mysia
 		tag = MIA #Kingdom of Mannai
+		tag = TK2 #Turukkean Kingdom
 	 }
 }
 
@@ -108,6 +109,8 @@ is_tier_2_formable_trigger = {
 		tag = SKD #League of Sardin and Krysm 
 		tag = KHD #Kena'an Hadasht
 		tag = ETA #Etruria
+		tag = ET2 #Etruria Padana
+		tag = KYL #Kios Lydia
 	}
 }
 

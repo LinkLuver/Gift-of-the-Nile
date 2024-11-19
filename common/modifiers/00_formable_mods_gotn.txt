@@ -75,3 +75,11 @@ maareb_mod = {
 	global_tax_modifier = 0.10
 	global_citizen_output = 0.05
 }
+maareb_mod = {
+	global_tax_modifier = 0.10
+	global_citizen_output = 0.05
+}
+kios_lydia_mod = {
+	global_nobles_happyness = 0.03
+	character_loyalty = 0.03
+}

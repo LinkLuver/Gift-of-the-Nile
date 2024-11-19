@@ -2254,6 +2254,19 @@ ETRURIA_FLAG = {
     }
 }
 
+ETRURIA_PADANA_FLAG = { 
+	pattern = "pattern_solid.tga"
+    color1 = "euboean_blue"
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_rasenna_chimera.dds"
+		color1 = "silver"
+		color2 = "offwhite" 
+		instance = { scale = { 1.10 1.10 } }
+    }
+}
+
 ACO = {
 	pattern = "pattern_diagonal_split_01.tga"
 	color1 = "light_green"
@@ -2409,3 +2422,38 @@ MAAREB_FLAG = {
 	}
 }
 
+ENT = {
+	pattern = "pattern_solid.tga"
+	color1 = "silver"
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_venetic_sphinx_matte.dds"
+		color1 = rgb { 171 125 29 }
+		instance = { scale = { 0.90 0.90 } position = { 0.60 0.50 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_venetic_9.dds"
+		color1 = "offwhite"
+		color2 = rgb { 171 125 29 }
+		instance = { rotation = 270 }
+	}
+}
+
+KIOS_LYDIA_FLAG = { 
+	pattern = "pattern_solid.tga"
+    color1 = "stymphalian_light_blue"
+    color2 = "ariarathid_color"
+
+    colored_emblem = {
+        texture = "ce_lydia_coin.dds"
+        color1 = "silver"
+		color2 = "offwhite"
+		instance = { scale = { 0.80 0.80 } }
+    }
+	colored_emblem = {
+		texture = "ce_persia_derafsh_shahbaz_frame.dds"
+		color1 = rgb { 255 216 0 }
+		color2 = rgb { 0 156 255 }
+	}
+}

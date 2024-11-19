@@ -70,7 +70,7 @@
  form_shikala_desc:0 "With power consolodated across the island of #Y Shikala#!, the ancient home of the #Y Shekelesh#! has been claimed by the kin of the #Y Nile#!. We shall usher in a new era for this island, a rare piece of #Y Kemet#! away from #Y Kemet#!." 
  # Kingdom of Sardin and Kyrsm
  SARDIN_NAME:0 "League of Sardin and Karsim"
- SARDIN_NAME:0 "Sardinian"
+ SARDIN_ADJECTIVE:0 "Sardinian"
  formable_not_sardin_exists:0 "The #Y League Sardin and Karsim#! doesn't exist."
  sardin_mod:0 "Punic Prosperity"
  form_sardin:0 "Declare Punic hegemony over Sardin and Karsim"
@@ -82,6 +82,13 @@
  kyrnos_mod:0 "Reclamation of Alalia"
  form_kyrnos:0 "Reclaim Alalia"
  form_kyrnos_desc:0 "Over 140 years ago, those accursed #Y Etruscans#! forced us out of our city, #Y Alalia#!. Between them and the #Y Corsians#!, the island of Kyrnos must be controlled by one group. We will reconquer #Y Alalia#!, and take Kyrnos for ourselves!"
+ # Etruria Padana
+ ETRURIA_PADANA_NAME:0 "Etruria Padania"
+ ETRURIA_PADANA_ADJECTIVE:0 "Etrurian"
+ form_etruria_padana:0 "Reclaim the cities of Padanian Etruria"
+ form_etruria_padana_desc:0 "We have carved out an #Y Etruria#! for ourselves, here in #Y Padania#!. The #Y Lepontic#! tribes have stabbed a knife through our homeland, sacking our cities and conquering them for themselves. Our land must be reclaimed."
+ etruria_padana_claims:0 "We will gain claims on the region of #Y Cisalpine Gaul#!, and on the province of #Y Ariminum#!"
+ 
  
  ## Iberia Formables
  IBERIA_NAME2:0 "Spania"
@@ -204,6 +211,20 @@
  gotn_formable_event_5_desc:0 "Many years ago, the #Y Cimmerian#! people led many great attacks all over #Y Anatolia#!, #Y Mesopotamia#!, and the #Y Levant#!. We had long assumed these people to be simple plains and mountain dwellers, no longer relevant. But, word has reached our capital of a new #Y Cimmerian#! state, one that is preparing for another great invasion..."
  gotn_formable_event_5.a:0 "May our gods save us...."
  gotn_formable_event_5.b:0 "Bah! We have defeated these horse riders once before, we shall defeat them again."
+ # Kios Lydia
+ KIOS_LYDIA_NAME:0 "Lydia"
+ KIOS_LYDIA_ADJECTIVE:0 "Lydian"
+ form_kios_lydia:0 "Claim the Lydian Throne"
+ form_kios_lydia_desc:0 "#Y Mithradates II#! has long dreamt of ruling the rich throne of #Y Lydia#!. The increasingly weak and ineffective rulers of #Y Lydia#! have proven unable to maintain a grip on their empire. It is up to us to take #Y Lydia#!, and her riches, for ourself."
+ kios_lydia_claims:0 "We will gain claims on the regions of #Y Asia#!, #Y Phyrgia#!, and #Y Bithynia et Paphlagonia#!"
+ kios_lydia_mod:0 "Mithradates' Dream Realized"
+ gotn_formable_event_7_title:0 "Cultural Changes"
+ gotn_formable_event_7_desc:0 "By might alone, we have established ourselves as the true succesor of the #Y Lydian Kingdom#!. However, there is serious debate as to whether we should adopt the ways of our subjects. After all, it served #Y Mithradates#! well when he came to control #Y Kios#!."
+ gotn_formable_event_7.a:0 "We have no reason to maintain our #Y Propontic#! ways, we should adopt #Y Lydian#! practices."
+ gotn_formable_event_7.b:0 "We have conquered these people, their ways are not worth adopting."
+ kios_lydia_culture_change:0 "We will change our primary culture to #Y Lydian#!."
+ kios_lydia_culture_change_2:0 "#R Our Lydian subjects will become unhappy#!"
+ lydian_dissent:0 "Unhappy Lydians"
 
  MYSIA_NAME:0 "Mysia"
  MYSIA_ADJECTIVE:0 "Mysian" 

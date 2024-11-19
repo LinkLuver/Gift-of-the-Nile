@@ -8241,7 +8241,7 @@ potidaea_heritage = {
 aistian_heritage = {
     modifier = {
         #good
-        land_unit_attrition = -0.05
+        land_unit_attrition = -0.1
         horse_archers_offensive = 0.10
         #bad
         research_points_modifier= -0.20
@@ -8700,7 +8700,7 @@ majdul_heritage = {
 garamantic_tribe_heritage = {
     modifier = {
         #good
-        land_unit_attrition = -0.07
+        land_unit_attrition = -0.1
         desert_combat_bonus = 0.10
         
         #bad
@@ -9052,3 +9052,33 @@ arritim_heritage = {
         tag = AIR
     }
 }
+
+enetia_heritage = {
+    modifier = {
+        #good
+        improve_relation_impact = 0.25
+        global_building_slot = 1
+        #bad
+        navy_maintenance_cost = 0.10
+    }
+
+    trigger = {
+        tag = ENT
+    }
+}
+
+kios_lydia_heritage = {
+    modifier = {
+        #good
+        global_commerce_modifier= 0.10
+        heavy_infantry_maintenance_cost = -0.15
+        #bad
+        global_pop_assimilation_speed_modifier = -0.10
+    }
+
+    trigger = {
+        tag = KYL
+    }
+}
+
+

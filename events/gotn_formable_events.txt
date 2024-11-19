@@ -356,3 +356,37 @@ gotn_formable_event.6 = { # Punic Unification
         name = "gotn_formable_event_6.b"
     }
 }
+
+gotn_formable_event.7 = { #Kios Lydia Culture decison
+	type = country_event
+	title = gotn_formable_event_7_title
+	desc = gotn_formable_event_7_desc
+	picture = interesting_histories_greek_debate
+
+	option = {
+		name = gotn_formable_event_7.a
+		custom_tooltip = "kios_lydia_culture_change"
+		add_legitimacy = 20
+		add_political_influence = 50
+		hidden_effect = {
+			set_primary_culture_cleanup_effect = {
+	  			NEW_PRIMARY_CULTURE = lydian
+  				MAKE_OLD_CULTURE_INTEGRATED = yes
+			}
+    	}
+	}
+	option = {
+		name = gotn_formable_event_7.b
+		custom_tooltip = "kios_lydia_culture_change_2"
+		add_legitimacy = -15
+		random_country_culture = {
+			limit = {
+				is_culture = lydian
+			}
+			add_country_culture_modifier = {
+				name = lydian_dissent
+				duration = 7300
+			}
+		}
+	}
+}
