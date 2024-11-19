@@ -2269,3 +2269,23 @@
 	}
 }
 
+8022={ #Cilician Gates
+	terrain="mountain"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="base_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+

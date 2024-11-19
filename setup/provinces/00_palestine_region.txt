@@ -14,6 +14,34 @@
 	}
 }
 
+656={ #Rinokoloura
+	terrain="plains"
+	culture="retenuan"
+	religion="carthaginian_pantheon"
+	trade_goods="salt"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		religion="arabian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		culture="egyptian"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+}
+
 657={ #Bet 'Alyon
 	terrain="plains"
 	culture="hyksos"
@@ -204,7 +232,7 @@
 
 665={ #Migdal 'Ashtart
 	terrain="plains"
-	culture="phoenician"
+	culture="hyksos"
 	religion="carthaginian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=26
@@ -218,7 +246,7 @@
 	}
 }
 
-666={ #Shiqmonot
+666={ #Shiqmona
 	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -264,7 +292,7 @@
 
 668={ #'Atalit
 	terrain="plains"
-	culture="phoenician"
+	culture="hebrew"
 	religion="carthaginian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=26
@@ -299,64 +327,6 @@
 	tribesmen={
 		amount=1
 	}
-}
-
-670={ #'Akko
-	terrain="plains"
-	culture="phoenician"
-	religion="carthaginian_pantheon"
-	trade_goods="glass"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=1
-	}
-	citizen={
-		amount=3
-	}
-	citizen={
-		culture="egyptian"
-		amount=2
-	}
-	freemen={
-		amount=5
-	}
-	freemen={
-		culture="avarite_egyptian"
-		amount=1
-	}
-	freemen={
-		culture="mafkatian_egyptian"
-		amount=2
-	}
-	freemen={
-		culture="mafkatian_egyptian"
-		amount=2
-	}
-	freemen={
-		culture="retenuan"
-		amount=2
-	}
-	freemen={
-		culture="hyksos"
-		amount=2
-	}
-	freemen={
-		culture="syrion"
-		amount=2
-	}
-	freemen={
-		culture="alashiyan"
-		amount=1
-	}
-	slaves={
-		amount=5
-	}
-	tribesmen={
-		amount=1
-	}
-	port_building=1
 }
 
 671={ #Gaba Rekabim
@@ -496,7 +466,7 @@
 
 678={ #Narbata
 	terrain="plains"
-	culture="phoenician"
+	culture="hebrew"
 	religion="carthaginian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=25
@@ -571,25 +541,6 @@
 	}
 	tribesmen={
 		amount=1
-	}
-}
-
-682={ #'Apeq
-	terrain="plains"
-	culture="hebrew"
-	religion="judaism"
-	trade_goods="wood"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
 	}
 }
 
@@ -1179,7 +1130,7 @@
 
 713={ #Bet ha-Ram
 	terrain="plains"
-	culture="hebrew"
+	culture="ammonite"
 	religion="judaism"
 	trade_goods="horses"
 	civilization_value=25
@@ -1380,7 +1331,7 @@
 	}
 }
 
-722={ #Gadara
+722={ #Gazara
 	terrain="plains"
 	culture="hebrew"
 	religion="arabian_pantheon"
@@ -1399,7 +1350,7 @@
 	}
 }
 
-723={ #Hippos
+723={ #Sussita
 	terrain="plains"
 	culture="hebrew"
 	religion="arabian_pantheon"
@@ -1677,6 +1628,25 @@
 	}
 }
 
+738={ #Maqadh
+	terrain="plains"
+	culture="aramaic"
+	religion="arabian_pantheon"
+	trade_goods="grain"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
 739={ #Karnaia
 	terrain="plains"
 	culture="hebrew"
@@ -1703,7 +1673,7 @@
 
 5524={ #Bishaya
 	terrain="desert"
-	culture="deshretic_egyptian"
+	culture="edomite"
 	religion="egyptian_pantheon"
 	trade_goods="wild_game"
 	civilization_value=28
@@ -1787,7 +1757,7 @@
 
 10047={ #PROV10047
 	terrain="plains"
-	culture="qedarite"
+	culture="edomite"
 	religion="arabian_pantheon"
 	trade_goods="wild_game"
 	civilization_value=28
@@ -1803,7 +1773,7 @@
 
 10048={ #PROV10048
 	terrain="plains"
-	culture="qedarite"
+	culture="hebrew"
 	religion="arabian_pantheon"
 	trade_goods="wild_game"
 	civilization_value=28
@@ -1819,7 +1789,7 @@
 
 10049={ #PROV10049
 	terrain="plains"
-	culture="qedarite"
+	culture="ammonite"
 	religion="arabian_pantheon"
 	trade_goods="wild_game"
 	civilization_value=28
@@ -1835,7 +1805,7 @@
 
 10050={ #PROV10050
 	terrain="hills"
-	culture="qedarite"
+	culture="hebrew"
 	religion="arabian_pantheon"
 	trade_goods="wild_game"
 	civilization_value=28

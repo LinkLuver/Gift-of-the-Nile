@@ -1,23 +1,81 @@
-﻿738={ #Maqadh
+﻿670={ #'Akko
 	terrain="plains"
-	culture="aramaic"
-	religion="arabian_pantheon"
-	trade_goods="grain"
-	civilization_value=26
+	culture="phoenician"
+	religion="carthaginian_pantheon"
+	trade_goods="glass"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	citizen={
+		culture="egyptian"
+		amount=2
+	}
+	freemen={
+		amount=5
+	}
+	freemen={
+		culture="avarite_egyptian"
+		amount=1
+	}
+	freemen={
+		culture="mafkatian_egyptian"
+		amount=2
+	}
+	freemen={
+		culture="mafkatian_egyptian"
+		amount=2
+	}
+	freemen={
+		culture="retenuan"
+		amount=2
+	}
+	freemen={
+		culture="hyksos"
+		amount=2
+	}
+	freemen={
+		culture="syrion"
+		amount=2
+	}
+	freemen={
+		culture="alashiyan"
+		amount=1
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		amount=1
+	}
+	port_building=1
+}
+
+682={ #'Apeq
+	terrain="plains"
+	culture="phoenician"
+	religion="judaism"
+	trade_goods="wood"
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=1
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
-740={ #Lashma
+740={ #Don
 	terrain="hills"
 	culture="hebrew"
 	religion="carthaginian_pantheon"
@@ -64,9 +122,9 @@
 	}
 }
 
-742={ #Qodsha
+742={ #Qadesh
 	terrain="forest"
-	culture="hebrew"
+	culture="phoenician"
 	religion="carthaginian_pantheon"
 	trade_goods="wine"
 	civilization_value=29
@@ -659,9 +717,9 @@
 	}
 }
 
-768={ #Tur Levnan
+768={ #Hor Lebanon
 	terrain="forest"
-	culture="hittite"
+	culture="phoenician"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -993,7 +1051,7 @@
 
 783={ #Bargylus Mons
 	terrain="hills"
-	culture="phoenician"
+	culture="syrion"
 	religion="carthaginian_pantheon"
 	trade_goods="cedar"
 	civilization_value=24
@@ -1164,7 +1222,7 @@
 
 789={ #Qaryim
 	terrain="forest"
-	culture="syriac"
+	culture="syrion"
 	religion="hurrian_pantheon"
 	trade_goods="olive"
 	civilization_value=24
@@ -1255,56 +1313,6 @@
 	freemen={
 		religion="hurrian_pantheon"
 		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-792={ #Sam'al
-	terrain="forest"
-	culture="hittite"
-	religion="hurrian_pantheon"
-	trade_goods="olive"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=2
-	}
-	citizen={
-		amount=4
-	}
-	freemen={
-		amount=6
-	}
-	slaves={
-		amount=3
-	}
-	slaves={
-		religion="carthaginian_pantheon"
-		amount=4
-	}
-	holy_site=omen_karmin
-}
-
-793={ #Gindaros
-	terrain="hills"
-	culture="syriac"
-	religion="hurrian_pantheon"
-	trade_goods="olive"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		religion="carthaginian_pantheon"
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
 	}
 	tribesmen={
 		amount=1
@@ -1487,33 +1495,6 @@
 	}
 }
 
-807={ #Manbugh
-	terrain="plains"
-	culture="syriac"
-	religion="hurrian_pantheon"
-	trade_goods="cedar"
-	civilization_value=30
-	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=1
-	}
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=5
-	}
-	slaves={
-		religion="hurrian_pantheon"
-		amount=2
-	}
-	slaves={
-		amount=3
-	}
-	holy_site=omen_atargatis
-}
-
 808={ #Beselatha
 	terrain="plains"
 	culture="syriac"
@@ -1530,131 +1511,6 @@
 		amount=1
 	}
 	slaves={
-		amount=1
-	}
-}
-
-809={ #Karkemish
-	terrain="farmland"
-	culture="hittite"
-	religion="hurrian_pantheon"
-	trade_goods="earthware"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=3
-	}
-	citizen={
-		culture="syriac"
-		religion="carthaginian_pantheon"
-		amount=4
-	}
-	citizen={
-		amount=9
-	}
-	freemen={
-		culture="syriac"
-		religion="carthaginian_pantheon"
-		amount=5
-	}
-	freemen={
-		amount=10
-	}
-	slaves={
-		religion="carthaginian_pantheon"
-		amount=8
-	}
-	slaves={
-		amount=5
-	}
-	holy_site=omen_kubaba
-}
-
-810={ #Zuqarra
-	terrain="farmland"
-	culture="hittite"
-	religion="hurrian_pantheon"
-	trade_goods="glass"
-	civilization_value=30
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=2
-	}
-	citizen={
-		culture="syriac"
-		religion="carthaginian_pantheon"
-		amount=1
-	}
-	freemen={
-		amount=5
-	}
-	freemen={
-		culture="syriac"
-		religion="carthaginian_pantheon"
-		amount=1
-	}
-	slaves={
-		amount=5
-	}
-	slaves={
-		culture="syriac"
-		religion="carthaginian_pantheon"
-		amount=3
-	}
-	holy_site=omen_hadad
-}
-
-811={ #Doliche
-	terrain="hills"
-	culture="hittite"
-	religion="hurrian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=5
-	}
-	slaves={
-		religion="hurrian_pantheon"
-		amount=1
-	}
-	slaves={
-		amount=5
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-812={ #Aliareia
-	terrain="farmland"
-	culture="hittite"
-	religion="hurrian_pantheon"
-	trade_goods="stone"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=1
-	}
-	freemen={
-		culture="urtaian"
-		religion="armenian_religion"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
 		amount=1
 	}
 }
@@ -1768,74 +1624,6 @@
 	}
 }
 
-852={ #Kalno
-	terrain="hills"
-	culture="hittite"
-	religion="hurrian_pantheon"
-	trade_goods="cattle"
-	civilization_value=26
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		religion="hurrian_pantheon"
-		amount=1
-	}
-}
-
-1868={ #Tyba
-	terrain="hills"
-	culture="syriac"
-	religion="hurrian_pantheon"
-	trade_goods="wood"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-1869={ #Rhabaine
-	terrain="hills"
-	culture="syriac"
-	religion="hurrian_pantheon"
-	trade_goods="olive"
-	civilization_value=23
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	freemen={
-		culture="armenian"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
 1871={ #Syrian Gates
 	terrain="forest"
 	culture="hittite"
@@ -1906,97 +1694,9 @@
 	}
 }
 
-9594={ #Urimma
-	terrain="farmland"
-	culture="hittite"
-	religion="mesopotamian_religion"
-	trade_goods="grain"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-9595={ #Caeciliana
-	terrain="plains"
-	culture="syriac"
-	religion="mesopotamian_religion"
-	trade_goods="grain"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-9596={ #Ariseria
-	terrain="plains"
-	culture="hittite"
-	religion="mesopotamian_religion"
-	trade_goods="vegetables"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-9597={ #Gerbedisso
-	terrain="farmland"
-	culture="hittite"
-	religion="mesopotamian_religion"
-	trade_goods="cedar"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
 10074={ #PROV10074
 	terrain="plains"
-	culture="hittite"
+	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2018,7 +1718,7 @@
 
 10075={ #PROV10075
 	terrain="plains"
-	culture="hittite"
+	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2040,7 +1740,7 @@
 
 10076={ #PROV10076
 	terrain="plains"
-	culture="hittite"
+	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2062,7 +1762,7 @@
 
 10077={ #PROV10077
 	terrain="plains"
-	culture="hittite"
+	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2084,7 +1784,7 @@
 
 10078={ #PROV10078
 	terrain="forest"
-	culture="hittite"
+	culture="phoenician"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2106,7 +1806,7 @@
 
 10079={ #PROV10079
 	terrain="plains"
-	culture="hittite"
+	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2128,7 +1828,7 @@
 
 10080={ #PROV10080
 	terrain="desert"
-	culture="hittite"
+	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2150,7 +1850,7 @@
 
 10081={ #PROV10081
 	terrain="forest"
-	culture="hittite"
+	culture="phoenician"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2172,7 +1872,7 @@
 
 10082={ #PROV10082
 	terrain="forest"
-	culture="hittite"
+	culture="phoenician"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2194,7 +1894,7 @@
 
 10084={ #PROV10084
 	terrain="plains"
-	culture="hittite"
+	culture="syrion"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2216,29 +1916,7 @@
 
 10085={ #PROV10085
 	terrain="forest"
-	culture="hittite"
-	religion="mesopotamian_religion"
-	trade_goods="cedar"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10086={ #PROV10086
-	terrain="plains"
-	culture="hittite"
+	culture="syrion"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2260,7 +1938,7 @@
 
 10087={ #PROV10087
 	terrain="plains"
-	culture="hittite"
+	culture="syrion"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2282,7 +1960,7 @@
 
 10088={ #PROV10088
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2304,7 +1982,7 @@
 
 10089={ #PROV10089
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2326,7 +2004,7 @@
 
 10090={ #PROV10090
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2348,7 +2026,7 @@
 
 10091={ #PROV10091
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2370,7 +2048,7 @@
 
 10092={ #PROV10092
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2414,7 +2092,7 @@
 
 10094={ #PROV10094
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2436,7 +2114,7 @@
 
 10095={ #PROV10095
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2458,7 +2136,7 @@
 
 10096={ #PROV10096
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2480,7 +2158,7 @@
 
 10097={ #PROV10097
 	terrain="forest"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2502,7 +2180,7 @@
 
 10098={ #PROV10098
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2524,7 +2202,7 @@
 
 10099={ #PROV10099
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2546,29 +2224,7 @@
 
 10100={ #PROV10100
 	terrain="plains"
-	culture="hittite"
-	religion="mesopotamian_religion"
-	trade_goods="cedar"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10101={ #PROV10101
-	terrain="hills"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2590,7 +2246,7 @@
 
 10102={ #PROV10102
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2612,7 +2268,7 @@
 
 10103={ #PROV10103
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2634,7 +2290,7 @@
 
 10104={ #PROV10104
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2656,7 +2312,7 @@
 
 10105={ #PROV10105
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2678,7 +2334,7 @@
 
 10106={ #PROV10106
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2700,7 +2356,7 @@
 
 10107={ #PROV10107
 	terrain="farmland"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2722,7 +2378,7 @@
 
 10108={ #PROV10108
 	terrain="farmland"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2744,29 +2400,7 @@
 
 10109={ #PROV10109
 	terrain="plains"
-	culture="hittite"
-	religion="mesopotamian_religion"
-	trade_goods="cedar"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10110={ #PROV10110
-	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2788,7 +2422,7 @@
 
 10111={ #PROV10111
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2810,7 +2444,7 @@
 
 10112={ #PROV10112
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2832,7 +2466,7 @@
 
 10113={ #PROV10113
 	terrain="desert"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2854,7 +2488,7 @@
 
 10114={ #PROV10114
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2876,7 +2510,7 @@
 
 10115={ #PROV10115
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2898,7 +2532,7 @@
 
 10116={ #PROV10116
 	terrain="plains"
-	culture="hittite"
+	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2920,7 +2554,7 @@
 
 10117={ #PROV10117
 	terrain="plains"
-	culture="hittite"
+	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2942,7 +2576,7 @@
 
 10118={ #PROV10118
 	terrain="plains"
-	culture="hittite"
+	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -2986,7 +2620,7 @@
 
 10120={ #PROV10120
 	terrain="plains"
-	culture="hittite"
+	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -3008,7 +2642,7 @@
 
 10121={ #PROV10121
 	terrain="forest"
-	culture="hittite"
+	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -3030,7 +2664,7 @@
 
 10122={ #PROV10122
 	terrain="forest"
-	culture="hittite"
+	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -3052,7 +2686,7 @@
 
 10123={ #PROV10123
 	terrain="forest"
-	culture="hittite"
+	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -3074,7 +2708,7 @@
 
 10124={ #PROV10124
 	terrain="plains"
-	culture="hittite"
+	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -3096,7 +2730,7 @@
 
 10125={ #PROV10125
 	terrain="plains"
-	culture="hittite"
+	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
 	civilization_value=29
@@ -3118,31 +2752,9 @@
 
 10126={ #PROV10126
 	terrain="plains"
-	culture="hittite"
+	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10177={ #Ariseria
-	terrain="plains"
-	culture="hittite"
-	religion="mesopotamian_religion"
-	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"

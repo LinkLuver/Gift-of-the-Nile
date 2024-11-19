@@ -843,30 +843,6 @@
 	}
 }
 
-1861={ #Zizoatra
-	terrain="hills"
-	culture="cataonian"
-	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	freemen={
-		culture="sophene"
-		religion="zoroaster"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
 1865={ #Miasena
 	terrain="hills"
 	culture="sophene"
@@ -885,25 +861,6 @@
 		culture="cataonian"
 		religion="anatolian_religion"
 		amount=2
-	}
-}
-
-1866={ #Korne
-	terrain="mountain"
-	culture="sophene"
-	religion="zoroaster"
-	trade_goods="wood"
-	civilization_value=16
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=5
-	}
-	tribesmen={
-		amount=1
 	}
 }
 
@@ -1587,35 +1544,6 @@
 		culture="morimenian"
 		amount=1
 	}
-}
-
-1979={ #Baka
-	terrain="mountain"
-	culture="kennataian"
-	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=3
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		culture="cappadocian"
-		amount=1
-	}
-	freemen={
-		culture="cataonian"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		culture="cataonian"
-		amount=1
-	}
-	holy_site=omen_cataonian_apollo
 }
 
 1982={ #Ariaramneia
