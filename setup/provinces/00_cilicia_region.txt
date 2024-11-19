@@ -2907,21 +2907,22 @@
 
 10139={ #PROV10139
 	terrain="farmland"
-	culture="kennataian"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="cilician"
 		amount=3
 	}
 	freemen={
 		amount=1
+		culture="kennataian"
 	}
 	slaves={
 		amount=1
+		culture="kennataian"
 	}
 }
 
@@ -3087,21 +3088,22 @@
 
 10148={ #PROV10148
 	terrain="farmland"
-	culture="kennataian"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="cilician"
 		amount=3
 	}
 	freemen={
 		amount=1
+		culture="kennataian"
 	}
 	slaves={
 		amount=1
+		culture="kennataian"
 	}
 }
 
@@ -3367,281 +3369,295 @@
 
 10162={ #PROV10162
 	terrain="plains"
-	culture="kennataian"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="cilician"
 		amount=3
 	}
 	freemen={
 		amount=1
+		culture="kennataian"
 	}
 	slaves={
 		amount=1
+		culture="kennataian"
 	}
 }
 
 10163={ #PROV10163
 	terrain="marsh"
-	culture="kennataian"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="cilician"
 		amount=3
 	}
 	freemen={
 		amount=1
+		culture="kennataian"
 	}
 	slaves={
 		amount=1
+		culture="kennataian"
 	}
 }
 
 10164={ #PROV10164
 	terrain="marsh"
-	culture="kennataian"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="cilician"
 		amount=3
 	}
 	freemen={
 		amount=1
+		culture="kennataian"
 	}
 	slaves={
 		amount=1
+		culture="kennataian"
 	}
 }
 
 10165={ #PROV10165
 	terrain="farmland"
-	culture="kennataian"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="cilician"
 		amount=3
 	}
 	freemen={
 		amount=1
+		culture="kennataian"
 	}
 	slaves={
 		amount=1
+		culture="kennataian"
 	}
 }
 
 10166={ #PROV10166
 	terrain="marsh"
-	culture="kennataian"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="cilician"
 		amount=3
 	}
 	freemen={
 		amount=1
+		culture="kennataian"
 	}
 	slaves={
 		amount=1
+		culture="kennataian"
 	}
 }
 
 10167={ #PROV10167
 	terrain="farmland"
-	culture="kennataian"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="cilician"
 		amount=3
 	}
 	freemen={
 		amount=1
+		culture="kennataian"
 	}
 	slaves={
 		amount=1
+		culture="kennataian"
 	}
 }
 
 10168={ #PROV10168
 	terrain="farmland"
-	culture="kennataian"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="cilician"
 		amount=3
 	}
 	freemen={
 		amount=1
+		culture="kennataian"
 	}
 	slaves={
 		amount=1
+		culture="kennataian"
 	}
 }
 
 10169={ #PROV10169
 	terrain="hills"
-	culture="kennataian"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="cilician"
 		amount=3
 	}
 	freemen={
 		amount=1
+		culture="kennataian"
 	}
 	slaves={
 		amount=1
+		culture="kennataian"
 	}
 }
 
 10170={ #PROV10170
 	terrain="hills"
-	culture="kennataian"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="cilician"
 		amount=3
 	}
 	freemen={
 		amount=1
+		culture="kennataian"
 	}
 	slaves={
 		amount=1
+		culture="kennataian"
 	}
 }
 
 10171={ #PROV10171
 	terrain="farmland"
-	culture="kennataian"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="cilician"
 		amount=3
 	}
 	freemen={
 		amount=1
+		culture="kennataian"
 	}
 	slaves={
 		amount=1
+		culture="kennataian"
 	}
 }
 
 10172={ #PROV10172
 	terrain="farmland"
-	culture="kennataian"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="cilician"
 		amount=3
 	}
 	freemen={
 		amount=1
+		culture="kennataian"
 	}
 	slaves={
 		amount=1
+		culture="kennataian"
 	}
 }
 
 10173={ #PROV10173
 	terrain="marsh"
-	culture="kennataian"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="cilician"
 		amount=3
 	}
 	freemen={
 		amount=1
+		culture="kennataian"
 	}
 	slaves={
 		amount=1
+		culture="kennataian"
 	}
 }
 
 10174={ #PROV10174
 	terrain="plains"
-	culture="kennataian"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="cilician"
 		amount=3
 	}
 	freemen={
 		amount=1
+		culture="kennataian"
 	}
 	slaves={
 		amount=1
+		culture="kennataian"
 	}
 }
 
 10175={ #PROV10175
 	terrain="plains"
-	culture="kennataian"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="cilician"
 		amount=3
 	}
 	freemen={
 		amount=1
+		culture="kennataian"
 	}
 	slaves={
 		amount=1
+		culture="kennataian"
 	}
 }
 
