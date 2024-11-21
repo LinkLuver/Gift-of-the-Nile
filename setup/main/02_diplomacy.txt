@@ -179,6 +179,10 @@ diplomacy = {
 	#Kingdom of Damascus
 	dependency = { first = PRY second = GAL subject_type = client_state }
 
+
+	#Olbe and Company
+	dependency = { first = OBE second = LAL subject_type = feudatory }
+
 	#Free Massalian States
 	defensive_league = {
 		member = EPO

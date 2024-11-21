@@ -6746,7 +6746,8 @@ country = {
 			government = tribal_kingdom
 			primary_culture = bastetanian
 			religion = animism
-
+			centralization=15
+			
 			capital = 1281
 
 			own_control_core = 	{
@@ -7161,11 +7162,11 @@ country = {
 		}
 
 		ICV = {
-			government = tribal_kingdom
+			government = theocratic_republic
 			primary_culture = ilercavonian
 			religion = animism
 
-			capital = 1240
+			capital = 1244
 
 			own_control_core = 	{
 			    1239 1244 1240 1245 1246 1062
@@ -7273,7 +7274,7 @@ country = {
 		}
 
 		MAT = {
-			government = tribal_kingdom
+			government = democratic_republic
 			primary_culture = bastetanian
 			religion = animism
 
@@ -14172,7 +14173,7 @@ country = {
 
 		LAL = { # Lalasia
 			government = tribal_federation
-			primary_culture = lalasian
+			primary_culture = cilician
 			religion = hurrian_pantheon
 
 			capital = 1784
@@ -16500,7 +16501,7 @@ country = {
 			}
 		}
 		THJ = { #Thaj
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = gerrhan
 			religion = mesopotamian_religion
 			diplomatic_stance=trading_stance

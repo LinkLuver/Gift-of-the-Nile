@@ -1596,7 +1596,7 @@
 	culture="ilercavonian"
 	religion="animism"
 	trade_goods="fish"
-	civilization_value=8
+	civilization_value=14
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1683,14 +1683,28 @@
 	culture="ilercavonian"
 	religion="animism"
 	trade_goods="dye"
-	civilization_value=8
+	civilization_value=20
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	citizen={
+		religion="roman_pantheon"
+		culture="massalian"
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
+	slaves={
+		amount=2
+	}
 	tribesmen={
-		amount=6
+		amount=3
 	}
 }
 

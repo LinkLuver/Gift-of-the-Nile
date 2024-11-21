@@ -286,7 +286,7 @@
 	}
 	freemen={
 		culture="median"
-		religion="mithra"
+		religion="mithra_religion"
 		amount=1
 	}
 	slaves={
@@ -472,11 +472,10 @@
 		amount=2
 	}
 	nobles={
-		religion="mithra_religion"
 		amount=2
 	}
 	citizen={
-		culture="zoroaster"
+		religion="zoroaster"
 		amount=2
 	}
 	citizen={
