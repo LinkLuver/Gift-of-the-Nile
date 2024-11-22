@@ -7209,13 +7209,26 @@
 }
 
 7913={ #
-	terrain="impassable_terrain"
-	culture="bithynian"
-	religion="roman_pantheon"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7915={ #
@@ -7259,13 +7272,26 @@
 }
 
 7919={ #
-	terrain="impassable_terrain"
-	culture="mysian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7920={ #
@@ -7349,13 +7375,26 @@
 }
 
 7928={ #
-	terrain="impassable_terrain"
-	culture="lydian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7929={ #
@@ -7429,13 +7468,26 @@
 }
 
 7944={ #
-	terrain="impassable_terrain"
-	culture="cabalian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7945={ #
@@ -7479,13 +7531,50 @@
 }
 
 7953={ #
-	terrain="impassable_terrain"
-	culture="lycian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+
+7914={ #Modra Pass
+	terrain="plains"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7955={ #
@@ -7529,33 +7618,72 @@
 }
 
 7965={ #
-	terrain="impassable_terrain"
-	culture="oroandian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7966={ #
-	terrain="impassable_terrain"
-	culture="isaurian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7967={ #
-	terrain="impassable_terrain"
-	culture="isaurian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7969={ #
@@ -7579,43 +7707,95 @@
 }
 
 7972={ #
-	terrain="impassable_terrain"
-	culture="cappadocian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7973={ #
-	terrain="impassable_terrain"
-	culture="cappadocian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7974={ #
-	terrain="impassable_terrain"
-	culture="cappadocian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7975={ #
-	terrain="impassable_terrain"
-	culture="cappadocian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7976={ #
@@ -7639,33 +7819,72 @@
 }
 
 7978={ #
-	terrain="impassable_terrain"
-	culture="cappadocian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7979={ #
-	terrain="impassable_terrain"
-	culture="cappadocian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7980={ #
-	terrain="impassable_terrain"
-	culture="cappadocian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7983={ #
@@ -7719,33 +7938,72 @@
 }
 
 7993={ #
-	terrain="impassable_terrain"
-	culture="cappadocian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7995={ #
-	terrain="impassable_terrain"
-	culture="cappadocian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7996={ #
-	terrain="impassable_terrain"
-	culture="cappadocian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7997={ #
@@ -7909,83 +8167,187 @@
 }
 
 8055={ #
-	terrain="impassable_terrain"
-	culture="cypriot"
-	religion="roman_pantheon"
-	trade_goods=""
-	civilization_value=0
+	terrain="plains"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 8056={ #
-	terrain="impassable_terrain"
-	culture="mysian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 8057={ #
-	terrain="impassable_terrain"
-	culture="phrygian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 8058={ #
-	terrain="impassable_terrain"
-	culture="mysian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 8059={ #
-	terrain="impassable_terrain"
-	culture="phrygian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 8060={ #
-	terrain="impassable_terrain"
-	culture="phrygian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 8061={ #
-	terrain="impassable_terrain"
-	culture="phrygian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 8062={ #
-	terrain="impassable_terrain"
-	culture="phrygian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 8115={ #Northern Bayuda Desert
