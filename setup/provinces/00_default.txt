@@ -7448,13 +7448,26 @@
 }
 
 7940={ #
-	terrain="impassable_terrain"
-	culture="carian"
+	terrain="plains"
+	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
+	trade_goods="vegetables"
+	civilization_value=20
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
 7943={ #
