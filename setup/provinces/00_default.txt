@@ -7707,26 +7707,23 @@
 }
 
 7972={ #
-	terrain="plains"
-	culture="morimenian"
+	terrain="impassable_terrain"
+	culture="phrygian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods=""
+	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	freemen={
-		culture="cappadocian"
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
+	province_rank=""
+}
+
+10310={ #
+	terrain="impassable_terrain"
+	culture="phrygian"
+	religion="anatolian_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
 7973={ #
