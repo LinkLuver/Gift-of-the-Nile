@@ -9,6 +9,7 @@
 			OR = {
 				country_culture_group = hellenic
 				has_variable = pentapotamia_hellenic_empire
+				has_variable = formed_keltika
 			}
 			is_monarchy = yes
 			NOT = {

@@ -47,6 +47,8 @@ is_tier_1_formable_trigger = {
 		tag = MIA #Kingdom of Mannai
 		tag = TK2 #Turukkean Kingdom
 		tag = RLM #Roman Kingdom
+		tag = SL1 #Salluvian Confederacy
+		tag = BTT #Bastetania
 	 }
 }
 
@@ -148,6 +150,7 @@ is_endgame_tag_trigger = {
 		tag = APF #Alpine Confederation
 		tag = UBF #Umbrian Federation
 		tag = HB2 #Spania
+		tag = CTK #Keltike
 	}
 }
 

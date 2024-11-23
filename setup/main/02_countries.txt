@@ -8601,15 +8601,15 @@ country = {
 		}
 
 		CNU = {
-			government = tribal_kingdom
+			government = tribal_federation
 			primary_culture = couneian
 			religion = druidism
-			centralization=10
+			centralization=25
 
 			capital = 1337
 
 			own_control_core = 	{
-				1337 1334 1333 1336 1330 1324
+				1337 1334 1333 1336 1330 1324 1338 1335
 			}
 		}
 
@@ -14351,7 +14351,7 @@ country = {
 			capital = 1339
 
 			own_control_core = 	{
-				1335 1338 1339 1340 1359 1415 1416
+				1339 1340 1359 1415 1416
 			}
 		}
 

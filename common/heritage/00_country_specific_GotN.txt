@@ -9137,4 +9137,69 @@ lacetanian_heritage = {
     }
 }
 
+edetanian_heritage = {
+    modifier = {
+        #good
+        omen_power = 0.1
+        global_nobles_happyness = 0.05
+        #bad
+        manpower_recovery_speed = -0.05
+    }
+    trigger = {
+        tag = EDT
+    }
+}
+
+cynetian_heritage = {
+    modifier = {
+        #good
+        global_monthly_food_modifier = 0.05
+        research_points_modifier= 0.10
+        #bad
+        global_tribesmen_happyness = -0.04
+    }
+    trigger = {
+        tag = CNU
+    }
+}
+
+oppidanian_heritage = {
+    modifier = {
+        #good
+        fortress_building_cost = -0.15
+        archers_discipline = 0.10
+        #bad
+        war_score_cost = 0.05
+    }
+    trigger = {
+        tag = TDT
+    }
+}
+
+turdulian_heritage = {
+    modifier = {
+        #good
+        plains_combat_bonus = 0.10
+        global_monthly_food_modifier = 0.05
+        #bad
+        improve_relation_cost_modifier = 0.20
+    }
+    trigger = {
+        primary_culture= turdulian
+    }
+}
+
+garmanian_heritage = {
+    modifier = {
+        #good
+        happiness_for_wrong_culture_group_modifier = 0.03
+        diplomatic_reputation= 2
+        #bad
+        loyalty_to_overlord= 30
+    }
+    trigger = {
+        tag = GRM
+    }
+}
+
 

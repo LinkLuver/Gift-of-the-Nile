@@ -1,0 +1,88 @@
+ourkinion_missions = {
+    icon = cde_new_city_founded
+	header = mission_image_generic_greek
+
+    repeatable = no
+    chance = {
+        factor = 100
+    }
+
+    potential = {
+        NOT = { has_variable = our_missions_cooldown_var }
+        tag = OUR
+    }
+
+    abort = {
+        ai_mission_back_out_trigger = yes
+    }
+    on_start = {
+        start_mission_ai_effect = yes
+        save_scope_as = mission_country
+    }
+    on_abort = {
+        custom_tooltip = general_mission_cooldown_tt
+        set_variable = {
+            name = our_missions_cooldown_var
+            days = 7300
+        }
+    }
+    on_completion = {
+        add_3_free_province_investments = yes
+    }
+    ourkinion_missions_task_1 = {  # Preparing Ourkinion
+        icon = "task_artemis"
+        highlight = {
+            scope:province = {
+                province_id = 3510
+            }
+        }
+        allow = {
+            p:3510 = {
+                has_building = military_building
+                has_building = town_hall_building
+                has_building = commerce_building
+                is_importing_trade_good = iron
+                is_importing_trade_good = wood
+                is_importing_trade_good = grain
+            }
+        }
+        on_completion = {
+            trigger_event = me_ourkinion.1	
+            show_as_tooltip = {
+            add_country_modifier = {
+                    name = ourkinion_prepared
+                    duration = 1825
+                }
+                capital_scope = {
+                    create_state_pop = freemen
+                    create_state_pop = freemen
+                }
+            }	
+        }
+    }
+    ourkinion_missions_task_2 = {  # On The Corsians
+        icon = "task_religion"
+        duration = 180
+        requires = { ourkinion_missions_task_1 }
+        highlight = {
+            scope:province = {
+                OR = {
+                    dominant_province_culture = corsian
+                }
+            }
+        }
+        allow = {
+            political_influence >= 50
+        }
+        on_completion = {
+            trigger_event = me_ourkinion.2
+            show_as_tooltip = {
+                add_political_influence = -50
+            }
+            custom_tooltip = ourkinion_assimilation
+        }
+    }
+}
+
+
+    

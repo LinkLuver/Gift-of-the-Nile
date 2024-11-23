@@ -88,8 +88,18 @@
  form_etruria_padana:0 "Reclaim the cities of Padanian Etruria"
  form_etruria_padana_desc:0 "We have carved out an #Y Etruria#! for ourselves, here in #Y Padania#!. The #Y Lepontic#! tribes have stabbed a knife through our homeland, sacking our cities and conquering them for themselves. Our land must be reclaimed."
  etruria_padana_claims:0 "We will gain claims on the region of #Y Cisalpine Gaul#!, and on the province of #Y Ariminum#!"
- 
- 
+ # Rome 
+ form_rome_liberate:0 "Reclaim Roma"
+ form_rome_liberate_desc:0 "In 358 BCE, the #Y Faliscan League#! bested us, and forced us out of our city, #Y Roma#!. Our pride as a people has been broken, and we must seek venegance upon our enemies. #Y Roma#! must be retaken."
+ gotn_formable_event_8_title:0 "A Change in Course?"
+ gotn_formable_event_8_desc:0 "Gazing out onto #Y Roma#!, [SCOPE.GetRootScope.GetCountry.GetRuler.GetName] contemplates the future of the #Y Latin#! people. By will alone, #Y Roma#! has been retaken. But the question remains- perhaps the traditions of our ancestors could ensure the strength of our people."
+ gotn_formable_event_8.a:0 "[SCOPE.GetRootScope.GetCountry.GetRuler.GetName] will be crowned as Rex!"
+ gotn_formable_event_8.b:0 "It would be foolish to place our trust in the glories of the past."
+ ROME_NAME:0 "Roman Kingdom"
+ ROME_ADJECTIVE:0 "Roman"
+ rome_monarchy:0 "#R We will abadon the trappings of our league, and become a monarchy#!."
+ rome_republic:0 "#G We will stay true to our republican ways#!."
+
  ## Iberia Formables
  IBERIA_NAME2:0 "Spania"
  IBERIA_ADJECTIVE2:0 "Spanian"
@@ -101,6 +111,12 @@
  form_league_desc:0 "#Y Maareb#!, the land of the setting sun, is the farthest area settled by our ancestors from #Y Phoenica#!. The wealthy and prosperous cities of #Y Maareb#! could rival the great cities of the east, if only our peoples could be united."
  maareb_claims:0 "We will gain claims on the regions of #Y Mauretania#! and #Y Baetica#!."
  maareb_mod:0 "Maareb Mercantilism"
+ form_bastetania:0 "Unite Bastetania"
+ form_bastetania_desc:0 "The various tribes of the Bastetani have alwasy existed separate from each other. But, to unite our lands would ensure the prosperity of our people, and would allow us to break free from the influence of the #Y Spanians#! and the #Y Massalians#!."
+ form_bastetania_claims_tooltip:0 "Bastetania will gain claims on the regions of #Y Baetica#! and #Y Contestania#!."
+ formable_not_bastetania_exists:0 "#Y Bastetania#! does not exist."
+ BASTETANIA_NAME:0 "Bastetania"
+ BASTETANIA_ADJECTIVE:0 "Bastetanian"
  
 
  ## Greek Formables
@@ -123,7 +139,15 @@
  hellenic_kingdom_mod:0 "Pan-Hellenic Dream Realized"
  form_argead_unification:0 "Unite the Children of Hellen"
  form_argead_unification_desc:0 "From the fertile lands of #Y Magna Graecia#!, to the ancient cities of #Y Greece#!, and to the colonies of the west, the Greek people have long been scattered, never being united by one group. By controlling the various poleis of the Hellenes, we can forge a new legacy- that of a new, #Y Pan-Hellenic Kingdom#!"
- 
+ ## Keltika
+ form_keltike:0 "Form Keltike"
+ form_keltike_desc:0 "#Y Keltike#!, the land of the #Y Celts#! has been inhabited by #Y Greeks#! for over 300 years. At times enemies, and at times friends, we have come to know these people well. However, it has become clear that #Y Massalian#! ambitions lie in the rich lands to our north, we are not interested in the goings on between the #Y Spanians#! and the foolish ambitions of the #Y Atlosians#!. Our destiny lies in conquering #Y Keltike#!."
+ formable_not_keltika_exists:0 "#Y Keltike#! does not exist."
+ form_keltika_claims_tooltip:0 "Keltike will gain Claims on the Regions of #Y Armorica#!, #Y Belgica#!, #Y Celtica#!, #Y Germania Superior#!, #Y Aquitania#!, and #Y Transalpine Gaul#!, and the Provinces of #Y Verbigenia#!, #Y Helvetia#!, #Y Alpes Graiae#!, #Y Transpadana#!, and #Y West Insubria#!."
+ KELTIKA_NAME:0 "Keltike"
+ KELTIKA_ADJECTIVE:0 "Keltikoi"
+ keltika_mod:0 "Victorious Greeks"
+
  ILLYRIA_GREEK_NAME:0 "Illyrian League"
  ILLYRIA_GREEK_ADJECTIVE:0 "Illyrian"
  illyria_greek_mod:0 "Philosphers of Illyria"
@@ -232,6 +256,14 @@
  formable_not_mysia_exists:0 "#Y Mysia#! does not exist."
  form_mysia:0 "Proclaim a true Mysian Kingdom"
  form_mysia_desc:0 "The Mysian people have long inhabited these lands, and it has been many years since a true #Y Mysian#! Kingdom was established. Although we have indeed prospered under the rule of the Lydians, we must seek our own destiny."
+
+ ## Keltika Formables
+ form_salluvian_confederacy:0 "Form the Salluvian Confederacy"
+ form_salluvian_confederacy_desc:0 "For generations now, we, the #Y Salluvian#! people, have been the pawns and fodder for both #Y Massalian#! and #Y Arvernian#!. At times we have resisted subjugation, and that has only led us to defeat. If we wish to survive, our tribes must confederate. Only then will be able to seek our true destiny in this world."
+ formable_not_salluvian_confederacy_exists:0 "The #Y Salluvian Confederacy#! does not exist."
+ form_salluvia_claims_tooltip:0 "the #Y Salluvian Confederacy#! will gain claims on the region of #Y Transalpine Gaul#!."
+ SALLUVIA_NAME:0 "Salluvian Confederacy"
+ SALLUVIA_ADJECTIVE:0 "Salluvian"
 
  ### Reaffirmation Decisions ###
  # Reaffirm Media

@@ -1383,20 +1383,12 @@ OUR = {
 
 MGO = {
 	pattern = "pattern_solid.tga"
-	color1 = rgb { 11 128 70 }
+	color1 = "phokaian_blue"
 
 	colored_emblem = {
-		texture = "ce_bee_02.dds"
-		color1 = rgb { 20 18 4 }
-		color2 = rgb { 112 104 21 }
-		color3 = rgb { 182 205 193 }
-	}
-	colored_emblem = {
-		texture = "ce_border_meander_05.dds"
-		color1 = rgb { 20 18 4 }
-		color2 = rgb { 112 104 21 }
-		instance = { rotation = 0 }
-		instance = { rotation = 180 }
+		texture = "ce_basket_perinthos.dds"
+		color1 = "garnet_red"
+		color2 = "light_yellow"
 	}
 }
 
@@ -2457,3 +2449,90 @@ KIOS_LYDIA_FLAG = {
 		color2 = rgb { 0 156 255 }
 	}
 }
+
+KELTIKA_FLAG = {
+	pattern="pattern_solid.tga"
+	color1= "light_gold"
+	color2= "offwhite"
+	colored_emblem={
+		color1=dark_purple
+		color2=dark_purple
+		texture="ce_15.dds"
+		mask={
+			1 2 3 
+		}
+		instance={
+			position={ 0.500000 0.500000 }
+			scale={ -1.0000 1.0000 }
+			depth=0.010000
+			rotation=0
+		}
+	}
+	colored_emblem={
+		color1=bone_white
+		color2=dark_purple
+		texture="ce_border_meander_01.tga"
+		mask={
+			1 2 3 
+		}
+		instance={
+			position={ 0.500000 0.500000 }
+			scale={ 1.000000 1.000000 }
+			depth=0.010000
+			rotation=0
+		}
+		instance={
+			position={ 0.500000 0.500000 }
+			scale={ 1.000000 1.000000 }
+			depth=0.010000
+			rotation=180
+		}
+	}
+}
+
+
+SALLUVIA_FLAG = {
+	pattern="pattern_solid.tga"
+	color1= "salluvia_green"
+	color2= "offwhite"
+	
+	colored_emblem = {
+        texture = "ce_pict_02.dds"
+        color1 = "silver"
+		color2 = "offwhite"
+		instance = { scale = { 0.70 0.70 } } 
+	}
+	colored_emblem = {
+        texture = "ce_border_beads.dds"
+        color1 = "silver"
+		color2 = "offwhite"
+		instance = { rotation = 180 }
+	}
+}
+
+BASTETANIA_FLAG = {
+	pattern="pattern_solid.tga"
+	color1= "bastetania_purple"
+	color2= "offwhite"
+	
+	colored_emblem = {
+        texture = "ce_barscunia.dds"
+        color1 = "roman_gold"
+		color2 = "silver"
+		instance = { scale = { 1.10 1.10 } rotation = 90 } 
+	}
+}
+
+CNU = {
+	pattern="pattern_solid.tga"
+	color1= rgb { 147 141 99 }
+	color2= "offwhite"
+	
+	colored_emblem = {
+        texture = "ce_bee_01.dds"
+        color1 = "epirus_yellow"
+		color2 = "mid_grey"
+	}
+}
+
+

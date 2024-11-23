@@ -164,6 +164,7 @@ diplomacy = {
 	dependency = { first = MAS second = SRB subject_type = tributary }
 	dependency = { first = MAS second = SLV subject_type = tributary }
 	dependency = { first = MAS second = DCA subject_type = tributary }
+	dependency = { first = MAS second = ARC subject_type = tributary }
 
 	#Emporion-Indiketia
 	dependency = { first = EPO second = IDK subject_type = tributary }
@@ -182,6 +183,9 @@ diplomacy = {
 
 	#Olbe and Company
 	dependency = { first = OBE second = LAL subject_type = feudatory }
+
+	#Oretania-Garmania
+	dependency = { first = ORT second = GRM subject_type = feudatory }
 
 	#Free Massalian States
 	defensive_league = {
