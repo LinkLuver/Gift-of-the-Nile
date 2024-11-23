@@ -246,7 +246,7 @@
 }
 
 182={ #Aurokra
-	terrain="marsh"
+	terrain="farmland"
 	culture="cimmerian"
 	religion="anatolian_religion"
 	trade_goods="wood"
@@ -268,7 +268,7 @@
 }
 
 183={ #Abbasion
-	terrain="hills"
+	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -290,7 +290,7 @@
 }
 
 184={ #Dokimeion
-	terrain="forest"
+	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="marble"
@@ -339,7 +339,7 @@
 }
 
 186={ #Eukarpia
-	terrain="hills"
+	terrain="farmland"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="stone"
@@ -358,7 +358,7 @@
 }
 
 187={ #Kidyessos
-	terrain="forest"
+	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
@@ -400,7 +400,7 @@
 }
 
 189={ #Gordion
-	terrain="hills"
+	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="earthware"
@@ -430,7 +430,7 @@
 }
 
 190={ #Kinna
-	terrain="hills"
+	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="salt"
@@ -587,7 +587,7 @@
 }
 
 196={ #Klossama
-	terrain="plains"
+	terrain="hills"
 	culture="paphlagonian"
 	religion="hatti_religion"
 	trade_goods="vegetables"
@@ -610,7 +610,7 @@
 }
 
 197={ #Sarmalios
-	terrain="plains"
+	terrain="hills"
 	culture="paphlagonian"
 	religion="hatti_religion"
 	trade_goods="wine"
@@ -633,7 +633,7 @@
 }
 
 202={ #Doudousa
-	terrain="plains"
+	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="grain"
@@ -741,7 +741,7 @@
 }
 
 227={ #Trokna
-	terrain="forest"
+	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="wood"
@@ -801,7 +801,7 @@
 }
 
 230={ #Thymbrion
-	terrain="plains"
+	terrain="forest"
 	culture="cimmerian"
 	religion="anatolian_religion"
 	trade_goods="grain"
@@ -828,7 +828,7 @@
 }
 
 231={ #Arinna
-	terrain="hills"
+	terrain="plains"
 	culture="paphlagonian"
 	religion="hatti_religion"
 	trade_goods="wood"
@@ -925,7 +925,7 @@
 }
 
 308={ #Blaoundos
-	terrain="plains"
+	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="leather"
@@ -952,7 +952,7 @@
 }
 
 309={ #Akmoneia
-	terrain="forest"
+	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="iron"
@@ -990,7 +990,7 @@
 }
 
 311={ #Pepouza
-	terrain="plains"
+	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="cloth"
@@ -1036,7 +1036,7 @@
 }
 
 313={ #Metropolis Phrygias
-	terrain="hills"
+	terrain="forest"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="wood"
@@ -1089,7 +1089,7 @@
 }
 
 315={ #Dorylaion
-	terrain="forest"
+	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="wood"
@@ -1119,7 +1119,7 @@
 }
 
 316={ #Midaion
-	terrain="forest"
+	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="wood"
@@ -1138,7 +1138,7 @@
 }
 
 317={ #Kotiaeion
-	terrain="forest"
+	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="grain"
@@ -1177,7 +1177,7 @@
 }
 
 318={ #Meiros
-	terrain="plains"
+	terrain="forest"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1196,7 +1196,7 @@
 }
 
 319={ #Aizanoi
-	terrain="hills"
+	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
@@ -1242,7 +1242,7 @@
 }
 
 339={ #Elouza
-	terrain="forest"
+	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="iron"
@@ -1280,7 +1280,7 @@
 }
 
 1780={ #Artanada
-	terrain="hills"
+	terrain="mountain"
 	culture="isaurian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
@@ -1307,7 +1307,7 @@
 }
 
 1784={ #Klibanos
-	terrain="hills"
+	terrain="mountain"
 	culture="lalasian"
 	religion="hurrian_pantheon"
 	trade_goods="stone"
@@ -1411,7 +1411,7 @@
 }
 
 1914={ #Perta
-	terrain="plains"
+	terrain="farmland"
 	culture="cimmerian"
 	religion="anatolian_religion"
 	trade_goods="wine"
@@ -1468,7 +1468,7 @@
 }
 
 1918={ #Homonadeis
-	terrain="plains"
+	terrain="hills"
 	culture="isaurian"
 	religion="anatolian_religion"
 	trade_goods="cloth"
@@ -1494,7 +1494,7 @@
 }
 
 1919={ #Isaura
-	terrain="plains"
+	terrain="hills"
 	culture="isaurian"
 	religion="anatolian_religion"
 	trade_goods="earthware"
@@ -1558,7 +1558,7 @@
 }
 
 1922={ #Misteia
-	terrain="plains"
+	terrain="farmland"
 	culture="oroandian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1581,7 +1581,7 @@
 }
 
 1924={ #Pappa
-	terrain="plains"
+	terrain="hills"
 	culture="oroandian"
 	religion="anatolian_religion"
 	trade_goods="obsidian"
@@ -1619,7 +1619,7 @@
 }
 
 1926={ #Anaboura
-	terrain="hills"
+	terrain="plains"
 	culture="oroandian"
 	religion="anatolian_religion"
 	trade_goods="cloth"
@@ -1649,7 +1649,7 @@
 }
 
 1928={ #Tyita
-	terrain="hills"
+	terrain="plains"
 	culture="pisidian"
 	religion="anatolian_religion"
 	trade_goods="wood"
@@ -1715,7 +1715,7 @@
 }
 
 1934={ #Ikkuwaniya
-	terrain="plains"
+	terrain="farmland"
 	culture="lycaonian"
 	religion="anatolian_religion"
 	trade_goods="cloth"
@@ -1811,7 +1811,7 @@
 }
 
 1937={ #Euphorbion
-	terrain="hills"
+	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="cloth"
@@ -1910,7 +1910,7 @@
 }
 
 1942={ #Peltai
-	terrain="hills"
+	terrain="farmland"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1960,7 +1960,7 @@
 }
 
 1944={ #Lounda
-	terrain="plains"
+	terrain="farmland"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1983,7 +1983,7 @@
 }
 
 1945={ #Colossae
-	terrain="hills"
+	terrain="farmland"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="wood"
@@ -2029,7 +2029,7 @@
 }
 
 1946={ #Hierapolis
-	terrain="hills"
+	terrain="farmland"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
@@ -2093,7 +2093,7 @@
 }
 
 1955={ #Thebasa
-	terrain="plains"
+	terrain="hills"
 	culture="isaurian"
 	religion="anatolian_religion"
 	trade_goods="honey"
@@ -2163,7 +2163,7 @@
 }
 
 1975={ #Barata
-	terrain="farmland"
+	terrain="marsh"
 	culture="lycaonian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
@@ -2197,7 +2197,7 @@
 }
 
 7961={ #Kagrai
-	terrain="hills"
+	terrain="mountain"
 	culture="oroandian"
 	religion="anatolian_religion"
 	trade_goods="leather"
@@ -2224,7 +2224,7 @@
 }
 
 7963={ #Adrasos
-	terrain="hills"
+	terrain="mountain"
 	culture="lalasian"
 	religion="hurrian_pantheon"
 	trade_goods="leather"

@@ -1,5 +1,5 @@
 ﻿235={ #Tomisa
-	terrain="hills"
+	terrain="mountain"
 	culture="sophene"
 	religion="armenian_religion"
 	trade_goods="hemp"
@@ -741,7 +741,7 @@
 }
 
 858={ #Rhandeia
-	terrain="hills"
+	terrain="farmland"
 	culture="sophene"
 	religion="armenian_religion"
 	trade_goods="stone"
@@ -792,7 +792,7 @@
 }
 
 860={ #Anzitene
-	terrain="hills"
+	terrain="farmland"
 	culture="sophene"
 	religion="zoroaster"
 	trade_goods="leather"
@@ -1077,7 +1077,7 @@
 }
 
 1855={ #Gareina
-	terrain="forest"
+	terrain="mountain"
 	culture="sophene"
 	religion="zoroaster"
 	trade_goods="cattle"

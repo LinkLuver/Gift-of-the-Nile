@@ -1,5 +1,5 @@
 ﻿156={ #Myra
-	terrain="hills"
+	terrain="mountain"
 	culture="lycian"
 	religion="hurrian_pantheon"
 	trade_goods="wine"
@@ -37,7 +37,7 @@
 }
 
 159={ #Choma
-	terrain="hills"
+	terrain="mountain"
 	culture="milyadian"
 	religion="hurrian_pantheon"
 	trade_goods="honey"
@@ -62,7 +62,7 @@
 }
 
 160={ #Arykanda
-	terrain="hills"
+	terrain="mountain"
 	culture="milyadian"
 	religion="hurrian_pantheon"
 	trade_goods="cedar"
@@ -101,7 +101,7 @@
 }
 
 161={ #Limyra
-	terrain="hills"
+	terrain="farmland"
 	culture="lycian"
 	religion="hurrian_pantheon"
 	trade_goods="dye"
@@ -130,7 +130,7 @@
 }
 
 162={ #Olympos
-	terrain="hills"
+	terrain="mountain"
 	culture="lycian"
 	religion="hurrian_pantheon"
 	trade_goods="fish"
@@ -158,7 +158,7 @@
 }
 
 164={ #Phaselis
-	terrain="hills"
+	terrain="mountain"
 	culture="pamphylian"
 	religion="hurrian_pantheon"
 	trade_goods="cattle"
@@ -198,7 +198,7 @@
 }
 
 165={ #Olbia Pamphylias
-	terrain="plains"
+	terrain="farmland"
 	culture="pamphylian"
 	religion="hurrian_pantheon"
 	trade_goods="cloth"
@@ -224,7 +224,7 @@
 }
 
 166={ #Perge
-	terrain="plains"
+	terrain="farmland"
 	culture="pamphylian"
 	religion="roman_pantheon"
 	trade_goods="cedar"
@@ -265,7 +265,7 @@
 }
 
 167={ #Pednelissos
-	terrain="hills"
+	terrain="mountain"
 	culture="pisidian"
 	religion="anatolian_religion"
 	trade_goods="stone"
@@ -289,7 +289,7 @@
 }
 
 168={ #Aspendos
-	terrain="plains"
+	terrain="farmland"
 	culture="pamphylian"
 	religion="roman_pantheon"
 	trade_goods="hemp"
@@ -602,7 +602,7 @@
 }
 
 1885={ #Selge
-	terrain="hills"
+	terrain="mountain"
 	culture="pisidian"
 	religion="anatolian_religion"
 	trade_goods="incense"
@@ -706,7 +706,7 @@
 }
 
 1894={ #Olbe
-	terrain="hills"
+	terrain="forest"
 	culture="cilician"
 	religion="hurrian_pantheon"
 	trade_goods="cedar"
@@ -778,7 +778,7 @@
 }
 
 1897={ #Kelenderis
-	terrain="hills"
+	terrain="mountain"
 	culture="lalasian"
 	religion="hurrian_pantheon"
 	trade_goods="fish"
@@ -802,7 +802,7 @@
 }
 
 1901={ #Anemourion
-	terrain="hills"
+	terrain="mountain"
 	culture="lalasian"
 	religion="hurrian_pantheon"
 	trade_goods="cedar"
@@ -821,7 +821,7 @@
 }
 
 1904={ #Selinous Kilikias
-	terrain="hills"
+	terrain="mountain"
 	culture="lalasian"
 	religion="hurrian_pantheon"
 	trade_goods="cedar"
@@ -861,7 +861,7 @@
 }
 
 1905={ #Korakesion
-	terrain="hills"
+	terrain="mountain"
 	culture="pamphylian"
 	religion="roman_pantheon"
 	trade_goods="cloth"
@@ -892,7 +892,7 @@
 }
 
 1906={ #Laertes
-	terrain="hills"
+	terrain="mountain"
 	culture="pamphylian"
 	religion="roman_pantheon"
 	trade_goods="pearls"
@@ -923,7 +923,7 @@
 }
 
 1908={ #Kolybrassos
-	terrain="hills"
+	terrain="mountain"
 	culture="pisidian"
 	religion="roman_pantheon"
 	trade_goods="honey"
@@ -955,7 +955,7 @@
 }
 
 1910={ #Side
-	terrain="plains"
+	terrain="farmland"
 	culture="pamphylian"
 	religion="roman_pantheon"
 	trade_goods="dye"
@@ -1010,7 +1010,7 @@
 }
 
 1911={ #Sillyon
-	terrain="plains"
+	terrain="mountain"
 	culture="pamphylian"
 	religion="roman_pantheon"
 	trade_goods="cloth"
@@ -1047,7 +1047,7 @@
 }
 
 1917={ #Lakaine
-	terrain="mountain"
+	terrain="hills"
 	culture="lalasian"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
@@ -1116,7 +1116,7 @@
 }
 
 1931={ #Adada
-	terrain="hills"
+	terrain="mountain"
 	culture="pisidian"
 	religion="anatolian_religion"
 	trade_goods="wine"
@@ -1135,7 +1135,7 @@
 }
 
 1933={ #Konane
-	terrain="hills"
+	terrain="mountain"
 	culture="milyadian"
 	religion="anatolian_religion"
 	trade_goods="iron"
@@ -1162,7 +1162,7 @@
 }
 
 1935={ #Baris
-	terrain="hills"
+	terrain="plains"
 	culture="milyadian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
@@ -1185,7 +1185,7 @@
 }
 
 1949={ #Sagalassos
-	terrain="hills"
+	terrain="mountain"
 	culture="pisidian"
 	religion="anatolian_religion"
 	trade_goods="honey"
@@ -1215,7 +1215,7 @@
 }
 
 1958={ #Kibyra
-	terrain="hills"
+	terrain="farmland"
 	culture="cabalian"
 	religion="anatolian_religion"
 	trade_goods="wild_game"
@@ -1245,7 +1245,7 @@
 }
 
 1959={ #Takina
-	terrain="hills"
+	terrain="farmland"
 	culture="milyadian"
 	religion="anatolian_religion"
 	trade_goods="hemp"
@@ -1295,7 +1295,7 @@
 }
 
 1961={ #Olbasa
-	terrain="hills"
+	terrain="plains"
 	culture="milyadian"
 	religion="anatolian_religion"
 	trade_goods="wine"
@@ -1325,7 +1325,7 @@
 }
 
 1986={ #Pogla
-	terrain="hills"
+	terrain="farmland"
 	culture="milyadian"
 	religion="anatolian_religion"
 	trade_goods="hemp"
@@ -1369,7 +1369,7 @@
 }
 
 1988={ #Kremna
-	terrain="hills"
+	terrain="mountain"
 	culture="pisidian"
 	religion="anatolian_religion"
 	trade_goods="leather"
@@ -1388,7 +1388,7 @@
 }
 
 1990={ #Oinoanda
-	terrain="hills"
+	terrain="mountain"
 	culture="cabalian"
 	religion="hurrian_pantheon"
 	trade_goods="cedar"
@@ -1442,7 +1442,7 @@
 }
 
 1992={ #Telmessos
-	terrain="hills"
+	terrain="mountain"
 	culture="lycian"
 	religion="hurrian_pantheon"
 	trade_goods="cloth"
@@ -1490,7 +1490,7 @@
 }
 
 1993={ #Tlos
-	terrain="hills"
+	terrain="farmland"
 	culture="lycian"
 	religion="hurrian_pantheon"
 	trade_goods="cedar"
@@ -1544,7 +1544,7 @@
 }
 
 1995={ #Xanthos
-	terrain="hills"
+	terrain="farmland"
 	culture="lycian"
 	religion="hurrian_pantheon"
 	trade_goods="marble"
@@ -1586,7 +1586,7 @@
 }
 
 1997={ #Boubon
-	terrain="hills"
+	terrain="mountain"
 	culture="cabalian"
 	religion="anatolian_religion"
 	trade_goods="cedar"
@@ -1612,7 +1612,7 @@
 }
 
 1998={ #Patara
-	terrain="hills"
+	terrain="mountain"
 	culture="lycian"
 	religion="hurrian_pantheon"
 	trade_goods="glass"
@@ -1685,7 +1685,7 @@
 }
 
 7760={ #Prostanna
-	terrain="hills"
+	terrain="plains"
 	culture="milyadian"
 	religion="anatolian_religion"
 	trade_goods="cedar"
@@ -1712,7 +1712,7 @@
 }
 
 7942={ #Daidala
-	terrain="hills"
+	terrain="forest"
 	culture="ionian"
 	religion="hurrian_pantheon"
 	trade_goods="hemp"
@@ -1746,7 +1746,7 @@
 }
 
 7947={ #Balboura
-	terrain="hills"
+	terrain="mountain"
 	culture="cabalian"
 	religion="anatolian_religion"
 	trade_goods="stone"
@@ -1803,7 +1803,7 @@
 }
 
 7949={ #Kandyba
-	terrain="hills"
+	terrain="forest"
 	culture="lycian"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
@@ -1832,7 +1832,7 @@
 }
 
 7951={ #Kitanaura
-	terrain="hills"
+	terrain="mountain"
 	culture="pamphylian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
@@ -1887,7 +1887,7 @@
 }
 
 7956={ #Ariassos
-	terrain="hills"
+	terrain="plains"
 	culture="pisidian"
 	religion="anatolian_religion"
 	trade_goods="cloth"
@@ -1911,7 +1911,7 @@
 }
 
 7958={ #Kotenna
-	terrain="hills"
+	terrain="mountain"
 	culture="pisidian"
 	religion="roman_pantheon"
 	trade_goods="cedar"
@@ -1942,7 +1942,7 @@
 }
 
 7962={ #Ano Kotradis
-	terrain="hills"
+	terrain="mountain"
 	culture="lalasian"
 	religion="hurrian_pantheon"
 	trade_goods="leather"
@@ -1971,7 +1971,7 @@
 }
 
 7971={ #Eriza Karias
-	terrain="hills"
+	terrain="farmland"
 	culture="cabalian"
 	religion="anatolian_religion"
 	trade_goods="feathers"
@@ -2038,7 +2038,7 @@
 }
 
 10176={ #PROV10176
-	terrain="mountain"
+	terrain="forest"
 	culture="kennataian"
 	religion="hurrian_pantheon"
 	trade_goods="obsidian"

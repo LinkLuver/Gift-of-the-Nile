@@ -83,7 +83,7 @@
 }
 
 1732={ #Hyssos
-	terrain="forest"
+	terrain="mountain"
 	culture="greco_pontic"
 	religion="roman_pantheon"
 	trade_goods="hemp"
@@ -105,7 +105,7 @@
 }
 
 1733={ #Pisingara
-	terrain="hills"
+	terrain="forest"
 	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="cattle"
@@ -159,7 +159,7 @@
 }
 
 1766={ #Arane
-	terrain="hills"
+	terrain="forest"
 	culture="lesser_armenian"
 	religion="anatolian_religion"
 	trade_goods="leather"
@@ -231,7 +231,7 @@
 }
 
 1769={ #Sabos
-	terrain="hills"
+	terrain="mountain"
 	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="vegetables"
@@ -348,7 +348,7 @@
 }
 
 1776={ #Arauraka
-	terrain="hills"
+	terrain="forest"
 	culture="cappadocian"
 	religion="anahitic_religion"
 	trade_goods="cattle"
@@ -467,7 +467,7 @@
 }
 
 1783={ #Anniaka
-	terrain="hills"
+	terrain="mountain"
 	culture="cappadocian"
 	religion="anahitic_religion"
 	trade_goods="earthware"
@@ -503,7 +503,7 @@
 }
 
 1787={ #Danai
-	terrain="forest"
+	terrain="mountain"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="fruits"
@@ -594,7 +594,7 @@
 }
 
 1791={ #Ibora
-	terrain="forest"
+	terrain="farmland"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="leather"
@@ -622,7 +622,7 @@
 }
 
 1792={ #Kabeira
-	terrain="hills"
+	terrain="farmland"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="wood"
@@ -718,7 +718,7 @@
 }
 
 1797={ #Koralla
-	terrain="forest"
+	terrain="mountain"
 	culture="greco_pontic"
 	religion="roman_pantheon"
 	trade_goods="stone"
@@ -737,7 +737,7 @@
 }
 
 1798={ #Kerasous
-	terrain="forest"
+	terrain="mountain"
 	culture="greco_pontic"
 	religion="roman_pantheon"
 	trade_goods="fruits"
@@ -761,7 +761,7 @@
 }
 
 1801={ #Matouasko
-	terrain="hills"
+	terrain="mountain"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="wine"
@@ -784,7 +784,7 @@
 }
 
 1804={ #Boinasa
-	terrain="hills"
+	terrain="farmland"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="fruits"
@@ -826,7 +826,7 @@
 }
 
 1819={ #Amaseia
-	terrain="hills"
+	terrain="mountain"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="earthware"
@@ -871,7 +871,7 @@
 }
 
 1821={ #Phazemon
-	terrain="forest"
+	terrain="farmland"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="precious_metals"
@@ -898,7 +898,7 @@
 }
 
 1822={ #Etonia
-	terrain="hills"
+	terrain="farmland"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
@@ -925,7 +925,7 @@
 }
 
 1823={ #Diakopa
-	terrain="hills"
+	terrain="farmland"
 	culture="paphlagonian"
 	religion="hatti_religion"
 	trade_goods="cattle"
@@ -952,7 +952,7 @@
 }
 
 1824={ #Andrapa
-	terrain="forest"
+	terrain="farmland"
 	culture="cappadocian"
 	religion="hatti_religion"
 	trade_goods="hemp"
@@ -979,7 +979,7 @@
 }
 
 1826={ #Pteria Pontias
-	terrain="forest"
+	terrain="mountain"
 	culture="paphlagonian"
 	religion="hatti_religion"
 	trade_goods="hemp"
@@ -1006,7 +1006,7 @@
 }
 
 1831={ #Pimolisa
-	terrain="hills"
+	terrain="mountain"
 	culture="paphlagonian"
 	religion="hatti_religion"
 	trade_goods="wood"
@@ -1025,7 +1025,7 @@
 }
 
 1833={ #Dazimon
-	terrain="hills"
+	terrain="farmland"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1140,7 +1140,7 @@
 }
 
 1839={ #Karana
-	terrain="hills"
+	terrain="plains"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="iron"
@@ -1159,7 +1159,7 @@
 }
 
 1840={ #Ouerisa
-	terrain="hills"
+	terrain="farmland"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1178,7 +1178,7 @@
 }
 
 1842={ #Zara
-	terrain="forest"
+	terrain="hills"
 	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="cloth"
@@ -1198,7 +1198,7 @@
 }
 
 1843={ #Kamisa
-	terrain="forest"
+	terrain="plains"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="leather"
@@ -1236,7 +1236,7 @@
 }
 
 1844={ #Talaura
-	terrain="forest"
+	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="fruits"
@@ -1276,7 +1276,7 @@
 }
 
 1845={ #Phiara
-	terrain="forest"
+	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="grain"
@@ -1330,7 +1330,7 @@
 }
 
 1848={ #Zoana
-	terrain="forest"
+	terrain="plains"
 	culture="lesser_armenian"
 	religion="anatolian_religion"
 	trade_goods="fruits"
@@ -1360,7 +1360,7 @@
 }
 
 1850={ #Goundousa
-	terrain="forest"
+	terrain="hills"
 	culture="lesser_armenian"
 	religion="anatolian_religion"
 	trade_goods="fruits"
@@ -1385,7 +1385,7 @@
 }
 
 1851={ #Euspena
-	terrain="forest"
+	terrain="plains"
 	culture="lesser_armenian"
 	religion="anatolian_religion"
 	trade_goods="wood"
@@ -1411,7 +1411,7 @@
 }
 
 1858={ #Daskousa
-	terrain="hills"
+	terrain="forest"
 	culture="lesser_armenian"
 	religion="anatolian_religion"
 	trade_goods="salt"
@@ -1472,7 +1472,7 @@
 }
 
 7994={ #Kizari
-	terrain="hills"
+	terrain="mountain"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="leather"
@@ -1491,7 +1491,7 @@
 }
 
 7998={ #Gazioura
-	terrain="hills"
+	terrain="mountain"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1510,7 +1510,7 @@
 }
 
 7999={ #Sermousa
-	terrain="hills"
+	terrain="mountain"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="wood"

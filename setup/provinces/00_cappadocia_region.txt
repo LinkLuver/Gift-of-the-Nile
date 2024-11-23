@@ -26,7 +26,7 @@
 }
 
 157={ #Ouarsapa
-	terrain="forest"
+	terrain="plains"
 	culture="cataonian"
 	religion="anatolian_religion"
 	trade_goods="cloth"
@@ -53,7 +53,7 @@
 }
 
 158={ #Ablastha
-	terrain="forest"
+	terrain="farmland"
 	culture="cataonian"
 	religion="anatolian_religion"
 	trade_goods="wild_game"
@@ -75,7 +75,7 @@
 }
 
 163={ #Osdara
-	terrain="hills"
+	terrain="plains"
 	culture="cataonian"
 	religion="anatolian_religion"
 	trade_goods="cloth"
@@ -230,7 +230,7 @@
 }
 
 1794={ #Korama
-	terrain="marsh"
+	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="stone"
@@ -249,7 +249,7 @@
 }
 
 1796={ #Arasaxa
-	terrain="hills"
+	terrain="marsh"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="precious_metals"
@@ -291,7 +291,7 @@
 }
 
 1799={ #Mazaka
-	terrain="marsh"
+	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="wood"
@@ -430,7 +430,7 @@
 }
 
 1805={ #Anisa
-	terrain="hills"
+	terrain="plains"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="horses"
@@ -580,7 +580,7 @@
 }
 
 1820={ #Odogra
-	terrain="plains"
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
@@ -611,7 +611,7 @@
 }
 
 1832={ #Saralos
-	terrain="forest"
+	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -683,7 +683,7 @@
 }
 
 1849={ #Tonosa
-	terrain="forest"
+	terrain="plains"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="wild_game"
@@ -710,7 +710,7 @@
 }
 
 1852={ #Sinispora
-	terrain="mountain"
+	terrain="farmland"
 	culture="cataonian"
 	religion="anatolian_religion"
 	trade_goods="fruits"
@@ -737,7 +737,7 @@
 }
 
 1853={ #Kiakis
-	terrain="forest"
+	terrain="plains"
 	culture="sophene"
 	religion="anatolian_religion"
 	trade_goods="wood"
@@ -757,7 +757,7 @@
 }
 
 1854={ #Melitia
-	terrain="forest"
+	terrain="farmland"
 	culture="cataonian"
 	religion="zoroaster"
 	trade_goods="horses"
@@ -820,7 +820,7 @@
 }
 
 1859={ #Arca
-	terrain="hills"
+	terrain="farmland"
 	culture="cataonian"
 	religion="anatolian_religion"
 	trade_goods="honey"
@@ -1064,7 +1064,7 @@
 }
 
 1900={ #Sasima
-	terrain="hills"
+	terrain="plains"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="hemp"
@@ -1144,7 +1144,7 @@
 }
 
 1909={ #Sibora
-	terrain="forest"
+	terrain="plains"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1303,7 +1303,7 @@
 }
 
 1938={ #Ardistama
-	terrain="hills"
+	terrain="plains"
 	culture="lycaonian"
 	religion="anatolian_religion"
 	trade_goods="cloth"
@@ -1520,7 +1520,7 @@
 }
 
 1978={ #Salambriai
-	terrain="hills"
+	terrain="plains"
 	culture="lycaonian"
 	religion="anatolian_religion"
 	trade_goods="wild_game"
@@ -1547,7 +1547,7 @@
 }
 
 1982={ #Ariaramneia
-	terrain="hills"
+	terrain="mountain"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="hemp"
@@ -1597,7 +1597,7 @@
 }
 
 1994={ #Arabissos
-	terrain="hills"
+	terrain="plains"
 	culture="cataonian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
@@ -1651,7 +1651,7 @@
 }
 
 6420={ #Eulepa
-	terrain="hills"
+	terrain="plains"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="iron"
@@ -1674,6 +1674,374 @@
 	tribesmen={
 		culture="cataonian"
 		amount=1
+	}
+}
+
+7913={ #
+	terrain="hills"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7914={ #Modra Pass
+	terrain="farmland"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7919={ #
+	terrain="mountain"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7928={ #
+	terrain="mountain"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7940={ #
+	terrain="mountain"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7944={ #
+	terrain="plains"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7953={ #
+	terrain="mountain"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7965={ #
+	terrain="hills"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7966={ #
+	terrain="plains"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7967={ #
+	terrain="plains"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7973={ #
+	terrain="plains"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7974={ #
+	terrain="mountain"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7975={ #
+	terrain="mountain"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7978={ #
+	terrain="mountain"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7979={ #
+	terrain="farmland"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7980={ #
+	terrain="mountain"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
 	}
 }
 
@@ -1700,8 +2068,8 @@
 	}
 }
 
-10178={ #Androna
-	terrain="plains"
+7993={ #
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1723,8 +2091,8 @@
 	}
 }
 
-10179={ #Androna
-	terrain="plains"
+7995={ #
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1746,8 +2114,8 @@
 	}
 }
 
-10180={ #Androna
-	terrain="plains"
+7996={ #
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1769,8 +2137,8 @@
 	}
 }
 
-10181={ #Androna
-	terrain="plains"
+8055={ #
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1792,7 +2160,7 @@
 	}
 }
 
-10182={ #Androna
+8056={ #
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -1815,7 +2183,7 @@
 	}
 }
 
-10183={ #Androna
+8057={ #
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -1838,8 +2206,8 @@
 	}
 }
 
-10184={ #Androna
-	terrain="plains"
+8058={ #
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1861,8 +2229,8 @@
 	}
 }
 
-10185={ #Androna
-	terrain="plains"
+8059={ #
+	terrain="forest"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1884,8 +2252,8 @@
 	}
 }
 
-10186={ #Androna
-	terrain="plains"
+8060={ #
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1907,7 +2275,7 @@
 	}
 }
 
-10187={ #Androna
+8061={ #
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -1930,8 +2298,8 @@
 	}
 }
 
-10188={ #Androna
-	terrain="plains"
+8062={ #
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1953,8 +2321,8 @@
 	}
 }
 
-10189={ #Androna
-	terrain="plains"
+10178={ #PROV10178
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1976,8 +2344,8 @@
 	}
 }
 
-10190={ #Androna
-	terrain="plains"
+10179={ #PROV10179
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1999,7 +2367,7 @@
 	}
 }
 
-10191={ #Androna
+10180={ #PROV10180
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -2022,8 +2390,8 @@
 	}
 }
 
-10192={ #Androna
-	terrain="plains"
+10181={ #PROV10181
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2045,8 +2413,8 @@
 	}
 }
 
-10193={ #Androna
-	terrain="plains"
+10182={ #PROV10182
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2068,8 +2436,8 @@
 	}
 }
 
-10194={ #Androna
-	terrain="plains"
+10183={ #PROV10183
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2091,8 +2459,8 @@
 	}
 }
 
-10195={ #Androna
-	terrain="plains"
+10184={ #PROV10184
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2114,8 +2482,8 @@
 	}
 }
 
-10196={ #Androna
-	terrain="plains"
+10185={ #PROV10185
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2137,8 +2505,8 @@
 	}
 }
 
-10197={ #Androna
-	terrain="plains"
+10186={ #PROV10186
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2160,8 +2528,8 @@
 	}
 }
 
-10198={ #Androna
-	terrain="plains"
+10187={ #PROV10187
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2183,8 +2551,8 @@
 	}
 }
 
-10199={ #Androna
-	terrain="plains"
+10188={ #PROV10188
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2206,7 +2574,7 @@
 	}
 }
 
-10200={ #Androna
+10189={ #PROV10189
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -2229,8 +2597,8 @@
 	}
 }
 
-10201={ #Androna
-	terrain="plains"
+10190={ #PROV10190
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2252,8 +2620,8 @@
 	}
 }
 
-10202={ #Androna
-	terrain="plains"
+10191={ #PROV10191
+	terrain="forest"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2275,8 +2643,8 @@
 	}
 }
 
-10203={ #Androna
-	terrain="plains"
+10192={ #PROV10192
+	terrain="farmland"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2298,8 +2666,8 @@
 	}
 }
 
-10204={ #Androna
-	terrain="plains"
+10193={ #PROV10193
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2321,7 +2689,7 @@
 	}
 }
 
-10205={ #Androna
+10194={ #PROV10194
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -2344,8 +2712,8 @@
 	}
 }
 
-10206={ #Androna
-	terrain="plains"
+10195={ #PROV10195
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2367,8 +2735,8 @@
 	}
 }
 
-10207={ #Androna
-	terrain="plains"
+10196={ #PROV10196
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2390,8 +2758,8 @@
 	}
 }
 
-10208={ #Androna
-	terrain="plains"
+10197={ #PROV10197
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2413,8 +2781,8 @@
 	}
 }
 
-10209={ #Androna
-	terrain="plains"
+10198={ #PROV10198
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2436,8 +2804,8 @@
 	}
 }
 
-10210={ #Androna
-	terrain="plains"
+10199={ #PROV10199
+	terrain="forest"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2459,8 +2827,8 @@
 	}
 }
 
-10211={ #Androna
-	terrain="plains"
+10200={ #PROV10200
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2482,7 +2850,7 @@
 	}
 }
 
-10212={ #Androna
+10201={ #PROV10201
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -2505,8 +2873,8 @@
 	}
 }
 
-10213={ #Androna
-	terrain="plains"
+10202={ #PROV10202
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2528,8 +2896,8 @@
 	}
 }
 
-10214={ #Androna
-	terrain="plains"
+10203={ #PROV10203
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2551,8 +2919,8 @@
 	}
 }
 
-10215={ #Androna
-	terrain="plains"
+10204={ #PROV10204
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2574,8 +2942,8 @@
 	}
 }
 
-10216={ #Androna
-	terrain="plains"
+10205={ #PROV10205
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2597,8 +2965,8 @@
 	}
 }
 
-10217={ #Androna
-	terrain="plains"
+10206={ #PROV10206
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2620,8 +2988,8 @@
 	}
 }
 
-10218={ #Androna
-	terrain="plains"
+10207={ #PROV10207
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2643,8 +3011,8 @@
 	}
 }
 
-10219={ #Androna
-	terrain="plains"
+10208={ #PROV10208
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2666,8 +3034,8 @@
 	}
 }
 
-10220={ #Androna
-	terrain="plains"
+10209={ #PROV10209
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2689,8 +3057,8 @@
 	}
 }
 
-10221={ #Androna
-	terrain="plains"
+10210={ #PROV10210
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2712,8 +3080,8 @@
 	}
 }
 
-10222={ #Androna
-	terrain="plains"
+10211={ #PROV10211
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2735,8 +3103,8 @@
 	}
 }
 
-10223={ #Androna
-	terrain="plains"
+10212={ #PROV10212
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2758,8 +3126,8 @@
 	}
 }
 
-10224={ #Androna
-	terrain="plains"
+10213={ #PROV10213
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2781,8 +3149,8 @@
 	}
 }
 
-10225={ #Androna
-	terrain="plains"
+10214={ #PROV10214
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2804,8 +3172,8 @@
 	}
 }
 
-10226={ #Androna
-	terrain="plains"
+10215={ #PROV10215
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2827,8 +3195,8 @@
 	}
 }
 
-10227={ #Androna
-	terrain="plains"
+10216={ #PROV10216
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2850,8 +3218,8 @@
 	}
 }
 
-10228={ #Androna
-	terrain="plains"
+10217={ #PROV10217
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2873,7 +3241,7 @@
 	}
 }
 
-10229={ #Androna
+10218={ #PROV10218
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -2896,8 +3264,8 @@
 	}
 }
 
-10230={ #Androna
-	terrain="plains"
+10219={ #PROV10219
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2919,8 +3287,8 @@
 	}
 }
 
-10231={ #Androna
-	terrain="plains"
+10220={ #PROV10220
+	terrain="forest"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2942,8 +3310,8 @@
 	}
 }
 
-10232={ #Androna
-	terrain="plains"
+10221={ #PROV10221
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2965,8 +3333,8 @@
 	}
 }
 
-10233={ #Androna
-	terrain="plains"
+10222={ #PROV10222
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -2988,7 +3356,7 @@
 	}
 }
 
-10234={ #Androna
+10223={ #PROV10223
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -3011,8 +3379,8 @@
 	}
 }
 
-10235={ #Androna
-	terrain="plains"
+10224={ #PROV10224
+	terrain="marsh"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3034,7 +3402,7 @@
 	}
 }
 
-10236={ #Androna
+10225={ #PROV10225
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -3057,8 +3425,8 @@
 	}
 }
 
-10237={ #Androna
-	terrain="plains"
+10226={ #PROV10226
+	terrain="farmland"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3080,7 +3448,7 @@
 	}
 }
 
-10238={ #Androna
+10227={ #PROV10227
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -3103,8 +3471,8 @@
 	}
 }
 
-10239={ #Androna
-	terrain="plains"
+10228={ #PROV10228
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3126,7 +3494,7 @@
 	}
 }
 
-10240={ #Androna
+10229={ #PROV10229
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -3149,7 +3517,7 @@
 	}
 }
 
-10241={ #Androna
+10230={ #PROV10230
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -3172,8 +3540,8 @@
 	}
 }
 
-10242={ #Androna
-	terrain="plains"
+10231={ #PROV10231
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3195,8 +3563,8 @@
 	}
 }
 
-10243={ #Androna
-	terrain="plains"
+10232={ #PROV10232
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3218,8 +3586,8 @@
 	}
 }
 
-10244={ #Androna
-	terrain="plains"
+10233={ #PROV10233
+	terrain="farmland"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3241,8 +3609,8 @@
 	}
 }
 
-10245={ #Androna
-	terrain="plains"
+10234={ #PROV10234
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3264,8 +3632,8 @@
 	}
 }
 
-10246={ #Androna
-	terrain="plains"
+10235={ #PROV10235
+	terrain="farmland"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3287,7 +3655,7 @@
 	}
 }
 
-10247={ #Androna
+10236={ #PROV10236
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -3310,8 +3678,8 @@
 	}
 }
 
-10248={ #Androna
-	terrain="plains"
+10237={ #PROV10237
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3333,8 +3701,8 @@
 	}
 }
 
-10249={ #Androna
-	terrain="plains"
+10238={ #PROV10238
+	terrain="farmland"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3356,8 +3724,8 @@
 	}
 }
 
-10250={ #Androna
-	terrain="plains"
+10239={ #PROV10239
+	terrain="farmland"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3379,8 +3747,8 @@
 	}
 }
 
-10251={ #Androna
-	terrain="plains"
+10240={ #PROV10240
+	terrain="farmland"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3402,8 +3770,8 @@
 	}
 }
 
-10252={ #Androna
-	terrain="plains"
+10241={ #PROV10241
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3425,8 +3793,8 @@
 	}
 }
 
-10253={ #Androna
-	terrain="plains"
+10242={ #PROV10242
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3448,8 +3816,8 @@
 	}
 }
 
-10254={ #Androna
-	terrain="plains"
+10243={ #PROV10243
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3471,8 +3839,8 @@
 	}
 }
 
-10255={ #Androna
-	terrain="plains"
+10244={ #PROV10244
+	terrain="farmland"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3494,8 +3862,8 @@
 	}
 }
 
-10256={ #Androna
-	terrain="plains"
+10245={ #PROV10245
+	terrain="marsh"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3517,7 +3885,7 @@
 	}
 }
 
-10257={ #Androna
+10246={ #PROV10246
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -3540,8 +3908,8 @@
 	}
 }
 
-10258={ #Androna
-	terrain="plains"
+10247={ #PROV10247
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3563,8 +3931,8 @@
 	}
 }
 
-10259={ #Androna
-	terrain="plains"
+10248={ #PROV10248
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3586,8 +3954,8 @@
 	}
 }
 
-10260={ #Androna
-	terrain="plains"
+10249={ #PROV10249
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3609,8 +3977,8 @@
 	}
 }
 
-10261={ #Androna
-	terrain="plains"
+10250={ #PROV10250
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3632,8 +4000,8 @@
 	}
 }
 
-10262={ #Androna
-	terrain="plains"
+10251={ #PROV10251
+	terrain="forest"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3655,8 +4023,8 @@
 	}
 }
 
-10263={ #Androna
-	terrain="plains"
+10252={ #PROV10252
+	terrain="forest"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3678,8 +4046,8 @@
 	}
 }
 
-10264={ #Androna
-	terrain="plains"
+10253={ #PROV10253
+	terrain="farmland"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3701,7 +4069,7 @@
 	}
 }
 
-10265={ #Androna
+10254={ #PROV10254
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -3724,8 +4092,8 @@
 	}
 }
 
-10266={ #Androna
-	terrain="plains"
+10255={ #PROV10255
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3747,8 +4115,8 @@
 	}
 }
 
-10267={ #Androna
-	terrain="plains"
+10256={ #PROV10256
+	terrain="farmland"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3770,8 +4138,8 @@
 	}
 }
 
-10268={ #Androna
-	terrain="plains"
+10257={ #PROV10257
+	terrain="forest"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3793,7 +4161,7 @@
 	}
 }
 
-10269={ #Androna
+10258={ #PROV10258
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -3816,8 +4184,8 @@
 	}
 }
 
-10270={ #Androna
-	terrain="plains"
+10259={ #PROV10259
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3839,8 +4207,8 @@
 	}
 }
 
-10271={ #Androna
-	terrain="plains"
+10260={ #PROV10260
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3862,8 +4230,8 @@
 	}
 }
 
-10272={ #Androna
-	terrain="plains"
+10261={ #PROV10261
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3885,8 +4253,8 @@
 	}
 }
 
-10273={ #Androna
-	terrain="plains"
+10262={ #PROV10262
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3908,8 +4276,8 @@
 	}
 }
 
-10274={ #Androna
-	terrain="plains"
+10263={ #PROV10263
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3931,8 +4299,8 @@
 	}
 }
 
-10275={ #Androna
-	terrain="plains"
+10264={ #PROV10264
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -3954,7 +4322,7 @@
 	}
 }
 
-10276={ #Androna
+10265={ #PROV10265
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -3977,7 +4345,7 @@
 	}
 }
 
-10277={ #Androna
+10266={ #PROV10266
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -4000,8 +4368,8 @@
 	}
 }
 
-10278={ #Androna
-	terrain="plains"
+10267={ #PROV10267
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4023,8 +4391,8 @@
 	}
 }
 
-10279={ #Androna
-	terrain="plains"
+10268={ #PROV10268
+	terrain="forest"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4046,8 +4414,8 @@
 	}
 }
 
-10280={ #Androna
-	terrain="plains"
+10269={ #PROV10269
+	terrain="forest"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4069,8 +4437,8 @@
 	}
 }
 
-10281={ #Androna
-	terrain="plains"
+10270={ #PROV10270
+	terrain="farmland"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4092,8 +4460,8 @@
 	}
 }
 
-10282={ #Androna
-	terrain="plains"
+10271={ #PROV10271
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4115,7 +4483,7 @@
 	}
 }
 
-10283={ #Androna
+10272={ #PROV10272
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -4138,7 +4506,7 @@
 	}
 }
 
-10284={ #Androna
+10273={ #PROV10273
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -4161,8 +4529,8 @@
 	}
 }
 
-10285={ #Androna
-	terrain="plains"
+10274={ #PROV10274
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4184,7 +4552,7 @@
 	}
 }
 
-10286={ #Androna
+10275={ #PROV10275
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -4207,8 +4575,8 @@
 	}
 }
 
-10287={ #Androna
-	terrain="plains"
+10276={ #PROV10276
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4230,7 +4598,7 @@
 	}
 }
 
-10288={ #Androna
+10277={ #PROV10277
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -4253,7 +4621,7 @@
 	}
 }
 
-10289={ #Androna
+10278={ #PROV10278
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -4276,7 +4644,7 @@
 	}
 }
 
-10290={ #Androna
+10279={ #PROV10279
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -4299,8 +4667,8 @@
 	}
 }
 
-10291={ #Androna
-	terrain="plains"
+10280={ #PROV10280
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4322,8 +4690,8 @@
 	}
 }
 
-10292={ #Androna
-	terrain="plains"
+10281={ #PROV10281
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4345,8 +4713,8 @@
 	}
 }
 
-10293={ #Androna
-	terrain="plains"
+10282={ #PROV10282
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4368,7 +4736,7 @@
 	}
 }
 
-10294={ #Androna
+10283={ #PROV10283
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -4391,8 +4759,8 @@
 	}
 }
 
-10295={ #Androna
-	terrain="plains"
+10284={ #PROV10284
+	terrain="farmland"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4414,7 +4782,7 @@
 	}
 }
 
-10296={ #Androna
+10285={ #PROV10285
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -4437,8 +4805,8 @@
 	}
 }
 
-10297={ #Androna
-	terrain="plains"
+10286={ #PROV10286
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4460,8 +4828,8 @@
 	}
 }
 
-10298={ #Androna
-	terrain="plains"
+10287={ #PROV10287
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4483,8 +4851,8 @@
 	}
 }
 
-10299={ #Androna
-	terrain="plains"
+10288={ #PROV10288
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4506,8 +4874,8 @@
 	}
 }
 
-10300={ #Androna
-	terrain="plains"
+10289={ #PROV10289
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4529,8 +4897,8 @@
 	}
 }
 
-10301={ #Androna
-	terrain="plains"
+10290={ #PROV10290
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4552,8 +4920,8 @@
 	}
 }
 
-10302={ #Androna
-	terrain="plains"
+10291={ #PROV10291
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4575,8 +4943,8 @@
 	}
 }
 
-10303={ #Androna
-	terrain="plains"
+10292={ #PROV10292
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4598,8 +4966,8 @@
 	}
 }
 
-10304={ #Androna
-	terrain="plains"
+10293={ #PROV10293
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4621,7 +4989,7 @@
 	}
 }
 
-10305={ #Androna
+10294={ #PROV10294
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -4644,8 +5012,8 @@
 	}
 }
 
-10306={ #Androna
-	terrain="plains"
+10295={ #PROV10295
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4667,8 +5035,8 @@
 	}
 }
 
-10307={ #Androna
-	terrain="plains"
+10296={ #PROV10296
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4690,7 +5058,7 @@
 	}
 }
 
-10308={ #Androna
+10297={ #PROV10297
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
@@ -4713,8 +5081,8 @@
 	}
 }
 
-10309={ #Androna
-	terrain="plains"
+10298={ #PROV10298
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4736,8 +5104,8 @@
 	}
 }
 
-10311={ #Androna
-	terrain="plains"
+10299={ #PROV10299
+	terrain="farmland"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4759,8 +5127,8 @@
 	}
 }
 
-10312={ #Androna
-	terrain="plains"
+10300={ #PROV10300
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4782,8 +5150,8 @@
 	}
 }
 
-10313={ #Androna
-	terrain="plains"
+10301={ #PROV10301
+	terrain="forest"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4805,8 +5173,8 @@
 	}
 }
 
-10314={ #Androna
-	terrain="plains"
+10302={ #PROV10302
+	terrain="forest"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4828,8 +5196,8 @@
 	}
 }
 
-10315={ #Androna
-	terrain="plains"
+10303={ #PROV10303
+	terrain="forest"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4851,8 +5219,8 @@
 	}
 }
 
-10316={ #Androna
-	terrain="plains"
+10304={ #PROV10304
+	terrain="hills"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4874,8 +5242,215 @@
 	}
 }
 
-10317={ #Androna
-	terrain="plains"
+10305={ #PROV10305
+	terrain="mountain"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10306={ #PROV10306
+	terrain="mountain"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10307={ #PROV10307
+	terrain="mountain"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10308={ #PROV10308
+	terrain="mountain"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10309={ #PROV10309
+	terrain="mountain"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10311={ #PROV10311
+	terrain="mountain"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10312={ #PROV10312
+	terrain="farmland"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10313={ #PROV10313
+	terrain="mountain"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10314={ #PROV10314
+	terrain="farmland"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10315={ #PROV10315
+	terrain="mountain"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -4896,3 +5471,50 @@
 		amount=3
 	}
 }
+
+10316={ #PROV10316
+	terrain="mountain"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10317={ #PROV10317
+	terrain="mountain"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+

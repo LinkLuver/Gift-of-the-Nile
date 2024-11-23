@@ -55,7 +55,7 @@
 }
 
 200={ #Kimiata
-	terrain="forest"
+	terrain="mountain"
 	culture="paphlagonian"
 	religion="hatti_religion"
 	trade_goods="wood"
@@ -74,7 +74,7 @@
 }
 
 201={ #Zoaka
-	terrain="plains"
+	terrain="hills"
 	culture="paphlagonian"
 	religion="hatti_religion"
 	trade_goods="vegetables"
@@ -97,7 +97,7 @@
 }
 
 203={ #Asklepios
-	terrain="hills"
+	terrain="mountain"
 	culture="paphlagonian"
 	religion="hatti_religion"
 	trade_goods="earthware"
@@ -243,7 +243,7 @@
 }
 
 210={ #Dadybra
-	terrain="hills"
+	terrain="mountain"
 	culture="mariandynian"
 	religion="roman_pantheon"
 	trade_goods="olive"
@@ -266,7 +266,7 @@
 }
 
 211={ #Ziporeia
-	terrain="hills"
+	terrain="forest"
 	culture="paphlagonian"
 	religion="hatti_religion"
 	trade_goods="olive"
@@ -372,7 +372,7 @@
 }
 
 215={ #Krateia
-	terrain="hills"
+	terrain="plains"
 	culture="mariandynian"
 	religion="hatti_religion"
 	trade_goods="grain"
@@ -396,7 +396,7 @@
 }
 
 216={ #Zeita
-	terrain="hills"
+	terrain="mountain"
 	culture="paphlagonian"
 	religion="hatti_religion"
 	trade_goods="fruits"
@@ -510,7 +510,7 @@
 }
 
 223={ #Legna
-	terrain="hills"
+	terrain="mountain"
 	culture="paphlagonian"
 	religion="hatti_religion"
 	trade_goods="vegetables"
@@ -539,7 +539,7 @@
 }
 
 224={ #Gordioukome
-	terrain="forest"
+	terrain="hills"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="fruits"
@@ -561,7 +561,7 @@
 }
 
 225={ #Lagania
-	terrain="forest"
+	terrain="plains"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="grain"
@@ -580,7 +580,7 @@
 }
 
 232={ #Bonita
-	terrain="hills"
+	terrain="forest"
 	culture="paphlagonian"
 	religion="hatti_religion"
 	trade_goods="leather"
@@ -604,7 +604,7 @@
 }
 
 233={ #Kieros
-	terrain="hills"
+	terrain="farmland"
 	culture="mariandynian"
 	religion="roman_pantheon"
 	trade_goods="iron"
@@ -694,7 +694,7 @@
 }
 
 237={ #Embolos
-	terrain="hills"
+	terrain="farmland"
 	culture="mariandynian"
 	religion="roman_pantheon"
 	trade_goods="hemp"
@@ -842,7 +842,7 @@
 }
 
 242={ #Libyssa
-	terrain="plains"
+	terrain="hills"
 	culture="bithynian"
 	religion="roman_pantheon"
 	trade_goods="vegetables"
@@ -876,7 +876,7 @@
 }
 
 243={ #Astakos
-	terrain="hills"
+	terrain="farmland"
 	culture="thracian"
 	religion="roman_pantheon"
 	trade_goods="salt"
@@ -1053,7 +1053,7 @@
 }
 
 247={ #Pythopolis
-	terrain="hills"
+	terrain="farmland"
 	culture="thracian"
 	religion="roman_pantheon"
 	trade_goods="grain"
@@ -1087,7 +1087,7 @@
 }
 
 248={ #Myrleia
-	terrain="plains"
+	terrain="hills"
 	culture="thracian"
 	religion="roman_pantheon"
 	trade_goods="fish"
@@ -1187,7 +1187,7 @@
 }
 
 322={ #Lamounia
-	terrain="hills"
+	terrain="forest"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="leather"
@@ -1214,7 +1214,7 @@
 }
 
 323={ #Sarkotyle
-	terrain="hills"
+	terrain="farmland"
 	culture="mysian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
@@ -1241,7 +1241,7 @@
 }
 
 324={ #Otroia
-	terrain="hills"
+	terrain="farmland"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="wood"
@@ -1268,7 +1268,7 @@
 }
 
 325={ #Kabia
-	terrain="hills"
+	terrain="farmland"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="grain"
@@ -1304,7 +1304,7 @@
 }
 
 326={ #Modra
-	terrain="hills"
+	terrain="mountain"
 	culture="mariandynian"
 	religion="roman_pantheon"
 	trade_goods="vegetables"
@@ -1337,7 +1337,7 @@
 }
 
 327={ #Oka
-	terrain="hills"
+	terrain="mountain"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="wood"
@@ -1360,7 +1360,7 @@
 }
 
 329={ #Dableis
-	terrain="hills"
+	terrain="mountain"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
@@ -1388,7 +1388,7 @@
 }
 
 1806={ #Themiskyra
-	terrain="forest"
+	terrain="farmland"
 	culture="greco_pontic"
 	religion="roman_pantheon"
 	trade_goods="hemp"
@@ -1412,7 +1412,7 @@
 }
 
 1807={ #Amisos
-	terrain="forest"
+	terrain="hills"
 	culture="greco_pontic"
 	religion="roman_pantheon"
 	trade_goods="salt"
@@ -1453,7 +1453,7 @@
 }
 
 1809={ #Gadilon
-	terrain="forest"
+	terrain="farmland"
 	culture="dumarian"
 	religion="druidism"
 	trade_goods="wine"
@@ -1507,7 +1507,7 @@
 }
 
 1810={ #Zaliches
-	terrain="hills"
+	terrain="mountain"
 	culture="greco_pontic"
 	religion="roman_pantheon"
 	trade_goods="fish"
@@ -1536,7 +1536,7 @@
 }
 
 1812={ #Sinope
-	terrain="plains"
+	terrain="hills"
 	culture="greco_pontic"
 	religion="roman_pantheon"
 	trade_goods="hemp"
@@ -1597,7 +1597,7 @@
 }
 
 1814={ #Stephane
-	terrain="hills"
+	terrain="mountain"
 	culture="cappadocian"
 	religion="roman_pantheon"
 	trade_goods="cloth"
@@ -1629,7 +1629,7 @@
 }
 
 1815={ #Abonouteichos
-	terrain="hills"
+	terrain="mountain"
 	culture="dumarian"
 	religion="druidism"
 	trade_goods="cloth"
@@ -1664,7 +1664,7 @@
 }
 
 1816={ #Karambis
-	terrain="hills"
+	terrain="mountain"
 	culture="dumarian"
 	religion="druidism"
 	trade_goods="fish"
@@ -1701,7 +1701,7 @@
 }
 
 1827={ #Sakorsa
-	terrain="forest"
+	terrain="farmland"
 	culture="paphlagonian"
 	religion="hatti_religion"
 	trade_goods="wood"
@@ -1720,7 +1720,7 @@
 }
 
 1828={ #Domanion
-	terrain="forest"
+	terrain="hills"
 	culture="paphlagonian"
 	religion="hatti_religion"
 	trade_goods="leather"
@@ -1771,7 +1771,7 @@
 }
 
 7765={ #Tattaios
-	terrain="hills"
+	terrain="mountain"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"

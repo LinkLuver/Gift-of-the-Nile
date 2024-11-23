@@ -1,5 +1,5 @@
 ﻿218={ #Kallydion
-	terrain="hills"
+	terrain="mountain"
 	culture="mysian"
 	religion="anatolian_religion"
 	trade_goods="wood"
@@ -29,7 +29,7 @@
 }
 
 220={ #Ikaria
-	terrain="hills"
+	terrain="mountain"
 	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="fish"
@@ -48,7 +48,7 @@
 }
 
 251={ #Miletopolis
-	terrain="marsh"
+	terrain="farmland"
 	culture="mysian"
 	religion="anatolian_religion"
 	trade_goods="olive"
@@ -141,7 +141,7 @@
 }
 
 253={ #Daskyleion
-	terrain="hills"
+	terrain="farmland"
 	culture="mysian"
 	religion="anatolian_religion"
 	trade_goods="hemp"
@@ -199,7 +199,7 @@
 }
 
 254={ #Zeleia
-	terrain="forest"
+	terrain="farmland"
 	culture="phrygian"
 	religion="roman_pantheon"
 	trade_goods="marble"
@@ -310,7 +310,7 @@
 }
 
 257={ #Ilion
-	terrain="plains"
+	terrain="farmland"
 	culture="troan"
 	religion="roman_pantheon"
 	trade_goods="cloth"
@@ -379,7 +379,7 @@
 }
 
 259={ #Assos
-	terrain="plains"
+	terrain="mountain"
 	culture="troan"
 	religion="roman_pantheon"
 	trade_goods="dye"
@@ -504,7 +504,7 @@
 }
 
 264={ #Baris Mysias
-	terrain="hills"
+	terrain="plains"
 	culture="mysian"
 	religion="anatolian_religion"
 	trade_goods="base_metals"
@@ -601,7 +601,7 @@
 }
 
 267={ #Kale Peuke
-	terrain="hills"
+	terrain="farmland"
 	culture="troan"
 	religion="roman_pantheon"
 	trade_goods="cattle"
@@ -630,7 +630,7 @@
 }
 
 268={ #Skepsis
-	terrain="hills"
+	terrain="mountain"
 	culture="troan"
 	religion="roman_pantheon"
 	trade_goods="wood"
@@ -651,7 +651,7 @@
 }
 
 269={ #Pericharaxis
-	terrain="forest"
+	terrain="mountain"
 	culture="mysian"
 	religion="anatolian_religion"
 	trade_goods="base_metals"
@@ -719,7 +719,7 @@
 }
 
 273={ #Inde
-	terrain="forest"
+	terrain="farmland"
 	culture="mysian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
@@ -749,7 +749,7 @@
 }
 
 274={ #Thyessos
-	terrain="hills"
+	terrain="farmland"
 	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="wood"
@@ -779,7 +779,7 @@
 }
 
 275={ #Iasos
-	terrain="plains"
+	terrain="farmland"
 	culture="ionian"
 	religion="roman_pantheon"
 	trade_goods="fish"
@@ -808,7 +808,7 @@
 }
 
 276={ #Apollonia Mysias
-	terrain="hills"
+	terrain="farmland"
 	culture="mysian"
 	religion="anatolian_religion"
 	trade_goods="grain"
@@ -853,7 +853,7 @@
 }
 
 278={ #Pergamon
-	terrain="forest"
+	terrain="farmland"
 	culture="mysian"
 	religion="roman_pantheon"
 	trade_goods="papyrus"
@@ -937,7 +937,7 @@
 }
 
 279={ #Elaia
-	terrain="plains"
+	terrain="farmland"
 	culture="aeolian"
 	religion="roman_pantheon"
 	trade_goods="wine"
@@ -1000,7 +1000,7 @@
 }
 
 281={ #Adramytteion
-	terrain="forest"
+	terrain="farmland"
 	culture="troan"
 	religion="roman_pantheon"
 	trade_goods="wine"
@@ -1037,7 +1037,7 @@
 }
 
 282={ #Elateia Aioleias
-	terrain="plains"
+	terrain="hills"
 	culture="troan"
 	religion="roman_pantheon"
 	trade_goods="fish"
@@ -1074,7 +1074,7 @@
 }
 
 283={ #Mytilene
-	terrain="hills"
+	terrain="mountain"
 	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="marble"
@@ -1109,7 +1109,7 @@
 }
 
 284={ #Eresos
-	terrain="hills"
+	terrain="mountain"
 	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="dye"
@@ -1161,7 +1161,7 @@
 }
 
 286={ #Chios
-	terrain="hills"
+	terrain="mountain"
 	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="glass"
@@ -1189,7 +1189,7 @@
 }
 
 287={ #Smyrna
-	terrain="hills"
+	terrain="farmland"
 	culture="aeolian"
 	religion="roman_pantheon"
 	trade_goods="papyrus"
@@ -1284,7 +1284,7 @@
 }
 
 289={ #Erythrai
-	terrain="hills"
+	terrain="mountain"
 	culture="aeolian"
 	religion="roman_pantheon"
 	trade_goods="fish"
@@ -1313,7 +1313,7 @@
 }
 
 290={ #Ephesos
-	terrain="hills"
+	terrain="farmland"
 	culture="ionian"
 	religion="roman_pantheon"
 	trade_goods="papyrus"
@@ -1412,7 +1412,7 @@
 }
 
 292={ #Sfard
-	terrain="plains"
+	terrain="farmland"
 	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="wine"
@@ -1488,7 +1488,7 @@
 }
 
 293={ #Myloukome
-	terrain="forest"
+	terrain="farmland"
 	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="cloth"
@@ -1523,7 +1523,7 @@
 }
 
 294={ #Larisa Ionias
-	terrain="plains"
+	terrain="farmland"
 	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="marble"
@@ -1560,7 +1560,7 @@
 }
 
 295={ #Hypaipa
-	terrain="hills"
+	terrain="farmland"
 	culture="carian"
 	religion="anatolian_religion"
 	trade_goods="base_metals"
@@ -1590,7 +1590,7 @@
 }
 
 296={ #Kulumsis
-	terrain="plains"
+	terrain="farmland"
 	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="cloth"
@@ -1698,7 +1698,7 @@
 }
 
 300={ #Maionia
-	terrain="forest"
+	terrain="hills"
 	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
@@ -1793,7 +1793,7 @@
 }
 
 304={ #Hyssa
-	terrain="forest"
+	terrain="mountain"
 	culture="mysian"
 	religion="anatolian_religion"
 	trade_goods="wine"
@@ -1824,7 +1824,7 @@
 }
 
 305={ #Kofuwissi
-	terrain="hills"
+	terrain="mountain"
 	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1892,7 +1892,7 @@
 }
 
 310={ #Leros
-	terrain="hills"
+	terrain="mountain"
 	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="fish"
@@ -1911,7 +1911,7 @@
 }
 
 320={ #Ariste
-	terrain="forest"
+	terrain="hills"
 	culture="mysian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1938,7 +1938,7 @@
 }
 
 321={ #Kybellion
-	terrain="hills"
+	terrain="forest"
 	culture="mysian"
 	religion="anatolian_religion"
 	trade_goods="olive"
@@ -1990,7 +1990,7 @@
 }
 
 1653={ #Kalymnos
-	terrain="hills"
+	terrain="mountain"
 	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="fish"
@@ -2012,7 +2012,7 @@
 }
 
 1808={ #Metropolis Lydias
-	terrain="plains"
+	terrain="mountain"
 	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="stone"
@@ -2070,7 +2070,7 @@
 }
 
 1876={ #Physkos
-	terrain="hills"
+	terrain="mountain"
 	culture="ionian"
 	religion="roman_pantheon"
 	trade_goods="marble"
@@ -2118,7 +2118,7 @@
 }
 
 1947={ #Apollonia Maiandrou
-	terrain="forest"
+	terrain="farmland"
 	culture="carian"
 	religion="roman_pantheon"
 	trade_goods="hemp"
@@ -2266,7 +2266,7 @@
 }
 
 1953={ #Saleia Salbakes
-	terrain="hills"
+	terrain="farmland"
 	culture="cabalian"
 	religion="anatolian_religion"
 	trade_goods="leather"
@@ -2296,7 +2296,7 @@
 }
 
 1956={ #Tabai
-	terrain="hills"
+	terrain="mountain"
 	culture="cabalian"
 	religion="anatolian_religion"
 	trade_goods="wine"
@@ -2350,7 +2350,7 @@
 }
 
 1962={ #Athymbra
-	terrain="hills"
+	terrain="farmland"
 	culture="carian"
 	religion="roman_pantheon"
 	trade_goods="olive"
@@ -2382,7 +2382,7 @@
 }
 
 1963={ #Harpasa
-	terrain="hills"
+	terrain="farmland"
 	culture="carian"
 	religion="roman_pantheon"
 	trade_goods="honey"
@@ -2411,7 +2411,7 @@
 }
 
 1966={ #Tralles
-	terrain="plains"
+	terrain="farmland"
 	culture="carian"
 	religion="roman_pantheon"
 	trade_goods="cloth"
@@ -2439,7 +2439,7 @@
 }
 
 1967={ #Alabanda
-	terrain="hills"
+	terrain="farmland"
 	culture="carian"
 	religion="roman_pantheon"
 	trade_goods="earthware"
@@ -2514,7 +2514,7 @@
 }
 
 1969={ #Magnesia pros Maiandro
-	terrain="plains"
+	terrain="farmland"
 	culture="carian"
 	religion="roman_pantheon"
 	trade_goods="iron"
@@ -2584,7 +2584,7 @@
 }
 
 1972={ #Priene
-	terrain="plains"
+	terrain="forest"
 	culture="ionian"
 	religion="roman_pantheon"
 	trade_goods="glass"
@@ -2659,7 +2659,7 @@
 }
 
 1974={ #Samos
-	terrain="hills"
+	terrain="mountain"
 	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="marble"
@@ -2818,7 +2818,7 @@
 }
 
 1985={ #Idyma
-	terrain="hills"
+	terrain="mountain"
 	culture="ionian"
 	religion="roman_pantheon"
 	trade_goods="cloth"
@@ -2887,7 +2887,7 @@
 }
 
 1989={ #Kaunos
-	terrain="hills"
+	terrain="marsh"
 	culture="ionian"
 	religion="roman_pantheon"
 	trade_goods="dye"
@@ -2927,7 +2927,7 @@
 }
 
 1996={ #Astypalaia
-	terrain="hills"
+	terrain="mountain"
 	culture="aegean"
 	religion="roman_pantheon"
 	trade_goods="marble"
@@ -2947,7 +2947,7 @@
 }
 
 7908={ #Artake
-	terrain="hills"
+	terrain="mountain"
 	culture="thracian"
 	religion="roman_pantheon"
 	trade_goods="wood"
@@ -2966,7 +2966,7 @@
 }
 
 7934={ #Keramos
-	terrain="hills"
+	terrain="mountain"
 	culture="ionian"
 	religion="roman_pantheon"
 	trade_goods="fish"
@@ -2995,7 +2995,7 @@
 }
 
 7935={ #Bargylia
-	terrain="hills"
+	terrain="forest"
 	culture="carian"
 	religion="roman_pantheon"
 	trade_goods="dye"
@@ -3058,7 +3058,7 @@
 }
 
 7938={ #Bargasa
-	terrain="hills"
+	terrain="mountain"
 	culture="carian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
@@ -3101,7 +3101,7 @@
 }
 
 7941={ #Kranaos
-	terrain="hills"
+	terrain="farmland"
 	culture="carian"
 	religion="roman_pantheon"
 	trade_goods="cloth"
@@ -3158,7 +3158,7 @@
 }
 
 8122={ #Jaghbub
-	terrain="oasis"
+	terrain="mountain"
 	culture="siwan_egyptian"
 	religion="amun_religion"
 	trade_goods="cattle"
