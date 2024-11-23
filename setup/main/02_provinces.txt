@@ -1046,7 +1046,7 @@ provinces = { #Any entry must contain a comment with city name.
 	7896 = { #Nikaia Lokri/Thermopylai
 		modifier = { modifier = gate_modifier always = yes }
 	}
-	7914 = { #Modra Pass
+	7928 = { #Modra Pass
 		modifier = { modifier = gate_modifier always = yes }
 	}
 	7986 = { #Commagenian Gates

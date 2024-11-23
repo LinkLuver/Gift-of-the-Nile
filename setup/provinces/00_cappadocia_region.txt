@@ -2230,7 +2230,7 @@
 }
 
 8059={ #
-	terrain="forest"
+	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -5497,6 +5497,29 @@
 
 10317={ #PROV10317
 	terrain="mountain"
+	culture="morimenian"
+	religion="anatolian_religion"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10318={ #PROV10317
+	terrain="forest"
 	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
