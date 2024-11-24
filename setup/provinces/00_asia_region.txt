@@ -3159,19 +3159,20 @@
 
 8122={ #Jaghbub
 	terrain="mountain"
-	culture="siwan_egyptian"
-	religion="amun_religion"
+	culture="ionian"
+	religion="roman_pantheon"
 	trade_goods="cattle"
-	civilization_value=28
+	civilization_value=22
 	barbarian_power=0
 	province_rank="settlement"
-	slaves={
-		culture="nasamonian"
-		religion="amun_religion"
-		amount=1
-	}
-	tribesmen={
+	citizen={
 		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
 	}
 }
 
