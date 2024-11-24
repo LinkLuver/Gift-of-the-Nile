@@ -52,10 +52,19 @@ diplomacy = {
 	dependency = { first = LYD second = IOA subject_type = subject_league_city_state }
 	dependency = { first = LYD second = ION subject_type = subject_league_city_state }
 	dependency = { first = LYD second = MLO subject_type = subject_league_city_state }
+	dependency = { first = LYD second = PKH subject_type = subject_league_city_state }
 	dependency = { first = LYD second = MYD subject_type = tributary }
 	dependency = { first = LYD second = BIT subject_type = tributary }
+	dependency = { first = LYD second = CM1 subject_type = tributary }
+	dependency = { first = LYD second = CM3 subject_type = tributary }
+	dependency = { first = LYD second = CM5 subject_type = tributary }
+	dependency = { first = LYD second = PH1 subject_type = tributary }
+	dependency = { first = LYD second = PH2 subject_type = tributary }
 	dependency = { first = LYD second = PGM subject_type = satrapy }
 	dependency = { first = LYD second = HKS subject_type = feudatory }
+	dependency = { first = LYD second = MY1 subject_type = satrapy }
+	dependency = { first = LYD second = CA1 subject_type = satrapy }
+
 
 	#Numidian Kingdom
 	dependency = { first = MSS second = IOL subject_type = tributary }
