@@ -1415,7 +1415,7 @@
 	terrain="farmland"
 	culture="lydian"
 	religion="anatolian_religion"
-	trade_goods="wine"
+	trade_goods="precious_metals"
 	civilization_value=37
 	barbarian_power=0
 	province_rank="city"
@@ -1477,6 +1477,11 @@
 	slaves={
 		culture="carian"
 		amount=1
+	}
+	slaves={
+		culture="ionian"
+		religion="roman_pantheon"
+		amount=2
 	}
 	tribesmen={
 		amount=2

@@ -1703,7 +1703,7 @@ country = {
 				275 10239 10238 10240 10247 10248 
 				10226 10228 10227 10229 10230 10249 10269 10271 10206 10274 10200 10267 10257 10258 
 				10268 10265 10189 10250 10194 10260 10259 10263 10264 10262 10193 10195 10261 10246 10245
-				7919 10266 10192 10255 10282
+				7919 10266 10192 10255 10282 7928
 			}
 		}
 
@@ -10826,7 +10826,7 @@ country = {
 
 		CYB = {
 			government = theocratic_republic
-			primary_culture = cabalian
+			primary_culture = milyadian
 			religion = anatolian_religion
 			diplomatic_stance = neutral_stance
 			capital = 7953
