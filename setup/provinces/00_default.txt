@@ -7408,6 +7408,16 @@
 	province_rank=""
 }
 
+7928={ #
+	terrain="impassable_terrain"
+	culture="lycian"
+	religion="anatolian_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
 7950={ #
 	terrain="impassable_terrain"
 	culture="lycian"
