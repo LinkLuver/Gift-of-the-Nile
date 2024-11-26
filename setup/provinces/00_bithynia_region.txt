@@ -432,7 +432,7 @@
 	culture="paphlagonian"
 	religion="hatti_religion"
 	trade_goods="grain"
-	civilization_value=18
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -447,12 +447,9 @@
 		amount=1
 	}
 	tribesmen={
-		amount=1
-	}
-	tribesmen={
 		culture="mariandynian"
 		religion="roman_pantheon"
-		amount=1
+		amount=2
 	}
 }
 
@@ -1762,21 +1759,18 @@
 
 7763={ #Sophon Pass
 	terrain="mountain"
-	culture="morimenian"
-	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	culture="lalasian"
+	religion="hurrian_pantheon"
+	trade_goods="iron"
+	civilization_value=11
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	freemen={
-		culture="cappadocian"
+		culture="isaurian"
 		amount=1
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
 		amount=3

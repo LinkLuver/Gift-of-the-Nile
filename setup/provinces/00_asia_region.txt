@@ -1,7 +1,7 @@
 ﻿218={ #Kallydion
 	terrain="mountain"
-	culture="mysian"
-	religion="anatolian_religion"
+	culture="paphlagonian"
+	religion="hatti_religion"
 	trade_goods="wood"
 	civilization_value=24
 	barbarian_power=0
@@ -790,18 +790,19 @@
 		amount=2
 	}
 	freemen={
+		culture="lydian"
 		amount=3
 	}
 	slaves={
 		amount=1
 	}
 	slaves={
-		culture="carian"
+		culture="lydian"
 		religion="anatolian_religion"
 		amount=1
 	}
 	tribesmen={
-		culture="carian"
+		culture="lydian"
 		religion="anatolian_religion"
 		amount=1
 	}
@@ -857,7 +858,7 @@
 	culture="mysian"
 	religion="roman_pantheon"
 	trade_goods="papyrus"
-	civilization_value=29
+	civilization_value=33
 	barbarian_power=0
 	province_rank="city"
 	nobles={
