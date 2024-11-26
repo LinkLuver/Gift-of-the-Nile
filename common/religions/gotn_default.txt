@@ -222,6 +222,15 @@ armenian_religion = { # Khaldic
 	}
 	religion_category = pantheon
 }
+hatti_religion = { # Hattic
+	color = rgb { 200 200 200 }
+	modifier = {
+		global_pop_assimilation_speed_modifier = 0.05
+		ruler_popularity_gain = 0.08
+		happiness_for_same_culture_modifier = -0.05
+	}
+	religion_category = pantheon
+}
 
 #Philosophos Religions
 isis_religion = { # Orphism
