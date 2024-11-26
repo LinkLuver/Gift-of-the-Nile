@@ -412,7 +412,7 @@ bithynia_inferior_area = { #12
 }
 
 bithynia_superior_area = { #13
-	provinces = { 221 224 225 322 323 324 325 326 327 329 7763 7765 321 }
+	provinces = { 221 224 225 322 323 324 325 326 327 329 7763 7765 321 10206 }
 }
 
 bituriga_occidentalis_area = { #9
@@ -696,7 +696,7 @@ cilicia_pedias_area = { #15
 }
 
 cilicia_trachea_area = { #13
-	provinces = { 1890 1892 1894 1896 1897 1901 1904 1917 10176 }
+	provinces = { 1890 1892 1894 1896 1897 1901 1904 1917 10176 10208 10209 }
 }
 
 cimbrica_inferioris_area = { #7
@@ -728,7 +728,7 @@ commagene_area = { #12
 }
 
 anatolia_placeholder_area = { #13
-	provinces = { 10178 10179 10180 10181 10182 10185 10186 10187 10188 }
+	provinces = { 10178 10179 10181 10182 10185 10186 10187 10188 }
 }
 
 anatolia_placeholder_area_2 = { #13
@@ -736,11 +736,11 @@ anatolia_placeholder_area_2 = { #13
 }
 
 anatolia_placeholder_area_3 = { #13
-	provinces = { 10203 10204 10205 10206 10207 10208 10209 10211 10212 }
+	provinces = { 1959 1990 1991 1997 1958 1961 7947 7954 7971 10214 1935 7953 }
 }
 
 anatolia_placeholder_area_4 = { #13
-	provinces = { 10214 10215 10218 10223 10190 10192 10200 10201 }
+	provinces = { 10223 10190 10192 10200 10201 1921 1927 }
 }
 
 anatolia_placeholder_area_5 = { #13
@@ -756,7 +756,7 @@ anatolia_placeholder_area_7 = { #13
 }
 
 anatolia_placeholder_area_8 = { #13
-	provinces = { 10265 10266 10267 10268 10269 10270 10271 10272 10273 }
+	provinces = { 10265 10266 10267 10268 10269 10271 10272 10273 }
 }
 
 anatolia_placeholder_area_9 = { #13
@@ -776,7 +776,7 @@ anatolia_placeholder_area_12 = { #13
 }
 
 anatolia_impassables = { #12
-	provinces = { 8055 7928 7913 7919 7944 8056 8057 8058 8059 8060 8061 8062 7952 7953 7914 7995 7996 7993 7965 7973 7974 7975 7966 7967 7979 7978 7980 }
+	provinces = { 8055 7928 7913 7919 7944 8056 8057 8058 8060 8061 8062 7965 7974 7975 7966 7979 7978 7980 }
 }
 
 confluenta_area = { #11
@@ -1097,7 +1097,7 @@ gaetulia_septentrionalis_area = { #12
 }
 
 galatia_area = { #12
-	provinces = { 175 181 188 189 190 191 192 227 228 229 316 328 }
+	provinces = { 175 181 188 189 190 191 192 227 228 229 316 328 10203 10204 10205 }
 }
 
 galatia_trocmi_area = { #12
@@ -1578,7 +1578,7 @@ lycaonia_area = { #12
 }
 
 lycia_area = { #12
-	provinces = { 156 159 160 161 162 1992 1993 1995 1998 7948 7949 10210 10213 7951 }
+	provinces = { 156 160 161 162 1992 1993 1995 1998 7949 10210 10213 7951 }
 }
 
 lydia_area = { #12
@@ -1923,7 +1923,7 @@ milograd_area = { #12
 }
 
 milyas_area = { #12
-	provinces = { 171 1958 1959 1960 1961 1986 1990 1991 1997 7947 7954 7971 }
+	provinces = { 171 1960 159 7948 10207 10211 10212 1986 8059 7952 170 10270 10180 }
 }
 
 minsk_area = { #11
@@ -2191,7 +2191,7 @@ pamir_area = { #11
 }
 
 pamphylia_area = { #12
-	provinces = { 164 165 166 168 1905 1906 1908 1910 1911 7958 7962 }
+	provinces = { 164 165 166 168 1905 1906 1908 1910 1911 7958 7962 7956 7914 7973 7967 }
 }
 
 pancala_area = { #10
@@ -2320,7 +2320,7 @@ phrygia_epiktetos = { #12
 }
 
 phrygia_parorea_area = { #12
-	provinces = { 178 179 182 230 1777 1925 1926 1928 1930 1937 1939 1941 }
+	provinces = { 178 179 182 230 1777 1925 1926 1928 1937 1939 1941 }
 }
 
 pictonia_meridionalis_area = { #17
@@ -2336,7 +2336,7 @@ pisae_area = { #9
 }
 
 pisidia_area = { #12
-	provinces = { 167 170 1885 1921 1927 1931 1933 1935 1949 1988 7760 7956 }
+	provinces = { 167 7995 7996 7993 10215 1930 1885 1931 1933 1949 1988 7760 }
 }
 
 po_river_area = { #5
@@ -2718,7 +2718,7 @@ south_tondainadu_area = { #11
 
 sporades_area = { #11
 	color = rgb { 200 30 53 }
-	provinces = { 266 280 1830 1884 1970 1996 7936 7937 8015 1876 1985 1987 1989 10216 7942 }
+	provinces = { 266 280 1830 1884 1970 1996 7936 7937 8015 1876 1985 1987 1989 10216 7942 10218 }
 }
 
 sriparvata_area = { #9
