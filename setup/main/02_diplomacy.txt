@@ -47,8 +47,8 @@ diplomacy = {
 
 
 	#Lydian Kingdom
-	dependency = { first = LYD second = PHR subject_type = satrapy }
-	dependency = { first = LYD second = PAP subject_type = satrapy }
+	dependency = { first = LYD second = PHR subject_type = ashemis_astarhos }
+	dependency = { first = LYD second = PAP subject_type = ashemis_astarhos }
 	dependency = { first = LYD second = IOA subject_type = subject_league_city_state }
 	dependency = { first = LYD second = ION subject_type = subject_league_city_state }
 	dependency = { first = LYD second = MLO subject_type = subject_league_city_state }
@@ -60,10 +60,10 @@ diplomacy = {
 	dependency = { first = LYD second = CM5 subject_type = tributary }
 	dependency = { first = LYD second = PH1 subject_type = tributary }
 	dependency = { first = LYD second = PH2 subject_type = tributary }
-	dependency = { first = LYD second = PGM subject_type = satrapy }
+	dependency = { first = LYD second = PGM subject_type = ashemis_astarhos }
 	dependency = { first = LYD second = HKS subject_type = feudatory }
-	dependency = { first = LYD second = MY1 subject_type = satrapy }
-	dependency = { first = LYD second = CA1 subject_type = satrapy }
+	dependency = { first = LYD second = MY1 subject_type = ashemis_astarhos }
+	dependency = { first = LYD second = CA1 subject_type = ashemis_astarhos }
 
 
 	#Numidian Kingdom
