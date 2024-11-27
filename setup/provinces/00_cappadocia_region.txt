@@ -5477,3 +5477,41 @@
 	}
 }
 
+10319={ #PROV10318
+	terrain="forest"
+	culture="paphlagonian"
+	religion="hatti_religion"
+	trade_goods="marble"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+8000={ #
+	terrain="forest"
+	culture="paphlagonian"
+	religion="hatti_religion"
+	trade_goods="marble"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+

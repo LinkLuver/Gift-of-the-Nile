@@ -138,16 +138,27 @@ asia_region = { #8 areas
 	color = rgb { 244 222 89 }
 	areas = {
 		aeolia_area
-		coastal_caria_area
-		inland_caria_area
 		ionia_area
 		lydia_area
 		mysia_abrettene_area
 		mysia_area
-		sporades_area
 		anatolia_placeholder_area_5
 		anatolia_placeholder_area_6
 		anatolia_placeholder_area_7
+	}
+}
+
+lycia_region = { #7 areas
+	color = rgb { 186 58 124 }
+	areas = {
+		pisidia_area
+		lycia_area
+		milyas_area
+		anatolia_placeholder_area_2
+		anatolia_placeholder_area_3
+		coastal_caria_area
+		inland_caria_area
+		sporades_area
 	}
 }
 
@@ -280,10 +291,11 @@ bithynia_region = { #6 areas
 	areas = {
 		bithynia_area
 		bithynia_inferior_area
-		bithynia_superior_area
 		heracleotis_area
 		paphlagonia_inferior_area
 		paphlagonia_superior_area
+		anatolia_placeholder_area_12
+		pontus_area
 	}
 }
 
@@ -375,7 +387,6 @@ cappadocia_pontica_region = { #5 areas
 		armenia_maior_area
 		armenia_minor_area
 		machelonia_area
-		pontus_area
 		pontus_colopene_area
 	}
 }
@@ -387,16 +398,9 @@ cappadocia_region = { #5 areas
 		cappadocia_garsauritis_area
 		cappadocia_melitene_area
 		cappadocia_saravene_area
-		anatolia_placeholder_area
-		anatolia_placeholder_area_2
-		anatolia_placeholder_area_3
-		anatolia_placeholder_area_4
-		anatolia_placeholder_area_8
 		anatolia_placeholder_area_9
 		anatolia_placeholder_area_10
 		anatolia_placeholder_area_11
-		anatolia_placeholder_area_12
-		anatolia_impassables
 	}
 }
 
@@ -470,10 +474,11 @@ cilicia_region = { #7 areas
 	areas = {
 		cilicia_trachea_area
 		cyprus_area
-		lycia_area
-		milyas_area
 		pamphylia_area
-		pisidia_area
+		isauria_area
+		lycaonia_area
+		anatolia_placeholder_area
+		phrygia_parorea_area
 	}
 }
 
@@ -597,11 +602,12 @@ galatia_region = { #7 areas
 	areas = {
 		galatia_area
 		galatia_trocmi_area
-		isauria_area
-		lycaonia_area
 		phrygia_area
 		phrygia_epiktetos
-		phrygia_parorea_area
+		phrygia_maior_area
+		anatolia_placeholder_area_4
+		anatolia_placeholder_area_8
+		bithynia_superior_area
 	}
 }
 

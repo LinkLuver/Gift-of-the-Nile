@@ -7578,16 +7578,6 @@
 	province_rank=""
 }
 
-8000={ #
-	terrain="impassable_terrain"
-	culture="armenian"
-	religion="anahitic_religion"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
 8001={ #
 	terrain="impassable_terrain"
 	culture="armenian"
