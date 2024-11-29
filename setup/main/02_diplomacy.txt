@@ -127,20 +127,18 @@ diplomacy = {
 	
 	#Luwian League
 	defensive_league = {
-		member = ISU
 		member = IKU
 		member = LAR
 		member = BTA
 		member = TWN
 		member = GRG
 		member = OUA
-		member = MIA
-		member = KKL
-		member = ADS
-		member = HMI
-		member = LAL
-		member = OBE
 	}
+
+	#Olbian Papacy
+	dependency = { first = OBE second = HMI subject_type = hittite_viceroyalty }
+
+	#Sparta-Lepreon
 	dependency = { first = SPA second = LPR subject_type = client_state }
 
 	#Argolian League of Love and Friendship

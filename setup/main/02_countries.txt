@@ -1567,8 +1567,8 @@ country = {
 		}
 
 		IKU = { # Ikkuwaniya
-			government = tribal_federation
-			primary_culture = isaurian
+			government = despotic_monarchy
+			primary_culture = lycaonian
 			religion = anatolian_religion
 
 			capital = 1934
@@ -1592,7 +1592,7 @@ country = {
 
 		MIA = { # Mistea
 			government = tribal_federation
-			primary_culture = isaurian
+			primary_culture = oroandian
 			religion = anatolian_religion
 
 			capital = 1922
@@ -1604,7 +1604,7 @@ country = {
 
 		OUA = { # Ouasada
 			government = tribal_federation
-			primary_culture = isaurian
+			primary_culture = oroandian
 			religion = anatolian_religion
 
 			capital = 1920
@@ -1615,8 +1615,8 @@ country = {
 		}
 
 		TWN = { # Tuwana
-			government = tribal_federation
-			primary_culture = isaurian
+			government = despotic_monarchy
+			primary_culture = cappadocian
 			religion = anatolian_religion
 
 			capital = 1951
@@ -1626,9 +1626,9 @@ country = {
 			}
 		}
 
-		BTA = { # Tuwana
-			government = tribal_federation
-			primary_culture = isaurian
+		BTA = { # Kanna
+			government = despotic_monarchy
+			primary_culture = lycaonian
 			religion = anatolian_religion
 
 			capital = 1916
@@ -1638,9 +1638,9 @@ country = {
 			}
 		}
 
-		GRG = { # Tuwana
+		GRG = { # Akkise
 			government = tribal_federation
-			primary_culture = isaurian
+			primary_culture = oroandian
 			religion = anatolian_religion
 
 			capital = 7979
@@ -1650,9 +1650,9 @@ country = {
 			}
 		}
 
-		KKL = { # Tuwana
+		KKL = { # Kaklouma
 			government = tribal_federation
-			primary_culture = isaurian
+			primary_culture = pisidian
 			religion = anatolian_religion
 
 			capital = 7980
@@ -1662,9 +1662,9 @@ country = {
 			}
 		}
 
-		ADS = { # Tuwana
+		ADS = { # Adrasos
 			government = tribal_federation
-			primary_culture = isaurian
+			primary_culture = lalasian
 			religion = anatolian_religion
 
 			capital = 7963
@@ -1676,7 +1676,7 @@ country = {
 
 		HMI = { # Tuwana
 			government = tribal_federation
-			primary_culture = isaurian
+			primary_culture = lalasian
 			religion = anatolian_religion
 
 			capital = 1890
