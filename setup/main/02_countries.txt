@@ -1562,7 +1562,127 @@ country = {
 			capital = 1919
 
 			own_control_core = {
-				1919 7975 1918 1780 7978 7974 7964
+				1919 7975 1918 1780 7978
+			}
+		}
+
+		IKU = { # Ikkuwaniya
+			government = tribal_federation
+			primary_culture = isaurian
+			religion = anatolian_religion
+
+			capital = 1934
+
+			own_control_core = {
+				1975 1917 1785 7965 1934 1914 1965 7966
+			}
+		}
+
+		LAR = { # Larandia
+			government = tribal_federation
+			primary_culture = isaurian
+			religion = anatolian_religion
+
+			capital = 169
+
+			own_control_core = {
+				169 1950 8022 1955
+			}
+		}
+
+		MIA = { # Mistea
+			government = tribal_federation
+			primary_culture = isaurian
+			religion = anatolian_religion
+
+			capital = 1922
+
+			own_control_core = {
+				1922 1925
+			}
+		}
+
+		OUA = { # Ouasada
+			government = tribal_federation
+			primary_culture = isaurian
+			religion = anatolian_religion
+
+			capital = 1920
+
+			own_control_core = {
+				1920 1924 1921
+			}
+		}
+
+		TWN = { # Tuwana
+			government = tribal_federation
+			primary_culture = isaurian
+			religion = anatolian_religion
+
+			capital = 1951
+
+			own_control_core = {
+				1951 1940 1978 7919 10188 10190 1888
+			}
+		}
+
+		BTA = { # Tuwana
+			government = tribal_federation
+			primary_culture = isaurian
+			religion = anatolian_religion
+
+			capital = 1916
+
+			own_control_core = {
+			1916 7944 1938
+			}
+		}
+
+		GRG = { # Tuwana
+			government = tribal_federation
+			primary_culture = isaurian
+			religion = anatolian_religion
+
+			capital = 7979
+
+			own_control_core = {
+				7979 10181
+			}
+		}
+
+		KKL = { # Tuwana
+			government = tribal_federation
+			primary_culture = isaurian
+			religion = anatolian_religion
+
+			capital = 7980
+
+			own_control_core = {
+				7980 7961 10179
+			}
+		}
+
+		ADS = { # Tuwana
+			government = tribal_federation
+			primary_culture = isaurian
+			religion = anatolian_religion
+
+			capital = 7963
+
+			own_control_core = {
+				7963 1896 7964 7974
+			}
+		}
+
+		HMI = { # Tuwana
+			government = tribal_federation
+			primary_culture = isaurian
+			religion = anatolian_religion
+
+			capital = 1890
+
+			own_control_core = {
+				1890 1897 10209 10208
 			}
 		}
 
@@ -14439,7 +14559,7 @@ country = {
 			capital = 1784
 
 			own_control_core = {
-				1901 1897 1904 10209 10208 7763 1908 1906 7962
+				1901 1904 7763 1908 1906 7962 1784
 			}
 		}
 
@@ -14451,7 +14571,7 @@ country = {
 			capital = 1894
 
 			own_control_core = {
-				1894 1890 1892 10176 10160
+				1894 1892 10176 10160
 			}
 		}
 
