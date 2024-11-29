@@ -124,6 +124,23 @@ diplomacy = {
 		member = HRA
 		member = AZA
 	}
+	
+	#Luwian League
+	defensive_league = {
+		member = ISU
+		member = IKU
+		member = LAR
+		member = BTA
+		member = TWN
+		member = GRG
+		member = OUA
+		member = MIA
+		member = KKL
+		member = ADS
+		member = HMI
+		member = LAL
+		member = OBE
+	}
 	dependency = { first = SPA second = LPR subject_type = client_state }
 
 	#Argolian League of Love and Friendship
