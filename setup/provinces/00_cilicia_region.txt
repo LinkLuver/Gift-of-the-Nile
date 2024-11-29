@@ -1048,14 +1048,17 @@
 
 1917={ #Lakaine
 	terrain="hills"
-	culture="lalasian"
-	religion="hurrian_pantheon"
+	culture="lycaonian"
+	religion="anatolian_religion"
 	trade_goods="base_metals"
 	civilization_value=11
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
+	}
+	tribesmen={
+		culture="isaurian"
 	}
 	tribesmen={
 		amount=2

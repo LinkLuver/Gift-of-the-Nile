@@ -1272,7 +1272,7 @@
 	terrain="desert"
 	culture="nasamonian"
 	religion="amun_religion"
-	trade_goods=""
+	trade_goods="leather"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1308,7 +1308,7 @@
 	terrain="oasis"
 	culture="siwan_egyptian"
 	religion="amun_religion"
-	trade_goods=""
+	trade_goods="fruits"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
