@@ -166,6 +166,21 @@
 		}, {
 			"object_ref":	{
 				"type":	"mesh",
+				"key":	"SKYX_skybox"
+			},
+			"entry_state":	{
+				"locked":	false,
+				"base_type":	{
+					"type":	"mesh",
+					"key":	"SKYX_skybox"
+				}
+			},
+			"instances":	[{
+					"locked":	false
+				}]
+		}, {
+			"object_ref":	{
+				"type":	"mesh",
 				"key":	"volcanoes"
 			},
 			"entry_state":	{
@@ -3017,6 +3032,16 @@
 				}
 			},
 			"instances":	[{
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
 					"locked":	false
 				}, {
 					"locked":	false
@@ -38895,6 +38920,12 @@
 					"locked":	false
 				}, {
 					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
 				}]
 		}, {
 			"object_ref":	{
@@ -55562,6 +55593,16 @@
 					"locked":	false
 				}, {
 					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
 				}]
 		}, {
 			"object_ref":	{
@@ -55576,6 +55617,16 @@
 				}
 			},
 			"instances":	[{
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
 					"locked":	false
 				}, {
 					"locked":	false
@@ -75123,6 +75174,10 @@
 					"locked":	false
 				}, {
 					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
 				}]
 		}, {
 			"object_ref":	{
@@ -75137,6 +75192,12 @@
 				}
 			},
 			"instances":	[{
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
 					"locked":	false
 				}, {
 					"locked":	false
@@ -114999,6 +115060,10 @@
 					"locked":	false
 				}, {
 					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
 				}]
 		}, {
 			"object_ref":	{
@@ -115013,75 +115078,6 @@
 				}
 			},
 			"instances":	[{
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}]
-		}, {
-			"object_ref":	{
-				"type":	"locator",
-				"key":	"wonder_colossus"
-			},
-			"entry_state":	{
-				"locked":	false,
-				"base_type":	{
-					"type":	"locator",
-					"key":	"wonder_colossus"
-				}
-			},
-			"instances":	[{
-					"locked":	false
-				}]
-		}, {
-			"object_ref":	{
-				"type":	"locator",
-				"key":	"wonder_lighthouse_of_pharos"
-			},
-			"entry_state":	{
-				"locked":	false,
-				"base_type":	{
-					"type":	"locator",
-					"key":	"wonder_lighthouse_of_pharos"
-				}
-			},
-			"instances":	[{
-					"locked":	false
-				}]
-		}, {
-			"object_ref":	{
-				"type":	"locator",
-				"key":	"wonder_tomb_of_alexander"
-			},
-			"entry_state":	{
-				"locked":	false,
-				"base_type":	{
-					"type":	"locator",
-					"key":	"wonder_tomb_of_alexander"
-				}
-			},
-			"instances":	[{
-					"locked":	false
-				}, {
 					"locked":	false
 				}, {
 					"locked":	false

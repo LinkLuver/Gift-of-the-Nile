@@ -2060,3 +2060,33 @@
 	}
 }
 
+10320={ #tarhuntassa
+	terrain="hills"
+	culture="cappadocian"
+	religion="anatolian_religion"
+	trade_goods="earthware"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="cataonian"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="cataonian"
+		amount=1
+	}
+}
+
