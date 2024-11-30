@@ -2062,3 +2062,22 @@ LAM = {
 		color2 = "roman_gold"
     }
 }
+
+IKU = { 
+	pattern = "pattern_solid.tga"
+    color1 = rgb { 39 45 48}
+    color2 = "offwhite"
+
+    colored_emblem = {
+        texture = "ce_ikuwana.dds"
+        color1 = "mid_grey"
+		color2 = rgb { 144 133 45 }
+		instance = { scale = { 1.20 1.20 } position = { 0.50 0.40 } }
+    }
+	colored_emblem = {
+        texture = "ce_eagle_05.dds"
+        color1 = "mid_grey"
+		color2 = rgb { 144 133 45 }
+		instance = { scale = { 0.80 0.80 } position = { 0.50 0.40 } }
+    }
+}

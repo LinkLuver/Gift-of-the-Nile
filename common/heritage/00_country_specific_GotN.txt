@@ -8874,4 +8874,69 @@ lamia_heritage = {
 	trigger = {
 		tag = LAM
 	}
+}
+
+tarhuntassa_heritage = {
+	modifier = {
+		#good 
+        global_commerce_modifier= 0.10
+        global_nobles_happyness= 0.03
+		#bad 
+        price_found_city_cost_modifier = 0.20
+	}
+	trigger = {
+		tag = BTA
+	}
+}
+
+ikkuwaniya_heritage = {
+	modifier = {
+		#good 
+        light_infantry_defensive = 0.10
+        ruler_popularity_gain = 0.05
+		#bad 
+        army_maintenance_cost = 0.10
+	}
+	trigger = {
+		tag = IKU
+	}
+} 
+
+tuwana_heritage = {
+	modifier = {
+		#good 
+        happiness_for_wrong_culture_modifier = 0.03
+        global_tax_modifier= 0.10
+		#bad 
+        global_pop_assimilation_speed_modifier = -0.05
+	}
+	trigger = {
+		tag = TWN
+	}
+}
+
+phokaian_heritage = {
+	modifier = {
+		#good 
+        price_found_city_cost_modifier = -0.20
+        manpower_recovery_speed = 0.05
+		#bad 
+        ship_cost = 0.05
+	}
+	trigger = {
+		tag = PKH
+	}
+} 
+
+lysinia_heritage = {
+	modifier = {
+		#good 
+        omen_power= 0.10
+        global_nobles_output = 0.03
+		#bad 
+        global_population_growth = -0.03
+	}
+	trigger = {
+		tag = CYB
+	}
 } 
