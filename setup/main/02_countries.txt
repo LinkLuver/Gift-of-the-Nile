@@ -1481,7 +1481,7 @@ country = {
 				1698 1744 1747 1751 1760 1762 1764 #upper_armenia_region
 				1763 1765 1766 1767 1768 1769 1770 1771 1772 1773 1775 1776 1778 #armenia_major_region
 				7844 1733 #armenia_major_region
-				1779 1781 1782 1783 1842 1843 1844 1848 1850 1851 7845 #armenia_minor_region
+				1779 1781 1851 7845 #armenia_minor_region
 			}
 		}
 
@@ -1501,14 +1501,14 @@ country = {
 				Ariarathes = 1
 			}
 
-			capital = 1799
+			capital = 1796
 
 			own_control_core = 	{
 				157 158 163 1852 1854 1859 1865 1886 1898 1929 #cappadocia_melitene_region
 				155 172 1802 1803 1893 1902 1976 1983 1994 1999 #cappadocia_cataonia_region
-				1794 1796 1799 1800 1805 1912 6420 #cappadocia_region
-				1853 1982 10286
-				1849 1891 1899
+				1796  1800 1805 #cappadocia_region
+				1853 1982
+				1891
 				8062 8061 10287 
 			}
 
@@ -1638,6 +1638,56 @@ country = {
 			}
 		}
 
+		HAT = { # Kanna
+			government = despotic_monarchy
+			primary_culture = phrygian
+			religion = anatolian_religion
+
+			capital = 1825
+
+			own_control_core = {
+			1825 1923 1932 202 10293 10294 7981 1913 1820 1912 10286
+			}
+		}
+
+		ZEL = { # Kanna
+			government = despotic_monarchy
+			primary_culture = cappadocian
+			religion = anatolian_religion
+
+			capital = 1834
+
+			own_control_core = {
+			1834 1838 1836 1832 1837 1839 1909 1841 1907 10297 10298 10299
+			}
+		}
+
+		GAG = { # Kanna
+			government = despotic_monarchy
+			primary_culture = paphlagonian
+			religion = hatti_religion
+
+			capital = 198
+
+			own_control_core = {
+			198 10182 10295 10296 199 201 203 1831 
+			218 196 197 204
+			}
+		}
+
+		KAM = { # Kanna
+			government = despotic_monarchy
+			primary_culture = morimenian
+			religion = anatolian_religion
+
+			capital = 1843
+
+			own_control_core = {
+			1843 1788 1789 1840 1845 1846 1833 8056 8057
+			8058 1842 1844 1848 1850 1849 1899 10289 6420
+			}
+		}
+
 		GRG = { # Akkise
 			government = tribal_federation
 			primary_culture = oroandian
@@ -1721,7 +1771,7 @@ country = {
 			capital = 1811
 
 			own_control_core = {
-				1811 1820 1813 1817
+				1811 1813 1817
 				10279 10285 10284 10278 10280
 			}
 		}
@@ -1836,11 +1886,10 @@ country = {
 			capital = 189
 
 			own_control_core = {
-				194 195 197 202 204 222 231 1825 193 226 #galatia_trocmi_region
-				1923 1932 #cappadocia_saravene
+				194 195 222 231 193 226 #galatia_trocmi_region
 				188 189 192 228 229 183 #galatia_region
-				10275 10205 10276 10201 10203 10273 10293 10294
-				218 196 10178 223 227 328 316 221 224 225 329 7765 10274
+				10275 10205 10276 10201 10203 10273
+				10178 223 227 328 316 221 224 225 329 7765 10274
 			}
 		}
 
@@ -1903,7 +1952,7 @@ country = {
 			capital = 1818
 
 			own_control_core = {
-				1818 7981 1913 205 10283 10281 10282 1954 1900
+				1818 205 10283 10281 10282 1954 1900 1794 1799
 			}
 		}
 
@@ -11178,7 +11227,7 @@ country = {
 			treasures = { 65 }
 
 			own_control_core = 	{
-				286 287 288 289 290 291 310 1972 1974 220 1808 10232 10231 10184 10225 8122 1969 10224 
+				286 287 288 289 290 291 310 1972 1974 220 10232 10231 10184 10225 8122 1969 10224 
 			}
 
 		}
@@ -11435,11 +11484,10 @@ country = {
 			centralization=10
 
 			own_control_core = 	{
-				1789 1790 1833 1834 1838 1839 1840 1845 1846 #pontus_colopene_region
-				1791 1792 1819 1821 1822 1823 1824 1826 1837 #pontus_region
+				1790 #pontus_colopene_region
+				1791 1792 1819 1821 1822 1823 1824 #pontus_region
 				1786 1787 1793 1801 1806 7994 7998 7999 1804
-				10297 10315 10187 10312 10313 10316 10185 10298
-				1841 1836 1832 1909 1907
+				10315 10187 10312 10313 10316 10185 1808 1782 1783 8055
 			}
 		}
 
@@ -11448,15 +11496,14 @@ country = {
 			primary_culture = paphlagonian
 			religion = hatti_religion
 
-			capital = 198
+			capital = 1827
 
 			own_control_core = 	{
-				198 199 200 201 232 1829 1827 1828 10295 10296 #paphlagonia_superior_region
+				200 232 1829 1826 1827 1828 #paphlagonia_superior_region
 				216 #heracleotis_region
 				206 211 1814 1815 1816 #paphlagonia_inferior_region
-				203
-				10309 10318 10311 10186 10182 
-				213 1831
+				10309 10318 10311 10186 
+				213
 			}
 		}
 
