@@ -8953,3 +8953,50 @@ kytoros_heritage = {
 		tag = KYT
 	}
 } 
+
+cilician_heritage = {
+    modifier = {
+        #good
+        global_monthly_food_modifier = 0.05
+        global_commerce_modifier= 0.10
+        #bad
+        global_pop_assimilation_speed_modifier = -0.10
+    }
+
+    trigger = {
+        primary_culture = cilician
+        NOR = {
+            tag = OBE
+        }
+    }
+}
+
+phyrgia_minor_heritage = {
+    modifier = {
+        #good
+        global_tribesmen_output = 0.05
+        global_goods_from_slaves = -2
+        #bad
+        global_commerce_modifier = -0.05
+    }
+
+    trigger = {
+        OR = {
+            tag = PH1
+            tag = PH2
+        }
+    }
+}
+
+daskyleion_heritage = {
+	modifier = {
+		#good 
+        global_freemen_output = 0.10
+        global_monthly_food_modifier = 0.10
+		#bad 
+        global_monthly_civilization = -0.03
+	}
+	trigger = {
+		tag = MY1
+	}
+} 

@@ -2890,7 +2890,7 @@
 	culture="mysian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
-	civilization_value=21
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -3861,7 +3861,7 @@
 	terrain="farmland"
 	culture="mysian"
 	religion="anatolian_religion"
-	trade_goods="wine"
+	trade_goods="grain"
 	civilization_value=21
 	barbarian_power=0
 	province_rank="settlement"

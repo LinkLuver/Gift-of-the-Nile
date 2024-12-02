@@ -52,7 +52,7 @@
 	culture="mysian"
 	religion="anatolian_religion"
 	trade_goods="olive"
-	civilization_value=22
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -145,7 +145,7 @@
 	culture="mysian"
 	religion="anatolian_religion"
 	trade_goods="hemp"
-	civilization_value=29
+	civilization_value=24
 	barbarian_power=0
 	province_rank="city"
 	citizen={
@@ -203,7 +203,7 @@
 	culture="phrygian"
 	religion="roman_pantheon"
 	trade_goods="marble"
-	civilization_value=24
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -508,7 +508,7 @@
 	culture="mysian"
 	religion="anatolian_religion"
 	trade_goods="base_metals"
-	civilization_value=24
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -531,8 +531,8 @@
 	terrain="forest"
 	culture="mysian"
 	religion="anatolian_religion"
-	trade_goods="horses"
-	civilization_value=24
+	trade_goods="honey"
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -655,7 +655,7 @@
 	culture="mysian"
 	religion="anatolian_religion"
 	trade_goods="base_metals"
-	civilization_value=24
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
