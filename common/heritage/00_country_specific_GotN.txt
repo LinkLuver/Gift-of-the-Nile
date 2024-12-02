@@ -558,7 +558,7 @@ mitanni_heritage = {
 qidraya_heritage = {
     modifier = {
         #good
-        happiness_for_wrong_culture_modifier = 0.1
+        happiness_for_wrong_culture_group_modifier = 0.05
         enslavement_efficiency = 0.1
 
         #bad
@@ -8938,5 +8938,18 @@ lysinia_heritage = {
 	}
 	trigger = {
 		tag = CYB
+	}
+} 
+
+kytoros_heritage = {
+	modifier = {
+		#good 
+        mountain_combat_bonus = 0.10
+        global_capital_trade_routes = 2
+		#bad 
+        fort_maintenance_cost = 0.15
+	}
+	trigger = {
+		tag = KYT
 	}
 } 

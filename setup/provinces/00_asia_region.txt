@@ -2019,40 +2019,28 @@
 
 1808={ #Kokalia
 	terrain="mountain"
-	culture="lydian"
+	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="stone"
-	civilization_value=26
+	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		culture="aeolian"
-		religion="roman_pantheon"
-		amount=1
-	}
-	citizen={
-		culture="ionian"
-		religion="roman_pantheon"
-		amount=1
-	}
 	freemen={
-		amount=1
-	}
-	freemen={
-		culture="aeolian"
-		religion="roman_pantheon"
-		amount=1
-	}
-	freemen={
-		culture="ionian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
+		amount=2
+	}
+	slaves={
+		culture="paphlagonian"
 		amount=1
 	}
 	tribesmen={
-		amount=2
+		amount=1
+	}
+	tribesmen={
+		religion="roman_pantheon"
+		amount=1
 	}
 }
 

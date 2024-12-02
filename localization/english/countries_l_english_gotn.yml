@@ -216,8 +216,12 @@
  ZEL_ADJ:0 "Zela"
  KAM:0 "Kamisa"
  KAM_ADJ:0 "Kamisan"
-
- 
+ IS2:0 "Anazarbos"
+ IS2_ADJ:0 "Anazarbosian"
+ TB1:0 "Lyinda"
+ TB1_ADJ:0 "Lyindan"
+ KYT:0 "Kytorosan League"
+ KYT_ADJ:0 "Kytorosan" 
 
  # LEVANT
  SWR:0 "Tyre"
@@ -280,6 +284,11 @@
  TUS_ADJ:0 "Tarsite"
  KAD:0 "Qadesh"
  KAD_ADJ:0 "Qadeshite"
+ CRA:0 "Cara"
+ CRA_ADJ:0 "Carite"
+ TLD:0 "Theleda"
+ TLD_ADJ:0 "Theledite"
+ 
 
  # GRECO-MACEDON
  TRE:0 "Thessaly"

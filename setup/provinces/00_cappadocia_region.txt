@@ -174,7 +174,7 @@
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
+	trade_goods="cattle"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
@@ -1679,24 +1679,20 @@
 
 7913={ #
 	terrain="hills"
-	culture="morimenian"
+	culture="lesser_armenian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="cattle"
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	freemen={
-		culture="cappadocian"
-		amount=1
+		amount=3
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
@@ -2082,8 +2078,8 @@
 	terrain="plains"
 	culture="morimenian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="cattle"
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -2164,17 +2160,13 @@
 
 8055={ #Sisorta
 	terrain="mountain"
-	culture="morimenian"
+	culture="cappadocian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="fur"
+	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	freemen={
-		culture="cappadocian"
 		amount=1
 	}
 	slaves={
@@ -2187,70 +2179,70 @@
 
 8056={ #Eudagina
 	terrain="plains"
-	culture="morimenian"
+	culture="cappadocian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="cattle"
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		culture="cappadocian"
-		amount=1
+		culture="cataonian"
+		amount=2
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
 8057={ #Simus
 	terrain="plains"
-	culture="morimenian"
+	culture="cappadocian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="cattle"
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		culture="cappadocian"
-		amount=1
+		culture="cataonian"
+		amount=2
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
 8058={ #Malandara
 	terrain="hills"
-	culture="morimenian"
+	culture="cappadocian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="cattle"
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=1
 	}
 	freemen={
-		culture="cappadocian"
-		amount=1
+		culture="cataonian"
+		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
@@ -2282,70 +2274,65 @@
 
 8060={ #Aladarich
 	terrain="mountain"
-	culture="morimenian"
+	culture="cappadocian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="stone"
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	freemen={
-		culture="cappadocian"
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
 8061={ #Arasaxa
 	terrain="plains"
-	culture="morimenian"
+	culture="cappadocian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="cattle"
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
 	freemen={
-		culture="cappadocian"
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		amount=3
+		amount=1
 	}
 }
 
 8062={ #Siricis
 	terrain="hills"
-	culture="morimenian"
+	culture="cataonian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="horses"
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	freemen={
 		culture="cappadocian"
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		amount=3
+		amount=1
 	}
 }
 
@@ -2510,24 +2497,31 @@
 
 10185={ #PROV10185
 	terrain="mountain"
-	culture="morimenian"
+	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="stone"
-	civilization_value=20
+	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	freemen={
-		culture="cappadocian"
+		culture="greco_pontic"
+		religion="zoroaster"
 		amount=1
 	}
 	slaves={
 		amount=2
 	}
+	slaves={
+		culture="lesser_armenian"
+		religion="anahitic_religion"
+		amount=2
+	}
 	tribesmen={
-		amount=3
+		amount=1
+	}
+	tribesmen={
+		religion="roman_pantheon"
+		amount=1
 	}
 }
 
@@ -2552,24 +2546,24 @@
 
 10187={ #PROV10187
 	terrain="mountain"
-	culture="morimenian"
+	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
-	civilization_value=20
+	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	freemen={
-		culture="cappadocian"
 		amount=1
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		amount=3
+		amount=1
+	}
+	tribesmen={
+		religion="roman_pantheon"
+		amount=1
 	}
 }
 
@@ -3348,24 +3342,28 @@
 
 10223={ #PROV10223
 	terrain="plains"
-	culture="morimenian"
+	culture="lesser_armenian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="cattle"
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=1
 	}
 	freemen={
-		culture="cappadocian"
+		culture="sophene"
 		amount=1
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=1
+	}
+	tribesmen={
+		culture="sophene"
+		amount=2
 	}
 }
 
@@ -4768,17 +4766,16 @@
 
 10286={ #PROV10286
 	terrain="mountain"
-	culture="morimenian"
+	culture="cappadocian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="fur"
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=1
 	}
 	freemen={
-		culture="cappadocian"
 		amount=1
 	}
 	slaves={
@@ -4791,18 +4788,14 @@
 
 10287={ #PROV10287
 	terrain="mountain"
-	culture="morimenian"
+	culture="cappadocian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="feathers"
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	freemen={
-		culture="cappadocian"
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=2
@@ -4814,115 +4807,124 @@
 
 10288={ #PROV10288
 	terrain="hills"
-	culture="morimenian"
+	culture="cataonian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="cattle"
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	freemen={
 		culture="cappadocian"
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
 10289={ #PROV10289
 	terrain="hills"
-	culture="morimenian"
+	culture="cappadocian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="cattle"
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		culture="cappadocian"
-		amount=1
+		culture="lesser_armenian"
+		religion="anahitic_religion"
+		amount=2
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
 10290={ #PROV10290
 	terrain="mountain"
-	culture="morimenian"
+	culture="cataonian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="iron"
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		culture="cappadocian"
-		amount=1
+		culture="sophene"
+		amount=2
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		amount=3
+		amount=1
 	}
 }
 
 10291={ #PROV10291
 	terrain="mountain"
-	culture="morimenian"
+	culture="cataonian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="stone"
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=1
 	}
 	freemen={
-		culture="cappadocian"
+		culture="sophene"
 		amount=1
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=1
+	}
+	tribesmen={
+		culture="sophene"
+		amount=2
 	}
 }
 
 10292={ #PROV10292
 	terrain="mountain"
-	culture="morimenian"
+	culture="cataonian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="base_metals"
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=1
 	}
 	freemen={
-		culture="cappadocian"
+		culture="sophene"
 		amount=1
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="sophene"
 		amount=3
 	}
 }
@@ -5024,18 +5026,19 @@
 
 10297={ #PROV10297
 	terrain="plains"
-	culture="morimenian"
+	culture="cappadocian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="cattle"
+	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		culture="cappadocian"
-		amount=1
+		culture="paphlagonian"
+		religion="hatti_religion"
+		amount=2
 	}
 	slaves={
 		amount=2
@@ -5072,24 +5075,30 @@
 
 10299={ #PROV10299
 	terrain="farmland"
-	culture="morimenian"
+	culture="cappadocian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="cattle"
+	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=1
 	}
 	freemen={
-		culture="cappadocian"
+		culture="paphlagonian"
+		religion="hatti_religion"
 		amount=1
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		amount=3
+		culture="paphlagonian"
+		religion="hatti_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=1
 	}
 }
 
@@ -5341,131 +5350,156 @@
 	slaves={
 		amount=2
 	}
+	port_building=1
 }
 
 10312={ #PROV10312
 	terrain="farmland"
-	culture="morimenian"
+	culture="cappadocian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="grain"
+	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	freemen={
-		culture="cappadocian"
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		amount=3
+		amount=1
+	}
+	tribesmen={
+		religion="roman_pantheon"
+		amount=1
 	}
 }
 
 10313={ #PROV10313
 	terrain="mountain"
-	culture="morimenian"
+	culture="cappadocian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="wood"
+	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=1
 	}
-	freemen={
-		culture="cappadocian"
-		amount=1
-	}
 	slaves={
 		amount=2
 	}
+	slaves={
+		culture="paphlagonian"
+		amount=1
+	}
 	tribesmen={
-		amount=3
+		amount=1
+	}
+	tribesmen={
+		religion="roman_pantheon"
+		amount=1
 	}
 }
 
 10314={ #PROV10314
 	terrain="farmland"
-	culture="morimenian"
-	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	culture="greco_pontic"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
 	freemen={
 		amount=1
 	}
 	freemen={
-		culture="cappadocian"
-		amount=1
+		culture="dumarian"
+		religion="druidism"
+		amount=2
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		amount=3
+		culture="cappadocian"
+		religion="anatolian_religion"
+		amount=1
 	}
 }
 
 10315={ #PROV10315
 	terrain="mountain"
-	culture="morimenian"
+	culture="cappadocian"
 	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	trade_goods="base_metals"
+	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=1
 	}
-	freemen={
-		culture="cappadocian"
-		amount=1
-	}
 	slaves={
 		amount=2
 	}
+	slaves={
+		culture="lesser_armenian"
+		religion="anahitic_religion"
+		amount=2
+	}
 	tribesmen={
-		amount=3
+		amount=1
+	}
+	tribesmen={
+		religion="roman_pantheon"
+		amount=1
 	}
 }
 
 10316={ #PROV10316
 	terrain="mountain"
-	culture="morimenian"
-	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	culture="greco_pontic"
+	religion="roman_pantheon"
+	trade_goods="iron"
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
 	freemen={
+		culture="dumarian"
+		religion="druidism"
 		amount=1
 	}
 	freemen={
 		culture="cappadocian"
+		religion="zoroaster"
 		amount=1
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		amount=3
+		amount=1
 	}
 }
 
 10317={ #PROV10317
 	terrain="mountain"
-	culture="morimenian"
-	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=20
+	culture="greco_pontic"
+	religion="roman_pantheon"
+	trade_goods="precious_metals"
+	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
 	freemen={
 		amount=1
 	}
@@ -5475,9 +5509,6 @@
 	}
 	slaves={
 		amount=2
-	}
-	tribesmen={
-		amount=3
 	}
 }
 

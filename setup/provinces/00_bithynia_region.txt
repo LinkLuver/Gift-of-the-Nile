@@ -117,29 +117,38 @@
 
 206={ #Kytoros
 	terrain="forest"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="roman_pantheon"
-	trade_goods="fish"
-	civilization_value=18
+	trade_goods="fruits"
+	civilization_value=24
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		culture="dumarian"
+		amount=1
+	}
 	citizen={
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	freemen={
-		culture="greco_pontic"
+		culture="dumarian"
 		amount=1
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
+		culture="paphlagonian"
 		religion="anatolian_religion"
-		amount=3
+		amount=2
 	}
+	port_building=1
 }
 
 207={ #Herakleia Pontike
@@ -1595,20 +1604,16 @@
 
 1814={ #Stephane
 	terrain="mountain"
-	culture="cappadocian"
+	culture="greco_pontic"
 	religion="roman_pantheon"
 	trade_goods="cloth"
-	civilization_value=18
+	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
-	}
-	freemen={
-		culture="greco_pontic"
 		amount=1
 	}
 	slaves={

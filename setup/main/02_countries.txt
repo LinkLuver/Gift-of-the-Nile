@@ -1482,6 +1482,7 @@ country = {
 				1763 1765 1766 1767 1768 1769 1770 1771 1772 1773 1775 1776 1778 #armenia_major_region
 				7844 1733 #armenia_major_region
 				1779 1781 1851 7845 #armenia_minor_region
+				8060 7913
 			}
 		}
 
@@ -1509,7 +1510,8 @@ country = {
 				1796  1800 1805 #cappadocia_region
 				1853 1982
 				1891
-				8062 8061 10287 
+				8062 8061 10287
+				10292 10291 10290 10288 
 			}
 
 			pantheon = {
@@ -1538,6 +1540,7 @@ country = {
 			own_control_core = {
 				858 859 860 878 1855 235 8007 8009 #sophene_region
 				1858 1856 1857 8008 8010 1866
+				8000 10223
 			}
 			historical_regnal_numbers = {
 				Arame = 1
@@ -1638,8 +1641,8 @@ country = {
 			}
 		}
 
-		HAT = { # Kanna
-			government = despotic_monarchy
+		HAT = { # Attus
+			government = tribal_federation
 			primary_culture = phrygian
 			religion = anatolian_religion
 
@@ -1651,7 +1654,7 @@ country = {
 		}
 
 		ZEL = { # Kanna
-			government = despotic_monarchy
+			government = tribal_federation
 			primary_culture = cappadocian
 			religion = anatolian_religion
 
@@ -1663,7 +1666,7 @@ country = {
 		}
 
 		GAG = { # Kanna
-			government = despotic_monarchy
+			government = tribal_federation
 			primary_culture = paphlagonian
 			religion = hatti_religion
 
@@ -1675,9 +1678,9 @@ country = {
 			}
 		}
 
-		KAM = { # Kanna
-			government = despotic_monarchy
-			primary_culture = morimenian
+		KAM = { # Kamisa
+			government = tribal_federation
+			primary_culture = cappadocian
 			religion = anatolian_religion
 
 			capital = 1843
@@ -11475,6 +11478,31 @@ country = {
 			treasures = { 49 51 }
 		}
 
+		KYT = { #Kytorosan League
+			government = plutocratic_republic
+			diplomatic_stance=trading_stance
+			primary_culture = greco_pontic
+			religion = roman_pantheon
+			capital = 206
+
+			poptype_rights = {
+				{
+					culture = dumarian
+					type = citizen
+				}
+			}
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{ 206 1816 1815 1814 }
+
+		}
+
 		PON = { # Pontus
 			government = tribal_federation
 			primary_culture = cappadocian
@@ -11486,8 +11514,8 @@ country = {
 			own_control_core = 	{
 				1790 #pontus_colopene_region
 				1791 1792 1819 1821 1822 1823 1824 #pontus_region
-				1786 1787 1793 1801 1806 7994 7998 7999 1804
-				10315 10187 10312 10313 10316 10185 1808 1782 1783 8055
+				1786 1787 1801 7994 7998 7999 1804
+				10315 10187 10312 10313 10185 1808 1782 1783 8055
 			}
 		}
 
@@ -11501,7 +11529,7 @@ country = {
 			own_control_core = 	{
 				200 232 1829 1826 1827 1828 #paphlagonia_superior_region
 				216 #heracleotis_region
-				206 211 1814 1815 1816 #paphlagonia_inferior_region
+			 	211 #paphlagonia_inferior_region
 				10309 10318 10311 10186 
 				213
 			}
