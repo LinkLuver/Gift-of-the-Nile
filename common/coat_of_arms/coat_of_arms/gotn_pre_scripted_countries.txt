@@ -529,7 +529,7 @@ SHE = {
 	}
 }
 
-PMR = {
+IMU = {
     pattern = "pattern_solid.tga"
     color1 = "phokaian_blue"
     color2 = "kemet_black"
