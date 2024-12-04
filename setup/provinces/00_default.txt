@@ -8908,6 +8908,26 @@
 	province_rank=""
 }
 
+10323={ #PROV10127
+	terrain="impassable_terrain"
+	culture="middle_egyptian"
+	religion="arabian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10324={ #PROV10127
+	terrain="impassable_terrain"
+	culture="middle_egyptian"
+	religion="arabian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
 10310={ #PROV10310
 	terrain="impassable_terrain"
 	culture="phrygian"
