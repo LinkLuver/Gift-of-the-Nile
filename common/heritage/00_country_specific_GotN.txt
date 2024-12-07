@@ -9202,4 +9202,20 @@ garmanian_heritage = {
     }
 }
 
+scordisci_heritage = {
+	modifier = {
+		#good
+		war_no_cb_cost_modifier = -0.25
+		land_morale_modifier = 0.05
+		#bad
+		diplomatic_reputation= -2
+	}
+	
+	trigger = {
+		OR = {
+			primary_culture = celtic_pannonian
+		}	
+	}
+}
+
 

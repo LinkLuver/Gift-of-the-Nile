@@ -2503,7 +2503,7 @@ SALLUVIA_FLAG = {
 		instance = { scale = { 0.70 0.70 } } 
 	}
 	colored_emblem = {
-        texture = "ce_border_beads.dds"
+        texture = "ce_border_beads.dds" #Placeholder until Izn makes the head asset
         color1 = "silver"
 		color2 = "offwhite"
 		instance = { rotation = 180 }
@@ -2532,6 +2532,84 @@ CNU = {
         texture = "ce_bee_01.dds"
         color1 = "epirus_yellow"
 		color2 = "mid_grey"
+	}
+}
+
+MFX = {
+	pattern = "pattern_solid.tga"
+	color1 = "silver"
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_venetic_sphinx_matte.dds"
+		color1 = rgb { 171 125 29 }
+		instance = { scale = { 0.90 0.90 } position = { 0.60 0.50 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_venetic_9.dds"
+		color1 = "offwhite"
+		color2 = rgb { 171 125 29 }
+		instance = { rotation = 270 }
+	}
+}
+
+MFX = {
+	pattern = "pattern_solid.tga"
+	color1 = "mid_grey"
+
+	colored_emblem = {
+		texture = "ce_cappadocia_native.dds"
+		color1 = "maurya_brown"
+		color2 = "spartan_brown"
+		instance = { scale = { 0.60 0.60 } position = { 0.30 0.80 } }
+	}
+	colored_emblem = {
+		texture = "ce_cappadocia_native.dds"
+		color1 = "spartan_brown"
+		color2 = "maurya_brown"
+		instance = { scale = { 0.60 0.60 } position = { 0.80 0.80 } }
+	}
+	colored_emblem = {
+		texture = "ce_hellenistic_inner_03.dds"
+		color1 = "light_gold"
+		color2 = "sun_yellow"
+		instance = { position = { 0.50 0.30 } }
+	}
+}
+
+ARE = {
+	pattern = "pattern_solid.tga"
+	color1 = "silver"
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_venetic_sphinx_matte.dds"
+		color1 = rgb { 171 125 29 }
+		instance = { scale = { 0.90 0.90 } position = { 0.60 0.50 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_venetic_9.dds"
+		color1 = "offwhite"
+		color2 = rgb { 171 125 29 }
+		instance = { rotation = 270 }
+	}
+}
+
+SAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "silver"
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_venetic_sphinx_matte.dds"
+		color1 = rgb { 171 125 29 }
+		instance = { scale = { 0.90 0.90 } position = { 0.60 0.50 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_venetic_9.dds"
+		color1 = "offwhite"
+		color2 = rgb { 171 125 29 }
+		instance = { rotation = 270 }
 	}
 }
 
