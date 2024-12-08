@@ -3,6 +3,7 @@
 	
 	joins_overlord_in_war = no
 	
+	can_build = no
 	protected_when_attacked = yes
 	has_overlords_ruler = no
 	can_be_integrated = no
@@ -98,6 +99,7 @@ tributary = {
 	
 	joins_overlord_in_war = no
 	
+	can_build = no
 	protected_when_attacked = yes
 	costs_diplomatic_slot = no
 	subject_can_cancel = yes
@@ -160,6 +162,7 @@ feudatory = { #Latin Allies
 
     joins_overlord_in_war = yes
     
+	can_build = yes
     protected_when_attacked = yes
     has_overlords_ruler = no
     can_be_integrated = yes
@@ -276,6 +279,7 @@ satrapy = {
 	
 	joins_overlord_in_war = yes
 	
+	can_build = yes
 	protected_when_attacked = yes
 	has_overlords_ruler = no
 	can_be_integrated = yes
@@ -340,6 +344,7 @@ client_state = {
 	
 	joins_overlord_in_war = yes
 	
+	can_build = yes
 	protected_when_attacked = yes
 	has_overlords_ruler = no
 	can_be_integrated = yes
@@ -412,6 +417,7 @@ subject_colony = {
 	
 	joins_overlord_in_war = no
 	
+	can_build = yes
 	protected_when_attacked = yes
 	has_overlords_ruler = no
 	can_be_integrated = no
@@ -477,6 +483,7 @@ subject_mercenary_city_state = {
 	
 	joins_overlord_in_war = yes
 	
+	can_build = yes
 	protected_when_attacked = yes
 	has_overlords_ruler = no
 	can_be_integrated = yes
@@ -537,6 +544,7 @@ subject_league_city_state = {
 	
 	joins_overlord_in_war = no
 	
+	can_build = yes
 	protected_when_attacked = yes
 	has_overlords_ruler = no
 	can_be_integrated = no
@@ -599,6 +607,7 @@ kushite_client = {
 	
 	joins_overlord_in_war = yes
 	
+	can_build = yes
 	protected_when_attacked = yes
 	has_overlords_ruler = no
 	can_be_integrated = yes
@@ -658,6 +667,7 @@ indian_client = {
 	
 	joins_overlord_in_war = yes
 	
+	can_build = yes
 	protected_when_attacked = yes
 	has_overlords_ruler = no
 	can_be_integrated = yes
@@ -718,6 +728,7 @@ fiefdom = {
 	
 	joins_overlord_in_war = yes
 	
+	can_build = yes
 	protected_when_attacked = yes
 	has_overlords_ruler = no
 	can_be_integrated = no
@@ -779,6 +790,7 @@ uparaja_subject = {
 	
 	joins_overlord_in_war = no
 	
+	can_build = yes
 	protected_when_attacked = no
 	has_overlords_ruler = no
 	can_be_integrated = no
@@ -839,6 +851,7 @@ great_satrapy = {
 	
 	joins_overlord_in_war = yes
 	
+	can_build = yes
 	protected_when_attacked = yes
 	has_overlords_ruler = no
 	can_be_integrated = yes
@@ -897,6 +910,7 @@ hittite_viceroyalty = {
 	
 	joins_overlord_in_war = no
 	
+	can_build = yes
 	protected_when_attacked = yes
 	has_overlords_ruler = no
 	can_be_integrated = no
@@ -922,8 +936,9 @@ hittite_viceroyalty = {
 ashemis_astarhos = {
 	subject_pays = subject_pays_satrapy
 	
-	joins_overlord_in_war = no
+	joins_overlord_in_war = yes
 	
+	can_build = yes
 	protected_when_attacked = yes
 	has_overlords_ruler = no
 	can_be_integrated = yes
