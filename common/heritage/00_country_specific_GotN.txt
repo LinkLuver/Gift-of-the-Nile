@@ -324,7 +324,7 @@ imu_heritage = {
     }
 
     trigger = {
-        tag = PMR
+        tag = IMU
     }
 }
 sebennytos_heritage = {
