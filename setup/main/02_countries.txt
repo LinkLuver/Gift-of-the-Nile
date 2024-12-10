@@ -567,7 +567,7 @@ country = {
 			}
 
 			own_control_core = {
-				517 532 529 530
+				517
 			}
 		}
 
@@ -895,6 +895,213 @@ country = {
 				660 662 661 690 693
 			}
 		}
+
+		IMU = {
+			government = nomarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = avarite_egyptian
+			religion = egyptian_pantheon
+			capital = 9842
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = {
+				9842 9922 9841 9843
+			}
+		}
+
+		ITM = {
+			government = nomarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = avarite_egyptian
+			religion = egyptian_pantheon
+			capital = 502
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+			military_tech={ level=2 progress=0 }
+			civic_tech={ level=2 progress=0 }
+			oratory_tech={ level=2 progress=0 }
+			religious_tech= { level=2 progress=0  }
+			}
+			own_control_core = {
+				502 655 9821
+			}
+		}
+
+		SAK = {
+			government = nomarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = avarite_egyptian
+			religion = egyptian_pantheon
+			capital = 9856
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+			military_tech={ level=2 progress=0 }
+			civic_tech={ level=2 progress=0 }
+			oratory_tech={ level=2 progress=0 }
+			religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = {
+			9851 9856
+			}
+		}
+
+		MDN = {
+			government = nomarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = avarite_egyptian
+			religion = egyptian_pantheon
+			capital = 9845
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+			military_tech={ level=2 progress=0 }
+			civic_tech={ level=2 progress=0 }
+			oratory_tech={ level=2 progress=0 }
+			religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = {
+			9845 526 528
+			}
+		}
+
+		PGU = {
+			government = nomarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = avarite_egyptian
+			religion = egyptian_pantheon
+			capital = 529
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = {
+				529
+			}
+		}
+
+		ROS = {
+			government = nomarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = avarite_egyptian
+			religion = egyptian_pantheon
+			capital = 9835
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = {
+				9835 9834 9836 9837 9838 9839 9840
+			}
+		}
+
+		TAP = {
+			government = nomarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = egyptiote
+			religion = egyptian_pantheon
+			capital = 510
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = {
+				510 525 9824 9867 9868
+			}
+		}
+
+		SPD = {
+			government = nomarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = avarite_egyptian
+			religion = egyptian_pantheon
+			capital = 9871
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = {
+				9871
+			}
+		}
+
+		NIK = {
+			government = nomarchy
+			diplomatic_stance=appeasement_stance
+			primary_culture = avarite_egyptian
+			religion = egyptian_pantheon
+			capital = 514
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			monarchy_military_reforms = work_for_the_best
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = {
+				512 513 514 9844 9870
+			}
+		}
+
 		#Mesopotamia
 		SEL = {
 			family = 2202
