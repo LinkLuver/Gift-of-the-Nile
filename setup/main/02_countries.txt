@@ -567,7 +567,7 @@ country = {
 			}
 
 			own_control_core = {
-				517 529
+				517
 			}
 		}
 
@@ -919,7 +919,7 @@ country = {
 			}
 		}
 
-		A1M = {
+		ITM = {
 			government = nomarchy
 			diplomatic_stance=appeasement_stance
 			primary_culture = avarite_egyptian
@@ -931,12 +931,11 @@ country = {
 			monarchy_military_reforms = work_for_the_best
 
 			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
+			military_tech={ level=2 progress=0 }
+			civic_tech={ level=2 progress=0 }
+			oratory_tech={ level=2 progress=0 }
+			religious_tech= { level=2 progress=0  }
 			}
-
 			own_control_core = {
 				502 655 9821
 			}
@@ -954,14 +953,14 @@ country = {
 			monarchy_military_reforms = work_for_the_best
 
 			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
+			military_tech={ level=2 progress=0 }
+			civic_tech={ level=2 progress=0 }
+			oratory_tech={ level=2 progress=0 }
+			religious_tech= { level=2 progress=0  }
 			}
 
 			own_control_core = {
-				9851 9856
+			9851 9856
 			}
 		}
 
@@ -977,14 +976,14 @@ country = {
 			monarchy_military_reforms = work_for_the_best
 
 			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
+			military_tech={ level=2 progress=0 }
+			civic_tech={ level=2 progress=0 }
+			oratory_tech={ level=2 progress=0 }
+			religious_tech= { level=2 progress=0  }
 			}
 
 			own_control_core = {
-				9845 526 528
+			9845 526 528
 			}
 		}
 
@@ -1103,50 +1102,6 @@ country = {
 			}
 		}
 
-		DDU = {
-			government = nomarchy
-			diplomatic_stance=appeasement_stance
-			primary_culture = aegyptian
-			religion = egyptian_pantheon
-			capital = 9852
-			succession_law=egyption_succession_law
-			succession=old_egyptian_succession
-			monarchy_citizen_law = foreign_law_for_minorities
-			monarchy_military_reforms = work_for_the_best
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			own_control_core = {
-				9852 9848 9847
-			}
-		}
-		DMT = {
-			government = nomarchy
-			diplomatic_stance=appeasement_stance
-			primary_culture = avarite_egyptian
-			religion = egyptian_pantheon
-			capital = 7690
-			succession_law=egyption_succession_law
-			succession=old_egyptian_succession
-			monarchy_citizen_law = foreign_law_for_minorities
-			monarchy_military_reforms = work_for_the_best
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			own_control_core = {
-				7690 9825 9862 9863 9861 9859
-			}
-		}
 		#Mesopotamia
 		SEL = {
 			family = 2202
