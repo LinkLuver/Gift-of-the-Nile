@@ -8999,4 +8999,43 @@ daskyleion_heritage = {
 	trigger = {
 		tag = MY1
 	}
-} 
+}
+
+attus_heritage = {
+	modifier = {
+		#good 
+        global_population_growth = 0.05
+        build_time = -0.20
+		#bad 
+        build_cost = 0.05
+	}
+	trigger = {
+		tag = HAT
+	}
+}
+
+ouenasa_heritage = {
+	modifier = {
+		#good 
+        stability_cost_modifier = -0.20
+        diplomatic_relations= 2
+		#bad 
+        agressive_expansion_impact = 0.10
+	}
+	trigger = {
+		tag = OUE
+	}
+}
+
+holmoi_heritage = {
+	modifier = {
+		#good 
+        global_tax_modifier= 0.05
+        ship_cost = -0.10
+		#bad 
+        global_tribesmen_output = -0.05
+	}
+	trigger = {
+		tag = HMI
+	}
+}

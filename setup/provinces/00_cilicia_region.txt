@@ -640,7 +640,7 @@
 	trade_goods="cedar"
 	civilization_value=25
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		culture="cilician"
 		religion="hurrian_pantheon"
@@ -649,7 +649,7 @@
 	citizen={
 		culture="ionian"
 		religion="hurrian_pantheon"
-		amount=1
+		amount=2
 	}
 	freemen={
 		amount=1
@@ -670,6 +670,7 @@
 		culture="cilician"
 		amount=1
 	}
+	port_building=1
 }
 
 1892={ #Elaioussa
@@ -713,6 +714,9 @@
 	civilization_value=33
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
 		religion="hurrian_pantheon"
 		amount=1
@@ -722,11 +726,15 @@
 		amount=1
 	}
 	freemen={
+		culture="ionian"
+		amount=1
+	}
+	freemen={
 		amount=1
 	}
 	freemen={
 		culture="lalasian"
-		amount=1
+		amount=2
 	}
 	freemen={
 		religion="hurrian_pantheon"
