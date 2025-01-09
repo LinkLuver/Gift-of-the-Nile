@@ -17047,6 +17047,19 @@ country = {
 	
 		}
 
+		TSH = {
+			government = tribal_kingdom
+			primary_culture = caspian
+			religion = mithra_religion
+
+			capital = 5480
+			
+
+			own_control_core = {
+				5477 5479 5480 5481 5486
+			}
+		}
+
 		GA1 = {
 			government = tribal_chiefdom
 			primary_culture = macaean
@@ -17209,6 +17222,38 @@ country = {
 
 			own_control_core = {
 				5477 5479 5480 5481 5486
+			}
+		}
+
+		IB1 = {
+			government = tribal_kingdom
+			primary_culture = lazi
+			religion = caucasian_religion
+
+			capital = 1756
+
+
+			own_control_core = 	{
+				1756 10389 10390 10367 10366
+			}
+		}
+
+		IB3 = {
+			government = plutocratic_republic
+			primary_culture = urtaian
+			religion = armenian_religion
+
+			capital = 988
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+				}
+
+			own_control_core = {
+				988 998 10346 995
 			}
 		}
 	}
