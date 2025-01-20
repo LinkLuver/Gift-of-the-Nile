@@ -9274,6 +9274,48 @@ ilici_heritage = {
 	}
 }
 
+mantasanian_heritage = {
+	modifier = {
+		#good
+		global_monthly_food_modifier = 0.05
+        heavy_infantry_plains_combat_bonus = 0.10
+		#bad
+		diplomatic_relations= -1
+	}
+	
+	trigger = {
+		tag = MTS
+	}
+}
+
+lobetanian_heritage = {
+	modifier = {
+		#good
+		army_movement_speed = 0.05
+        global_tax_modifier = 0.05
+		#bad
+		monthly_political_influence_modifier = -0.05
+	}
+	
+	trigger = {
+		tag = LBT
+	}
+}
+
+sedetanian_heritage = {
+	modifier = {
+		#good
+		civic_tech_investment = 0.10
+        global_tax_modifier = 0.05
+		#bad
+		global_pop_conversion_speed_modifier = -0.05
+	}
+	
+	trigger = {
+		tag = SDT
+	}
+}
+
 
 
 

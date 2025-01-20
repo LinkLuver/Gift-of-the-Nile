@@ -1,0 +1,15 @@
+country_decisions = {
+	tadmor_culture_switch = {
+		potential = {
+			num_of_cities >=1
+			tag = PAL
+			NOT = {has_variable = tadmor_culture_switch_var }
+		}
+		highlight = {
+            scope:province = {
+                OR = {
+                    dominant_province_culture = aramaic
+                }
+            }
+        }
+		

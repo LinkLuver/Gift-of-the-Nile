@@ -187,6 +187,10 @@ diplomacy = {
 	#Oretania-Garmania
 	dependency = { first = ORT second = GRM subject_type = feudatory }
 
+	#Mantasania-Lobetania Alliance of Victory and Everlasting Friendship
+	alliance = { first = MTS second = LBT }
+
+
 	#Free Massalian States
 	defensive_league = {
 		member = EPO

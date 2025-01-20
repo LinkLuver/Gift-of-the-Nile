@@ -224,7 +224,7 @@
 	culture="contestanian"
 	religion="animism"
 	trade_goods="wood"
-	civilization_value=8
+	civilization_value=12
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -297,7 +297,7 @@
 	culture="bastetanian"
 	religion="animism"
 	trade_goods="precious_metals"
-	civilization_value=21
+	civilization_value=20
 	barbarian_power=0
 	province_rank="city"
 	citizen={
@@ -306,20 +306,25 @@
 		amount=2
 	}
 	citizen={
-		amount=2
+		amount=1
+	}
+	citizen={
+		culture="massalian"
+		religion="roman_pantheon"
+		amount=1
 	}
 	citizen={
 		culture="turdetanian"
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=7
 	}
 	port_building=1
 }
@@ -755,14 +760,20 @@
 	culture="contestanian"
 	religion="animism"
 	trade_goods="stone"
-	civilization_value=8
+	civilization_value=13
 	barbarian_power=0
 	province_rank="settlement"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
 	tribesmen={
-		amount=4
+		amount=3
 	}
 }
 
@@ -819,9 +830,12 @@
 	culture="contestanian"
 	religion="animism"
 	trade_goods="wine"
-	civilization_value=11
+	civilization_value=14
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -1252,7 +1266,7 @@
 	culture="bastetanian"
 	religion="animism"
 	trade_goods="fur"
-	civilization_value=13
+	civilization_value=14
 	barbarian_power=0
 	province_rank="city"
 	citizen={
