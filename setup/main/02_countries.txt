@@ -7281,7 +7281,19 @@ country = {
 			capital = 1036
 
 			own_control_core = 	{
-				1036 1035 1034
+				1036 1035
+			}
+		}
+
+		ILC = {
+			government = tribal_kingdom
+			primary_culture = contestanian
+			religion = animism
+
+			capital = 1034
+
+			own_control_core = 	{
+				1034
 			}
 		}
 

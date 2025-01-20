@@ -9218,4 +9218,62 @@ scordisci_heritage = {
 	}
 }
 
+deitanian_heritage = {
+	modifier = {
+		#good
+		global_defensive = 0.05
+        war_exhaustion = -0.05
+		#bad
+		agressive_expansion_impact = 0.05
+	}
+	
+	trigger = {
+		tag = DEI
+	}
+}
+
+eburani_heritage = {
+	modifier = {
+		#good
+		global_freemen_output = 0.05
+        global_export_commerce_modifier = 0.10
+		#bad
+		build_time = 0.20
+	}
+	
+	trigger = {
+		tag = EBI
+	}
+}
+
+contestani_heritage = {
+	modifier = {
+		#good
+		land_morale_modifier = 0.03
+        monthly_political_influence_modifier = 0.05
+		#bad
+		monthly_corruption = 0.03
+	}
+	
+	trigger = {
+		tag = CNT
+	}
+}
+
+ilici_heritage = {
+	modifier = {
+		#good
+		global_population_growth = 0.03
+        global_tax_modifier=0.10
+		#bad
+		omen_power = -0.10
+	}
+	
+	trigger = {
+		tag = ILC
+	}
+}
+
+
+
 
