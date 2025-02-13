@@ -1,4 +1,4 @@
-﻿483={ #Arda
+﻿483={ #Artales
 	terrain="mountain"
 	culture="lesser_armenian"
 	religion="anahitic_religion"
@@ -58,7 +58,7 @@
 	}
 }
 
-988={ #Tushpa
+988={ #Thospia
 	terrain="farmland"
 	culture="arzasha"
 	religion="anahitic_religion"
@@ -109,7 +109,7 @@
 }
 
 990={ #Archesh
-	terrain="plains"
+	terrain="farmland"
 	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="vegetables"
@@ -251,7 +251,7 @@
 	}
 }
 
-998={ #Artamat
+998={ #Artemita Vaspurakan
 	terrain="plains"
 	culture="arzasha"
 	religion="anahitic_religion"
@@ -311,7 +311,7 @@
 }
 
 1501={ #Naxouana
-	terrain="hills"
+	terrain="plains"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="steppe_horses"
@@ -602,7 +602,7 @@
 }
 
 1530={ #Bakurakerta
-	terrain="mountain"
+	terrain="hills"
 	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="vegetables"
@@ -769,7 +769,7 @@
 }
 
 1538={ #Golt'n
-	terrain="hills"
+	terrain="mountain"
 	culture="armenian"
 	religion="zoroaster"
 	trade_goods="fruits"
@@ -799,7 +799,7 @@
 }
 
 1539={ #Jula
-	terrain="plains"
+	terrain="hills"
 	culture="armenian"
 	religion="mithra_religion"
 	trade_goods="grain"
@@ -818,7 +818,7 @@
 }
 
 1540={ #Parakan
-	terrain="hills"
+	terrain="mountain"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="wood"
@@ -1043,7 +1043,7 @@
 }
 
 1550={ #Maravan
-	terrain="plains"
+	terrain="farmland"
 	culture="armenian"
 	religion="zoroaster"
 	trade_goods="grain"
@@ -1145,7 +1145,7 @@
 }
 
 1562={ #Patansana
-	terrain="forest"
+	terrain="plains"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="wood"
@@ -1165,7 +1165,7 @@
 }
 
 1563={ #Dutakh
-	terrain="forest"
+	terrain="farmland"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="horses"
@@ -1185,7 +1185,7 @@
 }
 
 1564={ #Kolchion
-	terrain="forest"
+	terrain="hills"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="wood"
@@ -1202,7 +1202,7 @@
 }
 
 1566={ #Didima
-	terrain="forest"
+	terrain="farmland"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="wine"
@@ -1219,7 +1219,7 @@
 }
 
 1567={ #Bagauna
-	terrain="forest"
+	terrain="hills"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="wine"
@@ -1257,7 +1257,7 @@
 }
 
 1569={ #Paracata
-	terrain="forest"
+	terrain="farmland"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="grain"
@@ -1284,7 +1284,7 @@
 }
 
 1570={ #Armaouira
-	terrain="plains"
+	terrain="farmland"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="steppe_horses"
@@ -1327,7 +1327,7 @@
 }
 
 1571={ #Artaxata
-	terrain="plains"
+	terrain="farmland"
 	culture="armenian"
 	religion="zoroaster"
 	trade_goods="horses"
@@ -1362,7 +1362,7 @@
 }
 
 1572={ #Dowin
-	terrain="plains"
+	terrain="farmland"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="horses"
@@ -1404,7 +1404,7 @@
 }
 
 1575={ #Erebuni
-	terrain="plains"
+	terrain="farmland"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="vegetables"
@@ -1424,7 +1424,7 @@
 }
 
 1576={ #Kainepolis Syracene
-	terrain="plains"
+	terrain="farmland"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="horses"
@@ -1445,7 +1445,7 @@
 }
 
 1577={ #Motene
-	terrain="hills"
+	terrain="plains"
 	culture="armenian"
 	religion="mithra_religion"
 	trade_goods="honey"
@@ -1520,7 +1520,7 @@
 }
 
 1581={ #Eruandashat
-	terrain="forest"
+	terrain="hills"
 	culture="armenian"
 	religion="mithra_religion"
 	trade_goods="honey"
@@ -1556,7 +1556,7 @@
 }
 
 1583={ #Dzhrapi
-	terrain="forest"
+	terrain="plains"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="honey"
@@ -1579,7 +1579,7 @@
 }
 
 1585={ #Shirakavan
-	terrain="forest"
+	terrain="farmland"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="wood"
@@ -1599,7 +1599,7 @@
 }
 
 1588={ #Kamo
-	terrain="forest"
+	terrain="plains"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="cattle"
@@ -1618,7 +1618,7 @@
 }
 
 1589={ #Atarbegian
-	terrain="forest"
+	terrain="plains"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="iron"
@@ -1657,7 +1657,7 @@
 }
 
 1591={ #Karchakhpyur
-	terrain="forest"
+	terrain="plains"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="fish"
@@ -1674,7 +1674,7 @@
 }
 
 1592={ #Akunk
-	terrain="forest"
+	terrain="plains"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="feathers"
@@ -1695,7 +1695,7 @@
 }
 
 1605={ #Gezlu
-	terrain="forest"
+	terrain="mountain"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="fish"
@@ -1715,7 +1715,7 @@
 }
 
 1606={ #Berdatekh
-	terrain="hills"
+	terrain="mountain"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="wood"
@@ -1756,7 +1756,7 @@
 }
 
 1615={ #Balaberd
-	terrain="hills"
+	terrain="mountain"
 	culture="armenian"
 	religion="mithra_religion"
 	trade_goods="iron"
@@ -1776,7 +1776,7 @@
 }
 
 1623={ #Arevik
-	terrain="hills"
+	terrain="mountain"
 	culture="armenian"
 	religion="mithra_religion"
 	trade_goods="base_metals"
@@ -1828,7 +1828,7 @@
 }
 
 1669={ #Chahuk
-	terrain="hills"
+	terrain="mountain"
 	culture="armenian"
 	religion="mithra_religion"
 	trade_goods="leather"
@@ -1851,7 +1851,7 @@
 }
 
 1698={ #Sinara
-	terrain="hills"
+	terrain="forest"
 	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="leather"
@@ -1873,7 +1873,7 @@
 }
 
 1736={ #Vagharshakert
-	terrain="forest"
+	terrain="farmland"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="obsidian"
@@ -1894,7 +1894,7 @@
 }
 
 1744={ #Karana
-	terrain="hills"
+	terrain="plains"
 	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="obsidian"
@@ -1917,7 +1917,7 @@
 }
 
 1747={ #Gymnias
-	terrain="hills"
+	terrain="farmland"
 	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="horses"
@@ -1936,7 +1936,7 @@
 }
 
 1751={ #Barantea
-	terrain="forest"
+	terrain="plains"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="horses"
@@ -1960,7 +1960,7 @@
 }
 
 1759={ #Sper
-	terrain="hills"
+	terrain="forest"
 	culture="colchian"
 	religion="anahitic_religion"
 	trade_goods="cattle"
@@ -2009,7 +2009,7 @@
 }
 
 1761={ #Charton
-	terrain="hills"
+	terrain="farmland"
 	culture="colchian"
 	religion="anahitic_religion"
 	trade_goods="stone"
@@ -2036,7 +2036,7 @@
 }
 
 1762={ #Bagariza
-	terrain="hills"
+	terrain="mountain"
 	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="fruits"
@@ -2056,7 +2056,7 @@
 }
 
 1763={ #Tareina
-	terrain="hills"
+	terrain="forest"
 	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="wood"
@@ -2083,7 +2083,7 @@
 }
 
 1764={ #Bizana
-	terrain="hills"
+	terrain="forest"
 	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="vegetables"
@@ -2138,7 +2138,7 @@
 }
 
 4037={ #Kitharizon
-	terrain="hills"
+	terrain="plains"
 	culture="arzasha"
 	religion="anahitic_religion"
 	trade_goods="wood"
@@ -2249,30 +2249,8 @@
 	}
 }
 
-10325={ #Shatagh
-	terrain="marsh"
-	culture="cardukoi"
-	religion="mesopotamian_religion"
-	trade_goods="cattle"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-10326={ #Shatagh
-	terrain="marsh"
+10325={ #PROV10325
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2293,8 +2271,8 @@
 	}
 }
 
-10327={ #Shatagh
-	terrain="marsh"
+10326={ #PROV10326
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2315,8 +2293,8 @@
 	}
 }
 
-10328={ #Shatagh
-	terrain="marsh"
+10327={ #PROV10327
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2337,8 +2315,8 @@
 	}
 }
 
-10329={ #Shatagh
-	terrain="marsh"
+10328={ #PROV10328
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2359,8 +2337,8 @@
 	}
 }
 
-10330={ #Shatagh
-	terrain="marsh"
+10329={ #PROV10329
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2381,8 +2359,8 @@
 	}
 }
 
-10331={ #Shatagh
-	terrain="marsh"
+10330={ #PROV10330
+	terrain="farmland"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2403,7 +2381,7 @@
 	}
 }
 
-10332={ #Shatagh
+10331={ #PROV10331
 	terrain="marsh"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -2425,8 +2403,8 @@
 	}
 }
 
-10333={ #Shatagh
-	terrain="marsh"
+10332={ #PROV10332
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2447,8 +2425,8 @@
 	}
 }
 
-10334={ #Shatagh
-	terrain="marsh"
+10333={ #PROV10333
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2469,8 +2447,8 @@
 	}
 }
 
-10335={ #Shatagh
-	terrain="marsh"
+10334={ #PROV10334
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2491,7 +2469,7 @@
 	}
 }
 
-10336={ #Shatagh
+10335={ #PROV10335
 	terrain="marsh"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -2513,8 +2491,8 @@
 	}
 }
 
-10337={ #Shatagh
-	terrain="marsh"
+10336={ #PROV10336
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2535,7 +2513,7 @@
 	}
 }
 
-10338={ #Shatagh
+10337={ #PROV10337
 	terrain="marsh"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -2557,8 +2535,8 @@
 	}
 }
 
-10339={ #Shatagh
-	terrain="marsh"
+10338={ #PROV10338
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2579,8 +2557,8 @@
 	}
 }
 
-10340={ #Shatagh
-	terrain="marsh"
+10339={ #PROV10339
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2601,8 +2579,8 @@
 	}
 }
 
-10341={ #Shatagh
-	terrain="marsh"
+10340={ #PROV10340
+	terrain="farmland"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2623,8 +2601,8 @@
 	}
 }
 
-10342={ #Shatagh
-	terrain="marsh"
+10341={ #PROV10341
+	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2645,8 +2623,8 @@
 	}
 }
 
-10343={ #Shatagh
-	terrain="marsh"
+10342={ #PROV10342
+	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2667,8 +2645,8 @@
 	}
 }
 
-10344={ #Shatagh
-	terrain="marsh"
+10343={ #PROV10343
+	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2689,8 +2667,8 @@
 	}
 }
 
-10345={ #Shatagh
-	terrain="marsh"
+10344={ #PROV10344
+	terrain="farmland"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2711,8 +2689,8 @@
 	}
 }
 
-10346={ #Shatagh
-	terrain="marsh"
+10345={ #PROV10345
+	terrain="farmland"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2733,7 +2711,7 @@
 	}
 }
 
-10347={ #Shatagh
+10346={ #PROV10346
 	terrain="marsh"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -2755,8 +2733,8 @@
 	}
 }
 
-10348={ #Shatagh
-	terrain="marsh"
+10347={ #PROV10347
+	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2777,8 +2755,8 @@
 	}
 }
 
-10349={ #Shatagh
-	terrain="marsh"
+10349={ #PROV10349
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2799,8 +2777,8 @@
 	}
 }
 
-10350={ #Shatagh
-	terrain="marsh"
+10350={ #PROV10350
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2821,8 +2799,8 @@
 	}
 }
 
-10351={ #Shatagh
-	terrain="marsh"
+10351={ #PROV10351
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2843,8 +2821,8 @@
 	}
 }
 
-10352={ #Shatagh
-	terrain="marsh"
+10352={ #PROV10352
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2865,8 +2843,8 @@
 	}
 }
 
-10353={ #Shatagh
-	terrain="marsh"
+10353={ #PROV10353
+	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2887,8 +2865,8 @@
 	}
 }
 
-10354={ #Shatagh
-	terrain="marsh"
+10354={ #PROV10354
+	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2909,8 +2887,8 @@
 	}
 }
 
-10355={ #Shatagh
-	terrain="marsh"
+10355={ #PROV10355
+	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2931,10 +2909,8 @@
 	}
 }
 
-
-
-10356={ #Shatagh
-	terrain="marsh"
+10356={ #PROV10356
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2954,11 +2930,9 @@
 		amount=3
 	}
 }
-
-
 
-10357={ #Shatagh
-	terrain="marsh"
+10357={ #PROV10357
+	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -2978,11 +2952,9 @@
 		amount=3
 	}
 }
-
 
-
-10358={ #Shatagh
-	terrain="marsh"
+10358={ #PROV10358
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3002,11 +2974,9 @@
 		amount=3
 	}
 }
-
 
-
-10359={ #Shatagh
-	terrain="marsh"
+10359={ #PROV10359
+	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3027,8 +2997,8 @@
 	}
 }
 
-10360={ #Shatagh
-	terrain="marsh"
+10360={ #PROV10360
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3049,8 +3019,8 @@
 	}
 }
 
-10361={ #Shatagh
-	terrain="marsh"
+10361={ #PROV10361
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3071,8 +3041,8 @@
 	}
 }
 
-10362={ #Shatagh
-	terrain="marsh"
+10362={ #PROV10362
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3093,8 +3063,8 @@
 	}
 }
 
-10363={ #Shatagh
-	terrain="marsh"
+10363={ #PROV10363
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3115,8 +3085,8 @@
 	}
 }
 
-10364={ #Shatagh
-	terrain="marsh"
+10364={ #PROV10364
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3137,8 +3107,8 @@
 	}
 }
 
-10365={ #Shatagh
-	terrain="marsh"
+10365={ #PROV10365
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3159,8 +3129,8 @@
 	}
 }
 
-10366={ #Shatagh
-	terrain="marsh"
+10366={ #PROV10366
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3181,8 +3151,8 @@
 	}
 }
 
-10367={ #Shatagh
-	terrain="marsh"
+10367={ #PROV10367
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3203,8 +3173,8 @@
 	}
 }
 
-10368={ #Shatagh
-	terrain="marsh"
+10368={ #PROV10368
+	terrain="farmland"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3225,8 +3195,8 @@
 	}
 }
 
-10369={ #Shatagh
-	terrain="marsh"
+10369={ #PROV10369
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3247,8 +3217,8 @@
 	}
 }
 
-10370={ #Shatagh
-	terrain="marsh"
+10370={ #PROV10370
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3269,8 +3239,8 @@
 	}
 }
 
-10371={ #Shatagh
-	terrain="marsh"
+10371={ #PROV10371
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3291,8 +3261,8 @@
 	}
 }
 
-10372={ #Shatagh
-	terrain="marsh"
+10372={ #PROV10372
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3313,8 +3283,8 @@
 	}
 }
 
-10373={ #Shatagh
-	terrain="marsh"
+10374={ #PROV10374
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3335,8 +3305,8 @@
 	}
 }
 
-10374={ #Shatagh
-	terrain="marsh"
+10375={ #PROV10375
+	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3357,8 +3327,8 @@
 	}
 }
 
-10375={ #Shatagh
-	terrain="marsh"
+10376={ #PROV10376
+	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3379,8 +3349,8 @@
 	}
 }
 
-10376={ #Shatagh
-	terrain="marsh"
+10377={ #PROV10377
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3401,8 +3371,8 @@
 	}
 }
 
-10377={ #Shatagh
-	terrain="marsh"
+10378={ #PROV10378
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3423,8 +3393,8 @@
 	}
 }
 
-10378={ #Shatagh
-	terrain="marsh"
+10379={ #PROV10379
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3445,8 +3415,8 @@
 	}
 }
 
-10379={ #Shatagh
-	terrain="marsh"
+10380={ #PROV10380
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3467,8 +3437,8 @@
 	}
 }
 
-10380={ #Shatagh
-	terrain="marsh"
+10381={ #PROV10381
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3489,8 +3459,8 @@
 	}
 }
 
-10381={ #Shatagh
-	terrain="marsh"
+10382={ #PROV10382
+	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3511,8 +3481,8 @@
 	}
 }
 
-10382={ #Shatagh
-	terrain="marsh"
+10383={ #PROV10383
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3533,8 +3503,8 @@
 	}
 }
 
-10383={ #Shatagh
-	terrain="marsh"
+10384={ #PROV10384
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3555,8 +3525,8 @@
 	}
 }
 
-10384={ #Shatagh
-	terrain="marsh"
+10385={ #PROV10385
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3577,8 +3547,8 @@
 	}
 }
 
-10385={ #Shatagh
-	terrain="marsh"
+10386={ #PROV10386
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3599,8 +3569,8 @@
 	}
 }
 
-10386={ #Shatagh
-	terrain="marsh"
+10387={ #PROV10387
+	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3621,8 +3591,8 @@
 	}
 }
 
-10387={ #Shatagh
-	terrain="marsh"
+10388={ #PROV10388
+	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3643,8 +3613,8 @@
 	}
 }
 
-10388={ #Shatagh
-	terrain="marsh"
+10389={ #PROV10389
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3665,8 +3635,8 @@
 	}
 }
 
-10389={ #Shatagh
-	terrain="marsh"
+10390={ #PROV10390
+	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3687,8 +3657,8 @@
 	}
 }
 
-10390={ #Shatagh
-	terrain="marsh"
+10391={ #PROV10391
+	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3709,8 +3679,8 @@
 	}
 }
 
-10391={ #Shatagh
-	terrain="marsh"
+10392={ #PROV10392
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3731,8 +3701,8 @@
 	}
 }
 
-10392={ #Shatagh
-	terrain="marsh"
+10393={ #PROV10393
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3753,8 +3723,8 @@
 	}
 }
 
-10393={ #Shatagh
-	terrain="marsh"
+10394={ #PROV10394
+	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3775,8 +3745,8 @@
 	}
 }
 
-10394={ #Shatagh
-	terrain="marsh"
+10395={ #PROV10395
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3797,8 +3767,8 @@
 	}
 }
 
-10395={ #Shatagh
-	terrain="marsh"
+10396={ #PROV10396
+	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3818,10 +3788,9 @@
 		amount=3
 	}
 }
-
 
-10396={ #Shatagh
-	terrain="marsh"
+10397={ #PROV10397
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3841,10 +3810,9 @@
 		amount=3
 	}
 }
-
 
-10397={ #Shatagh
-	terrain="marsh"
+10398={ #PROV10398
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3865,9 +3833,8 @@
 	}
 }
 
-
-10398={ #Shatagh
-	terrain="marsh"
+10399={ #PROV10399
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3888,9 +3855,8 @@
 	}
 }
 
-
-10399={ #Shatagh
-	terrain="marsh"
+10400={ #PROV10400
+	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3911,8 +3877,8 @@
 	}
 }
 
-10400={ #Shatagh
-	terrain="marsh"
+10401={ #PROV10401
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3933,8 +3899,8 @@
 	}
 }
 
-10401={ #Shatagh
-	terrain="marsh"
+10402={ #PROV10402
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3955,8 +3921,8 @@
 	}
 }
 
-10402={ #Shatagh
-	terrain="marsh"
+10403={ #PROV10403
+	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3977,8 +3943,8 @@
 	}
 }
 
-10403={ #Shatagh
-	terrain="marsh"
+10404={ #PROV10404
+	terrain="hills"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -3999,7 +3965,7 @@
 	}
 }
 
-10404={ #Shatagh
+10405={ #PROV10405
 	terrain="marsh"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -4021,7 +3987,7 @@
 	}
 }
 
-10405={ #Shatagh
+10406={ #PROV10406
 	terrain="marsh"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -4043,7 +4009,7 @@
 	}
 }
 
-10406={ #Shatagh
+10407={ #PROV10407
 	terrain="marsh"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -4065,8 +4031,8 @@
 	}
 }
 
-10407={ #Shatagh
-	terrain="marsh"
+10408={ #PROV10408
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4087,7 +4053,7 @@
 	}
 }
 
-10408={ #Shatagh
+10409={ #PROV10409
 	terrain="marsh"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -4109,8 +4075,8 @@
 	}
 }
 
-10409={ #Shatagh
-	terrain="marsh"
+10410={ #PROV10410
+	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4131,8 +4097,8 @@
 	}
 }
 
-10410={ #Shatagh
-	terrain="marsh"
+10411={ #PROV10411
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4153,8 +4119,8 @@
 	}
 }
 
-10411={ #Shatagh
-	terrain="marsh"
+10412={ #PROV10412
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4175,8 +4141,8 @@
 	}
 }
 
-10412={ #Shatagh
-	terrain="marsh"
+10413={ #PROV10413
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4197,8 +4163,8 @@
 	}
 }
 
-10413={ #Shatagh
-	terrain="marsh"
+10414={ #PROV10414
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4219,8 +4185,8 @@
 	}
 }
 
-10414={ #Shatagh
-	terrain="marsh"
+10415={ #PROV10415
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4241,8 +4207,8 @@
 	}
 }
 
-10415={ #Shatagh
-	terrain="marsh"
+10416={ #PROV10416
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4263,8 +4229,8 @@
 	}
 }
 
-10416={ #Shatagh
-	terrain="marsh"
+10417={ #PROV10417
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4285,8 +4251,8 @@
 	}
 }
 
-10417={ #Shatagh
-	terrain="marsh"
+10418={ #PROV10418
+	terrain="plains"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4307,8 +4273,8 @@
 	}
 }
 
-10418={ #Shatagh
-	terrain="marsh"
+10419={ #PROV10419
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4329,8 +4295,8 @@
 	}
 }
 
-10419={ #Shatagh
-	terrain="marsh"
+10420={ #PROV10420
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4351,8 +4317,8 @@
 	}
 }
 
-10420={ #Shatagh
-	terrain="marsh"
+10421={ #PROV10421
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4373,7 +4339,7 @@
 	}
 }
 
-10421={ #Shatagh
+10422={ #PROV10422
 	terrain="marsh"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -4395,8 +4361,8 @@
 	}
 }
 
-10422={ #Shatagh
-	terrain="marsh"
+10423={ #PROV10423
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4417,8 +4383,8 @@
 	}
 }
 
-10423={ #Shatagh
-	terrain="marsh"
+10424={ #PROV10424
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4439,8 +4405,8 @@
 	}
 }
 
-10424={ #Shatagh
-	terrain="marsh"
+10425={ #PROV10425
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4461,8 +4427,8 @@
 	}
 }
 
-10425={ #Shatagh
-	terrain="marsh"
+10426={ #PROV10426
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4483,8 +4449,8 @@
 	}
 }
 
-10426={ #Shatagh
-	terrain="marsh"
+10427={ #PROV10427
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4505,8 +4471,8 @@
 	}
 }
 
-10427={ #Shatagh
-	terrain="marsh"
+10428={ #PROV10428
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4527,8 +4493,8 @@
 	}
 }
 
-10428={ #Shatagh
-	terrain="marsh"
+10429={ #PROV10429
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4549,8 +4515,8 @@
 	}
 }
 
-10429={ #Shatagh
-	terrain="marsh"
+10430={ #PROV10430
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4571,8 +4537,8 @@
 	}
 }
 
-10430={ #Shatagh
-	terrain="marsh"
+10431={ #PROV10431
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4593,8 +4559,8 @@
 	}
 }
 
-10431={ #Shatagh
-	terrain="marsh"
+10432={ #PROV10432
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4615,8 +4581,8 @@
 	}
 }
 
-10432={ #Shatagh
-	terrain="marsh"
+10433={ #PROV10433
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4637,8 +4603,8 @@
 	}
 }
 
-10433={ #Shatagh
-	terrain="marsh"
+10434={ #PROV10434
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4659,8 +4625,8 @@
 	}
 }
 
-10434={ #Shatagh
-	terrain="marsh"
+10435={ #PROV10435
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4681,8 +4647,8 @@
 	}
 }
 
-10435={ #Shatagh
-	terrain="marsh"
+10436={ #PROV10436
+	terrain="mountain"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4703,8 +4669,8 @@
 	}
 }
 
-10436={ #Shatagh
-	terrain="marsh"
+10437={ #PROV10437
+	terrain="forest"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
@@ -4725,7 +4691,7 @@
 	}
 }
 
-10437={ #Shatagh
+10438={ #PROV10438
 	terrain="marsh"
 	culture="cardukoi"
 	religion="mesopotamian_religion"
@@ -4747,24 +4713,3 @@
 	}
 }
 
-10438={ #Shatagh
-	terrain="marsh"
-	culture="cardukoi"
-	religion="mesopotamian_religion"
-	trade_goods="cattle"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}

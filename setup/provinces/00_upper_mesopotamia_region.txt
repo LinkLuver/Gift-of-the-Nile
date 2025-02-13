@@ -741,7 +741,7 @@
 }
 
 858={ #Rhandeia
-	terrain="farmland"
+	terrain="hills"
 	culture="sophene"
 	religion="armenian_religion"
 	trade_goods="stone"
@@ -1093,7 +1093,7 @@
 }
 
 1856={ #Anzita
-	terrain="hills"
+	terrain="forest"
 	culture="sophene"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1109,7 +1109,7 @@
 }
 
 1857={ #Hierapolis Sophenias
-	terrain="hills"
+	terrain="mountain"
 	culture="sophene"
 	religion="anatolian_religion"
 	trade_goods="wood"
@@ -1144,8 +1144,27 @@
 	}
 }
 
+8000={ #
+	terrain="farmland"
+	culture="paphlagonian"
+	religion="hatti_religion"
+	trade_goods="marble"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
 8007={ #Halouras
-	terrain="hills"
+	terrain="forest"
 	culture="sophene"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
@@ -1162,7 +1181,7 @@
 }
 
 8008={ #Palios
-	terrain="hills"
+	terrain="mountain"
 	culture="sophene"
 	religion="anatolian_religion"
 	trade_goods="obsidian"
@@ -1179,7 +1198,7 @@
 }
 
 8009={ #Balisbiga
-	terrain="hills"
+	terrain="mountain"
 	culture="sophene"
 	religion="armenian_religion"
 	trade_goods="leather"
@@ -1201,7 +1220,7 @@
 }
 
 8010={ #Koloua
-	terrain="hills"
+	terrain="plains"
 	culture="sophene"
 	religion="armenian_religion"
 	trade_goods="base_metals"
@@ -1864,6 +1883,33 @@
 	}
 	tribesmen={
 		amount=3
+	}
+}
+
+10223={ #PROV10223
+	terrain="mountain"
+	culture="lesser_armenian"
+	religion="anatolian_religion"
+	trade_goods="cattle"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="sophene"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="sophene"
+		amount=2
 	}
 }
 

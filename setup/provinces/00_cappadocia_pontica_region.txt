@@ -1,110 +1,4 @@
-﻿1729={ #Athenai Pontikai
-	terrain="hills"
-	culture="colchian"
-	religion="caucasian_religion"
-	trade_goods="hemp"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="aistian"
-		religion="druidism"
-		amount=5
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-1730={ #Rhizaion
-	terrain="hills"
-	culture="colchian"
-	religion="caucasian_religion"
-	trade_goods="wood"
-	civilization_value=23
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		culture="aistian"
-		religion="druidism"
-		amount=7
-	}
-	freemen={
-		culture="dumarian"
-		religion="druidism"
-		amount=1
-	}
-	freemen={
-		amount=4
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=3
-	}
-	port_building=1
-}
-
-1731={ #Ophis
-	terrain="hills"
-	culture="colchian"
-	religion="caucasian_religion"
-	trade_goods="fish"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="aistian"
-		religion="druidism"
-		amount=2
-	}
-	freemen={
-		culture="greco_pontic"
-		religion="roman_pantheon"
-		amount=1
-	}
-	freemen={
-		culture="aistian"
-		religion="druidism"
-		amount=1
-	}
-	slaves={
-		culture="aistian"
-		religion="druidism"
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1732={ #Hyssos
-	terrain="mountain"
-	culture="greco_pontic"
-	religion="roman_pantheon"
-	trade_goods="hemp"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-1733={ #Pisingara
+﻿1733={ #Pisingara
 	terrain="forest"
 	culture="lesser_armenian"
 	religion="anahitic_religion"
@@ -125,7 +19,7 @@
 }
 
 1734={ #Trapezous
-	terrain="forest"
+	terrain="hills"
 	culture="greco_pontic"
 	religion="roman_pantheon"
 	trade_goods="cloth"
@@ -187,7 +81,7 @@
 }
 
 1767={ #Eriza
-	terrain="hills"
+	terrain="farmland"
 	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="cattle"
@@ -211,7 +105,7 @@
 }
 
 1768={ #Til
-	terrain="plains"
+	terrain="mountain"
 	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="vegetables"
@@ -230,31 +124,8 @@
 	holy_site=omen_nane
 }
 
-1769={ #Sabos
-	terrain="mountain"
-	culture="lesser_armenian"
-	religion="anahitic_religion"
-	trade_goods="vegetables"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		religion="anatolian_religion"
-		amount=1
-	}
-}
-
 1771={ #Analibna
-	terrain="hills"
+	terrain="farmland"
 	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="vegetables"
@@ -277,7 +148,7 @@
 }
 
 1772={ #Sediska
-	terrain="hills"
+	terrain="mountain"
 	culture="colchian"
 	religion="anahitic_religion"
 	trade_goods="wood"
@@ -302,7 +173,7 @@
 }
 
 1773={ #Zigana
-	terrain="hills"
+	terrain="mountain"
 	culture="colchian"
 	religion="roman_pantheon"
 	trade_goods="stone"
@@ -325,7 +196,7 @@
 }
 
 1775={ #Magnana
-	terrain="hills"
+	terrain="mountain"
 	culture="colchian"
 	religion="roman_pantheon"
 	trade_goods="wood"
@@ -371,7 +242,7 @@
 }
 
 1778={ #Chorsabia
-	terrain="hills"
+	terrain="mountain"
 	culture="lesser_armenian"
 	religion="anahitic_religion"
 	trade_goods="leather"
@@ -525,6 +396,29 @@
 	}
 }
 
+1788={ #Nora
+	terrain="mountain"
+	culture="cappadocian"
+	religion="anatolian_religion"
+	trade_goods="obsidian"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="lycaonian"
+		amount=1
+	}
+}
+
 1789={ #Syderos
 	terrain="hills"
 	culture="cappadocian"
@@ -593,74 +487,7 @@
 	}
 }
 
-1791={ #Ibora
-	terrain="farmland"
-	culture="cappadocian"
-	religion="anatolian_religion"
-	trade_goods="leather"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	citizen={
-		culture="lesser_armenian"
-		religion="anahitic_religion"
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-	holy_site=omen_nane
-}
-
-1792={ #Kabeira
-	terrain="farmland"
-	culture="cappadocian"
-	religion="anatolian_religion"
-	trade_goods="wood"
-	civilization_value=14
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=3
-	}
-	freemen={
-		culture="greco_pontic"
-		religion="roman_pantheon"
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	slaves={
-		religion="roman_pantheon"
-		amount=1
-	}
-	slaves={
-		religion="druidism"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		religion="druidism"
-		amount=1
-	}
-}
-
-1793={ #Side Pontike
+1793={ #Sidene
 	terrain="forest"
 	culture="greco_pontic"
 	religion="roman_pantheon"
@@ -783,48 +610,6 @@
 	}
 }
 
-1804={ #Boinasa
-	terrain="farmland"
-	culture="cappadocian"
-	religion="anatolian_religion"
-	trade_goods="fruits"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	citizen={
-		culture="dumarian"
-		religion="druidism"
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	freemen={
-		culture="greco_pontic"
-		religion="roman_pantheon"
-		amount=1
-	}
-	freemen={
-		culture="greco_pontic"
-		religion="roman_pantheon"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	slaves={
-		culture="greco_pontic"
-		religion="roman_pantheon"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
 1819={ #Amaseia
 	terrain="mountain"
 	culture="cappadocian"
@@ -867,160 +652,6 @@
 	}
 	tribesmen={
 		amount=3
-	}
-}
-
-1821={ #Phazemon
-	terrain="farmland"
-	culture="cappadocian"
-	religion="anatolian_religion"
-	trade_goods="precious_metals"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	slaves={
-		culture="paphlagonian"
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		religion="roman_pantheon"
-		amount=1
-	}
-}
-
-1822={ #Etonia
-	terrain="farmland"
-	culture="cappadocian"
-	religion="anatolian_religion"
-	trade_goods="cattle"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	slaves={
-		culture="paphlagonian"
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		culture="paphlagonian"
-		amount=1
-	}
-}
-
-1823={ #Diakopa
-	terrain="farmland"
-	culture="paphlagonian"
-	religion="hatti_religion"
-	trade_goods="cattle"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	freemen={
-		culture="cappadocian"
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		culture="cappadocian"
-		amount=1
-	}
-}
-
-1824={ #Andrapa
-	terrain="farmland"
-	culture="cappadocian"
-	religion="hatti_religion"
-	trade_goods="hemp"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=1
-	}
-	slaves={
-		culture="paphlagonian"
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		culture="paphlagonian"
-		amount=1
-	}
-}
-
-1826={ #Pteria Pontias
-	terrain="mountain"
-	culture="paphlagonian"
-	religion="hatti_religion"
-	trade_goods="hemp"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	freemen={
-		culture="cappadocian"
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		culture="cappadocian"
-		amount=1
-	}
-}
-
-1831={ #Pimolisa
-	terrain="mountain"
-	culture="paphlagonian"
-	religion="hatti_religion"
-	trade_goods="wood"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=2
 	}
 }
 
@@ -1086,33 +717,6 @@
 	}
 	tribesmen={
 		amount=3
-	}
-}
-
-1837={ #Euchaita
-	terrain="hills"
-	culture="paphlagonian"
-	religion="hatti_religion"
-	trade_goods="vegetables"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	freemen={
-		culture="cappadocian"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		culture="cappadocian"
-		amount=1
 	}
 }
 
@@ -1235,7 +839,7 @@
 	}
 }
 
-1844={ #Talaura
+1844={ #Samuha
 	terrain="hills"
 	culture="cappadocian"
 	religion="anatolian_religion"
@@ -1271,33 +875,6 @@
 	tribesmen={
 		culture="lesser_armenian"
 		religion="roman_pantheon"
-		amount=1
-	}
-}
-
-1845={ #Phiara
-	terrain="hills"
-	culture="cappadocian"
-	religion="anatolian_religion"
-	trade_goods="grain"
-	civilization_value=9
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	slaves={
-		religion="zoroaster"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		religion="zoroaster"
 		amount=1
 	}
 }
@@ -1410,19 +987,29 @@
 	}
 }
 
-1858={ #Daskousa
-	terrain="forest"
-	culture="lesser_armenian"
+1929={ #Phouphagena
+	terrain="mountain"
+	culture="cataonian"
 	religion="anatolian_religion"
-	trade_goods="salt"
-	civilization_value=18
+	trade_goods="leather"
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="sophene"
+		amount=1
+	}
 	slaves={
+		amount=1
+	}
+	tribesmen={
 		amount=2
 	}
 	tribesmen={
-		religion="roman_pantheon"
+		culture="sophene"
 		amount=1
 	}
 }
@@ -1469,6 +1056,25 @@
 		amount=3
 	}
 	holy_site=omen_barshamin
+}
+
+7913={ #
+	terrain="hills"
+	culture="lesser_armenian"
+	religion="anatolian_religion"
+	trade_goods="cattle"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
 }
 
 7994={ #Kizari
@@ -1531,6 +1137,190 @@
 	}
 	tribesmen={
 		amount=2
+	}
+}
+
+8055={ #Sisorta
+	terrain="mountain"
+	culture="cappadocian"
+	religion="anatolian_religion"
+	trade_goods="fur"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+8060={ #Aladarich
+	terrain="mountain"
+	culture="cappadocian"
+	religion="anatolian_religion"
+	trade_goods="stone"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10289={ #PROV10289
+	terrain="hills"
+	culture="cappadocian"
+	religion="anatolian_religion"
+	trade_goods="cattle"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="lesser_armenian"
+		religion="anahitic_religion"
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+10291={ #PROV10291
+	terrain="mountain"
+	culture="cataonian"
+	religion="anatolian_religion"
+	trade_goods="stone"
+	civilization_value=16
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="sophene"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="sophene"
+		amount=2
+	}
+}
+
+10297={ #PROV10297
+	terrain="plains"
+	culture="cappadocian"
+	religion="anatolian_religion"
+	trade_goods="cattle"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="paphlagonian"
+		religion="hatti_religion"
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10299={ #PROV10299
+	terrain="farmland"
+	culture="cappadocian"
+	religion="anatolian_religion"
+	trade_goods="cattle"
+	civilization_value=9
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="paphlagonian"
+		religion="hatti_religion"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		culture="paphlagonian"
+		religion="hatti_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+10317={ #PROV10317
+	terrain="mountain"
+	culture="greco_pontic"
+	religion="roman_pantheon"
+	trade_goods="precious_metals"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+10319={ #PROV10319
+	terrain="forest"
+	culture="paphlagonian"
+	religion="hatti_religion"
+	trade_goods="marble"
+	civilization_value=18
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
 	}
 }
 

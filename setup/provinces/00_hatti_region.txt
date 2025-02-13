@@ -497,30 +497,6 @@
 	}
 }
 
-1861={ #Zizoatra
-	terrain="farmland"
-	culture="cataonian"
-	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	freemen={
-		culture="sophene"
-		religion="zoroaster"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
 1862={ #Adatha
 	terrain="hills"
 	culture="cataonian"
@@ -1230,6 +1206,86 @@
 	}
 }
 
+1892={ #Elaioussa
+	terrain="hills"
+	culture="cilician"
+	religion="hurrian_pantheon"
+	trade_goods="cedar"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		religion="hurrian_pantheon"
+		amount=1
+	}
+	freemen={
+		culture="ionian"
+		religion="hurrian_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		culture="lalasian"
+		amount=1
+	}
+	port_building=1
+}
+
+1894={ #Olbe
+	terrain="forest"
+	culture="cilician"
+	religion="hurrian_pantheon"
+	trade_goods="cedar"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		religion="hurrian_pantheon"
+		amount=1
+	}
+	citizen={
+		culture="lalasian"
+		amount=1
+	}
+	freemen={
+		culture="ionian"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="lalasian"
+		amount=2
+	}
+	freemen={
+		religion="hurrian_pantheon"
+		amount=2
+	}
+	slaves={
+		religion="hurrian_pantheon"
+		amount=1
+	}
+	slaves={
+		culture="lalasian"
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
 1895={ #Oulnia
 	terrain="mountain"
 	culture="cataonian"
@@ -1266,35 +1322,6 @@
 	tribesmen={
 		amount=1
 	}
-}
-
-1979={ #Baka
-	terrain="mountain"
-	culture="kennataian"
-	religion="anatolian_religion"
-	trade_goods="vegetables"
-	civilization_value=3
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		culture="cappadocian"
-		amount=1
-	}
-	freemen={
-		culture="cataonian"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		culture="cataonian"
-		amount=1
-	}
-	holy_site=omen_cataonian_apollo
 }
 
 6397={ #Barzala
@@ -1360,25 +1387,6 @@
 		amount=1
 	}
 	tribesmen={
-		amount=1
-	}
-}
-
-7986={ #Commagenian Gates
-	terrain="mountain"
-	culture="kennataian"
-	religion="anatolian_religion"
-	trade_goods="base_metals"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
 		amount=1
 	}
 }
@@ -1926,26 +1934,6 @@
 	culture="kennataian"
 	religion="hurrian_pantheon"
 	trade_goods="iron"
-	civilization_value=24
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="cilician"
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-10145={ #PROV10145
-	terrain="mountain"
-	culture="kennataian"
-	religion="hurrian_pantheon"
-	trade_goods="obsidian"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
@@ -2572,6 +2560,26 @@
 	}
 	slaves={
 		culture="kennataian"
+		amount=1
+	}
+}
+
+10176={ #PROV10176
+	terrain="forest"
+	culture="kennataian"
+	religion="hurrian_pantheon"
+	trade_goods="obsidian"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="cilician"
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
 		amount=1
 	}
 }

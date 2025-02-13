@@ -1929,7 +1929,7 @@
 }
 
 5190={ #
-	terrain="impassable_terrain"
+	terrain="marsh"
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods=""
@@ -2089,7 +2089,7 @@
 }
 
 5206={ #
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="ibero"
 	religion="caucasian_religion"
 	trade_goods=""
@@ -2099,7 +2099,7 @@
 }
 
 5207={ #
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="ibero"
 	religion="caucasian_religion"
 	trade_goods=""
@@ -2109,7 +2109,7 @@
 }
 
 5208={ #Aragats Volcano
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="ibero"
 	religion="caucasian_religion"
 	trade_goods=""
@@ -2159,7 +2159,7 @@
 }
 
 5213={ #
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods=""
@@ -3259,7 +3259,7 @@
 }
 
 5324={ #Iberia Mons Volcano
-	terrain="impassable_terrain"
+	terrain="mountain"
 	culture="cimmerian"
 	religion="caucasian_religion"
 	trade_goods=""
@@ -6988,7 +6988,7 @@
 	province_rank=""
 }
 
-7801={ #
+7801={ #PROV7801_hellenic
 	terrain="impassable_terrain"
 	culture="aetolian"
 	religion="roman_pantheon"
@@ -7408,16 +7408,6 @@
 	province_rank=""
 }
 
-7928={ #
-	terrain="impassable_terrain"
-	culture="lycian"
-	religion="anatolian_religion"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
 7950={ #
 	terrain="impassable_terrain"
 	culture="lycian"
@@ -7579,7 +7569,7 @@
 }
 
 8001={ #
-	terrain="impassable_terrain"
+	terrain="forest"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods=""
@@ -7589,7 +7579,7 @@
 }
 
 8002={ #
-	terrain="impassable_terrain"
+	terrain="hills"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods=""
@@ -8908,26 +8898,6 @@
 	province_rank=""
 }
 
-10323={ #PROV10127
-	terrain="impassable_terrain"
-	culture="middle_egyptian"
-	religion="arabian_pantheon"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
-10324={ #PROV10127
-	terrain="impassable_terrain"
-	culture="middle_egyptian"
-	religion="arabian_pantheon"
-	trade_goods=""
-	civilization_value=0
-	barbarian_power=0
-	province_rank=""
-}
-
 10310={ #PROV10310
 	terrain="impassable_terrain"
 	culture="phrygian"
@@ -8936,5 +8906,69 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
+}
+
+10323={ #PROV10323
+	terrain="impassable_terrain"
+	culture="middle_egyptian"
+	religion="arabian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10324={ #PROV10324
+	terrain="impassable_terrain"
+	culture="middle_egyptian"
+	religion="arabian_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+10348={ #PROV10348
+	terrain="marsh"
+	culture="cardukoi"
+	religion="mesopotamian_religion"
+	trade_goods="cattle"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10373={ #PROV10373
+	terrain="marsh"
+	culture="cardukoi"
+	religion="mesopotamian_religion"
+	trade_goods="cattle"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
 }
 
