@@ -1669,6 +1669,8 @@ country = {
 				1817 1818 1957 1913 7981
 				267 262
 			}
+
+			treasures = { 893 }
 		}
 
 		PHR = {
@@ -2792,7 +2794,7 @@ country = {
 				{ deity = 117 }
 			}
 
-			treasures = { 120 }
+			treasures = { 120 895 }
 		}
 		ODR = {
 			family = 51
@@ -4168,6 +4170,8 @@ country = {
 					type = citizen
 				}
 			}
+
+			treasures = { 890 }
 		}
 
 		KSC = {
@@ -7632,6 +7636,8 @@ country = {
 			own_control_core = {
 				2236
 			}
+
+			treasures = { 891 }
 		}
 
 		BTU = {
@@ -10388,6 +10394,8 @@ country = {
 				471
 			}
 
+			treasures = { 894 }
+
 		}
 
 		KR2 = {
@@ -10772,6 +10780,8 @@ country = {
 			own_control_core = 	{
 				283 284
 			}
+
+			treasures = { 897 }
 		}
 
 		TW2 = { #Lampsakos
@@ -10971,6 +10981,7 @@ country = {
 				245 248
 			}
 
+			treasures = { 896 }
 		}
 
 		KZK = { #Kyzikos
@@ -16551,6 +16562,7 @@ country = {
 				143 3601
 			}
 
+			treasures = { 892 }
 		}
 	}
 }

@@ -2033,9 +2033,65 @@ treasure_manager = {
 		}
 		889 = { # Karkemish Kubaba Stele
 			key = "treasure_kubaba_stele"
-			icon = "ce_black_obelisk_01"
+			icon = "cr_black_obelisk_01"
 			state_modifier = {
 				local_population_happiness = 0.07
+			}
+		}
+		890 = { # Ducetious' Armor
+			key = "treasure_palike_armor"
+			icon = "treasure_armor"
+			state_modifier = {
+				local_cohort_start_experience = 5
+			}
+		}
+		891 = { # Pytheas' Map
+			key = "treasure_pytheas_map"
+			icon = "actual_paper"
+			state_modifier = {
+				local_research_points_modifier = 0.05
+			}
+		}
+		892 = { # The Enead
+			key = "treasure_enead"
+			icon = "actual_paper"
+			state_modifier = {
+				local_manpower_modifier = 0.15
+			}
+		}
+		893 = { # Gilded Throne of Midas
+			key = "treasure_lydia_throne"
+			icon = "treasure_it_throne_of_astarte" #PLACEHOLDER-FIND AN ACTUAL GILDED THRONE
+			state_modifier = {
+				local_tax_modifier = 0.15
+			}
+		}
+		894 = { # Kytheran Sarcophagus
+			key = "treasure_kythera_sarcophagus"
+			icon = "treasure_sarcophagus"
+			state_modifier = {
+				local_nobles_happyness = 0.3
+			}
+		}
+		895 = { # Proclamation of Lysimachus
+			key = "treasure_lysimachus_proclamation"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_freemen_output = 0.10
+			}
+		}
+		896 = { # Anabasis of Mithradates
+			key = "treasure_anabasis_mithradates"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_cohort_start_experience = 15
+			}
+		}
+		897 = { # Ode to Aphrodite
+			key = "treasure_lesbian_poetry"
+			icon = "treasure_actual_paper"
+			state_modifier = {
+				local_citizen_happyness = 0.03
 			}
 		}
     }
