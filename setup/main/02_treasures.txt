@@ -2024,7 +2024,7 @@ treasure_manager = {
 				local_unrest = -0.3
 			}
 		}
-		888 = { # FUF
+		888 = { # Vine Statue of Zeus
 			key = "treasure_pupluna_statue"
 			icon = "cr_treasure_bendis_figurine_01"
 			state_modifier = {
@@ -2089,9 +2089,37 @@ treasure_manager = {
 		}
 		897 = { # Ode to Aphrodite
 			key = "treasure_lesbian_poetry"
-			icon = "treasure_actual_paper"
+			icon = "treasure_ode_to_aphrodite"
 			state_modifier = {
 				local_citizen_happyness = 0.03
+			}
+		}
+		898 = { # Laws of Niqmepa
+			key = "treasure_niqmepa_laws"
+			icon = "treasure_niqmepa_text_of_law"
+			state_modifier = {
+				local_unrest = -0.03
+			}
+		}
+		899 = { # The Spoon
+			key = "treasure_the_spoon"
+			icon = "treasure_modern_spoon"
+			state_modifier = {
+				local_happiness_for_same_religion_modifier = 0.03
+			}
+		}
+		900 = { # Statue of Artemis Ephesia
+			key = "treasure_artemis_ephesia_statue"
+			icon = "treasure_artemis_ephesia"
+			state_modifier = {
+				local_manpower_modifier = 0.10
+			}
+		}
+		901 = { # Midas Monument
+			key = "treasure_midas_tomb"
+			icon = "treasure_midas_tomb"
+			state_modifier = {
+				local_country_civilization_value = 5.0
 			}
 		}
     }

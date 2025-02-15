@@ -109,6 +109,12 @@ deity_apollo = {
 			primary_culture = messapian #Messapians have Greek deities (some with a different name)
 		}
 		OR = {
+			NOT ={ primary_culture = massalian primary_culture = cretan }
+		}
+		OR = {
+			tag = MLO
+		}
+		OR = {
 			rare_deity_trigger = {
 				RELIGION = roman_pantheon
 			}
@@ -479,6 +485,9 @@ deity_artemis = {
 		OR = {
 			NOT = { country_culture_group = illyrian_group } #Illyrians have own deities
 			primary_culture = messapian #Messapians have Greek deities (some with a different name)
+		}
+		OR = {
+			NOT = { primary_culture = massalian }
 		}
 		OR = {
 			religion = animism
@@ -2485,6 +2494,66 @@ deity_patroclus = {
     omen = { assault_ability = omen_assault_ability_svalue } #Bonus from Omen
     religion = roman_pantheon
     deity_category = culture #This Deity uses a Culture Slot
+
+
+    deification_trigger = {
+        can_deify_trigger = yes
+    }
+
+    on_activate = {
+        culture_apotheosis_capital_effect = yes
+    }
+}
+
+deity_artemis_ephesia = {
+    trigger = {
+        OR = {
+        	deity:omen_artemis_ephesia = {
+        		holy_site_deity_check_trigger = yes
+        	}
+		OR = {
+        	primary_culture = massalian
+			}
+    	}
+	}
+    icon = deity_diadochi_fertility
+    passive_modifier = {  global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
+    omen = { global_population_growth = deity_global_population_growth_svalue } #Bonus from Omen
+    religion = roman_pantheon
+    deity_category = fertility #This Deity uses a Culture Slot
+
+
+    deification_trigger = {
+        can_deify_trigger = yes
+    }
+
+    on_activate = {
+        culture_apotheosis_capital_effect = yes
+    }
+}
+
+deity_apollo_delphinios = {
+    trigger = {
+        OR = {
+        	deity:omen_apollo_delphinios = {
+        		holy_site_deity_check_trigger = yes
+        	}
+		OR = {
+        	primary_culture = massalian
+		}
+		OR = {
+			primary_culture = cretan
+		}
+		OR = {
+			tag= MLO
+		}
+    	}
+	}
+    icon = deity_diadochi_war
+    passive_modifier = { naval_damage_taken = deity_naval_damage_taken_svalue  }
+    omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
+    religion = roman_pantheon
+    deity_category = war #This Deity uses a War Slot
 
 
     deification_trigger = {

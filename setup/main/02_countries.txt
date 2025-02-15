@@ -1122,6 +1122,8 @@ country = {
 			876 9570 9572 9574 #nisibin_area
 			831 9569 9571 9573 9575 9576 9577 9578 #shingar_area
 			}
+
+			treasures = { 899 }
 		}
 
 		SAT = {
@@ -1692,6 +1694,8 @@ country = {
 				1836 1832 1907 1909 1923 1932 #cappadocia_saravene
 				175 188 189 192 228 229 #galatia_region
 			}
+
+			treasures = { 901 }
 		}
 
 		LYC = { # Lycia
@@ -2305,6 +2309,8 @@ country = {
 			own_control_core = {
 				786 788 784 785
 			}
+
+			treasures = { 898 }
 		}
 		AKE = {
 			government = despotic_monarchy
@@ -6223,6 +6229,14 @@ country = {
 				2325 3543 2260 3517 3540 2323 2319 2318 2313 2256 2257 
 			}
 
+			pantheon = {
+
+				{ deity = 30535 }
+				{ deity = 112 }
+				{ deity = 110 }
+				{ deity = 30534 }
+	
+			}
 		}
 
 		HMK = {
@@ -10609,7 +10623,7 @@ country = {
 
 			pantheon = {
 
-			{ deity = 103 }
+			{ deity = 30535 }
 			{ deity = 112 }
 			{ deity = 105 }
 			{ deity = 116 }

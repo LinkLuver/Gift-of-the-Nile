@@ -261,6 +261,9 @@ provinces = { #Any entry must contain a comment with city name.
 	809 = { #Karkemish
 		treasure_slots = { treasures = { 889 } }
 	}
+	2325 = { #Massalia
+		treasure_slots = { treasures = { 900 } }
+	}
 
 	### BUILDINGS
 	1 = { #Rome

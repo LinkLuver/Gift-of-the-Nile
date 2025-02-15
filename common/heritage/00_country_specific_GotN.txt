@@ -2061,7 +2061,7 @@ pyrenean_heritage = { # added
 #       }
 #   }
 #}
-numantian_heritage = {
+n_heritage = {
     modifier = {
         #good
         global_defensive = 0.1
