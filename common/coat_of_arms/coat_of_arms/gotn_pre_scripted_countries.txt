@@ -2722,4 +2722,75 @@ EBL = {
 	}
 }
 
+LOC = {
+	pattern="pattern_solid.tga"
+	color1= rgb { 154 92 140}
+	color2= "offwhite"
+	
+	colored_emblem = {
+        texture = "ce_kithara_simple.dds"
+        color1 = "epirus_yellow"
+		instance = { scale = { 0.90 0.90 } }
+	}
+	colored_emblem = {
+        texture = "ce_border_leaves_02.dds"
+        color1 = rgb { 154 92 140}
+		color2 = "epirus_yellow"
+		instance = {}
+		instance = { rotation = 180 }
+	}
+}
+
+SIN = {
+	pattern="pattern_solid.tga"
+	color1= rgb { 53 89 32 }
+	color2= "offwhite"
+	
+	colored_emblem = {
+        texture = "ce_celery_leaf.dds"
+        color1 = "roman_gold"
+		instance = { scale = { 0.80 0.80 } }
+	}
+}
+
+TPS = {
+	pattern="pattern_solid.tga"
+	color1= rgb { 65 114 70 }
+	color2= "offwhite"
+	
+	colored_emblem = {
+        texture = "ce_border_thracian_pattern_14.dds"
+        color1 = "iberian_sun"
+		color2 = "silver"
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
+	}
+	colored_emblem = {
+        texture = "ce_gadir.dds"
+        color1 = "iberian_sun"
+		color2 = "light_blue"
+		instance = {scale = { 0.90 0.90 } rotation = 90}
+	}
+}
+
+HPO = {
+	pattern="pattern_solid.tga"
+	color1= rgb { 155 180 142 }
+	color2= "offwhite"
+
+	colored_emblem = {
+        texture = "ce_caduceus_simple.dds"
+        color1 = rgb { 37 95 105 } 
+		color2 = "silver"
+	}
+	colored_emblem = {
+        texture = "ce_border_meander_04.dds"
+        color1 = rgb { 37 95 105 } 
+		color2 = "silver"
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
+	}
+}
+
+
 
