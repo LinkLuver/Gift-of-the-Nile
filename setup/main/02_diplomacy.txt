@@ -225,6 +225,7 @@ diplomacy = {
 	defensive_league = {
     	member = CPU
     	member = NEA
+		member = NUC
     	}
 
 	#Carthaginian League Remnant

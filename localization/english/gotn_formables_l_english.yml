@@ -88,17 +88,19 @@
  form_etruria_padana:0 "Reclaim the cities of Padanian Etruria"
  form_etruria_padana_desc:0 "We have carved out an #Y Etruria#! for ourselves, here in #Y Padania#!. The #Y Lepontic#! tribes have stabbed a knife through our homeland, sacking our cities and conquering them for themselves. Our land must be reclaimed."
  etruria_padana_claims:0 "We will gain claims on the region of #Y Cisalpine Gaul#!, and on the province of #Y Ariminum#!"
+
  # Rome 
  form_rome_liberate:0 "Reclaim Roma"
  form_rome_liberate_desc:0 "In 358 BCE, the #Y Faliscan League#! bested us, and forced us out of our city, #Y Roma#!. Our pride as a people has been broken, and we must seek venegance upon our enemies. #Y Roma#! must be retaken."
- gotn_formable_event_8_title:0 "A Change in Course?"
- gotn_formable_event_8_desc:0 "Gazing out onto #Y Roma#!, [SCOPE.GetRootScope.GetCountry.GetRuler.GetName] contemplates the future of the #Y Latin#! people. By will alone, #Y Roma#! has been retaken. But the question remains- perhaps the traditions of our ancestors could ensure the strength of our people."
- gotn_formable_event_8.a:0 "[SCOPE.GetRootScope.GetCountry.GetRuler.GetName] will be crowned as Rex!"
- gotn_formable_event_8.b:0 "It would be foolish to place our trust in the glories of the past."
+ gotn_formable_event__title:0 "A Change in Course?"
+ gotn_formable_event__desc:0 "Gazing out onto #Y Roma#!, [SCOPE.GetRootScope.GetCountry.GetRuler.GetName] contemplates the future of the #Y Latin#! people. By will alone, #Y Roma#! has been retaken. But the question remains- perhaps the traditions of our ancestors could ensure the strength of our people."
+ gotn_formable_event_.a:0 "[SCOPE.GetRootScope.GetCountry.GetRuler.GetName] will be crowned as Rex!"
+ gotn_formable_event_.b:0 "It would be foolish to place our trust in the glories of the past."
  ROME_NAME:0 "Roman Kingdom"
  ROME_ADJECTIVE:0 "Roman"
  rome_monarchy:0 "#R We will abadon the trappings of our league, and become a monarchy#!."
  rome_republic:0 "#G We will stay true to our republican ways#!."
+
 
  ## Iberia Formables
  IBERIA_NAME2:0 "Spania"
@@ -135,7 +137,7 @@
  form_troas_desc:0 "The cities of #Y The Troad#! are home to merchants, philosophers, and proud leaders. Uniting our polities would protect us from foreign interence, and become a formidable state."
  ##Hellenic Empire
  formable_not_argead_exists: "The #Y Hellenic Empire#! does not exist."
- hellenic_kingdom_tooltip:0 "We will recieve claims on the regions of #Y Macedon#!, #Y Thrace#! , #Y Greece#! , #Y Lydia#! , #Y Moesia Inferior#! , #Y Taurica#! , #Y Colchis#! , #Y Bithynia Et Paphlagonia#! , #Y Cappadocia Pontica#! #Y Cyrenaica#! #Y Cicilia#! , #Y Illyria#! , #Y Magna Graecia#! , #Y Transalpine Gaul#! , #Y Tarraconensis#! , #Y Contestania#! , #Y Baetica#! , and #Y Mauretania#!."
+ hellenic_kingdom_tooltip:0 "The #Y Hellenic Empire@! will recieve claims on the regions of #Y Macedon#!, #Y Thrace#! , #Y Greece#! , #Y Lydia#! , #Y Moesia Inferior#! , #Y Taurica#! , #Y Colchis#! , #Y Bithynia Et Paphlagonia#! , #Y Cappadocia Pontica#! #Y Cyrenaica#! #Y Cicilia#! , #Y Illyria#! , #Y Magna Graecia#! , #Y Transalpine Gaul#! , #Y Tarraconensis#! , #Y Contestania#! , #Y Baetica#! , and #Y Mauretania#!."
  hellenic_kingdom_mod:0 "Pan-Hellenic Dream Realized"
  form_argead_unification:0 "Unite the Children of Hellen"
  form_argead_unification_desc:0 "From the fertile lands of #Y Magna Graecia#!, to the ancient cities of #Y Greece#!, and to the colonies of the west, the Greek people have long been scattered, never being united by one group. By controlling the various poleis of the Hellenes, we can forge a new legacy- that of a new, #Y Pan-Hellenic Kingdom#!"
@@ -147,6 +149,21 @@
  KELTIKA_NAME:0 "Keltike"
  KELTIKA_ADJECTIVE:0 "Keltikoi"
  keltika_mod:0 "Victorious Greeks"
+ # Magna Kymaia
+ form_kymai_magna:0 "Proclaim a Greater Kymai"
+ form_kymai_magna_desc:0 "We have long been the preminent power in Campania, defeating the Samnites and Latins in battle more than once. But our recent decline in power, and the ambitions of the Samnites have begun to threaten our position. Not to mention the so called 'Walnut League' of the Nucerians, who surely have ambitions of their own. We cannot even trust our daughter city- Neapolis may soon overtake us. It is imperative to the survival of our city, that we establish a 'Greater Kymai,' no matter the cost."
+ formable_not_kymai_magna_exists:0 "#Y Magna Kymaia#! does not exist."
+ form_kymai_magna_claims_tooltip:0 "Magna Kymaia will gain claims on the province of #Y Campania#!."
+ KYMAI_MAGNA_NAME:0 "Magna Kymaia"
+ KYMAI_MAGNA_AJDECTIVE:0 "Kymaian"
+ gotn_formable_event_8_title:0 "Campanian Conquest"
+ gotn_formable_event_8_desc:0 "Led by the sheer tact and genius of our leader [SCOPE.GetRootScope.GetCountry.GetRuler.GetName], Kymaia Magna has been achieved. No longer will we be bothered by our bickering neighbors. Kymai will usher in a new golden age for the Italiote people!"
+ gotn_formable_event_8.a:0 "[SCOPE.GetRootScope.GetCountry.GetRuler.GetName] will be crowned as Basileus, the first of a new Italiote kingdom."
+ gotn_formable_event_8.b:0 "An abandonment of our ways would result in the loss of everything that has led us to victory."
+ kymaia_option_a:0 "We will become the #Y Italiote Kingdom#!, we will gain claims on the region of #Y Magna Graecia#!, and we will adopt a new heritage."
+ kymaia_option_b:0 "We will retain our ancient ways of republicanism"
+ ITALIOTE_KINGDOM_NAME:0 "Italiote Kingdom"
+ ITALIOTE_KINGDOM_ADJECTIVE:0 "Italiote"
 
  ILLYRIA_GREEK_NAME:0 "Illyrian League"
  ILLYRIA_GREEK_ADJECTIVE:0 "Illyrian"

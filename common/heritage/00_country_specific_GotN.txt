@@ -9330,6 +9330,48 @@ alitz_oppon_heritage = {
 	}
 }
 
+kymai_heritage = {
+	modifier = {
+		#good
+		global_tax_modifier = 0.10
+        diplomatic_reputation = 2
+		#bad
+        global_nobles_happyness= -0.03
+	}
+	
+	trigger = {
+		tag = CPU
+	}
+}
+
+neapolis_heritage = {
+	modifier = {
+		#good
+		price_found_city_cost_modifier = -0.15
+        global_commerce_modifier= 0.10
+		#bad
+        global_monthly_food_modifier = -0.05
+    }
+	
+	trigger = {
+		tag = NEA
+	}
+}
+
+italiote_kingdom_heritage = {
+	modifier = {
+		#good
+		spearmen_discipline = 0.10
+        research_points_modifier= 0.10
+		#bad
+        monthly_legitimacy = -0.04
+    }
+	
+	trigger = {
+		tag = ITK
+	}
+}
+
 
 
 

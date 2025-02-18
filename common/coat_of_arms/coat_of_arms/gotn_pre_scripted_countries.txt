@@ -2792,5 +2792,68 @@ HPO = {
 	}
 }
 
+KAR = {
+	pattern="pattern_solid.tga"
+	color1= rgb { 165 120 51 }
+	color2= "offwhite"
 
+	colored_emblem = {
+        texture = "ce_karkemish_guy.dds"
+        color1 = "silver"
+		color2 = "ck2_black"
+	}
+}
 
+ITALIOTE_KINGDOM_FLAG = {
+	pattern="pattern_solid.tga"
+	color1= rgb { 46 48 95 }
+	color2= "offwhite"
+
+	colored_emblem = {
+        texture = "ce_lyre.dds"
+        color1 = "silver"
+		instance = { scale = { 1.20 1.20 } }
+	}
+	colored_emblem = {
+        texture = "ce_border_meander_08.dds"
+        color1 = "silver"
+		color2 = "ck2_black"
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
+	}
+}
+
+URARTU_FLAG = {
+	pattern="pattern_solid.tga"
+	color1= rgb { 201 159 104}
+	color2= "offwhite"
+
+	colored_emblem = {
+        texture = "ce_haldi.dds"
+        color1 = "silver"
+		color2 = rgb { 190 98 36 }
+		instance = { scale = { 0.95 0.95 } position = { 0.50 0.48 } }
+	}
+	colored_emblem = {
+        texture = "ce_urartu_cuneiform.dds"
+        color1 = "silver"
+		instance = { scale = { 0.70 0.70 } position = { 0.50 0.90 } }
+	}
+}
+
+KYMAIA_MAGNA_FLAG = {
+	pattern="pattern_solid.tga"
+	color1= "kymaia_blue"
+	color2= "offwhite"
+
+	colored_emblem = {
+        texture = "ce_amphora_06.dds"
+        color1 = "silver"
+		color2 = "ck2_black"
+	}
+	colored_emblem = {
+		texture = "ce_border_greek_07.dds"
+		color1 = "kymaia_blue"
+		color2 = "kymaia_yellow"
+	}
+}

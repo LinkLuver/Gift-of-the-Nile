@@ -49,6 +49,7 @@ is_tier_1_formable_trigger = {
 		tag = RLM #Roman Kingdom
 		tag = SL1 #Salluvian Confederacy
 		tag = BTT #Bastetania
+		tag = KYG #Magna Kymaia
 	 }
 }
 
@@ -151,6 +152,7 @@ is_endgame_tag_trigger = {
 		tag = UBF #Umbrian Federation
 		tag = HB2 #Spania
 		tag = CTK #Keltike
+		tag = ITK #Italiote Kingdom
 	}
 }
 
