@@ -6,9 +6,10 @@
 				tag = KDR
 			}
 			NOR = {
-				is_tier_2_formable_trigger = yes
+				is_tier_1_formable_trigger = yes
 				is_endgame_tag_trigger = yes
 				has_variable = has_formed_ninive
+				tag = NIN
 			}
 		}
 		highlight = {
@@ -19,21 +20,25 @@
 			}
 		}
 		allow = {
-			owns = 852 #Nineveh
+			owns = 862 #Nineveh
 			
 		}
 		effect = {
-			custom_tooltip = "tier_2_formable_tooltip"
+			custom_tooltip = "tier_1_formable_tooltip"
 			change_country_name = "NINIVE_NAME"
-			tribal_formable_government_change_effect = yes
-			capital_scope = {
-				capital_formable_small_effect = yes
+			custom_tooltip = "form_ninive_claims_tooltip"
+			set_capital = 862
+			p:862 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
 			}
 			add_2_free_province_investments = yes
 			hidden_effect = {
 				change_country_adjective = "NINIVE_FORMABLE_ADJECTIVE"
 				change_country_tag = NIN
 				change_country_color = ariarathid_color
+				change_country_flag = "NINIVE_FLAG"
+				set_country_heritage = ninivean_heritage
 				hidden_effect = {
 				every_province = {
 					limit = {
