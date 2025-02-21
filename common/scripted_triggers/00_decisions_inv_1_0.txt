@@ -50,6 +50,7 @@ is_tier_1_formable_trigger = {
 		tag = SL1 #Salluvian Confederacy
 		tag = BTT #Bastetania
 		tag = KYG #Magna Kymaia
+		tag = NIN #Ninive
 	 }
 }
 
@@ -102,7 +103,6 @@ is_tier_2_formable_trigger = {
 		tag = SHK #Shikala
 		tag = ATL #Atlas
 		tag = ZG1 #Kassite Kingdom
-		tag = NIN #Ninive
 		tag = LOP #League of The Pillars
 		tag = SUB #Subartu
 		tag = UTI #Urartu
@@ -115,6 +115,7 @@ is_tier_2_formable_trigger = {
 		tag = ETA #Etruria
 		tag = ET2 #Etruria Padana
 		tag = KYL #Kios Lydia
+		tag = AGT #Agartia
 	}
 }
 

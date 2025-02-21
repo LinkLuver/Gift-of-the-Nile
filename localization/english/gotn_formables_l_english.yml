@@ -283,6 +283,14 @@
  SALLUVIA_NAME:0 "Salluvian Confederacy"
  SALLUVIA_ADJECTIVE:0 "Salluvian"
 
+ ## Persia Formables
+ form_agartia:0 "Unite the Agartians"
+ form_agartia_desc:0 "The #Y Agartians#! have long existed as many disparate, bickering entities. It was only until the #Y Median#! conquest that we were consolidated in some form. No one is safe to the sands of time, and it is clear that our future lies united, lest we be blown away in the wind."
+ formable_not_agartia_exists:0 "#Y Agartia#! does not exist."
+ form_agartia_claims_tooltip:0 "#Y Agartia#! will gain claims on the region of #Y Parthia#!, and on the areas of #Y Aria#!, #Y Tabiene#!, #Y Drangiana#!, and #Y Pactya#!."
+ AGARTIA_NAME:0 "Agartia"
+ AGARTIA_ADJECTIVE:0 "Agartian"
+
  ### Reaffirmation Decisions ###
  # Reaffirm Media
  affirm_media:0 "Reaffirm Median Dominance"
