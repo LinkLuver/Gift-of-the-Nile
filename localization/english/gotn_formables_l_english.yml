@@ -310,3 +310,19 @@
  gotn_formable_event_2_desc:0 "As many have pointed out, the many tribes and peoples of the #E Zagros Mountains#! have never been united before. And now that we have, we can easily call upon our shared cultural values, as despite our many diverse and disparate groups, we share many features. Raiding the rich lands to the west, east, north, or south; living in the tall, mighty mountains; and fighting like warriors until the last man. This presents us with the striking possibility to promote an #E ethnogenesis#!, creating a new shared cultural grouping known as #E Zagrosian#!."
  gotn_formable_event_2_a:0 "We are Zagrosians first, [SCOPE.GetRootScope.GetCountry.GetRuler.GetCulture.GetName] second."
  gotn_formable_event_2_b:0 "We are [SCOPE.GetRootScope.GetCountry.GetRuler.GetCulture.GetName] first, Zagrosians second."
+
+ # Tadmor Culture Decision #
+ tadmor_culture_switch:0 "Aramaic Influence"
+ tadmor_culture_switch_desc:0 "It is undeniable that the influence of the #Y Arameans#! has been very strong. Many amongst us have begun to question our own ways, and wonder if the traditions of the #Y Arameans#! would be better suited for our rule."
+ tadmor_culture_decision_tt:0 "We will decide whether to #G integrate#! or #G adopt#! #Y Aramaic#! ways."
+ gotn_formable_event_9_title:0 "Aramaic Influence"
+ gotn_formable_event_9_desc:0 "We must decide whether to accept the #Y Arameans#! into our culture, or adopt their ways. In many ways we are already #Y Aramaic#! in all but name, and the advantages of doing so are too great to pass up- we might finally be seen as a 'proper' realm, and not just some nomads from the desert who cannibalized the corpse of a dying kingdom."
+ gotn_formable_event_9.a:0 "So be it- we are now #Y Arameans#!."
+ gotn_formable_event_9.b:0 "#Y Qedarite#! ways are just fine, but I could learn to live with an #Y Aramean#!."
+ tadmor_culture_decision_01:0 "We will switch cultures to #G Aramaic#!"
+ tadmor_culture_decision_02:0 "#G Aramaic#! will become an integrated culture."
+ aramaic_acceptance:0 "Accepted Arameans"
+ tadmor_aramaic:0 "Aramaic Tadmor"
+ culture_capital_tadmor_tt:0 "At least 50% of the free people in the territory of [SCOPE.GetRootScope.GetCountry.GetCapital.GetName] (#Y [SCOPE.ScriptValue('majority_of_free_men_in_capital_svalue')|0] #! Non-Slave Pops) are #Y Aramaic#!."
+ culture_country_tadmor_tt:0 "At least 20% of the people in [SCOPE.GetRootScope.GetCountry.GetName] are #Y Aramaic#!." 
+ 

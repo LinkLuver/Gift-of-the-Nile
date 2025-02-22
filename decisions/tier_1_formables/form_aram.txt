@@ -55,6 +55,7 @@
 			p:750 = {
 				capital_formable_medium_effect = yes
 			}
+			set_variable = has_formed_aram
 		}
 		
 		ai_will_do = {

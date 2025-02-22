@@ -7923,6 +7923,9 @@ hurrian_heritage = {
     
     trigger = {
         primary_culture = hurrian
+        NOR = {
+            tag = AT4
+        }
     }
 }
 
@@ -9386,6 +9389,18 @@ italiote_kingdom_heritage = {
 	}
 }
 
-
+khourria_heritage = {
+	modifier = {
+		#good
+		land_morale_modifier = 0.05
+        happiness_for_same_religion_modifier = 0.05
+		#bad
+        civil_war_threshold = -0.05
+    }
+	
+	trigger = {
+		tag = AT4
+	}
+}
 
 

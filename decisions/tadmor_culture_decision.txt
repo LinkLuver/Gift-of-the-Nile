@@ -3,7 +3,7 @@ country_decisions = {
 		potential = {
 			num_of_cities >=1
 			tag = PAL
-			NOT = {has_variable = tadmor_culture_switch_var }
+			NOR = { has_variable = tadmor_culture_switch_var }
 		}
 		highlight = {
             scope:province = {
@@ -12,4 +12,45 @@ country_decisions = {
                 }
             }
         }
+		allow = {
+			political_influence >= 50
+			stability >= 60
+			hidden:capital_scope = {
+				custom_tooltip = {
+					text = culture_capital_tadmor_tt
+					any_pops_in_province = {
+						count >= majority_of_free_men_in_capital_svalue
+						pop_culture = aramaic
+						NOT = { pop_type = slaves }
+					}
+				}
+			}
+			AND = {
+				custom_tooltip = {
+					text = culture_country_tadmor_tt
+					culture_pops_in_country = {
+						target = aramaic
+						value >= 20
+					}
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = "tadmor_culture_decision_tt"
+			hidden_effect = {
+			trigger_event = { 
+				id = gotn_formable_event.9
+				days = { 1 30 }
+				}
+			set_variable =  tadmor_culture_switch_var
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+}
 		

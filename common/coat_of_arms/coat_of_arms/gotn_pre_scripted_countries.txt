@@ -2614,3 +2614,14 @@ KAR = {
 		color2 = "ck2_black"
 	}
 }
+
+AT4 = {
+	pattern="pattern_solid.tga"
+	color1= rgb { 143 97 44 }
+	color2= "offwhite"
+
+	colored_emblem = {
+        texture = "ce_parthia_sun_banner_02.dds"
+        color1 = rgb { 144 28 28}
+	}
+}

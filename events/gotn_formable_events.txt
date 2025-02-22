@@ -431,3 +431,61 @@ gotn_formable_event.8 = { # Magna Kymaia government decision
 		add_stability = 20
 	}
 }
+
+gotn_formable_event.9 = { #Tadmor Culture Decision
+	type = country_event
+	title = gotn_formable_event_9_title
+	desc = gotn_formable_event_9_desc
+	picture = interesting_histories_greek_debate
+
+	option = {
+		name = gotn_formable_event_9.a
+		custom_tooltip = "tadmor_culture_decision_01"
+		add_stability = -20
+		if = {
+			limit = { 
+				is_republic = yes
+				has_party_type = traditionalist_party
+			}
+			add_party_approval = {
+				party_type = traditionalist_party
+				value = 20
+			}
+		}
+		add_country_modifier = {
+			name = tadmor_aramaic
+			duration = 1825
+		}
+		hidden_effect = {
+			set_primary_culture_cleanup_effect = {
+	  			NEW_PRIMARY_CULTURE = aramaic
+  				MAKE_OLD_CULTURE_INTEGRATED = yes
+			}
+			ai_will_do = {
+				factor = 1
+			}
+    	}
+	}
+	option = {
+		name = gotn_formable_event_9.b
+		custom_tooltip = "tadmor_culture_decision_02"
+		add_country_modifier = {
+			name = aramaic_acceptance
+			duration = 1825
+		}
+		if = {
+			limit = { 
+				is_republic = yes
+				has_party_type = traditionalist_party
+			}
+			add_party_approval = {
+				party_type = traditionalist_party
+				value = 20
+			}
+			random_country_culture = {
+				limit = { is_culture = aramaic }
+				ROOT = { integrate_country_culture = PREV }
+			}
+		}
+	}
+}
