@@ -6211,11 +6211,11 @@ calactea_heritage = {
 tyndaria_heritage = {
     modifier = {
         #good
-        global_migration_speed_modifier = 0.2
-        omen_duration = -0.15
-       
+        coastal_terrain_combat_bonus = 0.10
+        global_monthly_food_modifier = 0.05
+         
         #bad
-        global_pop_conversion_speed_modifier = -0.05
+        monthly_governor_wage = 0.05
     }
    
     trigger = {

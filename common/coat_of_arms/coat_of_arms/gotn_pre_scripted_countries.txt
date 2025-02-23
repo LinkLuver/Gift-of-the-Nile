@@ -2622,6 +2622,29 @@ AT4 = {
 
 	colored_emblem = {
         texture = "ce_parthia_sun_banner_02.dds"
-        color1 = rgb { 144 28 28}
+        color1 = rgb { 144 28 28 }
+	}
+}
+
+TYN = {
+	pattern="pattern_solid.tga"
+	color1= "bastetania_purple"
+	color2= "offwhite"
+
+	colored_emblem = {
+        texture = "ce_thetis_a.dds"
+        color1 = "silver"
+		color2 = "kymaia_blue"
+	}
+	colored_emblem = {
+        texture = "ce_thetis_b.dds"
+        color1 = "kymaia_blue"
+	}
+	colored_emblem = {
+        texture = "ce_border_meander_10.dds"
+        color1 = "kymaia_blue"
+		color2 = "offwhite"
+		instance = {}
+		instance = { rotation = 180 }
 	}
 }

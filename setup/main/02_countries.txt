@@ -4143,11 +4143,11 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
-			capital = 94
+			capital = 90
 
 			own_control_core = 	{
-				90 92 94 95 96 97
-				7841 7842 7843
+				90 92 95 
+				7841 7843
 			}
 
 		}
@@ -4167,7 +4167,7 @@ country = {
 			capital = 7840
 
 			own_control_core = {
-				100 98 89 7839 88 7840
+			89 7839 88 7840
 			}
 
 			poptype_rights = {
@@ -5493,16 +5493,16 @@ country = {
 		}
 
 		LP2 = { #Tubaqti
-			government = punic_republic
+			government = plutocratic_republic
 			primary_culture = macaean
 			religion = amun_religion
 			capital = 3325
 
 			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
 			}
 
 			own_control_core = 	{
@@ -5769,7 +5769,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				3483 3481 3484 3486 3485 3490 3482 3492 3493 3494 3497 3487 3499
+				3483 3481 3484 3486 3485 3490 3482 3492 3493 3494 3497 3487 3499 94
 			}
 		}
 
@@ -13852,10 +13852,10 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
-			capital = 99
+			capital = 100
 
 			own_control_core = {
-				99 1472
+				99 1472 100
 			}
 		}
 
@@ -16577,6 +16577,63 @@ country = {
 			}
 
 			treasures = { 892 }
+		}
+
+		THM = { #Himera
+			government = oligarchic_republic
+			primary_culture = syracusan
+			religion = roman_pantheon
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 97
+
+			own_control_core = {
+				97 98 
+			}
+		}
+
+		SK1 = { #Tzitz
+			government = punic_republic
+			primary_culture = carthaginian
+			religion = carthaginian_pantheon
+			capital = 96
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				96
+			}
+
+		}
+
+		SK2 = { #Kaprot
+			government = punic_republic
+			primary_culture = carthaginian
+			religion = carthaginian_pantheon
+			capital = 7842
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				7842
+			}
+
 		}
 	}
 }

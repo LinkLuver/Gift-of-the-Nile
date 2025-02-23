@@ -1887,19 +1887,26 @@
 
 88={ #Morgantion
 	terrain="hills"
-	culture="siculian"
+	culture="syracusan"
 	religion="italic_pantheon"
 	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="siculian"
+		religion="italic_pantheon"
+		amount=2
+	}
 	freemen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=3
 	}
 	tribesmen={
+		culture="siculian"
+		religion="italic_pantheon"
 		amount=2
 	}
 }
@@ -1909,16 +1916,22 @@
 	culture="siculian"
 	religion="italic_pantheon"
 	trade_goods="grain"
-	civilization_value=9
+	civilization_value=22
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=3
 	}
+	citizen={
+		culture="syracusan"
+		religion="roman_pantheon"
+		amount=1
+	}
 	freemen={
 		amount=5
 	}
 	slaves={
+		religion="roman_pantheon"
 		amount=3
 	}
 	tribesmen={
@@ -1928,34 +1941,36 @@
 
 90={ #Hypana
 	terrain="hills"
-	culture="syracusan"
-	religion="roman_pantheon"
+	culture="siculian"
+	religion="italic_pantheon"
 	trade_goods="grain"
-	civilization_value=24
+	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	freemen={
-		culture="siculian"
+		culture="syracusan"
+		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
 		amount=2
 	}
 	slaves={
-		culture="siculian"
+		culture="syracusan"
+		religion="roman_pantheon"
 		amount=1
 	}
 	tribesmen={
-		amount=4
+		amount=5
 	}
 	tribesmen={
-		culture="siculian"
+		culture="syracusan"
 		amount=1
 	}
 }
@@ -1995,26 +2010,21 @@
 
 92={ #Egesta
 	terrain="hills"
-	culture="syracusan"
-	religion="roman_pantheon"
+	culture="siculian"
+	religion="italic_pantheon"
 	trade_goods="grain"
-	civilization_value=24
+	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
+		amount=4
+	}
+	tribesmen={
 		amount=3
 	}
-	freemen={
-		culture="siculian"
-		religion="italic_pantheon"
-		amount=2
-	}
 	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		culture="siculian"
-		religion="italic_pantheon"
+		culture="syracusan"
+		religion="roman_pantheon"
 		amount=1
 	}
 }
@@ -2079,38 +2089,39 @@
 		amount=4
 	}
 	freemen={
-		amount=4
+		amount=2
 	}
 	slaves={
-		amount=3
+		amount=1
 	}
 	port_building=1
 }
 
 95={ #Eryx
 	terrain="plains"
-	culture="syracusan"
-	religion="roman_pantheon"
+	culture="siculian"
+	religion="italic_pantheon"
 	trade_goods="stone"
-	civilization_value=26
+	civilization_value=14
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=1
 	}
 	freemen={
-		culture="siculian"
+		culture="syracusan"
+		religion="roman_pantheon"
 		amount=2
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
+		culture="syracusan"
+		religion="roman_pantheon"
 		amount=4
 	}
 	tribesmen={
-		culture="siculian"
-		religion="italic_pantheon"
 		amount=4
 	}
 }
@@ -2148,30 +2159,53 @@
 	culture="syracusan"
 	religion="roman_pantheon"
 	trade_goods="fish"
-	civilization_value=24
+	civilization_value=33
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=2
 	}
 	citizen={
-		culture="boeotian"
-		amount=1
+		amount=4
+	}
+	citizen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=2
 	}
 	freemen={
+		amount=7
+	}
+	freemen={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
 		amount=2
 	}
 	freemen={
 		culture="siculian"
 		religion="italic_pantheon"
-		amount=1
+		amount=3
 	}
 	slaves={
-		culture="boeotian"
-		amount=1
+		culture="siculian"
+		amount=3
+	}
+	slaves={
+		culture="siculian"
+		amount=2
+	}
+	slaves={
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		amount=2
 	}
 	tribesmen={
-		amount=1
+		culture="siculian"
+		religion="italic_pantheon"
+		amount=2
+	}
+	tribesmen={
+		amount=2
 	}
 }
 
@@ -2202,31 +2236,27 @@
 	culture="syracusan"
 	religion="roman_pantheon"
 	trade_goods="base_metals"
-	civilization_value=31
+	civilization_value=25
 	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=1
-	}
+	province_rank="settlement"
 	citizen={
 		amount=1
 	}
-	citizen={
-		culture="boeotian"
-		amount=1
+	freemen={
+		amount=2
 	}
 	freemen={
-		amount=6
-	}
-	freemen={
-		culture="boeotian"
-		amount=1
+		culture="siculian"
+		religion="italic_pantheon"
+		amount=2
 	}
 	slaves={
-		amount=4
+		amount=2
 	}
 	tribesmen={
-		amount=2
+		culture="siculian"
+		religion="italic_pantheon"
+		amount=3
 	}
 }
 
@@ -2235,11 +2265,22 @@
 	culture="syracusan"
 	religion="roman_pantheon"
 	trade_goods="glass"
-	civilization_value=24
+	civilization_value=31
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=2
+	}
+	nobles={
+		culture="siculian"
+		amount=1
+	}
 	citizen={
-		amount=3
+		amount=2
+	}
+	citizen={
+		culture="siculian"
+		amount=2
 	}
 	freemen={
 		amount=7
@@ -2248,7 +2289,9 @@
 		amount=7
 	}
 	tribesmen={
-		amount=4
+		culture="siculian"
+		religion="italic_pantheon"
+		amount=3
 	}
 }
 
@@ -2464,7 +2507,7 @@
 	culture="siculian"
 	religion="italic_pantheon"
 	trade_goods="vegetables"
-	civilization_value=9
+	civilization_value=22
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -2490,21 +2533,37 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=4
+		amount=3
+	}
+	nobles={
+		culture="siculian"
+		amount=1
 	}
 	citizen={
-		amount=10
+		culture="siculian"
+		amount=5
+	}
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=7
 	}
 	freemen={
 		culture="siculian"
-		amount=10
+		amount=5
 	}
 	slaves={
-		amount=8
+		amount=4
+	}
+	slaves={
+		culture="siculian"
+		amount=4
 	}
 	tribesmen={
 		culture="siculian"
-		amount=5
+		religion="italic_pantheon"
+		amount=4
 	}
 }
 
@@ -2513,17 +2572,22 @@
 	culture="siculian"
 	religion="italic_pantheon"
 	trade_goods="cattle"
-	civilization_value=24
+	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		culture="syracusan"
+		religion="roman_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	slaves={
 		amount=1
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -2569,10 +2633,10 @@
 
 7843={ #Hadranum
 	terrain="hills"
-	culture="syracusan"
-	religion="roman_pantheon"
+	culture="siculian"
+	religion="italic_pantheon"
 	trade_goods="vegetables"
-	civilization_value=24
+	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -2582,7 +2646,8 @@
 		amount=3
 	}
 	freemen={
-		culture="siculian"
+		culture="syracusan"
+		religion="roman_pantheon"
 		amount=2
 	}
 	slaves={
