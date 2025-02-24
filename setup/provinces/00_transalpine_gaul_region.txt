@@ -87,7 +87,7 @@
 	culture="massalian"
 	religion="roman_pantheon"
 	trade_goods="stone"
-	civilization_value=13
+	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -698,7 +698,7 @@
 	culture="massalian"
 	religion="roman_pantheon"
 	trade_goods="salt"
-	civilization_value=13
+	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -708,7 +708,7 @@
 		amount=3
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		culture="volcae"
@@ -819,8 +819,8 @@
 	terrain="farmland"
 	culture="massalian"
 	religion="roman_pantheon"
-	trade_goods="grain"
-	civilization_value=20
+	trade_goods="earthware"
+	civilization_value=28
 	barbarian_power=0
 	province_rank="city"
 	citizen={
@@ -1455,7 +1455,7 @@
 	culture="ligurian"
 	religion="roman_pantheon"
 	trade_goods="fish"
-	civilization_value=13
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={

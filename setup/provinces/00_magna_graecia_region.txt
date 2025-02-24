@@ -2154,12 +2154,12 @@
 	port_building=1
 }
 
-97={ #Thermae Himerenses
+97={ #Himera
 	terrain="hills"
 	culture="syracusan"
 	religion="roman_pantheon"
 	trade_goods="fish"
-	civilization_value=33
+	civilization_value=31
 	barbarian_power=0
 	province_rank="city"
 	nobles={
@@ -2207,6 +2207,7 @@
 	tribesmen={
 		amount=2
 	}
+	port_building=1
 }
 
 98={ #Kephaloidion

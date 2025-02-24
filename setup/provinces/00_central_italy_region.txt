@@ -1989,6 +1989,7 @@
 		amount=5
 	}
 	holy_site=omen_norax
+	port_building=1
 }
 
 3484={ #Karali
@@ -2031,6 +2032,7 @@
 		religion="nuragic_pantheon"
 		amount=3
 	}
+	port_building=1
 }
 
 3485={ #Sardopatoris

@@ -9403,4 +9403,58 @@ khourria_heritage = {
 	}
 }
 
+himera_heritage = {
+	modifier = {
+		#good
+		discipline = 0.05
+        global_migration_speed_modifier = 0.05
+		#bad
+        ruler_popularity_gain = -0.05
+    }
+	
+	trigger = {
+		tag = THM
+	}
+}
 
+tzitz_heritage = {
+	modifier = {
+		#good
+		global_export_commerce_modifier = 0.10
+        global_ship_recruit_speed = 0.15
+		#bad
+        improve_relation_cost_modifier = 0.25
+    }
+	
+	trigger = {
+		tag = SK1
+	}
+}
+
+kaprot_heritage = {
+	modifier = {
+		#good
+		global_defensive = 0.05
+        global_citizen_output = 0.05
+		#bad
+        global_manpower_modifier = -0.05
+    }
+	
+	trigger = {
+		tag = SK2
+	}
+}
+
+oppon_heritage = {
+	modifier = {
+		#good
+		price_state_investment_civic_cost_modifier = -0.20
+        improve_relation_impact = 0.10
+		#bad
+        happiness_for_same_culture_modifier = -0.03
+    }
+	
+	trigger = {
+		tag = RS3
+	}
+}
