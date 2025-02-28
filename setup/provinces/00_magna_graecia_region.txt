@@ -200,38 +200,38 @@
 
 11={ #Paestum
 	terrain="hills"
-	culture="lucanian"
-	religion="italic_pantheon"
+	culture="italiotian"
+	religion="roman_pantheon"
 	trade_goods="wood"
-	civilization_value=14
+	civilization_value=29
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="italiotian"
-		religion="roman_pantheon"
 		amount=2
 	}
 	citizen={
+		religion="isis_religion"
 		amount=2
 	}
 	freemen={
-		culture="italiotian"
-		religion="roman_pantheon"
+		religion="isis_religion"
 		amount=2
 	}
 	freemen={
 		amount=3
 	}
 	slaves={
-		culture="italiotian"
-		religion="roman_pantheon"
 		amount=2
 	}
 	slaves={
-		amount=5
+		culture="lucanian"
+		religion="italic_pantheon"
+		amount=2
 	}
 	tribesmen={
-		amount=8
+		culture="lucanian"
+		religion="italic_pantheon"
+		amount=4
 	}
 }
 
@@ -1439,10 +1439,10 @@
 
 74={ #Stylacium
 	terrain="hills"
-	culture="bruttian"
-	religion="italic_pantheon"
+	culture="italiotian"
+	religion="roman_pantheon"
 	trade_goods="fish"
-	civilization_value=9
+	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1455,11 +1455,13 @@
 		amount=2
 	}
 	slaves={
-		culture="italiotian"
-		religion="roman_pantheon"
+		culture="bruttian"
+		religion="italic_pantheon"
 		amount=1
 	}
 	tribesmen={
+		culture="bruttian"
+		religion="italic_pantheon"
 		amount=5
 	}
 }

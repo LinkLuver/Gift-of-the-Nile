@@ -43,6 +43,7 @@ diplomacy = {
 	dependency = { first = MAP second = SPH subject_type = satrapy }
 	dependency = { first = MAP second = MFX subject_type = satrapy }
 	dependency = { first = MAP second = ARE subject_type = satrapy }
+	dependency = { first = MAP second = MMT subject_type = satrapy }
 	dependency = { first = MAP second = AR2 subject_type = tributary }
 
 
@@ -219,6 +220,7 @@ diplomacy = {
 	defensive_league = {
     	member = RHG
     	member = LOC
+		member = HPO
 	}
 
 	#Northern Italiotes
@@ -351,10 +353,6 @@ diplomacy = {
 	#Lucanii
 	#alliance = { first = LCA second = BRT } #RDD
 	dependency = { first = LCA second = ELE subject_type = tributary }
-
-	#Bruttii
-	dependency = { first = BRT second = HPO subject_type = tributary }
-	dependency = { first = BRT second = THU subject_type = tributary }
 
 	#Knossos
 	dependency = { first = KNO second = ELT subject_type = feudatory }

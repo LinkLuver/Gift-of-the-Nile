@@ -824,18 +824,26 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
+		amount=3
+	}
+	freemen={
 		amount=2
 	}
 	freemen={
-		amount=3
+		culture="arverni"
+		religion="druidism"
+		amount=1
 	}
 	tribesmen={
 		culture="salluvian"
-	religion="druidism"
+		religion="druidism"
 		amount=3
 	}
 	slaves={
 		culture="volcae"
+		amount=1
+	}
+	slaves={
 		amount=1
 	}
 	port_building=1

@@ -71,6 +71,7 @@ AM1 = "setup/countries/persiamesopotamia/piranshahr.txt"
 AM2 = "setup/countries/persiamesopotamia/halman.txt"
 AM3 = "setup/countries/persiamesopotamia/sacapenia.txt"
 AM4 = "setup/countries/persiamesopotamia/apphana.txt"
+MMT = "setup/countries/persiamesopotamia/matiene.txt"
 
 # Arabia
 AX0 = "setup/countries/arabia/tasm.txt"
@@ -235,6 +236,7 @@ RAV = "setup/countries/italia/ravna.txt"
 THM = "setup/countries/italia/himera.txt"
 SK1 = "setup/countries/italia/tzitz.txt"
 SK2 = "setup/countries/italia/kaprot.txt"
+PSD = "setup/countries/italia/poseidonia.txt"
 
 # Africa
 LBU = "setup/countries/africa/libu.txt"

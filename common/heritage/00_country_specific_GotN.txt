@@ -9385,7 +9385,7 @@ italiote_kingdom_heritage = {
     }
 	
 	trigger = {
-		tag = ITK
+		always = no
 	}
 }
 
@@ -9457,4 +9457,19 @@ oppon_heritage = {
 	trigger = {
 		tag = RS3
 	}
+}
+
+matienes_heritage = {
+    modifier = {
+        #good
+        global_defensive = 0.05
+        build_cost = -0.05
+
+        #bad
+        global_manpower_modifier = -0.05
+    }
+
+    trigger = {
+        tag = MMT
+    }
 }

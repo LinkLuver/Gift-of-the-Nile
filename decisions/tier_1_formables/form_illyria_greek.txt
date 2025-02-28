@@ -9,6 +9,9 @@
 			tag = EPM
 			tag = PHA
 			tag = ASP
+			tag = ENT
+			tag = ANO
+			tag = SIO
 		}
 		NOR = {
 			is_tier_1_formable_trigger = yes
@@ -25,6 +28,9 @@
 				province_id = 4085
 				province_id = 422
 				province_id = 415
+				province_id = 38
+				province_id = 117
+				province_id = 143
 			}
 		}
 	}
@@ -43,6 +49,9 @@
 		owns_or_subject_owns = 4085
 		owns_or_subject_owns = 422
 		owns_or_subject_owns = 415
+		owns_or_subject_owns = 38
+		owns_or_subject_owns = 117
+		owns_or_subject_owns = 143
 	}
 	effect = {
 		custom_tooltip = "tier_1_formable_tooltip"
@@ -52,7 +61,8 @@
 		hidden_effect = {
 			change_country_adjective = "ILLYRIA_GREEK_ADJECTIVE"
 			change_country_tag = GIL
-			change_country_color = "desaturated_green"
+			change_country_color = "magna_illyria_color"
+			change_country_flag = "MAGNA_ILLYRIA_FLAG"
 		}
 		capital_scope = {
 			capital_formable_small_effect = yes

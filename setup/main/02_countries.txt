@@ -1309,11 +1309,11 @@ country = {
 			treasures = { 192 }
 
 			own_control_core = 	{
-				1514 1515 1516 1520 1521 1522 1523 1524 1525 1526 1565 #media_atropatene_region
+				1520 1523 1524 1525 1526 1565 #media_atropatene_region
 				1620 1621 1622 1624 1625 1626 1627 1628 1629 1593 3390 3387 #kadousioi_region
-				1512 1552 1553 1554 1555 1556 1557 1558 3386 #media_region
+				1512 1555 1556 1557 1558 3386 #media_region
 				1618 1619 1630 1631 1632 1638 1648 1649 1652 1654 1647 9579 #paytankert_region
-				1505 1506 1507 1511 1518 1519 #parskahayk_region
+				1505 1506 1507 1518 1519 #parskahayk_region
 				4985 4986 4987 4989 3389 4988 3383 3388 4984 3385 3384 4990 # Amardioi
 				4997 4998 4996 3434 7638 7639 #hyrcania
 				6954 6955 6956 6957 6958 6959 6960 6961 6962 6963 6964 #Media Choromithrene
@@ -1335,7 +1335,7 @@ country = {
 				9681 9682 9683 9684 9685 9686 9687 9689 9690 9691
 				9694 9697 3399
 
-				9781 9798 9811 9801 9748 9749 9750
+				9781 9798 9811 9801
 				
 			}
 
@@ -4768,7 +4768,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				60 70 71 59 53 47 11 13 61
+				60 70 71 59 53 47 13 61
 			}
 
 		}
@@ -4789,7 +4789,7 @@ country = {
 
 			diplomatic_stance=appeasement_stance
 			own_control_core = 	{
-				51 77 76 79 74
+				51 77 76 79
 			}
 
 		}
@@ -5215,7 +5215,7 @@ country = {
 			capital = 78
 
 			own_control_core = 	{
-				78
+				78 74
 			}
 
 			treasures = { 44 }
@@ -16632,6 +16632,44 @@ country = {
 
 			own_control_core = 	{
 				7842
+			}
+
+		}
+
+		PSD = {
+			government = plutocratic_republic
+			primary_culture = italiotian
+			religion = roman_pantheon
+			capital = 11
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				11
+			}
+
+		}
+
+		MMT = {
+			government = stratocratic_monarchy
+			primary_culture = matienian
+			religion = mithra_religion
+			capital = 1515
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = 	{
+				1515 1520 1521 1522 1552 1553 1554 9749 9748 9750 1512 1514 1511 1516
 			}
 
 		}
