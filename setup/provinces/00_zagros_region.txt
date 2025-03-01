@@ -3,7 +3,7 @@
 	culture="assyrian"
 	religion="ashur_religion"
 	trade_goods="leather"
-	civilization_value=19
+	civilization_value=12
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -22,7 +22,7 @@
 	culture="assyrian"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -102,7 +102,7 @@
 	culture="assyrian"
 	religion="mesopotamian_religion"
 	trade_goods="base_metals"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -115,7 +115,7 @@
 	culture="shubar"
 	religion="ashur_religion"
 	trade_goods="salt"
-	civilization_value=19
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -133,8 +133,8 @@
 	terrain="mountain"
 	culture="tukri"
 	religion="mithra_religion"
-	trade_goods="fish"
-	civilization_value=21
+	trade_goods="vegetables"
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -154,7 +154,7 @@
 	culture="tukri"
 	religion="mithra_religion"
 	trade_goods="cattle"
-	civilization_value=17
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -174,7 +174,7 @@
 	culture="cyrtian"
 	religion="zoroaster"
 	trade_goods="dye"
-	civilization_value=19
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -364,7 +364,7 @@
 	culture="cimmerian"
 	religion="mithra_religion"
 	trade_goods="marble"
-	civilization_value=27
+	civilization_value=2
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -422,7 +422,7 @@
 	culture="cimmerian"
 	religion="mithra_religion"
 	trade_goods="marble"
-	civilization_value=27
+	civilization_value=2
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -491,7 +491,7 @@
 	culture="shubar"
 	religion="ashur_religion"
 	trade_goods="wine"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -513,7 +513,7 @@
 	culture="cyrtian"
 	religion="zoroaster"
 	trade_goods="wood"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -535,7 +535,7 @@
 	culture="shubar"
 	religion="ashur_religion"
 	trade_goods="glass"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -557,7 +557,7 @@
 	culture="assyrian"
 	religion="mesopotamian_religion"
 	trade_goods="earthware"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -579,7 +579,7 @@
 	culture="assyrian"
 	religion="mesopotamian_religion"
 	trade_goods="leather"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -733,7 +733,7 @@
 	culture="tukri"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -759,7 +759,7 @@
 	culture="shubar"
 	religion="zoroaster"
 	trade_goods="wild_game"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -772,7 +772,7 @@
 	culture="shubar"
 	religion="armenian_religion"
 	trade_goods="marble"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -785,7 +785,7 @@
 	culture="shubar"
 	religion="armenian_religion"
 	trade_goods="salt"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -798,7 +798,7 @@
 	culture="tukri"
 	religion="armenian_religion"
 	trade_goods="vegetables"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -811,7 +811,7 @@
 	culture="tukri"
 	religion="zoroaster"
 	trade_goods="horses"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -824,7 +824,7 @@
 	culture="tukri"
 	religion="armenian_religion"
 	trade_goods="salt"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -837,7 +837,7 @@
 	culture="shubar"
 	religion="armenian_religion"
 	trade_goods="iron"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -850,7 +850,7 @@
 	culture="shubar"
 	religion="zoroaster"
 	trade_goods="cloth"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -863,7 +863,7 @@
 	culture="shubar"
 	religion="zoroaster"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -876,7 +876,7 @@
 	culture="shubar"
 	religion="armenian_religion"
 	trade_goods="fur"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -889,7 +889,7 @@
 	culture="shubar"
 	religion="armenian_religion"
 	trade_goods="stone"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -915,7 +915,7 @@
 	culture="shubar"
 	religion="zoroaster"
 	trade_goods="stone"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -928,7 +928,7 @@
 	culture="tukri"
 	religion="zoroaster"
 	trade_goods="feathers"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -941,7 +941,7 @@
 	culture="tukri"
 	religion="zoroaster"
 	trade_goods="wild_game"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -951,10 +951,10 @@
 
 9748={ #PROV9748
 	terrain="hills"
-	culture="median"
+	culture="tukri"
 	religion="zoroaster"
 	trade_goods="stone"
-	civilization_value=29
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -964,10 +964,10 @@
 
 9749={ #PROV9749
 	terrain="hills"
-	culture="median"
+	culture="tukri"
 	religion="zoroaster"
 	trade_goods="iron"
-	civilization_value=29
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -977,10 +977,10 @@
 
 9750={ #PROV9750
 	terrain="hills"
-	culture="median"
+	culture="tukri"
 	religion="zoroaster"
 	trade_goods="vegetables"
-	civilization_value=29
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -993,7 +993,7 @@
 	culture="tukri"
 	religion="armenian_religion"
 	trade_goods="leather"
-	civilization_value=29
+	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1006,7 +1006,7 @@
 	culture="tukri"
 	religion="armenian_religion"
 	trade_goods="stone"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1019,7 +1019,7 @@
 	culture="lullu"
 	religion="zoroaster"
 	trade_goods="salt"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1032,7 +1032,7 @@
 	culture="lullu"
 	religion="armenian_religion"
 	trade_goods="stone"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1045,7 +1045,7 @@
 	culture="lullu"
 	religion="armenian_religion"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1058,7 +1058,7 @@
 	culture="lullu"
 	religion="armenian_religion"
 	trade_goods="marble"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1071,7 +1071,7 @@
 	culture="lullu"
 	religion="zoroaster"
 	trade_goods="cloth"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1097,7 +1097,7 @@
 	culture="lullu"
 	religion="zoroaster"
 	trade_goods="wild_game"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1110,7 +1110,7 @@
 	culture="lullu"
 	religion="zoroaster"
 	trade_goods="iron"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1123,7 +1123,7 @@
 	culture="lullu"
 	religion="zoroaster"
 	trade_goods="glass"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1188,7 +1188,7 @@
 	culture="lullu"
 	religion="mithra_religion"
 	trade_goods="feathers"
-	civilization_value=29
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1201,7 +1201,7 @@
 	culture="lullu"
 	religion="mithra_religion"
 	trade_goods="precious_metals"
-	civilization_value=29
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1214,7 +1214,7 @@
 	culture="lullu"
 	religion="mithra_religion"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1292,7 +1292,7 @@
 	culture="cossian"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1422,7 +1422,7 @@
 	culture="cimmerian"
 	religion="zoroaster"
 	trade_goods="feathers"
-	civilization_value=29
+	civilization_value=2
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={

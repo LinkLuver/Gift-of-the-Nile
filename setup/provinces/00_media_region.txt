@@ -24,7 +24,7 @@
 	culture="tukri"
 	religion="mithra_religion"
 	trade_goods="wood"
-	civilization_value=17
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -296,7 +296,7 @@
 
 1553={ #Dashband
 	terrain="hills"
-	culture="tukri"
+	culture="matienian"
 	religion="mithra_religion"
 	trade_goods="leather"
 	civilization_value=19

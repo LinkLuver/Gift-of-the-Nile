@@ -1731,13 +1731,6 @@ country = {
 				religious_tech= { level=1 progress=0  }
 			}
 
-			poptype_rights = {
-				{
-					culture = assyrian
-					type = citizen
-				}
-			}
-
 			capital = 9500
 
 			own_control_core = {
