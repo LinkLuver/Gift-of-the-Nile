@@ -48,6 +48,12 @@
  gaul_princely_state_ruler_female:0 "Riga"
  gaul_princely_state_consort:0 "Consort"
 
+ tyranny:0 "Tyranny"
+ tyranny_desc:0 "Ever since the days of Cypselus and Coriander, tyrants have become a Greek tradition. While tyrannies have largely gone out of favor, the absolute rule of one nevertheless remains an option, for those with the ambition to do so."
+ tyranny_ruler:0 "Tyrannos"
+ proclaim_tyranny:0 "Proclaim Tyranny"
+ procaim_tyranny_desc:0 "Democracy has hindered the potential of this nation. By the rule of one, we shall suceed."
+
 
  #Subject Types
  AM_hittite_viceroyalty:0 "#T $LIST$#!\nHittite Principality of $LIST$."

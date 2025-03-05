@@ -36,6 +36,9 @@
  proclaim_dictatorship:0 "Proclaim Dictatorship"
  proclaim_dictatorship_desc:0 "It is becoming increasingly apparent that power cannot be trusted in the hands of the many. Absolute security demands absolute authority."
  
+ proclaim_tyranny:0 "Proclaim Tyranny"
+ proclaim_tyranny_desc:0 "Democracy has hindered the potential of this nation. By the rule of one, we shall suceed."
+
  create_empire:0 "Imperial Ambition"
  create_empire_desc:0 "[COUNTRY.GetRuler.GetName], resplendent in the glory of conquest, has eclipsed all other petty Kingdoms; a new title is needed for the ruler of the [COUNTRY.GetAdjective] Empire."
  deify_emperor:0 "Divine Sanction"

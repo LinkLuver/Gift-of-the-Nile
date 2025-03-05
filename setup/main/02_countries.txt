@@ -4228,7 +4228,7 @@ country = {
 
 		SYR = {
 			family = 24
-			government = dictatorship
+			government = tyranny
 			primary_culture = syracusan
 			religion = roman_pantheon
 			capital = 1470
@@ -5786,9 +5786,9 @@ country = {
 
 		MSL = {
 			family = 2400
-			government = dictatorship
+			government = tyranny
 			primary_culture = atlosian
-			diplomatic_stance=warmongering_stance
+			diplomatic_stance= warmongering_stance
 			religion = berber_religion
 			capital = 3061
 
@@ -6204,7 +6204,7 @@ country = {
 
 		#Massalia
 		MAS = {
-			government = dictatorship
+			government = tyranny
 			primary_culture = massalian
 			diplomatic_stance=warmongering_stance
 			religion = roman_pantheon

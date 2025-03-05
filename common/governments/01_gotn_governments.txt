@@ -202,3 +202,26 @@ gaul_princely_state = { #Dugrum Republic
 
 	can_deify_ruler = yes
 }
+
+tyranny = { #Greek Tyranny
+	military_ideas = 1
+	oratory_ideas = 2
+	type = republic
+	
+	bonus = {	
+		monthly_party_approval = 0.05
+		fabricate_claim_cost_modifier = -0.10
+	}
+	base = {
+		country_civilization_value = 20
+		global_freemen_happyness = happiness_large_svalue
+	}
+	
+	minimum_electable_age = 25
+	
+	can_deify_ruler = no
+	
+	election_delay = 0
+	
+	color = rgb { 63 30 91 }
+}
