@@ -48,12 +48,38 @@
  gaul_princely_state_ruler_female:0 "Riga"
  gaul_princely_state_consort:0 "Consort"
 
+ 
  tyranny:0 "Tyranny"
  tyranny_desc:0 "Ever since the days of Cypselus and Coriander, tyrants have become a Greek tradition. While tyrannies have largely gone out of favor, the absolute rule of one nevertheless remains an option, for those with the ambition to do so."
  tyranny_ruler:0 "Tyrannos"
- proclaim_tyranny:0 "Proclaim Tyranny"
- procaim_tyranny_desc:0 "Democracy has hindered the potential of this nation. By the rule of one, we shall suceed."
+ tyranny_ruler_female:0 "Tyrannos"
 
+ republican_tyranny_reforms:0 "Tyrannical Rule"
+ republican_tyranny_reforms_1:0 "Tyrannical Neutrality"
+ republican_tyranny_reforms_1_desc:0 "The tyrant was not an inherently negative figure. It was often seen as a neccesary step in any democracy."
+ republican_tyranny_reforms_2:0 "Tyrannical Strong-Arming"
+ republican_tyranny_reforms_2_desc:0 "A common feature of any tyrant was their control and dominance over the military. Many were often popular war heroes, but some would use their power to seize control, going against the wishes of the populous."
+ republican_tyranny_reforms_3:0 "Tyrannical Populism"
+ republican_tyranny_reforms_3_desc:0 "Tyrants oftentimes gained their power via the support of the lower classes. Of course, such outward support of the common man is likely to anger the aristocrats."
+ republican_tyranny_reforms_4:0 "Tyrannical Kingship"
+ republican_tyranny_reforms_4_desc:0 "By proclaiming our leader to be a king, we may elevate ourselves from the trappings of a democracy."
+
+ monarchy_lydia_economic_laws:0 "Taxation Laws"
+ land_tithe_lydia:0 "Lydian Coinage"
+ land_tithe_lydia_desc:0 "Our ancient system of taxation and coinage has proved it's worth. But the allure of wealth is very tempting.."
+ monarchy_lydia_religious_laws:0 "Assimilation Policies"
+ religious_tolerance_lydia:0 "Religous Acceptance"
+ religious_tolerance_lydia_desc:0 "Acceptance of other religions has always been our policy. Lydian kings would often ask the oracle of Delphi for guidance on many matters."
+ religious_integration_efforts_lydia:0 "Elevate Priesthood"
+ religious_integration_efforts_lydia_desc:0 "By elevating the status of our priests, we will be able to propagate the spread of our deities."
+ monarchy_religious_mandate_military_lydia:0 "Merchant Colonies"
+ monarchy_religious_mandate_military_lydia_desc:0 "An Assyrian practice, we could learn from their ways. By creating merchant colonies, we will not only be able to spread our culture, but be able to benefit from more trade contacts."
+ monarchy_military_reforms_lydia:0 "Military Reforms"
+ relaxed_recruiting_standards_lydia:0 "Astarhos Conscription"
+ relaxed_recruiting_standards_lydia_desc:0 "By relying on our subjects for soldiers, we will not only always have a ready body of troops, but we will not have to waste precious Lydian lives."
+ mercenary_reliance_lydia:0 "Institutionalized Mercenaries"
+ mercenary_reliance_lydia_desc:0 "Mercenaries have always been an important part of the Lydian military. Our wealth is obscene, and why should we use our own troops, and the unreliable troops of our subjects when we can simply hire as many as we want?"
+ 
 
  #Subject Types
  AM_hittite_viceroyalty:0 "#T $LIST$#!\nHittite Principality of $LIST$."

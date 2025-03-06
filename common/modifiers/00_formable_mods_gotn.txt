@@ -81,7 +81,7 @@ maareb_mod = {
 }
 kios_lydia_mod = {
 	global_nobles_happyness = 0.03
-	character_loyalty = 0.03
+	character_loyalty = 3
 }
 keltika_mod = {
 	global_capital_trade_routes = 3

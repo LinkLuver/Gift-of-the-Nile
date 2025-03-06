@@ -499,7 +499,7 @@
 	culture="hurrian"
 	religion="hurrian_pantheon"
 	trade_goods="stone"
-	civilization_value=24
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -662,7 +662,7 @@
 
 845={ #Martyropolis
 	terrain="hills"
-	culture="arzonian"
+	culture="hurrian"
 	religion="armenian_religion"
 	trade_goods="horses"
 	civilization_value=5
@@ -677,8 +677,8 @@
 		amount=3
 	}
 	tribesmen={
-		culture="hurrian"
-		religion="hurrian_pantheon"
+		culture="arzonian"
+		religion="armenian_religion"
 		amount=2
 	}
 }
@@ -1136,7 +1136,7 @@
 	culture="hurrian"
 	religion="armenian_religion"
 	trade_goods="horses"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1227,7 +1227,7 @@
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
-	civilization_value=26
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1711,7 +1711,7 @@
 
 9556={ #Nabarra
 	terrain="hills"
-	culture="arzonian"
+	culture="hurrian"
 	religion="armenian_religion"
 	trade_goods="honey"
 	civilization_value=3
@@ -1728,7 +1728,6 @@
 		amount=1
 	}
 	tribesmen={
-		culture="hurrian"
 		religion="hurrian_pantheon"
 		amount=2
 	}
@@ -2097,7 +2096,7 @@
 	culture="hurrian"
 	religion="hurrian_pantheon"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
