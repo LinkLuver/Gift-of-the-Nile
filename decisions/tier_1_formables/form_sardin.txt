@@ -19,7 +19,6 @@
 				OR = {
 					is_in_area = sardinia_meridionalis
 					is_in_area = sardinia_septentrionalis
-					is_in_area = corsica_area
 				}
 			}
 		}
@@ -36,26 +35,33 @@
 			can_form_nation_trigger = yes
 			owns_or_subject_owns_area = sardinia_meridionalis
 			owns_or_subject_owns_area = sardinia_septentrionalis
-			owns_or_subject_owns_area = corsica_area
+			AND = {
+				custom_tooltip = {
+					text = culture_country_nura_tt
+					culture_pops_in_country = {
+						target = punic
+						value >= 40
+					}
+				}
+			}
 		}
 		
 		effect = {
-			custom_tooltip = "tier_2_formable_tooltip"
+			custom_tooltip = "tier_1_formable_tooltip"
 			change_country_name = "SARDIN_NAME"
-			set_variable = has_formed_sardin
 			hidden_effect = {
+				set_variable = has_formed_sardin
 				change_country_adjective = "SARDIN_ADJECTIVE"
-				change_country_color = "silver"
 				change_country_tag = "SKD"
 			}
 			capital_scope = {
-				capital_formable_large_effect = yes
-				formable_capital_modifier_large_effect = yes
+				capital_formable_small_effect = yes
+				formable_capital_modifier_normal_effect = yes
 			}
-			add_3_free_province_investments = yes
+			add_2_free_province_investments = yes
 			add_country_modifier = {
 				name = sardin_mod
-				duration = 3520
+				duration = 1825
 			}
 		}
 		
@@ -63,5 +69,4 @@
 			base = 1
 		}
 	}
-
 }

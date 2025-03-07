@@ -3116,7 +3116,7 @@ Massaesylian_heritage = {
     modifier = {
         #good
         light_cavalry_offensive = 0.1
-        happiness_for_wrong_culture_group_modifier = 0.06
+        happiness_for_wrong_culture_modifier = 0.06
 
         #bad
         global_tax_modifier = -0.05
