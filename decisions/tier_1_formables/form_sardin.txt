@@ -35,13 +35,11 @@
 			can_form_nation_trigger = yes
 			owns_or_subject_owns_area = sardinia_meridionalis
 			owns_or_subject_owns_area = sardinia_septentrionalis
-			AND = {
-				custom_tooltip = {
-					text = culture_country_nura_tt
-					culture_pops_in_country = {
-						target = punic
-						value >= 40
-					}
+			custom_tooltip = {
+				text = culture_country_nura_tt
+				culture_pops_in_country = {
+					target = carthaginian
+					value >= 40
 				}
 			}
 		}
