@@ -118,45 +118,43 @@
 		}
 	}
 
-}
+#startup_events.2 = {
 
-startup_events.2 = {
+	#type = country_event
+	#title = "startup_events.2.t"
+	#desc = "startup_events.2.desc"
+	#picture = trade_port
+	#goto_location = root.capital_scope
+	#left_portrait = current_ruler
+	#left_portrait = current_co_ruler
+	#right_portrait = c:SYR.current_ruler
+	#right_portrait = c:ROM.current_ruler
 
-	type = country_event
-	title = "startup_events.2.t"
-	desc = "startup_events.2.desc"
-	picture = trade_port
-	goto_location = root.capital_scope
-	left_portrait = current_ruler
-	left_portrait = current_co_ruler
-	right_portrait = c:SYR.current_ruler
-	right_portrait = c:ROM.current_ruler
+	#trigger = {
+		#tag = CAR
+		#NOT = {
+			#has_variable = carthage_startup_flag
+		#}
+	#}
 
-	trigger = {
-		tag = CAR
-		NOT = {
-			has_variable = carthage_startup_flag
-		}
-	}
+	#immediate = {
+		#set_variable = {
+			#name = carthage_startup_flag
+		#}
+	#}
 
-	immediate = {
-		set_variable = {
-			name = carthage_startup_flag
-		}
-	}
+	#option = {
+		#name = startup_events.2.a
+		#if = {
+			#limit = { is_ai = yes }
+			#add_country_modifier = {
+				#name = carthaginian_ai_aid
+				#duration = -1
+			#}
+		#}
+	#}
 
-	option = {
-		name = startup_events.2.a
-		if = {
-			limit = { is_ai = yes }
-			add_country_modifier = {
-				name = carthaginian_ai_aid
-				duration = -1
-			}
-		}
-	}
-
-}
+#}
 
 startup_events.7 = {
 

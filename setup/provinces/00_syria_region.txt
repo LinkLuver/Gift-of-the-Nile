@@ -1634,7 +1634,7 @@
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="grain"
-	civilization_value=26
+	civilization_value=23
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1840,7 +1840,7 @@
 	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
-	civilization_value=29
+	civilization_value=23
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1862,7 +1862,7 @@
 	culture="hittite"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1906,7 +1906,7 @@
 	culture="hittite"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1928,7 +1928,7 @@
 	culture="hittite"
 	religion="mesopotamian_religion"
 	trade_goods="cedar"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={

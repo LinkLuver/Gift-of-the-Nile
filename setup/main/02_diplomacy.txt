@@ -86,13 +86,20 @@ diplomacy = {
 	defensive_league = {
 		member = ATH
 		member = KZK
-		member = KIO
 		member = AST
 		member = CDD
-		member = DEL
-		member = RHO
 		member = KRK
 		member = APO
+		member = DEL
+	}
+
+	#Rhodian Leaague
+	defensive_league = {
+		member = RHO
+		member = PYK
+		member = KNI
+		member = KAO
+		member = KOS
 	}
 	
 	#Neo-Peloponnesan League
@@ -106,6 +113,9 @@ diplomacy = {
 		member = PLE
 		member = HRA
 		member = AZA
+		member = STP
+		member = MTE
+		member = TEG
 	}
 	dependency = { first = SPA second = LPR subject_type = client_state }
 
@@ -116,6 +126,9 @@ diplomacy = {
 		member = MGA
 		member = KR1
 		member = PYR
+		member = KR2
+		member = EPD
+		member = TRN
 	}
 	dependency = { first = ARG second = KR2 subject_type = feudatory }
 	dependency = { first = ARG second = EPD subject_type = feudatory }
@@ -135,11 +148,9 @@ diplomacy = {
 		member = MSE
 		member = MGL
 		member = EUB
-		member = MTE
-		member = STP
-		member = AZA
-		member = HRA
-		member = TEG
+		member = BOE
+		member = OPU
+		member = TAN
 	}
 	dependency = { first = THE second = BOE subject_type = client_state }
 	dependency = { first = THE second = OPU subject_type = client_state }

@@ -98,3 +98,7 @@ aramaic_acceptance = {
 	diplomatic_reputation = 2
 	happiness_for_same_culture_modifier = 0.03
 }
+hurria_mod = {
+	chariots_morale = 0.20
+	global_pop_assimilation_speed_modifier = 0.10
+}

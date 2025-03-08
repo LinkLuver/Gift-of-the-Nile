@@ -308,3 +308,38 @@ MAGNA_ILLYRIA_FLAG = {
 		instance = { scale = { 1 1 }  }
 	}
 }
+
+NHITTITE_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 45 42 42 }
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_hittite_sundisc.dds"
+		color1 = "roman_gold"
+	}
+}
+
+HURRIA2_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 77 110 172 }
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_lion_paionia.dds"
+		color1 = "roman_gold"
+		color2 = "offwhite"
+	}
+	colored_emblem = {
+		texture = "ce_hurria_cuneiform.dds"
+		color1 = "roman_gold"
+		instance = { position = { 0.50 0.60 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_thracian_pattern_10.dds"
+		color1 = "ck2_green"
+		color2 = "salluvia_green"
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
+	}
+}

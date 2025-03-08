@@ -66,3 +66,10 @@ garamantic_collapse = {
 lydian_dissent = {
     culture_happiness_modifier = -0.05
 }
+lydian_economic_disaster = {
+    global_commerce_modifier = -0.15
+    global_tax_modifier = -0.10
+    build_cost = 0.10
+    stability_monthly_change = -0.03
+    subject_loyalty = -25
+}

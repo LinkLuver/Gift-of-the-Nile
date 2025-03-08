@@ -65,7 +65,7 @@
 			hidden_effect = {
 				change_country_adjective = "AGARTIA_ADJECTIVE"
 				change_country_color = agartian_teal
-				change_country_flag = "AGARTIA_FLAG"
+				change_country_flag = AGARTIA_FLAG
 				change_country_tag = AGT
 				every_province = {
 					limit = {

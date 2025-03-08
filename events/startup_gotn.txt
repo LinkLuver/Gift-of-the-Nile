@@ -14,6 +14,7 @@ gotn_events.1 = {
     right_portrait = c:ADI.current_ruler
 
     trigger = {
+        is_ai = no
         OR = {
             tag = PES
             tag = ELM
@@ -262,7 +263,13 @@ gotn_events.9 = {
             primary_culture = tylian
             primary_culture = dumarian
             primary_culture = dardanian
-         }
+        }
+        NOT = {
+            tag = KZK
+            tag = KIO
+            tag = AST
+            tag = CDD
+        }
     }
     fire_only_once = yes
     
@@ -302,7 +309,7 @@ gotn_events.10 = {
     }
 }
 
-gotn_events.11 = { # gotn_events.2 = { # 4th Intermediatary Period
+gotn_events.11 = { # Garamantic Collapse
     
 type = country_event
 title = "gotn_events_11_title"
@@ -359,3 +366,74 @@ option = {
         }
     }
 }
+
+gotn_events.12 = { # Languishing Lydia
+    
+    type = country_event
+    title = "gotn_events_12_title"
+    desc = "gotn_events_12_desc"
+    picture = interesting_histories_greek_city_temple
+    left_portrait = current_ruler
+    left_portrait = c:LYD.current_ruler
+    left_portrait = c:PHR.current_ruler
+    right_portrait = c:KIO.current_ruler
+    right_portrait = c:RHO.current_ruler
+    right_portrait = c:LYC.current_ruler
+
+    trigger = {
+        is_ai = no
+        OR = {
+            capital_scope = {
+                is_in_region = asia_region
+            }
+            capital_scope = {
+                is_in_region = galatia_region
+            }
+            capital_scope = {
+                is_in_region = bithynia_region
+            }
+            OR = {
+                tag = LYC
+            }
+        }
+    }
+    fire_only_once = yes
+    
+    option = {
+        name = "gotn_events_12.a"
+        if = {
+            limit = {
+                tag = LYD
+            }
+            trigger_event = {
+                id = gotn_events.13
+                days = { 30 60 }
+            }
+        }
+    }
+}
+
+gotn_events.13 = { # Economic Disaster
+    
+    type = country_event
+    title = "gotn_events_13_title"
+    desc = "gotn_events_13_desc"
+    picture = hk_sumerian_court
+
+    option = {
+        name = "gotn_events_13.a"
+        custom_tooltip = "lydia_economy_1_tt"
+        add_country_modifier = {
+            name = lydian_economic_disaster
+            duration = -1
+        }
+        add_stability = -20
+    }
+}
+
+
+
+
+
+
+

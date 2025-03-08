@@ -209,12 +209,14 @@ tyranny = { #Greek Tyranny
 	type = republic
 	
 	bonus = {	
-		monthly_party_approval = 0.05
+		global_freemen_happyness = happiness_large_svalue
+		recruit_mercenary_cost_modifier = -0.25
 		fabricate_claim_cost_modifier = -0.10
 	}
 	base = {
 		country_civilization_value = 20
-		global_freemen_happyness = happiness_large_svalue
+		monthly_tyranny = 0.03
+		monthly_party_approval = -0.03
 	}
 	
 	minimum_electable_age = 25
