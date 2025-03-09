@@ -73,3 +73,6 @@ lydian_economic_disaster = {
     stability_monthly_change = -0.03
     subject_loyalty = -25
 }
+lydian_athenian_trade = {
+    global_commerce_modifier = 0.10
+}

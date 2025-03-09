@@ -406,3 +406,33 @@ texticon = {
         fontsize = 16
     }
 }
+
+
+texticon = {
+    icon = background_city_shushun_ruler
+    iconsize = {
+        texture = "gfx/interface/portrait/background_city_shushun_ruler.dds"
+        size = { 160 240 }
+        fontsize = 16
+    }
+}
+
+
+texticon = {
+    icon = background_city_shushun
+    iconsize = {
+        texture = "gfx/interface/portrait/background_city_shushun.dds"
+        size = { 160 240 }
+        fontsize = 16
+    }
+}
+
+
+texticon = {
+    icon = background_ruler_city_nimrud
+    iconsize = {
+        texture = "gfx/interface/portrait/background_ruler_city_nimrud.dds"
+        size = { 160 240 }
+        fontsize = 16
+    }
+}

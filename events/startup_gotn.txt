@@ -427,7 +427,11 @@ gotn_events.13 = { # Economic Disaster
             name = lydian_economic_disaster
             duration = -1
         }
-        add_stability = -20
+        add_stability = -25
+            trigger_event = {
+                id = greece_events.1
+                days = { 15 30 }
+        }
     }
 }
 

@@ -135,6 +135,33 @@ character_bg = {
 		}
 	}
 	text = {
+		localization_key = background_ruler_city_nimrud
+		trigger = {
+			OR = {
+				has_any_office = yes
+				has_tech_office = yes
+				is_ruler = yes
+				is_governor = yes
+			}
+			employer = c:ADI
+			is_general = no
+			is_admiral = no
+		}
+	}
+	text = {
+		localization_key = background_city_susan
+		trigger = {
+			is_at_location = p:946
+		}
+	}
+	text = {
+		localization_key = background_city_susan_ruler
+		trigger = {
+			is_at_location = p:946
+			is_ruler = yes
+		}
+	}
+	text = {
 		localization_key = background_ruler_monarchy_parthia
 		trigger = {
 			OR = {
@@ -443,35 +470,6 @@ character_bg = {
 			is_at_location = p:4440
 			is_general = no
 			is_admiral = no
-		}
-	}
-	text = {
-		localization_key = background_ruler_city_nimrud
-		trigger = {
-			OR = {
-				has_any_office = yes
-				has_tech_office = yes
-				is_ruler = yes
-				is_governor = yes
-			}
-			employer = c:ADI
-			is_general = no
-			is_admiral = no
-		}
-	}
-	text = {
-		localization_key = background_city_shushun
-		trigger = {
-			is_at_location = p:946
-			is_general = no
-			is_admiral = no
-		}
-	}
-	text = {
-		localization_key = background_city_shushun_ruler
-		trigger = {
-			is_at_location = p:946
-			is_ruler = yes
 		}
 	}
 	text = {

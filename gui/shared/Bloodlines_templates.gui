@@ -1052,6 +1052,47 @@ types InvictusGuiTypes
 			}
 			visible = "[And(And(Character.HasArmy, EqualTo_string(Character.GetEmployer.GetTag, 'CAR')), Not(Character.IsRuler))]"
 		}
+		# huge background for nimrud
+		icon = {
+			texture = "gfx/interface/portrait/background_city_nimrud_huge.dds"
+			spriteType = Corneredtiled
+			size = { 100% 100% }
+			modify_texture = {
+				name = "Alpha"
+				block "AlphaTexture" { texture = "gfx/interface/base_parts/portrait_x32y32bd_alpha.dds" }
+				blend_mode = alphamultiply
+				spriteType = Corneredtiled
+				spriteborder = { 4 4 }
+			}
+			visible = "[And( EqualTo_int32(Character.GetLocation.GetId, '(int32)882'), Character.IsAlive)]"
+		}
+		icon = { # huge background for shushun ruler
+			texture = "gfx/interface/portrait/background_city_shushun_ruler_huge.dds"
+			spriteType = Corneredtiled
+			size = { 100% 100% }
+			modify_texture = {
+				name = "Alpha"
+				block "AlphaTexture" { texture = "gfx/interface/base_parts/portrait_x32y32bd_alpha.dds" }
+				blend_mode = alphamultiply
+				spriteType = Corneredtiled
+				spriteborder = { 4 4 }
+			}
+			visible = "[And( And(EqualTo_int32(Character.GetLocation.GetId, '(int32)946'), Character.IsRuler), And( Not(Character.HasArmy), Character.IsAlive ))]"
+		}
+		# huge background for shushun
+		icon = {
+			texture = "gfx/interface/portrait/background_city_shushun_huge.dds"
+			spriteType = Corneredtiled
+			size = { 100% 100% }
+			modify_texture = {
+				name = "Alpha"
+				block "AlphaTexture" { texture = "gfx/interface/base_parts/portrait_x32y32bd_alpha.dds" }
+				blend_mode = alphamultiply
+				spriteType = Corneredtiled
+				spriteborder = { 4 4 }
+			}
+			visible = "[And( And(EqualTo_int32(Character.GetLocation.GetId, '(int32)946'), Not(Character.IsRuler)), And( Not(Character.HasArmy), Character.IsAlive ))]"
+		}
 		# HUGE SPECIFIC INDOORS BACKGROUNDS
 		# huge specific indoor background for rome tag Ruler
 		icon = {
@@ -1195,6 +1236,7 @@ types InvictusGuiTypes
 			}
 			visible = "[And( EqualTo_int32(Character.GetLocation.GetId, '(int32)4440'), And( Not(Character.HasArmy), Character.IsAlive )))]"
 		}
+
 
 		# Imprisoned character, this has to be last otherwise it wont show up
 		icon = {
