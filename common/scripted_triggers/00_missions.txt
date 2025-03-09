@@ -380,7 +380,7 @@
             		tag = SEL # Babylon
             	}
             	AND = {
-            		primary_culture = mitanni # Hanigalbat-Mitanni
+            		#primary_culture = mitanni # Hanigalbat-Mitanni
             	}
             	AND = {
             		tag = HAG # Hanigalbat-Hurrian
