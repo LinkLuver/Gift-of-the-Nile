@@ -39,7 +39,7 @@
 			change_country_flag = KIOS_LYDIA_FLAG
 			change_country_tag = KLY
 			change_country_color = "stymphalian_blue"
-			set_country_heritage = "kios_lydia_heritage"
+			set_country_heritage = kios_lydia_heritage
 			}
 			custom_tooltip = "kios_lydia_claims"
 			set_capital = 292

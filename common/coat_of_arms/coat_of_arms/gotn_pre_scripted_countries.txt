@@ -851,6 +851,7 @@ GAE = {
 MSL = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 81 13 13 }
+	color2 = "offwhite"
 
 	colored_emblem = {
 		texture = "ce_javelineer_a.dds"
@@ -895,6 +896,7 @@ HIT = {
 TWT = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 171 80 14 }
+	color2 = "offwhite"
 	
 	colored_emblem = {
 		texture = "ce_bosporan_league_achilles.dds"
@@ -912,6 +914,7 @@ TWT = {
 ABD = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 45 128 86 }
+	color2 = "offwhite"
 
 	colored_emblem = {
 		texture = "ce_kantharos.dds"
@@ -933,6 +936,7 @@ ABD = {
 CRD = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 145 109 167 }
+	color2 = "offwhite"
 	
 	colored_emblem = {
 		texture = "ce_helmet_thracian_a.dds"
@@ -948,6 +952,7 @@ CRD = {
 AEN = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 197 208 176 }
+	color2 = "offwhite"
 	
 	colored_emblem = {
 		texture = "ce_star_16pt.dds"

@@ -420,6 +420,15 @@ gotn_events.13 = { # Economic Disaster
     desc = "gotn_events_13_desc"
     picture = hk_sumerian_court
 
+    immediate = {
+        random_country= {
+            limit = {
+                tag = ATH
+            }
+            save_scope_as = athens_trade_scope
+        }
+    }
+
     option = {
         name = "gotn_events_13.a"
         custom_tooltip = "lydia_economy_1_tt"
@@ -428,9 +437,11 @@ gotn_events.13 = { # Economic Disaster
             duration = -1
         }
         add_stability = -25
+        scope:athens_trade_scope = {
             trigger_event = {
                 id = greece_events.1
                 days = { 15 30 }
+            }
         }
     }
 }

@@ -7917,7 +7917,7 @@ hurrian_heritage = {
     modifier = {
         #good
         happiness_for_wrong_culture_group_modifier = 0.05
-        cultural_integration_speed_modifier = 0.10
+        global_citizen_output = 0.05
         
         #bad
         global_pop_assimilation_speed_modifier = -0.10
@@ -7927,6 +7927,8 @@ hurrian_heritage = {
         primary_culture = hurrian
         NOR = {
             tag = AT4
+            tag = KAR
+            tag = HAG
         }
     }
 }
@@ -9473,5 +9475,20 @@ matienes_heritage = {
 
     trigger = {
         tag = MMT
+    }
+}
+
+hanigalbat_heritage = {
+    modifier = {
+        #good
+        global_freemen_output = 0.10
+        chariots_offensive = 0.20
+
+        #bad
+        global_pop_conversion_speed_modifier = -0.10
+    }
+
+    trigger = {
+        tag = HAG
     }
 }

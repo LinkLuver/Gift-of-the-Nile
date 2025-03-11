@@ -1,0 +1,133 @@
+﻿namespace = greece_events
+
+greece_events.1 = { # A Deal with the Lydians
+    
+    type = country_event
+    title = "greece_events_1_title"
+    desc = "greece_events_1_desc"
+    picture = interesting_histories_greek_debate
+	right_portrait = c:LYD.current_ruler
+    left_portrait = current_ruler
+
+	immediate = {
+        random_country= {
+            limit = {
+                tag = LYD
+            }
+            save_scope_as = lydia_trade_scope_positive
+        }
+    }
+
+	immediate = {
+        random_country= {
+            limit = {
+                tag = LYD
+            }
+            save_scope_as = lydia_trade_scope_negative
+        }
+    }
+
+	trigger = {
+        OR = {
+            tag = ATH
+        }
+	}
+    option = {
+        name = "greece_events_1.a"
+		custom_tooltip = "athens_deal"
+        add_country_modifier = {
+            name = lydian_athenian_trade
+            duration = 3500
+        }
+		show_as_tooltip = {
+			every_country = {
+				limit = {
+					country_culture_group = hellenic
+					capital_scope = { is_in_region = macedonia_region }
+					capital_scope = { is_in_region = greece_region }
+					capital_scope = { is_in_region = asia_region }
+					capital_scope = { is_in_region = thrace_region }
+			
+				}
+				add_opinion = {
+					modifier = angered_greeks
+					target = ROOT
+				}
+				scope:lydia_trade_scope_positive = {
+					trigger_event = {
+						id = greece_events.2
+						days = { 15 30 }
+					}
+				}
+			}
+		}
+    }
+	option = {
+        name = "greece_events_1.b"
+		custom_tooltip = "athens_deal_1"
+        add_political_influence = 30			
+		show_as_tooltip = {
+			every_country = {
+				limit = {
+					country_culture_group = hellenic
+					capital_scope = { is_in_region = macedonia_region }
+					capital_scope = { is_in_region = greece_region }
+					capital_scope = { is_in_region = asia_region }
+					capital_scope = { is_in_region = thrace_region }
+				}
+				add_opinion = {
+					modifier = no_deal
+					target = ROOT
+				}
+				scope:lydia_trade_scope_negative = {
+					trigger_event = {
+						id = greece_events.3
+						days = { 15 30 }
+					}
+				}
+			}
+		}
+	}
+}
+greece_events.2 = { # Athenian Trade Positive
+    
+    type = country_event
+    title = "greece_events_2_title"
+    desc = "greece_events_2_desc"
+    picture = interesting_histories_greek_city_man
+	right_portrait = current_ruler
+    left_portrait = c:ATH.current_ruler
+
+	trigger = {
+        OR = {
+            tag = LYD
+        }
+	}
+    option = {
+        name = "greece_events_2.a"
+		custom_tooltip = "athens_deal"
+        add_country_modifier = {
+            name = lydian_athenian_trade
+            duration = 3500
+        }
+	}
+}
+greece_events.3 = { # Athenian Trade Negative
+    
+	trigger = {
+		OR = {
+			tag = LYD
+		}
+	}
+    type = country_event
+    title = "greece_events_3_title"
+    desc = "greece_events_3_desc"
+    picture = interesting_histories_greek_city_man
+	right_portrait = current_ruler
+    left_portrait = c:ATH.current_ruler
+
+	
+    option = {
+        name = "greece_events_3.a"
+	}
+}

@@ -619,6 +619,9 @@ assyrian_heritage = {
 	}
 	trigger = {
 		primary_culture = assyrian
+		NOR = {
+			has_variable = assur_hanigalbat
+		}
 	}
 }	
 

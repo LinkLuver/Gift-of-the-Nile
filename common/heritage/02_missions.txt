@@ -692,3 +692,29 @@ hellenic_albion_heritage = {
         always = no # Only added through missions
     }
 }
+hanigalbat_assur_heritage = {
+	modifier = {
+		#good
+		agressive_expansion_impact = -0.1
+		discipline = 0.05
+		
+		#bad
+		global_nobles_happyness= -0.04
+	}
+	trigger = {
+        always = no # Only added through missions
+    }
+}
+hanigalbat_hurria_heritage = {
+	modifier = {
+		#good
+		global_citizen_happyness = 0.05
+		chariots_discipline = 0.25
+		
+		#bad
+		global_pop_assimilation_speed_modifier = -0.10
+	}
+	trigger = {
+        always = no # Only added through missions
+    }
+}

@@ -1,0 +1,93 @@
+﻿l_english:
+
+ourkinion_missions:0 "Ourkinionian Venegance"
+ourkinion_missions_DESCRIPTION:0 "144 years ago, [GetCountry('ALE').GetAdjective).|Y] forces expelled us from our colony of [GetProvince('(int32)3515').GetName|Y]. Since then, our people have eked out a living on the western coast of [GetProvince('(int32)3515').GetArea.GetName|Y]. we have managed to survive for this long, but the future of our people must be decided. The time has come for us to enact our revenge!"
+ourkinion_missions_CRITERIA_DESCRIPTION:0 "This mission will be completed when #E Ourkinion#! reclaims #Y Alalia#!, and cements herself as a powerful #Y Massalian#! state."
+ourkinion_missions_BUTTON_TOOLTIP:0 "The # Y Ourkinionians#! march forward!."
+
+#Missions
+
+ourkinion_missions_task_1:0 "Corsian Tactics"
+ourkinion_missions_task_1_DESC:0 "There is a good deal to be learned from these tribesmen. If we can recruit some #Y Corsian#! warriors to teach our men in the fashion of their people, we will have an edge over our enemies."
+
+ourkinion_missions_task_10:0 "Etruscan Ideas"
+ourkinion_missions_task_10_DESC:0 "War is a constant for our people. We be may safe from the #Y Etruscans#! for now, but we should not be surprised if they come for us sooner or later. It would be foolish not to study their tactics and battle strategems."
+
+ourkinion_missions_task_3:0 "Learning From Our Past"
+ourkinion_missions_task_3_DESC:0 "Although a valiant effort on our part, the humilating defeat at #Y Alalia#! in 544 BCE has been a constant source of shame for us. The #Y Ourkinionians#! will never again be defeated so poorly again, on sea or on land."
+
+ourkinion_missions_task_4:0 "Preparing Ourkinion"
+ourkinion_missions_task_4_DESC:0 "If we expect to wage war on our enemies, #Y Ourkinion#! must be built up. The current state of the city is pitiful compared to the infrastructure of Alalia."
+
+ourkinion_missions_task_5:0 "On the Corsians"
+ourkinion_missions_task_5_ESC:0 "Despite several previous attempts to bring the #Y Corsians#! closer to us, they have always failed. We should decide how we should handle these people."
+ourkinion_missions_task_3:0 "Crushing the Longogenses"
+ourkinion_missions_task_3_DESC:0 "The #Y Longogenses#!, who inhabit the southern tip of #Y Kyrnos#!, are a constant threat to our claims on the island. Our fleet should be sent to blockade the #Y Taphros Strait#!, and force them to cede their #Y Corscian#! lands."
+ourkinion_missions_task_4:0 "March on Alalia"
+ourkinion_missions_task_4_DESC:0 "Our generals have been formulating plans to invade #Y Aleria#!, and retake our city. We will march through the mountains, and take their army by surprise. We will not fail again.\n\nCompleting this mission will cause us to #R declare war on Aleria#!"
+ourkinion_missions_task_5:0 "Embellishing Alalia"
+ourkinion_missions_task_5_DESC:0 "At last, the home of our people has been reconquered. The #Y Etruscans#! have left the city in a good condition, but it is only fitting that we improve the city, and construct new buildings in the #Y Greek#! manner."
+ourkinion_missions_task_6:0 "Encouraging New Settlement"
+ourkinion_missions_task_6_DESC:0 "It would be prudent of us to encourage new #Y Greek#! settlement to our newly conquered lands. We will petition the #Y Siceliotes#! and the #Y Italiotes#! for assitance in this endeavor."
+ourkinion_missions_task_7:0 "To The South"
+ourkinion_missions_task_7_DESC:0 "Tensions have been brewing between us and the states on the rich and fertile island of #Y Sardinia#!. It is clear that we cannot co-exist with another competing power on this island-#Y Sardinia#! must be ours!"
+
+#Tooltips
+
+
+
+#Modifiers
+
+
+
+#Events
+me_ourkinion_1_title:0 "$ourkinion_missions_task_task_1$"
+me_ourkinion_1_desc:0 ""
+me_ourkinion_1.a:0 ""
+me_ourkinion_1_tooltip:0 "The mission task '#Y $ourkinion_missions_task_task_1$#!' has now been #G Completed#!!"
+
+me_ourkinion_2_title:0 "$ourkinion_missions_task_task_2$"
+me_ourkinion_2_desc:0 ""
+me_ourkinion_2.a:0 ""
+me_ourkinion_2_tooltip:0 "The mission task '#Y $ourkinion_missions_task_task_2$#!' has now been #G Completed#!!"
+
+me_ourkinion_3_title:0 "$ourkinion_missions_task_task_3$"
+me_ourkinion_3_desc:0 ""
+me_ourkinion_3.a:0 ""
+me_ourkinion_3_tooltip:0 "The mission task '#Y $ourkinion_missions_task_task_3$#!' has now been #G Completed#!!"
+
+me_ourkinion_4_title:0 "$ourkinion_missions_task_task_4$"
+me_ourkinion_4_desc:0 ""
+me_ourkinion_4.a:0 ""
+me_ourkinion_4_tooltip:0 "The mission task '#Y $ourkinion_missions_task_task_4$#!' has now been #G Completed#!!"
+
+me_ourkinion_5_title:0 "$ourkinion_missions_task_task_5$"
+me_ourkinion_5_desc:0 ""
+me_ourkinion_5.a:0 ""
+me_ourkinion_5_tooltip:0 "The mission task '#Y $ourkinion_missions_task_task_5$#!' has now been #G Completed#!!"
+
+me_ourkinion_6_title:0 "$ourkinion_missions_task_task_6$"
+me_ourkinion_6_desc:0 ""
+me_ourkinion_6.a:0 ""
+me_ourkinion_6_tooltip:0 "The mission task '#Y $ourkinion_missions_task_task_6$#!' has now been #G Completed#!!"
+
+me_ourkinion_7_title:0 "$ourkinion_missions_task_task_7$"
+me_ourkinion_7_desc:0 ""
+me_ourkinion_7.a:0 ""
+me_ourkinion_7_tooltip:0 "The mission task '#Y $ourkinion_missions_task_task_7$#!' has now been #G Completed#!!"
+
+me_ourkinion_8_title:0 "$ourkinion_missions_task_task_8$"
+me_ourkinion_8_desc:0 ""
+me_ourkinion_8.a:0 ""
+me_ourkinion_8_tooltip:0 "The mission task '#Y $ourkinion_missions_task_task_8$#!' has now been #G Completed#!!"
+
+me_ourkinion_9_title:0 "$ourkinion_missions_task_task_9$"
+me_ourkinion_9_desc:0 ""
+me_ourkinion_9.a:0 ""
+me_ourkinion_9_tooltip:0 "The mission task '#Y $ourkinion_missions_task_task_9$#!' has now been #G Completed#!!"
+
+me_ourkinion_10_title:0 "$ourkinion_missions_task_task_10$"
+me_ourkinion_10_desc:0 ""
+me_ourkinion_10.a:0 ""
+me_ourkinion_10_tooltip:0 "The mission task '#Y $ourkinion_missions_task_task_10$#!' has now been #G Completed#!!"
+
