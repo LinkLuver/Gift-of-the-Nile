@@ -1812,8 +1812,10 @@ KR2 = {
     color2 = "offwhite"
 
     colored_emblem = {
-        texture = "ce_caduceus_simple.dds"
+        texture = "ce_arrow.dds"
         color1 = "garnet_red"
+		color2 = "mid_grey"
+		instance = { rotation = 270 }
     }
 	colored_emblem = {
         texture = "ce_border_greek_04.dds"
@@ -1982,10 +1984,13 @@ AM4 = {
     color2 = "offwhite"
 
     colored_emblem = {
-        texture = "ce_ishtar_lion.dds"
-        color1 = "silver"
-		instance = { scale = { 0.90 0.90 } } 
-    }
+		texture = "ce_three_flamingos_matte.dds"
+		color1 = "bone_white"
+		color2 = "bone_white"
+		instance = {
+			position= { 0.50 0.50 }
+		}
+	}
 	colored_emblem = {
         texture = "ce_border_meander_07.dds"
         color1 = rgb { 124 30 152 }
@@ -2729,15 +2734,50 @@ MET = {
 	color2= "offwhite"
 
 	colored_emblem = {
-        texture = "ce_metapontum_leucippus.dds"
+        texture = "ce_grain_02.dds"
         color1 = "bone_white"
 		color2 = "silver"
-		instance = { scale = { 0.80 0.80 } }
+		instance = { scale = { 0.90 0.90 } }
 	}
 	colored_emblem = {
         texture = "ce_border_meander_04.dds"
         color1 = "silver"
 		color2 = rgb { 60 10 80 }
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
+	}
+}
+
+CSS = {
+	pattern="pattern_solid.tga"
+	color1= "mid_grey"
+	color2= "offwhite"
+
+	colored_emblem = {
+        texture = "ce_leaf_ivy.dds"
+        color1 = "ck2_green"
+	}
+	colored_emblem = {
+        texture = "ce_border_thracian_pattern_06.dds"
+        color1 = "offwhite"
+		instance = {}
+		instance = { rotation = 180 }
+	}
+}
+
+HCL = {
+	pattern="pattern_solid.tga"
+	color1= rgb { 117 53 90 }
+	color2= "roman_gold"
+
+	colored_emblem = {
+        texture = "ce_herakleia_lucania.dds"
+        color1 = "roman_gold"
+	}
+	colored_emblem = {
+        texture = "ce_border_meander_07.dds"
+        color1 = "silver"
+		color2 = "garnet_red"
 		instance = { rotation = 90 }
 		instance = { rotation = 270 }
 	}

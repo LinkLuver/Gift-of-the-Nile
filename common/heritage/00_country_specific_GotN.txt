@@ -9492,3 +9492,18 @@ hanigalbat_heritage = {
         tag = HAG
     }
 }
+
+bastarnae_heritage = {
+    modifier = {
+        #good
+        start_migration_cost_modifier = -0.10
+        global_export_commerce_modifier = 0.05
+
+        #bad
+        price_found_city_cost_modifier = 0.10
+    }
+
+    trigger = {
+        primary_culture = bastarnae
+    }
+}
