@@ -2734,17 +2734,30 @@ MET = {
 	color2= "offwhite"
 
 	colored_emblem = {
-        texture = "ce_grain_02.dds"
-        color1 = "bone_white"
-		color2 = "silver"
-		instance = { scale = { 0.90 0.90 } }
+        texture = "ce_metapontum.dds"
+        color1 = "silver"
+		color2 = "iberian_sun"
+		instance = { position = { 0.70 0.52 } scale = { 1.05 1.05 } }
 	}
 	colored_emblem = {
-        texture = "ce_border_meander_04.dds"
-        color1 = "silver"
-		color2 = rgb { 60 10 80 }
-		instance = { rotation = 90 }
-		instance = { rotation = 270 }
+        texture = "ce_letter_mu.dds"
+        color1 = "iberian_sun"
+		instance = { scale = { 0.30 0.30 } position = { 0.20 0.80 } rotation = 270 }
+	}
+	colored_emblem = {
+        texture = "ce_letter_epsilon.dds"
+        color1 = "iberian_sun"
+		instance = {scale = { 0.30 0.30 } position = { 0.20 0.50 } rotation = 270 }
+	}
+	colored_emblem = {
+        texture = "ce_letter_tau.dds"
+        color1 = "iberian_sun"
+		instance = { scale = { 0.30 0.30 } position = { 0.20 0.30 } rotation = 270 }
+	}
+	colored_emblem = {
+        texture = "ce_letter_alpha.dds"
+        color1 = "iberian_sun"
+		instance = { scale = { 0.30 0.30 } position = { 0.20 0.10 } rotation = 270 }
 	}
 }
 
@@ -2773,6 +2786,7 @@ HCL = {
 	colored_emblem = {
         texture = "ce_herakleia_lucania.dds"
         color1 = "roman_gold"
+		instance = { position = { 0.47 0.52 } }
 	}
 	colored_emblem = {
         texture = "ce_border_meander_07.dds"

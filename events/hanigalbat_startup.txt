@@ -22,7 +22,8 @@ mitanni_nobility_return.1 = {
 			change_country_color = ck2_green
 			change_country_adjective = HURRIA_ADJ
 			change_country_name = HURRIA_NAME
-			change_country_flag = HAG
+			set_country_heritage = hanigalbat_hurria_heritage
+			change_country_flag = HAG_HURRIA_FLAG
 		}
 		
 		set_variable = mitanni_deities
@@ -108,7 +109,7 @@ mitanni_nobility_return.1 = {
 		hidden_effect = {
 			change_country_flag = HANIGALBAT_FLAG
 			change_country_color = blood_red
-			set_country_heritage = assyrian_heritage
+			set_country_heritage = hanigalbat_assur_heritage
 			change_country_adjective = HAG_ADJ
 			change_country_name = HAG_ASSUR
 		}
