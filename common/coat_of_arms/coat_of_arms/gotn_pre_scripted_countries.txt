@@ -1369,6 +1369,7 @@ OUR = {
 MGO = {
 	pattern = "pattern_solid.tga"
 	color1 = "phokaian_blue"
+	color2 = "iberian_sun"
 
 	colored_emblem = {
 		texture = "ce_basket_perinthos.dds"

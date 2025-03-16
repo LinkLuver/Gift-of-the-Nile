@@ -7160,7 +7160,7 @@ country = {
 		}
 
 		IDK = {
-			government = tribal_kingdom
+			government = tribal_federation
 			primary_culture = indiketian
 			religion = animism
 
@@ -7340,12 +7340,18 @@ country = {
 		}
 
 		VOC = {
-			government = tribal_kingdom
+			government = gaul_princely_state
 			primary_culture = salluvian
 			religion = druidism
-			centralization=10
-
+			
 			capital = 3519
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
 
 			own_control_core = 	{
 				3528 3519 2322 2321 2320 3527 3533 3525 3526 2310

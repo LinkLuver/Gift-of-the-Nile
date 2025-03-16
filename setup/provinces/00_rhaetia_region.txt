@@ -41,7 +41,7 @@
 	culture="allobrogian"
 	religion="druidism"
 	trade_goods="base_metals"
-	civilization_value=9
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -296,7 +296,7 @@
 	culture="allobrogian"
 	religion="druidism"
 	trade_goods="stone"
-	civilization_value=9
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={

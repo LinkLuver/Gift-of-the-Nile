@@ -1089,8 +1089,8 @@ icenian_heritage = {
 arvernia_heritage = {
     modifier = {
         #good
-        diplomatic_relations = 1
-        heavy_infantry_maintenance_cost = -0.1
+        diplomatic_relations = 2
+        heavy_infantry_offensive = 0.10
 
         #bad
         enslavement_efficiency = -0.1
@@ -9505,5 +9505,19 @@ bastarnae_heritage = {
 
     trigger = {
         primary_culture = bastarnae
+    }
+}
+
+biturgian_heritage = {
+    modifier = {
+        #good
+        global_nobles_output = 0.05
+        civic_tech_investment = 0.10
+        #bad
+        improve_relation_impact = -0.20
+    }
+
+    trigger = {
+        tag = BGT
     }
 }
