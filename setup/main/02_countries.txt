@@ -2766,7 +2766,7 @@ country = {
 		TRE = {
 			family = 8
 			family = 5
-			government = aristocratic_monarchy
+			government = tyranny
 			religion = roman_pantheon
 			diplomatic_stance=warmongering_stance
 			primary_culture = thessalian #Ruled by Macedonian King
@@ -4583,7 +4583,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				136 137 135 129 128
+				136 137 135 129 128 138 
 			}
 		}
 
@@ -4602,7 +4602,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				131 124 130 134 140
+				131 124 130 134 140 139
 			}
 		}
 
@@ -4623,28 +4623,6 @@ country = {
 			own_control_core = 	{
 				3515 3507 3516 3514 3513
 			}
-		}
-
-		#Friniati
-		FNT = {
-			government = tribal_kingdom
-			primary_culture = ligurian
-			religion = italic_pantheon
-			centralization=8
-			capital = 138
-			diplomatic_stance=trading_stance
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			own_control_core = 	{
-				138 139
-			}
-
 		}
 
 		SAB = {
@@ -5013,26 +4991,6 @@ country = {
 
 			own_control_core = 	{
 				146 149 151 152 153 3576 3587 3588 3591
-			}
-		}
-
-		LGN = {
-			government = tribal_kingdom
-			primary_culture = lepontic
-			religion = druidism
-			centralization=60
-
-			capital = 3589 #Hostilia
-
-			poptype_rights = {
-				{
-					culture = haedui
-					type = citizen
-				}
-			}
-
-			own_control_core = 	{
-				3589
 			}
 		}
 
@@ -6219,7 +6177,10 @@ country = {
 			}
 
 			own_control_core = 	{
-				2325 3543 2260 3517 3540 2323 2319 2318 2313 2256 2257 
+				2325 3543 2260 3517 3540 2323 2319 2318 2313 2256 2257
+				##GoTN Evil Massalia
+				2259 2258 1079 2314 2315 2312 3521 3523 3542 
+
 			}
 
 			pantheon = {
@@ -7353,19 +7314,6 @@ country = {
 			}
 		}
 
-		DCA = {
-			government = tribal_kingdom
-			primary_culture = salluvian
-			religion = druidism
-			centralization=10
-
-			capital = 3542
-
-			own_control_core = 	{
-				3542
-			}
-		}
-
 		OXB = {
 			government = oligarchic_republic
 			primary_culture = ligurian
@@ -7375,19 +7323,6 @@ country = {
 
 			own_control_core = 	{
 				3541
-			}
-		}
-
-		SLV = {
-			government = tribal_kingdom
-			primary_culture = salluvian
-			religion = druidism
-			centralization=10
-
-			capital = 3523
-
-			own_control_core = 	{
-				3521 3523
 			}
 		}
 
@@ -7430,19 +7365,6 @@ country = {
 			}
 		}
 
-		ARC = {
-			government = tribal_kingdom
-			primary_culture = salluvian
-			religion = druidism
-			centralization=10
-
-			capital = 2314
-
-			own_control_core = 	{
-				2314 2315 2312
-			}
-		}
-
 		TCT = {
 			government = tribal_kingdom
 			primary_culture = volcae
@@ -7453,19 +7375,6 @@ country = {
 
 			own_control_core = 	{
 				2261 2262 2263 2267 2265 2254 2255
-			}
-		}
-
-		SRB = {
-			government = tribal_kingdom
-			primary_culture = volcae
-			religion = druidism
-			centralization=10
-
-			capital = 2259
-
-			own_control_core = 	{
-				2259 2258 1079
 			}
 		}
 
@@ -7491,7 +7400,7 @@ country = {
 			capital = 2297
 
 			own_control_core = 	{
-				2297 2285 2295 2296 2286 3309
+				2297 2285 2295 2296 3309
 			}
 		}
 
@@ -7504,34 +7413,34 @@ country = {
 			capital = 2304
 
 			own_control_core = 	{
-				2304 2306 2307 2305 2303 3624 3623 3621 3539
-			}
-		}
-
-		SGL = {
-			government = tribal_kingdom
-			primary_culture = allobrogian
-			religion = druidism
-			centralization=10
-
-			capital = 2302
-
-			own_control_core = 	{
-				2301 2302 2364 2356 2357
+				2304 2306 2307 2305 2303 3621 3539
 			}
 		}
 
 		AVN = {
-			government = tribal_federation
+			government = despotic_monarchy
 			primary_culture = arverni
+			diplomatic_stance = vassaling_stance
 			religion = druidism
-			centralization=10
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
 
 			#is_antagonist = yes
 			capital = 2373
 
 			own_control_core = 	{
 				2284 2298 2299 2371 2373 2375 2300 1719 2342 2376 2374 2372 2370
+				2301 2302 2364 2356 2357 3622 3626 2282 2287 2327 2329 2328 2338 2339
+				2344 2340 2404 2330 2341 2331 2283 2378 2343 2332 3307 1721 2337 2346
+				3629 3630 3627 3628 2355 2361 2359 2358
+				2367 2366 2365 2286 2291 2333 2380 2369 2360 2348 2362
+				2234 2289 2294 2292 2326 2335
+
 			}
 		}
 
@@ -7544,7 +7453,7 @@ country = {
 			capital = 2270
 
 			own_control_core = 	{
-				2270 2269 2268 2280 2294 2293 2326 2335 2292
+				2270 2269 2268 2280 2293
 			}
 		}
 
@@ -7609,7 +7518,7 @@ country = {
 			capital = 2272
 
 			own_control_core = 	{
-				2288 2272 2281 2289
+				2288 2272 2281
  			}
 		}
 
@@ -7673,29 +7582,16 @@ country = {
  			}
 		}
 
-		PTC = {
-			government = tribal_kingdom
-			primary_culture = santonian
-			religion = druidism
-			centralization=10
-
-			capital = 2282
-
-			own_control_core = 	{
-				2282 2287 2327 2329 2328 2338 2339
- 			}
-		}
-
 		LMV = {
 			government = tribal_kingdom
 			primary_culture = arverni
 			religion = druidism
 			centralization=10
 
-			capital = 2344
+			capital = 2379
 
 			own_control_core = 	{
-				2344 2340 2404 2330 2341 2331 2283 2378 2343 2332 3307 1721 2337 2346 2383 2379 2382
+			 	2379 2382 2346 2383
  			}
 		}
 
@@ -7708,7 +7604,7 @@ country = {
 			capital = 2229
 
 			own_control_core = 	{
-				2229 2232 2231 2290 3000 2291 2230 2333 2334 2234
+				2229 2232 2231 2290 3000 2230 2334
  			}
 		}
 
@@ -7753,12 +7649,18 @@ country = {
 
 		#Vindelicia
 		TIG = {
-			government = tribal_kingdom
+			government = gaul_princely_state
 			primary_culture = helvetian
 			religion = druidism
-			centralization=10
 
 			capital = 3741
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
 
 			own_control_core = 	{
 				3746 3733 3741 3744 3734 3743 3742
@@ -7766,12 +7668,18 @@ country = {
 		}
 
 		TOU = {
-			government = tribal_kingdom
+			government = gaul_princely_state
 			primary_culture = helvetian
 			religion = druidism
-			centralization=10
 
 			capital = 3633
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
 
 			own_control_core = 	{
 				3633 3632 3631
@@ -7779,15 +7687,21 @@ country = {
 		}
 
 		VRB = {
-			government = tribal_kingdom
+			government = gaul_princely_state
 			primary_culture = helvetian
 			religion = druidism
-			centralization=10
 
 			capital = 3629
 
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
 			own_control_core = 	{
-				3629 3630 3625 3627 3628
+				3629 3630 3625 3624 3623
  			}
 		}
 
@@ -7795,7 +7709,6 @@ country = {
 			government = tribal_kingdom
 			primary_culture = vindelician
 			religion = druidism
-			centralization=10
 
 			capital = 3636
 
@@ -7844,12 +7757,18 @@ country = {
 		}
 
 		TLG = {
-			government = tribal_kingdom
+			government = gaul_princely_state
 			primary_culture = helvetian
 			religion = druidism
-			centralization=10
 
 			capital = 3634
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
 
 			own_control_core = 	{
 				3745 3634 3635 3732 3731
@@ -7857,12 +7776,18 @@ country = {
 		}
 
 		RAU = {
-			government = tribal_kingdom
+			government = gaul_princely_state
 			primary_culture = helvetian
 			religion = druidism
-			centralization=10
 
-			capital = 3012
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 3019
 
 			own_control_core = 	{
 				3012 3020 3018 3019 3022
@@ -7870,15 +7795,21 @@ country = {
 		}
 
 		LTG = {
-			government = tribal_kingdom
-			primary_culture = helvetian
+			government = gaul_princely_state
+			primary_culture = vindelician
 			religion = druidism
-			centralization=10
 
-			capital = 3772
+			capital = 3767
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
 
 			own_control_core = 	{
-				3770 3736 3771 3772 3769 3774 3767 3768 3766 3735 3738 3052 3804 3800 3801 3803
+				3770 3771 3772 3769 3774 3767 3768 3766
 			}
 		}
 
@@ -7896,15 +7827,21 @@ country = {
 		}
 
 		BGT = {
-			government = tribal_kingdom
+			government = gaul_princely_state
 			primary_culture = biturigan
 			religion = druidism
-			centralization=10
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
 
 			capital = 2347
 
 			own_control_core = 	{
-				2347 2368 2367 2412 2414 2416 2408 2407 2411 2406 2410 2409 2377 2381 2380
+				2347 2368 2412 2414 2416 2408 2407 2411 2406 2410 2409 2377 2381 
 			}
 		}
 
@@ -8116,39 +8053,39 @@ country = {
 			}
 		}
 
-		AMB = {
-			government = tribal_kingdom
-			primary_culture = allobrogian
-			religion = druidism
-			centralization=10
-
-			capital = 3622
-
-			own_control_core = 	{
-				3622 3626
-			}
-		}
-
 		SQI = {
-			government = tribal_kingdom
+			government = gaul_princely_state
 			primary_culture = haedui
 			religion = druidism
-			centralization=10
 
-			capital = 2355
+			capital = 2427
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
 
 			own_control_core = 	{
-				2355 2361 2359 2358 2363 2427 3010 3011 3009
+				2427 2363 2355
 			}
 		}
 
 		AED = {
-			government = tribal_kingdom
+			government = tribal_federation
 			primary_culture = haedui
 			religion = druidism
-			centralization=10
+			centralization = 35
 
-			capital = 2348
+			capital = 2438
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
 
 			pantheon = {
 
@@ -8160,35 +8097,35 @@ country = {
 			}
 
 			own_control_core = 	{
-				2348 2366 2369 2365 2360 2435 2437 2438 2434 2413 2439 2362
+				2435 2437 2434 2413 2439 2438 2440 2430 2432 2415 2436 2429 2354 2428 3004 3014 3013 3015 3016 3003 3007
 			}
 		}
 
 		LNG = {
-			government = tribal_kingdom
+			government = gaul_princely_state
 			primary_culture = haedui
 			religion = druidism
 			centralization=10
 
-			capital = 2354
+			capital = 2433
 
 			own_control_core = 	{
-				2354 2429 2436 2433 3004 3003 3015 3014 3013 3016 2428
+				2431 2433 3005
 			}
 		}
 
-		MDB = {
-			government = tribal_kingdom
-			primary_culture = haedui
-			religion = druidism
-			centralization=10
+		#MDB = {
+			#government = tribal_kingdom
+			#primary_culture = haedui
+			#religion = druidism
+			#centralization=10
 
-			capital = 2440
+			#capital = 
 
-			own_control_core = 	{
-				2440 2431 2430 2432 2415
-			}
-		}
+			#own_control_core = 	{
+				
+			#}
+		#}
 
 		SNN = {
 			government = tribal_kingdom
@@ -8212,7 +8149,7 @@ country = {
 			capital = 2449
 
 			own_control_core = 	{
-				2449 3005 3008 3006 3007 2496
+				2449 3008 3006 2496
 			}
 		}
 
@@ -8282,12 +8219,16 @@ country = {
 		}
 
 		NMI = { #move to the east of the Rhine
-			government = tribal_kingdom
+			government = gaul_princely_state
 			primary_culture = ubian
 			religion = druidism
-			centralization=10
 
-			capital = 3697
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
 
 			pantheon = {
 
@@ -8319,25 +8260,40 @@ country = {
 		}
 
 		ADT = {
-			government = tribal_kingdom
-			primary_culture = aduatacian
+			government = gaul_princely_state
+			primary_culture = haedui
 			religion = druidism
-			centralization=10
+			
+			capital = 3009
 
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
 
 			own_control_core = 	{
-
+				3009 3010 3011
 			}
 		}
 
 		CGN = {
-			government = tribal_kingdom
-			primary_culture = aduatacian
+			government = gaul_princely_state
+			primary_culture = helvetian
 			religion = druidism
-			centralization=10
+			
+			capital = 3800
 
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
 
 			own_control_core = 	{
+				3800 3052 3738 3735 3736 3800 3803 3801 3804
 			}
 		}
 
@@ -16421,20 +16377,6 @@ country = {
 			}
 		}
 
-		SBH = {
-			government = tribal_chiefdom
-			primary_culture = garamantic
-			religion = amun_religion
-
-			centralization = -25
-
-			capital = 8162
-
-			own_control_core = {
-				8149 8161 8163 8162 8164
-			}
-		}
-
 		MZQ = {
 			government = plutocratic_republic
 			primary_culture = garamantic
@@ -16444,20 +16386,6 @@ country = {
 
 			own_control_core = {
 				8174 8175
-			}
-		}
-
-		LKS = {
-			government = tribal_chiefdom
-			primary_culture = garamantic
-			religion = amun_religion
-
-			centralization = -25
-
-			capital = 8166
-
-			own_control_core = {
-				8166 8178 8179 8184
 			}
 		}
 
@@ -16471,7 +16399,7 @@ country = {
 			capital = 8189
 
 			own_control_core = {
-				8189 8194 8191 8192 8190 8181 8182 8173 8171 8193
+				8189 8194 8191 8192 8190 8181 8182 8173 8171 8193 8149 8161 8163 8162 8164 8166 8178 8179 8184
 			}
 		}
 
@@ -16527,7 +16455,7 @@ country = {
 			}
 
 			own_control_core = {
-				3593 3597 145 3592 150 144 142
+				3593 3597 145 3592 150 144 142 3589
 			}
 		}
 		THJ = { #Thaj

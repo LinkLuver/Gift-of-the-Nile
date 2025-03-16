@@ -939,13 +939,16 @@ CRD = {
 	color2 = "offwhite"
 	
 	colored_emblem = {
-		texture = "ce_helmet_thracian_a.dds"
-		color1 = rgb { 147 137 43 }
-		color2 = "ck2_white"
+		texture = "ce_lion_lysimachus.dds"
+		color1 = rgb { 114 115 123 }
+		color2 = "epirus_yellow" 
 	}
 	colored_emblem = {
-		texture = "ce_helmet_thracian_b.dds"
-		color1 = rgb { 114 115 123 } 
+		texture = "ce_border_meander_04.dds"
+		color1 = rgb { 114 115 123 }
+		color2 = "silver"
+		instance = {}
+		instance = { rotation = 180 } 
 	}
 }
 
@@ -1114,6 +1117,7 @@ AMM = {
 MOA = {
     pattern = "pattern_solid.tga"
     color1 = "roman_red"
+	color2 = "offwhite"
  
     colored_emblem = {
         texture = "ce_sumerian_goat.dds"
@@ -1130,6 +1134,7 @@ MOA = {
 EDO = {
     pattern = "pattern_solid.tga"
     color1 = hsv { 0.9 0.5 0.2 }
+	color2 = "offwhite"
     
     colored_emblem = {
         texture = "ce_judea_symbol.dds"
@@ -1140,6 +1145,7 @@ EDO = {
 SWR = {
     pattern = "pattern_solid.tga"
     color1 = rgb { 64 125 145 }
+	color2 = "silver"
     
     colored_emblem = {
         texture = "ce_tyre_coin.dds"
@@ -1156,6 +1162,7 @@ SWR = {
 YPO = {
     pattern = "pattern_solid.tga"
     color1 = rgb { 234 235 212 }
+	color2 = "mid_grey"
     
     colored_emblem = {
         texture = "ce_prow_demetrias.dds"
@@ -1174,6 +1181,7 @@ YPO = {
 HKS = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 124 30 152 }
+	color2 = "roman_gold"
 	
 	colored_emblem = {
 		texture = "ce_caria_satrapy_star.dds"
@@ -1195,6 +1203,7 @@ GAL = {
 KIT = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb {132 142 149 }
+	color2 = "iberian_sun"
 
 	colored_emblem = {
 		texture = "ce_egypt_kitty.dds"

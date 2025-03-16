@@ -1093,6 +1093,11 @@ aetolian_heritage = {
     }
     trigger = {
         primary_culture = aetolian
+		NOR = {
+			tag = LAM
+			tag = ELI
+			tag = AKR
+		}
     }
 }
 

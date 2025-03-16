@@ -1,6 +1,7 @@
 ﻿neutral_stance = {
 	modifier = {
 		diplomatic_relations = 1
+		monthly_political_influence_modifier = 0.15
 	}
 	ai_will_do = {
 		modifier = {
@@ -26,7 +27,8 @@ appeasement_stance = {
 
 trading_stance = {
 	modifier = {
-		global_commerce_modifier = 0.25
+		global_commerce_modifier = 0.20
+		global_capital_trade_routes = 1
 	}
 	ai_will_do = {
 		modifier = {
@@ -70,7 +72,7 @@ warmongering_stance = {
 
 vassaling_stance = {
 	modifier = {
-		subject_loyalty = 10
+		subject_loyalty = 15
 		integrate_speed = 0.25
 	}
 	ai_will_do = {

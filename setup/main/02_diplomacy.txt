@@ -81,6 +81,19 @@ diplomacy = {
 	#Kummuh
 	dependency = { first = COM second = GUR subject_type = client_state }
 
+
+	#Arvernian Sphere
+	dependency = { first = AVN second = ADC subject_type = feudatory }
+	dependency = { first = AVN second = LMV subject_type = feudatory }
+	dependency = { first = AVN second = ALL subject_type = tributary }
+	dependency = { first = AVN second = SQI subject_type = feudatory }
+	dependency = { first = AVN second = VRB subject_type = tributary }
+	dependency = { first = AVN second = SNT subject_type = tributary }
+
+	#Aedui Subject + Biturgia Alliance
+	dependency = { first = AED second = LNG subject_type = tributary }
+	alliance = { first = AED second = BGT }
+
 	##Greek Leagues
 	#Neo-Dellian League
 	defensive_league = {
@@ -157,8 +170,8 @@ diplomacy = {
 	dependency = { first = THE second = TAN subject_type = subject_league_city_state }
 
 
-	dependency = { first = MAC second = PTI subject_type = client_state }
-	dependency = { first = MAC second = ABD subject_type = subject_league_city_state }
+	dependency = { first = MAC second = PTI subject_type = feudatory }
+	dependency = { first = MAC second = ABD subject_type = feudatory }
 	dependency = { first = MAC second = AEN subject_type = subject_league_city_state }
 	dependency = { first = MAC second = PAA subject_type = vassal_tribe }
 	dependency = { first = MAC second = MAD subject_type = vassal_tribe }
@@ -167,16 +180,13 @@ diplomacy = {
     dependency = { first = MAC second = TH3 subject_type = vassal_tribe }
     dependency = { first = MAC second = TH4 subject_type = vassal_tribe }
 
-	#Macedonian-Thessalian Alliance
-	alliance = { first = TRE second = MAC }
+	#Macedonian Alliances
+	alliance = { first = MAC second = TRE }
+	alliance = { first = MAC second = CRD }
 
 	#Massalian League
 	dependency = { first = MAS second = MGO subject_type = feudatory }
 	dependency = { first = MAS second = OXB subject_type = feudatory }
-	dependency = { first = MAS second = SRB subject_type = tributary }
-	dependency = { first = MAS second = SLV subject_type = tributary }
-	dependency = { first = MAS second = DCA subject_type = tributary }
-	dependency = { first = MAS second = ARC subject_type = tributary }
 
 	#Emporion-Indiketia
 	dependency = { first = EPO second = IDK subject_type = tributary }

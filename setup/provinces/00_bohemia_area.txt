@@ -3,7 +3,7 @@
 	culture="ubian"
 	religion="druidism"
 	trade_goods="vegetables"
-	civilization_value=0
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -19,7 +19,7 @@
 	culture="ubian"
 	religion="druidism"
 	trade_goods="wood"
-	civilization_value=0
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -255,14 +255,28 @@
 	culture="ubian"
 	religion="druidism"
 	trade_goods="leather"
-	civilization_value=0
+	civilization_value=22
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
 		amount=1
 	}
 	tribesmen={
-		amount=5
+		culture="ingvaeonic"
+		religion="germanic_religion"
+		amount=2
 	}
 }
 

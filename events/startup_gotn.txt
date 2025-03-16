@@ -14,7 +14,6 @@ gotn_events.1 = {
     right_portrait = c:ADI.current_ruler
 
     trigger = {
-        is_ai = no
         OR = {
             tag = PES
             tag = ELM
@@ -381,7 +380,6 @@ gotn_events.12 = { # Languishing Lydia
     right_portrait = c:LYC.current_ruler
 
     trigger = {
-        is_ai = no
         OR = {
             capital_scope = {
                 is_in_region = asia_region
@@ -442,6 +440,36 @@ gotn_events.13 = { # Economic Disaster
                 id = greece_events.1
                 days = { 15 30 }
             }
+        }
+    }
+}
+
+gotn_events.14 = { # Alexandrine Ambitions
+    
+    type = country_event
+    title = "gotn_events_14_title"
+    desc = "gotn_events_14_desc"
+    picture = interesting_histories_greek_city_temple
+    left_portrait = current_ruler
+    left_portrait = c:PTI.current_ruler
+    left_portrait = c:KOR.current_ruler
+    right_portrait = c:TRE.current_ruler
+    right_portrait = c:CRD.current_ruler
+    right_portrait = c:ARG.current_ruler
+
+    trigger = {
+        OR = {
+            tag = MAC
+        }
+    }
+    fire_only_once = yes
+    
+    option = {
+    custom_tooltip = "gotn_events_14_tt"
+    name = "gotn_events_14.a"
+    add_country_modifier = {
+        name = macedon_ambition
+        duration = 1825
         }
     }
 }

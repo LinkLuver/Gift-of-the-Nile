@@ -98,7 +98,8 @@ idea_triumph = {
 	trigger = {
 		military_tech >= idea_tier_3
 	}
-	experience_decay = -0.015
+	experience_decay = -0.010
+	war_exhaustion = -0.05
 	group = military_ideas
 	soundeffect = "event:/SFX/UI/Actions/sfx_ui_action_select_idea_military"
 }
@@ -173,7 +174,8 @@ idea_tax_farming = {
 	trigger = {
 		civic_tech >= idea_tier_1
 	}
-	global_slaves_output = 0.2
+	global_slaves_output = 0.1
+	global_freemen_output = 0.1
 	group = civic_ideas
 	soundeffect = "event:/SFX/UI/Actions/sfx_ui_action_select_idea_civic"
 }
@@ -285,6 +287,7 @@ idea_ambassadors = {
 	}
 	
 	diplomatic_relations = 2
+	diplomatic_reputation = 1
 	group = oratory_ideas
 	soundeffect = "event:/SFX/UI/Actions/sfx_ui_action_select_idea_oratory"
 }

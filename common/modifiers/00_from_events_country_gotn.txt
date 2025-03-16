@@ -76,3 +76,8 @@ lydian_economic_disaster = {
 lydian_athenian_trade = {
     global_commerce_modifier = 0.10
 }
+macedon_ambition = {
+    diplomatic_reputation = 2
+    diplomatic_relations = 2
+    improve_relation_cost_modifier = -0.25
+}
