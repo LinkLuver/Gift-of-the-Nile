@@ -2017,6 +2017,7 @@ country = {
 			government = aristocratic_monarchy
 			primary_culture = hittite
 			religion = hurrian_pantheon
+			succession_law=elective_succession_law
 
 			technology={
 				military_tech={ level=1 progress=0 }

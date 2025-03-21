@@ -128,6 +128,7 @@ monarchy_military_reforms = {
 	}
 }
 
+##Lydia Unique Laws
 monarchy_military_reforms_lydia = {
 	potential = {
 		is_monarchy = yes

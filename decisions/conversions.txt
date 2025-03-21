@@ -464,6 +464,7 @@
 				government = aristocratic_republic
 				government = theocratic_republic
 				government = oligarchic_republic
+				government = gaul_princely_state
 				government = punic_republic
 			}
 		}
@@ -531,6 +532,7 @@
 				government = aristocratic_republic
 				government = theocratic_republic
 				government = plutocratic_republic
+				government = gaul_princely_state
 				government = punic_republic
 			}
 		}
@@ -605,6 +607,7 @@
 				government = theocratic_republic
 				government = plutocratic_republic
 				government = punic_republic
+				government = gaul_princely_state
 			}
 		}
 		allow = {
@@ -671,6 +674,7 @@
 				government = oligarchic_republic
 				government = aristocratic_republic
 				government = plutocratic_republic
+				government = gaul_princely_state
 				government = punic_republic
 			}
 		}
@@ -798,6 +802,7 @@
 				government = plutocratic_republic
 				government = theocratic_republic
 				government = punic_republic
+				government = gaul_princely_state
 			}
 			always = no #legacy, use technology now
 		}
@@ -805,7 +810,6 @@
 			stability >= 40
 			current_ruler = {
 				popularity >= 90
-				age >= 16
 			}
 			war = no
 			has_civil_war = no
@@ -1275,9 +1279,7 @@
 			stability >= 40
 			current_ruler = {
 				popularity >= 90
-				age >= 16
 			}
-			war = no
 			has_civil_war = no
 			tyranny >= 40
 			trigger_if = {
@@ -1291,9 +1293,9 @@
 			}
 		}			
 		effect = {
-			add_stability = -30
+			add_stability = -20
 			change_government = tyranny
-			add_tyranny = 10
+			add_tyranny = 15
 			add_2_free_province_investments = yes
 			switch_government_type_event_clearup_effect = yes
 		}
@@ -1311,6 +1313,39 @@
 			}
 		}
 	}
+	proclaim_grand_republic = {
+		potential = {
+			num_of_cities >= 1
+			OR = {
+				government = democratic_republic
+				government = oligarchic_republic
+				government = theocratic_republic
+				government = plutocratic_republic
+				government = punic_republic
+				government = gaul_princely_state
+			}
+		}
+		allow = {
+			num_of_cities >= 600
+			stability >= 45
+			capital_scope = { civilization_value >= 60 }
+			current_ruler = {
+				popularity >= 90
+			}
+			has_civil_war = no
+		}
+		effect = {	
+			add_stability = -30
+			change_government = grand_republic
+			add_3_free_province_investments = yes
+			switch_government_type_event_clearup_effect = yes
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }
+
 
 

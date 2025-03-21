@@ -39,6 +39,9 @@
  proclaim_tyranny:0 "Proclaim Tyranny"
  proclaim_tyranny_desc:0 "Democracy has hindered the potential of this nation. By the rule of one, we shall suceed."
 
+ proclaim_grand_republic:0 "Establish a Grand Republic"
+ proclaim_grand_republic_desc:0 "[COUNTRY.GetRuler.GetName] has created a realm beyond the dreams of any petty democracy. A new regime is to be established, that of a Grand Republic."
+
  create_empire:0 "Imperial Ambition"
  create_empire_desc:0 "[COUNTRY.GetRuler.GetName], resplendent in the glory of conquest, has eclipsed all other petty Kingdoms; a new title is needed for the ruler of the [COUNTRY.GetAdjective] Empire."
  deify_emperor:0 "Divine Sanction"
