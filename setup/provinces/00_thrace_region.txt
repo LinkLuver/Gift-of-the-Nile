@@ -518,7 +518,7 @@
 	culture="tylian"
 	religion="druidism"
 	trade_goods="honey"
-	civilization_value=18
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -914,7 +914,7 @@
 	culture="odrysi"
 	religion="shamanism"
 	trade_goods="leather"
-	civilization_value=18
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1033,7 +1033,7 @@
 	culture="odrysi"
 	religion="shamanism"
 	trade_goods="wood"
-	civilization_value=18
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1090,7 +1090,7 @@
 	culture="odrysi"
 	religion="shamanism"
 	trade_goods="cattle"
-	civilization_value=18
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1109,7 +1109,7 @@
 	culture="odrysi"
 	religion="shamanism"
 	trade_goods="wood"
-	civilization_value=18
+	civilization_value=7
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={

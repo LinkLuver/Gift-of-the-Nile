@@ -22,6 +22,7 @@ good_natured = { #
 	max_friends = 1
 	character_loyalty = 5
 	monthly_democratic_party_conviction = 0.05
+	monthly_chaonian_party_conviction = 0.05
 	monthly_boni_party_conviction = 0.1
 	
 	
@@ -66,6 +67,7 @@ crafty = { #
 	senate_influence = 0.1
 	monthly_character_experience = 0.05
 	monthly_democratic_party_conviction = 0.05
+	monthly_thesprotian_party_conviction = 0.05
 	monthly_populares_party_conviction = 0.05
 
 	enslavement_efficiency = 0.02
@@ -82,6 +84,7 @@ guileless = { #
 	}
 	monthly_boni_party_conviction = 0.05
 	monthly_traditionalist_party_conviction = 0.05
+	thesprotian_party_conviction = 0.05
 	monthly_corruption = -0.1
 	holding_income_modifier = -0.01
 	finesse = -2
@@ -94,6 +97,7 @@ sceptical = { #
 	}
 	monthly_boni_party_conviction = 0.15
 	monthly_traditionalist_party_conviction = 0.05
+	thesprotian_party_conviction = 0.05
 	monthly_conviction_for_head_of_family_party = -0.05
 	zeal = -1
 	character_loyalty = -5
@@ -110,6 +114,7 @@ pious = { #
 		sceptical	
 	}
 	monthly_traditionalist_party_conviction = 0.15
+	thesprotian_party_conviction = 0.15
 	zeal = 1
 	country = {
 		omen_power = 0.025
@@ -124,6 +129,7 @@ zealous = { #
 	}
 	monthly_boni_party_conviction = 0.1
 	monthly_traditionalist_party_conviction = 0.1
+	thesprotian_party_conviction = 0.1
 	zeal = 1
 	
 	province = {
@@ -142,7 +148,9 @@ tolerant = { #
 	}
 	monthly_boni_party_conviction = -0.05
 	monthly_traditionalist_party_conviction = -0.05
+	thesprotian_party_conviction = -0.05
 	monthly_democratic_party_conviction = 0.05
+	monthly_chaonian_party_conviction = 0.05
 	monthly_populares_party_conviction = 0.05
 	zeal = -1
 	country = {
@@ -156,6 +164,7 @@ devout = { #
 	}
 	monthly_boni_party_conviction = 0.1
 	monthly_traditionalist_party_conviction = 0.15
+	thesprotian_party_conviction = 0.15
 	character_loyalty = 5
 	country = {
 		omen_power = 0.05
@@ -167,6 +176,8 @@ lapsed = { #
 	type = personality
 	monthly_boni_party_conviction = -0.1
 	monthly_traditionalist_party_conviction = -0.1
+	thesprotian_party_conviction = -0.1
+	monthly_thesprotian_party_conviction = -0.1
 	monthly_democratic_party_conviction = 0.05
 	monthly_populares_party_conviction = 0.05
 	opposites = {
@@ -183,6 +194,7 @@ just = { #
 	opposites = {
 		arbitrary
 	}
+	monthly_chaonian_party_conviction = 0.10
 	monthly_democratic_party_conviction = 0.05
 	monthly_boni_party_conviction = 0.15
 	finesse = 1
@@ -201,6 +213,7 @@ arbitrary = { #
 	}
 	monthly_boni_party_conviction = -0.05
 	monthly_democratic_party_conviction = 0.05
+	monthly_chaonian_party_conviction = 0.05
 	monthly_populares_party_conviction = 0.15
 	finesse = -1
 	holding_income_modifier = -0.1
@@ -218,6 +231,7 @@ cruel = { #
 	}
 	monthly_boni_party_conviction = -0.05
 	monthly_oligarchic_party_conviction = 0.05
+	monthly_molossian_party_conviction = 0.05
 	charisma = -1
 	province = {
 		local_slaves_output = output_large_svalue
@@ -237,6 +251,7 @@ merciful = { #
 	}
 	monthly_boni_party_conviction = 0.05
 	monthly_traditionalist_party_conviction = 0.05
+	thesprotian_party_conviction = 0.05
 	charisma = 1
 	province = {
 		local_freemen_happyness = happiness_large_svalue
@@ -254,6 +269,7 @@ righteous = { #
 	}
 	monthly_boni_party_conviction = 0.15
 	monthly_traditionalist_party_conviction = 0.15
+	thesprotian_party_conviction = 0.15
 	current_corruption = -10
 	support_for_character_as_heir = 1
 	country = {
@@ -269,6 +285,7 @@ corrupt = { #
 	monthly_populares_party_conviction = 0.1
 	monthly_oligarchic_party_conviction = 0.1
 	monthly_boni_party_conviction = -0.15
+	monthly_molossian_party_conviction = -0.10
 	current_corruption = 10
 	
 	country = {
@@ -284,6 +301,8 @@ founder = { #
 	}
 	monthly_optimates_party_conviction = 0.1
 	monthly_democratic_party_conviction = 0.05
+	monthly_chaonian_party_conviction = 0.05
+	monthly_molossian_party_conviction = 0.05
 	monthly_boni_party_conviction = 0.05
 	support_for_character_as_heir = 1
 	province = {
@@ -321,6 +340,7 @@ benefactor = { #
 	}
 	monthly_democratic_party_conviction = 0.15
 	monthly_populares_party_conviction = 0.1
+	monthly_chaonian_party_conviction = 0.10
 	monthly_character_popularity = 0.05
 	support_for_character_as_heir = 1
 	province = {
@@ -340,6 +360,7 @@ harsh = { #
 	}
 	monthly_oligarchic_party_conviction = 0.05
 	monthly_boni_party_conviction = -0.05
+	monthly_molossian_party_conviction = -0.05
 	monthly_character_popularity = -0.05
 	monthly_character_experience = 0.05
 	province = {
@@ -361,6 +382,7 @@ scholar = {
 	monthly_character_experience = 0.1
 	monthly_boni_party_conviction = 0.1
 	monthly_traditionalist_party_conviction = 0.1
+	thesprotian_party_conviction = 0.1
 	province = {
 		local_research_points_modifier = 0.1
 	}
@@ -375,6 +397,7 @@ narrowminded = { #
 	}
 	monthly_boni_party_conviction = 0.1
 	monthly_traditionalist_party_conviction = 0.15
+	thesprotian_party_conviction = 0.15
 	finesse = 1
 	country = {
 		global_tribesmen_happyness = happiness_huge_svalue
@@ -408,6 +431,7 @@ proud = { #
 	}
 	monthly_optimates_party_conviction = 0.1
 	monthly_oligarchic_party_conviction = 0.05
+	monthly_molossian_party_conviction = 0.05
 
 	charisma = -1
 	monthly_character_experience = 0.05
@@ -428,6 +452,8 @@ humble = { #
 	}
 	monthly_boni_party_conviction = 0.1
 	monthly_traditionalist_party_conviction = 0.15
+	thesprotian_party_conviction = 0.15
+	chaonian_party_conviction = 0.05
 	charisma = 1
 	support_for_character_as_heir = -1
 	
@@ -466,6 +492,7 @@ forgiving = { #
 	
 	character_loyalty = 5
 	monthly_democratic_party_conviction = 0.05
+	monthly_chaonian_party_conviction = 0.05
 	
 	country = {
 		monthly_tyranny = -0.05
@@ -546,6 +573,7 @@ generous = { #
 	}
 	senate_influence = 0.1
 	monthly_democratic_party_conviction = 0.15
+	monthly_chaonian_party_conviction = 0.05
 	monthly_populares_party_conviction = 0.1
 	monthly_character_popularity = 0.05
 	holding_income_modifier	 = -0.25
@@ -603,6 +631,7 @@ honest = { #
 	monthly_corruption = -0.05
 	monthly_boni_party_conviction = 0.05
 	monthly_democratic_party_conviction = 0.05
+	monthly_chaonian_party_conviction = 0.05
 	country = {
 		global_tribesmen_output = output_small_svalue
 	}
@@ -631,6 +660,7 @@ lazy = { #
 	type = personality
 	monthly_conviction_for_head_of_family_party = 0.05
 	monthly_traditionalist_party_conviction = 0.05
+	monthly_thesprotian_party_conviction = 0.05
 	opposites = {
 		energetic
 	}
@@ -663,6 +693,7 @@ reckless = { #
 	monthly_populares_party_conviction = 0.05
 	monthly_boni_party_conviction = -0.05
 	monthly_democratic_party_conviction = 0.05
+	monthly_chaonian_party_conviction = 0.05
 	martial = 1
 	country = {
 		agressive_expansion_impact = 0.1
@@ -698,6 +729,7 @@ gluttonous = { #
 	}
 	charisma = -1
 	monthly_traditionalist_party_conviction = -0.05
+	monthly_thesprotian_party_conviction = 0.05
 	monthly_boni_party_conviction = -0.05
 	monthly_optimates_party_conviction = 0.1
 
@@ -712,6 +744,8 @@ self_controlled = { #
 	}
 	zeal = 1
 	monthly_traditionalist_party_conviction = 0.05
+	monthly_thesprotian_party_conviction = 0.05
+	monthly_chaonian_party_conviction = 0.05
 	monthly_boni_party_conviction = 0.05
  
 	province = {
@@ -727,6 +761,7 @@ arrogant = { #
 	monthly_optimates_party_conviction = 0.1
 	monthly_oligarchic_party_conviction = 0.05
 	monthly_boni_party_conviction = -0.05
+	monthly_molossian_party_conviction = 0.05
 	prominence = 10
 	charisma = -1
 	character_loyalty = -5
@@ -751,6 +786,7 @@ prominent = { #
 	}
 	senate_influence = 0.1
 	monthly_optimates_party_conviction = 0.1
+	monthly_molossian_party_conviction = 0.1
 	monthly_oligarchic_party_conviction = 0.05
 	prominence = 30
 	support_for_character_as_heir = 2
@@ -804,6 +840,7 @@ ambitious = { #
 	senate_influence = 0.1
 	monthly_populares_party_conviction = 0.05
 	monthly_oligarchic_party_conviction = 0.05
+	monthly_molossian_party_conviction = 0.05
 	prominence = 20
 	finesse = 1
 	martial = 1
@@ -825,6 +862,7 @@ content = { #
 	}
 	monthly_boni_party_conviction = 0.1
 	monthly_traditionalist_party_conviction = 0.15
+	monthly_thesprotian_party_conviction = 0.15
 	prominence = -10
 	character_loyalty = 10
 }
@@ -834,6 +872,7 @@ suspicious = { #
 		trusting
 	}
 	monthly_democratic_party_conviction = 0.05
+	monthly_thesprotian_party_conviction = 0.05
 	monthly_boni_party_conviction = 0.05
 	max_rivals = 1
 
@@ -847,6 +886,7 @@ trusting = { #
 		suspicious
 	}
 	monthly_traditionalist_party_conviction = 0.05
+	monthly_chaonian_party_conviction = 0.05
 	max_rivals = -1
 	character_loyalty = 10
 	country = {
@@ -860,6 +900,7 @@ wise = { #
 	}
 	monthly_boni_party_conviction = 0.15
 	monthly_traditionalist_party_conviction = 0.15
+	monthly_thesprotian_party_conviction = 0.15
 	finesse = 1
 	monthly_character_experience = 0.1
 	country = {
@@ -900,6 +941,7 @@ secure = { #
 	}
 	monthly_boni_party_conviction = 0.12
 	monthly_traditionalist_party_conviction = 0.15
+	monthly_thesprotian_party_conviction = 0.15
 	charisma = 1
 	country = {
 		general_loyalty = 5
@@ -967,6 +1009,7 @@ kindly = { #
 		uncaring
 	}
 	monthly_democratic_party_conviction = 0.05
+	monthly_chaonian_party_conviction = 0.05
 	monthly_populares_party_conviction = 0.05
 	country = {
 		global_freemen_output = output_small_svalue
@@ -1074,6 +1117,7 @@ xenophobic = {
 	
 	monthly_boni_party_conviction = 0.1
 	monthly_traditionalist_party_conviction = 0.1
+	monthly_thesprotian_party_conviction = 0.1
 	zeal = 1
 	
 	province = {
@@ -1436,6 +1480,7 @@ pessimistic = {
 	}
 	monthly_democratic_party_conviction = -0.05
 	monthly_populares_party_conviction = -0.05
+	monthly_chaonian_party_conviction = -0.05
 	zeal = -1
 	charisma = -1
 	country = {
@@ -1449,6 +1494,7 @@ trustworthy = {
 		deceitful
 	}
 	monthly_democratic_party_conviction = 0.05
+	monthly_chaonian_party_conviction = 0.05
 	monthly_corruption = -0.1
 	max_friends = 1
 	character_loyalty = 5

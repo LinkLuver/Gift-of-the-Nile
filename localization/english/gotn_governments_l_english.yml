@@ -58,6 +58,28 @@
  grand_republic_desc:0 "A republic of nearly absurd scale, a Grand Republic is a huge administrative body. Gone are the days of a body of citizens making decisions for a country. Laws are decided upon by elected representatives, and the Great Archon wields an immense amount of power. Democracy implemented on such a scale naturally appeases the masses."
  grand_republic_ruler:0 "Great Archon"
 
+ epirote_republic:0 "Epirote League"
+ epirote_republic_desc:0 "A form of governance unique to the Epirote tribes, the league represents the various Epirote tribes. Each tribe is represented in the Epirote assembly by ten elected officals from amongst their tribe. Each tribe rules their respective land in a mostly autonomous fashion, with the elected Prostratas having some powers over them, mostly the power to declare wars, raise armies, and to direct construction projects. Such a system has created a strong, unified Epirote state, reducing some of the shortfalls of other republics."
+ epirote_republic_ruler:0 "Prostratas"
+ epirote_republic_ruler_female:0 "Prostratas"
+
+ molossian_party:0 "Molossians"
+ molossian_party_description:0 "The Molossians are the most revered and powerful of the Epirote tribes, claiming their descent from the hero Molossus, one of the three sons of Neoptolemus, who himself was a son of Achilles. The Molossians are renowned for their hounds, and for their tact in warfare and diplomatic policy."
+ thesprotian_party:0 "Thesprotians"
+ thesprotian_party_description:0 "The Thesprotians are the controllers of the Dodona Oracle, something that has given them immense political influence over their neighbors. It is with this power that they were able to control the southern portion of Epirus."
+ chaonian_party:0 "Chaonians"
+ chaonian_party_description:0 "The Chaonians claim they are named after the Trojan war hero Chaon, who traveled to Epirus with Helenus. The Chaonians inhabit the northern reaches of Epirus, the least inhabited and the most rural. Their mostly pastoralist way of life has given them great prosperity, and their people are lauded for their hardy and stable way of life."
+ republic_button_empower_faction_loc_molossian_party:0 "Improve Soldier Training"
+ republic_button_empower_faction_desc_loc_molossian_party:0 "Always concerned with the current state of our soldiers, the Molossians seek to improve our current training standards and equipment. Naturally, some of the money supposed to be used for troop upkeep will go right into the pockets of the Molossians, securing their loyalty.\n\nThis can be used once every 10 years, and only if you have not used '$republic_button_empower_faction_loc_chaonian_party$'."
+ republic_button_empower_faction_loc_thesprotian_party:0 "Make Divine Offerings"
+ republic_button_empower_faction_desc_loc_thesprotian_party:0 "Making offerings to the divine will help to incur favor with the Thesprotians. Their control of Epirote religous institions are especially influential.\n\nThis can be used once every 10 years."
+ republic_button_empower_faction_loc_chaonian_party:0 "Expand Agriculture"
+ republic_button_empower_faction_desc_loc_chaonian_party:0 "Increasing not only the estates of our farmers, but also their rights, will ensure the increased prosperity and stability of our nation.\n\nThis can be used once every 10 years, and only if you have not used '$republic_button_empower_faction_loc_molossian_party$'."
+ empowered_molossians_gui_mod:0 "Empowered Molossians"
+ empowered_thesprotians_gui_mod:0 "Empowered Thesprotians"
+ empowered_chaonians_gui_mod:0 "Empowered Chaonians"
+ 
+
  republican_tyranny_reforms:0 "Tyrannical Rule"
  republican_tyranny_reforms_1:0 "Tyrannical Neutrality"
  republican_tyranny_reforms_1_desc:0 "The tyrant was not an inherently negative figure. It was often seen as a neccesary step in any democracy."

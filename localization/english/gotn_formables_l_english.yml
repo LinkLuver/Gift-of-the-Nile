@@ -139,7 +139,7 @@
  form_greater_paeonia: "Reclaim our Ancestral Lands"
  form_greater_paeonia_desc: "In our tribal halls, Stories are still told of times when our people roamed from the mountains Macedon, to the abundant plains and forests of Thrace, and when we walked along the Propontis, and touched the sea. Such idyllic times seem like a dream, but our people are not one to give up so easily. By will alone, we could recreate our lost realm, and walk on the fields of Thrace once again."
  TROAS_NAME:0 "Troas"
- TROAS_NAME_ADJECTIVE:0 "Trojan"
+ TROAS_ADJECTIVE:0 "Troan"
  troas_mod:0 "Cities of The Troad"
  formable_not_troas_exists:0 "#Y Troas#! does not exist." 
  form_troas:0 "Unite the Cities of The Troad"

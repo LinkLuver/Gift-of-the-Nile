@@ -248,7 +248,30 @@ grand_republic = { # t4 Republic
 	minimum_electable_age = 25
 
 	election_delay = 10
-	ruler_term = 4
+	ruler_term = 5
 	
 	color = rgb { 24 51 112 } 
+}
+
+epirote_republic = { #Epirote League
+	oratory_ideas = 1
+	military_ideas = 2
+	type = republic
+	
+	bonus = {
+		global_citizen_happyness = happiness_large_svalue
+		spearmen_discipline = 0.10
+		character_loyalty = 2
+	}
+	base = {
+		country_civilization_value = 20
+	}
+	
+	minimum_electable_age = 35
+	election_delay = 10
+	ruler_term = 5
+	
+	color = rgb { 26 105 131 }
+	
+	can_deify_ruler = no
 }

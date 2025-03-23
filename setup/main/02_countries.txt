@@ -2821,7 +2821,7 @@ country = {
 			capital = 478
 
 			own_control_core = 	{
-				3853 487 486 478 4313 485 4311 484 496 488 
+				487 486 478 485 4311 484 488 4310 4309 493 491
 			}
 
 		}
@@ -2849,66 +2849,24 @@ country = {
 			capital = 4244
 
 			own_control_core = 	{
-				4258 4247 4307 479 4244 4259 4245 4251
+				4258 4247 4307 479 4244 4259 4245 4251 4313 496 4312
 			}
 		}
 		
-		TH1 = {
-			government = tribal_kingdom
-			primary_culture = odrysi
-			diplomatic_stance=appeasement_stance
-			religion = shamanism
+		#TH3 = {
+			#government = tribal_kingdom
+			#primary_culture = odrysi
+			#diplomatic_stance=appeasement_stance
+			#religion = shamanism
 
-			capital = 492
+			#capital = 489
 
-			own_control_core = 	{
-				494 492 490 360
-			}
+			#own_control_core = 	{
+				#353 489 4154
+			#}
 
-		}
+		#}
 		
-		TH2 = {
-			government = tribal_kingdom
-			primary_culture = odrysi
-			diplomatic_stance=appeasement_stance
-			religion = shamanism
-
-			capital = 491
-
-			own_control_core = 	{
-				4310 493 4309 491
-			}
-
-		}
-		
-		TH3 = {
-			government = tribal_kingdom
-			primary_culture = odrysi
-			diplomatic_stance=appeasement_stance
-			religion = shamanism
-
-			capital = 489
-
-			own_control_core = 	{
-				353 489 4154
-			}
-
-		}
-		
-		TH4 = {
-			government = tribal_kingdom
-			primary_culture = odrysi
-			diplomatic_stance=appeasement_stance
-			religion = shamanism
-
-			capital = 4314
-
-			own_control_core = 	{
-				4312 495 4314 343
-			}
-
-		}
-
 		ATH = {
 			family = 11
 			family = 12
@@ -9199,22 +9157,22 @@ country = {
 			capital = 4152
 
 			own_control_core = 	{
-				4096 4152 4108 4098 4095 4099 4113 4093 4100 4101 4119 4114 4111 4110 4109 4117 4118 4112 4115 4116 4230 4229 4235
+				4096 4152 4108 4098 4095 4099 4113 4093 4100 4101 4119 4114 4111 4110 4109 4117 4118 4112 4115 4116 4230 4229 4235 477 4097 499 3853
 			}
 		}
 
-		SDI = {
-			government = tribal_kingdom
-			primary_culture = triballoi
-			religion = shamanism
-			centralization=10
+		#SDI = {
+			#government = tribal_kingdom
+			#primary_culture = triballoi
+			#religion = shamanism
+			#centralization=10
 
-			capital = 477
+			#capital = 477
 
-			own_control_core = 	{
-				477 4097 499
-			}
-		}
+			#own_control_core = 	{
+				#477 4097 499
+			#}
+		#}
 
 		TBL = {
 			government = tribal_kingdom
@@ -9237,7 +9195,7 @@ country = {
 			capital = 348
 
 			own_control_core = 	{
-				348 342
+				348 342 495 4314 343 4154 489 
 			}
 		}
 
@@ -9709,7 +9667,7 @@ country = {
 			family = 40
 			family = 41
 			family = 86
-			government = aristocratic_monarchy
+			government = epirote_republic
 			primary_culture = epirote
 			religion = roman_pantheon
 			diplomatic_stance=warmongering_stance
@@ -10727,7 +10685,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				258 259 279 281 282 285
+				259 279 281 282 285
 			}
 
 			treasures = { 97 106 200 217 }
@@ -10816,7 +10774,7 @@ country = {
 				}
 
 			own_control_core = 	{
-				257 260 268 261
+				257 260 268 261 258
 			}
 
 			#treasures = { 97 106 200 217 }
@@ -16302,34 +16260,6 @@ country = {
 	
 		}
 
-		GA1 = {
-			government = tribal_chiefdom
-			primary_culture = macaean
-			religion = berber_religion
-
-			centralization = -25
-
-			capital = 8216
-
-			own_control_core = {
-				8216 8215 8214 8213
-			}
-		}
-
-		GA2 = {
-			government = tribal_chiefdom
-			primary_culture = macaean
-			religion = berber_religion
-
-			centralization = -25
-
-			capital = 8226
-
-			own_control_core = {
-				8226 8221 8223 8228 8227 8224 8220 
-			}
-		}
-
 		GA4 = {
 			government = tribal_chiefdom
 			primary_culture = macaean
@@ -16340,21 +16270,7 @@ country = {
 			capital = 8196
 
 			own_control_core = {
-				8196 8198 8197 8203 8195 
-			}
-		}
-
-		GH1 = {
-			government = tribal_chiefdom
-			primary_culture = macaean
-			religion = berber_religion
-
-			centralization = -25
-
-			capital = 8207
-
-			own_control_core = {
-				8207 8210 8211 8209 8208
+				8196 8198 8197 8203 8195 8207 8210 8211 8209 8208
 			}
 		}
 
@@ -16420,7 +16336,7 @@ country = {
 			capital = 8222
 
 			own_control_core = {
-				8222 8212 8225 8205 8204 8206
+				8222 8212 8225 8205 8204 8206 8226 8221 8223 8228 8227 8224 8220 8216 8215 8214 8213
 			}
 		}
 		
@@ -16598,6 +16514,26 @@ country = {
 
 			own_control_core = 	{
 				1515 1520 1521 1522 1552 1553 1554 9749 9748 9750 1512 1514 1511 1516
+			}
+
+		}
+
+		RDP = {
+			government = despotic_monarchy
+			primary_culture = macedonian
+			religion = roman_pantheon
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 492
+
+			own_control_core = 	{
+				494 492 490 360 353 
 			}
 
 		}

@@ -1029,7 +1029,7 @@
 	culture="triballoi"
 	religion="shamanism"
 	trade_goods="leather"
-	civilization_value=13
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1191,17 +1191,20 @@
 	culture="dardanian"
 	religion="illyrian_pantheon"
 	trade_goods="vegetables"
-	civilization_value=12
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
-		amount=1
+		amount=2
+	}
+	tribesmen={
+		amount=3
 	}
 	holy_site=omen_dracondracaena
 }
@@ -1211,7 +1214,7 @@
 	culture="triballoi"
 	religion="shamanism"
 	trade_goods="base_metals"
-	civilization_value=9
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1224,7 +1227,7 @@
 	culture="dardanian"
 	religion="illyrian_pantheon"
 	trade_goods="base_metals"
-	civilization_value=8
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1247,14 +1250,17 @@
 	culture="dardanian"
 	religion="illyrian_pantheon"
 	trade_goods="woad"
-	civilization_value=12
+	civilization_value=25
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=2
+	}
 	citizen={
 		amount=3
 	}
 	freemen={
-		amount=4
+		amount=5
 	}
 	slaves={
 		amount=3

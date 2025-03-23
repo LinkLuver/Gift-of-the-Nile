@@ -29,7 +29,68 @@ ourkinion_missions = {
     on_completion = {
         add_3_free_province_investments = yes
     }
-    ourkinion_missions_task_1 = {  # Preparing Ourkinion
+    ourkinion_missions_task_1 = {  # Corsian Tactics
+    icon = "task_heracles"
+    highlight = {
+        scope:province = {
+            province_id = 3510
+        }
+    }
+    allow = {
+        military_experience = 20
+        p:3510 = {
+            has_building = military_building
+            }
+        }
+    }  
+    on_completion = {
+        trigger_event = me_ourkinion.1
+        show_as_tooltip = {
+            add_country_modifier = {
+                name = corsian_tactics
+                duration = -1
+            }
+        }
+    }
+    ourkinion_missions_task_2 = {  # Etruscan Ideas
+        icon = "task_athena"
+        requires = { ourkinion_missions_task_2 }
+        highlight = {
+            scope:province = {
+                AND = {
+                    OR = {
+                        owner = {
+                            primary_culture = etruscan
+                        }
+                    }
+                    OR = {
+                        is_in_region = central_italy_region
+                    }
+            allow = {
+                culture_pops_in_country = {
+                    target = scope:target_culture
+                    value >= 15
+                    }
+                }
+            }
+        }
+        on_completion = {
+            trigger_event = me_ourkinion.2
+            custom_tooltip = ourkinion_unlocks_italic_trads_tt  
+            set_variable = italic_influence
+        }
+    }
+    ourkinion_missions_task_3 = {  # Learning From Our Past
+        icon = "task_atlas"
+        requires = { ourkinion_missions_task_1 ourkinion_missions_task_2  }
+        allow = {
+            trigger_event = me_ourkinion.3
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    ourkinion_missions_task_4 = {  # Preparing Ourkinion
         icon = "task_artemis"
         highlight = {
             scope:province = {
@@ -47,7 +108,7 @@ ourkinion_missions = {
             }
         }
         on_completion = {
-            trigger_event = me_ourkinion.1	
+            trigger_event = me_ourkinion.4	
             show_as_tooltip = {
             add_country_modifier = {
                     name = ourkinion_prepared
@@ -60,10 +121,10 @@ ourkinion_missions = {
             }	
         }
     }
-    ourkinion_missions_task_2 = {  # On The Corsians
+    ourkinion_missions_task_5 = {  # On The Corsians
         icon = "task_religion"
         duration = 180
-        requires = { ourkinion_missions_task_1 }
+        requires = { ourkinion_missions_task_4 }
         highlight = {
             scope:province = {
                 OR = {
@@ -75,14 +136,62 @@ ourkinion_missions = {
             political_influence >= 50
         }
         on_completion = {
-            trigger_event = me_ourkinion.2
+            trigger_event = me_ourkinion.5
             show_as_tooltip = {
                 add_political_influence = -50
             }
             custom_tooltip = ourkinion_assimilation
+            }
+        }
+    }
+    ourkinion_missions_task_task_6 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_ourkinion.6
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    ourkinion_missions_task_task_7 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_ourkinion.7
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    ourkinion_missions_task_task_8 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_ourkinion.8
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    ourkinion_missions_task_task_9 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_ourkinion.9
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    ourkinion_missions_task_task_10 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_ourkinion.10
+            show_as_tooltip = {
+
+            }
         }
     }
 }
-
-
-    

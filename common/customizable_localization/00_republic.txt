@@ -1,0 +1,147 @@
+﻿republic_button_empower_faction_loc = { # Party Leader Scope
+	type = character
+
+	text = { # Optimates Party 
+		localization_key = republic_button_empower_faction_loc_optimates
+		trigger = {
+			party_type = optimates_party
+		}
+	}
+
+	text = { # Populares Party 
+		localization_key = republic_button_empower_faction_loc_populares
+		trigger = {
+			party_type = populares_party
+		}
+	}
+
+	text = { # Boni Party 
+		localization_key = republic_button_empower_faction_loc_boni
+		trigger = {
+			party_type = boni_party
+		}
+	}
+
+	text = { # Oligarchic Party 
+		localization_key = republic_button_empower_faction_loc_oligarchic
+		trigger = {
+			party_type = oligarchic_party
+		}
+	}
+
+	text = { # Democratic Party 
+		localization_key = republic_button_empower_faction_loc_democratic
+		trigger = {
+			party_type = democratic_party
+		}
+	}
+
+	text = { # Oligarchic Party 
+		localization_key = republic_button_empower_faction_loc_traditionalist
+		trigger = {
+			party_type = traditionalist_party
+		}
+	}
+
+	text = {
+		localization_key = republic_button_empower_faction_loc_molossian_party
+		trigger = {
+			party_type = molossian_party
+		}
+	}
+
+	text = {
+		localization_key = republic_button_empower_faction_loc_thesprotian_party
+		trigger = {
+			party_type = thesprotian_party
+		}
+	}
+
+	text = { # 
+		localization_key = republic_button_empower_faction_loc_chaonian_party
+		trigger = {
+			party_type = chaonian_party
+		}
+	}
+
+	text = {
+		localization_key = republic_button_empower_faction_loc_fallback
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+republic_button_empower_faction_desc_loc = { # Party Leader Scope
+	type = character
+
+	text = { # Optimates Party 
+		localization_key = republic_button_empower_faction_desc_loc_optimates
+		trigger = {
+			party_type = optimates_party
+		}
+	}
+
+	text = { # Populares Party 
+		localization_key = republic_button_empower_faction_desc_loc_populares
+		trigger = {
+			party_type = populares_party
+		}
+	}
+
+	text = { # Boni Party 
+		localization_key = republic_button_empower_faction_desc_loc_boni
+		trigger = {
+			party_type = boni_party
+		}
+	}
+
+	text = { # Oligarchic Party 
+		localization_key = republic_button_empower_faction_desc_loc_oligarchic
+		trigger = {
+			party_type = oligarchic_party
+		}
+	}
+
+	text = { # Democratic Party 
+		localization_key = republic_button_empower_faction_desc_loc_democratic
+		trigger = {
+			party_type = democratic_party
+		}
+	}
+
+	text = { # Oligarchic Party 
+		localization_key = republic_button_empower_faction_desc_loc_traditionalist
+		trigger = {
+			party_type = traditionalist_party
+		}
+	}
+
+	text = {
+		localization_key = republic_button_empower_faction_desc_loc_molossian_party
+		trigger = {
+			party_type = molossian_party
+		}
+	}
+
+	text = { 
+		localization_key = republic_button_empower_faction_desc_loc_thesprotian_party
+		trigger = {
+			party_type = thesprotian_party
+		}
+	}
+
+	text = {
+		localization_key = republic_button_empower_faction_desc_loc_chaonian_party
+		trigger = {
+			party_type = chaonian_party
+		}
+	}
+
+	text = {
+		localization_key = republic_button_empower_faction_desc_loc_fallback
+		trigger = {
+			always = yes
+		}
+	}
+}

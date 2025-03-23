@@ -44,7 +44,7 @@
 	culture="dardanian"
 	religion="illyrian_pantheon"
 	trade_goods="leather"
-	civilization_value=8
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -82,7 +82,7 @@
 	culture="dardanian"
 	religion="illyrian_pantheon"
 	trade_goods="fur"
-	civilization_value=8
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -102,7 +102,7 @@
 	culture="dardanian"
 	religion="illyrian_pantheon"
 	trade_goods="hemp"
-	civilization_value=8
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -121,7 +121,7 @@
 	culture="dardanian"
 	religion="illyrian_pantheon"
 	trade_goods="cattle"
-	civilization_value=8
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -140,18 +140,27 @@
 	culture="dardanian"
 	religion="illyrian_pantheon"
 	trade_goods="grain"
-	civilization_value=12
+	civilization_value=22
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=2
+	}
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
 		religion="shamanism"
 		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=3
 	}
 	holy_site=omen_andinus
 }
@@ -161,7 +170,7 @@
 	culture="dardanian"
 	religion="illyrian_pantheon"
 	trade_goods="horses"
-	civilization_value=8
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -231,7 +240,7 @@
 	culture="dardanian"
 	religion="illyrian_pantheon"
 	trade_goods="stone"
-	civilization_value=8
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -250,7 +259,7 @@
 	culture="dardanian"
 	religion="illyrian_pantheon"
 	trade_goods="stone"
-	civilization_value=8
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -269,7 +278,7 @@
 	culture="dardanian"
 	religion="illyrian_pantheon"
 	trade_goods="wood"
-	civilization_value=8
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -288,7 +297,7 @@
 	culture="triballoi"
 	religion="shamanism"
 	trade_goods="hemp"
-	civilization_value=12
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -304,7 +313,7 @@
 	culture="dardanian"
 	religion="illyrian_pantheon"
 	trade_goods="wood"
-	civilization_value=8
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -324,7 +333,7 @@
 	culture="dardanian"
 	religion="illyrian_pantheon"
 	trade_goods="base_metals"
-	civilization_value=8
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -343,7 +352,7 @@
 	culture="triballoi"
 	religion="shamanism"
 	trade_goods="precious_metals"
-	civilization_value=11
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -362,7 +371,7 @@
 	culture="dardanian"
 	religion="illyrian_pantheon"
 	trade_goods="base_metals"
-	civilization_value=8
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={

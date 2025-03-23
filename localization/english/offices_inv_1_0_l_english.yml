@@ -733,6 +733,8 @@
  office_apothecary_south_arabian:0 "Layz"
  office_wise_person_south_arabian:0 "Ba'l 'Ahd"
 
+ ##GoTN Added
+
  #Dugrum
  office_augur_gallic:0 "Bodyguard"
  office_plebeian_aedile_gallic:0 "High Druid"
@@ -742,3 +744,33 @@
  office_republic_physician_gallic:1 "Elder"
  office_praetor_gallic:0 "Apothecary"
  office_tribune_of_the_treasury_gallic:0 "Wise One"
+
+ #Lydian Monarchy Ruler Names
+ plutocratic_monarchy_ruler_lydian:0 "Qalmlus"
+ despotic_monarchy_ruler_lydian:0 "Qalmlus"
+ stratocratic_monarchy_ruler_lydian:0 "Qalmlus"
+ theocratic_monarchy_ruler_lydian:0 "Tiuae Qalmlus"
+ aristocratic_monarchy_ruler_lydian:0 "Qalmlus"
+ imperium_ruler_lydian:0 "Tavs'a Qalmlus"
+ imperial_cult_ruler_lydian:0 "Tiuae Qalmlus"
+
+
+ #Lydian Monarchy Offices
+ office_foreign_minister_lydian:0 "Arjo"
+ office_royal_tutor_lydian:0 "Ves'fas'"
+ office_master_of_the_guard_lydian:0 "Nars Astarho"
+ office_high_priest_monarchy_lydian:0 "Alus'"
+
+ #Lydian Republic Offices
+ office_augur_lydian:0 "Arjo"
+ office_tribune_of_the_soldiers_lydian:0 "Nars Astarho"
+ office_pontifex_lydian:0 "Alus'"
+
+ #Phrygian Monarchy Ruler Names
+ plutocratic_monarchy_ruler_phrygian:0 "Vanaktei"
+ despotic_monarchy_ruler_phrygian:0 "Vanaktei"
+ stratocratic_monarchy_ruler_phrygian:0 "Vanaktei"
+ theocratic_monarchy_ruler_phrygian:0 "Vanaktei"
+ aristocratic_monarchy_ruler_phrygian:0 "Vanaktei"
+ imperium_ruler_phrygian:0 "Mekas Vanaktei"
+ imperial_cult_ruler_phrygian:0 "Vanaktei"

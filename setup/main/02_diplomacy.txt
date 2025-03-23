@@ -149,8 +149,10 @@ diplomacy = {
 
 
 	#Aetolian League
-	dependency = { first = AET second = AMK subject_type = feudatory }
 	dependency = { first = AET second = AKR subject_type = feudatory }
+
+	#Epirote League
+	dependency = { first = EPI second = AMK subject_type = feudatory }
 
 	#Neo-Boetian Leaague
 	defensive_league = {
@@ -172,13 +174,10 @@ diplomacy = {
 
 	dependency = { first = MAC second = PTI subject_type = feudatory }
 	dependency = { first = MAC second = ABD subject_type = feudatory }
+	dependency = { first = MAC second = RDP subject_type = feudatory }
 	dependency = { first = MAC second = AEN subject_type = subject_league_city_state }
 	dependency = { first = MAC second = PAA subject_type = vassal_tribe }
 	dependency = { first = MAC second = MAD subject_type = vassal_tribe }
-	dependency = { first = MAC second = TH1 subject_type = vassal_tribe }
-    dependency = { first = MAC second = TH2 subject_type = vassal_tribe }
-    dependency = { first = MAC second = TH3 subject_type = vassal_tribe }
-    dependency = { first = MAC second = TH4 subject_type = vassal_tribe }
 
 	#Macedonian Alliances
 	alliance = { first = MAC second = TRE }
@@ -195,9 +194,6 @@ diplomacy = {
     dependency = { first = TRE second = PHO subject_type = feudatory }
     dependency = { first = TRE second = ORE subject_type = feudatory }
     dependency = { first = TRE second = LAM subject_type = feudatory }
-
-	#Dardania-Serdia
-	dependency = { first = DRD second = SDI subject_type = feudatory }
 
 	#Kingdom of Damascus
 	dependency = { first = PRY second = GAL subject_type = client_state }
