@@ -31,7 +31,7 @@
 
 277={ #Skyros
 	terrain="hills"
-	culture="macedonian"
+	culture="euboean"
 	religion="roman_pantheon"
 	trade_goods="iron"
 	civilization_value=24
@@ -709,14 +709,20 @@
 	culture="boeotian"
 	religion="roman_pantheon"
 	trade_goods="base_metals"
-	civilization_value=24
+	civilization_value=33
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=2
 	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=4
+	}
 	slaves={
-		amount=2
+		amount=4
 	}
 }
 
@@ -772,79 +778,33 @@
 	culture="boeotian"
 	religion="roman_pantheon"
 	trade_goods="earthware"
-	civilization_value=26
+	civilization_value=34
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=1
-	}
-	nobles={
-		culture="macedonian"
-		amount=1
+		amount=4
 	}
 	citizen={
-		amount=1
+		amount=5
 	}
 	citizen={
 		culture="athenian"
 		religion="roman_pantheon"
-		amount=1
-	}
-	citizen={
-		culture="peloponnesian"
-		religion="roman_pantheon"
-		amount=2
-	}
-	citizen={
-		culture="arcadian"
-		religion="roman_pantheon"
 		amount=2
 	}
 	freemen={
-		amount=2
-	}
-	freemen={
-		culture="athenian"
-		religion="roman_pantheon"
-		amount=1
-	}
-	freemen={
-		culture="arcadian"
-		religion="roman_pantheon"
-		amount=1
-	}
-	freemen={
-		culture="peloponnesian"
-		religion="roman_pantheon"
-		amount=1
-	}
-	freemen={
-		culture="italiotian"
-		religion="roman_pantheon"
-		amount=1
-	}
-	freemen={
-		culture="syracusan"
-		religion="roman_pantheon"
-		amount=1
-	}
-	slaves={
-		culture="peloponnesian"
-		religion="roman_pantheon"
-		amount=1
-	}
-	slaves={
-		culture="arcadian"
-		religion="roman_pantheon"
-		amount=1
+		amount=8
 	}
 	slaves={
 		culture="athenian"
-		religion="roman_pantheon"
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=1
+		culture="euboean"
+		amount=2
+	}
+	slaves={
+		amount=5
 	}
 	holy_site=omen_dionysus
 }
@@ -923,7 +883,7 @@
 
 431={ #Messene
 	terrain="farmland"
-	culture="peloponnesian"
+	culture="achaean"
 	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=35
@@ -946,7 +906,7 @@
 
 432={ #Mothone
 	terrain="hills"
-	culture="peloponnesian"
+	culture="achaean"
 	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=24

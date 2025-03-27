@@ -131,3 +131,135 @@ greece_events.3 = { # Athenian Trade Negative
         name = "greece_events_3.a"
 	}
 }
+greece_events.4 = { # Orochomenos War Declaration
+    
+	trigger = {
+		OR = {
+			tag = CM4
+		}
+	}
+    type = country_event
+    title = "greece_events_4_title"
+    desc = "greece_events_4_desc"
+    picture = greek_siege
+	left_portrait = current_ruler
+    right_portrait = c:THE.current_ruler
+
+	
+    option = {
+        name = "greece_events_4.a"
+		add_political_influence = -20
+		add_treasury = 50
+		add_country_modifier = {
+			name = orochomenos_defense
+			duration = 525
+		}
+	}
+}
+greece_events.5 = { # Thessaly War Aid
+    
+	trigger = {
+		OR = {
+			tag = TRE
+		}
+	}
+    type = country_event
+    title = "greece_events_5_title"
+    desc = "greece_events_5_desc"
+    picture = throneroom
+	left_portrait = current_ruler
+	left_portrait = c:CM4.current_ruler
+    right_portrait = c:THE.current_ruler
+
+    option = {
+		custom_tooltip = "greece_events_5_tt"
+        name = "greece_events_5.a"
+		ai_chance = {
+			factor = 50
+		}
+		declare_war_with_wargoal = {
+			target = c:THE
+			war_goal = conquer_wargoal
+			province = p:426
+		}
+		c:THE = {
+			trigger_event = {
+				id = greece_events.7
+				days = 5
+			}
+		}
+	}
+	option = {
+        name = "greece_events_5.b"
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+greece_events.6 = { # Oreos Defection
+    
+	trigger = {
+		tag = ORE
+	}
+
+    type = country_event
+    title = "greece_events_6_title"
+    desc = "greece_events_6_desc"
+    picture = interesting_histories_greek_city_man
+    right_portrait = current_ruler
+	right_portrait = c:THE.current_ruler
+
+    option = {
+        name = "greece_events_6.a"
+		c:TRE = {
+			release_subject = c:ORE
+		}
+		c:THE = {
+			make_subject = {
+				target = c:ORE
+				type = feudatory
+			}
+			trigger_event = {
+				id = greece_events.8
+				days = 5
+			}
+		}
+	}
+	option = {
+        name = "greece_events_6.b"
+	}
+}
+greece_events.7 = { # Thebes News of Thessaly
+    
+	trigger = {
+		tag = THE
+	}
+
+    type = country_event
+    title = "greece_events_7_title"
+    desc = "greece_events_7_desc"
+    picture = greeks_marching
+    left_portrait = current_ruler
+	right_portrait = c:THE.current_ruler
+
+    option = {
+        name = "greece_events_7.a"	
+	}
+}
+greece_events.8 = { # Thebes News of Oreos-Positive
+    
+	trigger = {
+		tag = THE
+	}
+
+    type = country_event
+    title = "greece_events_8_title"
+    desc = "greece_events_8_desc"
+    picture = greek_political_discussion
+    left_portrait = current_ruler
+	right_portrait = c:ORE.current_ruler
+
+    option = {
+        name = "greece_events_8.a"	
+	}
+}

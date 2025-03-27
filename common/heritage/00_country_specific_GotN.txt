@@ -1243,8 +1243,8 @@ helot_heritage = {
 
     modifier = {
         #good
-        global_freemen_happyness = happiness_large_svalue
-        global_pop_promotion_speed_modifier = 0.1
+        fort_limit = 1
+        global_freemen_happyness = 0.08
 
         #bad
         global_commerce_modifier = -0.05
@@ -8307,11 +8307,11 @@ northern_cimmerian_heritage = {
 eastern_cimmerian_heritage = {
 	modifier = {
 		#good
-		archers_offensive = 0.10
-		global_defensive = 0.05
-	   
+		global_nobles_desired_pop_ratio = 0.05
+        civic_tech_investment = 0.20
+
 		#bad
-		global_population_capacity_modifier = -0.05
+		ship_cost = 0.10
 	}
    
 	trigger = {

@@ -1064,10 +1064,10 @@
 
 61={ #Siris
 	terrain="plains"
-	culture="lucanian"
-	religion="italic_pantheon"
+	culture="italiotian"
+	religion="roman_pantheon"
 	trade_goods="hemp"
-	civilization_value=11
+	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1077,14 +1077,18 @@
 		amount=1
 	}
 	freemen={
-		culture="italiotian"
+		culture="lucanian"
 		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
+		culture="lucanian"
+		religion="italic_pantheon"
 		amount=3
 	}
 	tribesmen={
+		culture="lucanian"
+		religion="italic_pantheon"
 		amount=3
 	}
 }

@@ -167,9 +167,9 @@ diplomacy = {
 		member = OPU
 		member = TAN
 	}
-	dependency = { first = THE second = BOE subject_type = client_state }
-	dependency = { first = THE second = OPU subject_type = client_state }
-	dependency = { first = THE second = TAN subject_type = subject_league_city_state }
+	dependency = { first = THE second = BOE subject_type = feudatory }
+	dependency = { first = THE second = OPU subject_type = feudatory }
+	dependency = { first = THE second = TAN subject_type = feudatory }
 
 
 	dependency = { first = MAC second = PTI subject_type = feudatory }
@@ -370,6 +370,7 @@ diplomacy = {
 	#Lucanii
 	#alliance = { first = LCA second = BRT } #RDD
 	dependency = { first = LCA second = ELE subject_type = tributary }
+	dependency = { first = LCA second = PSD subject_type = tributary }
 
 	#Knossos
 	dependency = { first = KNO second = ELT subject_type = feudatory }

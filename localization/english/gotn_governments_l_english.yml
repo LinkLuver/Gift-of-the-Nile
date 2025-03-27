@@ -64,10 +64,13 @@
  epirote_republic_ruler_female:0 "Prostratas"
 
  molossian_party:0 "Molossians"
+ molossian_party_short:0 "Molossians"
  molossian_party_description:0 "The Molossians are the most revered and powerful of the Epirote tribes, claiming their descent from the hero Molossus, one of the three sons of Neoptolemus, who himself was a son of Achilles. The Molossians are renowned for their hounds, and for their tact in warfare and diplomatic policy."
  thesprotian_party:0 "Thesprotians"
+ thesprotian_party_short:0 "Thesprotians"
  thesprotian_party_description:0 "The Thesprotians are the controllers of the Dodona Oracle, something that has given them immense political influence over their neighbors. It is with this power that they were able to control the southern portion of Epirus."
  chaonian_party:0 "Chaonians"
+ chaonian_party_short:0 "Chaonians"
  chaonian_party_description:0 "The Chaonians claim they are named after the Trojan war hero Chaon, who traveled to Epirus with Helenus. The Chaonians inhabit the northern reaches of Epirus, the least inhabited and the most rural. Their mostly pastoralist way of life has given them great prosperity, and their people are lauded for their hardy and stable way of life."
  republic_button_empower_faction_loc_molossian_party:0 "Improve Soldier Training"
  republic_button_empower_faction_desc_loc_molossian_party:0 "Always concerned with the current state of our soldiers, the Molossians seek to improve our current training standards and equipment. Naturally, some of the money supposed to be used for troop upkeep will go right into the pockets of the Molossians, securing their loyalty.\n\nThis can be used once every 10 years, and only if you have not used '$republic_button_empower_faction_loc_chaonian_party$'."
@@ -78,7 +81,27 @@
  empowered_molossians_gui_mod:0 "Empowered Molossians"
  empowered_thesprotians_gui_mod:0 "Empowered Thesprotians"
  empowered_chaonians_gui_mod:0 "Empowered Chaonians"
- 
+
+ republic_military_recruitment_epirus_laws:0 "Military Organization"
+ republic_military_recruitment_epirus_3:0 "Tribal Levy"
+ republic_military_recruitment_epirus_3_desc:0 "By relying on a variety of soldiers from our tribes, we will always have a dedicated and supple fighting force."
+ republic_military_recruitment_epirus_1:0 "Chaonian Levy"
+ republic_military_recruitment_epirus_1_desc:0 "The Chaonians prefer superiority in numbers. By encouraging recruitment and expediting training time, we will be able to maintain a larger army, and have a larger pool of soldiers to draw from."
+ republic_military_recruitment_epirus_2:0 "Molossian Levy"
+ republic_military_recruitment_epirus_2_desc:0 "The Molossians are an especially martial and warlike people, even amongst the Epirotes. By primarily using skilled Molossian hoplites, the prowess of our army would rival that even of the Thebans or Spartans. Relying on such a small group to provide for our defense would leave us with a signifcantly reduced fighting force."
+ republic_military_recruitment_epirus_4:0 "Standardized Army"
+ republic_military_recruitment_epirus_4_desc:0 "Because of the nature of our land, our prestigious soldiers have fought using varied tactics. A standardization of a central, Epirote army would allow us to best adapt to our rugged terrain, and to better control our generals."
+ corruption_epirus_laws:0 "Synedrion Endorsement"
+ republic_corruption_epirus_2:0 "Epirote Assembly"
+ republic_corruption_epirus_2_desc:0 "Our traditonal method of assembly has served us well. By having representation for each of our tribes in the synedrion, no one will be able to deny the just and fair nature of our league."
+ republic_corruption_epirus_3:0 "Encourage Proxenoi"
+ republic_corruption_epirus_3_desc:0 "By sponsoring the wealthy and charismatic amongst our people to act as Proxenoi, these informal ambassadors to other cities will not only encourage friendship between the more disparate tribes amongst us, we will be able to establish good relations with our neighbors, and trade between us will flow more readily."
+ republic_corruption_epirus_1:0 "Empower the Synedrion"
+ republic_corruption_epirus_1_desc:0 "Increasing the amount of representatives in our synedrion will satiate the masses."
+ republic_corruption_epirus_4:0 "Limit the Synedrion"
+ republic_corruption_epirus_4_desc:0 "The affairs of our elected officals have oftentimes gotten in the way of the ambitions of our Prostratas. Abolishing the power of the synedrion to pass judgement on our government will eliminate this issue."
+
+
 
  republican_tyranny_reforms:0 "Tyrannical Rule"
  republican_tyranny_reforms_1:0 "Tyrannical Neutrality"

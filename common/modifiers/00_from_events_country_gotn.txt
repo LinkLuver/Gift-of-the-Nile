@@ -81,3 +81,10 @@ macedon_ambition = {
     diplomatic_relations = 2
     improve_relation_cost_modifier = -0.25
 }
+theban_overtures = {
+    subject_loyalty = 25
+    land_morale_modifier = 0.05
+}
+orochomenos_defense = {
+    global_defensive = 0.10
+}

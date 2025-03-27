@@ -1592,15 +1592,23 @@ country = {
 			}
 		}
 
-		CM4 = { # Indaruaya
-			government = tribal_chiefdom
-			primary_culture = cimmerian
-			religion = indo_iranian_religion
+		CM4 = { # Orochomenos
+			government = oligarchic_republic
+			primary_culture = boeotian
+			religion = roman_pantheon
 
-			capital = 9785
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 423
 
 			own_control_core = {
-				9785 4966 4968
+				423
 			}
 		}
 
@@ -4698,7 +4706,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				60 70 71 59 53 47 13 61
+				60 70 71 59 53 47 13
 			}
 
 		}
@@ -5005,20 +5013,6 @@ country = {
 				3660 3659 3663 3658 3656 3655 3654 3661 3666 3665
 			}
 		}
-
-		BRE = { #change Galatia
-			government = tribal_kingdom
-			primary_culture = noric
-			religion = roman_pantheon
-			centralization=10
-
-			capital = 3670
-
-			own_control_core = 	{
-				3669 3670
-			}
-		}
-
 		#Italiot League (Croton, Thurii, Metapontum, Rhegium, Herakleia, Hipponium)#
 
 		MET = {
@@ -5104,7 +5098,7 @@ country = {
 			capital = 54
 
 			own_control_core = 	{
-				54
+				54 61
 			}
 
 		}
@@ -7777,20 +7771,6 @@ country = {
 				3770 3771 3772 3769 3774 3767 3768 3766
 			}
 		}
-
-		SVC = { #change Galatia
-			government = tribal_kingdom
-			primary_culture = noric
-			religion = druidism
-			centralization=10
-
-			capital = 3664
-
-			own_control_core = 	{
-				3664
-			}
-		}
-
 		BGT = {
 			government = gaul_princely_state
 			primary_culture = biturigan
@@ -9700,7 +9680,7 @@ country = {
 
 		MSE = {
 			government = oligarchic_republic
-			primary_culture = peloponnesian
+			primary_culture = achaean
 			religion = roman_pantheon
 
 			capital = 431
@@ -9713,7 +9693,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				431 432 473 7889
+				431 432
 			}
 
 		}
@@ -9752,7 +9732,7 @@ country = {
 			}
 		}
 
-		BOE = { #Macedonian Tributary - Third Boetian League, sans Thebes as they won't rejoin until the city has its revival under the Antigonids
+		BOE = { #Thespiai
 			government = oligarchic_republic
 			primary_culture = boeotian
 			religion = roman_pantheon
@@ -9775,7 +9755,7 @@ country = {
 
 			capital = 468
 			own_control_core = 	{
-				423 468 
+				468
 			}
 
 			treasures = { 56 57 87 }
@@ -10299,7 +10279,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				427 429 430
+				427 429 430 473 7889
 			}
 
 			treasures = { 88 }
@@ -15085,20 +15065,6 @@ country = {
 				3643 3644 3764 3762 3645 3763 3646 3642 3754 3755
 			}
 		}
-		#Laiancia
-		LAI = {
-			government = tribal_kingdom
-			primary_culture = noric
-			religion = druidism
-			centralization=50
-
-			capital = 3667
-
-			own_control_core = {
-				3667
-			}
-		}
-
 		AID = { #Ambidravia
 			government = tribal_kingdom
 			primary_culture = noric
@@ -15108,7 +15074,7 @@ country = {
 			capital = 3668
 
 			own_control_core = {
-				3668
+				3668 3667 3664 3669 3670
 			}
 		}
 

@@ -47,6 +47,16 @@
  gotn_events_14.a:0 "To the glory of Pan-Hellenism!"
  gotn_events_14_tt:0 "An attempt must be made to #G unite#! the #E Greeks#! during #E Alexander's#! lifetime."
  macedon_ambition:0 "Macedonian Ambition"
+
+ gotn_events_15_title:0 "Theban Overtures"
+ gotn_events_15_desc:0 "#E #Y Thebes#!#!\nThe wise and prosperous rule of #E Epaminondas#! has led to a strong, unified #E Boeotia#!. Not everything is perfect for the seven-gated city however. The #E Thebans#! have had to contend with a rising #E Thessaly#!, one that seeks to destroy them and their league permanently. 10 years prior, the tyrant #E Lysimachos#! led an expedition into #E Lamia#! and #E Elatea#!, beating back the #E Theban#!-led coalition. #E Orochomenos#!, a city historically at odds with #E Thebes#!, betrayed the #E Thebans#! by allying with #E Thessaly#!, in exchange for a promise of becoming the leader of the #E Boeotian League#!. In 302, the neighboring city of #E Chalkis#! hatched a plot to overthrow the #E Theban#! Boeotarch #E Kleitomachos#!, and to install a pro-#E Chalkidian#! ruler. The plot was foiled before it came to fruition, and the #E Thebans#!, outraged, immediately set out to capture #E Chalkis#!. With the help of their allies the #E Eretrians#!, #E Chalkis#! fell quickly, as no city wanted to support such a treachery. Even the dastardly #E Thessalians#! stayed out of the conflict. #E Chalkis#! was captured, and occupied by a #E Theban#! garrison. Now, tension have been brewing between #E Orochomenos#! and #E Thebes#!. Rumors have been spreading about a supposed #E Thessalian#! invasion, and #E Orochmenian#! schemes..."
+ gotn_events_15.a:0 "No longer will we tolerate enemies at our doorstep!"
+ gotn_events_15_a_tt:0 "We will immediately declare #R war#! on #Y Orochomenos#!\n\nSuch an action could draw us into #R conflict#! the #Y Thessalians#!."
+ gotn_events_15.b:0 "Forget Orochomenos, I have a better plan."
+ gotn_events_15_b_tt:0 "We will attempt to #G sway#! #Y Oreos#! to our side."
+ gotn_events_15.c:0 "Let us not rush into conflict, we will bide our time..."
+ theban_overtures:0 "Theban Overtures"
+ 
  
 
  ## Median Collapse
@@ -162,7 +172,7 @@
 
  ##Greece-Anatolia Events
  greece_events_1_title:0 "A Trade Proposal"
- greece_events_1_desc:0 "A ship arrived from [GetProvince('(int32)1972').GetName|E] a day ago. The mesenger was from [GetProvince('(int32)292').GetName|E], and carried with him the royal seal of Adrastus. His message was such 'O ruler of the Athenians- I come to you humbly, and as an equal. My nation is going through a time of great hardship, and I seek to establish relations with your people. I believe we can both benefit from a trade deal, as the other Greeks have refused to do business with my merchants. Please, take this gift as a symbol of my gratitude.' The messenger presented a box full of the finest Lydian fruits, honey, and meats. The Athenian Archon, [ROOT.GetCountry.GetRuler.GetName|E] responded..."
+ greece_events_1_desc:0 "A ship arrived from [GetProvince('(int32)1972').GetName|E] a day ago. The mesenger was from [GetProvince('(int32)292').GetName|E], and carried with him the royal seal of Adrastus. His message was such 'O ruler of the Athenians- I come to you humbly, and as an equal. My nation is going through a time of great hardship, and I seek to establish relations with your people. I believe we can both benefit from a trade deal, as the other Greeks have refused to do business with my merchants. Please, take this gift as a symbol of my gratitude.' The messenger presented a box full of the finest Lydian fruits, honey, and meats. The Athenian Archon,[ROOT.GetCountry.GetRuler.GetName|E] responded..."
  greece_events_1.a:0 "There is always money to be made!"
  greece_events_1.b:0 "A box of fruits? Your king truly is desperate."
  athens_deal:0 "#Y This deal will#! #G benefit#! #Y both us and Lydia, but our Greek countrymen will be#! #R angered#! #Y by our decision to trade with the enemy#!."
@@ -176,3 +186,22 @@
  greece_events_3_title:0 "Deal Declined"
  greece_events_3_desc:0 "The Athenians clearly have no love for us. They called us desperate beggars, and scoffed at our proposal It seems we will have to seek friends elsewhere." 
  greece_events_3.a:0 "We have no need for Greeks anyways."
+ greece_events_4_title:0 "War!"
+ greece_events_4_desc:0 "A scout appeared before [ROOT.GetCountry.GetRuler.GetName|E], weary from travel. An entire #E Theban#! army is headed towards us, they seek to conquer us! [ROOT.GetCountry.GetRuler.GetName|E] spit out the wine he was drinking, and his cup dropped to the floor. Get me the emergency funds, and barricade the city as fast as possible. Our fate depends on [GetCharacter('(int32)42').GetName]..."
+ orochomenos_defense:0 "Desperate Defense"
+ greece_events_5_title:0 "Orochomenian Aid"
+ greece_events_5_desc:0 "News has reached us of the plight of the #E Orochomenians#!-they have been attacked by #E Thebes#!. Do we really wish to draw ourselves into another conflict over a petty city, even if they are our allies on paper?"
+ greece_events_5.a:0 "Useless or not, this is a good oppourtunity to teach the Thebans a lesson."
+ greece_events_5.b:0 "Orochmenos will have to fend for itself."
+ greece_events_5_tt:0 "We will immediately declare #R war#! on #Y Thebes#!."
+ greece_events_6_title:0 "An Offer of Defection"
+ greece_events_6_desc:0 "A messenger arrived from [GetProvince('(int32)426').GetName|E], presenting us with an offer. We could defect the #E Thessalians#!, who have often overstepped their boundaries and demanded too much of us, and we would join as a junior member of the #E Boeotian League#!. This could be beneficial, or it could just be a change in management."
+ greece_events_6.a:0 "Better a Boeotian than a Thessalian."
+ greece_events_6_tt:0 "We will become a feudatory of #Y Thebes#!."
+ greece_events_6.b:0 "We will take our chances with Thessaly."
+ greece_events_7_title:0 "Thessalian Intereference"
+ greece_events_7_desc:0 "[GetCulture('thessalian').GetName] troops have been spotted marching from [GetProvince('(int32)339').GetName]. The #E Thessalians#! are on the march to aid [GetCountry('CM4').GetName]. This conflict may become much more complicated than anticipated."
+ greece_events_7.a:0 "How much can they really even do, against a united Boeotia?"
+ greece_events_8_title:0 "Oreosian Submission"
+ greece_events_8_desc:0 "[GetCountry('ORE').GetName] has wisely accepted our offer. Even now, our moves are paying dividends; with Oreos pacified, we now have control over the entire island of #E Euboea#!, a valuable asset. Perhaps we should turn our focus to the sea."
+ greece_events_8.a:0 "The first step towards Theban hegemony."

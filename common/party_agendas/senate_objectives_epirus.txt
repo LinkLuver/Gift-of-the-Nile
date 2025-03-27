@@ -1,7 +1,7 @@
 ﻿senate_objective_change_law_oli_generic = { # Change Law Generic - Oligarchic
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = molossian_party
 		party_country = {
 			NOT = { has_variable = oligarchic_cooldown }
@@ -301,7 +301,7 @@
 senate_objective_change_law_dem_generic = { # Change Law Generic - Democratic
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = thesprotian_party
 		party_country = { 
 			NOT = { has_variable = democratic_cooldown }
@@ -603,7 +603,7 @@ senate_objective_change_law_dem_generic = { # Change Law Generic - Democratic
 senate_objective_change_law_tra_generic = { # Change Law Generic - Traditionalist
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = chaonian_party
 		party_country = {
 			NOT = { has_variable = traditionalist_cooldown }
@@ -890,7 +890,7 @@ senate_objective_change_law_tra_generic = { # Change Law Generic - Traditionalis
 senate_objective_declare_war_generic = { # Declare War Generic - Oligarchic
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = molossian_party
 		party_country = {
 			NOT = { has_variable = oligarchic_cooldown }
@@ -1153,7 +1153,7 @@ senate_objective_declare_war_generic = { # Declare War Generic - Oligarchic
 senate_objective_grant_holdings_generic = { # Grant Holdings Generic - Oligarchic
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = molossian_party
 		party_country = {
 			NOT = { has_variable = oligarchic_cooldown }
@@ -1220,7 +1220,7 @@ senate_objective_grant_holdings_generic = { # Grant Holdings Generic - Oligarchi
 senate_objective_revoke_holdings_generic = { # Revoke Holdings Generic - Democratic
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = thesprotian_party
 		party_country = {
 			NOT = { has_variable = democratic_cooldown }
@@ -1300,7 +1300,7 @@ senate_objective_revoke_holdings_generic = { # Revoke Holdings Generic - Democra
 senate_objective_lengthen_terms_generic = { # Lengthen Terms Generic - Oligarchic
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = molossian_party
 		party_country = {
 			NOT = { has_variable = oligarchic_cooldown }
@@ -1413,7 +1413,7 @@ senate_objective_lengthen_terms_generic = { # Lengthen Terms Generic - Oligarchi
 senate_objective_shorten_terms_generic = { # Shorten Terms Generic - Democratic
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = thesprotian_party
 		party_country = {
 			NOT = { has_variable = democratic_cooldown }
@@ -1538,7 +1538,7 @@ senate_objective_shorten_terms_generic = { # Shorten Terms Generic - Democratic
 senate_objective_build_temple_generic = { # Build Temple Generic - Traditionalist
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = chaonian_party
 		party_country = {
 			NOT = { has_variable = traditionalist_cooldown }
@@ -1622,7 +1622,7 @@ senate_objective_build_temple_generic = { # Build Temple Generic - Traditionalis
 senate_objective_imprison_head_generic = { # Imprison Family Head - Democratic
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = thesprotian_party
 		party_country = {
 			NOT = { has_variable = democratic_cooldown }
@@ -1783,7 +1783,7 @@ senate_objective_imprison_head_generic = { # Imprison Family Head - Democratic
 senate_objective_integrate_culture_generic = { # Integrate Culture - Democratic
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = thesprotian_party
 		party_country = {
 			NOT = { has_variable = democratic_cooldown }
@@ -1918,7 +1918,7 @@ senate_objective_integrate_culture_generic = { # Integrate Culture - Democratic
 senate_objective_reduce_tyranny_generic = { # Reduce Tyranny - Democratic
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = thesprotian_party
 		party_country = {
 			NOT = { has_variable = democratic_cooldown }
@@ -1992,7 +1992,7 @@ senate_objective_reduce_tyranny_generic = { # Reduce Tyranny - Democratic
 senate_objective_increase_stability_generic = { # Increase Stability - Traditionalist
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = thesprotian_party
 		party_country = {
 			NOT = { has_variable = traditionalist_cooldown }
@@ -2032,7 +2032,7 @@ senate_objective_increase_stability_generic = { # Increase Stability - Tradition
 senate_objective_convert_province_generic = { # Convert Province - Traditionalist
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = thesprotian_party
 		party_country = {
 			NOT = { has_variable = traditionalist_cooldown }
@@ -2142,7 +2142,7 @@ senate_objective_convert_province_generic = { # Convert Province - Traditionalis
 senate_objective_state_investment_generic = { # Invest - Traditionalist
    
     potential = {
-    	government = epirote_republic
+    	party_country = { tag = EPI }
 		is_party_type = thesprotian_party
     	party_country = {
     		NOT = { has_variable = traditionalist_cooldown }
@@ -2352,7 +2352,7 @@ senate_objective_state_investment_generic = { # Invest - Traditionalist
 senate_objective_acquire_subject_generic = { # Acquire Subject - Oligarchic
    
     potential = {
-    	government = epirote_republic
+    	party_country = { tag = EPI }
 		is_party_type = molossian_party
     	party_country = {
     		NOT = { has_variable = oligarchic_cooldown }
@@ -2472,7 +2472,7 @@ senate_objective_acquire_subject_generic = { # Acquire Subject - Oligarchic
 senate_objective_revoke_rights_generic = { # Revoke Culture Rights - Traditionalists
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = thesprotian_party
 		party_country = {
 			NOT = { has_variable = traditionalist_cooldown }
@@ -2568,7 +2568,7 @@ senate_objective_revoke_rights_generic = { # Revoke Culture Rights - Traditional
 senate_objective_appoint_member_generic = { # Appoint Party Member - Oligarchic
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = molossian_party
 		party_country = {
 			NOT = { has_variable = oligarchic_cooldown }
@@ -2704,7 +2704,7 @@ senate_objective_appoint_member_generic = { # Appoint Party Member - Oligarchic
 senate_objective_destroy_shrine_generic = { # Destroy Shrine - Traditionalist
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = thesprotian_party
 		party_country = {
 			NOT = { has_variable = traditionalist_cooldown }
@@ -2777,7 +2777,7 @@ senate_objective_destroy_shrine_generic = { # Destroy Shrine - Traditionalist
 senate_objective_enemy_shrine_generic = { # Enemy Shrine - Traditionalist
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = thesportian_party
 		party_country = {
 			NOT = { has_variable = traditionalist_cooldown }
@@ -2913,7 +2913,7 @@ senate_objective_enemy_shrine_generic = { # Enemy Shrine - Traditionalist
 senate_objective_province_city_generic = { # Provincial City - Democratic
 
 	potential = {
-		government = epirote_republic
+		party_country = { tag = EPI }
 		is_party_type = thesprotian_party
 		party_country = {
 			NOT = { has_variable = democratic_cooldown }

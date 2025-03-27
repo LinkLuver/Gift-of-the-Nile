@@ -254,8 +254,8 @@ grand_republic = { # t4 Republic
 }
 
 epirote_republic = { #Epirote League
-	oratory_ideas = 1
 	military_ideas = 2
+	religious_ideas = 1
 	type = republic
 	
 	bonus = {
