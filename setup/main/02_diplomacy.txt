@@ -94,6 +94,10 @@ diplomacy = {
 	dependency = { first = AED second = LNG subject_type = tributary }
 	alliance = { first = AED second = BGT }
 
+	#Tylisian Subjects
+	dependency = { first = TYL second = MES subject_type = tributary }
+	dependency = { first = TYL second = APL subject_type = tributary }
+
 	##Greek Leagues
 	#Neo-Dellian League
 	defensive_league = {
@@ -115,38 +119,40 @@ diplomacy = {
 		member = KOS
 	}
 	
-	#Neo-Peloponnesan League
+	#League Of Korinth
 	defensive_league = {
 		member = KOR
-		member = SPA
-		member = HRM
+		member = AGI
+		member = MGA
 		member = DYM
 		member = PTA
 		member = AIG
 		member = PLE
-		member = HRA
-		member = AZA
-		member = STP
-		member = MTE
-		member = TEG
 	}
-	dependency = { first = SPA second = LPR subject_type = client_state }
 
-	#Argolian League of Love and Friendship
+	#Kytheran Trade League
 	defensive_league = {
-		member = ARG
-		member = AGI
-		member = MGA
 		member = KR1
 		member = PYR
-		member = KR2
-		member = EPD
-		member = TRN
+		member = KYD
 	}
-	dependency = { first = ARG second = KR2 subject_type = feudatory }
-	dependency = { first = ARG second = EPD subject_type = feudatory }
-	dependency = { first = ARG second = TRN subject_type = feudatory }
 
+	#Cyrenaica Piracy League
+	defensive_league = {
+		member = CYR
+		member = IEP
+		member = GRT
+	}
+	#Arcadian League
+	defensive_league = {
+		member = HRA
+		member = AZA
+		member = TEG
+		member = MGL
+	}
+
+	#Tegea-Gigantea
+	dependency = { first = TEG second = MGL subject_type = tributary }
 
 	#Aetolian League
 	dependency = { first = AET second = AKR subject_type = feudatory }
@@ -157,11 +163,8 @@ diplomacy = {
 	#Neo-Boetian Leaague
 	defensive_league = {
 		member = THE
-		member = BYZ
 		member = DLP
 		member = AMP
-		member = MSE
-		member = MGL
 		member = EUB
 		member = BOE
 		member = OPU
@@ -175,6 +178,7 @@ diplomacy = {
 	dependency = { first = MAC second = PTI subject_type = feudatory }
 	dependency = { first = MAC second = ABD subject_type = feudatory }
 	dependency = { first = MAC second = RDP subject_type = feudatory }
+	dependency = { first = MAC second = TLN subject_type = feudatory }
 	dependency = { first = MAC second = AEN subject_type = subject_league_city_state }
 	dependency = { first = MAC second = PAA subject_type = vassal_tribe }
 	dependency = { first = MAC second = MAD subject_type = vassal_tribe }
@@ -437,7 +441,7 @@ diplomacy = {
 	#alliance = { first = EPI second = PRY } #Sealed by Demetrius Marriage
 
 	#Epirote - Taulantian Alliance
-	alliance = { first = EPI second = TLN }
+	#alliance = { first = EPI second = TLN }
 
 	#Antigonids
 	#guarantee = { first = PRY second = BOE } #Boetia, switch sides to Antigonus in 304. (REMOVED BY INVICTUS)

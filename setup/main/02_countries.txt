@@ -2706,7 +2706,6 @@ country = {
 			primary_culture = achaean
 			religion = roman_pantheon
 			diplomatic_stance=appeasement_stance
-			monarchy_military_reforms = work_for_the_best
 			capital = 376
 
 			technology={
@@ -2724,8 +2723,6 @@ country = {
 			government = aristocratic_monarchy
 			primary_culture = achaean
 			religion = roman_pantheon
-			diplomatic_stance=appeasement_stance
-			monarchy_military_reforms = work_for_the_best
 			capital = 418
 
 			technology={
@@ -8917,7 +8914,7 @@ country = {
 			capital = 4086
 
 			own_control_core = 	{
-				4086 4087 4088 4104
+				4086 4087 4104
 			}
 		}
 
@@ -8953,7 +8950,7 @@ country = {
 			capital = 4091
 
 			own_control_core = 	{
-				4090 4091 4089 4102
+				4089 4102
 			}
 		}
 
@@ -9100,13 +9097,13 @@ country = {
 		TLN = {
 			family = 53
 			government = despotic_monarchy
-			primary_culture = taulantian
-			religion = illyrian_pantheon
+			primary_culture = macedonian
+			religion = roman_pantheon
 
 			capital = 415
 
 			own_control_core = 	{
-				415 3192 455 2264 2213 2336 1445
+				415 455 2264 2213 2336 1445 4090 4091 4088
 			}
 		}
 
@@ -9673,7 +9670,7 @@ country = {
 			treasures = { 75 85 }
 
 			own_control_core = 	{
-				419 421 425 464 467 474 476
+				419 421 425 464 467 474 476 3192
 			}
 
 		}
@@ -9693,7 +9690,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				431 432
+				431 432 473
 			}
 
 		}
@@ -9957,26 +9954,6 @@ country = {
 			treasures = { 117 }
 		}
 
-		MTE = { #Loyal member of the Arcadian league until the formation of the Achaean League
-			government = oligarchic_republic
-			primary_culture = arcadian
-			religion = roman_pantheon
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			capital = 438
-
-			own_control_core = 	{
-				438
-			}
-
-		}
-
 		ARG = { #Aligned with Macedonia
 			government = oligarchic_republic
 			primary_culture = argolian
@@ -10001,14 +9978,15 @@ country = {
 			}
 
 			own_control_core = 	{
-				440 7894 7892
+				440 7894 7892 450
 			}
 		}
 
 		AZA = { #Five important cities within this province, together members of the Arcadian League
-			government = oligarchic_republic
+			government = tribal_kingdom
 			primary_culture = arcadian
 			religion = roman_pantheon
+			centralization = 50
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -10020,7 +9998,7 @@ country = {
 			capital = 449 #Kleitor
 
 			own_control_core = 	{
-				449
+				449 438 448
 			}
 
 		}
@@ -10113,27 +10091,6 @@ country = {
 			own_control_core = 	{
 				7903
 			}
-		}
-
-
-		STP = { #Arcadian League
-			government = oligarchic_republic
-			primary_culture = arcadian
-			religion = roman_pantheon
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			capital = 448 #Stymphalia
-
-			own_control_core = 	{
-				448
-			}
-
 		}
 
 		EPD = { #Independent
@@ -10279,7 +10236,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				427 429 430 473 7889
+				427 429 430 7889
 			}
 
 			treasures = { 88 }
@@ -10303,25 +10260,6 @@ country = {
 			}
 
 			treasures = { 894 }
-
-		}
-
-		KR2 = {
-			government = oligarchic_republic
-			primary_culture = peloponnesian
-			religion = roman_pantheon
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			capital = 450
-			own_control_core = 	{
-				450
-			}
 
 		}
 

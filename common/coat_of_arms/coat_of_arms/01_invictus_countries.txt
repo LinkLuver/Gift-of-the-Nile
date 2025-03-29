@@ -1240,26 +1240,26 @@ RUB = { # Rubrensia
 }
 
 
-STP = {#Stymphalia 
-	pattern = "pattern_solid.tga"
-	color1 = "stymphalian_lightest_blue"
-	color2 = "stymphalian_lightest_blue"
-	colored_emblem = {
-		texture = "ce_stymphalia_a.dds"
-		color1 = "pitch_black"
-		color2 = "stymphalian_blue"
-	}
-	colored_emblem = {
-		texture = "ce_stymphalia_b.dds"
-		color1 = "stymphalian_light_blue"
-		color2 = "roman_red"
-	}
-	colored_emblem = {
-		texture = "ce_border_simple_square_double.dds"
-		color1 = "pitch_black"
-		instance = { scale = { 1.05 1.05 } }
-	}
-}
+#STP = {#Stymphalia 
+	#pattern = "pattern_solid.tga"
+	#color1 = "stymphalian_lightest_blue"
+	#color2 = "stymphalian_lightest_blue"
+	#colored_emblem = {
+		#texture = "ce_stymphalia_a.dds"
+		#color1 = "pitch_black"
+		#color2 = "stymphalian_blue"
+	#}
+	#colored_emblem = {
+		#texture = "ce_stymphalia_b.dds"
+		#color1 = "stymphalian_light_blue"
+		#color2 = "roman_red"
+	#}
+	#colored_emblem = {
+		#texture = "ce_border_simple_square_double.dds"
+		#color1 = "pitch_black"
+		#instance = { scale = { 1.05 1.05 } }
+	#}
+#}
 
 ARYA_FLAG = {
     pattern = "pattern_solid.tga"
@@ -2346,21 +2346,21 @@ MGL_2 = {#Megalopolis - old
 	}
 }
 
-MTE = {#Mantinea
-	pattern = "pattern_solid.tga"
-	color1 = rgb { 174 73 40 }
-	color2 = "pitch_black"
-	colored_emblem = {
-		texture = "ce_trident_04.dds"
-		color1 = "pitch_black"
-		instance = { position = { 0.5 0.5 } scale = { 0.7 0.7 }  }		
-	}
-	colored_emblem = {
-		texture = "ce_border_dotted_02.dds"
-		color1 = "roman_gold"
-		instance = { position = { 0.5 0.5 } scale = { 0.75 0.75 }  }
-	}
-}
+#MTE = {#Mantinea
+	#pattern = "pattern_solid.tga"
+	#color1 = rgb { 174 73 40 }
+	#color2 = "pitch_black"
+	#colored_emblem = {
+		#texture = "ce_trident_04.dds"
+		#color1 = "pitch_black"
+		#instance = { position = { 0.5 0.5 } scale = { 0.7 0.7 }  }		
+	#}
+	#colored_emblem = {
+		#texture = "ce_border_dotted_02.dds"
+		#color1 = "roman_gold"
+		#instance = { position = { 0.5 0.5 } scale = { 0.75 0.75 }  }
+	#}
+#}
 
 TBL = {#Triballia
 	pattern = "pattern_solid.tga"
