@@ -1,0 +1,92 @@
+﻿country_decisions = {
+	hegemony_thebes = { # Theban Hegemony
+		potential = {
+			num_of_cities >= 1
+			tag = THE
+			NOT = { has_variable = theban_hegemony_var }
+		}
+		highlight = {
+			scope:province = {
+				OR = {
+	                is_in_area = boeotia_area
+	                is_in_area = aetolia_area
+	                is_in_area = thessaly_area	
+					is_in_area = euboea_area
+					province_id = 270
+					province_id = 297
+					province_id = 1774
+					province_id = 349
+					province_id = 350
+					province_id = 257 
+					province_id = 261
+					province_id = 256
+					province_id = 255
+					province_id = 252
+					province_id = 1453
+					province_id = 240 
+					province_id = 460
+					province_id = 258
+					province_id = 7908
+					province_id = 347
+					province_id = 245			
+				}
+			}
+		}
+		
+		allow = {
+			can_form_nation_trigger = yes
+			owns_or_subject_owns_area = boeotia_area
+			owns_or_subject_owns_area = aetolia_area
+			owns_or_subject_owns_area = thessaly_area
+			owns_or_subject_owns_area = euboea_area
+			owns_or_subject_owns = 270
+			owns_or_subject_owns = 297
+			owns_or_subject_owns = 1774
+			owns_or_subject_owns = 349
+			owns_or_subject_owns = 350
+			owns_or_subject_owns = 257
+			owns_or_subject_owns = 261
+			owns_or_subject_owns = 256
+			owns_or_subject_owns = 255
+			owns_or_subject_owns = 252
+			owns_or_subject_owns = 1453
+			owns_or_subject_owns = 460
+			owns_or_subject_owns = 258
+			owns_or_subject_owns = 7908
+			owns_or_subject_owns = 347
+			owns_or_subject_owns = 245 
+		}
+		
+		effect = {
+			capital_scope = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_political_influence = influence_large
+			add_4_free_province_investments = yes
+			add_stability = 10
+			add_legitimacy = 10
+			add_country_modifier = {
+				name = theban_hegemony_mod
+				duration = -1
+			}
+			custom_tooltip = "hegemony_thebes_claims_tooltip"
+			hidden_effect = {#all of greece and macedon
+				region:greece_region = { formable_region_province_effect = yes }
+				region:macedonia_region = { formable_region_province_effect = yes }			
+	            trigger_event = {
+	                id = "greece_events.10" #Name Change
+					days = { 10 30 }
+	            }			
+			}			
+            set_variable = {
+                name =  theban_hegemony_var                       
+                } 			
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+} 
+

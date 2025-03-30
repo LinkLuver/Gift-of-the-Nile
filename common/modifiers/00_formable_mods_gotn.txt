@@ -102,3 +102,11 @@ hurria_mod = {
 	chariots_morale = 0.20
 	global_pop_assimilation_speed_modifier = 0.10
 }
+theban_hegemony_mod = {
+	spearmen_morale = 0.10
+	subject_loyalty = 25
+	tribute_income_modifier = 0.15
+}
+theban_excellence = {
+	happiness_for_same_culture_modifier = 0.05
+}

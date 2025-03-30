@@ -141,7 +141,7 @@ greece_events.4 = { # Orochomenos War Declaration
     type = country_event
     title = "greece_events_4_title"
     desc = "greece_events_4_desc"
-    picture = greek_siege
+    picture = city_siege
 	left_portrait = current_ruler
     right_portrait = c:THE.current_ruler
 
@@ -177,10 +177,10 @@ greece_events.5 = { # Thessaly War Aid
 		ai_chance = {
 			factor = 50
 		}
-		declare_war_with_wargoal = {
-			target = c:THE
-			war_goal = conquer_wargoal
-			province = p:426
+		add_to_war = {
+			target = thebes_oroch_war_scope
+			attacker = no
+			leader = no 
 		}
 		c:THE = {
 			trigger_event = {
@@ -221,12 +221,24 @@ greece_events.6 = { # Oreos Defection
 			}
 			trigger_event = {
 				id = greece_events.8
-				days = 5
+				days = 3
 			}
+		}
+		ai_chance = {
+			factor = 40
 		}
 	}
 	option = {
         name = "greece_events_6.b"
+		c:THE = {
+			trigger_event = {
+				id = greece_events.9
+				days = 3
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
 	}
 }
 greece_events.7 = { # Thebes News of Thessaly
@@ -262,4 +274,73 @@ greece_events.8 = { # Thebes News of Oreos-Positive
     option = {
         name = "greece_events_8.a"	
 	}
+}
+greece_events.9 = { # Thebes News of Oreos-Negative
+    
+	trigger = {
+		tag = THE
+	}
+
+    type = country_event
+    title = "greece_events_9_title"
+    desc = "greece_events_9_desc"
+    picture = greek_political_discussion
+    left_portrait = current_ruler
+	right_portrait = c:ORE.current_ruler
+
+    option = {
+		custom_tooltip = "greece_events_9_tt"
+        name = "greece_events_9.a"
+		hidden_effect = {
+		every_province = {
+			limit = {
+				OR = {
+					province_id = 7899
+					province_id = 403
+				}
+
+			}
+			add_claim = root
+			}
+		}	
+	}
+}
+greece_events.10 = { # Thebes name change
+    
+	trigger = {
+		tag = THE
+	}
+
+    type = country_event
+    title = "greece_events_10_title"
+    desc = "greece_events_10_desc"
+    picture = council_country
+
+    option = {
+        name = "greece_events_10.a" # Stay as Thebes
+        add_country_modifier = {
+            name = theban_excellence
+            duration = 1825
+        }
+    }
+    option = {
+        name = "greece_events_10.b" #Boeotian League 
+        change_country_name = BOEOTIAN_LEAGUE
+		change_government = league_republic
+		switch_government_type_event_clearup_effect = yes
+		add_stability = 20
+        hidden_effect = {
+            change_country_adjective = BOEOTIAN_LEAGUE_ADJ
+            change_country_color = "thebes_boeotia_green"
+			change_country_flag = THEBES_BOEOTIA
+        }
+    }
+    option = {
+        name = "greece_events_10.c" # Theban Empire
+        change_government = imperium
+		change_country_name = THEBAN_IMPERIUM
+		switch_government_type_event_clearup_effect = yes
+		add_stability = -30
+		add_political_influence = -50
+    }
 }

@@ -308,6 +308,12 @@
  affirm_assyria:0 "Reaffirm Assyrian Dominance"
  affirm_assyria_desc:0 "The Neo-Assyrian Empire suffered a slow, painful collapse. We have utterly rebounded and reclaimed our lands. The return of #Y Neo-Assyria#! is upon us!"
 
+ ### Hegemony Decisions ###
+ hegemony_thebes:0 "Declare Theban Hegemony"
+ hegemony_thebes_desc:0 "There has long been no one strongest power in #Y Greece#!. If #Y Thebes#! seeks greatness, we must defeat the #Y Thessalians#!, establish firm control over #Y Boeotia#!, subjugate the meddling #Y Aetolians#!, and conquer the #Y Hellespont#!. Only then, will we be able to say we are the strongest."
+ theban_hegemony_mod:0 "Theban Hegemony"
+ hegemony_thebes_claims_tooltip:0 "#Y Thebes#! will gain claims on the regions of #Y Greece#! and #Y Macedon#!."
+
 
  ## Extras ##
 

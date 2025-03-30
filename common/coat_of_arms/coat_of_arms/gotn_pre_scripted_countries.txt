@@ -1817,23 +1817,23 @@ TW1 = {
     }
 }
 
-KR2 = { 
-	pattern = "pattern_solid.tga"
-    color1 = "offwhite"
-    color2 = "offwhite"
+#KR2 = {#Kyphanta (Banished)
+	#pattern = "pattern_solid.tga"
+    #color1 = "offwhite"
+    #color2 = "offwhite"
 
-    colored_emblem = {
-        texture = "ce_arrow.dds"
-        color1 = "garnet_red"
-		color2 = "mid_grey"
-		instance = { rotation = 270 }
-    }
-	colored_emblem = {
-        texture = "ce_border_greek_04.dds"
-        color1 = rgb { 59 11 104 }
-		color2 = rgb { 59 11 104 }
-    }
-}
+    #colored_emblem = {
+        #texture = "ce_arrow.dds"
+        #color1 = "garnet_red"
+		#color2 = "mid_grey"
+		#instance = { rotation = 270 }
+    #}
+	#colored_emblem = {
+        #texture = "ce_border_greek_04.dds"
+        #color1 = rgb { 59 11 104 }
+		#color2 = rgb { 59 11 104 }
+    #}
+#}
 
 IDI = { 
 	pattern = "pattern_solid.tga"

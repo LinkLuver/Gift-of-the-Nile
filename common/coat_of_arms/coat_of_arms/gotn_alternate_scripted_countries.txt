@@ -363,3 +363,15 @@ HAG_HURRIA_FLAG = {
 		instance = { rotation = 180 }
 	}
 }
+
+THEBES_BOEOTIA = {
+	pattern = "pattern_solid.tga"
+	color1 = "thebes_boeotia_green"
+	color2 = rgb { 140  13  13 }
+
+	colored_emblem = {
+		texture = "ce_boeotia.dds"
+		color1 = "ck2_white"
+		color2 = "ck2_black"
+	}
+}

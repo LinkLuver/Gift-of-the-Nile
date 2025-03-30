@@ -495,30 +495,47 @@ gotn_events.15 = { # Theban Overtures
     ai_chance = {
         factor = 70
     }
-    if = {
-        limit = {
-            tag = CM4
-        }
-        trigger_event = {
-            id = greece_events.4
-            days = 3
-        }
-        if = {
-            limit = {
-                tag = THE
-            }
-            trigger_event = {
-                id = greece_events.5
-                days = 15
-            }
-        }
-    }
     add_political_influence = -30
     add_aggressive_expansion = 5
     declare_war_with_wargoal = {
         target = c:CM4
         war_goal = conquer_wargoal
-        province = p:423
+        province = 423
+    }
+    random_current_war = {
+        limit = {
+            any_war_participant = { tag = CM4 }
+            any_war_participant = { this = root }
+            is_war_leader = root
+            is_war_leader = c:CM4
+        }
+        save_scope_as = thebes_oroch_war_scope
+    }
+    hidden_effect = {
+            limit = {
+                OR = {
+                   tag = BOE
+                   tag = OPU
+                   tag = TAN
+                }
+            }
+            add_to_war = {
+                target = thebes_oroch_war_scope
+                attacker = yes
+                leader = no
+            } 
+        }
+        c:TRE = {
+            trigger_event = {
+                id = greece_events.5
+                days = { 5 10 }
+            }
+        }
+        c:CM4 = {
+            trigger_event = {
+                id = greece_events.4
+                days = 2
+        }
     }
     add_country_modifier = {
         name = theban_overtures

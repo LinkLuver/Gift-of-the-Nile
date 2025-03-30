@@ -410,9 +410,6 @@ diplomacy = {
 	#Histria
 	#alliance = { first = ISO second = MLO }
 
-	#Taulanti
-	dependency = { first = TLN second = CVI subject_type = vassal_tribe }
-
 	##Ptolemy & Cassander
 	#alliance = { first = EGY second = MAC }
 	##Seleucus & Cassander
@@ -492,10 +489,6 @@ diplomacy = {
 		member = EPM
 		member = ASP
 	}
-
-	#Apollonia and co
-
-	guarantee = { first = TLN second = APO } #
 
 	# Marius Anatolians
 	#dependency = { first = PRY second = LYC subject_type = tributary } # Lycia
