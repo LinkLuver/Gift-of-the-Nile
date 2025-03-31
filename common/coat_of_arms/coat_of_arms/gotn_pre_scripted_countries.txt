@@ -2807,3 +2807,57 @@ HCL = {
 		instance = { rotation = 270 }
 	}
 }
+
+TQI = {
+	pattern="pattern_solid.tga"
+	color1= "kymaia_blue"
+	color2= "mid_grey"
+
+	colored_emblem = {
+        texture = "ce_spartan_goose.dds"
+        color1 = "bone_white"
+		color2 = "iberian_sun"
+	}
+	colored_emblem = {
+        texture = "ce_ardea_border.dds"
+        color1 = "bone_white"
+	}
+}
+
+KUA = {
+	pattern="pattern_solid.tga"
+	color1= "ck2_green"
+	color2= "mid_grey"
+
+	colored_emblem = {
+        texture = "ce_tanit_02.dds"
+        color1 = "iberian_sun"
+		instance = { scale = { 0.60 0.60 } }
+	}
+	colored_emblem = {
+        texture = "ce_border_thracian_pattern_02.dds"
+        color1 = "bone_white"
+		color2 = "iberian_sun"
+		instance = {}
+		instance = { rotation = 180 }
+	}
+}
+
+CM4 = {
+	pattern="pattern_solid.tga"
+	color1= "kymaia_blue"
+	color2= "mid_grey"
+
+	colored_emblem = {
+        texture = "ce_leaf_ivy.dds"
+        color1 = "iberian_sun"
+		instance = { scale = { 0.60 0.60 } }
+	}
+	colored_emblem = {
+        texture = "ce_border_thracian_pattern_02.dds"
+        color1 = "bone_white"
+		color2 = "iberian_sun"
+		instance = {}
+		instance = { rotation = 180 }
+	}
+}

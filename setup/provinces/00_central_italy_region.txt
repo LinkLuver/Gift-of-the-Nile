@@ -2626,22 +2626,12 @@
 		amount=1
 	}
 	freemen={
-		amount=2
-	}
-	freemen={
-		culture="etruscan"
-		religion="italic_pantheon"
-		amount=1
-	}
-	freemen={
-		culture="carthaginian"
-		religion="carthaginian_pantheon"
 		amount=1
 	}
 	freemen={
 		culture="corsian"
 		religion="nuragic_pantheon"
-		amount=3
+		amount=2
 	}
 	slaves={
 		culture="corsian"

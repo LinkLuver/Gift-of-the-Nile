@@ -4222,7 +4222,7 @@ country = {
 			family = 0
 			family = 1
 			family = 2
-			government = aristocratic_republic
+			government = league_republic
 			diplomatic_stance=warmongering_stance
 			primary_culture = roman
 			religion = roman_pantheon
@@ -4310,7 +4310,7 @@ country = {
 		}
 
 		FLS = {
-			government = aristocratic_republic
+			government = league_republic
 			diplomatic_stance=warmongering_stance
 			primary_culture = faliscan
 			religion = italic_pantheon
@@ -9989,10 +9989,10 @@ country = {
 			centralization = 50
 
 			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
 			}
 
 			capital = 449 #Kleitor

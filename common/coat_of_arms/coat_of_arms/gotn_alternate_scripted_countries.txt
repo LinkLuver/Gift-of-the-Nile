@@ -375,3 +375,23 @@ THEBES_BOEOTIA = {
 		color2 = "ck2_black"
 	}
 }
+
+SHIKALA_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 174 164 77 }
+	color2 = rgb { 140  13  13 }
+
+	colored_emblem = {
+		texture = "ce_sicily_formable.dds"
+		color1 = "ck2_white"
+		color2 = rgb { 147 39 47 }
+		instance = { position = { 0.50 0.53 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_thracian_pattern_12.dds"
+		color1 = rgb { 147 39 47 }
+		color2 = "phokaian_blue"
+		instance = {}
+		instance = { rotation = 180 }
+	}
+}

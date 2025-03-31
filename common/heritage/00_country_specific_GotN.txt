@@ -8829,9 +8829,9 @@ faliscian_heritage = {
 	modifier = {
 		#good 
 		discipline = 0.05
-        spearmen_defensive = 0.10
+        happiness_for_wrong_culture_modifier = 0.05
 		#bad 
-	    monthly_political_influence_modifier = -0.07
+	    monthly_political_influence_modifier = -0.05
 	}
 	trigger = {
 		tag = FLS
@@ -9519,5 +9519,19 @@ biturgian_heritage = {
 
     trigger = {
         tag = BGT
+    }
+}
+
+ardean_heritage = {
+    modifier = {
+        #good
+        global_tax_modifier = 0.05
+        global_citizen_desired_pop_ratio = 0.05
+        #bad
+        assault_ability = -0.10
+    }
+
+    trigger = {
+        tag = TQI
     }
 }
