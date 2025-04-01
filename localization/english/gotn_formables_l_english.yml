@@ -110,6 +110,14 @@
  rome_monarchy:0 "#R We will abadon the trappings of our league, and become a monarchy#!."
  rome_republic:0 "#G We will stay true to our republican ways#!."
 
+ form_calque_trinacria:0 "Form Calque Trinacria"
+ form_calque_trinacria_desc:0 "Although we are not as established as the #Y Sicels#! or the #Y Greeks#!, the three-pointed island should be ours to conquer."
+ CALQUE_TRINACRIA_NAME:0 "Calque Trinacria"
+ CALQUE_TRINACRIA_ADJECTIVE:0 "Trinacrian"
+ formable_not_calque_trinacria_exists:0 "#Y Calque Trinacria#! does not exist."
+ form_calque_trinacria_claims_tooltip:0 "Calque Trinacria will gain Claims on the Provinces of #Y Sicania#!, #Y Siculia#!, and #Y Syracuse#!."
+ 
+
 
  ## Iberia Formables
  IBERIA_NAME2:0 "Spania"
@@ -150,6 +158,7 @@
  hellenic_kingdom_mod:0 "Pan-Hellenic Dream Realized"
  form_argead_unification:0 "Unite the Children of Hellen"
  form_argead_unification_desc:0 "From the fertile lands of #Y Magna Graecia#!, to the ancient cities of #Y Greece#!, and to the colonies of the west, the Greek people have long been scattered, never being united by one group. By controlling the various poleis of the Hellenes, we can forge a new legacy- that of a new, #Y Pan-Hellenic Kingdom#!"
+
  ## Keltika
  form_keltike:0 "Form Keltike"
  form_keltike_desc:0 "#Y Keltike#!, the land of the #Y Celts#! has been inhabited by #Y Greeks#! for over 300 years. At times enemies, and at times friends, we have come to know these people well. However, it has become clear that #Y Massalian#! ambitions lie in the rich lands to our north, we are not interested in the goings on between the #Y Spanians#! and the foolish ambitions of the #Y Atlosians#!. Our destiny lies in conquering #Y Keltike#!."
@@ -299,6 +308,20 @@
  AGARTIA_NAME:0 "Agartia"
  AGARTIA_ADJECTIVE:0 "Agartian"
 
+ ## Illyria-Pannonia-Dacia Formables
+ form_pannonia:0 "Form Pannonia"
+ form_pannonia_desc:0 "The riches of our land have made us the targets who those who would wish to usurp them from us - the Celts. We must unite our people, drive out the Celts, and take back our land."
+ PANNONIA_NAME:0 "Pannonia"
+ PANNONIA_ADJECTIVE:0 "Pannonian"
+ form_pannonia_claims_tooltip:0 "#Y Pannonia#! will gain claims on the region of #Y Pannonia#!, and on the provinces of #Y Marsonia#! and #Y Deuria#!."
+ formable_not_pannonia_exists:0 "#Y Pannonia#! does not exist."
+ form_illyria_slavia:0 "Balto-Slavic Illyria"
+ form_illyria_slavia_desc:0 "We have travled far from our ancestral lands, and we land of great riches, a far cry from our barren homeland. Perhaps this could be our new home."
+ ILLYRIA_SLAVIA_NAME:0 "Illyria-Slavia"
+ ILLYRIA_SLAVIA_ADJECTIVE:0 "Illyrian"
+ formable_not_illyria_slavia_exists:0 "#Y Illyria-Slavia#! does not exist."
+ form_illyria_slavia_claims_tooltip:0 "#Y Illyria-Slavia#! will gain claims on the region of #Y Illyria#!."
+
  ### Reaffirmation Decisions ###
  # Reaffirm Media
  affirm_media:0 "Reaffirm Median Dominance"
@@ -339,4 +362,17 @@
  tadmor_aramaic:0 "Aramaic Tadmor"
  culture_capital_tadmor_tt:0 "At least 50% of the free people in the territory of [SCOPE.GetRootScope.GetCountry.GetCapital.GetName] (#Y [SCOPE.ScriptValue('majority_of_free_men_in_capital_svalue')|0] #! Non-Slave Pops) are #Y Aramaic#!."
  culture_country_tadmor_tt:0 "At least 20% of the people in [SCOPE.GetRootScope.GetCountry.GetName] are #Y Aramaic#!." 
+
+ # Tyras Colony #
+
+ tyras_colony_decision:0 "Colonial Ventures"
+ tyras_colony_decision_desc:0 "A man hailing from a foreign land by the name of Doron, seeks men and funds, so he can establish an emporion to facilitate trade between us, and his people, the Bastarnae. Doron's proposed location for a colony would be at [GetProvince('(int32)4945').GetName], near where the river Tyras comes to an end. Not much is known  about this land, but our Scythian contacts tell us that 'It is a land nearly devoid of inhabitants, and covered in thick forests.' Our ancestors ventured from the safety of [GetProvince('(int32)1973').GetName], to establish new cities in an unknown land. We should follow the traditions of our people, and do the same."
+ greek_colonization_events_1_title:0 "Arktoseian Enterprises"
+ greek_colonization_events_1_desc:0 "A messenger has arrived, one of the men that accompanied Doron on his journey\n\n[ROOT.GetCountry.GetRuler.GetName|E], I, Doron, have sent this letter detailing my voyage from [GetProvince('(int32)4525').GetName], and my succesful settlement at [GetProvince('(int32)4945').GetName].\nThe first several days sailing down the Tyras were uneventful- we passed unbothered through the territory of the Carpians, and after five days of sailing, we had entered the island-fortress of the [GetCountry('TYG').GetName], in which we rested and replenished our supplies. After our short stop, we set sail for the lands beyond the [GetCountry('TYG').GetName], the lands of the Scythians, which are mostly unknown to you Greeks. Despite several encounters with the horse-riders, after twelve longs days along the river Tyras, we managed to make it to our destination.\n\nI am pleased to report that our emporion is coming along well, and we expect trade to start flowing soon. -Doron"
+ greek_colonization_events.1.a:0 "Well, that went better than expected!"
+ riparum_release_as_subject_tt:0 "Release #Y Arktoseia#! as a #Y Colony#! of #Y Tyras#!."
+ greek_colonization_events_1.b:0 "May we find prosperity in uncharted lands."
+ riparum_switch_to_subject_tt:0 "We will #G tag switch#! to #Y Arktoseia#!."
+ AKS:0 "Arktoseia"
+ AKS_ADJ:0 "Artkoseian"
  

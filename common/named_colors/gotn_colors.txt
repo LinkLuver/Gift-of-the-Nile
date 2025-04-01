@@ -18,4 +18,9 @@
 	agartian_teal = rgb { 20 154 154 } #Agartian Teal
 	hurrian_blue = rgb { 65 132 255 } #Hurrian Blue
 	thebes_boeotia_green = rgb { 58 98 68 } #Thebes Boeotia Green
+	pannonia_orange = rgb { 181 122 57 } #Pannonia Orange
+	illyria_slavia_dark_blue = rgb { 2 70 102 } #Illyria-Slavia Dark Blue
+	calque_trinacria_dark_red = rgb { 98 15 15 } #Calque-Trinacria Dark Red
+	tyras_color = rgb { 51 200 12 } #Neccesary for the Tyras colony decision to work
+	arktoseia_color = rgb { 110 30 30 } #Arktoseia Color
 }

@@ -395,3 +395,74 @@ SHIKALA_FLAG = {
 		instance = { rotation = 180 }
 	}
 }
+
+PANNONIA_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "pannonia_orange"
+	color2 = rgb { 140  13  13 }
+
+	colored_emblem = {
+		texture = "ce_deer_cheruscia.dds"
+		color1 = "ck2_black"
+	}
+	colored_emblem = {
+		texture = "ce_border_venetic_3.dds"
+		color1 = "ck2_black"
+		color2 = "ck2_green"
+		instance = {}
+		instance = { rotation = 180 }
+	}
+}
+
+ILLYRIA_SLAVIA_FLAG = {
+	pattern = "pattern_horizontal_bar_01.tga"
+	color1 = "illyria_slavia_dark_blue"
+	color2 = "cilicia_color"
+
+	colored_emblem = {
+		texture = "ce_aspis.dds"
+		color1 = "cilicia_color"
+		color2 = "garnet_red"
+	}
+}
+
+CALQUE_TRINACRIA_FLAG = {
+	pattern="pattern_solid.tga"
+	color1= "calque_trinacria_dark_red"
+	color2= "offwhite"
+
+	colored_emblem = {
+        texture = "ce_aspis.dds"
+        color1 = "ck2_black"
+		color2 = "silver"
+		instance = { scale = { 0.35 0.35 } position = { 0.30 0.30 }}
+		instance = { scale = { 0.35 0.35 } position = { 0.70 0.30 }}
+		instance = { scale = { 0.35 0.35 } position = { 0.50 0.70 }}
+	}
+	colored_emblem = {
+        texture = "ce_border_zigzag_03.dds"
+        color1 = "ck2_black"
+		color2 = "silver"
+		instance = {}
+		instance = { rotation = 180 }
+	}
+}
+
+AKS = {
+	pattern="pattern_solid.tga"
+	color1= rgb { 110 30 30 }
+	color2= "offwhite"
+
+	colored_emblem = {
+        texture = "ce_syrian_bear.dds"
+        color1 = "bone_white"
+		color2 = "silver"
+	}
+	colored_emblem = {
+        texture = "ce_border_meander_04.dds"
+        color1 = "ck2_black"
+		color2 = "silver"
+		instance = {}
+		instance = { rotation = 180 }
+	}
+}

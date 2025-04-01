@@ -1,4 +1,4 @@
-﻿## India tier 1?
+## India tier 1?
 ##Left all of the vanilla formable triggers - remember molon labe formables
 
 is_tier_1_formable_trigger = {
@@ -54,6 +54,7 @@ is_tier_1_formable_trigger = {
 		tag = SKD #Sardin
 		tag = KHM #Hurria
 		tag = NHT #Neo Hittite Kingdom
+		tag = PN1 #Pannonia
 	 }
 }
 
@@ -117,6 +118,8 @@ is_tier_2_formable_trigger = {
 		tag = ET2 #Etruria Padana
 		tag = KYL #Kios Lydia
 		tag = AGT #Agartia
+		tag = SIL #Illyria-Slavia
+		tag = TCR #Calque Trinacria
 	}
 }
 

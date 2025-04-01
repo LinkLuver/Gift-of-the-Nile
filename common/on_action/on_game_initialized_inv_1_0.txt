@@ -361,35 +361,35 @@
 			add_opinion = { target = c:ADI modifier = cradle_rivals }
 			add_opinion = { target = c:MAP modifier = cradle_rivals }
 		}
-		if = {
-			limit = { tag = EPI }
-			if = {
-				limit = {
-					NOT = { has_dlc = "Epirus Flavor Pack" }
-				}
-				trigger_event = {
-					id = flavor_epi.1
-					days = { 180 365 }
-				}
-			}
-			if = {
-				limit = { has_dlc = "Epirus Flavor Pack" }
-				trigger_event = { id = dhe_dde_pyrrhus.40 }
-				trigger_event = {
-					id = dhe_dde_pyrrhus.1
-					days = 730
-				}
-			}
-			current_ruler = { add_friend = c:TLN.current_ruler } # Pyrrhos and Glaukias
-			set_variable = me_epirus_start_flag
-			epirus_legion_setup_effect = yes
-		}
-		if = {
-			limit = { tag = TLN }
-			current_ruler = {
-				add_rival = c:MAC.current_ruler # Glaukias and Kassandros
-			}
-		}
+		#if = {
+			#limit = { tag = EPI }
+			#if = {
+				#limit = {
+					#NOT = { has_dlc = "Epirus Flavor Pack" }
+				#}
+				#trigger_event = {
+					#id = flavor_epi.1
+					#days = { 180 365 }
+				#}
+			#}
+			#if = {
+				#limit = { has_dlc = "Epirus Flavor Pack" }
+				#trigger_event = { id = dhe_dde_pyrrhus.40 }
+				#trigger_event = {
+					#id = dhe_dde_pyrrhus.1
+					#days = 730
+				#}
+			#}
+			#current_ruler = { add_friend = c:TLN.current_ruler } # Pyrrhos and Glaukias
+			#set_variable = me_epirus_start_flag
+			#epirus_legion_setup_effect = yes
+		#}
+		#if = {
+			#limit = { tag = TLN }
+			#current_ruler = {
+				#add_rival = c:MAC.current_ruler # Glaukias and Kassandros
+			#}
+		#}
 		if = {
 			limit = { tag = KIO }
 			set_variable = kios_start_flag

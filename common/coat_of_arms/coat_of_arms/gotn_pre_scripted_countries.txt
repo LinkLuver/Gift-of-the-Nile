@@ -2707,7 +2707,8 @@ SK2 = {
 		color2 = "silver"
 		instance = { scale = { 0.35 0.35 } position = { 0.30 0.30 }}
 		instance = { scale = { 0.35 0.35 } position = { 0.70 0.30 }}
-		instance = { scale = { 0.35 0.35 } position = { 0.50 0.70 }}
+		instance = { scale = { 0.35 0.35 } position = { 0.30 0.70 }}
+		instance = { scale = { 0.35 0.35 } position = { 0.70 0.70 }}
 	}
 	colored_emblem = {
         texture = "ce_border_zigzag_03.dds"
@@ -2850,13 +2851,15 @@ CM4 = {
 
 	colored_emblem = {
         texture = "ce_leaf_ivy.dds"
-        color1 = "iberian_sun"
-		instance = { scale = { 0.60 0.60 } }
+        color1 = "light_green"
+		instance = { scale = { 0.60 0.60 } position = { 0.20 0.50 }}
+		instance = { scale = { 0.60 0.60 } position = { 0.50 0.50 }}
+		instance = { scale = { 0.60 0.60 } position = { 0.80 0.50 }}
 	}
 	colored_emblem = {
-        texture = "ce_border_thracian_pattern_02.dds"
+        texture = "ce_border_meander_01.tga"
         color1 = "bone_white"
-		color2 = "iberian_sun"
+		color2 = "ck2_black"
 		instance = {}
 		instance = { rotation = 180 }
 	}

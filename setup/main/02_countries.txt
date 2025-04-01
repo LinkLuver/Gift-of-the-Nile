@@ -15061,7 +15061,7 @@ country = {
 			capital = 3784
 
 			own_control_core = {
-				3784
+				3784 3776 3850 3851 3778 3777 3783 3782
 			}
 		}
 
@@ -15320,28 +15320,7 @@ country = {
 				3785 3786 3787
 			}
 		}
-		#Bructeria
-		BRU = {
-			government = tribal_chiefdom
-			primary_culture = istvaeonic
-			pantheon = {
-
-			{ deity = 1006 }
-			{ deity = 1008 }
-			{ deity = 1011 }
-			{ deity = 1007 }
-
-			}
-			religion = germanic_religion
-			centralization=-25
-
-			capital = 3776
-
-			own_control_core = 	{
-				3776 3850 3851 3778 3777 3783 3782
-			}
-		}
-
+		
 		HEV = {
 			government = tribal_chiefdom
 			primary_culture = vandal
