@@ -4222,7 +4222,7 @@ country = {
 			family = 0
 			family = 1
 			family = 2
-			government = league_republic
+			government = aristocratic_republic
 			diplomatic_stance=warmongering_stance
 			primary_culture = roman
 			religion = roman_pantheon
@@ -6185,26 +6185,6 @@ country = {
 			}
 		}
 
-		MGO = {
-			government = plutocratic_republic
-			primary_culture = massalian
-			diplomatic_stance=trading_stance
-			religion = roman_pantheon
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			capital = 1469
-
-			own_control_core =  {
-				1469
-			}
-		}
-
 		HBA = { 
 			government = plutocratic_republic
 			primary_culture = massalian
@@ -6505,7 +6485,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				1465 1466 1467 1468
+				1465 1466 1467 1468 1469
 			}
 		}
 
@@ -9550,7 +9530,7 @@ country = {
 		}
 
 		THE = {
-			government = despotic_monarchy
+			government = oligarchic_republic
 			primary_culture = boeotian
 			religion = roman_pantheon
 			monarchy_military_reforms = recruit_from_nobles
@@ -14099,7 +14079,7 @@ country = {
 			capital = 1342
 
 			own_control_core = 	{
-				1341 1342 1343 1351 1353 1354 1358 1360
+				1342 1343 1351 1353 1354 1360
 			}
 		}
 
@@ -14191,24 +14171,19 @@ country = {
 				religious_tech= { level=1 progress=0  }
 			}
 
-			capital = 1356
-
+			capital = 1339
 			own_control_core = 	{
-				1356 1409 1410 1412 1414 1417
+				1339
 			}
 
 			treasures = { 506 }
 		}
 
 		ONU = { #Onubaia
-			government = tribal_federation
+			government = aristocratic_monarchy
 			primary_culture = turdetanian
 			religion = animism
-			centralization = 50
 			diplomatic_stance=trading_stance
-			tribal_currency_laws = coin_minting_law
-			tribal_authority_laws = absolute_authority
-			tribal_domestic_laws = oppidi_law_tribal
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -14217,11 +14192,13 @@ country = {
 				religious_tech= { level=1 progress=0  }
 			}
 
-			capital = 1339
+			capital = 1358
 
 			own_control_core = 	{
-				1339 1340 1359 1415 1416
+				1340 1359 1415 1416 1356 1409 1410 1412 1414 1417 1358 1341 
 			}
+
+			treasures = { 506 }
 		}
 
 		LSC = { #Lascutaia

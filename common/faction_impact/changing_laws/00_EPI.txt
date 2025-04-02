@@ -1,0 +1,215 @@
+﻿# Actor Country - Root Scope
+
+#Always same order for senate Approval:
+#Molossians
+#Thesprotians
+#Chaonians
+
+### Military Reforms ###
+republic_military_recruitment_epirus_3 = { 
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_small_svalue
+		}
+	}
+}
+
+republic_military_recruitment_epirus_1 = { 
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_disapproval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_medium_svalue
+		}
+	}
+}
+
+republic_military_recruitment_epirus_2 = { 
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_disapproval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+	}
+}
+
+republic_military_recruitment_epirus_4 = { 
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_small_svalue
+		}
+	}
+}
+
+### Electoral Reforms ###
+#republican_election_car_1 = { # Traditional Model
+	#effect = {
+		#approval_effect = {
+			#PARTY = oligarchic_party
+			#VALUE = party_approval_small_svalue
+		#}
+		#approval_effect = {
+			#PARTY = traditionalist_party
+			#VALUE = party_approval_small_svalue
+		#}
+		#approval_effect = {
+			#PARTY = democratic_party
+			#VALUE = party_approval_small_svalue
+		#}
+	#
+#}
+
+#epublican_election_car_2 = { # Extended Terms
+	#effect = {
+		#approval_effect = {
+			#PARTY = oligarchic_party
+			#VALUE = party_approval_medium_svalue
+		#}
+		#approval_effect = {
+			#PARTY = traditionalist_party
+			#VALUE = party_disapproval_medium_svalue
+		#}
+		#approval_effect = {
+			#PARTY = democratic_party
+			#VALUE = party_disapproval_small_svalue
+		#}
+	#}
+#
+
+#republican_election_car_3 = { # Shortened Terms
+	#effect = {
+		#approval_effect = {
+			#PARTY = oligarchic_party
+			#VALUE = party_disapproval_medium_svalue
+		#}
+		#approval_effect = {
+			#PARTY = traditionalist_party
+			#VALUE = party_disapproval_small_svalue
+		#}
+		#approval_effect = {
+			#PARTY = democratic_party
+			#VALUE = party_approval_medium_svalue
+		#}
+	#}
+#}
+
+#republican_election_car_4 = { # Wartime Leadership
+	#effect = {
+		#approval_effect = {
+			#PARTY = oligarchic_party
+			#VALUE = party_approval_medium_svalue
+		#}
+		#approval_effect = {
+			#PARTY = traditionalist_party
+			#VALUE = party_disapproval_large_svalue
+		#}
+		#approval_effect = {
+			#PARTY = democratic_party
+			#VALUE = party_disapproval_medium_svalue
+		#}
+	#}
+#}
+
+### Endorse ###
+republic_corruption_epirus_2 = { # Popular Assembly
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_small_svalue
+		}
+	}
+}
+
+republic_corruption_epirus_3 = { # Assembly of Mezrehim
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_disapproval_small_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_approval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_medium_svalue
+		}
+	}
+}
+
+republic_corruption_epirus_1 = { # Council of 104
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_medium_svalue
+		}
+	}
+}
+
+republic_corruption_epirus_4 = { # Adirim Administration
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_disapproval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+	}
+}
+
+### Maritime Laws ###

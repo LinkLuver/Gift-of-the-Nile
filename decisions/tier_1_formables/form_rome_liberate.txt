@@ -1,7 +1,7 @@
 ﻿country_decisions = {
 	
-	#form Rome
-	form_rome = {
+	#form Rome 
+	form_rome_liberate = {
 		
 		potential = {
 			num_of_cities >= 1
@@ -14,13 +14,14 @@
 				is_tier_2_formable_trigger = yes
 				is_endgame_tag_trigger = yes
 				has_variable = has_formed_rome
-				tag = MRS
 			}
 		}
 		
 		highlight = {
 			scope:province = {
+				OR = {
 				province_id = 1
+				}
 			}
 		}
 		

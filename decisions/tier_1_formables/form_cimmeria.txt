@@ -53,10 +53,6 @@
 			custom_tooltip = "tier_1_formable_tooltip"
 			change_country_name = "CIMMERIA_NAME"
 			custom_tooltip = "form_cimmeria_claims_tooltip"
-			capital_scope = {
-				capital_formable_small_effect = yes
-				formable_capital_modifier_normal_effect = yes
-			}
 			add_2_free_province_investments = yes
 			add_country_modifier = {
 				name = cimmeria_mod
@@ -81,11 +77,15 @@
 					}
 					add_claim = root
 				}
-		
-				ai_will_do = {
-					factor = 1
-				}
 			}
+			capital_scope = {
+				capital_formable_small_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+		}
+
+		ai_will_do = {
+			base = 1
 		}
 	}
 }

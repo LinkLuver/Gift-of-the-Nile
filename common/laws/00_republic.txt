@@ -131,7 +131,7 @@ republic_military_recruitment_epirus_laws = { # Epirote Military Reforms
 		}
 		on_enact = {
 			custom_tooltip = legions_in_no_region
-			set_legion_recruitment = disabled
+			set_legion_recruitment = disabled	
 		}
 	}
 	republic_military_recruitment_epirus_1 = { # Chaeonian Levy

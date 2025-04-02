@@ -1367,17 +1367,17 @@ OUR = {
 	}
 }
 
-MGO = {
-	pattern = "pattern_solid.tga"
-	color1 = "phokaian_blue"
-	color2 = "iberian_sun"
+#MGO = {
+	#pattern = "pattern_solid.tga"
+	#color1 = "phokaian_blue"
+	#color2 = "iberian_sun"
 
-	colored_emblem = {
-		texture = "ce_basket_perinthos.dds"
-		color1 = "garnet_red"
-		color2 = "light_yellow"
-	}
-}
+	#colored_emblem = {
+		#texture = "ce_basket_perinthos.dds"
+		#color1 = "garnet_red"
+		#color2 = "light_yellow"
+	#}
+#}
 
 CPA = {
 	pattern = "pattern_solid.tga"

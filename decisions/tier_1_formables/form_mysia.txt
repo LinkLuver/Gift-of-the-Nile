@@ -75,11 +75,10 @@
 					}
 					add_claim = root
 				}
-		
-				ai_will_do = {
-					factor = 1
-				}
 			}
+		}
+		ai_will_do = {
+			base = 1
 		}
 	}
 }

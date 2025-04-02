@@ -83,10 +83,10 @@
 					}
 					set_variable = has_formed_league
 				}
-				ai_will_do = {
-					factor = 1
-				}
 			}
+		}
+		ai_will_do = {
+			base = 1
 		}
 	}	
 }	

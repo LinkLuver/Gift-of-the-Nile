@@ -188,7 +188,6 @@ diplomacy = {
 	alliance = { first = MAC second = CRD }
 
 	#Massalian League
-	dependency = { first = MAS second = MGO subject_type = feudatory }
 	dependency = { first = MAS second = OXB subject_type = feudatory }
 
 	#Emporion-Indiketia

@@ -1,0 +1,45 @@
+﻿country_decisions = {	
+
+	tyras_colony_decision = { # New Colony
+
+		potential = {
+			tag = TYS
+			treasury >= 150
+			political_influence >= 30
+			NOT = {
+				has_variable = switch_to_riparum
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+                province_id = 4945
+            }
+		}
+
+		allow = {
+			war = no
+			stability >= 50
+		}
+		
+		effect = {
+			set_variable = switch_to_riparum
+			add_treasury = -150
+			add_political_influence = -30
+			trigger_event = {
+				id = greek_colonization_events.1
+			} 
+			p:4945.state.governor_or_ruler = {
+                remove_all_positions = yes
+                move_country = ROOT
+                remove_character_modifier = foreign_citizen
+                set_home_country = ROOT
+            }
+            p:4945 = { set_owned_by = root }  	
+		}  
+		
+		ai_will_do = {
+			base = 0
+		}
+	}
+}

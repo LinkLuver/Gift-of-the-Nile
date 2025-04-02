@@ -466,3 +466,22 @@ AKS = {
 		instance = { rotation = 180 }
 	}
 }
+
+TETRAPOLITANIA_FLAG = {
+	pattern="pattern_solid.tga"
+	color1= rgb { 110 30 30 }
+	color2= "offwhite"
+
+	colored_emblem = {
+        texture = "ce_syrian_bear.dds"
+        color1 = "bone_white"
+		color2 = "silver"
+	}
+	colored_emblem = {
+        texture = "ce_border_meander_04.dds"
+        color1 = "ck2_black"
+		color2 = "silver"
+		instance = {}
+		instance = { rotation = 180 }
+	}
+}

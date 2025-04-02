@@ -616,8 +616,9 @@ provinces = { #Any entry must contain a comment with city name.
 		commerce_building = 1
 	}
 
-	1356 = { #orippo
-		fortress_building = 1
+	1358 = { #tartessos
+		commerce_building = 1
+		town_hall_building = 1
 	}
 
 	1371 = { #astigi
@@ -663,7 +664,7 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 
-	2319 = ( #arelate
+	2319 = { #arelate
 	    fortress_building = 1
     } 	
 

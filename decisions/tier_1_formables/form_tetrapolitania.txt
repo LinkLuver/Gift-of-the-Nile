@@ -45,18 +45,19 @@
 		change_country_name = "TETRAPOLITANIA_NAME"
 		tribal_formable_government_change_effect = yes
 		add_2_free_province_investments = yes
+		capital_scope = {
+			capital_formable_small_effect = yes
+			formable_capital_modifier_normal_effect = yes
+			add_province_modifier = {
+				name = "tetrapolitania_mod"
+				duration = -1
+			}
+		}
 		hidden_effect = {
 			change_country_adjective = "TETRAPOLITANIA_FORMABLE_ADJECTIVE"
 			change_country_tag = TET
+			change_country_flag = TETRAPOLITANIA_FLAG
 			change_country_color = "stymphalian_light_blue"
-			capital_scope = {
-				capital_formable_small_effect = yes
-				formable_capital_modifier_normal_effect = yes
-				add_province_modifier = {
-					name = "tetrapolitania_mod"
-					duration = -1
-				}
-			}
 			hidden_effect = {
 			every_province = {
 				limit = {
@@ -69,10 +70,10 @@
 				}
 				set_variable = has_formed_tetrapolitania
 				}
-				ai_will_do = {
-					base = 1
-				}
 			}
+		}
+		ai_will_do = {
+			base = 1
 		}
 	}
 }

@@ -77,9 +77,9 @@
 				}
 				set_variable = formed_etruria_magna
 			}
-			ai_will_do = {
-				base = 1
-			}
+		}
+		ai_will_do = {
+			base = 1
 		}
 	}
 }

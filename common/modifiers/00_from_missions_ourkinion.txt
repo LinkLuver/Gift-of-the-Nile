@@ -1,0 +1,34 @@
+﻿ourkinion_prepared = {
+	global_defensive = 0.05
+	global_commerce_modifier = 0.05
+}
+corsian_tactics = {
+	hills_combat_bonus = 0.10
+	heavy_infantry_cost = -0.05
+}
+ourkinionian_venegance = {
+	agressive_expansion_impact = -0.10
+	land_morale_modifier = 0.03
+}
+retained_hellenic_ways = {
+	global_pop_assimilation_speed_modifier = 0.10
+	global_pop_conversion_speed_modifier = 0.10
+	global_unrest = 0.50
+}
+lessons_from_our_past = {
+	naval_damage_taken = -0.15
+	ship_repair_at_sea = 0.02
+	navy_movement_speed = 0.05
+}
+accepted_corsians = {
+	light_infantry_morale = 0.10
+	global_tribesmen_happyness = 0.05
+}
+embellished_alalia = {
+	local_building_slot = 2
+	local_country_civilization_value = 15
+	local_state_trade_routes = 2
+	local_population_capacity = 5
+}
+	
+
