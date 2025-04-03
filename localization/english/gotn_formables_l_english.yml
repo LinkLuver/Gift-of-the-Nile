@@ -375,4 +375,15 @@
  riparum_switch_to_subject_tt:0 "We will #G tag switch#! to #Y Arktoseia#!."
  AKS:0 "Arktoseia"
  AKS_ADJ:0 "Artkoseian"
+
+ ## Territory Decisions ##
+
+ expand_malaca_mines:0 "Expand Southern Iberian Mining Operations"
+ expand_malaca_mines_desc:0 "The metals and iron extracted from [GetProvince('(int32)1284').GetName] and [GetProvince('(int32)1367').GetName] are a crucial part of our economy, granting us valuable resources from which we can not only trade with, but with we can forge weapons of war. The Tartessians knew the value of these resources- we would be wise to expand these mines to the extent of our capabilities. An expansion on such a grand scale will deplete our local manpower and the mines themselves."
+ expanded_malaca_mines:0 "Expanded Mining Operations"
+
+ renovate_ardea:0 "Renovate Ardea"
+ renovate_ardea_desc:0 "[GetProvince('(int32)9296').GetName] was once a prosperous and wealthy city. Since then, it has fallen into disrepair. It would greatly impress the local inhabitants if we were to restore their city."
+ renovated_ardea:0 "Renovated Ardea"
+ renovated_ardea_desc:0 "The ancient city of Ardea has been restored to it's former glory."
  
