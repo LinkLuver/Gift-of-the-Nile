@@ -216,7 +216,7 @@
  TETRAPOLITANIA_NAME:0 "Tetrapolitania"
  TETRAPOLITANIA_ADJECTIVE:0 "Tetrapolitanian"
  form_tetrapolitania:0 "Unite the Four Cities"
- form_tetrapolitania_desc:0 "After the implosion of the great #Y Garamantic#! realm, the independence of the #Y Tetrapolitanian#! cities are increasingly being threatened by tribal raids. If we wish to survive, we must be united under one flag."
+ form_tetrapolitania_desc:0 "After the implosion of the great #Y Garamantic#! realm, the independence of the #Y Tetrapolitanian#! cities; [GetProvince('(int32)3303').GetName], [GetProvince('(int32)3306').GetName], [GetProvince('(int32)3324').GetName], and [GetProvince('(int32)3325').GetName] are increasingly being threatened by tribal raids. A region that has long coexisted, perhaps it would be best if we were to unite these cities."
  
  LIBYA_NAME:0 "Libya"
  LIBYA_ADJECTIVE:0 "Libyan"
@@ -308,6 +308,14 @@
  AGARTIA_NAME:0 "Agartia"
  AGARTIA_ADJECTIVE:0 "Agartian"
 
+ form_haltami:0 "Form Haltamti"
+ form_haltami_desc:0 "[GetProvince('(int32)4950').GetName] once belonged to us, before it was stolen by the Achaemenids, and we were forced into their servitude. No longer will we tolerate foreign subjugation of our lands, all of Haltami is rightfully ours!"
+ HALTAMI_NAME:0 "Haltamti"
+ HALTAM_ADJECTIVE:0 "Haltamtian"
+ form_haltami_claims_tooltip:0 "#Y Haltamti#! will gain claims on the region of #Y Mesopotamia#!."
+ formable_not_haltamti_exists:0 "#Y Haltamti#! does not exist."
+ 
+
  ## Illyria-Pannonia-Dacia Formables
  form_pannonia:0 "Form Pannonia"
  form_pannonia_desc:0 "The riches of our land have made us the targets who those who would wish to usurp them from us - the Celts. We must unite our people, drive out the Celts, and take back our land."
@@ -321,6 +329,15 @@
  ILLYRIA_SLAVIA_ADJECTIVE:0 "Illyrian"
  formable_not_illyria_slavia_exists:0 "#Y Illyria-Slavia#! does not exist."
  form_illyria_slavia_claims_tooltip:0 "#Y Illyria-Slavia#! will gain claims on the region of #Y Illyria#!."
+
+ ## Arabia Formables ##
+ form_magania:0 "Form Magania"
+ form_magania_desc:0 "The many trade-oriented kingdoms and republics of the Magani are prosperous and wealthy, even under the thumb of foreign powers. Together, we could be wealthy beyond the wildest dreams of Babylon, and more powerful that the Achaemenid Persians."
+ formable_not_magania_exists:0 "#Y Magania#! does not exist."
+ MAGANIA_NAME:0 "Magania"
+ MAGANIA_ADJECTIVE:0 "Magani"
+ form_magania_claims_tooltip:0 "#Y Magania#! will gain claims on the region of #Y Arabia#!."
+ magani_mod:0 "United Magani"
 
  ### Reaffirmation Decisions ###
  # Reaffirm Media

@@ -1,0 +1,97 @@
+﻿	country_decisions = {
+	
+	# Form Magania
+	form_magania = {
+		
+		potential = {
+			num_of_cities >= 1
+			country_culture_group = east_semetic
+			NOT = {
+				tag = MGH
+			}
+			NOT = {
+				is_endgame_tag_trigger = yes
+				is_tier_2_formable_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 7197
+					province_id = 5405
+					province_id = 7199
+					province_id = 7202
+					province_id = 8867
+					province_id = 7209
+					province_id = 8868
+					province_id = 7210
+					province_id = 7203
+					province_id = 8872
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = formable_not_magania_exists
+				NOT = {
+					any_country = {
+						tag = MGH
+					}
+				}
+			}
+			num_of_cities >= 40
+			can_form_nation_trigger = yes
+			owns_or_subject_owns = 7197
+			owns_or_subject_owns = 5405
+			owns_or_subject_owns = 7199
+			owns_or_subject_owns = 7202
+			owns_or_subject_owns = 8867
+			owns_or_subject_owns = 7209
+			owns_or_subject_owns = 8868
+			owns_or_subject_owns = 7210
+			owns_or_subject_owns = 7203
+			owns_or_subject_owns = 8872
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "MAGANIA_NAME"
+			add_country_modifier = {
+				name = magani_mod
+				duration = -1
+			}
+			hidden_effect = {
+				change_country_adjective = "MAGANIA_ADJECTIVE"
+				change_country_color = "kymaia_yellow"
+				change_country_tag = MGH
+				change_country_flag = MAGANIA_FLAG
+			}
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = plutocratic_republic
+				switch_government_type_event_clearup_effect = yes
+			}
+			capital_scope = {
+				capital_formable_large_effect = yes
+				formable_capital_modifier_large_effect = yes
+			}
+			custom_tooltip = "form_magania_claims_tooltip"
+			hidden_effect = {
+				region:arabia_region = { formable_region_province_effect = yes }
+			}
+			add_3_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+} 
+
