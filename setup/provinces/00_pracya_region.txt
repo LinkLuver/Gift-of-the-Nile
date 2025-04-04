@@ -245,7 +245,7 @@
 
 4449={ #Kusinagara
 	terrain="plains"
-	culture="vrji"
+	culture="malla"
 	religion="buddhism"
 	trade_goods="cloth"
 	civilization_value=31
@@ -262,6 +262,7 @@
 		amount=6
 	}
 	slaves={
+		culture="vrji"
 		amount=11
 	}
 	tribesmen={
@@ -301,6 +302,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="malla"
 		amount=2
 	}
 	freemen={
@@ -323,9 +325,11 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="malla"
 		amount=1
 	}
 	freemen={
+		culture="malla"
 		religion="hindu"
 		amount=1
 	}
@@ -1372,7 +1376,7 @@
 
 7477={ #Saran
 	terrain="plains"
-	culture="vrji"
+	culture="malla"
 	religion="hindu"
 	trade_goods="silk"
 	civilization_value=26
@@ -1391,11 +1395,15 @@
 	tribesmen={
 		amount=3
 	}
+	slaves={
+		culture="vrji"
+		amount=1
+	}
 }
 
 7478={ #Rivilganj
 	terrain="farmland"
-	culture="vrji"
+	culture="malla"
 	religion="jainism"
 	trade_goods="grain"
 	civilization_value=28
