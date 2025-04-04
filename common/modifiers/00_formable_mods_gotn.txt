@@ -110,3 +110,7 @@ theban_hegemony_mod = {
 theban_excellence = {
 	happiness_for_same_culture_modifier = 0.05
 }
+magani_mod = {
+	ship_cost = -0.10
+	global_capital_trade_routes = 3
+}

@@ -2922,11 +2922,11 @@ kalathousa_heritage = {
 kinyps_heritage = {
     modifier = {
         #good
-        global_defensive = 0.10
+        global_defensive = 0.05
         discipline = 0.05
 
         #bad
-        happiness_for_wrong_culture_group_modifier = -0.03
+        happiness_for_wrong_culture_group_modifier = -0.05
     }
 
     trigger = {
@@ -2952,11 +2952,11 @@ metagonia_heritage = {
 tubaqatis_heritage = {
     modifier = {
         #good
-        global_monthly_civilization = 0.05
-         global_tax_modifier= 0.10
+        global_monthly_civilization = 0.03
+        global_tax_modifier= 0.05
 
         #bad
-      global_tribesmen_happyness = -0.10
+       global_tribesmen_output = -0.05
     }
 
     trigger = {
@@ -3285,11 +3285,11 @@ Cetianian_heritage = {
 leptis_magna_heritage = {
     modifier = {
         #good
-        diplomatic_reputation= 3.00
-        global_commerce_modifier= 0.10
+        diplomatic_reputation= 2.00
+        global_commerce_modifier= 0.05
 
         #bad
-       global_pop_assimilation_speed_modifier = -0.10
+       global_pop_assimilation_speed_modifier = -0.05
     }
 
     trigger = {

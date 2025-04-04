@@ -469,19 +469,108 @@ AKS = {
 
 TETRAPOLITANIA_FLAG = {
 	pattern="pattern_solid.tga"
-	color1= rgb { 110 30 30 }
+	color1= "stymphalian_light_blue"
+	color2= rgb { 110 30 30 }
+
+	colored_emblem = {
+        texture = "ce_arse_dolphin.dds"
+        color1 = "offwhite"
+		instance = { scale = { 0.90 0.90 } position = { 0.50 0.60 } }
+	}
+	colored_emblem = {
+        texture = "ce_border_waves_01.dds"
+        color1 = "silver"
+		instance = {}
+		instance = { rotation = 180 }
+	}
+}
+
+MAGANIA_FLAG = {
+	pattern="pattern_solid.tga"
+	color1= "epirus_yellow"
 	color2= "offwhite"
 
 	colored_emblem = {
-        texture = "ce_syrian_bear.dds"
-        color1 = "bone_white"
+        texture = "ce_persian_6.dds"
+        color1 = rgb { 29 25 112 }
 		color2 = "silver"
+		instance = { scale = { 0.90 0.90 } }
 	}
 	colored_emblem = {
-        texture = "ce_border_meander_04.dds"
-        color1 = "ck2_black"
+        texture = "ce_border_thracian_pattern_08.dds"
+        color1 = rgb { 29 25 112 }
 		color2 = "silver"
-		instance = {}
-		instance = { rotation = 180 }
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
+	}
+}
+
+HALTAMI_FLAG = {
+	pattern="pattern_solid.tga"
+	color1 = rgb { 163 78 78 }
+	color2 = rgb { 163 78 78 }
+
+	colored_emblem={
+		color1 = rgb { 176 33 33 }
+		color2 = "roman_gold"
+		texture="ce_block.dds"
+		instance={
+			position = { 0.50 0.11 }
+			scale = { 1.0 0.22 }
+		}
+		instance={
+			position = { 0.50 0.89 }
+			scale = { 1.0 0.22 }
+		}
+	}
+
+	colored_emblem={
+		color1 = "pure_white"
+		color2 = "silver"
+		texture="ce_susan.dds"
+		instance={
+			position = { 0.50 0.48 }
+			scale = { 1.0 1.0 }
+		}
+		instance={
+			position = { 0.50 0.48 }
+			scale = { 1.0 1.0 }
+		}
+		instance={
+			position = { 0.50 0.48 }
+			scale = { 1.0 1.0 }
+		}
+	}
+
+	colored_emblem={
+		color1 = "pure_white"
+		color2 = "silver"
+		texture="ce_anshan.dds"
+		instance={
+			position = { 0.50 -0.28 }
+			scale = { 1.0 1.0 }
+		}
+		instance={
+			position = { 0.50 -0.28 }
+			scale = { 1.0 1.0 }
+		}
+		instance={
+			position = { 0.50 -0.28 }
+			scale = { 1.0 1.0 }
+		}
+	}
+
+	colored_emblem={
+		color1 = "silver"
+		color2 = "silver"
+		texture="ce_goatfish_01.dds"
+		instance={
+			position = { 0.70 0.50 }
+			scale = { 0.50 0.50 }
+		}
+		instance={
+			position = { 0.30 0.50 }
+			scale = { -0.50 0.50 }
+		}
 	}
 }
