@@ -1309,7 +1309,7 @@ country = {
 			treasures = { 192 }
 
 			own_control_core = 	{
-				1520 1523 1524 1525 1526 1565 #media_atropatene_region
+				1523 1524 1525 1526 1565 #media_atropatene_region
 				1620 1621 1622 1624 1625 1626 1627 1628 1629 1593 3390 3387 #kadousioi_region
 				1512 1555 1556 1557 1558 3386 #media_region
 				1618 1619 1630 1631 1632 1638 1648 1649 1652 1654 1647 9579 #paytankert_region
@@ -1335,7 +1335,7 @@ country = {
 				9681 9682 9683 9684 9685 9686 9687 9689 9690 9691
 				9694 9697 3399
 
-				9781 9798 9811 9801
+				9781 9798 9811 9801 4968 9785 4966
 				
 			}
 
@@ -1563,20 +1563,6 @@ country = {
 
 			own_control_core = {
 				182 179 230 178 1777 181 183
-			}
-		}
-
-		CM2 = { # Gamir
-			government = tribal_kingdom
-			primary_culture = cimmerian
-			religion = indo_iranian_religion
-
-			capital = 1694
-
-			own_control_core = {
-				1694 1691 1692 1689 1690
-				1699 1695
-				1703 1704 1705 1746 1748
 			}
 		}
 
@@ -10360,7 +10346,7 @@ country = {
 		}
 
 		IEP = {
-			government = despotic_monarchy
+			government = mercenary_republic
 			primary_culture = cretan
 			religion = roman_pantheon
 
@@ -11121,6 +11107,8 @@ country = {
 				1586 1587 1610 1677 1686 1696 1700 1702 #gugark_region
 				1697 1701 1752 1753 1754 1755 1756 #tayk_region
 				1607 1609 1681
+				1694 1691 1692 1689 1690
+				1699 1695
 			}
 
 		}
@@ -11145,6 +11133,7 @@ country = {
 				1707 #suaneti_region
 				1739 1740 #abasgoi_region
 				1722 1723 1724 1725 #bekhyria_region
+				1705 1704 1703 1746 1748
 			}
 
 		}
@@ -16373,7 +16362,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				1515 1520 1521 1522 1552 1553 1554 9749 9748 9750 1512 1514 1511 1516
+				1515 1520 1521 1522 1552 1553 1554 9749 9748 9750 1512 1514 1516
 			}
 
 		}

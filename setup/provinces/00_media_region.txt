@@ -1905,7 +1905,7 @@
 	culture="cadusian"
 	religion="mesopotamian_religion"
 	trade_goods="wild_game"
-	civilization_value=29
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -2081,7 +2081,7 @@
 	culture="cadusian"
 	religion="zoroaster"
 	trade_goods="stone"
-	civilization_value=29
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -2213,7 +2213,7 @@
 	culture="cadusian"
 	religion="zoroaster"
 	trade_goods="base_metals"
-	civilization_value=29
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={

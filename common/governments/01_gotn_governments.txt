@@ -297,3 +297,30 @@ league_republic = { #League
 	
 	can_deify_ruler = no
 }
+
+mercenary_republic = { #Mercenary Republic
+	military_ideas = 2
+	civic_ideas = 1
+	type = republic
+	
+	bonus = {
+		mercenary_land_maintenance_cost = -0.20
+		recruit_mercenary_cost_modifier = -0.20
+		mercenary_naval_maintenance_cost = -0.20
+	}
+	base = {
+		country_civilization_value = 20
+		civil_war_threshold = -0.05
+		global_freemen_city_desired_pop_ratio = 0.05
+	}
+	
+	minimum_electable_age = 35
+	election_delay = 10
+	ruler_term = 5
+	
+	has_co_ruler = yes
+	
+	color = rgb { 0 19 34 }
+	
+	can_deify_ruler = no
+}

@@ -62,6 +62,13 @@
  league_republic_desc:0 "A League is a federalized state, usually representing various city states or regions, and granting them some degree of autonomy whilst still maintaining a central framework, uniting them all together. Leagues are especially common amongst the Greeks, where they are known as a 'Koinon'. Albeit to a lesser extent, leagues have been formed by the Hittite and Aramaic kingdoms, and the Faliscan and Latins of Italy."
  league_republic_ruler:0 "Archon"
 
+ mercenary_republic:0 "Mercenary Republic"
+ mercenary_republic_desc:0 "Mercenary Republics often come into existence as the result of a disgreement between a band of mercenaries and the former ruler of a territory or a group of mercenaries seeking treasure and conquest in foreign lands. Either way, Mercenaries Republics do not come about as the result of a peaceful agreement. These states often fall apart due to internal infighting, or being overthrown by an unhappy populous."
+ mercenary_republic_ruler:0 "Captain"
+ mercenary_republic_ruler_female:0 "Captain"
+ mercenary_republic_co_ruler:0 "Lieutenant"
+ mercenary_republic_co_ruler_female:0 "Lieutenant"
+
  epirote_republic:0 "Epirote League"
  epirote_republic_desc:0 "A form of governance unique to the Epirote tribes, the league represents the various Epirote tribes. Each tribe is represented in the Epirote assembly by ten elected officals from amongst their tribe. Each tribe rules their respective land in a mostly autonomous fashion, with the elected Prostratas having some powers over them, mostly the power to declare wars, raise armies, and to direct construction projects. Such a system has created a strong, unified Epirote state, reducing some of the shortfalls of other republics."
  epirote_republic_ruler:0 "Prostratas"

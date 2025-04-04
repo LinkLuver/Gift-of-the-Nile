@@ -3,7 +3,7 @@
 	culture="sophene"
 	religion="armenian_religion"
 	trade_goods="hemp"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -899,7 +899,7 @@
 	culture="sophene"
 	religion="armenian_religion"
 	trade_goods="stone"
-	civilization_value=34
+	civilization_value=22
 	barbarian_power=0
 	province_rank="city"
 	nobles={
@@ -936,7 +936,7 @@
 	culture="sophene"
 	religion="zoroaster"
 	trade_goods="base_metals"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -960,7 +960,7 @@
 	culture="sophene"
 	religion="zoroaster"
 	trade_goods="leather"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1161,7 +1161,7 @@
 	culture="hurrian"
 	religion="mesopotamian_religion"
 	trade_goods="dates"
-	civilization_value=31
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1246,7 +1246,7 @@
 	culture="urtaian"
 	religion="armenian_religion"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1508,7 +1508,7 @@
 	culture="sophene"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1542,7 +1542,7 @@
 	culture="sophene"
 	religion="armenian_religion"
 	trade_goods="leather"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={

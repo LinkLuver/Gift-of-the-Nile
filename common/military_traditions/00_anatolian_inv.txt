@@ -10,14 +10,7 @@
 			}
 			country_culture_group = anatolian
 		}
-		trigger_else_if = {
-			limit = { country_culture_group = caucasian }
-			custom_tooltip = {
-				text = "began_with_tradition_group"
-			}
-			country_culture_group = caucasian
-		}
-		trigger_else_if = {
+		trigger_if = {
 			limit = { country_culture_group = lydio_phrygian }
 			custom_tooltip = {
 				text = "began_with_tradition_group"
@@ -30,6 +23,13 @@
 				text = "began_with_tradition_group"
 			}
 			country_culture_group = hurro_urartian
+		}
+		trigger_else_if = {
+			limit = { country_culture_group = caucasian }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = caucasian
 		}
 		trigger_else_if = {
 			limit = { tag = CAP }

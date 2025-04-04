@@ -8272,20 +8272,19 @@ pergamon_heritage = {
     }
 }
 
-northern_cimmerian_heritage = {
-	modifier = {
+#northern_cimmerian_heritage = { #ANNIHILATED
+	#modifier = {
 		#good
-		horse_archers_discipline = 0.1
-		hills_combat_bonus = 0.10
+		#hills_combat_bonus = 0.10
 	   
 		#bad
-		global_monthly_food_modifier = -0.05
-	}
+		#global_monthly_food_modifier = -0.05
+	#}
    
-	trigger = {
-		tag = CM2
-	}
-}
+	#trigger = {
+		#tag = CM2
+	#}
+#}
 
 eastern_cimmerian_heritage = {
 	modifier = {
