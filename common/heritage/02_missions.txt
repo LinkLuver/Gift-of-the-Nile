@@ -718,3 +718,17 @@ hanigalbat_hurria_heritage = {
         always = no # Only added through missions
     }
 }
+thera_heritage = {
+	modifier = {
+		#good
+		global_capital_trade_routes = 2
+		navy_maintenance_cost = -0.15
+		
+		#bad
+		build_cost = 0.05
+	}
+	trigger = {
+        always = no # Only added through missions
+    }
+}
+

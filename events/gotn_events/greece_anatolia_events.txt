@@ -1,4 +1,4 @@
-﻿namespace = greece_events
+namespace = greece_events
 
 greece_events.1 = { # A Deal with the Lydians
     
@@ -343,4 +343,103 @@ greece_events.10 = { # Thebes name change
 		add_stability = -30
 		add_political_influence = -50
     }
+}
+greece_events.11 = { # Aegea Name + Gov + Capital decision
+    
+    type = country_event
+    title = "greece_events_11_title"
+    desc = "greece_events_11_desc"
+    picture = diadochi_new_city_founded
+
+    option = {
+        name = "greece_events_11.a"	#Delos -Delian League LOL
+		change_government = league_republic
+		change_country_name = "DELIAN_LEAGUE_NAME"
+		add_2_free_province_investments = yes
+		add_country_modifier = {
+			name = delos_country_mod
+			duration = -1
+		}
+		set_capital = 1835
+			p:1835 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+				add_province_modifier = {
+					name = delos_mod
+					duration = -1
+				}
+			}
+			hidden_effect = {
+			change_country_adjective = "DELIAN_LEAGUE_ADJECTIVE"
+			change_country_flag = DELIAN_LEAGUE_FLAG
+			change_country_color = delian_league_blue
+		}
+	}
+
+	option = {
+        name = "greece_events_11.c"	#Rhodes - Rhodian Thalassacracy
+		change_government = league_republic
+		change_country_name = "RHODES_LEAGUE_NAME"
+		add_2_free_province_investments = yes
+		add_country_modifier = {
+			name = rhodes_country_mod
+			duration = -1
+		}
+		set_capital = 266
+			p:266 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			hidden_effect = {
+			change_country_adjective = "RHODES_LEAGUE_ADJECTIVE"
+			change_country_flag = AEGEA_FLAG
+			change_country_color = rhodes_league_red
+		}
+	}
+
+	option = {
+        name = "greece_events_11.d"	#No change-generic capital bonus
+		add_political_influence = 100
+		add_stability = 20
+		add_2_free_province_investments = yes
+		capital_scope = {
+			capital_formable_medium_effect = yes
+			formable_capital_modifier_normal_effect = yes
+		}
+	}
+
+	option = { #ONLY IF YOUR LEADER IS SCHIZOPHRENIC/LUNATIC
+	custom_tooltip = "thera_switch_tt"
+	trigger = {
+		current_ruler = {
+			OR = {
+				has_trait = dumb
+				has_trait = lunatic
+				has_trait = arrogant
+				has_trait = eccentric
+				has_trait = foolish
+			}
+		}
+        name = "greece_events_11.e"	#Thera - rebuild Thera/become Theran Kingdom
+		change_government = plutocratic_monarchy
+		switch_government_type_event_clearup_effect = yes
+		change_country_name = "THERA_NAME"
+		add_2_free_province_investments = yes
+		set_capital = 454
+			p:454 = {
+				establish_city_effect = yes
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+				add_province_modifier = {
+					name = thera_mod
+					duration = -1
+				}
+			}
+			hidden_effect = {
+			change_country_adjective = "THERA_ADJECTIVE"
+			change_country_flag = THERA_FLAG
+			change_country_color = illyria_slavia_dark_blue
+			set_country_heritage = thera_heritage
+		}
+	}
 }

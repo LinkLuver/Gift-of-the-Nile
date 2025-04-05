@@ -415,6 +415,8 @@ semna_heritage = {
     modifier = {
         #good
         monthly_legitimacy = 0.05
+        monthly_centralization = 0.05
+        monthly_party_approval = 0.05
         camels_discipline = 0.05
 
         #bad
@@ -2663,6 +2665,8 @@ saba_heritage = {
     modifier = {
         #good
         monthly_legitimacy = 0.05
+        monthly_centralization = 0.05
+        monthly_party_approval = 0.05
         global_monthly_food_modifier = 0.1
         #bad
         global_monthly_state_loyalty = -0.03
@@ -4401,6 +4405,8 @@ gedrosia_heritage = {
         #good
         hostile_attrition = 1
         monthly_legitimacy = 0.03
+        monthly_centralization = 0.03
+        monthly_party_approval = 0.03
 
         #bad
         global_monthly_food_modifier = -0.15
@@ -5259,6 +5265,7 @@ ruhunu_heritage = {
         #bad
         monthly_legitimacy = -0.03
         monthly_centralization = -0.05
+        monthly_party_approval = -0.03
     }
 
     trigger = {
@@ -5789,6 +5796,7 @@ hermione_heritage = {
         #good
         monthly_legitimacy = 0.04
         traditionalist_party_influence = 0.04
+        monthly_centralization = 0.04
         religious_tech_investment = 0.12
        
         #bad
@@ -6105,6 +6113,7 @@ praesos_heritage = {
         #good
         monthly_legitimacy = 0.03
         traditionalist_party_influence = 0.02
+        monthly_centralization = 0.03
         research_points_modifier = 0.08
        
         #bad
@@ -7721,6 +7730,8 @@ ugarit_heritage = {
         #good
         build_time = -0.10
         monthly_legitimacy = 0.05
+        monthly_centralization = 0.05
+        monthly_party_approval = 0.05
         
         #bad
         monthly_wage_modifier = 0.05
@@ -7739,6 +7750,8 @@ tripoli_heritage = {
         
         #bad
         monthly_legitimacy = -0.03
+        monthly_centralization = -0.03
+        monthly_party_approval = -0.03
     }
     
     trigger = {
@@ -8200,8 +8213,8 @@ bergoula_heritage = {
 galiopolis_heritage = {
     modifier = {
         #good
-        global_freemen_output = 0.05
-        global_freemen_happyness = 0.10
+        global_freemen_happyness = 0.05
+        bribe_pi_cost_modifier = -0.10
         #bad
         global_slaves_city_desired_pop_ratio = -0.10
     }
@@ -8770,8 +8783,8 @@ eravisci_heritage = {
 	modifier = {
 		#good 
 		monthly_centralization = 0.03
-		monthly_legitimacy = 0.03
-		monthly_party_approval = 0.03
+		monthly_legitimacy = 0.05
+		monthly_party_approval = 0.05
 		global_tax_modifier = 0.10
 		#bad 
 	    diplomatic_relations= -1
@@ -9365,9 +9378,11 @@ italiote_kingdom_heritage = {
 	modifier = {
 		#good
 		spearmen_discipline = 0.10
-        research_points_modifier= 0.10
+        research_points_modifier= 0.05
 		#bad
-        monthly_legitimacy = -0.04
+        monthly_legitimacy = -0.03
+        monthly_centralization = -0.03
+        monthly_party_approval = -0.03
     }
 	
 	trigger = {

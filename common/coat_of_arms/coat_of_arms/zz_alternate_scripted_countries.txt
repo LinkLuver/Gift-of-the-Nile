@@ -497,25 +497,25 @@ UBF_FLAG = {
 
 }
 
-PEL = {
-	pattern = "pattern_solid.tga"
-	color1 = rgb { 90 15 40 } #Pelaginia colours
-    color2 = rgb { 90 15 40 }
+#PEL = { BANISHED!!!!!!!!!!!!!!!
+	#pattern = "pattern_solid.tga"
+	#color1 = rgb { 90 15 40 } #Pelaginia colours
+    #color2 = rgb { 90 15 40 }
 
-    colored_emblem = {
-        texture = "ce_roundel_frame_pattern_03.dds"
-        color1 = frost_blue
-        color2 = dark_grey
-    }
+    #colored_emblem = {
+        #texture = "ce_roundel_frame_pattern_03.dds"
+        #color1 = frost_blue
+        #color2 = dark_grey
+    #}
 
-    colored_emblem = {
-        texture = "ce_paeligni_soldiers.dds"
-        color1 = ck2_black
-        color2 = dark_orange
+    #colored_emblem = {
+        #texture = "ce_paeligni_soldiers.dds"
+        #color1 = ck2_black
+        #color2 = dark_orange
 
-        instance = { scale = { 0.8 0.8 }}
-    }
-}
+        #instance = { scale = { 0.8 0.8 }}
+    #}
+#}
 
 #Marsia
 

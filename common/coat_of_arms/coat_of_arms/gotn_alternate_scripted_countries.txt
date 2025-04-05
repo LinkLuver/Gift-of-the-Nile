@@ -574,3 +574,29 @@ HALTAMI_FLAG = {
 		}
 	}
 }
+
+AEGEA_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "aegean_league_color"
+	color2 = "onyx_black"
+
+	colored_emblem = {
+		texture = "ce_rhodes.dds"
+		color1 = "crimson_glory"
+		color2 = "arabian_green"
+	}
+
+}
+
+THERA_FLAG = {
+	pattern = "pattern_diagonal_split_01.tga"
+	color1 = "onyx_black"
+	color2 = "illyria_slavia_dark_blue"
+
+	colored_emblem = {
+		texture = "ce_kouros.dds"
+		color1 = "roman_gold"
+		instance = { scale = { 1.05 1.05 } }
+	}
+
+}

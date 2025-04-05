@@ -56,7 +56,12 @@
  gotn_events_15_b_tt:0 "We will attempt to #G sway#! #Y Oreos#! to our side."
  gotn_events_15.c:0 "Let us not rush into conflict, we will bide our time..."
  theban_overtures:0 "Theban Overtures"
- 
+
+ gotn_events_16_title:0 "The True Sons of Crete"
+ gotn_events_16_desc:0 "#E #Y Praesos#!#!\n[ROOT.GetCountry.GetRuler.GetName|E] stepped before the Praesian boule, preapring to deliver a speech. 'For too long have we, the Etocretans, the TRUE inheritors of the Minoans, have been the laughingstock of all of Crete. No longer will we tolerate their insolence. Although we have fallen far from our legendary ancestry, the true Sons of Crete will rise once more, and take what is rightfully ours. To arms!'. At first, silence. The assembled councilmen were stunned at the audacity of [ROOT.GetCountry.GetRuler.GetName|E]. One councilman said 'Conquer Crete? have you gone mad?' After a pause, [ROOT.GetCountry.GetRuler.GetName|E]. spoke thusly 'Countrymen, do you not wish to prove our own place, to prove our superiority amongst our neighbors who have so often ridiculed us? Why must we sit here and linger, accomplishing nothing. Amongst men, there are two types: those who are content to lounge in their house all day, and get fat on bread and wine, and men who accomplish something. Have you no pride? What a lousy lot of dogs, ALL OF YOU. If you will not support me on my task, I will find support elsewhere.' Murmurs broke out amongst the councilmen, before thunderous applause broke out, uninterrupted for nearly 5 minutes."
+ sons_of_crete:0 "Sons of Crete"
+ gotn_events_16_tt:0 "#Y Praesos#! will gain claims on the province of #Y Crete#!."
+ gotn_events_16.a:0 "It appears the sons of Minos are on the warpath.... "
  
 
  ## Median Collapse

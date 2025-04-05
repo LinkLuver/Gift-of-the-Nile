@@ -88,3 +88,8 @@ theban_overtures = {
 orochomenos_defense = {
     global_defensive = 0.10
 }
+sons_of_crete = {
+    land_morale_modifier = 0.05
+    hills_combat_bonus = 0.10
+    monthly_party_approval = 0.03
+}

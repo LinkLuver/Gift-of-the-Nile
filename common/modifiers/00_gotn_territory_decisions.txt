@@ -9,3 +9,6 @@ renovated_ardea = {
 	local_population_capacity = 5
 	local_population_happiness = 0.05
 }
+median_wall = {
+	local_defensive = 0.15
+}

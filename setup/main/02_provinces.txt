@@ -2181,6 +2181,16 @@ provinces = { #Any entry must contain a comment with city name.
 		modifier = { modifier = north_sea_terps always = yes }
 	}
 
+	## GotN New ##
+
+	977 = { #Shahraban
+		modifier = { modifier = median_wall always = yes }
+	}
+
+	9446 = { #Sulaya
+		modifier = { modifier = median_wall always = yes }
+	}
+
 	########################################
 	# Barbarian Spawn Spots
 	########################################

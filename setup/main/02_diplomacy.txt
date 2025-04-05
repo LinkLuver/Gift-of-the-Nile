@@ -48,15 +48,15 @@ diplomacy = {
 
 
 	#Lydian Kingdom
-	dependency = { first = LYD second = PHR subject_type = satrapy }
-	dependency = { first = LYD second = PAP subject_type = satrapy }
-	dependency = { first = LYD second = IOA subject_type = subject_league_city_state }
-	dependency = { first = LYD second = ION subject_type = subject_league_city_state }
+	dependency = { first = LYD second = PHR subject_type = ashemis_astarhos }
+	dependency = { first = LYD second = PAP subject_type = ashemis_astarhos }
+	dependency = { first = LYD second = IOA subject_type = tributary }
+	dependency = { first = LYD second = ION subject_type = tributary }
 	dependency = { first = LYD second = MLO subject_type = subject_league_city_state }
 	dependency = { first = LYD second = MYD subject_type = tributary }
 	dependency = { first = LYD second = BIT subject_type = tributary }
-	dependency = { first = LYD second = PGM subject_type = satrapy }
-	dependency = { first = LYD second = HKS subject_type = feudatory }
+	dependency = { first = LYD second = PGM subject_type = ashemis_astarhos }
+	dependency = { first = LYD second = HKS subject_type = ashemis_astarhos }
 
 	#Numidian Kingdom
 	dependency = { first = MSS second = IOL subject_type = tributary }
@@ -211,6 +211,10 @@ diplomacy = {
 	#Mantasania-Lobetania Alliance of Victory and Everlasting Friendship
 	alliance = { first = MTS second = LBT }
 
+	#Samnite Confederation
+	dependency = { first = SAM second = FRE subject_type = feudatory }
+	dependency = { first = SAM second = CPU subject_type = tributary }
+	dependency = { first = SAM second = NUC subject_type = tributary }
 
 	#Free Massalian States
 	defensive_league = {
@@ -242,13 +246,6 @@ diplomacy = {
     	member = LOC
 		member = HPO
 	}
-
-	#Northern Italiotes
-	defensive_league = {
-    	member = CPU
-    	member = NEA
-		member = NUC
-    	}
 
 	#Carthaginian League Remnant
 	defensive_league = {
@@ -388,8 +385,7 @@ diplomacy = {
 	#Umbria (GP)
 	alliance = { first = UMB second = PIE }
 
-	#Etruria
-	alliance = { first = ETR second = FNT }
+	
 
 	#Massylia
 	#alliance = { first = MSY second = MSL }
