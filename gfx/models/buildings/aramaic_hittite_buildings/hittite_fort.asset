@@ -1,0 +1,37 @@
+pdxmesh = {
+	name = "hittite_fort_mesh"
+	file = "hittite_fort.mesh"
+
+	meshsettings = {
+		name = "hittite_fort"
+		index = 0
+		texture_diffuse = "hittite_buildings_diffuse.dds"
+		texture_normal = "hittite_buildings_normal.dds"
+		texture_specular = "hittite_buildings_properties.dds"
+		shader = "standard_snow"
+#		texture = { file = "hittite_fort_unique.dds" index = 5 }
+#		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "hurrian_gfx_fort_entity"
+	pdxmesh = "hittite_fort_mesh"
+	default_state = "default"
+	state = {
+		name = default
+		start_event = { trigger_once = yes sound = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Military/sfx_amb_3d_military_fort_persian" } keep_sound = yes }
+	}
+}
+
+entity = {
+	name = "luwian_gfx_fort_entity"
+	pdxmesh = "hittite_fort_mesh"
+	default_state = "default"
+	state = {
+		name = default
+		start_event = { trigger_once = yes sound = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Military/sfx_amb_3d_military_fort_persian" } keep_sound = yes }
+	}
+}
+

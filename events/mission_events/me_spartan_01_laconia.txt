@@ -249,17 +249,11 @@ me_spartan_01_laconia.11 = { # Dealing with the Helots mission task finished - K
     type = country_event
     title = me_spartan_01_laconia.11.t
     desc = me_spartan_01_laconia.11.desc
-    picture = farming
+    picture = ship_in_storm
 
     option = {      
         name = me_spartan_01_laconia.11.a
         custom_tooltip = me_spartan_01_laconia.11.a.tt
-        show_as_tooltip = {
-        	add_country_modifier = {
-    			name = spartan_helot_treatment_good_country_modifier
-    			duration = -1
-    		}
-        }
     }
 }
 
@@ -300,27 +294,16 @@ me_spartan_01_laconia.14 = { # Fortifying Cynuria mission task finished
     type = country_event
     title = me_spartan_01_laconia.14.t
     desc = me_spartan_01_laconia.14.desc
-    picture = city_construction
+    picture = greek_states_path_1_event
 
     option = {      
         name = me_spartan_01_laconia.14.a
         custom_tooltip = me_spartan_01_laconia.14.a.tt
-        show_as_tooltip = {
-        	ordered_owned_province = {
-        		order_by = total_population
-        		limit = {
-        			owner = root
-        			OR = {
-        				province_id = 450
-        				province_id = 7892
-        			}
-        		}
-        		max = 1
-        		create_state_pop = freemen
-        		create_state_pop = freemen
-        		create_state_pop = freemen
-        	}
+        add_military_experience = 10
+        current_ruler = {
+            add_popularity = 10
         }
+        p:450 = { set_owned_by = root }
     }
 }
 
@@ -377,12 +360,42 @@ me_spartan_01_laconia.17 = { # Helots Once More mission task finished
     option = {      
         name = me_spartan_01_laconia.17.a
         custom_tooltip = me_spartan_01_laconia.17.a.tt
-        show_as_tooltip = {
-        	capital_scope = {
-        		create_state_pop = slaves
-        		create_state_pop = slaves
-        		create_state_pop = slaves
-        	}
+        add_treasury = 100
+        current_ruler = {
+            add_trait = cruel
+            }
+            p:431 = {
+                set_city_status = settlement
+                add_province_modifier = {
+                    name = ithome_destroyed
+                    duration = 1095
+                }
+                if = {
+                    limit = {
+                        total_population > 1
+                    }
+                    while = {
+                        count = orchomenos_pops_minus_one_svalue
+                        random_pops_in_province = { kill_pop = yes }
+                    }
+                    while = {
+                        count = 5
+                        move_pop = 569
+                    }
+                }
+            }
+        }
+        option = {      
+            name = me_spartan_01_laconia.17.b
+            add_legitimacy = 10
+            current_ruler = {
+                add_trait = merciful
+            }
+            p:431 = {
+                add_province_modifier = {
+                    name = ithome_spared
+                    duration = 1095
+                }
         }
     }
 }
@@ -560,6 +573,21 @@ me_spartan_01_laconia.24 = { # Recruiting the Skiritai - Random Event - Old Comm
 		        	death_reason = death_obscurity
 		        }
 	        }
+        }
+    }
+}
+
+me_spartan_01_laconia.25 = { # Kytheran Investments
+    type = country_event
+    title = me_spartan_01_laconia.25.t
+    desc = me_spartan_01_laconia.25.desc
+    picture = greek_city
+
+    option = {      
+        name = me_spartan_01_laconia.25.a
+        add_country_modifier = {
+            name = kythera_investments
+            duration = 7300
         }
     }
 }

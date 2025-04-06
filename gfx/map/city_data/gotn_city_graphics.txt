@@ -9,8 +9,8 @@
 
 
 
-Carthage = {
-	graphical_culture = "carthaginian_gfx"
+Tartessos = { #TEST
+	graphical_culture = "tartessos_test_gfx"
 		
 	center_building_mesh = "punic_center_mesh"
 	soundeffect = "event:/SFX/Ambience/3DMapEmitters/Urban/sfx_amb_3d_city_hellenic"
@@ -22,10 +22,10 @@ Carthage = {
 		rotation_steps = 4				# Meshes will be rotated in 1 step, i.e always 0 degrees
 		rotation_variation = 0		# A big variation will be added after the step. i.e final rotation is step_rotation +- variation
 		meshes = {
-			"punic_01_01_mesh"
-			"punic_01_02_mesh"
-			"punic_01_03_mesh"
-			"punic_01_04_mesh"
+			"anatolian_01_01_mesh" #anatolian
+			"punic_01_02_mesh" #punic
+			"anatolian_01_03_mesh"
+			"punic_01_04_mesh" #punic
 		}
 	}
 	tier = {
@@ -36,12 +36,12 @@ Carthage = {
 		rotation_steps = 8				# Meshes will be rotated in 8 steps, i.e 0, 45, 90 etc
 		rotation_variation = 0			# A small variation will be added after the step. i.e final rotation is step_rotation +- variation
 		meshes = {
-			"punic_02_01_mesh"
-			"punic_02_02_mesh"
+			"persian_02_01_mesh"
+			"anatolian_02_02_mesh"
 			"punic_02_03_mesh"
 			"punic_02_04_mesh"
 			"punic_02_05_mesh"
-			"punic_02_06_mesh"
+			"persian_02_06_mesh"
 			"punic_02_07_mesh"
 		}
 	}
@@ -54,10 +54,10 @@ Carthage = {
 		rotation_variation = 0			# A small variation will be added after the step. i.e final rotation is step_rotation +- variation
 		meshes = {
 			"punic_03_01_mesh"
-			"punic_03_02_mesh"
-			"punic_03_03_mesh"
-			"punic_03_04_mesh"
-			"punic_03_05_mesh"
+			"anatolian_03_02_mesh"
+			"anatolian_03_03_mesh"
+			"western_03_04_mesh"
+			"persian_03_05_mesh"
 			"punic_03_06_mesh"
 			"punic_03_07_mesh"
 			"punic_03_08_mesh"
@@ -77,12 +77,12 @@ Carthage = {
 		meshes = {
 			"punic_04_01_mesh"
 			"punic_04_02_mesh"
-			"punic_04_03_mesh"
+			"mycenean_04_03_mesh"
 			"punic_04_04_mesh"
-			"punic_04_05_mesh"
+			"anatolian_04_05_mesh"
 			"punic_04_06_mesh"
 			"punic_04_07_mesh"
-			"punic_04_08_mesh"
+			"persian_04_08_mesh"
 			"punic_04_09_mesh"
 			"punic_04_10_mesh"
 			"punic_04_11_mesh"
@@ -93,3 +93,149 @@ Carthage = {
 		}
 	}
 }
+
+Gaul = { #TEST
+	graphical_culture = "gaul_gfx"
+	center_building_mesh = "insular_celtic_centre_mesh"
+	soundeffect = "event:/SFX/Ambience/3DMapEmitters/Urban/sfx_amb_3d_city_tribal"
+	tier = {
+		priority = 0
+		population_per_building = @buildings_per_pop_tier_0
+		population_ratio = 1.0
+		rotation_steps = 4
+		rotation_variation = 0
+		meshes = {
+			"tribal_01_01_mesh"
+			"celtic_01_02_mesh"
+			"celtic_01_03_mesh"
+			"tribal_01_04_mesh"
+			"celtic_01_05_mesh"
+			"celtic_01_06_mesh"
+			"celtic_01_07_mesh"
+			"celtic_01_08_mesh"
+			"celtic_01_09_mesh"
+			"celtic_01_10_mesh"
+			"celtic_01_11_mesh"
+		}
+	}
+	tier = {
+		priority = 1
+		population_per_building = @buildings_per_pop_tier_1
+		population_ratio = 0.25
+		rotation_steps = 8
+		rotation_variation = 0
+		meshes = {
+			"tribal_02_01_mesh"
+			"tribal_02_02_mesh"
+			"celtic_02_03_mesh"
+			"celtic_02_04_mesh"
+			"tribal_02_05_mesh"
+			"celtic_temple_01_mesh"
+		}
+	}
+	tier = {
+		priority = 2
+		population_per_building = @buildings_per_pop_tier_2
+		population_ratio = 0.25
+		rotation_steps = 4
+		rotation_variation = 0
+		meshes = {
+			"tribal_03_01_mesh"
+			"tribal_03_02_mesh"
+			"celtic_03_03_mesh"
+			"celtic_temple_02_mesh"
+		}
+	}
+	tier = {
+		priority = 3
+		population_per_building = @buildings_per_pop_tier_3
+		population_ratio = 0.25
+		rotation_steps = 4
+		rotation_variation = 0
+		meshes = {
+			"tribal_04_01_mesh"
+			"tribal_04_02_mesh"
+			"celtic_04_03_mesh"
+			"celtic_04_04_mesh"
+			"tribal_04_05_mesh"
+			"tribal_04_07_mesh"
+			"tribal_04_08_mesh"
+			"celtic_05_01_mesh" # These higher level buildings are Medieval.
+			#"celtic_05_02_mesh"
+			#"celtic_05_03_mesh"
+			#"celtic_05_04_mesh"
+			#"celtic_05_05_mesh"
+			#"celtic_05_06_mesh"
+			#"celtic_05_07_mesh"
+			"celtic_temple_03_mesh"
+		}
+	}
+}
+
+Aramaic = {
+	graphical_culture = "aramaic_gfx"
+	center_building_mesh = "persian_center_mesh"
+	soundeffect = "event:/SFX/Ambience/3DMapEmitters/Urban/sfx_amb_3d_city_persian"
+	tier = {
+		priority = 0
+		population_per_building = @buildings_per_pop_tier_0
+		population_ratio = 1.0
+		
+		rotation_steps = 4				# Meshes will be rotated in 1 step, i.e always 0 degrees
+		rotation_variation = 0		# A big variation will be added after the step. i.e final rotation is step_rotation +- variation
+		meshes = {
+			"hattusa_01_01_mesh"
+			"persian_01_02_mesh"
+			"hattusa_01_03_mesh"
+			"persian_01_04_mesh"
+		}
+	}
+	tier = {
+		priority = 1
+		population_per_building = @buildings_per_pop_tier_1
+		population_ratio = 0.25
+		
+		rotation_steps = 8				# Meshes will be rotated in 8 steps, i.e 0, 45, 90 etc
+		rotation_variation = 0			# A small variation will be added after the step. i.e final rotation is step_rotation +- variation
+		meshes = {
+			"hattusa_02_01_mesh"
+			"hattusa_02_02_mesh"
+			"hattusa_02_03_mesh"
+			"persian_02_04_mesh"
+			"persian_02_05_mesh"
+			"persian_02_06_mesh"
+		}
+	}
+	tier = {
+		priority = 2
+		population_per_building = @buildings_per_pop_tier_2
+		population_ratio = 0.25
+		
+		rotation_steps = 4				# Meshes will be rotated in 4 steps, i.e 0, 90, 180, and 270 degrees
+		rotation_variation = 0			# A small variation will be added after the step. i.e final rotation is step_rotation +- variation
+		meshes = {
+			"hattusa_03_01_mesh"
+			"hattusa_03_02_mesh"
+			"persian_03_03_mesh"
+			"persian_03_04_mesh"
+			"persian_03_05_mesh"
+			"persian_03_06_mesh"
+		}
+	}
+	tier = {
+		priority = 3
+		population_per_building = @buildings_per_pop_tier_3
+		population_ratio = 0.25
+		
+		rotation_steps = 4				# Meshes will be rotated in 4 steps, i.e 0, 90, 180, and 270 degrees
+		rotation_variation = 0			# A small variation will be added after the step. i.e final rotation is step_rotation +- variation
+		meshes = {
+			"hattusa_04_01_mesh"
+			"hattusa_04_02_mesh"
+			"persian_04_03_mesh"
+			"persian_04_04_mesh"
+			"persian_04_05_mesh"
+			"persian_04_06_mesh"
+		}
+	}
+}	

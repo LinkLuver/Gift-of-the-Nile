@@ -1,0 +1,39 @@
+pdxmesh = {
+	name = "hattusa_palace_mesh"
+	file = "hattusa_palace.mesh"
+
+	meshsettings = {
+		name = "hattusa_palace"
+		index = 0
+		texture_diffuse = "hittite_buildings_diffuse.dds"
+		texture_normal = "hittite_buildings_normal.dds"
+		texture_specular = "hittite_buildings_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "hattusa_palace_trees"
+		index = 0
+		texture_diffuse = "anatolian_buildings_diffuse.dds"
+		texture_normal = "anatolian_buildings_normal.dds"
+		texture_specular = "anatolian_buildings_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "decal"
+		index = 0
+		texture_diffuse = "stone_tiles_diffuse.dds"
+		texture_normal = "stone_tiles_normal.dds"
+		texture_specular = "stone_tiles_material.dds"
+		texture = { file = "building_terrain_mask.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+}
+
+entity = {
+	name = "hattusa_palace_entity"
+	pdxmesh = "hattusa_palace_mesh"
+}

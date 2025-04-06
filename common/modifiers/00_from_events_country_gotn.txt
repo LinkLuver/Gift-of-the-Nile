@@ -93,3 +93,15 @@ sons_of_crete = {
     hills_combat_bonus = 0.10
     monthly_party_approval = 0.03
 }
+ithome_spared = {
+    local_population_happiness = 0.05
+    local_unrest = -0.25
+}
+ithome_destroyed = {
+    local_monthly_civilization = -0.05
+    local_slaves_desired_pop_ratio = 0.15
+}
+kythera_investments = {
+    global_commerce_modifier = 0.10
+    global_citizen_output = 0.05
+}

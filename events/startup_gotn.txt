@@ -596,8 +596,8 @@ gotn_events.16 = { # The True Sons of Krete
         add_trait = orator
     }
     hidden_effect = {
-        set_graphical_culture = cretan_gfx
         area:crete_area = { formable_area_province_effect = yes }
+        #set_graphical_culture = cretan_gfx This doesn't work for now
     }
     add_country_modifier = {
         name = sons_of_crete
