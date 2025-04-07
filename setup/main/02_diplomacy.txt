@@ -324,13 +324,38 @@ diplomacy = {
 	#Waset
 	dependency = { first = EGY second = SUK subject_type = client_state }
 
-	## Qedarite Confederacy
+	##Qedarite Confederacy
 	defensive_league = {
 		member = QDA
 		member = QAY
 		member = PAL
 	}
 
+	##Bharati Diplomacy
+	#Yaudheya and Kuru Trikingdom
+	dependency = { first = YDD second = KUR subject_type = satrapy }
+
+	#Kosala Janapadan Realm
+	dependency = { first = AYO second = KAS subject_type = satrapy }
+	dependency = { first = AYO second = MOR subject_type = subject_league_city_state }
+
+	#Mallan League
+	defensive_league = {
+		member = MLL
+		member = SHA
+		member = KOL
+		member = KLM
+	}
+
+	#Vaijjika League
+	dependency = { first = VAI second = NAY subject_type = subject_league_city_state }
+	dependency = { first = VAI second = MRY subject_type = satrapy }
+	alliance = { first = VAI second = VID }
+
+	#Avanti Janapadan Realm
+	dependency = { first = AVT second = CED subject_type = satrapy }
+	dependency = { first = AVT second = MAR subject_type = satrapy }
+	dependency = { first = AVT second = HWK subject_type = vassal_tribe }
 
 	### VANILLA DIPLOMACY ###
 

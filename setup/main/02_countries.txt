@@ -3674,7 +3674,7 @@ country = {
 				7478
 			}
 		}
-		NBP = { #Naba-Pankti
+		NBP = { #Kannadanadu
 			government = tribal_kingdom
 			primary_culture = kannadan
 			religion = agama
@@ -3682,7 +3682,7 @@ country = {
 			capital = 7017
 
 			own_control_core = 	{
-				7017
+				7017 7009 7011 7016
 			}
 		}
 		AYO = { #Kosala
@@ -3811,6 +3811,7 @@ country = {
 				4470 7302 7303 7449 7461 7462 7463 7464 7472 7471 7219 #dasarna_region
 				4478 4497 4499 7300 7416 7418 7419 7427 7429 7430 #anartta_region
 				4487 4491 4488 4495 4496 6843 7310 7390 7413 7417 7432 7658 #maru_region
+				7408 7218
 			}
 		}
 		AGH = { #Anga
@@ -3827,7 +3828,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				4446 4447 7400 #anga_region
+				4446 4447 7400 7338 #anga_region
 			}
 		}
 		CED = { #Cedi
@@ -3845,8 +3846,7 @@ country = {
 
 			own_control_core = 	{
 				4434 4435 4466 4485 7409 7470 #west_cedi_region
-				4467 4468 7467 7468 4471 7320 7321 7469 4474
-				7408 7218
+				4467 4468 7467 7468 4471 7320 7321 7469 4474 7459
 			}
 		}
 		SHP = { #Shurparaka
@@ -3969,7 +3969,7 @@ country = {
 			}
 
 			own_control_core = {
-				4440 4442 4444 4445 4463 7338 7400 7659 #magadha_region
+				4440 4442 4444 4445 4463 7659 #magadha_region
 				9270 #damodar 
 			}
 
@@ -11197,7 +11197,7 @@ country = {
 
 			own_control_core = 	{
 				4431 4432 7453 7475 #east_cedi_region
-				7459 7474
+				7474
 			}
 		}
 
@@ -11330,13 +11330,13 @@ country = {
 			}
 
 			own_control_core = 	{
-				6989 6990 6991 6993 6995 7008 7029 7032
+				6989 6990 6991 6993 6995 7008 7032
 			}
 		}
 
-		NBA = { #Nabha
+		NBA = { #Varnavasi
 			government = tribal_kingdom
-			primary_culture = dardic
+			primary_culture = alupan
 			religion = hindu
 			centralization=-10
 			capital = 7015
@@ -11405,7 +11405,7 @@ country = {
 			family = 38
 			government = tribal_kingdom
 			primary_culture = alupan
-			religion = agama
+			religion = buddhism
 			centralization=10
 			capital = 6885
 
@@ -11509,7 +11509,7 @@ country = {
 			family = 39
 			government = despotic_monarchy
 			primary_culture = kalingan
-			religion = hindu
+			religion = buddhism
 
 			capital = 7081
 
@@ -11529,6 +11529,7 @@ country = {
 				9245 9247 9248 9249 9251 9252 9253 9254 9255 9256
 				7364 7365 7392 7177 7362 7363 7391 #radha_region
 				9274 9275 9276 9268 9269
+				7122 7123 7134 7135 7136 7141 7176
 			}
 		}
 
@@ -11547,9 +11548,9 @@ country = {
 		}
 
 		NYA = {
-			government = tribal_kingdom
-			primary_culture = pyu
-			religion = bon_religion
+			government = plutocratic_republic
+			primary_culture = kaccha
+			religion = zoroaster
 			capital = 6825
 			own_control_core = {
 				6825 6841 6845
@@ -11567,9 +11568,9 @@ country = {
 		}
 		
 		BKT = {
-			government = tribal_kingdom
-			primary_culture = pyu
-			religion = bon_religion
+			government = aristocratic_monarchy
+			primary_culture = rathikan
+			religion = hindu
 			capital = 6858
 			own_control_core = {
 				6855 6858
@@ -11605,28 +11606,10 @@ country = {
 		}
 		
 		TTM = {
-			government = tribal_kingdom
-			primary_culture = pyu
-			religion = bon_religion
+			government = plutocratic_monarchy
+			primary_culture = rathikan
+			religion = hindu
 			capital = 6859
-			technology = {
-				military_tech = {
-					level = 1
-					progress = 0
-				}
-				civic_tech = {
-					level = 1
-					progress = 0
-				}
-				oratory_tech = {
-					level = 1
-					progress = 0
-				}
-				religious_tech = {
-					level = 1
-					progress = 0
-				}
-			}
 			own_control_core = {
 				6859 7116 7420
 			}
@@ -11793,21 +11776,20 @@ country = {
 			capital = 7030
 
 			own_control_core = 	{
-				7030 7011 7007 7022 7004
-				7010 7036
-				7009 7016
+				7030 7029 7007
 			}
 		}
 
 		IDR = {
 			government = tribal_kingdom
-			primary_culture = savara
-			religion = hindu
+			primary_culture = kannadan
+			religion = jainism
 			centralization=-10
-			capital = 7134
+			capital = 7022
 
 			own_control_core = 	{
-				7122 7123 7134 7135 7136 7141 7176
+				7022 7004
+				7010 7036
 			}
 		}
 
