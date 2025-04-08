@@ -3675,7 +3675,7 @@ country = {
 			}
 		}
 		NBP = { #Kannadanadu
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = kannadan
 			religion = agama
 			centralization=-10
@@ -3756,7 +3756,7 @@ country = {
 			}
 		}
 		NAY = { #Naya
-			government = aristocratic_monarchy
+			government = aristocratic_republic
 			primary_culture = licchavi
 			religion = sassatavada
 			capital = 7488 #Kundaputra
@@ -3773,7 +3773,7 @@ country = {
 			}
 		}
 		VID = { #Videha
-			government = stratocratic_monarchy
+			government = democratic_republic
 			primary_culture = himalayan
 			religion = kassapan
 			capital = 7486 #Mithla
@@ -3982,7 +3982,7 @@ country = {
 			treasures = { 874 877 883 }
 		}
 		STL = { #Pundra-Santal
-			government = stratocratic_monarchy
+			government = tribal_kingdom
 			primary_culture = santal
 			religion = sarna_pantheon
 			capital = 7325 # Abuyya
@@ -11235,12 +11235,11 @@ country = {
 			}
 		}
 
-		RHN = { #Ruhunu
-			family=251
+		RHN = { #Tirumala
 			government = aristocratic_monarchy
-			primary_culture = lankan
-			religion = hindu
-			capital = 6977
+			primary_culture = telugu
+			religion = agama
+			capital = 7028
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -11250,16 +11249,15 @@ country = {
 			}
 
 			own_control_core = 	{
-				6951 6952 6953 6965 6966 6977 6980 6981 8287 8290
+				7028 7027 7025
 			}
-			treasures = { 869 }
 		}
 
-		MLY = { #Malaya
+		MLY = { #Penugonda
 			government = aristocratic_monarchy
-			primary_culture = lankan
-			religion = hindu
-			capital = 6971
+			primary_culture = telugu
+			religion = agama
+			capital = 7014
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -11269,9 +11267,8 @@ country = {
 			}
 
 			own_control_core = 	{
-				5314 6971 6982 8284 8288 8289
+				7014 7010
 			}
-			treasures = { 870 }
 		}
 
 		PRB = { #Parambu
@@ -11292,6 +11289,186 @@ country = {
 				6941 6942 6946 6947
 			}
 			treasures = { 875 }
+		}
+
+		OLL = { #Uraiyur
+			government = despotic_monarchy
+			primary_culture = tamil
+			religion = jainism
+			capital = 6947
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = 	{
+				6946 6947
+			}
+		}
+
+		KOD = { #Koda
+			government = despotic_monarchy
+			primary_culture = pandyan
+			religion = agama
+			capital = 6932
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = 	{
+				6932 6931 6929 6933 6935
+			}
+		}
+
+		KRG = { #Karige
+			government = aristocratic_republic
+			primary_culture = cholan
+			religion = agama
+			capital = 6936
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = 	{
+				6936
+			}
+		}
+
+		CPN = { #Colapattinam
+			government = despotic_monarchy
+			primary_culture = cholan
+			religion = agama
+			capital = 6987
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = 	{
+				6987
+			}
+		}
+
+		KAD = { #Kadiri
+			government = despotic_monarchy
+			primary_culture = telugu
+			religion = ajivika
+			capital = 7034
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = 	{
+				7034 7024
+			}
+		}
+
+		TND = { #Tondainadu
+			government = despotic_monarchy
+			primary_culture = tondai
+			religion = agama
+			capital = 7000
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = 	{
+				7000 7001 6999 6984 6985 6986 6998
+			}
+		}
+
+		TGD = { #Togadur
+			government = oligarchic_republic
+			primary_culture = tamil
+			religion = buddhism
+			capital = 6989
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = 	{
+				6989 6995 7032 6996 6983
+			}
+		}
+
+		VNH = { #Vanharnadu
+			government = despotic_monarchy
+			primary_culture = tondai
+			religion = ajivika
+			capital = 7031
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = 	{
+				7031 7008 7033
+			}
+		}
+
+		VUN = { #Vanharnadu
+			government = tribal_kingdom
+			primary_culture = andhran
+			religion = agama
+			capital = 7039
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = 	{
+				7039 7042 7043 7049 7013 7048
+			}
+		}
+
+		PNI = { #Pungainadu
+			government = tribal_kingdom
+			primary_culture = andhran
+			religion = agama
+			capital = 7047
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = 	{
+				7047 7026 7051 7091
+			}
 		}
 
 		KSR = { #Kosar
@@ -11320,7 +11497,7 @@ country = {
 			government = despotic_monarchy
 			primary_culture = tamil
 			religion = agama
-			capital = 6989 #Tagadur
+			capital = 6990
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -11330,7 +11507,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				6989 6990 6991 6993 6995 7008 7032
+				6990 6991 6993
 			}
 		}
 
@@ -11348,7 +11525,7 @@ country = {
 		}
 
 		SMT = { #Samatata
-			government = tribal_kingdom
+			government = aristocratic_monarchy
 			primary_culture = bangli
 			religion = jainism
 			centralization=-10
@@ -11423,9 +11600,7 @@ country = {
 
 			own_control_core = 	{
 				7108 7107 7112 7090 7109 7110 7113 7072 7087
-				7006 7111 7069 7071 7092 7120 7070
-				7005 7020 7037 7073
-				7021
+				7006 7111 7071 7092 7120 7070
 			}
 			treasures = { 878 }
 		}
@@ -11497,12 +11672,33 @@ country = {
 			capital = 7019
 
 			own_control_core = 	{
-				7019 7040 7046 7084 7045 7041 7039 7043 7042 7044 7054 7056
-				7003 7002 7012 7050
-				7013 7014 7024 7026 7034 7047 7048 7049 7051
-				7091
+				7019 7040 7046 7084 7045 7041 7044 7054 7056
 			}
 			treasures = { 880 }
+		}
+
+		VCH = {
+			government = tribal_kingdom
+			primary_culture = kuntalan
+			religion = agama
+			centralization=10
+			capital = 7069
+
+			own_control_core = 	{
+				7069 7021 7005
+			}
+		}
+
+		ERU = {
+			government = tribal_kingdom
+			primary_culture = kuntalan
+			religion = agama
+			centralization=10
+			capital = 7073
+
+			own_control_core = 	{
+				7073 7020 7037
+			}
 		}
 
 		KAL = { #Kalinga
@@ -11683,8 +11879,8 @@ country = {
 		
 		TGU = {
 			government = tribal_kingdom
-			primary_culture = pyu
-			religion = bon_religion
+			primary_culture = vidharban
+			religion = ajivika
 			capital = 7165
 			own_control_core = {
 				7165 7164 7147
@@ -11748,7 +11944,8 @@ country = {
 		}
 
 		ANU = {
-			family = 67
+			family=67
+			family=251
 			government = despotic_monarchy
 			primary_culture = lankan
 			religion = hindu
@@ -11765,11 +11962,14 @@ country = {
 			own_control_core = 	{
 				6979 6974 6978 6967 6973 6950 6975 6976 6968 6972 6969 # north tambapamni
 				6970 8285 8286 # south tambapamni
+				6951 6952 6953 6965 6966 6977 6980 6981 8287 8290
+				5314 6971 6982 8284 8288 8289
 			}
+			treasures = { 869 870 }
 		}
 
 		MSH = {
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = kannadan
 			religion = agama
 			centralization=5
@@ -11781,7 +11981,7 @@ country = {
 		}
 
 		IDR = {
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = kannadan
 			religion = jainism
 			centralization=-10
@@ -11789,7 +11989,7 @@ country = {
 
 			own_control_core = 	{
 				7022 7004
-				7010 7036
+				7036
 			}
 		}
 
@@ -11811,7 +12011,6 @@ country = {
 			own_control_core = 	{
 				6903 6914 6912 6922 6923 6921 6915 6925 6948 6924 6926 # South Pandiya
 				6918 6920 6913 6919 6917 # Malayas
-				6931 6929 6932 #
 			}
 			treasures = { 886 887 }
 		}
@@ -11850,10 +12049,8 @@ country = {
 			capital = 6927
 
 			own_control_core = 	{
-				6928 6927 6930 6992 6934 6933 6935 # Koda region
-				6936 6994 6988 6996 6987 6986 6983 6984 6985 6999 # South Tondainadu
-				7028 7000 7001 6998 7027
-				7025 7031 7033
+				6928 6927 6930 6992 6934 # Koda region
+				6994 6988 # South Tondainadu
 			}
 			treasures = { 885 }
 		}
@@ -11899,9 +12096,21 @@ country = {
 			treasures = { 884 }
 		}
 
+		PLK = {
+			government = despotic_monarchy
+			primary_culture = telugu
+			religion = agama
+			centralization=10
+			capital = 7012
+
+			own_control_core = 	{
+				7012 7003 7050 7002
+			}
+		}
+
 		STY = {
-			government = tribal_kingdom
-			primary_culture = tamil
+			government = despotic_monarchy
+			primary_culture = alupan
 			religion = agama
 			centralization=10
 			capital = 6889
