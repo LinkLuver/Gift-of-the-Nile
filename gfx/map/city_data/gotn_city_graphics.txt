@@ -23,7 +23,6 @@ Tartessos = { #TEST
 		rotation_variation = 0		# A big variation will be added after the step. i.e final rotation is step_rotation +- variation
 		meshes = {
 			"anatolian_01_01_mesh" #anatolian
-			"egyptian_archaic_city_01_01_mesh"
 			"punic_01_02_mesh" #punic
 			"anatolian_01_03_mesh"
 			"punic_01_04_mesh" #punic
@@ -38,7 +37,6 @@ Tartessos = { #TEST
 		rotation_variation = 0			# A small variation will be added after the step. i.e final rotation is step_rotation +- variation
 		meshes = {
 			"persian_02_01_mesh"
-			"african_02_01_mesh"
 			"anatolian_02_02_mesh"
 			"punic_02_03_mesh"
 			"punic_02_04_mesh"
@@ -57,7 +55,7 @@ Tartessos = { #TEST
 		meshes = {
 			"punic_03_01_mesh"
 			"anatolian_03_02_mesh"
-			"african_03_03_mesh"
+			"anatolian_03_03_mesh"
 			"western_03_04_mesh"
 			"persian_03_05_mesh"
 			"punic_03_06_mesh"
@@ -79,6 +77,7 @@ Tartessos = { #TEST
 		meshes = {
 			"punic_04_01_mesh"
 			"punic_04_02_mesh"
+			"mycenean_04_03_mesh"
 			"punic_04_04_mesh"
 			"anatolian_04_05_mesh"
 			"punic_04_06_mesh"
@@ -175,7 +174,7 @@ Gaul = { #TEST
 
 Aramaic = {
 	graphical_culture = "aramaic_gfx"
-	center_building_mesh = "punic_center_mesh"
+	center_building_mesh = "persian_center_mesh"
 	soundeffect = "event:/SFX/Ambience/3DMapEmitters/Urban/sfx_amb_3d_city_persian"
 	tier = {
 		priority = 0
@@ -185,11 +184,10 @@ Aramaic = {
 		rotation_steps = 4				# Meshes will be rotated in 1 step, i.e always 0 degrees
 		rotation_variation = 0		# A big variation will be added after the step. i.e final rotation is step_rotation +- variation
 		meshes = {
-			"persian_01_01_mesh"
-			"anatolian_01_01_mesh"
-			"hattusa_01_02_mesh"
+			"hattusa_01_01_mesh"
+			"persian_01_02_mesh"
 			"hattusa_01_03_mesh"
-			"hattusa_01_04_mesh"
+			"persian_01_04_mesh"
 		}
 	}
 	tier = {
@@ -200,11 +198,12 @@ Aramaic = {
 		rotation_steps = 8				# Meshes will be rotated in 8 steps, i.e 0, 45, 90 etc
 		rotation_variation = 0			# A small variation will be added after the step. i.e final rotation is step_rotation +- variation
 		meshes = {
-			"persian_02_01_mesh"
-			"anatolian_02_01_mesh"
+			"hattusa_02_01_mesh"
 			"hattusa_02_02_mesh"
 			"hattusa_02_03_mesh"
-			"hattusa_02_04_mesh"
+			"persian_02_04_mesh"
+			"persian_02_05_mesh"
+			"persian_02_06_mesh"
 		}
 	}
 	tier = {
@@ -215,11 +214,12 @@ Aramaic = {
 		rotation_steps = 4				# Meshes will be rotated in 4 steps, i.e 0, 90, 180, and 270 degrees
 		rotation_variation = 0			# A small variation will be added after the step. i.e final rotation is step_rotation +- variation
 		meshes = {
-			"persian_03_01_mesh"
+			"hattusa_03_01_mesh"
 			"hattusa_03_02_mesh"
-			"anatolian_03_02_mesh"
-			"hattusa_03_03_mesh"
-			"hattusa_03_04_mesh"
+			"persian_03_03_mesh"
+			"persian_03_04_mesh"
+			"persian_03_05_mesh"
+			"persian_03_06_mesh"
 		}
 	}
 	tier = {
@@ -230,11 +230,12 @@ Aramaic = {
 		rotation_steps = 4				# Meshes will be rotated in 4 steps, i.e 0, 90, 180, and 270 degrees
 		rotation_variation = 0			# A small variation will be added after the step. i.e final rotation is step_rotation +- variation
 		meshes = {
-			"persian_04_01_mesh"
-			"anatolian_04_01_mesh"
+			"hattusa_04_01_mesh"
 			"hattusa_04_02_mesh"
-			"hattusa_04_03_mesh"
+			"persian_04_03_mesh"
 			"persian_04_04_mesh"
+			"persian_04_05_mesh"
+			"persian_04_06_mesh"
 		}
 	}
-}
+}	

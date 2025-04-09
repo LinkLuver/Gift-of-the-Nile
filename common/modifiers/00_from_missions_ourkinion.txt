@@ -1,10 +1,10 @@
 ﻿ourkinion_prepared = {
-	global_manpower_modifier = 0.10
-	monthly_military_experience_modifier = 0.05
+	global_defensive = 0.05
+	global_commerce_modifier = 0.05
 }
 corsian_tactics = {
 	hills_combat_bonus = 0.10
-	land_unit_attrition = -1
+	heavy_infantry_cost = -0.05
 }
 ourkinionian_venegance = {
 	agressive_expansion_impact = -0.10
@@ -17,6 +17,7 @@ retained_hellenic_ways = {
 }
 lessons_from_our_past = {
 	naval_damage_taken = -0.15
+	ship_repair_at_sea = 0.02
 	navy_movement_speed = 0.05
 }
 accepted_corsians = {

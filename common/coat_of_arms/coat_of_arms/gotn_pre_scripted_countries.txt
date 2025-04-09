@@ -1193,7 +1193,6 @@ HKS = {
 GAL = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb {155 64 129 }
-	color2 = "offwhite"
 
 	colored_emblem = {
 		texture = "ce_grain_pair.dds"
@@ -1231,7 +1230,6 @@ CYP = {
 AKH = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 67 60 52 }
-	color2 = "epirus_yellow"
 
 	colored_emblem = {
 		texture = "ce_venetic_dagger.dds"
@@ -1261,7 +1259,6 @@ AKH = {
 BRL = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 127 157 120 }
-	color2 = "offwhite"
 
 	colored_emblem = {
 		texture = "ce_tyrsenia_sea_people.dds"
@@ -1279,7 +1276,6 @@ BRL = {
 MOE = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 132 142 149 }
-	color2 = "mid_grey"
 	
 	colored_emblem = {
 		texture = "ce_border_centre_thracian_base_02.dds"
@@ -1305,7 +1301,6 @@ MOE = {
 AGU = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 115 91 127 }
-	color2 = "ck2_red"
 
 	colored_emblem = {
 		texture = "ce_hadad.dds"
@@ -1329,7 +1324,6 @@ AGU = {
 OXB = {
 	pattern = "pattern_solid.tga"
 	color1 = "desaturated_green"
-	color2 = "ck2_blue"
 
 	colored_emblem = {
 		texture = "ce_bull_05.dds"
@@ -1358,7 +1352,6 @@ OXB = {
 OUR = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 150 135 122 }
-	color2 = "offwhite"
 
 	colored_emblem = {
 		texture = "ce_spearhead_01.dds"
@@ -1538,7 +1531,6 @@ LP2 = {
 AKE = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 47 43 45 }
-	color2 = "offwhite"
 
 	colored_emblem = {
 		texture = "ce_mesopatamian_weapons_4.dds"
