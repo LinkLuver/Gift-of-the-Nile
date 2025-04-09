@@ -3,9 +3,9 @@
 	picture = "gfx/interface/event_window/Event_army_marches.dds"
 }
 
-Event_attack_on_city_wall_by_sea = {
+interesting_histories_italic_hilltop = {
 	theme = Uncategorized
-	picture = "gfx/interface/event_window/Event_attack_on_city_wall_by_sea.dds"
+	picture = "gfx/interface/event_window/interesting_histories_italic_hilltop.dds"
 }
 
 Event_dangerous_mountain_crossing = {
@@ -23,14 +23,14 @@ Event_lighthouse_of_alexandria = {
 	picture = "gfx/interface/event_window/Event_lighthouse_of_alexandria.dds"
 }
 
-Event_massive_naval_battle = {
+rep_hatussa = {
 	theme = Uncategorized
-	picture = "gfx/interface/event_window/Event_massive_naval_battle.dds"
+	picture = "gfx/interface/event_window/rep_hatussa.dds"
 }
 
-Event_roman_legion_vs_calvary_charge = {
+gotn_battle_of_delta = {
 	theme = Uncategorized
-	picture = "gfx/interface/event_window/Event_roman_legion_vs_calvary_charge.dds"
+	picture = "gfx/interface/event_window/gotn_battle_of_delta.dds"
 }
 
 Event_roman_senate_speaks = {
@@ -38,12 +38,12 @@ Event_roman_senate_speaks = {
 	picture = "gfx/interface/event_window/Event_roman_senate_speaks.dds"
 }
 
-Event_roman_triumph = {
+gotn_persia_night = {
 	theme = Uncategorized
-	picture = "gfx/interface/event_window/Event_roman_triumph.dds"
+	picture = "gfx/interface/event_window/gotn_persia_night.dds"
 }
 
-Event_tribal_raid = {
+gotn_delta_pyramids = {
 	theme = Uncategorized
-	picture = "gfx/interface/event_window/Event_tribal_raid.dds"
+	picture = "gfx/interface/event_window/gotn_delta_pyramids.dds"
 }
