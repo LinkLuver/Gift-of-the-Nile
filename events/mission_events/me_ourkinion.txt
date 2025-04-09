@@ -5,12 +5,16 @@ me_ourkinion.1 = {
 
     title = me_ourkinion_1_title
     desc = me_ourkinion_1_desc
-    picture = great_library
+    picture = interesting_histories_greek_soldiers
 
     option = {
         name = "me_ourkinion_1.a"
         custom_tooltip = me_ourkinion_1_tooltip
-
+        add_manpower = 1.5 
+        add_country_modifier = {
+            name = ourkinion_prepared
+            duration = 1825
+        }
     }
 }
 me_ourkinion.2 = {
@@ -18,12 +22,20 @@ me_ourkinion.2 = {
 
     title = me_ourkinion_2_title
     desc = me_ourkinion_2_desc
-    picture = great_library
+    picture = greek_states_path_2_event
 
     option = {
         name = "me_ourkinion_2.a"
         custom_tooltip = me_ourkinion_2_tooltip
-
+        add_country_modifier = {
+            name = ourkinionian_venegance
+            duration = 730
+        }
+        declare_war_with_wargoal = {
+            target = c:ALE
+            war_goal = conquer_wargoal
+            province = 3515
+        }
     }
 }
 me_ourkinion.3 = {
@@ -31,12 +43,14 @@ me_ourkinion.3 = {
 
     title = me_ourkinion_3_title
     desc = me_ourkinion_3_desc
-    picture = great_library
+    picture = Event_massive_naval_battle
+
 
     option = {
         name = "me_ourkinion_3.a"
         custom_tooltip = me_ourkinion_3_tooltip
-
+        p:3508 = { set_owned_by = root }
+        p:3509 = { set_owned_by = root }    
     }
 }
 me_ourkinion.4 = { # Preparing Ourkinion 
@@ -60,29 +74,15 @@ me_ourkinion.5 = { # On The Corsians
 
     title = me_ourkinion_5_title
     desc = me_ourkinion_5_desc
-    picture = interesting_histories_eastern_tribes
+    picture = grand_ship
 
     option = {
         name = "me_ourkinion_5.a"
         custom_tooltip = me_ourkinion_5_tt
         add_country_modifier = {
-			name = retained_hellenic_ways
-			duration = 3650
+			name = lessons_from_our_past
+			duration = -1
 		}
-    }
-    option = {
-        name = "me_ourkinion_5.b"
-        custom_tooltip = me_ourkinion_5_tt
-        random_country_culture = {
-            limit = { is_culture = corsian }
-            set_country_culture_right = citizen
-            hidden_effect = { add_integration_progress = 1 }
-        }
-        add_country_modifier = {
-            name = accepted_corsians
-            duration = 3650
-        }
-        add_stability = -10
     }
 }
 me_ourkinion.6 = { # Crushing the Longogenses
