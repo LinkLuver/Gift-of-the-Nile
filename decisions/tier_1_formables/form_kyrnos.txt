@@ -43,12 +43,13 @@
 				change_country_adjective = "KYRNOS_ADJECTIVE"
 				change_country_color = "light_blue"
 				change_country_tag = KYR
+				change_country_flag = KYRNOS_FLAG
 			}
-			capital_scope = {
+			set_capital = 3515
+			p:3515 = {
 				capital_formable_small_effect = yes
 				formable_capital_modifier_normal_effect = yes
 			}
-			set_capital = 3515
 			add_2_free_province_investments = yes
 			add_country_modifier = {
 				name = kyrnos_mod

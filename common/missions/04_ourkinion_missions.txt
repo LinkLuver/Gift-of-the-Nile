@@ -215,19 +215,6 @@ ourkinion_missions = {
             }
         }
     }
-    ourkinion_missions_task_12 = {
-
-        requires = { ourkinion_missions_task_9 ourkinion_missions_task_11 } 
-
-        icon = "task_political"
-        allow = {}
-        on_completion = {
-            trigger_event = me_ourkinion.12
-            show_as_tooltip = {
-
-            }
-        }
-    }
     ourkinion_missions_task_13 = {
 
         requires = { ourkinion_missions_task_4 } 
@@ -246,7 +233,7 @@ ourkinion_missions = {
             treasury = 100
         }
         on_completion = {
-            trigger_event = me_ourkinion.13
+            trigger_event = me_ourkinion.8
             show_as_tooltip = {
                 add_treasury = -100
                 add_political_influence = -30
@@ -273,12 +260,32 @@ ourkinion_missions = {
         requires = { ourkinion_missions_task_13 } 
 
         icon = "task_political"
-        allow = {}
-        on_completion = {
-            trigger_event = me_ourkinion.14
-            show_as_tooltip = {
-
+        allow = {
+            custom_tooltip = {
+            	text = ourkinion_farm_tt
+            	any_owned_province = {
+	                count >= 3
+	                num_of_basic_settlement_infratructure_building >= 1
+	                has_construction = no
+	                OR = {
+	                	is_in_area = corsica_area
+	                }
+                }
             }
         }
+        on_completion = {
+            trigger_event = me_ourkinion.14
+        }
+    }
+    ourkinion_missions_task_12 = {
+
+        requires = { ourkinion_missions_task_9 ourkinion_missions_task_11 } 
+
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_ourkinion.12
+        }
+        final = yes
     }
 }

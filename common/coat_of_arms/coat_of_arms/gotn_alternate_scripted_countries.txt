@@ -600,3 +600,22 @@ THERA_FLAG = {
 	}
 
 }
+
+KYRNOS_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "light_blue"
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_spearhead_01.dds"
+		color1 = "offwhite"
+		instance = { position = { 0.50 0.50 } rotation = -90 }
+	}
+	colored_emblem = {
+		texture = "ce_border_leaves_03.dds"
+		color1 = "light_blue"
+		color2 = "offwhite"
+		instance = { rotation = 90 }
+		instance = { rotation = -90 }
+	}
+}
