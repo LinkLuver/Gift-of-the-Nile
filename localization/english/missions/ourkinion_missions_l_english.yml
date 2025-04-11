@@ -35,6 +35,8 @@ ourkinion_missions_task_13:0 "Embellishing Alalia"
 ourkinion_missions_task_13_DESC:0 "Praise be to Ares, Alalia has come under our control. Now, it must be expanded, and become the shining gemstone of our people."
 ourkinion_missions_task_14:0 "Expanding Agriculture"
 ourkinion_missions_task_14_DESC:0 "We must learn to be self sufficient- why should we rely on grain from foreign powers?"
+ourkinion_missions_task_15:0 "Southern Emporions"
+ourkinion_missions_task_15_DESC:0 "The port of Phikaria is well-located. We should seek to establish a proper settlement there, to further our commerce."
 
 
 #Tooltips
@@ -50,7 +52,7 @@ ourkinion_task_9_a_tooltip:0 "We must have a navy of at least 25 light or medium
 me_ourkinion_10_tt:0 "The mission task '#Y $ourkinion_missions_task_10$#!' has now been #G Completed#!!"
 ourkinion_unlocks_italic_trads_tt:0 "We will unlock the #G Italic military traditions#!."
 
-ourkinion_assimilation:0 "#R Depending on our choices, we will either grow closer with or anger the Corsian populous#!"
+ourkinion_assimilation:0 "Depending on our choices, we will either #G grow closer#! with the #Y Corsian#! populous, or #R anger#! them."
 
 ourkinion_aleria_war:0 "Completing this mission will cause us to #R declare war on Aleria#!."
 
@@ -58,6 +60,13 @@ ourkinion_corsica_settlement:0 "We will petition the western #Y Greek#! states f
 
 ourkinion_farm_tt:0 "The province of #Y Corsica#! must have at least three farming settlements built."
 
+ourkinion_fleet:0 "We must have a navy of at least 20 cohorts."
+
+ourkinion_colony:0 "We will look to purchase a colony from our neighbors."
+
+ourkinion_fort_tt:0 "The province of #Y Corsica#! must have at least 3 forts, and the city of #Y Allalia#! must have at least 2."
+
+corsian_gods:0 "The #Y Nuragic#! gods may retaliate against us..."
 
 #Modifiers
 
@@ -69,6 +78,10 @@ accepted_corsians:0 "Accepted Corsians"
 lessons_from_our_past:0 "Lessons From Our Past"
 embellished_alalia:0 "Embellished Alalia"
 ourkinion_farming:0 "Corsican Agriculture"
+ourkinion_training:0 "Kyrnossan Military Center"
+ourkinion_deconstructed:0 "Ourkinion Deconstructed"
+ourkinion_fortress:0 "Island Fortress"
+corsian_dissent:0 "Corsian Dissent"
 
 
 #Events
@@ -83,19 +96,19 @@ me_ourkinion_3_desc:0 "Under the cover of night, our navy and a small force of s
 me_ourkinion_3.a:0 "This acquisition will prove vital."
 ourkinion_missions_task_3_tt_a:0 "We must have a navy of at least 5 cohorts in the #Y Mare Sardoum#!."
 
+me_ourkinion_4_desc:0 "[GetProvince('(int32)3515').GetName] has proved much more hospitable and welcoming than our old capital of [GetProvince('(int32)3510').GetName]. Many in our senate argue that [GetProvince('(int32)3510').GetName] should be scrapped, and that we can use the building materials to reinvest in our new capital, while the population is relocated to [GetProvince('(int32)3515').GetName]. At a great cost, we could build up [GetProvince('(int32)3510').GetName]. It would serve well as a military site, as it it easily defensible, and would further our control of the eastern side of the island."
+me_ourkinion_4.a:0 "Allalia is our home."
+me_ourkinion_4.b:0 "It would be foolish to demolish our second home."
 
-me_ourkinion_4_title:0 ""
-me_ourkinion_4_desc:0 ""
-me_ourkinion_4.a:0 ""
+me_ourkinion_5_desc:0 "Once before, our navy failed us. With these foundations laid, never again will our ships be the end of us. From now on, no other power will be able to challenge our naval might."
+me_ourkinion_5.a:0 "We shall rule the waves."
 
-me_ourkinion_5_title:0 ""
-me_ourkinion_5_desc:0 ""
+me_ourkinion_6_desc:0 "A debate has been raging in the halls of the senate. The matter? The native inhabitants of #Y Corsia#!.\n\n A senator named #E Nikomaches#! got up before the senate, and exclaimed "Countrymen, how long have we stayed separate from the barbarians that surround us? Why should we abandon our traditional ways. It is no fluke that we have survived thus far.' #E Euripedes#! got up from his seat and responded 'No longer can we adhere to the archaic traditions of the past! We must change as a people if we wish to make our place in the world.'\n\nIntegrating the #E Corsians#! will surely displease many of our [GetCulture('massalian').GetName] citizens, but we will make great headways with the #E Corsians#!."
+me_ourkinion_6.a:0 "We are too stuck in our ways, we will never change."
+me_ourkinion_6.b:0 "It seems change is inevitable."
 
-me_ourkinion_6_title:0 ""
-me_ourkinion_6_desc:0 ""
-
-me_ourkinion_7_title:0 "To The South"
-me_ourkinion_7_desc:0 ""
+me_ourkinion_7_desc:0 "With the personal direction of [ROOT.GetCountry.GetRuler.GetName|E], our soldiers have begun to learn from [GetCulture('corsian').GetName] warriors. Some of them begrugdingly listened, while others complained outright of being told what to do by a non-Greek. After a few weeks of training, our army has obtained a much better knowledge of the rough Corsican terrain, and the best ways to not only travel in it, but to fight in it. Truly, we will be undefeatable on our own land."
+me_ourkinion_7.a:0 "It seems there are advantages to being a barbarian."
 
 me_ourkinion_8_desc:0 "Over a year of feverish investment has come to fruition in [GetProvince('(int32)3515').GetName]. All over the city, each district has had significant improvements. The city stands more glorious than anyone can remember, a testament to the ingenuity of [ROOT.GetCountry.GetName].\n\nOn the day when the construction came to an end, a great parade was held, dedicated to Apollo Delphinos. Citizens swarmed the streets, and sang the praises and victories of [ROOT.GetCountry.GetRuler.GetName|E]. Never before have we known such joy and revelry, this is a turning point for our people."
 me_ourkinion_8.a:0 "Alalia will be an example to Greeks, Italics, and Nuragics alike."
@@ -129,17 +142,17 @@ me_ourkinion_2_tooltip:0 "The mission task '#Y $ourkinion_missions_task_4$#!' ha
 me_ourkinion_3_title:0 "$ourkinion_missions_task_3$"
 me_ourkinion_3_tooltip:0 "The mission task '#Y $ourkinion_missions_task_3$#!' has now been #G Completed#!!"
 
-me_ourkinion_4_title:0 "$ourkinion_missions_task_4$"
-me_ourkinion_4_tooltip:0 "The mission task '#Y $ourkinion_missions_task_4$#!' has now been #G Completed#!!"
+me_ourkinion_4_title:0 "$ourkinion_missions_task_6$"
+me_ourkinion_4_tooltip:0 "The mission task '#Y $ourkinion_missions_task_6$#!' has now been #G Completed#!!"
 
 me_ourkinion_5_title:0 "$ourkinion_missions_task_5$"
 me_ourkinion_5_tooltip:0 "The mission task '#Y $ourkinion_missions_task_5$#!' has now been #G Completed#!!"
 
-me_ourkinion_6_title:0 "$ourkinion_missions_task_6$"
-me_ourkinion_6_tooltip:0 "The mission task '#Y $ourkinion_missions_task_6$#!' has now been #G Completed#!!"
+me_ourkinion_6_title:0 "$ourkinion_missions_task_2$"
+me_ourkinion_6_tooltip:0 "The mission task '#Y $ourkinion_missions_task_2$#!' has now been #G Completed#!!"
 
-me_ourkinion_7_title:0 "$ourkinion_missions_task_7$"
-me_ourkinion_7_tooltip:0 "The mission task '#Y $ourkinion_missions_task_7$#!' has now been #G Completed#!!"
+me_ourkinion_7_title:0 "$ourkinion_missions_task_8$"
+me_ourkinion_7_tooltip:0 "The mission task '#Y $ourkinion_missions_task_8$#!' has now been #G Completed#!!"
 
 me_ourkinion_8_title:0 "$ourkinion_missions_task_13$"
 me_ourkinion_8_tooltip:0 "The mission task '#Y $ourkinion_missions_task_13$#!' has now been #G Completed#!!"
@@ -161,3 +174,6 @@ me_ourkinion_13_tooltip:0 "The mission task '#Y $ourkinion_missions_task_13$#!' 
 
 me_ourkinion_14_title:0 "$ourkinion_missions_task_14$"
 me_ourkinion_14_tooltip:0 "The mission task '#Y $ourkinion_missions_task_14$#!' has now been #G Completed#!!"
+
+me_ourkinion_15_title:0 "$ourkinion_missions_task_15$"
+me_ourkinion_15_tooltip:0 "The mission task '#Y $ourkinion_missions_task_15$#!' has now been #G Completed#!!"

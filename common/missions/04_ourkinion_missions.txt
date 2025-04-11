@@ -39,18 +39,23 @@ ourkinion_missions = {
             }
         }
         on_completion = {
+            trigger_event = me_ourkinion.1
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = ourkinion_prepared
+                    duration = 1825
+                }
+            }
             add_war_exhaustion = 5
             add_tyranny = 5
-            trigger_event = me_ourkinion.1
         }
     }
-    ourkinion_missions_task_2 = {
+    ourkinion_missions_task_2 = { #On The Corsians
 
-        requires = { ourkinion_missions_task_1 }
+        requires = { ourkinion_missions_task_3 }
 
         icon = "task_religion"
         duration = 180
-        requires = { ourkinion_missions_task_1 }
         highlight = {
             scope:province = {
                 OR = {
@@ -60,9 +65,11 @@ ourkinion_missions = {
         }
         allow = {
             political_influence >= 50
+            custom_tooltip = ourkinion_formed_kyrnos
+            has_variable = has_formed_kyrnos
         }
         on_completion = {
-            trigger_event = me_ourkinion.2
+            trigger_event = me_ourkinion.6
             show_as_tooltip = {
                 add_political_influence = -50
             }
@@ -104,7 +111,7 @@ ourkinion_missions = {
 
         requires = { ourkinion_missions_task_1 } 
 
-        icon = "task_battle"
+        icon = "task_conquest"
         highlight = {
             scope:province = {
                 OR = {
@@ -118,6 +125,10 @@ ourkinion_missions = {
         on_completion = {
             trigger_event = me_ourkinion.2
             show_as_tooltip = {
+                add_country_modifier = {
+                    name = ourkinionian_venegance
+                    duration = 730
+                }
                 add_political_influence = -30
             }
         }
@@ -125,38 +136,40 @@ ourkinion_missions = {
 
     ourkinion_missions_task_5 = {
 
-        requires = { ourkinion_missions_task_2 }  
+        requires = { ourkinion_missions_task_8 }  
 
-        icon = "task_political"
+        icon = "task_heracles"
         allow = {
-            any_navy = {
-                unit_size >= 15
-            }
+            num_of_ships >= 20
         }
         on_completion = {
             trigger_event = me_ourkinion.5
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = lessons_from_our_past
+                    duration = 3650
+                }
+            }
         }
     }
     ourkinion_missions_task_6 = {
 
         requires = { ourkinion_missions_task_13 } 
 
-        icon = "task_political"
-        allow = {}
+        icon = "task_economical"
         on_completion = {
-            trigger_event = me_ourkinion.6
-            show_as_tooltip = {
-
-            }
+            trigger_event = me_ourkinion.4
         }
     }
     ourkinion_missions_task_7 = {
 
         requires = { ourkinion_missions_task_2 } 
 
-        icon = "task_political"
-        allow = {}
+        icon = "task_religion"
+        allow = {
+        }
         on_completion = {
+            custom_tooltip = corsian_gods
             trigger_event = me_ourkinion.7
             show_as_tooltip = {
 
@@ -165,40 +178,68 @@ ourkinion_missions = {
     }
     ourkinion_missions_task_8 = {
 
-        requires = { ourkinion_missions_task_3 } 
+        requires = { ourkinion_missions_task_1 } 
 
-        icon = "task_political"
-        allow = {}
+    duration = 90
+
+        icon = "task_athena"
+        allow = {
+            military_experience >= 35 
+        }
         on_completion = {
-            trigger_event = me_ourkinion.8
+            trigger_event = me_ourkinion.7
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = corsian_tactics
+                    duration = -1
+                }
             }
         }
     }
     ourkinion_missions_task_9 = {
 
-        requires = { ourkinion_missions_task_10 } 
+    duration = 90
+
+        requires = { ourkinion_missions_task_7 ourkinion_missions_task_15 } 
 
         icon = "task_political"
-        allow = {}
+        allow = {
+            treasury >= 150 
+            custom_tooltip = ourkinion_colony_tt
+        }
         on_completion = {
             trigger_event = me_ourkinion.9
-            show_as_tooltip = {
-
-            }
         }
     }
     ourkinion_missions_task_10 = {
 
-        requires = { ourkinion_missions_task_5 ourkinion_missions_task_7 } 
+        requires = { ourkinion_missions_task_8  } 
 
-        icon = "task_political"
-        allow = {}
+        icon = "task_expansion"
+        allow = {
+            custom_tooltip = {
+            	text = ourkinion_fort_tt
+            	any_owned_province = {
+	                count >= 3
+                    num_of_fortress_building >= 1 
+	                has_construction = no
+	                OR = {
+	                	is_in_area = corsica_area
+	                }
+                }
+                p:3515 = {
+                    num_of_fortress_building >= 2
+	                has_construction = no
+                }
+            }
+        }
         on_completion = {
             trigger_event = me_ourkinion.10
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = ourkinion_fortress
+                    duration = -1
+                }
             }
         }
     }
@@ -206,13 +247,30 @@ ourkinion_missions = {
 
         requires = { ourkinion_missions_task_6 ourkinion_missions_task_14} 
 
-        icon = "task_political"
-        allow = {}
+        duration = 90
+
+
+        icon = "task_diplomatic"
+        allow = {
+            p:3515 = {
+                num_of_commerce_building >= 2
+                num_of_ports >= 2 
+            }
+            trigger_if = {
+                limit = {
+                    is_republic = yes
+                }
+                has_law = republican_mediterranean_2
+            }
+            trigger_else_if = {
+                limit = {
+                    is_monarchy = yes
+                }
+                has_law = slave_oarsmen
+            }
+        }
         on_completion = {
             trigger_event = me_ourkinion.11
-            show_as_tooltip = {
-
-            }
         }
     }
     ourkinion_missions_task_13 = {
@@ -230,7 +288,9 @@ ourkinion_missions = {
         }
         allow = {
             political_influence >= 30
-            treasury = 100
+            treasury >= 100
+            custom_tooltip = ourkinion_formed_kyrnos
+            has_variable = has_formed_kyrnos
         }
         on_completion = {
             trigger_event = me_ourkinion.8
@@ -259,10 +319,10 @@ ourkinion_missions = {
 
         requires = { ourkinion_missions_task_13 } 
 
-        icon = "task_political"
+        icon = "task_zeus_cornucopia"
         allow = {
-            custom_tooltip = {
-            	text = ourkinion_farm_tt
+            custom_tooltip = { 
+                text = ourkinion_farm_tt 
             	any_owned_province = {
 	                count >= 3
 	                num_of_basic_settlement_infratructure_building >= 1
@@ -275,13 +335,32 @@ ourkinion_missions = {
         }
         on_completion = {
             trigger_event = me_ourkinion.14
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = ourkinion_farming
+                    duration = 5475
+                }
+            }
+        }
+    }
+    ourkinion_missions_task_15 = {
+    
+    requires = { ourkinion_missions_task_2 } 
+    
+    icon = "task_political"
+    allow = {
+        treasury >= 150 
+        custom_tooltip = ourkinion_colony_tt
+        }
+        on_completion = {
+            trigger_event = me_ourkinion.15
         }
     }
     ourkinion_missions_task_12 = {
 
         requires = { ourkinion_missions_task_9 ourkinion_missions_task_11 } 
 
-        icon = "task_political"
+        icon = "task_atlas"
         allow = {}
         on_completion = {
             trigger_event = me_ourkinion.12

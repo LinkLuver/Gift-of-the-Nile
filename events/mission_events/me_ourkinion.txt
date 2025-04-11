@@ -10,7 +10,6 @@ me_ourkinion.1 = {
     option = {
         name = "me_ourkinion_1.a"
         custom_tooltip = me_ourkinion_1_tooltip
-        add_manpower = 1.5 
         add_country_modifier = {
             name = ourkinion_prepared
             duration = 1825
@@ -27,18 +26,18 @@ me_ourkinion.2 = {
     option = {
         name = "me_ourkinion_2.a"
         custom_tooltip = me_ourkinion_2_tooltip
-        add_country_modifier = {
-            name = ourkinionian_venegance
-            duration = 730
-        }
         declare_war_with_wargoal = {
             target = c:ALE
             war_goal = conquer_wargoal
             province = 3515
         }
+        add_country_modifier = {
+            name = ourkinionian_venegance
+            duration = 730
+        }
     }
 }
-me_ourkinion.3 = {
+me_ourkinion.3 = { #
     type = country_event
 
     title = me_ourkinion_3_title
@@ -53,23 +52,58 @@ me_ourkinion.3 = {
         p:3509 = { set_owned_by = root }    
     }
 }
-me_ourkinion.4 = { # Preparing Ourkinion 
+me_ourkinion.4 = { # The Matter of Ourkinion
     type = country_event
 
     title = me_ourkinion_4_title
     desc = me_ourkinion_4_desc
-    picture = interesting_histories_sparta_city
+    picture = city_construction
 
+    immediate = {
+        p:3515 = { 
+        save_scope_as = alalia_scope
+        }
+    }
     option = {
-        name = "me_ourkinion_1.a"
+        name = "me_ourkinion_4.a"
         custom_tooltip = me_ourkinion_4_tooltip
-        add_country_modifier = {
-			name = ourkinion_prepared
-			duration = 1825
-		}
+        add_treasury = 200
+        p:3510 = {
+            set_city_status = settlement
+            add_province_modifier = {
+                name = ourkinion_deconstructed
+                duration = 3650
+            }
+        }
+        p:3510 = {
+            ordered_pops_in_province = {
+                order_by = pop_hapiness
+                max = {
+                    value = total_population
+                    multiply = 0.7
+                    round = floor
+                }
+                check_range_bounds = no
+                move_pop = scope:alalia_scope
+            }
+        }
+    }
+    option = {
+        name = "me_ourkinion_4.b"
+        custom_tooltip = me_ourkinion_4_tooltip
+        add_treasury = -150
+        add_manpower = -5
+        p:3510 = {
+            add_province_modifier = {
+                name = ourkinion_training
+                duration = -1
+            }
+            create_state_pop = citizen
+            create_state_pop = freemen
+        }
     }
 }
-me_ourkinion.5 = { # On The Corsians
+me_ourkinion.5 = { # Control of the Sea
     type = country_event
 
     title = me_ourkinion_5_title
@@ -80,49 +114,65 @@ me_ourkinion.5 = { # On The Corsians
         name = "me_ourkinion_5.a"
         custom_tooltip = me_ourkinion_5_tooltip
         add_country_modifier = {
-			name = lessons_from_our_past
-			duration = -1
-		}
+            name = lessons_from_our_past
+            duration = 3650
+        }
     }
 }
-me_ourkinion.6 = { # Crushing the Longogenses
+me_ourkinion.6 = { # On the Corsians
     type = country_event
 
     title = me_ourkinion_6_title
     desc = me_ourkinion_6_desc
-    picture = greek_seleucid_path_6
+    picture = greek_political_discussion
 
     option = {
         custom_tooltip = me_ourkinion_6_tooltip
         name = "me_ourkinion_6.a"
+        add_country_modifier = {
+            name = retained_hellenic_ways 
+            duration = 7300
+        }
+        random_country_culture = {
+			limit = {
+				is_culture = corsian
+			}
+			add_country_culture_modifier = {
+				name = corsian_dissent
+				duration = 7300
+			}
+            set_variable = corsians_shunned
+		}
+    }
+    option = {
+        custom_tooltip = me_ourkinion_6_tooltip
+        name = "me_ourkinion_6.b"
+        add_country_modifier = {
+            name = accepted_corsians
+            duration = 7300
+        }
+        random_country_culture = {
+            limit = {
+                is_culture = corsian
+            }
+            set_country_culture_right = citizen
+            add_integration_progress = 1
+        }
+        set_variable = corsians_integrated
     }
 }
-me_ourkinion.7 = { # March On Aleria
+me_ourkinion.7 = { # Corsian Tactics
     type = country_event
 
     title = me_ourkinion_7_title
     desc = me_ourkinion_7_desc
-    picture = interesting_histories_greek_soldiers
-
-    immediate = {
-        random_country = {
-            limit = {
-                tag = ALE
-            }
-            save_scope_as = scope_ale
-        }
-    }
+    picture = celtic_britannic_path_4_event
     option = {
-        name = "me_ourkinion_7.a"
+         name = "me_ourkinion_7.a"
         custom_tooltip = me_ourkinion_7_tooltip
-        declare_war_with_wargoal = {
-            war_goal = conquer_wargoal
-            target = scope:scope_ale
-            province = p:3515
-        }
         add_country_modifier = {
-            name = ourkinionian_venegance
-            duration = 90
+            name = corsian_tactics
+            duration = -1
         }
     }
 }
@@ -160,28 +210,20 @@ me_ourkinion.9 = { # Greek Settlers
 		}
     }
 }
-me_ourkinion.10 = { # To The South 
+me_ourkinion.10 = { # Island Fortress
     type = country_event
 
     title = me_ourkinion_10_title
     desc = me_ourkinion_10_desc
-    picture = latin_tribal_path_2
+    picture = latin_philosophy_start_bonus_event
 
     option = {
         name = "me_ourkinion_10.a"
         custom_tooltip = me_ourkinion_10_tooltip
-        custom_tooltip = me_ourkinion_10_claims_tt
-        hidden_effect = {
-			every_province = {
-				limit = {
-					OR = {
-						is_in_area = sardinia_meridionalis
-					    is_in_area = sardinia_septentrionalis
-					}
-			}
-			add_claim = root
-			}
-		}
+        add_country_modifier = {
+            name = ourkinion_fortress
+            duration = -1
+        }
     }
 }
 me_ourkinion.11 = { # Greek Settlers
@@ -243,8 +285,24 @@ me_ourkinion.14 = { # Expanding Agriculture
         name = "me_ourkinion_14.a"
         custom_tooltip = me_ourkinion_14_tooltip
         add_country_modifier = {
-			name = ourkinion_farms
-			duration = -1
+            name = ourkinion_farming
+            duration = 5475
+        }
+    }
+}
+me_ourkinion.15 = { # Greek Settlers
+    type = country_event
+
+    title = me_ourkinion_15_title
+    desc = me_ourkinion_15_desc
+    picture = interesting_histories_greek_port
+
+    option = {
+        name = "me_ourkinion_15.a"
+        custom_tooltip = me_ourkinion_15_tooltip
+        add_country_modifier = {
+			name = ourkinion_prepared
+			duration = 1825
 		}
     }
 }

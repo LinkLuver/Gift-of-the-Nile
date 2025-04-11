@@ -598,7 +598,13 @@ THERA_FLAG = {
 		color1 = "roman_gold"
 		instance = { scale = { 1.05 1.05 } }
 	}
-
+	colored_emblem = {
+		texture = "ce_border_leaves_03.dds"
+		color1 = "light_blue"
+		color2 = "offwhite"
+		instance = { rotation = 90 }
+		instance = { rotation = -90 }
+	}
 }
 
 KYRNOS_FLAG = {
@@ -608,14 +614,43 @@ KYRNOS_FLAG = {
 
 	colored_emblem = {
 		texture = "ce_spearhead_01.dds"
-		color1 = "offwhite"
-		instance = { position = { 0.50 0.50 } rotation = -90 }
+		color1 = "bone_white"
+		instance = { scale = { 0.90 0.90 } rotation = -90 }
 	}
 	colored_emblem = {
 		texture = "ce_border_leaves_03.dds"
 		color1 = "light_blue"
-		color2 = "offwhite"
+		color2 = "bone_white"
 		instance = { rotation = 90 }
 		instance = { rotation = -90 }
 	}
 }
+
+#KYRNOS_FLAG = { INTERESTING DESIGN BUT DOESN'T FIT KYRNOS
+	#pattern = "pattern_horizontal_bar_01.tga"
+	#color1 = "light_blue"
+	#color2 = "offwhite"
+
+	#colored_emblem = {
+		#texture = "ce_spearhead_03.dds"
+		#color1 = "silver"
+		#instance = { scale = { 0.30 0.30 } position = { 0.90 0.90 } rotation = -90 }
+		#instance = { scale = { 0.40 0.40 } position = { 0.70 0.90 } rotation = -90 }
+		#instance = { scale = { 0.40 0.40 } position = { 0.50 0.90 } rotation = -90 }
+		#instance = { scale = { 0.40 0.40 } position = { 0.30 0.90 } rotation = -90 }
+		#instance = { scale = { 0.40 0.40 } position = { 0.10 0.90 } rotation = -90 }
+		#instance = { scale = { 0.40 0.40 } position = { 0.90 0.90 } rotation = -90 }
+		#instance = { scale = { 0.40 0.40 } position = { 0.70 0.10 } rotation = 90 }
+		#instance = { scale = { 0.40 0.40 } position = { 0.50 0.10 } rotation = 90 }
+		#instance = { scale = { 0.40 0.40 } position = { 0.30 0.10 } rotation = 90 }
+		#instance = { scale = { 0.40 0.40 } position = { 0.10 0.10 } rotation = 90 }
+		#instance = { scale = { 0.40 0.40 } position = { 0.90 0.10 } rotation = 90 }
+	#}
+	#colored_emblem = {
+		#texture = "ce_star_10.dds"
+		#color1 = "epirus_yellow"
+		#instance = { scale = { 0.40 0.40 } }
+		#instance = { scale = { 0.40 0.40 } position = { 0.85 0.50 }}
+		#instance = { scale = { 0.40 0.40 } position = { 0.15 0.50 }}
+	#}
+#}

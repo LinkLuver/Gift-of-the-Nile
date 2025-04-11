@@ -38,12 +38,12 @@
 		effect = {
 			custom_tooltip = "tier_1_formable_tooltip"
 			change_country_name = "KYRNOS_NAME"
-			set_variable = has_formed_kyrnos
 			hidden_effect = {
 				change_country_adjective = "KYRNOS_ADJECTIVE"
 				change_country_color = "light_blue"
 				change_country_tag = KYR
 				change_country_flag = KYRNOS_FLAG
+				set_variable = has_formed_kyrnos
 			}
 			set_capital = 3515
 			p:3515 = {
