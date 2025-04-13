@@ -1,0 +1,56 @@
+﻿huaxia = {
+	color = hsv { 0.7 0.65 0.03 }
+
+	levy_template = levy_central_asia
+	
+	primary = light_infantry
+	second = heavy_cavalry
+	flank = horse_archers
+
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+
+	male_names = {
+		An Bai Biao Bo Bu Cao Chen Chengcheng De Gan Hao Hua Ji Jing Junzhuan Jun Kuang Kui Lei Long Ming Qiu Sizhai Tai Weikai Weiming Xia Xing Ya Ying Yingying Yingyun Youwei Zhai Zhefu Zhuan
+	}
+	female_names = {
+		An Chen Cui De Fu Gan Hao Hua Huan Jing Jingnv Lan Mei Qingqing Ruyu Shu Shunv Wanru Wanting Wanxi Xing Xunmei Yan Yi Yiren Zhiyuan Zhu Zipei
+	}
+	family = {
+		Ao.Ao.Ao.Ao
+		Gao.Gao.Gao.Gao
+		Gongsun.Gongsun.Gongsun.Gongsun
+		Gongyang.Gongyang.Gongyang.Gongyang
+		Hao.Hao.Hao.Hao
+		Hong.Hong.Hong.Hong
+		Lan.Lan.Lan.Lan
+		Lv.Lv.Lv.Lv
+		Mao.Mao.Mao.Mao
+		Meng.Meng.Meng.Meng
+		Peng.Peng.Peng.Peng
+		Ouyang.Ouyang.Ouyang.Ouyang
+		Sikong.Sikong.Sikong.Sikong
+		Sikou.Sikou.Sikou.Sikou
+		Sima.Sima.Sima.Sima
+		Situ.Situ.Situ.Situ
+		Xi.Xi.Xi.Xi
+		Xuan.Xuan.Xuan.Xuan
+		Zhang.Zhang.Zhang.Zhang
+		Zhen.Zhen.Zhen.Zhen
+		Zhu.Zhu.Zhu.Zhu
+	}
+	culture = {
+		jueyun = {}
+	}
+	
+	barbarian_names = { 
+		HONGJIN HUANGJIN BAIJIN
+	}
+	
+	graphical_culture = persian_gfx
+	ethnicities = {
+		10 = bactrian
+		30 = scythian
+	}
+}
