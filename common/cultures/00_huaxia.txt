@@ -1,11 +1,11 @@
 ﻿huaxia = {
-	color = hsv { 0.7 0.65 0.03 }
+	color = hsv { 0.1 0.9 1.0 }
 
 	levy_template = levy_central_asia
 	
 	primary = light_infantry
-	second = heavy_cavalry
-	flank = horse_archers
+	second = archers
+	flank = light_cavalry
 
 	primary_navy = tetrere
 	secondary_navy = octere
