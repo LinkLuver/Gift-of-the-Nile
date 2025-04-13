@@ -198,7 +198,7 @@
 		amount=8
 	}
 	citizen={
-		culture="pasargadi"
+		culture="jueyun"
 		religion="zoroaster"
 		amount=2
 	}
@@ -224,7 +224,7 @@
 
 6704={ #Ooemoeia Superiores
 	terrain="farmland"
-	culture="pasargadi"
+	culture="jueyun"
 	religion="taoism"
 	trade_goods="silk"
 	civilization_value=42

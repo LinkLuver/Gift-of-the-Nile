@@ -48,9 +48,8 @@
 		HONGJIN HUANGJIN BAIJIN
 	}
 	
-	graphical_culture = persian_gfx
+	graphical_culture = chinese_gfx
 	ethnicities = {
-		10 = bactrian
-		30 = scythian
+		10 = chinese
 	}
 }
