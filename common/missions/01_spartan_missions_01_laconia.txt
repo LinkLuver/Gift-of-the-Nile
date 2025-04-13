@@ -413,9 +413,8 @@
 
        		on_completion = {
         	trigger_event = me_spartan_01_laconia.14
-			}
 		}
-    }
+	}
 
     spartan_mission_01_laconia_task_9 = { # Helots of Messenia
         icon = "task_diplomatic"
