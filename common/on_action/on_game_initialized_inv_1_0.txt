@@ -362,6 +362,10 @@
 			add_opinion = { target = c:ADI modifier = cradle_rivals }
 			add_opinion = { target = c:MAP modifier = cradle_rivals }
 		}
+		if = {
+			limit = { tag = TAY }
+			tayuan_legion_setup_effect = yes
+		}
 		#if = {
 			#limit = { tag = EPI }
 			#if = {

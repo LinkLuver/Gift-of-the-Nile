@@ -255,9 +255,6 @@
 		amount=2
 	}
 	tribesmen={
-		amount=2
-	}
-	tribesmen={
 		culture="sogdian"
 		religion="zoroaster"
 		amount=2
@@ -615,9 +612,17 @@
 	trade_goods="wood"
 	civilization_value=23
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=2
+		culture="jueyun"
+	}
 	citizen={
 		amount=2
+	}
+	citizen={
+		amount=4
+		culture="jueyun"
 	}
 	freemen={
 		amount=6
@@ -702,14 +707,23 @@
 	civilization_value=24
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=2
+		culture="jueyun"
+	}
 	citizen={
 		amount=4
+		culture="tayuan"
 	}
 	freemen={
 		amount=7
 	}
 	freemen={
-		culture="sogdian"
+		amount=4
+		culture="tayuan"
+	}
+	freemen={
+		culture="jueyun"
 		religion="zoroaster"
 		amount=2
 	}

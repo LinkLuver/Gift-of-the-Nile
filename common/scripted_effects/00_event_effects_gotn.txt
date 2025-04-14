@@ -147,6 +147,33 @@ persia_legion_setup_effect = {
 		}
 	}
 }
+tayuan_legion_setup_effect = {
+	capital_scope.governorship = {
+		raise_legion = {
+			create_unit = {
+				name = "Heavenly Horses of Jueyun"
+				location = p:6704 # Guishan
+				sub_unit = horse_archers
+				save_scope_as = legion_scope
+				add_subunit = horse_archers
+				add_subunit = horse_archers
+				add_subunit = horse_archers
+				add_subunit = horse_archers
+				add_subunit = horse_archers
+				add_subunit = horse_archers
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+				add_subunit = archers
+				add_subunit = archers
+				add_subunit = supply_train
+			}
+			if = {
+				limit = { has_dlc = "Heirs of Alexander" }
+				add_distinction = distinction_legio_primagena
+			}
+		}
+	}
+}
 assyria_legion_setup_effect = {
 	capital_scope.governorship = {
 		raise_legion = {
