@@ -242,7 +242,7 @@
 			#add_opinion = { target = c:TRE modifier = diadochi_rivals }
 			#add_opinion = { target = c:EGY modifier = diadochi_rivals }
 			#add_opinion = { target = c:SEL modifier = diadochi_rivals }
-		}
+		#}
 		#if = {
 			#limit = { tag = TRE }
 			#current_ruler = {
