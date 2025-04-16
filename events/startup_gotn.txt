@@ -627,6 +627,18 @@ gotn_events.17 = { # Jueyun Backstory
 		current_ruler = {
         add_trait = ambitious
 		}
+		create_character = {
+			female = no
+			culture = root.culture
+			religion = daoism
+			no_stats = yes
+			add_charisma = 5
+			add_finesse = 3
+			add_martial = 14
+			add_zeal = 8
+			add_popularity = 80
+			add_gold = 300
+		}
     }
     add_country_modifier = {
         name = tayuan_exile_army
