@@ -606,6 +606,35 @@ gotn_events.16 = { # The True Sons of Krete
     }
 }
 
+gotn_events.17 = { # Jueyun Backstory
+    
+    type = country_event
+    title = "gotn_events_17_title"
+    desc = "gotn_events_17_desc"
+    picture = Event_roman_senate_speaks
+
+    trigger = {
+        OR = {
+            tag = TAY
+        }
+    }
+    fire_only_once = yes
+    
+    option = {
+    custom_tooltip = "gotn_events_17_tt"
+    name = "gotn_events_17.a"
+    hidden_effect = {   
+		current_ruler = {
+        add_trait = ambitious
+		}
+    }
+    add_country_modifier = {
+        name = tayuan_exile_army
+        duration = 3652
+        }
+    }
+}
+
 
 
 

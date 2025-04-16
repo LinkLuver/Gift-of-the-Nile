@@ -93,6 +93,9 @@ sons_of_crete = {
     hills_combat_bonus = 0.10
     monthly_party_approval = 0.03
 }
+tayuan_exile_army = {
+    army_maintenance_cost = -0.80
+}
 ithome_spared = {
     local_population_happiness = 0.05
     local_unrest = -0.25
