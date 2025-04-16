@@ -83,3 +83,11 @@
  LEVY_NAME_latin:0 "Conscripti $ROMAN$ $GOVERNORSHIP$"
  LEVY_NAME_persia:0 "$NUM$$ORDER$ Kara of $GOVERNORSHIP$"
  LEVY_NAME_germanic:0 "$NUM$$ORDER$ Burjana of $GOVERNORSHIP$"
+ 
+ ### Huaxia name ###
+ GOVERNORSHIP_LEGION_NAME_jueyun:0 "$BASE$ Jun"
+ LEGION_NAME_jueyun:0 "Wu of $BASE$"
+ #LEVY_NAME_jueyun:0 "$NUM$$ORDER$ Weizu of $GOVERNORSHIP$" #doesnt work
+ #ARMY_NAME_huaxia:1 "$NUM$ 500 of $HOME$" #doesnt work 
+ #NAVY_NAME_huaxia:0 "$NUM$$ORDER$ Navy" #doesnt work
+ #COHORT_NAME_huaxia:0 "$NUM$$ORDER$ 500 of $HOME$" #doesnt work
