@@ -324,3 +324,27 @@ mercenary_republic = { #Mercenary Republic
 	
 	can_deify_ruler = no
 }
+
+jueyun_administration = {
+	religious_ideas = 1
+	civic_ideas = 2
+	revolt = no
+	type = monarchy
+
+	bonus = {
+        global_population_capacity_modifier = 0.15
+	}
+	base = {
+		country_civilization_value = 20
+		global_pop_assimilation_speed = 0.1
+	}
+
+	use_regnal_numbers = yes
+
+
+	election_delay = 0
+	ruler_consort_benefits = yes
+
+
+	color = rgb { 59 59 226 }
+}
