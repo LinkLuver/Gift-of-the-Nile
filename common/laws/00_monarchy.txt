@@ -148,7 +148,7 @@ monarchy_military_reforms_lydia = {
 		}
 	}
 	
-	recruit_from_nobles = {
+	recruit_from_nobles_lydia = {
 		modifier = {
 			levy_size_multiplier = 0.1
 			happiness_for_same_culture_modifier = 0.04
@@ -174,7 +174,7 @@ monarchy_military_reforms_lydia = {
 		}
 	}
 	
-	work_for_the_best = { #Royal Guard - Diadochi
+	work_for_the_best_lydia = { #Royal Guard - Diadochi
 		allow = {
 			rank >= regional_power
 		}
@@ -188,7 +188,7 @@ monarchy_military_reforms_lydia = {
 		}
 	}
 
-	standing_army_law = { #Roman Empire
+	standing_army_law_lydia = { #Roman Empire
 	allow = {
 		invention = discipline_inv_5
 		rank >= major_power
@@ -315,7 +315,7 @@ monarchy_lydia_economic_laws = {
 		}
 	}
 	
-	local_investment_policy = {
+	local_investment_policy_lydia = {
 		allow = {
 			invention = global_tribesmen_output_inv_3
 		}
@@ -325,7 +325,7 @@ monarchy_lydia_economic_laws = {
 		}
 	}
 	
-	heritage_tax_exemption = { 
+	heritage_tax_exemption_lydia = { 
 		allow = {
 			invention = global_tribesmen_output_inv_3 
 		}
