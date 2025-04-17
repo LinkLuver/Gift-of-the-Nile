@@ -20,16 +20,17 @@
 959={ #Sharzur
 	terrain="plains"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
-		amount=1
+		amount=3
 	}
 	tribesmen={
-		amount=2
+		culture="lullu"
+		amount=8
 	}
 }
 
