@@ -701,7 +701,7 @@ deity_zeus_naios = {
 		}
 		OR = {
 			tag = EPI
-			has_variable = epi_unique_mech
+			
 		}
 		has_dlc = "Epirus Flavor Pack"
 	}
@@ -2537,7 +2537,7 @@ deity_apollo_delphinios = {
         OR = {
         	deity:omen_apollo_delphinios = {
         		holy_site_deity_check_trigger = yes
-        	}
+        }
 		OR = {
         	primary_culture = massalian
 		}
@@ -2563,4 +2563,34 @@ deity_apollo_delphinios = {
     on_activate = {
         culture_apotheosis_capital_effect = yes
     }
+}
+
+deity_asclepius_kyrnossa = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			very_rare_deity_trigger = {
+				RELIGION = roman_pantheon
+			}
+			deity:omen_asclepius = {
+				holy_site_deity_check_trigger = yes
+			}
+		OR = {
+			has_variable = unlock_asklepios_kyrnossa
+		}
+		}
+	}
+	passive_modifier = { global_citizen_happyness = deity_global_nobles_happiness_svalue }
+	icon = deity_diadochi_culture
+	omen = { global_monthly_food_modifier = omen_global_monthly_civilization_svalue } #Bonus from Omen
+	religion = roman_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+
+	on_activate = {
+		economy_apotheosis_capital_noble_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
 }

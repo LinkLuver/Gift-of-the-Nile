@@ -224,5 +224,9 @@ deity_manager = {
 		    key = omen_apollo_delphinios
 		    deity = deity_apollo_delphinios
 		}
+		30534 = {
+			key = omen_asclepius_kyrnossa
+			deity = deity_asclepius_kyrnossa
+		}
 	}
 }

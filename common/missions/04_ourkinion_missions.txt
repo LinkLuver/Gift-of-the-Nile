@@ -1,4 +1,4 @@
-ourkinion_missions = {
+﻿ourkinion_missions = {
     icon = cde_new_city_founded
 	header = mission_image_generic_greek
 
@@ -32,6 +32,15 @@ ourkinion_missions = {
 
     ourkinion_missions_task_1 = {
         icon = "task_political"
+
+        highlight = {
+            scope:province = {
+                OR = {
+                    province_id = 3510
+                }
+            }
+        }
+
         allow = {
             p:3510 = {
                 has_building = military_building
@@ -157,6 +166,9 @@ ourkinion_missions = {
         requires = { ourkinion_missions_task_13 } 
 
         icon = "task_economical"
+        
+        allow = {}
+
         on_completion = {
             trigger_event = me_ourkinion.4
         }
@@ -170,10 +182,7 @@ ourkinion_missions = {
         }
         on_completion = {
             custom_tooltip = corsian_gods
-            trigger_event = me_ourkinion.7
-            show_as_tooltip = {
-
-            }
+            trigger_event = me_ourkinion.9
         }
     }
     ourkinion_missions_task_8 = {
@@ -204,11 +213,9 @@ ourkinion_missions = {
 
         icon = "task_political"
         allow = {
-            treasury >= 150 
-            custom_tooltip = ourkinion_colony_tt
         }
         on_completion = {
-            trigger_event = me_ourkinion.9
+            trigger_event = me_ourkinion.13
         }
     }
     ourkinion_missions_task_10 = {
@@ -216,17 +223,10 @@ ourkinion_missions = {
         requires = { ourkinion_missions_task_8  } 
 
         icon = "task_expansion"
+
         allow = {
             custom_tooltip = {
             	text = ourkinion_fort_tt
-            	any_owned_province = {
-	                count >= 3
-                    num_of_fortress_building >= 1 
-	                has_construction = no
-	                OR = {
-	                	is_in_area = corsica_area
-	                }
-                }
                 p:3515 = {
                     num_of_fortress_building >= 2
 	                has_construction = no
@@ -241,6 +241,12 @@ ourkinion_missions = {
                     duration = -1
                 }
             }
+            p:3515 = { 
+                add_province_modifier = {
+                    name = alalia_walls
+                    duration = -1
+                }
+            }
         }
     }
     ourkinion_missions_task_11 = {
@@ -249,8 +255,16 @@ ourkinion_missions = {
 
         duration = 90
 
-
         icon = "task_diplomatic"
+
+        highlight = {
+            scope:province = {
+                OR = {
+                    province_id = 3515
+                }
+            }
+        }
+
         allow = {
             p:3515 = {
                 num_of_commerce_building >= 2
@@ -271,6 +285,14 @@ ourkinion_missions = {
         }
         on_completion = {
             trigger_event = me_ourkinion.11
+            show_as_tooltip = {
+                p:3515 = { 
+                    add_province_modifier = {
+                        name = alalia_trade_center
+                        duration = 14600
+                    }
+                }
+            }
         }
     }
     ourkinion_missions_task_13 = {
@@ -279,13 +301,6 @@ ourkinion_missions = {
 
         icon = "task_zeus_cornucopia"
         duration = 365
-        highlight = {
-            scope:province = {
-                OR = {
-                    province_id = 3515
-                }
-            }
-        }
         allow = {
             political_influence >= 30
             treasury >= 100
@@ -338,7 +353,7 @@ ourkinion_missions = {
             show_as_tooltip = {
                 add_country_modifier = {
                     name = ourkinion_farming
-                    duration = 5475
+                    duration = -1
                 }
             }
         }
@@ -347,10 +362,20 @@ ourkinion_missions = {
     
     requires = { ourkinion_missions_task_2 } 
     
+    duration = 90
+
     icon = "task_political"
+
+    highlight = {
+        scope:province = {
+            OR = {
+                province_id = 3508
+            }
+        }
+    }
+
     allow = {
-        treasury >= 150 
-        custom_tooltip = ourkinion_colony_tt
+        treasury >= 75 
         }
         on_completion = {
             trigger_event = me_ourkinion.15
@@ -360,9 +385,24 @@ ourkinion_missions = {
 
         requires = { ourkinion_missions_task_9 ourkinion_missions_task_11 } 
 
+        
+        highlight = {
+            scope:province = {
+                OR = {
+                    province_id = 3515
+                }
+            }
+        }
+
         icon = "task_atlas"
-        allow = {}
+        allow = {
+            p:3515 = {
+                civilization_value >= 60
+                country_population >= 50
+            }
+        }
         on_completion = {
+            #custom_tooltip = ourkinion_final_tt # ADD STUFF LATER?
             trigger_event = me_ourkinion.12
         }
         final = yes

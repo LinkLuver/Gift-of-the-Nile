@@ -6186,7 +6186,7 @@ country = {
 			capital = 2116
 
 			own_control_core = 	{
-				2116 2125 7740
+				2116 2125 7740 2133
 			}
 		}
 
@@ -6212,7 +6212,7 @@ country = {
 			capital = 2111
 
 			own_control_core = 	{
-				2111 2090 2089 2086 2113 2114
+				2111 2090 2089 2086 2113 2114 2115
 			}
 		}
 
@@ -6225,7 +6225,7 @@ country = {
 			capital = 2112
 
 			own_control_core = 	{
-				2112 2109 2110 2091 2124 2117
+				2112 2109 2110 2091 2124 2117 2126
 			}
 		}
 
@@ -6282,10 +6282,9 @@ country = {
 		}
 
 		DUM = {
-			government = tribal_kingdom
+			government = plutocratic_monarchy
 			primary_culture = dumnonian
 			religion = druidism
-			centralization=10
 
 			capital = 2003
 
@@ -6342,7 +6341,7 @@ country = {
 			capital = 2054
 
 			own_control_core = 	{
-				3057 2053 2054 2055 2057 2058 2062 2063 2065 2067 2068 2069 5433 2044
+				3057 2053 2054 2055 2057 2058 2062 2063 2065 2067 2068 5433 2044
 			}
 		}
 
@@ -6376,25 +6375,12 @@ country = {
 			government = tribal_kingdom
 			primary_culture = ordovitian
 			religion = druidism
-			centralization=5
+			centralization=10
 
-			capital = 2102
-
-			own_control_core = 	{
-				2100 2101 2102 2103 2104 2105
-			}
-		}
-
-		DEC = {
-			government = tribal_kingdom
-			primary_culture = ordovitian
-			religion = druidism
-			centralization=5
-
-			capital = 2106
+			capital = 2105
 
 			own_control_core = 	{
-				2106 2107
+				2100 2101 2102 2103 2104 2105 2106 2107
 			}
 		}
 
@@ -6407,7 +6393,7 @@ country = {
 			capital = 2077
 
 			own_control_core = 	{
-				3058 3059 3060 2070 2071 2072 2073 2074 2077 2078 2080 2081 2085 2087 2088 5434
+				3058 3059 3060 2070 2071 2072 2073 2074 2077 2078 2080 2081 2085 2087 2088 5434 2084 5432 2069
 			}
 		}
 
@@ -6420,7 +6406,7 @@ country = {
 			capital = 2082
 
 			own_control_core = 	{
-				2083 2084 5432 2082
+				2083 2082
 			}
 		}
 
@@ -7496,7 +7482,7 @@ country = {
 			capital = 2379
 
 			own_control_core = 	{
-			 	2379 2382 2346 2383
+			 	2379 2382 2383
  			}
 		}
 
@@ -7606,7 +7592,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				3629 3630 3625 3624 3623
+				3625 3624 3623
  			}
 		}
 
@@ -13831,7 +13817,7 @@ country = {
 			capital = 2190
 
 			own_control_core = 	{
-				2190 2167 2191
+				2190 2167 2191 2192 
 			}
 		}
 
@@ -13849,7 +13835,7 @@ country = {
 		}
 
 		IVE = {
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = ivernian
 			religion = druidism
 			centralization = 0
@@ -13857,7 +13843,7 @@ country = {
 			capital = 2161
 
 			own_control_core = 	{
-				2161 2177 2176 2179 2163
+				2161 2176 2179 2163 2182 2180 2181 2185 
 			}
 		}
 
@@ -13870,7 +13856,7 @@ country = {
 			capital = 2162
 
 			own_control_core = 	{
-				 2162 2178 2182
+				2162 2178 2177
 			}
 		}
 
@@ -13922,7 +13908,7 @@ country = {
 			capital = 2119
 
 			own_control_core = {
-				2119 2118 2128
+				2119 2118 2128 6311
 			}
 		}
 
@@ -13935,7 +13921,7 @@ country = {
 			capital = 2122
 
 			own_control_core = {
-				2122 2121
+				2122 2121 2131
 			}
 		}
 
@@ -15836,7 +15822,7 @@ country = {
 			capital = 2183
 
 			own_control_core = 	{
-				2166 2183 2180 2181 2185
+				2166 2183
 			}
 		}
 

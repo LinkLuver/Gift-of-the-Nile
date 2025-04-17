@@ -541,6 +541,14 @@ diplomacy = {
 		member = CIP
 	}
 
+	#Britannia 
+	#Brigantia + Parisia
+	dependency = { first = BRI second = PAS subject_type = tributary }
+
+	#Ordovices + Manapia
+	dependency = { first = ORD second = MON subject_type = tributary }
+
+
 	#Germania
 	#dependency = { first = CHA second = BAT subject_type = tributary }
 	dependency = { first = CRS second = FOS subject_type = tributary }

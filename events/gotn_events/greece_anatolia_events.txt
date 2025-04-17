@@ -1,4 +1,4 @@
-namespace = greece_events
+﻿namespace = greece_events
 
 greece_events.1 = { # A Deal with the Lydians
     
@@ -418,6 +418,7 @@ greece_events.11 = { # Aegea Name + Gov + Capital decision
 				has_trait = arrogant
 				has_trait = eccentric
 				has_trait = foolish
+			}
 			}
 		}
         name = "greece_events_11.e"	#Thera - rebuild Thera/become Theran Kingdom

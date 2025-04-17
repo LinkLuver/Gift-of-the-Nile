@@ -13,8 +13,8 @@ ourkinion_missions_task_2:0 "On The Corsians"
 ourkinion_missions_task_2_DESC:0 "The Corsians are the native inhabitants of this land. Our policy of exclusion and xenophobia may need to be re-examined, if we wish to have a solid control over the entire island."
 ourkinion_missions_task_3:0 "Crushing the Tibulatians"
 ourkinion_missions_task_3_DESC:0 "To the south lie the Tibulatians, the controller of the Taphros strait. Our strategic interests lie here, we must push them out."
-ourkinion_missions_task_4:0 "March On Alalia"
-ourkinion_missions_task_4_DESC:0 "Alalia will become ours once again."
+ourkinion_missions_task_4:0 "March On Alallia"
+ourkinion_missions_task_4_DESC:0 "Alallia will become ours once again."
 ourkinion_missions_task_5:0 "Control Of The Sea"
 ourkinion_missions_task_5_DESC:0 "If we wish to secure our newly-established position, we must have the naval power to support us."
 ourkinion_missions_task_6:0 "The Matter of Ourkinion"
@@ -23,26 +23,25 @@ ourkinion_missions_task_7:0 "The Old Gods"
 ourkinion_missions_task_7_DESC:0 "Deep within the mountains of Corsica, beings far older than any Greek stir."
 ourkinion_missions_task_8:0 "Corsian Knowledge"
 ourkinion_missions_task_8_DESC:0 "These rugged people have an intrinsic knowledge of Corsica. We would be wise to learn from them."
-ourkinion_missions_task_9:0 "A New Colony"
-ourkinion_missions_task_9_DESC:0 "We have become so prosperous, so overflowing with wealth, that we must look beyond Corsica."
+ourkinion_missions_task_9:0 "A Patron Deity"
+ourkinion_missions_task_9_DESC:0 "The priests in Allalia have suggested that we choose a new patron deity, perhaps one that better reflects our recent accomplishments."
 ourkinion_missions_task_10:0 "Island Fortress"
 ourkinion_missions_task_10_DESC:0 "Whether by land or by sea, our island shall become impenetrable."
 ourkinion_missions_task_11:0 "Italian Interests"
 ourkinion_missions_task_11_DESC:0 "Our closest trade interests lie with the cities of Etruria, and the Faliscan and Latin cities. We must expand these ties."
-ourkinion_missions_task_12:0 "Alalia, Everlasting"
-ourkinion_missions_task_12_DESC:0 ""
-ourkinion_missions_task_13:0 "Embellishing Alalia"
-ourkinion_missions_task_13_DESC:0 "Praise be to Ares, Alalia has come under our control. Now, it must be expanded, and become the shining gemstone of our people."
+ourkinion_missions_task_12:0 "Alallia, Everlasting"
+ourkinion_missions_task_12_DESC:0 "Allalia has become one of the great cities of the world. Against all odds, we have reclaimed our heritage, and forged a new path."
+ourkinion_missions_task_13:0 "Embellishing Alallia"
+ourkinion_missions_task_13_DESC:0 "Praise be to Ares, Alallia has come under our control. Now, it must be expanded, and become the shining gemstone of our people."
 ourkinion_missions_task_14:0 "Expanding Agriculture"
 ourkinion_missions_task_14_DESC:0 "We must learn to be self sufficient- why should we rely on grain from foreign powers?"
-ourkinion_missions_task_15:0 "Southern Emporions"
+ourkinion_missions_task_15:0 "Southern Investments"
 ourkinion_missions_task_15_DESC:0 "The port of Phikaria is well-located. We should seek to establish a proper settlement there, to further our commerce."
 
 
 #Tooltips
 
 ourkinion_formed_kyrnos:0 "We must have taken the decision to form #Y Kyrnos#!."
-
 
 me_ourkinion_8_tt:0 "The mission task '#Y $ourkinion_missions_task_8$#!' has now been #G Completed#!!"
 
@@ -64,9 +63,12 @@ ourkinion_fleet:0 "We must have a navy of at least 20 cohorts."
 
 ourkinion_colony:0 "We will look to purchase a colony from our neighbors."
 
-ourkinion_fort_tt:0 "The province of #Y Corsica#! must have at least 3 forts, and the city of #Y Allalia#! must have at least 2."
+ourkinion_fort_tt:0 "The city of #Y Allalia#! must have at least 2 forts."
 
 corsian_gods:0 "The #Y Nuragic#! gods may retaliate against us..."
+
+ourkinion_final_tt:0 "We will be able to choose between several permanent #G bonuses#!."
+
 
 #Modifiers
 
@@ -82,6 +84,11 @@ ourkinion_training:0 "Kyrnossan Military Center"
 ourkinion_deconstructed:0 "Ourkinion Deconstructed"
 ourkinion_fortress:0 "Island Fortress"
 corsian_dissent:0 "Corsian Dissent"
+massalian_dissent:0 "Massalian Dissent"
+phikaria_obsidian:0 "Obsidian of Phikaria"
+alalia_trade_center:0 "Great Marketplace of Alallia"
+corsica_eternal:0 "Kyrnos Eternal"
+alalia_walls:0 "Walls of Allalia"
 
 
 #Events
@@ -113,24 +120,37 @@ me_ourkinion_7.a:0 "It seems there are advantages to being a barbarian."
 me_ourkinion_8_desc:0 "Over a year of feverish investment has come to fruition in [GetProvince('(int32)3515').GetName]. All over the city, each district has had significant improvements. The city stands more glorious than anyone can remember, a testament to the ingenuity of [ROOT.GetCountry.GetName].\n\nOn the day when the construction came to an end, a great parade was held, dedicated to Apollo Delphinos. Citizens swarmed the streets, and sang the praises and victories of [ROOT.GetCountry.GetRuler.GetName|E]. Never before have we known such joy and revelry, this is a turning point for our people."
 me_ourkinion_8.a:0 "Alalia will be an example to Greeks, Italics, and Nuragics alike."
 
-me_ourkinion_9_title:0 ""
-me_ourkinion_9_desc:0 ""
-me_ourkinion_9.a:0 ""
+me_ourkinion_9_desc:0 "An old, wizened man appears before the senate, during the midst of a debate. [ROOT.GetCountry.GetRuler.GetName|E], curious as to what he has to say, lets him speak. 'Sardo, the god of my fathers, will punish you wicked Greeks for your actions against our people. Invaders of our land, desecrators of our people. Shame be upon you and your descendants for a thousand years!' Upon hearing this, the entire senate erupted into laughter, and the old man was escorted out.\n\n[ROOT.GetCountry.GetRuler.GetName|E] however, did not take this omen so lightly. After he left the senate, he saw a lone black crow nested upon an olive tree, a sign of death. Is the old man to be believed, or was he some superstitious old man?"
+me_ourkinion_9.a:0 "Well I certainly believe him. Let's worship their deities, just in case."
+me_ourkinion_9.b:0 "Why should we believe the babblings of an old fool."
+me_ourkinion_9.c:0 "Our people can co-exist; we will make a sacrifice to the Nuragic gods."
 
-me_ourkinion_10_title:0 ""
-me_ourkinion_10_desc:0 ""
+me_ourkinion_10_desc:0 "#E Kyrnos#! is now properly fortified. Our enemies would be hard pressed to crack our line of defenses. The walls of [GetProvince('(int32)3515').GetName] have been significantly improved, with walls being built around the several smaller settlements around the city, the farmlands, and importantly, a wall protecting our port, built in a similar manner to the walls of Piraeus."
+me_ourkinion_10.a:0 "Our island is now impenetrable."
 
-me_ourkinion_11_title:0 ""
-me_ourkinion_11_desc:0 ""
+me_ourkinion_11_desc:0 "The enlargement of our already magnificent central market has made [GetProvince('(int32)3515').GetName] into a very desirable place to do buisiness. Our cental market stands larger than any [GetCulture('etruscan').GetCultureGroup.GetName|E] one, something that [ROOT.GetCountry.GetCoRuler.GetName|E] made sure to personally inspect when on a visit to [GetProvince('(int32)17').GetName]. While there, [ROOT.GetCountry.GetCoRuler.GetName|E] came up with an ignenious new policy; to lower tariffs. Naturally, the motion passed in the senate, and merchants are flocking to [GetProvince('(int32)3515').GetName] like we have never seen before. Additionally, it seems our recent investments into the city have made it somewhat of a tourist attraction. An unexpected surprise, but welcome nonethless."
+me_ourkinion_11.a:0 "The money will roll right in."
 
-me_ourkinion_12_title:0 ""
-me_ourkinion_12_desc:0 ""
+me_ourkinion_12.a:0 "Corsica will forever be our home."
 
-me_ourkinion_13_title:0 ""
 me_ourkinion_13_desc:0 ""
 
 me_ourkinion_14_desc:0 "The hills outside of [GetProvince('(int32)3515').GetName], despite their rugged nature, have proved suitable for small farms. The fisheries on the coast have also seen an increase in production. Although we will not become a breadbasket like #Y Sicily#!, our people will be fed."
 me_ourkinion_14.a:0 "Excellent."
+
+me_ourkinion_15_desc:0 "After many days of deliberation, our advisors have decided on two options. The first one, to invest heavily in the infrastructure of [GetProvince('(int32)3508').GetName], and establish it as a colony city. The second option would be to exploit the natural resourced there. Obsidian is rather rare, and many merchants abroad would be clamoring to get their hands on it. "
+me_ourkinion_15.a:0 "Phikaria will become our southern stronghold."
+me_ourkinion_15.b:0 "The Obsidian trade will prove bountiful."
+
+me_ourkinion_12_d_desc:0 "The glories of our nation and city have spread far and wide. Only the most backward and ignorant of peoples do not know the tales of our banishment to [GetProvince('(int32)3510').GetName], and our glorious battle for [GetProvince('(int32)3515').GetName]. Everything we have needed to prosper has been found on #E Corsica#!; we have no need fo reliance on foreign powers. No power will ever be able to contest us on our home territory, our many great fortresses and our superior navy will defend against any foe, not to mention our battle-hardened soldiers. Truly, we are a blessed people.\n\n[ROOT.GetCountry.GetRuler.GetName|E] contemplates all these victories and accomplishments, especially about the great city of [GetProvince('(int32)3515').GetName], which shines like a gem amongst rocks. But most of all, [ROOT.GetCountry.GetRuler.GetName|E] ponders the future of [ROOT.GetCountry.GetName]; what is to become of us?"
+
+me_ourkinion_16_title:0 "Woe!"
+me_ourkinion_16_desc:0 "[ROOT.GetCountry.GetRuler.GetName|E] looked out of his window, shocked to see a disturbance in the city. [GetProvince('(int32)3515').GetName] has been struck by an earthquake. Several parts of the city, and although not many people were killed, and the eartquake was rather minor, it still stood as a clear sign to the [ROOT.GetCountry.GetAdjective|E] people- the ancient gods of #E Corsia#! are not to be toyed with."
+me_ourkinion_16.a:0 "Well, it could have been worse."
+
+me_ourkinion_17_title:0 "A Blessing From Sardo"
+me_ourkinion_17_desc:0 "[ROOT.GetCountry.GetRuler.GetName|E] personally supervised the sacrifice to the #E Nuragic#! gods, seeing fit that three young calves were sacrificed in their honor, along with a fit bull. The sky, which had been a dark, gloomy gray, slowly turned a clear, beautiful blue once the sacrifices had been completed. It seems that Sardo has found favor with us, perhaps due to our honorable treatment of the [GetCulture('corsian').GetName] people. At any rate, we should be more careful with our treatment of foreign faiths."
+me_ourkinion_17.a:0 "How lucky."
 
 #Events
 me_ourkinion_1_title:0 "$ourkinion_missions_task_1$"
@@ -157,8 +177,9 @@ me_ourkinion_7_tooltip:0 "The mission task '#Y $ourkinion_missions_task_8$#!' ha
 me_ourkinion_8_title:0 "$ourkinion_missions_task_13$"
 me_ourkinion_8_tooltip:0 "The mission task '#Y $ourkinion_missions_task_13$#!' has now been #G Completed#!!"
 
-me_ourkinion_9_title:0 "$ourkinion_missions_task_9$"
-me_ourkinion_9_tooltip:0 "The mission task '#Y $ourkinion_missions_task_9$#!' has now been #G Completed#!!"
+me_ourkinion_9_title:0 "$ourkinion_missions_task_7$"
+me_ourkinion_9_a_tooltip:0 "The mission task '#Y $ourkinion_missions_task_7$#!' has now been #G Completed#!!\n\nThis option is available because our ruler is either a lunatic, eccentric, or foolish"
+me_ourkinion_9_b_tooltip:0 "The mission task '#Y $ourkinion_missions_task_7$#!' has now been #G Completed#!!\n\nThis option is available because of our choices in #Y $ourkinion_missions_task_2$#!."
 
 me_ourkinion_10_title:0 "$ourkinion_missions_task_10$"
 me_ourkinion_10_tooltip:0 "The mission task '#Y $ourkinion_missions_task_10$#!' has now been #G Completed#!!"
