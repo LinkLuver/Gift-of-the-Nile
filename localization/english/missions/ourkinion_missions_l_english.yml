@@ -89,6 +89,10 @@ phikaria_obsidian:0 "Obsidian of Phikaria"
 alalia_trade_center:0 "Great Marketplace of Alallia"
 corsica_eternal:0 "Kyrnos Eternal"
 alalia_walls:0 "Walls of Allalia"
+apollo_delphinios_patronized:0 "Apollo Delphinios Patronized"
+asklepios_merre_patronized:0 "Asklepios-Merre Patronized"
+herakles_patronized:0 "Herakles Patronized"
+hephaistos_patronized:0 "Hephaistos Patronized"
 
 
 #Events
@@ -133,7 +137,11 @@ me_ourkinion_11.a:0 "The money will roll right in."
 
 me_ourkinion_12.a:0 "Corsica will forever be our home."
 
-me_ourkinion_13_desc:0 ""
+me_ourkinion_13_desc:0 "The importance of our religious cults have grown significantly, to the point where we can no longer ignore their demands. The time has come to choose a patron for [GetProvince('(int32)3515').GetName]. There are several prominent cults in the city already- which best represents our nation?"
+me_ourkinion_13.a:0 "Apollo Delphinios, the protecter of our sailors."
+me_ourkinion_13.b:0 "The ever-popular Herakles."
+me_ourkinion_13.c:0 "Hephaistos, the god of smiths."
+me_ourkinion_13.d:0 "Asklepios-Merre, the healer of our people."
 
 me_ourkinion_14_desc:0 "The hills outside of [GetProvince('(int32)3515').GetName], despite their rugged nature, have proved suitable for small farms. The fisheries on the coast have also seen an increase in production. Although we will not become a breadbasket like #Y Sicily#!, our people will be fed."
 me_ourkinion_14.a:0 "Excellent."
@@ -151,6 +159,8 @@ me_ourkinion_16.a:0 "Well, it could have been worse."
 me_ourkinion_17_title:0 "A Blessing From Sardo"
 me_ourkinion_17_desc:0 "[ROOT.GetCountry.GetRuler.GetName|E] personally supervised the sacrifice to the #E Nuragic#! gods, seeing fit that three young calves were sacrificed in their honor, along with a fit bull. The sky, which had been a dark, gloomy gray, slowly turned a clear, beautiful blue once the sacrifices had been completed. It seems that Sardo has found favor with us, perhaps due to our honorable treatment of the [GetCulture('corsian').GetName] people. At any rate, we should be more careful with our treatment of foreign faiths."
 me_ourkinion_17.a:0 "How lucky."
+
+add_deity_to_pantheon:0 "[TARGET_DEITY.GetReligion.GetName] Deity of [TARGET_DEITY.GetDeityCategory.GetName, TARGET_DEITY.GetName], will be added to our #Y Pantheon#!."
 
 #Events
 me_ourkinion_1_title:0 "$ourkinion_missions_task_1$"
@@ -190,8 +200,11 @@ me_ourkinion_11_tooltip:0 "The mission task '#Y $ourkinion_missions_task_11$#!' 
 me_ourkinion_12_title:0 "$ourkinion_missions_task_12$"
 me_ourkinion_12_tooltip:0 "The mission task '#Y $ourkinion_missions_task_12$#!' has now been #G Completed#!!"
 
-me_ourkinion_13_title:0 "$ourkinion_missions_task_13$"
-me_ourkinion_13_tooltip:0 "The mission task '#Y $ourkinion_missions_task_13$#!' has now been #G Completed#!!"
+me_ourkinion_13_title:0 "$ourkinion_missions_task_9$"
+me_ourkinion_13_a_tooltip:0 "The mission task '#Y $ourkinion_missions_task_9$#!' has now been #G Completed#!!\nThe deity #E Apollo Delphinios#! will be added to our pantheon."
+me_ourkinion_13_b_tooltip:0 "The mission task '#Y $ourkinion_missions_task_9$#!' has now been #G Completed#!!\nThe deity #E Herakles#! will be added to our pantheon."
+me_ourkinion_13_c_tooltip:0 "The mission task '#Y $ourkinion_missions_task_9$#!' has now been #G Completed#!!\nThe deity #E Hephaistos#! will be added to our pantheon."
+me_ourkinion_13_d_tooltip:0 "The mission task '#Y $ourkinion_missions_task_9$#!' has now been #G Completed#!!\nThe deity #E Asklepios-Merre#! will be unlocked."
 
 me_ourkinion_14_title:0 "$ourkinion_missions_task_14$"
 me_ourkinion_14_tooltip:0 "The mission task '#Y $ourkinion_missions_task_14$#!' has now been #G Completed#!!"

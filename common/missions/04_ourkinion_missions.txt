@@ -213,6 +213,11 @@
 
         icon = "task_political"
         allow = {
+            p:3515.state = {
+                has_state_modifier = state_improvement_religious
+                has_state_modifier = state_improvement_religious
+            }
+             
         }
         on_completion = {
             trigger_event = me_ourkinion.13

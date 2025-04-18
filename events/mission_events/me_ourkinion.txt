@@ -327,27 +327,51 @@ me_ourkinion.12 = { # Allalia, Everlasting
         
     #}
 }
-me_ourkinion.13 = { # Greek Settlers
+me_ourkinion.13 = { # A Patron God
     type = country_event
 
     title = me_ourkinion_13_title
     desc = me_ourkinion_13_desc
-    picture = interesting_histories_greek_port
+    picture = greek_religious_rite
 
     option = {
         name = "me_ourkinion_13.a"
-        custom_tooltip = me_ourkinion_13_tooltip
-        
+        custom_tooltip = me_ourkinion_13_a_tooltip
+        add_country_modifier = {
+            name = apollo_delphinios_patronized
+            duration = -1
+        }
+        hidden_effect = {
+            add_deity_to_pantheon = {
+                deity = deity:omen_apollo_delphinios
+            }
+        }
     }
     option = {
         name = "me_ourkinion_13.b"
-        custom_tooltip = me_ourkinion_13_tooltip
-        
+        custom_tooltip = me_ourkinion_13_b_tooltip
+        add_country_modifier = {
+            name = herakles_patronized
+            duration = -1
+        }
+        hidden_effect = {
+            add_deity_to_pantheon = {
+                eity = deity:omen_heracles
+            }
+        }
     }
     option = {
         name = "me_ourkinion_13.c"
-        custom_tooltip = me_ourkinion_13_tooltip
-        
+        custom_tooltip = me_ourkinion_13_c_tooltip
+        add_country_modifier = {
+            name = hephaistos_patronized
+            duration = -1
+        }
+        hidden_effect = {
+            add_deity_to_pantheon = {
+                deity = deity:omen_hephaestus
+            }
+        }
     }
     option = {
         trigger = {
@@ -355,8 +379,12 @@ me_ourkinion.13 = { # Greek Settlers
         }
         name = "me_ourkinion_13.d"
         custom_tooltip = me_ourkinion_13_d_tooltip
+        add_country_modifier = {
+            name = asklepios_merre_patronized
+            duration = -1
+        }
         hidden_effect = {
-            set_variable = unlock_asklepios_kyrnossa
+            set_variable = unlock_asclepius_merre
         }
     }
 }

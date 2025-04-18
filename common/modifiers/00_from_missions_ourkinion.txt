@@ -66,5 +66,18 @@ corsica_eternal = {
 alalia_walls = {
 	fort_level = 1
 }
+apollo_delphinios_patronized = {
+	naval_morale_modifier = 0.05
+}
+asklepios_merre_patronized = {
+	global_population_growth = 0.02
+}
+herakles_patronized = {
+	spearmen_offensive = 0.05
+}
+hephaistos_patronized = {
+	heavy_infantry_discipline = 0.05
+}
+
 	
 

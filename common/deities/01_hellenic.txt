@@ -2555,7 +2555,6 @@ deity_apollo_delphinios = {
     religion = roman_pantheon
     deity_category = war #This Deity uses a War Slot
 
-
     deification_trigger = {
         can_deify_trigger = yes
     }
@@ -2565,22 +2564,19 @@ deity_apollo_delphinios = {
     }
 }
 
-deity_asclepius_kyrnossa = {
+deity_asclepius_merre = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			very_rare_deity_trigger = {
-				RELIGION = roman_pantheon
-			}
 			deity:omen_asclepius = {
 				holy_site_deity_check_trigger = yes
-			}
-		OR = {
-			has_variable = unlock_asklepios_kyrnossa
 		}
+		OR = {
+			has_variable = unlock_asklepios_merre
+			}
 		}
 	}
-	passive_modifier = { global_citizen_happyness = deity_global_nobles_happiness_svalue }
+	passive_modifier = { global_citizen_happyness = deity_civic_tech_investment_svalue }
 	icon = deity_diadochi_culture
 	omen = { global_monthly_food_modifier = omen_global_monthly_civilization_svalue } #Bonus from Omen
 	religion = roman_pantheon
