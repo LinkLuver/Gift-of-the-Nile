@@ -1,9 +1,9 @@
 ﻿# Actor Country - Root Scope
 
 #Always same order for senate Approval:
-#Molossians
-#Thesprotians
-#Chaonians
+#Molossians- Military/Strong arm party
+#Thesprotians-Traditonalists/Diplomatic party
+#Chaonians-Isolationaist/Neutral/Populist party
 
 ### Military Reforms ###
 republic_military_recruitment_epirus_3 = { 
@@ -75,73 +75,73 @@ republic_military_recruitment_epirus_4 = {
 }
 
 ### Electoral Reforms ###
-#republican_election_car_1 = { # Traditional Model
-	#effect = {
-		#approval_effect = {
-			#PARTY = oligarchic_party
-			#VALUE = party_approval_small_svalue
-		#}
-		#approval_effect = {
-			#PARTY = traditionalist_party
-			#VALUE = party_approval_small_svalue
-		#}
-		#approval_effect = {
-			#PARTY = democratic_party
-			#VALUE = party_approval_small_svalue
-		#}
-	#
-#}
+republican_election_epirus_1 = { # Electoral Model
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_small_svalue
+		}
+	}
+}
 
-#epublican_election_car_2 = { # Extended Terms
-	#effect = {
-		#approval_effect = {
-			#PARTY = oligarchic_party
-			#VALUE = party_approval_medium_svalue
-		#}
-		#approval_effect = {
-			#PARTY = traditionalist_party
-			#VALUE = party_disapproval_medium_svalue
-		#}
-		#approval_effect = {
-			#PARTY = democratic_party
-			#VALUE = party_disapproval_small_svalue
-		#}
-	#}
-#
+republican_election_epirus_2 = { # Extended Terms
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+	}
+}
 
-#republican_election_car_3 = { # Shortened Terms
-	#effect = {
-		#approval_effect = {
-			#PARTY = oligarchic_party
-			#VALUE = party_disapproval_medium_svalue
-		#}
-		#approval_effect = {
-			#PARTY = traditionalist_party
-			#VALUE = party_disapproval_small_svalue
-		#}
-		#approval_effect = {
-			#PARTY = democratic_party
-			#VALUE = party_approval_medium_svalue
-		#}
-	#}
-#}
+republican_election_epirus_3 = { # Shortened Terms
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_disapproval_small_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_medium_svalue
+		}
+	}
+}
 
-#republican_election_car_4 = { # Wartime Leadership
-	#effect = {
-		#approval_effect = {
-			#PARTY = oligarchic_party
-			#VALUE = party_approval_medium_svalue
-		#}
-		#approval_effect = {
-			#PARTY = traditionalist_party
-			#VALUE = party_disapproval_large_svalue
-		#}
-		#approval_effect = {
-			#PARTY = democratic_party
-			#VALUE = party_disapproval_medium_svalue
-		#}
-	#}
-#}
+republican_election_epirus_4 = { # Lifetime Elections
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_disapproval_small_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_approval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+	}
+}
 
 ### Endorse ###
 republic_corruption_epirus_2 = { # Popular Assembly
@@ -213,3 +213,346 @@ republic_corruption_epirus_4 = { # Adirim Administration
 }
 
 ### Maritime Laws ###
+republican_mediterranean_epirus_1 = { # Grain Shipment Law
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_disapproval_small_svalue
+		}
+	}
+}
+
+republican_mediterranean_epirus_2 = { # Lowered Import Tariffs
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+	}
+}
+
+republican_mediterranean_epirus_3 = { # Institute Wealth Levy
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_disapproval_small_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_disapproval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_medium_svalue
+		}
+	}		
+}
+
+republican_mediterranean_epirus_4 = { # Anti-Piracy Statutes
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_small_svalue
+		}
+	}
+}
+
+
+### Religious Laws ###
+republican_religious_epirus_1 = { # Traditional Observance
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_small_svalue
+		}
+	}	
+}
+
+republican_religious_epirus_2 = { # Priestly Status
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_approval_large_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_small_svalue
+		}
+	}
+}
+
+republican_religious_epirus_3 = { # Deny Priests in the Senate
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_disapproval_large_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_disapproval_small_svalue
+		}
+	}
+}
+
+republican_religious_epirus_4 = { # Senatorial Veto
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_disapproval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+	}
+}
+
+### Integration Laws ###
+republican_integration_epirus_1 = { # Occupation Rights
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_disapproval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_medium_svalue
+		}
+	}
+}
+
+republican_integration_epirus_2 = { # Relocation Policy
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_small_svalue
+		}
+	}
+}
+
+republican_integration_epirus_3 = { # Rights of Nobility
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+	}
+}
+
+republican_integration_epirus_4 = { # Devolved Administration
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_disapproval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_medium_svalue
+		}
+	}
+}
+
+### Citizenship Laws ###
+republican_citizen_epirus_1 = { # Status Quo
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_approval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+	}
+}
+
+republican_citizen_epirus_2 = { # Slave Treatment Sanctions
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_small_svalue
+		}
+	}
+}
+
+republican_citizen_epirus_3 = { # Cultural Primacy
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_small_svalue
+		}
+	}
+}
+
+republican_citizen_epirus_4 = { # Manumittance Policy
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_disapproval_small_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_medium_svalue
+		}
+	}
+}
+
+republican_land_reform_epirus_1 = { # Interference Policy
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_approval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_disapproval_small_svalue
+		}
+	}
+}
+
+republican_land_reform_epirus_2 = { # Military Settlement Policy
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_disapproval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_disapproval_small_svalue
+		}
+	}
+}
+
+republican_land_reform_epirus_3 = { # Land Seizure Protocol
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_disapproval_small_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_disapproval_medium_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_medium_svalue
+		}
+	}
+}
+
+republican_land_reform_epirus_4 = { # Seizure Amendments
+	effect = {
+		approval_effect = {
+			PARTY = molossian_party
+			VALUE = party_approval_small_svalue
+		}
+		approval_effect = {
+			PARTY = thesprotian_party
+			VALUE = party_disapproval_small_svalue
+		}
+		approval_effect = {
+			PARTY = chaonian_party
+			VALUE = party_approval_small_svalue
+		}
+	}
+}

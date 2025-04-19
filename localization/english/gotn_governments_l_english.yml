@@ -78,7 +78,8 @@
  epirote_republic_desc:0 "A form of governance unique to the Epirote tribes, the league represents the various Epirote tribes. Each tribe is represented in the Epirote assembly by ten elected officals from amongst their tribe. Each tribe rules their respective land in a mostly autonomous fashion, with the elected Prostratas having some powers over them, mostly the power to declare wars, raise armies, and to direct construction projects. Such a system has created a strong, unified Epirote state, reducing some of the shortfalls of other republics."
  epirote_republic_ruler:0 "Prostratas"
  epirote_republic_ruler_female:0 "Prostratas"
-
+ 
+ molossian_dictator_tt:0 "Dictator from the Molossians:"
  molossian_party:0 "Molossians"
  molossian_party_short:0 "Molossians"
  molossian_party_description:0 "The Molossians are the most revered and powerful of the Epirote tribes, claiming their descent from the hero Molossus, one of the three sons of Neoptolemus, who himself was a son of Achilles. The Molossians are renowned for their hounds, and for their tact in warfare and diplomatic policy."
@@ -97,6 +98,9 @@
  empowered_molossians_gui_mod:0 "Empowered Molossians"
  empowered_thesprotians_gui_mod:0 "Empowered Thesprotians"
  empowered_chaonians_gui_mod:0 "Empowered Chaonians"
+ monthly_chaonian_party_conviction:0 "Monthly Chaonians Conviction"
+ monthly_molossian_party_conviction:0 "Monthly Molossians Conviction"
+ monthly_thesprotian_party_conviction:0 "Monthly Thesprotians Conviction"
 
  republic_military_recruitment_epirus_laws:0 "Military Organization"
  republic_military_recruitment_epirus_3:0 "Tribal Levy"
@@ -117,6 +121,15 @@
  republic_corruption_epirus_4:0 "Limit the Synedrion"
  republic_corruption_epirus_4_desc:0 "The affairs of our elected officals have oftentimes gotten in the way of the ambitions of our Prostratas. Abolishing the power of the synedrion to pass judgement on our government will eliminate this issue."
 
+ republic_election_epirus_reforms:0 "Election Reforms"
+ republican_election_epirus_1:0 "Traditional Model"
+ republican_election_epirus_1_desc:0 "Designed to ensure fairness and equal representation, this model of the electoral system is held in high regard."
+ republican_election_epirus_2:0 "Extended Terms"
+ republican_election_epirus_2_desc:0 "Sometimes, one term is just not enough for our great leaders to achieve what they set out to do. It has become clear that we must consider extending their tenure, that we might reap the benefits of our benign leader's wisdom."
+ republican_election_epirus_3:0 "Shortened Terms"
+ republican_election_epirus_3_desc:0 "It has become clear that power promotes the worst aspects of mankind. In an effort to combat this creeping corruption, we should reduce the electoral term, ensuring that no one man wields power for too long."
+ republican_election_epirus_4:0 "Wartime Leadership"
+ republican_election_epirus_4_desc:0 "The wisdom of our noble leaders is required indefinitely in order to safeguard against corruption from within as well as foreign interference. This is the only way our citizens and merchants will be able to thrive and prosper!"
 
 
  republican_tyranny_reforms:0 "Tyrannical Rule"

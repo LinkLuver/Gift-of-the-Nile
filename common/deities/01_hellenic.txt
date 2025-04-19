@@ -2572,7 +2572,7 @@ deity_asclepius_merre = {
 				holy_site_deity_check_trigger = yes
 		}
 		OR = {
-			has_variable = unlock_asklepios_merre
+			has_variable = unlock_asclepius_merre
 			}
 		}
 	}

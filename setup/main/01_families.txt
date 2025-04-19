@@ -803,5 +803,12 @@ family={
 			culture=atlosian
 			owner=MSL
 		}
+		#GOTN Anatolia
+		2500 = {
+			key = "Croesid"
+			prestige=300
+			culture=lydian
+			owner=LYD
+		}
 	}
 }

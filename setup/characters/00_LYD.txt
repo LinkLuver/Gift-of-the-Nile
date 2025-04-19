@@ -1,0 +1,26 @@
+﻿"LYD"={
+	country="LYD"
+	604={
+		first_name="Adrastus"
+		family = c:LYD.fam:Croesid
+		birth_date=429.
+		culture="lydian"
+		religion="anatolian_religion"
+		no_stats=yes
+		add_martial=5
+		add_charisma=8
+		add_finesse=10
+		add_zeal=8
+		no_traits=yes
+		add_trait="assertive"
+		add_trait="arrogant"
+		add_trait="blood_of_croesus"
+		add_trait="one_eyed"
+		add_gold=500
+		add_popularity=55
+		c:LYD={
+			set_as_ruler=char:604
+		}
+		dna = "Af0AAP3FAAD9rQAAALwAfwBZAH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwCpAH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AdgB/AHEAfwB/AH8AfwB/AH8AfwE2AH8AfwB/ADEAfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwGuAH8AfwB/AH8AfwB/AH8AoQB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AOgB/AooAfwB/AH8AfwB/ALwAfwB/AH8AfwB/AH8AfwB/AH8AggB/AH8AfwB/AH8AfwB/AH8AfwE0AH8BiAB/AIgAfwB/AH8CtQB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwCRAH8BEwB/AFIAfwFNAH8AfwB/AH8AfwI4AH8MAQB/AIoAfwCKAH8GHgAAAAAAAAO1AAAEvAAAAhoAAAPNAAAAAAAAALoAAA=="
+	}
+}
