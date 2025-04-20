@@ -1,0 +1,8 @@
+﻿l_english:
+ ### Huaxia name ###
+ GOVERNORSHIP_LEGION_NAME_jueyun:0 "$BASE$ Jun"
+ LEGION_NAME_jueyun:0 "Wu of $BASE$"
+ LEVY_NAME_jueyun:0 "$NUM$$ORDER$ Weizu of $GOVERNORSHIP$" #doesnt work
+ ARMY_NAME_jueyun:1 "$NUM$ 500 of $HOME$" #doesnt work 
+ NAVY_NAME_jueyun:0 "$NUM$$ORDER$ Navy" #doesnt work
+ COHORT_NAME_jueyun:0 "$NUM$$ORDER$ 500 of $HOME$" #doesnt work
