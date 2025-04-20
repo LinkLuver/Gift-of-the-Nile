@@ -1,0 +1,262 @@
+﻿namespace = me_korinth
+
+me_korinth.1 = {
+    type = country_event
+
+    title = me_korinth_1_title
+    desc = me_korinth_1_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_1.a"
+        custom_tooltip = me_korinth_1_tooltip
+
+    }
+}
+me_korinth.2 = {
+    type = country_event
+
+    title = me_korinth_2_title
+    desc = me_korinth_2_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_2.a"
+        custom_tooltip = me_korinth_2_tooltip
+
+    }
+}
+me_korinth.3 = {
+    type = country_event
+
+    title = me_korinth_3_title
+    desc = me_korinth_3_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_3.a"
+        custom_tooltip = me_korinth_3_tooltip
+
+    }
+}
+me_korinth.4 = {
+    type = country_event
+
+    title = me_korinth_4_title
+    desc = me_korinth_4_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_4.a"
+        custom_tooltip = me_korinth_4_tooltip
+
+    }
+}
+me_korinth.5 = {
+    type = country_event
+
+    title = me_korinth_5_title
+    desc = me_korinth_5_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_5.a"
+        custom_tooltip = me_korinth_5_tooltip
+
+    }
+}
+me_korinth.6 = {
+    type = country_event
+
+    title = me_korinth_6_title
+    desc = me_korinth_6_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_6.a"
+        custom_tooltip = me_korinth_6_tooltip
+
+    }
+}
+me_korinth.7 = {
+    type = country_event
+
+    title = me_korinth_7_title
+    desc = me_korinth_7_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_7.a"
+        custom_tooltip = me_korinth_7_tooltip
+
+    }
+}
+me_korinth.8 = {
+    type = country_event
+
+    title = me_korinth_8_title
+    desc = me_korinth_8_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_8.a"
+        custom_tooltip = me_korinth_8_tooltip
+
+    }
+}
+me_korinth.9 = {
+    type = country_event
+
+    title = me_korinth_9_title
+    desc = me_korinth_9_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_9.a"
+        custom_tooltip = me_korinth_9_tooltip
+
+    }
+}
+me_korinth.10 = {
+    type = country_event
+
+    title = me_korinth_10_title
+    desc = me_korinth_10_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_10.a"
+        custom_tooltip = me_korinth_10_tooltip
+
+    }
+}
+me_korinth.11 = {
+    type = country_event
+
+    title = me_korinth_11_title
+    desc = me_korinth_11_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_11.a"
+        custom_tooltip = me_korinth_11_tooltip
+
+    }
+}
+me_korinth.12 = {
+    type = country_event
+
+    title = me_korinth_12_title
+    desc = me_korinth_12_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_12.a"
+        custom_tooltip = me_korinth_12_tooltip
+
+    }
+}
+me_korinth.13 = {
+    type = country_event
+
+    title = me_korinth_13_title
+    desc = me_korinth_13_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_13.a"
+        custom_tooltip = me_korinth_13_tooltip
+
+    }
+}
+me_korinth.14 = {
+    type = country_event
+
+    title = me_korinth_14_title
+    desc = me_korinth_14_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_14.a"
+        custom_tooltip = me_korinth_14_tooltip
+
+    }
+}
+me_korinth.15 = {
+    type = country_event
+
+    title = me_korinth_15_title
+    desc = me_korinth_15_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_15.a"
+        custom_tooltip = me_korinth_15_tooltip
+
+    }
+}
+me_korinth.16 = {
+    type = country_event
+
+    title = me_korinth_16_title
+    desc = me_korinth_16_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_16.a"
+        custom_tooltip = me_korinth_16_tooltip
+
+    }
+}
+me_korinth.17 = {
+    type = country_event
+
+    title = me_korinth_17_title
+    desc = me_korinth_17_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_17.a"
+        custom_tooltip = me_korinth_17_tooltip
+
+    }
+}
+me_korinth.18 = {
+    type = country_event
+
+    title = me_korinth_18_title
+    desc = me_korinth_18_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_18.a"
+        custom_tooltip = me_korinth_18_tooltip
+
+    }
+}
+me_korinth.19 = {
+    type = country_event
+
+    title = me_korinth_19_title
+    desc = me_korinth_19_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_19.a"
+        custom_tooltip = me_korinth_19_tooltip
+
+    }
+}
+me_korinth.20 = {
+    type = country_event
+
+    title = me_korinth_20_title
+    desc = me_korinth_20_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_20.a"
+        custom_tooltip = me_korinth_20_tooltip
+
+    }
+}

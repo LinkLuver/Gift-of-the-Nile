@@ -1634,6 +1634,7 @@ country = {
 			primary_culture = lydian
 			religion = anatolian_religion
 			diplomatic_stance=trading_stance
+			family=2500
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2706,7 +2707,7 @@ country = {
 			}
 		}
 		KOR = {
-			government = aristocratic_monarchy
+			government = oligarchic_republic
 			primary_culture = achaean
 			religion = roman_pantheon
 			capital = 418

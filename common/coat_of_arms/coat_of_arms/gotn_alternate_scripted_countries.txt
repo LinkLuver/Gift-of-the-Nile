@@ -654,3 +654,43 @@ KYRNOS_FLAG = {
 		#instance = { scale = { 0.40 0.40 } position = { 0.15 0.50 }}
 	#}
 #}
+
+MYSIA_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "dark_burgundy"
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_grain_triple.dds"
+		color1 = "epirus_yellow"
+		color2 = "light_green"
+		instance = { scale = { 0.90 0.90 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_venetic_9.dds"
+		color1 = "offwhite"
+		color2 = "epirus_yellow"
+		instance = {}
+		instance = { rotation = 180 }
+	}
+}
+
+PHRYGIA_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 150 58 66 }
+	color2 = "dark_burgundy"
+
+	colored_emblem = {
+		texture = "ce_eagle_03.dds"
+		color1 = "epirus_yellow"
+		color2 = "offwhite"
+		instance = { scale = { 0.90 0.90 }}
+	}
+	colored_emblem = {
+		texture = "ce_border_rug_01.tga"
+		color1 = rgb { 150 58 66 }
+		color2 = "epirus_yellow"
+		instance = { rotation = 180 }
+		instance = {}
+	}
+}

@@ -758,8 +758,12 @@
  #Lydian Monarchy Offices
  office_foreign_minister_lydian:0 "Arjo"
  office_royal_tutor_lydian:0 "Ves'fas'"
+ office_philosopher_lydian:0 "Philospher"
+ office_marshal_lydian:0 "Marshal"
  office_master_of_the_guard_lydian:0 "Nars Astarho"
  office_high_priest_monarchy_lydian:0 "Alus'"
+ office_steward_lydian:1 "Stewarrd"
+ office_physician_lydian:1 "Physician"
 
  #Lydian Republic Offices
  office_augur_lydian:0 "Arjo"

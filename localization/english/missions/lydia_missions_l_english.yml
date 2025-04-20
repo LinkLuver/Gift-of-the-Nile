@@ -1,0 +1,260 @@
+﻿l_english:
+
+lydia_missions:0 "Lydia Missions"
+lydia_missions_DESCRIPTION:0 "Mission description"
+lydia_missions_CRITERIA_DESCRIPTION:0 "This mission will be completed when"
+lydia_missions_BUTTON_TOOLTIP:0 ""
+
+#Missions
+
+lydia_missions_1:0 "test"
+lydia_missions_DESC:0 ""
+
+lydia_missions_2:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_3:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_4:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_5:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_6:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_7:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_8:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_9:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_10:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_11:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_12:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_13:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_14:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_15:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_16:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_17:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_18:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_19:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_20:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_21:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_22:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_23:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_24:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_25:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_26:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_27:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_28:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_29:0 ""
+lydia_missions_DESC:0 ""
+
+lydia_missions_30:0 ""
+lydia_missions_DESC:0 ""
+
+
+#Tooltips
+
+
+
+#Modifiers
+
+
+
+#Events
+me_lydia_1_title:0 "$lydia_missions_task_1$"
+me_lydia_1_desc:0 ""
+me_lydia_1.a:0 ""
+me_lydia_1_tooltip:0 "The mission task '#Y $lydia_missions_task_1$#!' has now been #G Completed#!!"
+
+me_lydia_2_title:0 "$lydia_missions_task_2$"
+me_lydia_2_desc:0 ""
+me_lydia_2.a:0 ""
+me_lydia_2_tooltip:0 "The mission task '#Y $lydia_missions_task_2$#!' has now been #G Completed#!!"
+
+me_lydia_3_title:0 "$lydia_missions_task_3$"
+me_lydia_3_desc:0 ""
+me_lydia_3.a:0 ""
+me_lydia_3_tooltip:0 "The mission task '#Y $lydia_missions_task_3$#!' has now been #G Completed#!!"
+
+me_lydia_4_title:0 "$lydia_missions_task_4$"
+me_lydia_4_desc:0 ""
+me_lydia_4.a:0 ""
+me_lydia_4_tooltip:0 "The mission task '#Y $lydia_missions_task_4$#!' has now been #G Completed#!!"
+
+me_lydia_5_title:0 "$lydia_missions_task_5$"
+me_lydia_5_desc:0 ""
+me_lydia_5.a:0 ""
+me_lydia_5_tooltip:0 "The mission task '#Y $lydia_missions_task_5$#!' has now been #G Completed#!!"
+
+me_lydia_6_title:0 "$lydia_missions_task_6$"
+me_lydia_6_desc:0 ""
+me_lydia_6.a:0 ""
+me_lydia_6_tooltip:0 "The mission task '#Y $lydia_missions_task_6$#!' has now been #G Completed#!!"
+
+me_lydia_7_title:0 "$lydia_missions_task_7$"
+me_lydia_7_desc:0 ""
+me_lydia_7.a:0 ""
+me_lydia_7_tooltip:0 "The mission task '#Y $lydia_missions_task_7$#!' has now been #G Completed#!!"
+
+me_lydia_8_title:0 "$lydia_missions_task_8$"
+me_lydia_8_desc:0 ""
+me_lydia_8.a:0 ""
+me_lydia_8_tooltip:0 "The mission task '#Y $lydia_missions_task_8$#!' has now been #G Completed#!!"
+
+me_lydia_9_title:0 "$lydia_missions_task_9$"
+me_lydia_9_desc:0 ""
+me_lydia_9.a:0 ""
+me_lydia_9_tooltip:0 "The mission task '#Y $lydia_missions_task_9$#!' has now been #G Completed#!!"
+
+me_lydia_10_title:0 "$lydia_missions_task_10$"
+me_lydia_10_desc:0 ""
+me_lydia_10.a:0 ""
+me_lydia_10_tooltip:0 "The mission task '#Y $lydia_missions_task_10$#!' has now been #G Completed#!!"
+
+me_lydia_11_title:0 "$lydia_missions_task_11$"
+me_lydia_11_desc:0 ""
+me_lydia_11.a:0 ""
+me_lydia_11_tooltip:0 "The mission task '#Y $lydia_missions_task_11$#!' has now been #G Completed#!!"
+
+me_lydia_12_title:0 "$lydia_missions_task_12$"
+me_lydia_12_desc:0 ""
+me_lydia_12.a:0 ""
+me_lydia_12_tooltip:0 "The mission task '#Y $lydia_missions_task_12$#!' has now been #G Completed#!!"
+
+me_lydia_13_title:0 "$lydia_missions_task_13$"
+me_lydia_13_desc:0 ""
+me_lydia_13.a:0 ""
+me_lydia_13_tooltip:0 "The mission task '#Y $lydia_missions_task_13$#!' has now been #G Completed#!!"
+
+me_lydia_14_title:0 "$lydia_missions_task_14$"
+me_lydia_14_desc:0 ""
+me_lydia_14.a:0 ""
+me_lydia_14_tooltip:0 "The mission task '#Y $lydia_missions_task_14$#!' has now been #G Completed#!!"
+
+me_lydia_15_title:0 "$lydia_missions_task_15$"
+me_lydia_15_desc:0 ""
+me_lydia_15.a:0 ""
+me_lydia_15_tooltip:0 "The mission task '#Y $lydia_missions_task_15$#!' has now been #G Completed#!!"
+
+me_lydia_16_title:0 "$lydia_missions_task_16$"
+me_lydia_16_desc:0 ""
+me_lydia_16.a:0 ""
+me_lydia_16_tooltip:0 "The mission task '#Y $lydia_missions_task_16$#!' has now been #G Completed#!!"
+
+me_lydia_17_title:0 "$lydia_missions_task_17$"
+me_lydia_17_desc:0 ""
+me_lydia_17.a:0 ""
+me_lydia_17_tooltip:0 "The mission task '#Y $lydia_missions_task_17$#!' has now been #G Completed#!!"
+
+me_lydia_18_title:0 "$lydia_missions_task_18$"
+me_lydia_18_desc:0 ""
+me_lydia_18.a:0 ""
+me_lydia_18_tooltip:0 "The mission task '#Y $lydia_missions_task_18$#!' has now been #G Completed#!!"
+
+me_lydia_19_title:0 "$lydia_missions_task_19$"
+me_lydia_19_desc:0 ""
+me_lydia_19.a:0 ""
+me_lydia_19_tooltip:0 "The mission task '#Y $lydia_missions_task_19$#!' has now been #G Completed#!!"
+
+me_lydia_20_title:0 "$lydia_missions_task_20$"
+me_lydia_20_desc:0 ""
+me_lydia_20.a:0 ""
+me_lydia_20_tooltip:0 "The mission task '#Y $lydia_missions_task_20$#!' has now been #G Completed#!!"
+
+me_lydia_21_title:0 "$lydia_missions_task_21$"
+me_lydia_21_desc:0 ""
+me_lydia_21.a:0 ""
+me_lydia_21_tooltip:0 "The mission task '#Y $lydia_missions_task_21$#!' has now been #G Completed#!!"
+
+me_lydia_22_title:0 "$lydia_missions_task_22$"
+me_lydia_22_desc:0 ""
+me_lydia_22.a:0 ""
+me_lydia_22_tooltip:0 "The mission task '#Y $lydia_missions_task_22$#!' has now been #G Completed#!!"
+
+me_lydia_23_title:0 "$lydia_missions_task_23$"
+me_lydia_23_desc:0 ""
+me_lydia_23.a:0 ""
+me_lydia_23_tooltip:0 "The mission task '#Y $lydia_missions_task_23$#!' has now been #G Completed#!!"
+
+me_lydia_24_title:0 "$lydia_missions_task_24$"
+me_lydia_24_desc:0 ""
+me_lydia_24.a:0 ""
+me_lydia_24_tooltip:0 "The mission task '#Y $lydia_missions_task_24$#!' has now been #G Completed#!!"
+
+me_lydia_25_title:0 "$lydia_missions_task_25$"
+me_lydia_25_desc:0 ""
+me_lydia_25.a:0 ""
+me_lydia_25_tooltip:0 "The mission task '#Y $lydia_missions_task_25$#!' has now been #G Completed#!!"
+
+me_lydia_26_title:0 "$lydia_missions_task_26$"
+me_lydia_26_desc:0 ""
+me_lydia_26.a:0 ""
+me_lydia_26_tooltip:0 "The mission task '#Y $lydia_missions_task_26$#!' has now been #G Completed#!!"
+
+me_lydia_27_title:0 "$lydia_missions_task_27$"
+me_lydia_27_desc:0 ""
+me_lydia_27.a:0 ""
+me_lydia_27_tooltip:0 "The mission task '#Y $lydia_missions_task_27$#!' has now been #G Completed#!!"
+
+me_lydia_28_title:0 "$lydia_missions_task_28$"
+me_lydia_28_desc:0 ""
+me_lydia_28.a:0 ""
+me_lydia_28_tooltip:0 "The mission task '#Y $lydia_missions_task_28$#!' has now been #G Completed#!!"
+
+me_lydia_29_title:0 "$lydia_missions_task_29$"
+me_lydia_29_desc:0 ""
+me_lydia_29.a:0 ""
+me_lydia_29_tooltip:0 "The mission task '#Y $lydia_missions_task_29$#!' has now been #G Completed#!!"
+
+me_lydia_30_title:0 "$lydia_missions_task_30$"
+me_lydia_30_desc:0 ""
+me_lydia_30.a:0 ""
+me_lydia_30_tooltip:0 "The mission task '#Y $lydia_missions_task_30$#!' has now been #G Completed#!!"
+
+

@@ -1,0 +1,241 @@
+﻿korinth_missions = {
+    header = "mission_image_general"
+    icon = "general_1"
+
+    repeatable = no
+    chance = 1000
+
+    potential = {
+		tag = KOR
+        NOT = { has_variable = kor_mission_cooldown_var }
+    }
+
+    abort = {}
+    on_start = {
+        start_mission_ai_effect = yes
+    }
+    on_abort = {
+        custom_tooltip = general_mission_cooldown_tt
+        set_variable = {
+            name = kor_mission_cooldown_var
+            days = 7300
+        }
+    }
+    on_completion = {}
+    korinth_missions_task_1 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.1
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_2 = {
+		requires = { korinth_missions_task_1 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.2
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_3 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.3
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_4 = {
+        requires = { korinth_missions_task_3 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.4
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_5 = {
+        requires = { korinth_missions_task_3 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.5
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_6 = {
+        requires = { korinth_missions_task_2 korinth_missions_task_5}
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.6
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_7 = {
+        requires = { korinth_missions_task_6 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.7
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_8 = {
+        requires = { korinth_missions_task_6 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.8
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_9 = {
+        requires = { korinth_missions_task_6 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.9
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_10 = {
+        requires = { korinth_missions_task_2 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.10
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_11 = {
+        requires = { korinth_missions_task_10 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.11
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_12 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.12
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_13 = {
+        requires = { korinth_missions_task_12 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.13
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_14 = {
+        requires = { korinth_missions_task_12 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.14
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_15 = {
+        requires = { korinth_missions_task_2 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.15
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_16 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.16
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_17 = {
+        requires = { korinth_missions_task_16 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.17
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_18 = {
+        requires = { korinth_missions_task_13 korinth_missions_task_14 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.18
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_19 = {
+        requires = { korinth_missions_task_10 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.19
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_20 = {
+        requires = { korinth_missions_task_7 korinth_missions_task_8 korinth_missions_task_9 }
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.20
+            show_as_tooltip = {
+
+            }
+        }
+    }
+}

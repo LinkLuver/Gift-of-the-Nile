@@ -183,6 +183,7 @@ republic_election_reforms = { # Electoral Reforms
 			tag = ROM
 			tag = CAR
 			government = tyranny
+			government = epirote_republic
 		}
 	}
 	republican_election_1 = {
@@ -451,6 +452,7 @@ republican_mediterranean_laws = { # Maritime Laws
 		NOR = {
 			tag = ROM
 			tag = CAR
+			government = epirote_republic
 		}
 	}
 	
@@ -657,6 +659,7 @@ republican_religious_laws = { # Religious Laws
 		NOR = {
 			tag = ROM
 			tag = CAR
+			government = epirote_republic
 		}
 	}
 	
@@ -783,6 +786,7 @@ republic_integration_laws = { # Integration Laws
 		NOR = {
 			tag = ROM
 			tag = CAR
+			government = epirote_republic
 		}
 	}
 	republican_integration_1 = {
@@ -897,6 +901,7 @@ republic_citizen_laws = { # Citizenship Laws
 		NOR = {
 			tag = ROM
 			tag = CAR
+			government = epirote_republic
 		}
 	}
 	republican_citizen_1 = {
@@ -1015,6 +1020,7 @@ republican_land_reforms = { # Land Reforms
 		NOR = {
 			tag = ROM
 			tag = CAR
+			government = epirote_republic
 		}
 	}
 	republican_land_reform_1 = {
