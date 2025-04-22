@@ -1,0 +1,14 @@
+﻿empowered_molossians_gui_mod = {
+	land_morale_modifier = 0.03
+	discipline = 0.05
+	monthly_corruption = 0.02
+}
+empowered_thesprotians_gui_mod = {
+	religious_tech_investment = 0.10
+	happiness_for_same_religion_modifier = 0.05
+}
+empowered_chaonians_gui_mod = {
+	global_freemen_happyness = 0.10
+	global_freemen_output = 0.10
+	global_monthly_food_modifier = 0.05
+}
