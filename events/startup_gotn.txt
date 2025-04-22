@@ -647,6 +647,35 @@ gotn_events.17 = { # Jueyun Backstory
     }
 }
 
+gotn_events.18 = { # The Riches of Korinth
+    
+    type = country_event
+    title = "gotn_events_18_title"
+    desc = "gotn_events_18_desc"
+    picture = gotn_korinth_acropolis
+
+    left_portrait = current_ruler 
+    left_portrait = c:SPA.current_ruler
+    right_portrait = c:ATH.current_ruler
+    right_portrait = c:THE.current_ruler
+
+    trigger = {
+        OR = {
+            tag = KOR
+        }
+    }
+    fire_only_once = yes
+    
+    option = {
+    name = "gotn_events_18.a"
+    current_ruler = {
+        add_popularity = 20
+        add_trait = silver_tongued
+    }
+    add_political_influence = 20
+    }
+}
+
 
 
 

@@ -1,16 +1,17 @@
 ﻿namespace = me_korinth
 
-me_korinth.1 = {
+me_korinth.1 = { # Eyes on Korkrya
     type = country_event
 
     title = me_korinth_1_title
     desc = me_korinth_1_desc
-    picture = great_library
+    picture = war_council
 
     option = {
         name = "me_korinth_1.a"
-        custom_tooltip = me_korinth_1_tooltip
-
+        p:470 = {
+            add_claim = root
+        }
     }
 }
 me_korinth.2 = {
@@ -31,12 +32,15 @@ me_korinth.3 = {
 
     title = me_korinth_3_title
     desc = me_korinth_3_desc
-    picture = great_library
+    picture = greek_states_path_7_event
 
     option = {
         name = "me_korinth_3.a"
         custom_tooltip = me_korinth_3_tooltip
-
+        add_country_modifier = {
+            name = korinth_mercenaries
+            duration = 3650
+        }
     }
 }
 me_korinth.4 = {

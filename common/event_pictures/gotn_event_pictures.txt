@@ -112,3 +112,10 @@ rep_hattusa = {
 	theme = Wonder
 	picture = "gfx/interface/event_window/rep_hatussa.dds"
 }
+
+# From City Backgrounds
+
+gotn_korinth_acropolis = {
+	theme = Civic
+	picture = "gfx\interface/event_window/gotn_korinth_acropolis.dds"
+}

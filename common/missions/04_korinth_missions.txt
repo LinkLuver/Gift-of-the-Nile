@@ -1,6 +1,6 @@
 ﻿korinth_missions = {
-    header = "mission_image_general"
-    icon = "general_1"
+    header = "mission_image_athens"
+    icon = "cde_greek_market_declaration"
 
     repeatable = no
     chance = 1000
@@ -22,39 +22,57 @@
         }
     }
     on_completion = {}
-    korinth_missions_task_1 = {
-        icon = "task_political"
-        allow = {}
+    korinth_missions_task_1 = { # Eyes on Korkyra
+        icon = "task_battle"
+
+        duration = 30
+
+        allow = {
+            political_influence >= 10
+        }
         on_completion = {
             trigger_event = me_korinth.1
             show_as_tooltip = {
-
+            add_political_influence = -20
+            p:470 = {
+                add_claim = root
+                }
             }
         }
     }
-    korinth_missions_task_2 = {
+    korinth_missions_task_2 = { # Phaecian Conquest
 		requires = { korinth_missions_task_1 }
-        icon = "task_political"
-        allow = {}
+        icon = "task_diplomatic"
+        allow = {
+            owns = 470
+        }
         on_completion = {
             trigger_event = me_korinth.2
-            show_as_tooltip = {
-
-            }
         }
     }
-    korinth_missions_task_3 = {
-        icon = "task_political"
-        allow = {}
+    korinth_missions_task_3 = { # Machinations of War
+        icon = "task_athena"
+        allow = {
+            current_ruler = {
+                has_trait = silver_tongued
+                OR = {
+                has_trait = orator 
+                }
+            }
+            treasury >= 80
+        }
         on_completion = {
             trigger_event = me_korinth.3
             show_as_tooltip = {
-
+            add_country_modifier = {
+                name = korinth_mercenaries
+                duration = 3650
+                }
             }
         }
     }
     korinth_missions_task_4 = {
-        requires = { korinth_missions_task_3 }
+        requires = { korinth_missions_task_12 }
         icon = "task_political"
         allow = {}
         on_completion = {
@@ -119,10 +137,14 @@
             }
         }
     }
-    korinth_missions_task_10 = {
+    korinth_missions_task_10 = { # Controlling The Boot
         requires = { korinth_missions_task_2 }
         icon = "task_political"
-        allow = {}
+        allow = {
+            owns_or_subject_owns = 63
+            owns_or_subject_owns = 64
+            owns_or_subject_owns = 65
+        }
         on_completion = {
             trigger_event = me_korinth.10
             show_as_tooltip = {
@@ -185,8 +207,31 @@
         }
     }
     korinth_missions_task_16 = {
+        requires = { korinth_missions_task_3 }
         icon = "task_political"
-        allow = {}
+        allow = {
+            #Have a legion
+            trigger_if = {
+                limit = {
+                    capital_scope.governorship = { has_legion_trigger = yes }
+                    any_unit = { legion = ROOT.capital_scope.governorship.legion }
+                }
+                custom_tooltip = {
+                    text = bithynia_missions_task_17_tooltip
+                    any_legion = {
+                        any_legion_unit = {
+                            unit_size >= 10
+                        }
+                    }
+                }
+            }
+            trigger_else = {
+                custom_tooltip = {
+                    text = bithynia_missions_task_17_tooltip
+                    num_of_ships >= 1000000 #Random impossible trigger so no error log pain
+                }
+            }
+        }
         on_completion = {
             trigger_event = me_korinth.16
             show_as_tooltip = {

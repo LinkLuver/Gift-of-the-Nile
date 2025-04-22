@@ -68,6 +68,10 @@
  tayuan_exile_army:0 "An Exiled Army"
  gotn_events_17_tt:0 "#E Our Army#! will be self sustaining for #E Ten Years#!."
  gotn_events_17.a:0 "china will be large and it will be good"
+
+ gotn_events_18_title:0 "The Riches of Korinth"
+ gotn_events_18_desc:0 "#E #Y Korinth#!#!\nHas historically been the most wealthy and prosperous of all the Greek cities. Under the wise guidance of Periandros, the city founded several colonies, and enjoyed wealth beyond measure. For many years now that has been the status quo, and [GetProvince('(int32)418').GetName] maintained that position, but times have since changed. [GetCountry('SPA').GetName], once our ally, has retreated into their city, isolating themselves from the goings of the Hellenic world. [GetCountry('ATH').GetName] has become a true threat, endangering our trade routes by allying with the Korkryans, and spreading their grasp over the Hellespont. [GetCharacter('(int32)41').GetName], and [GetCharacter('(int32)39').GetName], have begun to meddle in Greek affairs. Who can say where their scheming eyes will turn to next. Even [GetCountry('THE').GetName] seems against us, having since consolidated their league. From now on, we can rely on no one but ourselves, and rely on nothing but our wits. One way or another, we, the Korinthians, will come out on top."
+ gotn_events_18.a:0 "Greece shall be ours."
  
 
  ## Median Collapse

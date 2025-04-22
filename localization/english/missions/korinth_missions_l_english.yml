@@ -2,26 +2,26 @@
 l_english:
 
 korinth_missions:0 "Korinth Missions"
-korinth_missions_DESCRIPTION:0 "Mission description"
-korinth_missions_CRITERIA_DESCRIPTION:0 "This mission will be completed when"
+korinth_missions_DESCRIPTION:0 "The ascendance of our regional allies to power has revealed to us the danger of our position. If we do not squash them where they stand, they may soon become powers far greater than we could ever deal with.""
+korinth_missions_CRITERIA_DESCRIPTION:0 "This mission will be completed when [GetCountry('KOR').GetName] has defeated her rivals, and further developed the city of [GetProvince('(int32)418').GetName]."
 korinth_missions_BUTTON_TOOLTIP:0 ""
 
 #Missions
 
-korinth_missions_task_1:0 "Eyes on Kokyra"
-korinth_missions_task_1_DESC:0 ""
+korinth_missions_task_1:0 "Eyes on Korkyra"
+korinth_missions_task_1_DESC:0 "Our former colony has always managed to escape out of our grasp. This will be the last time they do so."
 
 korinth_missions_task_2:0 "Phaecian Conquest"
-korinth_missions_task_2_DESC:0 ""
+korinth_missions_task_2_DESC:0 "Now that Korkyra has come under our control, we can best decide how to govern it."
 
 korinth_missions_task_3:0 "Machinations of War"
-korinth_missions_task_3_DESC:0 ""
+korinth_missions_task_3_DESC:0 "Our upcoming conflicts will require us to field a large army. We should turn to local mercenaries, to see if we can make some sort of deal"
 
-korinth_missions_task_4:0 "Arkadian Ally"
-korinth_missions_task_4_DESC:0 ""
+korinth_missions_task_4:0 "Holy Prostitutes of Aphrodite"
+korinth_missions_task_4_DESC:0 "Korinth "
 
 korinth_missions_task_5:0 "Our Loyal Friends and Allies"
-korinth_missions_DESC:0 ""
+korinth_missions_task_5_DESC:0 "If we wish to be sucessful in the coming war, we must strengthen our control over our neighbors. A disunited league is one that will perish quickly."
 
 korinth_missions_task_6:0 "Crushing Athens"
 korinth_missions_DESC:0 ""
@@ -60,27 +60,27 @@ korinth_missions_task_17:0 "Naval blah blahh"
 korinth_missions_task_17_DESC:0 ""
 
 korinth_missions_task_18:0 "The Gilded City"
-korinth_missions_DESC:0 ""
+korinth_missions_task_18_DESC:0 ""
 
 korinth_missions_task_19:0 "New Colonies"
-korinth_missions_DESC:0 ""
+korinth_missions_task_19_DESC:0 ""
 
 korinth_missions_task_20:0 "Hegemon of Greece"
-korinth_missions_DESC:0 ""
+korinth_missions_task_20_DESC:0 ""
 
 
 #Tooltips
-
+bithynia_missions_task_17_tooltip:0 "Have a legion with at least #Y 10#! units"
 
 
 #Modifiers
-
+korinth_mercenaries:0 "Local Mercenaries Persuaded"
 
 
 #Events
 me_korinth_1_title:0 "$korinth_missions_task_1$"
-me_korinth_1_desc:0 ""
-me_korinth_1.a:0 ""
+me_korinth_1_desc:0 "Under the rule of Cypselus, [GetProvince('(int32)470').GetName] was established. Despite the reasonable ways we have treated our other colonies, the Korkyrans have always maintained a policy of hostility towards us. It is for this that they must be subjugated; we cannot have [GetCountry('KRK').GetName] consorting with the #E Athenians#!. So be it if we are drawn into war with [GetProvince('(int32)416').GetName]. Why should we fear that city of philosophers and demagogues, who have only recently claimed to be as powerful as us. We, the Korinthians, have had an realm of our own for far longer than any [GetCulture('athenian').GetName], and we will not let them get in the way now."
+me_korinth_1.a:0 "The Korkyrans will come to regret their decisions."
 me_korinth_1_tooltip:0 "The mission task '#Y $korinth_missions_task_1$#!' has now been #G Completed#!!"
 
 me_korinth_2_title:0 "$korinth_missions_task_2$"
@@ -89,8 +89,8 @@ me_korinth_2.a:0 ""
 me_korinth_2_tooltip:0 "The mission task '#Y $korinth_missions_task_2$#!' has now been #G Completed#!!"
 
 me_korinth_3_title:0 "$korinth_missions_task_3$"
-me_korinth_3_desc:0 ""
-me_korinth_3.a:0 ""
+me_korinth_3_desc:0 "[ROOT.GetCountry.GetRuler.GetName|E] has been able to hire some of the local mercenaries, showering them with promises of the glory they will attain during our campaigns. Evidently, they bought our ruler's honeyed words, and their numbers will help to bolster our army."
+me_korinth_3.a:0 "Perhaps a bit uncouth, but necessary."
 me_korinth_3_tooltip:0 "The mission task '#Y $korinth_missions_task_3$#!' has now been #G Completed#!!"
 
 me_korinth_4_title:0 "$korinth_missions_task_4$"
