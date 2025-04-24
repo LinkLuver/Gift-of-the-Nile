@@ -44,6 +44,7 @@ KYMAIA_MAGNA_FLAG = {
         texture = "ce_amphora_06.dds"
         color1 = "silver"
 		color2 = "ck2_black"
+		instance = { scale = { 0.90 0.90 } }
 	}
 	colored_emblem = {
 		texture = "ce_border_greek_07.dds"
@@ -684,7 +685,7 @@ PHRYGIA_FLAG = {
 		texture = "ce_eagle_03.dds"
 		color1 = "epirus_yellow"
 		color2 = "offwhite"
-		instance = { scale = { 0.90 0.90 }}
+		instance = { scale = { 0.90 0.90 } }
 	}
 	colored_emblem = {
 		texture = "ce_border_rug_01.tga"
@@ -692,5 +693,40 @@ PHRYGIA_FLAG = {
 		color2 = "epirus_yellow"
 		instance = { rotation = 180 }
 		instance = {}
+	}
+}
+
+KORINTHIAN_KORKYRA_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "ocean_blue"
+	color2 = "epirus_yellow"
+	colored_emblem = {
+		texture = "ce_corinthian_helmet.dds"
+		color1 = "silver"
+		color2 = "epirus_yellow"		
+	}
+	colored_emblem = {
+		texture = "ce_border_stars_01.dds"
+		color1 = "epirus_yellow"
+		color2 = "roman_gold"
+		instance = {}
+		instance = { rotation = 180 }		
+	}
+}
+
+KALLIPOLIS_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "kallipolis_green"
+	color2 = "ocean_blue"
+	colored_emblem = {
+		texture = "ce_grapes_01.dds"
+		color1 = "ck2_purple"
+		color2 = "epirus_yellow"
+		instance = { scale = { 0.90 0.90 } }		
+	}
+	colored_emblem = {
+		texture = "ce_border_greek_03.dds"
+		color1 = "bone_white"
+		color2 = "roman_gold"
 	}
 }

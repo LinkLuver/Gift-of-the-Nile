@@ -8274,7 +8274,7 @@ pergamon_heritage = {
     modifier = {
         #good
         max_research_efficiency = 0.20
-        global_monthly_food_modifier = 0.10
+        global_monthly_food_modifier = 0.05
         #bad
         build_cost = 0.05
     }

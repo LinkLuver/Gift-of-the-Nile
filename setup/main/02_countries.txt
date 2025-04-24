@@ -2719,6 +2719,15 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
+			pantheon = {
+
+				{ deity = 30538 } #Bellerophon
+				{ deity = 112 } #Hermes
+				{ deity = 115 } #Helios
+				{ deity = 30537 } #Aphrodite Hoplimense
+	
+				}
+
 			own_control_core =  {
 				418 8003 460 461
 			}

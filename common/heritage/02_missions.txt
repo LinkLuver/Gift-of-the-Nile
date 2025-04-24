@@ -731,4 +731,16 @@ thera_heritage = {
         always = no # Only added through missions
     }
 }
+kallipolis_heritage = {
+	modifier = {
+		#good 
+		civic_tech_investment = 0.10
+		global_population_happiness = 0.04
+		#bad
+		loyalty_to_overlord = 15
+	}
+	trigger = {
+		always = no # Only added through missions
+	}
+}
 

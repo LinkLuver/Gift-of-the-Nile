@@ -21,14 +21,16 @@
             days = 7300
         }
     }
-    on_completion = {}
+    on_completion = {
+        add_4_free_province_investments = yes
+    }
     korinth_missions_task_1 = { # Eyes on Korkyra
         icon = "task_battle"
 
         duration = 30
 
         allow = {
-            political_influence >= 10
+            political_influence >= 20
         }
         on_completion = {
             trigger_event = me_korinth.1
@@ -55,9 +57,6 @@
         allow = {
             current_ruler = {
                 has_trait = silver_tongued
-                OR = {
-                has_trait = orator 
-                }
             }
             treasury >= 80
         }
@@ -71,10 +70,14 @@
             }
         }
     }
-    korinth_missions_task_4 = {
+    korinth_missions_task_4 = { #Holy Prostitutes of Aphrodite
         requires = { korinth_missions_task_12 }
-        icon = "task_political"
-        allow = {}
+        icon = "task_happiness"
+        allow = {
+            p:418 = {
+                deity:omen_aphrodite_hoplimense = { has_holy_site = yes }
+            }
+        }
         on_completion = {
             trigger_event = me_korinth.4
             show_as_tooltip = {
@@ -84,7 +87,7 @@
     }
     korinth_missions_task_5 = {
         requires = { korinth_missions_task_3 }
-        icon = "task_political"
+        icon = "task_artemis"
         allow = {}
         on_completion = {
             trigger_event = me_korinth.5
@@ -95,7 +98,7 @@
     }
     korinth_missions_task_6 = {
         requires = { korinth_missions_task_2 korinth_missions_task_5}
-        icon = "task_political"
+        icon = "task_dying_gaul"
         allow = {}
         on_completion = {
             trigger_event = me_korinth.6
@@ -106,7 +109,7 @@
     }
     korinth_missions_task_7 = {
         requires = { korinth_missions_task_6 }
-        icon = "task_political"
+        icon = "task_diplomatic"
         allow = {}
         on_completion = {
             trigger_event = me_korinth.7
@@ -117,7 +120,7 @@
     }
     korinth_missions_task_8 = {
         requires = { korinth_missions_task_6 }
-        icon = "task_political"
+        icon = "task_conquest"
         allow = {}
         on_completion = {
             trigger_event = me_korinth.8
@@ -128,7 +131,7 @@
     }
     korinth_missions_task_9 = {
         requires = { korinth_missions_task_6 }
-        icon = "task_political"
+        icon = "task_diplomatic"
         allow = {}
         on_completion = {
             trigger_event = me_korinth.9
@@ -139,7 +142,7 @@
     }
     korinth_missions_task_10 = { # Controlling The Boot
         requires = { korinth_missions_task_2 }
-        icon = "task_political"
+        icon = "task_expansion"
         allow = {
             owns_or_subject_owns = 63
             owns_or_subject_owns = 64
@@ -147,14 +150,11 @@
         }
         on_completion = {
             trigger_event = me_korinth.10
-            show_as_tooltip = {
-
-            }
         }
     }
     korinth_missions_task_11 = {
         requires = { korinth_missions_task_10 }
-        icon = "task_political"
+        icon = "task_diplomatic"
         allow = {}
         on_completion = {
             trigger_event = me_korinth.11
@@ -164,19 +164,28 @@
         }
     }
     korinth_missions_task_12 = {
-        icon = "task_political"
-        allow = {}
+        icon = "task_economical"
+
+        duration = 365
+        
+        allow = {
+            treasury >= 100
+            p:418.state = {
+                has_state_modifier = state_improvement_military
+            } 
+        }
         on_completion = {
             trigger_event = me_korinth.12
             show_as_tooltip = {
-
+            add_treasury = -100
             }
         }
     }
     korinth_missions_task_13 = {
         requires = { korinth_missions_task_12 }
         icon = "task_political"
-        allow = {}
+        allow = {
+        }
         on_completion = {
             trigger_event = me_korinth.13
             show_as_tooltip = {
@@ -197,7 +206,7 @@
     }
     korinth_missions_task_15 = {
         requires = { korinth_missions_task_2 }
-        icon = "task_political"
+        icon = "task_religion"
         allow = {}
         on_completion = {
             trigger_event = me_korinth.15
@@ -208,7 +217,7 @@
     }
     korinth_missions_task_16 = {
         requires = { korinth_missions_task_3 }
-        icon = "task_political"
+        icon = "task_heracles"
         allow = {
             #Have a legion
             trigger_if = {
@@ -235,13 +244,17 @@
         on_completion = {
             trigger_event = me_korinth.16
             show_as_tooltip = {
-
+            add_military_experience = 20
+                add_country_modifier = {
+                    name = korinthian_legion
+                    duration = -1
+                }
             }
         }
     }
     korinth_missions_task_17 = {
         requires = { korinth_missions_task_16 }
-        icon = "task_political"
+        icon = "task_expansion"
         allow = {}
         on_completion = {
             trigger_event = me_korinth.17
@@ -252,7 +265,7 @@
     }
     korinth_missions_task_18 = {
         requires = { korinth_missions_task_13 korinth_missions_task_14 }
-        icon = "task_political"
+        icon = "task_zeus_cornucopia"
         allow = {}
         on_completion = {
             trigger_event = me_korinth.18
@@ -263,7 +276,7 @@
     }
     korinth_missions_task_19 = {
         requires = { korinth_missions_task_10 }
-        icon = "task_political"
+        icon = "task_expansion"
         allow = {}
         on_completion = {
             trigger_event = me_korinth.19
@@ -278,6 +291,94 @@
         allow = {}
         on_completion = {
             trigger_event = me_korinth.20
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_21 = { #Bureaucratic Matters
+        icon = "task_political"
+        allow = {
+            has_senate_approval >= 0.6 
+        }
+        on_completion = {
+            trigger_event = me_korinth.21
+            show_as_tooltip = {
+                add_country_modifier = {
+                    name = korinth_laws
+                    duration = 1825
+                }
+            }
+        }
+    }
+    korinth_missions_task_22 = {
+        requires = { korinth_missions_task_21 }
+
+        potential = {
+			NOT = {
+				has_variable = korinth_tyranny_path
+			}
+		}
+
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.22
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_23 = {
+        requires = { korinth_missions_task_21 }
+        icon = "task_apollo"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.23
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_24 = {
+        requires = { korinth_missions_task_22 }
+        icon = "task_calm"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.24
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_25 = {
+        requires = { korinth_missions_task_23 }
+        icon = "task_happiness"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.25
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_26 = {
+        requires = { korinth_missions_task_25 }
+        icon = "task_atlas"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.26
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    korinth_missions_task_27 = {
+        requires = { korinth_missions_task_24 }
+        icon = "task_heracles"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.27
             show_as_tooltip = {
 
             }

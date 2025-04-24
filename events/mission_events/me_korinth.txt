@@ -9,22 +9,74 @@ me_korinth.1 = { # Eyes on Korkrya
 
     option = {
         name = "me_korinth_1.a"
+        add_political_influence = -20
         p:470 = {
             add_claim = root
         }
     }
 }
-me_korinth.2 = {
+me_korinth.2 = { # Phaecian Conquest
     type = country_event
 
     title = me_korinth_2_title
     desc = me_korinth_2_desc
-    picture = great_library
+    picture = greek_siege
 
     option = {
         name = "me_korinth_2.a"
         custom_tooltip = me_korinth_2_tooltip
-
+        p:470 = {
+            add_province_modifier = {
+                name = korinthian_garrison
+                duration = -1
+            }
+        }
+        p:470 = {
+            create_state_pop = citizen
+            create_state_pop = citizen
+            create_state_pop = freemen
+        }
+        p:63 = {
+            add_claim = root
+        }
+        p:64 = {
+            add_claim = root
+        }
+        p:65 = {
+            add_claim = root
+        }
+    }
+    option = {
+        name = "me_korinth_2.b"
+        custom_tooltip = me_korinth_2_b_tooltip
+        p:470 = {
+            create_country = {
+                name = {
+                    name = "KRK"
+                    adjective = "KRK_ADJ"
+                }
+                hidden_effect = {
+                    set_country_heritage = korkyra_heritage
+                    change_country_flag = KORINTHIAN_KORKYRA_FLAG
+                    set_country_religion = roman_pantheon
+                    change_government = oligarchic_republic
+                    save_scope_as = new_feudatory_scope
+                    change_country_color = korkyra_blue
+                }
+            }
+        }
+        hidden_effect = {  
+            scope:new_feudatory_scope = {
+                add_country_modifier = {
+                    name = autonomous_korkyra
+                    duration = -1
+                }
+            }
+            make_subject = {
+                type = feudatory
+                target = scope:new_feudatory_scope
+            }
+        }
     }
 }
 me_korinth.3 = {
@@ -121,17 +173,74 @@ me_korinth.9 = {
 
     }
 }
-me_korinth.10 = {
+me_korinth.10 = { # Controlling The Boot
     type = country_event
 
     title = me_korinth_10_title
     desc = me_korinth_10_desc
-    picture = great_library
+    picture = hellenic_marketplace
 
     option = {
-        name = "me_korinth_10.a"
+        name = "me_korinth_10.a" 
         custom_tooltip = me_korinth_10_tooltip
-
+        p:63 = {
+            set_city_status = city
+            set_trade_goods = dye
+        }
+        hidden_effect = {
+        p:63 = { #THIS PART DOESN'T WORK- FIX LATER
+            every_pops_in_province = {
+                    random_list = {
+                        90 = { }
+                        10 = { set_pop_culture = achaean }
+                    }
+                }
+            }
+            add_country_modifier = {
+                name = italian_conquests
+                duration = 3650
+            }
+        }
+    }
+    option = {
+        name = "me_korinth_10.b"
+        custom_tooltip = me_korinth_10_b_tooltip
+        p:63 = {
+            set_city_status = city
+            set_trade_goods = dye
+            create_state_pop = citizen
+            create_state_pop = citizen
+            create_state_pop = freemen
+        }
+        p:63 = {
+            create_country = {
+                name = {
+                    name = "KALLIPOLIS_NAME"
+                    adjective = "KALLIPOLIS_ADJECTIVE"
+                }
+                hidden_effect = {
+                    set_country_heritage = kallipolis_heritage
+                    change_country_color = kallipolis_green
+                    change_country_flag = KALLIPOLIS_FLAG
+                    set_country_religion = roman_pantheon
+                    change_government = oligarchic_republic
+                    save_scope_as = new_feudatory_scope
+                    }
+                }
+            }
+            hidden_effect = {
+                make_subject = {
+                    type = subject_colony
+                    target = scope:new_feudatory_scope
+                }
+                scope:new_feudatory_scope = {
+                    add_country_modifier = {
+                        name = korinthian_colony
+                        duration = -1
+                    
+                }   
+            }
+        }
     }
 }
 me_korinth.11 = {
@@ -147,17 +256,22 @@ me_korinth.11 = {
 
     }
 }
-me_korinth.12 = {
+me_korinth.12 = { #Expanding the Akrokorinth
     type = country_event
 
     title = me_korinth_12_title
     desc = me_korinth_12_desc
-    picture = great_library
+    picture = interesting_histories_italic_hilltop
 
     option = {
         name = "me_korinth_12.a"
         custom_tooltip = me_korinth_12_tooltip
-
+        p:418 = {
+            add_province_modifier = {
+                name = expanded_akrokorinth
+                duration = -1
+            }
+        }
     }
 }
 me_korinth.13 = {
@@ -204,12 +318,16 @@ me_korinth.16 = {
 
     title = me_korinth_16_title
     desc = me_korinth_16_desc
-    picture = great_library
+    picture = greeks_marching
 
     option = {
         name = "me_korinth_16.a"
         custom_tooltip = me_korinth_16_tooltip
-
+        add_military_experience = 20
+            add_country_modifier = {
+                name = korinthian_legion
+                duration = -1
+        }
     }
 }
 me_korinth.17 = {
@@ -261,6 +379,114 @@ me_korinth.20 = {
     option = {
         name = "me_korinth_20.a"
         custom_tooltip = me_korinth_20_tooltip
+
+    }
+}
+me_korinth.21 = { #Bureaucratic Matters
+    type = country_event
+
+    title = me_korinth_21_title
+    desc = me_korinth_21_desc
+    picture = greek_political_discussion
+
+    option = {
+        name = "me_korinth_21.a"
+        custom_tooltip = me_korinth_21_tooltip
+        add_country_modifier = {
+            name = korinth_laws
+            duration = 1825
+        }
+        hidden_effect = {
+            set_variable = korinth_oligarchy_path
+        }
+    }
+    option = {
+        name = "me_korinth_21.b"
+        custom_tooltip = me_korinth_21_tooltip
+        add_country_modifier = {
+            name = korinth_laws
+            duration = 1825
+        }
+        hidden_effect = {
+            set_variable = korinth_tyranny_path
+        }
+    }
+}
+me_korinth.22 = {
+    type = country_event
+
+    title = me_korinth_22_title
+    desc = me_korinth_22_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_22.a"
+        custom_tooltip = me_korinth_22_tooltip
+
+    }
+}
+me_korinth.23 = {
+    type = country_event
+
+    title = me_korinth_23_title
+    desc = me_korinth_23_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_23.a"
+        custom_tooltip = me_korinth_23_tooltip
+
+    }
+}
+me_korinth.24 = {
+    type = country_event
+
+    title = me_korinth_24_title
+    desc = me_korinth_24_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_24.a"
+        custom_tooltip = me_korinth_24_tooltip
+
+    }
+}
+me_korinth.25 = {
+    type = country_event
+
+    title = me_korinth_25_title
+    desc = me_korinth_25_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_25.a"
+        custom_tooltip = me_korinth_25_tooltip
+
+    }
+}
+me_korinth.26 = {
+    type = country_event
+
+    title = me_korinth_26_title
+    desc = me_korinth_26_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_26.a"
+        custom_tooltip = me_korinth_26_tooltip
+
+    }
+}
+me_korinth.27 = {
+    type = country_event
+
+    title = me_korinth_27_title
+    desc = me_korinth_27_desc
+    picture = great_library
+
+    option = {
+        name = "me_korinth_27.a"
+        custom_tooltip = me_korinth_27_tooltip
 
     }
 }

@@ -1,0 +1,32 @@
+﻿korinth_mercenaries = {
+	recruit_mercenary_cost_modifier = -0.25
+	mercenary_land_maintenance_cost = -0.25
+}
+korinthian_garrison = {
+	local_defensive = 0.10
+	local_monthly_state_loyalty = 0.03
+}
+autonomous_korkyra = {
+	loyalty_to_overlord = 25
+	global_export_commerce_modifier = 0.05
+}
+italian_conquests = {
+	agressive_expansion_monthly_change = -0.03
+	war_score_cost = -0.10
+}
+korinthian_colony = {
+	global_commerce_modifier = 0.10
+}
+korinthian_legion = {
+	army_maintenance_cost = -0.20
+	spearmen_cost = -0.10
+}
+korinth_laws = {
+	enact_law_cost_modifier = -0.15
+	monthly_party_approval = 0.03
+}
+expanded_akrokorinth = {
+	fort_level = 1
+	local_defensive = 0.25
+	garrison_size = 0.2
+}

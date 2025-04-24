@@ -613,27 +613,26 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="macedonian"
-		amount=1
+		religion="stoicism"
+		amount=2
 	}
 	nobles={
 		amount=2
 	}
 	citizen={
-		amount=4
+		amount=6
 	}
-	citizen={
+	freemen={
 		culture="hebrew"
 		religion="judaism"
 		amount=1
 	}
 	freemen={
-		culture="hebrew"
-		religion="judaism"
-		amount=2
+		amount=6
 	}
 	freemen={
-		amount=5
+		religion="stoicism"
+		amount=1
 	}
 	freemen={
 		culture="macedonian"
@@ -648,6 +647,7 @@
 		amount=1
 	}
 	freemen={
+		religion="platonism"
 		culture="athenian"
 		amount=1
 	}
@@ -656,7 +656,7 @@
 		amount=1
 	}
 	slaves={
-		amount=3
+		amount=5
 	}
 	port_building=1
 }
@@ -1084,7 +1084,7 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=2
+		amount=3
 	}
 	citizen={
 		culture="hebrew"
@@ -1095,7 +1095,7 @@
 		amount=4
 	}
 	freemen={
-		amount=6
+		amount=7
 	}
 	freemen={
 		culture="peloponnesian"
@@ -1107,7 +1107,7 @@
 		amount=1
 	}
 	slaves={
-		amount=2
+		amount=4
 	}
 	holy_site=omen_hera
 	port_building=1

@@ -41,7 +41,7 @@ ourkinion_deconstructed = {
 	local_population_capacity_modifier = -0.05
 }
 ourkinion_fortress = {
-	fort_maintenance_cost = -0.05
+	fort_maintenance_cost = -0.10
 }
 corsian_dissent = {
 	culture_happiness_modifier = -0.05
@@ -64,7 +64,7 @@ corsica_eternal = {
 	global_building_slot = 2
 }
 alalia_walls = {
-	fort_level = 1
+	local_defensive = 0.20
 }
 apollo_delphinios_patronized = {
 	naval_morale_modifier = 0.05

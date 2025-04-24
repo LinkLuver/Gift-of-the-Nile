@@ -17,7 +17,7 @@ korinth_missions_task_2_DESC:0 "Now that Korkyra has come under our control, we 
 korinth_missions_task_3:0 "Machinations of War"
 korinth_missions_task_3_DESC:0 "Our upcoming conflicts will require us to field a large army. We should turn to local mercenaries, to see if we can make some sort of deal"
 
-korinth_missions_task_4:0 "Holy Prostitutes of Aphrodite"
+korinth_missions_task_4:0 "Honoring Aphrodite"
 korinth_missions_task_4_DESC:0 "Korinth "
 
 korinth_missions_task_5:0 "Our Loyal Friends and Allies"
@@ -36,25 +36,25 @@ korinth_missions_task_9:0 "Negiotiating With Sparta"
 korinth_missions_DESC:0 ""
 
 korinth_missions_task_10:0 "Controlling the Boot"
-korinth_missions_DESC:0 ""
+korinth_missions_task_10_DESC:0 "Controlling several key territories would greatly increase our control of the #E Ionian Sea#!."
 
 korinth_missions_task_11:0 "Syracusan Delegation"
 korinth_missions_DESC:0 ""
 
-korinth_missions_task_12:0 "Money, Money, Money"
-korinth_missions_DESC:0 ""
+korinth_missions_task_12:0 "Expanding the Akrokorinthos"
+korinth_missions_task_12_DESC:0 "We will begin to better expand and improve the Akrokorinthos."
 
-korinth_missions_task_13:0 "The Fruits of Our Labor"
-korinth_missions_DESC:0 ""
+korinth_missions_task_13:0 "Improving the Diolkos"
+korinth_missions_DESC:0 "The Diolkos"
 
 korinth_missions_task_14:0 "Achaean Investments"
-korinth_missions_task_14_DESC:0 "Expanding the Akokorinth"
+korinth_missions_task_14_DESC:0 "Achaea is best known for it's "
 
-korinth_missions_task_15:0 "A Meeting in Passaron"
-korinth_missions_task_15_DESC:0 ""
+korinth_missions_task_15:0 "Consulting the Dodona Oracle"
+korinth_missions_task_15_DESC:0 "The Oracle at Dodona is the most ancient and esteemed of all Greek oracles, even the famed Oracle of Delphi. It would be wise to seek the favor of the gods."
 
 korinth_missions_task_16:0 "Korinthian Legion"
-korinth_missions_task_16_DESC:0 ""
+korinth_missions_task_16_DESC:0 "Although Korinth is not known for having the fiercest or the strongest warriors, we can use our wealth to make up for it."
 
 korinth_missions_task_17:0 "Naval blah blahh"
 korinth_missions_task_17_DESC:0 ""
@@ -68,6 +68,27 @@ korinth_missions_task_19_DESC:0 ""
 korinth_missions_task_20:0 "Hegemon of Greece"
 korinth_missions_task_20_DESC:0 ""
 
+korinth_missions_task_21:0 "Bureacratic Matters"
+korinth_missions_task_21_DESC:0 "An expansion of our internal structure should be conducted. After all, how can we expect to have a great realm if we do not adapt to the times?"
+
+korinth_missions_task_22:0 "Oligarchical Ways"
+korinth_missions_task_22_DESC:0 "The ways of oligarchy have served us best, and will continue to do so."
+
+korinth_missions_task_23:0 "Remembering Our Past Glories"
+korinth_missions_task_23_DESC:0 "All the great achievments of Korinth were made under the rule of tyrants- we should not shun this path."
+
+korinth_missions_task_24:0 "Strengthening Our Administration"
+korinth_missions_task_24_DESC:0 "Our current government is rife with corruption, a natural consequence of our wealth. If we could root out such an issue, we may better perfect our governance."
+
+korinth_missions_task_25:0 "Bread and Circuses"
+korinth_missions_task_25_DESC:0 "By keeping the populous happy, we will be given free reign to accomplish our goals."
+
+korinth_missions_task_26:0 "The Rule of One"
+korinth_missions_task_26_DESC:0 "Egypt, Assyria, Lydia, and Media. All great nations who were defined by one, strong ruler."
+
+korinth_missions_task_27:0 "The Rule of Few"
+korinth_missions_task_27_DESC:0 "We have decided that it is the wise rule of few, not the autocratic power of one, that can best rule a nation."
+
 
 #Tooltips
 bithynia_missions_task_17_tooltip:0 "Have a legion with at least #Y 10#! units"
@@ -75,6 +96,23 @@ bithynia_missions_task_17_tooltip:0 "Have a legion with at least #Y 10#! units"
 
 #Modifiers
 korinth_mercenaries:0 "Local Mercenaries Persuaded"
+korinthian_garrison:0 "Korinthian Garrison"
+korinthian_garrison_desc:0 "A garrison of Korinthian soldiers has been established in this city."
+autonomous_korkyra:0 "Autonomous Korkyra"
+italian_conquests:0 "Italian Conquests"
+korinthian_colony:0 "Korinthian Colony"
+korinthian_legion:0 "Self-Sufficent Legion"
+korinthinian_hegemony_mod:0 "Korinthian Hegemony"
+korinth_laws:0 "Internal Reorganizing"
+expanded_akrokorinth:0 "Expanded Akrokorinthos"
+expanded_akrokorinth_desc:0 "The ancient acropolis of Korinth has had it's fortifications improved and expanded, an impressive feat of engineering."
+
+#Extras
+
+KALLIPOLIS_NAME:0 "Kallipolis"
+KALLIPOLIS_ADJECTIVE:0 "Kallipolitan"
+kallipolis_heritage:0 "Heritage of Idomenian Founding"
+kallipolis_heritage_desc:0 "Kallipolis, meaning 'Beautiful City' was said to have been founded by Idomenus, one of Agamemnon's trusted advisors. After the Trojan War, Idomenus's ships hit a terrible storm. Fearing for his life, Idomenus promised to Poseidon that he would sacrifice the first living thing he saw when he returned to Crete. In a curel twist of fate, when Idomenus returned, the first thing he saw was his son. Upon murdering his son, the gods, angered by his acts, sent a plague to Crete. It was then that the Cretans exiled him to Italy, where he founded the city of Kallipolis. The inhabitants of Kallipolis are Messapian, but they share many similarities to the Greeks, especially in religion. In later times, Kallipolis came under the rule of the Korinthians, who expanded the ancient city. Under this rule, the Kallipolitans began to act more like their Achaean overlords."
 
 
 #Events
@@ -84,9 +122,11 @@ me_korinth_1.a:0 "The Korkyrans will come to regret their decisions."
 me_korinth_1_tooltip:0 "The mission task '#Y $korinth_missions_task_1$#!' has now been #G Completed#!!"
 
 me_korinth_2_title:0 "$korinth_missions_task_2$"
-me_korinth_2_desc:0 ""
-me_korinth_2.a:0 ""
+me_korinth_2_desc:0 "After a lengthy siege, [GetProvince('(int32)470').GetName] has once again fallen under our control. We could leave the Korkyrans to their own devices, or we could directly rule the city. Direct rule would allow us to establish the island as a naval base, and to ensure [GetProvince('(int32)470').GetName] never takes up arms against us again. The lands of #E Italia#!, across the #E Ionian Sea#!, seem ripe for the taking..."
+me_korinth_2.a:0 "We will garrison their city."
+me_korinth_2.b:0 "Despite their wrongdoings, they will be allowed to govern themselves."
 me_korinth_2_tooltip:0 "The mission task '#Y $korinth_missions_task_2$#!' has now been #G Completed#!!"
+me_korinth_2_b_tooltip:0 "The mission task '#Y $korinth_missions_task_2$#!' has now been #G Completed#!!\nKokyra will become our feudatory."
 
 me_korinth_3_title:0 "$korinth_missions_task_3$"
 me_korinth_3_desc:0 "[ROOT.GetCountry.GetRuler.GetName|E] has been able to hire some of the local mercenaries, showering them with promises of the glory they will attain during our campaigns. Evidently, they bought our ruler's honeyed words, and their numbers will help to bolster our army."
@@ -124,9 +164,11 @@ me_korinth_9.a:0 ""
 me_korinth_9_tooltip:0 "The mission task '#Y $korinth_missions_task_9$#!' has now been #G Completed#!!"
 
 me_korinth_10_title:0 "$korinth_missions_task_10$"
-me_korinth_10_desc:0 ""
-me_korinth_10.a:0 ""
-me_korinth_10_tooltip:0 "The mission task '#Y $korinth_missions_task_10$#!' has now been #G Completed#!!"
+me_korinth_10_desc:0 "Our campaigns in #E Italia#! have been sucessful, with the boot of #E Italia#! falling under our control with little difficulty. [GetProvince('(int32)63').GetName] is said to have been founded by the [GetCulture('cretan').GetName] #E Idomenus#!, after the conclusion of the #E Trojan War#!. This city would be a great colony- it is already rather large, and we would not find it difficult to improve the existing infrastructure. Additionally, the #E Messapians#! already practice many #E Greek#! ways- they are not so dissimilar from ourselves. Regardless of our decision, these new territories will allow us to make further gains in #E Italia#!."
+me_korinth_10.a:0 "It will be established as a #E Korinthian#! city."
+me_korinth_10.b:0 "We are better off letting them rule their own."
+me_korinth_10_tooltip:0 "The mission task '#Y $korinth_missions_task_10$#!' has now been #G Completed#!!\nA number of pops in #E Kallipolis#! will #G assimilate#! to #E Achaean#! ways."
+me_korinth_10_b_tooltip:0 "The mission task '#Y $korinth_missions_task_10$#!' has now been #G Completed#!!\n#E Kallipolis#! will be released as our #G Colony#!."
 
 me_korinth_11_title:0 "$korinth_missions_task_11$"
 me_korinth_11_desc:0 ""
@@ -134,8 +176,8 @@ me_korinth_11.a:0 ""
 me_korinth_11_tooltip:0 "The mission task '#Y $korinth_missions_task_11$#!' has now been #G Completed#!!"
 
 me_korinth_12_title:0 "$korinth_missions_task_12$"
-me_korinth_12_desc:0 ""
-me_korinth_12.a:0 ""
+me_korinth_12_desc:0 "First fortifed by Cypselus and later Periandros, the Akrokorinth looms over our city, protecting us from invaders, and making it incredibly difficult to assail [GetProvince('(int32)418').GetName] directly. A renovation of these fortifications was needed, and now it has not only been repaired in some areas, but expanded. The city walls now nearly span the entire width of the isthmus, an astounding accomplishment, and making it nigh impossible to even attempt to lay siege to [GetProvince('(int32)418').GetName]. Only a fool would do so."
+me_korinth_12.a:0 "None shall pass without our say."
 me_korinth_12_tooltip:0 "The mission task '#Y $korinth_missions_task_12$#!' has now been #G Completed#!!"
 
 me_korinth_13_title:0 "$korinth_missions_task_13$"
@@ -154,8 +196,8 @@ me_korinth_15.a:0 ""
 me_korinth_15_tooltip:0 "The mission task '#Y $korinth_missions_task_15$#!' has now been #G Completed#!!"
 
 me_korinth_16_title:0 "$korinth_missions_task_16$"
-me_korinth_16_desc:0 ""
-me_korinth_16.a:0 ""
+me_korinth_16_desc:0 "Our legion is now fully complete, our men are trained, experienced soldiers, truly, this is a great day for [GetProvince('(int32)418').GetName]. Most importantly, we have saved a great deal of money by making some of our wealthier residents pay for the arming of our soldiers. Despite their grumblings, they agreed to our proposition. No price is too high when it comes to security!"
+me_korinth_16.a:0 "A skilled legion indeed."
 me_korinth_16_tooltip:0 "The mission task '#Y $korinth_missions_task_16$#!' has now been #G Completed#!!"
 
 me_korinth_17_title:0 "$korinth_missions_task_17$"
@@ -177,4 +219,40 @@ me_korinth_20_title:0 "$korinth_missions_task_20$"
 me_korinth_20_desc:0 ""
 me_korinth_20.a:0 ""
 me_korinth_20_tooltip:0 "The mission task '#Y $korinth_missions_task_20$#!' has now been #G Completed#!!"
+
+me_korinth_21_title:0 "$korinth_missions_task_21$"
+me_korinth_21_desc:0 ""
+me_korinth_21.a:0 "We will maintain our path of oligarchy."
+me_korinth_21.b:0 "We will pursue a path of tyranny and populism."
+me_korinth_21_tooltip:0 "The mission task '#Y $korinth_missions_task_21$#!' has now been #G Completed#!!"
+
+me_korinth_22_title:0 "$korinth_missions_task_22$"
+me_korinth_22_desc:0 ""
+me_korinth_22.a:0 ""
+me_korinth_22_tooltip:0 "The mission task '#Y $korinth_missions_task_22$#!' has now been #G Completed#!!"
+
+me_korinth_23_title:0 "$korinth_missions_task_23$"
+me_korinth_23_desc:0 ""
+me_korinth_23.a:0 ""
+me_korinth_23_tooltip:0 "The mission task '#Y $korinth_missions_task_23$#!' has now been #G Completed#!!"
+
+me_korinth_24_title:0 "$korinth_missions_task_24$"
+me_korinth_24_desc:0 ""
+me_korinth_24.a:0 ""
+me_korinth_24_tooltip:0 "The mission task '#Y $korinth_missions_task_24$#!' has now been #G Completed#!!"
+
+me_korinth_25_title:0 "$korinth_missions_task_25$"
+me_korinth_25_desc:0 ""
+me_korinth_25.a:0 ""
+me_korinth_25_tooltip:0 "The mission task '#Y $korinth_missions_task_25$#!' has now been #G Completed#!!"
+
+me_korinth_26_title:0 "$korinth_missions_task_26$"
+me_korinth_26_desc:0 ""
+me_korinth_26.a:0 ""
+me_korinth_26_tooltip:0 "The mission task '#Y $korinth_missions_task_26$#!' has now been #G Completed#!!"
+
+me_korinth_27_title:0 "$korinth_missions_task_27$"
+me_korinth_27_desc:0 ""
+me_korinth_27.a:0 ""
+me_korinth_27_tooltip:0 "The mission task '#Y $korinth_missions_task_27$#!' has now been #G Completed#!!"
 

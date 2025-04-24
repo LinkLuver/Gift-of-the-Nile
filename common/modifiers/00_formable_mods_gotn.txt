@@ -131,3 +131,8 @@ thera_mod = {
 	local_nobles_output = 0.10
 	local_building_slot = 3
 }
+korinthinian_hegemony_mod = {
+	global_commerce_modifier = 0.20
+	global_state_trade_routes = 1
+	monthly_governor_wage = -0.10
+}
