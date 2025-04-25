@@ -81,7 +81,20 @@
         on_completion = {
             trigger_event = me_korinth.4
             show_as_tooltip = {
-
+                create_country_treasure = {
+                    key = aphrodite_hoplimense_icon
+                    icon = aphrodite_hoplimense_icon
+                    modifier = {
+                        local_manpower_modifier = 0.05
+                        local_population_growth = 0.05
+                    }
+                }
+                p:418 = {
+                    add_province_modifier = {
+                        name = blessing_of_aphrodite
+                        duration = 1460
+                    }
+                }
             }
         }
     }
@@ -315,9 +328,7 @@
         requires = { korinth_missions_task_21 }
 
         potential = {
-			NOT = {
-				has_variable = korinth_tyranny_path
-			}
+			has_variable = korinth_tyranny_path
 		}
 
         icon = "task_political"
@@ -331,6 +342,11 @@
     }
     korinth_missions_task_23 = {
         requires = { korinth_missions_task_21 }
+
+        potential = {
+			has_variable = korinth_oligarchy_path
+		}
+
         icon = "task_apollo"
         allow = {}
         on_completion = {

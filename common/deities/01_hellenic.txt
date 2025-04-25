@@ -2642,13 +2642,13 @@ deity_bellerophon = { #Bellerophon for Korinth
 		}
 	}
 	icon = deity_diadochi_war
-	passive_modifier = { light_cavalry_morale = 0.07 }
-	omen = { army_movement_speed = 0.05 } #Bonus from Omen
+	passive_modifier = { army_movement_speed = 0.05 }
+	omen = { light_cavalry_morale = 0.07 } #Bonus from Omen
 	religion = roman_pantheon
 	deity_category = war #This Deity uses a War Slot
 
 	on_activate = {
-		
+		military_apotheosis_capital_freemen_effect = yes
 	}
 
 	deification_trigger = {

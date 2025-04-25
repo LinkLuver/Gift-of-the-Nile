@@ -95,17 +95,57 @@ me_korinth.3 = {
         }
     }
 }
-me_korinth.4 = {
+me_korinth.4 = { # Aphrodite Task
     type = country_event
 
     title = me_korinth_4_title
     desc = me_korinth_4_desc
-    picture = great_library
+    picture = greek_religious_rite
 
     option = {
         name = "me_korinth_4.a"
         custom_tooltip = me_korinth_4_tooltip
-
+        p:418 = {
+            add_province_modifier = {
+                name = blessing_of_aphrodite
+                duration = 1460
+            }
+        }
+        create_country_treasure = {
+            key = aphrodite_hoplimense_icon
+            icon = treasure_aphrodite_hoplimense
+            modifier = {
+                local_manpower_modifier = 0.05
+                local_population_growth = 0.05
+            }
+        }
+    }
+    option = {
+        name = "me_korinth_4.b"
+        custom_tooltip = me_korinth_4_tooltip
+        custom_tooltip = me_korinth_4_b_tooltip
+        trigger_event = { id = me_korinth.28 days = 1370 }
+        p:418 = {
+            add_province_modifier = {
+                name = blessing_of_aphrodite
+                duration = 1460
+            }
+        }
+        create_country_treasure = {
+            key = aphrodite_hoplimense_icon
+            icon = treasure_aphrodite_hoplimense
+            modifier = {
+                local_manpower_modifier = 0.05
+                local_population_growth = 0.05
+            }
+        }
+        current_ruler = {
+            add_popularity = 10
+        }
+        set_global_variable = {
+			name = aphrodisia_festival_counter_var
+			value = 1
+		}
     }
 }
 me_korinth.5 = {
@@ -271,6 +311,9 @@ me_korinth.12 = { #Expanding the Akrokorinth
                 name = expanded_akrokorinth
                 duration = -1
             }
+        }
+        p:418 = {
+            remove_province_modifier = akrokorinth_province_modifier
         }
     }
 }
@@ -489,4 +532,93 @@ me_korinth.27 = {
         custom_tooltip = me_korinth_27_tooltip
 
     }
+}
+me_korinth.28 = { #Recurrent Aphrodisia - preparation
+	type = country_event
+	title = "me_korinth_28_title"
+	desc = "me_korinth_28_desc"
+	picture = greek_court
+
+	trigger = {
+		tag = KOR
+	}
+
+	option = {                            
+		name = "me_korinth_28.a"
+		custom_tooltip = me_korinth_28.a_tt
+		trigger_event = { id = me_korinth.29 days = 90 }
+		add_treasury = -75
+		add_political_influence = -10
+		change_global_variable = {
+			name = korinth_aphrodisia_festival_counter_var
+			add = 1
+		}
+	}
+	option = {
+		name = "me_korinth_28.b"
+		custom_tooltip = me_korinth_28.b_tt
+		trigger_event = {
+			id = me_korinth.29
+			days = 1460
+		}
+        add_party_approval = {
+            party_type = traditionalist_party
+            value = -5
+        }
+		current_ruler = {
+			add_popularity = -10
+		}
+	}
+	option = {
+		name = "me_korinth_28.c"
+		current_ruler = {
+			add_popularity = -15
+		}
+		add_party_approval = {
+            party_type = traditionalist_party
+            value = -10
+        }
+		custom_tooltip = me_korinth_28.c_tt
+	}
+}
+
+me_korinth.29 = { #numbered Aphrodisia
+	type = country_event
+	title = "me_korinth_29_title"
+	desc = "me_korinth_29_desc"
+	picture = religious_rite
+	left_portrait = current_ruler
+
+	trigger = {
+		tag = KOR
+	}
+
+	option = {                            
+		name = "me_korinth_29.a"
+        add_party_approval = {
+            party_type = traditionalist_party
+            value = 5
+        }
+        add_party_approval = {
+            party_type = democratic_party
+            value = 5
+        }
+        add_party_approval = {
+            party_type = oligarchic_party
+            value = 5
+        }
+		add_country_modifier = {
+			name = blessing_of_aphrodite
+			duration = 365
+		}
+        custom_tooltip = me_korinth_29_babies_tt
+		capital_scope = {
+            create_state_pop = freemen
+        }
+		custom_tooltip = me_korinth_29_tt
+		trigger_event = {
+			id = me_korinth.28
+			days = 1370
+		}
+	}
 }
