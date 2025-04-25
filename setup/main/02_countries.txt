@@ -1667,7 +1667,7 @@ country = {
 				267 262
 			}
 
-			treasures = { 893 }
+			treasures = { 893 904 905 }
 		}
 
 		PHR = {
@@ -2664,7 +2664,7 @@ country = {
 
 			}
 
-			treasures = { 62 90 91 104 }
+			treasures = { 90 91 104 }
 
 			historical_regnal_numbers = {
 				Perdikkas = 3
@@ -2718,6 +2718,8 @@ country = {
 				oratory_tech={ level=2 progress=0 }
 				religious_tech= { level=2 progress=0  }
 			}
+
+			treasures = { 62 902 903 }
 
 			pantheon = {
 
