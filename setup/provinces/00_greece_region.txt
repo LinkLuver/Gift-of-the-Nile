@@ -620,11 +620,23 @@
 		amount=2
 	}
 	citizen={
-		amount=6
+		amount=4
+	}
+	citizen={
+		religion="stoicism"
+		amount=2
 	}
 	freemen={
 		culture="hebrew"
 		religion="judaism"
+		amount=1
+	}
+	freemen={
+		culture="argolian"
+		amount=1
+	}
+	freemen={
+		culture="arcadian"
 		amount=1
 	}
 	freemen={
@@ -656,7 +668,7 @@
 		amount=1
 	}
 	slaves={
-		amount=5
+		amount=7
 	}
 	port_building=1
 }
@@ -1661,7 +1673,7 @@
 
 470={ #Korkyra
 	terrain="plains"
-	culture="epirote"
+	culture="italiotian"
 	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=26
@@ -1955,17 +1967,20 @@
 	culture="boeotian"
 	religion="roman_pantheon"
 	trade_goods="cattle"
-	civilization_value=24
+	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
+	nobles={
+		amount=1
+	}
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=3
 	}
 }
 

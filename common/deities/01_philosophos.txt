@@ -701,7 +701,7 @@ deity_zeno = {
 	}
 
 	on_activate = {
-		culture_apotheosis_assimilate_effect = yes
+		culture_apotheosis_civic_tech_effect = yes
 	}
 }
 deity_diogenes = {

@@ -62,6 +62,7 @@
 				change_country_color =  "salluvia_green"
 				change_country_flag = SALLUVIA_FLAG				
 				change_country_tag = SL1
+				set_variable = formed_salluvian_confederacy
 			}
 			capital_scope = {
 				establish_city_effect = yes

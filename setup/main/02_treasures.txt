@@ -2126,7 +2126,7 @@ treasure_manager = {
 			key = "treasure_korinthian_amphora"
 			icon = "treasure_korinthian_amphora"
 			state_modifier = {
-				local_freemen_output = 0.10
+				local_base_trade_routes_modifier = 0.15
 			}
 		}
 		903 = {

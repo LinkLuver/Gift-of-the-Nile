@@ -730,3 +730,19 @@ KALLIPOLIS_FLAG = {
 		color2 = "roman_gold"
 	}
 }
+
+KORINTHIAN_ATHENS_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "ck2_blue"
+	color2 = "silver"
+
+	colored_emblem = {
+		texture = "ce_owl_03.dds"
+		color1 = "silver"
+	}
+	colored_emblem = {
+		texture = "ce_owl_01_branch.dds"
+		color1 = "roman_gold"
+		instance = { position = { 0.40 0.35  } }
+	}
+}

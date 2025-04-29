@@ -744,3 +744,80 @@ kallipolis_heritage = {
 	}
 }
 
+athens_300_heritage = {
+	modifier = {
+		#good 
+		oligarchic_party_influence = 0.03
+		global_tax_modifier = 0.05
+		#bad
+		happiness_for_same_culture_modifier = -0.04
+	}
+	trigger = {
+		always = no # Only added through missions
+	}
+}
+
+eleusis_heritage = {
+	modifier = {
+		#good
+		religious_tech_investment = 0.10
+		omen_power = 0.05
+		#bad
+		global_tax_modifier = -0.05
+	}
+	trigger = {
+		always = no # Only added through missions
+	}
+}
+
+oropos_heritage = {
+	modifier = {
+		#good
+		happiness_for_same_religion_modifier = 0.05
+		global_population_growth = 0.03
+		#bad
+		diplomatic_relations = -1
+	}
+	trigger = {
+		always = no # Only added through missions
+	}
+}
+
+thorikos_heritage = {
+	modifier = {
+		#good
+		happiness_for_same_religion_modifier = 0.05
+		global_population_growth = 0.03
+		#bad
+		diplomatic_relations = -1
+	}
+	trigger = {
+		always = no # Only added through missions
+	}
+}
+
+salamis_heritage = {
+	modifier = {
+		#good
+		happiness_for_same_religion_modifier = 0.05
+		global_population_growth = 0.03
+		#bad
+		diplomatic_relations = -1
+	}
+	trigger = {
+		always = no # Only added through missions
+	}
+}
+
+rhamnous_heritage = {
+	modifier = {
+		#good
+		happiness_for_same_religion_modifier = 0.05
+		global_population_growth = 0.03
+		#bad
+		diplomatic_relations = -1
+	}
+	trigger = {
+		always = no # Only added through missions
+	}
+}

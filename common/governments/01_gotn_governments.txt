@@ -223,7 +223,7 @@ tyranny = { #Greek Tyranny
 	
 	can_deify_ruler = no
 	
-	election_delay = 0
+	election_delay = 100
 	
 	color = rgb { 63 30 91 }
 }

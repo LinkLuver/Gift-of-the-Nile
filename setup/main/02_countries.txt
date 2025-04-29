@@ -2763,7 +2763,6 @@ country = {
 				399 #Lamia
 				469 #Thaumakoi
 				401 #Hypate
-				475 #Kallipolis
 				7896 # Nikaia Locriai, Thermopylai.
 			}
 		}
@@ -2910,12 +2909,11 @@ country = {
 
 		CRD = {
 			family = 34
-			government = democratic_republic
+			government = tyranny
 			primary_culture = thracian
 			religion = roman_pantheon
 			diplomatic_stance=trading_stance
 			capital = 350
-			republic_election_reforms = republican_election_4
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
@@ -9526,8 +9524,8 @@ country = {
 		}
 
 		KRK = {
-			government = despotic_monarchy
-			primary_culture = epirote
+			government = oligarchic_republic
+			primary_culture = italiotian
 			religion = roman_pantheon
 
 			capital = 470
@@ -9860,7 +9858,7 @@ country = {
 		}
 
 		MGL = { #Part of the Arcadian League
-			government = despotic_monarchy
+			government = oligarchic_republic
 			primary_culture = arcadian
 			religion = roman_pantheon
 
@@ -14116,7 +14114,7 @@ country = {
 
 		PHO = {
 			family = 73
-			government = aristocratic_monarchy
+			government = oligarchic_republic
 			primary_culture = boeotian
 			religion = roman_pantheon
 
@@ -14130,7 +14128,7 @@ country = {
 			capital = 7798
 
 			own_control_core = {
-				7798
+				7798 475
 			}
 
 			treasures = { 60 }

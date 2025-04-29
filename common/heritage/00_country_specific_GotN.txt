@@ -8875,10 +8875,10 @@ murzuq_heritage = {
 lamia_heritage = {
 	modifier = {
 		#good 
-        global_defensive = 0.10
-        agressive_expansion_monthly_change = -0.02
+        improve_relation_impact = 0.25
+        global_import_commerce_modifier = 0.10
 		#bad 
-        build_cost = 0.05
+        siege_ability = -0.05
 	}
 	trigger = {
 		tag = LAM

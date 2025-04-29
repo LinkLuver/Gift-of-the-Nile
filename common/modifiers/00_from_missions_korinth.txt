@@ -35,3 +35,31 @@ blessing_of_aphrodite = {
 	local_freemen_output = 0.20
 	local_population_growth = 0.05
 }
+improved_diolkos = {
+	local_base_trade_routes_modifier = 0.80
+	local_tax_modifier = 0.10
+	#local_citizen_output = 0.20 edited out until 2.05 citizen modifier bug is fixed
+}
+blessing_of_zeus = {
+	land_morale_modifier = 0.05
+	character_loyalty = 5
+	stability_monthly_change = 0.05
+}
+curse_of_zeus = {
+	land_morale_modifier = -0.05
+	character_loyalty = -5
+	stability_monthly_change = -0.05
+}
+king_of_korinthos = {
+	finesse = 2
+	monthly_character_wealth = 1
+	monthly_character_popularity = 0.10
+}
+subjugated_athens = {
+	loyalty_to_overlord = 15
+	global_capital_trade_routes = 2
+}
+subjugated_attica = {
+	loyalty_to_overlord = 20
+	global_tax_modifier = 0.10
+}

@@ -26,6 +26,14 @@
     }
     korinth_missions_task_1 = { # Eyes on Korkyra
         icon = "task_battle"
+        
+        highlight = {
+            scope:province = {
+                OR = {
+                    province_id = 470
+                }
+            }
+        }
 
         duration = 30
 
@@ -45,6 +53,15 @@
     korinth_missions_task_2 = { # Phaecian Conquest
 		requires = { korinth_missions_task_1 }
         icon = "task_diplomatic"
+
+        highlight = {
+            scope:province = {
+                OR = {
+                    province_id = 470
+                }
+            }
+        }
+
         allow = {
             owns = 470
         }
@@ -73,6 +90,17 @@
     korinth_missions_task_4 = { #Holy Prostitutes of Aphrodite
         requires = { korinth_missions_task_12 }
         icon = "task_happiness"
+
+        duration = 60 
+        
+        highlight = {
+            scope:province = {
+                OR = {
+                    province_id = 418
+                }
+            }
+        }
+
         allow = {
             p:418 = {
                 deity:omen_aphrodite_hoplimense = { has_holy_site = yes }
@@ -98,7 +126,7 @@
             }
         }
     }
-    korinth_missions_task_5 = {
+    korinth_missions_task_5 = { #Our Loyal Friends and Allies
         requires = { korinth_missions_task_3 }
         icon = "task_artemis"
         allow = {}
@@ -109,10 +137,15 @@
             }
         }
     }
-    korinth_missions_task_6 = {
+    korinth_missions_task_6 = { #Crushing Athens
         requires = { korinth_missions_task_2 korinth_missions_task_5}
         icon = "task_dying_gaul"
-        allow = {}
+        allow = {
+            c:ATH = {
+                num_of_provinces = 0
+            }
+            owns = 416
+        }
         on_completion = {
             trigger_event = me_korinth.6
             show_as_tooltip = {
@@ -120,7 +153,7 @@
             }
         }
     }
-    korinth_missions_task_7 = {
+    korinth_missions_task_7 = { #Potidean Aid
         requires = { korinth_missions_task_6 }
         icon = "task_diplomatic"
         allow = {}
@@ -131,7 +164,7 @@
             }
         }
     }
-    korinth_missions_task_8 = {
+    korinth_missions_task_8 = { #Theban Threat
         requires = { korinth_missions_task_6 }
         icon = "task_conquest"
         allow = {}
@@ -142,7 +175,7 @@
             }
         }
     }
-    korinth_missions_task_9 = {
+    korinth_missions_task_9 = { #Negiotiating with Sparta
         requires = { korinth_missions_task_6 }
         icon = "task_diplomatic"
         allow = {}
@@ -156,6 +189,17 @@
     korinth_missions_task_10 = { # Controlling The Boot
         requires = { korinth_missions_task_2 }
         icon = "task_expansion"
+
+        highlight = {
+            scope:province = {
+                OR = {
+                    province_id = 63
+                    province_id = 64
+                    province_id = 65
+                }
+            }
+        }
+
         allow = {
             owns_or_subject_owns = 63
             owns_or_subject_owns = 64
@@ -176,8 +220,16 @@
             }
         }
     }
-    korinth_missions_task_12 = {
+    korinth_missions_task_12 = { #Expanding the Akrokorinthos
         icon = "task_economical"
+
+        highlight = {
+            scope:province = {
+                OR = {
+                    province_id = 418
+                }
+            }
+        }
 
         duration = 365
         
@@ -185,7 +237,7 @@
             treasury >= 100
             p:418.state = {
                 has_state_modifier = state_improvement_military
-            } 
+            }  
         }
         on_completion = {
             trigger_event = me_korinth.12
@@ -194,15 +246,36 @@
             }
         }
     }
-    korinth_missions_task_13 = {
+    korinth_missions_task_13 = { #Improving the Diolkos
         requires = { korinth_missions_task_12 }
         icon = "task_political"
+
+        highlight = {
+            scope:province = {
+                OR = {
+                    province_id = 418
+                }
+            }
+        }
+
+        duration = 180
+
         allow = {
+            political_influence >= 50
+            p:418 = {
+                has_building = commerce_building
+            }
         }
         on_completion = {
             trigger_event = me_korinth.13
+            add_political_influence = -50
             show_as_tooltip = {
-
+            p:418 = {
+                add_province_modifier = {
+                    name = improved_diolkos
+                    duration = -1
+                }
+            }
             }
         }
     }
@@ -220,12 +293,23 @@
     korinth_missions_task_15 = {
         requires = { korinth_missions_task_2 }
         icon = "task_religion"
-        allow = {}
+
+        highlight = {
+            scope:province = {
+                OR = {
+                    province_id = 425
+                }
+            }
+        }
+
+        duration = 30
+
+        allow = {
+            political_influence >= 50 
+        }
         on_completion = {
             trigger_event = me_korinth.15
-            show_as_tooltip = {
-
-            }
+            add_political_influence = -50
         }
     }
     korinth_missions_task_16 = {
@@ -311,6 +395,9 @@
     }
     korinth_missions_task_21 = { #Bureaucratic Matters
         icon = "task_political"
+
+        duration = 60
+        
         allow = {
             has_senate_approval >= 0.6 
         }
@@ -327,10 +414,6 @@
     korinth_missions_task_22 = {
         requires = { korinth_missions_task_21 }
 
-        potential = {
-			has_variable = korinth_tyranny_path
-		}
-
         icon = "task_political"
         allow = {}
         on_completion = {
@@ -343,16 +426,19 @@
     korinth_missions_task_23 = {
         requires = { korinth_missions_task_21 }
 
-        potential = {
-			has_variable = korinth_oligarchy_path
-		}
-
         icon = "task_apollo"
-        allow = {}
+        allow = {
+            stability >=60 
+            current_ruler = {
+                popularity >= 90 
+            }
+        }
         on_completion = {
             trigger_event = me_korinth.23
             show_as_tooltip = {
-
+            change_government = tyranny
+            add_tyranny = 20
+            add_political_influence = 60    
             }
         }
     }
@@ -367,25 +453,56 @@
             }
         }
     }
-    korinth_missions_task_25 = {
+    korinth_missions_task_25 = { #Bread and Circuses
         requires = { korinth_missions_task_23 }
         icon = "task_happiness"
-        allow = {}
+        allow = {
+            p:418.state = {
+                has_state_food >= 500
+                is_importing_trade_good = grain
+                is_importing_trade_good = wine
+                is_importing_trade_good = fish
+            } 
+        }
         on_completion = {
             trigger_event = me_korinth.25
             show_as_tooltip = {
-
+                add_stability = 15
+                current_ruler = {
+                    add_popularity = 20
+                }
+                add_party_approval = {
+                    party_type = traditionalist_party
+                    value = 5
+                }
+                add_party_approval = {
+                    party_type = democratic_party
+                    value = 5
+                }
+                add_party_approval = {
+                    party_type = oligarchic_party
+                    value = 5
+                }
             }
         }
     }
     korinth_missions_task_26 = {
         requires = { korinth_missions_task_25 }
         icon = "task_atlas"
-        allow = {}
+        allow = {
+            num_of_provinces >= 40
+        }
         on_completion = {
             trigger_event = me_korinth.26
             show_as_tooltip = {
-
+            change_government = aristocratic_monarchy
+            current_ruler = {
+                add_character_modifier = {
+                    name = king_of_korinthos
+                    duration = -1
+                }
+                add_trait = sisyphos
+                }
             }
         }
     }

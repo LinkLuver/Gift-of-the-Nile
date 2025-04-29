@@ -159,3 +159,12 @@ blood_of_croesus = {
 	}
 	prominence = 20
 }
+
+sisyphos = {
+	type = status
+	charisma = 1 
+	country = {
+		monthly_political_influence_modifier = 0.10
+	}
+	prominence = 20
+}
