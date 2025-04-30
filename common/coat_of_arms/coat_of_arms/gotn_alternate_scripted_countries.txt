@@ -746,3 +746,75 @@ KORINTHIAN_ATHENS_FLAG = {
 		instance = { position = { 0.40 0.35  } }
 	}
 }
+
+ELEUSIS_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "epirus_light_yellow"
+	color2 = "silver"
+
+	colored_emblem = {
+		texture = "ce_grain_triple.dds"
+		color1 = "epirus_yellow"
+		color2 = "light_green"
+	}
+	colored_emblem = {
+		texture = "ce_border_leaves_02.dds"
+		color1 = "epirus_light_yellow"
+		color2 = "epirus_yellow"
+		instance = {}
+		instance = { rotation = 180 }
+	}
+}
+
+OROPOS_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "silver"
+	color2 = "silver"
+
+	colored_emblem = {
+		texture = "ce_boar_calydonian.dds"
+		color1 = "rust_brown"
+		color2 = "roman_gold"
+	}
+	colored_emblem = {
+		texture = "ce_border_meander_03.tga"
+		color1 = "silver"
+		color2 = "ck2_black"
+		instance = {}
+		instance = { rotation = 180 }
+	}
+}
+
+RHAMNOUS_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "burgundy_color"
+	color2 = "silver"
+
+	colored_emblem = {
+		texture = "ce_nemesis.dds"
+		color1 = "silver"
+	}
+	colored_emblem = {
+		texture = "ce_border_thracian_pattern_11.dds"
+		color1 = "roman_gold"
+		color2 = "ck2_blue"
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
+	}
+}
+
+THORIKOS_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "ck2_blue"
+	color2 = "silver"
+
+	colored_emblem = {
+		texture = "ce_owl_03.dds"
+		color1 = "silver"
+	}
+	colored_emblem = {
+		texture = "ce_owl_01_branch.dds"
+		color1 = "roman_gold"
+		instance = { position = { 0.40 0.35  } }
+	}
+}

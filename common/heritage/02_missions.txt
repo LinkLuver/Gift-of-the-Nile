@@ -760,7 +760,7 @@ athens_300_heritage = {
 eleusis_heritage = {
 	modifier = {
 		#good
-		religious_tech_investment = 0.10
+		stability_monthly_change = 0.03
 		omen_power = 0.05
 		#bad
 		global_tax_modifier = -0.05
@@ -796,13 +796,13 @@ thorikos_heritage = {
 	}
 }
 
-salamis_heritage = {
+salamis_greek_heritage = {
 	modifier = {
 		#good
-		happiness_for_same_religion_modifier = 0.05
-		global_population_growth = 0.03
+		siege_ability = 0.05
+		spearmen_defensive = 0.10
 		#bad
-		diplomatic_relations = -1
+		global_manpower_modifier = -0.05
 	}
 	trigger = {
 		always = no # Only added through missions
@@ -812,10 +812,10 @@ salamis_heritage = {
 rhamnous_heritage = {
 	modifier = {
 		#good
-		happiness_for_same_religion_modifier = 0.05
-		global_population_growth = 0.03
+		war_no_cb_cost_modifier = -0.75
+		cohort_reinforcement_speed = 0.05
 		#bad
-		diplomatic_relations = -1
+		change_pantheon_cost_modifier = 0.2
 	}
 	trigger = {
 		always = no # Only added through missions

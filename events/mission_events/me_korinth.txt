@@ -377,34 +377,6 @@ me_korinth.6 = {
                 target = scope:new_feudatory_scope
             }
         }
-        p:403 = {
-            create_country = {
-                name = {
-                    name = "OROPOS_NAME"
-                    adjective = "OROPOS_ADJECTIVE"
-                }
-                hidden_effect = {
-                    set_country_heritage = oropos_heritage
-                    change_country_flag = OROPOS_FLAG
-                    set_country_religion = roman_pantheon
-                    change_government = oligarchic_republic
-                    save_scope_as = new_feudatory_scope
-                    change_country_color = ck2_green
-                }
-            }
-        }
-        hidden_effect = {  
-            scope:new_feudatory_scope = {
-                add_country_modifier = {
-                    name = subjugated_attica
-                    duration = -1
-                }
-            }
-            make_subject = {
-                type = feudatory
-                target = scope:new_feudatory_scope
-            }
-        }
         p:413 = {
             create_country = {
                 name = {
