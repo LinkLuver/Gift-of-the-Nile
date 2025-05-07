@@ -528,7 +528,7 @@
     }
     damascus_missions_task_15 = { #Lord of the Sunset
         icon = "task_atlas"
-        requires = { damascus_missions_task_8 damascus_missions_task_13 damascus_missions_task_14 damascus_missions_task_19 }
+        requires = { damascus_missions_task_8 damascus_missions_task_28 damascus_missions_task_19 }
         allow = {}
         on_completion = {
             trigger_event = me_damascus.15
@@ -544,6 +544,7 @@
                 }
             }
         }
+        final = yes
     }
     damascus_missions_task_16 = { #Shatter the House of Zakkur
         icon = "task_atlas"
@@ -654,7 +655,7 @@
     }
     damascus_missions_task_21 = { #Collapse the League of Haleb
         icon = "task_atlas"
-        requires = { damascus_missions_task_17 }
+        requires = { damascus_missions_task_18 }
         allow = {}
         on_completion = {
             trigger_event = me_damascus.21
@@ -664,7 +665,7 @@
     }
     damascus_missions_task_22 = { #Union of Qarqar
         icon = "task_atlas"
-        requires = { damascus_missions_task_17 }
+        requires = { damascus_missions_task_18 }
         allow = {}
         on_completion = {
             trigger_event = me_damascus.22
@@ -672,10 +673,111 @@
             }
         }
     }
-    damascus_missions_task_23 = { #Cult of Contracts
+    damascus_missions_task_23 = { #Crossing Mount Lebanon
         icon = "task_atlas"
-        requires = { damascus_missions_task_12 }
-        allow = {}
+        requires = { damascus_missions_task_1 damascus_missions_task_2 }
+        allow = {
+            OR = {
+                owns = 743
+                owns = 747
+                any_subject = {
+                    tag = SID
+                }
+                any_subject = {
+                    tag = SWR
+                }
+            }
+        }
+        on_completion = {
+            trigger_event = me_damascus.23
+            show_as_tooltip = {
+            }
+        }
+    }
+    damascus_missions_task_24 = { #The Phoenecian Ultimatum
+        icon = "task_atlas"
+        requires = { damascus_missions_task_23 }
+        allow = {
+            OR = {
+                owns = 743
+                owns = 747
+                any_subject = {
+                    tag = SID
+                }
+                any_subject = {
+                    tag = SWR
+                }
+            }
+        }
+        on_completion = {
+            trigger_event = me_damascus.23
+            show_as_tooltip = {
+            }
+        }
+    }
+    damascus_missions_task_25 = { #Surrender Syrion
+        icon = "task_atlas"
+        requires = { damascus_missions_task_24 }
+        highlight = {
+            scope:province = {
+                OR = {
+                    province_id = 779
+                    province_id = 780
+                    province_id = 785
+                    province_id = 786
+                    province_id = 784
+                    province_id = 788
+                    province_id = 789
+                    province_id = 790
+                    province_id = 795
+                    province_id = 796
+                }
+            }
+        }
+        allow = {
+        }
+        bypass = {
+            NOT = {
+                any_country = {
+                    primary_culture = syrion
+                }
+            }
+        }
+        on_completion = {
+            trigger_event = me_damascus.23
+            show_as_tooltip = {
+            }
+        }
+    }
+    damascus_missions_task_26 = { #Destroy the Anti-Damascite League
+        requires = { damascus_missions_task_24 }
+        highlight = {
+            scope:province = {
+                dominant_province_culture = phoenician
+            }
+        }
+        allow = {
+        }
+        on_completion = {
+            trigger_event = me_damascus.23
+            show_as_tooltip = {
+            }
+        }
+    }
+    damascus_missions_task_27 = { #Cult of Contracts
+        requires = { damascus_missions_task_25 damascus_missions_task_26 }
+        allow = {
+        }6
+        on_completion = {
+            trigger_event = me_damascus.23
+            show_as_tooltip = {
+            }
+        }
+    }
+    damascus_missions_task_28 = { #Israelite Reconciliation
+        requires = { damascus_missions_task_13 damascus_missions_task_14 }
+        allow = {
+        }
         on_completion = {
             trigger_event = me_damascus.23
             show_as_tooltip = {

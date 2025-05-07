@@ -40,7 +40,7 @@
  damascus_missions_task_11:0 "War with Lotites"
  damascus_missions_task_11_DESC:0 "We have not forgotten the many transgressions that we and our friends have endured by the hands of the Ammonite kings, we must subdue this kingdom before they seek once more to undermine our allies."
  
- damascus_missions_task_12:0 "Fate of Northern Canaan"
+ damascus_missions_task_12:0 "Fate of Canaan"
  damascus_missions_task_12_DESC:0 "We have slain the rulers of Ammon and Israel, and emerged triumphant in Canaan. Now we must decide what to do with the conquered territories. Our Galilaean vassals will surely expect the restoration of their former lands, but perhaps we should also reward them with the land of Ammon? They have proven loyal and it is remote from our territory. We should also use our newfound ascension to demand the submission of Judah and the Canaanite trade cities."
  
  damascus_missions_task_13:0 "Sponser Asherahism"
@@ -63,6 +63,24 @@
 
  damascus_missions_task_19:0 "Restoration of Aram"
  damascus_missions_task_19_DESC:0 "Finally, after centuries of hardship, oppression, and war, the Arameans are unified around a single state. Now we must take advantage of this brief peace to rebuild our lands, so that when the time comes we might bring an end to the tyrants of Bit Adini and of Kummuh, and never again find ourselves subjected to the foreign yoke."
+
+ damascus_missions_task_20:0 "Fill the Courts with Loyalists"
+
+ damascus_missions_task_21:0 "Collapse the League of Haleb"
+
+ damascus_missions_task_22:0 "Union of Qarqar"
+
+ damascus_missions_task_23:0 "Crossing Mount Lebanon"
+
+ damascus_missions_task_24:0 "Ultimatum to the Phoenecians"
+
+ damascus_missions_task_25:0 "Surrender Syrion Syria"
+
+ damascus_missions_task_26:0 "Destroy the Anti-Damascan League"
+
+ damascus_missions_task_27:0 "Cult of Contracts"
+
+ damascus_missions_task_28:0 "Israelite Reconciliation"
  
  #Tooltips
  send_invite:0 "Sends an invite to #E Tadmor#! and #E Bit Agushi#! to the #Y Pan-Aramaic Congress#!."
@@ -80,6 +98,7 @@
  hebrew_temples_made:0 "Temples to Our Gods"
  fate_of_north_tt:0 "Decide what to do with #Y Syria#!."
  claims_on_all_syria_tt:0 "Gain claims on the #Y Syria#! region."
+ any_subject_trigger:0 "Any of our subjects are"
  
  #Modifiers
  tadmor_joined:0 "Pan-Aramaic Council: Tadmor"
