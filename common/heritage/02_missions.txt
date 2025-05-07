@@ -786,10 +786,10 @@ oropos_heritage = {
 thorikos_heritage = {
 	modifier = {
 		#good
-		happiness_for_same_religion_modifier = 0.05
-		global_population_growth = 0.03
+		happiness_for_wrong_culture_modifier = 0.05
+		heavy_infantry_maintenance_cost = -0.10
 		#bad
-		diplomatic_relations = -1
+		global_monthly_food_modifier = -0.05
 	}
 	trigger = {
 		always = no # Only added through missions
@@ -812,8 +812,8 @@ salamis_greek_heritage = {
 rhamnous_heritage = {
 	modifier = {
 		#good
-		war_no_cb_cost_modifier = -0.75
-		cohort_reinforcement_speed = 0.05
+		war_no_cb_cost_modifier = -0.50
+		manpower_recovery_speed = 0.05
 		#bad
 		change_pantheon_cost_modifier = 0.2
 	}

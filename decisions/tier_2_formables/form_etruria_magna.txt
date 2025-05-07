@@ -52,6 +52,8 @@
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
+			change_government = league_republic
+			add_political_influence = 100
 			add_3_free_province_investments = yes
 			hidden_effect = {
 			change_country_name = "TUSCIA_NAME"

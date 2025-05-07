@@ -805,16 +805,19 @@ RHAMNOUS_FLAG = {
 
 THORIKOS_FLAG = {
 	pattern = "pattern_solid.tga"
-	color1 = "ck2_blue"
+	color1 = "mid_grey"
 	color2 = "silver"
 
 	colored_emblem = {
-		texture = "ce_owl_03.dds"
-		color1 = "silver"
+		texture = "ce_thorikos_cephalus.dds"
+		color1 = "stymphalian_light_blue"
+		color2 = "ck2_black"
 	}
 	colored_emblem = {
-		texture = "ce_owl_01_branch.dds"
-		color1 = "roman_gold"
-		instance = { position = { 0.40 0.35  } }
+		texture = "ce_border_stars_01.dds"
+		color1 = "stymphalian_light_blue"
+		color2 = "ck2_black"
+		instance = {}
+		instance = { rotation = 180 }
 	}
 }

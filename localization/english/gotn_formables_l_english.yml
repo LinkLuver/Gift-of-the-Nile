@@ -426,7 +426,7 @@
  expanded_malaca_mines:0 "Expanded Mining Operations"
 
  renovate_ardea:0 "Renovate Ardea"
- renovate_ardea_desc:0 "[GetProvince('(int32)9296').GetName] was once a prosperous and wealthy city. Since then, it has fallen into disrepair. It would greatly impress the local inhabitants if we were to restore their city."
+ renovate_ardea_desc:0 "[GetProvince('(int32)9296').GetName] was once a prosperous and wealthy city, sought after by the warmongering Latins. Although they failed to capture the city, it has since fallen into disrepair. It would greatly impress the local inhabitants if we were to restore their city."
  renovated_ardea:0 "Renovated Ardea"
  renovated_ardea_desc:0 "The ancient city of Ardea has been restored to it's former glory."
  

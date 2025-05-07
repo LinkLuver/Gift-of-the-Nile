@@ -194,15 +194,15 @@ me_korinth.6 = {
                     duration = -1
                 }
             }
-            make_subject = {
-                type = feudatory
-                target = scope:new_feudatory_scope
-            }
+        }
+        make_subject = {
+            type = feudatory
+            target = scope:new_feudatory_scope
         }
     }
     option = {
         name = "me_korinth_6.b"
-        custom_tooltip = me_korinth_6_tooltip
+        custom_tooltip = me_korinth_6_b_tooltip
         trigger = {
             if = {
                 c:MGA = {
@@ -211,24 +211,63 @@ me_korinth.6 = {
             }
         }
         p:416 = { set_owned_by = MGA } 
+        c:KOR = {
+			make_subject = {
+				target = c:MGA
+				type = feudatory
+            }
         }
-        #c:MGA = {
-            #add_opinion = {
-               #modifier = granted_athens
-                #target = MGA
-            #}
-        #}
+    }
     option = {
         name = "me_korinth_6.c"
         custom_tooltip = me_korinth_6_tooltip
+        add_treasury = 100
+        current_ruler = { 
+            add_trait = merciful
+            add_popularity = 10 
+        }
+        p:416 = {
+            add_province_modifier = {
+                name = korinthian_garrison
+                duration = -1
+            }
+        }
     }
     option = {
+        trigger = {
+           current_ruler = {
+               OR = {
+                has_trait = vengeful
+                has_trait = cruel
+                }
+            }
+        }
         name = "me_korinth_6.d"
-        custom_tooltip = me_korinth_6_tooltip
+        custom_tooltip = me_korinth_6_c_tooltip
+        current_ruler = { add_popularity = -30 }
+    	p:416 = {
+    		add_state_loyalty = -15
+    		ordered_pops_in_province = {
+    			order_by = pop_hapiness
+    			max = 20
+    			kill_pop = yes
+    		}
+            set_city_status = settlement
+            add_province_modifier = {
+                name = athens_desecrated
+                duration = 10950
+            }
+            remove_province_modifier = academy_of_athens
+    	}
+        add_treasury = 300
+        add_country_modifier = {
+            name = riches_of_athens
+            duration = 5475
+        }
     }
     option = {
         name = "me_korinth_6.e"
-        custom_tooltip = me_korinth_6_tooltip
+        custom_tooltip = me_korinth_6_e_tooltip
         trigger = {
             owns = 7902
             owns = 7897
@@ -237,6 +276,7 @@ me_korinth.6 = {
             owns = 7898
             owns = 413
         }
+        add_political_influence = 30
         p:416 = {
             create_country = {
                 name = {
@@ -256,7 +296,7 @@ me_korinth.6 = {
         hidden_effect = {  
             scope:new_feudatory_scope = {
                 add_country_modifier = {
-                    name = subjugated_attica
+                    name = autonomous_korkyra
                     duration = -1
                 }
             }
@@ -312,7 +352,7 @@ me_korinth.6 = {
         hidden_effect = {  
             scope:new_feudatory_scope = {
                 add_country_modifier = {
-                    name = subjugated_attica
+                    name = autonomous_korkyra
                     duration = -1
                 }
             }
@@ -344,10 +384,10 @@ me_korinth.6 = {
                     duration = -1
                 }
             }
-            make_subject = {
-                type = feudatory
-                target = scope:new_feudatory_scope
-            }
+        }
+        make_subject = {
+            type = feudatory
+            target = scope:new_feudatory_scope
         }
         p:7799 = {
             create_country = {
@@ -368,7 +408,7 @@ me_korinth.6 = {
         hidden_effect = {  
             scope:new_feudatory_scope = {
                 add_country_modifier = {
-                    name = subjugated_attica
+                    name = autonomous_korkyra
                     duration = -1
                 }
             }
@@ -396,7 +436,7 @@ me_korinth.6 = {
         hidden_effect = {  
             scope:new_feudatory_scope = {
                 add_country_modifier = {
-                    name = subjugated_attica
+                    name = autonomous_korkyra
                     duration = -1
                 }
             }

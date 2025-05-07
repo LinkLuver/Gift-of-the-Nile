@@ -8797,8 +8797,8 @@ eravisci_heritage = {
 inun_heritage = {
 	modifier = {
 		#good 
-		global_building_slot = 1
-        oratory_tech_investment = 0.10
+		global_settlement_building_slot = 1
+        fabricate_claim_speed = 0.10
 		#bad 
 	    global_population_capacity_modifier = -0.05
 	}

@@ -415,7 +415,9 @@
         requires = { korinth_missions_task_21 }
 
         icon = "task_political"
-        allow = {}
+        allow = {
+            has_law = republican_election_2
+        }
         on_completion = {
             trigger_event = me_korinth.22
             show_as_tooltip = {
@@ -445,11 +447,20 @@
     korinth_missions_task_24 = {
         requires = { korinth_missions_task_22 }
         icon = "task_calm"
-        allow = {}
+        allow = {
+            current_ruler = {
+                corruption <= 10 
+            }
+            idea = idea_bribery
+            has_law = republic_corruption_1
+        }
         on_completion = {
             trigger_event = me_korinth.24
             show_as_tooltip = {
-
+                add_country_modifier = {
+                    name = reduced_corruption
+                    duration = 7300
+                }
             }
         }
     }
@@ -513,7 +524,11 @@
         on_completion = {
             trigger_event = me_korinth.27
             show_as_tooltip = {
-
+                add_stability = 20
+                add_country_modifier = {
+                    name = rule_of_few
+                    duration = -1
+                }
             }
         }
     }

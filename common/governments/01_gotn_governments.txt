@@ -221,9 +221,10 @@ tyranny = { #Greek Tyranny
 	
 	minimum_electable_age = 25
 	
-	can_deify_ruler = no
+	can_deify_ruler = yes
 	
-	election_delay = 100
+	election_delay = 1
+	ruler_term = 100
 	
 	color = rgb { 63 30 91 }
 }
@@ -283,6 +284,7 @@ league_republic = { #League
 	
 	bonus = {
 		global_citizen_happyness = happiness_large_svalue
+		global_tax_modifier = 0.10
 		global_monthly_state_loyalty = 0.03
 	}
 	base = {
@@ -300,13 +302,12 @@ league_republic = { #League
 
 mercenary_republic = { #Mercenary Republic
 	military_ideas = 2
-	civic_ideas = 1
+	oratory_ideas = 1
 	type = republic
 	
 	bonus = {
 		mercenary_land_maintenance_cost = -0.20
 		recruit_mercenary_cost_modifier = -0.20
-		mercenary_naval_maintenance_cost = -0.20
 	}
 	base = {
 		country_civilization_value = 20
@@ -347,4 +348,30 @@ jueyun_administration = {
 
 
 	color = rgb { 59 59 226 }
+}
+
+pirate_republic = { #Pirate Republic
+	military_ideas = 2
+	civic_ideas = 1
+	type = republic
+	
+	bonus = {
+		enslavement_efficiency = 0.10
+		mercenary_naval_maintenance_cost = -0.20
+	}
+	base = {
+		country_civilization_value = 20
+		civil_war_threshold = -0.05
+		global_freemen_city_desired_pop_ratio = 0.05
+	}
+	
+	minimum_electable_age = 25
+	election_delay = 10
+	ruler_term = 5
+	
+	has_co_ruler = yes
+	
+	color = rgb { 7 17 29 }
+	
+	can_deify_ruler = no
 }

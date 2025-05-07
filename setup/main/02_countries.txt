@@ -1386,7 +1386,7 @@ country = {
 		}
 
 		AM4 = {
-			government = plutocratic_republic
+			government = pirate_republic
 			primary_culture = ionian
 			religion = roman_pantheon
 			diplomatic_stance = trading_stance
@@ -5528,7 +5528,7 @@ country = {
 		}
 
 		INU = {
-			government = punic_republic
+			government = mercenary_republic
 			primary_culture = carthaginian
 			religion = carthaginian_pantheon
 			capital = 1471
@@ -10325,7 +10325,7 @@ country = {
 		}
 
 		IEP = {
-			government = mercenary_republic
+			government = pirate_republic
 			primary_culture = cretan
 			religion = roman_pantheon
 

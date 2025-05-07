@@ -69,10 +69,17 @@
 
  mercenary_republic:0 "Mercenary Republic"
  mercenary_republic_desc:0 "Mercenary Republics often come into existence as the result of a disgreement between a band of mercenaries and the former ruler of a territory or a group of mercenaries seeking treasure and conquest in foreign lands. Either way, Mercenaries Republics do not come about as the result of a peaceful agreement. These states often fall apart due to internal infighting, or being overthrown by an unhappy populous."
- mercenary_republic_ruler:0 "Captain"
- mercenary_republic_ruler_female:0 "Captain"
+ mercenary_republic_ruler:0 "Commander"
+ mercenary_republic_ruler_female:0 "Commander"
  mercenary_republic_co_ruler:0 "Lieutenant"
  mercenary_republic_co_ruler_female:0 "Lieutenant"
+
+ pirate_republic:0 "Pirate Republic"
+ pirate_republic_desc:0 "Seeking fortune and fame, pirates have become the ruling body of this territory. Found exclusively in coastal city-states, pirate republics are full of some of the most dastardly villains to be found in the four corners of the universe. A pirate's life is free, and with that comes the freedom to make profit as one sees fit, but also the freedom to cause trouble as one sees fit."
+ pirate_republic_ruler:0 "Captain"
+ pirate_republic_ruler_female:0 "Captain"
+ pirate_republic_co_ruler:0 "First Mate"
+ pirate_republic_co_ruler_female:0 "First Mate"
 
  epirote_republic:0 "Epirote League"
  epirote_republic_desc:0 "A form of governance unique to the Epirote tribes, the league represents the various Epirote tribes. Each tribe is represented in the Epirote assembly by ten elected officals from amongst their tribe. Each tribe rules their respective land in a mostly autonomous fashion, with the elected Prostratas having some powers over them, mostly the power to declare wars, raise armies, and to direct construction projects. Such a system has created a strong, unified Epirote state, reducing some of the shortfalls of other republics."
