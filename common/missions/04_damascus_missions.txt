@@ -526,9 +526,9 @@
             }
         }
     }
-    damascus_missions_task_15 = {
+    damascus_missions_task_15 = { #Lord of the Sunset
         icon = "task_atlas"
-        requires = { damascus_missions_task_8 damascus_missions_task_13 damascus_missions_task_14 }
+        requires = { damascus_missions_task_8 damascus_missions_task_13 damascus_missions_task_14 damascus_missions_task_19 }
         allow = {}
         on_completion = {
             trigger_event = me_damascus.15
@@ -545,7 +545,7 @@
             }
         }
     }
-    damascus_missions_task_16 = {
+    damascus_missions_task_16 = { #Shatter the House of Zakkur
         icon = "task_atlas"
         requires = { damascus_missions_task_1 }
         highlight = {
@@ -572,7 +572,7 @@
             }
         }
     }
-    damascus_missions_task_17 = {
+    damascus_missions_task_17 = { #Liberate Sem'el
         icon = "task_heracles"
         requires = { damascus_missions_task_16 }
         highlight = {
@@ -598,7 +598,7 @@
             }
         }
     }
-    damascus_missions_task_18 = {
+    damascus_missions_task_18 = { #Fate of the North
         icon = "task_atlas"
         requires = { damascus_missions_task_17 }
         highlight = {
@@ -626,9 +626,9 @@
             }
         }
     }
-    damascus_missions_task_19 = {
+    damascus_missions_task_19 = { #Restoration of Aram
         icon = "task_atlas"
-        requires = { damascus_missions_task_18 }
+        requires = { damascus_missions_task_21 damascus_missions_task_22 }
         allow = {}
         on_completion = {
             trigger_event = me_damascus.19
@@ -639,6 +639,46 @@
                     change_country_adjective = "ARAM_ADJECTIVE"
                     change_country_tag = "PRY"
                 }
+            }
+        }
+    }
+    damascus_missions_task_20 = { #Hamath Fill with Loyalists
+        icon = "task_atlas"
+        requires = { damascus_missions_task_16 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_damascus.20
+            show_as_tooltip = {
+            }
+        }
+    }
+    damascus_missions_task_21 = { #Collapse the League of Haleb
+        icon = "task_atlas"
+        requires = { damascus_missions_task_17 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_damascus.21
+            show_as_tooltip = {
+            }
+        }
+    }
+    damascus_missions_task_22 = { #Union of Qarqar
+        icon = "task_atlas"
+        requires = { damascus_missions_task_17 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_damascus.22
+            show_as_tooltip = {
+            }
+        }
+    }
+    damascus_missions_task_23 = { #Cult of Contracts
+        icon = "task_atlas"
+        requires = { damascus_missions_task_12 }
+        allow = {}
+        on_completion = {
+            trigger_event = me_damascus.23
+            show_as_tooltip = {
             }
         }
     }
