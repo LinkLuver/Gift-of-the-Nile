@@ -65,6 +65,15 @@ me_korinth.2 = { # Phaecian Conquest
                 }
             }
         }
+        p:63 = {
+            add_claim = root
+        }
+        p:64 = {
+            add_claim = root
+        }
+        p:65 = {
+            add_claim = root
+        }
         hidden_effect = {  
             scope:new_feudatory_scope = {
                 add_country_modifier = {
@@ -148,17 +157,39 @@ me_korinth.4 = { # Aphrodite Task
 		}
     }
 }
-me_korinth.5 = {
+me_korinth.5 = { #Friends And Allies
     type = country_event
 
     title = me_korinth_5_title
     desc = me_korinth_5_desc
-    picture = great_library
+    picture = greek_philosophers
 
     option = {
         name = "me_korinth_5.a"
         custom_tooltip = me_korinth_5_tooltip
-
+        c:KOR = {
+            make_subject = {
+                target = c:PLE
+                type = feudatory
+            }
+        }
+    }
+    option = {
+        name = "me_korinth_5.b"
+        custom_tooltip = me_korinth_5_tooltip
+        add_political_influence = -50
+        c:KOR = {
+            make_subject = {
+                target = c:PLE
+                type = feudatory
+            }
+        }
+        c:KOR = {
+            make_subject = {
+                target = c:PTA
+                type = feudatory
+            }
+        }
     }
 }
 me_korinth.6 = {
@@ -501,17 +532,21 @@ me_korinth.10 = { # Controlling The Boot
             set_trade_goods = dye
         }
         hidden_effect = {
-        p:63 = { #THIS PART DOESN'T WORK- FIX LATER
+        p:63 = {
             every_pops_in_province = {
-                    random_list = {
-                        90 = { }
-                        10 = { set_pop_culture = achaean }
+                limit = {
+                    OR = {
+                        pop_type = citizen
+                        pop_type = nobles
+                        pop_type = freemen
                     }
-                }
+                }    
+                set_pop_culture = achaean
             }
-            add_country_modifier = {
-                name = italian_conquests
-                duration = 3650
+        }
+        add_country_modifier = {
+            name = italian_conquests
+            duration = 3650
             }
         }
     }
@@ -796,12 +831,20 @@ me_korinth.22 = {
 
     title = me_korinth_22_title
     desc = me_korinth_22_desc
-    picture = great_library
+    picture = senator_conversing
 
     option = {
         name = "me_korinth_22.a"
         custom_tooltip = me_korinth_22_tooltip
-
+        add_stability = 20
+            add_party_approval = {
+                party_type = oligarchic_party
+                value = 10
+            }
+            add_party_approval = {
+                party_type = traditionalist_party
+                value = 5
+        }
     }
 }
 me_korinth.23 = {
@@ -858,7 +901,7 @@ me_korinth.25 = { #Bread and Circuses
     option = {
         name = "me_korinth_25.a"
         custom_tooltip = me_korinth_25_tooltip
-        add_stability = 15
+        add_stability = 10
         current_ruler = {
             add_popularity = 20
         }

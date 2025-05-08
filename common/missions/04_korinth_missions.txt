@@ -129,28 +129,59 @@
     korinth_missions_task_5 = { #Our Loyal Friends and Allies
         requires = { korinth_missions_task_3 }
         icon = "task_artemis"
-        allow = {}
+        
+        allow = {
+            custom_tooltip = {
+                OR = {
+                    any_country = {
+                        primary_culture = arcadian
+                        alliance_with = ROOT
+                    }
+                }
+                text = "korinth_ally_tt"
+            }
+        }
         on_completion = {
             trigger_event = me_korinth.5
+            custom_tooltip = korinth_local_allies
             show_as_tooltip = {
-
+                every_country = {
+                    limit = {
+                        NOT = {
+                            tag = ELI
+                        }
+                        OR = {
+                            capital_scope = { is_in_area = achaea_area }
+                        }
+                        alliance_with = ROOT
+                        this.culture.culture_group = culture_group:hellenic
+                    }
+                    add_opinion = {
+                        modifier = korinth_friends
+                        target = THIS
+                    }
+                    reverse_add_opinion = {
+                        target = ROOT
+                        modifier = korinth_friends
+                    }
+                }
             }
         }
     }
     korinth_missions_task_6 = { #Crushing Athens
         requires = { korinth_missions_task_2 korinth_missions_task_5}
         icon = "task_dying_gaul"
+
         allow = {
             c:ATH = {
                 num_of_provinces = 0
             }
             owns = 416
         }
+
         on_completion = {
             trigger_event = me_korinth.6
-            show_as_tooltip = {
-
-            }
+            custom_tooltip = korinth_athens_subjugated
         }
     }
     korinth_missions_task_7 = { #Potidean Aid
@@ -207,17 +238,28 @@
         }
         on_completion = {
             trigger_event = me_korinth.10
+            custom_tooltip = korinth_italiote_vassals
         }
     }
-    korinth_missions_task_11 = {
+    korinth_missions_task_11 = { #Siceliote Restoration
         requires = { korinth_missions_task_10 }
         icon = "task_diplomatic"
-        allow = {}
+        highlight = {
+            scope:province = {
+                OR = {
+                    province_id = 82
+                    province_id = 80
+                }
+            }
+        }
+
+        allow = {
+            owns_or_subject_owns = 82
+            owns_or_subject_owns = 80
+        }
         on_completion = {
             trigger_event = me_korinth.11
-            show_as_tooltip = {
-
-            }
+            custom_tooltip = korinth_italiote_vassals
         }
     }
     korinth_missions_task_12 = { #Expanding the Akrokorinthos
@@ -279,7 +321,7 @@
             }
         }
     }
-    korinth_missions_task_14 = {
+    korinth_missions_task_14 = { #Achaean Investments
         requires = { korinth_missions_task_12 }
         icon = "task_political"
         allow = {}
@@ -290,7 +332,7 @@
             }
         }
     }
-    korinth_missions_task_15 = {
+    korinth_missions_task_15 = { #Consulting the Oracle at Dodona
         requires = { korinth_missions_task_2 }
         icon = "task_religion"
 
@@ -312,7 +354,7 @@
             add_political_influence = -50
         }
     }
-    korinth_missions_task_16 = {
+    korinth_missions_task_16 = { #Korinthian Legion
         requires = { korinth_missions_task_3 }
         icon = "task_heracles"
         allow = {
@@ -361,7 +403,7 @@
         }
     }
     korinth_missions_task_18 = {
-        requires = { korinth_missions_task_13 korinth_missions_task_14 }
+        requires = { korinth_missions_task_13 korinth_missions_task_14 korinth_missions_task_4 }
         icon = "task_zeus_cornucopia"
         allow = {}
         on_completion = {
@@ -411,9 +453,15 @@
             }
         }
     }
-    korinth_missions_task_22 = {
+    korinth_missions_task_22 = { #Oligarchical ways
         requires = { korinth_missions_task_21 }
+        prevented_by = { korinth_missions_task_23 }
 
+		potential = {
+			NOT = {
+				has_variable = korinth_tyranny_path
+			}
+		}
         icon = "task_political"
         allow = {
             has_law = republican_election_2
@@ -421,13 +469,28 @@
         on_completion = {
             trigger_event = me_korinth.22
             show_as_tooltip = {
-
+            add_stability = 20
+            add_party_approval = {
+                party_type = oligarchic_party
+                value = 10
+            }
+            add_party_approval = {
+                party_type = traditionalist_party
+                value = 5
+            }
             }
         }
     }
-    korinth_missions_task_23 = {
+    korinth_missions_task_23 = { #Past Glories
         requires = { korinth_missions_task_21 }
 
+        prevented_by = { korinth_missions_task_22 }
+
+		potential = {
+			NOT = {
+				has_variable = korinth_oligarchy_path
+			}
+		}
         icon = "task_apollo"
         allow = {
             stability >=60 
@@ -446,6 +509,7 @@
     }
     korinth_missions_task_24 = {
         requires = { korinth_missions_task_22 }
+        prevented_by = { korinth_missions_task_23 }
         icon = "task_calm"
         allow = {
             current_ruler = {
@@ -466,6 +530,7 @@
     }
     korinth_missions_task_25 = { #Bread and Circuses
         requires = { korinth_missions_task_23 }
+        prevented_by = { korinth_missions_task_22 }
         icon = "task_happiness"
         allow = {
             p:418.state = {
@@ -478,7 +543,7 @@
         on_completion = {
             trigger_event = me_korinth.25
             show_as_tooltip = {
-                add_stability = 15
+                add_stability = 10
                 current_ruler = {
                     add_popularity = 20
                 }
@@ -499,6 +564,7 @@
     }
     korinth_missions_task_26 = {
         requires = { korinth_missions_task_25 }
+        prevented_by = { korinth_missions_task_22 }
         icon = "task_atlas"
         allow = {
             num_of_provinces >= 40
@@ -519,16 +585,27 @@
     }
     korinth_missions_task_27 = {
         requires = { korinth_missions_task_24 }
+        prevented_by = { korinth_missions_task_23 }
         icon = "task_heracles"
         allow = {}
         on_completion = {
             trigger_event = me_korinth.27
             show_as_tooltip = {
-                add_stability = 20
+                add_political_influence = 100
                 add_country_modifier = {
                     name = rule_of_few
                     duration = -1
                 }
+            }
+        }
+    }
+    korinth_missions_task_28 = {
+        requires = { korinth_missions_task_9 }
+        icon = "task_heracles"
+        allow = {}
+        on_completion = {
+            trigger_event = me_korinth.28
+            show_as_tooltip = { 
             }
         }
     }

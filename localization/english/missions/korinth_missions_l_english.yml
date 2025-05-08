@@ -21,25 +21,25 @@ korinth_missions_task_4:0 "Holding a Special Aphrodisia"
 korinth_missions_task_4_DESC:0 "Aphrodite has long been honored in Korinth. We should expand our annual festival held in honor of her, the Aphrodisia."
 
 korinth_missions_task_5:0 "Our Loyal Friends and Allies"
-korinth_missions_task_5_DESC:0 "If we wish to be sucessful in the coming war, we must strengthen our control over our neighbors. A disunited league is one that will perish quickly."
+korinth_missions_task_5_DESC:0 "If we wish to be sucessful in the coming war, we must strengthen our control over our neighbors. Our #Y Achaean#! allies will prove to be a valuable asset."
 
 korinth_missions_task_6:0 "Crushing Athens"
-korinth_missions_DESC:0 "Athens must fall."
+korinth_missions_task_6_DESC:0 "Athens must fall.\n\nIt will be greatly #G advantageous#! to directly control all former #Y Athenian#! holdings in the province of #Y Attica#!."
 
 korinth_missions_task_7:0 "Potidean Aid"
-korinth_missions_DESC:0 ""
+korinth_missions_task_7_DESC:0 "One of our former colonies, Potidea has been controlled by the throne of Macedon for too long. They request our aid in freeing themselves from their overlords."
 
 korinth_missions_task_8:0 "Theban Threat"
-korinth_missions_DESC:0 ""
+korinth_missions_task_8_DESC:0 "Only second in power to the Athenians, the sons of Cadmus have been consolidating and expanding their so called Boeotian 'league'. They are simply too powerful to be left alive!"
 
 korinth_missions_task_9:0 "Negiotiating With Sparta"
-korinth_missions_DESC:0 ""
+korinth_missions_DESC:0 "If the revered Spartans could be persuaded to come out of their self imposed isolation, our control of the peloponnese would be secure."
 
 korinth_missions_task_10:0 "Controlling the Boot"
 korinth_missions_task_10_DESC:0 "Controlling several key territories would greatly increase our control of the #E Ionian Sea#!."
 
-korinth_missions_task_11:0 "Syracusan Delegation"
-korinth_missions_DESC:0 ""
+korinth_missions_task_11:0 "Siceliote Restoration"
+korinth_missions_DESC:0 "Syracusae has been thrown into turmoil, suffering not only internal divisions, but the looming threat of the strange barbarians who came from the distant lands of Aegyptos. It is these strange men who established themselves at Katane, putting our kin through much suffering. It is certain that they will once again accept us with open arms, if we will only secure their safety."
 
 korinth_missions_task_12:0 "Expanding the Akrokorinthos"
 korinth_missions_task_12_DESC:0 "We will begin to better expand and improve the Akrokorinthos."
@@ -53,7 +53,7 @@ korinth_missions_task_14_DESC:0 "Achaea is best known for it's "
 korinth_missions_task_15:0 "Consulting the Oracle at Dodona"
 korinth_missions_task_15_DESC:0 "The Oracle at Dodona is the most ancient and esteemed of all Greek oracles, even the famed Oracle of Delphi. It would be wise to seek the favor of the gods."
 
-korinth_missions_task_16:0 "Korinthian Legion"
+korinth_missions_task_16:0 "Spears of Aphrodite"
 korinth_missions_task_16_DESC:0 "Although Korinth is not known for having the fiercest or the strongest warriors, we can use our wealth to make up for it."
 
 korinth_missions_task_17:0 "Naval blah blahh"
@@ -62,11 +62,11 @@ korinth_missions_task_17_DESC:0 ""
 korinth_missions_task_18:0 "The Gilded City"
 korinth_missions_task_18_DESC:0 ""
 
-korinth_missions_task_19:0 "Philosophies of Pythagoras"
-korinth_missions_task_19_DESC:0 "Through contact with the colonies of Magna Graecia, we have become aware of the teachings of Pythagoras, known as 'Orphism'. Their mystic ways are intriguing..."
+korinth_missions_task_19:0 "The House of Cards"
+korinth_missions_task_19_DESC:0 "The bickering cities of Magna Graecia are weak and disunited, the perfect time for us to strike. "
 
 korinth_missions_task_20:0 "Hegemon of Greece"
-korinth_missions_task_20_DESC:0 ""
+korinth_missions_task_20_DESC:0 "The will of the gods has led us to supreme victory. Korinth will forever be remembered as the strongest of the Greeks!"
 
 korinth_missions_task_21:0 "Bureacratic Matters"
 korinth_missions_task_21_DESC:0 "An expansion of our internal structure should be conducted. After all, how can we expect to have a great realm if we do not adapt to the times?"
@@ -89,9 +89,16 @@ korinth_missions_task_26_DESC:0 "Egypt, Assyria, Lydia, and Media. All great nat
 korinth_missions_task_27:0 "The Rule of Few"
 korinth_missions_task_27_DESC:0 "We have decided that it is the wise rule of few, not the autocratic power of one, that can best rule a nation."
 
+korinth_missions_task_28:0 "Philosophies of Pythagoras"
+korinth_missions_task_28_DESC:0 "Through contact with the colonies of Magna Graecia, we have become aware of the teachings of Pythagoras, known as 'Orphism'. Their mystic ways are intriguing..."
+
 
 #Tooltips
 bithynia_missions_task_17_tooltip:0 "Have a legion with at least #Y 10#! units"
+korinth_local_allies:0 "Impressed by our diplomacy, some of our #Y Achaean#! bretheren will become our subjects."
+korinth_italiote_vassals:0 "We will have options regarding the governance of this newly conquered territory."
+korinth_ally_tt:0 "We have at least one #Y Achaean#! ally."
+korinth_athens_subjugated:0 "We will decide how to govern the territories we control in #Y Attica#!"
 
 
 #Modifiers
@@ -101,7 +108,7 @@ desc_korinthian_garrison:0 "A garrison of Korinthian soldiers has been establish
 autonomous_korkyra:0 "Autonomous Korkyra"
 italian_conquests:0 "Italian Conquests"
 korinthian_colony:0 "Korinthian Colony"
-korinthian_legion:0 "Self-Sufficent Legion"
+korinthian_legion:0 "Spears of Aphrodite"
 korinthinian_hegemony_mod:0 "Korinthian Hegemony"
 korinth_laws:0 "Internal Reorganizing"
 expanded_akrokorinth:0 "Expanded Akrokorinthos"
@@ -117,13 +124,16 @@ subjugated_attica:0 "Subjugated Attica"
 athens_desecrated:0 "Athens Desecrated"
 desc_athens_desecrated:0 "Once the greatest city in the Greek world, Athens has been reduced to little more than a smoking pile of rubble by the hands of the vengeful Korinthians."
 riches_of_athens:0 "Riches of Athens"
+rule_of_few:0 "Rule of Few"
+reduced_corruption:0 "Anti-Corruption Programs"
+korinth_friends:0 "Valued Ally"
 
 #Extras
 
 KALLIPOLIS_NAME:0 "Kallipolis"
 KALLIPOLIS_ADJECTIVE:0 "Kallipolitan"
 kallipolis_heritage:0 "Heritage of Idomenian Founding"
-kallipolis_heritage_desc:0 "Kallipolis, meaning 'Beautiful City' was said to have been founded by Idomenus, one of Agamemnon's trusted advisors. After the Trojan War, Idomenus's ships hit a terrible storm. Fearing for his life, Idomenus promised to Poseidon that he would sacrifice the first living thing he saw when he returned to Crete. In a curel twist of fate, when Idomenus returned, the first thing he saw was his son. Upon murdering his son, the gods, angered by his acts, sent a plague to Crete. It was then that the Cretans exiled him to Italy, where he founded the city of Kallipolis. The inhabitants of Kallipolis are Messapian, but they share many similarities to the Greeks, especially in religion. In later times, Kallipolis came under the rule of the Korinthians, who expanded the ancient city. Under this rule, the Kallipolitans began to act more like their Achaean overlords."
+kallipolis_heritage_desc:0 "Kallipolis, meaning 'Beautiful City' was said to have been founded by Idomenus, one of Agamemnon's trusted advisors, and the leader of the Cretans. After the Trojan War, Idomenus's ships hit a terrible storm. Fearing for his life, Idomenus promised to Poseidon that he would sacrifice the first living thing he saw when he returned to Crete. In a curel twist of fate, when Idomenus returned, the first thing he saw was his son. Upon murdering his son, the gods, angered by his acts, sent a plague to Crete. It was then that the Cretans exiled him to Italy, where he founded the city of Kallipolis. The inhabitants of Kallipolis are Messapian, but they share many similarities to the Greeks, especially in religion. In later times, Kallipolis came under the rule of the Korinthians, who expanded the ancient city. Under this rule, the Kallipolitans began to act more like their Achaean overlords."
 aphrodite_hoplimense_icon:0 "Statue of Equipped Aphrodite"
 aphrodite_hoplimense_icon_desc:0 "A marble statue of Aphrodite Hoplismene, crafted in Korinthos. The statue in the temple that bears her name."
 king_of_korinthos:0 "King of Korinthos"
@@ -178,8 +188,9 @@ me_korinth_4_tooltip:0 "The mission task '#Y $korinth_missions_task_4$#!' has no
 me_korinth_4_b_tooltip:0 "This special #Y Aphrodisia#! will be held every four years."
 
 me_korinth_5_title:0 "$korinth_missions_task_5$"
-me_korinth_5_desc:0 ""
-me_korinth_5.a:0 ""
+me_korinth_5_desc:0 "[ROOT.GetCountry.GetRuler.GetName] has organized a conference amongst all of our #E Achaean#! allies. There he spoke of the great peace and prosperity that we will be able to enjoy, of course only if we stand as one united front. Only the delegate from [GetCountry('PLE').GetName] seemed to agree with his honeyed words.\n\nNo matter how small, this is a step towards our grand ambitions being sastified in full."
+me_korinth_5.a:0 "Pellene will be our valued subject."
+me_korinth_5.b:0 "We can persuade the farmers of Patrai as well."
 me_korinth_5_tooltip:0 "The mission task '#Y $korinth_missions_task_5$#!' has now been #G Completed#!!"
 
 me_korinth_6_title:0 "$korinth_missions_task_6$"
@@ -278,8 +289,8 @@ me_korinth_21.b:0 "We will pursue a path of tyranny and populism."
 me_korinth_21_tooltip:0 "The mission task '#Y $korinth_missions_task_21$#!' has now been #G Completed#!!"
 
 me_korinth_22_title:0 "$korinth_missions_task_22$"
-me_korinth_22_desc:0 ""
-me_korinth_22.a:0 ""
+me_korinth_22_desc:0 "The wise and just rule of [ROOT.GetCountry.GetRuler.GetName] has led us to success thus far. We would be fools to upset the stability we have achieved. [ROOT.GetCountry.GetRuler.GetName] friend's in the assembly have taken kindly to his actions, praising him amongst the body of councillors. It is clear that oligarchy will lead us to glory and victory, not admiration of a tyrant."
+me_korinth_22.a:0 "Do not fix, what is not broken."
 me_korinth_22_tooltip:0 "The mission task '#Y $korinth_missions_task_22$#!' has now been #G Completed#!!"
 
 me_korinth_23_title:0 "$korinth_missions_task_23$"
