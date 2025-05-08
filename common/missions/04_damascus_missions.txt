@@ -644,6 +644,7 @@
         }
     }
     damascus_missions_task_20 = { #Hamath Fill with Loyalists
+        #Izn Note: can do this in multiple ways, feel free to do character/office stuff, but should consist of building infrastructure in p:777 and p:782 for sure.
         icon = "task_atlas"
         requires = { damascus_missions_task_16 }
         allow = {}
@@ -654,6 +655,7 @@
         }
     }
     damascus_missions_task_21 = { #Collapse the League of Haleb
+        #Izn Note: aspid thing
         icon = "task_atlas"
         requires = { damascus_missions_task_18 }
         allow = {}
@@ -665,6 +667,7 @@
     }
     damascus_missions_task_22 = { #Union of Qarqar
         icon = "task_atlas"
+        #Izn Note: aspid thing
         requires = { damascus_missions_task_18 }
         allow = {}
         on_completion = {
@@ -675,6 +678,7 @@
     }
     damascus_missions_task_23 = { #Crossing Mount Lebanon
         icon = "task_atlas"
+        #Izn Note: this is about conquering tyre and/or sidon. doing this shouold give you the option to release tyre or sidon back or directly keep it. directly keeping is worse later tho. if you subjugated them instead of directly annexing them, maybe give a slightly different reward or make the subject get a modifier to make them extra loyal ?
         requires = { damascus_missions_task_1 damascus_missions_task_2 }
         allow = {
             OR = {
@@ -695,19 +699,14 @@
         }
     }
     damascus_missions_task_24 = { #The Phoenecian Ultimatum
+        #Izn Note: send ultimatum to become subjects, make chance higher for if you border or have high relations, make chance lower if you directly own tyre/sidon. if refuses to join, join them to an anti-damascus league.
         icon = "task_atlas"
+        duration = 30
         requires = { damascus_missions_task_23 }
         allow = {
-            OR = {
-                owns = 743
-                owns = 747
-                any_subject = {
-                    tag = SID
-                }
-                any_subject = {
-                    tag = SWR
-                }
-            }
+        }
+        on_start = {
+
         }
         on_completion = {
             trigger_event = me_damascus.23
@@ -716,6 +715,7 @@
         }
     }
     damascus_missions_task_25 = { #Surrender Syrion
+        #Izn Note: giving up land = make into tributary; not giving up land should have consequences diplomatically. bypass needed as failsafe.
         icon = "task_atlas"
         requires = { damascus_missions_task_24 }
         highlight = {
@@ -750,6 +750,7 @@
         }
     }
     damascus_missions_task_26 = { #Destroy the Anti-Damascite League
+        #Izn Note: the league that forms in task 24 needs to be dismantled, this is done by having all the cities on the phoenecian coast owned by you, a subject, or an ally.  additionally, make a decision to seize p:746 to make it into a port so you can have a navy. perhaps even make a recurring event every 5-10 years giving youo good phoenecian boats as a tribute IF you have maincoast phoenecian subjects. coul dbe good for aany nation.
         requires = { damascus_missions_task_24 }
         highlight = {
             scope:province = {
@@ -765,6 +766,7 @@
         }
     }
     damascus_missions_task_27 = { #Cult of Contracts
+        #Izn Note: consider new deity, but this is Melqart stuff, ask aspid for ideas
         requires = { damascus_missions_task_25 damascus_missions_task_26 }
         allow = {
         }6
@@ -775,6 +777,7 @@
         }
     }
     damascus_missions_task_28 = { #Israelite Reconciliation
+        #Izn Note: this should give you some province modifiers in ur subject of galilee and/or the land of the israelites. the idea is that it's cojoining the Asherah and Yahweh cults into a shared system since theyre married anyways
         requires = { damascus_missions_task_13 damascus_missions_task_14 }
         allow = {
         }
@@ -785,3 +788,5 @@
         }
     }
 }
+
+#additional Note: some missions earlier have no allows, this shouldnt really be the case. add some basic checks. also damascus needs a flag.

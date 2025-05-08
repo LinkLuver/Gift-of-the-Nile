@@ -65,23 +65,34 @@
  damascus_missions_task_19_DESC:0 "Finally, after centuries of hardship, oppression, and war, the Arameans are unified around a single state. Now we must take advantage of this brief peace to rebuild our lands, so that when the time comes we might bring an end to the tyrants of Bit Adini and of Kummuh, and never again find ourselves subjected to the foreign yoke."
 
  damascus_missions_task_20:0 "Fill the Courts with Loyalists"
+ damascus_missions_task_20_DESC:0 "Talk about filling the conquered lands of Hamath and Lu'ash with loyalists against the house of Zakkur you just beat up."
 
  damascus_missions_task_21:0 "Collapse the League of Haleb"
+ damascus_missions_task_21_DESC:0 "Pure aspid writing"
 
  damascus_missions_task_22:0 "Union of Qarqar"
+ damascus_missions_task_22_DESC:0 "Pure aspid writing"
 
  damascus_missions_task_23:0 "Crossing Mount Lebanon"
+ damascus_missions_task_23_DESC:0 "Talk about how youo conquered Sidon or Tyre and how this will lead to the subjugation of the rest of Phoenecia. Talk about how the options youo choose will effect how many will join u willingly."
 
  damascus_missions_task_24:0 "Ultimatum to the Phoenecians"
+ damascus_missions_task_24_DESC:0 "Talk about how the Phoenecians totally joined you awesomely and how the rest have formed into an Anti-Damascan League that must be conquered."
 
  damascus_missions_task_25:0 "Surrender Syrion Syria"
+ damascus_missions_task_25_DESC:0 "Talk about how youo shouold probs give up your Syrion territories to your ally otherwise they're gonna be pissed asf."
 
  damascus_missions_task_26:0 "Destroy the Anti-Damascan League"
+ damascus_missions_task_26_DESC:0 "Talk about how you beat the league and phoenecia is now completely yours."
 
  damascus_missions_task_27:0 "Cult of Contracts"
+ damascus_missions_task_27_DESC:0 "Talk about Melqart."
 
  damascus_missions_task_28:0 "Israelite Reconciliation"
+ damascus_missions_task_28_DESC:0 "Talk about how Asherahism and Yahwehism are actually compatible cuz theyre totally married, it's all under one banner now anyways."
  
+ #Additional Izn Notes: I actually wrote the descs as i meant the events to be written oops, also the Canaan task needs to be changed to only include the territories of the following: Galilee, Samaria, Judea, Moab, and Ammon.
+
  #Tooltips
  send_invite:0 "Sends an invite to #E Tadmor#! and #E Bit Agushi#! to the #Y Pan-Aramaic Congress#!."
  join_pan_aram_congress_yes:0 "#G Join#! the #Y Pan-Aramaic Congress#!."
