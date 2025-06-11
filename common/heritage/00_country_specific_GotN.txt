@@ -9545,3 +9545,30 @@ arktoseia_heritage = {
         tag = AKS
     }
 }
+
+holmoi_heritage = {
+	modifier = {
+		#good
+		ship_capture_chance = 0.10
+        cohort_reinforcement_speed = 0.05
+		#bad
+		global_tribesmen_happyness = -0.05
+	}
+	trigger = {
+        tag = HM1
+    }
+}
+
+lalasia_heritage = {
+	modifier = {
+		#good
+        oratory_tech_investment = 0.15
+		stability_cost_modifier = -0.1
+		#bad
+		land_morale_recovery = -0.03
+	}
+	trigger = {
+        tag = LAL
+    }
+}
+    

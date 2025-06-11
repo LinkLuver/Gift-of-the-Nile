@@ -2276,14 +2276,23 @@ ADR = {#Andros
 	}
 }
 
-AIG = {#Aigion
+AIG = { #Achaean League flag- orange
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 206 121 37 }
-	color2 = "pure_white"
+	color2 = "achaemenid_mauve"
+
 	colored_emblem = {
-		texture = "ce_zeus_standing_a.dds"
-		color1 = "pure_white"
-		color2 = "pitch_black"
+		texture = "ce_achaean_league.dds"
+		color1 = "achaean_league_color"
+		instance = { scale = { 0.65  0.65 } }
+	}
+	
+	colored_emblem = {
+		texture = "ce_border_meander_03.tga"
+		color1 = "achaean_league_color"
+		color2 = rgb { 206 121 37 }
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
 	}
 }
 

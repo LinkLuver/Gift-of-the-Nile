@@ -1966,6 +1966,7 @@ country = {
 				1882 1889 #cilicia_trachea_region
 				1874 1875 1879 1880 1881 #cilicia_pedias_region
 			    1873 1877 1878
+				1883 1872 8022 1887
 			}
 		}
 
@@ -4669,7 +4670,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				66 67 68 69 58
+				66 68 69 58 67
 			}
 
 		}
@@ -4682,7 +4683,7 @@ country = {
 			capital = 62
 			diplomatic_stance=appeasement_stance
 			own_control_core = 	{
-				62 63 64 65 57
+				62 65 57
 			}
 
 		}
@@ -5051,7 +5052,7 @@ country = {
 			capital = 56
 
 			own_control_core = 	{
-				56
+				56 63 64
 			}
 
 			treasures = { 43 }
@@ -9704,8 +9705,48 @@ country = {
 
 		}
 
-		PTA = { #Patrai and most of the founding members of the future Achaian League
-			government = oligarchic_republic
+		#PTA = { #Patrai and most of the founding members of the future Achaian League
+		#	government = oligarchic_republic
+		#	primary_culture = achaean
+		#	religion = roman_pantheon
+#
+#			technology={
+#				military_tech={ level=2 progress=0 }
+#				civic_tech={ level=2 progress=0 }
+#				oratory_tech={ level=2 progress=0 }
+#				religious_tech= { level=2 progress=0  }
+#			}
+#
+#			capital = 434
+#
+#			own_control_core = 	{
+#				434
+#			}
+#
+#			treasures = { 59 }
+#		}
+
+		#DYM = {
+		#	government = oligarchic_republic
+		#	primary_culture = achaean
+		#	religion = roman_pantheon
+#
+#			technology={
+#				military_tech={ level=2 progress=0 }
+#				civic_tech={ level=2 progress=0 }
+#				oratory_tech={ level=2 progress=0 }
+#				religious_tech= { level=2 progress=0  }
+#			}
+#
+#			capital = 7890
+#
+#			own_control_core = {
+#				7890
+#			}
+#		}
+
+		AIG = { #Like many other Greek city states recently liberated by Demetrios
+			government = league_republic
 			primary_culture = achaean
 			religion = roman_pantheon
 
@@ -9714,73 +9755,35 @@ country = {
 				civic_tech={ level=2 progress=0 }
 				oratory_tech={ level=2 progress=0 }
 				religious_tech= { level=2 progress=0  }
-			}
-
-			capital = 434
-
-			own_control_core = 	{
-				434
 			}
 
 			treasures = { 59 }
-		}
-
-		DYM = {
-			government = oligarchic_republic
-			primary_culture = achaean
-			religion = roman_pantheon
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			capital = 7890
-
-			own_control_core = {
-				7890
-			}
-		}
-
-		AIG = { #Like many other Greek city states recently liberated by Demetrios
-			government = oligarchic_republic
-			primary_culture = achaean
-			religion = roman_pantheon
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
 
 			capital = 444
 
 			own_control_core = 	{
-				444
+				444 434 7890 7893
 			}
 		}
 
-		PLE = {
-			government = oligarchic_republic
-			primary_culture = achaean
-			religion = roman_pantheon
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			capital = 7893
-
-			own_control_core = 	{
-				7893 
-			}
-		}
+		#PLE = {
+		#	government = oligarchic_republic
+		#	primary_culture = achaean
+		#	religion = roman_pantheon
+#
+#			technology={
+#				military_tech={ level=2 progress=0 }
+#				civic_tech={ level=2 progress=0 }
+#				oratory_tech={ level=2 progress=0 }
+#				religious_tech= { level=2 progress=0  }
+#			}
+#
+#			capital = 7893
+#
+#			own_control_core = 	{
+#				7893 
+#			}
+#		}
 
 		DEL = {
 			government = league_republic
@@ -14403,14 +14406,21 @@ country = {
 		}
 
 		LAL = { # Lalasia
-			government = tribal_federation
-			primary_culture = cilician
-			religion = hurrian_pantheon
+			government = democratic_republic
+			primary_culture = aegean
+			religion = roman_pantheon
 
-			capital = 1784
+			capital = 1897
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
 
 			own_control_core = {
-				1901 1897 1904
+				1901 1897
 			}
 		}
 
@@ -14421,8 +14431,53 @@ country = {
 
 			capital = 1894
 
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
 			own_control_core = {
-				1894 1896 1890 1892 1872 1883 1887 7968 8022
+				1894 1896 1892 7968
+			}
+		}
+
+		HM1 = { # Holmoi
+			government = pirate_republic
+			primary_culture = cilician
+			religion = hurrian_pantheon
+
+			capital = 1890
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			own_control_core = {
+				1890
+			}
+		}
+
+		SYD = { # Syedra
+			government = plutocratic_monarchy
+			primary_culture = alashiyan
+			religion = carthaginian_pantheon
+
+			capital = 1904
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = {
+				1904
 			}
 		}
 

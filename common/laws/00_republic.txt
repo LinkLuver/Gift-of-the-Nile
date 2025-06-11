@@ -1,4 +1,4 @@
-﻿republic_military_recruitment_laws = { # Military Reforms
+republic_military_recruitment_laws = { # Military Reforms
 	potential = {
 		is_republic = yes
 		NOR = {
@@ -266,7 +266,7 @@ republican_tyranny_reforms = { # Tyranny Laws
 	}
 	republican_tyranny_reforms_1 = {
 		modifier = {
-			monthly_political_influence_modifier = 0.05
+			#monthly_political_influence_modifier = 0.05
 		}
 	}
 	republican_tyranny_reforms_2 = {

@@ -1257,27 +1257,31 @@
 	culture="cilician"
 	religion="hurrian_pantheon"
 	trade_goods="cedar"
-	civilization_value=25
+	civilization_value=31
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
-		religion="hurrian_pantheon"
 		amount=1
 	}
 	citizen={
 		culture="ionian"
-		religion="hurrian_pantheon"
+		amount=1
+	}
+	citizen={
+		culture="ionian"
+		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
 		amount=1
 	}
 	freemen={
+		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
 		culture="ionian"
-		religion="hurrian_pantheon"
+		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
@@ -1286,6 +1290,7 @@
 	slaves={
 		amount=1
 	}
+	port_building=1
 }
 
 1892={ #Elaioussa
@@ -1393,33 +1398,48 @@
 
 1897={ #Kelenderis
 	terrain="hills"
-	culture="cilician"
-	religion="hurrian_pantheon"
-	trade_goods="fish"
-	civilization_value=15
+	culture="aegean"
+	religion="roman_pantheon"
+	trade_goods="cedar"
+	civilization_value=31
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	citizen={
+		religion="hurrian_pantheon"
 		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cilician"
+		religion="hurrian_pantheon"
+		amount=1
 	}
 	freemen={
 		culture="ionian"
 		religion="hurrian_pantheon"
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=1
 	}
 	tribesmen={
+		culture="cilician"
+		religion="hurrian_pantheon"
 		amount=2
 	}
+	port_building=1
 }
 
 1901={ #Anemourion
 	terrain="hills"
 	culture="cilician"
 	religion="hurrian_pantheon"
-	trade_goods="cedar"
+	trade_goods="fish"
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
@@ -1436,24 +1456,23 @@
 
 1904={ #Selinous Kilikias
 	terrain="hills"
-	culture="cilician"
-	religion="hurrian_pantheon"
+	culture="alashiyan"
+	religion="carthaginian_pantheon"
 	trade_goods="cedar"
 	civilization_value=31
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="pamphylian"
-		religion="hurrian_pantheon"
+		religion="carthaginian_pantheon"
 		amount=2
 	}
 	freemen={
 		culture="ionian"
-		religion="hurrian_pantheon"
+		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
-		culture="pamphylian"
+		culture="cilician"
 		religion="hurrian_pantheon"
 		amount=2
 	}
@@ -1461,6 +1480,8 @@
 		amount=1
 	}
 	slaves={
+		culture="cilician"
+		religion="hurrian_pantheon"
 		amount=2
 	}
 	slaves={
@@ -1469,6 +1490,8 @@
 		amount=1
 	}
 	tribesmen={
+		culture="cilician"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	port_building=1

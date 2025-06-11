@@ -909,23 +909,38 @@
 	civilization_value=33
 	barbarian_power=0
 	province_rank="city"
+	56={ #Taras
+	terrain="farmland"
+	culture="italiotian"
+	religion="roman_pantheon"
+	trade_goods="horses"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
 	nobles={
+		amount=2
 		religion="isis_religion"
-		amount=1
 	}
 	citizen={
-		amount=9
+		amount=8
+	}
+	citizen={
+		religion="isis_religion"
+		amount=2
 	}
 	freemen={
-		religion="isis_religion"
+		amount=6
+	}
+	freemen={
+		culture="messapian"
+		amount=2
+	}
+	slaves={
 		amount=4
 	}
 	slaves={
-		amount=1
-	}
-	slaves={
 		culture="messapian"
-		amount=1
+		amount=2
 	}
 	slaves={
 		culture="lucanian"
@@ -937,7 +952,10 @@
 		religion="italic_pantheon"
 		amount=2
 	}
-	holy_site=omen_aphrodite_areia
+	tribesmen={
+		culture="messapian"
+		amount=2
+	}
 	port_building=1
 }
 
@@ -1130,53 +1148,48 @@
 
 63={ #Kallipolis
 	terrain="farmland"
-	culture="messapian"
+	culture="italiotian"
 	religion="roman_pantheon"
 	trade_goods="fish"
-	civilization_value=12
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		culture="messapian"
+		amount=4
+	}
+}
+
+64={ #Hydrous
+	terrain="farmland"
+	culture="italiotian"
+	religion="roman_pantheon"
+	trade_goods="earthware"
+	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=4
 	}
 	freemen={
-		amount=2
-	}
-	slaves={
-		amount=6
-	}
-	tribesmen={
-		amount=5
-	}
-	tribesmen={
-		religion="illyrian_pantheon"
-		amount=1
-	}
-}
-
-64={ #Hydrous
-	terrain="farmland"
-	culture="messapian"
-	religion="roman_pantheon"
-	trade_goods="earthware"
-	civilization_value=12
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=5
-	}
-	freemen={
 		amount=3
 	}
 	slaves={
-		amount=5
+		culture="messapian"
+		amount=3
 	}
 	tribesmen={
+		culture="messapian"
 		amount=2
-	}
-	tribesmen={
-		religion="illyrian_pantheon"
-		amount=1
 	}
 	port_building=1
 }
@@ -2362,7 +2375,6 @@
 	slaves={
 		amount=2
 	}
-	port_building=1
 }
 
 1472={ #Meligounis
@@ -2549,24 +2561,24 @@
 	}
 	citizen={
 		culture="siculian"
-		amount=5
+		amount=4
 	}
 	citizen={
+		amount=4
+	}
+	freemen={
 		amount=5
 	}
 	freemen={
-		amount=7
-	}
-	freemen={
 		culture="siculian"
-		amount=5
-	}
-	slaves={
 		amount=4
 	}
 	slaves={
+		amount=3
+	}
+	slaves={
 		culture="siculian"
-		amount=4
+		amount=3
 	}
 	tribesmen={
 		culture="siculian"

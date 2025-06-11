@@ -1031,6 +1031,10 @@ cilicia_heritage = {
     
     trigger = {
     	primary_culture = cilician
+		NOT = {
+			tag = HM1
+			tag = LAL
+		}
     }
 }
 

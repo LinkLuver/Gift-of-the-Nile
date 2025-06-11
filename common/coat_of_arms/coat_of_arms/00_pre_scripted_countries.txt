@@ -2604,13 +2604,13 @@ IOA = {
 
 LYC = {
 	pattern = "pattern_solid.tga"
-	color1 = "ck2_red"
-	color2 = "offwhite"
+	color1 = "phrygia_red"
+	color2 = "ck2_blue"
 
 	colored_emblem = {
 		texture = "ce_border_triangles_02.dds"
 		color1 = "pitch_black"
-		color2 = "bone_white"
+		color2 = "iasos_blue"
 		instance = { rotation = 0 }
 		instance = { rotation = 90 }
 		instance = { rotation = 180 }
@@ -2619,7 +2619,7 @@ LYC = {
 
 	colored_emblem = {
 		texture = "ce_aryan_03.dds"
-		color1 = "bone_white"
+		color1 = "iasos_blue"
 		instance = {
 			scale = { 1 1 }
 			rotation = 250
@@ -2639,7 +2639,7 @@ LYC = {
 
 	colored_emblem = {
 		texture = "ce_circle_01.dds"
-		color1 = "offwhite"
+		color1 = "iasos_blue"
 		instance = {
 			position = { 0.52 0.53 }
 			scale = { -0.28 0.28 }

@@ -1731,9 +1731,6 @@ provinces = { #Any entry must contain a comment with city name.
 	1880 = { # Mopsouhestia
 		military_building = 1
 	}
-	1897 = { # Gelenderis
-		barracks_building = 1
-	}
 	1936 = { # Kelainai
 		fortress_building = 1
 	}

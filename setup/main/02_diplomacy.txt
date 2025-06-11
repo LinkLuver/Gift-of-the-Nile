@@ -124,10 +124,11 @@ diplomacy = {
 		member = KOR
 		member = AGI
 		member = MGA
-		member = DYM
-		member = PTA
+		#member = DYM
+		#member = PTA
 		member = AIG
-		member = PLE
+		#member = PLE
+		member = ADR
 	}
 
 	#Kytheran Trade League
@@ -203,7 +204,7 @@ diplomacy = {
 
 
 	#Olbe and Company
-	dependency = { first = OBE second = LAL subject_type = feudatory }
+	dependency = { first = OBE second = HM1 subject_type = feudatory }
 
 	#Oretania-Garmania
 	dependency = { first = ORT second = GRM subject_type = feudatory }
