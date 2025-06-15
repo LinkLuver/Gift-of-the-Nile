@@ -167,27 +167,17 @@ me_korinth.5 = { #Friends And Allies
     option = {
         name = "me_korinth_5.a"
         custom_tooltip = me_korinth_5_tooltip
-        c:KOR = {
-            make_subject = {
-                target = c:PLE
-                type = feudatory
-            }
-        }
-    }
-    option = {
-        name = "me_korinth_5.b"
-        custom_tooltip = me_korinth_5_tooltip
         add_political_influence = -50
         c:KOR = {
             make_subject = {
-                target = c:PLE
+                target = c:AIG
                 type = feudatory
             }
         }
-        c:KOR = {
-            make_subject = {
-                target = c:PTA
-                type = feudatory
+        c:AIG = {
+            add_country_modifier = {
+                name = sympolitea_enacted
+                duration = -1
             }
         }
     }
@@ -483,12 +473,32 @@ me_korinth.7 = {
 
     title = me_korinth_7_title
     desc = me_korinth_7_desc
-    picture = great_library
+    picture = greek_court
+    left_portrait = current_ruler
+    right_portrait = c:PTA.current_ruler
 
     option = {
         name = "me_korinth_7.a"
-        custom_tooltip = me_korinth_7_tooltip
-
+        c:MAC = {
+			release_subject = c:PTI
+		}
+		c:KOR = {
+			make_subject = {
+				target = c:PTI
+				type = feudatory
+			}
+			trigger_event = {
+				id = me_korinth.30
+				days = 10
+			}
+		}
+    }
+    option = {
+        name = "me_korinth_7.b"
+        add_political_influence = 20
+        current_ruler = {
+            add_trait = cautious
+        }
     }
 }
 me_korinth.8 = {
@@ -496,12 +506,74 @@ me_korinth.8 = {
 
     title = me_korinth_8_title
     desc = me_korinth_8_desc
-    picture = great_library
+    picture = greek_antigonid_path_2_event
 
     option = {
         name = "me_korinth_8.a"
         custom_tooltip = me_korinth_8_tooltip
-
+        p:426 = {
+            create_country = {
+                name = {
+                    name = BOEOTIAN_LEAGUE
+                    adjective = BOEOTIAN_LEAGUE_ADJ
+                }
+                hidden_effect = {
+                    set_country_heritage = theban_heritage
+                    change_country_flag = BOE
+                    set_country_religion = roman_pantheon
+                    change_government = league_republic
+                    save_scope_as = new_feudatory_scope
+                    change_country_color = spartan_ocra
+                }
+            }
+        }
+        hidden_effect = {  
+            scope:new_feudatory_scope = {
+                add_country_modifier = {
+                    name = subjugated_thebes
+                    duration = -1
+                }
+            }
+        }
+        make_subject = {
+            type = feudatory
+            target = scope:new_feudatory_scope
+        }
+        any_owned_province = { #Fix later idgaf (heartbroken emoji)
+            is_in_area = {
+                area:boeotia_area = {
+                set_owned_by = scope:new_feudatory_scope
+                }
+            }
+        }
+    }
+    option = {
+        name = "me_korinth_8.b"
+        custom_tooltip = me_korinth_8_tooltip
+        p:426={
+            add_province_modifier = {
+                name = korinthian_garrison
+                duration = -1
+            }
+        }
+        if={
+           limit = { owns = p:424 }
+           p:424 = {
+            add_province_modifier = {
+                name = korinthian_garrison
+                duration = -1
+            }
+        }
+        else_if = {
+            limit = { owns = p:7798 }
+            p:7798 = {
+            add_province_modifier = {
+                name = korinthian_garrison
+                duration = -1
+                }
+            }
+        }
+    }
     }
 }
 me_korinth.9 = {
@@ -509,12 +581,15 @@ me_korinth.9 = {
 
     title = me_korinth_9_title
     desc = me_korinth_9_desc
-    picture = great_library
+    picture = interesting_histories_sparta_city
 
     option = {
         name = "me_korinth_9.a"
         custom_tooltip = me_korinth_9_tooltip
-
+        add_country_modifier = {
+            name = spartan_ally
+            duration = 3650
+        }
     }
 }
 me_korinth.10 = { # Controlling The Boot
@@ -660,12 +735,22 @@ me_korinth.14 = {
 
     title = me_korinth_14_title
     desc = me_korinth_14_desc
-    picture = great_library
+    picture = farming
 
     option = {
         name = "me_korinth_14.a"
         custom_tooltip = me_korinth_14_tooltip
-
+        add_2_free_province_investments = yes
+            random_owned_province = {
+				limit = { 
+					is_in_area = achaea_area 
+					free_building_slots < 1
+				}
+				add_province_modifier = {
+					name = developed_achaea
+					duration = -1
+            }
+		}
     }
 }
 me_korinth.15 = {
@@ -762,12 +847,21 @@ me_korinth.18 = {
 
     title = me_korinth_18_title
     desc = me_korinth_18_desc
-    picture = great_library
+    picture = great_city
 
     option = {
         name = "me_korinth_18.a"
         custom_tooltip = me_korinth_18_tooltip
-
+        current_ruler = {
+            add_finesse = 2
+                add_trait = midas_touched
+            }
+            p:418={
+            add_province_modifier = {
+                name = gilded_korinth
+                duration = -1
+            }
+        }
     }
 }
 me_korinth.19 = {
@@ -788,12 +882,13 @@ me_korinth.20 = {
 
     title = me_korinth_20_title
     desc = me_korinth_20_desc
-    picture = great_library
+    picture = Event_roman_triumph
 
     option = {
         name = "me_korinth_20.a"
         custom_tooltip = me_korinth_20_tooltip
-
+        add_military_experience = 80
+        add_stability = 20
     }
 }
 me_korinth.21 = { #Bureaucratic Matters
@@ -883,12 +978,15 @@ me_korinth.24 = {
 
     title = me_korinth_24_title
     desc = me_korinth_24_desc
-    picture = great_library
+    picture = interesting_histories_hellenic_town_man
 
     option = {
         name = "me_korinth_24.a"
         custom_tooltip = me_korinth_24_tooltip
-
+        add_country_modifier = {
+            name = reduced_corruption
+            duration = 7300
+        }
     }
 }
 me_korinth.25 = { #Bread and Circuses
@@ -1042,4 +1140,49 @@ me_korinth.29 = { #numbered Aphrodisia
 			days = 1370
 		}
 	}
+}
+me_korinth.30 = {
+    type = country_event
+
+    trigger = {
+		tag = MAC
+	}
+
+    title = me_korinth_30_title
+    desc = me_korinth_30_desc
+    picture = greek_court
+
+    option = {
+        name = "me_korinth_30.a"
+        declare_war_with_wargoal = {
+            war_goal = conquer_wargoal
+            province = p:376
+            target = c:PTI
+        }
+    }
+    option = {
+        name = "me_korinth_30.b"
+        current_ruler = {
+            add_trait = cautious
+            add_popularity = -10
+        }
+    }
+}
+
+me_korinth.31 = {
+    type = country_event
+
+    trigger = {
+		tag = MAC
+	}
+
+    title = me_korinth_31_title
+    desc = me_korinth_31_desc
+    picture = greek_court
+
+    option = {
+        name = "me_korinth_31.a"
+        custom_tooltip = me_korinth_7_tooltip
+        add_stability = 10
+    }
 }

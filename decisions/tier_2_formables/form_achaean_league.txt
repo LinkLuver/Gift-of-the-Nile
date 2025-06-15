@@ -4,27 +4,7 @@
 	form_achaean_league = {
 		
 		potential = {
-			num_of_cities >= 1
-			country_culture_group = hellenic
-			is_republic = yes
-			OR = {
-				primary_culture = achaean
-				primary_culture = arcadian
-				capital_scope = {
-					OR = {
-						is_in_area = achaea_area
-						is_in_area = arcadia_area
-					}
-				}
-			}
-			is_republic = yes
-			NOR = {
-				tag = ACL 			### Tag name of Achaean League
-				tag = HLA           ### Hellenic League
-				tag = ACH			### Old Achaea tag name
-				is_endgame_tag_trigger = yes
-				is_tier_2_formable_trigger = yes
-			}
+			always = no
 		}
 		
 		highlight = {

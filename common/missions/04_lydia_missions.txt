@@ -6,8 +6,9 @@
     chance = 1000
 
     potential = {
-		tag = LYD
-        NOT = { has_variable = lyd_mission_cooldown_var }
+        always = no
+		#tag = LYD
+        #NOT = { has_variable = lyd_mission_cooldown_var }
     }
 
     abort = {}

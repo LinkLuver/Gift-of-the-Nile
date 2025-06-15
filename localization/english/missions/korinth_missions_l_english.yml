@@ -1,8 +1,8 @@
 ﻿
 l_english:
 
-korinth_missions:0 "Korinth Missions"
-korinth_missions_DESCRIPTION:0 "The ascendance of our regional allies to power has revealed to us the danger of our position. If we do not squash them where they stand, they may soon become powers far greater than we could ever deal with.""
+korinth_missions:0 "Heirs of Cypselus"
+korinth_missions_DESCRIPTION:0 "Korinth has maintained a strenous control over her allies and a large portion of Greece; however this has been threatened by the emergence of Athens as a power, not to mention the meddling Thessalians and Macedonians. If Korinth wishes to cement her place as the most powerful and prestigous of the Greek poleis, she must overcome her enemies, by any mean necessary."
 korinth_missions_CRITERIA_DESCRIPTION:0 "This mission will be completed when [GetCountry('KOR').GetName] has defeated her rivals, and further developed the city of [GetProvince('(int32)418').GetName]."
 korinth_missions_BUTTON_TOOLTIP:0 ""
 
@@ -20,11 +20,11 @@ korinth_missions_task_3_DESC:0 "Our upcoming conflicts will require us to field 
 korinth_missions_task_4:0 "Holding a Special Aphrodisia"
 korinth_missions_task_4_DESC:0 "Aphrodite has long been honored in Korinth. We should expand our annual festival held in honor of her, the Aphrodisia."
 
-korinth_missions_task_5:0 "Our Loyal Friends and Allies"
-korinth_missions_task_5_DESC:0 "If we wish to be sucessful in the coming war, we must strengthen our control over our neighbors. Our #Y Achaean#! allies will prove to be a valuable asset."
+korinth_missions_task_5:0 "Subjugating Achaea"
+korinth_missions_task_5_DESC:0 "Our influence over the Achaeans has been growing steadily in recent times. Now, it is time to claim our overlordship over them."
 
 korinth_missions_task_6:0 "Crushing Athens"
-korinth_missions_task_6_DESC:0 "Athens must fall.\n\nIt will be greatly #G advantageous#! to directly control all former #Y Athenian#! holdings in the province of #Y Attica#!."
+korinth_missions_task_6_DESC:0 "Athens is the greatest threat to our power we have ever seen. The fools will either destroy us, or themselves. Athens must fall.\n\nIt will be greatly #G advantageous#! to directly control all former #Y Athenian#! holdings in the province of #Y Attica#!."
 
 korinth_missions_task_7:0 "Potidean Aid"
 korinth_missions_task_7_DESC:0 "One of our former colonies, Potidea has been controlled by the throne of Macedon for too long. They request our aid in freeing themselves from their overlords."
@@ -33,7 +33,7 @@ korinth_missions_task_8:0 "Theban Threat"
 korinth_missions_task_8_DESC:0 "Only second in power to the Athenians, the sons of Cadmus have been consolidating and expanding their so called Boeotian 'league'. They are simply too powerful to be left alive!"
 
 korinth_missions_task_9:0 "Negiotiating With Sparta"
-korinth_missions_DESC:0 "If the revered Spartans could be persuaded to come out of their self imposed isolation, our control of the peloponnese would be secure."
+korinth_missions_task_9_DESC:0 "Once our most valued ally, Sparta has retreated into a shell, disregarding the goings on of the greater Greek world. Re-establishing ties with this valued ally would be a great benefit."
 
 korinth_missions_task_10:0 "Controlling the Boot"
 korinth_missions_task_10_DESC:0 "Controlling several key territories would greatly increase our control of the #E Ionian Sea#!."
@@ -48,7 +48,7 @@ korinth_missions_task_13:0 "Improving the Diolkos"
 korinth_missions_task_13_DESC:0 "The Diolkos is what permits ships to be transported from one side of the Korinthian gulf to the other. Expanding it would bring us a large increase in tax revenue."
 
 korinth_missions_task_14:0 "Achaean Investments"
-korinth_missions_task_14_DESC:0 "Achaea is best known for it's "
+korinth_missions_task_14_DESC:0 "Achaea has many small cities and villages, but it is not nearly as developed as other areas of Greece. Further developing this area would greatly increase our wealth and status."
 
 korinth_missions_task_15:0 "Consulting the Oracle at Dodona"
 korinth_missions_task_15_DESC:0 "The Oracle at Dodona is the most ancient and esteemed of all Greek oracles, even the famed Oracle of Delphi. It would be wise to seek the favor of the gods."
@@ -60,7 +60,7 @@ korinth_missions_task_17:0 "Naval blah blahh"
 korinth_missions_task_17_DESC:0 ""
 
 korinth_missions_task_18:0 "The Gilded City"
-korinth_missions_task_18_DESC:0 ""
+korinth_missions_task_18_DESC:0 "Korinth has become so rich, so unbelievably wealthy that tales of our riches have spread far and wide. It is said that the Egyptians say that every temple in Korinth is coated in a layer of gold- perhaps we should live up to these rumors."
 
 korinth_missions_task_19:0 "The House of Cards"
 korinth_missions_task_19_DESC:0 "The bickering cities of Magna Graecia are weak and disunited, the perfect time for us to strike. "
@@ -97,15 +97,20 @@ korinth_missions_task_28_DESC:0 "Through contact with the colonies of Magna Grae
 bithynia_missions_task_17_tooltip:0 "Have a legion with at least #Y 10#! units"
 korinth_local_allies:0 "Impressed by our diplomacy, some of our #Y Achaean#! bretheren will become our subjects."
 korinth_italiote_vassals:0 "We will have options regarding the governance of this newly conquered territory."
-korinth_ally_tt:0 "We have at least one #Y Achaean#! ally."
+korinth_ally_tt:0 "We are allied with the #Y Achaean League#!."
 korinth_athens_subjugated:0 "We will decide how to govern the territories we control in #Y Attica#!"
+korinth_hegemony_enacted:0 "We have enacted the 'Korinthian Hegemony' decision."
+korinth_achaea_investment_tt: "At least four provinces in [GetProvince('(int32)418').GetArea.GetName|G] have no free building slots."
+boeotia_conquer_tt:0 "At least 75% of the province of #Y Boeotia#! is owned by Korinth or her subjects."
+korinth_conquered_boeotia_tt:0 "We shall decide how to govern the territories we control in #Y Boeotia#!."
+korinth_potidea_task_tt:0 "This task will start an event chain between us, #E Potidea#! and #E Macedon#!."
 
 
 #Modifiers
 korinth_mercenaries:0 "Local Mercenaries Persuaded"
 korinthian_garrison:0 "Korinthian Garrison"
 desc_korinthian_garrison:0 "A garrison of Korinthian soldiers has been established in this city."
-autonomous_korkyra:0 "Autonomous Korkyra"
+autonomous_korkyra:0 "Korinthian Subject"
 italian_conquests:0 "Italian Conquests"
 korinthian_colony:0 "Korinthian Colony"
 korinthian_legion:0 "Spears of Aphrodite"
@@ -127,13 +132,20 @@ riches_of_athens:0 "Riches of Athens"
 rule_of_few:0 "Rule of Few"
 reduced_corruption:0 "Anti-Corruption Programs"
 korinth_friends:0 "Valued Ally"
+sympolitea_enacted:0 "Sympolitea Enacted"
+desc_sympolitea_enacted:0 "Sympoliteia was an arrangement between two poleis in which one state effectively became a subordinate. These types of treaties were common in federalized leagues, or in some cases were used to merge two city-states."
+developed_achaea:0 "Developed Achaea"
+gilded_korinth:0 "The Gilded City"
+desc_gilded_korinth:0 "Korinth, or 'The Gilded City', as it is sometimes referred to is a city so rich it would make even King Midas jealous. "
+subjugated_thebes:0 "Subjugated Boeotia"
+spartan_ally:0 "Spartan Ally"
 
 #Extras
 
 KALLIPOLIS_NAME:0 "Kallipolis"
 KALLIPOLIS_ADJECTIVE:0 "Kallipolitan"
 kallipolis_heritage:0 "Heritage of Idomenian Founding"
-kallipolis_heritage_desc:0 "Kallipolis, meaning 'Beautiful City' was said to have been founded by Idomenus, one of Agamemnon's trusted advisors, and the leader of the Cretans. After the Trojan War, Idomenus's ships hit a terrible storm. Fearing for his life, Idomenus promised to Poseidon that he would sacrifice the first living thing he saw when he returned to Crete. In a curel twist of fate, when Idomenus returned, the first thing he saw was his son. Upon murdering his son, the gods, angered by his acts, sent a plague to Crete. It was then that the Cretans exiled him to Italy, where he founded the city of Kallipolis. The inhabitants of Kallipolis are Messapian, but they share many similarities to the Greeks, especially in religion. In later times, Kallipolis came under the rule of the Korinthians, who expanded the ancient city. Under this rule, the Kallipolitans began to act more like their Achaean overlords."
+kallipolis_heritage_desc:0 "Kallipolis, meaning 'Beautiful City' was said to have been founded by Idomenus, one of Agamemnon's trusted advisors, and the leader of the Cretans. After the Trojan War, Idomenus's ships hit a terrible storm. Fearing for his life, Idomenus promised to Poseidon that he would sacrifice the first living thing he saw when he returned to Crete. In a cruel twist of fate, when Idomenus returned, the first thing he saw was his son. Upon murdering his son, the gods, angered by his acts, sent a plague to Crete. It was then that the Cretans exiled him to Italy, where he founded the city of Kallipolis. The inhabitants of Kallipolis are Messapian, but they share many similarities to the Greeks, especially in religion. In later times, Kallipolis came under the rule of the Korinthians, who expanded the ancient city. Under this rule, the Kallipolitans began to act more like their Achaean overlords."
 aphrodite_hoplimense_icon:0 "Statue of Equipped Aphrodite"
 aphrodite_hoplimense_icon_desc:0 "A marble statue of Aphrodite Hoplismene, crafted in Korinthos. The statue in the temple that bears her name."
 king_of_korinthos:0 "King of Korinthos"
@@ -188,9 +200,8 @@ me_korinth_4_tooltip:0 "The mission task '#Y $korinth_missions_task_4$#!' has no
 me_korinth_4_b_tooltip:0 "This special #Y Aphrodisia#! will be held every four years."
 
 me_korinth_5_title:0 "$korinth_missions_task_5$"
-me_korinth_5_desc:0 "[ROOT.GetCountry.GetRuler.GetName] has organized a conference amongst all of our #E Achaean#! allies. There he spoke of the great peace and prosperity that we will be able to enjoy, of course only if we stand as one united front. Only the delegate from [GetCountry('PLE').GetName] seemed to agree with his honeyed words.\n\nNo matter how small, this is a step towards our grand ambitions being sastified in full."
-me_korinth_5.a:0 "Pellene will be our valued subject."
-me_korinth_5.b:0 "We can persuade the farmers of Patrai as well."
+me_korinth_5_desc:0 "Despite the supposed strength of the [GetCountry('AIG').GetName], they are still rather weak compared to us, and they certainly do not command as much influence abroad as we do. [ROOT.GetCountry.GetRuler.GetName|E] was easily able to convince them to sign a treaty of sympoliteia with us, making them our loyal subject. All done under the pretense of a united #E Achaean#! front."
+me_korinth_5.a:0 "At last, we rule the Achaeans."
 me_korinth_5_tooltip:0 "The mission task '#Y $korinth_missions_task_5$#!' has now been #G Completed#!!"
 
 me_korinth_6_title:0 "$korinth_missions_task_6$"
@@ -206,18 +217,20 @@ me_korinth_6_c_tooltip:0 "The mission task '#Y $korinth_missions_task_6$#!' has 
 me_korinth_6_e_tooltip:0 "The mission task '#Y $korinth_missions_task_6$#!' has now been #G Completed#!!\This option is available because we conquered all formerly #Y Athenian#! territories in the province of #Y Attica#!."
 
 me_korinth_7_title:0 "$korinth_missions_task_7$"
-me_korinth_7_desc:0 ""
-me_korinth_7.a:0 ""
+me_korinth_7_desc:0 "An envoy from [GetCountry('PTI').GetName] has arrived before [ROOT.GetCountry.GetRuler.GetName], beseeching him for protection from the wicked and cruel #E Macedonians#!. [GetCountry('PTI').GetName] was once our colony, and we do have somewhat of an obligation to assist them, even if our former colony (like many of our others) have not been the most friendly towards us. However, this situation could easily lead to war, a war that could prove disastrous if we are not prepared."
+me_korinth_7.a:0 "We will assist Potidea."
+me_korinth_7.b:0 "Do you take me for a fool?"
 me_korinth_7_tooltip:0 "The mission task '#Y $korinth_missions_task_7$#!' has now been #G Completed#!!"
 
 me_korinth_8_title:0 "$korinth_missions_task_8$"
-me_korinth_8_desc:0 ""
-me_korinth_8.a:0 ""
+me_korinth_8_desc:0 "The rugged lands of #E Boeotia#! have at last come under our control. Be that as it may, many would argue for the utter subjugation of these peoples, but we cannot deny the many prestigous cities who are now subject to us."
+me_korinth_8.a:0 "Boeotia will be consolidated into a league."
+me_korinth_8.b:0 "It would be foolish to grant them freedom after our conflicts."
 me_korinth_8_tooltip:0 "The mission task '#Y $korinth_missions_task_8$#!' has now been #G Completed#!!"
 
 me_korinth_9_title:0 "$korinth_missions_task_9$"
-me_korinth_9_desc:0 ""
-me_korinth_9.a:0 ""
+me_korinth_9_desc:0 "Surprisingly, we have enticed the reclusive Spartans to remeber our shared history and glories, and to once again become allies. Both of our nations hope this pact will foster goodwill towards both of our nations. They have promised to send some of their warriors to serve as the personal bodyguard of [ROOT.GetCountry.GetRuler.GetName], a very welcome gift."
+me_korinth_9.a:0 "Spartans as bodyguards?"
 me_korinth_9_tooltip:0 "The mission task '#Y $korinth_missions_task_9$#!' has now been #G Completed#!!"
 
 me_korinth_10_title:0 "$korinth_missions_task_10$"
@@ -244,12 +257,12 @@ me_korinth_13.b:0 "It could do no harm."
 me_korinth_13_tooltip:0 "The mission task '#Y $korinth_missions_task_13$#!' has now been #G Completed#!!"
 
 me_korinth_14_title:0 "$korinth_missions_task_14$"
-me_korinth_14_desc:0 ""
-me_korinth_14.a:0 ""
+me_korinth_14_desc:0 "Another idea of [ROOT.GetCountry.GetRuler.GetName], the rural areas of #Y Achaea#! have been brought up to standard. Now even the most backwater and rural areas have a small piece of the charm and wealth of [GetProvince('(int32)418').GetName]."
+me_korinth_14.a:0 "I may have to purchase a rural estate!"
 me_korinth_14_tooltip:0 "The mission task '#Y $korinth_missions_task_14$#!' has now been #G Completed#!!"
 
 me_korinth_15_title:0 "$korinth_missions_task_15$"
-me_korinth_15_desc:0 "[ROOT.GetCountry.GetRuler.GetName] personally made the voyage to [GetProvince('(int32)425').GetName], eager to hear what the gods have in store for [ROOT.GetCountry.GetName]. As they arrived in [GetProvince('(int32)425').GetName] and made the journey to the oracle, [ROOT.GetCountry.GetRuler.GetName] could only wonder what would come of this. Upon arriving, the oracle greeted [ROOT.GetCountry.GetRuler.GetName], saying that she had been expecting them, even though [ROOT.GetCountry.GetRuler.GetName] had not informed the oracle of their visit. The oracle began to consult the gods, making strange and abnormal movements. She leaned over, and whispered into the ear of [ROOT.GetCountry.GetRuler.GetName]:"  
+me_korinth_15_desc:0 "[ROOT.GetCountry.GetRuler.GetName] personally made the voyage to [GetProvince('(int32)425').GetName], eager to hear what the gods have in store for [ROOT.GetCountry.GetName]. As they arrived in [GetProvince('(int32)425').GetName] and made the journey to the oracle, [ROOT.GetCountry.GetRuler.GetName] could only wonder what would come of this. Upon arriving, the oracle greeted [ROOT.GetCountry.GetRuler.GetName], saying that she had been expecting him, even though [ROOT.GetCountry.GetRuler.GetName] had not informed the oracle of their visit. The oracle began to consult the gods, making strange and abnormal movements. She leaned over, and whispered into the ear of [ROOT.GetCountry.GetRuler.GetName]:"  
 me_korinth_15.a:0 "Adhere to your ways, and you shall find prosperity."
 me_korinth_15.b:0 "Cursed are you. Greed and corruption run abundant in your lands.."
 me_korinth_15.c:0 "O Honorable amongst the Greeks, for this you shall be rewarded ten-fold."
@@ -268,8 +281,8 @@ me_korinth_17.a:0 ""
 me_korinth_17_tooltip:0 "The mission task '#Y $korinth_missions_task_17$#!' has now been #G Completed#!!"
 
 me_korinth_18_title:0 "$korinth_missions_task_18$"
-me_korinth_18_desc:0 ""
-me_korinth_18.a:0 ""
+me_korinth_18_desc:0 "Thanks in no small part to [ROOT.GetCountry.GetRuler.GetName], [GetProvince('(int32)418').GetName] has achieved a near-mythical reputation. It's magnificence know no bounds, and the utter splendor of the city will be spoken about for ages to come. [GetProvince('(int32)418').GetName] is the greatest of the #E Greek#! cities!"
+me_korinth_18.a:0 "A city even Zeus would be impressed by."
 me_korinth_18_tooltip:0 "The mission task '#Y $korinth_missions_task_18$#!' has now been #G Completed#!!"
 
 me_korinth_19_title:0 "$korinth_missions_task_19$"
@@ -278,8 +291,8 @@ me_korinth_19.a:0 ""
 me_korinth_19_tooltip:0 "The mission task '#Y $korinth_missions_task_19$#!' has now been #G Completed#!!"
 
 me_korinth_20_title:0 "$korinth_missions_task_20$"
-me_korinth_20_desc:0 ""
-me_korinth_20.a:0 ""
+me_korinth_20_desc:0 "The dominance of [GetCountry('KOR').GetName] over the rest of the #E Greeks#! is absolute. No other power will be able to challenge the might and wealth of [GetCountry('KOR').GetName], that is how important she has become. No longer will we need to contend with petty local conflicts, or deal with squabbles between our neighbors. [GetCountry('KOR').GetName] will be free to decide her own destiny."
+me_korinth_20.a:0 "Just as I had envisioned."
 me_korinth_20_tooltip:0 "The mission task '#Y $korinth_missions_task_20$#!' has now been #G Completed#!!"
 
 me_korinth_21_title:0 "$korinth_missions_task_21$"
@@ -300,7 +313,7 @@ me_korinth_23.b:0 "We will follow in the footsteps of Periandros."
 me_korinth_23_tooltip:0 "The mission task '#Y $korinth_missions_task_23$#!' has now been #G Completed#!!"
 
 me_korinth_24_title:0 "$korinth_missions_task_24$"
-me_korinth_24_desc:0 "Through extensive programs enacted by [ROOT.GetCountry.GetRuler.GetName], the great curse of our wealth, government corruption and greed, has been severely curbed. "
+me_korinth_24_desc:0 "Through extensive programs enacted by [ROOT.GetCountry.GetRuler.GetName], the great curse of our wealth, government corruption and greed, has been severely curbed. These issues are sure to still be present, as they are in any system of government, but  "
 me_korinth_24.a:0 ""
 me_korinth_24_tooltip:0 "The mission task '#Y $korinth_missions_task_24$#!' has now been #G Completed#!!"
 
@@ -338,3 +351,13 @@ aphrodisia_suffix_1:0 "$aphrodisia_number$st"
 aphrodisia_suffix_2:0 "$aphrodisia_number$nd"
 aphrodisia_suffix_3:0 "$aphrodisia_number$rd"
 aphrodisia_number:0 "[SCOPE.ScriptValue('aphrodisia_svalue')|0]"
+
+me_korinth_30_title:0 "Potidea Defects"
+me_korinth_30_desc:0 "My lord, word has reached us that [GetCountry('PTI').GetName] has turned, like cowards, to their old master, [GetCountry('KOR').GetName].\n\nAction would mean war with [GetCountry('KOR').GetName]. A direct war with such a prestigious city may spell disaster for our reputation among the other Greek cities, but on the other hand, we cannot let our vassal slip away so easily."
+me_korinth_30.a:0 "Are we blind? Deploy the garrison!"
+me_korinth_30.b:0 "Frankly, they were more trouble than they are worth."
+
+me_korinth_31_title:0 "$korinth_missions_task_7$"
+me_korinth_31_desc:0 "This little situation will surely be the first of many more disputes and squabbles... times appear to be changing in Greece, and soon, no one will be berefit of warfare. We must be prepared for the worst."
+me_korinth_31.a:0 "Ares' hand touches all."
+

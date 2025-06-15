@@ -1,5 +1,5 @@
 ﻿country_decisions = {
-	hegemony_korinth = { # Theban Hegemony
+	hegemony_korinth = { # Korinth Hegemony
 		potential = {
 			num_of_cities >= 1
 			tag = KOR
@@ -9,7 +9,6 @@
 			scope:province = {
 				OR = {
 	                is_in_area = achaea_area
-	                is_in_area = south_peleponnesos_area
 	                is_in_area = arcadia_area	
 					is_in_area = central_greece_area
 					province_id = 84
@@ -29,7 +28,13 @@
 					province_id = 349
 					province_id = 297
 					province_id = 1774	
-					province_id = 461	
+					province_id = 461
+					province_id = 433
+					province_id = 431
+					province_id = 432
+					province_id = 473
+					province_id = 450
+					province_id = 471	
 				}
 			}
 		}
@@ -37,7 +42,6 @@
 		allow = {
 			can_form_nation_trigger = yes
 			owns_or_subject_owns_area = achaea_area
-			owns_or_subject_owns_area = south_peleponnesos_area
 			owns_or_subject_owns_area = arcadia_area
 			owns_or_subject_owns_area = central_greece_area
 			owns_or_subject_owns = 84
@@ -58,6 +62,12 @@
 			owns_or_subject_owns = 297
 			owns_or_subject_owns = 1774
 			owns_or_subject_owns = 461
+			owns_or_subject_owns = 433
+			owns_or_subject_owns = 431
+			owns_or_subject_owns = 432
+			owns_or_subject_owns = 473
+			owns_or_subject_owns = 450
+			owns_or_subject_owns = 471
 		}
 		
 		effect = {
