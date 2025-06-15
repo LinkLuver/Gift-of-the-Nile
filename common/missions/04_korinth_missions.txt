@@ -240,7 +240,10 @@
         on_completion = {
             trigger_event = me_korinth.9
             show_as_tooltip = {
-
+            add_country_modifier = {
+                name = spartan_ally
+                duration = 3650
+            }
             }
         }
     }
