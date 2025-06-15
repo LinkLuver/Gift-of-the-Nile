@@ -1,0 +1,213 @@
+﻿l_english:
+
+ourkinion_missions:0 "Ourkinionian Venegance"
+ourkinion_missions_DESCRIPTION:0 "144 years ago, [GetCountry('ALE').GetAdjective).|Y] forces expelled us from our colony of [GetProvince('(int32)3515').GetName|Y]. Since then, our people have eked out a living on the western coast of [GetProvince('(int32)3515').GetArea.GetName|Y]. we have managed to survive for this long, but the future of our people must be decided. The time has come for us to enact our revenge!"
+ourkinion_missions_CRITERIA_DESCRIPTION:0 "This mission will be completed when #E Ourkinion#! reclaims #Y Alalia#!, and cements herself as a powerful #Y Massalian#! state."
+ourkinion_missions_BUTTON_TOOLTIP:0 "The # Y Ourkinionians#! march forward!."
+
+#Missions
+
+ourkinion_missions_task_1:0 "Preparing For War"
+ourkinion_missions_task_1_DESC:0 "We must ready ourselves for conflict."
+ourkinion_missions_task_2:0 "On The Corsians"
+ourkinion_missions_task_2_DESC:0 "The Corsians are the native inhabitants of this land. Our policy of exclusion and xenophobia may need to be re-examined, if we wish to have a solid control over the entire island."
+ourkinion_missions_task_3:0 "Crushing the Tibulatians"
+ourkinion_missions_task_3_DESC:0 "To the south lie the Tibulatians, the controller of the Taphros strait. Our strategic interests lie here, we must push them out."
+ourkinion_missions_task_4:0 "March On Alallia"
+ourkinion_missions_task_4_DESC:0 "Alallia will become ours once again."
+ourkinion_missions_task_5:0 "Control Of The Sea"
+ourkinion_missions_task_5_DESC:0 "If we wish to secure our newly-established position, we must have the naval power to support us."
+ourkinion_missions_task_6:0 "The Matter of Ourkinion"
+ourkinion_missions_task_6_DESC:0 "Ourkinion has been a suitable city. Now that our capital is once again Allalia, we must decide what to do with it."
+ourkinion_missions_task_7:0 "The Old Gods"
+ourkinion_missions_task_7_DESC:0 "Deep within the mountains of Corsica, beings far older than any Greek stir."
+ourkinion_missions_task_8:0 "Corsian Knowledge"
+ourkinion_missions_task_8_DESC:0 "These rugged people have an intrinsic knowledge of Corsica. We would be wise to learn from them."
+ourkinion_missions_task_9:0 "A Patron Deity"
+ourkinion_missions_task_9_DESC:0 "The priests in Allalia have suggested that we choose a new patron deity, perhaps one that better reflects our recent accomplishments."
+ourkinion_missions_task_10:0 "Island Fortress"
+ourkinion_missions_task_10_DESC:0 "Whether by land or by sea, our island shall become impenetrable."
+ourkinion_missions_task_11:0 "Italian Interests"
+ourkinion_missions_task_11_DESC:0 "Our closest trade interests lie with the cities of Etruria, and the Faliscan and Latin cities. We must expand these ties."
+ourkinion_missions_task_12:0 "Alallia, Everlasting"
+ourkinion_missions_task_12_DESC:0 "Allalia has become one of the great cities of the world. Against all odds, we have reclaimed our heritage, and forged a new path."
+ourkinion_missions_task_13:0 "Embellishing Alallia"
+ourkinion_missions_task_13_DESC:0 "Praise be to Ares, Alallia has come under our control. Now, it must be expanded, and become the shining gemstone of our people."
+ourkinion_missions_task_14:0 "Expanding Agriculture"
+ourkinion_missions_task_14_DESC:0 "We must learn to be self sufficient- why should we rely on grain from foreign powers?"
+ourkinion_missions_task_15:0 "Southern Investments"
+ourkinion_missions_task_15_DESC:0 "The port of Phikaria is well-located. We should seek to establish a proper settlement there, to further our commerce."
+
+
+#Tooltips
+
+ourkinion_formed_kyrnos:0 "We must have taken the decision to form #Y Kyrnos#!."
+
+me_ourkinion_8_tt:0 "The mission task '#Y $ourkinion_missions_task_8$#!' has now been #G Completed#!!"
+
+me_ourkinion_9_tt:0 "The mission task '#Y $ourkinion_missions_task_9$#!' has now been #G Completed#!!"
+ourkinion_task_9_a_tooltip:0 "We must have a navy of at least 25 light or medium ships, and a commander with at least 8 martial."
+
+me_ourkinion_10_tt:0 "The mission task '#Y $ourkinion_missions_task_10$#!' has now been #G Completed#!!"
+ourkinion_unlocks_italic_trads_tt:0 "We will unlock the #G Italic military traditions#!."
+
+ourkinion_assimilation:0 "Depending on our choices, we will either #G grow closer#! with the #Y Corsian#! populous, or #R anger#! them."
+
+ourkinion_aleria_war:0 "Completing this mission will cause us to #R declare war on Aleria#!."
+
+ourkinion_corsica_settlement:0 "We will petition the western #Y Greek#! states for settlers."
+
+ourkinion_farm_tt:0 "The province of #Y Corsica#! must have at least three farming settlements built."
+
+ourkinion_fleet:0 "We must have a navy of at least 20 cohorts."
+
+ourkinion_colony:0 "We will look to purchase a colony from our neighbors."
+
+ourkinion_fort_tt:0 "The city of #Y Allalia#! must have at least 2 forts."
+
+corsian_gods:0 "The #Y Nuragic#! gods may retaliate against us..."
+
+ourkinion_final_tt:0 "We will be able to choose between several permanent #G bonuses#!."
+
+
+#Modifiers
+
+ourkinion_prepared:0 "Ourkinion Prepared"
+corsian_tactics:0 "Corsian Tactics"
+ourkinionian_venegance:0 "Ourkinionian Venegance"
+retained_hellenic_ways:0 "Retained Hellenic Ways"
+accepted_corsians:0 "Accepted Corsians"
+lessons_from_our_past:0 "Lessons From Our Past"
+embellished_alalia:0 "Embellished Alalia"
+ourkinion_farming:0 "Corsican Agriculture"
+ourkinion_training:0 "Kyrnossan Military Center"
+ourkinion_deconstructed:0 "Ourkinion Deconstructed"
+ourkinion_fortress:0 "Island Fortress"
+corsian_dissent:0 "Corsian Dissent"
+massalian_dissent:0 "Massalian Dissent"
+phikaria_obsidian:0 "Obsidian of Phikaria"
+alalia_trade_center:0 "Great Marketplace of Alallia"
+corsica_eternal:0 "Kyrnos Eternal"
+alalia_walls:0 "Walls of Allalia"
+apollo_delphinios_patronized:0 "Apollo Delphinios Patronized"
+asklepios_merre_patronized:0 "Asklepios-Merre Patronized"
+herakles_patronized:0 "Herakles Patronized"
+hephaistos_patronized:0 "Hephaistos Patronized"
+
+
+#Events
+
+me_ourkinion_1_desc:0 "The military programs encouraged by [ROOT.GetCountry.GetRuler.GetName|E], despite opposition from several prominent politicans, have been mostly successful. What once seemed to be an impossibility, has been brought back to the center of Ourkinionian politics-the recapture of [GetProvince('(int32)3515').GetName]."
+me_ourkinion_1.a:0 "We will be prepared for the coming struggle"
+
+me_ourkinion_2_desc:0 "Outisde the hills of [GetProvince('(int32)3510').GetName], the Ourkinion hoplites prepare themselves for battle. Soon, they will march to [GetProvince('(int32)3515').GetName], and finally reclaim it.\n\n[ROOT.GetCountry.GetRuler.GetName|E], looks out over his army, himself donning his armor for battle. He mounts his horse, and rides to the front of his soldiers.\n\n'Soldiers! Long have we toiled in this city of hill men, in a strange land, foreign to us #Y Greeks#!. Many of our people have departed to more hospitable cities. But we, the sons of [GetProvince('(int32)3515').GetName], have stayed. For more than a generation our people have survived, clinging to the hope that we may one day return. That day will soon come.' [ROOT.GetCountry.GetRuler.GetName|E], bringing his voice to a shout, exclaimed 'VICTORY IS AT HAND-PRAISE BE TO THE OURKINIONIANS, ONWARD WE MARCH!' The assembled hoplites let out a great cry; a cry of hope."
+me_ourkinion_2.a:0 "May Ares guide my spear, and may Nike grant us victory."
+
+me_ourkinion_3_desc:0 "Under the cover of night, our navy and a small force of soldiers moved to secure the strait. They faced little resistance, quickly capturing the port of [GetProvince('(int32)3508').GetName]. By daybreak, the Tibulatians were surprised to discover that their holdings across the strait are now occupied by a foreign force. Not like there is much they can do about it..."
+me_ourkinion_3.a:0 "This acquisition will prove vital."
+ourkinion_missions_task_3_tt_a:0 "We must have a navy of at least 5 cohorts in the #Y Mare Sardoum#!."
+
+me_ourkinion_4_desc:0 "[GetProvince('(int32)3515').GetName] has proved much more hospitable and welcoming than our old capital of [GetProvince('(int32)3510').GetName]. Many in our senate argue that [GetProvince('(int32)3510').GetName] should be scrapped, and that we can use the building materials to reinvest in our new capital, while the population is relocated to [GetProvince('(int32)3515').GetName]. At a great cost, we could build up [GetProvince('(int32)3510').GetName]. It would serve well as a military site, as it it easily defensible, and would further our control of the eastern side of the island."
+me_ourkinion_4.a:0 "Allalia is our home."
+me_ourkinion_4.b:0 "It would be foolish to demolish our second home."
+
+me_ourkinion_5_desc:0 "Once before, our navy failed us. With these foundations laid, never again will our ships be the end of us. From now on, no other power will be able to challenge our naval might."
+me_ourkinion_5.a:0 "We shall rule the waves."
+
+me_ourkinion_6_desc:0 "A debate has been raging in the halls of the senate. The matter? The native inhabitants of #Y Corsia#!.\n\n A senator named #E Nikomaches#! got up before the senate, and exclaimed "Countrymen, how long have we stayed separate from the barbarians that surround us? Why should we abandon our traditional ways. It is no fluke that we have survived thus far.' #E Euripedes#! got up from his seat and responded 'No longer can we adhere to the archaic traditions of the past! We must change as a people if we wish to make our place in the world.'\n\nIntegrating the #E Corsians#! will surely displease many of our [GetCulture('massalian').GetName] citizens, but we will make great headways with the #E Corsians#!."
+me_ourkinion_6.a:0 "We are too stuck in our ways, we will never change."
+me_ourkinion_6.b:0 "It seems change is inevitable."
+
+me_ourkinion_7_desc:0 "With the personal direction of [ROOT.GetCountry.GetRuler.GetName|E], our soldiers have begun to learn from [GetCulture('corsian').GetName] warriors. Some of them begrugdingly listened, while others complained outright of being told what to do by a non-Greek. After a few weeks of training, our army has obtained a much better knowledge of the rough Corsican terrain, and the best ways to not only travel in it, but to fight in it. Truly, we will be undefeatable on our own land."
+me_ourkinion_7.a:0 "It seems there are advantages to being a barbarian."
+
+me_ourkinion_8_desc:0 "Over a year of feverish investment has come to fruition in [GetProvince('(int32)3515').GetName]. All over the city, each district has had significant improvements. The city stands more glorious than anyone can remember, a testament to the ingenuity of [ROOT.GetCountry.GetName].\n\nOn the day when the construction came to an end, a great parade was held, dedicated to Apollo Delphinos. Citizens swarmed the streets, and sang the praises and victories of [ROOT.GetCountry.GetRuler.GetName|E]. Never before have we known such joy and revelry, this is a turning point for our people."
+me_ourkinion_8.a:0 "Alalia will be an example to Greeks, Italics, and Nuragics alike."
+
+me_ourkinion_9_desc:0 "An old, wizened man appears before the senate, during the midst of a debate. [ROOT.GetCountry.GetRuler.GetName|E], curious as to what he has to say, lets him speak. 'Sardo, the god of my fathers, will punish you wicked Greeks for your actions against our people. Invaders of our land, desecrators of our people. Shame be upon you and your descendants for a thousand years!' Upon hearing this, the entire senate erupted into laughter, and the old man was escorted out.\n\n[ROOT.GetCountry.GetRuler.GetName|E] however, did not take this omen so lightly. After he left the senate, he saw a lone black crow nested upon an olive tree, a sign of death. Is the old man to be believed, or was he some superstitious old man?"
+me_ourkinion_9.a:0 "Well I certainly believe him. Let's worship their deities, just in case."
+me_ourkinion_9.b:0 "Why should we believe the babblings of an old fool."
+me_ourkinion_9.c:0 "Our people can co-exist; we will make a sacrifice to the Nuragic gods."
+
+me_ourkinion_10_desc:0 "#E Kyrnos#! is now properly fortified. Our enemies would be hard pressed to crack our line of defenses. The walls of [GetProvince('(int32)3515').GetName] have been significantly improved, with walls being built around the several smaller settlements around the city, the farmlands, and importantly, a wall protecting our port, built in a similar manner to the walls of Piraeus."
+me_ourkinion_10.a:0 "Our island is now impenetrable."
+
+me_ourkinion_11_desc:0 "The enlargement of our already magnificent central market has made [GetProvince('(int32)3515').GetName] into a very desirable place to do buisiness. Our cental market stands larger than any [GetCulture('etruscan').GetCultureGroup.GetName|E] one, something that [ROOT.GetCountry.GetCoRuler.GetName|E] made sure to personally inspect when on a visit to [GetProvince('(int32)17').GetName]. While there, [ROOT.GetCountry.GetCoRuler.GetName|E] came up with an ignenious new policy; to lower tariffs. Naturally, the motion passed in the senate, and merchants are flocking to [GetProvince('(int32)3515').GetName] like we have never seen before. Additionally, it seems our recent investments into the city have made it somewhat of a tourist attraction. An unexpected surprise, but welcome nonethless."
+me_ourkinion_11.a:0 "The money will roll right in."
+
+me_ourkinion_12.a:0 "Corsica will forever be our home."
+
+me_ourkinion_13_desc:0 "The importance of our religious cults have grown significantly, to the point where we can no longer ignore their demands. The time has come to choose a patron for [GetProvince('(int32)3515').GetName]. There are several prominent cults in the city already- which best represents our nation?"
+me_ourkinion_13.a:0 "Apollo Delphinios, the protecter of our sailors."
+me_ourkinion_13.b:0 "The ever-popular Herakles."
+me_ourkinion_13.c:0 "Hephaistos, the god of smiths."
+me_ourkinion_13.d:0 "Asklepios-Merre, the healer of our people."
+
+me_ourkinion_14_desc:0 "The hills outside of [GetProvince('(int32)3515').GetName], despite their rugged nature, have proved suitable for small farms. The fisheries on the coast have also seen an increase in production. Although we will not become a breadbasket like #Y Sicily#!, our people will be fed."
+me_ourkinion_14.a:0 "Excellent."
+
+me_ourkinion_15_desc:0 "After many days of deliberation, our advisors have decided on two options. The first one, to invest heavily in the infrastructure of [GetProvince('(int32)3508').GetName], and establish it as a colony city. The second option would be to exploit the natural resourced there. Obsidian is rather rare, and many merchants abroad would be clamoring to get their hands on it. "
+me_ourkinion_15.a:0 "Phikaria will become our southern stronghold."
+me_ourkinion_15.b:0 "The Obsidian trade will prove bountiful."
+
+me_ourkinion_12_d_desc:0 "The glories of our nation and city have spread far and wide. Only the most backward and ignorant of peoples do not know the tales of our banishment to [GetProvince('(int32)3510').GetName], and our glorious battle for [GetProvince('(int32)3515').GetName]. Everything we have needed to prosper has been found on #E Corsica#!; we have no need fo reliance on foreign powers. No power will ever be able to contest us on our home territory, our many great fortresses and our superior navy will defend against any foe, not to mention our battle-hardened soldiers. Truly, we are a blessed people.\n\n[ROOT.GetCountry.GetRuler.GetName|E] contemplates all these victories and accomplishments, especially about the great city of [GetProvince('(int32)3515').GetName], which shines like a gem amongst rocks. But most of all, [ROOT.GetCountry.GetRuler.GetName|E] ponders the future of [ROOT.GetCountry.GetName]; what is to become of us?"
+
+me_ourkinion_16_title:0 "Woe!"
+me_ourkinion_16_desc:0 "[ROOT.GetCountry.GetRuler.GetName|E] looked out of his window, shocked to see a disturbance in the city. [GetProvince('(int32)3515').GetName] has been struck by an earthquake. Several parts of the city, and although not many people were killed, and the eartquake was rather minor, it still stood as a clear sign to the [ROOT.GetCountry.GetAdjective|E] people- the ancient gods of #E Corsia#! are not to be toyed with."
+me_ourkinion_16.a:0 "Well, it could have been worse."
+
+me_ourkinion_17_title:0 "A Blessing From Sardo"
+me_ourkinion_17_desc:0 "[ROOT.GetCountry.GetRuler.GetName|E] personally supervised the sacrifice to the #E Nuragic#! gods, seeing fit that three young calves were sacrificed in their honor, along with a fit bull. The sky, which had been a dark, gloomy gray, slowly turned a clear, beautiful blue once the sacrifices had been completed. It seems that Sardo has found favor with us, perhaps due to our honorable treatment of the [GetCulture('corsian').GetName] people. At any rate, we should be more careful with our treatment of foreign faiths."
+me_ourkinion_17.a:0 "How lucky."
+
+add_deity_to_pantheon:0 "[TARGET_DEITY.GetReligion.GetName] Deity of [TARGET_DEITY.GetDeityCategory.GetName, TARGET_DEITY.GetName], will be added to our #Y Pantheon#!."
+
+#Events
+me_ourkinion_1_title:0 "$ourkinion_missions_task_1$"
+me_ourkinion_1_tooltip:0 "The mission task '#Y $ourkinion_missions_task_1$#!' has now been #G Completed#!!"
+
+me_ourkinion_2_title:0 "$ourkinion_missions_task_4$"
+me_ourkinion_2_tooltip:0 "The mission task '#Y $ourkinion_missions_task_4$#!' has now been #G Completed#!!"
+
+me_ourkinion_3_title:0 "$ourkinion_missions_task_3$"
+me_ourkinion_3_tooltip:0 "The mission task '#Y $ourkinion_missions_task_3$#!' has now been #G Completed#!!"
+
+me_ourkinion_4_title:0 "$ourkinion_missions_task_6$"
+me_ourkinion_4_tooltip:0 "The mission task '#Y $ourkinion_missions_task_6$#!' has now been #G Completed#!!"
+
+me_ourkinion_5_title:0 "$ourkinion_missions_task_5$"
+me_ourkinion_5_tooltip:0 "The mission task '#Y $ourkinion_missions_task_5$#!' has now been #G Completed#!!"
+
+me_ourkinion_6_title:0 "$ourkinion_missions_task_2$"
+me_ourkinion_6_tooltip:0 "The mission task '#Y $ourkinion_missions_task_2$#!' has now been #G Completed#!!"
+
+me_ourkinion_7_title:0 "$ourkinion_missions_task_8$"
+me_ourkinion_7_tooltip:0 "The mission task '#Y $ourkinion_missions_task_8$#!' has now been #G Completed#!!"
+
+me_ourkinion_8_title:0 "$ourkinion_missions_task_13$"
+me_ourkinion_8_tooltip:0 "The mission task '#Y $ourkinion_missions_task_13$#!' has now been #G Completed#!!"
+
+me_ourkinion_9_title:0 "$ourkinion_missions_task_7$"
+me_ourkinion_9_a_tooltip:0 "The mission task '#Y $ourkinion_missions_task_7$#!' has now been #G Completed#!!\n\nThis option is available because our ruler is either a lunatic, eccentric, or foolish"
+me_ourkinion_9_b_tooltip:0 "The mission task '#Y $ourkinion_missions_task_7$#!' has now been #G Completed#!!\n\nThis option is available because of our choices in #Y $ourkinion_missions_task_2$#!."
+
+me_ourkinion_10_title:0 "$ourkinion_missions_task_10$"
+me_ourkinion_10_tooltip:0 "The mission task '#Y $ourkinion_missions_task_10$#!' has now been #G Completed#!!"
+
+me_ourkinion_11_title:0 "$ourkinion_missions_task_11$"
+me_ourkinion_11_tooltip:0 "The mission task '#Y $ourkinion_missions_task_11$#!' has now been #G Completed#!!"
+
+me_ourkinion_12_title:0 "$ourkinion_missions_task_12$"
+me_ourkinion_12_tooltip:0 "The mission task '#Y $ourkinion_missions_task_12$#!' has now been #G Completed#!!"
+
+me_ourkinion_13_title:0 "$ourkinion_missions_task_9$"
+me_ourkinion_13_a_tooltip:0 "The mission task '#Y $ourkinion_missions_task_9$#!' has now been #G Completed#!!\nThe deity #E Apollo Delphinios#! will be added to our pantheon."
+me_ourkinion_13_b_tooltip:0 "The mission task '#Y $ourkinion_missions_task_9$#!' has now been #G Completed#!!\nThe deity #E Herakles#! will be added to our pantheon."
+me_ourkinion_13_c_tooltip:0 "The mission task '#Y $ourkinion_missions_task_9$#!' has now been #G Completed#!!\nThe deity #E Hephaistos#! will be added to our pantheon."
+me_ourkinion_13_d_tooltip:0 "The mission task '#Y $ourkinion_missions_task_9$#!' has now been #G Completed#!!\nThe deity #E Asklepios-Merre#! will be unlocked."
+
+me_ourkinion_14_title:0 "$ourkinion_missions_task_14$"
+me_ourkinion_14_tooltip:0 "The mission task '#Y $ourkinion_missions_task_14$#!' has now been #G Completed#!!"
+
+me_ourkinion_15_title:0 "$ourkinion_missions_task_15$"
+me_ourkinion_15_tooltip:0 "The mission task '#Y $ourkinion_missions_task_15$#!' has now been #G Completed#!!"

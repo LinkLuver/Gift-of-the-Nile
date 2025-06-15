@@ -31,7 +31,7 @@
 
 277={ #Skyros
 	terrain="hills"
-	culture="macedonian"
+	culture="euboean"
 	religion="roman_pantheon"
 	trade_goods="iron"
 	civilization_value=24
@@ -343,7 +343,6 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="macedonian"
 		amount=2
 	}
 	citizen={
@@ -610,39 +609,68 @@
 	culture="achaean"
 	religion="roman_pantheon"
 	trade_goods="earthware"
-	civilization_value=31
+	civilization_value=39
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="macedonian"
-		amount=1
+		religion="stoicism"
+		amount=2
 	}
 	nobles={
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=1
+		amount=4
 	}
 	citizen={
-		culture="hebrew"
-		religion="judaism"
-		amount=1
-	}
-	freemen={
-		culture="hebrew"
-		religion="judaism"
+		religion="stoicism"
 		amount=2
 	}
 	freemen={
-		amount=3
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+	freemen={
+		culture="argolian"
+		amount=1
+	}
+	freemen={
+		culture="arcadian"
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	freemen={
+		religion="stoicism"
+		amount=1
 	}
 	freemen={
 		culture="macedonian"
-		amount=2
+		amount=1
+	}
+	freemen={
+		culture="epirote"
+		amount=1
+	}
+	freemen={
+		culture="argolian"
+		amount=1
+	}
+	freemen={
+		religion="platonism"
+		culture="athenian"
+		amount=1
+	}
+	freemen={
+		culture="peloponnesian"
+		amount=1
 	}
 	slaves={
-		amount=3
+		amount=7
 	}
+	holy_site=omen_aphrodite_hoplimense
 	port_building=1
 }
 
@@ -694,14 +722,20 @@
 	culture="boeotian"
 	religion="roman_pantheon"
 	trade_goods="base_metals"
-	civilization_value=24
+	civilization_value=33
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	nobles={
 		amount=2
 	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=4
+	}
 	slaves={
-		amount=2
+		amount=4
 	}
 }
 
@@ -757,79 +791,33 @@
 	culture="boeotian"
 	religion="roman_pantheon"
 	trade_goods="earthware"
-	civilization_value=26
+	civilization_value=34
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=1
-	}
-	nobles={
-		culture="macedonian"
-		amount=1
+		amount=4
 	}
 	citizen={
-		amount=1
+		amount=5
 	}
 	citizen={
 		culture="athenian"
 		religion="roman_pantheon"
-		amount=1
-	}
-	citizen={
-		culture="peloponnesian"
-		religion="roman_pantheon"
-		amount=2
-	}
-	citizen={
-		culture="arcadian"
-		religion="roman_pantheon"
 		amount=2
 	}
 	freemen={
-		amount=2
-	}
-	freemen={
-		culture="athenian"
-		religion="roman_pantheon"
-		amount=1
-	}
-	freemen={
-		culture="arcadian"
-		religion="roman_pantheon"
-		amount=1
-	}
-	freemen={
-		culture="peloponnesian"
-		religion="roman_pantheon"
-		amount=1
-	}
-	freemen={
-		culture="italiotian"
-		religion="roman_pantheon"
-		amount=1
-	}
-	freemen={
-		culture="syracusan"
-		religion="roman_pantheon"
-		amount=1
-	}
-	slaves={
-		culture="peloponnesian"
-		religion="roman_pantheon"
-		amount=1
-	}
-	slaves={
-		culture="arcadian"
-		religion="roman_pantheon"
-		amount=1
+		amount=8
 	}
 	slaves={
 		culture="athenian"
-		religion="roman_pantheon"
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=1
+		culture="euboean"
+		amount=2
+	}
+	slaves={
+		amount=5
 	}
 	holy_site=omen_dionysus
 }
@@ -851,7 +839,7 @@
 		amount=2
 	}
 	citizen={
-		amount=6
+		amount=4
 	}
 	freemen={
 		culture="hebrew"
@@ -859,10 +847,10 @@
 		amount=2
 	}
 	freemen={
-		amount=10
+		amount=8
 	}
 	slaves={
-		amount=5
+		amount=4
 	}
 }
 
@@ -908,7 +896,7 @@
 
 431={ #Messene
 	terrain="farmland"
-	culture="peloponnesian"
+	culture="achaean"
 	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=35
@@ -929,9 +917,9 @@
 	port_building=1
 }
 
-432={ #Mothone
+432={ #Ithome
 	terrain="hills"
-	culture="peloponnesian"
+	culture="achaean"
 	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=24
@@ -1018,14 +1006,11 @@
 	culture="arcadian"
 	religion="roman_pantheon"
 	trade_goods="earthware"
-	civilization_value=28
+	civilization_value=22
 	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=2
-	}
+	province_rank="settlement"
 	citizen={
-		amount=5
+		amount=2
 	}
 	freemen={
 		amount=6
@@ -1112,7 +1097,7 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=2
+		amount=3
 	}
 	citizen={
 		culture="hebrew"
@@ -1120,10 +1105,14 @@
 		amount=1
 	}
 	citizen={
-		amount=3
+		amount=4
 	}
 	freemen={
-		amount=6
+		amount=7
+	}
+	freemen={
+		culture="peloponnesian"
+		amount=2
 	}
 	freemen={
 		culture="hebrew"
@@ -1131,7 +1120,7 @@
 		amount=1
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 	holy_site=omen_hera
 	port_building=1
@@ -1145,8 +1134,23 @@
 	civilization_value=54
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
 		amount=2
+	}
+	citizen={
+		culture="achaean"
+		amount=1
+	}
+	citizen={
+		culture="athenian"
+		amount=1
+	}
+	citizen={
+		culture="macedonian"
+		amount=1
 	}
 	freemen={
 		amount=2
@@ -1162,18 +1166,31 @@
 	terrain="plains"
 	culture="argolian"
 	religion="roman_pantheon"
-	trade_goods="olive"
-	civilization_value=26
+	trade_goods="base_metals"
+	civilization_value=22
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
-		amount=2
+		amount=3
+	}
+	citizen={
+		culture="neithic_egyptian"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+	citizen={
+		culture="tenuwan_egyptian"
+		religion="egyptian_pantheon"
+		amount=1
 	}
 	freemen={
-		amount=5
+		amount=4
 	}
 	slaves={
-		amount=2
+		amount=3
 	}
 	port_building=1
 }
@@ -1657,7 +1674,7 @@
 
 470={ #Korkyra
 	terrain="plains"
-	culture="epirote"
+	culture="italiotian"
 	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=26
@@ -1683,18 +1700,46 @@
 	culture="peloponnesian"
 	religion="roman_pantheon"
 	trade_goods="pearls"
-	civilization_value=24
+	civilization_value=27
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
 		amount=2
+	}
+	citizen={
+		culture="hyksos"
+		religion="carthaginian_pantheon"
+		amount=2
+	}
+	citizen={
+		culture="neithic_egyptian"
+		religion="aten_religion"
+		amount=1
+	}
+	citizen={
+		culture="danetic_egyptian"
+		religion="egyptian_pantheon"
+		amount=1
 	}
 	freemen={
 		amount=3
 	}
+	freemen={
+		culture="aegyptos"
+		amount=1
+	}
+	freemen={
+		culture="tenuwan_egyptian"
+		religion="aten_religion"
+		amount=2
+	}
 	slaves={
 		amount=2
 	}
+	port_building=1
 }
 
 472={ #Karthaia
@@ -1923,17 +1968,20 @@
 	culture="boeotian"
 	religion="roman_pantheon"
 	trade_goods="cattle"
-	civilization_value=24
+	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
+	nobles={
+		amount=1
+	}
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=3
 	}
 }
 

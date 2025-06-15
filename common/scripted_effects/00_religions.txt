@@ -23,8 +23,14 @@ change_religion_effect = {
 			value = -10
 		}
 	}
-	add_political_influence = -100
-	add_stability = -10
+	if = {
+		limit = {
+			# Set this variable in events so costs can be handled outside of this effect
+			NOT = { has_variable = free_religion_conversion }
+		}
+		add_political_influence = -200
+		add_stability = -30
+	}
 	add_country_modifier = {
 		name = "recent_convert_modifier"
 		duration = 3650

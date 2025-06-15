@@ -101,9 +101,21 @@ ra_maryannu = {
 	picture = "gfx/interface/event_window/gotn_maryannu_chariot.dds"
 }
 
+latin_philosophy_start_bonus_event = {
+	theme = Uncategorized
+	picture = "gfx/interface/event_window/military_traditions/latin_philosophy_start_bonus.dds"
+}
+
 # Rocío Espín Piñar
 
 rep_hattusa = {
 	theme = Wonder
 	picture = "gfx/interface/event_window/rep_hatussa.dds"
+}
+
+# From City Backgrounds
+
+gotn_korinth_acropolis = {
+	theme = Civic
+	picture = "gfx\interface/event_window/gotn_korinth_acropolis.dds"
 }

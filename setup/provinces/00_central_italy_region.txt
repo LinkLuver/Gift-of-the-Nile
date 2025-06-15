@@ -6,20 +6,12 @@
 	civilization_value=44
 	barbarian_power=0
 	province_rank="city"
-	citizen={
-		culture="hebrew"
-		religion="judaism"
-		amount=4
-	}
 	nobles={
-		amount=4
-	}
-	nobles={
-		religion="roman_pantheon"
+		culture="faliscan"
 		amount=1
 	}
 	citizen={
-		amount=13
+		amount=7
 	}
 	citizen={
 		culture="etruscan"
@@ -31,18 +23,19 @@
 		amount=4
 	}
 	freemen={
-		amount=14
+		amount=7
 	}
 	freemen={
+		culture="faliscan"
 		religion="roman_pantheon"
-		amount=8
+		amount=4
 	}
 	slaves={
-		amount=4
+		amount=2
 	}
 	tribesmen={
 		religion="roman_pantheon"
-		amount=4
+		amount=2
 	}
 	holy_site=omen_jupiter
 }
@@ -244,8 +237,8 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="hebrew"
-		religion="judaism"
+		culture="faliscan"
+		religion="italic_pantheon"
 		amount=2
 	}
 	citizen={
@@ -262,11 +255,13 @@
 		amount=1
 	}
 	citizen={
+		culture="faliscan"
 		religion="roman_pantheon"
 		amount=2
 	}
 	citizen={
-		religion="roman_pantheon"
+		culture="faliscan"
+		religion="italic_pantheon"
 		amount=3
 	}
 	freemen={
@@ -282,7 +277,7 @@
 		amount=3
 	}
 	slaves={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		religion="roman_pantheon"
@@ -293,13 +288,14 @@
 
 16={ #Veii
 	terrain="farmland"
-	culture="roman"
+	culture="etruscan"
 	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=35
 	barbarian_power=0
 	province_rank="city"
 	nobles={
+		culture="faliscan"
 		amount=1
 	}
 	nobles={
@@ -307,18 +303,18 @@
 		amount=1
 	}
 	nobles={
-		culture="etruscan"
+		culture="faliscan"
 		amount=1
 	}
 	citizen={
 		amount=9
 	}
 	citizen={
-		culture="etruscan"
+		culture="faliscan"
 		amount=3
 	}
 	citizen={
-		culture="etruscan"
+		culture="faliscan"
 		religion="italic_pantheon"
 		amount=2
 	}
@@ -330,7 +326,7 @@
 		amount=4
 	}
 	freemen={
-		culture="etruscan"
+		culture="faliscan"
 		amount=3
 	}
 	freemen={
@@ -361,10 +357,10 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=3
+		amount=6
 	}
 	citizen={
-		amount=4
+		amount=11
 	}
 	citizen={
 		culture="roman"
@@ -373,11 +369,19 @@
 	}
 	citizen={
 		culture="roman"
-		religion="italic_pantheon"
+		amount=1
+	}
+	citizen={
+		culture="faliscan"
+		amount=2
+	}
+	freemen={
+		culture="italiotian"
+		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
-		amount=6
+		amount=12
 	}
 	freemen={
 		culture="roman"
@@ -385,7 +389,7 @@
 		amount=2
 	}
 	slaves={
-		amount=3
+		amount=8
 	}
 	slaves={
 		religion="roman_pantheon"
@@ -400,33 +404,36 @@
 
 18={ #Nepete
 	terrain="hills"
-	culture="etruscan"
+	culture="faliscan"
 	religion="italic_pantheon"
 	trade_goods="earthware"
 	civilization_value=24
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
+	province_rank="city"
+	nobles={
+		amount=3
 	}
 	citizen={
-		culture="roman"
-		amount=1
+		amount=7
+	}
+	citizen={
+		culture="etruscan"
+		amount=8
 	}
 	citizen={
 		culture="roman"
 		religion="roman_pantheon"
-		amount=2
+		amount=7
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=4
+		amount=5
 	}
 	slaves={
 		religion="roman_pantheon"
-		amount=2
+		amount=11
 	}
 	tribesmen={
 		amount=5
@@ -465,7 +472,7 @@
 
 20={ #Cures
 	terrain="hills"
-	culture="roman"
+	culture="faliscan"
 	religion="italic_pantheon"
 	trade_goods="iron"
 	civilization_value=24
@@ -499,10 +506,10 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=5
+		amount=3
 	}
 	citizen={
-		amount=14
+		amount=4
 	}
 	citizen={
 		culture="roman"
@@ -519,17 +526,21 @@
 		amount=2
 	}
 	freemen={
-		amount=11
+		amount=6
+	}
+	freemen={
+		culture="faliscan"
+		amount=2
 	}
 	freemen={
 		religion="roman_pantheon"
 		amount=2
 	}
 	slaves={
-		amount=13
+		amount=7
 	}
 	tribesmen={
-		amount=5
+		amount=4
 	}
 	holy_site=omen_voltumna
 }
@@ -592,11 +603,12 @@
 	terrain="hills"
 	culture="samnite"
 	religion="italic_pantheon"
-	trade_goods="fur"
+	trade_goods="feathers"
 	civilization_value=9
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="faliscan"
 		amount=3
 	}
 	freemen={
@@ -1337,6 +1349,7 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
+		culture="etruscan"
 		amount=2
 	}
 	citizen={
@@ -1770,20 +1783,32 @@
 	culture="umbrian"
 	religion="italic_pantheon"
 	trade_goods="salt"
-	civilization_value=16
+	civilization_value=23
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		culture="etruscan"
+		amount=1
+	}
+	citizen={
+		culture="etruscan"
+		amount=2
+	}
 	citizen={
 		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
+	}
+	freemen={
+		culture="etruscan"
+		amount=2
 	}
 	slaves={
 		amount=4
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 	tribesmen={
 		culture="haedui"
@@ -1964,6 +1989,7 @@
 		amount=5
 	}
 	holy_site=omen_norax
+	port_building=1
 }
 
 3484={ #Karali
@@ -2006,6 +2032,7 @@
 		religion="nuragic_pantheon"
 		amount=3
 	}
+	port_building=1
 }
 
 3485={ #Sardopatoris
@@ -2586,45 +2613,62 @@
 
 3510={ #Ourkinion
 	terrain="hills"
-	culture="corsian"
-	religion="nuragic_pantheon"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="wood"
-	civilization_value=0
+	civilization_value=23
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
-		religion="druidism"
-		amount=2
+		amount=1
 	}
 	freemen={
+		amount=1
+	}
+	freemen={
+		culture="corsian"
+		religion="nuragic_pantheon"
 		amount=2
 	}
 	slaves={
-		religion="druidism"
-		amount=1
-	}
-	tribesmen={
+		culture="corsian"
+		religion="nuragic_pantheon"
 		amount=2
 	}
+	tribesmen={
+		culture="corsian"
+		religion="nuragic_pantheon"
+		amount=3
+	}
+	port_building=1
 }
 
 3511={ #Alouka
 	terrain="hills"
-	culture="corsian"
-	religion="nuragic_pantheon"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="fish"
-	civilization_value=0
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		religion="druidism"
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
+		culture="corsian"
+		religion="nuragic_pantheon"
 		amount=1
+	}
+	tribesmen={
+		culture="corsian"
+		religion="nuragic_pantheon"
+		amount=2
 	}
 	port_building=1
 }
@@ -2634,12 +2678,13 @@
 	culture="corsian"
 	religion="nuragic_pantheon"
 	trade_goods="fish"
-	civilization_value=0
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		religion="druidism"
-		amount=3
+		culture="massalian"
+		religion="roman_pantheon"
+		amount=2
 	}
 	freemen={
 		amount=1
@@ -2648,7 +2693,7 @@
 		amount=1
 	}
 	tribesmen={
-		amount=2
+		amount=3
 	}
 }
 
@@ -2700,8 +2745,8 @@
 
 3515={ #Alalia
 	terrain="farmland"
-	culture="massalian"
-	religion="roman_pantheon"
+	culture="etruscan"
+	religion="italic_pantheon"
 	trade_goods="honey"
 	civilization_value=39
 	barbarian_power=0
@@ -2726,7 +2771,8 @@
 		amount=6
 	}
 	freemen={
-		culture="etruscan"
+		culture="massalian"
+		religion="roman_pantheon"
 		amount=2
 	}
 	slaves={

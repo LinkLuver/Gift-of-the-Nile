@@ -65,6 +65,7 @@
 			trigger_event = gotn_formable_event.3
 			hidden_effect = {
 				change_country_adjective = "URARTU_ADJECTIVE"
+				change_country_flag = "URARTU_FLAG"
 				change_country_color = light_yellow
 				change_country_tag = UTI
 				every_province = {

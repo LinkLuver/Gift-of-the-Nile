@@ -1,0 +1,75 @@
+﻿country_decisions = {
+	
+	# Form Troas
+	form_troas = {
+		
+		potential = {
+			num_of_cities >= 1
+			primary_culture = troan
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+				has_variable = has_formed_troas
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 257
+					province_id = 256
+					province_id = 255
+					province_id = 281
+					province_id = 261
+					province_id = 258
+					province_id = 259
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = "formable_not_troas_exists"
+				NOT = {
+					any_country = {
+						tag = "TRY"
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns = 257
+			owns_or_subject_owns = 256
+			owns_or_subject_owns = 255
+			owns_or_subject_owns = 281
+			owns_or_subject_owns = 261
+			owns_or_subject_owns = 258
+			owns_or_subject_owns = 259
+		}
+		
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			change_country_name = "TROAS_NAME"
+			set_variable = has_formed_troas
+			hidden_effect = {
+				change_country_adjective = "TROAS_ADJECTIVE"
+				change_country_color = "spartan_ocra"
+				change_country_tag = "TRY"
+			}
+			capital_scope = {
+				capital_formable_small_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+			add_country_modifier = {
+				name = troas_mod
+				duration = -1
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+}

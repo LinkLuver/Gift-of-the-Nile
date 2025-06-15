@@ -1,4 +1,4 @@
-﻿## India tier 1?
+## India tier 1?
 ##Left all of the vanilla formable triggers - remember molon labe formables
 
 is_tier_1_formable_trigger = {
@@ -39,6 +39,22 @@ is_tier_1_formable_trigger = {
 		tag = VIN #Vindelicia
 		tag = ZG2 #Lullubi Kingdom
 	 	tag = TET #Tetrapolitania
+		tag = TRY #Troas
+		tag = GIL #Illyrian League
+		tag = KYR #Kyrnos
+		tag = CIM #Cimmeria 
+		tag = MYS #Mysia
+		tag = MIA #Kingdom of Mannai
+		tag = TK2 #Turukkean Kingdom
+		tag = RLM #Roman Kingdom
+		tag = SL1 #Salluvian Confederacy
+		tag = BTT #Bastetania
+		tag = KYG #Magna Kymaia
+		tag = NIN #Ninive
+		tag = SKD #Sardin
+		tag = KHM #Hurria
+		tag = NHT #Neo Hittite Kingdom
+		tag = PN1 #Pannonia
 	 }
 }
 
@@ -91,12 +107,22 @@ is_tier_2_formable_trigger = {
 		tag = SHK #Shikala
 		tag = ATL #Atlas
 		tag = ZG1 #Kassite Kingdom
-		tag = NIN #Ninive
 		tag = LOP #League of The Pillars
 		tag = SUB #Subartu
 		tag = UTI #Urartu
 		tag = GPA #Greater Paeonia
-		tag = NHT #Neo Hittite Kingdom
+		tag = LIB #Libya
+		tag = ISH #Kingdom of Isma'il
+		tag = KHD #Kena'an Hadasht
+		tag = ETA #Etruria
+		tag = ET2 #Etruria Padana
+		tag = KYL #Kios Lydia
+		tag = AGT #Agartia
+		tag = SIL #Illyria-Slavia
+		tag = TCR #Calque Trinacria
+		tag = MGH #Magania
+		tag = HLT #Haltami
+		tag = AEG #Aegea
 	}
 }
 
@@ -133,6 +159,8 @@ is_endgame_tag_trigger = {
 		tag = APF #Alpine Confederation
 		tag = UBF #Umbrian Federation
 		tag = HB2 #Spania
+		tag = CTK #Keltike
+		tag = ITK #Italiote Kingdom
 	}
 }
 

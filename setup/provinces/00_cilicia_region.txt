@@ -10,7 +10,7 @@
 		amount=3
 	}
 	citizen={
-		culture="pasargadi"
+		culture="milyadian"
 		religion="hurrian_pantheon"
 		amount=1
 	}
@@ -620,7 +620,7 @@
 		amount=2
 	}
 	freemen={
-		culture="macedonian"
+		culture="syrion"
 		amount=1
 	}
 	freemen={
@@ -662,7 +662,7 @@
 		amount=2
 	}
 	freemen={
-		culture="macedonian"
+		culture="ionian"
 		amount=1
 	}
 	slaves={
@@ -696,7 +696,7 @@
 	}
 }
 
-1872={ #Cilician Gates
+1872={ #Azzattiwadaya
 	terrain="mountain"
 	culture="kennataian"
 	religion="hurrian_pantheon"
@@ -719,9 +719,10 @@
 		amount=1
 	}
 	tribesmen={
-		culture="lalasian"
+		culture="cilician"
 		amount=1
 	}
+	holy_site=omen_tiwad
 }
 
 1873={ #Erana
@@ -793,6 +794,11 @@
 	}
 	citizen={
 		culture="ionian"
+		amount=1
+	}
+	citizen={
+		culture="syrion"
+		religion="carthaginian_pantheon"
 		amount=1
 	}
 	freemen={
@@ -935,7 +941,12 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=2
+		amount=1
+	}
+	citizen={
+		culture="syrion"
+		religion="carthaginian_pantheon"
+		amount=1
 	}
 	freemen={
 		amount=4
@@ -953,6 +964,7 @@
 		amount=2
 	}
 	port_building=1
+	holy_site=omen_mopsos
 }
 
 1881={ #Mallos
@@ -964,8 +976,6 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="macedonian"
-		religion="hurrian_pantheon"
 		amount=1
 	}
 	citizen={
@@ -976,7 +986,7 @@
 		amount=2
 	}
 	citizen={
-		culture="pasargadi"
+		culture="kennataian"
 		religion="hurrian_pantheon"
 		amount=2
 	}
@@ -998,8 +1008,8 @@
 		amount=1
 	}
 	freemen={
-		culture="pasargadi"
-		religion="hurrian_pantheon"
+		culture="syrion"
+		religion="carthaginian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -1027,19 +1037,24 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="macedonian"
+		culture="ionian"
 		religion="hurrian_pantheon"
 		amount=1
 	}
 	citizen={
-		amount=2
+		culture="syrion"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	citizen={ 
+		amount=1
 	}
 	citizen={
 		culture="ionian"
 		amount=1
 	}
 	citizen={
-		culture="pasargadi"
+		culture="kennataian"
 		religion="hurrian_pantheon"
 		amount=1
 	}
@@ -1094,7 +1109,7 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
+		culture="hittite"
 		religion="hurrian_pantheon"
 		amount=1
 	}
@@ -1106,7 +1121,7 @@
 		amount=1
 	}
 	citizen={
-		culture="pasargadi"
+		culture="hittite"
 		religion="hurrian_pantheon"
 		amount=1
 	}
@@ -1129,7 +1144,6 @@
 		amount=1
 	}
 	tribesmen={
-		culture="lalasian"
 		religion="anatolian_religion"
 		amount=1
 	}
@@ -1240,41 +1254,43 @@
 
 1890={ #Holmoi
 	terrain="plains"
-	culture="lalasian"
+	culture="cilician"
 	religion="hurrian_pantheon"
 	trade_goods="cedar"
-	civilization_value=25
+	civilization_value=31
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
-		culture="cilician"
-		religion="hurrian_pantheon"
 		amount=1
 	}
 	citizen={
 		culture="ionian"
-		religion="hurrian_pantheon"
+		amount=1
+	}
+	citizen={
+		culture="ionian"
+		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
 		amount=1
 	}
 	freemen={
-		culture="cilician"
+		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
 		culture="ionian"
-		religion="hurrian_pantheon"
+		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
 		amount=2
 	}
 	slaves={
-		culture="cilician"
 		amount=1
 	}
+	port_building=1
 }
 
 1892={ #Elaioussa
@@ -1304,7 +1320,7 @@
 		amount=2
 	}
 	tribesmen={
-		culture="lalasian"
+		culture="cilician"
 		amount=1
 	}
 	port_building=1
@@ -1323,14 +1339,13 @@
 		amount=1
 	}
 	citizen={
-		culture="lalasian"
+		culture="hittite"
 		amount=1
 	}
 	freemen={
 		amount=1
 	}
 	freemen={
-		culture="lalasian"
 		amount=1
 	}
 	freemen={
@@ -1342,7 +1357,6 @@
 		amount=1
 	}
 	slaves={
-		culture="lalasian"
 		amount=2
 	}
 	tribesmen={
@@ -1352,7 +1366,7 @@
 
 1896={ #Ninika
 	terrain="hills"
-	culture="lalasian"
+	culture="cilician"
 	religion="hurrian_pantheon"
 	trade_goods="honey"
 	civilization_value=23
@@ -1384,33 +1398,48 @@
 
 1897={ #Kelenderis
 	terrain="hills"
-	culture="lalasian"
-	religion="hurrian_pantheon"
-	trade_goods="fish"
-	civilization_value=15
+	culture="aegean"
+	religion="roman_pantheon"
+	trade_goods="cedar"
+	civilization_value=31
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	citizen={
+		religion="hurrian_pantheon"
 		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cilician"
+		religion="hurrian_pantheon"
+		amount=1
 	}
 	freemen={
 		culture="ionian"
 		religion="hurrian_pantheon"
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=1
 	}
 	tribesmen={
+		culture="cilician"
+		religion="hurrian_pantheon"
 		amount=2
 	}
+	port_building=1
 }
 
 1901={ #Anemourion
 	terrain="hills"
-	culture="lalasian"
+	culture="cilician"
 	religion="hurrian_pantheon"
-	trade_goods="cedar"
+	trade_goods="fish"
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
@@ -1427,24 +1456,23 @@
 
 1904={ #Selinous Kilikias
 	terrain="hills"
-	culture="lalasian"
-	religion="hurrian_pantheon"
+	culture="alashiyan"
+	religion="carthaginian_pantheon"
 	trade_goods="cedar"
 	civilization_value=31
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="pamphylian"
-		religion="hurrian_pantheon"
+		religion="carthaginian_pantheon"
 		amount=2
 	}
 	freemen={
 		culture="ionian"
-		religion="hurrian_pantheon"
+		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
-		culture="pamphylian"
+		culture="cilician"
 		religion="hurrian_pantheon"
 		amount=2
 	}
@@ -1452,6 +1480,8 @@
 		amount=1
 	}
 	slaves={
+		culture="cilician"
+		religion="hurrian_pantheon"
 		amount=2
 	}
 	slaves={
@@ -1460,6 +1490,8 @@
 		amount=1
 	}
 	tribesmen={
+		culture="cilician"
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	port_building=1
@@ -1490,7 +1522,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="lalasian"
+		culture="cilician"
 		religion="anatolian_religion"
 		amount=1
 	}
@@ -1511,12 +1543,12 @@
 		amount=2
 	}
 	slaves={
-		culture="lalasian"
+		culture="cilician"
 		religion="anatolian_religion"
 		amount=1
 	}
 	tribesmen={
-		culture="lalasian"
+		culture="cilician"
 		religion="anatolian_religion"
 		amount=1
 	}
@@ -1550,7 +1582,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="lalasian"
+		culture="cilician"
 		amount=1
 	}
 	tribesmen={
@@ -1574,7 +1606,7 @@
 		amount=3
 	}
 	citizen={
-		culture="pasargadi"
+		culture="lycian"
 		religion="hurrian_pantheon"
 		amount=1
 	}
@@ -1653,7 +1685,7 @@
 
 1917={ #Lakaine
 	terrain="mountain"
-	culture="lalasian"
+	culture="cilician"
 	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=11
@@ -2055,8 +2087,6 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
-		religion="hurrian_pantheon"
 		amount=1
 	}
 	citizen={
@@ -2068,7 +2098,7 @@
 		amount=1
 	}
 	citizen={
-		culture="pasargadi"
+		culture="lycian"
 		religion="hurrian_pantheon"
 		amount=1
 	}
@@ -2105,8 +2135,6 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
-		religion="hurrian_pantheon"
 		amount=1
 	}
 	nobles={
@@ -2116,7 +2144,7 @@
 		amount=3
 	}
 	citizen={
-		culture="pasargadi"
+		culture="pamphylian"
 		religion="hurrian_pantheon"
 		amount=1
 	}
@@ -2167,7 +2195,7 @@
 		amount=2
 	}
 	citizen={
-		culture="pasargadi"
+		culture="lydian"
 		religion="hurrian_pantheon"
 		amount=1
 	}
@@ -2180,7 +2208,7 @@
 		amount=1
 	}
 	freemen={
-		culture="pasargadi"
+		culture="pamphylian"
 		religion="hurrian_pantheon"
 		amount=2
 	}
@@ -2552,7 +2580,7 @@
 
 7962={ #Ano Kotradis
 	terrain="hills"
-	culture="lalasian"
+	culture="cilician"
 	religion="hurrian_pantheon"
 	trade_goods="leather"
 	civilization_value=13

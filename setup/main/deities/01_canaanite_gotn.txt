@@ -4,5 +4,25 @@ deity_manager = {
 			key = omen_astarte_bast
 			deity = deity_astarte_bast
 		}
+		30301 = {
+			key = omen_karmin
+			deity = deity_karmin
+		}
+		30302 = {
+			key = omen_hadad_tarhunz
+			deity = deity_hadad_tarhunz
+		}
+		30303 = {
+			key = omen_tiwad
+			deity = deity_tiwad
+		}
+		30304 = {
+			key = omen_baalsemed
+			deity = deity_baalsemed
+		}
+		30305 = {
+			key = omen_mopsos
+			deity = deity_mopsos
+		}
 	}
 }

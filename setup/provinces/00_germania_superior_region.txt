@@ -90,7 +90,7 @@
 	culture="haedui"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=9
+	civilization_value=13
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -109,7 +109,7 @@
 	culture="haedui"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=11
+	civilization_value=13
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -125,7 +125,7 @@
 	culture="haedui"
 	religion="druidism"
 	trade_goods="vegetables"
-	civilization_value=9
+	civilization_value=13
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -143,18 +143,24 @@
 	terrain="hills"
 	culture="haedui"
 	religion="druidism"
-	trade_goods="wood"
-	civilization_value=9
+	trade_goods="cloth"
+	civilization_value=22
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 	tribesmen={
-		amount=5
+		amount=4
 	}
 }
 
@@ -163,7 +169,7 @@
 	culture="haedui"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=9
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -179,7 +185,7 @@
 	culture="helvetian"
 	religion="druidism"
 	trade_goods="woad"
-	civilization_value=9
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -195,7 +201,7 @@
 	culture="haedui"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=9
+	civilization_value=13
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -211,7 +217,7 @@
 	culture="haedui"
 	religion="druidism"
 	trade_goods="wood"
-	civilization_value=9
+	civilization_value=13
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -243,7 +249,7 @@
 	culture="helvetian"
 	religion="druidism"
 	trade_goods="stone"
-	civilization_value=9
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -262,20 +268,23 @@
 	culture="helvetian"
 	religion="druidism"
 	trade_goods="earthware"
-	civilization_value=9
+	civilization_value=22
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
-		amount=2
+		amount=1
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
-		amount=5
+		amount=4
 	}
 }
 
@@ -284,7 +293,7 @@
 	culture="helvetian"
 	religion="druidism"
 	trade_goods="grain"
-	civilization_value=9
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -316,7 +325,7 @@
 	culture="helvetian"
 	religion="druidism"
 	trade_goods="grain"
-	civilization_value=9
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -386,7 +395,7 @@
 	culture="helvetian"
 	religion="druidism"
 	trade_goods="wood"
-	civilization_value=9
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -683,7 +692,7 @@
 	culture="helvetian"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=9
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -699,14 +708,17 @@
 	culture="helvetian"
 	religion="druidism"
 	trade_goods="wood"
-	civilization_value=9
+	civilization_value=20
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
+	citizen={
+		amount=2
+	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=2
@@ -737,7 +749,7 @@
 	culture="helvetian"
 	religion="druidism"
 	trade_goods="vegetables"
-	civilization_value=9
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -753,7 +765,7 @@
 	culture="helvetian"
 	religion="druidism"
 	trade_goods="woad"
-	civilization_value=9
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -785,7 +797,7 @@
 	culture="helvetian"
 	religion="druidism"
 	trade_goods="base_metals"
-	civilization_value=9
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -817,7 +829,7 @@
 	culture="helvetian"
 	religion="druidism"
 	trade_goods="grain"
-	civilization_value=9
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -833,7 +845,7 @@
 	culture="helvetian"
 	religion="druidism"
 	trade_goods="grain"
-	civilization_value=11
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -849,7 +861,7 @@
 	culture="vindelician"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=11
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -862,11 +874,17 @@
 	culture="vindelician"
 	religion="druidism"
 	trade_goods="honey"
-	civilization_value=11
+	civilization_value=22
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
+	province_rank="city"
+	nobles={
 		amount=1
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
 	}
 	slaves={
 		amount=2
@@ -881,7 +899,7 @@
 	culture="vindelician"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=9
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -894,7 +912,7 @@
 	culture="vindelician"
 	religion="druidism"
 	trade_goods="leather"
-	civilization_value=9
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -910,7 +928,7 @@
 	culture="vindelician"
 	religion="druidism"
 	trade_goods="fur"
-	civilization_value=11
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -923,7 +941,7 @@
 	culture="vindelician"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=11
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -942,7 +960,7 @@
 	culture="vindelician"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=9
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -961,10 +979,16 @@
 	culture="vindelician"
 	religion="druidism"
 	trade_goods="woad"
-	civilization_value=11
+	civilization_value=20
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=2
+	}
 	freemen={
+		amount=3
+	}
+	slaves={
 		amount=1
 	}
 	tribesmen={
@@ -977,11 +1001,24 @@
 	culture="helvetian"
 	religion="druidism"
 	trade_goods="fur"
-	civilization_value=0
+	civilization_value=22
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	
+	nobles={
 		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
 	}
 }
 
@@ -990,7 +1027,7 @@
 	culture="helvetian"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=0
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1016,7 +1053,7 @@
 	culture="helvetian"
 	religion="druidism"
 	trade_goods="woad"
-	civilization_value=0
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -1032,7 +1069,7 @@
 	culture="helvetian"
 	religion="druidism"
 	trade_goods="vegetables"
-	civilization_value=0
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1048,7 +1085,7 @@
 	culture="ubian"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=0
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={

@@ -59,7 +59,26 @@
 		}
 		dna="AO4M9/+99LAANc3tAgACfQJ0AnYClgKWAoUChQJqAmoCjwKPAoYChgOgA6ADrAOsAm0CbQKDAoMCvQKJAm8CbwFiAWICmAKOAn4CfgKUApQCeQJ5AnMCcwJ6AnoCiQKJAncCdwKFAoUCfAJ8ACsAKwKbAlgCegJ6An8CfwJnAmcCawJrAoECgQJ5AnkCWQJZAoQChAFSAVIEwQTBApUClQJuAm4CcgJyAnYCdgJ/An8CmAKYApMCkwOqA6oChgKGAGUAZQKNAo0CbAJsAocChwKLAosCggKCA5gDmAKJAokClwJ0AqMCcwLfAt8AvQC9APAA8ACUAJQAoQChAA0ADQA7ADsA/QD9ABcAFwDiAOIAxwDHAH8AfwAAAAAAOwA7AAkACQDsAOwBKgEqAtAC0ACyALIBYwFjAKwArAAAAAAAwQDBACMAIwEwATAAUQBRAP0A/QMiAyIApQClAAsACwBzAHMAVwBXAOUA5QDAAMAIfAh8AAAAAAbSBtINdAy4ATcBNwj/CGQJ/wm0Bs8GGgAAAAAAAAAAAAAAAA=="
 	}
-	#Char id 458 is in the Ruhunu file.
+	458={
+		first_name="Malayketu"
+		family = c:ANU.fam:Ruhunu
+		birth_date=410.11.17
+		father = char:455
+		mother = char:454
+		culture="lankan"
+		religion="hindu"
+		no_stats=yes
+		add_martial=4
+		add_charisma=8
+		add_finesse=4
+		add_zeal=6
+		no_traits=yes
+		add_trait="crafty"
+		add_trait="ambitious"
+		add_trait ="blood_of_vijaya"
+		add_gold=250
+		add_popularity=100
+	}
 	459={
 		first_name="Uttiya"
 		family = c:ANU.fam:Vijaya

@@ -1923,6 +1923,30 @@ traditionalist_party_influence = {
     positive = "gfx/interface/icons/modifiers/traditionalist_party_approval.dds"
 }
 
+#Gotn Parties
+
+price_molossian_party_action_cost_modifier = {
+	positive = "gfx/interface/icons/modifiers/molossian_party.dds"
+}
+price_thesprotian_party_action_cost_modifier = {
+	positive = "gfx/interface/icons/modifiers/holy_site_any.dds"
+}
+price_chaonian_party_action_cost_modifier = {
+	positive = "gfx/interface/icons/modifiers/chaonian_party.dds"
+}
+
+monthly_molossian_party_conviction = {
+    positive = "gfx/interface/icons/modifiers/molossian_party.dds"
+}
+
+monthly_thesprotian_party_conviction = {
+    positive = "gfx/interface/icons/modifiers/thesprotian_party.dds"
+}
+
+monthly_chaonian_party_conviction = {
+    positive = "gfx/interface/icons/tradegoods/chaonian_party.dds"
+}
+
 # Investment Icons
 
 price_state_investment_military_cost_modifier = {

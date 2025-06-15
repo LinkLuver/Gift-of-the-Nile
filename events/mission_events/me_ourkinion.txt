@@ -1,0 +1,466 @@
+﻿namespace = me_ourkinion
+
+me_ourkinion.1 = {
+    type = country_event
+
+    title = me_ourkinion_1_title
+    desc = me_ourkinion_1_desc
+    picture = interesting_histories_greek_soldiers
+
+    option = {
+        name = "me_ourkinion_1.a"
+        custom_tooltip = me_ourkinion_1_tooltip
+        add_country_modifier = {
+            name = ourkinion_prepared
+            duration = 1825
+        }
+    }
+}
+me_ourkinion.2 = {
+    type = country_event
+
+    title = me_ourkinion_2_title
+    desc = me_ourkinion_2_desc
+    picture = greek_states_path_2_event
+
+    option = {
+        name = "me_ourkinion_2.a"
+        custom_tooltip = me_ourkinion_2_tooltip
+        declare_war_with_wargoal = {
+            target = c:ALE
+            war_goal = conquer_wargoal
+            province = 3515
+        }
+        add_country_modifier = {
+            name = ourkinionian_venegance
+            duration = 730
+        }
+    }
+}
+me_ourkinion.3 = { #
+    type = country_event
+
+    title = me_ourkinion_3_title
+    desc = me_ourkinion_3_desc
+    picture = Event_massive_naval_battle
+
+
+    option = {
+        name = "me_ourkinion_3.a"
+        custom_tooltip = me_ourkinion_3_tooltip
+        p:3508 = { set_owned_by = root }
+        p:3509 = { set_owned_by = root }    
+    }
+}
+me_ourkinion.4 = { # The Matter of Ourkinion
+    type = country_event
+
+    title = me_ourkinion_4_title
+    desc = me_ourkinion_4_desc
+    picture = city_construction
+
+    immediate = {
+        p:3515 = { 
+        save_scope_as = alalia_scope
+        }
+    }
+    option = {
+        name = "me_ourkinion_4.a"
+        custom_tooltip = me_ourkinion_4_tooltip
+        add_treasury = 200
+        p:3510 = {
+            set_city_status = settlement
+            add_province_modifier = {
+                name = ourkinion_deconstructed
+                duration = 3650
+            }
+        }
+        p:3510 = {
+            ordered_pops_in_province = {
+                order_by = pop_hapiness
+                max = {
+                    value = total_population
+                    multiply = 0.7
+                    round = floor
+                }
+                check_range_bounds = no
+                move_pop = scope:alalia_scope
+            }
+        }
+    }
+    option = {
+        name = "me_ourkinion_4.b"
+        custom_tooltip = me_ourkinion_4_tooltip
+        add_treasury = -150
+        add_manpower = -5
+        p:3510 = {
+            add_province_modifier = {
+                name = ourkinion_training
+                duration = -1
+            }
+            create_state_pop = citizen
+            create_state_pop = freemen
+        }
+    }
+}
+me_ourkinion.5 = { # Control of the Sea
+    type = country_event
+
+    title = me_ourkinion_5_title
+    desc = me_ourkinion_5_desc
+    picture = grand_ship
+
+    option = {
+        name = "me_ourkinion_5.a"
+        custom_tooltip = me_ourkinion_5_tooltip
+        add_country_modifier = {
+            name = lessons_from_our_past
+            duration = 3650
+        }
+    }
+}
+me_ourkinion.6 = { # On the Corsians
+    type = country_event
+
+    title = me_ourkinion_6_title
+    desc = me_ourkinion_6_desc
+    picture = greek_political_discussion
+
+    option = {
+        custom_tooltip = me_ourkinion_6_tooltip
+        name = "me_ourkinion_6.a"
+        add_country_modifier = {
+            name = retained_hellenic_ways 
+            duration = 7300
+        }
+        random_country_culture = {
+			limit = {
+				is_culture = corsian
+			}
+			add_country_culture_modifier = {
+				name = corsian_dissent
+				duration = 7300
+			}
+            hidden_effect = {
+                set_variable = corsians_shunned
+            }
+		}
+    }
+    option = {
+        custom_tooltip = me_ourkinion_6_tooltip
+        name = "me_ourkinion_6.b"
+        add_country_modifier = {
+            name = accepted_corsians
+            duration = 7300
+        }
+        random_country_culture = {
+            limit = {
+                is_culture = corsian
+            }
+            set_country_culture_right = citizen
+            add_integration_progress = 1
+        }
+        random_country_culture = {
+			limit = {
+				is_culture = massalian
+			}
+			add_country_culture_modifier = {
+				name = massalian_dissent
+				duration = 7300
+			}
+        }
+        hidden_effect = {
+            set_variable = corsians_integrated
+        }
+    }
+}
+me_ourkinion.7 = { # Corsian Tactics
+    type = country_event
+
+    title = me_ourkinion_7_title
+    desc = me_ourkinion_7_desc
+    picture = greek_religious_rite
+    option = {
+        name = "me_ourkinion_7.a"
+        custom_tooltip = me_ourkinion_7_tooltip
+        add_country_modifier = {
+            name = corsian_tactics
+            duration = -1
+        }
+    }
+}
+me_ourkinion.8 = { # Embellishing Alalia
+    type = country_event
+
+    title = me_ourkinion_8_title
+    desc = me_ourkinion_8_desc
+    picture = interesting_histories_hellenic_city_rebuild
+
+    option = {
+        name = "me_ourkinion_8.a"
+        custom_tooltip = me_ourkinion_13_tooltip
+        p:3515 = {
+            create_state_pop = citizen
+            create_state_pop = freemen
+            create_state_pop = freemen
+            add_province_modifier = { name = embellished_alalia }
+        }
+    }
+}
+me_ourkinion.9 = { # The Old Gods
+    type = country_event
+
+    title = me_ourkinion_9_title
+    desc = me_ourkinion_9_desc
+    picture = greek_religious_rite
+    
+    option = {
+        trigger = {
+            current_ruler = {
+                OR = {
+                    has_trait = lunatic
+                    has_trait = eccentric
+                    has_trait = foolish
+                }
+            }
+        }
+        name = "me_ourkinion_9.a"
+        custom_tooltip = me_ourkinion_9_a_tooltip
+        set_country_religion = nuragic_pantheon
+        add_party_approval = {
+            party_type = traditionalist_party
+            value = -10
+        }
+        add_party_approval = {
+            party_type = oligarchic_party
+            value = -5
+        }
+    }   
+    option = {
+        trigger = {
+            has_variable = corsians_shunned
+        }
+        name = "me_ourkinion_9.b"
+        custom_tooltip = me_ourkinion_9_b_tooltip
+        trigger_event = {
+            id = me_ourkinion.16
+            days = { 15 30 }
+        }
+    }
+    option = {
+        trigger = {
+            has_variable = corsians_integrated
+        } 
+        name = "me_ourkinion_9.c"
+        custom_tooltip = me_ourkinion_9_b_tooltip
+        trigger_event = {
+            id = me_ourkinion.17
+            days = { 15 30 }
+        }
+    }
+}
+me_ourkinion.10 = { # Island Fortress
+    type = country_event
+
+    title = me_ourkinion_10_title
+    desc = me_ourkinion_10_desc
+    picture = latin_philosophy_start_bonus_event
+
+    option = {
+        name = "me_ourkinion_10.a"
+        custom_tooltip = me_ourkinion_10_tooltip
+        add_country_modifier = {
+            name = ourkinion_fortress
+            duration = -1
+        }
+        p:3515 = { 
+            add_province_modifier = {
+                name = alalia_walls
+                duration = -1
+            }
+        }
+    }
+}
+me_ourkinion.11 = { # Italian Interests
+    type = country_event
+
+    title = me_ourkinion_11_title
+    desc = me_ourkinion_11_desc
+    picture = interesting_histories_greek_port
+
+    option = {
+        name = "me_ourkinion_11.a"
+        custom_tooltip = me_ourkinion_11_tooltip
+        p:3515 = { 
+            add_province_modifier = {
+                name = alalia_trade_center
+                duration = 14600
+            }
+        }
+    }
+}
+me_ourkinion.12 = { # Allalia, Everlasting
+    type = country_event
+
+    title = me_ourkinion_12_title
+    desc = me_ourkinion_12_d_desc
+    picture = hellenic_temple
+    option = {
+        name = "me_ourkinion_12.a"
+        custom_tooltip = me_ourkinion_12_tooltip
+        add_innovation = 2
+        add_country_modifier = {
+            name = corsica_eternal
+            duration = -1
+        }
+    }
+    #option = { ## POSSIBLY ADD MORE SECRET (?) CONTENT LATER
+        #name = "me_ourkinion_12.b" # Massalian league option
+        #custom_tooltip = me_ourkinion_12_tooltip
+        #add_innovation = 2
+        
+    #}
+    #option = {
+        #name = "me_ourkinion_12.c" # Great journey option?
+        #custom_tooltip = me_ourkinion_12_tooltip
+        #add_innovation = 2
+        
+    #}
+}
+me_ourkinion.13 = { # A Patron God
+    type = country_event
+
+    title = me_ourkinion_13_title
+    desc = me_ourkinion_13_desc
+    picture = greek_religious_rite
+
+    option = {
+        name = "me_ourkinion_13.a"
+        custom_tooltip = me_ourkinion_13_a_tooltip
+        add_country_modifier = {
+            name = apollo_delphinios_patronized
+            duration = -1
+        }
+        hidden_effect = {
+            add_deity_to_pantheon = {
+                deity = deity:omen_apollo_delphinios
+            }
+        }
+    }
+    option = {
+        name = "me_ourkinion_13.b"
+        custom_tooltip = me_ourkinion_13_b_tooltip
+        add_country_modifier = {
+            name = herakles_patronized
+            duration = -1
+        }
+        hidden_effect = {
+            add_deity_to_pantheon = {
+                eity = deity:omen_heracles
+            }
+        }
+    }
+    option = {
+        name = "me_ourkinion_13.c"
+        custom_tooltip = me_ourkinion_13_c_tooltip
+        add_country_modifier = {
+            name = hephaistos_patronized
+            duration = -1
+        }
+        hidden_effect = {
+            add_deity_to_pantheon = {
+                deity = deity:omen_hephaestus
+            }
+        }
+    }
+    option = {
+        trigger = {
+            has_variable = corsians_integrated
+        }
+        name = "me_ourkinion_13.d"
+        custom_tooltip = me_ourkinion_13_d_tooltip
+        add_country_modifier = {
+            name = asklepios_merre_patronized
+            duration = -1
+        }
+        
+        hidden_effect = {
+            set_variable = unlock_asclepius_merre
+        }
+    }
+}
+me_ourkinion.14 = { # Expanding Agriculture
+    type = country_event
+
+    title = me_ourkinion_14_title
+    desc = me_ourkinion_14_desc
+    picture = farming
+
+    option = {
+        name = "me_ourkinion_14.a"
+        custom_tooltip = me_ourkinion_14_tooltip
+        add_country_modifier = {
+            name = ourkinion_farming
+            duration = -1
+        }
+    }
+}
+me_ourkinion.15 = { # Southern Investments
+    type = country_event
+
+    title = me_ourkinion_15_title
+    desc = me_ourkinion_15_desc
+    picture = hellenic_marketplace
+
+    option = {
+        name = "me_ourkinion_15.a"
+        custom_tooltip = me_ourkinion_15_tooltip
+        add_treasury = -75
+        p:3508 = {
+            set_city_status = city
+            create_state_pop = citizen
+            create_state_pop = freemen
+            create_state_pop = freemen
+        }
+    }
+    option = {
+        name = "me_ourkinion_15.b"
+        custom_tooltip = me_ourkinion_15_tooltip
+        add_treasury = -75
+        p:3508 = {
+            add_province_modifier = {
+                name = phikaria_obsidian
+                duration = -1
+            }
+        }
+    }
+}
+me_ourkinion.16 = { # The Old Gods Negative
+    type = country_event
+
+    title = me_ourkinion_16_title
+    desc = me_ourkinion_16_desc
+    picture = natural_disaster
+
+    option = {
+        name = "me_ourkinion_16.a"
+        add_stability = -10
+        p:3515 = {
+            destroy_building_effect = yes
+            kill_pop = yes
+        }
+    }
+}
+me_ourkinion.17 = { # The Old Gods Positive
+    type = country_event
+
+    title = me_ourkinion_17_title
+    desc = me_ourkinion_17_desc
+    picture = greek_religious_rite
+
+    option = {
+        name = "me_ourkinion_17.a"
+        add_stability = 10
+        add_2_free_province_investments = yes
+    }
+}

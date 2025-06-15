@@ -1,0 +1,773 @@
+﻿#trade_access senate approval is hypothethically possible but doesn't make sense with new implementation.
+
+####################################
+# Declare War
+####################################
+declare_war = {
+
+	approval = {
+	
+		molossian_party = { 
+			base = 0.2
+		}
+	
+		thesprotian_party = {
+			base = 0
+		}
+		chaonian_party = {
+			base = 0.2
+		}
+	}
+	
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	
+	support = {
+		molossian_party = seats_10
+	}
+}
+
+
+####################################
+# Request Peace
+####################################
+request_peace = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 1.0
+		}
+		thesprotian_party = {
+			base = 1.0
+		}
+		chaonian_party = {
+			base = 1.0
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+
+
+####################################
+# Alliance
+####################################
+alliance = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 0.2
+		}
+		thesprotian_party = {
+			base = 0.4
+		}
+		chaonian_party = {
+			base = 0
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+
+
+####################################
+# Guarantee
+####################################
+guarantee = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 0
+		}
+		thesprotian_party = {
+			base = 0.4
+		}
+		chaonian_party = {
+			base = 0
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+
+
+
+
+
+
+####################################
+#
+####################################
+demand_annexation = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 0.4
+		}
+		thesprotian_party = {
+			base = 0.4
+		}
+		chaonian_party = {
+			base = 0
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	
+	support = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+}
+
+####################################
+#
+####################################
+demand_tribute = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 0.4
+		}
+		thesprotian_party = {
+			base = 0.6
+		}
+		chaonian_party = {
+			base = 0
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+}
+
+####################################
+#
+####################################
+military_access = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 1.0
+		}
+		thesprotian_party = {
+			base = 1.0
+		}
+		chaonian_party = {
+			base = 1.0
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+
+
+####################################
+#
+####################################
+offer_military_access = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 1.0
+		}
+		thesprotian_party = {
+			base = 1.0
+		}
+		chaonian_party = {
+			base = 1.0
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+
+
+####################################
+#
+####################################
+call_ally = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 1.0
+		}
+		thesprotian_party = {
+			base = 1.0
+		}
+		chaonian_party = {
+			base = 1.0
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+
+
+####################################
+#
+####################################
+sell_province = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 0.2
+		}
+		thesprotian_party = {
+			base = 0.2
+		}
+		chaonian_party = {
+			base = 0.2
+		}
+	}
+	
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+
+
+####################################
+#
+####################################
+ransom_prisoner = {
+	
+	approval = {
+	
+		molossian_party = {
+			base = 1
+		}
+		thesprotian_party = {
+			base = 1
+		}
+		chaonian_party = {
+			base = 1
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+
+
+
+
+####################################
+#
+####################################
+barbarian_demand_surrender = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 0.4
+		}
+		thesprotian_party = {
+			base = 0.4
+		}
+		chaonian_party = {
+			base = 0.4
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+
+
+####################################
+#
+####################################
+barbarian_create_client = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 0.4
+		}
+		thesprotian_party = {
+			base = 0.4
+		}
+		chaonian_party = {
+			base = 0.4
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+
+
+####################################
+#
+####################################
+barbarian_payoff = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 0.2
+		}
+		thesprotian_party = {
+			base = 0.4
+		}
+		chaonian_party = {
+			base = 0.2
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+
+
+####################################
+#
+####################################
+barbarian_settle = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 0.2
+		}
+		thesprotian_party = {
+			base = 0.2
+		}
+		chaonian_party = {
+			base = 0
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+
+
+####################################
+#
+####################################
+fabricate_claim = {  
+
+	approval = {
+	
+		molossian_party = {
+			base = 1
+		}
+		thesprotian_party = {
+			base = 1
+		}
+		chaonian_party = {
+			base = 1
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+
+
+####################################
+#
+####################################
+invite_to_defensive_league = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 0.3
+		}
+		thesprotian_party = {
+			base = 0.3
+		}
+		chaonian_party = {
+			base = 0.1
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+
+
+####################################
+#
+####################################
+ask_to_join_defensive_league = {
+
+	
+	approval = {
+	
+		molossian_party = {
+			base = 0
+		}
+		thesprotian_party = {
+			base = 0.2
+		}
+		chaonian_party = {
+			base = 0
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+
+
+####################################
+#
+####################################
+leave_defensive_league = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 1
+		}
+		thesprotian_party = {
+			base = 1
+		}
+		chaonian_party = {
+			base = 1
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+
+
+####################################
+#
+####################################
+improve_relation = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 1
+		}
+		thesprotian_party = {
+			base = 1
+		}
+		chaonian_party = {
+			base = 1
+		}
+	}
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+####################################
+#
+####################################
+intervene_in_war = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 0.4
+		}
+		thesprotian_party = {
+			base = 0.2
+		}
+		chaonian_party = {
+			base = 0
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+		molossian_party = 5
+	}
+}
+
+####################################
+#
+####################################
+enforce_peace = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 0.4
+		}
+		thesprotian_party = {
+			base = 0.2
+		}
+		chaonian_party = {
+			base = 0.6
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+		molossian_party = 5
+		thesprotian_party = 5
+	}
+}
+
+####################################
+#
+####################################
+threaten_war = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 0.4
+		}
+		thesprotian_party = {
+			base = 0.4
+		}
+		chaonian_party = {
+			base = 0.2
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+		molossian_party = 5
+		thesprotian_party = 5
+	}
+}
+
+####################################
+# Support Rebels
+####################################
+support_rebels = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 0.4
+		}
+		thesprotian_party = {
+			base = 0.2
+		}
+		chaonian_party = {
+			base = 0.2
+		}
+	}
+	
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	
+	support = {
+	}
+}
+
+
+
+
+####################################
+# abandon_civil_war
+####################################
+
+abandon_civil_war = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 0.5
+		}
+		thesprotian_party = {
+			base = 0.25
+		}
+		chaonian_party = {
+			base = 0.25
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+
+####################################
+# Default
+####################################
+
+default = {
+
+	approval = {
+	
+		molossian_party = {
+			base = 1.0
+		}
+		thesprotian_party = {
+			base = 1.0
+		}
+		chaonian_party = {
+			base = 1.0
+		}
+	}
+
+
+	loyalty = {
+		molossian_party = 0
+		thesprotian_party = 0
+		chaonian_party = 0
+	}
+	support = {
+	}
+}
+
+

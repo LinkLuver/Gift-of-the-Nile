@@ -1011,9 +1011,9 @@
 	culture="celtician"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=11
+	civilization_value=23
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		culture="ibero_punic"
 		religion="carthaginian_pantheon"

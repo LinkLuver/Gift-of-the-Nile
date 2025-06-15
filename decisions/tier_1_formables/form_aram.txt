@@ -12,6 +12,10 @@
 			}
 			NOT = {
 				tag = PRY
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+				has_variable = has_formed_aram
 			}
 		}
 		
@@ -37,6 +41,7 @@
 		effect = {
 			custom_tooltip = "tier_1_formable_tooltip"
 			change_country_name = "ARAM_NAME"
+			set_variable = has_formed_aram
 			hidden_effect = {
 				change_country_adjective = "ARAM_ADJECTIVE"
 				change_country_tag = "PRY"
@@ -50,6 +55,7 @@
 			p:750 = {
 				capital_formable_medium_effect = yes
 			}
+			set_variable = has_formed_aram
 		}
 		
 		ai_will_do = {

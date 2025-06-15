@@ -1,0 +1,96 @@
+﻿country_decisions = {
+
+	#Form the Hurrian Federation
+	form_hurria = {
+	potential = {
+		num_of_cities >= 1
+		OR = {
+			tag = AT4
+		}
+		NOR = {
+			is_tier_1_formable_trigger = yes
+			is_tier_2_formable_trigger = yes
+			is_endgame_tag_trigger = yes
+			has_variable = has_formed_hurria
+		}
+	}
+	highlight = {
+		scope:province = {
+			OR = {
+				province_id = 845
+				province_id = 9557
+				province_id = 877
+				province_id = 840 
+				province_id = 871
+				province_id = 844
+				province_id = 870
+				province_id = 830
+			}
+		}
+	}
+	allow = {
+		custom_tooltip = {
+			text = "formable_not_hurria_exists"
+			NOT = {
+				any_country = {
+					tag = "KHM"
+				}
+			}
+		}
+		can_form_nation_trigger = yes
+		owns_or_subject_owns = 845
+		owns_or_subject_owns = 9557
+		owns_or_subject_owns = 877
+		owns_or_subject_owns = 840
+		owns_or_subject_owns = 871
+		owns_or_subject_owns = 844
+		owns_or_subject_owns = 870
+		owns_or_subject_owns = 830
+	}
+	effect = {
+		custom_tooltip = "tier_1_formable_tooltip"
+		change_country_name = "HURRIA2_NAME"
+		change_government = tribal_federation
+		switch_government_type_event_clearup_effect = yes
+		add_2_free_province_investments = yes
+		custom_tooltip = "form_hurria_claims_tooltip"
+		hidden_effect = {
+			change_country_adjective = "HURRIA2_ADJECTIVE"
+			change_country_tag = KHM
+			change_country_color = "hurrian_blue"
+			change_country_flag = HURRIA2_FLAG
+		}
+		if = {
+			limit = { is_tribal = yes }
+			add_country_modifier = {
+				name = civilized_tribe
+				duration = 5475
+			}
+		}
+		capital_scope = {
+			establish_city_effect = yes
+			capital_formable_tribal_effect = yes
+			formable_capital_modifier_tribal_effect = yes
+		}
+		add_country_modifier = {
+			name = "hurria_mod"
+			duration = 1825
+		}
+		hidden_effect = {
+		every_province = {
+			limit = {
+				OR = {
+					is_in_region = upper_mesopotamia_region
+				}
+				
+			}
+			add_claim = root
+			}
+			set_variable = has_formed_hurria
+			}
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+}

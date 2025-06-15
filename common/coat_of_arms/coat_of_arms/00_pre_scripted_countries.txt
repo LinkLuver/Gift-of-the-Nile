@@ -301,6 +301,52 @@ EPI = {
 	colored_emblem = {
 		texture = "ce_epirus.dds"
 		color1 = "pitch_black"
+		instance = { rotation = 130 }
+	}
+	colored_emblem = {
+		texture = "ce_letter_alpha.dds"
+		color1 = "epirus_yellow"
+		instance = { scale = { 0.30 0.30 } position = { 0.20 0.20 } }
+	}
+	colored_emblem = {
+		texture = "ce_letter_pi.dds"
+		color1 = "epirus_yellow"
+		instance = { scale = { 0.27 0.27 } position = { 0.40 0.20 } }
+	}
+	colored_emblem = {
+		texture = "ce_letter_epsilon.dds"
+		color1 = "epirus_yellow"
+		instance = { scale = { 0.30 0.30 } position = { 0.65 0.20 } }
+	}
+	colored_emblem = {
+		texture = "ce_letter_iota.dds"
+		color1 = "epirus_yellow"
+		instance = { scale = { 0.30 0.30 } position = { 0.80 0.20 } }
+	}
+	colored_emblem = {
+		texture = "ce_letter_rho.dds"
+		color1 = "epirus_yellow"
+		instance = { scale = { 0.30 0.30 } position = { 0.10 0.80 } }
+	}
+	colored_emblem = {
+		texture = "ce_letter_omega.dds"
+		color1 = "epirus_yellow"
+		instance = { scale = { 0.50 0.50 } position = { 0.30 0.80 } }
+	}
+	colored_emblem = {
+		texture = "ce_letter_tau.dds"
+		color1 = "epirus_yellow"
+		instance = { scale = { 0.30 0.30 } position = { 0.50 0.80 } }
+	}
+	colored_emblem = {
+		texture = "ce_letter_alpha.dds"
+		color1 = "epirus_yellow"
+		instance = { scale = { 0.30 0.30 } position = { 0.70 0.80 } }
+	}
+	colored_emblem = {
+		texture = "ce_letter_nu.dds"
+		color1 = "epirus_yellow"
+		instance = { scale = { 0.30 0.30 } position = { 0.90 0.80 } }
 	}
 }
 
@@ -2558,13 +2604,13 @@ IOA = {
 
 LYC = {
 	pattern = "pattern_solid.tga"
-	color1 = "ck2_red"
-	color2 = "offwhite"
+	color1 = "phrygia_red"
+	color2 = "ck2_blue"
 
 	colored_emblem = {
 		texture = "ce_border_triangles_02.dds"
 		color1 = "pitch_black"
-		color2 = "bone_white"
+		color2 = "iasos_blue"
 		instance = { rotation = 0 }
 		instance = { rotation = 90 }
 		instance = { rotation = 180 }
@@ -2573,7 +2619,7 @@ LYC = {
 
 	colored_emblem = {
 		texture = "ce_aryan_03.dds"
-		color1 = "bone_white"
+		color1 = "iasos_blue"
 		instance = {
 			scale = { 1 1 }
 			rotation = 250
@@ -2593,7 +2639,7 @@ LYC = {
 
 	colored_emblem = {
 		texture = "ce_circle_01.dds"
-		color1 = "offwhite"
+		color1 = "iasos_blue"
 		instance = {
 			position = { 0.52 0.53 }
 			scale = { -0.28 0.28 }

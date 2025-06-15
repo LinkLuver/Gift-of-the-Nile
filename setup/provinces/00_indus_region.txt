@@ -95,7 +95,7 @@
 
 4356={ #Kahu-Jo-Darro
 	terrain="desert"
-	culture="logali"
+	culture="meluhhan"
 	religion="hindu"
 	trade_goods="camel"
 	civilization_value=23
@@ -114,7 +114,7 @@
 
 4357={ #Umarkot
 	terrain="desert"
-	culture="logali"
+	culture="meluhhan"
 	religion="hindu"
 	trade_goods="camel"
 	civilization_value=23
@@ -530,7 +530,7 @@
 		amount=2
 	}
 	tribesmen={
-		culture="logali"
+		culture="meluhhan"
 		religion="hindu"
 		amount=10
 	}
@@ -539,7 +539,7 @@
 
 6822={ #Makli
 	terrain="plains"
-	culture="logali"
+	culture="meluhhan"
 	religion="zoroaster"
 	trade_goods="cloth"
 	civilization_value=23
@@ -574,7 +574,7 @@
 
 6848={ #Sangama
 	terrain="plains"
-	culture="logali"
+	culture="meluhhan"
 	religion="hindu"
 	trade_goods="gems"
 	civilization_value=23
@@ -610,7 +610,7 @@
 
 6852={ #Samarabriva
 	terrain="desert"
-	culture="logali"
+	culture="meluhhan"
 	religion="hindu"
 	trade_goods="fish"
 	civilization_value=23
@@ -846,7 +846,7 @@
 
 9415={ #Kuddun
 	terrain="desert"
-	culture="logali"
+	culture="meluhhan"
 	religion="hindu"
 	trade_goods="camel"
 	civilization_value=26
@@ -924,7 +924,7 @@
 
 9421={ #Ghorebari
 	terrain="plains"
-	culture="logali"
+	culture="meluhhan"
 	religion="hindu"
 	trade_goods="fish"
 	civilization_value=26
@@ -937,7 +937,7 @@
 
 9422={ #Xsyabunder
 	terrain="desert"
-	culture="logali"
+	culture="meluhhan"
 	religion="hindu"
 	trade_goods="wild_game"
 	civilization_value=26
@@ -950,7 +950,7 @@
 
 9423={ #Kuddun
 	terrain="desert"
-	culture="logali"
+	culture="meluhhan"
 	religion="hindu"
 	trade_goods="fish"
 	civilization_value=26
@@ -963,7 +963,7 @@
 
 9424={ #Kotri
 	terrain="desert"
-	culture="logali"
+	culture="meluhhan"
 	religion="hindu"
 	trade_goods="camel"
 	civilization_value=26

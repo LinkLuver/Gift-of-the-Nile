@@ -201,6 +201,20 @@ price_traditionalist_party_action = {
 	gold = 100
 }
 
+price_molossian_party_action = {
+	political_influence = 25
+	gold = 50
+}
+
+price_thesprotian_party_action = {
+	political_influence = 50
+}
+
+price_chaonian_party_action = {
+	political_influence = 25
+	manpower = 5
+}
+
 price_state_investment_military = {
 	political_influence = 80
 }

@@ -19,7 +19,7 @@
 	culture="arverni"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=14
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -87,7 +87,7 @@
 	culture="massalian"
 	religion="roman_pantheon"
 	trade_goods="stone"
-	civilization_value=13
+	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -113,26 +113,29 @@
 
 2257={ #Ruscino
 	terrain="plains"
-	culture="indiketian"
-	religion="druidism"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="fish"
-	civilization_value=10
+	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="massalian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
 		amount=2
 	}
 	slaves={
+		amount=1
+	}
+	slaves={
 		culture="volcae"
 		amount=1
 	}
 	tribesmen={
-		amount=3
+		culture="volcae"
+		religion="druidism"
+		amount=2
 	}
 }
 
@@ -157,17 +160,19 @@
 
 2259={ #Baeterrae
 	terrain="plains"
-	culture="volcae"
-	religion="druidism"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="fish"
-	civilization_value=11
+	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
-		amount=3
+		culture="volcae"
+		religion="druidism"
+		amount=2
 	}
 }
 
@@ -353,7 +358,15 @@
 	civilization_value=21
 	barbarian_power=0
 	province_rank="city"
+	citizen={
+		amount=2
+	}
 	freemen={
+		amount=1
+	}
+	freemen={
+		culture="massalian"
+		religion="roman_pantheon"
 		amount=1
 	}
 	tribesmen={
@@ -456,7 +469,7 @@
 	culture="arverni"
 	religion="druidism"
 	trade_goods="iron"
-	civilization_value=14
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -476,10 +489,29 @@
 	culture="allobrogian"
 	religion="druidism"
 	trade_goods="cloth"
-	civilization_value=11
+	civilization_value=22
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		culture="arverni"
+		amount=1
+	}
+	citizen={
+		culture="arverni"
+		amount=1
+	}
 	freemen={
+		culture="arverni"
+	}
+	freemen={
+		culture="massalian"
+		religion="roman_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=1
 	}
 	tribesmen={
@@ -492,7 +524,7 @@
 	culture="allobrogian"
 	religion="druidism"
 	trade_goods="leather"
-	civilization_value=9
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -515,7 +547,7 @@
 	culture="allobrogian"
 	religion="druidism"
 	trade_goods="stone"
-	civilization_value=11
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -698,7 +730,7 @@
 	culture="massalian"
 	religion="roman_pantheon"
 	trade_goods="salt"
-	civilization_value=13
+	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -708,7 +740,7 @@
 		amount=3
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		culture="volcae"
@@ -720,12 +752,15 @@
 
 2314={ #Nemausus
 	terrain="plains"
-	culture="volcae"
-	religion="druidism"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="grain"
-	civilization_value=11
+	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=4
 	}
@@ -734,7 +769,9 @@
 		amount=1
 	}
 	tribesmen={
-		amount=4
+		culture="volcae"
+		religion="druidism"
+		amount=3
 	}
 }
 
@@ -801,17 +838,19 @@
 
 2318={ #Rhodanousia
 	terrain="plains"
-	culture="volcae"
-	religion="druidism"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="fish"
-	civilization_value=11
+	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		culture="volcae"
+		religion="druidism"
+		amount=2
 	}
 }
 
@@ -819,23 +858,31 @@
 	terrain="farmland"
 	culture="massalian"
 	religion="roman_pantheon"
-	trade_goods="grain"
-	civilization_value=20
+	trade_goods="earthware"
+	civilization_value=28
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
-		amount=3
+		amount=4
+	}
+	freemen={
+		culture="arverni"
+		religion="druidism"
+		amount=1
 	}
 	tribesmen={
 		culture="salluvian"
-	religion="druidism"
+		religion="druidism"
 		amount=3
 	}
 	slaves={
 		culture="volcae"
+		amount=1
+	}
+	slaves={
 		amount=1
 	}
 	port_building=1
@@ -898,7 +945,7 @@
 	culture="massalian"
 	religion="roman_pantheon"
 	trade_goods="salt"
-	civilization_value=13
+	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -984,6 +1031,7 @@
 		amount=1
 	}
 	port_building=1
+	holy_site=omen_artemis_ephesia
 }
 
 2339={ #Uxellodunum
@@ -991,7 +1039,7 @@
 	culture="santonian"
 	religion="druidism"
 	trade_goods="fur"
-	civilization_value=9
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1007,7 +1055,7 @@
 	culture="allobrogian"
 	religion="druidism"
 	trade_goods="base_metals"
-	civilization_value=11
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1023,7 +1071,7 @@
 	culture="allobrogian"
 	religion="druidism"
 	trade_goods="iron"
-	civilization_value=11
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1271,6 +1319,11 @@
 	freemen={
 		amount=2
 	}
+	freemen={
+		culture="massalian"
+		religion="roman_pantheon"
+		amount=1
+	}
 	slaves={
 		amount=1
 	}
@@ -1427,7 +1480,7 @@
 	culture="massalian"
 	religion="roman_pantheon"
 	trade_goods="wood"
-	civilization_value=15
+	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1454,7 +1507,7 @@
 	culture="ligurian"
 	religion="roman_pantheon"
 	trade_goods="fish"
-	civilization_value=13
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={

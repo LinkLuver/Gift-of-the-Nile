@@ -1,0 +1,392 @@
+﻿namespace = me_lydia
+
+me_lydia.1 = {
+    type = country_event
+
+    title = me_lydia_1_title
+    desc = me_lydia_1_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_1.a"
+        custom_tooltip = me_lydia_1_tooltip
+
+    }
+}
+me_lydia.2 = {
+    type = country_event
+
+    title = me_lydia_2_title
+    desc = me_lydia_2_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_2.a"
+        custom_tooltip = me_lydia_2_tooltip
+
+    }
+}
+me_lydia.3 = {
+    type = country_event
+
+    title = me_lydia_3_title
+    desc = me_lydia_3_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_3.a"
+        custom_tooltip = me_lydia_3_tooltip
+
+    }
+}
+me_lydia.4 = {
+    type = country_event
+
+    title = me_lydia_4_title
+    desc = me_lydia_4_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_4.a"
+        custom_tooltip = me_lydia_4_tooltip
+
+    }
+}
+me_lydia.5 = {
+    type = country_event
+
+    title = me_lydia_5_title
+    desc = me_lydia_5_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_5.a"
+        custom_tooltip = me_lydia_5_tooltip
+
+    }
+}
+me_lydia.6 = {
+    type = country_event
+
+    title = me_lydia_6_title
+    desc = me_lydia_6_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_6.a"
+        custom_tooltip = me_lydia_6_tooltip
+
+    }
+}
+me_lydia.7 = {
+    type = country_event
+
+    title = me_lydia_7_title
+    desc = me_lydia_7_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_7.a"
+        custom_tooltip = me_lydia_7_tooltip
+
+    }
+}
+me_lydia.8 = {
+    type = country_event
+
+    title = me_lydia_8_title
+    desc = me_lydia_8_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_8.a"
+        custom_tooltip = me_lydia_8_tooltip
+
+    }
+}
+me_lydia.9 = {
+    type = country_event
+
+    title = me_lydia_9_title
+    desc = me_lydia_9_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_9.a"
+        custom_tooltip = me_lydia_9_tooltip
+
+    }
+}
+me_lydia.10 = {
+    type = country_event
+
+    title = me_lydia_10_title
+    desc = me_lydia_10_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_10.a"
+        custom_tooltip = me_lydia_10_tooltip
+
+    }
+}
+me_lydia.11 = {
+    type = country_event
+
+    title = me_lydia_11_title
+    desc = me_lydia_11_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_11.a"
+        custom_tooltip = me_lydia_11_tooltip
+
+    }
+}
+me_lydia.12 = {
+    type = country_event
+
+    title = me_lydia_12_title
+    desc = me_lydia_12_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_12.a"
+        custom_tooltip = me_lydia_12_tooltip
+
+    }
+}
+me_lydia.13 = {
+    type = country_event
+
+    title = me_lydia_13_title
+    desc = me_lydia_13_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_13.a"
+        custom_tooltip = me_lydia_13_tooltip
+
+    }
+}
+me_lydia.14 = {
+    type = country_event
+
+    title = me_lydia_14_title
+    desc = me_lydia_14_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_14.a"
+        custom_tooltip = me_lydia_14_tooltip
+
+    }
+}
+me_lydia.15 = {
+    type = country_event
+
+    title = me_lydia_15_title
+    desc = me_lydia_15_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_15.a"
+        custom_tooltip = me_lydia_15_tooltip
+
+    }
+}
+me_lydia.16 = {
+    type = country_event
+
+    title = me_lydia_16_title
+    desc = me_lydia_16_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_16.a"
+        custom_tooltip = me_lydia_16_tooltip
+
+    }
+}
+me_lydia.17 = {
+    type = country_event
+
+    title = me_lydia_17_title
+    desc = me_lydia_17_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_17.a"
+        custom_tooltip = me_lydia_17_tooltip
+
+    }
+}
+me_lydia.18 = {
+    type = country_event
+
+    title = me_lydia_18_title
+    desc = me_lydia_18_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_18.a"
+        custom_tooltip = me_lydia_18_tooltip
+
+    }
+}
+me_lydia.19 = {
+    type = country_event
+
+    title = me_lydia_19_title
+    desc = me_lydia_19_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_19.a"
+        custom_tooltip = me_lydia_19_tooltip
+
+    }
+}
+me_lydia.20 = {
+    type = country_event
+
+    title = me_lydia_20_title
+    desc = me_lydia_20_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_20.a"
+        custom_tooltip = me_lydia_20_tooltip
+
+    }
+}
+me_lydia.21 = {
+    type = country_event
+
+    title = me_lydia_21_title
+    desc = me_lydia_21_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_21.a"
+        custom_tooltip = me_lydia_21_tooltip
+
+    }
+}
+me_lydia.22 = {
+    type = country_event
+
+    title = me_lydia_22_title
+    desc = me_lydia_22_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_22.a"
+        custom_tooltip = me_lydia_22_tooltip
+
+    }
+}
+me_lydia.23 = {
+    type = country_event
+
+    title = me_lydia_23_title
+    desc = me_lydia_23_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_23.a"
+        custom_tooltip = me_lydia_23_tooltip
+
+    }
+}
+me_lydia.24 = {
+    type = country_event
+
+    title = me_lydia_24_title
+    desc = me_lydia_24_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_24.a"
+        custom_tooltip = me_lydia_24_tooltip
+
+    }
+}
+me_lydia.25 = {
+    type = country_event
+
+    title = me_lydia_25_title
+    desc = me_lydia_25_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_25.a"
+        custom_tooltip = me_lydia_25_tooltip
+
+    }
+}
+me_lydia.26 = {
+    type = country_event
+
+    title = me_lydia_26_title
+    desc = me_lydia_26_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_26.a"
+        custom_tooltip = me_lydia_26_tooltip
+
+    }
+}
+me_lydia.27 = {
+    type = country_event
+
+    title = me_lydia_27_title
+    desc = me_lydia_27_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_27.a"
+        custom_tooltip = me_lydia_27_tooltip
+
+    }
+}
+me_lydia.28 = {
+    type = country_event
+
+    title = me_lydia_28_title
+    desc = me_lydia_28_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_28.a"
+        custom_tooltip = me_lydia_28_tooltip
+
+    }
+}
+me_lydia.29 = {
+    type = country_event
+
+    title = me_lydia_29_title
+    desc = me_lydia_29_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_29.a"
+        custom_tooltip = me_lydia_29_tooltip
+
+    }
+}
+me_lydia.30 = {
+    type = country_event
+
+    title = me_lydia_30_title
+    desc = me_lydia_30_desc
+    picture = great_library
+
+    option = {
+        name = "me_lydia_30.a"
+        custom_tooltip = me_lydia_30_tooltip
+
+    }
+}

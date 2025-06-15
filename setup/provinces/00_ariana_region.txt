@@ -37,15 +37,10 @@
 		amount=1
 	}
 	freemen={
-		amount=3
+		amount=4
 	}
 	freemen={
 		culture="pasargadi"
-		amount=1
-	}
-	freemen={
-		culture="macedonian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	tribesmen={
@@ -81,7 +76,6 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="macedonian"
 		amount=2
 	}
 	slaves={

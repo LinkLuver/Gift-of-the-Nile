@@ -66,15 +66,25 @@
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="urtaian"
+		religion="armenian_religion"
+		amount=1
+	}
 	freemen={
 		religion="mithra_religion"
 		amount=1
+	}
+	freemen={
+		culture="urtaian"
+		religion="armenian_religion"
+		amount=2
 	}
 	slaves={
 		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=1
 	}
 }
 
@@ -449,7 +459,7 @@
 	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="vegetables"
-	civilization_value=19
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -465,7 +475,7 @@
 	culture="arzasha"
 	religion="zoroaster"
 	trade_goods="cattle"
-	civilization_value=19
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -482,7 +492,7 @@
 	culture="tukri"
 	religion="mithra_religion"
 	trade_goods="cattle"
-	civilization_value=17
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1873,6 +1883,11 @@
 	freemen={
 		amount=1
 	}
+	freemen={
+		culture="urtaian"
+		religion="armenian_religion"
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -1929,6 +1944,11 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	freemen={
+		culture="urtaian"
+		religion="armenian_religion"
 		amount=1
 	}
 	slaves={
@@ -2146,7 +2166,7 @@
 	culture="arzasha"
 	religion="mesopotamian_religion"
 	trade_goods="stone"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -2168,7 +2188,7 @@
 	culture="arzasha"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -2190,7 +2210,7 @@
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="stone"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -2212,7 +2232,7 @@
 	culture="cardukoi"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={

@@ -1,0 +1,49 @@
+﻿
+# Epirus Parties
+molossian_party = {
+	allow = {
+		is_republic = yes
+		government = epirote_republic
+	}
+
+	ruler_modifier = {
+		ruler_popularity_gain = 0.05
+		war_score_cost = -0.05
+	}
+
+	
+
+	description = molossian_party_description
+}
+
+thesprotian_party = {
+	allow = {
+		is_republic = yes
+		government = epirote_republic
+	}
+
+	ruler_modifier = {
+		omen_power = 0.05
+		monthly_political_influence_modifier = 0.05
+	}
+	
+	can_character_belong = {
+		this.religion = this.employer.religion
+	}
+
+	description = thesprotian_party_description
+}
+
+chaonian_party = {
+	allow = {
+		is_republic = yes
+		government = epirote_republic
+	}
+
+	ruler_modifier = {
+		global_monthly_food_modifier = 0.05
+		global_manpower_modifier = 0.05
+	}
+
+	description = chaonian_party_description
+}

@@ -3,7 +3,7 @@
 	culture="arverni"
 	religion="druidism"
 	trade_goods="wine"
-	civilization_value=9
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -226,7 +226,7 @@
 	culture="santonian"
 	religion="druidism"
 	trade_goods="vegetables"
-	civilization_value=7
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -260,22 +260,36 @@
 	}
 }
 
-2236={ #Burdigala
-	terrain="marsh"
-	culture="biturigan"
-	religion="druidism"
+2236={ #Pytheapolis
+	terrain="plains"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="wine"
-	civilization_value=7
+	civilization_value=24
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=2
+	}
+	citizen={
+		amount=4
+	}
 	freemen={
+		amount=7
+	}
+	freemen={
+		culture="biturigan"
+		religion="druidism"
 		amount=1
 	}
 	tribesmen={
+		culture="biturigan"
+		religion="druidism"
 		amount=3
 	}
 	slaves={
 		culture="santonian"
+		religion="druidism"
 		amount=1
 	}
 	port_building=1
@@ -784,7 +798,7 @@
 	culture="santonian"
 	religion="druidism"
 	trade_goods="iron"
-	civilization_value=11
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -829,7 +843,7 @@
 	culture="santonian"
 	religion="druidism"
 	trade_goods="vegetables"
-	civilization_value=11
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -864,12 +878,28 @@
 	culture="santonian"
 	religion="druidism"
 	trade_goods="wine"
-	civilization_value=11
+	civilization_value=22
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		culture="arverni"
+		amount=1
+	}
+	citizen={
+		culture="arverni"
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	freemen={
 		culture="aquitani"
 		religion="pre_indo_european_religion"
+		amount=1
+	}
+	freemen={
+		culture="massalian"
+		religion="roman_pantheon"
 		amount=1
 	}
 	tribesmen={
@@ -904,7 +934,7 @@
 	culture="santonian"
 	religion="druidism"
 	trade_goods="wine"
-	civilization_value=11
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -920,7 +950,7 @@
 	culture="santonian"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=11
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -952,7 +982,7 @@
 	culture="santonian"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=11
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -972,7 +1002,7 @@
 	culture="santonian"
 	religion="druidism"
 	trade_goods="wine"
-	civilization_value=11
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -988,7 +1018,7 @@
 	culture="santonian"
 	religion="druidism"
 	trade_goods="cloth"
-	civilization_value=11
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1027,7 +1057,7 @@
 	culture="santonian"
 	religion="druidism"
 	trade_goods="iron"
-	civilization_value=11
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1078,7 +1108,7 @@
 	culture="arverni"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=11
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1134,7 +1164,7 @@
 	culture="santonian"
 	religion="druidism"
 	trade_goods="grain"
-	civilization_value=11
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1150,7 +1180,7 @@
 	culture="arverni"
 	religion="druidism"
 	trade_goods="cloth"
-	civilization_value=9
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1166,10 +1196,15 @@
 	culture="santonian"
 	religion="druidism"
 	trade_goods="wine"
-	civilization_value=11
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		amount=1
+	}
+	freemen={
+		culture="massalian"
+		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
@@ -1719,7 +1754,7 @@
 	culture="arverni"
 	religion="druidism"
 	trade_goods="wine"
-	civilization_value=9
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={

@@ -3,13 +3,14 @@
 	culture="sophene"
 	religion="armenian_religion"
 	trade_goods="hemp"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=5
 	}
 	freemen={
+		culture="urtaian"
 		amount=3
 	}
 	slaves={
@@ -160,7 +161,7 @@
 	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
-	civilization_value=31
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -193,7 +194,7 @@
 	culture="qedarite"
 	religion="mesopotamian_religion"
 	trade_goods="steppe_horses"
-	civilization_value=28
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -214,7 +215,7 @@
 	culture="qedarite"
 	religion="mesopotamian_religion"
 	trade_goods="wild_game"
-	civilization_value=28
+	civilization_value=23
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -233,7 +234,7 @@
 	culture="qedarite"
 	religion="mesopotamian_religion"
 	trade_goods="wild_game"
-	civilization_value=28
+	civilization_value=23
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -246,7 +247,7 @@
 	culture="aramaic"
 	religion="mesopotamian_religion"
 	trade_goods="leather"
-	civilization_value=28
+	civilization_value=23
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -308,7 +309,7 @@
 	culture="qardu"
 	religion="mesopotamian_religion"
 	trade_goods="steppe_horses"
-	civilization_value=31
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -332,28 +333,26 @@
 
 836={ #Semsath
 	terrain="farmland"
-	culture="syriac"
+	culture="hittite"
 	religion="armenian_religion"
-	trade_goods="grain"
+	trade_goods="horses"
 	civilization_value=20
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	nobles={
-		culture="pasargadi"
-		religion="anahitic_religion"
-		amount=1
+		culture="urtaian"
+		amount=2
 	}
 	citizen={
 		amount=3
 	}
 	citizen={
-		culture="pasargadi"
-		amount=1
+		culture="urtaian"
+		amount=2
 	}
 	citizen={
-		culture="syriac"
 		religion="carthaginian_pantheon"
-		amount=2
+		amount=3
 	}
 	freemen={
 		culture="qedarite"
@@ -361,7 +360,12 @@
 		amount=1
 	}
 	freemen={
+		culture="syriac"
+		religion="hurrian_pantheon"
 		amount=2
+	}
+	freemen={
+		amount=3
 	}
 	slaves={
 		culture="cappadocian"
@@ -377,7 +381,7 @@
 
 837={ #Tarsa
 	terrain="farmland"
-	culture="syriac"
+	culture="hittite"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=20
@@ -435,7 +439,7 @@
 		amount=1
 	}
 	slaves={
-		culture="syriac"
+		culture="hittite"
 		religion="arabian_pantheon"
 		amount=1
 	}
@@ -451,7 +455,7 @@
 
 839={ #Nymphaios
 	terrain="hills"
-	culture="syriac"
+	culture="hittite"
 	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=18
@@ -495,7 +499,7 @@
 	culture="hurrian"
 	religion="hurrian_pantheon"
 	trade_goods="stone"
-	civilization_value=24
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -506,7 +510,7 @@
 		amount=1
 	}
 	slaves={
-		culture="syriac"
+		culture="hittite"
 		religion="carthaginian_pantheon"
 		amount=1
 	}
@@ -523,7 +527,7 @@
 	culture="arzonian"
 	religion="armenian_religion"
 	trade_goods="horses"
-	civilization_value=31
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -542,10 +546,10 @@
 
 842={ #Tigranocerta
 	terrain="hills"
-	culture="arzonian"
+	culture="cardukoi"
 	religion="armenian_religion"
 	trade_goods="vegetables"
-	civilization_value=29
+	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -570,10 +574,10 @@
 
 843={ #Chlomaron
 	terrain="hills"
-	culture="arzonian"
+	culture="cardukoi"
 	religion="armenian_religion"
 	trade_goods="leather"
-	civilization_value=34
+	civilization_value=17
 	barbarian_power=0
 	province_rank="city"
 	citizen={
@@ -623,7 +627,7 @@
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="earthware"
-	civilization_value=31
+	civilization_value=25
 	barbarian_power=0
 	province_rank="city"
 	citizen={
@@ -658,10 +662,10 @@
 
 845={ #Martyropolis
 	terrain="hills"
-	culture="arzonian"
+	culture="hurrian"
 	religion="armenian_religion"
 	trade_goods="horses"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -673,18 +677,18 @@
 		amount=3
 	}
 	tribesmen={
-		culture="hurrian"
-		religion="hurrian_pantheon"
+		culture="arzonian"
+		religion="armenian_religion"
 		amount=2
 	}
 }
 
 846={ #Cymiza
 	terrain="mountain"
-	culture="arzonian"
+	culture="cardukoi"
 	religion="armenian_religion"
 	trade_goods="obsidian"
-	civilization_value=18
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -802,7 +806,7 @@
 	culture="qardu"
 	religion="carthaginian_pantheon"
 	trade_goods="grain"
-	civilization_value=31
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -831,7 +835,7 @@
 	culture="hurrian"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
-	civilization_value=31
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -872,7 +876,7 @@
 	culture="hurrian"
 	religion="hurrian_pantheon"
 	trade_goods="grain"
-	civilization_value=31
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -895,18 +899,26 @@
 	culture="sophene"
 	religion="armenian_religion"
 	trade_goods="stone"
-	civilization_value=34
+	civilization_value=22
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		culture="urtaian"
+		amount=1
+	}
 	citizen={
 		culture="sophene"
-		religion="armenian_religion"
 		amount=2
 	}
 	citizen={
 		amount=3
 	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="urtaian"
+		religion="armenian_religion"
 		amount=2
 	}
 	slaves={
@@ -924,7 +936,7 @@
 	culture="sophene"
 	religion="zoroaster"
 	trade_goods="base_metals"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -936,7 +948,9 @@
 	slaves={
 		amount=1
 	}
-	tribesmen={
+	tribesmen={		
+		culture="urtaian"
+		religion="armenian_religion"
 		amount=1
 	}
 }
@@ -946,7 +960,7 @@
 	culture="sophene"
 	religion="zoroaster"
 	trade_goods="leather"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -966,7 +980,7 @@
 	culture="hurrian"
 	religion="hurrian_pantheon"
 	trade_goods="honey"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1004,7 +1018,7 @@
 	culture="hurrian"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1021,7 +1035,7 @@
 	culture="qardu"
 	religion="mesopotamian_religion"
 	trade_goods="earthware"
-	civilization_value=29
+	civilization_value=24
 	barbarian_power=0
 	province_rank="city"
 	freemen={
@@ -1058,7 +1072,7 @@
 	culture="qardu"
 	religion="mesopotamian_religion"
 	trade_goods="dates"
-	civilization_value=36
+	civilization_value=23
 	barbarian_power=0
 	province_rank="city"
 	freemen={
@@ -1097,7 +1111,7 @@
 	culture="qardu"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
-	civilization_value=28
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1122,7 +1136,7 @@
 	culture="hurrian"
 	religion="armenian_religion"
 	trade_goods="horses"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1147,13 +1161,14 @@
 	culture="hurrian"
 	religion="mesopotamian_religion"
 	trade_goods="dates"
-	civilization_value=31
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=2
 	}
 	tribesmen={
+		culture="urtaian"
 		amount=2
 	}
 	tribesmen={
@@ -1186,10 +1201,10 @@
 
 992={ #Balaleisa
 	terrain="mountain"
-	culture="arzonian"
+	culture="cardukoi"
 	religion="armenian_religion"
 	trade_goods="vegetables"
-	civilization_value=16
+	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1212,7 +1227,7 @@
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
-	civilization_value=26
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1228,14 +1243,18 @@
 
 1855={ #Gareina
 	terrain="forest"
-	culture="sophene"
-	religion="zoroaster"
+	culture="urtaian"
+	religion="armenian_religion"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=4
+	}
+	freemen={
+		religion="zoroaster"
+		amount=2
 	}
 	slaves={
 		amount=2
@@ -1251,6 +1270,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		culture="urtaian"
+		religion="armenian_religion"
 		amount=1
 	}
 	slaves={
@@ -1270,6 +1291,7 @@
 		amount=2
 	}
 	tribesmen={
+		culture="urtaian"
 		religion="armenian_religion"
 		amount=1
 	}
@@ -1362,7 +1384,7 @@
 
 1864={ #Nisos
 	terrain="hills"
-	culture="syriac"
+	culture="hittite"
 	religion="anahitic_religion"
 	trade_goods="earthware"
 	civilization_value=20
@@ -1486,7 +1508,7 @@
 	culture="sophene"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1520,13 +1542,15 @@
 	culture="sophene"
 	religion="armenian_religion"
 	trade_goods="leather"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="urtaian"
 		amount=1
 	}
 	freemen={
+		culture="urtaian"
 		amount=2
 	}
 	slaves={
@@ -1559,7 +1583,7 @@
 	culture="arzonian"
 	religion="armenian_religion"
 	trade_goods="wood"
-	civilization_value=29
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1581,7 +1605,7 @@
 	culture="arzonian"
 	religion="armenian_religion"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1603,7 +1627,7 @@
 	culture="arzonian"
 	religion="armenian_religion"
 	trade_goods="honey"
-	civilization_value=29
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1625,7 +1649,7 @@
 	culture="arzonian"
 	religion="armenian_religion"
 	trade_goods="stone"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1647,7 +1671,7 @@
 	culture="arzonian"
 	religion="armenian_religion"
 	trade_goods="stone"
-	civilization_value=29
+	civilization_value=8
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1669,7 +1693,7 @@
 	culture="qardu"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1687,10 +1711,10 @@
 
 9556={ #Nabarra
 	terrain="hills"
-	culture="arzonian"
+	culture="hurrian"
 	religion="armenian_religion"
 	trade_goods="honey"
-	civilization_value=29
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1704,7 +1728,6 @@
 		amount=1
 	}
 	tribesmen={
-		culture="hurrian"
 		religion="hurrian_pantheon"
 		amount=2
 	}
@@ -1715,7 +1738,7 @@
 	culture="hurrian"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
-	civilization_value=29
+	civilization_value=20
 	barbarian_power=0
 	province_rank="city"
 	tribesmen={
@@ -1739,7 +1762,7 @@
 	culture="qardu"
 	religion="mesopotamian_religion"
 	trade_goods="feathers"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1760,7 +1783,7 @@
 	culture="qardu"
 	religion="mesopotamian_religion"
 	trade_goods="honey"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1781,7 +1804,7 @@
 	culture="qardu"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=21
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1805,7 +1828,7 @@
 	culture="hurrian"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1831,7 +1854,7 @@
 	culture="qardu"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1853,7 +1876,7 @@
 	culture="syriac"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1873,7 +1896,7 @@
 	culture="qardu"
 	religion="mesopotamian_religion"
 	trade_goods="vegetables"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1894,7 +1917,7 @@
 	culture="qardu"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1921,7 +1944,7 @@
 	culture="qardu"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1943,7 +1966,7 @@
 	culture="qardu"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1964,7 +1987,7 @@
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="grain"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1986,7 +2009,7 @@
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
-	civilization_value=29
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -2008,7 +2031,7 @@
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
-	civilization_value=29
+	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -2029,7 +2052,7 @@
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="earthware"
-	civilization_value=29
+	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -2051,7 +2074,7 @@
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -2073,7 +2096,7 @@
 	culture="hurrian"
 	religion="hurrian_pantheon"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -2082,10 +2105,15 @@
 	freemen={
 		culture="syriac"
 		religion="hurrian_pantheon"
-		amount=3
+		amount=2
+	}
+	freemen={
+		culture="hittite"
+		religion="hurrian_pantheon"
+		amount=1
 	}
 	tribesmen={
-		amount=5
+		amount=4
 	}
 }
 
@@ -2094,7 +2122,7 @@
 	culture="aramaic"
 	religion="hurrian_pantheon"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=23
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -2163,7 +2191,7 @@
 	culture="syriac"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
-	civilization_value=29
+	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={

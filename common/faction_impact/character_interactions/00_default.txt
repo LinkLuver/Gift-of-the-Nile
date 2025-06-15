@@ -1,0 +1,599 @@
+﻿# Actor Country - scope:actor
+# Target character - scope:target
+
+befriend = {
+	effect = {
+	}
+}
+
+hold_triumph = {
+	#needs_senate_approval = yes
+	effect = {
+		scope:actor = {
+			if = {
+				limit = {
+					scope:target = { is_minor_character = no }
+				}
+				approval_with_custom_tooltip_effect = {
+					CUSTOM_TOOLTIP = triumph_for_noble
+					PARTY = oligarchic_party
+					VALUE = party_approval_medium_svalue
+				}
+				approval_with_custom_tooltip_effect = {
+					CUSTOM_TOOLTIP = triumph_for_noble
+					PARTY = optimates_party
+					VALUE = party_approval_medium_svalue
+				}
+				approval_with_custom_tooltip_effect = {
+					CUSTOM_TOOLTIP = triumph_for_noble
+					PARTY = molossian_party
+					VALUE = party_approval_medium_svalue
+				}
+			}
+			else = {
+				approval_with_custom_tooltip_effect = {
+					CUSTOM_TOOLTIP = triumph_for_non_noble
+					PARTY = populares_party
+					VALUE = party_approval_medium_svalue
+				}
+				approval_with_custom_tooltip_effect = {
+					CUSTOM_TOOLTIP = triumph_for_non_noble
+					PARTY = democratic_party
+					VALUE = party_approval_medium_svalue
+				}
+				approval_with_custom_tooltip_effect = {
+					CUSTOM_TOOLTIP = triumph_for_non_noble
+					PARTY = chaonian_party
+					VALUE = party_approval_medium_svalue
+				}
+			}
+		}
+	}
+}
+
+banish_char = {	
+	#needs_senate_approval = yes
+	effect = {
+		scope:actor = {
+			if = {
+				limit = {
+					exists = scope:target.character_party
+				}
+				approval_with_custom_tooltip_party_effect = {
+					CUSTOM_TOOLTIP = targeted_party_tt
+					PARTY = scope:target.character_party
+					VALUE = party_disapproval_medium_svalue
+				}
+			}
+		}
+	}
+}
+
+imprison = {
+	#needs_senate_approval = yes
+	effect = {
+		scope:actor = {
+			if = {
+				limit = {
+					exists = scope:target.character_party
+				}
+				approval_with_custom_tooltip_party_effect = {
+					CUSTOM_TOOLTIP = targeted_party_tt
+					PARTY = scope:target.character_party
+					VALUE = party_disapproval_medium_svalue
+				}
+			}
+		}
+	}
+}
+
+execute_character = {
+	effect = {
+		scope:actor = {
+			if = {
+				limit = {
+					exists = scope:target.character_party
+				}
+				approval_with_custom_tooltip_party_effect = {
+					CUSTOM_TOOLTIP = targeted_party_tt
+					PARTY = scope:target.character_party
+					VALUE = party_disapproval_medium_svalue
+				}
+			}
+		}
+	}
+}
+
+appoint_dictator = {
+	#needs_senate_approval = yes
+	effect = {
+		scope:actor = {
+			if = {
+				limit = { 
+					scope:target = {
+						party_type = populares_party
+					}
+				}
+				approval_with_custom_tooltip_effect = {
+					CUSTOM_TOOLTIP = populist_dictator_tt
+					PARTY = populares_party
+					VALUE = party_approval_medium_svalue
+				}
+			}
+			if = {
+				limit = { 
+					scope:target = {
+						party_type = oligarchic_party
+					}
+				}
+				approval_with_custom_tooltip_effect = {
+					CUSTOM_TOOLTIP = oligarch_dictator_tt
+					PARTY = oligarchic_party
+					VALUE = party_approval_medium_svalue
+				}
+			}
+			if = {
+				limit = { 
+					scope:target = {
+						party_type = molossian_party
+					}
+				}
+				approval_with_custom_tooltip_effect = {
+					CUSTOM_TOOLTIP = molossian_dictator_tt
+					PARTY = molossian_party
+					VALUE = party_approval_medium_svalue
+				}
+			}
+		}
+	}
+}
+
+ostracize_char = {
+	#needs_senate_approval = yes
+	effect = {
+		scope:actor = {
+			if = {
+				limit = {
+					exists = scope:target.character_party
+				}
+				approval_with_custom_tooltip_party_effect = {
+					CUSTOM_TOOLTIP = targeted_party_tt
+					PARTY = scope:target.character_party
+					VALUE = party_disapproval_medium_svalue
+				}
+			}
+		}
+	}
+}
+
+grant_laurels = {
+	effect = {
+	}
+}
+
+grant_holding = {
+	effect = {
+		scope:actor = {
+			if = {
+				limit = {
+					is_republic = yes
+					scope:target = { is_head_of_family = yes }
+				}
+				if = {
+					limit = {
+						has_party_type = optimates_party
+					}
+					approval_with_custom_tooltip_effect = {
+						CUSTOM_TOOLTIP = land_for_aristocracy_tt
+						PARTY = optimates_party
+						VALUE = party_approval_small_svalue
+					}
+					add_party_approval = {
+						party_type = populares_party
+						value = party_disapproval_small_svalue
+					}
+				}
+				else = {
+					approval_with_custom_tooltip_effect = {
+						CUSTOM_TOOLTIP = land_for_aristocracy_tt
+						PARTY = oligarchic_party
+						VALUE = party_approval_small_svalue
+					}
+					add_party_approval = {
+						party_type = democratic_party
+						value = party_disapproval_small_svalue
+					}
+				}
+				else = {
+					approval_with_custom_tooltip_effect = {
+						CUSTOM_TOOLTIP = land_for_aristocracy_tt
+						PARTY = thesprotian_party
+						VALUE = party_approval_small_svalue
+					}
+					add_party_approval = {
+						party_type = chaonian_party
+						value = party_disapproval_small_svalue
+					}
+				}
+			}
+		}
+	}
+}
+
+revoke_holding = {
+	effect = {
+		scope:actor = {
+			if = {
+				limit = {
+					is_republic = yes
+					scope:target = { is_head_of_family = yes }
+				}
+				if = {
+					limit = {
+						has_party_type = optimates_party
+					}
+					approval_with_custom_tooltip_effect = {
+						CUSTOM_TOOLTIP = land_from_aristocracy_tt
+						PARTY = populares_party
+						VALUE = party_approval_small_svalue
+					}
+					add_party_approval = {
+						party_type = optimates_party
+						value = party_disapproval_small_svalue
+					}
+				}
+				else = {
+					approval_with_custom_tooltip_effect = {
+						CUSTOM_TOOLTIP = land_from_aristocracy_tt
+						PARTY = democratic_party
+						VALUE = party_approval_small_svalue
+					}
+					add_party_approval = {
+						party_type = oligarchic_party
+						value = party_disapproval_small_svalue
+					}
+				}
+				else = {
+					approval_with_custom_tooltip_effect = {
+						CUSTOM_TOOLTIP = land_from_aristocracy_tt
+						PARTY = chaonian_party
+						VALUE = party_approval_small_svalue
+					}
+					add_party_approval = {
+						party_type = thesprotian_party
+						value = party_disapproval_small_svalue
+					}
+				}
+			}
+		}
+	}
+}
+
+impose_corruption_sanctions = {
+	effect = {
+		scope:actor = {
+			if = {
+				limit = {
+					exists = scope:target.character_party
+				}
+				approval_with_custom_tooltip_party_effect = {
+					CUSTOM_TOOLTIP = targeted_party_tt
+					PARTY = scope:target.character_party
+					VALUE = party_disapproval_small_svalue
+				}
+			}
+			scope:actor = {
+				if = {
+					limit = {
+						NOT = { scope:target = { party_type = boni_party  } }
+						has_party_type = boni_party
+					}
+					approval_with_custom_tooltip_effect = {
+						CUSTOM_TOOLTIP = republican_robustness_tt
+						PARTY = boni_party
+						VALUE = party_approval_medium
+					}
+				}
+			}
+		}
+	}
+}
+
+free_hands = {
+	effect = {
+		scope:actor = {
+			if = {
+				limit = { exists = scope:target.character_party }
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								has_party_type = boni_party
+								NOT = {
+									scope:target = { party_type = boni_party }
+								}
+							}
+							AND = {
+								has_party_type = traditionalist_party
+								NOT = {
+									scope:target = { party_type = traditionalist_party }
+								}
+							}
+							AND = {
+								has_party_type = thesprotian_party
+								NOT = {
+									scope:target = { party_type = thesprotian_party }
+								}
+							}
+						}
+					}
+					approval_with_custom_tooltip_party_effect = {
+						CUSTOM_TOOLTIP = free_hands_our_party_tt
+						PARTY = scope:target.character_party
+						VALUE = party_approval_small_svalue
+					}
+					if = {
+						limit = { has_party_type = boni_party }
+						approval_with_custom_tooltip_effect = {
+							CUSTOM_TOOLTIP = free_hands_conservative_tt
+							PARTY = boni_party
+							VALUE = party_disapproval_medium
+						}
+					}
+					else_if = {
+						limit = { has_party_type = traditionalist_party }
+						approval_with_custom_tooltip_effect = {
+							CUSTOM_TOOLTIP = free_hands_conservative_tt
+							PARTY = traditionalist_party
+							VALUE = party_disapproval_medium
+						}
+					}
+					else_if = {
+						limit = { has_party_type = thesprotian_party }
+						approval_with_custom_tooltip_effect = {
+							CUSTOM_TOOLTIP = free_hands_conservative_tt
+							PARTY = thesprotian_party
+							VALUE = party_disapproval_medium
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+grant_citizenship = {
+	effect = {
+		scope:actor = {
+			approval_with_custom_tooltip_effect = {
+				CUSTOM_TOOLTIP = new_citizenship_dislike_tt
+				PARTY = oligarchic_party
+				VALUE = party_disapproval_small
+			}
+			approval_with_custom_tooltip_effect = {
+				CUSTOM_TOOLTIP = new_citizenship_dislike_tt
+				PARTY = optimates_party
+				VALUE = party_disapproval_small
+			}
+			approval_with_custom_tooltip_effect = {
+				CUSTOM_TOOLTIP = new_citizenship_dislike_tt
+				PARTY = chaonian_party
+				VALUE = party_disapproval_small
+			}
+		}
+	}
+}
+
+grant_stipends = {
+	effect = {
+		scope:actor = {
+			if = {
+				limit = {
+					scope:target = {
+						is_head_of_family = yes
+					}
+				}
+				approval_with_custom_tooltip_effect = {
+					CUSTOM_TOOLTIP = family_favoritism_tt
+					PARTY = populares_party
+					VALUE = party_disapproval_medium_svalue
+				}
+				approval_with_custom_tooltip_effect = {
+					CUSTOM_TOOLTIP = family_favoritism_tt
+					PARTY = democratic_party
+					VALUE = party_disapproval_medium_svalue
+				}
+				approval_with_custom_tooltip_effect = {
+					CUSTOM_TOOLTIP = family_favoritism_tt
+					PARTY = chaonian_party
+					VALUE = party_disapproval_medium_svalue
+				}
+			}
+		}
+	}
+}
+
+office_trial = {
+	effect = {
+		scope:actor = {
+			if = {
+				limit = {
+					exists = scope:target.character_party
+				}
+				approval_with_custom_tooltip_party_effect = {
+					CUSTOM_TOOLTIP = targeted_party_tt
+					PARTY = scope:target.character_party
+					VALUE = party_disapproval_medium_svalue
+				}
+			}
+		}
+		scope:actor = {
+			if = {
+				limit = {
+					scope:target = { NOT = { party_type = boni_party  } }
+				}
+				approval_with_custom_tooltip_effect = {
+					CUSTOM_TOOLTIP = republican_robustness_tt
+					PARTY = boni_party
+					VALUE = party_approval_large_svalue
+				}
+			}
+		}
+	}
+}
+
+republic_reward_veterans = {
+	effect = {
+	}
+}
+
+seize_property = {
+	effect = {
+		scope:actor = { #Democrats and Populares approve
+			if = {
+				limit = {
+					OR = {
+						has_party_type = populares_party
+						has_party_type = democratic_party
+						has_party_type = chaonian_party
+					}
+				}
+				custom_tooltip = populists_and_democrats_approve_of_culling_the_aristocracy_tt
+			}
+			approval_effect = {
+				PARTY = populares_party
+				VALUE = party_approval_large_svalue
+			}
+			approval_effect = {
+				PARTY = democratic_party
+				VALUE = party_approval_large_svalue
+			}
+			approval_effect = {
+				PARTY = chaonian_party
+				VALUE = party_approval_large_svalue
+			}
+		}
+	}
+}
+
+sell_into_slavery = {
+	effect = {
+		scope:actor = {
+			if = {
+				limit = {
+					scope:target = {
+						NOT = { has_character_modifier = foreign_citizen }
+					}
+				}
+				approval_with_custom_tooltip_effect = {
+					CUSTOM_TOOLTIP = dislikes_selling_into_slavery_tt
+					PARTY = boni_party
+					VALUE = party_disapproval_medium
+				}
+			}
+			if = {
+				limit = {
+					scope:target = {
+						is_minor_character = no
+					}
+				}
+				approval_with_custom_tooltip_effect = {
+					CUSTOM_TOOLTIP = dislikes_selling_family_slavery_tt
+					PARTY = oligarchic_party
+					VALUE = party_disapproval_medium
+				}
+				approval_with_custom_tooltip_effect = {
+					CUSTOM_TOOLTIP = dislikes_selling_family_slavery_tt
+					PARTY = optimates_party
+					VALUE = party_disapproval_medium
+				}
+				approval_with_custom_tooltip_effect = {
+					CUSTOM_TOOLTIP = dislikes_selling_family_slavery_tt
+					PARTY = thesprotian_party
+					VALUE = party_disapproval_medium
+				}
+			}
+		}
+	}
+}
+
+unappoint_dictator = {
+	effect = {
+		scope:actor = {
+			approval_with_custom_tooltip_effect = {
+				CUSTOM_TOOLTIP = dictator_leaves_tt
+				PARTY = boni_party
+				VALUE = party_approval_large_svalue
+			}
+			approval_with_custom_tooltip_effect = {
+				CUSTOM_TOOLTIP = dictator_leaves_tt
+				PARTY = democratic_party
+				VALUE = party_approval_small_svalue
+			}
+			approval_with_custom_tooltip_effect = {
+				CUSTOM_TOOLTIP = dictator_leaves_tt
+				PARTY = chaonian_party
+				VALUE = party_approval_small_svalue
+			}				
+		}
+	}
+}
+
+smear_character = { #All other parties approve
+	effect = {
+		scope:actor = {
+			if = {
+				limit = {
+					is_republic = yes
+					exists = scope:target.character_party
+				}
+				custom_tooltip = smearing_political_enemies_tt
+				every_party = {
+					limit = {
+						NOT = { THIS = scope:target.character_party }
+					}
+					scope:actor = {
+						add_party_approval = {
+							party = PREV
+							value = party_approval_tiny_svalue
+						}
+					}
+				}
+			}
+			approval_with_custom_tooltip_party_effect = {
+				CUSTOM_TOOLTIP = smearing_our_party_member_tt
+				PARTY = scope:target.character_party
+				VALUE = party_disapproval_small_svalue
+			}
+		}
+	}
+}
+
+convert_religion = {
+	effect = {
+		scope:actor = {
+			approval_effect = {
+				PARTY = traditionalist_party
+				VALUE = party_approval_small_svalue
+			}
+		}
+		scope:actor = {
+			approval_effect = {
+				PARTY = democratic_party
+				VALUE = party_disapproval_medium_svalue
+			}
+		}
+		scope:actor = {
+			approval_effect = {
+				PARTY = thesprotian_party
+				VALUE = party_approval_small_svalue
+			}
+		}
+		scope:actor = {
+			approval_effect = {
+				PARTY = chaonian_party
+				VALUE = party_disapproval_medium_svalue
+			}
+		}
+	}
+}

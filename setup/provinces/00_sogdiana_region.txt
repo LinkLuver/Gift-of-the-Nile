@@ -198,7 +198,7 @@
 		amount=8
 	}
 	citizen={
-		culture="pasargadi"
+		culture="jueyun"
 		religion="zoroaster"
 		amount=2
 	}
@@ -224,14 +224,14 @@
 
 6704={ #Ooemoeia Superiores
 	terrain="farmland"
-	culture="pasargadi"
+	culture="jueyun"
 	religion="taoism"
 	trade_goods="silk"
 	civilization_value=42
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=4
+		amount=8
 	}
 	citizen={
 		amount=14
@@ -252,12 +252,6 @@
 	slaves={
 		culture="sogdian"
 		religion="vaksh_religion"
-		amount=2
-	}
-	slaves={
-		amount=4
-	}
-	tribesmen={
 		amount=2
 	}
 	tribesmen={
@@ -618,9 +612,17 @@
 	trade_goods="wood"
 	civilization_value=23
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=2
+		culture="jueyun"
+	}
 	citizen={
 		amount=2
+	}
+	citizen={
+		amount=4
+		culture="jueyun"
 	}
 	freemen={
 		amount=6
@@ -705,14 +707,23 @@
 	civilization_value=24
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=2
+		culture="jueyun"
+	}
 	citizen={
 		amount=4
+		culture="tayuan"
 	}
 	freemen={
 		amount=7
 	}
 	freemen={
-		culture="sogdian"
+		amount=4
+		culture="tayuan"
+	}
+	freemen={
+		culture="jueyun"
 		religion="zoroaster"
 		amount=2
 	}

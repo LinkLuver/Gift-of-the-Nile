@@ -1,0 +1,85 @@
+﻿country_decisions = {
+	
+	# Form Sicily
+	form_calque_trinacria = {
+		
+		potential = {
+			num_of_cities >= 1
+			OR = {
+				AND = {
+					primary_culture = carthaginian
+					capital_scope = {
+						is_in_region = magna_graecia_region
+					}
+				}
+			}
+			NOR = {
+				is_endgame_tag_trigger = yes
+				is_tier_2_formable_trigger = yes
+				tag = TCR
+			}
+		}
+		
+		#AI for now also uses this to get the list of provinces it must try to conquer.
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 80 #Messana
+					province_id = 84 #Syracuse
+					province_id = 86 #Acragas
+					province_id = 94 #Lilybaeum
+					province_id = 7842
+					province_id = 96 #Panormus
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = formable_not_calque_trinacria_exists
+				NOT = {
+					any_country = {
+						tag = TCR
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns = 84 #Syracuse
+			owns_or_subject_owns = 86 #Acragas
+			owns_or_subject_owns = 80 #Mess
+			owns_or_subject_owns = 94 #Lilybaeum
+			owns_or_subject_owns = 7842 
+			owns_or_subject_owns = 96 #Panormus
+			#NOT = { has_variable = form_sicily_block_flag }
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "CALQUE_TRINACRIA_NAME"
+			tribal_formable_government_change_effect = yes	
+			hidden_effect = {
+				change_country_adjective = "CALQUE_TRINACRIA_ADJECTIVE"
+				change_country_color =  "calque_trinacria_dark_red"
+				change_country_tag = TCR
+				change_country_flag = CALQUE_TRINACRIA_FLAG
+			}
+			capital_scope = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			custom_tooltip = "form_calque_trinacria_claims_tooltip"
+			hidden_effect = {
+				area:east_sicily_area = { formable_area_province_effect = yes }
+				area:west_sicily_area = { formable_area_province_effect = yes }
+				area:syracuse_area = { formable_area_province_effect = yes }
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+} 
+

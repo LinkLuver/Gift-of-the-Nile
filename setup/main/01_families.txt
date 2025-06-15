@@ -587,7 +587,7 @@ family={
 			key = "Ruhunu"
 			prestige=350
 			culture=lankan
-			owner=RHN
+			owner=ANU
 		}
 		252 = {
 			key = "Osicanid"
@@ -802,6 +802,13 @@ family={
 			prestige=100
 			culture=atlosian
 			owner=MSL
+		}
+		#GOTN Anatolia
+		2500 = {
+			key = "Croesid"
+			prestige=300
+			culture=lydian
+			owner=LYD
 		}
 	}
 }

@@ -1,0 +1,95 @@
+﻿country_decisions = {
+	
+	# Form Agartia
+	form_agartia = {
+		
+		potential = {
+			num_of_cities >= 1
+			primary_culture = sagartian
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+				has_variable = has_formed_agartia
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = sagartia_area
+					province_id = 6607
+					province_id = 6567
+					province_id = 6568
+					province_id = 6596
+					province_id = 3471
+					province_id = 3470
+					province_id = 3460
+					province_id = 3461
+					province_id = 6602
+					province_id = 3463
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = "formable_not_agartia_exists"
+				NOT = {
+					any_country = {
+						tag = AGT
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns_area = sagartia_area
+			owns_or_subject_owns = 6607
+			owns_or_subject_owns = 6567
+			owns_or_subject_owns = 6568
+			owns_or_subject_owns = 6596
+			owns_or_subject_owns = 3471
+			owns_or_subject_owns = 3470
+			owns_or_subject_owns = 3460
+			owns_or_subject_owns = 3461
+			owns_or_subject_owns = 6602
+			owns_or_subject_owns = 3463
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "AGARTIA_NAME"
+			change_government = stratocratic_monarchy
+			tribal_formable_government_change_effect = yes
+			custom_tooltip = "form_agartia_claims_tooltip"
+			set_variable = has_formed_agartia
+			hidden_effect = {
+				change_country_adjective = "AGARTIA_ADJECTIVE"
+				change_country_color = agartian_teal
+				change_country_flag = AGARTIA_FLAG
+				change_country_tag = AGT
+				every_province = {
+					limit = {
+						OR = {
+							is_in_region = parthia_region
+							is_in_area = ardashir_area
+							is_in_area = carmania_area
+							is_in_area = drangiana_area
+							is_in_area = pactya_area
+							is_in_area = aria_area
+						}
+					}
+					add_claim = root
+				}
+			}
+			capital_scope = {
+				capital_formable_small_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_4_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+}

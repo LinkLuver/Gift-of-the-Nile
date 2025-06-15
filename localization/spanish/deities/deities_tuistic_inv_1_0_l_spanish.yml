@@ -1,0 +1,77 @@
+﻿l_spanish:
+ #Germanics
+deity_mannus:0 "$omen_mannus$"
+omen_mannus:1 "Mannuz"
+omen_mannus_desc:3 "Llamado Mannus por Tácito, Mannuz fue hijo de nuestro antepasado Twisto, y él mismo dio origen a tres hijos que luego se expandirían y poblarían el mundo. Por lo tanto, también es el antepasado de todos los pueblos germánicos, aunque algunas tribus sostienen que tuvo más hijos, es decir, sus propios antepasados. Como el primer ser en poseer virilidad humana, es venerado como su símbolo y patrón."
+
+deity_yngvi:0 "$omen_yngvi$"
+omen_yngvi:1 "Ingwaz"
+omen_yngvi_desc:3 "Nuestro señor, en germánico Frawjaz (convertido en Freyr en nórdico antiguo), Ingwaz es uno de los hijos de Mannuz y progenitor de los Ingvaeones. Los reyes noruegos luego rastrearían su linaje hasta el dios de la prosperidad que llamaron Yngvi."
+
+deity_irmin:0 "$omen_irmin$"
+omen_irmin:1 "Ermunaz"
+omen_irmin_desc:3 "El gran pilar que sostiene el mundo es el Ermunasuliz, que está relacionado con el dios Ermunaz, uno de los hijos de Mannuz y antepasado de los Irminones. Carlomagno luego destruiría un árbol llamado Irminsul, provocando la ira de los sajones bajo Widukind."
+
+deity_istaevo:0 "$omen_istaevo$"
+omen_istaevo:1 "Istijo"
+omen_istaevo_desc:3 "No se sabe mucho sobre Istijo, el tercer hijo de Mannuz. Los Istvaeones se unieron más tarde como los francos, que afirmaron que ellos y los romanos eran descendientes de Istijo para integrar la historia romana en la historia franca."
+
+deity_gautr:0 "$omen_gautr$"
+omen_gautr:1 "Gautaz"
+omen_gautr_desc:3 "Gautaz, derivado de ''verter'', es uno de los muchos nombres de Wodenaz (conocido por los nórdicos como Odín) y el primer nombre mencionado en fuentes romanas. A menudo se le representa junto con dos cuervos que le informan sobre todos los eventos en la tierra (llamados Huginn y Muninn en nórdico antiguo) y con un solo ojo, ya que sacrificó uno de ellos para obtener aún más sabiduría."
+
+deity_thunraz:0 "$omen_thunraz$"
+omen_thunraz:1 "Thunraz"
+omen_thunraz_desc:3 "Un dios portador de un martillo, asociado con los rayos, truenos, tormentas, arboledas y árboles sagrados, fuerza, protección de la humanidad, así como la consagración y fertilidad. Donar, conocido siglos después por los vikingos nórdicos como Thor, fue un dios germánico de gran importancia. \n\nHistóricamente, los primeros registros de los pueblos germánicos fueron realizados por los romanos, y en estas obras Donar/Thor es frecuentemente referido, a través de un proceso conocido como interpretatio romana (donde las características percibidas como similares por los romanos resultan en la identificación de un dios no romano como una deidad romana) – como el dios greco-romano Hércules.\n\n Donar/Thor es un dios mencionado prominentemente a lo largo de la historia registrada de los pueblos germánicos, desde la ocupación romana de regiones de Germania, hasta las expansiones germánicas del período de migración, hasta su alta popularidad durante la era vikinga."
+
+deity_tiwaz:0 "$omen_tiwaz$"
+omen_tiwaz:1 "Tiwaz"
+omen_tiwaz_desc:3 "Tiwaz, una forma temprana del dios nórdico Tyr, fue un dios de la guerra germánico de gran importancia. En la mitología nórdica, de la cual provienen la mayoría de los relatos sobrevivientes sobre dioses entre los pueblos germánicos, sacrifica su mano al monstruoso lobo Fenrir, quien le muerde el miembro mientras los dioses atan al animal, y se predice que será consumido por el igualmente monstruoso perro Garmr durante los eventos del Ragnarök.\n\nAunque el patrimonio etimológico de Tiwaz se remonta al período protoindoeuropeo, conectándolo con Zeus y Júpiter, muy pocas referencias directas al dios sobreviven antes del período nórdico antiguo. Al igual que muchas otras deidades no romanas, Tiwaz recibe menciones en textos latinos a través del proceso de interpretatio romana, en el que los textos latinos se refieren al dios a través de un contraparte percibida en la mitología romana, identificándolo con Marte."
+
+deity_wodenaz:0 "$omen_wodenaz$"
+omen_wodenaz:1 "Wodenaz"
+omen_wodenaz_desc:3 "Una forma temprana del dios nórdico Odín, Wodenaz fue un dios muy venerado en la mitología germánica. La mitología nórdica, la fuente de la mayor parte de la información sobreviviente sobre él, lo asocia con la sabiduría, la curación, la muerte, la realeza, la horca, el conocimiento, la guerra, la batalla, la victoria, la hechicería, la poesía, el frenesí y el alfabeto rúnico, y lo proyecta como el esposo de la diosa Frigg. \n\nLos primeros registros de los pueblos germánicos fueron realizados por los romanos, y en estas obras, frecuentemente se le menciona, a través de un proceso conocido como interpretatio romana (donde las características percibidas como similares por los romanos resultan en la identificación de un dios no romano como una deidad romana) – como el dios romano Mercurio. \n\nEl primer ejemplo claro de esto se encuentra en la obra Germania del historiador romano Tácito del siglo I, donde, escribiendo sobre la religión de los suevos (una confederación de pueblos germánicos), comenta que 'entre los dioses, Mercurio es el que adoran principalmente. Consideran que es un deber religioso ofrecerle, en días fijos, víctimas humanas, así como otros sacrificios.'"
+
+deity_wulthuz:0 "$omen_wulthuz$"
+omen_wulthuz:1 "Wulthuz"
+omen_wulthuz_desc:3 "Wulthuz, o Ullr en la mitología nórdica, fue un dios germánico de notable importancia. Era un dios asociado con el invierno, la caza y la arquería. Se decía que era un excelente esquiador y a menudo se lo representaba con esquís y un arco. Algunas fuentes también lo conectan con la toma de juramentos y la justicia debido a su nombre, Wulthuz, que significa gloria y justicia.\n\nAunque gran parte del conocimiento sobre el dios en cuestión se ha perdido, debido a que la memoria de Wulthuz se había desvanecido para cuando se compusieron las fuentes existentes (lo que posiblemente indica que pudo haber sido más antiguo que otros dioses nórdicos, por lo tanto, podría provenir de versiones anteriores del mito)."
+
+deity_frijjo:0 "$omen_frijjo$"
+omen_frijjo:1 "Frijjo"
+omen_frijjo_desc:3 "Una diosa germánica asociada con la previsión y la sabiduría, Frijjo, o como sería conocida más tarde por los nórdicos, Frigg, fue la esposa de Odín. \n\nSe encuentra una posible mención histórica temprana de ella a partir de las interacciones de los romanos con los pueblos germánicos a través del proceso de interpretatio romana, en el que los textos latinos se refieren a la diosa a través de un contraparte percibida en la mitología romana, comparándola con la diosa Isis, aunque cabe destacar que esta mención histórica podría haber sido referida en su lugar a la diosa Frawjo, conocida más tarde por los nórdicos como Freyja. \n\nLos estudiosos debaten si Freyja y la diosa Frigg finalmente derivan de una sola diosa común entre los pueblos germánicos. Aunque esto es posible y comparten muchos atributos, es solo una teoría y otros sostienen que, de hecho, se originaron a partir de dos diosas diferentes."
+
+deity_frawjo:0 "$omen_frawjo$"
+omen_frawjo:1 "Frawjo"
+omen_frawjo_desc:3 "Una diosa germánica asociada con el amor, la belleza, la fertilidad, el sexo, la guerra, el oro y el seiðr, Frawjo, fue conocida más tarde por los nórdicos como Freyja, y la mayor parte de la información sobreviviente sobre ella proviene de estos mitos posteriores. Freyja gobierna sobre su campo celestial, Fólkvangr, donde recibe a la mitad de aquellos que mueren en batalla, la otra mitad va al salón del dios Odín, Valhalla. \n\nExiste una posible mención histórica temprana de ella a partir de las interacciones de los romanos con los pueblos germánicos a través del proceso de interpretatio romana, en el que los textos latinos se refieren a la diosa a través de un contraparte percibida en la mitología romana, comparándola con la diosa Isis, aunque cabe destacar que esta mención histórica podría haber sido referida en su lugar a la diosa Frijjo, conocida más tarde por los nórdicos como Frigg. \n\nLos estudiosos debaten si Freyja y la diosa Frigg finalmente derivan de una sola diosa común entre los pueblos germánicos. Aunque esto es posible y comparten muchos atributos, es solo una teoría y otros sostienen que, de hecho, se originaron a partir de dos diosas diferentes."
+
+deity_halja:0 "$omen_halja$"
+omen_halja:1 "Halja"
+omen_halja_desc:3 "Halja, conocida más tarde por los nórdicos como Hel, era una diosa germánica de la muerte y gobernante del inframundo, que lleva su nombre. Aunque la única información histórica sobreviviente proviene de su posterior encarnación nórdica como Hel, hay posible evidencia temprana de ella que data de la época romana, siglos antes. \n\nSe ha sugerido que varios medallones de imitación y bracteatos del período de migración germánica (aproximadamente los primeros siglos d.C.) presentan representaciones de ella. En particular, los bracteatos IK 14 e IK 124 muestran un jinete descendiendo por una pendiente y encontrándose con un ser femenino que sostiene un cetro o un bastón. La pendiente descendente puede indicar que el jinete se dirige hacia el reino de los muertos y la mujer con el cetro podría ser una gobernante femenina de ese reino, correspondiente a Halja."
+
+deity_haimadallaz:0 "$omen_haimadallaz$"
+omen_haimadallaz:0 "Haimadallaz"
+omen_haimadallaz_desc:0 "Haimadallaz es un nombre para la antigua deidad en el paganismo germánico que era el equivalente del dios nórdico Heimdallr. Aunque no sabemos cómo los germánicos habrían llamado a este dios, hay evidencia que sugiere que Heimdallr fue un dios venerado mucho antes de que el panteón nórdico se separara del panteón germánico.\n\nBasado en suposiciones de la mitología nórdica, Haimadallaz estaba asociado con la protección y la defensa del hogar de los dioses. Su nombre, de hecho, parece tener raíces en esta idea, ya que 'haimaz' significa hogar y 'dallaz' significa árbol, por lo tanto, él es el protector del hogar de los dioses y del árbol del mundo.\n\nAunque no todos los estudiosos están de acuerdo, se ha propuesto que Haimadallaz también podría haber sido un dios de la sexualidad y la fertilidad. Esto se basa en su asociación con el símbolo fálico del carnero y su asociación con el árbol del mundo, que es un árbol de la vida. Esto se complementa además con la palabra 'dallr' que a veces se asocia con la diosa de la fertilidad, Frijjo."
+
+deity_luk:0 "$omen_luk$"
+omen_luk:1 "Luko"
+omen_luk_desc:3 "Una posible encarnación temprana del dios nórdico Loki, el dios germánico Luko (aunque la etimología del nombre Loki ha sido debatida extensamente, se cree que su origen está en la raíz germánica Luk 'cerradura') es un dios cuyas orígenes y papel en la mitología han sido ferozmente debatidos por los estudiosos, algunos de los cuales lo han descrito como un dios embaucador, mientras que otros han teorizado que podría haber servido como un dios del hogar/fuego, similar a la diosa griega Hestia. \n\nAunque se ha encontrado poca evidencia sólida de su existencia germánica temprana en este período de la historia, al igual que con otros dioses nórdicos, algunos estudiosos creen que probablemente existió en este punto, debido a su posterior importancia en la mitología nórdica."
+
+deity_baloraz:0 "$omen_baloraz$"
+omen_baloraz:1 "Baldraz"
+omen_baloraz_desc:3 "Un dios en la mitología germánica, Baldraz fue una encarnación temprana del dios nórdico Baldr, quien era hijo de Odín y Frigg y es el dios de la luz, la alegría, la pureza y el sol de verano. En la mitología nórdica posterior, la muerte de Baldr es tanto una gran tragedia para los Æsir como un presagio de Ragnarök. \n\nA veces se le ha comparado con el Apolo grecorromano, para quien existen características similares. \n\nAunque se ha encontrado poca evidencia sólida de su existencia germánica temprana en este período de la historia, al igual que con otros dioses nórdicos, algunos estudiosos creen que probablemente existió en este punto, debido a su posterior importancia en la mitología nórdica."
+
+deity_brodenaz:0 "$omen_brodenaz$"
+omen_brodenaz:0 "Brodenaz"
+omen_brodenaz_desc:0 "Hemos identificado al dios Brahma de los hindúes con el poderoso Wodenaz. En nuestras creencias combinadas, el gran Brodenaz es el ser supremo. El dios de la sabiduría y la magia creó el mundo, y también es la deidad patrona de la fraternidad. Un popular culto llamado 'Los Bros de Brodenaz' ha surgido en nuestra nación."
+
+deity_wishnuaz:0 "$omen_wishnuaz$"
+omen_wishnuaz:0 "Wishtunraz"
+omen_wishnuaz_desc:0 "El dios Wishnu de los indígenas es el dios del pueblo, muy parecido al poderoso Thunraz. Así, nuestra creencia combinada da a luz a Wishtunraz. Wishtunraz aparece en muchas formas, y en la forma de nuestro pueblo, empuña el poder del trueno. Es nuestra conexión con el reino divino. A veces se le conoce como una deidad voluble por alguna razón extraña."
+
+deity_frijjoshmi:0 "$omen_frijjoshmi$"
+omen_frijjoshmi:0 "Frijjoshmi"
+omen_frijjoshmi_desc:0 "La diosa de la belleza, Frijjo, y la diosa de la fortuna, Lakshmi, se han unido como Frijjoshmi. El amor y la suerte son una combinación mortal, aunque algunos encuentran extraño que Frijjoshmi esté casada tanto con Brodenaz como con Wishtunraz en nuestra fe híbrida."
+
+deity_freyrudra:0 "$omen_freyrudra$"
+omen_freyrudra:0 "Freyrudra"
+omen_freyrudra_desc:0 "Freyr y Rudra se combinan en nuestras creencias para formar Freyrudra. Freyr representa el buen tiempo y la cosecha, mientras que Rudra representa los vientos y las tormentas. Juntos forman una deidad suprema del clima y, además, es el supremo erradicador de problemas y divinidad de los reyes. Freyrudra también es llamado 'Señor de los Once' debido a las raíces de su nombre que significan justamente eso. Se dice que 7 cultos de los 11 están repartidos por nuestras tierras."

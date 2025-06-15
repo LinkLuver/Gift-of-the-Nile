@@ -231,6 +231,7 @@ gotn_events.8 = {
            primary_culture = carthaginian
            primary_culture = ibero_punic
            primary_culture = atlosian
+           primary_culture = massylian
         }
     }
     fire_only_once = yes
@@ -261,7 +262,13 @@ gotn_events.9 = {
             primary_culture = tylian
             primary_culture = dumarian
             primary_culture = dardanian
-         }
+        }
+        NOT = {
+            tag = KZK
+            tag = KIO
+            tag = AST
+            tag = CDD
+        }
     }
     fire_only_once = yes
     
@@ -300,3 +307,377 @@ gotn_events.10 = {
         name = "gotn_events_9.a"
     }
 }
+
+gotn_events.11 = { # Garamantic Collapse
+    
+type = country_event
+title = "gotn_events_11_title"
+desc = "gotn_events_11_desc"
+picture = Event_fire_city
+left_portrait = current_ruler
+left_portrait = c:GAR.current_ruler
+left_portrait = c:PHZ.current_ruler
+right_portrait = c:MDJ.current_ruler
+right_portrait = c:LP1.current_ruler
+right_portrait = c:BRK.current_ruler
+
+trigger = {
+    is_ai = no
+    OR = {
+        tag = PHZ
+        tag = GAR
+        tag = MDJ
+        tag = LP1
+        tag = LP2
+        tag = GA4 
+        tag = GH2 
+        tag = BRK 
+        tag = SBH 
+        tag = MZQ
+        tag = LKS 
+        tag = KNH
+        tag = NAS
+        tag = MHY
+        tag = MKA
+        tag = PSY
+        tag = GIN
+        tag = EMP
+        tag = TRP
+        tag = SP1
+    }
+    capital_scope = {
+        OR = {
+            is_in_region = fezzan_region
+            is_in_region = cyrenaica_region
+        }
+    }
+}
+fire_only_once = yes
+
+option = {
+    name = "gotn_events_11.a"
+    add_country_modifier = {
+        name = garamantic_collapse
+        duration = 3500
+        }
+    }
+}
+
+gotn_events.12 = { # Languishing Lydia
+    
+    type = country_event
+    title = "gotn_events_12_title"
+    desc = "gotn_events_12_desc"
+    picture = interesting_histories_greek_city_temple
+    left_portrait = current_ruler
+    left_portrait = c:LYD.current_ruler
+    left_portrait = c:PHR.current_ruler
+    right_portrait = c:KIO.current_ruler
+    right_portrait = c:RHO.current_ruler
+    right_portrait = c:LYC.current_ruler
+
+    trigger = {
+        OR = {
+            capital_scope = {
+                is_in_region = asia_region
+            }
+            capital_scope = {
+                is_in_region = galatia_region
+            }
+            capital_scope = {
+                is_in_region = bithynia_region
+            }
+            OR = {
+                tag = LYC
+            }
+        }
+    }
+    fire_only_once = yes
+    
+    option = {
+        name = "gotn_events_12.a"
+        if = {
+            limit = {
+                tag = LYD
+            }
+            trigger_event = {
+                id = gotn_events.13
+                days = { 30 60 }
+            }
+        }
+    }
+}
+
+gotn_events.13 = { # Economic Disaster
+    
+    type = country_event
+    title = "gotn_events_13_title"
+    desc = "gotn_events_13_desc"
+    picture = hk_sumerian_court
+
+    immediate = {
+        random_country= {
+            limit = {
+                tag = ATH
+            }
+            save_scope_as = athens_trade_scope
+        }
+    }
+
+    option = {
+        name = "gotn_events_13.a"
+        custom_tooltip = "lydia_economy_1_tt"
+        add_country_modifier = {
+            name = lydian_economic_disaster
+            duration = -1
+        }
+        add_stability = -25
+        scope:athens_trade_scope = {
+            trigger_event = {
+                id = greece_events.1
+                days = { 15 30 }
+            }
+        }
+    }
+}
+
+gotn_events.14 = { # Alexandrine Ambitions
+    
+    type = country_event
+    title = "gotn_events_14_title"
+    desc = "gotn_events_14_desc"
+    picture = interesting_histories_greek_city_temple
+    left_portrait = current_ruler
+    left_portrait = c:PTI.current_ruler
+    left_portrait = c:KOR.current_ruler
+    right_portrait = c:TRE.current_ruler
+    right_portrait = c:CRD.current_ruler
+    right_portrait = c:ARG.current_ruler
+
+    trigger = {
+        OR = {
+            tag = MAC
+        }
+    }
+    fire_only_once = yes
+    
+    option = {
+    custom_tooltip = "gotn_events_14_tt"
+    name = "gotn_events_14.a"
+    add_country_modifier = {
+        name = macedon_ambition
+        duration = 1825
+        }
+    }
+}
+
+gotn_events.15 = { # Theban Overtures
+    
+    type = country_event
+    title = "gotn_events_15_title"
+    desc = "gotn_events_15_desc"
+    picture = interesting_histories_purple_soldier
+    left_portrait = current_ruler
+    left_portrait = c:EUB.current_ruler
+    right_portrait = c:CM4.current_ruler
+    right_portrait = c:TRE.current_ruler
+
+    trigger = {
+        OR = {
+            tag = THE
+        }
+    }
+    fire_only_once = yes
+  
+    option = {
+    custom_tooltip = "gotn_events_15_a_tt"
+    name = "gotn_events_15.a"
+    ai_chance = {
+        factor = 70
+    }
+    add_political_influence = -30
+    add_aggressive_expansion = 5
+    declare_war_with_wargoal = {
+        target = c:CM4
+        war_goal = conquer_wargoal
+        province = 423
+    }
+    random_current_war = {
+        limit = {
+            any_war_participant = { tag = CM4 }
+            any_war_participant = { this = root }
+            is_war_leader = root
+            is_war_leader = c:CM4
+        }
+        save_scope_as = thebes_oroch_war_scope
+    }
+    hidden_effect = {
+            limit = {
+                OR = {
+                   tag = BOE
+                   tag = OPU
+                   tag = TAN
+                }
+            }
+            add_to_war = {
+                target = thebes_oroch_war_scope
+                attacker = yes
+                leader = no
+            } 
+        }
+        c:TRE = {
+            trigger_event = {
+                id = greece_events.5
+                days = { 5 10 }
+            }
+        }
+        c:CM4 = {
+            trigger_event = {
+                id = greece_events.4
+                days = 2
+        }
+    }
+    add_country_modifier = {
+        name = theban_overtures
+        duration = 1825
+        }
+    }
+    option = {
+    custom_tooltip = "gotn_events_15_b_tt"
+    name = "gotn_events_15.b"
+    ai_chance = {
+        factor = 10
+    }
+    c:ORE = {
+        trigger_event = {
+            id = greece_events.6
+            days = { 5 10 }
+        }
+    }
+    add_political_influence = -30
+    add_country_modifier = {
+        name = theban_overtures
+        duration = 1825
+        }
+    }
+    option = {
+    name = "gotn_events_15.c"
+    ai_chance = {
+        factor = 20
+    }
+    add_political_influence = 30
+    add_stability = 5
+    add_country_modifier = {
+        name = theban_overtures
+        duration = 1825
+        }
+    }
+}
+
+gotn_events.16 = { # The True Sons of Krete
+    
+    type = country_event
+    title = "gotn_events_16_title"
+    desc = "gotn_events_16_desc"
+    picture = Event_roman_senate_speaks
+
+    trigger = {
+        OR = {
+            tag = PRE
+        }
+    }
+    fire_only_once = yes
+    
+    option = {
+    custom_tooltip = "gotn_events_16_tt"
+    name = "gotn_events_16.a"
+    current_ruler = {
+        add_trait = ambitious
+        add_trait = orator
+    }
+    hidden_effect = {
+        area:crete_area = { formable_area_province_effect = yes }
+        #set_graphical_culture = cretan_gfx This doesn't work for now
+    }
+    add_country_modifier = {
+        name = sons_of_crete
+        duration = 1825
+        }
+    }
+}
+
+gotn_events.17 = { # Jueyun Backstory
+    
+    type = country_event
+    title = "gotn_events_17_title"
+    desc = "gotn_events_17_desc"
+    picture = Event_roman_senate_speaks
+
+    trigger = {
+        OR = {
+            tag = TAY
+        }
+    }
+    fire_only_once = yes
+    
+    option = {
+    custom_tooltip = "gotn_events_17_tt"
+    name = "gotn_events_17.a"
+    hidden_effect = {   
+		current_ruler = {
+        add_trait = ambitious
+		}
+		create_character = {
+			female = no
+			culture = root.culture
+			religion = daoism
+			no_stats = yes
+			add_charisma = 5
+			add_finesse = 3
+			add_martial = 14
+			add_zeal = 8
+			add_popularity = 80
+			add_gold = 300
+		}
+    }
+    add_country_modifier = {
+        name = tayuan_exile_army
+        duration = 3652
+        }
+    }
+}
+
+gotn_events.18 = { # The Riches of Korinth
+    
+    type = country_event
+    title = "gotn_events_18_title"
+    desc = "gotn_events_18_desc"
+    picture = gotn_korinth_acropolis
+
+    left_portrait = current_ruler 
+    left_portrait = c:SPA.current_ruler
+    right_portrait = c:ATH.current_ruler
+    right_portrait = c:THE.current_ruler
+
+    trigger = {
+        OR = {
+            tag = KOR
+        }
+    }
+    fire_only_once = yes
+    
+    option = {
+    name = "gotn_events_18.a"
+    current_ruler = {
+        add_popularity = 20
+        add_trait = silver_tongued
+    }
+    add_political_influence = 20
+    }
+}
+
+
+
+
+
+

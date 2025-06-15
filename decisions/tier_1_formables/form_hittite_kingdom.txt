@@ -36,11 +36,13 @@
 
 		effect = {
 			custom_tooltip = "tier_1_formable_tooltip"
-			change_country_name = "NHITTITE_NAME"
+			if = { limit = { is_monarchy = yes} change_country_name = "NHITTITE_NAME" }
+			if = { limit = { is_republic = yes} change_country_name = "NHITTITE_NAME_2" }
 			add_2_free_province_investments = yes
 			custom_tooltip = "form_hittite_claims_tooltip"
 			capital_scope = {
 				capital_formable_small_effect = yes
+				formable_capital_modifier_normal_effect = yes
 			}
 			add_country_modifier = {
 			    name = hittite_mod
@@ -50,6 +52,7 @@
 				change_country_adjective = "NHITTITE_ADJECTIVE"
 				change_country_color = ck2_black
 				change_country_tag = NHT
+				change_country_flag = NHITTITE_FLAG
 			hidden_effect = {
 			every_province = {
 					limit = {

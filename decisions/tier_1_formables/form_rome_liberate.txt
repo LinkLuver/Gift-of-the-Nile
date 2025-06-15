@@ -1,0 +1,56 @@
+﻿country_decisions = {
+	
+	#form Rome 
+	form_rome_liberate = {
+		
+		potential = {
+			num_of_cities >= 1
+			OR = {
+			 	tag = ROM
+			 	primary_culture = roman
+			}
+			NOT = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+				has_variable = has_formed_rome
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+				province_id = 1
+				}
+			}
+		}
+		
+		allow = {
+			can_form_nation_trigger = yes
+			owns = 1
+		}
+		
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			set_variable = has_formed_rome
+			add_2_free_province_investments = yes
+			set_capital = 1
+			hidden_effect = {
+				trigger_event = { 
+					id = gotn_formable_event.8
+					days = { 1 30 }
+				}
+			}
+			p:1 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+}

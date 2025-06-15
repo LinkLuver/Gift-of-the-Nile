@@ -105,6 +105,19 @@ template south_europe_missions {
 			onclick = "[SetLobbyCountryTag('CYR')]"
 		}
 	}
+	starting_nation = {
+		tooltip = "ghadames_start"
+		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('PHZ').Self )]"
+		blockoverride "flag"
+		{
+			texture = "[GetCountry('PHZ').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+			frame = "[GetCountry('PHZ').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+		}
+		blockoverride "click"
+		{
+			onclick = "[SetLobbyCountryTag('PHZ')]"
+		}
+	}
 }
 
 template north_europe_missions {
@@ -174,16 +187,29 @@ template north_europe_missions {
 		}
 	}
 	starting_nation = {
-		tooltip = "apphana_start"
-		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('AM4').Self )]"
+		tooltip = "hanigalbat_start"
+		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('HAG').Self )]"
 		blockoverride "flag"
 		{
-		texture = "[GetCountry('AM4').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-		frame = "[GetCountry('AM4').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+		texture = "[GetCountry('HAG').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+		frame = "[GetCountry('HAG').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
 		}
 		blockoverride "click"
 		{
-		onclick = "[SetLobbyCountryTag('AM4')]"
+		onclick = "[SetLobbyCountryTag('HAG')]"
+		}
+	}
+	starting_nation = {
+		tooltip = "carduene_start"
+		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('KDR').Self )]"
+		blockoverride "flag"
+		{
+			texture = "[GetCountry('KDR').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+			frame = "[GetCountry('KDR').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+		}
+		blockoverride "click"
+		{
+			onclick = "[SetLobbyCountryTag('KDR')]"
 		}
 	}
 }	
@@ -266,10 +292,23 @@ template africa_missions {
 		{
 		onclick = "[SetLobbyCountryTag('SWR')]"
 		}
-	}
+	}	
 }
 
 template asian_missions {
+	starting_nation = {
+		tooltip = "macedon_start"
+		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('MAC').Self )]"
+		blockoverride "flag"
+		{
+			texture = "[GetCountry('MAC').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+			frame = "[GetCountry('MAC').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+		}
+		blockoverride "click"
+		{
+			onclick = "[SetLobbyCountryTag('MAC')]"
+		}
+	}
 	starting_nation = {
 		tooltip = "lydia_start"
 		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('LYD').Self )]"
@@ -333,22 +372,6 @@ template asian_missions {
 		blockoverride "click"
 		{
 			onclick = "[SetLobbyCountryTag('HIT')]"
-		}
-	}
-}
-
-template indian_missions {
-	starting_nation = {
-		tooltip = "macedon_start"
-		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('MAC').Self )]"
-		blockoverride "flag"
-		{
-			texture = "[GetCountry('MAC').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-			frame = "[GetCountry('MAC').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-		}
-		blockoverride "click"
-		{
-			onclick = "[SetLobbyCountryTag('MAC')]"
 		}
 	}
 	starting_nation = {
@@ -430,3 +453,137 @@ template indian_missions {
 		}
 	}
 }
+
+template indian_missions {
+	starting_nation = {
+		tooltip = "massalia_start"
+		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('MAS').Self )]"
+		blockoverride "flag"
+		{
+			texture = "[GetCountry('MAS').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+			frame = "[GetCountry('MAS').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+		}
+		blockoverride "click"
+		{
+			onclick = "[SetLobbyCountryTag('MAS')]"
+		}
+	}
+	starting_nation = {
+		tooltip = "faliscan_start"
+		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('FLS').Self )]"
+		blockoverride "flag"
+		{
+			texture = "[GetCountry('FLS').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+			frame = "[GetCountry('FLS').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+		}
+		blockoverride "click"
+		{
+			onclick = "[SetLobbyCountryTag('FLS')]"
+		}
+	}
+	starting_nation = {
+		tooltip = "carthage_start"
+		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('CAR').Self )]"
+		blockoverride "flag"
+		{
+			texture = "[GetCountry('CAR').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+			frame = "[GetCountry('CAR').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+		}
+		blockoverride "click"
+		{
+			onclick = "[SetLobbyCountryTag('CAR')]"
+		}
+	}
+	starting_nation = {
+		tooltip = "nura_start"
+		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('CTU').Self )]"
+		blockoverride "flag"
+		{
+			texture = "[GetCountry('CTU').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+			frame = "[GetCountry('CTU').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+		}
+		blockoverride "click"
+		{
+			onclick = "[SetLobbyCountryTag('CTU')]"
+		}
+	}
+	starting_nation = {
+		tooltip = "heraklea_aphrike_start"
+		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('MSL').Self )]"
+		blockoverride "flag"
+		{
+			texture = "[GetCountry('MSL').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+			frame = "[GetCountry('MSL').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+		}
+		blockoverride "click"
+		{
+			onclick = "[SetLobbyCountryTag('MSL')]"
+		}
+	}
+	starting_nation = {
+		tooltip = "malaca_start"
+		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('CPA').Self )]"
+		blockoverride "flag"
+		{
+			texture = "[GetCountry('CPA').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+			frame = "[GetCountry('CPA').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+		}
+		blockoverride "click"
+		{
+			onclick = "[SetLobbyCountryTag('CPA')]"
+		}
+	}
+	starting_nation = {
+		tooltip = "numidia_start"
+		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('MSS').Self )]"
+		blockoverride "flag"
+		{
+			texture = "[GetCountry('MSS').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+			frame = "[GetCountry('MSS').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+		}
+		blockoverride "click"
+		{
+			onclick = "[SetLobbyCountryTag('MSS')]"
+		}
+	}
+	starting_nation = {
+		tooltip = "pytheapolis_start"
+		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('BDX').Self )]"
+		blockoverride "flag"
+		{
+			texture = "[GetCountry('BDX').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+			frame = "[GetCountry('BDX').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+		}
+		blockoverride "click"
+		{
+			onclick = "[SetLobbyCountryTag('BDX')]"
+		}
+	}
+	starting_nation = {
+		tooltip = "syracuse_start"
+		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('SY1').Self )]"
+		blockoverride "flag"
+		{
+			texture = "[GetCountry('SY1').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+			frame = "[GetCountry('SY1').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+		}
+		blockoverride "click"
+		{
+			onclick = "[SetLobbyCountryTag('SY1')]"
+		}
+	}
+	starting_nation = {
+		tooltip = "per_shekelesh_start"
+		onmousehierarchyenter = "[SetHighlightCountry( GetCountry('KSC').Self )]"
+		blockoverride "flag"
+		{
+			texture = "[GetCountry('KSC').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+			frame = "[GetCountry('KSC').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+		}
+		blockoverride "click"
+		{
+			onclick = "[SetLobbyCountryTag('KSC')]"
+		}
+	}
+}
+

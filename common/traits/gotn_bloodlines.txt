@@ -150,3 +150,21 @@ ailymasid = {
 		light_cavalry_discipline = 0.05
 	}
 }
+
+blood_of_croesus = {
+	type = status
+	finesse = 1
+	country = {
+		tribute_income_modifier = 0.10
+	}
+	prominence = 20
+}
+
+sisyphos = {
+	type = status
+	charisma = 1 
+	country = {
+		monthly_political_influence_modifier = 0.10
+	}
+	prominence = 20
+}

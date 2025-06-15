@@ -761,7 +761,7 @@ deity_nusku = {
 	icon = deity_love
 	passive_modifier = { global_freemen_output = deity_global_freemen_output_svalue }
 	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier }
-	religion = mesopotamian_religion
+	religion = ashur_religion
 	deity_category = fertility
 	deification_trigger = {
 		can_deify_trigger = yes

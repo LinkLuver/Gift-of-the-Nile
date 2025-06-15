@@ -1,0 +1,109 @@
+﻿namespace = greek_colonization_events
+# Arktoseia tagswitch event
+greek_colonization_events.1 = {
+	
+	type = country_event
+	title = "greek_colonization_events_1_title"
+	desc = "greek_colonization_events_1_desc"
+	picture = greek_court
+
+	trigger = {
+		is_ai = no
+		tag = TYS
+		NOT = {
+			has_global_variable = riparum_created
+		}
+	}
+
+	immediate = {
+		set_global_variable = riparum_created
+		p:4945 = {
+			add_to_list = new_country_province_list
+		}
+	}
+
+	option = {
+		name = greek_colonization_events.1.a
+		ai_chance = {
+			base = 100
+		}
+		custom_tooltip = riparum_release_as_subject_tt
+		hidden_effect = {
+			create_character = {
+				first_name = "Doron"
+				family_name = "Widung"
+				   age = 27
+				culture = bastarnae
+				religion = roman_pantheon
+				female = no
+				add_martial = 6
+				add_finesse = 3
+				good_finesse_trait_effect = yes
+				good_popularity_trait_effect = yes
+				save_scope_as = arktos_ruler
+			}
+			p:4945 = {
+				create_country = {
+					name = {
+						name = "AKS"
+						adjective = "AKS_ADJ"
+					}
+					change_country_tag = AKS
+					change_country_flag = AKS
+					change_country_color = arktoseia_color
+					if = {
+						limit = {
+							NOT = {
+								primary_culture = bosporan
+							}
+						}
+						set_primary_culture_cleanup_effect = {
+							NEW_PRIMARY_CULTURE = bosporan
+							MAKE_OLD_CULTURE_INTEGRATED = yes
+						}
+					}
+					set_country_religion = roman_pantheon
+					change_government = plutocratic_republic
+					set_country_heritage = arktoseia_heritage
+					set_as_ruler = scope:arktos_ruler
+					add_treasury = 50.0
+					save_scope_as = arktoseia_scope
+				}
+			}
+			make_subject = {
+				target = scope:arktoseia_scope
+				type = subject_colony
+			}
+		}
+	}
+
+	option = {
+		custom_tooltip = riparum_switch_to_subject_tt
+		name = greek_colonization_events_1.b
+		trigger = {
+			is_ai = no
+		}
+		ai_chance = {
+			base = 0
+		}
+		switch_player_country_effect = { # Switch to Arktoseia
+            NEW_NAME = AKS
+            NEW_ADJECTIVE = AKS_ADJ
+            NEW_GOVERNMENT = plutocratic_republic
+            NEW_COLOR = arktoseia_color
+            NEW_RELIGION = roman_pantheon
+            NEW_CULTURE = bosporan
+            NEW_FLAG = AKS
+            NEW_TAG = AKS
+            NEW_HERITAGE = arktoseia_heritage
+            OLD_COUNTRY_COLOR = tyras_color
+            OLD_COUNTRY_NAME = TYS
+            OLD_COUNTRY_ADJ = TYS_ADJ
+            OLD_COUNTRY_FLAG = TYS
+            OLD_COUNTRY_HERITAGE = tyras_heritage
+            OLD_COUNTRY_CULTURE = bosporan
+            OLD_COUNTRY_RELIGION = roman_pantheon
+            OLD_TAG = TYS
+        }
+	}
+}

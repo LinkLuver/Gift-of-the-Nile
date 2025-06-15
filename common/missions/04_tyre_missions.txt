@@ -196,9 +196,15 @@
         }
         allow = {
             custom_tooltip = {
-                any_country = {
-                    primary_culture = phoenician
-                    alliance_with = ROOT
+                OR = {
+                    any_country = {
+                        primary_culture = phoenician
+                        alliance_with = ROOT
+                    }
+                    any_country = {
+                        primary_culture = syrion
+                        alliance_with = ROOT
+                    }
                 }
                 text = "levant_ally_tt"
             }

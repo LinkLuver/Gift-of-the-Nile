@@ -1,0 +1,89 @@
+﻿country_decisions = {
+	
+	# Form Aegea
+	form_aegea = {
+		
+		potential = {
+			num_of_cities >= 1
+			OR = {
+				primary_culture = aegean
+			}
+			NOR = {
+				is_endgame_tag_trigger = yes
+				is_tier_2_formable_trigger = yes
+				tag = AEG
+			}
+		}
+		
+		#AI for now also uses this to get the list of provinces it must try to conquer.
+		highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = aegean_islands_area
+					is_in_area = sporades_area
+					province_id = 1903
+					province_id = 452
+					province_id = 220
+					province_id = 1974
+					province_id = 286
+					province_id = 284
+					province_id = 283
+					province_id = 270 
+					province_id = 297
+					province_id = 1774
+					province_id = 472
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = formable_not_aegea_exists
+				NOT = {
+					any_country = {
+						tag = AEG
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns_area = aegean_islands_area
+			owns_or_subject_owns_area = sporades_area
+			owns_or_subject_owns = 1903
+			owns_or_subject_owns = 452
+			owns_or_subject_owns = 220
+			owns_or_subject_owns = 1974
+			owns_or_subject_owns = 286
+			owns_or_subject_owns = 284
+			owns_or_subject_owns = 283
+			owns_or_subject_owns = 270
+			owns_or_subject_owns = 297
+			owns_or_subject_owns = 1774
+			owns_or_subject_owns = 472
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "AEGEA"
+			hidden_effect = {
+				change_country_adjective = "AEGEA_ADJ"
+				change_country_color = "sun_yellow"
+				change_country_tag = AEG
+			}
+			custom_tooltip = "form_aegea_claims_tooltip"
+			hidden_effect = {
+				region:greece_region = { formable_region_province_effect = yes }
+				region:asia_region = { formable_region_province_effect = yes }
+				region:macedonia_region = { formable_region_province_effect = yes }
+			}
+			trigger_event = {
+				id = "greece_events.11" #Aegea Capital + Gov Decision
+				days = { 10 30 }
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+} 
+

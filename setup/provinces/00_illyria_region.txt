@@ -1275,7 +1275,7 @@
 	culture="taulantian"
 	religion="illyrian_pantheon"
 	trade_goods="fish"
-	civilization_value=8
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1308,17 +1308,22 @@
 
 4090={ #Bouthoe
 	terrain="hills"
-	culture="taulantian"
-	religion="illyrian_pantheon"
+	culture="macedonian"
+	religion="roman_pantheon"
 	trade_goods="salt"
-	civilization_value=8
+	civilization_value=22
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=1
 	}
 	freemen={
-		amount=1
+		amount=2
+	}
+	freemen={
+		culture="taulantian"
+		religion="illyrian_pantheon"
+		amount=2
 	}
 	port_building=1
 }
@@ -1328,7 +1333,7 @@
 	culture="taulantian"
 	religion="illyrian_pantheon"
 	trade_goods="wine"
-	civilization_value=8
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1404,6 +1409,9 @@
 	civilization_value=29
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount =1
+	}
 	citizen={
 		amount=2
 	}
@@ -1412,7 +1420,7 @@
 	}
 	tribesmen={
 		culture="greco_illyrian"
-		amount=1
+		amount=2
 	}
 	slaves={
 		culture="greco_illyrian"

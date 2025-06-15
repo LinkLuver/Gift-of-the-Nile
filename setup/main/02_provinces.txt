@@ -255,6 +255,15 @@ provinces = { #Any entry must contain a comment with city name.
 	7575 = { #Mecca
 		treasure_slots = { treasures = { 186 } }
 	}
+	126 = { #Pupluna
+		treasure_slots = { treasures = { 888 } }
+	}
+	809 = { #Karkemish
+		treasure_slots = { treasures = { 889 } }
+	}
+	2325 = { #Massalia
+		treasure_slots = { treasures = { 900 } }
+	}
 
 	### BUILDINGS
 	1 = { #Rome
@@ -607,8 +616,9 @@ provinces = { #Any entry must contain a comment with city name.
 		commerce_building = 1
 	}
 
-	1356 = { #orippo
-		fortress_building = 1
+	1358 = { #tartessos
+		commerce_building = 1
+		town_hall_building = 1
 	}
 
 	1371 = { #astigi
@@ -654,7 +664,7 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 
-	2319 = ( #arelate
+	2319 = { #arelate
 	    fortress_building = 1
     } 	
 
@@ -698,10 +708,6 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 
-	3592 = { #feraria
-		fortress_building = 1
-	}
-
 	4787 = {
 		barracks_building = 1
 	}
@@ -731,6 +737,18 @@ provinces = { #Any entry must contain a comment with city name.
     }
 
 	3095 = { #portus magnus
+		fortress_building = 1
+	}
+
+	3095 = { #Syrakousai
+		aqueduct_building = 1
+	}
+
+	2289 = { #Lucaniacium
+		fortress_building = 1
+	}
+
+	2301 = { #Lugdunum
 		fortress_building = 1
 	}
 
@@ -1379,10 +1397,8 @@ provinces = { #Any entry must contain a comment with city name.
 		town_hall_building = 2
 	}
 	350 = { #Lysimachea
-		military_building = 1
 		fortress_building = 1
-		town_hall_building = 2
-		aqueduct_building = 1
+		town_hall_building = 1
 	}
 	353 = { #Kypsela
 		latifundia_building = 1
@@ -1715,9 +1731,6 @@ provinces = { #Any entry must contain a comment with city name.
 	1880 = { # Mopsouhestia
 		military_building = 1
 	}
-	1897 = { # Gelenderis
-		barracks_building = 1
-	}
 	1936 = { # Kelainai
 		fortress_building = 1
 	}
@@ -2026,7 +2039,10 @@ provinces = { #Any entry must contain a comment with city name.
 	7968 = { # Kyinda
 		fortress_building = 1
 	}
-	8003 = { # Sikyon
+	1881 = { # Mallos
+		fortress_building = 1
+	}
+	3593 = { # Atria
 		fortress_building = 1
 	}
 	8399 = { # Gelon
@@ -2089,9 +2105,6 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	7519 = {
 		aqueduct_building = 1
-	}
-	8003 = { # Sikyon
-		fortress_building = 1
 	}
 	8011 = { #Korlon
 		modifier = { modifier = cedars_of_lebanon always = yes }
@@ -2163,6 +2176,16 @@ provinces = { #Any entry must contain a comment with city name.
 
 	3852 = { # Frisian Terp - added in Invictus
 		modifier = { modifier = north_sea_terps always = yes }
+	}
+
+	## GotN New ##
+
+	977 = { #Shahraban
+		modifier = { modifier = median_wall always = yes }
+	}
+
+	9446 = { #Sulaya
+		modifier = { modifier = median_wall always = yes }
 	}
 
 	########################################

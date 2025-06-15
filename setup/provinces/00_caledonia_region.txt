@@ -481,14 +481,26 @@
 	}
 }
 
-2167={ #Manapia Borealis
+2167={ #Temris
 	terrain="plains"
 	culture="voluntian"
 	religion="druidism"
 	trade_goods="woad"
-	civilization_value=0
+	civilization_value=14
 	barbarian_power=0
 	province_rank="settlement"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}

@@ -109,6 +109,12 @@ deity_apollo = {
 			primary_culture = messapian #Messapians have Greek deities (some with a different name)
 		}
 		OR = {
+			NOT ={ primary_culture = massalian primary_culture = cretan }
+		}
+		OR = {
+			tag = MLO
+		}
+		OR = {
 			rare_deity_trigger = {
 				RELIGION = roman_pantheon
 			}
@@ -481,6 +487,9 @@ deity_artemis = {
 			primary_culture = messapian #Messapians have Greek deities (some with a different name)
 		}
 		OR = {
+			NOT = { primary_culture = massalian }
+		}
+		OR = {
 			religion = animism
 			rare_deity_trigger = {
 				RELIGION = roman_pantheon
@@ -692,7 +701,7 @@ deity_zeus_naios = {
 		}
 		OR = {
 			tag = EPI
-			has_variable = epi_unique_mech
+			
 		}
 		has_dlc = "Epirus Flavor Pack"
 	}
@@ -1323,7 +1332,6 @@ deity_apollo_aktiakos = {
 deity_achilles = {
 	trigger = {
 		has_dlc = "Epirus Flavor Pack"
-		has_variable = deity_unlocked_achilles
 		polytheistic_check_religion_trigger = yes
 		NOT = { country_culture_group = latin }
 		OR = {
@@ -1333,6 +1341,7 @@ deity_achilles = {
 			deity:omen_achilles = {
 				holy_site_deity_check_trigger = yes
 			}
+		  	tag = TWT
 		}
 	}
 	icon = deity_war
@@ -1982,13 +1991,16 @@ deity_orpheus = { # CULTURE
 			}
 			primary_culture = macedonian
 			primary_culture = thessalian
+			common_deity_trigger = {
+				RELIGION = isis_religion
+			}
 		}
 	}
 	icon = deity_greek_culture
 
 	passive_modifier = { global_population_happiness = omen_global_population_happiness }
 	omen = { global_citizen_output = deity_global_citizen_output_svalue }
-	religion = roman_pantheon
+	religion = isis_religion
 	deity_category = culture #This Deity uses a Culture Slot
 
 	deification_trigger = {
@@ -2444,19 +2456,20 @@ deity_artemis_reitia = {
 
 ##GoTN New
 
-deity_aeneus = { 
+deity_aeneus = { #Knock-Off Trojan Aeneas
 	trigger = {
 		OR = {
-		  deity:omen_aeneus = {
-			holy_site_deity_check_trigger = yes
-		  }
-		  tag = AEN
-	}
-}		  
+			deity:omen_aeneus = {
+				holy_site_deity_check_trigger = yes
+			}
+		OR = {
+			tag = AEN
+			}
+		}
+	}	  
 	icon = deity_diadochi_economy
-
-	passive_modifier = { build_cost = deity_build_cost_svalue }
-	omen = { global_capital_trade_routes = deity_global_capital_trade_routes_svalue  } #Bonus from Omen
+	passive_modifier = { global_capital_trade_routes = deity_global_capital_trade_routes_svalue }
+	omen = { build_cost = omen_build_cost_svalue } #Bonus from Omen
 	religion = roman_pantheon
 	deity_category = economy #This Deity uses a Culture Slot
 
@@ -2465,6 +2478,180 @@ deity_aeneus = {
 	}
 
 	on_activate = {
-		culture_apotheosis_capital_effect = yes
+		economy_apotheosis_province_improvement_effect = yes
+	}
+}
+
+deity_patroclus = { #Yaoi
+    trigger = {
+        OR = {
+        	deity:omen_patroclus = {
+        		holy_site_deity_check_trigger = yes
+        	}
+		OR = {
+        	tag = TWT
+			}
+    	}
+	}
+    icon = deity_culture
+    passive_modifier = { civic_tech_investment = deity_civic_tech_investment_svalue }
+    omen = { assault_ability = omen_assault_ability_svalue } #Bonus from Omen
+    religion = roman_pantheon
+    deity_category = culture #This Deity uses a Culture Slot
+
+
+    deification_trigger = {
+        can_deify_trigger = yes
+    }
+
+    on_activate = {
+        culture_apotheosis_capital_effect = yes
+    }
+}
+
+deity_artemis_ephesia = { # Artemis for Massaliots
+    trigger = {
+        OR = {
+        	deity:omen_artemis_ephesia = {
+        		holy_site_deity_check_trigger = yes
+        	}
+		OR = {
+        	primary_culture = massalian
+			}
+    	}
+	}
+    icon = deity_diadochi_fertility
+    passive_modifier = {  global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
+    omen = { global_population_growth = deity_global_population_growth_svalue } #Bonus from Omen
+    religion = roman_pantheon
+    deity_category = fertility #This Deity uses a Culture Slot
+
+
+    deification_trigger = {
+        can_deify_trigger = yes
+    }
+
+    on_activate = {
+        culture_apotheosis_capital_effect = yes
+    }
+}
+
+deity_apollo_delphinios = { # Dolphin Boy for Massaliots, Cretans, and Milesians
+    trigger = {
+        OR = {
+        	deity:omen_apollo_delphinios = {
+        		holy_site_deity_check_trigger = yes
+        }
+		OR = {
+        	primary_culture = massalian
+		}
+		OR = {
+			primary_culture = cretan
+		}
+		OR = {
+			tag= MLO
+		}
+    	}
+	}
+    icon = deity_diadochi_war
+    passive_modifier = { naval_damage_taken = deity_naval_damage_taken_svalue  }
+    omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
+    religion = roman_pantheon
+    deity_category = war #This Deity uses a War Slot
+
+    deification_trigger = {
+        can_deify_trigger = yes
+    }
+
+    on_activate = {
+        culture_apotheosis_capital_effect = yes
+    }
+}
+
+deity_asclepius_merre = { # Ourkinion unlockable syncretic deity
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+			has_variable = unlock_asclepius_merre
+			OR = {
+				has_variable = unlock_asclepius_merre
+				primary_culture = massalian
+			}
+			OR = {
+				has_variable = unlock_asclepius_merre
+				rare_deity_trigger = {
+					RELIGION = roman_pantheon
+				}
+				deity:omen_asclepius_merre = {
+					holy_site_deity_check_trigger = yes
+				}
+			}
+	
+	}
+	passive_modifier = { global_citizen_happyness = deity_civic_tech_investment_svalue }
+	icon = deity_culture
+	omen = { global_monthly_food_modifier = omen_global_monthly_civilization_svalue } #Bonus from Omen
+	religion = roman_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+
+	on_activate = {
+		economy_apotheosis_capital_noble_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_aphrodite_hoplimense = { #Aphrodite the Armed for Korinth
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			deity:omen_aphrodite_areia = {
+				holy_site_deity_check_trigger = yes
+			}
+		OR = {
+			tag = KOR
+			}
+		}
+	}
+	icon = deity_diadochi_love
+	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue  } #Bonus from Omen
+	religion = roman_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_bellerophon = { #Bellerophon for Korinth
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			deity:omen_bellerophon = {
+				holy_site_deity_check_trigger = yes
+			}
+		OR = {
+			tag = KOR
+		}
+		}
+	}
+	icon = deity_diadochi_war
+	passive_modifier = { army_movement_speed = 0.05 }
+	omen = { light_cavalry_morale = 0.07 } #Bonus from Omen
+	religion = roman_pantheon
+	deity_category = war #This Deity uses a War Slot
+
+	on_activate = {
+		military_apotheosis_capital_freemen_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
 	}
 }

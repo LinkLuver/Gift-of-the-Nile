@@ -10,4 +10,21 @@
 	media_atropatene_gray = rgb { 89 107 104 } # Atropatene Gray
 	iran_green = rgb { 89 167 104 } # Ariyan Green
 	airyanem_blue = hsv { 0.52 0.77 0.72 } # Ariyan Blue
+	salluvia_green = rgb { 15 113 73 } # Salluvia Green
+	bastetania_purple = rgb { 112 15 66 } # Bastetania Purple
+	kymaia_blue = rgb { 93 93 155 } #Kymaia Blue
+	kymaia_yellow = rgb { 255 179 15 } #Kymaia Yellow
+	italiote_dark_blue = rgb { 21 22 45 } #Italiote Dark Blue
+	agartian_teal = rgb { 20 154 154 } #Agartian Teal
+	hurrian_blue = rgb { 65 132 255 } #Hurrian Blue
+	thebes_boeotia_green = rgb { 58 98 68 } #Thebes Boeotia Green
+	pannonia_orange = rgb { 181 122 57 } #Pannonia Orange
+	illyria_slavia_dark_blue = rgb { 2 70 102 } #Illyria-Slavia Dark Blue
+	calque_trinacria_dark_red = rgb { 98 15 15 } #Calque-Trinacria Dark Red
+	tyras_color = rgb { 51 200 12 } #Neccesary for the Tyras colony decision to work
+	arktoseia_color = rgb { 110 30 30 } #Arktoseia Color
+	magania_color = rgb { 107 89 115 } #Magania Color
+	rhodes_league_red = rgb { 166 55 93 } #Rhodes League Red
+	kallipolis_green = rgb { 95 135 72 } #Kallipolis Green
+	korkyra_blue = rgb { 49 105 152 } #Korkyra Blue
 }

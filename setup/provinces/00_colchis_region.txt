@@ -60,8 +60,8 @@
 		amount=1
 	}
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="median"
+		religion="mithra_religion"
 		amount=1
 	}
 	citizen={
@@ -117,13 +117,11 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		culture="pasargadi"
-		religion="zoroaster"
 		amount=1
 	}
 	citizen={
-		culture="pasargadi"
-		religion="zoroaster"
+		culture="median"
+		religion="mithra_religion"
 		amount=7
 	}
 	freemen={

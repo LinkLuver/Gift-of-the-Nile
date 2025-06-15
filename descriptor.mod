@@ -1,8 +1,9 @@
-version="1.0.3"
+version="2.0"
 tags={
-	"Historical"
+	"Overhaul"
+	"Total Conversions"
 }
 name="Gift of the Nile"
-supported_version="2.0.4"
+supported_version="2.*"
+path="mod/gift-of-the-nile"
 remote_file_id="3208403334"
-path=mod/gift_of_the_nile

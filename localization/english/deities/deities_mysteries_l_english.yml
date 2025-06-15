@@ -111,6 +111,11 @@
  omen_stilpo:0 "Stilpon"
  omen_stilpo_desc:0 "#Y Megarian Philosopher#! \nStilpon or Stilpo was a philosopher of the Megarian school who taught both Pyrrhon and Zenon. He was known as a great logician and debater, and for overcoming his alcoholism through the pursuit of a simple lifestyle in keeping with his emphasis on virtue."
 
+ deity_periander:0 "$omen_periander$"
+ omen_periander:0 "Periandros"
+ omen_periander_desc:0 "#Y Pre-Socratic Philosopher#! \nPeriandros was tyrant of Corinth, succeeding his father Kypselos. Though often considered a harsh ruler and accused of numerous cruelties, he made Corinth into the richest of the Greek states and curtailed the privileges of its richest citizens in favour of the poor. He established the successful colonies at Potidaia and Apollonia, annexed Korkyra and Epidauros and built positive relations with Lydia and Miletos. He was a patron of literature and a noted poet although most of his writings were lost after his dynasty fell from power. Below are some of his noted ethical sayings. /n/n'Tyrants who intend to be safe should make loyalty their bodyguard, not arms.' /n'Pleasures are transient. Honours are immortal.' /n'Be moderate in prosperity and prudent in adversity.' /n'Be the same to your friends whether they are in prosperity or in adversity.' /n'Whatever agreement you make, stick to it.' /n'Correct not only the offenders but also those who are on the point of offending.' "
+
+
  ###SKEPTICISM
  deity_pyrrho:0 "$omen_pyrrho$"
  omen_pyrrho:0 "Pyrrho"
@@ -149,3 +154,26 @@
  deity_aeneus:0 "$omen_aeneus$"
  omen_aeneus:0 "Aeneus"
  omen_aeneus_desc:0 "#Y Greek Hero#! \nAeneus, not to be confused with the Trojan hero Aeneas, is the Son of Apollo and the Nymph Stilbe. He is the mythical founder of the city of Ainos. Although little known outside the city, the residents claim it is Aeneus who has led the town to prosperity. The son of Aeneus, Cyzicus is perhaps more well known, as he founded the city of Cyzicus, and welcomed the Argonauts on their voyage to Colchis. Shortly thereafter, he was slain by the Argonauts, as they confused him and his soldiers for Pelasgaians that were constantly harassing them."
+
+ deity_patroclus:0 "$omen_patroclus$"
+ omen_patroclus:0 "Patroclus"
+ omen_patroclus_desc:0 "#Y Greek Hero#! \nThe lover of Achilles, Patroclus was a mighty warrior. He played a key role in the Trojan war, donning Achilles' armor, and lead the Greeks to push the Trojans back from their ships. After forcing the Trojans back, Achilles ordered Patroclus to not attack anymore. Disregarding Achilles' orders, Patroclus led his troops to the gates of Troy, killing many Trojans. Tragically, Apollo had removed Patroclus' wits during the battle, and the spear of  Euphorbos struck him, and Patroclus was finished off by being stabbed in the stomach by the Trojan Prince Hector. Recently, a cult of Patroclus has become popular in the city of Illion."
+
+ deity_artemis_ephesia:0 "$omen_artemis_ephesia$"
+ omen_artemis_ephesia:0 "Artemis Ephesia"
+ omen_artemis_ephesia_desc:0 "#Y Greek Epithet#! \n$artemis_description$\n\n#Y Ephesia#!: Ephesia is the epithet given to Artemis by the Ionians, and she is epecially popular amongst the Massalians. Along with her twin brother, Apollo, Artemis Ephesia is one of the patron deities of Massalia. When the Phoacaeans left their city, they were delivered an oracle, a guide from Artemis Ephesia. It is said that the goddess,in a dream, had stood beside Aristarkha, one of the women held in very high honour, and commanded her to sail away with the Phokaians, taking with her a statue of Artemis Ephesia. The Massalians attribute the success of their colony to her, and in Massalia there is a large temple dedicated to her. As the Massalian beliefs spread, so too did the worship of Artemis Ephesia- she is revered in equal measure amongst the eastern Iberian tribes."
+
+ deity_apollo_delphinios:0 "$omen_apollo_delphinios"
+ omen_apollo_delphinios:0 "Apollo Delphinios"
+ omen_apollo_delphinios_desc:0 "#Y Greek Epithet#! \n$apollo_description$\n\n#Y Delphinios#!: Apollo of The Dolphins is the protector of ships and sailors, associated with safe landings, beaches, and colonization. Apollo Delphinios is worshipped amongst the Cretans, the Milesians, and the Massalians. In Massalia, he is one of the twin patron deities of the city, along with Artemis. A temple dedicated to him stands in the city."
+
+ deity_asclepius_merre:0 "$omen_asclepius_merre$"
+ omen_asclepius_merre:0 "Asklepios-Merre"
+ omen_asclepius_merre_desc:0 "#Y Greek Aspect#! \n$asclepius_description$\n\n#Y Asklepios-Merre#!: a syncretization of Asklepios and the Nuragic epithet Merre. This version of the deity has an association with light and healing, along with growth. He is honored especially amongst the farmers in Kyrnos."
+ deity_aphrodite_hoplimense:0 "$omen_aphrodite_hoplimense$"
+ omen_aphrodite_hoplimense:0 "Aphrodite Hoplismene"
+ omen_aphrodite_hoplimense_desc:0 "#Y Greek Epithet#! \n$aphrodite_description$\n\n#Y Hoplismene#!: meaning 'equipped' is the epithet of Aphrodite that is worshipped in Korinthos. Her temple stands at the top of the Akrokorinth, the large rock structure that looms over the city. She represents intimate physical contact, sexual and martial. The temple is famous for it's practice of prostitution. Although it is a more peculiar view of the goddess, in the Iliad, Aphrodite entered battle herself, saving Aeneas from death. The Spartans worship a similar version of the goddess, Aphrodite Areia."
+
+ deity_bellerophon:0 "$omen_bellerophon$"
+ omen_bellerophon:0 "Bellerophon"
+ omen_bellerophon_desc:0 "#Y Greek Hero#! \nBellerophon, the son of Poseidon and the mortal Eurynome, was one of the greatest heroes and slayer of monsters, before the time of Herakles. Among his feats are the killing of the fire-breathing Chimera, and the taming of the legendary horse Pegasus. His hubris got the best of him, and while he tried to fly to Mount Olympus on Pegasus, Zeus caused a gadfly to sting Bellerophon, causing him to fall to the ground and die. Bellerophon is the most esteemed hero from Korinth, and worship of him is especially popular there."

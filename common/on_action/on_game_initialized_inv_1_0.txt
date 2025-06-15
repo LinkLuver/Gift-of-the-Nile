@@ -9,7 +9,7 @@
 
 	events = {
 		###Spartan Diarchy
-		special_spartan_event.1
+		#special_spartan_event.1
 
 		###Birth Order Traits
 		firstborn_traits.1
@@ -50,7 +50,7 @@
 		bloodlines_startup.32 # Samaria
 
 		###Capadocian Flavor delay =  days =  10 30 for later Pulse for this now see above
-		flavor_cap.1
+		#flavor_cap.1
 
 		###Interesting Treasures
 		interesting_treasures.1
@@ -90,22 +90,30 @@
 		#interesting_histories_country_events.34
 
 		###Iberian Starts
-		iberian_starting_country_events.1
-		iberian_starting_country_events.2
-		iberian_starting_country_events.3
-		iberian_starting_country_events.4
-		iberian_starting_country_events.5
-		iberian_starting_country_events.6
+		#iberian_starting_country_events.1
+		#iberian_starting_country_events.2
+		#iberian_starting_country_events.3
+		#iberian_starting_country_events.4
+		#iberian_starting_country_events.5
+		#iberian_starting_country_events.6
 
 		#new starts
-		startup_events.9
-		startup_events.10
-		startup_events.11
-		startup_events.12
-		startup_events.13
-		startup_events.14
-		startup_events.15
-		startup_events.16
+		#startup_events.1
+		#startup_events.2
+		#startup_events.3
+		#startup_events.4
+		#startup_events.5
+		#startup_events.6
+		#startup_events.7
+		#startup_events.8
+		#startup_events.9
+		#startup_events.10
+		#startup_events.11
+		#startup_events.12
+		#startup_events.13
+		#startup_events.14
+		#startup_events.15
+		#startup_events.16
 		#the Diadochi CB code
 		province_siege.2
 		#Ashoka Temporary health boost
@@ -129,6 +137,13 @@
 		ninurta_apal_ekur_two_coronation.1 # sibyrtid silly
 		gotn_events.8 # Carthage Crisis
 		gotn_events.9 # Turmoil in Thrace
+		gotn_events.11 # Garamantic Apocalypse
+		gotn_events.12 # Languishing Lydia
+		gotn_events.14 # Alexandrine Ambitions
+		gotn_events.15 # Theban Overtures
+		gotn_events.16 # The True Sons of Crete
+		gotn_events.17 # jueyun exile backstory
+		gotn_events.18 # The Riches of Korinth
 
 		#Pharaoh
 		me_kush.43
@@ -199,49 +214,49 @@
 		#	add_opinion = { target = c:EGY modifier = diadochi_rivals }
 		#	add_opinion = { target = c:SEL modifier = diadochi_rivals }
 		#}
-		if = {
-			limit = { tag = MAC }
-			char:32 = {
-				trigger_event = {
-					id = dhe_macedon.1 # Cassander illness
-					days = { 700 760 } # 2 years
-				}
-			}
-			char:288 = {
-				trigger_event = {
-					id = dhe_macedon.2 # Philip IV illness
-					days = { 1400 1520 } # 4 years
-				}
-			}
-			add_opinion = {
-				modifier = pyrrhos_crowned_opmod
-				target = c:EPI
-			}
-			current_ruler = {
+		#if = {
+			#limit = { tag = MAC }
+			#char:32 = {
+				#trigger_event = {
+					#id = dhe_macedon.1 # Cassander illness
+					#days = { 700 760 } # 2 years
+				#}
+			#}
+			#char:288 = {
+				#trigger_event = {
+					#id = dhe_macedon.2 # Philip IV illness
+					#days = { 1400 1520 } # 4 years
+				#}
+			#}
+			#add_opinion = {
+				#modifier = pyrrhos_crowned_opmod
+				#target = c:EPI
+			#}
+			#current_ruler = {
 				#add_rival = C:PRY.current_ruler
-				add_friend = C:TRE.current_ruler
-			}
+				#add_friend = C:TRE.current_ruler
+			#}
 			#char:10 = { move_country = C:PRY } #Antipatrid mother
-			char:97 = { move_country = C:KIO } #Mithridates in Phrygia
-			set_variable = me_mac_start_flag
-			macedon_legion_setup_effect = yes
+			#char:97 = { move_country = C:KIO } #Mithridates in Phrygia
+			#set_variable = me_mac_start_flag
+			#macedon_legion_setup_effect = yes
 			#add_opinion = { target = c:PRY modifier = diadochi_rivals }
 			#add_opinion = { target = c:TRE modifier = diadochi_rivals }
 			#add_opinion = { target = c:EGY modifier = diadochi_rivals }
 			#add_opinion = { target = c:SEL modifier = diadochi_rivals }
-		}
-		if = {
-			limit = { tag = TRE }
-			current_ruler = {
-				add_friend = C:MAC.current_ruler
-			}
-			set_variable = me_thrace_start_flag
+		#}
+		#if = {
+			#limit = { tag = TRE }
+			#current_ruler = {
+				#add_friend = C:MAC.current_ruler
+			#}
+			#set_variable = me_thrace_start_flag
 			#thrace_legion_setup_effect = yes
 			#add_opinion = { target = c:MAC modifier = diadochi_rivals }
 			#add_opinion = { target = c:PRY modifier = diadochi_rivals }
 			#add_opinion = { target = c:EGY modifier = diadochi_rivals }
 			#add_opinion = { target = c:SEL modifier = diadochi_rivals }
-		}
+		#}
 		if = {
 			limit = { tag = HNT }
 			current_ruler = {
@@ -350,34 +365,38 @@
 			add_opinion = { target = c:MAP modifier = cradle_rivals }
 		}
 		if = {
-			limit = { tag = EPI }
-			if = {
-				limit = {
-					NOT = { has_dlc = "Epirus Flavor Pack" }
-				}
-				trigger_event = {
-					id = flavor_epi.1
-					days = { 180 365 }
-				}
-			}
-			if = {
-				limit = { has_dlc = "Epirus Flavor Pack" }
-				trigger_event = { id = dhe_dde_pyrrhus.40 }
-				trigger_event = {
-					id = dhe_dde_pyrrhus.1
-					days = 730
-				}
-			}
-			current_ruler = { add_friend = c:TLN.current_ruler } # Pyrrhos and Glaukias
-			set_variable = me_epirus_start_flag
-			epirus_legion_setup_effect = yes
+			limit = { tag = TAY }
+			tayuan_legion_setup_effect = yes
 		}
-		if = {
-			limit = { tag = TLN }
-			current_ruler = {
-				add_rival = c:MAC.current_ruler # Glaukias and Kassandros
-			}
-		}
+		#if = {
+			#limit = { tag = EPI }
+			#if = {
+				#limit = {
+					#NOT = { has_dlc = "Epirus Flavor Pack" }
+				#}
+				#trigger_event = {
+					#id = flavor_epi.1
+					#days = { 180 365 }
+				#}
+			#}
+			#if = {
+				#limit = { has_dlc = "Epirus Flavor Pack" }
+				#trigger_event = { id = dhe_dde_pyrrhus.40 }
+				#trigger_event = {
+					#id = dhe_dde_pyrrhus.1
+					#days = 730
+				#}
+			#}
+			#current_ruler = { add_friend = c:TLN.current_ruler } # Pyrrhos and Glaukias
+			#set_variable = me_epirus_start_flag
+			#epirus_legion_setup_effect = yes
+		#}
+		#if = {
+			#limit = { tag = TLN }
+			#current_ruler = {
+				#add_rival = c:MAC.current_ruler # Glaukias and Kassandros
+			#}
+		#}
 		if = {
 			limit = { tag = KIO }
 			set_variable = kios_start_flag

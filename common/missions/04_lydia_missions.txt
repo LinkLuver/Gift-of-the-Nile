@@ -1,0 +1,326 @@
+﻿lydia_missions = {
+    header = "mission_image_general"
+    icon = "general_1"
+
+    repeatable = no
+    chance = 1000
+
+    potential = {
+        always = no
+		#tag = LYD
+        #NOT = { has_variable = lyd_mission_cooldown_var }
+    }
+
+    abort = {}
+    on_start = {
+        start_mission_ai_effect = yes
+    }
+    on_abort = {
+        custom_tooltip = general_mission_cooldown_tt
+        set_variable = {
+            name = lyd_mission_cooldown_var
+            days = 7300
+        }
+    }
+    on_completion = {}
+    lydia_missions_task_1 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.1
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_2 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.2
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_3 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.3
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_4 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.4
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_5 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.5
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_6 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.6
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_7 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.7
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_8 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.8
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_9 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.9
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_10 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.10
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_11 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.11
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_12 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.12
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_13 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.13
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_14 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.14
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_15 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.15
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_16 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.16
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_17 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.17
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_18 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.18
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_19 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.19
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_20 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.20
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_21 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.21
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_22 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.22
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_23 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.23
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_24 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.24
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_25 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.25
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_26 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.26
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_27 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.27
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_28 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.28
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_29 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.29
+            show_as_tooltip = {
+
+            }
+        }
+    }
+    lydia_missions_task_30 = {
+        icon = "task_political"
+        allow = {}
+        on_completion = {
+            trigger_event = me_lydia.30
+            show_as_tooltip = {
+
+            }
+        }
+    }
+}

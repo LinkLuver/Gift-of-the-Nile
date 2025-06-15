@@ -258,12 +258,12 @@
 		amount=1
 	}
 	citizen={
-		culture="pasargadi"
+		culture="median"
 		religion="zoroaster"
 		amount=2
 	}
 	citizen={
-		culture="pasargadi"
+		culture="median"
 		religion="mithra_religion"
 		amount=1
 	}
@@ -504,7 +504,8 @@
 		amount=1
 	}
 	freemen={
-		culture="pasargadi"
+		culture="median"
+		religion="mithra_religion"
 		amount=1
 	}
 	tribesmen={

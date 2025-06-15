@@ -1,0 +1,64 @@
+﻿country_decisions = {
+	
+	# Form Kyrnos
+	form_kyrnos = {
+		
+		potential = {
+			num_of_cities >= 1
+			tag = OUR
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+				has_variable = has_formed_kyrnos
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = corsica_area
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = "formable_not_kyrnos_exists"
+				NOT = {
+					any_country = {
+						tag = KYR
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_area = corsica_area
+		}
+		
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			change_country_name = "KYRNOS_NAME"
+			hidden_effect = {
+				change_country_adjective = "KYRNOS_ADJECTIVE"
+				change_country_color = "light_blue"
+				change_country_tag = KYR
+				change_country_flag = KYRNOS_FLAG
+				set_variable = has_formed_kyrnos
+			}
+			set_capital = 3515
+			p:3515 = {
+				capital_formable_small_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+			add_country_modifier = {
+				name = kyrnos_mod
+				duration = -1
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+}
