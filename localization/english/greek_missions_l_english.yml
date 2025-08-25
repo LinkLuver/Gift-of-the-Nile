@@ -286,12 +286,12 @@
  desc_masiliot_cheaper_slaves_cost: "We are making a concerted effort to colonize Corsica, for the western half of the isle is sparsely inhabited."
  
 
- greek_4_west: "Far From Home"
- greek_4_west_BUTTON_TOOLTIP: "The survival of the Phocaean colonies requires strong, energetic leadership."
+ greek_4_west: "Land of The Celts"
+ greek_4_west_BUTTON_TOOLTIP: "The riches of Gaul belong to the Massalians."
  greek_4_west_BUTTON_DETAILS: ""
- greek_4_west_DESCRIPTION: "#E Massalia#!, #E Emporion#!, #E Elea#! and #E Hemeroskopeion#! were founded hundreds of years ago by exiles fleeing Asia, their homes and dreams taken by the #E Persians#!, who sacked their mother city of #E Phocaea#! in Ionia.\n\nRenowned for their fondness for traversing across the Sea, they took to their fleets and sailed for many months, where they eventually built new lives in the far-flung territories of #E Gaul#! and #E Iberia#!.\n\nHere, they were safe from the ravaging armies of Persia, yet they would soon encounter another growing power, one that would tolerate no rivals in its quest to dominate trade in the Western Mediterranean; #E Carthage#!. Times are hard, and the survival of the most westerly Greeks hangs in the balance."
- greek_4_west_CRITERIA_DESCRIPTION: "Defend Hellenic interests in the Western Mediterranean while slowly building a glorious trade empire, giving us the means and authority to establish the #E Phocaean League#!."
- greek_4_west_REWARD_DESCRIPTION: "Establish leadership over the Massalian Greeks."
+ greek_4_west_DESCRIPTION: "#E Massalia#!, #E Emporion#!, #E Elea#! and #E Hemeroskopeion#! were founded hundreds of years ago by exiles fleeing Asia, their homes and dreams threatened by the #E Lydians#!, who unjustly subjugated their home city of #E Phoacea#!.\n\nRenowned for their fondness for traversing across the Sea, they took to their fleets and sailed for many months, where they eventually built new lives in the far-flung territories of #E Gaul#! and #E Iberia#!.\n\nHere, they were safe from the turmoil in the east. Amongst them, one city came to dominate over the rest of the #E Western Greeks#!- #E Massalia#!. The city came to be known not only for it's status as a center of trade, but also for it's relentless wars against the neighboring #E Gauls#!.\n\nNow with tensions rising between #E Massalia#! and the kingdom of the #E Arvernians#! to the north, #E Massalia#! is once again on the warpath, intent on laying claim to all of #E Gaul#!."
+ greek_4_west_CRITERIA_DESCRIPTION: "Expand Hellenic influence over the #E Gallic Principalities#!, establish a mighty trade empire, and defeat the meddling #E Arvernians#!."
+ greek_4_west_REWARD_DESCRIPTION: "Establish Massalian hegemony over the lands of Gaul."
  greek_4_loyalty_reward_tt:0"Every member of the #Y [gm_family_head_4.GetFamilyDisplayAdjective]#! family will gain #G 10#! Loyalty @loyalty_icon!"
 
  greek_4_1: "A [ROOT.GetCountry.GetAdjective] Coast"

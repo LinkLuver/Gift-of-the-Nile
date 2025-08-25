@@ -1134,3 +1134,26 @@ pannonian_heritage = {
 		primary_culture = pannonian
 	}
 }
+
+gallic_prince_heritage = { #Gallic Princely States
+	modifier = {
+		#good
+		global_capital_trade_routes = 2
+		monthly_political_influence_modifier = 0.05
+		
+		#bad
+		war_score_cost = 0.10
+		
+	}
+	
+	trigger = {
+		OR = {
+	       tag = VOC
+		   tag = ALL
+		   tag = LNG
+		   tag = SQI
+		   tag = ADT
+		   tag = NMI
+		}
+	}
+}
