@@ -1,0 +1,114 @@
+﻿country_decisions = {
+	#Switches to Correct Government
+	adopt_indian_kingdom = {
+		potential = {
+			is_monarchy = yes
+			NOT = {
+				government = mahajanapada_monarchy
+			}
+			OR = {
+				country_culture_group = indian
+				country_culture_group = indus
+				country_culture_group = adivasi
+				country_culture_group = aryan
+				country_culture_group = pracyan
+				any_country_culture = {
+					is_integrated = yes
+					is_indian_culture = yes
+				}
+				capital_scope = {
+					city_is_in_india_trigger = yes
+				}
+			}
+		}
+		allow = {
+			trigger_if = {
+				limit = { is_ai = yes }
+				always = yes
+			}
+			trigger_else = {
+				political_influence >= 50
+				stability >= 45
+			}
+		}
+		effect = {
+			add_political_influence = -50
+			add_stability = -5
+			change_government = mahajanapada_kingdom
+			if = {
+				limit = {
+					capital_scope = {
+						city_is_in_india_trigger = no
+					}
+				}
+			}
+			every_owned_province = {
+				limit = {
+					city_is_in_india_trigger = yes
+					has_city_status = yes
+				}
+				#save_scope_as = potential_capital_india
+			}
+			#trigger_event = {
+			#	indian_government_event
+			#}
+			#set_variable = indianized_country_var
+		}
+	}
+	adopt_indian_republic = {
+		potential = {
+			is_republic = yes
+			NOT = {
+				government = ganasangha_republic
+			}
+			OR = {
+				country_culture_group = indian
+				country_culture_group = indus
+				country_culture_group = adivasi
+				country_culture_group = aryan
+				country_culture_group = pracyan
+				any_country_culture = {
+					is_integrated = yes
+					is_indian_culture = yes
+				}
+				capital_scope = {
+					city_is_in_india_trigger = yes
+				}
+			}
+		}
+		allow = {
+			trigger_if = {
+				limit = { is_ai = yes }
+				always = yes
+			}
+			trigger_else = {
+				political_influence >= 50
+				stability >= 45
+			}
+		}
+		ai_will_do = { base = 100 }
+		effect = {
+			add_political_influence = -50
+			add_stability = -5
+			change_government = ganasangha_republic
+			if = {
+				limit = {
+					capital_scope = {
+						city_is_in_india_trigger = no
+					}
+				}
+			}
+			every_owned_province = {
+				limit = {
+					city_is_in_india_trigger = yes
+					has_city_status = yes
+				}
+				#save_scope_as = potential_capital_india
+			}
+			#trigger_event = {
+			#	indian_government_event
+			#}
+			#set_variable = indianized_country_var
+		}
+	}
+}

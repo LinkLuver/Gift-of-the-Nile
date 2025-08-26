@@ -77,6 +77,8 @@ city_is_in_india_trigger = {
 		is_in_region = aparanta_region
 		is_in_region = dravida_region
 		is_in_region = karnata_region
+		is_in_region = panchab_region
+		is_in_region = indus_region
 	}
 }
 
@@ -115,6 +117,8 @@ is_in_india_trigger = {
 		is_in_region = aparanta_region
 		is_in_region = dravida_region
 		is_in_region = karnata_region
+		is_in_region = panchab_region
+		is_in_region = indus_region
 	}
 }
 

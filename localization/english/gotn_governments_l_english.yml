@@ -30,12 +30,6 @@
  piratical_diarchy_consort:0 "Love Mate"
  piratical_diarchy_ruler_female:0 "Captain"
 
- mahajanapada_monarchy:0 "Mahajanapada"
- mahajanapada_monarchy_desc:0 "The 16 great Mahajanapadas were and are important states that have existed since the beginning of the post-vedic period. These great kingdoms carry a prestige with them that regular Indian monarchies have yet to match."
- mahajanapada_monarchy_ruler:0 "Maharaja"
- mahajanapada_monarchy_ruler_female:0 "Maharani"
- mahajanapada_monarchy_consort:0 "Rani"
-
  daran_administration:0 "Darayan Realm"
  daran_administration_desc:0 "Since the reforms of Darayus, the Achaemenid Realm has been the forefront nation in regards to its handling of the lands it lords over, with an administrative system matched by close-to-none. It truly is a testament to Darayus' reforms!"
  daran_administration_ruler:0 "Xsayathiya Xsayathiyanam"
@@ -80,6 +74,100 @@
  pirate_republic_ruler_female:0 "Captain"
  pirate_republic_co_ruler:0 "First Mate"
  pirate_republic_co_ruler_female:0 "First Mate"
+
+ adopt_indian_kingdom:0 "Adopt Janapada Governance"
+ adopt_indian_kingdom_desc:0 "To truly become accepted among the many diverse peoples in the lands of and beyond the Indus, we must adopt their practices.\n\nThe #T Janapada#! system will let us adopt the #Y Caste Laws#!, incentivize #Y Integration#! over #Y Assimilation#!, and give us #E Indian Flavor Events#!."
+
+ adopt_indian_republic:0 "Adopt Ganasangha Governance"
+ adopt_indian_republic_desc:0 "$adopt_indian_kingdom_desc$\n\nThe #G Ganasangha#! system will let us adopt the #Y Caste Laws#!, incentivize #Y Integration#! over #Y Assimilation#!, and give us #E Indian Flavor Events#!"
+
+ mahajanapada_monarchy:0 "Mahajanapada"
+ mahajanapada_monarchy_desc:0 "The Janapadas were and are important states that have existed since the beginning of the post-vedic period. These great kingdoms carry a prestige with them that define the Indian Kingdom as a distinct governance than that of western kings."
+ mahajanapada_monarchy_ruler:0 "Maharaja"
+ mahajanapada_monarchy_ruler_female:0 "Maharani"
+ mahajanapada_monarchy_consort:0 "Raja"
+ mahajanapada_monarchy_consort_female:0 "Rani"
+
+ ganasangha_republic:0 "Mahajanapada"
+ ganasangha_republic_desc:0 "The Janapadas were and are important states that have existed since the beginning of the post-vedic period. These great kingdoms carry a prestige with them that define the Indian Kingdom as a distinct governance than that of western kings."
+ ganasangha_republic_ruler:0 "Maharaja"
+ ganasangha_republic_ruler_female:0 "Maharani"
+ ganashanga_republic_consort:0 "Rani"
+
+ ascetic_party:0 "Ascetic Assembly"
+ ascetic_party_short:0 "Ascetics"
+ ascetic_party_description:0 "The Ascetic Assembly represents the wisdom and experience of the republic's Shramanic members. Their influence stems from their role in promoting Ascetic traditions and guiding policy through dharmic principles."
+
+ kshatriya_party:0 "Kshatriya Clan Chiefs"
+ kshatriya_party_short:0 "Kshatriya"
+ kshatriya_party_description:0 "The Kshatriya Clan Chiefs comprises the martial clans and tribes responsible for the republic’s defense. Their voice is strongest in times of conflict, and they advocate for discipline, honor, and readiness."
+
+ brahmin_party:0 "Brahmanical Council"
+ brahmin_party_short:0 "Brahmans"
+ brahmin_party_description:0 "The Brahmanical Council represents the priestly elite and ritual orthodoxy. They advocate for the preservation of Vedic traditions, caste hierarchy, and cosmic order through sacred rites."
+
+ republic_button_empower_faction_loc_ascetic_party:0 "Fund Dharma Schools"
+ republic_button_empower_faction_desc_loc_ascetic_party:0 "By funding institutions that teach dharma and civic ethics, we strengthen the influence of the Assembly and promote social harmony.\n\nThis can be used once every 10 years, and only if you have not used '$republic_button_empower_faction_loc_kshatriya_party$'."
+
+ republic_button_empower_faction_loc_kshatriya_party:0 "Expand Royal Training"
+ republic_button_empower_faction_desc_loc_kshatriya_party:0 "Investing in martial academies and warrior guilds will empower the Kshatriya Clan Chiefs and ensure our republic remains secure.\n\nThis can be used once every 10 years, and only if you have not used '$republic_button_empower_faction_loc_brahmin_party$'."
+
+ republic_button_empower_faction_loc_brahmin_party:0 "Support Local Temples"
+ republic_button_empower_faction_desc_loc_brahmin_party:0 "By granting land and privileges to our priests, we secure the loyalty of the Brahmins and those who benefit from them.\n\nThis can be used once every 10 years."
+
+ empowered_ascetic_gui_mod:0 "Empowered Ascetics"
+ empowered_kshatriya_gui_mod:0 "Empowered Kshatriyas"
+ empowered_brahmin_gui_mod:0 "Empowered Brahmins"
+
+ monthly_ascetic_conviction:0 "Monthly Ascetic Conviction"
+ monthly_kshatriya_conviction:0 "Monthly Kshatriya Conviction"
+ monthly_brahmin_conviction:0 "Monthly Brahmin Conviction"
+
+ republic_military_recruitment_ganasangha_laws:0 "Military Organization"
+ republic_military_recruitment_ganasangha_1:0 "Warrior Assembly Levy"
+ republic_military_recruitment_ganasangha_1_desc:0 "The Kshatriyas favors disciplined and locally trained fighters. By prioritizing their martial traditions, we gain a reliable and proud fighting force."
+ republic_military_recruitment_ganasangha_2:0 "Guild Militia"
+ republic_military_recruitment_ganasangha_2_desc:0 "The Brahmins promote using religious conviction from artisans and farmers. Though less trained, they offer numbers and adaptability."
+ republic_military_recruitment_ganasangha_3:0 "Warrior Monks"
+ republic_military_recruitment_ganasangha_3_desc:0 "The Assembly of Ascetics maintains a small but elite guard, trained in traditional tactics and dharmic discipline. Their forces are few but highly respected."
+ republic_military_recruitment_ganasangha_4:0 "Unified Sangha Army"
+ republic_military_recruitment_ganasangha_4_desc:0 "By standardizing our military across the sangha, we ensure strategic cohesion and better command over our generals."
+
+ corruption_ganasangha_laws:0 "Sangha Assembly Laws"
+ republic_corruption_ganasangha_2:0 "Empower the Sangha"
+ republic_corruption_ganasangha_2_desc:0 "Expanding representation in the sangha ensures that all clans feel heard, fostering unity and reducing unrest."
+ republic_corruption_ganasangha_1:0 "Traditional Sabha"
+ republic_corruption_ganasangha_1_desc:0 "Our traditional sabha system has long upheld justice. Maintaining it preserves our identity and stability."
+ republic_corruption_ganasangha_3:0 "Appoint Dhamma Envoys"
+ republic_corruption_ganasangha_3_desc:0 "By appointing respected elders as dhamma envoys, we promote harmony between clans and strengthen ties with neighboring states."
+ republic_corruption_ganasangha_4:0 "Limit Assembly Powers"
+ republic_corruption_ganasangha_4_desc:0 "To ensure swift governance, we must curtail the sangha’s ability to obstruct executive decisions."
+
+ republic_election_ganasangha_reforms:0 "Election Reforms"
+ republican_election_ganasangha_1:0 "Rotational Leadership"
+ republican_election_ganasangha_1_desc:0 "Leadership rotates among clans to ensure fairness and prevent dominance by any one group."
+ republican_election_ganasangha_2:0 "Extended Tenure"
+ republican_election_ganasangha_2_desc:0 "Longer terms allow leaders to implement lasting reforms and maintain continuity."
+ republican_election_ganasangha_3:0 "Shortened Tenure"
+ republican_election_ganasangha_3_desc:0 "Frequent elections prevent stagnation and ensure accountability to the sangha."
+ republican_election_ganasangha_4:0 "Emergency Rule"
+ republican_election_ganasangha_4_desc:0 "In times of crisis, the sangha may suspend elections to preserve order and unity."
+
+ republic_religious_ganasangha_reforms:0 "Religious Reforms"
+ republican_religious_ganasangha_1:0 "Local Worship Encouraged"
+ republican_religious_ganasangha_1_desc:0 "Whether a devout believer of Agni, a worshipper of Shiva, or a pursuer of Dharma, the state cares not."
+ republican_religious_ganasangha_2:0 "Cave Rights"
+ republican_religious_ganasangha_2_desc:0 "Shramanic Orders teach through silence and solitude. Let us grant them the preferential exclusive right to dwell in caves, where thought echoes truest."
+ republican_religious_ganasangha_3:0 "Expand Brahmin Temple Rights"
+ republican_religious_ganasangha_3_desc:0 "The Brahmin caste is most suited to religious ordinances, and thus should have sole authority over all thing divine."
+ republican_religious_ganasangha_4:0 "Sword Superiority"
+ republican_religious_ganasangha_4_desc:0 "While the thinkers of faith debate, the men of the sword battle, and they shall not be impeded. For without the sword, the books will burn."
+
+ ganasangha_republic:0 "Ganasangha"
+ ganasangha_republic_desc:0 "The Ganasangha is a republican form of governance rooted in dharmic tradition and clan-based assemblies. Although they started out as periphery states within or around larger Mahajanapadas, the lack of centralization has allowed these Ganasanghas to thrive and develop into a new form of Aristocratic and Kshatriya based republics."
+
+ ganasangha_republic_ruler:0 "Sanghamukhya"
+ ganasangha_republic_ruler_female:0 "Sanghamukhya"
 
  epirote_republic:0 "Epirote League"
  epirote_republic_desc:0 "A form of governance unique to the Epirote tribes, the league represents the various Epirote tribes. Each tribe is represented in the Epirote assembly by ten elected officals from amongst their tribe. Each tribe rules their respective land in a mostly autonomous fashion, with the elected Prostratas having some powers over them, mostly the power to declare wars, raise armies, and to direct construction projects. Such a system has created a strong, unified Epirote state, reducing some of the shortfalls of other republics."
@@ -137,7 +225,6 @@
  republican_election_epirus_3_desc:0 "It has become clear that power promotes the worst aspects of mankind. In an effort to combat this creeping corruption, we should reduce the electoral term, ensuring that no one man wields power for too long."
  republican_election_epirus_4:0 "Wartime Leadership"
  republican_election_epirus_4_desc:0 "The wisdom of our noble leaders is required indefinitely in order to safeguard against corruption from within as well as foreign interference. This is the only way our citizens and merchants will be able to thrive and prosper!"
-
 
  republican_tyranny_reforms:0 "Tyrannical Rule"
  republican_tyranny_reforms_1:0 "Tyrannical Neutrality"

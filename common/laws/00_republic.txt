@@ -1134,3 +1134,218 @@ republican_land_reforms_epirus = { # Epirus Land Reforms
 		}
 	}
 }
+
+
+## Ganasangha
+republic_military_recruitment_ganasangha_laws = {
+	potential = {
+		is_republic = yes
+		government = ganasangha_republic
+	}
+
+	republic_military_recruitment_ganasangha_1 = { #Kshatriya
+		modifier = {
+			levy_size_multiplier = 0.025
+			discipline = 0.05
+		}
+		on_enact = { set_legion_recruitment = disabled }
+	}
+	republic_military_recruitment_ganasangha_2 = { #Brahmin
+		modifier = {
+			global_manpower_modifier = 0.05
+			levy_size_multiplier = 0.05
+		}
+		on_enact = { set_legion_recruitment = disabled }
+	}
+	republic_military_recruitment_ganasangha_3 = { #Ascetic
+		allow = { invention = global_cohort_recruit_speed_inv rank >= regional_power }
+		modifier = {
+			levy_size_multiplier = 0.025
+			discipline = 0.05
+		}
+		on_enact = { set_legion_recruitment = enabled }
+	}
+	republic_military_recruitment_ganasangha_4 = { #Endgame
+		allow = { invention = discipline_inv_5 rank >= great_power }
+		modifier = {
+			land_unit_attrition = -0.15
+			general_loyalty = 5
+		}
+		on_enact = { set_legion_recruitment = enabled }
+	}
+}
+
+republic_election_ganasangha_reforms = {
+	potential = {
+		is_republic = yes
+		government = ganasangha_republic
+	}
+
+	republican_election_ganasangha_1 = {
+		modifier = {
+			election_term_duration = 5
+		}
+	}
+	republican_election_ganasangha_2 = {
+		modifier = {
+			ruler_popularity_gain = 0.025
+			monthly_military_experience_modifier = 0.025
+			election_term_duration = 20
+		}
+	}
+	republican_election_ganasangha_3 = {
+		modifier = {
+			monthly_political_influence = 0.05
+			election_term_duration = 3
+		}
+	}
+	republican_election_ganasangha_4 = {
+		modifier = {
+			monthly_tyranny = 0.05
+			election_term_duration = 100
+		}
+	}
+}
+
+corruption_ganasangha_laws = {
+	potential = {
+		is_republic = yes
+		government = ganasangha_republic
+	}
+
+	republic_corruption_ganasangha_1 = {
+		modifier = {
+			monthly_tyranny = -0.02
+		}
+	}
+	republic_corruption_ganasangha_2 = {
+		modifier = {
+			monthly_corruption = -0.1
+			monthly_wage_modifier = -0.05
+		}
+	}
+	republic_corruption_ganasangha_3 = {
+		modifier = {
+			diplomatic_relations = 2
+			improve_relation_cost_modifier = -0.5
+		}
+	}
+	republic_corruption_ganasangha_4 = {
+		modifier = {
+			change_governor_policy_cost_modifier = -0.05
+			change_diplomatic_stance_cost_modifier = -0.05
+			change_pantheon_cost_modifier = -0.1
+			change_pop_type_right_cost_modifier = -0.1
+		}
+	}
+}
+
+republican_religious_ganasangha_laws = {
+	potential = {
+		is_republic = yes
+		government = ganasangha_republic
+	}
+
+	republican_religious_ganasangha_1 = {
+		modifier = { happiness_for_same_religion_modifier = 0.05 }
+	}
+	republican_religious_ganasangha_2 = {
+		allow = { civic_tech >= 3 }
+		modifier = { omen_power = 0.15 }
+	}
+	republican_religious_ganasangha_3 = {
+		allow = { civic_tech >= 3 }
+		modifier = { global_pop_conversion_speed_modifier = 0.2 }
+	}
+	republican_religious_ganasangha_4 = {
+		allow = { civic_tech >= 3 }
+		modifier = { stability_cost_modifier = -0.33 }
+	}
+}
+
+republic_integration_ganasangha_laws = {
+	potential = {
+		is_republic = yes
+		government = ganasangha_republic
+	}
+
+	republican_integration_ganasangha_1 = {
+		modifier = {
+			global_freemen_happyness = 0.05
+		}
+	}
+	republican_integration_ganasangha_2 = {
+		allow = { civic_tech >= 6 }
+		modifier = {
+			global_nobles_happyness = 0.02
+			global_pop_demotion_speed = 6
+		}
+	}
+	republican_integration_ganasangha_3 = {
+		allow = { civic_tech >= 6 }
+		modifier = {
+			global_citizen_output = 0.2
+		}
+	}
+	republican_integration_ganasangha_4 = {
+		allow = { civic_tech >= 6 }
+		modifier = {
+			happiness_for_same_culture_modifier = 0.05
+		}
+	}
+}
+
+republic_citizen_ganasangha_laws = {
+	potential = {
+		is_republic = yes
+		government = ganasangha_republic
+	}
+
+	republican_citizen_ganasangha_1 = {
+		modifier = { global_tax_modifier = 0.05 }
+	}
+	republican_citizen_ganasangha_2 = {
+		allow = { civic_tech >= 9 }
+		modifier = { global_slaves_city_desired_pop_ratio = 0.15 }
+	}
+	republican_citizen_ganasangha_3 = {
+		allow = { civic_tech >= 9 }
+		modifier = { global_citizen_city_desired_pop_ratio = 0.1 }
+	}
+	republican_citizen_ganasangha_4 = {
+		allow = { civic_tech >= 9 }
+		modifier = { global_freemen_city_desired_pop_ratio = 0.1 }
+	}
+}
+
+republican_land_reforms_ganasangha = {
+	potential = {
+		is_republic = yes
+		government = ganasangha_republic
+	}
+
+	republican_land_reform_ganasangha_1 = {
+		modifier = {
+			agressive_expansion_impact = -0.10
+		}
+	}
+	republican_land_reform_ganasangha_2 = {
+		allow = { civic_tech >= 12 }
+		modifier = {
+			global_migration_speed = 1.5
+			global_pop_promotion_speed = 6
+		}
+	}
+	republican_land_reform_ganasangha_3 = {
+		allow = { civic_tech >= 12 }
+		modifier = {
+			global_goods_from_slaves = -2
+		}
+	}
+	republican_land_reform_ganasangha_4 = {
+		allow = { civic_tech >= 12 }
+		modifier = {
+			global_monthly_food_modifier = 0.1
+		}
+	}
+}
