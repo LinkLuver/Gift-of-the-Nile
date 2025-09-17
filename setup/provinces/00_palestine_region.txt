@@ -14,6 +14,34 @@
 	}
 }
 
+656={ #Rinokoloura
+	terrain="plains"
+	culture="retenuan"
+	religion="carthaginian_pantheon"
+	trade_goods="salt"
+	civilization_value=33
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		religion="arabian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		culture="egyptian"
+		religion="egyptian_pantheon"
+		amount=1
+	}
+}
+
 657={ #Bet 'Alyon
 	terrain="plains"
 	culture="hyksos"
@@ -204,7 +232,7 @@
 
 665={ #Migdal 'Ashtart
 	terrain="plains"
-	culture="phoenician"
+	culture="hyksos"
 	religion="carthaginian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=26
@@ -218,7 +246,7 @@
 	}
 }
 
-666={ #Shiqmonot
+666={ #Shiqmona
 	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -264,7 +292,7 @@
 
 668={ #'Atalit
 	terrain="plains"
-	culture="phoenician"
+	culture="hebrew"
 	religion="carthaginian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=26
@@ -299,64 +327,6 @@
 	tribesmen={
 		amount=1
 	}
-}
-
-670={ #'Akko
-	terrain="forest"
-	culture="phoenician"
-	religion="carthaginian_pantheon"
-	trade_goods="glass"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=1
-	}
-	citizen={
-		amount=3
-	}
-	citizen={
-		culture="egyptian"
-		amount=2
-	}
-	freemen={
-		amount=5
-	}
-	freemen={
-		culture="avarite_egyptian"
-		amount=1
-	}
-	freemen={
-		culture="mafkatian_egyptian"
-		amount=2
-	}
-	freemen={
-		culture="mafkatian_egyptian"
-		amount=2
-	}
-	freemen={
-		culture="retenuan"
-		amount=2
-	}
-	freemen={
-		culture="hyksos"
-		amount=2
-	}
-	freemen={
-		culture="syrion"
-		amount=2
-	}
-	freemen={
-		culture="alashiyan"
-		amount=1
-	}
-	slaves={
-		amount=5
-	}
-	tribesmen={
-		amount=1
-	}
-	port_building=1
 }
 
 671={ #Gaba Rekabim
@@ -496,7 +466,7 @@
 
 678={ #Narbata
 	terrain="plains"
-	culture="phoenician"
+	culture="hebrew"
 	religion="carthaginian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=25
@@ -571,25 +541,6 @@
 	}
 	tribesmen={
 		amount=1
-	}
-}
-
-682={ #'Apeq
-	terrain="plains"
-	culture="hebrew"
-	religion="judaism"
-	trade_goods="wood"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
 	}
 }
 
@@ -998,7 +949,7 @@
 	}
 }
 
-704={ #'Aylat
+704={ #'Iloth
 	terrain="plains"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1016,7 +967,7 @@
 	port_building=1
 }
 
-705={ #Mibtzar
+705={ #Mivatzra
 	terrain="plains"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1086,7 +1037,7 @@
 	}
 }
 
-709={ #Toloha
+709={ #Bozrah
 	terrain="plains"
 	culture="edomite"
 	religion="judaism"
@@ -1156,7 +1107,7 @@
 }
 
 712={ #Rabbat Mo'ab
-	terrain="plains"
+	terrain="hills"
 	culture="ammonite"
 	religion="judaism"
 	trade_goods="cloth"
@@ -1179,7 +1130,7 @@
 
 713={ #Bet ha-Ram
 	terrain="plains"
-	culture="hebrew"
+	culture="ammonite"
 	religion="judaism"
 	trade_goods="horses"
 	civilization_value=25
@@ -1268,8 +1219,8 @@
 	}
 }
 
-717={ #Medaba'
-	terrain="plains"
+717={ #Dibon
+	terrain="hills"
 	culture="ammonite"
 	religion="judaism"
 	trade_goods="leather"
@@ -1334,7 +1285,7 @@
 }
 
 720={ #'Ashopon
-	terrain="hills"
+	terrain="plains"
 	culture="ammonite"
 	religion="judaism"
 	trade_goods="grain"
@@ -1380,7 +1331,7 @@
 	}
 }
 
-722={ #Gadara
+722={ #Gazara
 	terrain="plains"
 	culture="hebrew"
 	religion="arabian_pantheon"
@@ -1399,7 +1350,7 @@
 	}
 }
 
-723={ #Hippos
+723={ #Sussita
 	terrain="plains"
 	culture="hebrew"
 	religion="arabian_pantheon"
@@ -1443,7 +1394,7 @@
 	}
 }
 
-728={ #Havvara
+728={ #Hwara
 	terrain="desert_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1462,7 +1413,7 @@
 	}
 }
 
-729={ #Reqem
+729={ #Raqma
 	terrain="oasis"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1491,7 +1442,7 @@
 	holy_site=omen_dashara
 }
 
-730={ #'Adruh
+730={ #'Adhruh
 	terrain="desert_hills"
 	culture="nabatean"
 	religion="arabian_pantheon"
@@ -1508,10 +1459,10 @@
 }
 
 731={ #Bet Shor
-	terrain="desert"
+	terrain="hills"
 	culture="ammonite"
 	religion="arabian_pantheon"
-	trade_goods="cattle"
+	trade_goods="earthware"
 	civilization_value=22
 	barbarian_power=0
 	province_rank="settlement"
@@ -1577,7 +1528,7 @@
 	terrain="plains"
 	culture="qedarite"
 	religion="arabian_pantheon"
-	trade_goods="grain"
+	trade_goods="hemp"
 	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
@@ -1677,6 +1628,25 @@
 	}
 }
 
+738={ #Maqadh
+	terrain="plains"
+	culture="aramaic"
+	religion="arabian_pantheon"
+	trade_goods="grain"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
 739={ #Karnaia
 	terrain="plains"
 	culture="hebrew"
@@ -1701,6 +1671,22 @@
 	}
 }
 
+5524={ #Bishaya
+	terrain="desert"
+	culture="edomite"
+	religion="egyptian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
 7554={ #Arabia Deserta
 	terrain="desert"
 	culture="qedarite"
@@ -1719,5 +1705,485 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
+}
+
+10044={ #PROV10044
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="dates"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10045={ #PROV10045
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10046={ #PROV10046
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10047={ #PROV10047
+	terrain="plains"
+	culture="edomite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10048={ #PROV10048
+	terrain="plains"
+	culture="hebrew"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10049={ #PROV10049
+	terrain="plains"
+	culture="ammonite"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10050={ #PROV10050
+	terrain="hills"
+	culture="hebrew"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10051={ #PROV10051
+	terrain="desert_hills"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10052={ #PROV10052
+	terrain="desert_hills"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10053={ #PROV10053
+	terrain="desert"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="camel"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10054={ #PROV10054
+	terrain="desert"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="camel"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10055={ #PROV10055
+	terrain="desert"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="camel"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10056={ #PROV10056
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="honey"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10057={ #PROV10057
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10058={ #PROV10058
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="grain"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10059={ #PROV10059
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="grain"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10060={ #PROV10060
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10061={ #PROV10061
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="grain"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10062={ #PROV10062
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10063={ #PROV10063
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10064={ #PROV10064
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="horses"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10065={ #PROV10065
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="horses"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10066={ #PROV10066
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="grain"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10067={ #PROV10067
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="hemp"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10068={ #PROV10068
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="camel"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10069={ #PROV10069
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="vegetables"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10070={ #PROV10070
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="grain"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10071={ #PROV10071
+	terrain="plains"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="grain"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10072={ #PROV10072
+	terrain="desert"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+10073={ #PROV10073
+	terrain="desert"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
 }
 

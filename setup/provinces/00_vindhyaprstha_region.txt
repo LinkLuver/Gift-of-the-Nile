@@ -462,7 +462,8 @@
 		religion="agama"
 		amount=3
 	}
-	tribesmen={culture="gond"
+	tribesmen={
+		culture="gond"
 		religion="sarna_pantheon"
 		amount=8
 	}
@@ -2142,8 +2143,8 @@
 		amount=2
 	}
 	tribesmen={
-		religion="buddhism"
 		culture="kalingan"
+		religion="buddhism"
 		amount=1
 	}
 }

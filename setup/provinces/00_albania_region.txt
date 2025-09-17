@@ -1,5 +1,5 @@
 ﻿1584={ #Utidorsi
-	terrain="forest"
+	terrain="marsh"
 	culture="albanian"
 	religion="caucasian_religion"
 	trade_goods="wild_game"
@@ -15,7 +15,7 @@
 }
 
 1607={ #Idzhevan
-	terrain="hills"
+	terrain="plains"
 	culture="sasperian"
 	religion="caucasian_religion"
 	trade_goods="wood"
@@ -40,7 +40,7 @@
 }
 
 1608={ #Berd
-	terrain="hills"
+	terrain="mountain"
 	culture="albanian"
 	religion="caucasian_religion"
 	trade_goods="leather"
@@ -61,7 +61,7 @@
 }
 
 1609={ #Kariglukh
-	terrain="hills"
+	terrain="forest"
 	culture="sasperian"
 	religion="caucasian_religion"
 	trade_goods="wood"
@@ -86,7 +86,7 @@
 }
 
 1611={ #Sagarejo
-	terrain="forest"
+	terrain="hills"
 	culture="ibero"
 	religion="caucasian_religion"
 	trade_goods="iron"
@@ -151,7 +151,7 @@
 }
 
 1616={ #Kapan
-	terrain="hills"
+	terrain="mountain"
 	culture="armenian"
 	religion="anahitic_religion"
 	trade_goods="wood"
@@ -186,7 +186,7 @@
 }
 
 1633={ #Absheron
-	terrain="plains"
+	terrain="hills"
 	culture="caspian"
 	religion="caucasian_religion"
 	trade_goods="incense"
@@ -228,7 +228,7 @@
 }
 
 1635={ #Nyudi
-	terrain="forest"
+	terrain="marsh"
 	culture="albanian"
 	religion="caucasian_religion"
 	trade_goods="honey"
@@ -247,7 +247,7 @@
 }
 
 1636={ #Chabala
-	terrain="mountain"
+	terrain="forest"
 	culture="albanian"
 	religion="caucasian_religion"
 	trade_goods="leather"
@@ -299,7 +299,7 @@
 }
 
 1639={ #Amaras
-	terrain="hills"
+	terrain="forest"
 	culture="sasperian"
 	religion="mithra_religion"
 	trade_goods="honey"
@@ -402,7 +402,7 @@
 }
 
 1642={ #Bagawan
-	terrain="forest"
+	terrain="hills"
 	culture="caspian"
 	religion="caucasian_religion"
 	trade_goods="fish"
@@ -424,7 +424,7 @@
 }
 
 1643={ #Samukh
-	terrain="forest"
+	terrain="hills"
 	culture="albanian"
 	religion="caucasian_religion"
 	trade_goods="wild_game"
@@ -441,7 +441,7 @@
 }
 
 1644={ #Paytakaran
-	terrain="plains"
+	terrain="hills"
 	culture="caspian"
 	religion="caucasian_religion"
 	trade_goods="steppe_horses"
@@ -476,7 +476,7 @@
 }
 
 1645={ #Shaki
-	terrain="forest"
+	terrain="hills"
 	culture="albanian"
 	religion="caucasian_religion"
 	trade_goods="vegetables"
@@ -493,7 +493,7 @@
 }
 
 1646={ #Gardman
-	terrain="forest"
+	terrain="plains"
 	culture="albanian"
 	religion="caucasian_religion"
 	trade_goods="wood"
@@ -556,7 +556,7 @@
 }
 
 1651={ #Shahargah
-	terrain="plains"
+	terrain="marsh"
 	culture="albanian"
 	religion="caucasian_religion"
 	trade_goods="steppe_horses"
@@ -583,7 +583,7 @@
 }
 
 1655={ #Kaladasht
-	terrain="forest"
+	terrain="marsh"
 	culture="albanian"
 	religion="caucasian_religion"
 	trade_goods="wild_game"
@@ -605,7 +605,7 @@
 }
 
 1656={ #Zakatala
-	terrain="mountain"
+	terrain="plains"
 	culture="albanian"
 	religion="caucasian_religion"
 	trade_goods="wild_game"
@@ -621,7 +621,7 @@
 }
 
 1657={ #Telavi
-	terrain="mountain"
+	terrain="farmland"
 	culture="ibero"
 	religion="caucasian_religion"
 	trade_goods="cinnabar"
@@ -641,7 +641,7 @@
 }
 
 1658={ #Shilda
-	terrain="mountain"
+	terrain="plains"
 	culture="ibero"
 	religion="caucasian_religion"
 	trade_goods="wood"
@@ -660,7 +660,7 @@
 }
 
 1659={ #Lagodekhi
-	terrain="mountain"
+	terrain="plains"
 	culture="albanian"
 	religion="caucasian_religion"
 	trade_goods="gems"
@@ -676,7 +676,7 @@
 }
 
 1660={ #Cambysene
-	terrain="forest"
+	terrain="plains"
 	culture="albanian"
 	religion="caucasian_religion"
 	trade_goods="wild_game"
@@ -689,7 +689,7 @@
 }
 
 1661={ #Arash
-	terrain="forest"
+	terrain="marsh"
 	culture="albanian"
 	religion="caucasian_religion"
 	trade_goods="vegetables"
@@ -702,7 +702,7 @@
 }
 
 1662={ #Lupenia
-	terrain="mountain"
+	terrain="forest"
 	culture="albanian"
 	religion="caucasian_religion"
 	trade_goods="wood"
@@ -730,7 +730,7 @@
 }
 
 1663={ #Vaykunik
-	terrain="hills"
+	terrain="mountain"
 	culture="sasperian"
 	religion="caucasian_religion"
 	trade_goods="leather"
@@ -751,7 +751,7 @@
 }
 
 1664={ #Arank
-	terrain="hills"
+	terrain="mountain"
 	culture="sasperian"
 	religion="anahitic_religion"
 	trade_goods="leather"
@@ -780,7 +780,7 @@
 }
 
 1665={ #Parsakank
-	terrain="hills"
+	terrain="mountain"
 	culture="sasperian"
 	religion="anahitic_religion"
 	trade_goods="cattle"
@@ -809,7 +809,7 @@
 }
 
 1666={ #Koght
-	terrain="hills"
+	terrain="mountain"
 	culture="sasperian"
 	religion="caucasian_religion"
 	trade_goods="wood"
@@ -871,7 +871,7 @@
 }
 
 1670={ #Partaw
-	terrain="forest"
+	terrain="plains"
 	culture="albanian"
 	religion="caucasian_religion"
 	trade_goods="wild_game"
@@ -897,7 +897,7 @@
 }
 
 1671={ #Southwest Arran
-	terrain="forest"
+	terrain="plains"
 	culture="albanian"
 	religion="caucasian_religion"
 	trade_goods="leather"
@@ -1018,7 +1018,7 @@
 }
 
 5435={ #Kurus
-	terrain="forest"
+	terrain="plains"
 	culture="ibero"
 	religion="caucasian_religion"
 	trade_goods="wood"
@@ -1438,7 +1438,7 @@
 }
 
 9580={ #Mijawan
-	terrain="desert"
+	terrain="hills"
 	culture="armenian"
 	religion="mesopotamian_religion"
 	trade_goods="cattle"
