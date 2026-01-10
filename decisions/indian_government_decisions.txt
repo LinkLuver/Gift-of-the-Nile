@@ -34,7 +34,7 @@
 		effect = {
 			add_political_influence = -50
 			add_stability = -5
-			change_government = mahajanapada_kingdom
+			change_government = mahajanapada_monarchy
 			if = {
 				limit = {
 					capital_scope = {
