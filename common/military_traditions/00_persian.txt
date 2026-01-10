@@ -26,15 +26,15 @@
 			}
 			country_culture_group = east_semetic
 		}
-		trigger_else_if = {
-			limit = {
-				country_culture_group = mesopotamian
-			}
-			custom_tooltip = {
-				text = "began_with_tradition_group"
-			}
-			country_culture_group = mesopotamian
-		}
+		#trigger_else_if = {
+		#	limit = {
+		#		country_culture_group = mesopotamian
+		#	}
+		#
+		#		text = "began_with_tradition_group"
+		#	}
+		#	country_culture_group = mesopotamian
+		#}
 		#trigger_else_if = { #they get the new steppe ones instead
 		#	limit = {
 		#		tag = BAC

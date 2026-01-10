@@ -31,7 +31,7 @@
 			}
 			country_culture_group = lydio_phrygian
 		}
-		trigger_if = {
+		trigger_else_if = {
 			limit = { country_culture_group = hurro_urartian }
 			custom_tooltip = {
 				text = "began_with_tradition_group"
