@@ -25,6 +25,14 @@
 			country_culture_group = thrace_group
 		}
 		trigger_else_if = {
+			limit = { tag = TYL }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			tag = TYL
+		}
+
+		trigger_else_if = {
 			limit = {
 				has_variable = mission_thracian_mil_trad_var
 			}

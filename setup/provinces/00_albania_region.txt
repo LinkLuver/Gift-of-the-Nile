@@ -16,7 +16,7 @@
 
 1607={ #Idzhevan
 	terrain="plains"
-	culture="sasperian"
+	culture="ibero"
 	religion="caucasian_religion"
 	trade_goods="wood"
 	civilization_value=18
@@ -300,7 +300,7 @@
 
 1639={ #Amaras
 	terrain="forest"
-	culture="sasperian"
+	culture="armenian"
 	religion="mithra_religion"
 	trade_goods="honey"
 	civilization_value=18
@@ -523,7 +523,7 @@
 
 1650={ #Sisakan Inferior
 	terrain="forest"
-	culture="sasperian"
+	culture="armenian"
 	religion="mithra_religion"
 	trade_goods="vegetables"
 	civilization_value=18
@@ -677,7 +677,7 @@
 
 1660={ #Cambysene
 	terrain="plains"
-	culture="albanian"
+	culture="ibero"
 	religion="caucasian_religion"
 	trade_goods="wild_game"
 	civilization_value=18

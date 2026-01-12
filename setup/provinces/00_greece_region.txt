@@ -659,8 +659,8 @@
 		amount=1
 	}
 	freemen={
-		religion="platonism"
 		culture="athenian"
+		religion="platonism"
 		amount=1
 	}
 	freemen={
@@ -917,7 +917,7 @@
 	port_building=1
 }
 
-432={ #Ithome
+432={ #Mothone
 	terrain="hills"
 	culture="achaean"
 	religion="roman_pantheon"

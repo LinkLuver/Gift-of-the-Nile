@@ -9797,7 +9797,7 @@ country = {
 		BRL = {
 			government = plutocratic_monarchy
 			primary_culture = dumarian
-			religion = druidism
+			religion = roman_pantheon
 
 			capital = 348
 
@@ -11714,7 +11714,7 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
-			own_control_core = 	{ 206 1816 1815 1814 }
+			own_control_core = 	{ 206 1816 1815 1814 208 10307 }
 
 		}
 
@@ -14811,24 +14811,23 @@ country = {
 			}
 		}
 
-		SMS = { # Sesamos
-			government = oligarchic_republic
-			primary_culture = greco_pontic
-			religion = roman_pantheon
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			capital = 208
-
-			own_control_core = 	{
-				208 10307
-			}
-		}
+		#SMS = { # Sesamos
+		#	primary_culture = greco_pontic
+		#	religion = roman_pantheon
+		#
+		#	technology={
+		#		military_tech={ level=2 progress=0 }
+		#		civic_tech={ level=2 progress=0 }
+		#		oratory_tech={ level=2 progress=0 }
+		#		religious_tech= { level=2 progress=0  }
+		#	}
+		#
+		#	capital = 208
+		#
+		#	own_control_core = 	{
+		#		208 10307
+		#	}
+		#}
 
 		TIE = { # Tieion
 			government = oligarchic_republic

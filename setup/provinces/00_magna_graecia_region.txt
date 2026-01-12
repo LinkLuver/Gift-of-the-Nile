@@ -909,17 +909,9 @@
 	civilization_value=33
 	barbarian_power=0
 	province_rank="city"
-	56={ #Taras
-	terrain="farmland"
-	culture="italiotian"
-	religion="roman_pantheon"
-	trade_goods="horses"
-	civilization_value=33
-	barbarian_power=0
-	province_rank="city"
 	nobles={
-		amount=2
 		religion="isis_religion"
+		amount=2
 	}
 	citizen={
 		amount=8
@@ -2173,7 +2165,7 @@
 	port_building=1
 }
 
-97={ #Himera
+97={ #Thermae Himerenses
 	terrain="hills"
 	culture="syracusan"
 	religion="roman_pantheon"

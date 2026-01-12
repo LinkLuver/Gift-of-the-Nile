@@ -120,7 +120,7 @@
 
 502={ #Per-Atum
 	terrain="flood_plain"
-	culture="egyptian"
+	culture="avarite_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="cloth"
 	civilization_value=28
@@ -273,7 +273,7 @@
 
 510={ #Daphnai Pelousiai
 	terrain="flood_plain"
-	culture="danetic_egyptian"
+	culture="egyptiote"
 	religion="egyptian_pantheon"
 	trade_goods="papyrus"
 	civilization_value=33
@@ -644,7 +644,7 @@
 
 525={ #Sile
 	terrain="flood_plain"
-	culture="avarite_egyptian"
+	culture="egyptiote"
 	religion="egyptian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=28
@@ -1217,7 +1217,7 @@
 
 9821={ #PROV9821
 	terrain="flood_plain"
-	culture="wadjetic_egyptian"
+	culture="avarite_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="papyrus"
 	civilization_value=27
@@ -1274,7 +1274,7 @@
 
 9824={ #Nebeshe
 	terrain="flood_plain"
-	culture="wadjetic_egyptian"
+	culture="egyptiote"
 	religion="egyptian_pantheon"
 	trade_goods="papyrus"
 	civilization_value=27
@@ -1939,7 +1939,7 @@
 
 9867={ #PROV9867
 	terrain="flood_plain"
-	culture="wadjetic_egyptian"
+	culture="egyptiote"
 	religion="egyptian_pantheon"
 	trade_goods="papyrus"
 	civilization_value=27
@@ -1958,7 +1958,7 @@
 
 9868={ #Mekter-Sena
 	terrain="flood_plain"
-	culture="wadjetic_egyptian"
+	culture="egyptiote"
 	religion="egyptian_pantheon"
 	trade_goods="papyrus"
 	civilization_value=27
@@ -2053,7 +2053,7 @@
 
 9873={ #PROV9873
 	terrain="flood_plain"
-	culture="wadjetic_egyptian"
+	culture="avarite_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="papyrus"
 	civilization_value=27
@@ -2072,7 +2072,7 @@
 
 9874={ #PROV9874
 	terrain="flood_plain"
-	culture="wadjetic_egyptian"
+	culture="avarite_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="papyrus"
 	civilization_value=27

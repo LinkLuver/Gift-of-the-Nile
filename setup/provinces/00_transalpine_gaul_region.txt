@@ -502,6 +502,7 @@
 	}
 	freemen={
 		culture="arverni"
+		amount=3
 	}
 	freemen={
 		culture="massalian"
@@ -1030,8 +1031,8 @@
 		religion="roman_pantheon"
 		amount=1
 	}
-	port_building=1
 	holy_site=omen_artemis_ephesia
+	port_building=1
 }
 
 2339={ #Uxellodunum

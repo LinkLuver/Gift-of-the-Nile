@@ -506,54 +506,6 @@
 	}
 }
 
-10439={ #Washshukanni
-	terrain="farmland"
-	culture="hurrian"
-	religion="hurrian_pantheon"
-	trade_goods="earthware"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		religion="zoroaster"
-		amount=2
-	}
-	citizen={
-		culture="sophene"
-		religion="anahitic_religion"
-		amount=1
-	}
-	citizen={
-		amount=11
-	}
-	nobles={
-		culture="cretan"
-		amount=1
-	}
-	nobles={
-		culture="mitanni"
-		amount=3
-	}
-	tribesmen={
-		culture="mitanni"
-		religion="hurrian_pantheon"
-		amount=2
-	}
-	freemen={
-		culture="hurrian"
-		religion="hurrian_pantheon"
-		amount=4
-	}
-	freemen={
-		culture="mitanni"
-		amount=4
-	}
-	slaves={
-		culture="nahric"
-		amount=5
-	}
-}
-
 845={ #Martyropolis
 	terrain="hills"
 	culture="arzonian"
@@ -1194,7 +1146,7 @@
 
 8000={ #
 	terrain="farmland"
-	culture="paphlagonian"
+	culture="sophene"
 	religion="hatti_religion"
 	trade_goods="marble"
 	civilization_value=18
@@ -1269,7 +1221,7 @@
 
 8010={ #Koloua
 	terrain="plains"
-	culture="sophene"
+	culture="urtaian"
 	religion="armenian_religion"
 	trade_goods="base_metals"
 	civilization_value=18
