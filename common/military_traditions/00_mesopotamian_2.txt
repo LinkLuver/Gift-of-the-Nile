@@ -17,28 +17,28 @@
 			}
 			country_culture_group = mesopotamian
 		}
-		trigger_else_if = {
-			limit = {
-				OR = {
-					has_variable = unlock_greek_kingdom_var
-					has_variable = persian_cap_greek_mil_trads_var
-				}
-			}
-			custom_tooltip = {
-				text = "unlocked_via_mission_tree_tt"
-				OR = {
-					has_variable = unlock_greek_kingdom_var
-					has_variable = persian_cap_greek_mil_trads_var
-				}
-			}
-		}
-		trigger_else = {
-			custom_tooltip = {
-				text = "tradition_unlock_requirement_cultural_decision"
-				has_variable = greek_influence
-			}
-			custom_tooltip = tradition_unlock_requirement_greek
-		}
+		#trigger_else_if = {
+		#	limit = {
+		#		OR = {
+		#			has_variable = unlock_greek_kingdom_var
+		#			has_variable = persian_cap_greek_mil_trads_var
+		#		}
+		#	}
+		#	custom_tooltip = {
+		#		text = "unlocked_via_mission_tree_tt"
+		#		OR = {
+		#			has_variable = unlock_greek_kingdom_var
+		#			has_variable = persian_cap_greek_mil_trads_var
+		#		}
+		#	}
+		#}
+		#trigger_else = {
+		#	custom_tooltip = {
+		#		text = "tradition_unlock_requirement_cultural_decision"
+		#		has_variable = greek_influence
+		#	}
+		#	custom_tooltip = tradition_unlock_requirement_greek
+		#}
 	}
 	
 	greek_seleucid_path_1 = {
