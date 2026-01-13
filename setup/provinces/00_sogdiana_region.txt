@@ -186,7 +186,7 @@
 	}
 }
 
-6703={ #Ooemoeia Inferiores
+6703={ #Cyreschata
 	terrain="hills"
 	culture="sogdian"
 	religion="vaksh_religion"
@@ -222,7 +222,7 @@
 	}
 }
 
-6704={ #Ooemoeia Superiores
+6704={ #Guishan
 	terrain="farmland"
 	culture="jueyun"
 	religion="taoism"
@@ -583,7 +583,7 @@
 	}
 }
 
-6730={ #Khavakand
+6730={ #Haocheng
 	terrain="plains"
 	culture="tayuan"
 	religion="taoism"
@@ -605,7 +605,7 @@
 	}
 }
 
-6731={ #Massagetia
+6731={ #Beiting
 	terrain="farmland"
 	culture="tayuan"
 	religion="taoism"
@@ -614,15 +614,15 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=2
 		culture="jueyun"
+		amount=2
 	}
 	citizen={
 		amount=2
 	}
 	citizen={
+		culture="jueyun"
 		amount=4
-		culture="jueyun"
 	}
 	freemen={
 		amount=6
@@ -640,7 +640,7 @@
 	}
 }
 
-6732={ #Makhram
+6732={ #Xingzhuang
 	terrain="hills"
 	culture="tayuan"
 	religion="taoism"
@@ -699,7 +699,7 @@
 	}
 }
 
-6734={ #Chust
+6734={ #Teizhou
 	terrain="hills"
 	culture="sogdian"
 	religion="taoism"
@@ -708,19 +708,19 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=2
 		culture="jueyun"
+		amount=2
 	}
 	citizen={
-		amount=4
 		culture="tayuan"
+		amount=4
 	}
 	freemen={
 		amount=7
 	}
 	freemen={
-		amount=4
 		culture="tayuan"
+		amount=4
 	}
 	freemen={
 		culture="jueyun"
@@ -737,7 +737,7 @@
 	}
 }
 
-6735={ #Dawan
+6735={ #Xian'an
 	terrain="hills"
 	culture="tayuan"
 	religion="vaksh_religion"
@@ -760,7 +760,7 @@
 	holy_site=omen_zhun
 }
 
-6736={ #Osh
+6736={ #Wahe
 	terrain="mountain"
 	culture="tayuan"
 	religion="zoroaster"
@@ -779,7 +779,7 @@
 	}
 }
 
-6737={ #Andijan
+6737={ #Anzhuang
 	terrain="hills"
 	culture="tayuan"
 	religion="zoroaster"
@@ -811,7 +811,7 @@
 	}
 }
 
-6738={ #Namakan
+6738={ #Yanzhou
 	terrain="hills"
 	culture="tayuan"
 	religion="vaksh_religion"
@@ -838,7 +838,7 @@
 	}
 }
 
-6739={ #Akhsiket
+6739={ #Yongcheng
 	terrain="plains"
 	culture="tayuan"
 	religion="zoroaster"
@@ -868,7 +868,7 @@
 	}
 }
 
-6740={ #Shakrikhan
+6740={ #Yangyang 
 	terrain="hills"
 	culture="tayuan"
 	religion="vaksh_religion"

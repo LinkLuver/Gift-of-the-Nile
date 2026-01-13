@@ -1,5 +1,5 @@
 ﻿445={ #Hedjikam
-	terrain="desert"
+	terrain="flood_plain"
 	culture="tenuwan_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="fish"
@@ -21,7 +21,7 @@
 }
 
 453={ #Wenmeri-Asar
-	terrain="desert"
+	terrain="flood_plain"
 	culture="tenuwan_egyptian"
 	religion="aten_religion"
 	trade_goods="salt"
@@ -119,8 +119,8 @@
 }
 
 502={ #Per-Atum
-	terrain="desert"
-	culture="egyptian"
+	terrain="flood_plain"
+	culture="avarite_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="cloth"
 	civilization_value=28
@@ -180,52 +180,6 @@
 	holy_site=omen_sekhmet
 }
 
-505={ #Per-Aten
-	terrain="desert"
-	culture="egyptian"
-	religion="aten_religion"
-	trade_goods="cloth"
-	civilization_value=33
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=8
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=1
-	}
-	holy_site=omen_tutankhaten
-	port_building=1
-}
-
-506={ #Meswet-ir-Biau
-	terrain="desert"
-	culture="mafkatian_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="leather"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	citizen={
-		religion="arabian_pantheon"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	slaves={
-		religion="arabian_pantheon"
-		amount=1
-	}
-	holy_site=omen_miriam
-}
-
 507={ #Iunu-Het
 	terrain="flood_plain"
 	culture="egyptian"
@@ -257,7 +211,7 @@
 }
 
 508={ #Dja'net
-	terrain="marsh"
+	terrain="flood_plain"
 	culture="danetic_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="papyrus"
@@ -279,7 +233,7 @@
 }
 
 509={ #Per-Amun
-	terrain="marsh"
+	terrain="flood_plain"
 	culture="avarite_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="cloth"
@@ -295,7 +249,7 @@
 		amount=11
 	}
 	citizen={
-		culture="hebrew"
+		culture="edomite"
 		religion="judaism"
 		amount=3
 	}
@@ -313,13 +267,13 @@
 	tribesmen={
 		amount=2
 	}
-	port_building=1
 	fortress_building=2
+	port_building=1
 }
 
-510={ #Tahpanhes
+510={ #Daphnai Pelousiai
 	terrain="flood_plain"
-	culture="danetic_egyptian"
+	culture="egyptiote"
 	religion="egyptian_pantheon"
 	trade_goods="papyrus"
 	civilization_value=33
@@ -541,7 +495,7 @@
 }
 
 518={ #Per-Wadjet
-	terrain="marsh"
+	terrain="flood_plain"
 	culture="wadjetic_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="dates"
@@ -631,7 +585,7 @@
 }
 
 522={ #Semabehdet
-	terrain="marsh"
+	terrain="flood_plain"
 	culture="neithic_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="papyrus"
@@ -651,7 +605,7 @@
 }
 
 523={ #Iaret-wer-Netjer
-	terrain="marsh"
+	terrain="flood_plain"
 	culture="wadjetic_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="fish"
@@ -688,9 +642,9 @@
 	}
 }
 
-525={ #Tjaru
-	terrain="desert"
-	culture="avarite_egyptian"
+525={ #Sile
+	terrain="flood_plain"
+	culture="egyptiote"
 	religion="egyptian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=28
@@ -726,7 +680,7 @@
 	}
 }
 
-527={ #Imu
+527={ #Hut-Hr-Bik
 	terrain="flood_plain"
 	culture="neithic_egyptian"
 	religion="aten_religion"
@@ -764,7 +718,7 @@
 	}
 }
 
-529={ #Pikuat
+529={ #Per-Guat
 	terrain="flood_plain"
 	culture="wadjetic_egyptian"
 	religion="egyptian_pantheon"
@@ -785,7 +739,7 @@
 }
 
 530={ #Khito
-	terrain="marsh"
+	terrain="flood_plain"
 	culture="wadjetic_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="fish"
@@ -847,7 +801,7 @@
 }
 
 533={ #Ah-Bity
-	terrain="marsh"
+	terrain="flood_plain"
 	culture="wadjetic_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="fish"
@@ -895,7 +849,7 @@
 }
 
 535={ #Ta-Het
-	terrain="desert"
+	terrain="plains"
 	culture="retenuan"
 	religion="egyptian_pantheon"
 	trade_goods="cattle"
@@ -984,311 +938,8 @@
 	}
 }
 
-538={ #Tepihu
-	terrain="flood_plain"
-	culture="middle_egyptian"
-	religion="aten_religion"
-	trade_goods="dates"
-	civilization_value=38
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=9
-	}
-	freemen={
-		amount=10
-	}
-	slaves={
-		amount=14
-	}
-	tribesmen={
-		religion="sobek_religion"
-		amount=4
-	}
-}
-
-539={ #Shedet
-	terrain="oasis"
-	culture="middle_egyptian"
-	religion="sobek_religion"
-	trade_goods="marble"
-	civilization_value=40
-	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=3
-	}
-	nobles={
-		culture="akhenite_egyptian"
-		religion="aten_religion"
-		amount=2
-	}
-	citizen={
-		culture="hebrew"
-		religion="judaism"
-		amount=3
-	}
-	citizen={
-		amount=6
-	}
-	freemen={
-		culture="hebrew"
-		religion="judaism"
-		amount=6
-	}
-	freemen={
-		amount=22
-	}
-	slaves={
-		amount=10
-	}
-	holy_site=omen_sobekaten
-}
-
-540={ #Per-Demy-Ma
-	terrain="oasis"
-	culture="middle_egyptian"
-	religion="sobek_religion"
-	trade_goods="grain"
-	civilization_value=33
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="hebrew"
-		religion="judaism"
-		amount=2
-	}
-	freemen={
-		amount=10
-	}
-	slaves={
-		culture="middle_egyptian"
-		religion="egyptian_pantheon"
-		amount=4
-	}
-	slaves={
-		amount=2
-	}
-	slaves={
-		culture="hebrew"
-		religion="judaism"
-		amount=1
-	}
-}
-
-541={ #Bandiq
-	terrain="oasis"
-	culture="middle_egyptian"
-	religion="sobek_religion"
-	trade_goods="grain"
-	civilization_value=33
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		culture="hebrew"
-		religion="judaism"
-		amount=6
-	}
-	freemen={
-		religion="aten_religion"
-		amount=6
-	}
-	slaves={
-		amount=7
-	}
-}
-
-542={ #Tayu-Djayet
-	terrain="flood_plain"
-	culture="middle_egyptian"
-	religion="aten_religion"
-	trade_goods="grain"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=4
-	}
-	freemen={
-		religion="sobek_religion"
-		amount=3
-	}
-	slaves={
-		amount=5
-	}
-}
-
-543={ #Delas
-	terrain="flood_plain"
-	culture="middle_egyptian"
-	religion="aten_religion"
-	trade_goods="wine"
-	civilization_value=36
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=10
-	}
-	freemen={
-		amount=4
-	}
-	freemen={
-		religion="sobek_religion"
-		amount=4
-	}
-	slaves={
-		amount=19
-	}
-}
-
-544={ #Henen-nesut
-	terrain="flood_plain"
-	culture="middle_egyptian"
-	religion="aten_religion"
-	trade_goods="grain"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=4
-	}
-	citizen={
-		amount=10
-	}
-	citizen={
-		religion="egyptian_pantheon"
-		amount=5
-	}
-	freemen={
-		amount=10
-	}
-	freemen={
-		religion="sobek_religion"
-		amount=4
-	}
-	slaves={
-		religion="egyptian_pantheon"
-		amount=10
-	}
-	slaves={
-		religion="sobek_religion"
-		amount=3
-	}
-}
-
-545={ #Per-Medjed
-	terrain="flood_plain"
-	culture="middle_egyptian"
-	religion="aten_religion"
-	trade_goods="grain"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		culture="hebrew"
-		religion="judaism"
-		amount=3
-	}
-	citizen={
-		amount=4
-	}
-	freemen={
-		amount=12
-	}
-	slaves={
-		amount=8
-	}
-	tribesmen={
-		religion="sobek_religion"
-		amount=3
-	}
-	holy_site=omen_medjed
-}
-
-546={ #Saka
-	terrain="flood_plain"
-	culture="middle_egyptian"
-	religion="aten_religion"
-	trade_goods="stone"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		religion="sobek_religion"
-		amount=4
-	}
-	slaves={
-		amount=7
-	}
-}
-
-547={ #Shusha
-	terrain="flood_plain"
-	culture="middle_egyptian"
-	religion="aten_religion"
-	trade_goods="grain"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		religion="egyptian_pantheon"
-		amount=2
-	}
-	freemen={
-		religion="sobek_religion"
-		amount=2
-	}
-	slaves={
-		amount=6
-	}
-}
-
-548={ #Hebenou
-	terrain="flood_plain"
-	culture="middle_egyptian"
-	religion="aten_religion"
-	trade_goods="precious_metals"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		religion="sobek_religion"
-		amount=2
-	}
-	slaves={
-		amount=7
-	}
-}
-
-550={ #Temsey
-	terrain="flood_plain"
-	culture="middle_egyptian"
-	religion="aten_religion"
-	trade_goods="grain"
-	civilization_value=31
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		religion="egyptian_pantheon"
-		amount=1
-	}
-	slaves={
-		religion="sobek_religion"
-		amount=3
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
 655={ #Per-Apis
-	terrain="desert"
+	terrain="flood_plain"
 	culture="avarite_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="cattle"
@@ -1306,34 +957,6 @@
 	}
 	tribesmen={
 		amount=3
-	}
-}
-
-656={ #Rinokoloura
-	terrain="desert"
-	culture="retenuan"
-	religion="carthaginian_pantheon"
-	trade_goods="salt"
-	civilization_value=33
-	barbarian_power=0
-	province_rank="city"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		religion="arabian_pantheon"
-		amount=1
-	}
-	tribesmen={
-		amount=3
-	}
-	tribesmen={
-		culture="egyptian"
-		religion="egyptian_pantheon"
-		amount=1
 	}
 }
 
@@ -1365,62 +988,43 @@
 	}
 }
 
-1600={ #Marah
+3380={ #Leuke Akte Kyrenaike
 	terrain="desert"
-	culture="mafkatian_egyptian"
-	religion="arabian_pantheon"
+	culture="tenuwan_egyptian"
+	religion="egyptian_pantheon"
 	trade_goods="fish"
+	civilization_value=28
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+}
+
+3476={ #Pnigeus
+	terrain="desert"
+	culture="tenuwan_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="cattle"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=1
 	}
-	tribesmen={
+	freemen={
 		amount=1
 	}
 }
 
-1604={ #Phoinikon
+3477={ #Pedonia
 	terrain="desert"
-	culture="mafkatian_egyptian"
-	religion="arabian_pantheon"
-	trade_goods="glass"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-1675={ #Pharan
-	terrain="desert_hills"
-	culture="mafkatian_egyptian"
-	religion="arabian_pantheon"
+	culture="tenuwan_egyptian"
+	religion="egyptian_pantheon"
 	trade_goods="fish"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-1682={ #Rhaithou
-	terrain="desert"
-	culture="mafkatian_egyptian"
-	religion="arabian_pantheon"
-	trade_goods="gems"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
@@ -1428,285 +1032,65 @@
 		amount=1
 	}
 	slaves={
-		amount=2
-	}
-}
-
-1684={ #Ain Hudera
-	terrain="desert_hills"
-	culture="nabatean"
-	religion="arabian_pantheon"
-	trade_goods="cattle"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
 		amount=1
 	}
 }
 
-1688={ #Nuweiba
+3478={ #Derras
 	terrain="desert"
-	culture="nabatean"
-	religion="arabian_pantheon"
+	culture="tenuwan_egyptian"
+	religion="egyptian_pantheon"
 	trade_goods="fish"
-	civilization_value=17
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-1693={ #Horeb Mons
-	terrain="desert_hills"
-	culture="mafkatian_egyptian"
-	religion="arabian_pantheon"
-	trade_goods="gems"
-	civilization_value=29
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-	holy_site=omen_moses
-}
-
-1708={ #Tell el-Mashraba
-	terrain="desert_hills"
-	culture="nabatean"
-	religion="arabian_pantheon"
-	trade_goods="fish"
-	civilization_value=18
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-1709={ #Naqb Jedid
-	terrain="desert"
-	culture="nabatean"
-	religion="arabian_pantheon"
-	trade_goods="marble"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-1710={ #Sina Meridionalis
-	terrain="desert"
-	culture="nabatean"
-	religion="arabian_pantheon"
-	trade_goods="marble"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-5531={ #Parva
-	terrain="oasis"
-	culture="deshretic_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="camel"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-5532={ #Kom Namrud
-	terrain="desert"
-	culture="middle_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="dates"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		religion="sobek_religion"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-5533={ #Berku
-	terrain="desert"
-	culture="middle_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="camel"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=3
-	}
-	tribesmen={
-		religion="sobek_religion"
-		amount=2
-	}
-}
-
-5534={ #Varam
-	terrain="desert"
-	culture="middle_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="base_metals"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=2
-	}
-}
-
-5535={ #Colira
-	terrain="desert"
-	culture="middle_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="leather"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	slaves={
-		religion="aten_religion"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-5541={ #Shunne
-	terrain="desert"
-	culture="deshretic_egyptian"
-	religion="egyptian_pantheon"
-	trade_goods="cattle"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-5542={ #Murta
-	terrain="desert"
-	culture="libyan"
-	religion="egyptian_pantheon"
-	trade_goods="fur"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=1
 	}
-	tribesmen={
-		amount=2
-	}
-}
-
-5543={ #Magrab
-	terrain="desert"
-	culture="libyan"
-	religion="egyptian_pantheon"
-	trade_goods="dates"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-}
-
-5544={ #Gerum
-	terrain="desert"
-	culture="libyan"
-	religion="egyptian_pantheon"
-	trade_goods="leather"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=1
-	}
-}
-
-5546={ #Pseneros
-	terrain="desert"
-	culture="middle_egyptian"
-	religion="sobek_religion"
-	trade_goods="dates"
-	civilization_value=28
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=8
-	}
-	tribesmen={
-		religion="aten_religion"
-		amount=4
-	}
 	slaves={
-		religion="egyptian_pantheon"
-		amount=3
+		amount=1
 	}
-	holy_site=omen_sobek
 }
 
-5547={ #Philoteris
-	terrain="oasis"
-	culture="middle_egyptian"
-	religion="sobek_religion"
-	trade_goods="dates"
+5514={ #Ta-iht
+	terrain="flood_plain"
+	culture="hethedetian"
+	religion="egyptian_pantheon"
+	trade_goods="salt"
 	civilization_value=31
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="garamantic"
+		amount=1
+	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
-		religion="egyptian_pantheon"
-		amount=1
+		amount=3
 	}
 }
 
-5548={ #Kerkethoris
-	terrain="desert"
-	culture="middle_egyptian"
+5526={ #Minqar
+	terrain="flood_plain"
+	culture="hethedetian"
 	religion="egyptian_pantheon"
-	trade_goods="wild_game"
+	trade_goods="stone"
 	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
 	}
 }
 
@@ -1755,7 +1139,7 @@
 }
 
 7688={ #Thenessos
-	terrain="marsh"
+	terrain="flood_plain"
 	culture="danetic_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="cloth"
@@ -1794,7 +1178,7 @@
 }
 
 7690={ #Tamiat
-	terrain="marsh"
+	terrain="flood_plain"
 	culture="danetic_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="papyrus"
@@ -1813,7 +1197,1033 @@
 }
 
 7691={ #Perseos Skope
-	terrain="marsh"
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9821={ #PROV9821
+	terrain="flood_plain"
+	culture="avarite_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9822={ #Jebel Maghara
+	terrain="desert"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9823={ #PROV9823
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9824={ #Nebeshe
+	terrain="flood_plain"
+	culture="egyptiote"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9825={ #PROV9825
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9834={ #PROV9834
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9835={ #Ra-Shedi
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9836={ #PROV9836
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9837={ #PROV9837
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9838={ #PROV9838
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9839={ #PROV9839
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9840={ #
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9841={ #Sehat Khemaut
+	terrain="oasis"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9842={ #Imu
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9843={ #Sahed Wat
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9844={ #Akhetash
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9845={ #Per-Medu-Nefer
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9846={ #PROV9846
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9847={ #PROV9847
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9848={ #PROV9848
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9849={ #PROV9849
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9850={ #PROV9850
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9851={ #Saka-Iment
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9852={ #PROV9852
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9853={ #PROV9853
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9854={ #PROV9854
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9855={ #PROV9855
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9856={ #Saka-Iabet
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9857={ #PROV9857
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9858={ #PROV9858
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9859={ #PROV9859
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9860={ #PROV9860
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9861={ #PROV9861
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9862={ #PROV9862
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9863={ #PROV9863
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9864={ #Horbeit
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9865={ #PROV9865
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9866={ #PROV9866
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9867={ #PROV9867
+	terrain="flood_plain"
+	culture="egyptiote"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9868={ #Mekter-Sena
+	terrain="flood_plain"
+	culture="egyptiote"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9869={ #PROV9869
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9870={ #PROV9870
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9871={ #Per-Soped
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9872={ #PROV9872
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9873={ #PROV9873
+	terrain="flood_plain"
+	culture="avarite_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9874={ #PROV9874
+	terrain="flood_plain"
+	culture="avarite_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9875={ #Pi-Ramesesses
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9878={ #PROV9878
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9906={ #PROV9906
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9907={ #PROV9907
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9908={ #PROV9908
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+9922={ #Niteri Wat
+	terrain="desert_hills"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+10321={ #PROV10321
+	terrain="flood_plain"
+	culture="wadjetic_egyptian"
+	religion="egyptian_pantheon"
+	trade_goods="papyrus"
+	civilization_value=27
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+10322={ #PROV10322
+	terrain="flood_plain"
 	culture="wadjetic_egyptian"
 	religion="egyptian_pantheon"
 	trade_goods="papyrus"

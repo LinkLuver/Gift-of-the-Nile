@@ -118,6 +118,13 @@ armenia_region = { #9 areas
 		tarawn_area
 		upper_armenia_area
 		vaspurakan_area
+		urartu_placeholder_1
+		urartu_placeholder_2
+		urartu_placeholder_3
+		urartu_placeholder_4
+		urartu_placeholder_5
+		urartu_placeholder_6
+		urartu_placeholder_7
 	}
 }
 
@@ -138,12 +145,26 @@ asia_region = { #8 areas
 	color = rgb { 244 222 89 }
 	areas = {
 		aeolia_area
-		coastal_caria_area
-		inland_caria_area
 		ionia_area
 		lydia_area
 		mysia_abrettene_area
 		mysia_area
+		anatolia_placeholder_area_5
+		anatolia_placeholder_area_6
+		anatolia_placeholder_area_7
+	}
+}
+
+lycia_region = { #7 areas
+	color = rgb { 186 58 124 }
+	areas = {
+		pisidia_area
+		lycia_area
+		milyas_area
+		anatolia_placeholder_area_2
+		anatolia_placeholder_area_3
+		coastal_caria_area
+		inland_caria_area
 		sporades_area
 	}
 }
@@ -171,7 +192,6 @@ upper_mesopotamia_region = { #7 areas
 		osroene_area
 		tella_area
 		amudha_area
-		commagene_area
 		corduene_area
 		sophene_area
 		euphrates_area
@@ -278,10 +298,11 @@ bithynia_region = { #6 areas
 	areas = {
 		bithynia_area
 		bithynia_inferior_area
-		bithynia_superior_area
 		heracleotis_area
 		paphlagonia_inferior_area
 		paphlagonia_superior_area
+		anatolia_placeholder_area_12
+		pontus_area
 	}
 }
 
@@ -373,7 +394,6 @@ cappadocia_pontica_region = { #5 areas
 		armenia_maior_area
 		armenia_minor_area
 		machelonia_area
-		pontus_area
 		pontus_colopene_area
 	}
 }
@@ -385,6 +405,9 @@ cappadocia_region = { #5 areas
 		cappadocia_garsauritis_area
 		cappadocia_melitene_area
 		cappadocia_saravene_area
+		anatolia_placeholder_area_9
+		anatolia_placeholder_area_10
+		anatolia_placeholder_area_11
 	}
 }
 
@@ -456,13 +479,13 @@ central_mediterranean_river_region = { #1 areas
 cilicia_region = { #7 areas
 	color = rgb { 227 103 61 }
 	areas = {
-		cilicia_pedias_area
 		cilicia_trachea_area
 		cyprus_area
-		lycia_area
-		milyas_area
 		pamphylia_area
-		pisidia_area
+		isauria_area
+		lycaonia_area
+		anatolia_placeholder_area
+		phrygia_parorea_area
 	}
 }
 
@@ -509,13 +532,13 @@ contestania_region = { #8 areas
 cyrenaica_region = { #7 areas
 	color = rgb { 17 127 237 }
 	areas = {
-		ammon_area
 		cyrenaica_inferioris_area
 		cyrenaica_superioris_area
 		marmarica_occidentalis_area
 		marmarica_orientalis_area
 		tripolitania_centralis_area
 		tripolitania_orientalis_area
+		jaghbub_area
 	}
 }
 
@@ -586,11 +609,12 @@ galatia_region = { #7 areas
 	areas = {
 		galatia_area
 		galatia_trocmi_area
-		isauria_area
-		lycaonia_area
 		phrygia_area
 		phrygia_epiktetos
-		phrygia_parorea_area
+		phrygia_maior_area
+		anatolia_placeholder_area_4
+		anatolia_placeholder_area_8
+		bithynia_superior_area
 	}
 }
 
@@ -729,11 +753,14 @@ lower_egypt_region = { #7 areas
 	areas = {
 		central_delta_area
 		eastern_delta_area
-		heptanomis_area
 		memphis_area
-		parva_area
-		sinai_area
 		western_delta_area
+		pharaoh_canal_area
+		tanis_area
+		mendes_area
+		manzala_area
+		khem_imu_area
+		bolbitine_area
 	}
 }
 
@@ -742,13 +769,13 @@ lower_nubia_region = { #9 areas
 	areas = {
 		alana_area
 		allaqi_area
-		aswan_area
 		bayuda_area
 		gabgaba_area
 		napata_area
 		north_nubia_area
 		sinkat_area
 		south_nubia_area
+		per_srq_area
 	}
 }
 
@@ -995,6 +1022,10 @@ palestine_region = { #7 areas
 		peraea_area
 		philistia_area
 		samaria_area
+		canaan_placeholder
+		canaan_placeholder_2
+		edom_area
+		gaulanitis_area
 	}
 }
 
@@ -1235,7 +1266,25 @@ syria_region = { #7 areas
 		south_phoenicia_area
 		syria_area
 		syria_coele_area
+		heliopolis_area
+		theleda_area
+		nahrain_area
+		arpadh_area
+		central_phoenicia_area
+	}
+}
+
+hatti_region = { #7 areas
+	color = rgb { 70 61 62 }
+	areas = {
 		syria_cyrrestice_area
+		commagene_area
+		karkemish_area
+		cilicia_pedias_area
+		que_placeholder
+		que_placeholder_two
+		que_placeholder_three
+		que_placeholder_four
 	}
 }
 
@@ -1306,14 +1355,43 @@ upper_egypt_region = { #9 areas
 	color = rgb { 255 245 193 }
 	areas = {
 		eastern_desert_area
-		farfara_area
 		hema_nome_area
-		kharga_area
-		khargana_area
 		luxor_area
 		myos_hormos_area
 		ptolemais_area
 		troglodytica_area
+		herui_area
+		abydos_area
+		iunet_area
+		aswan_area
+	}
+}
+
+deshret_region = { #9 areas
+	color = rgb { 236 213 85 }
+	areas = {
+		deshret_placeholder_area
+		deshret_placeholder_area_4
+		kharga_area
+		khargana_area
+		ammon_area
+		faiyum_desert_area
+	}
+}
+
+faiyum_region = { #9 areas
+	color = rgb { 32 97 2 }
+	areas = {
+		deras_area
+		fayyum_area
+		parva_area
+		hut_nesut_area
+		medjed_area
+		heptanomis_area
+		sinai_area
+		akhetaton_area
+		qesy_area
+		farfara_area
 	}
 }
 

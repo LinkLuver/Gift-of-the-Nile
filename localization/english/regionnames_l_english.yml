@@ -99,12 +99,24 @@
  beth_daraye_area:1 "Sittacene"
  meshan_area:1 "Ur"
  susiana_area:0 "Susiana"
- western_delta_area:0 "Western Delta"
- eastern_delta_area:0 "Eastern Delta"
- central_delta_area:0 "Central Delta"
+ western_delta_area:0 "Pikuat" #Kanopos/Pikuat/Per-Guat
+ bolbitine_area:0 "Rosetta" #Rossetta/Rashed/Bolbitine
+ manzala_area:0 "Mandjara" #Per-Mandjiwri / Manzala
+ eastern_delta_area:0 "Sena" #Per-Amun
+ sabennytos_area:0 "Tabenuta" #Sabennytos/Teb'n-Niwtr
+ central_delta_area:0 "Taparaya" #Approx. from Ta-Paralia (Greek Loan), Lake Burulus, Ta-Paraya
+ mendes_area:0 "Mendes" #Mendenic River
+ tanis_area:0 "Tanis" #Tanetic River
+ pharaoh_canal_area:0 "Shunetru" #Divine Canal
+ khem_imu_area:0 "Khemimu" #2 Nomes, Sehat Khemiwt and Imu
  memphis_area:0 "Memphis"
- heptanomis_area:0 "Faiyum"
+ heptanomis_area:0 "Amarna"
+ deras_area:0 "Deras"
+ hut_nesut_area:0 "Hut-Nesut"
+ medjed_area:0 "Per-Medjed"
  sinai_area:0 "Sinai"
+ qesy_area:0 "Aswan"
+ akhetaton_area:0 "Amarna"
  philistia_area:0 "Philistia"
  arabia_petrea_area:0 "Arabia Petrea"
  cyprus_area:0 "Cyprus"
@@ -363,10 +375,20 @@
  arabia_felix_orientalis_area:0 "Arabia Felix Orientalis"
  hadramut_occidentalis_area:0 "Hadhramut Occidentalis"
  hadramut_orientalis_area:0 "Hadhramut Orientalis"
- hema_nome_area:1 "Amarna"
+ hema_nome_area:1 "Tjebu"
  luxor_area:0 "Luxor"
  aswan_area:0 "Aswan"
+ herui_area:0 "Herui"
+ abydos_area:0 "Abydos"
+ iunet_area:0 "Iunet"
+ per_srq_area:0 "Per-Serik"
  troglodytica_area:0 "Mafkat Iawi"
+ arpadh_area:0 "Arpadh"
+ karkemish_area:0 "Karkemish"
+ nahrain_area:0 "Nahrain"
+ theleda_area:0 "Theleda"
+ heliopolis_area:0 "Heliopolis"
+ central_phoenicia_area:0 "Central Phoenicia"
  myos_hormos_area:0 "Marsa Alam"
  transcarpathia_orientalis_area:1 "Costobocia"
  clepia_area:0 "Clepia"
@@ -542,7 +564,8 @@
  khargana_area:0 "Khargana"
  kharga_area:0 "Kharga"
  farfara_area:0 "Farafra"
- parva_area:0 "Parva"
+ parva_area:0 "Lower Fayyum"
+ fayyum_area:0 "Upper Fayyum"
  taifa_area:0 "Taifa"
  herulia_area:0 "Herulia"
  east_gothia_area:0 "East Gothia"
