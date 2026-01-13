@@ -1,0 +1,90 @@
+﻿namespace = italy_events
+
+italy_events.1 = {
+	type = country_event
+	title = "italy_events_1_title"
+	desc = "italy_events_1_desc"
+	picture = Event_roman_senate_speaks
+
+    trigger = {
+        tag = FLS
+        current_date > 451.3.15
+    }
+    fire_only_once = yes
+
+    option = {
+        name = "italy_events_1.a"
+		custom_tooltip = "italy_events_a_tt"
+        add_political_influence = -30
+        add_party_approval = {
+            party_type = traditionalist_party
+            value = 10
+        }
+        p:18 = {
+            add_province_modifier = {
+                name = faliscan_league_capital
+                duration = -1
+            }
+            add_building_level = forum_building
+        }
+    }
+	 option = {
+        name = "italy_events_1.b"
+		custom_tooltip = "italy_events_b_tt"
+        add_political_influence = -30
+        set_capital = 16
+         add_party_approval = {
+            party_type = democratic_party
+            value = 5
+        }
+        p:16 = {
+            add_province_modifier = {
+                name = faliscan_league_capital
+                duration = -1
+            }
+            add_building_level = military_building
+        }
+        
+    }
+     option = {
+        name = "italy_events_1.c"
+        add_political_influence = -30
+        set_capital = 15
+         add_party_approval = {
+            party_type = oligarchic_party
+            value = 5
+        }
+        p:15 = {
+            add_province_modifier = {
+                name = faliscan_league_capital
+                duration = -1
+            }
+            add_building_level = commerce_building
+        }
+    }
+     option = {
+        name = "italy_events_1.d"
+		custom_tooltip = "italy_events_d_tt"
+        add_political_influence = -30
+         add_party_approval = {
+                party_type = traditionalist_party
+                value = -10
+            }
+            add_party_approval = {
+                party_type = democratic_party
+                value = -5
+            }
+            add_party_approval = {
+                party_type = oligarchic_party
+                value = -5
+            }
+        set_capital = 1
+        p:1 = {
+            add_province_modifier = {
+                name = faliscan_league_capital
+                duration = -1
+            }
+            add_building_level = fortress_building
+        }
+    }
+}

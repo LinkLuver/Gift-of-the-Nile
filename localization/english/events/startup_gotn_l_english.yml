@@ -232,3 +232,15 @@
  greece_events_10.c:0 "Thebes has surpassed all petty Greek states. A new, Theban Empire is to be proclaimed!"
  theban_excellence:0 "Theban excellence"
  THEBAN_IMPERIUM:0 "Theban Empire"
+
+ #Italy Events
+
+ italy_events_1_title:0 "A New League Capital?"
+ italy_events_1_desc:0 "Six years after the creation of the Faliscan League and the conquest of [GetProvince('(int32)1').GetName], the league still stands. Representatives from each member of the league discuss plans for the future- the topic for today is what shall the capital be. As the league was created in [GetProvince('(int32)18').GetName], it is currently centered there. But should a Faliscan city dominate the Etruscan and Latin cities?\n\nSeveral candidates are proposed- [GetProvince('(int32)16').GetName], the stronghold of the Etruscans. [GetProvince('(int32)15').GetName], the bustling Latin port city, or [GetProvince('(int32)1').GetName], once the center of the hated Latin League. Local nobles from each city have already pledged to invest in our new chosen capital- whatever is chosen, it shall be magnificent."
+ italy_events_1.a:0 "Faleri will remain our capital."
+ italy_events_1.b:0 "From Veii, we will be unconquerable."
+ italy_events_1.c:0 "Ostia is well located for trade and commerce."
+ italy_events_1.d:0 "Our future lies in Rema...."
+ italy_events_a_tt:0 "This may cause a #R division#! between the Faliscans and Etruscans."
+ italy_events_b_tt:0 "This will #G further#! the unity of our league."
+ italy_events_d_tt:0 "This will #R jeopardize#! the unity of our league."

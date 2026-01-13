@@ -98,6 +98,12 @@ diplomacy = {
 	dependency = { first = HIT second = HT2 subject_type = tributary }
 	dependency = { first = HIT second = AKH subject_type = tributary }
 
+	## Italy ##
+
+	alliance = { first = FLS second = ETR }
+
+
+
 	##Greek Leagues
 	#Neo-Dellian League
 	defensive_league = {
