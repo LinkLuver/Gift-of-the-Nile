@@ -360,11 +360,11 @@ diplomacy = {
 
 	### VANILLA DIPLOMACY ###
 
-	defensive_league = {
-		member = MET
-		member = HCL
-		member = CRO
-	}
+	#defensive_league = {
+	#	member = MET
+	#	member = HCL
+	#	member = CRO
+	#}
 
 	defensive_league = {
 		member = OPO
@@ -387,8 +387,10 @@ diplomacy = {
 
 	#Tarentum
 	#guarantee = { first = TAR second = SPA }
-	alliance = { first = TAR second = MSP }
-	alliance = { first = TAR second = APU }
+	#alliance = { first = TAR second = MSP }
+	#alliance = { first = TAR second = APU }
+	dependency = { first = TAR second = HCL subject_type = feudatory }
+	dependency = { first = TAR second = MET subject_type = feudatory }
 
 	#Apulii
 	alliance = { first = APU second = MSP }

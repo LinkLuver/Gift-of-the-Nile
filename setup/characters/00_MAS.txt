@@ -1,0 +1,23 @@
+﻿"MAS"={
+	country="MAS"
+	257={
+		first_name="Krateros"
+		family_name="Boukelid"
+		birth_date=422.4.5
+		culture="massalian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=6
+		add_charisma=7
+		add_finesse=7
+		add_zeal=6
+		no_traits=yes
+		add_gold=100
+		add_popularity=60
+		add_trait= "cruel"
+		c:MAS={
+			set_as_ruler=char:257
+		}
+		dna="LeEt4Yp7invHr8evAnQCdAJ8AnwCdAJ0AoUChQKXApcCaQJpAmcCZwKEAoQCdwJ3Ao4CjgJzAnMCigKKApICkgKIAogCfAJ8AnwCfAKNAo0BXQFdAo4CjgKOAo4CeQJ5AnACcAJ5AnkCcgJyACsAKwJrAmsCggKCAncCdwKJAokCcgJyAosCiwKIAogCbgJuAnwCfAKUApQCkwKTAoMCgwJnAmcCdwJ3AoQChAKNAo0DsAOwAnwCfAKVApUARwBHAVMBUwKIAogCmAKYAm0CbQS4BLgCjAKMAoACgAKMAowCcAJwApQClAE9AT0AIAAgAScBJwEoASgARQBFAusC6wEGAQYAIwAjAAcABwAoACgAAQABATABMAAAAAAAcgByAI8AjwFWAVYA6wDrADgAOABHAEcABAAEAWwBbAAAAAAAWgBaAL4AvgELAQsBZwFnATYBNgFnAWcAUQBRACcAJwArACsBDgEOAU4BTgCNAI0F4wXjAAAAAARMBEwFyQXJAHsAewWdBZ0CcQJxAvYC9gAAAAAAAAAAAAAAAA=="
+	}
+}
