@@ -92,5 +92,12 @@ country = {
 				government=aristocratic_monarchy
 			}
 		}
+		## GOTN NEW ##
+		#CLA = {
+		#	ruler_term={ #Douketios I 
+		#	character=610
+		#	start_date=314.1.1
+		#	government=tyranny
+		#
 	}
 }

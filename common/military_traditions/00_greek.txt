@@ -18,6 +18,20 @@
 			primary_culture = etruscan
 		}
 		trigger_else_if = {
+			limit = { tag = GLP }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			tag = GLP
+		}
+		trigger_else_if = {
+			limit = { tag = BRL }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			tag = BRL
+		}
+		trigger_else_if = {
 			limit = {
 				has_variable = unlock_greek_poleis_var
 			}

@@ -1,4 +1,6 @@
-﻿thutmosid = {    
+﻿## Major Bloodlines: some combonation of an ability buff and a country modifier (maximum of two)
+## Minor Bloodlines: Just a country modifier
+thutmosid = {    
 	type = status
 	
 	prominence = 20
@@ -19,7 +21,7 @@ ahmesid = {
 	}
 }
 
-cyaxarid = {
+cyaxarid = { #Major 
 	type = status
 
 	prominence = 30
@@ -116,7 +118,7 @@ hazael = {
 	prominence = 10
 }
 
-sarduri = {
+sarduri = { #Major
 	type = status
 	charisma = 1
 	country = {
@@ -143,15 +145,16 @@ urhilina = {
 	prominence = 10
 }
 
-ailymasid = {
+ailymasid = { # Major
 	type = status
 	martial = 1
 	country = {
 		light_cavalry_discipline = 0.05
 	}
+	prominence = 20
 }
 
-blood_of_croesus = {
+blood_of_croesus = { #Major
 	type = status
 	finesse = 1
 	country = {
@@ -160,11 +163,19 @@ blood_of_croesus = {
 	prominence = 20
 }
 
-sisyphos = {
+sisyphos = { #Major
 	type = status
 	charisma = 1 
 	country = {
 		monthly_political_influence_modifier = 0.10
 	}
 	prominence = 20
+}
+
+ducetid = { #Minor
+	type = status
+	country = {
+	happiness_for_wrong_culture_group_modifier = 0.04
+	}
+	prominence = 10
 }

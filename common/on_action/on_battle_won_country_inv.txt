@@ -119,9 +119,9 @@
 
 on_battle_won_country = { #root = country scope of the main unit on the winning side, scope:actor = main unit on the winning side, scope:target = main unit on the losing side
 	events = {
-		me_rhodes.25
-		me_rhodes.33
-		thebes_battle_counting.1
-		bithynia_battle_counting.1
+		#me_rhodes.25
+		#me_rhodes.33
+		#thebes_battle_counting.1
+		#bithynia_battle_counting.1
 	}
 }
