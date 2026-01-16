@@ -1,3 +1,3 @@
 ﻿##UPDATE THIS IF CHANGED
-## First available character id is: 612
+## First available character id is: 619
 ##If characters are added their father/mother must be added before the character's id.
