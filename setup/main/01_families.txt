@@ -810,5 +810,11 @@ family={
 			culture=lydian
 			owner=LYD
 		}
+		2501 = {
+		key="Douketid"
+            prestige=100
+            culture = syracusan
+            owner=CLA
+        }
 	}
 }
