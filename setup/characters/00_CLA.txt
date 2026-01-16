@@ -1,0 +1,46 @@
+﻿"CLA"={
+	country="CLA"
+	610={
+		first_name="Douketios V" #Only son of Douketios IV- father and mother didnt care much for sex. Douketios V proved himself in the intial battles against the Egyptian invaders- however, he is tormented by whispers from strange spirits and gods.
+		#family = c:CLA.fam:Douketid WHAT THE FART
+		#father = char:616
+		#mother = char:617
+		birth_date=397.6.23 # 357 BCE
+		culture="syracusan"
+		religion="roman_pantheon"
+		no_stats=yes
+		no_traits=yes
+		add_martial=11
+		add_charisma=5
+		add_finesse=5
+		add_zeal=3
+		add_trait="first_born"
+		add_trait="victorious"
+		add_trait="tactician"
+		add_trait="schizophrenic"
+		add_trait="ducetid"
+		add_popularity=80
+		add_gold=400
+		c:CLA={
+			set_as_ruler=char:610
+		}
+		dna="Jvgl8px/mIZPT/+JApUClQJoAmgB0QKPAmoCagJ9An0CdwJ3AWABYAJ8AnwDogOiAooCigKMAowANgA2ApMCkwOkA6QCbwJvApMCkwOvA68CewJ7A6ADoAFTAVMCawJrAnwCfAKDAoMDsgOyAm0CbQKBAoECfwJ/AooCigKZApkCjQKNApECkQKWApYCkQKRA58DnwKYApgCcAJwAogCiAKWApYBXQFdAnECcQKIAogCcgJyApACkAKMAowCawJrAoUChQKAAoACgwKDAnsCewJ7AnsCdgJ2AnECcQKZApkCjwKPAoUChQIDAWUAqACoALQAtAEHAQcC5wLnAsICwgCdAJ0ClwKXAHUAdQL9Av0AxwDHAV8BXwB/AH8BSAFIAE8ATwExATECmQKZAIcAhwBhAGEBhwGHAL8AvwB/AH8APgA+AHEAcQKbApsAZQBlANEA0QFvAW8ArACsANcA1wFEASAAWQBZA7IA5QCeAJ4IsQaxAH8AfwIzATMFsgV+AP8AaQnGBcoCFwIXAgUCBQAAAAAAAAAAAAAAAA=="
+	}
+	#611={ #Wife of Douketios V
+	#	first_name="Novia"
+	#	family = c:CLA.fam:Ducetid
+	#	female=yes
+	#	birth_date=399.11.24
+	#	culture="syrausan"
+	#	religion="roman_pantheon"
+	#	#marry_character=char:610
+	#	no_stats=yes
+	#	no_traits=yes
+	#	add_martial=4
+	#	add_charisma=4
+	#	add_finesse=7
+	##	add_trait="patient"
+	#	add_trait="ducetid"
+	#	dna="Jvgl8px/mIZPT/+JApUClQJoAmgB0QKPAmoCagJ9An0CdwJ3AWABYAJ8AnwDogOiAooCigKMAowANgA2ApMCkwOkA6QCbwJvApMCkwOvA68CewJ7A6ADoAFTAVMCawJrAnwCfAKDAoMDsgOyAm0CbQKBAoECfwJ/AooCigKZApkCjQKNApECkQKWApYCkQKRA58DnwKYApgCcAJwAogCiAKWApYBXQFdAnECcQKIAogCcgJyApACkAKMAowCawJrAoUChQKAAoACgwKDAnsCewJ7AnsCdgJ2AnECcQKZApkCjwKPAoUChQIDAWUAqACoALQAtAEHAQcC5wLnAsICwgCdAJ0ClwKXAHUAdQL9Av0AxwDHAV8BXwB/AH8BSAFIAE8ATwExATECmQKZAIcAhwBhAGEBhwGHAL8AvwB/AH8APgA+AHEAcQKbApsAZQBlANEA0QFvAW8ArACsANcA1wFEASAAWQBZA7IA5QCeAJ4IsQaxAH8AfwIzATMFsgV+AP8AaQnGBcoCFwIXAgUCBQAAAAAAAAAAAAAAAA=="
+	#
+}
