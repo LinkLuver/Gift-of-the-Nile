@@ -1,7 +1,7 @@
 ﻿"CLA"={
 	country="CLA"
 	611={
-		first_name="Douketios V" #Only son of Douketios IV- father and mother didnt care much for sex. Douketios V proved himself in the intial battles against the Egyptian invaders- however, he is tormented by whispers from strange spirits and gods.
+		first_name="Kleanthes" #Only son of Douketios IV- father and mother didnt care much for sex. Douketios V proved himself in the intial battles against the Egyptian invaders- however, he is tormented by whispers from strange spirits and gods.
 		family = c:CLA.fam:Douketid
 		birth_date=397.6.23 # 357 BCE
 		culture="syracusan"
@@ -23,5 +23,138 @@
 			set_as_ruler=char:611
 		}
 		dna="Jvgl8px/mIZPT/+JApUClQJoAmgB0QKPAmoCagJ9An0CdwJ3AWABYAJ8AnwDogOiAooCigKMAowANgA2ApMCkwOkA6QCbwJvApMCkwOvA68CewJ7A6ADoAFTAVMCawJrAnwCfAKDAoMDsgOyAm0CbQKBAoECfwJ/AooCigKZApkCjQKNApECkQKWApYCkQKRA58DnwKYApgCcAJwAogCiAKWApYBXQFdAnECcQKIAogCcgJyApACkAKMAowCawJrAoUChQKAAoACgwKDAnsCewJ7AnsCdgJ2AnECcQKZApkCjwKPAoUChQIDAWUAqACoALQAtAEHAQcC5wLnAsICwgCdAJ0ClwKXAHUAdQL9Av0AxwDHAV8BXwB/AH8BSAFIAE8ATwExATECmQKZAIcAhwBhAGEBhwGHAL8AvwB/AH8APgA+AHEAcQKbApsAZQBlANEA0QFvAW8ArACsANcA1wFEASAAWQBZA7IA5QCeAJ4IsQaxAH8AfwIzATMFsgV+AP8AaQnGBcoCFwIXAgUCBQAAAAAAAAAAAAAAAA=="
+	}
+	612={
+		first_name="Artemesia" #Wife of Douketios V- native of Syrakousai
+		family = c:CLA.fam:Douketid
+		birth_date=398.1.2 # 356 BCE
+		culture="syracusan"
+		religion="roman_pantheon"
+		female=yes
+		#marry_character=char:612 THEY DIVORCED!!!!!!!!!!!!!
+		no_stats=yes
+		no_traits=yes
+		add_martial=3
+		add_charisma=7
+		add_finesse=5
+		add_zeal=5
+		add_trait="patient"
+		add_trait="charming"
+		add_trait="ducetid"
+		add_popularity=30
+		add_gold=200
+		dna="Jvgl8px/mIZPT/+JApUClQJoAmgB0QKPAmoCagJ9An0CdwJ3AWABYAJ8AnwDogOiAooCigKMAowANgA2ApMCkwOkA6QCbwJvApMCkwOvA68CewJ7A6ADoAFTAVMCawJrAnwCfAKDAoMDsgOyAm0CbQKBAoECfwJ/AooCigKZApkCjQKNApECkQKWApYCkQKRA58DnwKYApgCcAJwAogCiAKWApYBXQFdAnECcQKIAogCcgJyApACkAKMAowCawJrAoUChQKAAoACgwKDAnsCewJ7AnsCdgJ2AnECcQKZApkCjwKPAoUChQIDAWUAqACoALQAtAEHAQcC5wLnAsICwgCdAJ0ClwKXAHUAdQL9Av0AxwDHAV8BXwB/AH8BSAFIAE8ATwExATECmQKZAIcAhwBhAGEBhwGHAL8AvwB/AH8APgA+AHEAcQKbApsAZQBlANEA0QFvAW8ArACsANcA1wFEASAAWQBZA7IA5QCeAJ4IsQaxAH8AfwIzATMFsgV+AP8AaQnGBcoCFwIXAgUCBQAAAAAAAAAAAAAAAA=="
+	}
+	613={
+		first_name="Epandros" # First born son of Douketios V- a bit of a pompous fellow
+		family = c:CLA.fam:Douketid
+		birth_date=420.1.2
+		father="char:611"
+		mother="char:612"
+		culture="syracusan"
+		religion="roman_pantheon"
+		no_stats=yes
+		no_traits=yes
+		add_martial=9
+		add_charisma=5
+		add_finesse=7
+		add_zeal=3
+		add_trait="first_born"
+		add_trait="equestrian"
+		add_trait="cultured"
+		add_trait="ducetid"
+		add_popularity=40
+		add_gold=200
+		give_office=office_master_of_the_guard
+	}
+	614={
+		first_name="Nikagora"
+		family = c:CLA.fam:Douketid
+		birth_date=422.5.5
+		father="char:611"
+		mother="char:612"
+		culture="syracusan"
+		religion="roman_pantheon"
+		female=yes
+		no_stats=yes
+		no_traits=yes
+		add_martial=3
+		add_charisma=9
+		add_finesse=4
+		add_zeal=8
+		add_trait="second_born"
+		add_trait="provocateur"
+		add_trait="ducetid"
+		add_gold=100
+	}
+	615={
+		first_name="Nikaia"
+		family = c:CLA.fam:Douketid
+		birth_date=420.1.2
+		father="char:611"
+		mother="char:612"
+		culture="syracusan"
+		religion="roman_pantheon"
+		female=yes
+		no_stats=yes
+		no_traits=yes
+		add_martial=7
+		add_charisma=1
+		add_finesse=4
+		add_zeal=2
+		add_trait="third_born"
+		add_trait="brave"
+		add_trait="ducetid"
+		add_gold=50
+	}
+	616={
+		first_name="Echekrates III" #Grandson of Echekrates II- yes man to Douketios V
+		family = c:CLA.fam:Douketid
+		birth_date=400.7.12
+		culture="syracusan"
+		religion="roman_pantheon"
+		no_stats=yes
+		no_traits=yes
+		add_martial=6
+		add_charisma=1
+		add_finesse=6
+		add_zeal=3
+		add_trait="trustworthy"
+		add_trait="ducetid"
+		add_gold=50
+		give_office=office_steward
+	}
+	617={
+		first_name="Baccheidas" #Random cousin- got rich from the horse races in Syrakousai and spends his days throwing lavish parties
+		nickname="NICKNAME_EUTYCHES"
+		family = c:CLA.fam:Douketid
+		birth_date=431.7.12
+		culture="syracusan"
+		religion="roman_pantheon"
+		no_stats=yes
+		no_traits=yes
+		add_martial=1
+		add_charisma=1
+		add_finesse=4
+		add_zeal=8
+		add_trait="drunkard"
+		add_trait="carouser"
+		add_trait="lazy"
+		add_trait="ducetid"
+		add_gold=300
+	}
+	618={
+		first_name="Diocles" #Platonic scholar from Syrakousai
+		birth_date=422.5.12
+		culture="syracusan"
+		religion="platonism"
+		no_stats=yes
+		no_traits=yes
+		add_martial=3
+		add_charisma=6
+		add_finesse=9
+		add_zeal=8
+		add_trait="scholar"
+		add_trait="sarcastic"
 	}
 }

@@ -188,14 +188,14 @@ comradely = {
 	}
 }
 
-#equestrian = { 
-#	type = military
-#	martial = 1
-#	unit = {
-#		light_cavalry_morale = 0.05
-#		heavy_cavalry_morale = 0.05
-#	}
-#}
+equestrian = { 
+	type = military
+	martial = 1
+	unit = {
+		light_cavalry_morale = 0.05
+		heavy_cavalry_morale = 0.05
+	}
+}
 
 #indecisive = {
 #	type = military
