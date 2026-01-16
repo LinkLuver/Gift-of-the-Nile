@@ -28,31 +28,31 @@
 				}
 			}
 		}
-		if = {
-			limit = {
-				tag = CYR
-				has_variable = cyr_appealed_kush
-			}
-			root = {
-				trigger_event = {
-					id = cyr_magas_01.39
-				}
-			}
-		}
-		if = {
-			limit = {
-				tag = CYR
-				has_variable = cyr_appealed_sel
-			}
-			root = {
-				trigger_event = {
-					id = cyr_magas_01.40
-				}
-			}
-		}
-	}
-	events = {
-		ip_republic.34
-		cyr_magas_01.41
+		#if = { Sweet mother of events we don't need batman!!!!
+		#	limit = {
+		#		tag = CYR
+		#		has_variable = cyr_appealed_kush
+		#	}
+		#	root = {
+		#		trigger_event = {
+		#			id = cyr_magas_01.39
+		#		}
+		#	}
+		#}
+		#if = {
+		#	limit = {
+		#		tag = CYR
+		#		has_variable = cyr_appealed_sel
+		#	}
+		#	root = {
+		#		trigger_event = {
+		#			id = cyr_magas_01.40
+		#		}
+		#	}
+		#}
+	#}
+	#events = {
+	#	ip_republic.34
+	#	cyr_magas_01.41
 	}
 }

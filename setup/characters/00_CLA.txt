@@ -1,7 +1,7 @@
 ﻿"CLA"={
 	country="CLA"
 	611={
-		first_name="Kleanthes" #Only son of Douketios IV- father and mother didnt care much for sex. Douketios V proved himself in the intial battles against the Egyptian invaders- however, he is tormented by whispers from strange spirits and gods.
+		first_name="Kleanthes"
 		family = c:CLA.fam:Douketid
 		birth_date=397.6.23 # 357 BCE
 		culture="syracusan"
@@ -126,7 +126,7 @@
 	}
 	617={
 		first_name="Baccheidas" #Random cousin- got rich from the horse races in Syrakousai and spends his days throwing lavish parties
-		nickname="NICKNAME_EUTYCHES"
+		#nickname="NICKNAME_EUTYCHES"
 		family = c:CLA.fam:Douketid
 		birth_date=431.7.12
 		culture="syracusan"
@@ -143,18 +143,18 @@
 		add_trait="ducetid"
 		add_gold=300
 	}
-	618={
-		first_name="Diocles" #Platonic scholar from Syrakousai
-		birth_date=422.5.12
-		culture="syracusan"
-		religion="platonism"
-		no_stats=yes
-		no_traits=yes
-		add_martial=3
-		add_charisma=6
-		add_finesse=9
-		add_zeal=8
-		add_trait="scholar"
-		add_trait="sarcastic"
-	}
+	#618={
+	#	first_name="Diocles" #Platonic scholar from Syrakousai
+	#	birth_date=422.5.12
+	#	culture="syracusan"
+	#	religion="platonism"
+	#	no_stats=yes
+	#	no_traits=yes
+	#	add_martial=3
+	#	add_charisma=6
+	#	add_finesse=9
+	#	add_zeal=8
+	#	add_trait="scholar"
+	#	add_trait="sarcastic"
+	#}
 }

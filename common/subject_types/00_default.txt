@@ -242,8 +242,7 @@ feudatory = { #Latin Allies
          #            remove_country_modifier = judea_modifier_15
          #        }
          #    }
-         }
-     }
+    }
     # on_monthly = {}
     
     diplo_chance = {
@@ -915,6 +914,7 @@ hittite_viceroyalty = {
 	has_overlords_ruler = no
 	can_be_integrated = no
 	costs_diplomatic_slot = no
+	subject_can_cancel = no
 	
 	has_limited_diplomacy = no
 	only_trade_with_overlord =  no
@@ -931,6 +931,33 @@ hittite_viceroyalty = {
 	
 	allow = {
 		always = no
+	}
+
+	diplo_chance = {
+		base = {
+			offset = -130
+		}
+		in_debt = {
+			scale = -1
+		}
+		negative_stability = {
+			scale = 20
+		}
+		current_strength = {
+			scale = 0.25
+		}
+		potential_strength = {
+			scale = 0.25
+		}
+		border_distance = {
+			scale = 2
+		}
+		rank = {
+			scale = -10
+		}
+		junior_to = {
+			scale = -40
+		}
 	}
 }
 ashemis_astarhos = {
@@ -943,6 +970,7 @@ ashemis_astarhos = {
 	has_overlords_ruler = no
 	can_be_integrated = yes
 	costs_diplomatic_slot = no
+	subject_can_cancel = no
 	
 	has_limited_diplomacy = no
 	only_trade_with_overlord =  no
@@ -959,5 +987,32 @@ ashemis_astarhos = {
 	
 	allow = {
 		always = no
+	}
+
+	diplo_chance = {
+		base = {
+			offset = -130
+		}
+		in_debt = {
+			scale = -1
+		}
+		negative_stability = {
+			scale = 20
+		}
+		current_strength = {
+			scale = 0.25
+		}
+		potential_strength = {
+			scale = 0.25
+		}
+		border_distance = {
+			scale = 2
+		}
+		rank = {
+			scale = -10
+		}
+		junior_to = {
+			scale = -40
+		}
 	}
 }

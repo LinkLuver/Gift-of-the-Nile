@@ -150,10 +150,10 @@ on_civil_war_won = {
 			}
 		}
 	}
-	events = {
-		cyr_magas_01.39
-		cyr_magas_01.40
-		cyr_magas_01.41
-		me_albion.52
-	}
+	#events = {
+	#	cyr_magas_01.39
+	#	cyr_magas_01.40
+	#	cyr_magas_01.41
+	#	me_albion.52
+	#}
 }

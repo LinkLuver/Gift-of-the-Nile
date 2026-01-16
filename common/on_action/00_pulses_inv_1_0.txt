@@ -82,11 +82,11 @@ steppe_invasion_pulse = {
 	}	
 }
 
-cyrene_1_magas_task_1_pulse = {
-	events = {
-		cyr_magas_01.2
-	}
-}
+#cyrene_1_magas_task_1_pulse = {
+#	events = {
+#		cyr_magas_01.2
+#	}
+#}
 
 cyrene_1_magas_task_5_pulse = {
 	random_events = {
@@ -95,46 +95,46 @@ cyrene_1_magas_task_5_pulse = {
 	}
 }
 
-cyr_touring_cities_pulse = {	
-	random_events = {
-		20 = cyr_reform_01.13
-		20 = cyr_reform_01.14
-		20 = cyr_reform_01.15
-		20 = cyr_reform_01.16
-		20 = 0
-	}
-}
+#cyr_touring_cities_pulse = {	
+#	random_events = {
+#		20 = cyr_reform_01.13
+#		20 = cyr_reform_01.14
+#		20 = cyr_reform_01.15
+#		20 = cyr_reform_01.16
+#		20 = 0
+#	}
+#}
 
-cyr_wooing_cyclades_pulse = {	
-	random_events = {
-		8 = cyr_thera_01.8
-		8 = cyr_thera_01.9
-		8 = cyr_thera_01.10
-		8 = cyr_thera_01.11
-		8 = cyr_thera_01.12
-		8 = cyr_thera_01.13
-		8 = cyr_thera_01.14
-		8 = cyr_thera_01.15
-		8 = cyr_thera_01.16
-		28 = 0
-	}
-}
+#cyr_wooing_cyclades_pulse = {	
+#	random_events = {
+#		8 = cyr_thera_01.8
+#		8 = cyr_thera_01.9
+#		8 = cyr_thera_01.10
+#		8 = cyr_thera_01.11
+#		8 = cyr_thera_01.12
+#		8 = cyr_thera_01.13
+#		8 = cyr_thera_01.14
+#		8 = cyr_thera_01.15
+#		8 = cyr_thera_01.16
+#		28 = 0
+#	}
+#}
 
-macedon_mission_1_task_9_pulse = {
-	random_events = {
-		30 = me_macedon_4_lighthouse.11
-		30 = me_macedon_4_lighthouse.12
-		30 = me_macedon_4_lighthouse.13
-		10 = 0
-	}
-}
+#macedon_mission_1_task_9_pulse = {
+#	random_events = {
+#		30 = me_macedon_4_lighthouse.11
+#		30 = me_macedon_4_lighthouse.12
+#		30 = me_macedon_4_lighthouse.13
+#		10 = 0
+#	}
+#}
 
-AIO_mission_pulse_1_on_action = {
-	random_events = {
-		66 = me_albion.51
-		33 = 0
-	}
-}
+#AIO_mission_pulse_1_on_action = {
+#	random_events = {
+#		66 = me_albion.51
+#		33 = 0
+#	}
+#}
 
 5_year_trade_good_pulse = {
 	trigger = {
