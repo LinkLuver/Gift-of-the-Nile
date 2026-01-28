@@ -762,13 +762,37 @@
  office_marshal_lydian:0 "Marshal"
  office_master_of_the_guard_lydian:0 "Nars Astarho"
  office_high_priest_monarchy_lydian:0 "Alus'"
- office_steward_lydian:1 "Stewarrd"
- office_physician_lydian:1 "Physician"
+ office_steward_lydian:0 "Steward"
+ office_physician_lydian:0 "Physician"
 
  #Lydian Republic Offices
  office_augur_lydian:0 "Arjo"
  office_tribune_of_the_soldiers_lydian:0 "Nars Astarho"
  office_pontifex_lydian:0 "Alus'"
+
+ #Lycian Monarchy Ruler Names
+ plutocratic_monarchy_ruler_lycian:0 "Xntawata"
+ despotic_monarchy_ruler_lycian:0 "Xntawata"
+ stratocratic_monarchy_ruler_lycian:0 "Zxxaza Xntawata"
+ theocratic_monarchy_ruler_lycian:0 "Kumezije Xntawata"
+ aristocratic_monarchy_ruler_lycian:0 "Xntawata"
+ imperium_ruler_lycian:0 "Mutale Xntawata"
+ imperial_cult_ruler_lycian:0 "Kumezije Xntawata"
+
+ #Lycian Military Leaders
+ office_admiral_lycian:0 "Admiral"
+ office_general_lycian:0 "Esbet" #Horseman/Knight (close enough is what I say!!!)
+ office_governor_lycian:0 "Asaxlaza"
+
+ #Lycian Monarchy Offices
+ office_foreign_minister_lycian:0 "Foreign Minister"
+ office_royal_tutor_lycian:0 "Royal Tutor"
+ office_philosopher_lycian:0 "Philospher"
+ office_marshal_lycian:0 "Marshal"
+ office_master_of_the_guard_lycian:0 "Zretene" #Borrowed from Milyan, probably not accurate
+ office_high_priest_monarchy_lycian:0 "Axat"
+ office_steward_lycian:0 "Steward"
+ office_physician_lycian:0 "Physician"
 
  #Phrygian Monarchy Ruler Names
  plutocratic_monarchy_ruler_phrygian:0 "Vanaktei"
