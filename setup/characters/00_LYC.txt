@@ -1,0 +1,45 @@
+﻿"LYC"={
+	country="LYC"
+	619={
+		first_name="Sin-musallim"
+		#nickname=NICKNAME_MORROWIND I HATE NICKNAMES WHY WON"T YOU WORK
+		family_name="Washshukannid"
+		birth_date=409.12.12
+		culture="hurrian"
+		religion="hurrian_pantheon"
+		no_stats=yes
+		add_martial=4
+		add_charisma=8
+		add_finesse=6
+		add_zeal=3
+		no_traits=yes
+		add_trait="cruel"
+		add_trait="corrupt"
+		add_trait="silver_tongued"
+		add_gold=300
+		add_popularity=15
+		#c:LYC={
+		#	set_as_ruler=char:619
+		#}
+		dna = "EvoS+rmQuZCz37PfAnICcgJxAnECeAJ4AooCigJuAm4CZgJmAmoCagJ8AnwBUgFSAnYCdgKIAogCZwJnBN4E3gKTApMCagJqAn0CfQJ/An8CgwKDAn8CfwJxAnECagJqAngCeAJvAm8ClAKUAogCiAJqAmoCkgKSApkCmQKHAocCawJrAngCeAJoAmgCkAKQAVkBWQJqAmoCegJ6ApICkgKEAoQCkgKSAngCeAKRApECjgKOAmoCagBCAEICfwJ/AocChwJ2AnYBVAFUAmsCawJoAmgCeQJ5ApACkAFZAVkCfAJ8AVgBWALDAsMAkQCRAM4AzgDAAMABFgEWATwBPABrAGsC4QLhAdoAmwC3ALcDFQMVAooCigB/AH8C1QLVANAA0AB9AH0AJgAmABYAFgEKAQoAsgCyAJEAkQB/AH8ASwBLAIkAiQFXAVcAFQAVAEoASgMAAwACLACmAW8BbwLUAGgAugC6AXUBdQBrAGsKugqKAH8AfwSZBJkLWQsGAdMB0wRgA9sEOgbuAfwFZAAAAAAAAAAAAAAAAA=="
+	}
+	620={
+		first_name="Pharnuches"
+		family_name="Pharnuchid"
+		birth_date=385.9.17
+		culture="lycian"
+		religion="hurrian_pantheon"
+		no_stats=yes
+		add_martial=3
+		add_charisma=6
+		add_finesse=8
+		add_zeal=4
+		no_traits=yes
+		add_trait="cautious"
+		add_trait="orator"
+		add_trait="scholar"
+		add_gold=50
+		add_popularity=20
+		dna = "D/4P/qOko6Tj1OPUAnUCdQKHAocCeQJ5AmYCZgJzAnMCcwJzAmYCZgOlA6UCjgKOAnMCcwJqAmoAYgBiAo4CjgApACkCcwJzAnICcgJ0AnQCcQJxApYClgJoAmgClAKUAnMCcwKPAo8CbgJuAVIBUgFaAVoAKgAqAoUChQFbAVsExwTHAowCjAJpAmkCbQJtAmsCawJoAmgCjAKMAmoCagJmAmYCjwKPAoYChgKWApYCfwJ/AoICggOZA5kDmgOaAnACcAFcAVwCagJqAmYCZgKdAp0CfgJ+AnMCcwA2ADYCegJ6AU4BTgINAg0APQA9ABQAFACHAIcBdgF2AAgACAF7AXsAgwCDAJIAkgLgAuAEkQSRAooCigB/AH8AwADAAL0AvQFPAU8AZwBnAQgBCAEsASwAowCjAIEAgQB/AH8BPQE9AQ8BDwDKAMoAzgDOANkA2QLbAtsBdAF0BIEEgQATABMAaABoA0cDRwJqAmoHzQfNAH8AfwXqBeoFjgWOAa8BrwUSBRICHgIeAlkCWQAAAAAAAAAAAAAAAA=="
+	}
+}
