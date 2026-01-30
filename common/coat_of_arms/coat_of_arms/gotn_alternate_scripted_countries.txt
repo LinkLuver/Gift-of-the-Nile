@@ -821,3 +821,22 @@ THORIKOS_FLAG = {
 		instance = { rotation = 180 }
 	}
 }
+
+ATLAS_FLAG = {
+	pattern="pattern_solid.tga"
+	color1= rgb { 150 40 57 }
+	color2= "offwhite"
+
+	colored_emblem = {
+        texture = "ce_atlas.dds"
+        color1 = "roman_gold"
+		color2 = "kymaia_blue"
+	}
+	colored_emblem = {
+        texture = "ce_border_meander_08.dds"
+        color1 = "silver"
+		color2 = "kymaia_blue"
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
+	}
+}

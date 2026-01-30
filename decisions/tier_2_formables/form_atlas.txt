@@ -5,7 +5,7 @@
 			OR = {
 				tag = GAE
                 tag = MSL
-                tag = RS5
+                #tag = RS5
 			}
 			NOR = {
 				is_tier_2_formable_trigger = yes
@@ -21,7 +21,7 @@
 					province_id = 3064 #Arzeila
 					province_id = 3062 #Lixus
 					province_id = 3080 #OppidumEtPortus
-					province_id = 3095 #Portus Magnus
+					#province_id = 3095 #Portus Magnus
 					province_id = 3067 #Volubilis
 					province_id = 3063 #Thamusida
 					province_id = 8321 #Ouidane
@@ -34,7 +34,7 @@
 			owns_or_subject_owns = 3064 #Arzeila
 			owns_or_subject_owns = 3062 #Lixus
 			owns_or_subject_owns = 3080 #OppidumEtPortus
-			owns_or_subject_owns = 3095 #Portus Magnus
+			#owns_or_subject_owns = 3095 #Portus Magnus
 			owns_or_subject_owns = 3067 #Volubilis
 			owns_or_subject_owns = 3063 #Thamusida
 			owns_or_subject_owns = 8321 #Ouidane
@@ -44,10 +44,19 @@
 			change_country_name = "ATLAS_NAME"
 			tribal_formable_government_change_effect = yes
 			add_3_free_province_investments = yes
+			capital_scope={
+					capital_formable_large_effect = yes
+					formable_capital_modifier_large_effect = yes
+				}
+				add_country_modifier = {
+				name = formable_country_huge_modifier
+				duration = 7600
+			}	
 			hidden_effect = {
 				change_country_adjective = "ATLAS_FORMABLE_ADJECTIVE"
 				change_country_tag = ATL
 				change_country_color = meshwesh_color
+				change_country_flag = ATLAS_FLAG
 				hidden_effect = {
 				every_province = {
 					limit = {

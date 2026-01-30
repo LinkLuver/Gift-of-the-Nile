@@ -89,6 +89,7 @@ me_akhetaton.200 = {
                 bad_martial_effect = yes
                 good_zeal_effect = yes
                 no_traits=yes
+                add_trait = blessed_by_the_nile
                 save_scope_as = pirosmani
             }
         }
