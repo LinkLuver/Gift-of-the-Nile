@@ -55,12 +55,13 @@
 		religion="egyptian_pantheon"
 		no_stats=yes
 		add_martial=7
-		add_charisma=13
-		add_finesse=10
-		add_zeal=17
+		add_charisma=9
+		add_finesse=8
+		add_zeal=10
 		no_traits=yes
-		add_trait=ambitious
-		add_trait=zealous
+		add_trait="blessed_by_the_nile"
+		add_trait="ambitious"
+		add_trait="zealous"
 		add_popularity=90
 		add_gold=300
 	}

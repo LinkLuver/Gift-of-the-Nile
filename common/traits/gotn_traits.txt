@@ -1,0 +1,11 @@
+﻿#Add New traits that are NOT bloodlines here
+blessed_by_the_nile = { #Dev / Easter Egg character trait
+	type = status
+
+	finesse = 2
+	zeal = 2
+	country = {
+		omen_power = 0.10
+		land_morale_modifier = 0.05
+	}
+}

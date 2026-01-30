@@ -212,7 +212,7 @@ gotn_events.7 = { # For Canaanite Stuff
     }
 }
 
-gotn_events.8 = { 
+gotn_events.8 = { #Calamity in Carthage
     
     type = country_event
     title = "gotn_events_8_title"
@@ -233,6 +233,12 @@ gotn_events.8 = {
            primary_culture = atlosian
            primary_culture = massylian
         }
+        NOT = {
+            tag = INU
+            tag = SK1
+            tag = SK2
+            tag = SYR
+        }
     }
     fire_only_once = yes
     
@@ -241,7 +247,7 @@ gotn_events.8 = {
     }
 }
 
-gotn_events.9 = { 
+gotn_events.9 = { #Turmoil in Thrace
     
     type = country_event
     title = "gotn_events_9_title"
@@ -277,7 +283,7 @@ gotn_events.9 = {
     }
 }
 
-gotn_events.10 = { 
+gotn_events.10 = { #Kings of All Aram
     
     type = country_event
     title = "gotn_events_10_title"
@@ -436,6 +442,11 @@ gotn_events.13 = { # Economic Disaster
             trigger_event = {
                 id = greece_events.1
                 days = { 15 30 }
+            }
+        }
+        c:PAP={
+            trigger_event = {
+                id = greece
             }
         }
     }
@@ -673,6 +684,49 @@ gotn_events.18 = { # The Riches of Korinth
         add_trait = silver_tongued
     }
     add_political_influence = 20
+    }
+}
+
+gotn_events.20 = { # Sicily Event
+    
+    type = country_event
+    title = "gotn_events_20_title"
+    desc = "gotn_events_20_desc"
+    picture = interesting_histories_greek_soldiers_pops
+    goto_location = root
+    left_portrait = current_ruler
+    left_portrait = c:SYR.current_ruler
+    left_portrait = c:SY1.current_ruler
+    right_portrait = c:CLA.current_ruler
+    right_portrait = c:KSC.current_ruler
+    right_portrait = c:INU.current_ruler
+
+    trigger = {
+        OR = {
+            tag = SYR
+            tag = SY1
+            tag = CLA
+            tag = KSC
+            tag = INU
+            tag = HEM
+            tag = ACR
+            tag = SIN
+            tag = SK1
+            tag = SK2
+            tag = TYN
+            tag = RHG
+        }
+    }
+    fire_only_once = yes
+
+    option = {
+        name = "gotn_events_20.a"
+            c:CLA = {
+                trigger_event = {
+                id = italy_events.2
+                days = { 10 30 }
+            }
+        }
     }
 }
 

@@ -444,3 +444,113 @@ greece_events.11 = { # Aegea Name + Gov + Capital decision
 		}
 	}
 }
+greece_events.12 = { # Paphlagonia Refusing Lydian Yoke
+    
+	trigger = {
+		tag = PAP
+	}
+
+    type = country_event
+    title = "greece_events_12_title"
+    desc = "greece_events_12_desc"
+    picture = persian_achaemenid_path_5_event
+    left_portrait = current_ruler
+	right_portrait = c:LYD.current_ruler
+
+    option = {
+        name = "greece_events_12.a"
+		custom_tooltip = lydia_defection_tooltip
+		c:LYD = {
+			release_subject = c:PAP
+		}
+		ai_chance = {
+			factor = 100
+		}
+		current_ruler = {
+			add_popularity = 20
+		}
+	}
+	option = {
+        name = "greece_events_12.b"
+		c:LYD = {
+			trigger_event = {
+				id = greece_events.9
+				days = 5
+			}
+		}
+		current_ruler = {
+			add_popularity = -20
+		}
+	}
+}
+greece_events.13 = { # Lydia recieves word of Paphlagonian insubordination
+    
+	trigger = {
+		tag = LYD
+	}
+
+    type = country_event
+    title = "greece_events_13_title"
+    desc = "greece_events_13_desc"
+    picture = persian_achaemenid_path_5_event
+	left_portrait = current_ruler
+	right_portrait = c:PAP.current_ruler
+
+    option = {
+        name = "greece_events_13.a"
+		custom_tooltip = lydia_defection_tooltip
+		c:PAP = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:200
+				target = PAP
+			}
+			trigger_event = {
+				id = greece_events.14
+				days = 1
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+        name = "greece_events_12.b"
+		current_ruler = {
+			add_trait = patient
+			add_popularity = -10
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+	option = {
+        name = "greece_events_12.c"
+		c:SNP = {
+			trigger_event = {
+				id = greece_events.
+				days = 3
+			}
+		}
+	}
+}
+greece_events.14 = { # War Declared on Paphlagonia
+    
+	trigger = {
+		OR = {
+			tag = PAP
+		}
+	}
+    type = country_event
+    title = "greece_events_14_title"
+    desc = "greece_events_14_desc"
+    picture = Event_army_marches
+	left_portrait = current_ruler
+	left_portrait = c:SNP.current_ruler
+    right_portrait = c:LYD.current_ruler
+
+    option = {
+        name = "greece_events_14.a"
+		add_political_influence = 20
+	}
+}

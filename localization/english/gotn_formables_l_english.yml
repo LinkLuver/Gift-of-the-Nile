@@ -16,7 +16,7 @@
  # Palestine
  form_palestine:0 "Proclaim Kingdom of Philistine"
  form_palestine_desc:0 "We are called many things. The #Y Egyptians#! call us as the new #Y Hyksos#!. The #Y Greeks#! call us as the new #Y Philistines#!. Whatever we may be called, we have chosen to establish ourselves a new kingdom, the #E Kingom of Philistine#!. We have chosen the #Y Greek#! name for ourselves to distance ourselves from the #E Pharaohs#! in #E Egypt#! as we forge our own new destiny in the #E Levant#!.\n\n#R We will lose our #E Nomarchy#! government form.#!"
- PHOENICIA_NAME_2:0 "Form Philistine"
+ PHOENICIA_NAME_2:0 "Philistine"
  PHOENICIA_ADJECTIVE_2:0 "Philistinians"
  # Kena'an
  ISRAEL_FORMABLE_NAME_2:0 "Form Kena'an"
@@ -100,7 +100,7 @@
 
  # Rome 
  form_rome_liberate:0 "Reclaim Roma"
- form_rome_liberate_desc:0 "In 358 BCE, the #Y Faliscan League#! bested us, and forced us out of our city, #Y Roma#!. Our pride as a people has been broken, and we must seek venegance upon our enemies. #Y Roma#! must be retaken."
+ form_rome_liberate_desc:0 "In 3 BCE, the #Y Faliscan League#! bested us, and forced us out of our city, #Y Roma#!. Our pride as a people has been broken, and we must seek venegance upon our enemies. #Y Roma#! must be retaken."
  gotn_formable_event__title:0 "A Change in Course?"
  gotn_formable_event__desc:0 "Gazing out onto #Y Roma#!, [SCOPE.GetRootScope.GetCountry.GetRuler.GetName] contemplates the future of the #Y Latin#! people. By will alone, #Y Roma#! has been retaken. But the question remains- perhaps the traditions of our ancestors could ensure the strength of our people."
  gotn_formable_event_.a:0 "[SCOPE.GetRootScope.GetCountry.GetRuler.GetName] will be crowned as Rex!"

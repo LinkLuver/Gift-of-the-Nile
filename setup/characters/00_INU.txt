@@ -1,0 +1,47 @@
+﻿"INU"={
+	country="INU"
+	621={ 
+		first_name="Hannibal"
+		family_name="Qarthadashti"
+		female=no
+		birth_date=412.5.30
+		culture="carthaginian"
+		religion="carthaginian_pantheon"
+		no_stats=yes
+		add_martial=10
+		add_charisma=3
+		add_finesse=2
+		add_zeal=6
+		no_traits=yes
+		add_trait="comradely"
+		add_trait="tactician"
+		add_gold=200
+		add_popularity=50
+		c:INU={
+			set_as_ruler=char:621
+		}
+		dna = "GOUY5ZiNmI37x/vHACgAKAKFAoUCggKCAnUCdQJ+An4CgQKBAoMCgwJ3AncANAA0An4CfgJ0AnQClwKXAnkCeQFlAWUCfQJ9ApcClwJoAmgDsQOxAoYChgFdAV0ClwKXAogCiAKGAoYCiQKJAVsBWwJyAnICiwKLAooCigJ5AnkCjwKPAncCdwJ9An0CfgJ+AmsCawOwA7AChwKHA54DngKCAoICcwJzAmgCaAOfA58CggKCAoACgAS8BLwCkwKTApECkQJ8AnwCaQJpAncCdwKrAqsCbgJuA4kDiQOaA5oCdgJ2AnoCegK0ArQAsQCxASEBIQBsAGwAAwADAAEAAQCwALACzwLPAK4ArgCcAJwDKQMpApcClwB/AH8AzADMAE4ATgBAAEAAywDLADsAOwD9AP0DJQMlAKsAqwB/AH8ABwAHAREBEQDYANgAwQDBAD8AwgEAAV4AtAC0AzYE1QEAArwBLwEvAV8BXwM4AzgIgwGDAH8AfwX4BfgEVwRBAQMBAwLXAkIrPgOuA/kD+QAAAAAAAAAAAAAAAA=="
+	}
+	622={ #Hannibal's trusty right hand man
+		first_name="Straton"
+		family_name="Helioklis"
+		female=no
+		birth_date=421.5.30
+		culture="syracusan"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=9
+		add_charisma=7
+		add_finesse=2
+		add_zeal=6
+		no_traits=yes
+		add_trait="trusting"
+		add_trait="steadfast"
+		add_gold=50
+		add_popularity=30
+		c:INU={
+			set_as_coruler=char:622
+		}
+		dna = "Tc5NzpyVv3zc+Nz4AngCeAAlACUCcgJyAm0CmAKBAoEClAKUAooCigJ9An0DpwOnAnkCeQJxAnECbAJsAmoCagFWAVYCkQKRAoUChQKXApcALgAuAEQARAKHAocCkgKSAmYCZgKAAoACbwJvAnACcAOdA50DnQOdAooCigBFAEUCjwKPBN8E3wKMAowCkgKSAnQCdAJpAmkDpQOlACwALAKQApACdQJ1AmcCZwKFAoUClQKVAowCjAFlAWUCcwJzBLkEuQJ3AncCcgJyAWABYAKYApgCagJqAngCeAJoAmgClwKXApkCmQKAAoAAYQBhAN0A3QAqACoBJAEkAOkA6QLeAt4BfQF9AT0BPQEbARsApQClAEwATAB/AH8ArgCuAXABcADIAMgAMwAzALUAtQA2ADYCCQIJAG0AbQB/AH8BQAFAArkCuQB2AHYBYgFiACAAIALtAu0ALQAtAFAAUADvAO8AFAAUARsBGwFXAVcIvAi8AH8AfwCpAKkFZQXPAJAArwXLBcsqZAJqAv0C7AAAAAAAAAAAAAAAAA=="
+	}
+}

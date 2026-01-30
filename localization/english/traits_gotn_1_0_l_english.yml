@@ -39,6 +39,8 @@
  sisyphos_desc:0 "Sisyphus was the founder of Korinth, or as it was known in his time, Ephyra. Although he was condemned to a life of eternal boulder pushing, his descendants would go on to rule Korinth, before the last of the line was overthrown by the Bacchiadae, an influential Doric clan in Korinth."
  ducetid:0 "Blood of Douketios"
  ducetid_desc:0 "Douketios was the legendary founder of the kingdom of Palike. A hellenized Sicel born in 489 BCE, Douketios organized the Sicels into a confederation, encouraged by the instability of the Syracusan regime after the deposement of the tyrant Gelo and his brother, Hiero. Douketios' sudden rise to power frightened the Syracusans, and they went to crush his burgeoning realm. At the pivotal battle of Nomae in 450 BCE, Douketios managed to win against the Syracusan forces, against all odds. His descendants rule a hellenized-Sicel populous, and are known for being state-builders and fosterers of culture."
+ blessed_by_the_nile:0 "Blessed By The Nile"
+ blessed_by_the_nile_desc:0 "[CHARACTER.GetPraenomen] has been blessed by the myriad gods of the Nile."
 
  #Trade Goods
  ebony: "Ebony"
@@ -62,5 +64,6 @@
  Beth_Hazeil:0 "Beth Haze'il"
  Talmi_Teshub:0 "Talmi-Teshub"
  NICKNAME_TITO:0 "The Liberator"
- NICKNAME_MAKROTHUMOS:0 "Makrothumos" #patient, long suffering
- NICKNAME_EUTYCHES:0 "Eutyches" #the lucky
+ NICKNAME_MAKROTHUMOS:0 "Makrothumos" 
+ NICKNAME_EUTYCHES:0 "Eutyches" 
+ NICKNAME_MORROWIND:0 "The Outlander"

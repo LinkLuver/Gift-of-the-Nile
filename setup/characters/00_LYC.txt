@@ -1,6 +1,6 @@
 ﻿"LYC"={
 	country="LYC"
-	619={
+	618={
 		first_name="Sin-musallim"
 		#nickname=NICKNAME_MORROWIND I HATE NICKNAMES WHY WON"T YOU WORK
 		family_name="Washshukannid"
@@ -18,12 +18,12 @@
 		add_trait="silver_tongued"
 		add_gold=300
 		add_popularity=15
-		#c:LYC={
-		#	set_as_ruler=char:619
-		#}
+		c:LYC={
+			set_as_ruler=char:618
+		}
 		dna = "EvoS+rmQuZCz37PfAnICcgJxAnECeAJ4AooCigJuAm4CZgJmAmoCagJ8AnwBUgFSAnYCdgKIAogCZwJnBN4E3gKTApMCagJqAn0CfQJ/An8CgwKDAn8CfwJxAnECagJqAngCeAJvAm8ClAKUAogCiAJqAmoCkgKSApkCmQKHAocCawJrAngCeAJoAmgCkAKQAVkBWQJqAmoCegJ6ApICkgKEAoQCkgKSAngCeAKRApECjgKOAmoCagBCAEICfwJ/AocChwJ2AnYBVAFUAmsCawJoAmgCeQJ5ApACkAFZAVkCfAJ8AVgBWALDAsMAkQCRAM4AzgDAAMABFgEWATwBPABrAGsC4QLhAdoAmwC3ALcDFQMVAooCigB/AH8C1QLVANAA0AB9AH0AJgAmABYAFgEKAQoAsgCyAJEAkQB/AH8ASwBLAIkAiQFXAVcAFQAVAEoASgMAAwACLACmAW8BbwLUAGgAugC6AXUBdQBrAGsKugqKAH8AfwSZBJkLWQsGAdMB0wRgA9sEOgbuAfwFZAAAAAAAAAAAAAAAAA=="
 	}
-	620={
+	619={
 		first_name="Pharnuches"
 		family_name="Pharnuchid"
 		birth_date=385.9.17

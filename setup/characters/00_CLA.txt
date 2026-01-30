@@ -46,7 +46,7 @@
 		dna="Jvgl8px/mIZPT/+JApUClQJoAmgB0QKPAmoCagJ9An0CdwJ3AWABYAJ8AnwDogOiAooCigKMAowANgA2ApMCkwOkA6QCbwJvApMCkwOvA68CewJ7A6ADoAFTAVMCawJrAnwCfAKDAoMDsgOyAm0CbQKBAoECfwJ/AooCigKZApkCjQKNApECkQKWApYCkQKRA58DnwKYApgCcAJwAogCiAKWApYBXQFdAnECcQKIAogCcgJyApACkAKMAowCawJrAoUChQKAAoACgwKDAnsCewJ7AnsCdgJ2AnECcQKZApkCjwKPAoUChQIDAWUAqACoALQAtAEHAQcC5wLnAsICwgCdAJ0ClwKXAHUAdQL9Av0AxwDHAV8BXwB/AH8BSAFIAE8ATwExATECmQKZAIcAhwBhAGEBhwGHAL8AvwB/AH8APgA+AHEAcQKbApsAZQBlANEA0QFvAW8ArACsANcA1wFEASAAWQBZA7IA5QCeAJ4IsQaxAH8AfwIzATMFsgV+AP8AaQnGBcoCFwIXAgUCBQAAAAAAAAAAAAAAAA=="
 	}
 	613={
-		first_name="Epandros" # First born son of Douketios V- a bit of a pompous fellow
+		first_name="Kleanthes II" # First born son of Douketios V- a bit of a pompous fellow
 		family = c:CLA.fam:Douketid
 		birth_date=420.1.2
 		father="char:611"
@@ -143,18 +143,19 @@
 		add_trait="ducetid"
 		add_gold=300
 	}
-	#618={
-	#	first_name="Diocles" #Platonic scholar from Syrakousai
-	#	birth_date=422.5.12
-	#	culture="syracusan"
-	#	religion="platonism"
-	#	no_stats=yes
-	#	no_traits=yes
-	#	add_martial=3
-	#	add_charisma=6
-	#	add_finesse=9
-	#	add_zeal=8
-	#	add_trait="scholar"
-	#	add_trait="sarcastic"
-	#}
+	620={
+	first_name="Diocles" #Platonic scholar from Syrakousai
+	family_name="Dioclid"
+	birth_date=422.5.12
+	culture="syracusan"
+	religion="platonism"
+	no_stats=yes
+	no_traits=yes
+	add_martial=3
+	add_charisma=6
+	add_finesse=9
+	add_zeal=8
+	add_trait="scholar"
+	add_trait="sarcastic"
+	}
 }

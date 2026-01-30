@@ -88,3 +88,90 @@ italy_events.1 = {
         }
     }
 }
+italy_events.2 = {
+	type = country_event
+	title = "italy_events_2_title"
+	desc = "italy_events_2_desc"
+	picture = Event_fire_fiddle
+    left_portrait = current_ruler
+    right_portrait = char:610
+    trigger = {
+        tag = CLA
+    }
+    fire_only_once = yes
+
+    option = {
+        name = "italy_events_2.a"
+        current_ruler = {
+            add_trait = lunatic
+        }
+        c:CLA = {
+            declare_war_with_wargoal = {
+                war_goal = conquer_wargoal
+                province = p:82
+                target = KSC
+            }
+        }
+        add_aggressive_expansion = 10
+        c:KSC = {
+            trigger_event = {
+                id = italy_events.3
+                days = 1
+            }
+        }
+        ai_chance = {
+			modifier = {
+				factor = 10
+			}
+		}
+    }
+    option = {
+        name = "italy_events_2.b"
+        custom_tooltip = "palike_orphic_path"
+        ai_chance = {
+			modifier = {
+				factor = 10
+			}
+		}
+    }
+    option = {
+        name = "italy_events_2.c"
+        custom_tooltip = "palike_sicel_revival_path"
+        add_political_influence = 20
+        ai_chance = {
+			modifier = {
+				factor = 20
+			}
+		}
+    }
+    option = {
+        name = "italy_events_2.d"
+        current_ruler = {
+            add_trait = "steadfast"
+        }
+        ai_chance = {
+			modifier = {
+				factor = 60
+			}
+		}
+    }
+}
+italy_events.3 = { # War Declared on Per-Shekelesh
+    
+	trigger = {
+		OR = {
+			tag = KSC
+		}
+	}
+    type = country_event
+    title = "italy_events_3_title"
+    desc = "italy_events_3_desc"
+    picture = Event_army_marches
+	left_portrait = c:CLA.current_ruler
+    right_portrait = current_ruler
+
+    option = {
+        name = "italy_events_3.a"
+		add_political_influence = 10
+	}
+}
