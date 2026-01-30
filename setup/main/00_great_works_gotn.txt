@@ -28,6 +28,9 @@ provinces={
 	1595={ # Hagmatana
 		great_work=106
 	}
+	11={ # Second Temple of Hera
+		great_work=108
+	}
 }
 
 great_work_manager={
@@ -244,6 +247,28 @@ great_work_manager={
 			great_work_effect_selections={
 				{
 					great_work_effect="gw_effect_cyrus_tomb"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		108={
+			ancient_wonder = yes
+			key="temple_of_hera"
+			great_work_state=great_work_state_completed
+			finished_date=450.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="hera_temple"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_temple_of_zeus"
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_religious_temple_of_hera"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}
