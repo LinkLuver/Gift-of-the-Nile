@@ -52,12 +52,14 @@ diplomacy = {
 	dependency = { first = LYD second = PAP subject_type = ashemis_astarhos }
 	dependency = { first = LYD second = IOA subject_type = tributary }
 	dependency = { first = LYD second = ION subject_type = tributary }
-	dependency = { first = LYD second = MLO subject_type = subject_league_city_state }
+	dependency = { first = LYD second = MLO subject_type = tributary }
 	dependency = { first = LYD second = MYD subject_type = tributary }
 	dependency = { first = LYD second = BIT subject_type = tributary }
 	dependency = { first = LYD second = PGM subject_type = ashemis_astarhos }
 	dependency = { first = LYD second = HKS subject_type = ashemis_astarhos }
 	dependency = { first = LYD second = LYC subject_type = ashemis_astarhos }
+	dependency = { first = LYD second = PYK subject_type = ashemis_astarhos }
+	dependency = { first = LYD second = ASP subject_type = ashemis_astarhos }
 
 	#Numidian Kingdom
 	dependency = { first = MSS second = IOL subject_type = tributary }
@@ -114,7 +116,7 @@ diplomacy = {
 	#Rhodian Leaague
 	defensive_league = {
 		member = RHO
-		member = PYK
+		#member = PYK
 		member = KNI
 		member = KAO
 		member = KOS
@@ -511,7 +513,6 @@ diplomacy = {
 	defensive_league = {
 		member = PHA
 		member = EPM
-		member = ASP
 	}
 
 	# Marius Anatolians

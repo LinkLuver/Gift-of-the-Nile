@@ -2887,7 +2887,7 @@ Physkos_heritage = {
     }
 
     trigger = {
-        tag = PYK
+        always = no # re-tool for Daskyleion LATER
     }
 }
 
@@ -7653,7 +7653,7 @@ chersos_heritage = {
     }
    
     trigger = {
-        tag = ASP
+        always = no # ADD UNIQUE CARIAN SATRAPY HERITAGE LATER !!!!!!
     }
 }
 
