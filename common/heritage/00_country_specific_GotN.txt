@@ -2278,8 +2278,8 @@ tieion_heritage = {
         build_cost = 0.05
     }
 
-    trigger = {
-        tag = TIE
+    trigger = { #make it lemnian later brah
+        always = no 
     }
 }
 

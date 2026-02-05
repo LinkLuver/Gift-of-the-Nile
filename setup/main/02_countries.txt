@@ -1452,6 +1452,8 @@ country = {
 				1571 1572 1573 1575 1577 1588 1589 1590 1591 1592 1605 1606 #ayrarat_region
 				1549 1568 1569 1570 1576 1579 1580 1582 1583 1585 #syracene_region
 				1533 1535 1536 1537 1541 1543 1544 1545 1546 1547 1548 1551 1534 #soducene_region
+				# GotN New
+				10376 10396 10380 10378 10379 10382 10381 10383 10385 10384
 			}
 		}
 
@@ -1689,6 +1691,8 @@ country = {
 				194 195 196 197 202 204 222 231 1825 1841 193 226 #galatia_trocmi_region
 				1836 1832 1907 1909 1923 1932 #cappadocia_saravene
 				175 188 189 192 228 229 #galatia_region
+				# GotN New
+				7765 329 328 10201 10273 227 10203 316 7765 224 329 225 221 10274 10205 10276 10204 10293 10275 10295 10296 10294 
 			}
 
 			treasures = { 901 }
@@ -2900,9 +2904,6 @@ country = {
 			own_control_core = 	{
 				413 416 7799 7897 7898
 				7902 # Salamis
-				270 297 #Islands of Imbros and Lemnos granted by Antigonus to Athens after liberation.
-				1774 349
-				277  #Aegean Islands
 			}
 
 			treasures = { 55 79 211 }
@@ -14394,9 +14395,9 @@ country = {
 			}
 		}
 
-		TIE = { # Tieion
+		TIE = { # Lemnos
 			government = oligarchic_republic
-			primary_culture = greco_pontic
+			primary_culture = lemnian
 			religion = roman_pantheon
 
 			technology={
@@ -14406,10 +14407,10 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
-			capital = 209
+			capital = 270
 
 			own_control_core = 	{
-				209
+				270
 			}
 		}
 
