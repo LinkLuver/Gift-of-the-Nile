@@ -1422,10 +1422,14 @@
 	terrain="hills"
 	culture="qardu"
 	religion="ashur_religion"
-	trade_goods="grain"
+	trade_goods="earthware"
 	civilization_value=18
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		culture="assyrian"
+		amount=1
+	}
 	citizen={
 		amount=3
 	}

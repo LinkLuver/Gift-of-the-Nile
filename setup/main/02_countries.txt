@@ -1502,8 +1502,10 @@ country = {
 				157 158 163 1852 1854 1859 1861 1865 1886 1898 1929 #cappadocia_melitene_region
 				155 172 1802 1803 1893 1902 1976 1983 1994 1999 #cappadocia_cataonia_region
 				1794 1796 1799 1800 1805 1912 6420 #cappadocia_region
-				1866 1853 1979 1982
+				1853 1979 1982
 				1849 1891 1899
+				#GotN New
+				8061 10287 10288 10290 10291 8062 10292
 			}
 
 			pantheon = {
@@ -1530,8 +1532,10 @@ country = {
 			capital = 858
 
 			own_control_core = {
-				858 859 860 878 1855 235 8007 8009 #sophene_region
-				1858 1856 1857 8008 8010
+				858 859 860 878 1855 235 8009 #sophene_region
+				1858 1856 1857
+				#GotN New
+				8000 10223 10334 10333 10351 10328 10327 1866 10330 10326
 			}
 			historical_regnal_numbers = {
 				Arame = 1
@@ -1735,7 +1739,7 @@ country = {
 
 			own_control_core = {
 				869 870 #corduene_region
-				9488 833 834 9551 9552 9553 9554 #gordyene_region
+				9488 866
 				873 9555 #upper_mesopotamia_region
 				868 9494 #nisibin_area
 				9495 9527 9528 867 864 865 9500 #niniveh_area
@@ -1749,10 +1753,10 @@ country = {
 			religion = zoroaster
 
 
-			capital = 9535
+			capital = 9501
 
 			own_control_core = {
-				9535 9545 9501 1578 9489 9548
+				9501 1578 9489 9548
 				1513 1574 1510 9534 1509 1508
 			}
 		}
@@ -1763,10 +1767,10 @@ country = {
 			religion = armenian_religion
 
 
-			capital = 843
+			capital = 9553
 
 			own_control_core = {
-				843 992 846 842 9540 9541
+				9553 9554 9551 9552 833 834 9547 9546 9544 9545
 			}
 		}
 
@@ -1948,7 +1952,9 @@ country = {
 
 			own_control_core = 	{
 				836 838 839 1862 1863 1864 #commagene_region
-				1860 6397 837 840 1847 9587 877 1869   
+				1860 6397 837 840 1847 9587 877 1869
+				#GotN New
+				7982   
 			}
 
 		}
@@ -2303,6 +2309,8 @@ country = {
 
 			own_control_core = {
 				786 788 784 785
+				#GotN New
+				10084 10085 
 			}
 
 			treasures = { 898 }
@@ -2396,6 +2404,8 @@ country = {
 
 			own_control_core = {
 				790 789 1871 795 796 8021
+				#GotN New
+				10093 10086
 			}
 		}
 		BEI = {
