@@ -305,19 +305,22 @@
 	holy_site=omen_asshuritu
 }
 
-863={ #Vledh
+863={ #Balad
 	terrain="plains"
 	culture="assyrian"
 	religion="ashur_religion"
 	trade_goods="grain"
-	civilization_value=21
+	civilization_value=22
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
+	freemen={
+		amount=4
+	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		religion="mesopotamian_religion"
@@ -333,12 +336,16 @@
 	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="assyrian"
+		amount=2
+	}
 	freemen={
 		amount=3
 	}
 	slaves={
 		culture="assyrian"
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=2
@@ -1425,11 +1432,7 @@
 	trade_goods="earthware"
 	civilization_value=18
 	barbarian_power=0
-	province_rank="city"
-	nobles={
-		culture="assyrian"
-		amount=1
-	}
+	province_rank="settlement"
 	citizen={
 		amount=3
 	}

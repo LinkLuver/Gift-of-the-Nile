@@ -360,10 +360,10 @@
 
 841={ #Karkathiokerta
 	terrain="plains"
-	culture="arzonian"
+	culture="hurrian"
 	religion="armenian_religion"
 	trade_goods="horses"
-	civilization_value=31
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -382,14 +382,14 @@
 
 842={ #Tigranocerta
 	terrain="hills"
-	culture="arzonian"
+	culture="hurrian"
 	religion="armenian_religion"
 	trade_goods="vegetables"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=1
 	}
 	freemen={
 		amount=2
@@ -399,21 +399,24 @@
 	}
 	tribesmen={
 		culture="qardu"
+		amount=2
+	}
+	tribesmen={
+		religion="hurrian_pantheon"
 		amount=1
 	}
 	tribesmen={
-		culture="hurrian"
-		religion="hurrian_pantheon"
+		culture="arzonian"
 		amount=2
 	}
 }
 
 843={ #Chlomaron
 	terrain="hills"
-	culture="arzonian"
+	culture="hurrian"
 	religion="armenian_religion"
 	trade_goods="leather"
-	civilization_value=34
+	civilization_value=10
 	barbarian_power=0
 	province_rank="city"
 	citizen={
@@ -452,8 +455,7 @@
 		amount=3
 	}
 	tribesmen={
-		culture="hurrian"
-		religion="hurrian_pantheon"
+		culture="arzonian"
 		amount=2
 	}
 }
@@ -508,10 +510,10 @@
 
 845={ #Martyropolis
 	terrain="hills"
-	culture="arzonian"
+	culture="hurrian"
 	religion="armenian_religion"
 	trade_goods="horses"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -523,7 +525,6 @@
 		amount=3
 	}
 	tribesmen={
-		culture="hurrian"
 		religion="hurrian_pantheon"
 		amount=2
 	}
@@ -681,7 +682,7 @@
 	culture="hurrian"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
-	civilization_value=31
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -816,7 +817,7 @@
 	culture="hurrian"
 	religion="hurrian_pantheon"
 	trade_goods="honey"
-	civilization_value=29
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -854,7 +855,7 @@
 	culture="hurrian"
 	religion="hurrian_pantheon"
 	trade_goods="vegetables"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1036,10 +1037,10 @@
 
 992={ #Balaleisa
 	terrain="mountain"
-	culture="arzonian"
+	culture="cardukoi"
 	religion="armenian_religion"
 	trade_goods="vegetables"
-	civilization_value=16
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1241,7 +1242,7 @@
 	culture="arzonian"
 	religion="armenian_religion"
 	trade_goods="wood"
-	civilization_value=29
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1263,7 +1264,7 @@
 	culture="arzonian"
 	religion="armenian_religion"
 	trade_goods="cattle"
-	civilization_value=29
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1285,7 +1286,7 @@
 	culture="arzonian"
 	religion="armenian_religion"
 	trade_goods="honey"
-	civilization_value=29
+	civilization_value=3
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1351,7 +1352,7 @@
 	culture="qardu"
 	religion="mesopotamian_religion"
 	trade_goods="grain"
-	civilization_value=29
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1369,10 +1370,10 @@
 
 9556={ #Nabarra
 	terrain="hills"
-	culture="arzonian"
+	culture="hurrian"
 	religion="armenian_religion"
 	trade_goods="honey"
-	civilization_value=29
+	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1386,7 +1387,6 @@
 		amount=1
 	}
 	tribesmen={
-		culture="hurrian"
 		religion="hurrian_pantheon"
 		amount=2
 	}

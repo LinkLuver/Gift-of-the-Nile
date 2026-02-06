@@ -1,0 +1,25 @@
+﻿"TIE"={
+	country="TIE"
+	623={
+		first_name="Attas"
+		family_name="Attasid"
+		birth_date=420.2.5
+		culture="lemnian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=9
+		add_charisma=5
+		add_finesse=4
+		add_zeal=5
+		no_traits=yes
+		add_trait="oarmaster"
+		add_trait="proud"
+		add_trait="xenophobic"
+		add_gold=50
+		add_popularity=60
+		c:TIE={
+			set_as_ruler=char:623
+		}
+		dna = "SeNJ455ujWY3ZTdlApACkAKKAooCdAJ0AncCdwKKAooClAKUAngCeAFjAWMChwKHAnUCdQKGAoYCiQKJAmsCawJ3AncCigKKAmsCawKTApMCcQJxA6YDpgKDAoMCkgKSAngCeAKBAoECfwJ/A6UDpQKGAoYClQKVAmgCaAJ6AnoDpQOlBMACkAJ4AngBYgFiACQAJAJmAmYCgwKDAmgCaAKLAosCjgKOApACkAKRApECkQKRAoICggJyAnICaAJoApICggJ9An0CkwKTAmoCagJqAmoChwKHAnwCfAJrAmsCYAJ1AnwCfAILAgsBMgA2AW4BbgClAKUAQABAAp4CngA9AD0ALgAuAXUBLgB/AH8A6wDrAIAAgAB/AH8ANgA2AQ8BDwKkAqQC3wLfAXUBdQBTAFMCaAIVASkBKQCIAH8CsgKyAAgACAE/ATsArwCvAXkBeQDZANkAIQAhA0EErgAhAPIASADNAksDRgAhACEI0AjQAH8AfwAuAC4FtgERAGQAOAkxCTECcQFzAJYAewAAAAAAAAAAAAAAAA=="
+	}
+}

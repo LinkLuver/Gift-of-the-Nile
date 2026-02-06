@@ -754,16 +754,38 @@
  imperium_ruler_lydian:0 "Tavs'a Qalmlus"
  imperial_cult_ruler_lydian:0 "Tiuae Qalmlus"
 
+ #Lydia Republic rulers
+ aristocratic_republic_ruler_lydian:2 "Lailas" #Sovereign
+ aristocratic_republic_ruler_:1 "Mukarribat"
+ aristocratic_republic_co_ruler_:0 "Mukarrib 'Ahr"
+ aristocratic_republic_co_ruler_:0 "Mukarribat 'Ahrat"
+ oligarchic_republic_ruler_:1 "Mukarrib"
+ oligarchic_republic_ruler_:1 "Mukarribat"
+ democratic_republic_ruler_:1 "Mukarrib"
+ democratic_republic_ruler_:1 "Mukarribat"
+ theocratic_republic_ruler_:0 "Mukarrib"
+ theocratic_republic_ruler_:0 "Mukarribat"
+ plutocratic_republic_ruler_:0 "Mukarrib"
+ plutocratic_republic_ruler_:0 "Mukarribat"
+ oligarchic_republic_co_ruler_:1 "Mukarrib 'Ahr"
+ oligarchic_republic_co_ruler_:1 "Mukarribat 'Ahrat"
+ plutocratic_monarchy_co_ruler_south_:0 "Mukarrib"
+ plutocratic_monarchy_co_ruler_female:0 "Mukarribat"
 
- #Lydian Monarchy Offices
- office_foreign_minister_lydian:0 "Arjo"
- office_royal_tutor_lydian:0 "Ves'fas'"
- office_philosopher_lydian:0 "Philospher"
- office_marshal_lydian:0 "Marshal"
- office_master_of_the_guard_lydian:0 "Nars Astarho"
- office_high_priest_monarchy_lydian:0 "Alus'"
- office_steward_lydian:0 "Steward"
- office_physician_lydian:0 "Physician"
+ #Lydio-Phrygian Monarchy Offices
+ office_foreign_minister_lydio_phrygian:0 "Arjo"
+ office_royal_tutor_lydio_phrygian:0 "Ves'fas'"
+ office_philosopher_lydio_phrygian:0 "Philosphos" #Borrowed from Greek
+ office_marshal_lydio_phrygian:0 "Astarho"
+ office_master_of_the_guard_lydio_phrygian:0 "Nars Astarho"
+ office_high_priest_monarchy_lydio_phrygian:0 "Alus'"
+ office_steward_lydio_phrygian:0 "Vukus-Umis" #Hearth-Man
+ office_physician_lydio_phrygian:0 "Archiatros"
+
+ #Lydio-Phrygian Military Leaders
+ office_admiral_lydio_phrygian:0 "Admiral"
+ office_general_lydio_phrygian:0 "Akmu-Umis" #Army-Man... how crude (best translation I could come up with)
+ office_governor_lydio_phrygian:0 "Katru-Umis" #Castle-Man
 
  #Lydian Republic Offices
  office_augur_lydian:0 "Arjo"
@@ -802,3 +824,4 @@
  aristocratic_monarchy_ruler_phrygian:0 "Vanaktei"
  imperium_ruler_phrygian:0 "Mekas Vanaktei"
  imperial_cult_ruler_phrygian:0 "Vanaktei"
+
