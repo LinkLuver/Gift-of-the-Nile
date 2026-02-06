@@ -94,6 +94,16 @@ coward = { #
 		loyalty_gain_chance = -0.02
 	}
 }
+guerilla_fighter = { #
+	type = military
+	
+	martial = 1
+	
+	unit = {
+		army_weight_modifier = -0.10
+		land_unit_attrition = -0.05
+	}
+}
 #### Pompey
 
 coastal_raider = {
@@ -197,19 +207,19 @@ equestrian = {
 	}
 }
 
-#indecisive = {
-#	type = military
-#	opposites = {
-#		brave
-#		secure
-#		confident
-#	}
-#	martial = -1
-#	country = {
-#		ruler_popularity_gain = -0.05
-#	}
-#	unit = {
-#		retreat_delay = 1		#1 day added to minimum 5 days before ordered retreat
-#		loyalty_gain_chance = -0.02
-#	}
-#}
+indecisive = {
+	type = military
+	opposites = {
+		brave
+		secure
+		confident
+	}
+	martial = -1
+	country = {
+		ruler_popularity_gain = -0.05
+	}
+	unit = {
+		retreat_delay = 1		#1 day added to minimum 5 days before ordered retreat
+		loyalty_gain_chance = -0.02
+	}
+}

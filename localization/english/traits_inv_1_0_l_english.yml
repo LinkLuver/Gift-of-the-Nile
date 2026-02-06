@@ -382,6 +382,9 @@
 indecisive:0 "Indecisive"
 indecisive_desc:0 "[CHARACTER.GetPraenomen] is terribly indecisive, oftentimes not knowing when to push forward or retreat. This makes [CHARACTER.GetHerHim] quite unpopular among both [CHARACTER.GetHerHis] soldiers as well as the common people."
 indecisive_bad_tooltip:0 "This option is #Y exclusive#! because your ruler has the #Y Indecisive#! trait."
+
+ guerilla_fighter:0 "Guerilla"
+ guerilla_fighter_desc:0 "[CHARACTER.GetPraenomen] is skilled in leading troops in non-conventional tactics, relying on ambushes and hit and run tactics, rather than sheer force of numbers."
  
 # strict:0 "Strict"
 # strict_desc:0 "Much to the chagrin of [CHARACTER.GetHerHis] family and colleges, [CHARACTER.GetPraenomen] is unwilling to tolerate failure of any kind and [CHARACTER.GetSheHe] is more than happy to step on a few toes to maintain order and efficiency."

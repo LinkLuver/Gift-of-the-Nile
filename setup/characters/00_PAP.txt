@@ -1,0 +1,25 @@
+﻿"PAP"={
+	country="PAP"
+	624={
+		first_name="Pylaemenes II"
+		family = c:PAP.fam:Pylaemenid
+		birth_date=423.10.24
+		culture="paphlagonian"
+		religion="hatti_religion"
+		no_stats=yes
+		add_martial=7
+		add_charisma=5
+		add_finesse=4
+		add_zeal=9
+		no_traits=yes
+		add_trait="guerilla_fighter"
+		add_trait="stubborn"
+		add_trait="blood_of_pylaemenes"
+		add_gold=200
+		add_popularity=100
+		c:PAP = {
+			set_as_ruler=char:624
+		}
+		dna = "AfUB9aycrJyBdIF0AWIBYgJ5AnkCigKKAm0CbQOfA58CbQJtAogCiAKUApQCjAKMAoICggJrAmsClgKWAnICcgFgAWAAMAAwA64DrgKJAokCfwJ/A7IDsgJ0AnQCfAJ8AoQChAJ0AnQCZgJmAoMCgwOdA50E2wTbAnICcgKFAoUCkAKQAoICggKJAokCjQKNAoMCgwKJAokCjQKNAV8BXwKUApQCZwJnAoUChQJrAmsCbQJtA6gDqABWAFYDmwObAmoCagKEAoQChAKEAocChwKfAp8CcwJzAVYBVgORA6ECfwJ/ACgAKAI9AkEAfQB9AAsACwAWABYAMQAxAuEC4QFFAUUA6ADoAsUC6gBIAEgBQwFDAFgAWAB/AH8AhQCFAHAAcAFZAVkBXQFdAXoBegEjASMDzQPNAIYAhgERAH8AngCeAKgAqAAZABkAtQC1AUIBQgD9AP0BCgEKA0wDTAAYABgCiwKLAUABQAA9AD0CkQiRANsAfwWLBYsGSwYJAeEB2wOKA4oELAQeAf8CmwAAAAAAAAAAAAAAAA=="
+	}
+}

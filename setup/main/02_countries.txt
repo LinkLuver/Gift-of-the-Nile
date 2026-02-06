@@ -1617,7 +1617,7 @@ country = {
 			capital = 1971
 
 			own_control_core = {
-				1971 1914 174 177 180 176 190 191
+				1971 174 177 180 176 190 191 10277
 			}
 		}
 
@@ -10690,7 +10690,7 @@ country = {
 			treasures = { 65 }
 
 			own_control_core = 	{
-				286 287 288 289 290 291 310 1972 1974 220 1808
+				286 287 288 289 290 291 310 1972 1974 220 10224 8122 10184 10231 10232
 			}
 
 		}
@@ -10711,7 +10711,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				1810 1812
+				1810 1812 10316
 			}
 
 			treasures = { 105 }
@@ -10823,7 +10823,7 @@ country = {
 			religion = roman_pantheon
 			capital = 1795
 			diplomatic_stance=trading_stance
-			own_control_core = 	{ 1795 }
+			own_control_core = 	{ 1795 10317 }
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -10864,7 +10864,7 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
-			own_control_core = 	{ 1981 7935 7934 }
+			own_control_core = 	{ 1981 7935 7934 10219 }
 
             treasures = { 116 }
 		}
@@ -10883,7 +10883,7 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
-			own_control_core = 	{ 1807 }
+			own_control_core = 	{ 1807 10314 }
 
 			treasures = { 49 51 }
 		}
@@ -10900,10 +10900,13 @@ country = {
 				1789 1790 1833 1834 1838 1839 1840 1845 1846 #pontus_colopene_region
 				1791 1792 1819 1821 1822 1823 1824 1826 1831 1837 #pontus_region
 				1786 1787 1793 1801 1806 7994 7998 7999 1804
+				#GotN New
+				10299 10312 1788 10185 10312 10187 10313 10298 10315
 			}
 		}
 
 		PAP = {
+			family=2502
 			government = tribal_federation
 			primary_culture = paphlagonian
 			religion = hatti_religion
@@ -10911,10 +10914,12 @@ country = {
 			capital = 198
 
 			own_control_core = 	{
-				198 199 200 201 217 232 1829 1827 1828 #paphlagonia_superior_region
+				198 199 200 201 232 1829 1827 1828 #paphlagonia_superior_region
 				216 #heracleotis_region
 				206 211 1814 1815 1816 #paphlagonia_inferior_region
 				203
+				# GotN New
+				10311 10318 10309 10186 10182 218 213 10178
 			}
 		}
 
@@ -11107,10 +11112,12 @@ country = {
 				1676 1679 1680 1683 1685 #caucasian_iberia_region
 				1611 1612 1657 1658 1678 1687 #kahetia_region
 				1586 1587 1610 1677 1686 1696 1700 1702 #gugark_region
-				1697 1701 1752 1753 1754 1755 1756 #tayk_region
+				1697 1701 1755 #tayk_region
 				1607 1609 1681
 				1694 1691 1692 1689 1690
 				1699 1695
+				#GotN New
+				10414 10415 10416 10413 10417 10418 10395 10394 10393 10398 1608 10397 10413 10414 10437 1660 10419 10392
 			}
 
 		}
@@ -11136,6 +11143,8 @@ country = {
 				1739 1740 #abasgoi_region
 				1722 1723 1724 1725 #bekhyria_region
 				1705 1704 1703 1746 1748
+				#GotN New
+				10423 10438 10421 
 			}
 
 		}
@@ -11149,9 +11158,11 @@ country = {
 
 			own_control_core = 	{
 				1633 1634 1635 1636 1642 1644 1645 1655 1656 1662 #caucasian_albania_region
-				1584 1608 1637 1646 1651 1661 1670 1671 1672 #arran_region
-				1641 1643 1659 1660 5435 7603 7604 7605
+				1584 1637 1646 1651 1661 1670 1671 1672 #arran_region
+				1641 1643 1659 5435 7603 7604 7605
 				7602 7632 7633 7621 # added from Legia
+				#GotN New
+				10409 10408 10407 10406 10410 10411 10412 10401 10402 10400 10399 10405 10404 10403
 			}
 
 		}
@@ -11201,7 +11212,9 @@ country = {
 			}
 
 			own_control_core = 	{
-				1732 1734 1797
+				1732 1734 1797 
+				# GotN New
+				10439 10319 
 			}
 		}
 
@@ -12471,7 +12484,7 @@ country = {
 			capital = 1720
 
 			own_control_core = {
-				1720 1738 1741
+				1720 1738 1741 10422
 			}
 
 			treasures = { 101 }
@@ -14382,7 +14395,7 @@ country = {
 			capital = 219
 
 			own_control_core = {
-				219 233 237 326 215 214 210 212 213 223
+				219 233 237 326 215 214 210 212 223 217 10308
 			}
 		}
 
@@ -14402,6 +14415,8 @@ country = {
 
 			own_control_core = 	{
 				208
+				#GotN New
+				209 10306 10307
 			}
 		}
 
@@ -14458,7 +14473,7 @@ country = {
 			}
 
 			own_control_core = {
-				1894 1896 1892 7968
+				1894 1896 1892 10176 10159 10160
 			}
 		}
 

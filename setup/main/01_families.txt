@@ -816,5 +816,11 @@ family={
             culture = syracusan
             owner=CLA
         }
+		2502 = {
+		key="Pylaemenid"
+			prestige=200
+			culture=paphlagonian
+			owner=PAP
+		}
 	}
 }
