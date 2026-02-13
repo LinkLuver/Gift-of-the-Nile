@@ -175,7 +175,15 @@ sisyphos = { #Major
 ducetid = { #Minor
 	type = status
 	country = {
-	happiness_for_wrong_culture_group_modifier = 0.04
+		happiness_for_wrong_culture_group_modifier = 0.04
+	}
+	prominence = 10
+}
+
+ugariti = { #Minor
+	type = status
+	country = {
+		global_nobles_output = 0.05
 	}
 	prominence = 10
 }

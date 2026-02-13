@@ -236,7 +236,76 @@
 		phoenician = {}
 		hyksos = {}
 		alashiyan = {}
-		syrion = {}
+		syrion = {
+
+			male_names = {
+			Abdmelqart Abd_osir Adoniba_l Ahiram Azimilk Ba_l Ba_lhanon
+			Bod_ashtart Bodo Bodmelqart Kelbe
+			Germelqart Hanno Azrubal Hiram Magon
+			Mittun Milkiram
+			Pilletba_l Pilles Abdhamon Abiba_l Eshmunyaton
+			Ittoba_l
+			Am_ashtart Uromilk Yehomilk Ba_lyaton Birrekba_l Gerba_l
+			Gerimilk Hilletzba_l Tabnit
+			Milkyaton Eshmun_adon Aderba_l
+			Eshmun_azor Bod_eshmun Binhodesh
+			Ba_lmalok Ba_l_azor Ba_lshamor Ger_adon Gero
+			Ger_ashtart Ziboq Hanniba_l Yaton Yatonba_l Yatonmilk
+			Yatontzid Melqart_amos
+			Abdo Abd_elim Abd_eshmun Abdba_l Abdmilk Abdmilkot Abd_ashtart
+			Azba_l Azorba_l Akbor Pumayyaton Shalom
+			# Ugaritic Names
+			Yaqarum Hammurapi Niqmepa Niqmaddu Danel Ibiranu Ammishtamru Gulgullu Kitru Katiri
+			Bin_anat Bin_sartn Bin_zuziana Bahlu_badi Ba_ludanu Ba_lusullamu Ba_lanu Gupana Hudya 
+			Hismi Ditanu Zanu 
+		}
+		female_names = {
+			Abd_osir Am_ashtart Amot_osir Amotba_l
+			Amot_ashtart Asep_adon Arishtiba_l Bitno_m
+			Bitshalom Dido Ishshot Tamar Hanna_ashtart
+			Izebel El_ishshot
+			Mittunpumay
+			Ammati_ashtart
+			Tzaponi Shemzebel Zibqot Akbarot
+			Hariya Minusa Bint_anat Hiya_adattu Hiya_abnu
+		}
+		family = {
+			Abdoni.Abdonit.Abdonid.Abdonid
+			Abd_osiri.Abd_osirit.Abd_osirid.Abd_osirid
+			Ahirami.Ahiramit.Ahiramid.Ahiramid
+			Akbari.Akbarit.Akbarid.Akbarid
+			Ba_li.Ba_lit.Ba_lid.Ba_lid
+			ha-Barq.ha-Barq.Barqid.Barqid
+			Binhodshi.Binhodshit.Binhodshid.Binhodshid
+			Birreki.Birrekit.Birrekid.Birrekid
+			Bodoni.Bodonit.Bodonid.Bodonid
+			Gerba_li.Gerba_lit.Gerba_lid.Gerba_lid
+			Geroni.Geronit.Geronid.Geronid
+			Hannoni.Hannonit.Hannonid.Hannonid
+			Hilletzi.Hilletzit.Hilletzid.Hilletzid
+			Hirami.Hiramit.Hiramid.Hiramid
+			Kilbayyi.Kilbayyit.Kilbayyid.Kilbayyid
+			Magoni.Magonit.Magonid.Magonid
+			Milki.Milkit.Milkid.Milkid
+			Milkirami.Milkiramit.Milkiramid.Milkiramid
+			Mittuni.Mittunit.Mittunid.Mittunid
+			Pillesi.Pillesit.Pillesid.Pillesid
+			Pumayyi.Pumayyit.Pumayyid.Pumayyid
+			Shalomi.Shalomit.Shalomid.Shalomid
+			Tabniti.Tabnitit.Tabnitid.Tabnitid
+			Uromilki.Uromilkit.Uromilkid.Uromilkid
+			Yehomilki.Yehomilkit.Yehomilkid.Yehomilkid
+			Yatoni.Yatonit.Yatonid.Yatonid
+			Arwadi.Arwadit.Arwadi.Arwadi
+			Gubali.Gubalit.Gubali.Gubali
+			Tsidoni.Tsidonit.Tsidoni.Tsidoni
+			Tsuri.Tsurit.Tsuri.Tsuri
+			Atari.Atarit.Atari.Atari
+			Be_ruti.Be_rutit.Be_ruti.Be_ruti
+			Alashayyi.Alashayyit.Alashayyi.Alashayyi
+			Ashqaloni.Ashqalonit.Ashqaloni.Ashqaloni
+			}
+		}
 		hebrew = { #Israelite
 			male_names = {
 				Abraham Abtalyon Abihayyil Abiyyah Adam Adu_ Aharon Ahazay Alim Amas Amittay Amotz

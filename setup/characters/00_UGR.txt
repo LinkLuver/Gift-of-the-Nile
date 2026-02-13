@@ -1,0 +1,99 @@
+﻿"UGR"={
+	country="UGR"
+	627={
+		first_name="Hanna_ashtart" #Wife of the now dead Niqmaddu
+		family = c:UGR.fam:Ugariti
+		birth_date=384.2.12
+		female=yes
+		culture="syrion"
+		religion="hurrian_pantheon"
+		no_stats=yes
+		add_martial=4
+		add_charisma=3
+		add_finesse=4
+		add_zeal=7
+		no_traits=yes
+		add_trait="trustworthy"
+		add_trait="ugariti"
+	}
+	628={
+		first_name="Ba_lanu"
+		family = c:UGR.fam:Ugariti
+		birth_date=400.5.8
+		father=char:626
+		mother=char:627
+		culture="syrion"
+		religion="hurrian_pantheon"
+		no_stats=yes
+		add_martial=2
+		add_charisma=8
+		add_finesse=8
+		add_zeal=4
+		no_traits=yes
+		add_trait="shrewd"
+		add_trait="charming"
+		add_trait="ugariti"
+		add_gold=500
+		add_popularity=60
+		c:UGR={
+			set_as_ruler=char:628
+		}
+		dna="wLPAs4aJhom6xrrGAnkCeQJnAmcCkAKQAm4CbgKFAoUDpwOnAmsCawKYApgCkQKRAmsCawJ3AncCpgKmAoUChQBDAEMCiAKIAn0CfQKZApkDowOjApECkQFVAVUCbAJsAnwCfAJuAm4CaAJoAVkBWQJrAmsClQKVAn8CfwJmAmYDmwObAnUCdQKJAokCfQJ9BLQEtAOgA6AC0QKOAo4CjgFkAWQClgKWAoUChQJuAm4CkgKSAmkCaQKCAoIDrgOuAmsCawKUApQCkgKSAoUChQKrAqsCgAKAAnECcQOqA6oCkQKRAmcCZwEFArUAhACEAJcAlwDkAOQBPgE+AYoA1ADuAO4AoQChAQ8BDwEAAAYBNAE0AP8A/wB/AH8AgwCDAKUApQFSAVIBEgESAX8BfwDIAMgBkwGTATYBeQB/AH8BRgFGAtMC0wCeAJ4BJQElAIQAhADAAMAA1wDXA24DbgEvANQC8QLxBLYEtgEaARoMYARgAH8AfwXqBeoEZQQxAUoBSgLhAuID6APoA/sDSQAAAAAAAAAAAAAAAA=="
+	}
+	629={
+		first_name="Niqmaddu II"
+		family = c:UGR.fam:Ugariti
+		birth_date=398.5.8
+		father=char:626
+		mother=char:627
+		culture="syrion"
+		religion="hurrian_pantheon"
+		no_stats=yes
+		add_martial=10
+		add_charisma=3
+		add_finesse=4
+		add_zeal=6
+		no_traits=yes
+		add_trait="reckless"
+		add_trait="ugariti"
+		add_gold=100
+		add_popularity=20
+		dna="wLPAs4aJhom6xrrGAnkCeQJnAmcCkAKQAm4CbgKFAoUDpwOnAmsCawKYApgCkQKRAmsCawJ3AncCpgKmAoUChQBDAEMCiAKIAn0CfQKZApkDowOjApECkQFVAVUCbAJsAnwCfAJuAm4CaAJoAVkBWQJrAmsClQKVAn8CfwJmAmYDmwObAnUCdQKJAokCfQJ9BLQEtAOgA6AC0QKOAo4CjgFkAWQClgKWAoUChQJuAm4CkgKSAmkCaQKCAoIDrgOuAmsCawKUApQCkgKSAoUChQKrAqsCgAKAAnECcQOqA6oCkQKRAmcCZwEFArUAhACEAJcAlwDkAOQBPgE+AYoA1ADuAO4AoQChAQ8BDwEAAAYBNAE0AP8A/wB/AH8AgwCDAKUApQFSAVIBEgESAX8BfwDIAMgBkwGTATYBeQB/AH8BRgFGAtMC0wCeAJ4BJQElAIQAhADAAMAA1wDXA24DbgEvANQC8QLxBLYEtgEaARoMYARgAH8AfwXqBeoEHwQxAUoBSgL5AuID6gPoAwIDSQAAAAAAAAAAAAAAAA=="
+	}
+	630={
+		first_name="Minusa" #Wife of Ba'Lanu
+		family = c:UGR.fam:Ugariti
+		birth_date=400.2.12
+		female=yes
+		marry_character = char:628
+		culture="syrion"
+		religion="hurrian_pantheon"
+		no_stats=yes
+		add_martial=5
+		add_charisma=3
+		add_finesse=4
+		add_zeal=6
+		no_traits=yes
+		add_trait="ugariti"
+		dna="wLPAs3KWhok7zrrGAnICeQJnAmcCkAKQAm4CbgKFAoUDnwOnAmsCawKKApgCkQKRAmsCawJ3AncCngKmAoUChQBDAEMCWQKIAn0CfQKZApkDowOjApECkQFVAVUCbAJsAnwCfAJuAm4CaAJoAVkBWQJrAmsClQKVAn8CfwJmAmYDmwObAnUCdQKJAokCfQJ9BLQEtAO1A6ACjAKOAo4CjgFIAWQClgKWAoUChQJ1Am4CkgKSAmkCaQKCAoIDrgOuAmsCawKUApQCkgKSAoUChQKrAqsCgAKAAnECcQOqA6oCkQKRAmcCZwEFArUAhACEAJcAlwDkAOQBPgE+AYoA1ADuAO4AoQChAQ8BDwEAAAYBNAE0AP8A/wB/AH8AgwCDAKUApQEdAVIBEgESAX8BfwDIAMgBkwGTATYBeQCSAH8BRgFGAqUC0wCeAJ4BJQElAIQAhADAAMAA1wDXA24DbgAvANQC8QLxBLYEtgEaARoMYARgAK4AfwXqBeoEXQQxAUoBSgL5AuID6gPoAwIDSQAAAAAAAAAAAAAAAA=="
+	}
+	631={
+		first_name="Ibiranu"
+		family = c:UGR.fam:Ugariti
+		birth_date=425.6.10
+		father=char:628
+		mother=char:630
+		culture="syrion"
+		religion="hurrian_pantheon"
+		no_stats=yes
+		add_martial=9
+		add_charisma=4
+		add_finesse=8
+		add_zeal=6
+		no_traits=yes
+		add_trait="explorer"
+		add_trait="scholar"
+		add_trait="ugariti"
+		add_gold=100
+	}
+}

@@ -7728,10 +7728,8 @@ yadiya_heritage = {
 ugarit_heritage = {
     modifier = {
         #good
-        build_time = -0.10
-        monthly_legitimacy = 0.05
-        monthly_centralization = 0.05
-        monthly_party_approval = 0.05
+        global_import_commerce_modifier = 0.10
+        improve_relation_cost_modifier = -0.20
         
         #bad
         monthly_wage_modifier = 0.05

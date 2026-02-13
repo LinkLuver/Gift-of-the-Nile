@@ -1140,3 +1140,25 @@
 			add_trait="devout"
 		}
 }
+
+"Elysium_UGR" = {
+	country="UGR"
+		626={
+			first_name="Niqmaddu" #Previous king of Ugarit- died of a heart attack induced by eating too much crab and wine
+			family = c:UGR.fam:Ugariti
+			birth_date=380.8.15
+			death_date=449.4.19
+			culture="syrion"
+			religion="hurrian_pantheon"
+			no_stats=yes
+			add_martial=4
+			add_charisma=6
+			add_finesse=7
+			add_zeal=6
+			no_traits=yes
+			add_trait="carouser"
+			add_trait="overbearing"
+			add_trait="ugariti"
+			dna="wLPAs4aJhom6xrrGAnkCeQJnAmcCkAKQAm4CbgKFAoUDpwOnAmsCawKYApgCkQKRAmsCawJ3AncCpgKmAoUChQBDAEMCiAKIAn0CfQKZApkDowOjApECkQFVAVUCbAJsAnwCfAJuAm4CaAJoAVkBWQJrAmsClQKVAn8CfwJmAmYDmwObAnUCdQKJAokCfQJ9BLQEtAOgA6ACjgKOAo4CjgFkAWQClgKWAoUChQJuAm4CkgKSAmkCaQKCAoIDrgOuAmsCawKUApQCkgKSAoUChQKrAqsCgAKAAnECcQOqA6oCkQKRAmcCZwK1ArUAhACEAJcAlwDkAOQBPgE+ANQA1ADuAO4AoQChAQ8BDwAGAAYBNAE0AP8A/wB/AH8AgwCDAKUApQFSAVIBEgESAX8BfwDIAMgBkwGTAXkBeQB/AH8BRgFGAtMC0wCeAJ4BJQElAIQAhADAAMAA1wDXA24DbgDUANQC8QLxBLYEtgEaARoEYARgAH8AfwXqBeoEMQQxAUoBSgLiAuID6APoA/sDSQAAAAAAAAAAAAAAAA=="
+		}
+}

@@ -1648,6 +1648,7 @@ country = {
 			religion = anatolian_religion
 			diplomatic_stance=trading_stance
 			family=2500
+			#monarchy_military_reforms = mercenary_reliance_lydia
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2294,9 +2295,11 @@ country = {
 			}
 		}
 		UGR = {
-			government = aristocratic_monarchy
+			government = theocratic_monarchy
 			primary_culture = syrion
 			religion = hurrian_pantheon
+			monarchy_military_reforms = recruit_from_nobles
+			family=2503
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2461,6 +2464,8 @@ country = {
 
 			own_control_core = 	{
 				779 780
+				# GotN New
+				10087 783 10082
 			}
 
 		}
@@ -4094,7 +4099,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				3256 3250 3253 3252
+				3256 3250 3253 3252 3251 3259 3266 3261 3260 3263 3262 3249 3243 
 			}
 
 			treasures = { 45 }
@@ -5484,6 +5489,7 @@ country = {
 			primary_culture = massylian
 			religion = berber_religion
 			capital = 3086
+			succession_law = elective_succesion_law
 
 			poptype_rights = {
 				{
@@ -5511,10 +5517,9 @@ country = {
 				3234 3269 3268 3275
 				3208 3205 3198 3209 3246 3210 3197 3247 3214 3237 3216 3235 3248 3201 3199 3194 3195
 				3161 3160 3145 3238 3212 3273 3236 3200 3239 3211
-				3260 3263 3266 3261 3259 3251
-				3249 3270 3241 3240 3242 3243 3272 3274
+				3270 3241 3240 3242 3272 3274
 				3279 3286 3282 3281 3283 3287 3285
-				3262 3230 3229 3264 3265 3267 3271
+				3230 3229 3264 3265 3267 3271
 				3126 3144
 				3190 3191 3196 3202 3290 #mauretania_occidentalis?
 				8251 8252 8253 8254 8255 8256 8257 #tritonia
@@ -14274,9 +14279,9 @@ country = {
 		}
 
 		ASP = { # CARIA
-			government = theocratic_republic
+			government = theocratic_monarchy
 			primary_culture = carian
-			religion = anatolian_religion
+			religion = roman_pantheon
 
 			technology={
 				military_tech={ level=2 progress=0 }

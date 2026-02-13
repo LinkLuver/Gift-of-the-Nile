@@ -818,9 +818,15 @@ family={
         }
 		2502 = {
 		key="Pylaemenid"
-			prestige=200
+			prestige=100
 			culture=paphlagonian
 			owner=PAP
+		}
+		2503 = {
+		key="Ugariti"
+			prestige=100
+			culture=syrion
+			owner=UGR
 		}
 	}
 }

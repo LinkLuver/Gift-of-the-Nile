@@ -7,7 +7,7 @@
 		culture="paphlagonian"
 		religion="hatti_religion"
 		no_stats=yes
-		add_martial=7
+		add_martial=8
 		add_charisma=5
 		add_finesse=4
 		add_zeal=9
@@ -21,5 +21,22 @@
 			set_as_ruler=char:624
 		}
 		dna = "AfUB9aycrJyBdIF0AWIBYgJ5AnkCigKKAm0CbQOfA58CbQJtAogCiAKUApQCjAKMAoICggJrAmsClgKWAnICcgFgAWAAMAAwA64DrgKJAokCfwJ/A7IDsgJ0AnQCfAJ8AoQChAJ0AnQCZgJmAoMCgwOdA50E2wTbAnICcgKFAoUCkAKQAoICggKJAokCjQKNAoMCgwKJAokCjQKNAV8BXwKUApQCZwJnAoUChQJrAmsCbQJtA6gDqABWAFYDmwObAmoCagKEAoQChAKEAocChwKfAp8CcwJzAVYBVgORA6ECfwJ/ACgAKAI9AkEAfQB9AAsACwAWABYAMQAxAuEC4QFFAUUA6ADoAsUC6gBIAEgBQwFDAFgAWAB/AH8AhQCFAHAAcAFZAVkBXQFdAXoBegEjASMDzQPNAIYAhgERAH8AngCeAKgAqAAZABkAtQC1AUIBQgD9AP0BCgEKA0wDTAAYABgCiwKLAUABQAA9AD0CkQiRANsAfwWLBYsGSwYJAeEB2wOKA4oELAQeAf8CmwAAAAAAAAAAAAAAAA=="
+	}
+	625={
+		first_name="Bartaras"
+		last_name="Artashid"
+		birth_date=410.6.6
+		culture="lydian"
+		religion="anatolian_religion"
+		no_stats=yes
+		add_martial=3
+		add_charisma=5
+		add_finesse=7
+		add_zeal=2
+		no_traits=yes
+		add_trait="coward"
+		add_trait="miserly"
+		add_gold=800
+		add_popularity=0
 	}
 }
