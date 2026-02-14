@@ -10429,7 +10429,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				1973 10220 10221
+				1973 10221 10220
 			} 
 
 		}
@@ -10459,7 +10459,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				266 280 1830 8015 10218 1876 1884
+				266 280 1830 8015 10218 1876 1884 10216
 			}
 
 		}
@@ -10472,7 +10472,7 @@ country = {
 			capital = 1989
 
 			own_control_core = 	{
-				1989 10216 
+				1989 
 			}
 		}
 
@@ -10854,7 +10854,7 @@ country = {
 		}
 
 		HKS = { #Halikarnassos
-			government = plutocratic_monarchy
+			government = despotic_monarchy
 			diplomatic_stance=trading_stance
 			primary_culture = carian
 			religion = roman_pantheon
@@ -10867,7 +10867,7 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
-			own_control_core = 	{ 1981 7935 7934 10219 }
+			own_control_core = 	{ 1981 10219 7935 7934 10217 1985 }
 
             treasures = { 116 }
 		}
@@ -14277,7 +14277,7 @@ country = {
 		}
 
 		ASP = { # CARIA
-			government = theocratic_monarchy
+			government = theocratic_monarchy 
 			primary_culture = carian
 			religion = roman_pantheon
 
@@ -14291,7 +14291,7 @@ country = {
 			capital = 1967
 
 			own_control_core = 	{
-				1967 1969 10222 1977 10217 1985 1984 7939 1963 1962 7941 10183 1952 7938 1956 1957 7940 1953 1980 1968 1966
+				1967 1969 10222 1977 1984 7939 1963 1962 7941 10183 1952 7938 1956 1957 7940 1953 1980 1968 1966
 			} 
 		}
 

@@ -2977,10 +2977,10 @@ AST = {
 	}
 }
 
-PYK = {
+ASP = {
 	pattern = "pattern_solid.tga"
-	color1 = rgb { 0 85 147}
-	color2 = rgb { 140 12 12 }
+	color1 = "light_yellow"
+	color2 = rgb { 0 85 147}
 
 	colored_emblem = {
 		texture = "ce_roundel_frame_pattern_02.dds"

@@ -2192,6 +2192,22 @@ provinces = { #Any entry must contain a comment with city name.
 		modifier = { modifier = van_citadel always = yes }
 	}
 
+	292 = { #Sfard/Sardeis
+		modifier = { modifier = sfard_treasury always = yes }
+	}
+
+	786 = { #Ugaritu
+		modifier = { modifier = ugarit_ruins always = yes }
+	}
+
+	830 = { #Nasibina
+		modifier = { modifier = nasibina_school always = yes }
+	}
+
+	7840 = { #Palike
+		modifier = { modifier = ducetid_palace always = yes }
+	}
+
 
 	########################################
 	# Barbarian Spawn Spots

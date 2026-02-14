@@ -1164,15 +1164,25 @@ YPO = {
     }
 }
 
-HKS = {
+HKS = {#Halikarnassos
 	pattern = "pattern_solid.tga"
-	color1 = rgb { 124 30 152 }
-	color2 = "roman_gold"
-	
+	color1 = rgb { 77 32 105 }
+	color2 = rgb { 150 190 242 } #whitish blue
+
 	colored_emblem = {
-		texture = "ce_caria_satrapy_star.dds"
-		color1 = "silver"
-		color2 = "iberian_sun"
+		texture = "ce_cetos_halicarnassus.dds"
+		color1 = rgb { 150 190 242 } #whitish blue
+		color2 = "pitch_black"
+		instance = {
+			scale = { 0.9 0.9 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_border_waves_01.dds"
+		color1 = rgb { 150 190 242 } #whitish blue
+		color2 = "pitch_black"
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
 	}
 }
 
