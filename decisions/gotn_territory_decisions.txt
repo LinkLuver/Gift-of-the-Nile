@@ -110,6 +110,42 @@
 			base = 100
 		}
 	}
+
+	# Excavate Ugarit
+	ugarit_excavation = {
+	
+		potential = {
+			num_of_cities >= 1
+			owns = 786
+			NOR = {
+				has_variable = ugarit_construction
+			}
+		}
+
+		highlight = {
+			scope:province = {
+				province_id = 786
+			}
+		}
+
+		allow = {
+			treasury >= 150
+			political_influence >= 30
+			owns = 786
+		}
+		
+		effect = {
+			trigger_event = {
+				id = levant_events.1
+			}
+			hidden_effect = {
+				set_variable = ugarit_construction
+			}			
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
 }
 
 

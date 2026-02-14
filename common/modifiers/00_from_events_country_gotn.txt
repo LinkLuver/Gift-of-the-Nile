@@ -108,3 +108,7 @@ kythera_investments = {
     global_commerce_modifier = 0.10
     global_citizen_output = 0.05
 }
+repurposed_ruins = {
+    build_cost = -0.20
+    build_time = -0.20
+}
