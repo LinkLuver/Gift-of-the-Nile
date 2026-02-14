@@ -1998,7 +1998,9 @@ country = {
 			capital = 792
 
 			own_control_core = 	{
-				792 794 812 852 1870
+				792 812 1870
+				#GotN New
+				10090 793 10128 10129 10101 10130
 			}
 		}
 		GUR = {
@@ -2017,7 +2019,7 @@ country = {
 
 			own_control_core = 	{
 				811 #syria_cyrrestice_region
-				1867 9597  1895 7986 9594 9593 1868
+				1867 9597 7987 1895 9594 9593 1868
 			}
 		}
 		KAR = {
@@ -2037,7 +2039,7 @@ country = {
 			capital = 809
 
 			own_control_core = 	{
-				809
+				809 810 9595 9596 
 			}
 			historical_regnal_numbers = {
 				Supiuliuma = 2
@@ -2071,7 +2073,9 @@ country = {
 			capital = 787
 
 			own_control_core = 	{
-				787 791 793 797 7985 #syria_region
+				787 791 7985 #syria_region
+				#GotN New
+				10092 10088 10089 10094 10097 10098 10099 10096 
 			}
 			historical_regnal_numbers = {
 				Taita = 2
@@ -2101,6 +2105,8 @@ country = {
 
 			own_control_core = 	{
 				798 813 814 851 #syria_region
+				# Gotn New
+				10112 10102 10126 10113 10104 10105
 			}
 		}
 		PRY = { # Darmeshq
@@ -2124,8 +2130,10 @@ country = {
 			treasures = { 193 95 }
 
 			own_control_core = 	{
-				740 741 742 749 #north_phoenicia
+				741 749 #north_phoenicia
 				738 750 751 752 753 757 758 759 760 763 764 765 #syria_coele_region
+				#GotN New
+				10077 10075 10076 10079 10080 10045 10056 10058 10059 10057 10074 10065 10064
 			}
 
 			pantheon = {
@@ -2163,7 +2171,9 @@ country = {
 			}
 
 			own_control_core = 	{
-				772 761 762 770 774 776 777 778 781 782 799 816 8011 #apamene_region
+				772 761 762 774 777 778 781 782 799 8011 #apamene_region
+				#GotN New
+				10122 10123 10121 10124 10125 
 			}
 			historical_regnal_numbers = {
 				Taita = 2
@@ -2181,10 +2191,10 @@ country = {
 		BMB = {
 			family = 59
 			government = oligarchic_republic
-			primary_culture = syriac
+			primary_culture = nahric
 			religion = hurrian_pantheon
 
-			capital = 807
+			capital = 817
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -2194,9 +2204,9 @@ country = {
 			}
 
 			own_control_core = 	{
-				807 810 804 805 808
+				804
 				817 818 819 820 848 849 854 853 879 #osroene_region
-				9595 9596 9581 9586 9585 9590 9591 9592 847 9582 9584
+				9581 9586 9585 9590 9591 9592 847 9582 9584 10108 10107
 			}
 
 			pantheon = {
@@ -2243,7 +2253,7 @@ country = {
 			capital = 743
 
 			own_control_core = {
-				743 744 745
+				743 
 			}
 
 			pantheon = {
@@ -2308,6 +2318,13 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
+			pantheon = {
+				{ deity = 404 } # El
+				{ deity = 2271 } # Tadmish
+				{ deity = 30304 } # Ba'alsemed
+				{ deity = 403 } # 'Ashtart
+			}
+
 			capital = 786
 
 			own_control_core = {
@@ -2333,7 +2350,7 @@ country = {
 			capital = 670
 
 			own_control_core = {
-				670 666
+				670d
 			}
 		}
 		DOR = {
@@ -2351,7 +2368,7 @@ country = {
 			capital = 667
 
 			own_control_core = {
-				667 668
+				667 666
 			}
 		}
 		KIT = {
@@ -2388,7 +2405,7 @@ country = {
 			capital = 769
 
 			own_control_core = {
-				769 767 771
+				769 767 771 10081
 			}
 		}
 		AKH = {
@@ -2426,7 +2443,7 @@ country = {
 			capital = 748
 
 			own_control_core = {
-				748
+				748 10078
 			}
 		}
 		SID = { #Sidon
@@ -2705,7 +2722,8 @@ country = {
 				393 400 405 408 411 412 3125 3175 3356 #Upper Macedonia
 				356 363 364 365 366 #Chalkidiki
 				6399 # Pydna
-				497 4302 414
+				497 4302 414 
+				349 
 			}
 
 		}
@@ -2956,7 +2974,7 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			own_control_core =  {
-				362 357
+				362 357 1774
 			}
 		}
 
@@ -10484,7 +10502,7 @@ country = {
 			capital = 253 
 		
 			own_control_core = 	{
-				253 251 254 10244 262 10196 268 10197 264 10198 10202 260 267 10199
+				253 251 254 10244 268 10197 264 10198 10202 10199
 			} 
 		
 		}
@@ -10660,7 +10678,7 @@ country = {
 				}
 
 			own_control_core = 	{
-				257 261 258 10243
+				257 261 258 10243 260 267 10196 268 262
 			}
 
 			#treasures = { 97 106 200 217 }
@@ -14438,7 +14456,7 @@ country = {
 			capital = 270
 
 			own_control_core = 	{
-				270
+				270 297 
 			}
 		}
 
@@ -14457,7 +14475,7 @@ country = {
 			}
 
 			own_control_core = {
-				1901 1897
+				1901 1897 10208 10209 7763
 			}
 		}
 
