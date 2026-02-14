@@ -246,7 +246,7 @@
 	}
 }
 
-666={ #Shiqmona
+666={ #Shiqmonot
 	terrain="plains"
 	culture="phoenician"
 	religion="carthaginian_pantheon"
@@ -293,7 +293,7 @@
 668={ #'Atalit
 	terrain="plains"
 	culture="hebrew"
-	religion="carthaginian_pantheon"
+	religion="judaism"
 	trade_goods="vegetables"
 	civilization_value=26
 	barbarian_power=0
@@ -467,7 +467,7 @@
 678={ #Narbata
 	terrain="plains"
 	culture="hebrew"
-	religion="carthaginian_pantheon"
+	religion="judaism"
 	trade_goods="vegetables"
 	civilization_value=25
 	barbarian_power=0
@@ -1331,7 +1331,7 @@
 	}
 }
 
-722={ #Gazara
+722={ #Gadara
 	terrain="plains"
 	culture="hebrew"
 	religion="arabian_pantheon"
@@ -1350,7 +1350,7 @@
 	}
 }
 
-723={ #Sussita
+723={ #Hippos
 	terrain="plains"
 	culture="hebrew"
 	religion="arabian_pantheon"
@@ -1461,7 +1461,7 @@
 731={ #Bet Shor
 	terrain="hills"
 	culture="ammonite"
-	religion="arabian_pantheon"
+	religion="judaism"
 	trade_goods="earthware"
 	civilization_value=22
 	barbarian_power=0
@@ -1774,7 +1774,7 @@
 10048={ #PROV10048
 	terrain="plains"
 	culture="hebrew"
-	religion="arabian_pantheon"
+	religion="judaism"
 	trade_goods="wild_game"
 	civilization_value=28
 	barbarian_power=0
@@ -1790,7 +1790,7 @@
 10049={ #PROV10049
 	terrain="plains"
 	culture="ammonite"
-	religion="arabian_pantheon"
+	religion="judaism"
 	trade_goods="cattle"
 	civilization_value=28
 	barbarian_power=0
@@ -1806,7 +1806,7 @@
 10050={ #PROV10050
 	terrain="hills"
 	culture="hebrew"
-	religion="arabian_pantheon"
+	religion="judaism"
 	trade_goods="wild_game"
 	civilization_value=28
 	barbarian_power=0

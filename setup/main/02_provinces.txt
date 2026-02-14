@@ -2188,6 +2188,11 @@ provinces = { #Any entry must contain a comment with city name.
 		modifier = { modifier = median_wall always = yes }
 	}
 
+	988 = { #Tushpa
+		modifier = { modifier = van_citadel always = yes }
+	}
+
+
 	########################################
 	# Barbarian Spawn Spots
 	########################################

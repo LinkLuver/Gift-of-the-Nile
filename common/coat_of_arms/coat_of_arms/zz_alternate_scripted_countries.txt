@@ -1382,7 +1382,7 @@ ARS = {
 
 SPH = {
     pattern = "pattern_solid.tga"
-	color1 = light_blue
+	color1 = rgb { 116 50 88 }
 	color2 = red_nougat
 
 	colored_emblem = {

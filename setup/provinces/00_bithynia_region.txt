@@ -1152,7 +1152,7 @@
 	}
 }
 
-1815={ #Abonoteichos
+1815={ #Abonouteichos
 	terrain="mountain"
 	culture="dumarian"
 	religion="druidism"
@@ -1619,7 +1619,7 @@
 10304={ #PROV10304
 	terrain="hills"
 	culture="bithynian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods="cattle"
 	civilization_value=26
 	barbarian_power=0

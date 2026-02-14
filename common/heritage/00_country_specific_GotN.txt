@@ -5689,11 +5689,11 @@ akarnania_heritage = {
 patrai_heritage = {
     modifier = {
         #good
-        global_monthly_food_modifier = 0.15
-        global_monthly_civilization = 0.03
+        global_population_capacity_modifier = 0.05
+        global_nobles_output = 0.05
        
         #bad
-        global_nobles_output = -0.05
+        global_monthly_state_loyalty = -0.03
     }
    
     trigger = {

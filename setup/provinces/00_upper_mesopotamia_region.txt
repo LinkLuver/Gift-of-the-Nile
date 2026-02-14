@@ -996,7 +996,7 @@
 878={ #Arsinia
 	terrain="plains"
 	culture="hurrian"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="dates"
 	civilization_value=31
 	barbarian_power=0
@@ -1148,7 +1148,7 @@
 8000={ #
 	terrain="farmland"
 	culture="sophene"
-	religion="hatti_religion"
+	religion="anatolian_religion"
 	trade_goods="marble"
 	civilization_value=18
 	barbarian_power=0
@@ -1167,7 +1167,7 @@
 8007={ #Halouras
 	terrain="forest"
 	culture="sophene"
-	religion="anatolian_religion"
+	religion="anahitic_religion"
 	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0

@@ -136,7 +136,7 @@
 	}
 }
 
-833={ #Pnaha
+833={ #Pinaka
 	terrain="mountain"
 	culture="cardukoi"
 	religion="hurrian_pantheon"
@@ -164,7 +164,7 @@
 	}
 }
 
-834={ #Sthalih
+834={ #Satalka
 	terrain="mountain"
 	culture="cardukoi"
 	religion="hurrian_pantheon"
@@ -328,7 +328,7 @@
 	}
 }
 
-864={ #Dur Sharhin
+864={ #Alqosh
 	terrain="plains"
 	culture="qardu"
 	religion="ashur_religion"
@@ -893,7 +893,12 @@
 		amount=3
 	}
 	freemen={
-		amount=10
+		amount=7
+	}
+	freemen={
+		culture="carian"
+		religion="roman_pantheon"
+		amount=3
 	}
 	slaves={
 		amount=15

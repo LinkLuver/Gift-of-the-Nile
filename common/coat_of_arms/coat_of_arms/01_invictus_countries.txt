@@ -2301,24 +2301,24 @@ PTA = {#Patrai
 	color1 = rgb { 145 29 62 }
 	color2 = rgb { 68 179 174 }
 	colored_emblem = {
-		texture = "ce_wreath_03.dds"
-		color1 = rgb { 68 179 174 }
-		color2 = rgb { 68 179 174 }
+		texture = "ce_haldi_02.dds"
+		color1 = "silver"
+		color2 = "silver"
+		instance = { scale = { 0.80 0.80 } position = { 0.50 0.50 } }
 	}
 	colored_emblem = {
-		texture = "ce_trident_03.dds"
-		color1 = "pure_white"
-		instance = { position = { 0.5 0.55 } scale = { 0.85 0.95 }  }		
+		texture = "ce_11_2.dds"
+		color1 = "roman_gold"
+		color2 = "roman_gold"
+		instance = { scale = { 0.80 0.80 } position = { 0.15 0.50 } }
+		instance = { rotation = 180 scale = { 0.80 0.80 } position = { 0.85 0.50 } }
 	}
 	colored_emblem = {
-		texture = "ce_letter_pi.dds"
-		color1 = "pure_white"
-		instance = { position = { 0.35 0.65 } scale = { 0.2 0.225 }  }
-	}
-	colored_emblem = {
-		texture = "ce_letter_alpha.dds"
-		color1 = "pure_white"
-		instance = { position = { 0.65 0.65 } scale = { 0.225 0.225 }  }
+		texture = "ce_border_rug_01.tga"
+		color1 = rgb { 145 29 62 }
+		color2 = "pure_white"
+		instance = { rotation = 180 }
+		instance = { }
 	}
 }
 

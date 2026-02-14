@@ -1328,9 +1328,9 @@ country = {
 				1595 4963 4964 4981 4982 4980 4979 3391 4976 4974 3392 4975 #ecbatana
 				3442 3443 6509 3433 3398 4973 6510 3432 3397 4972 #aspadana
 				997 1502 1503 1504 #North of Lake Urmia
-				987 988 989 991 995 996 998 999 1560 1561 9531 9530 9549 9550 #vaspurakan_region
+				996 999 1560 1561 9531 9530 #vaspurakan_region
 				1500 1527 1528 1529 1530 1531 1532 1559 #parsatunik_region
-				978 990 993 994 1562 1563 1564 1566 1567 1736 483 4037#tarawn_region
+				990 1562 1563 1564 1566 1567 1736 #tarawn_region
 				
 				9598 9599 9600 9601 9602 9603 9604 9605 9606 9607 9608 
 				9609 9610 9611 9612 9613 9614 9615 9616 9617 9618 9619 
@@ -1765,7 +1765,7 @@ country = {
 		AT2 = { # Carduchia
 			government = tribal_kingdom
 			primary_culture = cardukoi
-			religion = armenian_religion
+			religion = hurrian_pantheon
 
 
 			capital = 9553
@@ -1881,7 +1881,7 @@ country = {
 		AM2 = { # Halman
 			government = oligarchic_republic
 			primary_culture = lullu
-			religion = ashur_religion
+			religion = mesopotamian_religion
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -9725,26 +9725,24 @@ country = {
 
 		}
 
-		#PTA = { #Patrai and most of the founding members of the future Achaian League
-		#	government = oligarchic_republic
-		#	primary_culture = achaean
-		#	religion = roman_pantheon
-#
-#			technology={
-#				military_tech={ level=2 progress=0 }
-#				civic_tech={ level=2 progress=0 }
-#				oratory_tech={ level=2 progress=0 }
-#				religious_tech= { level=2 progress=0  }
-#			}
-#
-#			capital = 434
-#
-#			own_control_core = 	{
-#				434
-#			}
-#
-#			treasures = { 59 }
-#		}
+		PTA = { #Tushpa
+			government = aristocratic_republic
+			primary_culture = urtaian
+			religion = armenian_religion
+			
+		technology={
+			military_tech={ level=2 progress=0 }
+			civic_tech={ level=2 progress=0 }
+			oratory_tech={ level=2 progress=0 }
+			religious_tech= { level=2 progress=0  }
+		}
+
+		capital = 988
+
+		own_control_core = 	{
+			988 995 10346 987 9550 989 9549 978 998
+		}
+	}
 
 		#DYM = {
 		#	government = oligarchic_republic
@@ -16535,7 +16533,7 @@ country = {
 			government = stratocratic_monarchy
 			primary_culture = matienian
 			religion = mithra_religion
-			capital = 1515
+			capital = 1554
 
 			technology={
 				military_tech={ level=1 progress=0 }

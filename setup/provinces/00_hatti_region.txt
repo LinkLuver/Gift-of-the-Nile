@@ -1451,7 +1451,7 @@
 9594={ #Urimma
 	terrain="farmland"
 	culture="hittite"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
@@ -1473,7 +1473,7 @@
 9595={ #Caeciliana
 	terrain="plains"
 	culture="nahric"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -1495,7 +1495,7 @@
 9596={ #Ariseria
 	terrain="plains"
 	culture="hittite"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
@@ -1517,7 +1517,7 @@
 9597={ #Gerbedisso
 	terrain="farmland"
 	culture="hittite"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="cedar"
 	civilization_value=29
 	barbarian_power=0
@@ -1539,7 +1539,7 @@
 10086={ #PROV10086
 	terrain="plains"
 	culture="hittite"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="cedar"
 	civilization_value=29
 	barbarian_power=0
@@ -1561,7 +1561,7 @@
 10101={ #PROV10101
 	terrain="hills"
 	culture="hittite"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="grain"
 	civilization_value=29
 	barbarian_power=0
@@ -1583,7 +1583,7 @@
 10110={ #PROV10110
 	terrain="plains"
 	culture="nahric"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -1605,7 +1605,7 @@
 10128={ #PROV10128
 	terrain="hills"
 	culture="hittite"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="stone"
 	civilization_value=29
 	barbarian_power=0
@@ -1627,7 +1627,7 @@
 10129={ #PROV10129
 	terrain="hills"
 	culture="hittite"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=29
 	barbarian_power=0
@@ -1649,7 +1649,7 @@
 10130={ #PROV10130
 	terrain="hills"
 	culture="hittite"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=29
 	barbarian_power=0
@@ -2587,7 +2587,7 @@
 10177={ #PROV10177
 	terrain="plains"
 	culture="nahric"
-	religion="mesopotamian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0

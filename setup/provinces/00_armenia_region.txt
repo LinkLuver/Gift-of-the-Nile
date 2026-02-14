@@ -14,10 +14,10 @@
 	}
 }
 
-978={ #Tatwan
+978={ #Tatyene
 	terrain="hills"
 	culture="urtaian"
-	religion="anahitic_religion"
+	religion="armenian_religion"
 	trade_goods="fish"
 	civilization_value=18
 	barbarian_power=0
@@ -38,7 +38,7 @@
 987={ #Zoaranda
 	terrain="mountain"
 	culture="urtaian"
-	religion="anahitic_religion"
+	religion="armenian_religion"
 	trade_goods="grain"
 	civilization_value=18
 	barbarian_power=0
@@ -61,37 +61,41 @@
 988={ #Thospia
 	terrain="farmland"
 	culture="urtaian"
-	religion="anahitic_religion"
+	religion="armenian_religion"
 	trade_goods="horses"
-	civilization_value=18
+	civilization_value=23
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="urtaian"
-		religion="armenian_religion"
+	province_rank="city"
+	nobles={
 		amount=1
+	}
+	citizen={
+		amount=2
+	}
+	citizen={
+		culture="median"
+		religion="zoroaster"
 	}
 	freemen={
 		religion="mithra_religion"
 		amount=1
 	}
 	freemen={
-		culture="urtaian"
-		religion="armenian_religion"
+		religion="anahitic_religion"
 		amount=2
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
-		amount=1
+		amount=3
 	}
 }
 
-989={ #Bulak
+989={ #Nymphaeum
 	terrain="mountain"
 	culture="urtaian"
-	religion="anahitic_religion"
+	religion="armenian_religion"
 	trade_goods="stone"
 	civilization_value=18
 	barbarian_power=0
@@ -111,7 +115,7 @@
 990={ #Archesh
 	terrain="farmland"
 	culture="urtaian"
-	religion="anahitic_religion"
+	religion="armenian_religion"
 	trade_goods="vegetables"
 	civilization_value=20
 	barbarian_power=0
@@ -133,7 +137,7 @@
 991={ #Arest
 	terrain="forest"
 	culture="urtaian"
-	religion="anahitic_religion"
+	religion="armenian_religion"
 	trade_goods="honey"
 	civilization_value=18
 	barbarian_power=0
@@ -150,10 +154,10 @@
 	}
 }
 
-993={ #Khalat
+993={ #Calata
 	terrain="plains"
 	culture="urtaian"
-	religion="anahitic_religion"
+	religion="armenian_religion"
 	trade_goods="vegetables"
 	civilization_value=20
 	barbarian_power=0
@@ -176,7 +180,7 @@
 994={ #Ashtishat
 	terrain="plains"
 	culture="urtaian"
-	religion="anahitic_religion"
+	religion="armenian_religion"
 	trade_goods="wood"
 	civilization_value=20
 	barbarian_power=0
@@ -194,7 +198,7 @@
 995={ #Molchia
 	terrain="forest"
 	culture="urtaian"
-	religion="anahitic_religion"
+	religion="armenian_religion"
 	trade_goods="fish"
 	civilization_value=18
 	barbarian_power=0
@@ -254,7 +258,7 @@
 998={ #Artemita Vaspurakan
 	terrain="plains"
 	culture="urtaian"
-	religion="anahitic_religion"
+	religion="armenian_religion"
 	trade_goods="vegetables"
 	civilization_value=18
 	barbarian_power=0
@@ -2140,7 +2144,7 @@
 4037={ #Kitharizon
 	terrain="plains"
 	culture="urtaian"
-	religion="anahitic_religion"
+	religion="armenian_religion"
 	trade_goods="wood"
 	civilization_value=18
 	barbarian_power=0
@@ -2186,7 +2190,7 @@
 9531={ #Tornawan
 	terrain="hills"
 	culture="arzasha"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=18
 	barbarian_power=0
@@ -2208,7 +2212,7 @@
 9549={ #Ketsan
 	terrain="mountain"
 	culture="cardukoi"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="stone"
 	civilization_value=18
 	barbarian_power=0
@@ -2230,7 +2234,7 @@
 9550={ #Shatagh
 	terrain="marsh"
 	culture="cardukoi"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=18
 	barbarian_power=0
@@ -2252,7 +2256,7 @@
 10325={ #PROV10325
 	terrain="mountain"
 	culture="lesser_armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2296,7 +2300,7 @@
 10327={ #PROV10327
 	terrain="mountain"
 	culture="sophene"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2318,7 +2322,7 @@
 10328={ #PROV10328
 	terrain="mountain"
 	culture="sophene"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2340,7 +2344,7 @@
 10329={ #PROV10329
 	terrain="mountain"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2362,7 +2366,7 @@
 10330={ #PROV10330
 	terrain="farmland"
 	culture="sophene"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2384,7 +2388,7 @@
 10331={ #PROV10331
 	terrain="marsh"
 	culture="lesser_armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2406,7 +2410,7 @@
 10332={ #PROV10332
 	terrain="mountain"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2428,7 +2432,7 @@
 10333={ #PROV10333
 	terrain="forest"
 	culture="sophene"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2450,7 +2454,7 @@
 10334={ #PROV10334
 	terrain="mountain"
 	culture="sophene"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2494,7 +2498,7 @@
 10336={ #PROV10336
 	terrain="mountain"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2538,7 +2542,7 @@
 10338={ #PROV10338
 	terrain="forest"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2560,7 +2564,7 @@
 10339={ #PROV10339
 	terrain="forest"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2582,7 +2586,7 @@
 10340={ #PROV10340
 	terrain="farmland"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2604,7 +2608,7 @@
 10341={ #PROV10341
 	terrain="plains"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2626,7 +2630,7 @@
 10342={ #PROV10342
 	terrain="hills"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2648,7 +2652,7 @@
 10343={ #PROV10343
 	terrain="hills"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2670,7 +2674,7 @@
 10344={ #PROV10344
 	terrain="farmland"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2692,7 +2696,7 @@
 10345={ #PROV10345
 	terrain="farmland"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2714,7 +2718,7 @@
 10346={ #PROV10346
 	terrain="marsh"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2736,7 +2740,7 @@
 10347={ #PROV10347
 	terrain="hills"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2758,7 +2762,7 @@
 10349={ #PROV10349
 	terrain="mountain"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2780,7 +2784,7 @@
 10350={ #PROV10350
 	terrain="forest"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2802,7 +2806,7 @@
 10351={ #PROV10351
 	terrain="mountain"
 	culture="sophene"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2824,7 +2828,7 @@
 10352={ #PROV10352
 	terrain="mountain"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2846,7 +2850,7 @@
 10353={ #PROV10353
 	terrain="hills"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2868,7 +2872,7 @@
 10354={ #PROV10354
 	terrain="hills"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2890,7 +2894,7 @@
 10355={ #PROV10355
 	terrain="hills"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="armenian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2912,7 +2916,7 @@
 10356={ #PROV10356
 	terrain="forest"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2934,7 +2938,7 @@
 10357={ #PROV10357
 	terrain="hills"
 	culture="lesser_armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2956,7 +2960,7 @@
 10358={ #PROV10358
 	terrain="forest"
 	culture="lesser_armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -2978,7 +2982,7 @@
 10359={ #PROV10359
 	terrain="hills"
 	culture="urtaian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3000,7 +3004,7 @@
 10360={ #PROV10360
 	terrain="mountain"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3022,7 +3026,7 @@
 10361={ #PROV10361
 	terrain="forest"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3044,7 +3048,7 @@
 10362={ #PROV10362
 	terrain="mountain"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3066,7 +3070,7 @@
 10363={ #PROV10363
 	terrain="mountain"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3088,7 +3092,7 @@
 10364={ #PROV10364
 	terrain="mountain"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3110,7 +3114,7 @@
 10365={ #PROV10365
 	terrain="mountain"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3132,7 +3136,7 @@
 10366={ #PROV10366
 	terrain="mountain"
 	culture="lazi"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3154,7 +3158,7 @@
 10367={ #PROV10367
 	terrain="mountain"
 	culture="lazi"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3176,7 +3180,7 @@
 10368={ #PROV10368
 	terrain="farmland"
 	culture="lesser_armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3220,7 +3224,7 @@
 10370={ #PROV10370
 	terrain="mountain"
 	culture="cardukoi"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3242,7 +3246,7 @@
 10371={ #PROV10371
 	terrain="mountain"
 	culture="cardukoi"
-	religion="mesopotamian_religion"
+	religion="roman_pantheon"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3264,7 +3268,7 @@
 10372={ #PROV10372
 	terrain="mountain"
 	culture="colchian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3286,7 +3290,7 @@
 10374={ #PROV10374
 	terrain="mountain"
 	culture="lesser_armenian"
-	religion="mesopotamian_religion"
+	religion="anatolian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3308,7 +3312,7 @@
 10375={ #PROV10375
 	terrain="plains"
 	culture="sasperian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3330,7 +3334,7 @@
 10376={ #PROV10376
 	terrain="plains"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3352,7 +3356,7 @@
 10377={ #PROV10377
 	terrain="forest"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3374,7 +3378,7 @@
 10378={ #PROV10378
 	terrain="mountain"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3396,7 +3400,7 @@
 10379={ #PROV10379
 	terrain="mountain"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3418,7 +3422,7 @@
 10380={ #PROV10380
 	terrain="mountain"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3440,7 +3444,7 @@
 10381={ #PROV10381
 	terrain="mountain"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3462,7 +3466,7 @@
 10382={ #PROV10382
 	terrain="plains"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3484,7 +3488,7 @@
 10383={ #PROV10383
 	terrain="mountain"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3506,7 +3510,7 @@
 10384={ #PROV10384
 	terrain="mountain"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3528,7 +3532,7 @@
 10385={ #PROV10385
 	terrain="mountain"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3550,7 +3554,7 @@
 10386={ #PROV10386
 	terrain="forest"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3572,7 +3576,7 @@
 10387={ #PROV10387
 	terrain="plains"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3594,7 +3598,7 @@
 10388={ #PROV10388
 	terrain="hills"
 	culture="sasperian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3616,7 +3620,7 @@
 10389={ #PROV10389
 	terrain="forest"
 	culture="lazi"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3638,7 +3642,7 @@
 10390={ #PROV10390
 	terrain="plains"
 	culture="lazi"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3660,7 +3664,7 @@
 10391={ #PROV10391
 	terrain="hills"
 	culture="sasperian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3682,7 +3686,7 @@
 10392={ #PROV10392
 	terrain="mountain"
 	culture="ibero"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3704,7 +3708,7 @@
 10393={ #PROV10393
 	terrain="mountain"
 	culture="ibero"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3726,7 +3730,7 @@
 10394={ #PROV10394
 	terrain="plains"
 	culture="ibero"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3748,7 +3752,7 @@
 10395={ #PROV10395
 	terrain="forest"
 	culture="ibero"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3770,7 +3774,7 @@
 10396={ #PROV10396
 	terrain="hills"
 	culture="armenian"
-	religion="mesopotamian_religion"
+	religion="anahitic_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3792,7 +3796,7 @@
 10397={ #PROV10397
 	terrain="mountain"
 	culture="ibero"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3814,7 +3818,7 @@
 10398={ #PROV10398
 	terrain="forest"
 	culture="ibero"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3836,7 +3840,7 @@
 10399={ #PROV10399
 	terrain="mountain"
 	culture="cardukoi"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3858,7 +3862,7 @@
 10400={ #PROV10400
 	terrain="plains"
 	culture="albanian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3880,7 +3884,7 @@
 10401={ #PROV10401
 	terrain="mountain"
 	culture="albanian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3902,7 +3906,7 @@
 10402={ #PROV10402
 	terrain="mountain"
 	culture="albanian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3924,7 +3928,7 @@
 10403={ #PROV10403
 	terrain="plains"
 	culture="albanian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3946,7 +3950,7 @@
 10404={ #PROV10404
 	terrain="hills"
 	culture="albanian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3968,7 +3972,7 @@
 10405={ #PROV10405
 	terrain="marsh"
 	culture="albanian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -3990,7 +3994,7 @@
 10406={ #PROV10406
 	terrain="marsh"
 	culture="albanian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4012,7 +4016,7 @@
 10407={ #PROV10407
 	terrain="marsh"
 	culture="albanian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4034,7 +4038,7 @@
 10408={ #PROV10408
 	terrain="mountain"
 	culture="albanian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4056,7 +4060,7 @@
 10409={ #PROV10409
 	terrain="plains"
 	culture="legian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4078,7 +4082,7 @@
 10410={ #PROV10410
 	terrain="plains"
 	culture="albanian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4100,7 +4104,7 @@
 10411={ #PROV10411
 	terrain="forest"
 	culture="albanian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4122,7 +4126,7 @@
 10412={ #PROV10412
 	terrain="forest"
 	culture="ibero"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4144,7 +4148,7 @@
 10413={ #PROV10413
 	terrain="forest"
 	culture="ibero"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4166,7 +4170,7 @@
 10414={ #PROV10414
 	terrain="mountain"
 	culture="ibero"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4188,7 +4192,7 @@
 10415={ #PROV10415
 	terrain="forest"
 	culture="ibero"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4210,7 +4214,7 @@
 10416={ #PROV10416
 	terrain="mountain"
 	culture="ibero"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4232,7 +4236,7 @@
 10417={ #PROV10417
 	terrain="mountain"
 	culture="ibero"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4254,7 +4258,7 @@
 10418={ #PROV10418
 	terrain="plains"
 	culture="ibero"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4276,7 +4280,7 @@
 10419={ #PROV10419
 	terrain="mountain"
 	culture="sasperian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4298,7 +4302,7 @@
 10420={ #PROV10420
 	terrain="mountain"
 	culture="suani"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4320,7 +4324,7 @@
 10421={ #PROV10421
 	terrain="forest"
 	culture="colchian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4342,7 +4346,7 @@
 10422={ #PROV10422
 	terrain="marsh"
 	culture="greco_pontic"
-	religion="mesopotamian_religion"
+	religion="roman_pantheon"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4364,7 +4368,7 @@
 10423={ #PROV10423
 	terrain="forest"
 	culture="suani"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4386,7 +4390,7 @@
 10424={ #PROV10424
 	terrain="mountain"
 	culture="suani"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4408,7 +4412,7 @@
 10425={ #PROV10425
 	terrain="mountain"
 	culture="suani"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4430,7 +4434,7 @@
 10426={ #PROV10426
 	terrain="mountain"
 	culture="suani"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4452,7 +4456,7 @@
 10427={ #PROV10427
 	terrain="mountain"
 	culture="suani"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4474,7 +4478,7 @@
 10428={ #PROV10428
 	terrain="mountain"
 	culture="suani"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4496,7 +4500,7 @@
 10429={ #PROV10429
 	terrain="mountain"
 	culture="suani"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4518,7 +4522,7 @@
 10430={ #PROV10430
 	terrain="mountain"
 	culture="suani"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4540,7 +4544,7 @@
 10431={ #PROV10431
 	terrain="mountain"
 	culture="suani"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4562,7 +4566,7 @@
 10432={ #PROV10432
 	terrain="mountain"
 	culture="ibero"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4584,7 +4588,7 @@
 10433={ #PROV10433
 	terrain="mountain"
 	culture="ibero"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4606,7 +4610,7 @@
 10434={ #PROV10434
 	terrain="mountain"
 	culture="suani"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4628,7 +4632,7 @@
 10435={ #PROV10435
 	terrain="mountain"
 	culture="suani"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4650,7 +4654,7 @@
 10436={ #PROV10436
 	terrain="mountain"
 	culture="suani"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4672,7 +4676,7 @@
 10437={ #PROV10437
 	terrain="forest"
 	culture="ibero"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -4694,7 +4698,7 @@
 10438={ #PROV10438
 	terrain="marsh"
 	culture="colchian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0

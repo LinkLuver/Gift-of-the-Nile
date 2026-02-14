@@ -61,10 +61,10 @@
 	}
 }
 
-1515={ #Ganzak
+1515={ #Gazaka
 	terrain="farmland"
 	culture="matienian"
-	religion="zoroaster"
+	religion="hurrian_pantheon"
 	trade_goods="wood"
 	civilization_value=24
 	barbarian_power=0
@@ -91,15 +91,16 @@
 	holy_site=omen_thraetona
 }
 
-1516={ #Shah Tepe
+1516={ #Gomarga
 	terrain="marsh"
 	culture="matienian"
-	religion="zoroaster"
+	religion="hurrian_pantheon"
 	trade_goods="horses"
 	civilization_value=21
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		religion="zoroaster"
 		amount=1
 	}
 	freemen={
@@ -276,7 +277,7 @@
 1552={ #Adjalu
 	terrain="hills"
 	culture="matienian"
-	religion="zoroaster"
+	religion="hurrian_pantheon"
 	trade_goods="steppe_horses"
 	civilization_value=19
 	barbarian_power=0
@@ -297,7 +298,7 @@
 1553={ #Dashband
 	terrain="hills"
 	culture="matienian"
-	religion="mithra_religion"
+	religion="hurrian_pantheon"
 	trade_goods="leather"
 	civilization_value=19
 	barbarian_power=0
@@ -314,24 +315,36 @@
 	}
 }
 
-1554={ #Ziwiye
+1554={ #Ziwiyeh
 	terrain="hills"
 	culture="matienian"
-	religion="zoroaster"
+	religion="hurrian_pantheon"
 	trade_goods="horses"
-	civilization_value=19
+	civilization_value=24
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
 		culture="median"
 		religion="mithra_religion"
 		amount=1
 	}
+	citizen={
+		culture="median"
+		religion="zoroaster"
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		religion="zoroaster"
 		amount=1
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -1903,7 +1916,7 @@
 9579={ #Kaghan
 	terrain="plains"
 	culture="cadusian"
-	religion="mesopotamian_religion"
+	religion="caucasian_religion"
 	trade_goods="wild_game"
 	civilization_value=19
 	barbarian_power=0
