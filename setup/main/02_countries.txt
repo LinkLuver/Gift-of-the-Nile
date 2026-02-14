@@ -5076,7 +5076,7 @@ country = {
 			government = plutocratic_republic
 			diplomatic_stance=trading_stance
 			primary_culture = italiotian
-			religion = roman_pantheon
+			religion = isis_religion
 
 			technology={
 				military_tech={ level=2 progress=0 }

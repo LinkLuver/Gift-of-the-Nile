@@ -904,30 +904,34 @@
 56={ #Taras
 	terrain="farmland"
 	culture="italiotian"
-	religion="roman_pantheon"
+	religion="isis_religion"
 	trade_goods="horses"
 	civilization_value=33
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		religion="isis_religion"
 		amount=2
 	}
 	citizen={
 		amount=8
 	}
 	citizen={
-		religion="isis_religion"
+		religion="roman_pantheon"
 		amount=2
 	}
 	freemen={
-		amount=6
+		amount=4
+	}
+	freemen={
+		religion="roman_pantheon"
+		amount=2
 	}
 	freemen={
 		culture="messapian"
 		amount=2
 	}
 	slaves={
+		religion="roman_pantheon"
 		amount=4
 	}
 	slaves={
@@ -946,6 +950,7 @@
 	}
 	tribesmen={
 		culture="messapian"
+		religion="roman_pantheon"
 		amount=2
 	}
 	port_building=1
