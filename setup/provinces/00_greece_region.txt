@@ -1698,7 +1698,7 @@
 471={ #Kythera
 	terrain="hills"
 	culture="peloponnesian"
-	religion="roman_pantheon"
+	religion="isis_religion"
 	trade_goods="pearls"
 	civilization_value=27
 	barbarian_power=0
@@ -1715,8 +1715,8 @@
 		amount=2
 	}
 	citizen={
-		culture="neithic_egyptian"
-		religion="aten_religion"
+		culture="phoenician"
+		religion="carthaginian_pantheon"
 		amount=1
 	}
 	citizen={
@@ -1725,7 +1725,11 @@
 		amount=1
 	}
 	freemen={
-		amount=3
+		amount=1
+	}
+	freemen={
+		religion="roman_pantheon"
+		amount=2
 	}
 	freemen={
 		culture="aegyptos"

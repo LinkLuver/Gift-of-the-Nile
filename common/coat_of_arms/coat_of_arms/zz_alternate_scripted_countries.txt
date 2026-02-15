@@ -1236,22 +1236,16 @@ SMS = {
 	}
 }
 
-#Tieion / Tion
+#LEMNOS
 TIE = {
-	pattern = "pattern_solid.tga"
+	pattern = "pattern_diagonal_split_03.tga"
 	color1 = rgb { 91  127  0 }
-	color2 = rgb { 91  127  0 }
+	color2 = rgb { 99 23 38 }
 	
 	colored_emblem = {
-		texture = "ce_border_greek_02.dds"
-		color1 = "roman_red"
-		color2 = "frost_blue"
-	}
-	
-	colored_emblem = {
-		texture = "ce_eagle_01.dds"
-		color1 = "light_gold"
-		instance = { scale = { 0.75 0.75 } }
+		texture = "ce_lemnos_stele.dds"
+		color1 = "roman_gold"
+		color2 = rgb { 99 23 38 }
 	}
 }
 

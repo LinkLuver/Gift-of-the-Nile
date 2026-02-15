@@ -18,18 +18,18 @@
 			primary_culture = etruscan
 		}
 		trigger_else_if = {
-			limit = { tag = GLP }
+			limit = { primary_culture = lemnian }
 			custom_tooltip = {
 				text = "began_with_tradition_group"
 			}
-			tag = GLP
+			primary_culture = lemnian
 		}
 		trigger_else_if = {
-			limit = { tag = BRL }
+			limit = { primary_culture = dumarian }
 			custom_tooltip = {
 				text = "began_with_tradition_group"
 			}
-			tag = BRL
+			primary_culture = dumarian
 		}
 		trigger_else_if = {
 			limit = {

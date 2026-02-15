@@ -2641,12 +2641,20 @@ HPO = {
 KAR = {
 	pattern="pattern_solid.tga"
 	color1= rgb { 165 120 51 }
-	color2= "offwhite"
+	color2= "achaemenid_mauve"
 
 	colored_emblem = {
         texture = "ce_karkemish_guy.dds"
-        color1 = "silver"
+        color1 = rgb { 165 120 51 }
+		color2 = "achaemenid_mauve"
+		instance = { scale = { 0.90 0.90 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_ancient_egyptian_pattern_01.dds"
+        color1 = "achaemenid_mauve"
 		color2 = "ck2_black"
+		instance = { rotation = 180 }
+		instance = {}
 	}
 }
 

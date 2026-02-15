@@ -10,6 +10,7 @@
 	republican_recruitment_3 = {
 		modifier = {
 			levy_size_multiplier = 0.05
+			global_freemen_happyness = 0.04
 		}
 		on_enact = {
 			custom_tooltip = legions_in_no_region
@@ -19,7 +20,8 @@
 	republican_recruitment_1 = { 
 		modifier = {
 			levy_size_multiplier = 0.025
-			war_exhaustion = -0.04
+			global_cohort_start_experience = 15
+			monthly_political_influence_modifier = 0.10
 		}
 		on_enact = {
 			custom_tooltip = legions_in_no_region
@@ -188,7 +190,7 @@ republic_election_reforms = { # Electoral Reforms
 	}
 	republican_election_1 = {
 		modifier = {
-			stability_cost_modifier = -0.05
+			stability_monthly_change = 0.03
 		}
 	}
 	republican_election_2 = {

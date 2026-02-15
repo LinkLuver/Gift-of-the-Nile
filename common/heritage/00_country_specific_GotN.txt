@@ -2269,17 +2269,17 @@ sesamos_heritage = {
     }
 }
 
-tieion_heritage = {
+lemnos_heritage = {
     modifier = {
         #good
-        monthly_military_experience = 0.05
-        military_tech_investment = 0.075
+        naval_morale_modifier = 0.05
+        mercenary_land_maintenance_cost = -0.15
         #bad
-        build_cost = 0.05
+        happiness_for_wrong_culture_group_modifier = -0.05
     }
 
     trigger = { #make it lemnian later brah
-        always = no 
+        tag = TIE
     }
 }
 

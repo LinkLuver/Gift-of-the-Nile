@@ -25,6 +25,9 @@
 		allow = {
 		}
 		succession = elective_monarchy
+		modifier = {
+			stability_monthly_change = 0.03
+		}
 	}
 	
 	egyption_succession_law = {

@@ -959,6 +959,7 @@ country = {
 			government = aristocratic_monarchy
 			primary_culture = elamite
 			religion = elamite_pantheon
+			succession_law = agnatic_seniority_succession_law
 
 			capital = 946
 
@@ -1625,6 +1626,7 @@ country = {
 			government = aristocratic_monarchy
 			primary_culture = mysian
 			religion = roman_pantheon
+			monarchy_military_laws = relaxed_recruiting_standards
 
 			capital = 278
 
@@ -1648,7 +1650,7 @@ country = {
 			religion = anatolian_religion
 			diplomatic_stance=trading_stance
 			family=2500
-			#monarchy_military_reforms = mercenary_reliance_lydia
+			monarchy_military_reforms_lydia = mercenary_reliance_lydia
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2193,6 +2195,7 @@ country = {
 			government = oligarchic_republic
 			primary_culture = nahric
 			religion = hurrian_pantheon
+			corruption_laws = republic_corruption_3
 
 			capital = 817
 
@@ -9632,8 +9635,8 @@ country = {
 			primary_culture = epirote
 			religion = roman_pantheon
 			diplomatic_stance=warmongering_stance
+			republic_election_epirus_reforms = republican_election_epirus_4
 			capital = 476
-			monarchy_military_reforms = work_for_the_best
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -10229,7 +10232,7 @@ country = {
 		KR1 = {
 			government = oligarchic_republic
 			primary_culture = peloponnesian
-			religion = roman_pantheon
+			religion = isis_religion
 
 			technology={
 				military_tech={ level=2 progress=0 }
