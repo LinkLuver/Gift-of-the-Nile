@@ -388,3 +388,26 @@
 		dna="PrGHt4BdgF37lfuVAnsCewKGAoYCkAKQAncCdwJyAnIDoQOhApkCmQKYApgCjAKMAn4CfgFeAV4CjQKNAnACcAJrAmsCkwKTApUClQOfA58CdQJ1ApECkQKWApYCkAKQAogCiAJ7AnsClAKUApMCkwJ3AncCigKKAnsCewJtAm0CjgKOApQClAKOAo4CjAKMAWMBYwKUApQBYAFgAoYChgKSApICcwJzApkCmQKLAosCpQKVAmcCZwKEAoQCcwJzAoECgQJxAnEBnAFPAmkCaQArAn4CoAKZAoECgQJSAngCiwKLAnwCfAIAAucA6ADoAqMCowDNAM0AbQBtAo8CjwL7AvsAUABQAHYAdgFxAXEAiACIAREBEQB/AH8AEwATAPsA+wCfAJ8AxADEAp0CnQEBAQEA+AD4AqoCqgB/AH8AOAA4AB8AHwFRAVEBAQEBAFMAUwCZAJkCDwFmAA4AKwEiADQBUQFRALkAuQEAAW4IvAy8AH8AfwS6BLoBcAGFAKUAFAnFCWECVAF9AhUAbgAAAAAAAAAAAAAAAA=="
 	}
 }
+"Elysium_TAR"={ #Tarentum
+	country="TAR"
+	632={
+		first_name="Archytas" #My Second Goat
+		family_name="Hestiaeid" #After his father (Hestiaeus)
+		birth_date=319.1.1 # 435 BCE
+		death_date=404.1.1 # 350 BCE (generous estimate)
+		culture = "italiotian"
+		religion="isis_religion"
+		no_stats=yes
+		add_martial=11
+		add_charisma=6
+		add_finesse=5
+		add_zeal=12
+		no_traits=yes
+		add_trait="tactician"
+		add_trait="brave"
+		add_trait="founder"
+		add_trait="scholar"
+		add_trait="polymath"
+		dna = "Fsty46uCq4KrrautAocCfgJ4AngCaAJoAmkCaQJuAm4CkwKTApgCmAKYAoECewJ7ARoCcQOZA5kEuwS7AngCeAKBAoEBTQFNAmsCiAOrA6sCjwKPAU8BTwKZApkCcwJzAnMCcwKUApQCaAJoAVkBWQJyAnICZgJmA6kDqQJ/An8CZgJmArECkwFyABsCZwJnAmoCagKAAoACeAJ4AmgCaAJ3AncCagJqAooCgQKcAnkClQKVAqQCjAKRApECiAJ7Am8CbwKaApUCmAKYAnwCbwKIAmkCfAJ4ArUCbAJfAoYCdAJ0ApQClAQCBAIAVABUAQwBDAF1AXUA4wDjAJQAlAK7AXIAugC6AB0AHQLuAu4DPgM+AvQC9AB/AH8AIgAiAokBUQA7ADsCvAK8AUcBRwF1AXUC3wLfAT0BPQB/AH8AnwCfAAoACgE7ATsCzwLPAUABQAE7AWwBygKqBDsExwEyAO0BNQNoAqQDBgQCBOwIlQaVAH8AfwM6AzoF0QWoADoA0AXpBfgCugLxAlQCugAAAAAAAAAAAAAAAA=="
+	}
+}

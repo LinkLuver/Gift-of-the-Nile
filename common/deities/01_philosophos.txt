@@ -1091,3 +1091,27 @@ deity_homer = {
 		culture_apotheosis_oratory_tech_effect = yes
 	}
 }
+deity_archytas = {
+	trigger = {
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = isis_religion
+			}
+			deity:omen_archytas = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_diadochi_war
+	passive_modifier = { monthly_military_experience_modifier = deity_monthly_military_experience_modifier_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue } #Bonus from Omen
+	religion = isis_religion
+	deity_category = war
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		military_apotheosis_capital_freemen_effect = yes
+	}
+}

@@ -78,6 +78,11 @@
  omen_anaxagoras:0 "Anaxagoras"
  omen_anaxagoras_desc:0 "#Y Pre-Socratic Philosopher#! \nAnaxagoras was a pre-Socratic philosopher who introduced the concept of Nous, the cosmic mind which orders the chaotic world. According to his teaching, all things have existed in some way from the beginning but originally existed in infinitesimally small fragments of themselves, endless in number and inextricably combined throughout the universe, requiring the Nous to bring them out of confusion. He also taught panspermia, the notion that life exists throughout the universe, and claimed that the Sun is a mass of hot metal and that the Earth is a flat disc floating on air."
 
+ deity_archytas:0 "$omen_archytas$"
+ omen_archytas:0 "Archytas"
+ omen_archytas_desc:0 "#Y Pythagorean Philosopher#! \nBorn in Tarentum, Archytas was an extremely influential figure in that city and beyond. He was elected strategos (general) seven years in a row, being an exception to the law of the city forbidding succesive appointments. As strategos, he was undefeated against the Italian tribes, and led Tarentum to new heights as the de-facto leader of the Italiote cities. He was renowned for his virtue and effectiveness as a leader, and it is possible that Plato used Archytas as a model for his 'Philospher-King'. Archytas believed that arithmetic, rather than logic, formed the basis of satisfactory proofs. He is credited with with solving the problem of doubling the cube (the 'Delian' problem), and for developing the most famous argument for the infinite nature of the universe. His influence was so great that Archytas continues to be the example of the model leader in Tarentum and the Italiote city-states."
+ 
+
  ###STOICISM
  deity_zeno:0 "$omen_zeno$"
  omen_zeno:0 "Zenon"
@@ -149,7 +154,7 @@
 
  deity_homer:0 "$omen_homer$"
  omen_homer:0 "Homer"
- omen_homer_desc:0 "#Y Greek Poet#! \nHomer was the revered author of the epic poems, the Iliad and the Odyssey. A large number of other works were sometimes attributed to him, including the Homeric Hymns, the Contest of Homer and Hesiod, several epigrams, the Little Iliad, the Nostoi, the Thebaid, the Cypria, the Epigoni, the comic mini-epic Batrachomyomachia ('The Frog–Mouse War'), the Margites, the Capture of Oechalia, and the Phocais.\n\nMany interpreters, especially the Stoics, who believed that Homeric poems conveyed Stoic doctrines, regarded them as allegories, containing hidden wisdom.Perhaps partially because of the Homeric poems' extensive use in education, many authors believed that Homer's original purpose had been to educate. Homer's wisdom became so widely praised that he began to acquire the image of almost a prototypical philosopher."
+ omen_homer_desc:0 "#Y Greek Poet#! \nHomer was the revered author of the epic poems, the Iliad and the Odyssey. A large number of other works were sometimes attributed to him, including the Homeric Hymns, the Contest of Homer and Hesiod, several epigrams, the Little Iliad, the Nostoi, the Thebaid, the Cypria, the Epigoni, the comic mini-epic Batrachomyomachia ('The Frog-Mouse War'), the Margites, the Capture of Oechalia, and the Phocais.\n\nMany interpreters, especially the Stoics, who believed that Homeric poems conveyed Stoic doctrines, regarded them as allegories, containing hidden wisdom.Perhaps partially because of the Homeric poems' extensive use in education, many authors believed that Homer's original purpose had been to educate. Homer's wisdom became so widely praised that he began to acquire the image of almost a prototypical philosopher."
 
  deity_aeneus:0 "$omen_aeneus$"
  omen_aeneus:0 "Aeneus"

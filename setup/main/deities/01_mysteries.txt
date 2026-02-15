@@ -236,5 +236,12 @@ deity_manager = {
 			key = omen_bellerophon
 			deity = deity_bellerophon
 		}
+		30539 = {
+		    key = omen_archytas
+		    deity = deity_archytas
+		    deify_ruler = 632
+		    deify_ruler_permanent = yes
+		    is_universal_deity = yes
+		}
 	}
 }
