@@ -1,8 +1,9 @@
 ﻿"CLA"={
 	country="CLA"
 	611={
-		first_name="Kleanthes"
-		family = c:CLA.fam:Douketid
+		first_name="Douketios"
+		nickname="NICKNAME_MAKROTHUMOS"
+		family=c:CLA.fam:Douketid
 		birth_date=397.6.23 # 357 BCE
 		culture="syracusan"
 		religion="roman_pantheon"
@@ -12,7 +13,6 @@
 		add_charisma=5
 		add_finesse=5
 		add_zeal=3
-		add_trait="first_born"
 		add_trait="victorious"
 		add_trait="tactician"
 		add_trait="schizophrenic"
@@ -46,7 +46,7 @@
 		dna="Jvgl8px/mIZPT/+JApUClQJoAmgB0QKPAmoCagJ9An0CdwJ3AWABYAJ8AnwDogOiAooCigKMAowANgA2ApMCkwOkA6QCbwJvApMCkwOvA68CewJ7A6ADoAFTAVMCawJrAnwCfAKDAoMDsgOyAm0CbQKBAoECfwJ/AooCigKZApkCjQKNApECkQKWApYCkQKRA58DnwKYApgCcAJwAogCiAKWApYBXQFdAnECcQKIAogCcgJyApACkAKMAowCawJrAoUChQKAAoACgwKDAnsCewJ7AnsCdgJ2AnECcQKZApkCjwKPAoUChQIDAWUAqACoALQAtAEHAQcC5wLnAsICwgCdAJ0ClwKXAHUAdQL9Av0AxwDHAV8BXwB/AH8BSAFIAE8ATwExATECmQKZAIcAhwBhAGEBhwGHAL8AvwB/AH8APgA+AHEAcQKbApsAZQBlANEA0QFvAW8ArACsANcA1wFEASAAWQBZA7IA5QCeAJ4IsQaxAH8AfwIzATMFsgV+AP8AaQnGBcoCFwIXAgUCBQAAAAAAAAAAAAAAAA=="
 	}
 	613={
-		first_name="Kleanthes II" # First born son of Douketios V- a bit of a pompous fellow
+		first_name="Kleanthes" # First born son of Douketios V- a bit of a pompous fellow
 		family = c:CLA.fam:Douketid
 		birth_date=420.1.2
 		father="char:611"
