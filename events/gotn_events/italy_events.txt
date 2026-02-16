@@ -116,7 +116,6 @@ italy_events.2 = {
         c:KSC = {
             trigger_event = {
                 id = italy_events.3
-                days = 1
             }
         }
         ai_chance = {
@@ -169,6 +168,288 @@ italy_events.3 = { # War Declared on Per-Shekelesh
     picture = Event_army_marches
 	left_portrait = c:CLA.current_ruler
     right_portrait = current_ruler
+    fire_only_once = yes
+
+    option = {
+        name = "italy_events_3.a"
+		add_political_influence = 10
+	}
+}
+italy_events.4 = { # Melet Invasion preparations + location
+    
+	trigger = {
+		OR = {
+			tag = INU
+		}
+	}
+    type = country_event
+    title = "italy_events_4_title"
+    desc = "italy_events_4_desc"
+    picture = interesting_histories_punic_ship_city
+	left_portrait = current_ruler
+    right_portrait = c:SY1.current_ruler
+    #left_portrait = c:CAR.current_ruler
+    #right_portrait = c:PAP.current_ruler
+    #right_portrait = c:UGR.current_ruler
+    fire_only_once = yes
+
+    option = { #Invade Syracuse
+        name = "italy_events_4.a"
+        add_treasury = -50
+        #c:SY1 = {
+        #   trigger_event = {
+        #       id = italy_events.5
+        #    }
+        #}
+        trigger_event = {
+            id = italy_events.6
+            days = 60
+        }
+	}
+    #option = { #Invade Carthage ## ADD LATER ##
+    #    name = "italy_events_4.b"
+    #    add_treasury = -75
+	#}
+    #option = { #Invade Cyprus (Paphos)
+    #    name = "italy_events_4.c"
+    #    add_treasury = -100
+    #    add_political_influence = -30
+	#}
+    #option = { #Invade Ugarit (sea peoples 2 )
+    #    name = "italy_events_4.d"
+    #    add_treasury = -100
+    #    add_political_influence = -50
+	#}
+}
+italy_events.5 = { # News of Impending invasion
+    
+	trigger = {
+		OR = {
+			tag = SY1
+		}
+	}
+    type = country_event
+    title = "italy_events_5_title"
+    desc = "italy_events_5_desc"
+    picture = interesting_histories_greek_debate
+	left_portrait = current_ruler
+    right_portrait = c:INU.current_ruler
+    fire_only_once = yes
+
+    option = {
+        name = "italy_events_5.a"
+		add_political_influence = 10
+	}
+}
+italy_events.6 = { # Forces land!
+    
+	trigger = {
+		OR = {
+			tag = INU
+		}
+	}
+    type = country_event
+    title = "italy_events_6_title"
+    desc = "italy_events_6_desc"
+    picture = Event_massive_naval_battle
+    fire_only_once = yes
+
+    option = {
+        name = "italy_events_6.a"
+		p:101 = {
+            set_owned_by = ROOT
+        }
+        c:SY1 = {
+            trigger_event = {
+                id = italy_events.7
+            }
+        }
+	}
+}
+italy_events.7 = { # Syracuse- Melet occupation 
+    
+	trigger = {
+		OR = {
+			tag = SY1
+		}
+	}
+    type = country_event
+    title = "italy_events_7_title"
+    desc = "italy_events_7_desc"
+    picture = interesting_histories_greek_debate
+	left_portrait = current_ruler
+    right_portrait = c:INU.current_ruler
+    fire_only_once = yes
+
+    option = {
+        name = "italy_events_7.a"
+		add_treasury = -50
+        add_political_influence = -50
+        c:INU = {
+            trigger_event = {
+                id = italy_events.8
+            }
+        }
+	}
+    option = {
+        name = "italy_events_7.b"
+		current_ruler = {
+            add_trait = reckless
+        }
+        c:SY1 = {
+            declare_war_with_wargoal = {
+                war_goal = conquer_wargoal
+                province = p:101
+                target = INU
+            }
+        }
+        trigger_event = {
+            id = italy_events.9
+        }
+        hidden_effect = {
+        c:INU = {
+            create_unit = {
+				name = "Band of Melet"
+				location = p:101 # Kamarina
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+                add_subunit = spearmen
+                add_subunit = spearmen
+                add_subunit = spearmen
+                add_subunit = heavy_infantry
+                add_subunit = heavy_infantry
+			}
+        }
+        }
+	}
+}
+italy_events.8 = { # Accept Syracusan Offer?
+    
+	trigger = {
+		OR = {
+			tag = INU
+		}
+	}
+    type = country_event
+    title = "italy_events_8_title"
+    desc = "italy_events_8_desc"
+    picture = Event_army_marches
+	left_portrait = current_ruler
+    right_portrait = c:SY1.current_ruler
+    fire_only_once = yes
+
+    option = {
+        name = "italy_events_8.a"
+        add_treasury = 100
+		c:SY1 = {
+            make_subject = {
+                target = c:INU
+                type = subject_mercenary_city_state
+            }
+            trigger_event = {
+                id = italy_events.10
+            }
+        }
+	}
+    option = {
+    name = "italy_events_8.b"
+        c:INU = {
+            declare_war_with_wargoal = {
+                war_goal = conquer_wargoal
+                province = p:84
+                target = SY1
+            }
+            create_unit = {
+				name = "Band of Melet"
+				location = p:101 # Kamarina
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+                add_subunit = spearmen
+                add_subunit = spearmen
+                add_subunit = spearmen
+                add_subunit = heavy_infantry
+                add_subunit = heavy_infantry
+			}
+        }
+        trigger_event = {
+            id = italy_events.9
+        }
+    }
+}
+italy_events.9 = { # Communication Breakdown
+    
+	trigger = {
+        capital_scope = {
+		    is_in_area = syracuse_area
+            is_in_area = west_sicily_area
+            is_in_area = east_sicily_area
+        }
+	}
+    type = country_event
+    title = "italy_events_9_title"
+    desc = "italy_events_9_desc"
+    picture = Event_attack_on_city_wall_by_sea
+	goto_location = p:101
+    left_portrait = current_ruler
+    left_portrait = c:SYR.current_ruler
+    left_portrait = c:SY1.current_ruler
+    right_portrait = c:CLA.current_ruler
+    right_portrait = c:KSC.current_ruler
+    right_portrait = c:INU.current_ruler
+    fire_only_once = yes
+
+    option = {
+        name = "italy_events_9.a"
+	}
+}
+italy_events.10 = { # Syracuse - Melet accepts subjugation
+    
+	trigger = {
+		OR = {
+			tag = SY1
+		}
+	}
+    type = country_event
+    title = "italy_events_10_title"
+    desc = "italy_events_10_desc"
+    picture = interesting_histories_hellenic_town_man
+	left_portrait = c:INU.current_ruler
+    right_portrait = current_ruler
+    fire_only_once = yes
+
+    option = {
+        name = "italy_events_10.a"
+		current_ruler = {
+            add_popularity = 20
+        }
+        add_party_approval = {
+            party_type = traditionalist_party
+            value = 10
+        }
+        add_party_approval = {
+            party_type = democratic_party
+            value = 5
+        }
+        add_party_approval = {
+            party_type = oligarchic_party
+            value = 10
+        }
+	}
+}
+italy_events.11 = { # 
+    
+	trigger = {
+		OR = {
+			tag = KSC
+		}
+	}
+    type = country_event
+    title = "italy_events_3_title"
+    desc = "italy_events_3_desc"
+    picture = Event_army_marches
+	left_portrait = c:CLA.current_ruler
+    right_portrait = current_ruler
+    fire_only_once = yes
 
     option = {
         name = "italy_events_3.a"

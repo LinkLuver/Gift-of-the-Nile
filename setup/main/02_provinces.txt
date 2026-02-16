@@ -2208,6 +2208,12 @@ provinces = { #Any entry must contain a comment with city name.
 		modifier = { modifier = ducetid_palace always = yes }
 	}
 
+	1471 = { #Melet
+		modifier = { modifier = melet_infrastructure always = yes }
+	}
+
+
+
 
 	########################################
 	# Barbarian Spawn Spots
