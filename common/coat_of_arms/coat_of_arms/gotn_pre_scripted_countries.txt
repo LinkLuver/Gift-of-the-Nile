@@ -1255,14 +1255,14 @@ AKH = {
 }
 
 BRL = {
-	pattern = "pattern_solid.tga"
+	pattern = "pattern_horizontal_bar_01.tga"
 	color1 = rgb { 127 157 120 }
 	color2 = "offwhite"
 
 	colored_emblem = {
-		texture = "ce_tyrsenia_sea_people.dds"
-		color1 = rgb { 111 80 36 }
-		instance = { scale { 0.95 0.95 } position = { 0.50 0.50 } } 
+		texture = "ce_spearhead_02.dds"
+		color1 = "light_yellow"
+		instance = { position = { 0.50 0.50 } } 
 	}
 	colored_emblem = {
 		texture = "ce_border_dacian_01.dds"

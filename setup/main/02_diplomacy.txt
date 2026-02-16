@@ -104,15 +104,15 @@ diplomacy = {
 
 	##Greek Leagues
 	#Neo-Dellian League
-	defensive_league = {
-		member = ATH
-		member = KZK
-		member = AST
-		member = CDD
-		member = KRK
-		member = APO
-		member = DEL
-	}
+	#defensive_league = {
+	#	member = ATH
+	#	member = KZK
+	#	member = AST
+	#	member = CDD
+	#	member = KRK
+	#	member = APO
+	#	member = DEL
+	#}
 
 	#Rhodian Leaague
 	defensive_league = {
@@ -409,6 +409,7 @@ diplomacy = {
 
 	#Umbria (GP)
 	alliance = { first = UMB second = PIE }
+	dependency = { first = UMB second = PRU subject_type = feudatory } #Persna
 
 	
 

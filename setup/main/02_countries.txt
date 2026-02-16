@@ -2865,7 +2865,7 @@ country = {
 			capital = 478
 
 			own_control_core = 	{
-				487 486 478 485 4311 484 488 4310 4309 493 491
+				487 486 478 485 4311 484 488 4310 4309 493 491 4313
 			}
 
 		}
@@ -2893,7 +2893,7 @@ country = {
 			capital = 4244
 
 			own_control_core = 	{
-				4258 4247 4307 479 4244 4259 4245 4251 4313 496 4312
+				4258 4247 4307 479 4244 4259 4245 4251 4312 496
 			}
 		}
 		
@@ -2960,7 +2960,7 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			own_control_core =  {
-				350 347 352 
+				350 347 352 348
 			}
 		}
 
@@ -3019,7 +3019,7 @@ country = {
 			}
 
 			own_control_core = {
-				341 345 1453 346
+				341 345 1453 346 342
 			}
 
 		}
@@ -9152,21 +9152,22 @@ country = {
 		}
 
 		BRL = {
-			government = plutocratic_monarchy
+			government = plutocratic_republic
 			primary_culture = dumarian
 			religion = druidism
+			republic_election_reforms = republican_election_2
 
-			capital = 348
+			capital = 343
 
 			own_control_core = 	{
-				348 342 495 4314 343 4154 489 
+			 	495 4314 343
 			}
 		}
 
 		GLP = {
 			government = plutocratic_republic
 			primary_culture = dumarian
-			religion = druidism
+			religion = roman_pantheon
 
 			capital = 1809
 
@@ -10510,25 +10511,25 @@ country = {
 		
 		}
 
-		AST = {
-			government = plutocratic_republic
-			primary_culture = thracian
-			religion = roman_pantheon
-			diplomatic_stance=trading_stance
-			capital = 243 #Astakos
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			own_control_core = 	{
-				243 246
-			}
-
-		}
+		#AST = {
+		#	government = plutocratic_republic
+		#	primary_culture = thracian
+		#	religion = roman_pantheon
+		#	diplomatic_stance=trading_stance
+		#	capital = 243 #Astakos
+		#
+		#	technology={
+		#		military_tech={ level=2 progress=0 }
+		#		civic_tech={ level=2 progress=0 }
+		#		oratory_tech={ level=2 progress=0 }
+		#		religious_tech= { level=2 progress=0  }
+		#	}
+#
+		#	own_control_core = 	{
+		#		243 246
+		#	}
+#
+		#}
 
 		BIT = {
 			family = 44
@@ -10543,12 +10544,12 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
-			capital = 239
+			capital = 243
 
 			own_control_core = 	{
 				234 236 239 241 242 
 				#GotN NEW
-				10301 10304 10303 10302
+				10301 10304 10303 10302 243 246 10305
 			}
 
 		}
@@ -10572,7 +10573,7 @@ country = {
 			capital = 207
 
 			own_control_core = 	{
-				207 238 10305
+				207 238
 			}
 
 		}
@@ -16584,7 +16585,7 @@ country = {
 			capital = 492
 
 			own_control_core = 	{
-				494 492 490 360 353 
+				494 492 490 360 353 489 4154
 			}
 
 		}

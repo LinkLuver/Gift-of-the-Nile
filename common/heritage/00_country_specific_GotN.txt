@@ -8152,9 +8152,9 @@ tylian_heritage = {
     modifier = {
         #good
         army_movement_speed = 0.05
-        global_food_capacity = 300
+        land_unit_attrition = -0.05
         #bad
-        global_monthly_civilization = -0.02
+        global_monthly_civilization = -0.03
     }
    
     trigger = {

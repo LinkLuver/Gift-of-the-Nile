@@ -989,10 +989,15 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
+		religion="roman_pantheon"
 		amount=1
 	}
 	citizen={
-		amount=5
+		amount=3
+	}
+	citizen={
+		religion="roman_pantheon"
+		amount=2
 	}
 	citizen={
 		culture="cappadocian"
@@ -1004,6 +1009,7 @@
 	}
 	freemen={
 		culture="greco_pontic"
+		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
@@ -1025,7 +1031,7 @@
 	}
 	tribesmen={
 		culture="paphlagonian"
-		religion="anatolian_religion"
+		religion="hatti_religion"
 		amount=1
 	}
 	tribesmen={

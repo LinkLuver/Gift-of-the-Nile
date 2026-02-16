@@ -112,27 +112,34 @@
 
 343={ #Aulaiouteichos
 	terrain="farmland"
-	culture="odrysi"
-	religion="roman_pantheon"
+	culture="dumarian"
+	religion="druidism"
 	trade_goods="horses"
-	civilization_value=28
+	civilization_value=29
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
+		culture="odrysi"
 		amount=1
+	}
+	citizen={
+		amount=3
 	}
 	freemen={
-		culture="macedonian"
-		amount=2
+		amount=8
+	}
+	freemen={
+		culture="scythian"
+		religion="indo_iranian_religion"
 	}
 	slaves={
-		culture="scythian"
-		amount=1
+		culture="thracian"
+		amount=3
 	}
 	tribesmen={
-		culture="scythian"
+		culture="odrysi"
 		religion="shamanism"
-		amount=2
+		amount=5
 	}
 }
 
@@ -212,25 +219,21 @@
 
 348={ #Bergoule
 	terrain="forest"
-	culture="dumarian"
-	religion="druidism"
+	culture="odrysi"
+	religion="shamanism"
 	trade_goods="wine"
-	civilization_value=29
+	civilization_value=24
 	barbarian_power=0
-	province_rank="city"
+	province_rank="settlement"
 	citizen={
-		culture="odrysi"
 		amount=1
 	}
-	citizen={
-		amount=3
-	}
 	freemen={
-		amount=10
+		amount=2
 	}
 	slaves={
 		culture="thracian"
-		amount=3
+		amount=2
 	}
 	tribesmen={
 		culture="odrysi"

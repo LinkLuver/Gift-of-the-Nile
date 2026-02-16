@@ -139,7 +139,7 @@
 	terrain="farmland"
 	culture="dardanian"
 	religion="illyrian_pantheon"
-	trade_goods="grain"
+	trade_goods="horses"
 	civilization_value=22
 	barbarian_power=0
 	province_rank="city"
@@ -169,7 +169,7 @@
 	terrain="hills"
 	culture="dardanian"
 	religion="illyrian_pantheon"
-	trade_goods="horses"
+	trade_goods="grain"
 	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"

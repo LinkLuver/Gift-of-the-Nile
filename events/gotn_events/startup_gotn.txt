@@ -404,10 +404,10 @@ gotn_events.12 = { # Languishing Lydia
         name = "gotn_events_12.a"
         if = {
             limit = {
-                tag = LYD
+                tag = PAP
             }
             trigger_event = {
-                id = gotn_events.13
+                id = gotn_events.12
                 days = { 30 60 }
             }
         }
@@ -721,10 +721,16 @@ gotn_events.20 = { # Sicily Event
 
     option = {
         name = "gotn_events_20.a"
-            c:CLA = {
+        c:INU= {
                 trigger_event = {
-                id = italy_events.2
+                id = italy_events.4
                 days = { 10 30 }
+            }
+        }
+            c:CLA = {
+            trigger_event = {
+            id = italy_events.2
+            days = 10
             }
         }
     }

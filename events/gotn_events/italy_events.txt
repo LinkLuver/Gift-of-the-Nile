@@ -195,12 +195,13 @@ italy_events.4 = { # Melet Invasion preparations + location
 
     option = { #Invade Syracuse
         name = "italy_events_4.a"
+        custom_tooltip = "italy_4_tt"
         add_treasury = -50
-        #c:SY1 = {
-        #   trigger_event = {
-        #       id = italy_events.5
-        #    }
-        #}
+        c:SY1 = {
+           trigger_event = {
+               id = italy_events.5
+            }
+        }
         trigger_event = {
             id = italy_events.6
             days = 60
@@ -238,7 +239,8 @@ italy_events.5 = { # News of Impending invasion
 
     option = {
         name = "italy_events_5.a"
-		add_political_influence = 10
+        custom_tooltip = "italy_events_5_tt"
+		add_political_influence = 20
 	}
 }
 italy_events.6 = { # Forces land!
@@ -276,7 +278,7 @@ italy_events.7 = { # Syracuse- Melet occupation
     type = country_event
     title = "italy_events_7_title"
     desc = "italy_events_7_desc"
-    picture = interesting_histories_greek_debate
+    picture = interesting_histories_greek_soldiers
 	left_portrait = current_ruler
     right_portrait = c:INU.current_ruler
     fire_only_once = yes
@@ -341,6 +343,9 @@ italy_events.8 = { # Accept Syracusan Offer?
     option = {
         name = "italy_events_8.a"
         add_treasury = 100
+        p:101 = {
+            set_owned_by = c:SY1
+        }
 		c:SY1 = {
             make_subject = {
                 target = c:INU
@@ -378,25 +383,22 @@ italy_events.8 = { # Accept Syracusan Offer?
 }
 italy_events.9 = { # Communication Breakdown
     
-	trigger = {
+    type = country_event
+    title = "italy_events_9_title"
+    desc = "italy_events_9_desc"
+    picture = Event_attack_on_city_wall_by_sea
+	goto_location = p:101
+    left_portrait = c:SYR.current_ruler
+    right_portrait = c:INU.current_ruler
+    fire_only_once = yes
+
+    trigger = {
         capital_scope = {
 		    is_in_area = syracuse_area
             is_in_area = west_sicily_area
             is_in_area = east_sicily_area
         }
 	}
-    type = country_event
-    title = "italy_events_9_title"
-    desc = "italy_events_9_desc"
-    picture = Event_attack_on_city_wall_by_sea
-	goto_location = p:101
-    left_portrait = current_ruler
-    left_portrait = c:SYR.current_ruler
-    left_portrait = c:SY1.current_ruler
-    right_portrait = c:CLA.current_ruler
-    right_portrait = c:KSC.current_ruler
-    right_portrait = c:INU.current_ruler
-    fire_only_once = yes
 
     option = {
         name = "italy_events_9.a"
@@ -453,6 +455,5 @@ italy_events.11 = { #
 
     option = {
         name = "italy_events_3.a"
-		add_political_influence = 10
 	}
 }
