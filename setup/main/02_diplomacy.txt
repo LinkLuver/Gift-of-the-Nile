@@ -164,6 +164,11 @@ diplomacy = {
 
 	#Epirote League
 	dependency = { first = EPI second = AMK subject_type = feudatory }
+	dependency = { first = EPI second = DLM subject_type = satrapy }
+	dependency = { first = EPI second = LBN subject_type = satrapy }
+	dependency = { first = EPI second = TLN subject_type = tributary }
+	dependency = { first = EPI second = HIS subject_type = tributary }
+	dependency = { first = EPI second = DIT subject_type = tributary }
 
 	#Neo-Boetian Leaague
 	defensive_league = {
@@ -388,14 +393,11 @@ diplomacy = {
 	#alliance = { first = TAR second = APU }
 	dependency = { first = TAR second = HCL subject_type = feudatory }
 	dependency = { first = TAR second = MET subject_type = feudatory }
+	dependency = { first = TAR second = SIO subject_type = feudatory }
+	dependency = { first = TAR second = APU subject_type = tributary }
 
 	#Apulii
 	alliance = { first = APU second = MSP }
-
-	#Lucanii
-	#alliance = { first = LCA second = BRT } #RDD
-	dependency = { first = LCA second = ELE subject_type = tributary }
-	dependency = { first = LCA second = PSD subject_type = tributary }
 
 	#Knossos
 	dependency = { first = KNO second = ELT subject_type = feudatory }

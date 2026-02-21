@@ -2722,7 +2722,7 @@ country = {
 
 			own_control_core = 	{
 				371 373 379 381 382 383 384 385 386 380 428 369 #Macedonia
-				393 400 405 408 411 412 3125 3175 3356 #Upper Macedonia
+				393 400 405 408 411 3125 3175s #Upper Macedonia
 				356 363 364 365 366 #Chalkidiki
 				6399 # Pydna
 				497 4302 414 
@@ -4709,7 +4709,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				66 68 69 58 67
+				66 69 58 
 			}
 
 		}
@@ -4743,7 +4743,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				60 70 71 59 53 47 13
+				60 71 59 53 47 13
 			}
 
 		}
@@ -5020,7 +5020,7 @@ country = {
 			capital = 4019
 
 			own_control_core = 	{
-				4019 4018 4020 4021 4022 4034
+				4019 4018 4021 4022 
 			}
 		}
 
@@ -5076,8 +5076,8 @@ country = {
 		}
 
 		TAR = {
-			government = plutocratic_republic
-			diplomatic_stance=trading_stance
+			government = oligarchic_republic
+			diplomatic_stance=vassal_stance
 			primary_culture = italiotian
 			religion = isis_religion
 
@@ -5093,7 +5093,8 @@ country = {
 			own_control_core = 	{
 				56 63 64 
 				#stolen from Messapia (RIP) 
-				62 65 57
+				62 65 57 
+				67 68 70 
 			}
 
 			treasures = { 43 }
@@ -8853,7 +8854,7 @@ country = {
 			capital = 4033
 
 			own_control_core = 	{
-				4033 4032 4023 4036 4050 4035
+				4033 4036 4050 
 			}
 		}
 
@@ -8865,7 +8866,7 @@ country = {
 			capital = 4053
 
 			own_control_core = 	{
-				4054 4053 4052 4049 4055 4056 4051
+				4054 4053 4052 4049 4055 4056 4051 4034 4035 4032 4023
 			}
 		}
 
@@ -8877,33 +8878,33 @@ country = {
 			capital = 4066
 
 			own_control_core = 	{
-				4066 4063 4067 4081 4062 4064 4059 4060 4058 4057
+				4066 4063 4067 4081 4062 4064 4060 4083 4086 4104 4087 4081
 			}
 		}
 
-		PII = {
-			government = tribal_kingdom
-			primary_culture = greco_illyrian
-			religion = illyrian_pantheon
+		#PII = {
+		#	government = tribal_kingdom
+		#	primary_culture = greco_illyrian
+		#	religion = illyrian_pantheon
+		#
+		#	capital = 4083
+		#
+		#	own_control_core = 	{
+		#		4083 4082
+		#	}
+		#}
 
-			capital = 4083
-
-			own_control_core = 	{
-				4083 4082
-			}
-		}
-
-		DRI = {
-			government = tribal_kingdom
-			primary_culture = greco_illyrian
-			religion = illyrian_pantheon
-
-			capital = 4086
-
-			own_control_core = 	{
-				4086 4087 4104
-			}
-		}
+		#DRI = {
+		#	government = tribal_kingdom
+		#	primary_culture = greco_illyrian
+		#	religion = illyrian_pantheon
+		#
+		#	capital = 4086
+		#
+		#	own_control_core = 	{
+		#		4086 4087 4104
+		#	}
+		#}
 
 		CAA = { #change Galatia
 			government = tribal_kingdom
@@ -8929,27 +8930,27 @@ country = {
 			}
 		}
 
-		ABI = {
-			government = tribal_kingdom
-			primary_culture = taulantian
-			religion = illyrian_pantheon
-
-			capital = 4091
-
-			own_control_core = 	{
-				4089 4102
-			}
-		}
+		#ABI = {
+		#	government = tribal_kingdom
+		#	primary_culture = taulantian
+		#	religion = illyrian_pantheon
+		#
+		#	capital = 4091
+		#
+		#	own_control_core = 	{
+		#		4089 4102
+		#	}
+		#}
 
 		CVI = {
 			government = tribal_kingdom
 			primary_culture = taulantian
 			religion = illyrian_pantheon
-
+		
 			capital = 4092
-
+		
 			own_control_core = 	{
-				4092 1144 4094
+				4092 4094
 			}
 		}
 
@@ -9084,13 +9085,13 @@ country = {
 		TLN = {
 			family = 53
 			government = despotic_monarchy
-			primary_culture = macedonian
-			religion = roman_pantheon
+			primary_culture = taulantian
+			religion = illyrian_pantheon
 
-			capital = 415
+			capital = 1445
 
 			own_control_core = 	{
-				415 455 2264 2213 2336 1445 4090 4091 4088
+				2264 1445 412 3356
 			}
 		}
 
@@ -9658,7 +9659,7 @@ country = {
 			treasures = { 75 85 }
 
 			own_control_core = 	{
-				419 421 425 464 467 474 476 3192
+				419 421 425 464 467 474 476 3192 415 2213 2336 4090 4091 4088 455 4089 1144 4020 4058 4057 4059
 			}
 
 		}
@@ -14332,7 +14333,7 @@ country = {
 			capital = 8026
 
 			own_control_core = 	{
-				4084 8026 8027
+				4084 8026 8027 4060 4062 
 			}
 		}
 
@@ -14351,7 +14352,7 @@ country = {
 			capital = 4085
 
 			own_control_core = 	{
-				4085
+				4085 4082 
 			}
 		}
 
@@ -14370,7 +14371,7 @@ country = {
 			capital = 422
 
 			own_control_core = 	{
-				422
+				422  
 			}
 		}
 

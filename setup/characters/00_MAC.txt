@@ -30,7 +30,7 @@
 		culture="macedonian"
 		religion="roman_pantheon"
 		no_stats=yes
-		add_martial=16
+		add_martial=13
 		add_charisma=16
 		add_finesse=6
 		add_zeal=12
@@ -38,7 +38,7 @@
 		add_trait="brave"
 		add_trait="victorious"
 		add_trait="ambitious"
-		add_trait="rash"
+		add_trait="scholar"
 		add_trait="argeads"
 		save_scope_as = alexander_the_great
 		c:MAC={
