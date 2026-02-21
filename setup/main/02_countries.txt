@@ -4772,7 +4772,7 @@ country = {
 		ANO = {
 			government = plutocratic_republic
 			diplomatic_stance=trading_stance
-			primary_culture = italiotian
+			primary_culture = illyriote
 			religion = roman_pantheon
 			capital = 117
 
@@ -5007,20 +5007,35 @@ country = {
 			capital = 3598
 
 			own_control_core = 	{
-				3598 3599 3600 3603 3604 3602 3605 3606 3607
+				3598 3599 3600 3603 3604 3602 3605
 				3594 3595 3596 3590
 			}
 		}
 
 		HIS = {
-			government = tribal_kingdom
-			primary_culture = histrian
-			religion = italic_pantheon
+			government = despotic_monarchy
+			primary_culture = epirote
+			religion = roman_pantheon
 
-			capital = 4019
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
 
-			own_control_core = 	{
-				4019 4018 4021 4022 
+			poptype_rights = {
+				{
+					culture = histrian
+					type = citizen
+				}
+			}
+
+			capital = 4020
+
+			
+			own_control_core = {
+				4019 4018 4022 3607 4026 4020 4021
 			}
 		}
 
@@ -5034,7 +5049,7 @@ country = {
 			capital = 4025
 
 			own_control_core = 	{
-				4025 4026 4024
+				4025 4024
 			}
 		}
 
@@ -8847,33 +8862,75 @@ country = {
 		#Illyria
 
 		DIT = { #Iapodia
-			government = tribal_kingdom
-			primary_culture = iapodian
-			religion = illyrian_pantheon
+		government = despotic_monarchy
+		primary_culture = epirote
+		religion = roman_pantheon
+		
+		technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
 
-			capital = 4033
+			poptype_rights = {
+				{
+					culture = iapodian
+					type = citizen
+				}
+			}
 
+			capital = 4023
+		
 			own_control_core = 	{
-				4033 4036 4050 
+		 		4023 4034 4032 4033 4050 4036
 			}
 		}
 
 		LBN = {
-			government = tribal_kingdom
-			primary_culture = liburnian_culture
-			religion = illyrian_pantheon
+			government = despotic_monarchy
+			primary_culture = epirote
+			religion = roman_pantheon
 
-			capital = 4053
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			poptype_rights = {
+				{
+					culture = liburnian_culture
+					type = citizen
+				}
+			}
+
+			capital = 4054
 
 			own_control_core = 	{
-				4054 4053 4052 4049 4055 4056 4051 4034 4035 4032 4023
+				4054 4053 4052 4049 4055 4056 4051 4035 
 			}
 		}
 
 		DLM = {
-			government = tribal_kingdom
-			primary_culture = greco_illyrian
-			religion = illyrian_pantheon
+			government = despotic_monarchy
+			primary_culture = epirote
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			poptype_rights = {
+				{
+					culture = greco_illyrian
+					type = citizen
+				}
+			}
 
 			capital = 4066
 
@@ -9659,7 +9716,7 @@ country = {
 			treasures = { 75 85 }
 
 			own_control_core = 	{
-				419 421 425 464 467 474 476 3192 415 2213 2336 4090 4091 4088 455 4089 1144 4020 4058 4057 4059
+				419 421 425 464 467 474 476 3192 415 2213 2336 4090 4091 455 4089 1144 4058 4057 4059
 			}
 
 		}
@@ -14322,7 +14379,7 @@ country = {
 
 		PHA = { # Issa
 			government = oligarchic_republic
-			primary_culture = italiotian
+			primary_culture = illyriote
 			religion = roman_pantheon
 
 			technology={
@@ -14341,7 +14398,7 @@ country = {
 
 		EPM = { # Epidaurum
 			government = oligarchic_republic
-			primary_culture = italiotian
+			primary_culture = illyriote
 			religion = roman_pantheon
 
 			technology={
@@ -14354,13 +14411,13 @@ country = {
 			capital = 4085
 
 			own_control_core = 	{
-				4085 4082 
+				4085 4082 4088
 			}
 		}
 
 		APO = { # Apollonia
 			government = oligarchic_republic
-			primary_culture = italiotian
+			primary_culture = illyriote
 			religion = roman_pantheon
 
 			technology={
@@ -14427,9 +14484,9 @@ country = {
 			}
 		}
 
-		#SMS = { # Sesamos
-		#	government = oligarchic_republic
-		#	primary_culture = greco_pontic
+		#SMS = { # Polai
+		#	government = despotic_monarchy
+		#	primary_culture = illyriote
 		#	religion = roman_pantheon
 		#
 		#	technology={
@@ -14439,12 +14496,17 @@ country = {
 		#		religious_tech= { level=2 progress=0  }
 		#	}
 		#
-		#	capital = 208
+		#	poptype_rights = {
+		#		{
+		#			culture = iapodian
+		#			type = citizen
+		#		}
+		#	}
+		#
+		#	capital = 4020
 		#
 		#	own_control_core = 	{
-		#		208
-		#		#GotN New
-		#		209 10306 10307
+		#		4020 4021 4023 4034 4032 4033 4036 4050 
 		#	}
 		#}
 
@@ -16459,10 +16521,10 @@ country = {
 		}
 		ENT = { #Enetia
 			government = plutocratic_republic
-			primary_culture = italiotian
+			primary_culture = illyriote
 			religion = roman_pantheon
 			diplomatic_stance=trading_stance
-			capital = 143
+			capital = 3606
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -16472,7 +16534,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				143 3601
+				143 3601 3606
 			}
 
 			treasures = { 892 }

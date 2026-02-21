@@ -880,17 +880,17 @@
 
 415={ #Epidamnos
 	terrain="farmland"
-	culture="macedonian"
+	culture="epirote"
 	religion="roman_pantheon"
 	trade_goods="salt"
-	civilization_value=27
+	civilization_value=33
 	barbarian_power=0
 	province_rank="city"
 	nobles={
 		amount=2
 	}
 	citizen={
-		culture="italiotian"
+		culture="illyriote"
 		amount=1
 	}
 	citizen={
@@ -900,7 +900,7 @@
 		amount=2
 	}
 	freemen={
-		culture="italiotian"
+		culture="illyriote"
 		amount=3
 	}
 	slaves={
@@ -930,16 +930,23 @@
 
 422={ #Apollonia Epidamnon
 	terrain="farmland"
-	culture="italiotian"
+	culture="illyriote"
 	religion="roman_pantheon"
 	trade_goods="earthware"
 	civilization_value=33
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
 		amount=2
 	}
 	freemen={
+		amount=3
+	}
+	freemen={
+		culture="epirote"
 		amount=3
 	}
 	slaves={

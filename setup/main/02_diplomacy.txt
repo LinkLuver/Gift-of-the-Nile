@@ -164,11 +164,12 @@ diplomacy = {
 
 	#Epirote League
 	dependency = { first = EPI second = AMK subject_type = feudatory }
-	dependency = { first = EPI second = DLM subject_type = satrapy }
-	dependency = { first = EPI second = LBN subject_type = satrapy }
+	dependency = { first = EPI second = DLM subject_type = epirote_confederate }
+	dependency = { first = EPI second = LBN subject_type = epirote_confederate }
+	dependency = { first = EPI second = DIT subject_type = epirote_confederate }
+	dependency = { first = EPI second = HIS subject_type = epirote_confederate }
 	dependency = { first = EPI second = TLN subject_type = tributary }
-	dependency = { first = EPI second = HIS subject_type = tributary }
-	dependency = { first = EPI second = DIT subject_type = tributary }
+	
 
 	#Neo-Boetian Leaague
 	defensive_league = {
@@ -188,14 +189,10 @@ diplomacy = {
 	dependency = { first = MAC second = PTI subject_type = feudatory }
 	dependency = { first = MAC second = ABD subject_type = feudatory }
 	dependency = { first = MAC second = RDP subject_type = feudatory }
-	dependency = { first = MAC second = TLN subject_type = feudatory }
-	dependency = { first = MAC second = AEN subject_type = subject_league_city_state }
+	dependency = { first = MAC second = AEN subject_type = feudatory }
 	dependency = { first = MAC second = PAA subject_type = vassal_tribe }
 	dependency = { first = MAC second = MAD subject_type = vassal_tribe }
 
-	#Macedonian Alliances
-	alliance = { first = MAC second = TRE }
-	alliance = { first = MAC second = CRD }
 
 	#Massalian League
 	dependency = { first = MAS second = OXB subject_type = feudatory }
@@ -430,9 +427,6 @@ diplomacy = {
 	dependency = { first = GRT second = TRA subject_type = feudatory }
 	alliance = { first = KNO second = PRE }
 
-	#Histria
-	#alliance = { first = ISO second = MLO }
-
 	##Ptolemy & Cassander
 	#alliance = { first = EGY second = MAC }
 	##Seleucus & Cassander
@@ -523,13 +517,6 @@ diplomacy = {
 
 	#Budini
 	dependency = { first = BDI second = GLO subject_type = tributary } #Gelonia
-
-	#Herakleia Pontike and co
-	#defensive_league = {
-	#	member = HCP
-	#	member = SMS
-		#member = TIE
-	#}
 
 	#Mauretania
 	dependency = { first = MAU  second = SOC subject_type = tributary } #Socosia

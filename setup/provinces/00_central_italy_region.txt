@@ -1272,7 +1272,7 @@
 
 117={ #Ankon
 	terrain="farmland"
-	culture="italiotian"
+	culture="illyriote"
 	religion="roman_pantheon"
 	trade_goods="dye"
 	civilization_value=33
@@ -1282,15 +1282,26 @@
 		amount=1
 	}
 	citizen={
-		amount=7
+		amount=5
+	}
+	citizen={
+		culture="italiotian"
+		amount=4
 	}
 	freemen={
 		amount=4
 	}
 	slaves={
-		amount=3
+		amount=1
+	}
+	slaves={
+		culture="sabellian"
+		religion="italic_pantheon"
+		amount=2
 	}
 	tribesmen={
+		culture="umbrian"
+		religion="italic_pantheon"
 		amount=2
 	}
 	port_building=1

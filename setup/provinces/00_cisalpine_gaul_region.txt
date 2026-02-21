@@ -217,7 +217,7 @@
 
 143={ #Broundylon
 	terrain="marsh"
-	culture="italiotian"
+	culture="illyriote"
 	religion="roman_pantheon"
 	trade_goods="salt"
 	civilization_value=24
@@ -2068,16 +2068,16 @@
 	culture="venetic"
 	religion="italic_pantheon"
 	trade_goods="fish"
-	civilization_value=18
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="italiotian"
+		culture="illyriote"
 		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
-		culture="italiotian"
+		culture="illyriote"
 		religion="roman_pantheon"
 		amount=2
 	}
@@ -2194,22 +2194,31 @@
 
 3606={ #Akileia
 	terrain="plains"
-	culture="venetic"
+	culture="illyriote"
 	religion="italic_pantheon"
 	trade_goods="fish"
-	civilization_value=10
+	civilization_value=25
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
 		amount=2
 	}
 	freemen={
+		culture="venetic"
+		religion="italic_pantheon"
 		amount=2
 	}
 	slaves={
+		culture="venetic"
+		religion="italic_pantheon"
 		amount=2
 	}
 	tribesmen={
+		culture="venetic"
+		religion="italic_pantheon"
 		amount=2
 	}
 	tribesmen={

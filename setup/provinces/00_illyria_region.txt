@@ -69,28 +69,35 @@
 
 4020={ #Pola
 	terrain="farmland"
-	culture="histrian"
-	religion="illyrian_pantheon"
+	culture="illyriote"
+	religion="roman_pantheon"
 	trade_goods="wine"
-	civilization_value=12
+	civilization_value=25
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		culture="epirote"
+		amount=1
+	}
 	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="epirote"
 		amount=2
 	}
 	freemen={
-		amount=1
-	}
-	freemen={
-		religion="roman_pantheon"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-	tribesmen={
+		culture="histrian"
 		religion="italic_pantheon"
-		amount=1
+		amount=2
+	}
+	tribesmen={
+		culture="histrian"
+		religion="italic_pantheon"
+		amount=3
 	}
 	holy_site=omen_histria
 	port_building=1
@@ -148,28 +155,45 @@
 
 4023={ #Tarsatica
 	terrain="hills"
-	culture="iapodian"
-	religion="illyrian_pantheon"
+	culture="illyriote"
+	religion="roman_pantheon"
 	trade_goods="cloth"
-	civilization_value=8
+	civilization_value=25
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		culture="epirote"
+		amount=1
+	}
 	citizen={
+		amount=3
+	}
+	citizen={
+		culture="epirote"
 		amount=3
 	}
 	freemen={
 		amount=2
 	}
-	slaves={
-		amount=1
+	freemen={
+		culture="epirote"
+		amount=2
 	}
-	tribesmen={
+	freemen={
+		culture="iapodian"
+		amount=3
+	}
+	slaves={
+		culture="iapodian"
+		religion="illyrian_pantheon"
 		amount=2
 	}
 	tribesmen={
-		religion="italic_pantheon"
-		amount=1
+		culture="iapodian"
+		religion="illyrian_pantheon"
+		amount=3
 	}
+	port_building=1
 }
 
 4032={ #Kyrista
@@ -203,13 +227,15 @@
 	culture="iapodian"
 	religion="illyrian_pantheon"
 	trade_goods="vegetables"
-	civilization_value=8
+	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=1
 	}
 	freemen={
+		culture="illyriote"
+		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
@@ -220,6 +246,7 @@
 		amount=2
 	}
 	slaves={
+		culture="illyriote"
 		religion="roman_pantheon"
 		amount=2
 	}
@@ -234,29 +261,25 @@
 
 4034={ #Crexa
 	terrain="hills"
-	culture="italiotian"
-	religion="roman_pantheon"
+	culture="histrian"
+	religion="italic_pantheon"
 	trade_goods="fish"
-	civilization_value=24
+	civilization_value=12
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=1
 	}
 	freemen={
+		culture="illyriote"
+		religion="roman_pantheon"
+		amount=1
+	}
+	tribesmen={
+		religion="italic_pantheon"
 		amount=2
 	}
-	tribesmen={
-		culture="histrian"
-		amount=1
-	}
-	tribesmen={
-		culture="histrian"
-		religion="italic_pantheon"
-		amount=1
-	}
 	slaves={
-		culture="histrian"
 		religion="illyrian_pantheon"
 		amount=1
 	}
@@ -267,10 +290,12 @@
 	culture="iapodian"
 	religion="illyrian_pantheon"
 	trade_goods="salt"
-	civilization_value=8
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="epirote"
+		religion="roman_pantheon"
 		amount=2
 	}
 	freemen={
@@ -471,11 +496,13 @@
 	culture="liburnian_culture"
 	religion="illyrian_pantheon"
 	trade_goods="olive"
-	civilization_value=8
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		culture="epirote"
+		religion="roman_pantheon"
+		amount=2
 	}
 	tribesmen={
 		amount=1
@@ -534,14 +561,18 @@
 	culture="liburnian_culture"
 	religion="illyrian_pantheon"
 	trade_goods="salt"
-	civilization_value=10
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="epirote"
+		religion="roman_pantheon"
 		amount=2
 	}
 	freemen={
-		amount=1
+		culture="epirote"
+		religion="roman_pantheon"
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -560,14 +591,18 @@
 	culture="liburnian_culture"
 	religion="illyrian_pantheon"
 	trade_goods="fish"
-	civilization_value=12
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="epirote"
+		religion="roman_pantheon"
 		amount=2
 	}
 	freemen={
-		amount=1
+		culture="illyriote"
+		religion="roman_pantheon"
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -580,24 +615,31 @@
 
 4054={ #Idassa
 	terrain="plains"
-	culture="liburnian_culture"
-	religion="illyrian_pantheon"
+	culture="epirote"
+	religion="roman_pantheon"
 	trade_goods="fish"
-	civilization_value=15
+	civilization_value=25
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=2
+	}
 	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
+		culture="greco_illyrian"
 		amount=3
 	}
+	slaves={
+		culture="greco_illyrian"
+		religion="illyrian_pantheon"
+		amount=2
+	}
 	tribesmen={
-		religion="roman_pantheon"
-		amount=1
+		culture="greco_illyrian"
+		religion="illyrian_pantheon"
+		amount=4
 	}
 	port_building=1
 }
@@ -607,14 +649,23 @@
 	culture="liburnian_culture"
 	religion="illyrian_pantheon"
 	trade_goods="leather"
-	civilization_value=8
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="epirote"
+		religion="roman_pantheon"
+		amount=1
+	}
+	citizen={
+		culture="illyriote"
+		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
-		amount=1
+		culture="epirote"
+		religion="roman_pantheon"
+		amount=2
 	}
 	slaves={
 		amount=2
@@ -633,10 +684,17 @@
 	culture="liburnian_culture"
 	religion="illyrian_pantheon"
 	trade_goods="grain"
-	civilization_value=12
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="epirote"
+		religion="roman_pantheon"
+		amount=1
+	}
 	freemen={
+		culture="illyriote"
+		religion="roman_pantheon"
 		amount=2
 	}
 	slaves={
@@ -656,10 +714,22 @@
 	culture="greco_illyrian"
 	religion="illyrian_pantheon"
 	trade_goods="cattle"
-	civilization_value=12
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="epirote"
+		religion="roman_pantheon"
+		amount=1
+	}
 	freemen={
+		culture="epirote"
+		religion="roman_pantheon"
+		amount=1
+	}
+	freemen={
+		culture="illyriote"
+		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
@@ -672,19 +742,37 @@
 
 4058={ #Skardon
 	terrain="plains"
-	culture="greco_illyrian"
-	religion="illyrian_pantheon"
+	culture="epirote"
+	religion="roman_pantheon"
 	trade_goods="hemp"
-	civilization_value=10
+	civilization_value=25
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=2
+	}
 	freemen={
 		amount=2
 	}
-	tribesmen={
+	freemen={
+		culture="illyriote"
+		amount=2
+	}
+	slaves={
+		culture="greco_illyrian"
+		religion="illyrian_pantheon"
 		amount=1
 	}
 	tribesmen={
+		culture="greco_illyrian"
+		religion="illyrian_pantheon"
+		amount=1
+	}
+	tribesmen={
+		culture="greco_illyrian"
 		religion="italic_pantheon"
 		amount=1
 	}
@@ -695,10 +783,17 @@
 	culture="greco_illyrian"
 	religion="illyrian_pantheon"
 	trade_goods="olive"
-	civilization_value=12
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="epirote"
+		religion="roman_pantheon"
+		amount=1
+	}
 	freemen={
+		culture="epirote"
+		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
@@ -715,21 +810,22 @@
 
 4060={ #Tragyrion
 	terrain="farmland"
-	culture="greco_illyrian"
-	religion="illyrian_pantheon"
+	culture="illyriote"
+	religion="roman_pantheon"
 	trade_goods="hemp"
-	civilization_value=12
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		religion="roman_pantheon"
-		amount=1
+		culture="greco_illyrian"
+		religion="illyrian_pantheon"
+		amount=3
 	}
 	port_building=1
 }
@@ -752,25 +848,28 @@
 
 4062={ #Salona
 	terrain="hills"
-	culture="greco_illyrian"
-	religion="illyrian_pantheon"
+	culture="illyriote"
+	religion="roman_pantheon"
 	trade_goods="marble"
-	civilization_value=8
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=1
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=1
 	}
 	tribesmen={
+		culture="greco_illyrian"
+		religion="illyrian_pantheon"
 		amount=2
 	}
 	tribesmen={
+		culture="greco_illyrian"
 		religion="italic_pantheon"
 		amount=1
 	}
@@ -781,10 +880,17 @@
 	culture="greco_illyrian"
 	religion="illyrian_pantheon"
 	trade_goods="cattle"
-	civilization_value=8
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="epirote"
+		religion="roman_pantheon"
+		amount=1
+	}
 	freemen={
+		culture="epirote"
+		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
@@ -835,19 +941,30 @@
 
 4066={ #Delminion
 	terrain="forest"
-	culture="greco_illyrian"
-	religion="illyrian_pantheon"
-	trade_goods="cattle"
-	civilization_value=8
+	culture="epirote"
+	religion="roman_pantheon"
+	trade_goods="wood"
+	civilization_value=25
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		culture="greco_illyrian"
+		amount=3
 	}
 	slaves={
-		amount=1
+		culture="greco_illyrian"
+		religion="illyrian_pantheon"
+		amount=2
 	}
 	tribesmen={
+		culture="greco_illyrian"
+		religion="illyrian_pantheon"
 		amount=4
 	}
 	holy_site=omen_tadenus
@@ -1111,25 +1228,32 @@
 
 4081={ #Angeliai
 	terrain="hills"
-	culture="greco_illyrian"
-	religion="illyrian_pantheon"
+	culture="epirote"
+	religion="roman_pantheon"
 	trade_goods="grain"
-	civilization_value=8
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=1
 	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="illyriote"
 		amount=1
 	}
 	slaves={
 		amount=1
 	}
 	tribesmen={
+		culture="greco_illyrian"
+		religion="illyrian_pantheon"
 		amount=3
 	}
 	tribesmen={
+		culture="greco_illyrian"
 		religion="italic_pantheon"
 		amount=1
 	}
@@ -1137,19 +1261,30 @@
 
 4082={ #Narona
 	terrain="farmland"
-	culture="greco_illyrian"
-	religion="illyrian_pantheon"
+	culture="illyriote"
+	religion="roman_pantheon"
 	trade_goods="fish"
-	civilization_value=12
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=3
+	}
+	freemen={
+		culture="epirote"
 		amount=1
 	}
 	slaves={
+		culture="greco_illyrian"
+		religion="illyrian_pantheon"
 		amount=1
 	}
 	tribesmen={
+		culture="greco_illyrian"
+		religion="illyrian_pantheon"
 		amount=2
 	}
 }
@@ -1163,6 +1298,8 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="epirote"
+		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
@@ -1178,17 +1315,21 @@
 
 4084={ #Pharos
 	terrain="hills"
-	culture="italiotian"
+	culture="illyriote"
 	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
 		amount=3
+	}
+	freemen={
+		culture="epirote"
+		amount=2
 	}
 	tribesmen={
 		culture="greco_illyrian"
@@ -1204,7 +1345,7 @@
 
 4085={ #Epidauros Ilyrias
 	terrain="hills"
-	culture="italiotian"
+	culture="illyriote"
 	religion="roman_pantheon"
 	trade_goods="salt"
 	civilization_value=29
@@ -1275,9 +1416,24 @@
 	culture="taulantian"
 	religion="illyrian_pantheon"
 	trade_goods="fish"
-	civilization_value=17
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="illyriote"
+		religion="roman_pantheon"
+		amount=2
+	}
+	freemen={
+		culture="illyriote"
+		religion="roman_pantheon"
+		amount=2
+	}
+	freemen={
+		culture="epirote"
+		religion="roman_pantheon"
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -1308,7 +1464,7 @@
 
 4090={ #Bouthoe
 	terrain="hills"
-	culture="macedonian"
+	culture="illyriote"
 	religion="roman_pantheon"
 	trade_goods="salt"
 	civilization_value=22
@@ -1330,16 +1486,25 @@
 
 4091={ #Askrebion
 	terrain="hills"
-	culture="taulantian"
-	religion="illyrian_pantheon"
+	culture="illyriote"
+	religion="roman_pantheon"
 	trade_goods="wine"
-	civilization_value=17
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		amount=2
+	}
+	freemen={
 		amount=1
 	}
 	freemen={
+		culture="epirote"
+		amount=1
+	}
+	slaves={
+		culture="taulantian"
+		religion="roman_pantheon"
 		amount=1
 	}
 }
@@ -1403,10 +1568,10 @@
 
 8026={ #Issa
 	terrain="hills"
-	culture="italiotian"
+	culture="illyriote"
 	religion="roman_pantheon"
 	trade_goods="wine"
-	civilization_value=29
+	civilization_value=30
 	barbarian_power=0
 	province_rank="city"
 	nobles={
@@ -1417,6 +1582,10 @@
 	}
 	freemen={
 		amount=3
+	}
+	freemen={
+		culture="epirote"
+		amount=2
 	}
 	tribesmen={
 		culture="greco_illyrian"
@@ -1431,16 +1600,20 @@
 
 8027={ #Korkyra Melaina
 	terrain="hills"
-	culture="italiotian"
+	culture="illyriote"
 	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
+		amount=3
+	}
+	freemen={
+		culture="epirote"
 		amount=2
 	}
 	tribesmen={

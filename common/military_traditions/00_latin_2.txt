@@ -32,6 +32,20 @@
 			}
 			tag = SNI
 		}
+		trigger_else_if = {
+			limit = { tag = CLA }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			tag = CLA
+		}
+		trigger_else_if = {
+			limit = { tag = HIS }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			tag = HIS
+		}
 		trigger_else = {
 			custom_tooltip = {
 				text = "tradition_unlock_requirement_cultural_decision"
