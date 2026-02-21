@@ -112,3 +112,7 @@ repurposed_ruins = {
     build_cost = -0.20
     build_time = -0.20
 }
+italic_tribal_wisdom = {
+    global_tribesmen_output = 0.10
+    global_tribesmen_happyness = 0.10
+}

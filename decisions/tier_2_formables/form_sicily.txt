@@ -77,6 +77,7 @@
 			tribal_formable_government_change_effect = yes			
 			hidden_effect = {
 				change_country_tag = SII
+				set_variable = is_sicilian_league
 				if = {
 					limit = { primary_culture = siculian }
 					change_country_adjective = "SICILY_SICULIAN_ADJECTIVE"

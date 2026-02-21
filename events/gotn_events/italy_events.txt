@@ -137,6 +137,10 @@ italy_events.2 = {
         name = "italy_events_2.c"
         custom_tooltip = "palike_sicel_revival_path"
         add_political_influence = 20
+        trigger_event = {
+            id = italy_events.11
+            days = { 10 30 }
+        }
         ai_chance = {
 			modifier = {
 				factor = 20
@@ -438,22 +442,170 @@ italy_events.10 = { # Syracuse - Melet accepts subjugation
         }
 	}
 }
-italy_events.11 = { # 
+italy_events.11 = { # Fate of Palike : Wisdom from the Elders
     
 	trigger = {
 		OR = {
-			tag = KSC
+			tag = CLA
 		}
 	}
     type = country_event
-    title = "italy_events_3_title"
-    desc = "italy_events_3_desc"
-    picture = Event_army_marches
-	left_portrait = c:CLA.current_ruler
-    right_portrait = current_ruler
+    title = "italy_events_11_title"
+    desc = "italy_events_11_desc"
+    picture = latin_tribal_path_2_event
     fire_only_once = yes
 
     option = {
-        name = "italy_events_3.a"
+        name = "italy_events_11.a"
+        add_country_modifier = {
+            name = italic_tribal_wisdom
+            duration = 1825
+        }
+        trigger_event = {
+            id = italy_events.12
+            days = { 10 30 }
+        }
+	}
+}
+italy_events.12 = { # Fate of Palike : Shared Bonds
+    
+	trigger = {
+		OR = {
+			tag = CLA
+		}
+	}
+    type = country_event
+    title = "italy_events_12_title"
+    desc = "italy_events_12_desc"
+    picture = interesting_histories_celt_hills
+    fire_only_once = yes
+
+    option = {
+        name = "italy_events_12.a"
+        add_political_influence = -50
+        c:SCU = {
+            trigger_event = {
+                id = italy_events.13
+            }
+        }
+	}
+}
+italy_events.13 = { # Fate of Palike : Confederation
+    
+	trigger = {
+		OR = {
+			tag = SCU
+		}
+	}
+    type = country_event
+    title = "italy_events_13_title"
+    desc = "italy_events_13_desc"
+    picture = interesting_histories_celt_hills
+    fire_only_once = yes
+
+    option = {
+        name = "italy_events_13.a"
+        add_political_influence = 50
+        c:CLA = {
+            make_subject = {
+                target = c:SCU
+                type = subject_feudatory
+            }
+            trigger_event = {
+                id = italy_events.14
+            }
+        }
+	}
+    option = {
+        name = "italy_events_13.b"
+        current_ruler = {
+            add_trait = proud
+        }
+        trigger_event = {
+            id = italy_events.16
+        }
+	}
+}
+italy_events.14 = { # Fate of Palike : Confederation
+    
+	trigger = {
+		OR = {
+			tag = CLA
+		}
+	}
+    type = country_event
+    title = "italy_events_14_title"
+    desc = "italy_events_14_desc"
+    picture = celtic_diplomacy
+    fire_only_once = yes
+
+    option = {
+        name = "italy_events_14.a"
+        trigger_event = {
+            id = italy_events.15
+            days = { 30 60 }
+        }
+	}
+}
+italy_events.15 = { # Fate of Palike : Sicel Empire Reborn
+    
+	trigger = {
+		OR = {
+			tag = CLA
+		}
+	}
+    type = country_event
+    title = "italy_events_15_title"
+    desc = "italy_events_15_desc"
+    picture = celtic_chiefs
+    fire_only_once = yes
+
+    option = {
+        name = "italy_events_15.a"
+        change_country_name = "SICEL_EMPIRE_NAME"
+        set_primary_culture = siculian
+        set_country_religion = italic_pantheon
+        current_ruler = {
+            set_culture = siculian
+            set_character_religion = italic_pantheon
+            add_trait = conqueror
+        }
+        capital_scope = {
+			capital_formable_medium_effect = yes
+			formable_capital_modifier_normal_effect = yes
+		}
+        hidden_effect = {
+            change_country_tag = SII
+            change_country_color =  "sicily_siculian_color"
+			change_country_flag = SICILY_SICULIAN_FLAG
+            set_variable = is_sicilian_league
+            set_primary_culture_cleanup_effect = yes
+        }
+        custom_tooltip = "form_sicily_claims_tooltip"
+			hidden_effect = {
+				area:east_sicily_area = { formable_area_province_effect = yes }
+				area:west_sicily_area = { formable_area_province_effect = yes }
+				area:syracuse_area = { formable_area_province_effect = yes }
+		}
+		add_2_free_province_investments = yes
+	}
+}
+italy_events.16 = { # Fate of Palike : Confederation
+    
+	trigger = {
+		OR = {
+			tag = CLA
+		}
+	}
+    type = country_event
+    title = "italy_events_16_title"
+    desc = "italy_events_16_desc"
+    picture = interesting_histories_greek_debate
+    fire_only_once = yes
+
+    option = {
+        name = "italy_events_16.a"
+        custom_tooltip = "italy_16_claims_tt"
+        p:90 = { add_claim = root }
 	}
 }

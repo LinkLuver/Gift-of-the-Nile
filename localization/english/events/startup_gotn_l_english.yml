@@ -253,7 +253,7 @@
  italy_events_a_tt:0 "This may cause a #R division#! between the Faliscans and Etruscans."
  italy_events_b_tt:0 "This will #G further#! the unity of our league."
  italy_events_d_tt:0 "This will #R jeopardize#! the unity of our league."
- italy_events_2_title:0 "Strange Visions"
+ italy_events_2_title:0 "Fate of Palike: Strange Visions"
  italy_events_2_desc:0 "This town.... I see it in my dreams.. But what does it mean? The lyre, the burning city, is it possible that this is the future of my realm? All that my ancestors have worked for, gone to waste. I cannot let this come to pass. That man- who is he? Is it possible that he is [GetCharacter('(int32)610').GetName], my legendary ancestor? If he, or the gods are trying to speak to me, what is their meaning? O Zeus, why must you torment me?"
  italy_events_2.a:0 "Per-Shekelesh seeks to crush us- DESTROY THEM!"
  italy_events_2.b:0 "Perhaps there is great truth in the teaching of Pythagoras."
@@ -289,6 +289,8 @@
  italy_events_10_title:0 "Invasion of Sicily: Peace in Our Time"
  italy_events_10_desc:0 "Through the will of the gods or sheer chance, [GetCountry('INU').GetName] has accepted our offer. We have avoided what could have beena disastrous crisis- all thanks to the deft and skillful navigation of the situation by [GetCharacter('(int32)609').GetName]. With that taken care of, we can now shift our eyes elsewhere. Sicily is a rather large place after all."
  italy_events_10.a:0 "Astynikos!"
+ SICEL_EMPIRE_NAME:0 "Sicel Empire"
+ SICEL_EMPIRE_ADJECTIVE:0 "Siculian"
 
 
 
