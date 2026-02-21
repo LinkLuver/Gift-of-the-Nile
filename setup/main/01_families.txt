@@ -828,5 +828,11 @@ family={
 			culture=syrion
 			owner=UGR
 		}
+		2504 = {
+		key="Attalid"
+			prestige=100
+			culture=greco_pontic
+			owner=HCP
+		}
 	}
 }

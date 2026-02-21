@@ -525,11 +525,11 @@ diplomacy = {
 	dependency = { first = BDI second = GLO subject_type = tributary } #Gelonia
 
 	#Herakleia Pontike and co
-	defensive_league = {
-		member = HCP
-		member = SMS
+	#defensive_league = {
+	#	member = HCP
+	#	member = SMS
 		#member = TIE
-	}
+	#}
 
 	#Mauretania
 	dependency = { first = MAU  second = SOC subject_type = tributary } #Socosia

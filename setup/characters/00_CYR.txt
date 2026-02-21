@@ -427,104 +427,12 @@
 		add_popularity=10
 		dna="S3dLd5F0kXTs7OzsA6IDogFkAWQCdAJ0AoECgQKZApkCkQKRAnICcgKBAoECZgJmAnMCcwJ5AnkCZwJnApACkAKUApQCmQKZAncCdwOaA5oCagJqAoICggJzAnMCcwJzAnkCeQTBBMECdQJ1Am0CbQJmAmYCjgKOA60DrQJ3AncCgwKDAnECcQJ4AngCiwKLAm8CbwOdA50CbQJtBLsEuwJrAmsCZwJnAocChwJ0AnQCaAJoApkCmQKCAoICjQKNApYClgOqA6oChwKHAoECgQKNAo0CfgJ+AmwCbAKMAowCdgJ2AnICcgJsAmwC3gLeALwAvAE+AT4BdgF2ATgBOACfAJ8ADwAPAJ8AnwE7ATsDTQNNAM4AzgAAAAAAEwATAVABUAKHAocAyADIAI8AjwFgAWADbQNtAUgBSAAAAAAAYgBiAvkC+QFZAVkAugC6ATsBOwCUAJQC2ALYALsAuwLEAsQDbQNtAPsA+wMwAzALUgtSAAAAAAHTAdMF8AXwAMIAwgXhBeEC/QL9AkMCQwAAAAAAAAAAAAAAAA=="
 	}
-	385={
-		first_name="Philetairos" # Founder of kingdom of Pergamon
-		family_name="Attalid"
-		father="char:67"
-		mother="char:68"
-		birth_date=427.6.10
-		culture="greco_pontic"
-		religion="roman_pantheon"
-		no_stats=yes
-		add_martial=7
-		add_charisma=10
-		add_finesse=7
-		add_zeal=6
-		no_traits=yes
-		add_trait = "attalid"
-		add_trait="ambitious"
-		add_trait="castrated"
-		add_gold=400
-		add_popularity=60
-		give_office=office_master_of_the_guard
-		dna="E+gT6L2EvYTm9Ob0AVUBVQFmAWYCcQJxAoUChQKOAo4CaQJpAogCiAOpA6kCkAKQAm8CbwKAAoACdgJ2AmYCZgJ5AnkClQKVBLQEtATZBNkCmQKZApICkgJzAnMCiAKIAnQCdAJwAnACewJ7AnECcQKYApgCdQJ1AoUChQKHAocCagJqAnECcQJ1AnUCfQJ9A5oDmgJmAmYCeAJ4Ao8CjwKZApkCagJqAo4CjgKOAo4CcAJwAm8CbwJ6AnoCbAJsApgCmAJ2AnYDqQOpBAMEAwJ8AnwCkQKRAmoCagJrAmsCfQJ9ACgAKAKEAoQAJQAlAOoA6gKbApsCzALMAFEAUQCqAKoBTQFNAQcBBwB6AHoAygDKATkBOQAAAAAAsACwArgCuACEAIQAGAAYAu4C7gC5ALkAXQBdAsYCxgAAAAABQwFDAuEC4QDFAMUC7ALsAFcAVwMkAyQAbQBtAz4DPgDrAOsE5QTlACoAKgNoA2gBuwG7AAAAAAKUApQFSgVKAMMAwwUtBS0C9QL1Ag4CDgAAAAAAAAAAAAAAAA=="
-	}
-	386={ 
-		first_name="Eumenes" # Philetairos of Pergamon's brother, father of Eumenes I
-		family_name="Attalid"
-		father="char:67"
-		mother="char:68"
-		birth_date=429.5.7
-		culture="greco_pontic"
-		religion="roman_pantheon"
-		no_stats=yes
-		add_martial=6
-		add_charisma=7
-		add_finesse=7
-		add_zeal=8
-		no_traits=yes
-		add_trait = "attalid"
-	}
-	387={ 
-		first_name="Satrya" # Wife of Eumenes, Philetairos of Pergamon's brother
-		family_name="Poseidonid"
-		birth_date=431.3.12
-		culture="greco_pontic"
-		religion="roman_pantheon"
-		female = yes
-		no_stats=yes
-		add_martial=5
-		add_charisma=6
-		add_finesse=7
-		add_zeal=6
-		marry_character=char:386
-	}
-	389={ 
-		first_name="Eumenes" # Eumenes I, nephew of Philetairos
-		family_name="Attalid"
-		father="char:386"
-		mother="char:387"
-		birth_date=448.5.7
-		culture="greco_pontic"
-		religion="roman_pantheon"
-		no_stats=yes
-		add_martial=3
-		add_charisma=3
-		add_finesse=3
-		add_zeal=3
-		no_traits=yes
-		add_trait = "attalid"
-		add_trait="ambitious"
-		add_trait="chaste"
-		add_gold=200
-		add_popularity=70
-		dna="W1lbWcqIyoj88vzyAn0CfQKPAo8CaAJoApkCmQFdAV0CmAKYAVMBUwJ9An0ClwKXA6YDpgJzAnMChAKEAmkCaQKNAo0CiAKIAnoCegFTAVMClAKUAnACcAJzAnMBbQFtAUwBTAKEAoQCigKKAoYChgOsA6wCjwKPAnYCdgKRApECiAKIAoQChAJ4AngCbAJsAU8BTwJxAnEChwKHAoYChgJpAmkCewJ7ApcClwKHAocChwKHApACkAJxAnECmAKYAm0CbQKAAoACbAJsAmgCaAKSApICdgJ2AnwCfAKLAosCawJrApkCmQCTAJMA6gDqAFoAWgCbAJsAsgCyAM4AzgBTAFMACgAKAPkA+QK7ArsEsgSyAQQBBAAAAAAApgCmAp8CnwFAAUAC+wL7AUMBQwDYANgD+gP6AOwA7AAAAAAC8ALwAWUBZQCBAIEAzADMAXkBeQEyATIATQBNAOoA6gDzAPMDDwMPATEBMQEPAQ8H/gf+AAAAAAATABMFtgW2AGsAawVRBVEC6wLrAtEC0QAAAAAAAAAAAAAAAA=="
-	}
-	390={ 
-		first_name="Attalos" # Youngest brother of Philetairos
-		family_name="Attalid"
-		father="char:67"
-		mother="char:68"
-		birth_date=439.5.7
-		culture="greco_pontic"
-		religion="roman_pantheon"
-		no_stats=yes
-		add_martial=3
-		add_charisma=3
-		add_finesse=3
-		add_zeal=3
-		no_traits=yes
-		add_trait = "attalid"
-		add_trait="lustful"
-		add_gold=200
-	}
 	406={
 		first_name="Archelaos"
 		birth_date=381.2.3
 		culture="macedonian"
 		religion="roman_pantheon"
 	}
-
 	18={
 		first_name="Berenike"
 		family = c:CYR.fam:Magid

@@ -837,7 +837,7 @@ attalid = {
     prominence = 15
     country = {
         technology_investment = 0.05
-        max_research_efficiency = 0.1
+        diplomatic_relations = 1
     }
 }
 
