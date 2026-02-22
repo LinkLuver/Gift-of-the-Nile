@@ -2879,3 +2879,77 @@ CM4 = {
 		instance = { rotation = 180 }
 	}
 }
+
+DLM = { #Dalmatia
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 25 50 75 }
+	color2 = rgb { 255 223 0 }
+
+	colored_emblem = {
+		texture = "ce_gindanes_greek_lotus.dds"
+		color1 = "bone_white"
+	}
+	colored_emblem = {
+		texture = "ce_border_simple_03.dds"
+		color1 = "ck2_blue"
+		color2 = "roman_gold"
+		instance = {}
+		instance = { rotation = 180 }
+	}
+}
+
+DIT = { #Iapodia
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = rgb { 255 223 0 }
+
+	colored_emblem = {
+		texture = "ce_iapodian_horseman.dds"
+		color1 = rgb { 167 72 119 }
+		color2 = "offwhite"
+	}
+	colored_emblem = {
+		texture = "ce_border_simple_03.dds"
+		color1 = rgb { 167 72 119 }
+		color2 = rgb { 25 50 75 }
+		instance = {}
+		instance = { rotation = 180 }
+	}
+}
+
+HIS = { #Istria
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = rgb { 255 223 0 }
+
+	colored_emblem = {
+		texture = "ce_twr2_histri.dds"
+		color1 = "roman_red"
+		color2 = "offwhite"
+		instance = { scale = { 0.90 0.90 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_venetic_3.dds"
+		color1 = "roman_red"
+		color2 = "roman_gold"
+		instance = { rotation = 90 }
+		instance = { rotation = 270  }
+	}
+}
+
+GLP = { #Gallioplis
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 78 141 205 }
+	color2 = rgb { 255 223 0 }
+
+	colored_emblem = {
+		texture = "ce_roundel_frame_wreath_02.dds"
+		color1 = "epirus_yellow"
+		color2 = "roman_red"
+	}
+	colored_emblem = {
+		texture = "ce_hand_04.dds"
+		color1 = "offwhite"
+		color2 = "roman_red"
+	}
+}

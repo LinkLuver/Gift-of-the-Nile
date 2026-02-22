@@ -232,20 +232,6 @@
 		no_traits=yes
 		add_trait="good_natured"
 	}
-	348={
-		first_name="Aeropos"
-		birth_date=424.1.12
-		culture="epirote"
-		religion="roman_pantheon"
-		no_stats=yes
-		add_martial=8
-		add_charisma=7
-		add_finesse=5
-		add_zeal=4
-		no_traits=yes
-		add_trait="brave"
-		add_trait="disciplined"
-	}
 	12={
 		first_name="Alexandros" 
 		nickname="NICKNAME_MEGAS"

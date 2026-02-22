@@ -9223,14 +9223,15 @@ country = {
 		}
 
 		GLP = {
-			government = plutocratic_republic
+			government = democratic_republic
 			primary_culture = dumarian
 			religion = roman_pantheon
+			republic_election_reforms = republican_election_3
 
 			capital = 1809
 
 			own_control_core = 	{
-				1809
+				1809 1808
 			}
 		}
 

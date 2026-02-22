@@ -158,12 +158,12 @@
 	culture="illyriote"
 	religion="roman_pantheon"
 	trade_goods="cloth"
-	civilization_value=25
+	civilization_value=27
 	barbarian_power=0
 	province_rank="city"
 	nobles={
 		culture="epirote"
-		amount=1
+		amount=2
 	}
 	citizen={
 		amount=3
@@ -177,7 +177,7 @@
 	}
 	freemen={
 		culture="epirote"
-		amount=2
+		amount=3
 	}
 	freemen={
 		culture="iapodian"
@@ -201,11 +201,17 @@
 	culture="iapodian"
 	religion="illyrian_pantheon"
 	trade_goods="fish"
-	civilization_value=8
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		culture="illyriote"
+		amount=1
+	}
+	citizen={
+		culture="epirote"
+		religion="roman_pantheon"
+		amount=1
 	}
 	freemen={
 		amount=1
@@ -227,7 +233,7 @@
 	culture="iapodian"
 	religion="illyrian_pantheon"
 	trade_goods="vegetables"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -264,7 +270,7 @@
 	culture="histrian"
 	religion="italic_pantheon"
 	trade_goods="fish"
-	civilization_value=12
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1352,9 +1358,18 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
+		amount=2
+	}
+	citizen={
+		culture="italiotian"
+		religion="isi_religion"
 		amount=1
 	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="taulantian"
 		amount=2
 	}
 	slaves={
@@ -1579,6 +1594,21 @@
 	}
 	citizen={
 		amount=2
+	}
+	citizen={
+		culture="syracusan"
+		religion="platonism"
+		amount=1
+	}
+	citizen={
+		culture="italiotian"
+		religion="isis_religion"
+		amount=1
+	}
+	citizen={
+		culture="achaean"
+		religion="pyrrhonism"
+		amount=1
 	}
 	freemen={
 		amount=3

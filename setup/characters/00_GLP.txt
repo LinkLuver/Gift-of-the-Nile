@@ -1,0 +1,44 @@
+﻿"GLP" = {
+	country = "GLP"
+	641={
+		first_name="Deiotaros"
+		family_name="Sinorios"
+		birth_date=414.10.27
+		culture="dumarian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=8
+		add_charisma=9
+		add_finesse=5
+		add_zeal=1
+		no_traits=yes
+		add_trait="robust"
+		add_trait="prominent"
+		add_trait="jealous"	
+		add_gold=200
+		add_popularity=80
+		c:GLP={
+			set_as_ruler=char:641
+		}
+		dna = "bWhtaIN7g3vyrfKtAngCeAFNAU0CkAKQAo0CjQJvAm8CcAJwAo0CjQJxAnECjAKMAowCjAJ5AnkClAKUAmkCaQJ+An4ChwKHAm4CbgKGAoYCbwJvAoUChQJnAmcBcAFwAowCjAJ8AnwCZgJmApgCmAOxA7ECgQKBA6wDrAKCAoIChAKEAooCigKHAocCkgKSAnUCdQJ5AnkCggKCAmgCaAKGAoYCewJ7ApcClwJ/An8CdgJ2ApcClwJ1AnUCaAJoAoICggKNAo0CjQKNApkCmQKEAoQCewJ7AnQCdAKUApQCaAJoAnwCfAFIAUgAogCiAXcBdwFjAWMBVQFVAKcApwB2AHYAVgBWAOkA6QCYAJgErwSvASUBJQB/AH8A6gDqAEEAQQFvAW8AnACcAKoAqgBQAFADswOzAXYBdgB/AH8BDwEPAtAC0ABOAE4BTQFNAPEA8QMHAwcC0wLTAL4AvgDfAN8ExgTGAGMAYwAMAAwHigeKAH8AfwChAKEFwAhtAHkAQwReBOQCVwaMCeQJ5AAAAAAAAAAAAAAAAA=="
+	}
+	642={
+		first_name="Tlepolemos"
+		family_name="Amisosid"
+		birth_date=420.4.3
+		culture="greco_pontic"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=3
+		add_charisma=6
+		add_finesse=11
+		add_zeal=4
+		no_traits=yes
+		add_trait="midas_touched"
+		add_trait="overbearing"
+		add_trait="coward"
+		add_gold=600
+		add_popularity=30
+		dna = "CfYJ9piFmIXQ29DbAoICggJ6AnoCkAKQApYClgJnAmcDpgOmAo8CjwKEAoQDrQOtApACkAKXApcCigKKAoQChAJ2AnYCdAJ0A5sDmwKJAokCagJqAoICggKAAoACZgJmAnsCewJ+An4CkQKRAn0CfQKXApcCjQKNAm8CbwKHAocCjwKPApMCkwJ/An8CkQKRAmwCbAJxAnECZgJmAnYCdgJ7AnsEzwTPAmcCZwJuAm4CjQKNAnICcgJ5AnkCdAJ0AokCiQKUApQCcQJxAnoCegOtA60BUgFSAnoCegFkAWQCkwKTAn4CfgJkAmQAAwADAQ4BDgFxAXEAUABQAAcABwCJAIkASQBJAUABQAKRApEDOwM7ABgAGAB/AH8AtAC0AGsAawFhAWEA9QD1AQMBAwEdAR0B0wHTAMYAxgB/AH8A4ADgARcBFwByAHIBaAFoAEEAQQA0ADQBFwEXATEBMQKRAIcBJAEkAX4BfgNmA2YE+gb6AH8AfwDgAOAFdgV2ABwAHAWOBSwCXwJfAj8CPwAAAAAAAAAAAAAAAA=="
+	}
+}

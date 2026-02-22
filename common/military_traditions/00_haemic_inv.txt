@@ -38,6 +38,13 @@
 			}
 			tag = LBN
 		}
+		trigger_else_if = {
+			limit = { tag = DIT }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			tag = DIT
+		}
 		trigger_else = {
 			custom_tooltip = {
 				text = "tradition_unlock_requirement_cultural_decision"

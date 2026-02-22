@@ -190,12 +190,13 @@ republic_election_reforms = { # Electoral Reforms
 	}
 	republican_election_1 = {
 		modifier = {
-			stability_monthly_change = 0.03
+			stability_cost_modifier = -0.15
 		}
 	}
 	republican_election_2 = {
 		modifier = {
 			election_term_duration = 5
+			monthly_corruption = 0.01
 		}
 	}
 	republican_election_3 = {
@@ -208,6 +209,8 @@ republic_election_reforms = { # Electoral Reforms
 		}
 		modifier = {
 			election_term_duration = -3
+			stability_monthly_change = 0.03
+			monthly_tyranny = -0.03
 		}
 	}
 	republican_election_4 = {
@@ -218,6 +221,7 @@ republic_election_reforms = { # Electoral Reforms
 		}
 		modifier = {
 			election_term_duration = 45
+			monthly_tyranny = 0.03
 		}
 	}
 }

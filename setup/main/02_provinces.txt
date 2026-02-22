@@ -2212,6 +2212,31 @@ provinces = { #Any entry must contain a comment with city name.
 		modifier = { modifier = melet_infrastructure always = yes }
 	}
 
+	8026 = { #Issa
+		modifier = { modifier = issa_mint always = yes }
+	}
+
+	4020 = { # Polai
+		modifier = { modifier = epirote_garrison always = yes }
+	}
+
+	4054 = { # Idassa
+		modifier = { modifier = epirote_garrison always = yes }
+	}
+
+	4023 = { # Tarsatike
+		modifier = { modifier = epirote_garrison always = yes }
+	}
+
+	4058 = { # Skardon
+		modifier = { modifier = epirote_garrison always = yes }
+	}
+
+	4066 = { # Delminion
+		modifier = { modifier = epirote_garrison always = yes }
+	}
+
+
 
 
 

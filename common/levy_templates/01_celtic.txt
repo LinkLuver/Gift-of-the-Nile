@@ -96,3 +96,15 @@ levy_cantabric = {
 	heavy_cavalry = 0.15
 	heavy_infantry = 0.35
 }
+
+levy_dumarian = {
+	default = no
+
+	default = no
+	light_infantry = 0.2
+	archers = 0.2
+	spearmen = 0.3
+	light_cavalry = 0.15
+	heavy_cavalry = 0.15
+	
+}

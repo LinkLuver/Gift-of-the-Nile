@@ -138,7 +138,7 @@
 		#eravisci = {}
 		galatian = {} #Katosians
 		tylian = { levy_template = levy_thracians }
-		dumarian = {}
+		dumarian = { levy_template = levy_dumarian }
 		aistian = {
 			levy_template = levy_gallic_scythian
 			male_names = {

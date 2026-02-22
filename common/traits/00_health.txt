@@ -322,13 +322,13 @@ gout = {
  #New Traits
  #######################################################	
 
-#robust = {
-#	opposites = {
-#		frail
-#		brain_damaged
-#	}	
-#	type = health
-#	martial = 1
-#	health = 0.2
-#	fertility = 0.1	
-#}
+robust = {
+	opposites = {
+		frail
+		brain_damaged
+	}
+	martial = 1	
+	type = health
+	health = 0.2
+	fertility = 0.1	
+}

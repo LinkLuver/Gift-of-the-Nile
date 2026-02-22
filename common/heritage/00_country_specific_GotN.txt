@@ -8212,14 +8212,13 @@ galiopolis_heritage = {
     modifier = {
         #good
         global_freemen_happyness = 0.05
-        bribe_pi_cost_modifier = -0.10
+        enact_law_cost_modifier = -0.15
         #bad
-        global_slaves_city_desired_pop_ratio = -0.10
+        global_slaves_city_desired_pop_ratio = -0.15
     }
    
     trigger = {
-        tag = GLP
-                    
+        tag = GLP      
     }
 }
 

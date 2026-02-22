@@ -958,10 +958,12 @@
 	culture="cappadocian"
 	religion="anatolian_religion"
 	trade_goods="stone"
-	civilization_value=9
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		culture="dumarian"
+		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
@@ -985,7 +987,7 @@
 	culture="dumarian"
 	religion="druidism"
 	trade_goods="wine"
-	civilization_value=9
+	civilization_value=25
 	barbarian_power=0
 	province_rank="city"
 	nobles={
@@ -1000,7 +1002,8 @@
 		amount=2
 	}
 	citizen={
-		culture="cappadocian"
+		culture="greco_pontic"
+		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
@@ -1010,10 +1013,10 @@
 	freemen={
 		culture="greco_pontic"
 		religion="roman_pantheon"
-		amount=1
+		amount=4
 	}
 	freemen={
-		amount=8
+		amount=4
 	}
 	freemen={
 		culture="dumarian"
@@ -1022,6 +1025,7 @@
 	}
 	slaves={
 		culture="cappadocian"
+		religion="anatolian_religion"
 		amount=1
 	}
 	tribesmen={
