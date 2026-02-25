@@ -1627,7 +1627,6 @@ country = {
 			primary_culture = mysian
 			religion = roman_pantheon
 			monarchy_military_laws = relaxed_recruiting_standards
-
 			capital = 278
 
 			technology={
@@ -1637,6 +1636,8 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
+			family = 2505
+			
 			own_control_core = {
 				278 276 337 
 				#Gotn New
@@ -2805,7 +2806,6 @@ country = {
 				399 #Lamia
 				469 #Thaumakoi
 				401 #Hypate
-				7896 # Nikaia Locriai, Thermopylai.
 			}
 		}
 		TRE = {
@@ -9757,7 +9757,7 @@ country = {
 			capital = 7901
 
 			own_control_core = 	{
-				409 410 7901 7904
+				409 410 7901 7904 277
 			}
 
 			treasures = { 208 209 }
@@ -14230,6 +14230,7 @@ country = {
 
 			own_control_core = {
 				402
+				7896 # Nikaia Locriai, Thermopylai.
 			}
 		}
 

@@ -834,5 +834,11 @@ family={
 			culture=greco_pontic
 			owner=HCP
 		}
+		2505 = {
+		key="Dazomenid"
+			prestige=100
+			culture=mysian
+			owner=PGM
+		}
 	}
 }

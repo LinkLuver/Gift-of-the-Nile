@@ -1,0 +1,82 @@
+"PGM"={
+	country="PGM"
+	652={
+		first_name="Dareios"
+		family = c:PGM.fam:Dazomenid
+		father=char:649
+		mother=char:651
+		birth_date=370.6.20
+		culture="mysian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=7
+		add_charisma=7
+		add_finesse=9
+		add_zeal=8
+		no_traits=yes
+		add_trait="impartial"
+		add_trait="lazy"
+		add_trait="cultured"
+		add_trait="wise"
+		add_trait="pergamid"
+		c:PGM = {
+			set_as_ruler=char:652
+		}
+		dna = "AvsC+6miqaL20fbRAnECcQFdAV0CegJ6AoQChAJ9An0ClgKWAn4CfgKOAo4CmAKYAmsCawJ3AncCjgKOAmYCZgJ4AngASABIAnYCdgJrAmsCkgKSAsQClgKKAnICdgKTAmICfgKDAoMANAA0AUwBTAJuAm4CfQJ9ApICkQKOAo4CkgKSA68DrwFMAUwCfwJ/ApkCmQKYApgCcgJyApYClgKUApQCeAJ4AmcCZwJ9An0CgAKAAV0BXQF1AXUCjgKOAnMCcwJyAnIClQKVAnUCdQKWApYCfQJ9A38DfwKKAooCewJ7AoUChQJbAlsCowKjAG8AbwBkAGQAOAA4AIsAiwAuAC4BmAF1ADUANQB8AHwDkACaADUAcwEAAH8BhQF7APgA+ACxALEAcABwAKwArACcAJwAnQCdAQsBCwB/AH8A7gDuARMBEwD2APYAxwDHAUgBSAKnAqcARwBHAyEDIQFAAUAEkwSTAuAC4ABoAGgJZgJmAH8AfwVUBVQFngWvAP0BSwPrA7oEAQJyAbYBtgAAAAAAAAAAAAAAAA=="
+	}
+	653={
+		first_name="Orsabaris" #Wife of Dareios
+		family = c:PGM.fam:Dazomenid
+		female=yes
+		birth_date=375.8.10
+		marry_character=char:652
+		culture="lydian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=3
+		add_charisma=6
+		add_finesse=6
+		add_zeal=7
+		no_traits=yes
+		add_trait="cancer"
+		add_trait="proud"
+		add_trait="pergamid"
+	}
+	654={
+		first_name="Dazomenos"
+		family = c:PGM.fam:Dazomenid
+		father=char:652
+		mother=char:653
+		birth_date=395.9.24
+		culture="mysian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=8
+		add_charisma=7
+		add_finesse=9
+		add_zeal=8
+		no_traits=yes
+		add_trait="energetic"
+		add_trait="prominent"
+		add_trait="pergamid"
+		dna = "AvsC+6miqaL20fbRAnECcQFdAV0CegJ6AoQChAJ9An0ClgKWAn4CfgKOAo4CmAKYAmsCawJ3AncCjgKOAmYCZgJ4AngASABIAnYCdgJrAmsCkgKSAsQClgKKAnICdgKTAmICfgKDAoMANAA0AUwBTAJuAm4CfQJ9ApICkQKOAo4CkgKSA68DrwFMAUwCfwJ/ApkCmQKYApgCcgJyApYClgKUApQCeAJ4AmcCZwJ9An0CgAKAAV0BXQF1AXUCjgKOAnMCcwJyAnIClQKVAnUCdQKWApYCfQJ9A38DfwKKAooCewJ7AoUChQFbAlsCowKjAG8AbwBkAGQAOAA4AIsAiwAuAC4BmAF1ADUANQB8AHwDkACaADUAcwEAAH8BhQF7APgA+ACxALEAcABwAKwArACcAJwAnQCdAQsBCwB/AH8A7gDuARMBEwD2APYAxwDHAUgBSAKnAqcARwBHAyEDIQFAAUAEkwSTAuAC4ABoAGgJZgJmAH8AfwVUBVQFBQWvAdMBSwPLA7oEAQJyAbYBtgAAAAAAAAAAAAAAAA=="
+	}
+	655={
+		first_name="Tiastenes"
+		family = c:PGM.fam:Dazomenid
+		father=char:652
+		mother=char:653
+		birth_date=397.9.24
+		culture="mysian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=5
+		add_charisma=1
+		add_finesse=1
+		add_zeal=1
+		no_traits=yes
+		add_trait="rash"
+		add_trait="dumb"
+		add_trait="pergamid"
+	}
+}

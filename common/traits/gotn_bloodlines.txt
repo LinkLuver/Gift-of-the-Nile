@@ -187,3 +187,11 @@ ugariti = { #Minor
 	}
 	prominence = 10
 }
+
+pergamid = { #Minor
+	type = status
+	country = {
+		technology_investment = 0.05
+	}
+	prominence = 10
+}

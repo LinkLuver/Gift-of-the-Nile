@@ -44,8 +44,10 @@
  ugariti:0 "Ugariti"
  ugariti_desc:0 "The Ugariti are the culmination of several ancient Ugaritic noble families. After the great collapse, it was these families who rebuilt the great city of Ugarit, and brought prosperity to that ravaged land. They have ruled the city of Ugarit in a near unbroken line for over nine hundred years.\n\n#G This trait will be inherited by [CHARACTER.GetPraenomen]'s offspring.#!"
  attalid_desc:0 "The Attalid dynasty ruled the kingdom of Pergamon until the last Attalid king bequeathed his kingdom to the Romans. Famously, parchment was invented In the kingdom of Pergamon to be independent from the expensive Egyptian Papyrus.\n\n#G This trait will be inherited by [CHARACTER.GetPraenomen]'s offspring.#!"
- attalid:0 Attalid"
+ attalid:0 "Attalid"
  attalid_desc:0 "Once an unimportant man hailing from Tieion, Philetairos Attalid established a prosperous dynasty of his own at Heraklea Pontike. The Attalids are renowned for their diplomacy, but also of their sponsoring of scientific and artistic endeavors. Under their rule, Heraklea Pontike has become the most prominent city on the Pontic coast.\n\n#G This trait will be inherited by [CHARACTER.GetPraenomen]'s offspring.#!"
+ pergamid:0 "Dazomenid"
+ pergamid_desc:0 "It is said that Dazomenos I, hailing from a foreign land, came to establish the city of Pergamon, and her famous library. His descendants have ruled the Kingdom of Pergamon since, and it has flourished, becoming a center of arts, learning, and philosophy in Anatolia.\n\n#G This trait will be inherited by [CHARACTER.GetPraenomen]'s offspring.#!"
  #Trade Goods
  ebony: "Ebony"
  ebonyDESC: "One of the finest woods, able to be polished to a mirror finish and thus highly prized for its ornamental properties, ebony is often utilized by master craftsmen."

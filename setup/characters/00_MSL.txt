@@ -7,17 +7,19 @@
 		culture="atlosian"
 		religion="berber_religion"
 		no_stats=yes
-		add_martial=11
+		add_martial=9
 		add_charisma=8
 		add_finesse=3
 		add_zeal=9
 		no_traits=yes
 		add_trait="ambitious"
 		add_trait="zealous"
-		add_trait="aggressive"
+		add_trait="narcissistic"
+		add_trait="robust"
 		add_gold=100
 		c:MSL={
 			set_as_ruler=char:566
 		}
+		dna="+OtHd2KYo4Kw2rDaAmkCaQJmAmYBYAFgApICkgGNAV0CaAJoAmwCbAJwAnACbQJtAnUCdQJrAmsCjQKNApUClQJsAmwBXwFfAosCiwTSBNICjgKOAmgCaAKXApcCiAKIA5IDkgJoAmgCjQKNAnACcAKOAo4CaAJoAoYChgBEAEQCjwKPAqgE4wKTApMCjgKOAoMCgwKBAoECawJrAo0CjQJ6AnoCWwJ+ApYClgA/AD8BTwFPAlYCkAFoAngCiQKJAmMCbgKDAoMCjwKPAmgCaAKlAmkCcQJxAXkClAJgAokCcAJwAncCcwIAA7IBLQEkAOkA6QL9AHAANwA3AG4AbgExAVcBHgD2AWIBNwAAACEBMQExAVEBUQB/AH8BCgEKAVUAfABSAFIAEAAQAW4BbgDVANUBAQMCATgAxgB/AH8AEgASAGAAYALGAsYARwBHAXMBcwApACkAmwCbAzkBOwEcAFUAbwBvA3kDeQEtAXcHlQmVAH8AfwJWAHgFywWeAGQAQAUPBfECNALDAggCYQAAAAAAAAAAAAAAAA=="
 	}
 }

@@ -412,3 +412,156 @@
 		dna = "Fsty46uCq4KrrautAocCfgJ4AngCaAJoAmkCaQJuAm4CkwKTApgCmAKYAoECewJ7ARoCcQOZA5kEuwS7AngCeAKBAoEBTQFNAmsCiAOrA6sCjwKPAU8BTwKZApkCcwJzAnMCcwKUApQCaAJoAVkBWQJyAnICZgJmA6kDqQJ/An8CZgJmArECkwFyABsCZwJnAmoCagKAAoACeAJ4AmgCaAJ3AncCagJqAooCgQKcAnkClQKVAqQCjAKRApECiAJ7Am8CbwKaApUCmAKYAnwCbwKIAmkCfAJ4ArUCbAJfAoYCdAJ0ApQClAQCBAIAVABUAQwBDAF1AXUA4wDjAJQAlAK7AXIAugC6AB0AHQLuAu4DPgM+AvQC9AB/AH8AIgAiAokBUQA7ADsCvAK8AUcBRwF1AXUC3wLfAT0BPQB/AH8AnwCfAAoACgE7ATsCzwLPAUABQAE7AWwBygKqBDsExwEyAO0BNQNoAqQDBgQCBOwIlQaVAH8AfwM6AzoF0QWoADoA0AXpBfgCugLxAlQCugAAAAAAAAAAAAAAAA=="
 	}
 }
+"Elysium_PGM"={ #Pergamon
+	country="PGM"
+	644={ 
+		first_name="Dazomenos" #Legendary founder of Pergamon
+		family = c:PGM.fam:Dazomenid
+		birth_date=254.8.15
+		death_date=314.10.18
+		culture="mysian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=4
+		add_charisma=5
+		add_finesse=9
+		add_zeal=5
+		no_traits=yes
+		add_trait="founder"
+		add_trait="extravagant"
+		add_trait="obessive_perfectionist"
+		add_trait="pergamid"
+		
+	}
+	645={
+		first_name="Orontes"
+		family = c:PGM.fam:Dazomenid
+		birth_date=284.6.20
+		death_date=350.1.6
+		father=char:644
+		culture="mysian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=4
+		add_charisma=5
+		add_finesse=10
+		add_zeal=4
+		no_traits=yes
+		add_trait="calm"
+		add_trait="intelligent"
+		add_trait="pergamid"
+		
+	}
+	646={
+		first_name="Dazomenos"
+		family = c:PGM.fam:Dazomenid
+		birth_date=311.6.20
+		death_date=370.1.6
+		father=char:645
+		culture="mysian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=8
+		add_charisma=2
+		add_finesse=5
+		add_zeal=6
+		no_traits=yes
+		add_trait="foolish"
+		add_trait="rash"
+		add_trait="pergamid"
+		
+	}
+	647={
+		first_name="Dareios" 
+		family = c:PGM.fam:Dazomenid
+		birth_date=323.6.20
+		death_date=391.1.6
+		father=char:646
+		culture="mysian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=8
+		add_charisma=6
+		add_finesse=10
+		add_zeal=9
+		no_traits=yes
+		add_trait="polymath"
+		add_trait="robust"
+		add_trait="victorious"
+		add_trait="pergamid"
+		
+	}
+	648={
+		first_name="Lysis" #Wife of Dareios
+		last_name="Skepsid"
+		birth_date=323.6.20
+		death_date=399.4.10
+		female=yes
+		culture="troan"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=8
+		add_charisma=6
+		add_finesse=10
+		add_zeal=9
+		no_traits=yes
+		add_trait="fair"
+		add_trait="resourceful"
+	}
+	649={
+		first_name="Panes" 
+		family = c:PGM.fam:Dazomenid
+		father=char:647
+		mother=char:648
+		birth_date=341.6.20
+		death_date=415.4.10
+		culture="mysian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=6
+		add_charisma=8
+		add_finesse=8
+		add_zeal=6
+		no_traits=yes
+		add_trait="insecure"
+		add_trait="reclusive"
+		add_trait="poet"
+		add_trait="pergamid"
+	}
+	650={
+		first_name="Bas" 
+		family = c:PGM.fam:Dazomenid
+		father=char:647
+		mother=char:648
+		birth_date=345.6.20
+		death_date=400.4.10
+		culture="mysian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=9
+		add_charisma=7
+		add_finesse=5
+		add_zeal=4
+		no_traits=yes
+		add_trait="disciplined"
+		add_trait="brave"
+		add_trait="pergamid"
+	}
+	651={
+		first_name="Pythodorida" #Wife of Panes
+		family = c:PGM.fam:Dazomenid
+		birth_date=344.9.29
+		death_date=415.3.10
+		female=yes
+		culture="lydian"
+		religion="anatolian_pantheon"
+		no_stats=yes
+		add_martial=6
+		add_charisma=6
+		add_finesse=6
+		add_zeal=7
+		no_traits=yes
+		add_trait="jealous"
+		add_trait="pergamid"
+	}
+}
