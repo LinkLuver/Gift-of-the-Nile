@@ -155,16 +155,18 @@
 
 1030={ #Tyrios
 	terrain="plains"
-	culture="contestanian"
-	religion="animism"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="dye"
-	civilization_value=10
+	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
+		culture="contestanian"
+		religion="animism"
 		amount=4
 	}
 }
@@ -180,11 +182,21 @@
 	citizen={
 		amount=4
 	}
+	citizen={
+		culture="ibero_punic"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
 	freemen={
 		amount=4
 	}
 	slaves={
 		amount=1
+	}
+	slaves={
+		culture="ibero_punic"
+		religion="carthaginian_pantheon"
+		amount=2
 	}
 	tribesmen={
 		culture="contestanian"
@@ -224,14 +236,23 @@
 	culture="contestanian"
 	religion="animism"
 	trade_goods="wood"
-	civilization_value=12
+	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		culture="massalian"
+		religion="roman_pantheon"
+		amount=2
 	}
 	freemen={
-		amount=3
+		culture="massalian"
+		religion="roman_pantheon"
+		amount=2
+	}
+	freemen={
+		culture="ibero_punic"
+		religion="carthaginian_pantheon"
+		amount=1
 	}
 	tribesmen={
 		amount=4
@@ -331,17 +352,22 @@
 
 1037={ #Alonis
 	terrain="hills"
-	culture="contestanian"
-	religion="animism"
+	culture="massalian"
+	religion="roman_pantheon"
 	trade_goods="fish"
-	civilization_value=8
+	civilization_value=26
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		culture="contestanian"
+		religion="animism"
+		amount=3
 	}
 }
 

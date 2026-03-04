@@ -1561,8 +1561,8 @@ country = {
 			capital = 1919
 
 			own_control_core = {
-				1919 1780 169 1955 7964 1784 7963
-				1918 1920 7961 1922
+				1919 1780 169 7964 1784 7963
+				1918 7975 7978 7974 
 			}
 		}
 
@@ -1675,7 +1675,7 @@ country = {
 				275 10239 10238 10240 10247 10248 
 				10226 10228 10227 10229 10230 10249 10269 10271 10206 10200 10267 10257 10258 
 				10268 10265 10189 10250 10194 10260 10259 10263 10264 10262 10193 10195 10261 
-				10266 10192 7928 10251 10252 1942 1936 10253 10254 1941 10255 1937 1930 186
+				10266 10192 7928 10251 10252 1942 1936 10253 10254 1941 10255 1937 1930 186 287
 			}
 
 			treasures = { 893 904 905 }
@@ -6196,7 +6196,7 @@ country = {
 			capital = 1031
 
 			own_control_core = 	{
-				1031 1032 1037 1030
+				1031 1032 1037 1030 1033
 			}
 
 		}
@@ -7080,7 +7080,7 @@ country = {
 			capital = 1249
 
 			own_control_core = 	{
-				1033 1248 1249 1250 1264 1262 1265 1255 1254
+				1248 1249 1250 1264 1262 1265 1255 1254
 			}
 
 			treasures = { 15 }
@@ -7203,22 +7203,36 @@ country = {
 			primary_culture = bastetanian
 			religion = animism
 
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
 			capital = 1036
 
 			own_control_core = 	{
-				1036 1035
+				1036 1035 1034
 			}
 		}
 
-		ILC = {
-			government = tribal_kingdom
-			primary_culture = contestanian
-			religion = animism
+		ILC = { #Ikkuwaniya
+			government = despotic_monarchy
+			primary_culture = lycaonian
+			religion = anatolian_religion
 
-			capital = 1034
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 1934
 
 			own_control_core = 	{
-				1034
+				1934 7966 1965 1917 1914 1975 10320 1785 
 			}
 		}
 
@@ -10776,7 +10790,7 @@ country = {
 			treasures = { 65 }
 
 			own_control_core = 	{
-				286 287 288 289 290 291 310 1972 1974 220 10224 8122 10184 10231 10232
+				286 288 289 290 291 310 1972 1974 220 10224 8122 10184 10231 10232 10225
 			}
 
 		}
@@ -14609,7 +14623,7 @@ country = {
 
 		IBA = {
 			government = punic_republic
-			primary_culture = carthaginian
+			primary_culture = ibero_punic
 			religion = carthaginian_pantheon
 			diplomatic_stance=trading_stance
 

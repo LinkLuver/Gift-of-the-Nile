@@ -151,19 +151,22 @@
 
 254={ #Zeleia
 	terrain="farmland"
-	culture="phrygian"
+	culture="mysian"
 	religion="roman_pantheon"
 	trade_goods="marble"
-	civilization_value=17
+	civilization_value=24
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
 		amount=1
 	}
 	citizen={
 		culture="thracian"
 		religion="roman_pantheon"
-		amount=1
+		amount=2
 	}
 	freemen={
 		amount=1
@@ -171,7 +174,7 @@
 	freemen={
 		culture="troan"
 		religion="roman_pantheon"
-		amount=1
+		amount=3
 	}
 	freemen={
 		culture="mysian"
@@ -1740,17 +1743,17 @@
 
 306={ #Ankyra Sidera
 	terrain="hills"
-	culture="mysian"
+	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		culture="lydian"
+		culture="mysian"
 		amount=1
 	}
 	slaves={
@@ -1762,11 +1765,7 @@
 		amount=1
 	}
 	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		culture="lydian"
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		culture="phrygian"
@@ -1898,7 +1897,7 @@
 10191={ #10191
 	terrain="forest"
 	culture="aegean"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods="stone"
 	civilization_value=21
 	barbarian_power=0

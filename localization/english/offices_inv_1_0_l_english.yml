@@ -784,7 +784,7 @@
 
  #Lydio-Phrygian Military Leaders
  office_admiral_lydio_phrygian:0 "Sparapet"
- office_general_lydio_phrygian:0 "Akmu-Umis" #Army-Man... how crude (best translation I could come up with)
+ office_general_lydio_phrygian:0 "Wanaktei" #Phrygian term for general 
  office_governor_lydio_phrygian:0 "Katru-Umis" #Castle-Man
 
  #Lydian Republic Offices
@@ -807,13 +807,13 @@
  office_governor_lycian:0 "Asaxlaza"
 
  #Phrygian Monarchy Ruler Names
- plutocratic_monarchy_ruler_phrygian:0 "Vanaktei"
- despotic_monarchy_ruler_phrygian:0 "Vanaktei"
- stratocratic_monarchy_ruler_phrygian:0 "Vanaktei"
- theocratic_monarchy_ruler_phrygian:0 "Vanaktei"
- aristocratic_monarchy_ruler_phrygian:0 "Vanaktei"
- imperium_ruler_phrygian:0 "Mekas Vanaktei"
- imperial_cult_ruler_phrygian:0 "Vanaktei"
+ plutocratic_monarchy_ruler_phrygian:0 "Lawagetai"
+ despotic_monarchy_ruler_phrygian:0 "Lawagetai"
+ stratocratic_monarchy_ruler_phrygian:0 "Lawagetai"
+ theocratic_monarchy_ruler_phrygian:0 "Lawagetai"
+ aristocratic_monarchy_ruler_phrygian:0 "Lawagetai"
+ imperium_ruler_phrygian:0 "Mekas Lawagetai"
+ imperial_cult_ruler_phrygian:0 "Lawagetai"
 
  #Numidian royal leaders
  tribal_kingdom_ruler_numidian:0 "Agellid"
