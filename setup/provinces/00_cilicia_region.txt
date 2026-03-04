@@ -1386,6 +1386,10 @@
 	civilization_value=35
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		culture="lydian"
+		amount=1
+	}
 	citizen={
 		amount=2
 	}
@@ -1402,7 +1406,7 @@
 	}
 	freemen={
 		culture="cimmerian"
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=5
