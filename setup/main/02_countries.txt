@@ -1484,7 +1484,7 @@ country = {
 		CAP = {
 			government = despotic_monarchy
 			primary_culture = cappadocian
-			religion = mithra_religion
+			religion = anatolian_religion
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -1493,20 +1493,20 @@ country = {
 				religious_tech= { level=1 progress=0  }
 			}
 
-			historical_regnal_numbers = {
-				Ariarathes = 1
-			}
+			#historical_regnal_numbers = {
+			#	Ariarathes = 1
+			#}
 
 			capital = 1799
 
 			own_control_core = 	{
-				157 158 163 1852 1854 1859 1861 1865 1886 1898 1929 #cappadocia_melitene_region
-				155 172 1802 1803 1893 1902 1976 1983 1994 1999 #cappadocia_cataonia_region
+				#157 158 163 1852 1854 1859 1861 1865 1886 1898 1929 #cappadocia_melitene_region
+				#155 172 1802 1803 1893 1902 1976 1983 1994 1999 #cappadocia_cataonia_region
 				1794 1796 1799 1800 1805 1912 6420 #cappadocia_region
-				1853 1979 1982
+				1982
 				1849 1891 1899
 				#GotN New
-				8061 10287 10288 10290 10291 8062 10292 10286 8056 8058 8057 10289 
+				8061 10287 10288 10286 8056 8058 8057 10289 1907 10297 1832 1836 1909 1932 1913 1825 1923 7981 1820 10294 205 
 			}
 
 			pantheon = {
@@ -1566,17 +1566,17 @@ country = {
 			}
 		}
 
-		CM1 = { # Aurokra
-			government = tribal_chiefdom
-			primary_culture = cimmerian
-			religion = anatolian_religion
-
-			capital = 182
-
-			own_control_core = {
-				182 179 230 178 1777 181 183 10272
-			}
-		}
+		#CM5 = { #Suania
+		#	government = tribal_chiefdom
+		#	primary_culture = suanian
+		#	religion = caucasian_religion
+		#
+		#	capital = 10427
+		#
+		#	own_control_core = {
+		#		10427 10424 10425 10426 10428 10429 10430 10431 10432
+		#	}
+		#}
 
 		CM3 = { # Parnassos
 			government = tribal_chiefdom
@@ -1610,18 +1610,6 @@ country = {
 			}
 		}
 
-		CM5 = { # Soatra
-			government = tribal_chiefdom
-			primary_culture = cimmerian
-			religion = anatolian_religion
-
-			capital = 1971
-
-			own_control_core = {
-				1971 174 177 180 176 190 191 10277
-			}
-		}
-
 		PGM = {
 			government = aristocratic_monarchy
 			primary_culture = mysian
@@ -1641,7 +1629,7 @@ country = {
 			own_control_core = {
 				278 276 337 
 				#Gotn New
-				10236 10237 272 273 271 10256 269 265
+				10237 272 273 271 10256 269 265 281 
 			}
 		}
 
@@ -1696,11 +1684,11 @@ country = {
 			capital = 189
 
 			own_control_core = {
-				194 195 196 197 202 204 222 231 1825 1841 193 226 #galatia_trocmi_region
-				1836 1832 1907 1909 1923 1932 #cappadocia_saravene
+				194 195 196 197 204 222 231 1841 193 226 #galatia_trocmi_region
+				#1836 1832 1907 1909 1923 1932 #cappadocia_saravene
 				175 188 189 192 228 229 #galatia_region
 				# GotN New
-				7765 329 328 10201 10273 227 10203 316 7765 224 329 225 221 10274 10205 10276 10204 10293 10275 10295 10296 10294 
+				7765 329 328 10201 10273 227 10203 316 7765 224 329 225 221 10274 10205 10276 10204 10275 10295 10296
 			}
 
 			treasures = { 901 }
@@ -4722,18 +4710,26 @@ country = {
 
 		}
 
-		#MSP = {
-		#	government = tribal_kingdom
-		#	primary_culture = messapian
-		#	religion = roman_pantheon
-		#	centralization=8
-		#	capital = 62
-		#	diplomatic_stance=appeasement_stance
-		#	own_control_core = 	{
-		#		62 65 57
-		#	}
+		KAP = { #Cataonia
+			government = theocratic_monarchy
+			primary_culture = cataonian
+			religion = anatolian_religion
+	
+			capital = 172
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
 
-		#}
+			own_control_core = 	{
+				157 158 163 1852 1854 1859 1861 1865 1886 1898 #cappadocia_melitene_region
+				172 1802 1803 1893 1902 1976 1983 1994 1999 #cappadocia_cataonia_region
+			}
+
+		}
 
 		LCA = {
 			government = tribal_kingdom
@@ -9265,9 +9261,8 @@ country = {
 			capital = 1730
 
 			own_control_core = 	{
-				1730 1729 1731
-				1761 1759
-				1757 1758 1728 1727 1726
+				1730 1729 1731 10372
+				1728 1727 1726
 			}
 		}
 
@@ -10587,7 +10582,7 @@ country = {
 			capital = 253 
 		
 			own_control_core = 	{
-				253 251 254 10244 268 10197 264 10198 10202 10199
+				253 251 254 268 10197 264 10198 10202
 			} 
 		
 		}
@@ -10628,9 +10623,9 @@ country = {
 			capital = 243
 
 			own_control_core = 	{
-				234 236 239 241 242 
+				239 241 242 236
 				#GotN NEW
-				10301 10304 10303 10302 243 246 10305
+				10301 10304 10303 10302 243 246 
 			}
 
 		}
@@ -10656,13 +10651,13 @@ country = {
 			capital = 207
 
 			own_control_core = 	{
-				207 238 209 10306 10307 206 208
+				207 238 209 10306 10307 206 208 10305 234 233 237 
 			}
 
 		}
 
 		IOA = { #Aeolian League / Leage of Illium #Attested from time of Antigonus
-			government = democratic_republic
+			government = league_republic
 			primary_culture = aeolian
 			religion = roman_pantheon
 			diplomatic_stance=trading_stance
@@ -10676,7 +10671,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				259 279 281 282 285 10235
+				279 282 285 10235 10236
 			}
 
 			treasures = { 97 106 200 217 }
@@ -10703,46 +10698,46 @@ country = {
 			treasures = { 897 }
 		}
 
-		TW2 = { #Lampsakos
-			government = democratic_republic
-			primary_culture = troan
-			religion = roman_pantheon
-			diplomatic_stance=trading_stance
-			capital = 255
+		#TW2 = { #Lampsakos
+		#	government = democratic_republic
+		#	primary_culture = troan
+		#	religion = roman_pantheon
+		#	diplomatic_stance=trading_stance
+		#	capital = 255
+		#
+		#	technology={
+		#		military_tech={ level=2 progress=0 }
+		#		civic_tech={ level=2 progress=0 }
+		#		oratory_tech={ level=2 progress=0 }
+		#		religious_tech= { level=2 progress=0  }
+		#	}
+		#
+		#	own_control_core = 	{
+		#		255
+		#	}
+		#}
 
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			own_control_core = 	{
-				255
-			}
-		}
-
-		TW1 = { #Lampsakos
-			government = democratic_republic
-			primary_culture = troan
-			religion = roman_pantheon
-			diplomatic_stance=trading_stance
-			capital = 256
-
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-
-			own_control_core = 	{
-				256
-			}
-		}
+		#TW1 = { #Lampsakos
+		#	government = democratic_republic
+		#	primary_culture = troan
+		#	religion = roman_pantheon
+		#	diplomatic_stance=trading_stance
+		#	capital = 256
+		#
+		#	technology={
+		#		military_tech={ level=2 progress=0 }
+		#		civic_tech={ level=2 progress=0 }
+		#		oratory_tech={ level=2 progress=0 }
+		#		religious_tech= { level=2 progress=0  }
+		#	}
+		#
+		#	own_control_core = 	{
+		#		256
+		#	}
+		#}
 
 		TWT = { #Troy
-			government = democratic_republic
+			government = league_republic
 			primary_culture = troan
 			religion = roman_pantheon
 			diplomatic_stance=trading_stance
@@ -10765,7 +10760,7 @@ country = {
 				}
 
 			own_control_core = 	{
-				257 261 258 10243 260 267 10196 268 262
+				257 261 258 10243 260 267 10196 268 262 256 255 10199 10244 259
 			}
 
 			#treasures = { 97 106 200 217 }
@@ -10773,7 +10768,7 @@ country = {
 
 		ION = { #Ionian League/Koinon
 			family = 43
-			government = democratic_republic
+			government = league_republic
 			primary_culture = ionian
 			religion = roman_pantheon
 			diplomatic_stance=trading_stance
@@ -10798,7 +10793,7 @@ country = {
 			treasures = { 65 }
 
 			own_control_core = 	{
-				286 288 289 290 291 310 1972 1974 220 10224 8122 10184 10231 10232 10225
+				286 288 289 290 291 310 1972 1974 220 10224 8122 10184 10231 10232 10225 10234 10233
 			}
 
 		}
@@ -10819,7 +10814,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				1810 1812 10316 1815 1814 1793
+				1810 1812 10316 1815 1814 1793 10311 1816 
 			}
 
 			treasures = { 105 }
@@ -11024,10 +11019,10 @@ country = {
 			own_control_core = 	{
 				198 199 200 201 232 1829 1827 1828 #paphlagonia_superior_region
 				216 #heracleotis_region
-				211 1816 #paphlagonia_inferior_region
+				211 #paphlagonia_inferior_region
 				203
 				# GotN New
-				10311 10318 10309 10186 10182 218 213 10178
+				10318 10309 10186 10182 218 213 10178
 			}
 		}
 
@@ -11248,7 +11243,7 @@ country = {
 			own_control_core = 	{
 				1706 1737 1711 1714 1715 1717 1735 #colchis_region
 				1707 #suaneti_region
-				1739 1740 #abasgoi_region
+				1739 #abasgoi_region
 				1722 1723 1724 1725 #bekhyria_region
 				1705 1704 1703 1746 1748
 				#GotN New
@@ -12573,7 +12568,7 @@ country = {
 			capital = 1742
 
 			own_control_core = {
-				1742 1743 1745
+				1742 1745
 			}
 		}
 
@@ -12592,7 +12587,7 @@ country = {
 			capital = 1720
 
 			own_control_core = {
-				1720 1738 1741 10422
+				1720 1738 1741 10422 1743 1740 
 			}
 
 			treasures = { 101 }
@@ -14504,7 +14499,7 @@ country = {
 			capital = 219
 
 			own_control_core = {
-				219 233 237 326 215 214 210 212 223 217 10308
+				219 215 214 210 212 217 10308
 			}
 		}
 

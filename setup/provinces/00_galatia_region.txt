@@ -2008,7 +2008,7 @@
 
 10206={ #10206
 	terrain="mountain"
-	culture="bithynian"
+	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
 	civilization_value=15
@@ -2018,7 +2018,7 @@
 		amount=1
 	}
 	freemen={
-		culture="phrygian"
+		culture="bithynian"
 		amount=1
 	}
 	slaves={
@@ -2389,7 +2389,7 @@
 
 10274={ #PROV10274
 	terrain="mountain"
-	culture="bithynian"
+	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="base_metals"
 	civilization_value=17
@@ -2399,7 +2399,7 @@
 		amount=1
 	}
 	freemen={
-		culture="phrygian"
+		culture="bithynian"
 		amount=2
 	}
 	slaves={

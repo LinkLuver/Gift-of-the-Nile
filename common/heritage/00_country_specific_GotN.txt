@@ -8423,9 +8423,9 @@ western_cimmerian_heritage = {
 
 	trigger = {
         OR = {
-        tag = CM1
+        #tag = CM1
         tag = CM3
-        tag = CM5
+        #tag = CM5
         }
 	}
 }
@@ -9566,6 +9566,21 @@ lalasia_heritage = {
 	}
 	trigger = {
         tag = LAL
+    }
+}
+
+comana_cappadocia_heritage = {
+    modifier = {
+        #good
+        global_defensive = 0.1
+        religious_tech_investment = 0.1
+
+        #bad
+        global_pop_promotion_speed_modifier = -0.1
+    }
+
+    trigger = {
+        tag = KAP
     }
 }
     

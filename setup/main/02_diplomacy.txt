@@ -59,8 +59,8 @@ diplomacy = {
 	dependency = { first = LYD second = PYK subject_type = ashemis_astarhos }
 	dependency = { first = LYD second = ASP subject_type = ashemis_astarhos }
 	dependency = { first = LYD second = TWT subject_type = tributary }
-	dependency = { first = LYD second = TW1 subject_type = tributary }
-	dependency = { first = LYD second = TW2 subject_type = tributary }
+	#dependency = { first = LYD second = TW1 subject_type = tributary }
+	#dependency = { first = LYD second = TW2 subject_type = tributary }
 
 	#Numidian Kingdom
 	dependency = { first = MSS second = IOL subject_type = tributary }
