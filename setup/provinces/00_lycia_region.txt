@@ -2786,26 +2786,31 @@
 	}
 }
 
-10220={ #10220
-	terrain="forest"
+10220={ #Iasos
+	terrain="farmland"
 	culture="ionian"
 	religion="roman_pantheon"
-	trade_goods="wood"
-	civilization_value=22
+	trade_goods="marble"
+	civilization_value=28
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
-		amount=1
+		amount=3
 	}
 	freemen={
-		amount=1
+		amount=2
+	}
+	freemen={
+		culture="lydian"
+		religion="anatolian_religion"
+		amount=2
 	}
 	freemen={
 		culture="carian"
 		amount=3
 	}
 	slaves={
-		amount=2
+		amount=4
 	}
 }
 
