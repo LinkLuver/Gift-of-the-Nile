@@ -38,7 +38,7 @@
 	port_building=1
 }
 
-297={ #Imbros
+297={ #Imbrus
 	terrain="hills"
 	culture="athenian"
 	religion="roman_pantheon"
@@ -131,6 +131,7 @@
 	freemen={
 		culture="scythian"
 		religion="indo_iranian_religion"
+		amount=3
 	}
 	slaves={
 		culture="thracian"
@@ -1020,7 +1021,7 @@
 	}
 }
 
-4154={ #Burtudizon
+4154={ #Nike
 	terrain="forest"
 	culture="odrysi"
 	religion="roman_pantheon"

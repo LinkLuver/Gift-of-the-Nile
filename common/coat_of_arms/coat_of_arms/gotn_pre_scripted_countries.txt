@@ -1057,14 +1057,15 @@ PHR = {
     color2 = "light_gold"
 
     colored_emblem = {
-        texture = "ce_helladic_glyph_6.dds"
-        color1 = "light_gold"
-        instance = { scale = { 0.9 0.9 } }
+        texture = "ce_phrygia.dds"
+        color1 = "roman_gold"
+		color2 = "roman_gold"
     }
 
     colored_emblem = {
-		texture = "ce_border_stars_01.dds"
-		color1 = "light_gold"
+		texture = "ce_border_rug_03.dds"
+		color1 = "roman_gold"
+		color2 = rgb { 21 80 13 }
         instance = {
             rotation = 0
         }
@@ -1634,49 +1635,49 @@ GUR = {
     }
 }
 
-CM1 = { 
-	pattern = "pattern_solid.tga"
-    color1 = rgb { 117 12 21 }
-    color2 = "ariarathid_color"
+#CM1 = { 
+#	pattern = "pattern_solid.tga"
+ #   color1 = rgb { 117 12 21 }
+#    color2 = "ariarathid_color"
+#
+ #   colored_emblem = {
+#        texture = "ce_horse_08.dds"
+#        color1 = "CMB_brown"
+#		color2 = "offwhite"
+#		instance = { scale = { 0.80 0.80 } }
+#    }
+#	colored_emblem = {
+#		texture = "ce_border_triangles_01.dds"
+#		color1 = "ck2_white"
+#		instance = { rotation = 0 }
+#		instance = { rotation = 180 }
+#	}
+#}
 
-    colored_emblem = {
-        texture = "ce_horse_08.dds"
-        color1 = "CMB_brown"
-		color2 = "offwhite"
-		instance = { scale = { 0.80 0.80 } }
-    }
-	colored_emblem = {
-		texture = "ce_border_triangles_01.dds"
-		color1 = "ck2_white"
-		instance = { rotation = 0 }
-		instance = { rotation = 180 }
-	}
-}
-
-CM5 = { 
-	pattern = "pattern_solid.tga"
-    color1 = rgb { 148 145 41 }
-    color2 = "ariarathid_color"
-
-    colored_emblem = {
-        texture = "ce_horse_08.dds"
-        color1 = "CMB_brown"
-		color2 = "offwhite"
-		instance = { scale = { 0.45 0.45 } position = { 0.70 0.50 } }
-    }
-	colored_emblem = {
-        texture = "ce_horse_08.dds"
-        color1 = "CMB_brown"
-		color2 = "offwhite"
-		instance = { scale = { 0.45 0.45 } position = { 0.30 0.50 } }
-    }
-	colored_emblem = {
-		texture = "ce_border_triangles_01.dds"
-		color1 = "ck2_white"
-		instance = { rotation = 0 }
-		instance = { rotation = 180 }
-	}
-}
+#CM5 = { 
+#	pattern = "pattern_solid.tga"
+#   color1 = rgb { 148 145 41 }
+#    color2 = "ariarathid_color"
+#
+#    colored_emblem = {
+#        texture = "ce_horse_08.dds"
+#        color1 = "CMB_brown"
+#		color2 = "offwhite"
+#		instance = { scale = { 0.45 0.45 } position = { 0.70 0.50 } }
+#    }
+#	colored_emblem = {
+ #       texture = "ce_horse_08.dds"
+#        color1 = "CMB_brown"
+#		color2 = "offwhite"
+#		instance = { scale = { 0.45 0.45 } position = { 0.30 0.50 } }
+ #   }
+#	colored_emblem = {
+#		texture = "ce_border_triangles_01.dds"
+#		color1 = "ck2_white"
+#		instance = { rotation = 0 }
+#		instance = { rotation = 180 }
+#	}
+#}
 
 CM3 = { 
 	pattern = "pattern_solid.tga"
@@ -2952,5 +2953,16 @@ GLP = { #Gallioplis
 		texture = "ce_hand_04.dds"
 		color1 = "offwhite"
 		color2 = "roman_red"
+	}
+}
+
+KAP = { #Cataonia 
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 130 169 255 }
+	color2 = rgb { 174 59 78 }
+	colored_emblem = {
+		texture = "ce_comana_cappadocia.dds"
+		color1 = rgb { 174 59 78 }
+		color2 = "pure_white"
 	}
 }

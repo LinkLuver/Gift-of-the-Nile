@@ -138,7 +138,7 @@
 
 173={ #Koropassos
 	terrain="plains"
-	culture="cimmerian"
+	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="salt"
 	civilization_value=26
@@ -218,7 +218,7 @@
 
 202={ #Doudousa
 	terrain="hills"
-	culture="phrygian"
+	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="grain"
 	civilization_value=20
@@ -585,7 +585,7 @@
 
 1813={ #Nyssa
 	terrain="plains"
-	culture="cimmerian"
+	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="salt"
 	civilization_value=3
@@ -2183,7 +2183,7 @@
 
 10278={ #PROV10278
 	terrain="plains"
-	culture="cimmerian"
+	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="fur"
 	civilization_value=2
@@ -2226,17 +2226,20 @@
 
 10280={ #PROV10280
 	terrain="hills"
-	culture="cimmerian"
+	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="woad"
-	civilization_value=8
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=1
 	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
 	slaves={
-		culture="phrygian"
 		amount=2
 	}
 	tribesmen={
@@ -2246,18 +2249,18 @@
 
 10281={ #PROV10281
 	terrain="hills"
-	culture="cimmerian"
+	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="wood"
-	civilization_value=5
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=4
 	}
 	freemen={
-		culture="morimenian"
-		amount=3
+		culture="cappadocian"
+		amount=1
 	}
 	slaves={
 		amount=2
@@ -2302,21 +2305,20 @@
 		amount=1
 	}
 	freemen={
-		culture="cimmerian"
+		culture="cappadocian"
 		amount=1
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		culture="cimmerian"
-		amount=2
+		amount=3
 	}
 }
 
 10284={ #PROV10284
 	terrain="farmland"
-	culture="cimmerian"
+	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="grain"
 	civilization_value=8
@@ -2496,7 +2498,7 @@
 
 10294={ #PROV10294
 	terrain="plains"
-	culture="phrygian"
+	culture="morimenian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
 	civilization_value=20

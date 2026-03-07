@@ -99,11 +99,12 @@ tributary = {
 	
 	joins_overlord_in_war = no
 	
+	allowed_to_declare_war_against_others = yes	
 	can_build = no
 	protected_when_attacked = yes
 	costs_diplomatic_slot = no
 	subject_can_cancel = yes
-	has_limited_diplomacy = yes
+	has_limited_diplomacy = no
 	
 	# overlord_modifier = {}
 	# subject_modifier = {}

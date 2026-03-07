@@ -880,7 +880,7 @@
 	port_building=1
 }
 
-281={ #Adramytteion
+281={ #Adramyttion
 	terrain="farmland"
 	culture="troan"
 	religion="roman_pantheon"
@@ -1446,7 +1446,7 @@
 
 295={ #Hypaipa
 	terrain="farmland"
-	culture="carian"
+	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="base_metals"
 	civilization_value=24
@@ -1459,18 +1459,15 @@
 		amount=1
 	}
 	freemen={
-		culture="lydian"
+		culture="ionian"
+		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
 		amount=1
 	}
 	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		culture="lydian"
-		amount=1
+		amount=2
 	}
 }
 
@@ -1685,12 +1682,16 @@
 	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="lydian"
+		amount=1
+	}
 	freemen={
-		amount=2
+		amount=1
 	}
 	freemen={
 		culture="lydian"
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=2
@@ -1774,7 +1775,7 @@
 
 308={ #Blaoundos
 	terrain="hills"
-	culture="phrygian"
+	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="leather"
 	civilization_value=26
@@ -1787,14 +1788,14 @@
 		amount=1
 	}
 	slaves={
-		culture="lydian"
+		culture="phrygian"
 		amount=1
 	}
 	tribesmen={
 		amount=1
 	}
 	tribesmen={
-		culture="mysian"
+		culture="phrygian"
 		amount=1
 	}
 }
@@ -1877,7 +1878,7 @@
 	province_rank=""
 }
 
-10184={ #10184
+10184={ #Lebedos
 	terrain="mountain"
 	culture="ionian"
 	religion="roman_pantheon"
@@ -1893,7 +1894,7 @@
 	}
 }
 
-10191={ #10191
+10191={ #Arisba
 	terrain="forest"
 	culture="aegean"
 	religion="roman_pantheon"
@@ -1954,7 +1955,7 @@
 	}
 }
 
-10196={ #10196
+10196={ #Gergis
 	terrain="mountain"
 	culture="troan"
 	religion="roman_pantheon"
@@ -2017,7 +2018,7 @@
 	}
 }
 
-10199={ #10199
+10199={ #Krymne
 	terrain="forest"
 	culture="troan"
 	religion="roman_pantheon"
@@ -2066,7 +2067,7 @@
 	}
 }
 
-10225={ #PROV10225
+10225={ #Oroanna
 	terrain="plains"
 	culture="ionian"
 	religion="roman_pantheon"
@@ -2090,7 +2091,7 @@
 	}
 }
 
-10226={ #PROV10226
+10226={ #10226
 	terrain="farmland"
 	culture="ionian"
 	religion="roman_pantheon"
@@ -2121,7 +2122,7 @@
 	}
 }
 
-10227={ #PROV10227
+10227={ #10227
 	terrain="plains"
 	culture="lydian"
 	religion="anatolian_religion"
@@ -2130,7 +2131,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	freemen={
 		culture="ionian"
@@ -2142,11 +2143,11 @@
 	}
 	tribesmen={
 		culture="carian"
-		amount=3
+		amount=2
 	}
 }
 
-10228={ #PROV10228
+10228={ #10228
 	terrain="hills"
 	culture="lydian"
 	religion="anatolian_religion"
@@ -2178,7 +2179,7 @@
 
 10229={ #PROV10229
 	terrain="plains"
-	culture="carian"
+	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
 	civilization_value=19
@@ -2188,17 +2189,22 @@
 		amount=3
 	}
 	slaves={
-		culture="lydian"
+		culture="ionian"
+		religion="roman_pantheon"
 		amount=2
 	}
 	tribesmen={
-		amount=3
+		amount=2
+	}
+	tribesmen={
+		culture="carian"
+		amount=1
 	}
 }
 
-10230={ #PROV10230
+10230={ #10230
 	terrain="plains"
-	culture="carian"
+	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
 	civilization_value=19
@@ -2208,7 +2214,7 @@
 		amount=1
 	}
 	freemen={
-		culture="lydian"
+		culture="carian"
 		amount=2
 	}
 	slaves={
@@ -2219,7 +2225,7 @@
 	}
 }
 
-10231={ #PROV10231
+10231={ #Klazomenai
 	terrain="hills"
 	culture="ionian"
 	religion="roman_pantheon"
@@ -2238,7 +2244,7 @@
 	}
 }
 
-10232={ #PROV10232
+10232={ #Pteleon
 	terrain="mountain"
 	culture="ionian"
 	religion="roman_pantheon"
@@ -2258,7 +2264,7 @@
 	}
 }
 
-10233={ #PROV10233
+10233={ #10233
 	terrain="farmland"
 	culture="ionian"
 	religion="roman_pantheon"
@@ -2283,7 +2289,7 @@
 	}
 }
 
-10234={ #PROV10234
+10234={ #Phokaia
 	terrain="hills"
 	culture="ionian"
 	religion="roman_pantheon"
@@ -2332,7 +2338,7 @@
 	}
 }
 
-10235={ #PROV10235
+10235={ #Atarneus
 	terrain="farmland"
 	culture="aeolian"
 	religion="roman_pantheon"
@@ -2362,7 +2368,7 @@
 	}
 }
 
-10236={ #PROV10236
+10236={ #10235
 	terrain="plains"
 	culture="aeolian"
 	religion="roman_pantheon"
@@ -2386,7 +2392,7 @@
 	}
 }
 
-10237={ #PROV10237
+10237={ #10235
 	terrain="mountain"
 	culture="mysian"
 	religion="anatolian_religion"
@@ -2410,7 +2416,7 @@
 	}
 }
 
-10238={ #PROV10238
+10238={ #10235
 	terrain="farmland"
 	culture="lydian"
 	religion="anatolian_religion"
@@ -2431,7 +2437,7 @@
 	}
 }
 
-10239={ #PROV10239
+10239={ #10235
 	terrain="farmland"
 	culture="lydian"
 	religion="anatolian_religion"
@@ -2451,7 +2457,7 @@
 	}
 }
 
-10240={ #PROV10240
+10240={ #10235
 	terrain="farmland"
 	culture="lydian"
 	religion="anatolian_religion"
@@ -2471,7 +2477,7 @@
 	}
 }
 
-10241={ #PROV10241
+10241={ #Pyyrha
 	terrain="mountain"
 	culture="aegean"
 	religion="roman_pantheon"
@@ -2517,7 +2523,7 @@
 	}
 }
 
-10243={ #PROV10243
+10243={ #10235
 	terrain="hills"
 	culture="troan"
 	religion="roman_pantheon"
@@ -2543,7 +2549,7 @@
 	}
 }
 
-10244={ #PROV10244
+10244={ #10235
 	terrain="farmland"
 	culture="troan"
 	religion="roman_pantheon"
@@ -2570,7 +2576,7 @@
 	port_building=1
 }
 
-10247={ #PROV10247
+10247={ #10235
 	terrain="mountain"
 	culture="lydian"
 	religion="anatolian_religion"
@@ -2589,7 +2595,7 @@
 	}
 }
 
-10248={ #PROV10248
+10248={ #10235
 	terrain="mountain"
 	culture="lydian"
 	religion="anatolian_religion"
@@ -2608,7 +2614,7 @@
 	}
 }
 
-10249={ #PROV10249
+10249={ #10235
 	terrain="mountain"
 	culture="lydian"
 	religion="anatolian_religion"

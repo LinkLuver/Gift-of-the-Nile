@@ -23,10 +23,10 @@
 
 176={ #Ekdaoumaoua
 	terrain="plains"
-	culture="cimmerian"
+	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="horses"
-	civilization_value=4
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -343,7 +343,7 @@
 
 195={ #Malos
 	terrain="hills"
-	culture="paphlagonian"
+	culture="phrygian"
 	religion="hatti_religion"
 	trade_goods="wood"
 	civilization_value=18
@@ -502,7 +502,7 @@
 
 222={ #Bloukion
 	terrain="hills"
-	culture="paphlagonian"
+	culture="phrygian"
 	religion="hatti_religion"
 	trade_goods="vegetables"
 	civilization_value=18
@@ -678,7 +678,7 @@
 
 231={ #Arinna
 	terrain="plains"
-	culture="paphlagonian"
+	culture="phrygian"
 	religion="hatti_religion"
 	trade_goods="wood"
 	civilization_value=18
@@ -1050,7 +1050,7 @@
 
 311={ #Pepouza
 	terrain="hills"
-	culture="phrygian"
+	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="cloth"
 	civilization_value=26
@@ -1178,15 +1178,21 @@
 }
 
 316={ #Midaion
-	terrain="plains"
+	terrain="forest"
 	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="wood"
 	civilization_value=24
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=2
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
 	}
 	slaves={
 		amount=1
@@ -1533,7 +1539,7 @@
 
 339={ #Elouza
 	terrain="plains"
-	culture="phrygian"
+	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="iron"
 	civilization_value=24
@@ -1674,7 +1680,7 @@
 
 1942={ #Peltai
 	terrain="farmland"
-	culture="phrygian"
+	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
 	civilization_value=24
@@ -1693,7 +1699,7 @@
 
 1943={ #Sanaos
 	terrain="plains"
-	culture="phrygian"
+	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="wood"
 	civilization_value=26
@@ -1724,10 +1730,10 @@
 
 1944={ #Lounda
 	terrain="farmland"
-	culture="phrygian"
+	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
-	civilization_value=26
+	civilization_value=24
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1747,7 +1753,7 @@
 
 1945={ #Colossae
 	terrain="farmland"
-	culture="phrygian"
+	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="wood"
 	civilization_value=31
@@ -1858,7 +1864,7 @@
 
 10192={ #10192
 	terrain="farmland"
-	culture="cimmerian"
+	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="grain"
 	civilization_value=17
@@ -1868,7 +1874,6 @@
 		amount=2
 	}
 	freemen={
-		culture="phrygian"
 		amount=1
 	}
 	slaves={
@@ -1972,10 +1977,10 @@
 
 10204={ #10204
 	terrain="mountain"
-	culture="cimmerian"
+	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="marble"
-	civilization_value=3
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -1985,7 +1990,7 @@
 		amount=3
 	}
 	tribesmen={
-		culture="phrygian"
+		culture="cimmerian"
 		amount=1
 	}
 }
@@ -2029,7 +2034,7 @@
 	}
 }
 
-10245={ #PROV10245
+10245={ #10235
 	terrain="marsh"
 	culture="thracian"
 	religion="roman_pantheon"
@@ -2053,7 +2058,7 @@
 	port_building=1
 }
 
-10246={ #PROV10246
+10246={ #10235
 	terrain="plains"
 	culture="mysian"
 	religion="anatolian_religion"
@@ -2077,9 +2082,9 @@
 	}
 }
 
-10250={ #PROV10250
+10250={ #10235
 	terrain="mountain"
-	culture="phrygian"
+	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="base_metals"
 	civilization_value=18
@@ -2121,7 +2126,7 @@
 
 10252={ #PROV10252
 	terrain="forest"
-	culture="phrygian"
+	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="wood"
 	civilization_value=21
@@ -2173,14 +2178,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		culture="cimmerian"
 		amount=1
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		culture="cimmerian"
 		amount=3
 	}
 }
@@ -2230,7 +2233,7 @@
 
 10265={ #PROV10265
 	terrain="plains"
-	culture="mysian"
+	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="iron"
 	civilization_value=22
@@ -2250,7 +2253,7 @@
 
 10266={ #PROV10266
 	terrain="plains"
-	culture="cimmerian"
+	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
 	civilization_value=20
@@ -2260,7 +2263,6 @@
 		amount=1
 	}
 	freemen={
-		culture="phrygian"
 		amount=1
 	}
 	slaves={

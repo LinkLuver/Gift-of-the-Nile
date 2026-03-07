@@ -586,7 +586,7 @@
 
 1946={ #Hierapolis
 	terrain="farmland"
-	culture="phrygian"
+	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
 	civilization_value=26
@@ -2814,7 +2814,7 @@
 	}
 }
 
-10221={ #PROV10221
+10221={ #Euromos
 	terrain="mountain"
 	culture="ionian"
 	religion="roman_pantheon"
@@ -2834,7 +2834,7 @@
 	}
 }
 
-10222={ #PROV10222
+10222={ #Amyzon
 	terrain="mountain"
 	culture="carian"
 	religion="roman_pantheon"
@@ -2858,10 +2858,10 @@
 	}
 }
 
-10224={ #PROV10224
+10224={ #Myous
 	terrain="marsh"
 	culture="ionian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods="horses"
 	civilization_value=17
 	barbarian_power=0

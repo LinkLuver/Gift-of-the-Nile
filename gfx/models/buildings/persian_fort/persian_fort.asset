@@ -90,3 +90,14 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Military/sfx_amb_3d_military_fort_persian" } keep_sound = yes }
 	}
 }
+
+entity = {
+	name = "lydian_gfx_fort_entity"
+	pdxmesh = "persian_fort_mesh"
+	default_state = "default"
+
+	state = {
+		name = default
+		start_event = { trigger_once = yes sound = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Military/sfx_amb_3d_military_fort_persian" } keep_sound = yes }
+	}
+}

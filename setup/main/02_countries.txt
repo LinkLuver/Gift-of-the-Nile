@@ -1475,9 +1475,11 @@ country = {
 
 			own_control_core = 	{
 				1698 1744 1747 1751 1760 1762 1764 #upper_armenia_region
-				1763 1765 1766 1767 1768 1769 1770 1771 1772 1773 1775 1776 1778 #armenia_major_region
+				1763 1765 1766 1767 1768 1770 1771 1772 1773 1775 1776 1778 #armenia_major_region
 				7844 1733 #armenia_major_region
 				1779 1781 1782 1783 1842 1843 1844 1848 1850 1851 7845 #armenia_minor_region
+				#GotN New
+				10374 10325 8060 10357 10331 10368 10358 
 			}
 		}
 
@@ -1503,10 +1505,10 @@ country = {
 				#157 158 163 1852 1854 1859 1861 1865 1886 1898 1929 #cappadocia_melitene_region
 				#155 172 1802 1803 1893 1902 1976 1983 1994 1999 #cappadocia_cataonia_region
 				1794 1796 1799 1800 1805 1912 6420 #cappadocia_region
-				1982
 				1849 1891 1899
 				#GotN New
-				8061 10287 10288 10286 8056 8058 8057 10289 1907 10297 1832 1836 1909 1932 1913 1825 1923 7981 1820 10294 205 
+				8061 10287 10288 10286 8056 8058 8057 10289 1907 10297 1832 1836 1909 1932 1913 1825 1923 7981 1820 10294 205 155
+				1817 10284 1841 10296 10283 1900
 			}
 
 			pantheon = {
@@ -1536,7 +1538,7 @@ country = {
 				858 859 860 878 1855 235 8009 #sophene_region
 				1858 1856 1857
 				#GotN New
-				8000 10223 10334 10333 10351 10328 10327 1866 10330 10326
+				8000 10223 10334 10333 10351 10328 10327 1866 10330 10326 1769 10292 1853
 			}
 			historical_regnal_numbers = {
 				Arame = 1
@@ -1561,8 +1563,8 @@ country = {
 			capital = 1919
 
 			own_control_core = {
-				1919 1780 7964 1784 7963
-				1918 7975 7978 7974 
+				1919 1780 7964 
+				7975 7978 7974 
 			}
 		}
 
@@ -1651,7 +1653,7 @@ country = {
 			capital = 292
 
 			own_control_core = 	{
-				274 292 293 296 298 299 300 301 305 307 308 #lydia_region
+				274 292 293 296 299 300 301 305 307 308 #lydia_region
 				#cappadocia_garsauritis_region
 				322 323 325 327 #bithynia_superior_region
 				303 304 306 320 321 #mysia_abrettene_region
@@ -1663,7 +1665,7 @@ country = {
 				275 10239 10238 10240 10247 10248 
 				10226 10228 10227 10229 10230 10249 10269 10271 10206 10200 10267 10257 10258 
 				10268 10265 10189 10250 10194 10260 10259 10263 10264 10262 10193 10195 10261 
-				10266 10192 7928 10251 10252 1942 1936 10253 10254 1941 10255 1937 1930 186 287
+				10266 10192 7928 10251 10252 1942 1936 10253 10254 1941 10255 1937 1930 186 287 326 
 			}
 
 			treasures = { 893 904 905 }
@@ -1684,14 +1686,15 @@ country = {
 			capital = 189
 
 			own_control_core = {
-				194 195 196 197 204 222 231 1841 193 226 #galatia_trocmi_region
+				194 195 222 231 193 226 #galatia_trocmi_region
 				#1836 1832 1907 1909 1923 1932 #cappadocia_saravene
 				175 188 189 192 228 229 #galatia_region
 				# GotN New
-				7765 329 328 10201 10273 227 10203 316 7765 224 329 225 221 10274 10205 10276 10204 10275 10295 10296
+				7765 329 328 10201 10273 227 10203 316 7765 224 329 225 221 10274 10205 10276 10204 10275 176 190 183 191 223
+				
 			}
 
-			treasures = { 901 }
+			#treasures = { 901 }
 		}
 
 		LYC = { # Lycia
@@ -1709,9 +1712,9 @@ country = {
 			capital = 1995
 
 			own_control_core = {
-				1993 1995 7942 1992 1998 7949 156 161 162 164 7951 159 1991 7948 160
+				1993 1995 7942 1992 1998 7949 156 161 162 164
 				#GotN New
-				10213 10210 10211 10212 
+				10213 10210 10211 165 
 			}
 		}
 
@@ -1912,7 +1915,8 @@ country = {
 
 			own_control_core = {
 				166 168 1910 1905 1911 # Pamphylia
-				7958 1908 1906 7962
+				7958 1908 1906
+				7914 7973 7967 10179 
 			}
 		}
 
@@ -1969,9 +1973,27 @@ country = {
 				1882 #cilicia_trachea_region
 				1874 1875 1879 1880 1881 #cilicia_pedias_region
 			    1887 
-				1883 
 				#GotN New
 				10158 10163 10164 10165 10166 10168 10167 10172 10139 10175 10174 10171 10170 10169 
+			}
+		}
+
+		TRT = { #Tarsus
+			government = despotic_monarchy
+			primary_culture = cilician
+			religion = hurrian_pantheon
+
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 1883
+
+			own_control_core = 	{
+				1883 10161 10157 10155 10156 1872 
 			}
 		}
 
@@ -4727,6 +4749,7 @@ country = {
 			own_control_core = 	{
 				157 158 163 1852 1854 1859 1861 1865 1886 1898 #cappadocia_melitene_region
 				172 1802 1803 1893 1902 1976 1983 1994 1999 #cappadocia_cataonia_region
+				8062 10290 10291 1929
 			}
 
 		}
@@ -7236,7 +7259,7 @@ country = {
 			capital = 1934
 
 			own_control_core = 	{
-				1934 7966 1965 1917 1914 1975 10320 1785 1916 7944 1950 1955 169
+				1934 7966 1965 1917 1914 1975 10320 1785 1916 7944
 			}
 		}
 
@@ -8076,19 +8099,6 @@ country = {
 				2431 2433 3005
 			}
 		}
-
-		#MDB = {
-			#government = tribal_kingdom
-			#primary_culture = haedui
-			#religion = druidism
-			#centralization=10
-
-			#capital = 
-
-			#own_control_core = 	{
-				
-			#}
-		#}
 
 		SNN = {
 			government = tribal_kingdom
@@ -10671,7 +10681,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				279 282 285 10235 10236
+				279 282 285 10235 10236 298
 			}
 
 			treasures = { 97 106 200 217 }
@@ -14463,7 +14473,7 @@ country = {
 			capital = 1885
 
 			own_control_core = {
-				1885 1931 1927 1921
+				1885 1931 10215 7993
 			}
 		}
 
@@ -14475,7 +14485,7 @@ country = {
 			capital = 170
 
 			own_control_core = {
-				170 7956 167 165
+				170 7956 7951 
 			}
 		}
 
@@ -14487,7 +14497,7 @@ country = {
 			capital = 1949
 
 			own_control_core = {
-				1949 1988 7760 1933 1935
+				1949 1988 10270 10180 7996 8059
 			}
 		}
 
@@ -14503,31 +14513,17 @@ country = {
 			}
 		}
 
-		#SMS = { # Polai
-		#	government = despotic_monarchy
-		#	primary_culture = illyriote
-		#	religion = roman_pantheon
-		#
-		#	technology={
-		#		military_tech={ level=2 progress=0 }
-		#		civic_tech={ level=2 progress=0 }
-		#		oratory_tech={ level=2 progress=0 }
-		#		religious_tech= { level=2 progress=0  }
-		#	}
-		#
-		#	poptype_rights = {
-		#		{
-		#			culture = iapodian
-		#			type = citizen
-		#		}
-		#	}
-		#
-		#	capital = 4020
-		#
-		#	own_control_core = 	{
-		#		4020 4021 4023 4034 4032 4033 4036 4050 
-		#	}
-		#}
+		SMS = { # Cetia
+			government = tribal_federation
+			primary_culture = lalasian
+			religion = anatolian_religion
+
+			capital = 1896
+
+			own_control_core = {
+				1896 7963 1784 7962 7763 1901
+			}
+		}
 
 		TIE = { # Lemnos
 			government = oligarchic_republic
@@ -14550,7 +14546,7 @@ country = {
 
 		LAL = { # Lalasia
 			government = democratic_republic
-			primary_culture = aegean
+			primary_culture = ciliciote
 			religion = roman_pantheon
 
 			capital = 1897
@@ -14563,7 +14559,7 @@ country = {
 			}
 
 			own_control_core = {
-				1901 1897 10208 10209 7763
+				1897 10208 10209
 			}
 		}
 
@@ -14582,14 +14578,14 @@ country = {
 			}
 
 			own_control_core = {
-				1894 1896 1892 10176 10159 10160
+				1894 1892 10176 10159 10160
 			}
 		}
 
 		HM1 = { # Holmoi
 			government = pirate_republic
-			primary_culture = cilician
-			religion = hurrian_pantheon
+			primary_culture = ciliciote
+			religion = roman_pantheon
 
 			capital = 1890
 
@@ -16672,6 +16668,140 @@ country = {
 				494 492 490 360 353 489 4154
 			}
 
+		}
+
+		LAR = { # Larandia
+			government = tribal_federation
+			primary_culture = lycaonian
+			religion = anatolian_religion
+
+			capital = 169
+
+			own_control_core = {
+				169 1955 8022 1950
+			}
+		}
+
+		OEO = { # Oeoandia
+			government = tribal_federation
+			primary_culture = cabalian
+			religion = anatolian_religion
+
+			capital = 1990
+
+			own_control_core = {
+				1990 1960 7947 1991 
+			}
+		}
+
+		KIB = { # Kibyratia
+			government = tribal_federation
+			primary_culture = cabalian
+			religion = anatolian_religion
+			centralization = 20
+
+			capital = 1958
+
+			own_control_core = {
+				1958 1997 7971 10214 7954
+			} 
+		}
+
+		OML = { # Ormelia
+			government = tribal_federation
+			primary_culture = milyadian
+			religion = anatolian_religion
+
+			capital = 1961
+
+			own_control_core = {
+				1961 1959 10207
+			}
+		}
+
+		TYM = { # Tymandia
+			government = tribal_federation
+			primary_culture = milyadian
+			religion = anatolian_religion
+
+			capital = 7760
+
+			own_control_core = {
+				7760 1933 1935 7953 
+			}
+		}
+
+		AKY = { # Arykandia
+			government = tribal_federation
+			primary_culture = milyadian
+			religion = anatolian_religion
+
+			capital = 160
+
+			own_control_core = 	{
+				160 159 7948 10212
+			}
+		}
+
+		ORO = { # Oroandia
+			government = tribal_federation
+			primary_culture = oroandian
+			religion = anatolian_religion
+
+			capital = 1920
+
+			own_control_core = 	{
+				1920 1924 7979 10181
+			}
+		}
+
+		ABL = { # Ambladia
+			government = tribal_federation
+			primary_culture = oroandian
+			religion = anatolian_religion
+
+			capital = 1921
+
+			own_control_core = 	{
+				1921 7961 7980 
+			}
+		}
+
+		ISI = { # Isindia
+			government = tribal_federation
+			primary_culture = milyadian
+			religion = anatolian_religion
+
+
+			capital = 171
+
+			own_control_core = 	{
+				171 1986 7952 
+			}
+		}
+
+		PDL = { # Pednelissia
+			government = tribal_federation
+			primary_culture = pisidian
+			religion = anatolian_religion
+
+			capital = 167
+
+			own_control_core = {
+				167
+			}
+		}
+
+		HMD = { # Homonadia
+			government = tribal_federation
+			primary_culture = isaurian
+			religion = anatolian_religion
+
+			capital = 1918
+
+			own_control_core = {
+				1918 7965
+			}
 		}
 	}
 }

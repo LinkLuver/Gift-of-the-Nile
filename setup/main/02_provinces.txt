@@ -2236,6 +2236,14 @@ provinces = { #Any entry must contain a comment with city name.
 		modifier = { modifier = epirote_garrison always = yes }
 	}
 
+	316 = { # Midaion
+		modifier = { modifier = midaion_inscription always = yes }
+	}
+
+	189 = { # Gordion
+		modifier = { modifier = gordion_citadel always = yes }
+	}
+
 
 
 

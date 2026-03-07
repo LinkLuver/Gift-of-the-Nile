@@ -168,10 +168,9 @@
  form_galatia:0 "Form Galatia"
  form_galatia_desc:0 "While we are far from the ancestral homeland of our people this is still a good land. Let us create a new state here, and teach these local peoples about the capabilities of the Celtic peoples."
  
- phrygia_claims_tooltip:2 "Phrygia will gain Claims on the Regions of #Y $galatia_region$#! and #Y $cappadocia_region$#!."
- phrygia_must_not_exist:0 "Phrygia must not exist."
- form_phrygia:0 "Reclaim Phrygian Lands"
- form_phrygia_desc:0 "For too long have we have grown fat and complacent under the rule of the #Y Lydians#!. We were once the rulers of #Y Anatolia#!, and though we have since fallen from grace, it is time for the #Y Phrygia#! people to reclaim her lands, and stay true to her gods."
+ phrygia_claims_tooltip:2 "Phrygia will gain Claims on the Regions of #Y $galatia_region$#!, #Y $asia_region$#!, #Y $lycia_region$#!, and #Y $cilicia_region$#!."
+ form_phrygia:0 "Reclaim Phrygian Dominance"
+ form_phrygia_desc:0 "For a time, we were the masters of Anatolia. But in those old days, the horsemen from foreign lands ruined our prosperous kingdom. In time, we have recovered, although no longer enjoying our position. The subjects became the masters, and the Lydians became our liege. For several hundred years we have been subject to the Mermnad kings, but this shall be tolerated no longer. As the only true succesors to the Phrygian Kingdom of old, it is us who must reclaim what was once ours."
  
  pontus_claims_tooltip:2 "Pontus will gain Claims on the Regions of #Y $bithynia_region$#! and #Y $cappadocia_region$#!."
  pontus_must_not_exist:0 "Pontus must not exist."

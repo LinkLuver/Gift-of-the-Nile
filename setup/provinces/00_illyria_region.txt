@@ -41,7 +41,7 @@
 	}
 }
 
-4019={ #Parentium
+4019={ #Parenthos
 	terrain="farmland"
 	culture="histrian"
 	religion="illyrian_pantheon"
@@ -67,7 +67,7 @@
 	}
 }
 
-4020={ #Pola
+4020={ #Polai
 	terrain="farmland"
 	culture="illyriote"
 	religion="roman_pantheon"
@@ -103,7 +103,7 @@
 	port_building=1
 }
 
-4021={ #Flanona
+4021={ #Albona
 	terrain="forest"
 	culture="histrian"
 	religion="illyrian_pantheon"
@@ -127,7 +127,7 @@
 	holy_site=omen_ica
 }
 
-4022={ #Piquentum
+4022={ #Pikenton
 	terrain="hills"
 	culture="histrian"
 	religion="illyrian_pantheon"
@@ -153,7 +153,7 @@
 	}
 }
 
-4023={ #Tarsatica
+4023={ #Tarsatike
 	terrain="hills"
 	culture="illyriote"
 	religion="roman_pantheon"
@@ -265,7 +265,7 @@
 	}
 }
 
-4034={ #Crexa
+4034={ #Chersos
 	terrain="hills"
 	culture="histrian"
 	religion="italic_pantheon"

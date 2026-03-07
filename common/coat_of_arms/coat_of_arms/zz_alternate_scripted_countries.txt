@@ -1215,24 +1215,36 @@ PAP_GLYCON_FLAG = {
 	}
 }
 
-#Sesamos / Amastris
-SMS = {
+#Sesamos / Amastris ## OLD ##
+#SMS = {
+#	pattern = "pattern_solid.tga"
+#	color1 = "offwhite"
+#	color2 = "offwhite"
+#	
+#	colored_emblem = {
+#		texture = "ce_roundel_frame_wreath_02.dds"
+#		color1 = "ck2_black"
+#		color2 = rgb { 206  108  22 }
+#		instance = { scale = { 1.1 1.1 } }
+#	}
+#	
+#	colored_emblem = {
+#		texture = "ce_sesamos_amastris.dds"
+#		color1 = rgb { 206  108  22 }
+#		color2 = "light_gold"
+#		instance = { scale = { 0.95 0.95 } }
+#	}
+#}
+
+SMS = { #Cetis
 	pattern = "pattern_solid.tga"
-	color1 = "offwhite"
-	color2 = "offwhite"
-	
+	color1 = rgb { 215 49 74 }
+	color2 = rgb { 92 161 50 }
+
 	colored_emblem = {
-		texture = "ce_roundel_frame_wreath_02.dds"
-		color1 = "ck2_black"
-		color2 = rgb { 206  108  22 }
-		instance = { scale = { 1.1 1.1 } }
-	}
-	
-	colored_emblem = {
-		texture = "ce_sesamos_amastris.dds"
-		color1 = rgb { 206  108  22 }
-		color2 = "light_gold"
-		instance = { scale = { 0.95 0.95 } }
+		texture = "ce_cetis_bull_star_cresent.dds"
+		color1 = "pitch_black"
+		color2 = rgb { 92 161 50 }
 	}
 }
 
