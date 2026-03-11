@@ -1650,6 +1650,23 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
+			historical_regnal_numbers = {
+				Kukas = 1
+				Ardys = 2
+				Sadyattes = 2
+				Walwetes = 1
+				Croesus = 1
+				Pythius = 1
+				Batos = 1
+				Xiphares = 1
+				Walwetes = 2
+				Sandanis = 2
+				Hyssaldomus = 1
+				Sifra = 1
+				Atys = 1
+				Bartaras = 1
+			}
+
 			capital = 292
 
 			own_control_core = 	{

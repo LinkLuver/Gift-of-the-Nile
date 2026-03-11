@@ -1,26 +1,27 @@
 ﻿"LYD"={
 	country="LYD"
-	607={
-		first_name="Adrastus"
-		family = c:LYD.fam:Croesid
+	680={
+		first_name="Kukas"
+		family = c:LYD.fam:Mermnadae
 		birth_date=429.9.9
+		father=char:679
 		culture="lydian"
 		religion="anatolian_religion"
 		no_stats=yes
-		add_martial=5
+		add_martial=8
 		add_charisma=8
-		add_finesse=10
-		add_zeal=8
+		add_finesse=7
+		add_zeal=6
 		no_traits=yes
 		add_trait="assertive"
 		add_trait="arrogant"
+		add_trait="midas_touched"
 		add_trait="blood_of_croesus"
-		add_trait="one_eyed"
 		add_gold=1000
 		add_popularity=55
 		c:LYD={
-			set_as_ruler=char:607
+			set_as_ruler=char:680
 		}
-		dna = "Af0AAP3FAAD9rQAAALwAfwBZAH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwCpAH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AdgB/AHEAfwB/AH8AfwB/AH8AfwE2AH8AfwB/ADEAfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwGuAH8AfwB/AH8AfwB/AH8AoQB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AOgB/AooAfwB/AH8AfwB/ALwAfwB/AH8AfwB/AH8AfwB/AH8AggB/AH8AfwB/AH8AfwB/AH8AfwE0AH8BiAB/AIgAfwB/AH8CtQB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwB/AH8AfwCRAH8BEwB/AFIAfwFNAH8AfwB/AH8AfwI4AH8MAQB/AIoAfwCKAH8GHgAAAAAAAAO1AAAEvAAAAhoAAAPNAAAAAAAAALoAAA=="
+		dna = "Ld8t35uhm6GxibGJAngCeAJ0AnQCgwKDAmoCagJ4AngCaQJpAnoCegJ/An8CegJ6Am0CbQJ2AnYBdwF3AnsCewFQAVAClgKWAmoCagKWApYClgKWAnMCcwJ8AnwCkgKSAncCdwJnAmcCkAKQAWABYAJ4AngCggKCAmgCaABMAEwDqwOrAnYCdgJ6AnoChQKFAoYChgKXApcCkgKSApgCmAKKAooCcwJzAm0CbQOdA50CggKCAnoCegKDAoMCkwKTApQClAJ6AnoCbQJtAogCiAKbApsCggKCAnICcgKTApMChwKHAnoCegLQAtAAIgAiASIBIgCPAI8BQQFBAO4A7gA1ADUBPwE/AGkAaQBIAEgCRgJGAQoBCgB/AH8BNwE3ApECkQAgACAA2QDZAF4AXgLEAsQCMwIzAOkA6QB/AH8AlACUAOAA4ACtAK0APQA9AIcAhwFLAUsBJwEnAygDKABIAEgCxgLGA0cDRwEfAR8HvAL1AH8AfwXpBekFXwVCAdIB0gWzA1kCLgIuAgwCDAAAAAAAAAAAAAAAAA=="
 	}
 }
