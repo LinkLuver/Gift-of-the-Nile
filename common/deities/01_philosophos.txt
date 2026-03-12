@@ -293,6 +293,14 @@ deity_zagreus = {
 				holy_site_deity_check_trigger = yes
 			}
 		}
+		OR = {
+			common_deity_trigger = {
+				RELIGION = herakles_religion
+			}
+			deity:omen_zagreus = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
 	}
 	icon = deity_eloquence
 	passive_modifier = { global_freemen_output = deity_global_freemen_output_svalue }
@@ -1113,5 +1121,57 @@ deity_archytas = {
 
 	on_activate = {
 		military_apotheosis_capital_freemen_effect = yes
+	}
+}
+## Heraklean ##
+deity_atlas = {
+	trigger = {
+		OR = {
+			common_deity_trigger = {
+				RELIGION = herakles_religion
+			}
+			deity:omen_atlas = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_culture
+	passive_modifier = { research_points_modifier = deity_research_points_modifier_svalue }
+	omen = { global_citizen_output = deity_global_citizen_output_svalue } #Bonus from Omen
+	religion = herakles_religion
+	deity_category = culture #This Deity uses a Culture Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		culture_apotheosis_capital_effect = yes
+	}
+}
+
+deity_apollo_borvo = {
+	trigger = {
+		OR = {
+			common_deity_trigger = {
+				RELIGION = herakles_religion
+			}
+			deity:omen_apollo_borvo = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_diadochi_economy
+	passive_modifier = { goods_from_slaves = -1 }
+	omen = { oratory_tech_investment = omen_oratory_tech_investment } #Bonus from Omen
+	religion = herakles_religion
+	deity_category = economy #This Deity uses a Culture Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		economy_income_effect = yes
 	}
 }

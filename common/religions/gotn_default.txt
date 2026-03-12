@@ -305,3 +305,15 @@ pyrrhonism = { # Skeptic
 	sacrifice_icon = sacrifice_incense
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
+herakles_religion = { # Heraklean
+	color = rgb { 154 28 68 }
+	modifier = { 
+		global_manpower_modifier = 0.10
+		happiness_for_wrong_religion_modifier = 0.03
+		global_pop_conversion_speed_modifier = -0.25
+	}
+	religion_category = sages
+	can_deify_ruler = yes
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}

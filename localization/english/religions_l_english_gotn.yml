@@ -85,6 +85,9 @@
  taoism:0 "Daoist"
  desc_taoism:0 "Daoism, also known as Taoism or the School of the Way, offers a profound philosophical path deeply rooted in ancient Chinese thought. It centers on the concept of the Tao, the eternal and ever-flowing Way, advocating for a harmonious life by aligning with the natural rhythms of the universe. Taoism encourages simplicity, spontaneity, and the cultivation of inner balance as keys to a meaningful existence."
 
+ herakles_religion:0 "Heraklean"
+ desc_herakles_religion:0 "A sect of Orphism, the Herakleans primarily worship Herakles, holding him in the highest regard amongst the gods. With the exception of the Athenians, the Herakleans are the only group that venerate Prometheus, and unique to them, Atlas. They maintain that after Herakles freed Prometheus and Atlas from their respective punishments, they endowed Herakles with divine wisdom, enabling him to complete his further tasks and eventually ascend to godhood. The devotees of Herakles participate in the Mysteries of Herakles, a crucial part to their religion. Heraklean also incorporates many Canaanite, Amazigh, and Iberic beliefs."
+
 
  # Conversions
 
@@ -155,6 +158,9 @@
 
  convert_to_zurvan_religion:0 "Adopt Zurvanist Doctrines"
  convert_to_zurvan_religion_desc:0 "Our people clamor on about the truth of Zorvan, the ascendant one, the one who is all time and all space, the one who is beyond even Ahuramazda and Ahriman. Should we accept these doctrines of the all-powerful God of Time?"
+
+ convert_to_herakles_religion:0 "Adopt Heraklean Beliefs"
+ convert_to_herakles_religion_desc:0 "placeholder"
 
 
  # Egyptian Religious Flavor

@@ -1810,4 +1810,37 @@ country_decisions = {
 		}
 	}
 
+	
+	convert_to_herakles_religion = {
+			
+		potential = {
+			num_of_cities >= 1
+			potential_change_religion_trigger = {
+				RELIGION = herakles_religion
+			}
+		}
+
+		allow = {
+			could_change_religion_trigger = {
+				RELIGION = herakles_religion
+			}
+		}
+
+		effect = {
+			change_religion_effect = {
+				RELIGION = herakles_religion
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				capital_scope = {
+					dominant_province_religion = herakles_religion
+				}
+			}
+		}
+	}
+
 }

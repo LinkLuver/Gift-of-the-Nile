@@ -2351,6 +2351,16 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
+			historical_regnal_numbers = {
+				Niqmaddu = 4
+				Yaqarum = 1
+				Ammittamru = 2
+				Arhalba = 1
+				Niqmepa = 1
+				Ibiranu = 1
+				Ammurapi = 1
+			}
+
 			pantheon = {
 				{ deity = 404 } # El
 				{ deity = 2271 } # Tadmish
@@ -2760,8 +2770,7 @@ country = {
 				371 373 379 381 382 383 384 385 386 380 428 369 #Macedonia
 				393 400 405 408 411 3125 3175s #Upper Macedonia
 				356 363 364 365 366 #Chalkidiki
-				6399 # Pydna
-				497 4302 414 
+				6399 # Pydna 
 				349 
 			}
 
@@ -4194,6 +4203,11 @@ country = {
 				civic_tech={ level=2 progress=0 }
 				oratory_tech={ level=2 progress=0 }
 				religious_tech= { level=2 progress=0  }
+			}
+
+			historical_regnal_numbers = {
+				Douketios = 3
+				Kleanthes = 1
 			}
 
 			capital = 7840
@@ -5778,7 +5792,7 @@ country = {
 			government = tyranny
 			primary_culture = atlosian
 			diplomatic_stance= warmongering_stance
-			religion = berber_religion
+			religion = herakles_religion
 			capital = 3061
 
 			technology={
@@ -5796,13 +5810,6 @@ country = {
 			}
 			own_control_core = 	{
 				3061 3085
-			}
-
-			pantheon = {
-				{ deity = 102 }
-				{ deity = 401 }
-				{ deity = 961 }
-				{ deity = 966 }
 			}
 		}
 
@@ -9621,7 +9628,7 @@ country = {
 
 			own_control_core = 	{
 				397 # upper_macedonia_area
-				4303 4304 4305 #macedonia_salutaris_area
+				4303 4304 4305 4302 #macedonia_salutaris_area
 			}
 
 		}
@@ -9634,7 +9641,7 @@ country = {
 			capital = 498 #
 
 			own_control_core = 	{
-				498 4153 #macedonia_salutaris_area
+				498 4153 414 497 #macedonia_salutaris_area
 				4306 #chalkidiki_area
 			}
 

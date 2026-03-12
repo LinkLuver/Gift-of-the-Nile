@@ -2244,6 +2244,13 @@ provinces = { #Any entry must contain a comment with city name.
 		modifier = { modifier = gordion_citadel always = yes }
 	}
 
+	10238 = { # 
+		modifier = { modifier = tomb_of_alyattes always = yes }
+	}
+
+	1995 = { # Xanthos
+		modifier = { modifier = xanthos_tombs always = yes }
+	}
 
 
 

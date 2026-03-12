@@ -1,7 +1,7 @@
 ﻿3061={ #Tingis
 	terrain="forest"
 	culture="atlosian"
-	religion="roman_pantheon"
+	religion="herakles_religion"
 	trade_goods="earthware"
 	civilization_value=29
 	barbarian_power=0
@@ -10,7 +10,11 @@
 		amount=2
 	}
 	citizen={
-		amount=3
+		amount=2
+	}
+	citizen={
+		religion="roman_pantheon"
+		amount=1
 	}
 	citizen={
 		culture="carthaginian"
@@ -35,8 +39,12 @@
 	}
 	slaves={
 		culture="socossian"
-		religion="berber_religion"
-		amount=3
+		amount=2
+	}
+	slaves={
+		culture="socossian"
+		religion="herakles_religion"
+		amount=1
 	}
 	tribesmen={
 		culture="socossian"

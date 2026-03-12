@@ -67,6 +67,9 @@ deity_tannit = { # CULTURE
 			rare_deity_trigger = {
 				RELIGION = berber_religion
 			}
+			common_deity_trigger = {
+				RELIGION = herakles_religion
+			}
 			deity:omen_tannit = {
 				holy_site_deity_check_trigger = yes
 			}

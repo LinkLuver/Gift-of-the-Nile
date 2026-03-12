@@ -243,5 +243,13 @@ deity_manager = {
 		    deify_ruler_permanent = yes
 		    is_universal_deity = yes
 		}
+		30540 = {
+		    key = omen_atlas
+		    deity = deity_atlas
+		}
+		30541 = {
+			key = omen_apollo_borvo
+			deity = apollo_borvo
+		}
 	}
 }

@@ -36,3 +36,29 @@ deity_astarte_bast = {
 		war_apotheosis_martial_tech_effect = yes
 	}
 }
+deity_eshmun_melqart = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			tag = IBA
+			common_deity_trigger = {
+				RELIGION = carthaginian_pantheon
+			}
+			deity:omen_eshmun = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+    icon = deity_cr_car_eshmun
+    passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
+    omen = { global_citizen_happyness = omen_global_citizen_happiness_svalue } #Bonus from Omen
+    religion = carthaginian_pantheon
+    deity_category = culture #This Deity uses a Culture Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		culture_apotheosis_capital_effect = yes
+	}
+}

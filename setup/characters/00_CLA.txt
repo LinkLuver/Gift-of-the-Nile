@@ -2,7 +2,7 @@
 	country="CLA"
 	611={
 		first_name="Douketios"
-		nickname="NICKNAME_III"
+		nickname="NICKNAME_MAKROTHUMOS"
 		family=c:CLA.fam:Douketid
 		birth_date=397.6.23 # 357 BCE
 		culture="syracusan"
@@ -108,7 +108,7 @@
 		add_gold=50
 	}
 	616={
-		first_name="Echekrates III" #Grandson of Echekrates II- yes man to Douketios V
+		first_name="Echekrates" #Grandson of Echekrates II- yes man to Douketios V
 		family = c:CLA.fam:Douketid
 		birth_date=400.7.12
 		culture="syracusan"
