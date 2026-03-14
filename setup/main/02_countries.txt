@@ -1479,7 +1479,7 @@ country = {
 				7844 1733 #armenia_major_region
 				1779 1781 1782 1783 1842 1843 1844 1848 1850 1851 7845 #armenia_minor_region
 				#GotN New
-				10374 10325 8060 10357 10331 10368 10358 
+				10374 10325 8060 10357 10331 10368 10358 7913 10289 
 			}
 		}
 
@@ -1507,8 +1507,8 @@ country = {
 				1794 1796 1799 1800 1805 1912 6420 #cappadocia_region
 				1849 1891 1899
 				#GotN New
-				8061 10287 10288 10286 8056 8058 8057 10289 1907 10297 1832 1836 1909 1932 1913 1825 1923 7981 1820 10294 205 155
-				1817 10284 1841 10296 10283 1900
+				8061 10287 10288 10286 8056 8058 1907 10297 1832 1836 1909 1932 1913 1825 1923 7981 1820 10294 205 155
+				1817 10284 1841 10296 10283 1900 204 10295 202 10285 10293 197 1811 10279 1813 
 			}
 
 			pantheon = {
@@ -2010,7 +2010,7 @@ country = {
 			capital = 1883
 
 			own_control_core = 	{
-				1883 10161 10157 10155 10156 1872 
+				1883 10161 10157 10155 10156 1872 1888
 			}
 		}
 
@@ -2107,7 +2107,7 @@ country = {
 			own_control_core = 	{
 				787 791 7985 #syria_region
 				#GotN New
-				10092 10088 10089 10094 10097 10098 10099 10096 
+				10092 10088 10089 10094 10097 10098 10099 10096 10095 10100 10091
 			}
 			historical_regnal_numbers = {
 				Taita = 2
@@ -2138,7 +2138,7 @@ country = {
 			own_control_core = 	{
 				798 813 814 851 #syria_region
 				# Gotn New
-				10112 10102 10126 10113 10104 10105
+				10112 10102 10126 10113 10104 10105 10111 797 794
 			}
 		}
 		PRY = { # Darmeshq
@@ -7283,7 +7283,7 @@ country = {
 			capital = 1934
 
 			own_control_core = 	{
-				1934 7966 1965 1917 1914 1975 10320 1785 1916 7944
+				1934 7966 1965 1917 1914 1975 10320 1785 1916 7944 1971 10277 174
 			}
 		}
 
@@ -11038,7 +11038,7 @@ country = {
 				1791 1792 1819 1821 1822 1823 1824 1837 #pontus_region
 				1786 1787 1801 7994 7998 7999 1804
 				#GotN New
-				10299 10312 1788 10185 10312 10187 10313 10298 10315
+				10299 10312 1788 10185 10312 10187 10313 10298 10315 8055 8057
 			}
 		}
 
@@ -11350,7 +11350,7 @@ country = {
 			own_control_core = 	{
 				1732 1734 1797 
 				# GotN New
-				10439 10319 
+				10439 10319 10371 
 			}
 		}
 
@@ -16917,7 +16917,7 @@ country = {
 
         THK = { # Thukan
             government = theocratic_monarchy
-            primary_culture = cilician
+            primary_culture = lycaonian
             religion = hurrian_pantheon
 
 			technology={
@@ -16927,16 +16927,16 @@ country = {
                 religious_tech= { level=1 progress=0  }
             }
 
-            capital = 1889
+            capital = 1951
 
 
             own_control_core = {
-             1889 10173
+				1951 10190 1940 10188
             }
         }
 
 
-        IS2 = { # Thukan
+        IS2 = { #Ishunda
             government = theocratic_monarchy
             primary_culture = cilician
             religion = hurrian_pantheon
@@ -16998,7 +16998,7 @@ country = {
             }
         }
 
-		KDA = {
+		KDA = { #Qadesh
             government = aristocratic_monarchy
             primary_culture = phoenician
             religion = carthaginian_pantheon
@@ -17017,6 +17017,173 @@ country = {
 
             own_control_core = {
                 742 740 745 744
+            }
+        }
+
+		ROS = { #Ra-Shedi
+            government = nomarchy
+            diplomatic_stance=appeasement_stance
+            primary_culture = avarite_egyptian
+            religion = egyptian_pantheon
+            capital = 9835
+            succession_law=egyption_succession_law
+            succession=old_egyptian_succession
+            monarchy_citizen_law = foreign_law_for_minorities
+            monarchy_military_reforms = work_for_the_best
+
+
+            technology={
+                military_tech={ level=2 progress=0 }
+                civic_tech={ level=2 progress=0 }
+                oratory_tech={ level=2 progress=0 }
+                religious_tech= { level=2 progress=0  }
+            }
+
+
+            own_control_core = {
+                9835 9834 9836 9837 9838 9839 9840
+            }
+        }
+
+		ITM = { #Per-Atum
+            government = nomarchy
+            diplomatic_stance=appeasement_stance
+            primary_culture = avarite_egyptian
+            religion = egyptian_pantheon
+            capital = 502
+            succession_law=egyption_succession_law
+            succession=old_egyptian_succession
+            monarchy_citizen_law = foreign_law_for_minorities
+            monarchy_military_reforms = work_for_the_best
+
+
+            technology={
+            military_tech={ level=2 progress=0 }
+            civic_tech={ level=2 progress=0 }
+            oratory_tech={ level=2 progress=0 }
+            religious_tech= { level=2 progress=0  }
+            }
+            own_control_core = {
+                502 655 9821
+            }
+        }
+
+		MDN = { #Medu-Nefer
+            government = nomarchy
+            diplomatic_stance=appeasement_stance
+            primary_culture = avarite_egyptian
+            religion = egyptian_pantheon
+            capital = 9845
+            succession_law=egyption_succession_law
+            succession=old_egyptian_succession
+            monarchy_citizen_law = foreign_law_for_minorities
+            monarchy_military_reforms = work_for_the_best
+
+
+            technology={
+            military_tech={ level=2 progress=0 }
+            civic_tech={ level=2 progress=0 }
+            oratory_tech={ level=2 progress=0 }
+            religious_tech= { level=2 progress=0  }
+            }
+
+
+            own_control_core = {
+            9845 526 528
+            }
+        }
+
+        IMU = { #Imu
+            government = nomarchy
+            diplomatic_stance=appeasement_stance
+            primary_culture = avarite_egyptian
+            religion = egyptian_pantheon
+            capital = 9842
+            succession_law=egyption_succession_law
+            succession=old_egyptian_succession
+            monarchy_citizen_law = foreign_law_for_minorities
+            monarchy_military_reforms = work_for_the_best
+
+
+            technology={
+                military_tech={ level=2 progress=0 }
+                civic_tech={ level=2 progress=0 }
+                oratory_tech={ level=2 progress=0 }
+                religious_tech= { level=2 progress=0  }
+            }
+
+
+            own_control_core = {
+                9842 9922 9841 9843
+            }
+        }
+
+		TAP = { #Tahpanhes
+            government = nomarchy
+            diplomatic_stance=appeasement_stance
+            primary_culture = egyptiote
+            religion = egyptian_pantheon
+            capital = 510
+            succession_law=egyption_succession_law
+            succession=old_egyptian_succession
+            monarchy_citizen_law = foreign_law_for_minorities
+            monarchy_military_reforms = work_for_the_best
+
+
+            technology={
+                military_tech={ level=2 progress=0 }
+                civic_tech={ level=2 progress=0 }
+                oratory_tech={ level=2 progress=0 }
+                religious_tech= { level=2 progress=0  }
+            }
+
+
+            own_control_core = {
+                510 525 9824 9867 9868
+            }
+        }
+
+		KTK = {
+            government = aristocratic_monarchy
+            primary_culture = hittite
+            religion = hurrian_pantheon
+
+
+            technology={
+                military_tech={ level=1 progress=0 }
+                civic_tech={ level=1 progress=0 }
+                oratory_tech={ level=1 progress=0 }
+                religious_tech= { level=1 progress=0  }
+            }
+
+
+            capital = 807
+
+
+            own_control_core =  {
+                808 807 10103 10109 10110 805 10177
+            }
+        }
+
+		OUE = { #Ouenasa temple state
+            government = theocratic_monarchy
+            primary_culture = morimenian
+            religion = anatolian_religion
+
+
+            technology={
+                military_tech={ level=1 progress=0 }
+                civic_tech={ level=1 progress=0 }
+                oratory_tech={ level=1 progress=0 }
+                religious_tech= { level=1 progress=0  }
+            }
+
+
+            capital = 1818
+
+
+            own_control_core =  {
+                1818
             }
         }
 	}

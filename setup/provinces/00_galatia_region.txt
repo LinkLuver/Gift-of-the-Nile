@@ -23,7 +23,7 @@
 
 176={ #Ekdaoumaoua
 	terrain="plains"
-	culture="phrygian"
+	culture="lycaonian"
 	religion="anatolian_religion"
 	trade_goods="horses"
 	civilization_value=18
@@ -912,7 +912,7 @@
 	}
 }
 
-250={ #Booskoite
+250={ #Helge
 	terrain="hills"
 	culture="mysian"
 	religion="anatolian_religion"
@@ -1050,7 +1050,7 @@
 
 311={ #Pepouza
 	terrain="hills"
-	culture="lydian"
+	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="cloth"
 	civilization_value=26
@@ -1539,7 +1539,7 @@
 
 339={ #Elouza
 	terrain="plains"
-	culture="lydian"
+	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="iron"
 	civilization_value=24
@@ -1680,7 +1680,7 @@
 
 1942={ #Peltai
 	terrain="farmland"
-	culture="lydian"
+	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
 	civilization_value=24
@@ -1699,7 +1699,7 @@
 
 1943={ #Sanaos
 	terrain="plains"
-	culture="lydian"
+	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="wood"
 	civilization_value=26
@@ -1730,7 +1730,7 @@
 
 1944={ #Lounda
 	terrain="farmland"
-	culture="lydian"
+	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="vegetables"
 	civilization_value=24
@@ -1753,7 +1753,7 @@
 
 1945={ #Colossae
 	terrain="farmland"
-	culture="lydian"
+	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="wood"
 	civilization_value=31
@@ -2084,7 +2084,7 @@
 
 10250={ #10235
 	terrain="mountain"
-	culture="lydian"
+	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="base_metals"
 	civilization_value=18
@@ -2126,7 +2126,7 @@
 
 10252={ #PROV10252
 	terrain="forest"
-	culture="lydian"
+	culture="phrygian"
 	religion="anatolian_religion"
 	trade_goods="wood"
 	civilization_value=21
@@ -2415,7 +2415,7 @@
 10275={ #PROV10275
 	terrain="plains"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="hatti_religion"
 	trade_goods="cattle"
 	civilization_value=18
 	barbarian_power=0

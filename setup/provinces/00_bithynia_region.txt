@@ -19,8 +19,8 @@
 
 203={ #Asklepios
 	terrain="mountain"
-	culture="paphlagonian"
-	religion="hatti_religion"
+	culture="cimmerian"
+	religion="anatolian_religion"
 	trade_goods="earthware"
 	civilization_value=18
 	barbarian_power=0
@@ -1344,8 +1344,8 @@
 
 1826={ #Pteria Pontias
 	terrain="mountain"
-	culture="paphlagonian"
-	religion="hatti_religion"
+	culture="cimmerian"
+	religion="anatolian_religion"
 	trade_goods="hemp"
 	civilization_value=9
 	barbarian_power=0
@@ -1431,8 +1431,8 @@
 
 1831={ #Pimolisa
 	terrain="mountain"
-	culture="paphlagonian"
-	religion="hatti_religion"
+	culture="cimmerian"
+	religion="anatolian_religion"
 	trade_goods="wood"
 	civilization_value=9
 	barbarian_power=0
@@ -1725,7 +1725,7 @@
 10308={ #PROV10308
 	terrain="mountain"
 	culture="mariandynian"
-	religion="hatti_religion"
+	religion="roman_pantheon"
 	trade_goods="vegetables"
 	civilization_value=3
 	barbarian_power=0

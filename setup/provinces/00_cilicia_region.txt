@@ -1,7 +1,7 @@
 ﻿164={ #Phaselis
 	terrain="mountain"
 	culture="pamphylian"
-	religion="hurrian_pantheon"
+	religion="roman_pantheon"
 	trade_goods="cattle"
 	civilization_value=29
 	barbarian_power=0
@@ -41,7 +41,7 @@
 165={ #Olbia Pamphylias
 	terrain="farmland"
 	culture="pamphylian"
-	religion="hurrian_pantheon"
+	religion="anatolian_religion"
 	trade_goods="cloth"
 	civilization_value=26
 	barbarian_power=0
@@ -198,7 +198,7 @@
 
 177={ #Kindyria
 	terrain="plains"
-	culture="phrygian"
+	culture="lycaonian"
 	religion="anatolian_religion"
 	trade_goods="obsidian"
 	civilization_value=7
@@ -233,7 +233,7 @@
 
 178={ #Tyriaion
 	terrain="plains"
-	culture="phrygian"
+	culture="lycaonian"
 	religion="anatolian_religion"
 	trade_goods="cattle"
 	civilization_value=4
@@ -289,7 +289,7 @@
 
 180={ #Keissia
 	terrain="plains"
-	culture="phrygian"
+	culture="lycaonian"
 	religion="anatolian_religion"
 	trade_goods="leather"
 	civilization_value=4
@@ -698,7 +698,7 @@
 1890={ #Holmoi
 	terrain="plains"
 	culture="ciliciote"
-	religion="hurrian_pantheon"
+	religion="roman_pantheon"
 	trade_goods="cedar"
 	civilization_value=25
 	barbarian_power=0
@@ -1053,7 +1053,7 @@
 1914={ #Perta
 	terrain="farmland"
 	culture="lycaonian"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="wine"
 	civilization_value=3
 	barbarian_power=0
@@ -1083,7 +1083,7 @@
 1916={ #Kanna
 	terrain="plains"
 	culture="lycaonian"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="horses"
 	civilization_value=26
 	barbarian_power=0
@@ -1387,10 +1387,10 @@
 	holy_site=omen_men
 }
 
-1934={ #Ikkuwaniya
+1934={ #Iconium
 	terrain="farmland"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="cloth"
 	civilization_value=29
 	barbarian_power=0
@@ -1567,7 +1567,7 @@
 1975={ #Barata
 	terrain="farmland"
 	culture="lycaonian"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="cattle"
 	civilization_value=28
 	barbarian_power=0
@@ -1689,7 +1689,7 @@
 7944={ #Hyde
 	terrain="plains"
 	culture="lycaonian"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="cattle"
 	civilization_value=13
 	barbarian_power=0
@@ -2207,7 +2207,7 @@
 	}
 }
 
-10208={ #10208
+10208={ #Aphrodisias
 	terrain="mountain"
 	culture="lalasian"
 	religion="hurrian_pantheon"
@@ -2233,7 +2233,7 @@
 	}
 }
 
-10209={ #10209
+10209={ #Nagidos
 	terrain="mountain"
 	culture="lalasian"
 	religion="hurrian_pantheon"
@@ -2256,7 +2256,7 @@
 
 10272={ #PROV10272
 	terrain="plains"
-	culture="phrygian"
+	culture="oroandian"
 	religion="anatolian_religion"
 	trade_goods="leather"
 	civilization_value=6
@@ -2296,7 +2296,7 @@
 10320={ #10320
 	terrain="farmland"
 	culture="lycaonian"
-	religion="anatolian_religion"
+	religion="hurrian_pantheon"
 	trade_goods="earthware"
 	civilization_value=28
 	barbarian_power=0

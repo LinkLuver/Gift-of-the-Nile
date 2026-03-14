@@ -182,6 +182,8 @@
  SYD_ADJ:0 "Syedran"
  KAP:0 "Cataonia"
  KAP_ADJ:0 "Cataonian"
+ OUE:0 "Ouenasa"
+ OUE_ADJ:0 "Ouenasan"
 
  # LEVANT
  SWR:0 "Tyre"
@@ -242,8 +244,8 @@
  CRA_ADJ:0 "Caran"
  KDA:0 "Qadesh"
  KDA_ADJ:0 "Qadeshite"
- KA1:0 "Kalno"
- KA1_ADJ:0 "Kalnoan"
+ KA1:0 "Musri"
+ KA1_ADJ:0 "Musrite"
  TLD:0 "Theleda"
  TLD_ADJ:0 "Theledan"
  KHK:0 "Khillika"
@@ -252,10 +254,12 @@
  IS2_ADJ:0 "Ishundan"
  KMN:0 "Kamannu"
  KMN_ADJ:0 "Kamannuan"
- TB1:0 "Lyinda"
- TB1_ADJ:0 "Lyindan"
+ TB1:0 "Tabal"
+ TB1_ADJ:0 "Tabalian"
  THK:0 "Thuka"
- THK_ADJ:0 "Thukan"
+ THK_ADJ:0 "Thukite"
+ KTK:0 "Kethek"
+ KTK_ADJ:0 "Kethekite"
 
  # GRECO-MACEDON
  TRE:0 "Thessaly"

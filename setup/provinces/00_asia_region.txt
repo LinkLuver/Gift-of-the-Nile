@@ -1509,7 +1509,7 @@
 	holy_site=omen_sipylene
 }
 
-298={ #Bubiral
+298={ #Aigai
 	terrain="forest"
 	culture="lydian"
 	religion="anatolian_religion"
@@ -1870,7 +1870,7 @@
 
 7928={ #
 	terrain="impassable_terrain"
-	culture="lycian"
+	culture="lydian"
 	religion="anatolian_religion"
 	trade_goods=""
 	civilization_value=0
