@@ -106,7 +106,7 @@ country = {
 				564 566 568 561
 				#GotN New
 				9962 9904 9826 9827 9828 9829 9944 9830 9945 9946 9948 9947 9949 9950 9951 9158 9955
-				9953 9954 9956 9903 9958 9957 9959 9960 9961 9953 9902 9932 9901 9900
+				9953 9954 9956 9903 9958 9957 9959 9960 9961 9953 9902 9932 9901 9900 9935 9952 9933
 			}
 
 			pantheon = {
@@ -421,7 +421,7 @@ country = {
 			}
 
 			own_control_core = {
-				545 546 547 548 550
+				545 546 547 548 550 9833 9832 9884 9885 9888 9887 9886 9889 9890 9915 9831 9891 
 			}
 		}
 
@@ -444,7 +444,7 @@ country = {
 			}
 
 			own_control_core = {
-				5535 5546 5532 5533 5547 5548
+			 	5546 5532 5548 9924 9983 9982 9985 9984
 			}
 		}
 
@@ -467,7 +467,7 @@ country = {
 			}
 
 			own_control_core = {
-				544 540 541 538 543 542
+				544 540 541 538 543 542 9879 9909 9921 8121 9880 9911 9912 9819 9914 9920 9917 9910 9905 9919 9882 9918 9883 9820 9913 5535 
 			}
 			is_antagonist = yes
 		}
@@ -491,7 +491,7 @@ country = {
 			}
 
 			own_control_core = {
-				539
+				539 5533 9931 9927 9928 
 			}
 		}
 
@@ -860,7 +860,7 @@ country = {
 			}
 
 			own_control_core = {
-				500 537 5549 536 512 514
+				500 9907 9878 9908 537 5549 536 
 			}
 		}
 
@@ -1991,7 +1991,7 @@ country = {
 				1874 1875 1879 1880 1881 #cilicia_pedias_region
 			    1887 
 				#GotN New
-				10158 10163 10164 10165 10166 10168 10167 10172 10139 10175 10174 10171 10170 10169 
+				10158 10163 10164 10165 10166 10168 10167 10172 10139 10175 10174 10171 10170 10169 10148  
 			}
 		}
 
@@ -16826,5 +16826,198 @@ country = {
 				1918 7965
 			}
 		}
+
+		TLD = {
+            government = aristocratic_monarchy
+            primary_culture = aramaic
+            religion = carthaginian_pantheon
+
+
+            capital = 816
+
+
+            technology={
+                military_tech={ level=1 progress=0 }
+                civic_tech={ level=1 progress=0 }
+                oratory_tech={ level=1 progress=0 }
+                religious_tech= { level=1 progress=0  }
+            }
+
+
+            own_control_core =  {
+                816 10114 10115 10116 #apamene_region
+            }
+        }
+       
+        CRA = {
+            government = aristocratic_monarchy
+            primary_culture = aramaic
+            religion = carthaginian_pantheon
+
+
+            capital = 770
+
+
+            technology={
+                military_tech={ level=1 progress=0 }
+                civic_tech={ level=1 progress=0 }
+                oratory_tech={ level=1 progress=0 }
+                religious_tech= { level=1 progress=0  }
+            }
+
+
+            own_control_core =  {
+                10120 770 776 10117 10118 #apamene_region
+            }
+        }
+
+
+        KA1 = {
+            government = despotic_monarchy
+            primary_culture = hittite
+            religion = hurrian_pantheon
+
+
+            technology={
+                military_tech={ level=1 progress=0 }
+                civic_tech={ level=1 progress=0 }
+                oratory_tech={ level=1 progress=0 }
+                religious_tech= { level=1 progress=0  }
+            }
+
+
+            capital = 852
+
+
+            own_control_core =  {
+                852 10101 10129
+            }
+        }
+
+		KHK = { # khillika
+            government = theocratic_monarchy
+            primary_culture = cilician
+            religion = hurrian_pantheon
+
+			technology={
+                military_tech={ level=1 progress=0 }
+                civic_tech={ level=1 progress=0 }
+                oratory_tech={ level=1 progress=0 }
+                religious_tech= { level=1 progress=0  }
+            }
+
+            capital = 10162
+
+
+            own_control_core = {
+                10150 10151 10152 10153 10154 10162
+            }
+        }
+
+
+        THK = { # Thukan
+            government = theocratic_monarchy
+            primary_culture = cilician
+            religion = hurrian_pantheon
+
+			technology={
+                military_tech={ level=1 progress=0 }
+                civic_tech={ level=1 progress=0 }
+                oratory_tech={ level=1 progress=0 }
+                religious_tech= { level=1 progress=0  }
+            }
+
+            capital = 1889
+
+
+            own_control_core = {
+             1889 10173
+            }
+        }
+
+
+        IS2 = { # Thukan
+            government = theocratic_monarchy
+            primary_culture = cilician
+            religion = hurrian_pantheon
+
+			technology={
+                military_tech={ level=1 progress=0 }
+                civic_tech={ level=1 progress=0 }
+                oratory_tech={ level=1 progress=0 }
+                religious_tech= { level=1 progress=0  }
+            }
+
+            capital = 1877
+
+
+            own_control_core = {
+                10147 1877 10140 10138
+            }
+        }
+
+
+        TB1 = { # Thukan
+            government = theocratic_monarchy
+            primary_culture = cilician
+            religion = hurrian_pantheon
+
+			technology={
+                military_tech={ level=1 progress=0 }
+                civic_tech={ level=1 progress=0 }
+                oratory_tech={ level=1 progress=0 }
+                religious_tech= { level=1 progress=0  }
+            }
+
+            capital = 7968
+
+
+            own_control_core = {
+                7968 10141 10143 10144 10149 10131 10132 10137 10133 1873 10136
+            }
+        }
+
+
+        KMN = { # Thukan
+            government = tribal_federation
+            primary_culture = kennataian
+            religion = hurrian_pantheon
+
+			technology={
+                military_tech={ level=1 progress=0 }
+                civic_tech={ level=1 progress=0 }
+                oratory_tech={ level=1 progress=0 }
+                religious_tech= { level=1 progress=0  }
+            }
+
+            capital = 10142
+
+
+            own_control_core = {
+                10142 1979 10135 1878 10134 10145 1982
+            }
+        }
+
+		KDA = {
+            government = aristocratic_monarchy
+            primary_culture = phoenician
+            religion = carthaginian_pantheon
+
+
+            technology={
+                military_tech={ level=2 progress=0 }
+                civic_tech={ level=2 progress=0 }
+                oratory_tech={ level=2 progress=0 }
+                religious_tech= { level=2 progress=0  }
+            }
+
+
+            capital = 742
+
+
+            own_control_core = {
+                742 740 745 744
+            }
+        }
 	}
 }
