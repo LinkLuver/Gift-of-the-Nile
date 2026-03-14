@@ -1585,10 +1585,10 @@ country = {
 			primary_culture = cimmerian
 			religion = anatolian_religion
 
-			capital = 1811
+			capital = 1831
 
 			own_control_core = {
-				1811 1813 10279 10278 10280 10285
+				1831 203 1826
 			}
 		}
 
@@ -10616,7 +10616,7 @@ country = {
 			capital = 253 
 		
 			own_control_core = 	{
-				253 251 254 268 10197 264 10198 10202
+				253 251 254 268 10197 264 10198 10202 10246 250 
 			} 
 		
 		}
@@ -10928,7 +10928,7 @@ country = {
 			capital = 245
 
 			own_control_core = 	{
-				245 248 10245 10246 250 249 324 244 247 
+				245 248 10245 249 324 244 247 
 			}
 
 			treasures = { 896 }
@@ -11035,7 +11035,7 @@ country = {
 
 			own_control_core = 	{
 				1789 1790 1833 1834 1838 1839 1840 1845 1846 #pontus_colopene_region
-				1791 1792 1819 1821 1822 1823 1824 1826 1831 1837 #pontus_region
+				1791 1792 1819 1821 1822 1823 1824 1837 #pontus_region
 				1786 1787 1801 7994 7998 7999 1804
 				#GotN New
 				10299 10312 1788 10185 10312 10187 10313 10298 10315
@@ -11054,7 +11054,6 @@ country = {
 				198 199 200 201 232 1829 1827 1828 #paphlagonia_superior_region
 				216 #heracleotis_region
 				211 #paphlagonia_inferior_region
-				203
 				# GotN New
 				10318 10309 10186 10182 218 213 10178
 			}

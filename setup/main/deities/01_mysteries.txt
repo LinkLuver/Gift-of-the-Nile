@@ -249,7 +249,7 @@ deity_manager = {
 		}
 		30541 = {
 			key = omen_apollo_borvo
-			deity = apollo_borvo
+			deity = deity_apollo_borvo
 		}
 	}
 }

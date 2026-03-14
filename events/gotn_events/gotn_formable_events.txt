@@ -319,8 +319,8 @@ gotn_formable_event.5 = { # Return of the Cimmerians
             tag = SEL
             tag = ADI
             tag = CM1
-            tag = CM1
-			tag = CM5
+            #tag = CM1
+			#tag = CM5
 			tag = CM3
 			tag = CIM
         }
