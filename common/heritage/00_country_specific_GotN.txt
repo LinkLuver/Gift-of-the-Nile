@@ -9585,4 +9585,19 @@ comana_cappadocia_heritage = {
         tag = KAP
     }
 }
+
+poseidonia_heritage = {
+	modifier = {
+		#good
+		cultural_integration_speed_modifier = 0.25
+		happiness_for_same_religion_modifier = 0.05
+		
+		#bad
+		global_defensive = -0.10
+    }
+		
+    trigger = {
+		tag = PSD
+	}
+}
     

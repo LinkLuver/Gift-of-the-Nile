@@ -4828,7 +4828,7 @@ country = {
 		}
 
 		ANO = {
-			government = plutocratic_republic
+			government = oligarchic_republic
 			diplomatic_stance=trading_stance
 			primary_culture = illyriote
 			religion = roman_pantheon
@@ -4870,7 +4870,7 @@ country = {
 		}
 
 		HPO = {
-			government = plutocratic_republic
+			government = oligarchic_republic
 			diplomatic_stance=trading_stance
 			primary_culture = italiotian
 			religion = roman_pantheon
@@ -5126,10 +5126,10 @@ country = {
 		#Italiot League (Croton, Thurii, Metapontum, Rhegium, Herakleia, Hipponium)#
 
 		MET = {
-			government = plutocratic_republic
+			government = oligarchic_republic
 			diplomatic_stance=trading_stance
 			primary_culture = italiotian
-			religion = roman_pantheon
+			religion = isis_religion
 
 			capital = 55
 
@@ -5174,7 +5174,7 @@ country = {
 		}
 
 		THU = {
-			government = plutocratic_republic
+			government = oligarchic_republic
 			diplomatic_stance=trading_stance
 			primary_culture = italiotian
 			religion = roman_pantheon
@@ -5196,7 +5196,7 @@ country = {
 
 
 		HCL = {
-			government = plutocratic_republic
+			government = oligarchic_republic
 			diplomatic_stance=trading_stance
 			primary_culture = italiotian
 			religion = roman_pantheon
@@ -5217,7 +5217,7 @@ country = {
 		}
 
 		CRO = {
-			government = plutocratic_republic
+			government = pythagorean_theocracy
 			diplomatic_stance=trading_stance
 			primary_culture = italiotian
 			religion = isis_religion
@@ -5239,7 +5239,7 @@ country = {
 		}
 
 		LOC = {
-			government = plutocratic_republic
+			government = oligarchic_republic
 			primary_culture = italiotian
 			religion = isis_religion
 
@@ -5267,7 +5267,7 @@ country = {
 		}
 
 		RHG = {
-			government = plutocratic_republic
+			government = oligarchic_republic
 			diplomatic_stance=trading_stance
 			primary_culture = italiotian
 			religion = isis_religion
@@ -9107,7 +9107,7 @@ country = {
 			capital = 4106
 
 			own_control_core = 	{
-				4106 4103
+				4106 4103 4102
 			}
 		}
 
@@ -9768,7 +9768,7 @@ country = {
 			treasures = { 75 85 }
 
 			own_control_core = 	{
-				419 421 425 464 467 474 476 3192 415 2213 2336 4090 4091 455 4089 1144 4058 4057 4059
+				419 421 425 464 467 474 476 3192 415 2213 2336 4090 455 4089 1144 4058 4057 4059
 			}
 
 		}
@@ -14146,10 +14146,10 @@ country = {
 		}
 
 		ELE = {
-			government = plutocratic_republic
+			government = oligarchic_republic
 			diplomatic_stance=trading_stance
 			primary_culture = italiotian
-			religion = roman_pantheon
+			religion = isis_religion
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -14463,7 +14463,7 @@ country = {
 			capital = 4085
 
 			own_control_core = 	{
-				4085 4082 4088
+				4085 4082 4088 4091 
 			}
 		}
 
@@ -16636,7 +16636,7 @@ country = {
 		}
 
 		PSD = {
-			government = plutocratic_republic
+			government = oligarchic_republic
 			primary_culture = italiotian
 			religion = roman_pantheon
 			capital = 11
