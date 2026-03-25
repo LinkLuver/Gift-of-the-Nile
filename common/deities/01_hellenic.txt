@@ -83,6 +83,9 @@ deity_heracles = {
 			common_deity_trigger = {
 				RELIGION = herakles_religion
 			}
+			common_deity_trigger = {
+				RELIGION = gallo_hellenic
+			}
 			deity:omen_heracles = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -2005,6 +2008,9 @@ deity_orpheus = { # CULTURE
 			}
 			common_deity_trigger = {
 				RELIGION = herakles_religion
+			}
+			common_deity_trigger = {
+				RELIGION = gallo_hellenic
 			}
 		}
 	}

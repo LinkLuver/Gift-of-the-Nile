@@ -189,6 +189,9 @@ deity_cernunnos = {
 			rare_deity_trigger = {
 				RELIGION = druidism
 			}
+			rare_deity_trigger = {
+				RELIGION = gallo_hellenic
+			}
 			deity:omen_cernunnos = {
 				holy_site_deity_check_trigger = yes
 			}

@@ -188,20 +188,25 @@
 		amount=5
 	}
 	freemen={
-		amount=4
+		amount=2
+	}
+	freemen={
+		amount=2
+		religion="herakles_religion"
 	}
 	slaves={
 		culture="ligurian"
+		religion="herakles_religion"
 		amount=1
 	}
 	tribesmen={
 		culture="volcae"
-		religion="druidism"
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
 		culture="salluvian"
-		religion="druidism"
+		religion="gallo_hellenic"
 		amount=2
 	}
 }
@@ -366,11 +371,15 @@
 	}
 	freemen={
 		culture="massalian"
-		religion="roman_pantheon"
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
-		amount=6
+		amount=4
+	}
+	tribesmen={
+		amount=2
+		religion="gallo_hellenic"
 	}
 }
 
@@ -487,7 +496,7 @@
 2301={ #Lugdunum
 	terrain="plains"
 	culture="allobrogian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="cloth"
 	civilization_value=22
 	barbarian_power=0
@@ -552,6 +561,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=2
 	}
 	tribesmen={
@@ -562,7 +572,7 @@
 2304={ #Vienna
 	terrain="plains"
 	culture="allobrogian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="vegetables"
 	civilization_value=11
 	barbarian_power=0
@@ -603,10 +613,16 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		culture="massalian"
+		religion="gallo_hellenic"
+		amount=1
+	}
+	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 	slaves={
 		culture="salluvian"
@@ -623,6 +639,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=3
 	}
 	tribesmen={
@@ -867,17 +884,21 @@
 		amount=3
 	}
 	freemen={
-		amount=4
+		amount=2
+	}
+	freemen={
+		amount=2
+		religion="gallo_hellenic"
 	}
 	freemen={
 		culture="arverni"
-		religion="druidism"
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
 		culture="salluvian"
 		religion="druidism"
-		amount=3
+		amount=4
 	}
 	slaves={
 		culture="volcae"
@@ -1006,7 +1027,15 @@
 		amount=1
 	}
 	freemen={
-		amount=9
+		amount=2
+	}
+	freemen={
+		amount=2
+		religion="herakles_religion"
+	}
+	freemen={
+		amount=5
+		religion="gallo_hellenic"
 	}
 	freemen={
 		culture="ionian"
@@ -1018,7 +1047,7 @@
 	}
 	slaves={
 		culture="salluvian"
-		religion="druidism"
+		religion="gallo_hellenic"
 		amount=2
 	}
 	tribesmen={
@@ -1060,6 +1089,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
@@ -1131,11 +1161,15 @@
 	culture="salluvian"
 	religion="gallo_hellenic"
 	trade_goods="cattle"
-	civilization_value=11
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		culture="massalian"
+		amount=2
+	}
+	citizen={
+		amount=1
 	}
 	freemen={
 		amount=4
@@ -1153,13 +1187,14 @@
 	culture="salluvian"
 	religion="gallo_hellenic"
 	trade_goods="horses"
-	civilization_value=11
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=3
 	}
 	freemen={
+		culture="massalian"
 		amount=1
 	}
 	slaves={
@@ -1197,9 +1232,13 @@
 	culture="salluvian"
 	religion="gallo_hellenic"
 	trade_goods="wine"
-	civilization_value=9
+	civilization_value=12
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="massalian"
+		amount=1
+	}
 	citizen={
 		amount=2
 	}
@@ -1213,11 +1252,15 @@
 	culture="salluvian"
 	religion="gallo_hellenic"
 	trade_goods="fur"
-	civilization_value=9
+	civilization_value=12
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		culture="massalian"
+		amount=2
+	}
+	citizen={
+		amount=1
 	}
 	freemen={
 		amount=1
@@ -1503,7 +1546,7 @@
 	}
 }
 
-3541={ #Agathum
+3541={ #Agathom
 	terrain="forest"
 	culture="ligurian"
 	religion="gallo_hellenic"
@@ -1534,7 +1577,7 @@
 	}
 }
 
-3542={ #Matauon
+3542={ #Matavo
 	terrain="forest"
 	culture="salluvian"
 	religion="gallo_hellenic"
@@ -1543,6 +1586,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="massalian"
 		amount=2
 	}
 	freemen={
@@ -1570,7 +1614,11 @@
 		amount=4
 	}
 	freemen={
-		amount=4
+		amount=2
+	}
+	freemen={
+		amount=2
+		religion="herakles_religion"
 	}
 	slaves={
 		culture="salluvian"
@@ -1578,7 +1626,7 @@
 	}
 	tribesmen={
 		culture="ligurian"
-		religion="druidism"
+		religion="gallo_hellenic"
 		amount=3
 	}
 	port_building=1

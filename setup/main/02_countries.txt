@@ -6217,7 +6217,7 @@ country = {
 			own_control_core = 	{
 				2325 3543 2260 3517 3540 2323 2319 2318 2313 2256 2257
 				##GoTN Evil Massalia
-				2259 2258 1079 2314 2315 2312 3521 3523 3542 
+				2259 2258 1079 2314 2315 2312 3523 
 
 			}
 
@@ -7322,13 +7322,13 @@ country = {
 		ABC = {
 			government = tribal_kingdom
 			primary_culture = salluvian
-			religion = gallo_hellenism
+			religion = gallo_hellenic
 			centralization=30
 
 			capital = 3518
 
 			own_control_core = 	{
-				3518 3520 2324 3522 3541
+				3518 3520 2324 3522 3541 3521 3542
 			}
 		}
 
@@ -7377,10 +7377,9 @@ country = {
 		}
 
 		HVI = {
-			government = tribal_kingdom
+			government = gaul_princely_state
 			primary_culture = salluvian
 			religion = gallo_hellenic
-			centralization=30
 
 			capital = 2311
 
@@ -7429,10 +7428,9 @@ country = {
 		}
 
 		ALL = {
-			government = tribal_kingdom
+			government = gaul_princely_state
 			primary_culture = allobrogian
-			religion = druidism
-			centralization=10
+			religion = gallo_hellenic
 
 			capital = 2304
 
@@ -7460,7 +7458,7 @@ country = {
 			own_control_core = 	{
 				2284 2298 2299 2371 2373 2375 2300 1719 2342 2376 2374 2372 2370
 				2301 2302 2364 2356 2357 3622 3626 2282 2287 2327 2329 2328 2338 2339
-				2344 2340 2404 2330 2341 2331 2283 2378 2343 2332 3307 1721 2337 2346
+				2344 2340 2404 2330 2341 2331 2283 2378 2343 2332 3307 1721 2337
 				3627 3628 2355 2361 2359 2358
 				2367 2366 2365 2286 2291 2333 2380 2369 2360 2348 2362
 				2234 2292 2326 2335
@@ -7604,18 +7602,18 @@ country = {
  			}
 		}
 
-		LMV = {
-			government = tribal_kingdom
-			primary_culture = arverni
-			religion = druidism
-			centralization=10
-
-			capital = 2379
-
-			own_control_core = 	{
-			 	2379 2382 2383
- 			}
-		}
+		#LMV = {
+		#	government = tribal_kingdom
+		#	primary_culture = arverni
+		#	religion = druidism
+		#	centralization=10
+		#
+		#	capital = 2379
+		#
+		#	own_control_core = 	{
+		#	 	2379 2382 2383
+ 		#	}
+		#}
 
 		SNT = {
 			government = tribal_kingdom
@@ -7849,7 +7847,7 @@ country = {
 			capital = 2347
 
 			own_control_core = 	{
-				2347 2368 2412 2414 2416 2408 2407 2411 2406 2410 2409 2377 2381 
+				2347 2368 2412 2414 2416 2408 2407 2411 2406 2410 2409 2377 2381 2379 2382 2383 2405 2346
 			}
 		}
 
@@ -7862,7 +7860,7 @@ country = {
 			capital = 2394
 
 			own_control_core = 	{
-				2394 2395 2421 2423 2349 2420 2419 2405 2422
+				2394 2395 2421 2423 2349 2420 2419 2422
 			}
 		}
 
@@ -14187,7 +14185,7 @@ country = {
 		HEM = {
 			government = oligarchic_republic
 			primary_culture = syracusan
-			religion = roman_pantheon
+			religion = herakles_religion
 
 			technology={
 				military_tech={ level=2 progress=0 }

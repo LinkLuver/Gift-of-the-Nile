@@ -255,6 +255,12 @@ deity_isis_demeter = {
 				common_deity_trigger = {
 					RELIGION = isis_religion
 				}
+				common_deity_trigger = {
+					RELIGION = herakles_religion
+				}
+				common_deity_trigger = {
+					RELIGION = gallo_hellenic
+				}
 				deity:omen_isis_demeter = {
 					holy_site_deity_check_trigger = yes
 				}

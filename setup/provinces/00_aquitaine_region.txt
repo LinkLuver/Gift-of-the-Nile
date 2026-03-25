@@ -147,6 +147,7 @@
 	}
 	freemen={
 		amount=1
+		religion="gallo_hellenic"
 	}
 	slaves={
 		culture="pictonian"
@@ -198,6 +199,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
@@ -279,17 +281,17 @@
 	}
 	freemen={
 		culture="biturigan"
-		religion="druidism"
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
 		culture="biturigan"
-		religion="druidism"
+		religion="gallo_hellenic"
 		amount=3
 	}
 	slaves={
 		culture="santonian"
-		religion="druidism"
+		religion="gallo_hellenic"
 		amount=1
 	}
 	port_building=1
@@ -1000,7 +1002,7 @@
 2326={ #Decaniacum
 	terrain="plains"
 	culture="santonian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="wine"
 	civilization_value=16
 	barbarian_power=0
@@ -1162,7 +1164,7 @@
 2335={ #Marcelliago
 	terrain="plains"
 	culture="santonian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="grain"
 	civilization_value=16
 	barbarian_power=0

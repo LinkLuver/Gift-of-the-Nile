@@ -1,0 +1,163 @@
+﻿# Gallo-Hellenic
+deity_apollo_grannus = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = gallo_hellenic
+			}
+			deity:omen_apollo_grannus = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_manpower_modifier = deity_global_manpower_modifier_svalue }
+	omen = { happiness_for_same_religion_modifier = deity_happiness_for_same_religion_modifier } #Bonus from Omen
+	religion = gallo_hellenic
+	deity_category = war #This Deity uses a War slot.
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		military_apotheosis_capital_freemen_effect = yes
+	}
+}
+
+deity_epona = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = gallo_hellenic
+			}
+			rare_deity_trigger = {
+				RELIGION = heraklean_religion
+			}
+			deity:omen_epona = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
+	omen = { stability_monthly_change = omen_stability_monthly_change_svalue } #Bonus from Omen
+	religion = gallo_hellenic
+	deity_category = culture #This Deity uses a Culture Slot
+
+	on_activate = {
+		economy_apotheosis_capital_citizens_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_sulis_athena = { # Athena-Sulis (copy of Minerva-Sulis lmao)
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = gallo_hellenic
+			}
+			deity:omen_sulis_athena = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
+	omen = { global_citizen_happyness = omen_global_citizen_happiness_svalue } #Bonus from Omen
+	religion = gallo_hellenic
+	deity_category = fertility #This Deity uses a Fertility Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+}
+
+deity_lenus_ares = { #Lenos-Ares
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = gallo_hellenic
+			}
+			deity:omen_lenus_ares = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_tribal_war
+	passive_modifier = { spearmen_defensive = 0.10 }
+	omen = { global_freemen_output = omen_global_freemen_output_svalue } #Bonus from Omen
+	religion = gallo_hellenic
+	deity_category = war #This Deity uses a War Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+}
+
+deity_hermes_cissonius = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = gallo_hellenic
+			}
+			deity:omen_hermes_cissonius = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_tribal_wealth
+	passive_modifier = { global_freemen_happyness = deity_global_freemen_happyness_svalue }
+	omen = { global_commerce_modifier = omen_global_commerce_modifier_svalue } #Bonus from Omen
+	religion = gallo_hellenic
+	deity_category = economy #This Deity uses an Economy Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		economy_income_effect = yes
+	}
+}
+
+deity_dirona = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = gallo_hellenic
+			}
+			deity:omen_dirona = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	passive_modifier = { global_monthly_civilization = deity_global_monthly_civilization_svalue }
+	icon = deity_eloquence
+	omen = { global_population_growth = deity_global_population_growth_svalue } #Bonus from Omen
+	religion = gallo_hellenic
+	deity_category = culture #This Deity uses a Culture Slot
+
+	on_activate = {
+		economy_apotheosis_capital_noble_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}

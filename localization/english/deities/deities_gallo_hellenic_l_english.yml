@@ -1,0 +1,28 @@
+﻿l_english:
+ #Gallo-Hellenic
+
+ deity_apollo_grannus:0 "$omen_apollo_grannus$"
+ omen_apollo_grannus:1 "Apollo Grannus"
+ omen_apollo_grannus_desc:3 "#Y Gallo-Hellenic Epithet#! \n$apollo_description$\n\n#Y Grannus#!: Grannus is a Celtic deity associated with healing, especially around the many hot springs in Gaul. It is because of this association that the god is correlated to Apollo. Apollo-Grannus is commonly worshipped alongside another deity associated with healing and hot springs, Dirona."
+
+ deity_sulis_athena:0 "$omen_sulis_athena$"
+ omen_sulis_athena:1 "Athena Sulis"
+ omen_sulis_athena_desc:3 "#Y Gallo-Hellenic Epithet#! \n$athena_description$\n\n#Y Sulis#!: Sulis is a local goddess of the thermal springs in southern $britain_region$, partly as a mother goddess figure and partly as a ward against curses. Even people from afar have started traveling to the springs to offer up their prayers to the goddess, asking for help against curses that might have afflicted them.\n\nAs a result of contact with Britannia via trade, this deity has found a place amongst the Gallo-Hellenics, who equate her with the Greek $omen_athena$."
+
+ deity_lenus_ares:0 "$omen_lenus_ares$"
+ omen_lenus_ares:1 "Lenos Ares"
+ omen_lenus_ares_desc:3 "#Y Gallo-Hellenic Epithet#! \n$ares_description$\n\n#Y Lenus#!: a god worshipped by the Treveri, who is associated with healing, good fortune, and defense in battle. Curiously, unlike other syncretic epithets, this god is always depicted as 'Lenos Ares', rather than 'Ares Lenos', as one would expect. Perhaps this is due to the Gallic nature of the god being more prevalent than the Hellenic $omen_ares$."
+
+ deity_hermes_cissonius:0 "$omen_hermes_cissonius$"
+ omen_hermes_cissonius:1 "Hermes Cissonius"
+ omen_hermes_cissonius_desc:3 "#Y Gallo-Hellenic Epithet#! \n$hermes_description$\n\n#Y Cissonius#!: Cissonius is a god of travellers and trade for many of the tribes in Gaul and Brittania, unique and quite different to the many war-like and healing deities that are usually venerated in these lands. He is usually depicted as an older man riding a ram and drinking wine, and seen as an equivalent to the Greek Hermes."
+
+ deity_epona:0 "$omen_epona$"
+ omen_epona:1 "Epona"
+ omen_epona_desc:3 "#Y Gallo-Hellenic God#! \nEpona (the 'Great Mare') is a goddess of horses and ponies, popular in eastern and northeastern Gaul. She embodies the domesticated aspects of the horse- fertility, abundance, and protection. A common practice is to place altars dedicated to her in horse stables."
+
+ deity_dirona:0 "$omen_dirona$"
+ omen_dirona:1 "Dirona"
+ omen_dirona_desc:3 "#Y Gallo-Hellenic God#! \nDirona or Sirona, as she is sometimes referred to, is a goddess who is depicted and worshipped alongside Apollo. She is a deity of healing, growth, and the stars. Dirona is shown wearing a long robe and a diadem, perhaps a symbol as a consort of Apollo. She can be conflated with the Greek Hygaia, another consort of Apollo, but she maintains a distinctly Celtic nature."
+ 
+

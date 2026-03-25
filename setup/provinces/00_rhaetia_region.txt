@@ -300,9 +300,11 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	slaves={
@@ -335,6 +337,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	slaves={
@@ -351,9 +354,11 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	slaves={
@@ -367,7 +372,7 @@
 3625={ #Equestris
 	terrain="hills"
 	culture="helvetian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="stone"
 	civilization_value=19
 	barbarian_power=0
@@ -458,7 +463,7 @@
 3629={ #Lausonna
 	terrain="hills"
 	culture="helvetian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="stone"
 	civilization_value=22
 	barbarian_power=0
@@ -494,6 +499,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=2
 	}
 	tribesmen={
@@ -516,11 +522,12 @@
 		amount=2
 	}
 	freemen={
+		religion="gallo_hellenic"
 		amount=2
 	}
 	freemen={
 		culture="massalian"
-		religion="roman_pantheon"
+		religion="gallo_hellenic"
 		amount=1
 	}
 	slaves={

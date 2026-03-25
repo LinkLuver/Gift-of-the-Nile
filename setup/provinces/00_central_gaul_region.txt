@@ -149,6 +149,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=2
 	}
 	tribesmen={
@@ -159,7 +160,7 @@
 2358={ #Lunna
 	terrain="plains"
 	culture="haedui"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="marble"
 	civilization_value=16
 	barbarian_power=0
@@ -181,6 +182,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
@@ -250,7 +252,7 @@
 2363={ #Pons Ariola
 	terrain="forest"
 	culture="haedui"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="grain"
 	civilization_value=16
 	barbarian_power=0
@@ -442,7 +444,7 @@
 	}
 	freemen={
 		culture="massalian"
-		religion="roman_pantheon"
+		religion="gallo_hellenic"
 		amount=3
 	}
 	slaves={
@@ -450,6 +452,7 @@
 	}
 	slaves={
 		culture="allobrogian"
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
@@ -852,8 +855,8 @@
 	}
 	freemen={
 		culture="massalian"
-		religion="roman_pantheon"
-		amount=1
+		religion="gallo_hellenic"
+		amount=2
 	}
 	slaves={
 		amount=2
@@ -1059,8 +1062,8 @@
 	}
 	freemen={
 		culture="massalian"
-		religion="roman_pantheon"
-		amount=1
+		religion="gallo_hellenic"
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -1103,11 +1106,15 @@
 	}
 	freemen={
 		culture="massalian"
-		religion="roman_pantheon"
-		amount=1
+		religion="gallo_hellenic"
+		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=6
+	}
+	tribesmen={
+		amount=2
+		religion="gallo_hellenic"
 	}
 }
 
@@ -1283,6 +1290,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
