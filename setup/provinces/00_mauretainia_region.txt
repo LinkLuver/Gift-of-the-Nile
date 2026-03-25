@@ -722,7 +722,7 @@
 3092={ #Portus Divinus
 	terrain="plains"
 	culture="ionian"
-	religion="roman_pantheon"
+	religion="herakles_religion"
 	trade_goods="fish"
 	civilization_value=26
 	barbarian_power=0
@@ -786,7 +786,7 @@
 3095={ #Portus Magnus
 	terrain="plains"
 	culture="atlosian"
-	religion="roman_pantheon"
+	religion="herakles_religion"
 	trade_goods="base_metals"
 	civilization_value=31
 	barbarian_power=0

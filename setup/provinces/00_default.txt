@@ -251,7 +251,7 @@
 5022={ #Alpes Maritimae
 	terrain="impassable_terrain"
 	culture="salluvian"
-	religion="roman_pantheon"
+	religion="gallo_hellenic"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -481,7 +481,7 @@
 5045={ #
 	terrain="impassable_terrain"
 	culture="helvetian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -521,7 +521,7 @@
 5049={ #
 	terrain="impassable_terrain"
 	culture="volcae"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -531,7 +531,7 @@
 5050={ #
 	terrain="impassable_terrain"
 	culture="volcae"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0

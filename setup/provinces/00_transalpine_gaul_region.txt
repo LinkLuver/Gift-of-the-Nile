@@ -1,7 +1,7 @@
 ﻿1079={ #Ad Vicensi
 	terrain="plains"
 	culture="volcae"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="olive"
 	civilization_value=11
 	barbarian_power=0
@@ -69,7 +69,7 @@
 2255={ #Carcasso
 	terrain="plains"
 	culture="volcae"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="precious_metals"
 	civilization_value=11
 	barbarian_power=0
@@ -85,7 +85,7 @@
 2256={ #Narbon
 	terrain="plains"
 	culture="massalian"
-	religion="roman_pantheon"
+	religion="gallo_hellenic"
 	trade_goods="stone"
 	civilization_value=24
 	barbarian_power=0
@@ -114,7 +114,7 @@
 2257={ #Rhouskinon
 	terrain="plains"
 	culture="massalian"
-	religion="roman_pantheon"
+	religion="gallo_hellenic"
 	trade_goods="fish"
 	civilization_value=24
 	barbarian_power=0
@@ -142,7 +142,7 @@
 2258={ #Usuerva
 	terrain="plains"
 	culture="volcae"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="marble"
 	civilization_value=11
 	barbarian_power=0
@@ -209,7 +209,7 @@
 2261={ #Luteva
 	terrain="forest"
 	culture="volcae"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="base_metals"
 	civilization_value=9
 	barbarian_power=0
@@ -228,7 +228,7 @@
 2262={ #Segodunum
 	terrain="forest"
 	culture="volcae"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="stone"
 	civilization_value=9
 	barbarian_power=0
@@ -247,7 +247,7 @@
 2263={ #Albiga
 	terrain="forest"
 	culture="volcae"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="cattle"
 	civilization_value=9
 	barbarian_power=0
@@ -263,7 +263,7 @@
 2265={ #Tolosa
 	terrain="plains"
 	culture="volcae"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="earthware"
 	civilization_value=11
 	barbarian_power=0
@@ -301,7 +301,7 @@
 2267={ #Elusio
 	terrain="hills"
 	culture="volcae"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="cattle"
 	civilization_value=9
 	barbarian_power=0
@@ -317,7 +317,7 @@
 2268={ #Carantomagus
 	terrain="forest"
 	culture="santonian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="horses"
 	civilization_value=9
 	barbarian_power=0
@@ -337,7 +337,7 @@
 2280={ #Marinavas
 	terrain="plains"
 	culture="santonian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="fur"
 	civilization_value=11
 	barbarian_power=0
@@ -377,7 +377,7 @@
 2285={ #Gabalum
 	terrain="forest"
 	culture="volcae"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="marble"
 	civilization_value=9
 	barbarian_power=0
@@ -416,7 +416,7 @@
 2295={ #Ad Silanum
 	terrain="forest"
 	culture="volcae"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="stone"
 	civilization_value=9
 	barbarian_power=0
@@ -451,7 +451,7 @@
 2297={ #Cebennia
 	terrain="forest"
 	culture="volcae"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="base_metals"
 	civilization_value=9
 	barbarian_power=0
@@ -633,7 +633,7 @@
 2308={ #Valentia
 	terrain="plains"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="vegetables"
 	civilization_value=11
 	barbarian_power=0
@@ -656,7 +656,7 @@
 2309={ #Batiana
 	terrain="plains"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="fur"
 	civilization_value=11
 	barbarian_power=0
@@ -672,7 +672,7 @@
 2310={ #Cerebelliaca
 	terrain="plains"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="fur"
 	civilization_value=11
 	barbarian_power=0
@@ -688,7 +688,7 @@
 2311={ #Alba Helviorum
 	terrain="hills"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="marble"
 	civilization_value=9
 	barbarian_power=0
@@ -710,7 +710,7 @@
 2312={ #Andusia
 	terrain="hills"
 	culture="volcae"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="cattle"
 	civilization_value=9
 	barbarian_power=0
@@ -754,7 +754,7 @@
 2314={ #Nemausos
 	terrain="plains"
 	culture="massalian"
-	religion="roman_pantheon"
+	religion="gallo_hellenic"
 	trade_goods="grain"
 	civilization_value=24
 	barbarian_power=0
@@ -779,7 +779,7 @@
 2315={ #Briginnum
 	terrain="plains"
 	culture="volcae"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="cattle"
 	civilization_value=11
 	barbarian_power=0
@@ -795,7 +795,7 @@
 2316={ #Staturnae
 	terrain="hills"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="precious_metals"
 	civilization_value=9
 	barbarian_power=0
@@ -821,7 +821,7 @@
 2317={ #Ucetia
 	terrain="plains"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="base_metals"
 	civilization_value=11
 	barbarian_power=0
@@ -892,7 +892,7 @@
 2320={ #Arausio
 	terrain="farmland"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="cattle"
 	civilization_value=13
 	barbarian_power=0
@@ -911,7 +911,7 @@
 2321={ #Avennio
 	terrain="farmland"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="cloth"
 	civilization_value=13
 	barbarian_power=0
@@ -928,7 +928,7 @@
 2322={ #Carpentorate
 	terrain="farmland"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="feathers"
 	civilization_value=13
 	barbarian_power=0
@@ -965,7 +965,7 @@
 2324={ #Vulgientium
 	terrain="plains"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="cattle"
 	civilization_value=11
 	barbarian_power=0
@@ -1086,7 +1086,7 @@
 3309={ #Canniaco
 	terrain="forest"
 	culture="volcae"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="wine"
 	civilization_value=9
 	barbarian_power=0
@@ -1129,7 +1129,7 @@
 3518={ #Griselica
 	terrain="plains"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="cattle"
 	civilization_value=11
 	barbarian_power=0
@@ -1151,7 +1151,7 @@
 3519={ #Vasio
 	terrain="plains"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="horses"
 	civilization_value=11
 	barbarian_power=0
@@ -1173,7 +1173,7 @@
 3520={ #Segustero
 	terrain="forest"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="horses"
 	civilization_value=9
 	barbarian_power=0
@@ -1195,7 +1195,7 @@
 3521={ #Tegulata
 	terrain="forest"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="wine"
 	civilization_value=9
 	barbarian_power=0
@@ -1211,7 +1211,7 @@
 3522={ #Sanitium
 	terrain="hills"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="fur"
 	civilization_value=9
 	barbarian_power=0
@@ -1230,7 +1230,7 @@
 3523={ #Sextios
 	terrain="plains"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="wine"
 	civilization_value=11
 	barbarian_power=0
@@ -1249,7 +1249,7 @@
 3524={ #Vappincum
 	terrain="forest"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="cattle"
 	civilization_value=9
 	barbarian_power=0
@@ -1268,7 +1268,7 @@
 3525={ #Vocontiorum
 	terrain="hills"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="leather"
 	civilization_value=9
 	barbarian_power=0
@@ -1287,7 +1287,7 @@
 3526={ #Darentiaca
 	terrain="hills"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="stone"
 	civilization_value=9
 	barbarian_power=0
@@ -1309,7 +1309,7 @@
 3527={ #Vologatae
 	terrain="farmland"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="hemp"
 	civilization_value=18
 	barbarian_power=0
@@ -1336,7 +1336,7 @@
 3528={ #Mons Seleucus
 	terrain="plains"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="horses"
 	civilization_value=11
 	barbarian_power=0
@@ -1355,7 +1355,7 @@
 3529={ #Rigomagus
 	terrain="forest"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="cattle"
 	civilization_value=9
 	barbarian_power=0
@@ -1416,7 +1416,7 @@
 3533={ #Murissa
 	terrain="hills"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="leather"
 	civilization_value=9
 	barbarian_power=0
@@ -1506,7 +1506,7 @@
 3541={ #Agathum
 	terrain="forest"
 	culture="ligurian"
-	religion="roman_pantheon"
+	religion="gallo_hellenic"
 	trade_goods="fish"
 	civilization_value=19
 	barbarian_power=0
@@ -1537,7 +1537,7 @@
 3542={ #Matauon
 	terrain="forest"
 	culture="salluvian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="wine"
 	civilization_value=9
 	barbarian_power=0

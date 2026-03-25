@@ -196,7 +196,7 @@ diplomacy = {
 
 
 	#Massalian League
-	dependency = { first = MAS second = OXB subject_type = feudatory }
+	dependency = { first = MAS second = ABC subject_type = feudatory }
 
 	#Emporion-Indiketia
 	dependency = { first = EPO second = IDK subject_type = tributary }

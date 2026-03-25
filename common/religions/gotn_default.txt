@@ -305,7 +305,7 @@ pyrrhonism = { # Skeptic
 	sacrifice_icon = sacrifice_incense
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
-herakles_religion = { # Heraklean
+herakles_religion = { # Heraklean / Western Orphic
 	color = rgb { 154 28 68 }
 	modifier = { 
 		global_manpower_modifier = 0.10
@@ -316,4 +316,13 @@ herakles_religion = { # Heraklean
 	can_deify_ruler = yes
 	sacrifice_icon = sacrifice_incense
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+gallo_hellenic = { # Gallo-Hellenism
+	color = rgb { 68 128 122 }
+	modifier = { 
+		happiness_for_same_religion_modifier = 0.05
+		country_civilization_value = 3
+		monthly_wage_modifier = 0.05
+	}
+	religion_category = pantheon
 }

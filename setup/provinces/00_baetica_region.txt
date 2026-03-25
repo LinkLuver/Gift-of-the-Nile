@@ -595,7 +595,7 @@
 1347={ #Bailo
 	terrain="plains"
 	culture="atlosian"
-	religion="roman_pantheon"
+	religion="herakles_religion"
 	trade_goods="fruits"
 	civilization_value=27
 	barbarian_power=0
@@ -1116,7 +1116,7 @@
 1366={ #Maynaqa
 	terrain="hills"
 	culture="bastetanian"
-	religion="animism"
+	religion="herakles_religion"
 	trade_goods="fish"
 	civilization_value=24
 	barbarian_power=0

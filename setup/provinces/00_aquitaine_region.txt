@@ -570,7 +570,7 @@
 2269={ #Divona
 	terrain="plains"
 	culture="santonian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="grain"
 	civilization_value=11
 	barbarian_power=0
@@ -589,7 +589,7 @@
 2270={ #Aginnum
 	terrain="plains"
 	culture="santonian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="grain"
 	civilization_value=11
 	barbarian_power=0
@@ -612,7 +612,7 @@
 2271={ #Lactora
 	terrain="plains"
 	culture="aquitani"
-	religion="pre_indo_european_religion"
+	religion="gallo_hellenic"
 	trade_goods="wine"
 	civilization_value=11
 	barbarian_power=0
@@ -635,7 +635,7 @@
 2272={ #Cossium
 	terrain="forest"
 	culture="aquitani"
-	religion="pre_indo_european_religion"
+	religion="gallo_hellenic"
 	trade_goods="fur"
 	civilization_value=9
 	barbarian_power=0
@@ -657,7 +657,7 @@
 2273={ #Eleusa
 	terrain="plains"
 	culture="aquitani"
-	religion="pre_indo_european_religion"
+	religion="gallo_hellenic"
 	trade_goods="cloth"
 	civilization_value=11
 	barbarian_power=0
@@ -692,7 +692,7 @@
 2275={ #Elimberrum
 	terrain="plains"
 	culture="aquitani"
-	religion="pre_indo_european_religion"
+	religion="gallo_hellenic"
 	trade_goods="vegetables"
 	civilization_value=11
 	barbarian_power=0
@@ -741,7 +741,7 @@
 2278={ #Casinomagus
 	terrain="plains"
 	culture="aquitani"
-	religion="pre_indo_european_religion"
+	religion="gallo_hellenic"
 	trade_goods="stone"
 	civilization_value=11
 	barbarian_power=0
@@ -757,7 +757,7 @@
 2279={ #Sarnali
 	terrain="plains"
 	culture="aquitani"
-	religion="pre_indo_european_religion"
+	religion="gallo_hellenic"
 	trade_goods="wine"
 	civilization_value=11
 	barbarian_power=0
@@ -780,7 +780,7 @@
 2281={ #Ussubium
 	terrain="plains"
 	culture="aquitani"
-	religion="pre_indo_european_religion"
+	religion="gallo_hellenic"
 	trade_goods="cattle"
 	civilization_value=11
 	barbarian_power=0
@@ -857,7 +857,7 @@
 2288={ #Praemiacum
 	terrain="forest"
 	culture="aquitani"
-	religion="pre_indo_european_religion"
+	religion="gallo_hellenic"
 	trade_goods="fur"
 	civilization_value=9
 	barbarian_power=0
@@ -876,7 +876,7 @@
 2289={ #Lucaniacum
 	terrain="plains"
 	culture="santonian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="wine"
 	civilization_value=22
 	barbarian_power=0
@@ -948,7 +948,7 @@
 2292={ #Pompegiaco
 	terrain="plains"
 	culture="santonian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="cattle"
 	civilization_value=16
 	barbarian_power=0
@@ -964,7 +964,7 @@
 2293={ #Excisum
 	terrain="plains"
 	culture="santonian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="wine"
 	civilization_value=11
 	barbarian_power=0
@@ -980,7 +980,7 @@
 2294={ #Travectus
 	terrain="plains"
 	culture="santonian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="horses"
 	civilization_value=16
 	barbarian_power=0

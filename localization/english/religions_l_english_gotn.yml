@@ -88,6 +88,9 @@
  herakles_religion:0 "Heraklean"
  desc_herakles_religion:0 "A sect of Orphism, the Herakleans primarily worship Herakles, holding him in the highest regard amongst the gods. With the exception of the Athenians, the Herakleans are the only group that venerate Prometheus, and unique to them, Atlas. They maintain that after Herakles freed Prometheus and Atlas from their respective punishments, they endowed Herakles with divine wisdom, enabling him to complete his further tasks and eventually ascend to godhood. The devotees of Herakles participate in the Mysteries of Herakles, a crucial part to their religion. Heraklean also incorporates many Canaanite, Amazigh, and Iberic beliefs."
 
+ gallo_hellenic:0 "Gallo-Hellenic"
+ desc_gallo_hellenic:0 "Gallo-Hellenism is a syncretism of Hellenic and Gallic practices and beliefs, brought about by sustained contact in the Massalian south, and carried north by trade. Epona, an equestrian deity, Apollo-Grannus, and Athena-Sulis are major deities in this syncretic pantheon."
+
 
  # Conversions
 
@@ -161,6 +164,9 @@
 
  convert_to_herakles_religion:0 "Adopt Heraklean Beliefs"
  convert_to_herakles_religion_desc:0 "placeholder"
+
+ convert_to_gallo_hellenic:0 "Adopt Gallo-Hellenic Beliefs"
+ convert_to_gallo_hellenic_desc:0 "placeholder"
 
 
  # Egyptian Religious Flavor

@@ -7322,27 +7322,27 @@ country = {
 		ABC = {
 			government = tribal_kingdom
 			primary_culture = salluvian
-			religion = druidism
-			centralization=10
+			religion = gallo_hellenism
+			centralization=30
 
 			capital = 3518
 
 			own_control_core = 	{
-				3518 3520 2324 3522
+				3518 3520 2324 3522 3541
 			}
 		}
 
-		OXB = {
-			government = oligarchic_republic
-			primary_culture = ligurian
-			religion = roman_pantheon
-			
-			capital = 3541
-
-			own_control_core = 	{
-				3541
-			}
-		}
+		#OXB = {
+		#	government = oligarchic_republic
+		#	primary_culture = ligurian
+		#	religion = roman_pantheon
+		#	
+		#	capital = 3541
+		#
+		#	own_control_core = 	{
+		#		3541
+		#	}
+		#}
 
 		CTR = {
 			government = tribal_kingdom
@@ -7360,7 +7360,7 @@ country = {
 		VOC = {
 			government = gaul_princely_state
 			primary_culture = salluvian
-			religion = druidism
+			religion = gallo_hellenic
 			
 			capital = 3519
 
@@ -7379,8 +7379,8 @@ country = {
 		HVI = {
 			government = tribal_kingdom
 			primary_culture = salluvian
-			religion = druidism
-			centralization=10
+			religion = gallo_hellenic
+			centralization=30
 
 			capital = 2311
 
@@ -7463,21 +7463,20 @@ country = {
 				2344 2340 2404 2330 2341 2331 2283 2378 2343 2332 3307 1721 2337 2346
 				3627 3628 2355 2361 2359 2358
 				2367 2366 2365 2286 2291 2333 2380 2369 2360 2348 2362
-				2234 2289 2294 2292 2326 2335
+				2234 2292 2326 2335
 
 			}
 		}
 
 		NTB = {
-			government = tribal_kingdom
+			government = gaul_princely_state
 			primary_culture = santonian
-			religion = druidism
-			centralization=10
+			religion = gallo_hellenic
 
 			capital = 2270
 
 			own_control_core = 	{
-				2270 2269 2268 2280 2293
+				2270 2269 2268 2280 2293 2294
 			}
 		}
 
@@ -7495,9 +7494,9 @@ country = {
 		}
 
 		ASC = {
-			government = tribal_kingdom
+			government = gaul_princely_state
 			primary_culture = aquitani
-			religion = pre_indo_european_religion
+			religion = gallo_hellenic
 			centralization=10
 
 			capital = 2275
@@ -7534,15 +7533,14 @@ country = {
 		}
 
 		VCT = {
-			government = tribal_kingdom
+			government = gaul_princely_state
 			primary_culture = aquitani
-			religion = pre_indo_european_religion
-			centralization=10
+			religion = gallo_hellenic
 
 			capital = 2272
 
 			own_control_core = 	{
-				2288 2272 2281
+				2288 2272 2281 2289
  			}
 		}
 
@@ -7713,7 +7711,7 @@ country = {
 		VRB = {
 			government = gaul_princely_state
 			primary_culture = helvetian
-			religion = druidism
+			religion = gallo_hellenic
 
 			capital = 3629
 

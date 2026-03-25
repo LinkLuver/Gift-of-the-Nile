@@ -33,6 +33,7 @@ deity_melqart = {
 			religion = berber_religion
 			religion = nuragic_pantheon
 			religion = animism
+			religion = herakles_religion
 			religion_pops_in_country = {
 				target = carthaginian_pantheon
 				value >= very_common_deity_svalue
