@@ -1162,6 +1162,9 @@ deity_apollo_borvo = {
 			common_deity_trigger = {
 				RELIGION = herakles_religion
 			}
+			common_deity_trigger = {
+				RELIGION = gallo_hellenic
+			}
 			deity:omen_apollo_borvo = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -1179,5 +1182,32 @@ deity_apollo_borvo = {
 
 	on_activate = {
 		economy_income_effect = yes
+	}
+}
+
+deity_prometheus_zagreus = { 
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = herakles_religion
+			}
+			deity:omen_prometheus_zagreus = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+
+	passive_modifier = { global_monthly_civilization = omen_global_monthly_civilization_svalue }
+	omen = { global_freemen_output = 0.1 }
+	religion = herakles_religion
+	deity_category = culture #This Deity uses a Culture slot.
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	on_activate = {
+		culture_apotheosis_civic_tech_effect = yes
 	}
 }

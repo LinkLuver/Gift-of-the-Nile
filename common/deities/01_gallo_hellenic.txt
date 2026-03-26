@@ -161,3 +161,31 @@ deity_dirona = {
 		can_deify_trigger = yes
 	}
 }
+
+deity_ritona = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = gallo_hellenic
+			}
+			deity:omen_ritona = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	passive_modifier = { happiness_for_same_culture_modifier = deity_happiness_for_same_culture_modifier_svalue }
+	icon = deity_eloquence
+	omen = { build_cost = omen_build_cost_svalue } #Bonus from Omen
+	religion = gallo_hellenic
+	deity_category = culture #This Deity uses a Culture Slot
+
+	on_activate = {
+		economy_apotheosis_capital_noble_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+

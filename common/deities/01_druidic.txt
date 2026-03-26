@@ -85,6 +85,9 @@ deity_rosmerta = {
 			rare_deity_trigger = {
 				RELIGION = druidism
 			}
+			common_deity_trigger = {
+				RELIGION = gallo_hellenic
+			}
 			deity:omen_rosmerta = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -243,6 +246,9 @@ deity_nantosuelta = {
 		OR = {
 			rare_deity_trigger = {
 				RELIGION = druidism
+			}
+			rare_deity_trigger = {
+				RELIGION = gallo_hellenic
 			}
 			deity:omen_nantosuelta = {
 				holy_site_deity_check_trigger = yes
@@ -425,6 +431,9 @@ deity_sucellus = {
 		polytheistic_check_religion_trigger = yes
 		rare_deity_trigger = {
 			RELIGION = druidism
+		}
+		rare_deity_trigger = {
+			RELIGION = gallo_hellenic
 		}
 		OR = {
 			tag = AED

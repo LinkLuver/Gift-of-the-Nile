@@ -13,11 +13,31 @@
 		add_zeal=6
 		no_traits=yes
 		add_gold=100
-		add_popularity=60
+		add_popularity=30
 		add_trait= "cruel"
+		add_trait="ambitious"
 		c:MAS={
 			set_as_ruler=char:257
 		}
 		dna="LeEt4Yp7invHr8evAnQCdAJ8AnwCdAJ0AoUChQKXApcCaQJpAmcCZwKEAoQCdwJ3Ao4CjgJzAnMCigKKApICkgKIAogCfAJ8AnwCfAKNAo0BXQFdAo4CjgKOAo4CeQJ5AnACcAJ5AnkCcgJyACsAKwJrAmsCggKCAncCdwKJAokCcgJyAosCiwKIAogCbgJuAnwCfAKUApQCkwKTAoMCgwJnAmcCdwJ3AoQChAKNAo0DsAOwAnwCfAKVApUARwBHAVMBUwKIAogCmAKYAm0CbQS4BLgCjAKMAoACgAKMAowCcAJwApQClAE9AT0AIAAgAScBJwEoASgARQBFAusC6wEGAQYAIwAjAAcABwAoACgAAQABATABMAAAAAAAcgByAI8AjwFWAVYA6wDrADgAOABHAEcABAAEAWwBbAAAAAAAWgBaAL4AvgELAQsBZwFnATYBNgFnAWcAUQBRACcAJwArACsBDgEOAU4BTgCNAI0F4wXjAAAAAARMBEwFyQXJAHsAewWdBZ0CcQJxAvYC9gAAAAAAAAAAAAAAAA=="
+	}
+	687={
+		first_name="Nikomedes" #not napoleon
+		family_name="Kyrnosid"
+		birth_date=419.8.15
+		culture="massalian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=10
+		add_charisma=6
+		add_finesse=6
+		add_zeal=6
+		no_traits=yes
+		add_gold=100
+		add_popularity=70
+		add_trait= "tactician"
+		add_trait= "inferiority_complex"
+		add_trait="ambitious"
+		dna = "CP1hzIuGi4a2+rb6Am4CbgKMAowChQKFAnACcAKZApkCbQJtApQClAJ3AncCbQJtBOAE4AJ3AncExQTFAnUCdQJxAnEChQKFAosCiwTLBMsCmAKYAowCjAJ8AnwCjAKMAnQCdAJyAnICjwKPAngCeAJ6AnoDsQOxAnACcAJvAm8ClAKUAnACigJ+An4CXwJxAU4BTgJ9An0CZgJmAmcCZwKOAo4DqAOoAnsCewJzAnMCggKCAnwCfAJ0AnQClQKVAnsCewJxAnECdQJ1AngCeAJ6AnoCewJ7AnkCeQKKAooCjQKNA5kDmQJcAlwBRAFEAF8AXwD2APYCnAF5ArUCtQEjAVIC/QL9ALwAvAL/Av8BCQEJAS8BLwB/AH8BagFqAE8ATwDJAMkAuAC4ADUANQBxAHEAvQC9ABYAFgB/AH8AHQAdANUA1QCuAK4A6wDrAUoBSgB0AHQC0gLSAwADAABNAE0DBgMGAJAAkAFvAW8CuAXZAH8AfwRTBFMF+QWvAI8AjwUUBfACAgIiAtYCNAAAAAAAAAAAAAAAAA=="
 	}
 }

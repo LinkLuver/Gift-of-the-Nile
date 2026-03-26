@@ -251,5 +251,9 @@ deity_manager = {
 			key = omen_apollo_borvo
 			deity = deity_apollo_borvo
 		}
+		30542 = {
+			key = omen_prometheus_zagreus
+			deity = deity_prometheus_zagreus
+		}
 	}
 }
