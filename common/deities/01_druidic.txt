@@ -140,6 +140,9 @@ deity_gobannus = {
 			rare_deity_trigger = {
 				RELIGION = druidism
 			}
+			rare_deity_trigger = {
+				RELIGION = gallo_hellenic
+			}
 			deity:omen_gobannus = {
 				holy_site_deity_check_trigger = yes
 			}

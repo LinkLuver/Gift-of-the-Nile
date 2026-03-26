@@ -2183,11 +2183,6 @@ deity_prometheus = {  # Make sure can be used by colchians!!!!
 		}
 		has_variable = deity_unlocked_prometheus
 		primary_culture = colchian
-		OR = {
-			very_common_deity_trigger = {
-				RELIGION = heraklean_religion
-			}
-		}
 	}
 	icon = deity_greek_culture
 

@@ -89,7 +89,6 @@ diplomacy = {
 
 	#Arvernian Sphere
 	dependency = { first = AVN second = ADC subject_type = feudatory }
-	dependency = { first = AVN second = LMV subject_type = feudatory }
 	dependency = { first = AVN second = ALL subject_type = tributary }
 	dependency = { first = AVN second = SQI subject_type = feudatory }
 	dependency = { first = AVN second = VRB subject_type = tributary }

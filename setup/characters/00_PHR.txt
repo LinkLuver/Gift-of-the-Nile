@@ -1,0 +1,24 @@
+﻿"PHR"={
+	country="PHR"
+	688={
+		first_name="Adrastus"
+		family_name="Gordid"
+		birth_date=408.10.3
+		culture="phrygian"
+		religion="anatolian_religion"
+		no_stats=yes
+		add_martial=6
+		add_charisma=5
+		add_finesse=6
+		add_zeal=4
+		no_traits=yes
+		add_trait="reclusive"
+		add_trait="patient"
+		add_gold=400
+		add_popularity=65
+		c:PHR={
+			set_as_ruler=char:688
+		}
+		dna = "Iu0i7Zaclpzh0OHQAncCdwJ1AnUDqwOrAosCiwKDAoMCggKCApcClwKYApgChQKFAmwCbAKGAoYCkwKTApkCmQJ7AnsChwKHAmYCZgJrAmsClwKXAm8CbwJ1AnUCiAKIAm0CbQJ8AnwCcAJwAVgBWAKDAoMChgKGAnsCewKYApgCfgJ+AnYCdgKBAoECbAJsAncCdwBEAEQCgAKAAm0CbQFRAVEClAKUAowCjATMBMwCfgJ+AmYCZgOeA54CiQKJAmwCbAFSAVIBYgFiAoACgAKLAosCaAJoAmwCbAJxAnECmQKZAVABUAJCAkIAEAAQAJYAlgFLAUsAxADEAAAAAAB2AHYAIQAhAJYAlgDWANYAtAC0AJ4AngB/AH8AywDLAsUCxQEHAQcBcgFyAXwBfAEnAScA/wD/ACIAIgB/AH8A/wD/AR8BHwD4APgCwwLDAXoBegFdAV0AtwC3A1wDXADkAOQBCQEJAysDKwMoAygHxADEAH8AfwUlBSUFtQXRAdwB1APqA2ICIgIiAZ8BnwAAAAAAAAAAAAAAAA=="
+	}
+}

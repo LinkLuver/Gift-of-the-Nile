@@ -402,12 +402,18 @@ gotn_events.12 = { # Languishing Lydia
     
     option = {
         name = "gotn_events_12.a"
+        c:LYD = {
+            trigger_event = {
+                id = gotn_events.13
+                days = { 10 30 }
+            }
+        }
         if = {
             limit = {
                 tag = PAP
             }
             trigger_event = {
-                id = gotn_events.12
+                id = greece_events.12
                 days = { 30 60 }
             }
         }
@@ -420,7 +426,7 @@ gotn_events.13 = { # Economic Disaster
     title = "gotn_events_13_title"
     desc = "gotn_events_13_desc"
     picture = hk_sumerian_court
-
+    fire_only_once = yes
     immediate = {
         random_country= {
             limit = {
@@ -442,11 +448,6 @@ gotn_events.13 = { # Economic Disaster
             trigger_event = {
                 id = greece_events.1
                 days = { 15 30 }
-            }
-        }
-        c:PAP={
-            trigger_event = {
-                id = greece
             }
         }
     }

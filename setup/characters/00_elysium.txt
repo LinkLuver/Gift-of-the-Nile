@@ -553,7 +553,7 @@
 		death_date=415.3.10
 		female=yes
 		culture="lydian"
-		religion="anatolian_pantheon"
+		religion="anatolian_religion"
 		no_stats=yes
 		add_martial=6
 		add_charisma=6
@@ -1029,5 +1029,42 @@
 		add_trait="midas_touched"
 		add_trait="obessive_perfectionist"
 		add_trait="blood_of_croesus"
+	}
+}
+"Elysium_ELE"={ #Elea
+	country="ELE"
+	685={
+		first_name="Parmenides" #Parmenides, father of the Eleatic school of philosophy
+		family_name="Piresias"
+		birth_date=239.1.1
+		death_date=309.1.1
+		culture="italiotian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=4
+		add_charisma=4
+		add_finesse=7
+		add_zeal=4
+		no_traits=yes
+		add_trait="wise"
+		add_trait="intelligent"
+		
+	}
+	686={ 
+		first_name="Zeno" #Zeno of Elea
+		family_name="Zenon"
+		birth_date=264.1.1
+		death_date=324.1.1
+		culture="italiotian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=5
+		add_charisma=8
+		add_finesse=8
+		add_zeal=3
+		no_traits=yes
+		add_trait="two_faced"
+		add_trait="intelligent"
+		add_trait="stubborn"
 	}
 }

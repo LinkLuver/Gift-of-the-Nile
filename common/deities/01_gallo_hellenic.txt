@@ -33,9 +33,6 @@ deity_epona = {
 			rare_deity_trigger = {
 				RELIGION = gallo_hellenic
 			}
-			rare_deity_trigger = {
-				RELIGION = heraklean_religion
-			}
 			deity:omen_epona = {
 				holy_site_deity_check_trigger = yes
 			}

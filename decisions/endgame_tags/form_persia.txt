@@ -7,8 +7,8 @@
 			num_of_cities >= 1
 			OR = {
 				country_culture_group = persia
-				country_culture_group = caucasian
-				country_culture_group = anatolian
+				#country_culture_group = caucasian
+				#country_culture_group = anatolian
 			}
 			NOT = {
 				tag = PER
