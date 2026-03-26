@@ -499,6 +499,27 @@
 			}
 		}
 		if = {
+			limit = { tag = PAP }
+			trigger_event = {
+				id = greece_events.12
+				days = { 10 30 }
+			}
+		}
+		if = {
+			limit = { tag = CLA }
+			trigger_event = {
+				id = italy_events.2
+				days = 10
+			}
+		}
+		if = {
+			limit = { tag = INU }
+			trigger_event = {
+				id = italy_events.4
+				days = { 10 30 }
+			}
+		}
+		if = {
 			limit = {
 				OR = {
 					rank = local_power

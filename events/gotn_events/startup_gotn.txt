@@ -408,15 +408,6 @@ gotn_events.12 = { # Languishing Lydia
                 days = { 10 30 }
             }
         }
-        if = {
-            limit = {
-                tag = PAP
-            }
-            trigger_event = {
-                id = greece_events.12
-                days = { 30 60 }
-            }
-        }
     }
 }
 
@@ -703,6 +694,7 @@ gotn_events.20 = { # Sicily Event
     right_portrait = c:INU.current_ruler
 
     trigger = {
+        is_ai = no
         OR = {
             tag = SYR
             tag = SY1
@@ -722,18 +714,6 @@ gotn_events.20 = { # Sicily Event
 
     option = {
         name = "gotn_events_20.a"
-        c:INU= {
-                trigger_event = {
-                id = italy_events.4
-                days = { 10 30 }
-            }
-        }
-            c:CLA = {
-            trigger_event = {
-            id = italy_events.2
-            days = 10
-            }
-        }
     }
 }
 

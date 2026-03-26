@@ -12,10 +12,6 @@
 				country_culture_group = adivasi
 				country_culture_group = aryan
 				country_culture_group = pracyan
-				any_country_culture = {
-					is_integrated = yes
-					is_indian_culture = yes
-				}
 				capital_scope = {
 					city_is_in_india_trigger = yes
 				}
@@ -67,10 +63,6 @@
 				country_culture_group = adivasi
 				country_culture_group = aryan
 				country_culture_group = pracyan
-				any_country_culture = {
-					is_integrated = yes
-					is_indian_culture = yes
-				}
 				capital_scope = {
 					city_is_in_india_trigger = yes
 				}

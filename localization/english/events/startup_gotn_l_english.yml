@@ -37,10 +37,10 @@
  gotn_events_12.a:0 "Who will kill the aging lion?"
 
  gotn_events_13_title:0 "Disaster!"
- gotn_events_13_desc:0 "'My lord, word has reached us of utter chaos in our lands. Our treasuries have run nearly dry-we are simply out of gold. And the currency we do have, is nearly worthless! Even the currency of the #Y Paphlagonian#! dogs is worth more than us!.' The young king #Y Adrastus#! simply leaned forward on his throne, placing his hand on his chin. After a period of deliberation, he answered thus:'I must do everything in my power to save us from this disaster. Debase the currency, mine more gold, melt the royal armaments down! And send a message to the #Y Athenians#!, requesting a trade deal.'"
+ gotn_events_13_desc:0 "Once the eminent power over all of Anatolia, the [GetCountry('LYD').GetName] has suffered a gradual decline. A succession of incompetent kings, internal struggle, and poorly planned wars have brought this mighty nation on her knees. A young king, [GetCharacter('(int32)680').GetName] now finds himself at the helm of a sinking ship.\n\nAcross the whole kingdom, brigands run amuck. Farmers find themselves being ransacked at knifepoint. Lydian merchants are constantly harassed by pirates. The borderlands of Paphlagonia and Phrygia are rampant with strife. And worst of all, the once plentiful coffers of [GetProvince('(int32)292').GetName] are nearly depleted. If the [GetCountry('LYD').GetName] is to survive, drastic measures must be taken."
  gotn_events_13.a:0 "If only #Y Croesus#! could see his kingdom now..."
- lydia_economy_1_tt:0 "#Y An#! #R Economic Crisis#! has occured. This modifier can only be removed by #G restoring#! #Y Lydian#! power via the mission tree, lest you suffer a miserable end. #Y (This content has not been added yet)#!"
- lydian_economic_disaster:0 "Economic Crisis"
+ lydia_economy_1_tt:0 "If you do not stabilize Lydia's position before the untimely death of #Y Kukas II#!, the Lydian kingdom will be divided up amongst her neighbors."
+ lydian_economic_disaster:0 "Lydian Crisis"
 
  gotn_events_14_title:0 "Alexandrine Ambitions"
  gotn_events_14_desc:0 "#E #Y Macedon#!#!\nThe campaigns of #E Alexander#! have brought much wealth and glory to #E Macedon#!. It is a shining example of a #E Greek#! kingdom, a land of prosperity and peace. But even so, peace may not last forever, for #E Macedon's#! enemies are numerous. The #E Korinthians#! and #E Potideans#! are clearly in league with each other, as they seek to undermine #E Macedonian#! influence and power. A weakning #E Lydia#! lies ready for the taking. The #E Thracians#!, in their dark forests, have begun to stir. The ancient #E Paeonians#! grow restless. To the north lies the #E Dardanians#!, a rising power who may come to oppose us. The uncertain #E Taulantians#! and #E Epirotes#! cannot be trusted. Even #E Macedon's#! allies- #E Thessaly#!, #E Cardia#!, and #E Argos#!, all have ambitions of their own, ambitions which may conflict with #E Alexander's#!. The disunited states of the #E Greeks#! need to be united, by the spear, or by the scroll."
@@ -236,10 +236,10 @@
  greece_events_10.c:0 "Thebes has surpassed all petty Greek states. A new, Theban Empire is to be proclaimed!"
  theban_excellence:0 "Theban excellence"
  THEBAN_IMPERIUM:0 "Theban Empire"
- greece_events_12_title:0 "Lydian Weakness"
- greece_events_12_desc:0 "Word has reached us of the weakness of the #Y Lydian#! regime. Their coffers are empty, their king, complacent, and their people grow unruly. Ten years ago, we tried to free ourselves from the #Y Lydian#! yoke, with little sucess. But perhaps this time, they may find themselves occupied elsewhere..."
- greece_events_12.a:0 "No longer shall we heed the authority of Sardeis."
- greece_events_12.b:0 "Are we fools? Our time will come, if only we wait."
+ greece_events_12_title:0 "The Lydian Puppet"
+ greece_events_12_desc:0 "After the failed rebellion nearly 20 years ago, [ROOT.GetCountry.GetName] has been under the firm control of puppet kings appointed by the [GetCountry('LYD').GetName]. [GetCharacter('(int32)625').GetName] is the latest of these highly unpopular pretender kings.\n\nOutside of the royal palace at [GetProvince('(int32)198').GetName], a throng of extremely armed and angry men gather. Their leader is [GetCharacter('(int32)624').GetName], a man who has fashioned himself as the rightful king of [ROOT.GetCountry.GetName]."
+ greece_events_12.a:0 "Death to the usurper!"
+ greece_events_12.b:0 "Guards!"
  lydia_defection_tooltip:0 "This could lead to #R war#! with #Y Lydia#!."
 
  #Italy Events

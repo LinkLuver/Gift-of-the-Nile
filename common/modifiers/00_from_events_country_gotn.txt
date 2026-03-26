@@ -68,10 +68,10 @@ lydian_dissent = {
 }
 lydian_economic_disaster = {
     global_commerce_modifier = -0.15
-    global_tax_modifier = -0.10
-    build_cost = 0.10
-    stability_monthly_change = -0.03
-    subject_loyalty = -25
+    global_tax_modifier = -0.15
+    build_cost = 0.15
+    stability_monthly_change = -0.05
+    subject_loyalty = -30
 }
 lydian_athenian_trade = {
     global_commerce_modifier = 0.10
@@ -115,4 +115,9 @@ repurposed_ruins = {
 italic_tribal_wisdom = {
     global_tribesmen_output = 0.10
     global_tribesmen_happyness = 0.10
+}
+pap_unrest = {
+    global_tribesmen_happyness = -0.10
+    global_freemen_happyness = -0.10
+    global_unrest = 0.50
 }

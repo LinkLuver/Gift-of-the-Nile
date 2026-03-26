@@ -17,14 +17,12 @@
 		add_trait="blood_of_pylaemenes"
 		add_gold=200
 		add_popularity=100
-		c:PAP = {
-			set_as_ruler=char:624
-		}
+		save_scope_as = pap_pylaemenes_ii
 		dna = "AfUB9aycrJyBdIF0AWIBYgJ5AnkCigKKAm0CbQOfA58CbQJtAogCiAKUApQCjAKMAoICggJrAmsClgKWAnICcgFgAWAAMAAwA64DrgKJAokCfwJ/A7IDsgJ0AnQCfAJ8AoQChAJ0AnQCZgJmAoMCgwOdA50E2wTbAnICcgKFAoUCkAKQAoICggKJAokCjQKNAoMCgwKJAokCjQKNAV8BXwKUApQCZwJnAoUChQJrAmsCbQJtA6gDqABWAFYDmwObAmoCagKEAoQChAKEAocChwKfAp8CcwJzAVYBVgORA6ECfwJ/ACgAKAI9AkEAfQB9AAsACwAWABYAMQAxAuEC4QFFAUUA6ADoAsUC6gBIAEgBQwFDAFgAWAB/AH8AhQCFAHAAcAFZAVkBXQFdAXoBegEjASMDzQPNAIYAhgERAH8AngCeAKgAqAAZABkAtQC1AUIBQgD9AP0BCgEKA0wDTAAYABgCiwKLAUABQAA9AD0CkQiRANsAfwWLBYsGSwYJAeEB2wOKA4oELAQeAf8CmwAAAAAAAAAAAAAAAA=="
 	}
 	625={
 		first_name="Bartaras"
-		last_name="Artashid"
+		family_name="Artashid"
 		birth_date=410.6.6
 		culture="lydian"
 		religion="anatolian_religion"
@@ -37,6 +35,11 @@
 		add_trait="coward"
 		add_trait="miserly"
 		add_gold=800
+		c:PAP = {
+			set_as_ruler=char:625
+		}
 		add_popularity=0
+		save_scope_as = pap_lydian_puppet_scope
+		dna = "Ev8S/5Kfkp/P68/rADQANAKIAogCagJqAVMBUwKZApkCeAJ4ApMCkwOqA6oCfQJ9AnECcQKVApUBaQFpApUClQOiA6ICaQJpA6cDpwJqAmoCbAJsAmkCaQJ0AnQCiQKJAnUCdQKOAo4ClgKWAVEBUQKQApACawJrApkCmQFhAWEClQKVAosCiwJrAmsClgKWAoQChAKSApICeAJ4AooCigJqAmoCkQKRAm4CbgJ2AnYCdAJ0AoMCgwKBAoEDrAOsApYClgKEAoQCbwJvAn4CfgKmAqYChAKEA4IDggKJAokDsgOyAoMCgwJ7AnsBCQEJANkA2QK6AroA3ADcAK0ArQDnAOcBPwE/AMQAxACAAIAAVABUAEIAQgB/AH8AzQDNARsBGwFiAWIA4gDiAVEBUQE9AT0D1QPVANQA1AB/AH8CxwLHAJUAlQFMAUwA1wDXANsA2wCAAIABewF7Aw8DDwBjAGMBNAE0AMoAygMWAxYEXwF0AH8AfwXqBeoFPgU+AcUBpQXkBeQEZARkASoBKgAAAAAAAAAAAAAAAA=="
 	}
 }

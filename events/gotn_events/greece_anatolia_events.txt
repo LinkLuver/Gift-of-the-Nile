@@ -460,26 +460,36 @@ greece_events.12 = { # Paphlagonia Refusing Lydian Yoke
     option = {
         name = "greece_events_12.a"
 		custom_tooltip = lydia_defection_tooltip
+		#scope:current_ruler_character = { I did this wrong- fix later
+		#	death = { 
+		#		death_reason = death_execution
+		#		killer = pap_pylaemenes_ii
+		#	}
+		#}
 		c:LYD = {
 			release_subject = c:PAP
 		}
 		ai_chance = {
 			factor = 100
 		}
-		current_ruler = {
-			add_popularity = 20
+		c:PAP = {
+			set_as_ruler=char:624
 		}
 	}
 	option = {
         name = "greece_events_12.b"
 		c:LYD = {
 			trigger_event = {
-				id = greece_events.9
+				id = greece_events.13
 				days = 5
 			}
 		}
+		add_country_modifier = {
+			name = pap_unrest
+			duration = 3650
+		}
 		current_ruler = {
-			add_popularity = -20
+			add_trait = loyal
 		}
 	}
 }
@@ -498,8 +508,7 @@ greece_events.13 = { # Lydia recieves word of Paphlagonian insubordination
 
     option = {
         name = "greece_events_13.a"
-		custom_tooltip = lydia_defection_tooltip
-		c:PAP = {
+		c:PAP = { #war
 			declare_war_with_wargoal = {
 				war_goal = conquer_wargoal
 				province = p:200
@@ -514,7 +523,7 @@ greece_events.13 = { # Lydia recieves word of Paphlagonian insubordination
 			factor = 10
 		}
 	}
-	option = {
+	option = { #Bide your time
         name = "greece_events_12.b"
 		current_ruler = {
 			add_trait = patient
@@ -524,7 +533,7 @@ greece_events.13 = { # Lydia recieves word of Paphlagonian insubordination
 			factor = 90
 		}
 	}
-	option = {
+	option = { 
         name = "greece_events_12.c"
 		c:SNP = {
 			trigger_event = {
@@ -552,5 +561,39 @@ greece_events.14 = { # War Declared on Paphlagonia
     option = {
         name = "greece_events_14.a"
 		add_political_influence = 20
+	}
+}
+greece_events.15 = { # Lydian Puppet Stays in Power
+    
+	trigger = {
+		OR = {
+			tag = PAP
+		}
+	}
+    type = country_event
+    title = "greece_events_15_title"
+    desc = "greece_events_15_desc"
+    picture = interesting_histories_hellenic_town_man
+	left_portrait = current_ruler
+    right_portrait = c:PAP.current_ruler
+
+    option = {
+        name = "greece_events_15.a"
+		c:PAP = {
+			add_country_modifier = {
+				name = loyal_to_overlord
+				duration = 3650
+			}
+		}
+		add_opinion = {
+			modifier = opinion_loyal_subject
+			target = c:LYD
+		}
+		if = {
+			limit = { tag = LYD }
+			current_ruler = {
+				add_friend = C:PAP.current_ruler
+			}
+		}
 	}
 }
