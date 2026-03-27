@@ -512,8 +512,8 @@ diplomacy = {
 	#dependency = { first = PRY second = MLO subject_type = tributary } # Miletos
 	#dependency = { first = PRY second = HKS subject_type = tributary } # Halikarnassos
 
-	#Nasamones
-	dependency = { first = NAS second = PSY subject_type = tributary } #Psylli
+	#Macaean
+	dependency = { first = MKA second = PSY subject_type = tributary } #Psylli
 
 	#Budini
 	dependency = { first = BDI second = GLO subject_type = tributary } #Gelonia

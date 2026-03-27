@@ -318,7 +318,7 @@ country = {
 			}
 
 			own_control_core = {
-				5525 5523 5528 5545 5527
+				5525 5523 5528 5545 5527 5514
 			}
 		}
 
@@ -467,7 +467,7 @@ country = {
 			}
 
 			own_control_core = {
-				544 540 541 538 543 542 9879 9909 9921 8121 9880 9911 9912 9819 9914 9920 9917 9910 9905 9919 9882 9918 9883 9820 9913 5535 9881
+				544 540 541 538 543 542 9879 9909 9921 8121 9880 9911 9912 9819 9914 9920 9917 9910 9905 9919 9882 9918 9883 9820 9913 5535 
 			}
 			is_antagonist = yes
 		}
@@ -514,7 +514,7 @@ country = {
 			}
 
 			own_control_core = {
-				516 531 453 445 5514
+				516 531 453 445
 			}
 		}
 
@@ -537,7 +537,7 @@ country = {
 			}
 
 			own_control_core = {
-				520 528 526 9846
+				520 528 526
 			}
 		}
 
@@ -583,7 +583,7 @@ country = {
 			}
 
 			own_control_core = {
-				515 527 10321 10322
+				515 527
 			}
 		}
 
@@ -606,7 +606,7 @@ country = {
 			}
 
 			own_control_core = {
-				521 522 9855 9854 9853 9849
+				521 522
 			}
 		}
 
@@ -675,7 +675,7 @@ country = {
 			}
 
 			own_control_core = {
-				504 513 9823 9860
+				504 513
 			}
 		}
 
@@ -698,7 +698,7 @@ country = {
 			}
 
 			own_control_core = {
-				534 7689 9859 9858 9857
+				534 7689
 			}
 		}
 
@@ -721,7 +721,7 @@ country = {
 			}
 
 			own_control_core = {
-				518 533 7691 523 9850
+				518 533 7691 523
 			}
 		}
 
@@ -767,7 +767,7 @@ country = {
 			}
 
 			own_control_core = {
-				508 510 7690 7688 524 9864 9865 9866 9863 9862 9825 9861
+				508 510 7690 7688 524
 			}
 		}
 
@@ -790,7 +790,7 @@ country = {
 			}
 
 			own_control_core = {
-				511 655 525 502 9875 9873 9872
+				511 655 525 502
 			}
 		}
 
@@ -836,7 +836,7 @@ country = {
 			}
 
 			own_control_core = {
-				501 507 7668 9871
+				501 507 7668
 			}
 		}
 
@@ -860,7 +860,7 @@ country = {
 			}
 
 			own_control_core = {
-				500 9907 9878 9908 537 5549 536 9906 9869 9870
+				500 9907 9878 9908 537 5549 536 
 			}
 		}
 
@@ -1700,6 +1700,10 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 
+			historical_regnal_numbers = {
+				Gordias = 2
+				Midas = 1
+			}
 			capital = 189
 
 			own_control_core = {
@@ -5522,7 +5526,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				3116 3118
+				3116 3118 3120
 			}
 
 		}
@@ -5584,7 +5588,7 @@ country = {
 			primary_culture = massylian
 			religion = berber_religion
 			capital = 3086
-			succession_law = elective_succesion_law
+			succession_law=elective_succession_law
 
 			poptype_rights = {
 				{
@@ -5606,22 +5610,16 @@ country = {
 				3115 3119 3117 3114 3113 3143
 				3135 3141 3142 3132 3136 3131 3137 3130 3129 3128 3127 3133 3134 3139 3140
 				3086 3288 3289
-				3146 3147 3148 3149 3151 3156 3157 3158 3159 3162 3163 3164 3165 3166 3167
-				3177 3178 3179 3180 3181 3182 3183 3184 3203 3204
-				3206 3207 3213 3215 3217 3218 3219 3220 3221 3223 3224 3228 3231 3232 3233 3355
-				3234 3269 3268 3275
+				3146 3147 3148 3149 3157 3158 3162 3163 3164 3165 3166 3167
+			  	3180 3181
+				3217 3218 3220 3221 3223 3224 3228 3231 3232 3233 3355
+				3269 3268 3275
 				3208 3205 3198 3209 3246 3210 3197 3247 3214 3237 3216 3235 3248 3201 3199 3194 3195
 				3161 3160 3145 3238 3212 3273 3236 3200 3239 3211
 				3270 3241 3240 3242 3272 3274
 				3279 3286 3282 3281 3283 3287 3285
 				3230 3229 3264 3265 3267 3271
 				3126 3144
-				3190 3191 3196 3202 3290 #mauretania_occidentalis?
-				8251 8252 8253 8254 8255 8256 8257 #tritonia
-				3152 3155 3153 3154 3172 3173 3171 3169 3170 3174 3176 #gaetulia_occidentalis
-				3168 3185 3187 3188 3186 3193 3189 #gaetulia_centralis
-				8376 8377 8378 8379 8380 8381 8382 8383 8384 8385 8386 #Jedi
-				8366 8367 8368 8369 8370 8371 8372 8373 8374 8375 #SaharanAtlas
 			}
 		}
 
@@ -5770,20 +5768,16 @@ country = {
 		}
 
 		MSY = {
-			government = punic_republic
-			primary_culture = carthaginian
-			religion = carthaginian_pantheon
-			capital = 3108
-
-			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
-			}
+			government = tribal_federation
+			primary_culture = massylian
+			religion = berber_religion
+			capital = 3183
+			centralization=40
 
 			own_control_core = 	{
-				3108
+				3151 3156 3177 3179 3182 3167 3184 3183 3178 3177 3159 3158 3157 3167 3184 3166 3181 3165 
+				3219 3215 3207 3206 3204 3203 3213 3219
+				
 			}
 		}
 
@@ -5859,7 +5853,7 @@ country = {
 
 			own_control_core = 	{
 				3360 3341 3343 3342 3344 3345 3346 3348 3350 3352 3353 3354 3358 
-				3340
+				3340 3361 3357 3359 3362 3363 3364 3365 3366 3367 3339 3338
 			}
 
 			treasures = { 48 }
@@ -5872,24 +5866,24 @@ country = {
 			}
 		}
 
-		LBU = {
-			government = tribal_kingdom
-			primary_culture = libyan
-			religion = amun_religion
-
-			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
-			}
-
-			capital = 3357
-
-			own_control_core = {
-				3347 3349 3351 3357 3359 3362 3361 3363 3364 3365 3366 3367
-			}
-		}
+		#LBU = {
+		#	government = tribal_kingdom
+		#	primary_culture = libyan
+		#	religion = amun_religion
+		#
+		#	technology={
+		#		military_tech={ level=1 progress=0 }
+			#	civic_tech={ level=1 progress=0 }
+		#		oratory_tech={ level=1 progress=0 }
+		#		religious_tech= { level=1 progress=0  }
+		#	}
+		#
+		#	capital = 3357
+		#
+		#	own_control_core = {
+		#		3347 3349 3351 3357 3359 3362 3361 3363 3364 3365 3366 3367
+		#	}
+		#}
 
 		NAS = {
 			government = tribal_federation
@@ -5908,6 +5902,7 @@ country = {
 			own_control_core = {
 				8125 8126 8127 8128 8129 8131 8132 8133 #nasamonia
 				8136 8137 8138 8139 #syrtis
+				3347 3349 3351 3345 3343 8130
 			}
 		}
 
@@ -5926,50 +5921,46 @@ country = {
 		}
 
 		MKA = {
-			government = plutocratic_monarchy
+			government = league_republic
 			primary_culture = macaean
-			religion = amun_religion
-
-			poptype_rights = {
-				{
-					culture = garamantic
-					type = citizen
-				}
-			}
+			religion = berber_religion
 
 			capital = 8218
 
 			own_control_core = {
-				8218 8217 8219
+				8218 8217 8219 
+				8222 8212 8225 8205 8204 8206 8226 8221 8223 8228 8227 8224 8220 8216 8215 8214 8213
+				8196 8198 8197 8203 8195 8207 8210 8211 8209 8208
+				3326 3327 3329 3330
 			}
 		}
 
-		PHZ = {
-			government = plutocratic_monarchy
-			primary_culture = phazani
-			religion = amun_religion
-
-			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
-			}
-
-			poptype_rights = {
-				{
-					culture = garamantic
-					type = citizen
-				}
-			}
-
-			capital = 8233
-
-			own_control_core = {
-				8229 8230 8231 8232 8233 8234 8235 8236 8237 8238 #phazania
-
-			}
-		}
+		#PHZ = {
+		#	government = plutocratic_monarchy
+		#	primary_culture = phazani
+		#	religion = amun_religion
+		#
+		#	technology={
+		#		military_tech={ level=1 progress=0 }
+		#		civic_tech={ level=1 progress=0 }
+		#		oratory_tech={ level=1 progress=0 }
+		#		religious_tech= { level=1 progress=0  }
+		#	}
+		#
+		#	poptype_rights = {
+		#		{
+		#			culture = garamantic
+		#			type = citizen
+		#		}
+		#	}
+		#
+		#	capital = 8233
+		#
+		#	own_control_core = {
+		#		8229 8230 8231 8232 8233 8234 8235 8236 8237 8238 #phazania
+		#
+		#	}
+		#}
 
 		GIN = { #Carthaginian Tributary
 			government = tribal_federation
@@ -5985,9 +5976,9 @@ country = {
 		}
 
 		GYZ = {
-			government = punic_republic
-			primary_culture = carthaginian
-			religion = carthaginian_pantheon
+			government = tribal_kingdom
+			primary_culture = gyzantian
+			religion = berber_religion
 
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -5996,10 +5987,12 @@ country = {
 				religious_tech= { level=1 progress=0  }
 			}
 
-			capital = 3120
+			capital = 3190
 
 			own_control_core = {
-				3120
+				3190 3191 3196 3202 3290 #mauretania_occidentalis?
+				8251 8252 8253 8254 8255 8256 8257 #tritonia
+
 			}
 		}
 
@@ -6032,6 +6025,9 @@ country = {
 
 			own_control_core = {
 				8168 8169
+				8189 8194 8191 8192 8190 8181 8182 8173 8171 8193 8149 8161 8163 8162 8164 8166 8178 8179 8184
+				8229 8230 8231 8232 8233 8234 8235 8236 8237 8238 #phazania
+				8157 8154 8160 8159 8156 8155 
 			}
 		}
 
@@ -16413,31 +16409,30 @@ country = {
 
 		GA4 = {
 			government = tribal_chiefdom
-			primary_culture = macaean
+			primary_culture = capariensian
 			religion = berber_religion
 
-			centralization = -25
-
-			capital = 8196
+			capital = 8374
 
 			own_control_core = {
-				8196 8198 8197 8203 8195 8207 8210 8211 8209 8208
+				8366 8367 8368 8369 8370 8371 8372 8373 8374 8375 #SaharanAtlas
+
 			}
 		}
 
-		GH2 = {
-			government = tribal_chiefdom
-			primary_culture = garamantic
-			religion = amun_religion
-
-			centralization = -25
-
-			capital = 8157
-
-			own_control_core = {
-				8157 8154 8160 8159 8156 8155 
-			}
-		}
+		#GH2 = {
+		#	government = tribal_chiefdom
+		#	primary_culture = garamantic
+		#	religion = amun_religion
+		#
+		#	centralization = -25
+		#
+		#	capital = 8157
+		#
+		#	own_control_core = {
+		#		8157 8154 8160 8159 8156 8155 
+		#	}
+		#}
 
 		BRK = {
 			government = theocratic_monarchy
@@ -16464,30 +16459,28 @@ country = {
 		}
 
 		MDJ = {
-			government = tribal_chiefdom
-			primary_culture = garamantic
-			religion = amun_religion
+			government = tribal_federation
+			primary_culture = gaetulian
+			religion = berber_religion
 
-			centralization = -50
-
-			capital = 8189
+			capital = 3154
 
 			own_control_core = {
-				8189 8194 8191 8192 8190 8181 8182 8173 8171 8193 8149 8161 8163 8162 8164 8166 8178 8179 8184
+				3152 3155 3153 3154 3172 3173 3171 3169 3170 3174 3176 #gaetulia_occidentalis
+				3168 3185 3187 3188 3186 3193 3189 #gaetulia_centralis
 			}
 		}
 
 		KNH = {
 			government = tribal_chiefdom
-			primary_culture = macaean
+			primary_culture = abannaean
 			religion = berber_religion
 
-			centralization = -25
-
-			capital = 8222
+			capital = 8377
 
 			own_control_core = {
-				8222 8212 8225 8205 8204 8206 8226 8221 8223 8228 8227 8224 8220 8216 8215 8214 8213
+				 8376 8377 8378 8379 8380 8381 8382 8383 8384 8385 8386 #Jedi
+
 			}
 		}
 		
@@ -17135,7 +17128,7 @@ country = {
 
 
             own_control_core = {
-                510 525 9824 9867 9868 9874
+                510 525 9824 9867 9868
             }
         }
 

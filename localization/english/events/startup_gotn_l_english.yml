@@ -316,3 +316,13 @@
  desc_repurposed_ruins:0 "The plentiful ruins of Old Ugarit have been reused for new building projects."
  restored_ugarit:0 "Restored Ugarit"
  desc_restored_ugarit:0 "The great city has been cleansed from the ravages of the past. A new dawn shines on the city of 'Ashtart."
+
+ ## Elam Guy Events ##
+
+ elamite_guy_events_1_title:0 "A Telling 'Accident'"
+ elamite_guy_events_1_desc:0 "Apparently, a certain bowman by the name of 'Neshranethan' attempted to shoot an apple with an arrow off the head of a commoner. However, he missed, skewering the poor fellow and killing him.\n\n'Neshranethan, how do you respond to this?'\n\nMy lord [ROOT.GetCountry.GetRuler.GetName], it was an honest accident. Really!'"
+ elamite_guy_events_1.a:0 "Get this fool out of my sight!"
+
+ elamite_guy_events_2_title:0 "The Man from Elam"
+ elamite_guy_events_2_desc:0 "About a week ago, an Elamite by the name of [GetCharacter('(int32)689').GetName] appeared in [GetProvince('(int32)844').GetName]. Naturally, few amongst us had seen an Elamite before, so he became somewhat of a local celebrity. However, he has been taking advantage of his local hosts' hospitality. Several merchants are complaining that not only did he drink all of their wine, but he ransacked their pantry and stole from their coin purse!"
+ elamite_guy_events_2.a:0 "He is obviously a spy. Send him to the furthest land we know of!"

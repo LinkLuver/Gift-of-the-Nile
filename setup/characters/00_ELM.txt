@@ -21,4 +21,21 @@
 			set_as_ruler=char:529
 		}
 	}
+	689={
+		first_name = "Neshranethan"
+		family_name = "Aksara"
+		birth_date=423.5.10
+		culture = "elamite"
+		religion = "elamite_pantheon"
+        no_traits = yes
+		no_stats=yes
+		add_martial=9
+		add_charisma=7
+		add_finesse=4
+		add_zeal=4
+		add_trait = "tactician"
+		add_trait = "comradely"
+		add_gold = 50
+		add_popularity = 5
+	}
 }
