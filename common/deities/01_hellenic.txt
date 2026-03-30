@@ -81,9 +81,6 @@ deity_heracles = {
 				RELIGION = roman_pantheon
 			}
 			common_deity_trigger = {
-				RELIGION = herakles_religion
-			}
-			common_deity_trigger = {
 				RELIGION = gallo_hellenic
 			}
 			deity:omen_heracles = {

@@ -255,5 +255,13 @@ deity_manager = {
 			key = omen_prometheus_zagreus
 			deity = deity_prometheus_zagreus
 		}
+		30543 = {
+			key = omen_triton
+			deity = deity_triton
+		}
+		30544 = {
+			key = omen_heracles_melqart
+			deity = deity_heracles_melqart
+		}
 	}
 }

@@ -111,6 +111,9 @@ deity_iolaus = { # WAR
 			common_deity_trigger = {
 				RELIGION = nuragic_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = herakles_religion
+			}
 			deity:omen_iolaus = {
 				holy_site_deity_check_trigger = yes
 			}

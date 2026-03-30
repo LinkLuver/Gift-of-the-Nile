@@ -9,7 +9,7 @@
 	}
 	republican_recruitment_3 = {
 		modifier = {
-			levy_size_multiplier = 0.05
+			levy_size_multiplier = 0.075
 			global_freemen_happyness = 0.04
 		}
 		on_enact = {

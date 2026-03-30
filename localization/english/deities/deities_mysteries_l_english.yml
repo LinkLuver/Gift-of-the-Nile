@@ -190,8 +190,19 @@
 
  deity_apollo_borvo:0 "$omen_apollo_borvo$"
  omen_apollo_borvo:0 "Apollo Borvo"
- omen_apollo_borvo_desc:0 "#Y Greek Epithet#! \nApollo-Borvo is the god of light, minerals and healing, associated with spring water. Originally from northern Iberia, Apollo-Borvo has found a place among the Herakleans, where he is revered for his healing capabilities. Apollo-Borvo is seen more as a healing and commercial deity, and less of one associated with combat."
+ omen_apollo_borvo_desc:0 "#Y Greek Epithet#!  \n$apollo_description$\n\nApollo-Borvo is the god of light, minerals and healing, associated with spring water. Originally from northern Iberia, Apollo-Borvo has found a place among the Herakleans, where he is revered for his healing capabilities. Apollo-Borvo is seen more as a healing and commercial deity, and less of one associated with combat."
 
  deity_prometheus_zagreus:0 "$omen_prometheus_zagreus$"
  omen_prometheus_zagreus:0 "Prometheus Zagreus"
  omen_prometheus_zagreus_desc:0 "#Y Greek Epithet#! \n$prometheus_description$\n\n#Y Zagreus#!: According to the Herakleans, it was Promethus who was killed by the other Titans for bestowing the gift of life to humanity, thus taking on the role of Zagreus in Orphic beliefs. The Herakleans venerate Prometheus Zagreus as the creator of the human soul and the inspiration for human creativity."
+
+ omen_iolaus_herakles_religion:1 "Iolaus"
+ omen_iolaus_desc_herakles_religion:3 "Iolaus is another one of the great Sardinian heroes. Famed for being Heracles' nephew and for helping with some of his Labors, and for being one of the Argonauts. He was sent by Heracles to Sardinia together with nine of the sons that he had with the fifty daughters of Thespius (the Thespiades) to colonize the island, giving rise to the Iolei people."
+ 
+ deity_triton:0 "$omen_triton$"
+ omen_triton:0 "Triton"
+ omen_triton_desc:0 "#Y Greek God#! \nA fish-tailed sea god, Triton is the son and herald of Poseidon. He is associated with a conch shell, which he uses to manipulate the sea, by way of blowing into the conch. He is often depicted wrestling Heracles on pottery. The Gyzantes in Libya consider him to be the god of their Lake Tritonis, but this Triton is usually considered separate from the more widely worshipped version."
+
+ deity_heracles_melqart:0 "$omen_heracles_melqart$"
+ omen_heracles_melqart:0 "Herakles Melqart"
+ omen_heracles_melqart_desc:0 "#Y Greek Epithet#!  \n$heracles_description$\n\nIn the west where he is synonymous with the Phoenician Melqart, and also known as 'Tyrian Herakles', Herakles-Melqart is one of the foremost gods amongst the Herakleans. To them, he is the protector of the underworld, and a symbol of strength. Common practice amongst the Herakleans is to follow the path of Herakles, but also to participate in various cultic rituals dedicated to the god."

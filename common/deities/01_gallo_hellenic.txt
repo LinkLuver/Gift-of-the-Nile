@@ -11,7 +11,7 @@ deity_apollo_grannus = {
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_gotn_gallo_hellenic_war
 	passive_modifier = { global_manpower_modifier = deity_global_manpower_modifier_svalue }
 	omen = { happiness_for_same_religion_modifier = deity_happiness_for_same_religion_modifier } #Bonus from Omen
 	religion = gallo_hellenic
@@ -145,7 +145,7 @@ deity_dirona = {
 		}
 	}
 	passive_modifier = { global_monthly_civilization = deity_global_monthly_civilization_svalue }
-	icon = deity_eloquence
+	icon = deity_gotn_gallo_hellenic_culture
 	omen = { global_population_growth = deity_global_population_growth_svalue } #Bonus from Omen
 	religion = gallo_hellenic
 	deity_category = culture #This Deity uses a Culture Slot
