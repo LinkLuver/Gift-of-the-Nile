@@ -493,18 +493,18 @@
 3630={ #Aventicum
 	terrain="hills"
 	culture="helvetian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="fish"
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		religion="gallo_hellenic"
 		amount=2
 	}
 	tribesmen={
 		amount=3
 	}
+	holy_site=omen_ares_caturix
 }
 
 3631={ #Petinesca

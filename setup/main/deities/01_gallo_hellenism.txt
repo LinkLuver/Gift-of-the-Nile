@@ -28,6 +28,18 @@ deity_manager = {
 			key = omen_ritona
 			deity = deity_ritona
 		}
+		31308 = {
+			key = omen_apollo_belinus
+			deity = deity_apollo_belinus
+		}
+		31309 = {
+			key = omen_ares_caturix
+			deity = deity_ares_caturix
+		}
+		31310 = {
+			key = omen_zeus_taranis
+			deity = deity_zeus_taranis
+		}
 	}
 }
 

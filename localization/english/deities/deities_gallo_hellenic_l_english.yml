@@ -28,5 +28,17 @@
  deity_ritona:0 "$omen_ritona$"
  omen_ritona:1 "Ritona"
  omen_ritona_desc:3 "#Y Gallo-Hellenic Goddess#! \nRitona, or Pritona meaning 'that of the ford' is of Treveri origin. It is natural that the Treveri would have a goddess dedicated to fords, as they inhabit the areas by the river Rhenus. Amongst the lands of the Treveri, temples dedicated to her dot the landscape."
+
+ deity_apollo_belinus:0 "$omen_apollo_belinus$"
+ omen_apollo_belinus:1 "Apollo Belinus"
+ omen_apollo_belinus_desc:3 "#Y Gallo-Hellenic Epithet#! \n$helios_description$\n\n#Y Belinus#!\nPopular in Southern Gaul, the Gallo-Hellenes honor The Bright One, Belinus, the great Celtic god of fire. A great festival associated with him called the Beltine is held every may first."
+
+ deity_ares_caturix:0 "$omen_ares_caturix$"
+ omen_ares_caturix:1 "Ares Caturix"
+ omen_ares_caturix_desc:3 "#Y Gallo-Hellenic Epithet#! \n$ares_description$\n\n#Y Caturix#!: meaning 'battle-lord' or 'battle-king', Caturix is the Helvetii god of war."
+
+ deity_zeus_taranis:0 "$omen_zeus_taranis$"
+ omen_zeus_taranis:1 "Zeus Taranis"
+ omen_zeus_taranis_desc:3 "#Y Gallo-Hellenic Epithet#! \n$zeus_description$\n\n#Y Taranis#!: Taranis is the Celtic god of thunder. Zeus Taranis is the Celtic interpretation of the Hellenic Zeus. His symbol is the wheel, and he is also represented by a snake, unusual for Zeus."
  
 

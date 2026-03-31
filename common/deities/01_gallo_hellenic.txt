@@ -186,3 +186,82 @@ deity_ritona = {
 	}
 }
 
+deity_apollo_belinus = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = gallo_hellenic
+			}
+			deity:omen_apollo_belinus = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_tribal_eloquence
+	passive_modifier = { happiness_for_same_culture_modifier = deity_happiness_for_same_culture_modifier_svalue }
+	omen = { global_nobles_happyness = omen_global_nobles_happiness_svalue } #Bonus from Omen
+	religion = gallo_hellenic
+	deity_category = culture #This Deity uses a Culture Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		economy_apotheosis_capital_noble_effect = yes
+	}
+}
+
+deity_ares_caturix = { #Ares Caturix (Helvetii)
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_culture_trigger = {
+				RELIGION = gallo_hellenic
+				CULTURE = helvetian
+			}
+			deity:omen_ares_caturix = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_tribal_war
+	passive_modifier = { monthly_experience_gain = deity_monthly_experience_gain_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue } #Bonus from Omen
+	religion = gallo_hellenic
+	deity_category = war #This Deity uses a War Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		military_apotheosis_military_experience_effect = yes
+	}
+}
+
+deity_zeus_taranis = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = gallo_hellenic
+			}
+			deity:omen_zeus_taranis = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_gotn_gallo_hellenic_war
+	passive_modifier = { agressive_expansion_monthly_change = deity_aggressive_expansion_monthly_change_svalue }
+	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
+	religion = gallo_hellenic
+	deity_category = war #This Deity uses a War slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+}
+

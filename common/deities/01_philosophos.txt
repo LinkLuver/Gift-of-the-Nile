@@ -1160,9 +1160,6 @@ deity_apollo_borvo = {
 	trigger = {
 		OR = {
 			common_deity_trigger = {
-				RELIGION = herakles_religion
-			}
-			common_deity_trigger = {
 				RELIGION = gallo_hellenic
 			}
 			deity:omen_apollo_borvo = {
@@ -1173,7 +1170,7 @@ deity_apollo_borvo = {
 	icon = deity_diadochi_economy
 	passive_modifier = { global_goods_from_slaves = -1 }
 	omen = { oratory_tech_investment = omen_oratory_tech_investment } #Bonus from Omen
-	religion = herakles_religion
+	religion = gallo_hellenic
 	deity_category = economy #This Deity uses a Culture Slot
 
 	deification_trigger = {
