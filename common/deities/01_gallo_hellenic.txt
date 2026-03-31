@@ -92,7 +92,7 @@ deity_lenus_ares = { #Lenos-Ares
 			}
 		}
 	}
-	icon = deity_tribal_war
+	icon = deity_gotn_gallo_hellenic_war_2
 	passive_modifier = { spearmen_defensive = 0.10 }
 	omen = { global_freemen_output = omen_global_freemen_output_svalue } #Bonus from Omen
 	religion = gallo_hellenic
@@ -225,7 +225,7 @@ deity_ares_caturix = { #Ares Caturix (Helvetii)
 			}
 		}
 	}
-	icon = deity_tribal_war
+	icon = deity_gotn_gallo_hellenic_war_2
 	passive_modifier = { monthly_experience_gain = deity_monthly_experience_gain_svalue }
 	omen = { land_morale_modifier = omen_land_morale_modifier_svalue } #Bonus from Omen
 	religion = gallo_hellenic
