@@ -489,3 +489,147 @@ gotn_formable_event.9 = { #Tadmor Culture Decision
 		}
 	}
 }
+gotn_formable_event.10 = { #Generic Empire Coronation Event
+	type = country_event
+	title = gotn_empire_coronation_1_title
+	desc = gotn_empire_coronation_1_desc
+	picture = diadochi_coronation
+
+	option = { #default
+		name = gotn_empire_coronation_1.a
+		add_political_influence = 20
+	}
+	option = {
+		trigger = {
+			current_ruler = {
+				has_trait = just
+			}
+		}
+		name = gotn_empire_coronation_1.b
+		add_country_modifier = {
+			name = just_ruler_mod
+			duration = 1825
+		}
+	}
+	option = {
+		trigger = {
+			current_ruler = {
+				has_trait = ambitious
+			}
+		}
+		name = gotn_empire_coronation_1.c
+		add_country_modifier = {
+			name = ambitious_ruler_mod
+			duration = 1825
+		}
+	}
+	option = {
+		trigger = {
+			current_ruler = {
+				has_trait = zealous
+			}
+		}
+		name = gotn_empire_coronation_1.d
+		add_country_modifier = {
+			name = zealous_ruler_mod
+			duration = 1825
+		}
+	}
+	option = {
+		trigger = {
+			current_ruler = {
+				has_trait = xenophobic
+			}
+		}
+		name = gotn_empire_coronation_1.e
+		add_country_modifier = {
+			name = xenophobic_ruler_mod
+			duration = 1825
+		}
+	}
+	option = {
+		trigger = {
+			current_ruler = {
+				has_trait = cultured
+			}
+		}
+		name = gotn_empire_coronation_1.f
+		add_country_modifier = {
+			name = cultured_ruler_mod
+			duration = 1825
+		}
+	}
+	option = {
+		trigger = {
+			current_ruler = {
+				has_trait = aggressive
+			}
+		}
+		name = gotn_empire_coronation_1.g
+		add_country_modifier = {
+			name = aggressive_ruler_mod
+			duration = 1825
+		}
+	}
+	option = {
+		trigger = {
+			current_ruler = {
+				has_trait = midas_touched
+			}
+		}
+		name = gotn_empire_coronation_1.h
+		add_treasury = 200
+	}
+	option = {
+		trigger = {
+			current_ruler = {
+				OR = {
+				has_trait = orator
+				has_trait = silver_tongued
+				}
+			}
+		}
+		name = gotn_empire_coronation_1.i
+		add_country_modifier = {
+			name = diplomat_ruler_mod
+			duration = 1825
+		}
+	}
+	option = {
+		trigger = {
+			current_ruler = {
+				OR = {
+				has_trait = scholar
+				has_trait = intelligent
+				}
+			}
+		}
+		name = gotn_empire_coronation_1.j
+		add_innovation = 2
+	}
+	option = {
+		trigger = {
+			current_ruler = {
+				has_trait = founder
+			}
+		}
+		name = gotn_empire_coronation_1.k
+		add_stability = 10
+		add_country_modifier = {
+			name = founder_ruler_mod
+			duration = 1825
+		}
+	}
+	option = {
+		trigger = {
+			current_ruler = {
+				has_trait = vengeful
+			}
+		}
+		name = gotn_empire_coronation_1.l
+		add_country_modifier = {
+			name = vengeful_ruler_mod
+			duration = 1825
+		}
+	}
+}

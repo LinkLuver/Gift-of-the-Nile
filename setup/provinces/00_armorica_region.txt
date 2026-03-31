@@ -727,6 +727,7 @@
 	barbarian_power=0
 	province_rank="city"
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
@@ -785,6 +786,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	freemen={
@@ -960,6 +962,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
@@ -1234,6 +1237,7 @@
 		amount=1
 	}
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	slaves={

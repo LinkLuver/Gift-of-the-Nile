@@ -136,3 +136,35 @@ korinthinian_hegemony_mod = {
 	global_state_trade_routes = 1
 	monthly_governor_wage = -0.10
 }
+just_ruler_mod = {
+	global_population_happiness = 0.03
+	stability_monthly_change = 0.03
+}
+ambitious_ruler_mod = {
+	war_score_cost = -0.10
+	agressive_expansion_impact = -0.10
+}
+zealous_ruler_mod = {
+	global_pop_conversion_speed_modifier = 0.10
+}
+xenophobic_ruler_mod = {
+	global_pop_conversion_speed_modifier = 0.10
+}
+cultured_ruler_mod = {
+	country_civilization_value = 0.10
+	global_monthly_civilization = 0.03
+}
+aggressive_ruler_mod = {
+	agressive_expansion_impact = -0.20
+}
+diplomat_ruler_mod = {
+	diplomatic_reputation = 3
+	improve_relation_impact = 0.20
+}
+founder_ruler_mod = {
+	build_cost = -0.10
+}
+vengeful_ruler_mod = {
+	price_execute_cost_modifier = -0.25
+	price_imprison_cost_modifier = -0.25
+}

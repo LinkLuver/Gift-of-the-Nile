@@ -306,6 +306,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
@@ -1186,6 +1187,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
@@ -1206,7 +1208,7 @@
 	}
 	freemen={
 		culture="massalian"
-		religion="roman_pantheon"
+		religion="gallo_hellenic"
 		amount=1
 	}
 	freemen={

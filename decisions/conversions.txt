@@ -883,6 +883,12 @@
 			change_government = imperium
 			add_3_free_province_investments = yes
 			switch_government_type_event_clearup_effect = yes
+			hidden_effect = {
+				trigger_event = { 
+				id = gotn_formable_event.10
+				days = 30 
+				}
+			}
 			if = {
 				limit = {
 					tag = ROM

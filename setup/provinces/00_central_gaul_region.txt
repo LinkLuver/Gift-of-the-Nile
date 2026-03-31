@@ -23,6 +23,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=2
 	}
 	tribesmen={
@@ -61,15 +62,20 @@
 		amount=3
 	}
 	freemen={
-		amount=4
+		religion="gallo_hellenic"
+		amount=2
+	}
+	freemen={
+		amount=2
 	}
 	freemen={
 		culture="arverni"
+		religion="gallo_hellenic"
 		amount=1
 	}
 	freemen={
 		culture="massalian"
-		religion="roman_pantheon"
+		religion="gallo_hellenic"
 		amount=1
 	}
 	slaves={
@@ -330,6 +336,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=2
 	}
 	tribesmen={
@@ -366,6 +373,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
@@ -382,6 +390,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
@@ -418,6 +427,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
@@ -473,6 +483,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
@@ -643,6 +654,7 @@
 		amount=2
 	}
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	slaves={
@@ -717,6 +729,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
@@ -733,6 +746,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
@@ -793,6 +807,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
@@ -809,6 +824,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="gallo_hellenic"
 		amount=1
 	}
 	tribesmen={
@@ -965,6 +981,7 @@
 		amount=2
 	}
 	freemen={
+		religion="gallo_hellenic"
 		amount=3
 	}
 	slaves={
