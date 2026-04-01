@@ -1843,4 +1843,36 @@ country_decisions = {
 		}
 	}
 
+	convert_to_gallo_hellenic = {
+			
+		potential = {
+			num_of_cities >= 1
+			potential_change_religion_trigger = {
+				RELIGION = gallo_hellenic
+			}
+		}
+
+		allow = {
+			could_change_religion_trigger = {
+				RELIGION = gallo_hellenic
+			}
+		}
+
+		effect = {
+			change_religion_effect = {
+				RELIGION = gallo_hellenic
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				capital_scope = {
+					dominant_province_religion = gallo_hellenic
+				}
+			}
+		}
+	}
+
 }

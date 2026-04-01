@@ -1196,6 +1196,9 @@ deity_damona = {
 			rare_deity_trigger = {
 				RELIGION = druidism
 			}
+			rare_deity_trigger = {
+				RELIGION = gallo_hellenic
+			}
 			deity:omen_damona = {
 				holy_site_deity_check_trigger = yes
 			}

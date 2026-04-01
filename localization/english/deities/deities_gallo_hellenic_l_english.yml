@@ -3,7 +3,7 @@
 
  deity_apollo_grannus:0 "$omen_apollo_grannus$"
  omen_apollo_grannus:1 "Apollo Grannus"
- omen_apollo_grannus_desc:3 "#Y Gallo-Hellenic Epithet#! \n$apollo_description$\n\n#Y Grannus#!: Grannus is a Celtic deity associated with healing, especially around the many hot springs in Gaul. It is because of this association that the god is correlated to Apollo. Apollo-Grannus is commonly worshipped alongside another deity associated with healing and hot springs, Dirona."
+ omen_apollo_grannus_desc:3 "#Y Gallo-Hellenic Epithet#! \n$apollo_description$\n\n#Y Grannus#!: is a Celtic deity associated with healing, especially around the many hot springs in Gaul. It is because of this association that the god is correlated to Apollo. Apollo-Grannus is commonly worshipped alongside another deity associated with healing and hot springs, Dirona."
 
  deity_sulis_athena:0 "$omen_sulis_athena$"
  omen_sulis_athena:1 "Athena Sulis"
@@ -23,7 +23,7 @@
 
  deity_dirona:0 "$omen_dirona$"
  omen_dirona:1 "Dirona"
- omen_dirona_desc:3 "#Y Gallo-Hellenic Goddess#! \nDirona or Sirona, as she is sometimes referred to, is a goddess who is depicted and worshipped alongside Apollo. She is a deity of healing, growth, and the stars. Dirona is shown wearing a long robe and a diadem, perhaps a symbol as a consort of Apollo. She can be conflated with the Greek Hygaia, another consort of Apollo, but she maintains a distinctly Celtic nature."
+ omen_dirona_desc:3 "#Y Gallo-Hellenic Goddess#! \nDirona or Sirona, as she is sometimes referred to, is a goddess who is depicted and worshipped alongside Apollo Grannus. She is a deity of healing, growth, and the stars. Dirona is shown wearing a long robe and a diadem, perhaps a symbol as a consort of Apollo Grannus. She can be conflated with the Greek Hygaia, another consort of Apollo, but she maintains a distinctly Celtic nature."
 
  deity_ritona:0 "$omen_ritona$"
  omen_ritona:1 "Ritona"
@@ -31,7 +31,7 @@
 
  deity_apollo_belinus:0 "$omen_apollo_belinus$"
  omen_apollo_belinus:1 "Apollo Belinus"
- omen_apollo_belinus_desc:3 "#Y Gallo-Hellenic Epithet#! \n$helios_description$\n\n#Y Belinus#!\nPopular in Southern Gaul, the Gallo-Hellenes honor The Bright One, Belinus, the great Celtic god of fire. A great festival associated with him called the Beltine is held every may first."
+ omen_apollo_belinus_desc:3 "#Y Gallo-Hellenic Epithet#! \n$apollo_description$\n\n#Y Belinus#!: Popular in Southern Gaul, the Gallo-Hellenes honor The Bright One, Belinus, the great Celtic god of fire. A great festival associated with him called the Beltine is held every may first."
 
  deity_ares_caturix:0 "$omen_ares_caturix$"
  omen_ares_caturix:1 "Ares Caturix"
@@ -40,5 +40,13 @@
  deity_zeus_taranis:0 "$omen_zeus_taranis$"
  omen_zeus_taranis:1 "Zeus Taranis"
  omen_zeus_taranis_desc:3 "#Y Gallo-Hellenic Epithet#! \n$zeus_description$\n\n#Y Taranis#!: Taranis is the Celtic god of thunder. Zeus Taranis is the Celtic interpretation of the Hellenic Zeus. His symbol is the wheel, and he is also represented by a snake, unusual for Zeus."
+
+ deity_apollo_moritasgus:0 "$omen_apollo_moritasgus$"
+ omen_apollo_moritasgus:1 "Apollo Moritasgus"
+ omen_apollo_moritasgus_desc:3 "#Y Gallo-Hellenic Epithet#! \n$apollo_description$\n\n#Y Moritasgus#!: A proposed meaning for the name 'Moritasgus' is 'sea-badger'. Perhaps this unusual name is due to a secretion that European Badgers produced, which was in turn used in Gallic medicine. Apollo Moritasgus is worshipped in Alesia, by the Mandubii. At his shrine, pilgrims leave idols of themselves, with the afflicted part of their bodies, in the hope that the great god of healing will cure their ailments."
+
+ deity_hermes_arvenorix:0 "$omen_hermes_arvenorix$"
+ omen_hermes_arvenorix:1 "Hermes Arvernos"
+ omen_hermes_arvenorix_desc:3 "#Y Gallo-Hellenic Epithet#! \n$hermes_description$\n\n#Y Arvenorix#!: 'the king of the Arvernians', Hermes Arvernos is associated with metal-working and commerce, something that the Arvernians are renowned for."
  
 

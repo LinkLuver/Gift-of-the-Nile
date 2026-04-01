@@ -42,7 +42,7 @@ deity_epona = {
 	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
 	omen = { stability_monthly_change = omen_stability_monthly_change_svalue } #Bonus from Omen
 	religion = gallo_hellenic
-	deity_category = culture #This Deity uses a Culture Slot
+	deity_category = fertility #This Deity uses a Culture Slot
 
 	on_activate = {
 		economy_apotheosis_capital_citizens_effect = yes
@@ -84,7 +84,7 @@ deity_lenus_ares = { #Lenos-Ares
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			common_deity_trigger = {
+			rare_deity_trigger = {
 				RELIGION = gallo_hellenic
 			}
 			deity:omen_lenus_ares = {
@@ -163,7 +163,7 @@ deity_ritona = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			common_deity_trigger = {
+			rare_deity_trigger = {
 				RELIGION = gallo_hellenic
 			}
 			deity:omen_ritona = {
@@ -264,4 +264,59 @@ deity_zeus_taranis = {
 		military_apotheosis_defensive_effect = yes
 	}
 }
+
+deity_apollo_moritasgus = { #Worshipped in Alesia
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_culture_trigger = {
+				RELIGION = gallo_hellenic
+				CULTURE = haedui
+			}
+			deity:omen_apollo_moritasgus = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_tribal_eloquence
+	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
+	omen = { civic_tech_investment = omen_civic_tech_investment_svalue } #Bonus from Omen
+	religion = gallo_hellenic
+	deity_category = culture #This Deity uses a Culture Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		culture_apotheosis_capital_effect = yes
+	}
+}
+
+deity_hermes_arvenorix = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_culture_trigger = {
+				CULTURE = arverni
+				RELIGION = gallo_hellenic
+			}
+			deity:omen_hermes_arvenorix = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { global_freemen_output = deity_global_freemen_output_svalue }
+	omen = { global_tax_modifier = omen_global_tax_modifier_svalue} #Bonus from Omen
+	religion = gallo_hellenic
+	deity_category = economy #This Deity uses an Economy Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		economy_income_effect = yes
+	}
+}
+
 

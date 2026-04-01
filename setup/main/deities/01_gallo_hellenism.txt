@@ -40,6 +40,14 @@ deity_manager = {
 			key = omen_zeus_taranis
 			deity = deity_zeus_taranis
 		}
+		31311 = {
+			key = omen_apollo_moritasgus
+			deity = deity_apollo_moritasgus
+		}
+		31312 = {
+			key = omen_hermes_arvernorix
+			deity = deity_hermes_arvernorix
+		}
 	}
 }
 

@@ -89,7 +89,7 @@
  desc_herakles_religion:0 "A sect of Orphism, the Herakleans primarily worship Herakles, holding him in the highest regard amongst the gods. With the exception of the Athenians, the Herakleans are the only group that venerate Prometheus, and unique to them, Atlas. They maintain that after Herakles freed Prometheus and Atlas from their respective punishments, they endowed Herakles with divine wisdom, enabling him to complete his further tasks and eventually ascend to godhood. The devotees of Herakles participate in the Mysteries of Herakles, a crucial part to their religion. Heraklean also incorporates many Canaanite, Amazigh, and Iberic beliefs."
 
  gallo_hellenic:0 "Gallo-Hellenic"
- desc_gallo_hellenic:0 "Gallo-Hellenism is a syncretism of Hellenic and Gallic practices and beliefs, brought about by sustained contact in the Massalian south, and carried north by trade. Epona, an equestrian deity, Apollo-Grannus, and Athena-Sulis are major deities in this syncretic pantheon."
+ desc_gallo_hellenic:0 "Gallo-Hellenism is a syncretism of Hellenic and Gallic practices and beliefs, brought about by sustained contact in the Massalian south, and carried north by trade. Epona, an equestrian deity, Apollo-Grannus, and Zeus-Taranis are major deities in this syncretic pantheon."
 
 
  # Conversions
@@ -105,7 +105,7 @@
  convert_to_elamite_pantheon:0 "Accept Haltamic Pantheon"
  convert_to_elamite_pantheon_desc:0 "The gods who would terrorize those of Sumer and Akkad, lead by Humban in Anshan and Inshushinak in Susa, they have found themselves in the hearts of our people. And now we ask, should we accept the religion of Elam as the religion of our nation."
 
- convert_to_amun_religion:0 "Embrace Ammon Faith"
+ convert_to_amun_religion:0 "Embrace the Ammon Faith"
  convert_to_amun_religion_desc:0 "The powerful cult of Ammon, particularly revered in the Siwa Oasis, has influenced many in our nation. The oracle of Ammon, known for its wisdom and guidance, calls out to our people. Shall we embrace Ammonism and let the Hidden One guide our destiny?"
 
  convert_to_sobek_religion:0 "Adopt Sobekite Beliefs"
@@ -166,7 +166,7 @@
  convert_to_herakles_religion_desc:0 "placeholder"
 
  convert_to_gallo_hellenic:0 "Adopt Gallo-Hellenic Beliefs"
- convert_to_gallo_hellenic_desc:0 "placeholder"
+ convert_to_gallo_hellenic_desc:0 "The syncretic practices of the Gallo-Hellenes have become prolific in our society. Who are we to stand against the winds of change?"
 
 
  # Egyptian Religious Flavor
