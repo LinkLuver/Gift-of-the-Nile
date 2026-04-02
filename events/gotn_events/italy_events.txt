@@ -127,6 +127,10 @@ italy_events.2 = {
     option = {
         name = "italy_events_2.b"
         custom_tooltip = "palike_orphic_path"
+        trigger_event = {
+            id = italy_events.17
+            days = { 30 60 }
+        }
         ai_chance = {
 			modifier = {
 				factor = 10
@@ -296,6 +300,11 @@ italy_events.7 = { # Syracuse- Melet occupation
                 id = italy_events.8
             }
         }
+        ai_chance = {
+			modifier = {
+				factor = 80
+			}
+		}
 	}
     option = {
         name = "italy_events_7.b"
@@ -359,6 +368,11 @@ italy_events.8 = { # Accept Syracusan Offer?
                 id = italy_events.10
             }
         }
+        ai_chance = {
+			modifier = {
+				factor = 80
+			}
+		}
 	}
     option = {
     name = "italy_events_8.b"
@@ -607,5 +621,87 @@ italy_events.16 = { # Fate of Palike : Confederation
         name = "italy_events_16.a"
         custom_tooltip = "italy_16_claims_tt"
         p:90 = { add_claim = root }
+	}
+}
+italy_events.17 = { # Fate of Palike : Orphic Mysteries
+    
+	trigger = {
+		OR = {
+			tag = CLA
+		}
+	}
+    type = country_event
+    title = "italy_events_17_title"
+    desc = "italy_events_17_desc"
+    picture = greek_philosophers
+    fire_only_once = yes
+
+    option = {
+        name = "italy_events_17.a"
+        
+	}
+}
+elamite_guy_events.1 = { # A Telling "Accident"
+
+    trigger = {
+		tag = ELM
+	}
+
+    type = country_event
+    title = "elamite_guy_events_1_title"
+    desc = "elamite_guy_events_1_desc"
+    picture = hk_sumerian_court
+    fire_only_once = yes
+
+    option = {
+        name = "elamite_guy_events_1.a"
+        char:689 = {
+            remove_all_positions = yes
+			move_country = c:HAG
+            set_as_minor_character = c:HAG
+		}
+        c:HAG = {
+            trigger_event = {
+                id = elamite_guy_events.2
+                days = { 30 60 }
+            }
+        }
+        ai_chance = {
+			modifier = {
+				factor = 90
+			}
+		}
+	}
+}
+elamite_guy_events.2 = { # The Man From Elam
+
+    trigger = {
+		tag = HAG
+	}
+
+    type = country_event
+    title = "elamite_guy_events_2_title"
+    desc = "elamite_guy_events_2_desc"
+    picture = hk_babbling_babylon
+    fire_only_once = yes
+
+    option = {
+        name = "elamite_guy_events_2.a"
+        char:689 = {
+            remove_all_positions = yes
+			move_country = c:SY1
+            set_as_minor_character = c:SY1
+		}
+        c:SY1 = {
+            trigger_event = {
+                id = elamite_guy_events.3
+                days = { 60 90 }
+            }
+        }
+        ai_chance = {
+			modifier = {
+				factor = 80
+			}
+		}
 	}
 }

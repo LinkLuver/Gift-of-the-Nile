@@ -840,3 +840,23 @@ ATLAS_FLAG = {
 		instance = { rotation = 270 }
 	}
 }
+
+SANTONIA_FLAG = {
+	pattern="pattern_solid.tga"
+	color1= "santonia_dark_red"
+	color2= "offwhite"
+	
+	colored_emblem = {
+        texture = "ce_horse_eburones.dds"
+        color1 = "silver"
+		color2 = "offwhite"
+		instance = { scale = { 0.90 0.90 } }
+	}
+	colored_emblem = {
+        texture = "ce_border_venetic_9.dds"
+        color1= "silver"
+		color2 = "santonia_dark_red"
+		instance = {} 
+		instance = { rotation = 180 }
+	}
+}

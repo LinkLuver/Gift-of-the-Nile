@@ -323,6 +323,13 @@
  SALLUVIA_NAME:0 "Salluvian Confederacy"
  SALLUVIA_ADJECTIVE:0 "Salluvian"
 
+ form_santonian_confederacy:0 "Form the Santonian Confederacy"
+ form_santonian_confederacy_desc:0 "Straddling the eastern shores of Gaul, the Santones have embraced many new ideas from foreign lands. Our shared brotherhood should be enough to unite our people, and free us from foreign meddling."
+ formable_not_santonian_confederacy_exists:0 "The #Y Santonian Confederacy#! does not exist."
+ form_santonia_claims_tooltip:0 "the #Y Santonian Confederacy#! will gain claims on the region of #Y Aquitaine#!."
+ SANTONIA_NAME:0 "Santonian Confederacy"
+ SANTONIA_ADJECTIVE:0 "Santonian"
+
  ## Persia Formables
  form_agartia:0 "Unite the Agartians"
  form_agartia_desc:0 "The #Y Agartians#! have long existed as many disparate, bickering entities. It was only until the #Y Median#! conquest that we were consolidated in some form. No one is safe to the sands of time, and it is clear that our future lies united, lest we be blown away in the wind."

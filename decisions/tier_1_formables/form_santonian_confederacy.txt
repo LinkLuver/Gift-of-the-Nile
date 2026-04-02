@@ -1,0 +1,82 @@
+﻿country_decisions = {
+	form_santonian_confederacy = {
+		
+		potential = {
+			num_of_cities >= 1
+			primary_culture = santonian
+			NOT = {
+				tag = ST1
+			}
+			OR = {
+				is_ai = no
+			}
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+				has_variable = formed_santonian_confederacy
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = sentonia_maioris_area
+					is_in_area = cadurcia_area
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = formable_not_santonian_confederacy_exists
+				NOT = {
+					any_country = {
+						num_of_cities >= 1
+						tag = ST1
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns_area = sentonia_maioris_area
+			owns_or_subject_owns_area= cadurcia_area
+		}
+		
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			change_country_name = "SANTONIA_NAME"
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = tribal_federation
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_name = "SANTONIA_NAME"
+				change_country_adjective = "SANTONIA_ADJECTIVE"
+				change_country_color =  "santonia_dark_red"
+				change_country_flag = SANTONIA_FLAG				
+				change_country_tag = ST1
+				set_variable = formed_santonian_confederacy
+			}
+			capital_scope = {
+				establish_city_effect = yes
+				capital_formable_tribal_effect = yes
+				formable_capital_modifier_tribal_effect = yes
+			}
+			custom_tooltip = "form_santonia_claims_tooltip"
+			hidden_effect = {
+				region:aquitaine_region = { formable_region_province_effect = yes }		
+			}				
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+} 
