@@ -631,6 +631,8 @@ gotn_events.17 = { # Jueyun Backstory
         add_trait = ambitious
 		}
 		create_character = {
+            first_name = "placeholder"
+            family_name = "jones"
 			female = no
 			culture = root.culture
 			religion = daoism

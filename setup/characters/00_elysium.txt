@@ -428,7 +428,7 @@
 		no_traits=yes
 		add_trait="founder"
 		add_trait="extravagant"
-		add_trait="obessive_perfectionist"
+		add_trait="obsessive_perfectionist"
 		add_trait="pergamid"
 		
 	}
@@ -446,7 +446,6 @@
 		add_finesse=10
 		add_zeal=4
 		no_traits=yes
-		add_trait="calm"
 		add_trait="intelligent"
 		add_trait="pergamid"
 		
@@ -492,7 +491,7 @@
 	}
 	648={
 		first_name="Lysis" #Wife of Dareios
-		last_name="Skepsid"
+		family_name="Skepsid"
 		birth_date=323.6.20
 		death_date=399.4.10
 		female=yes
@@ -876,7 +875,6 @@
 		add_finesse=9
 		add_zeal=7
 		no_traits=yes
-		add_trait="calm"
 		add_trait="secure"
 		add_trait="founder"
 		add_trait="blood_of_croesus"
@@ -1027,7 +1025,7 @@
 		no_traits=yes
 		add_trait="coward"
 		add_trait="midas_touched"
-		add_trait="obessive_perfectionist"
+		add_trait="obsessive_perfectionist"
 		add_trait="blood_of_croesus"
 	}
 }

@@ -1149,9 +1149,9 @@ gallic_prince_heritage = { #Gallic Princely States
 	trigger = {
 		OR = {
 	       tag = VOC
-		   tag = ALL
+		   #tag = ALL
 		   tag = LNG
-		   tag = SQI
+		   #tag = SQI
 		   tag = ADT
 		   tag = NMI
 		}

@@ -81,9 +81,9 @@
 			hidden_effect = {#all of greece and macedon
 				region:greece_region = { formable_region_province_effect = yes }
 				region:macedonia_region = { formable_region_province_effect = yes }			
-	            trigger_event = {
-	                id = thessalian_league.2 #decide what to do with delphi
-	            }			
+	            #trigger_event = {
+	            #    id = thessalian_league.2 #decide what to do with delphi
+	           # }			
 			}			
 			add_3_free_province_investments = yes
             set_variable = {

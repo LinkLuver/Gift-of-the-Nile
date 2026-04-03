@@ -192,8 +192,8 @@
 		amount=2
 	}
 	freemen={
-		amount=2
 		religion="herakles_religion"
+		amount=2
 	}
 	slaves={
 		culture="ligurian"
@@ -379,14 +379,14 @@
 		amount=4
 	}
 	tribesmen={
-		amount=2
 		religion="gallo_hellenic"
+		amount=2
 	}
 }
 
 2285={ #Gabalum
 	terrain="forest"
-	culture="volcae"
+	culture="arverni"
 	religion="gallo_hellenic"
 	trade_goods="marble"
 	civilization_value=9
@@ -402,7 +402,7 @@
 
 2286={ #Vellavorum
 	terrain="forest"
-	culture="volcae"
+	culture="arverni"
 	religion="druidism"
 	trade_goods="stone"
 	civilization_value=9
@@ -425,7 +425,7 @@
 
 2295={ #Ad Silanum
 	terrain="forest"
-	culture="volcae"
+	culture="arverni"
 	religion="gallo_hellenic"
 	trade_goods="stone"
 	civilization_value=9
@@ -441,7 +441,7 @@
 
 2296={ #Condate Arvernorum
 	terrain="forest"
-	culture="volcae"
+	culture="arverni"
 	religion="druidism"
 	trade_goods="stone"
 	civilization_value=9
@@ -889,8 +889,8 @@
 		amount=2
 	}
 	freemen={
-		amount=2
 		religion="gallo_hellenic"
+		amount=2
 	}
 	freemen={
 		culture="arverni"
@@ -1032,12 +1032,12 @@
 		amount=2
 	}
 	freemen={
-		amount=2
 		religion="herakles_religion"
+		amount=2
 	}
 	freemen={
-		amount=5
 		religion="gallo_hellenic"
+		amount=5
 	}
 	freemen={
 		culture="ionian"
@@ -1117,7 +1117,7 @@
 
 3309={ #Canniaco
 	terrain="forest"
-	culture="volcae"
+	culture="arverni"
 	religion="gallo_hellenic"
 	trade_goods="wine"
 	civilization_value=9
@@ -1619,8 +1619,8 @@
 		amount=2
 	}
 	freemen={
-		amount=2
 		religion="herakles_religion"
+		amount=2
 	}
 	slaves={
 		culture="salluvian"

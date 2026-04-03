@@ -397,3 +397,73 @@
  bastarnae_heritage_desc:0 "Celtic, Germanic, or Scythian, the cultural makeup of the Bastarnae is muddled. They are primarily farmers, inhabiting no large settlements or great cities. The Bastarnae have started to trade with the Scythians to their east, and tales of a rich land to their south. A great migration is in order."
  arktoseia_heritage:0 "Heritage of the Bear"
  arktoseia_heritage_desc:0 "Arktoseia- the city of the bear, was founded by the merchant and navigator Doron, Arktoseia is a colony in uncharted lands, far from the civilized lands of the Bosporans. The colony has done well, although their settlement has invoked the ire of the neighboring tribesmen."
+
+ #Gaul Heritages (most are ported from invictus)
+ ###Petrocoria
+ petrocoria_heritage:0 "Heritage of the Four Armies"
+ petrocoria_heritage_desc:0 "The Petrocorii were some of the Gallic world`s finest metallurgists - noted for their exceptional skill with iron especially. They minted their own coins, distinguished for their unusual and `flamboyant` style and shape. The name Petrocorii translated directly to the `four armies` or `four clans,` perhaps indicated some form of defined sub-clan structure within the tribe, or in their origin."
+ ###Santonia
+ santonia_heritage:0 "Heritage of the Santoni"
+ santonia_heritage_desc:0 "The Santoni were a valiant people, both able and willing to defend their land north of the Garumna estuary from threats including the migrations of their fellow Gauls. Their domain was fertile, fed by the estuary and connected to the sea, and they seem to have been a major agricultural producer in the region, as well as a key aspect of the salt trade. They minted golden coins in the Greek style, illustrating their long-held cultural and trade ties with Greek merchants and colonists."
+ ###Lemovicia
+ lemovicia_heritage:0 "Heritage of the Elm Spears"
+ lemovicia_heritage_desc:0 "Positioned atop a considerable number of gold mines, to say nothing of their tin and iron reserves, the Lemovices were extremely skilled in the production of gold objects and in the process of pulling gold from the earth. They were named `those who vanquish by the elm,` perhaps in reference to the material they used to create their spears or bows."
+ ###Andecamulensia
+ andecamulensia_heritage:0 "Heritage of the Small but Mighty"
+ andecamulensia_heritage_desc:0 "The Andecamulenses were a relatively minor tribe, though one not afraid to fight. They were willing and able to raise large numbers of warriors, and their name itself may have meant `the powerful.`"
+ ###Allobrogia
+ allobrogia_heritage:0 "Heritage of the Allobroges"
+ allobrogia_heritage_desc:0 "The Allobroges were a highly mobile group, whose very name translated to `the foreigners` in reference to their migratory traditions. They were an innately divided people, particularly between those of them who lived in the mountains and those who lived in the plains, and the two often stood in opposition to each other. Despite this, the Allobroges seem to have enjoyed a certain prosperity, particularly in their agricultural efforts."
+ ###Ceutronia
+ ceutronia_heritage:0 "Heritage of the Montane Cheesemakers"
+ ceutronia_heritage_desc:0 "Secreted away in their domain centered on the Darantasian valley, the Ceutrones sustained themselves through a tight grip on the mountain passes and vales that made up their homeland. They were also noted coppersmiths and fromagers, with their signature cheeses being known as excellent even as far away as central Italy."
+ ###Segusiavia
+ segusiavia_heritage:0 "Heritage of the Loire Horsemen"
+ segusiavia_heritage_desc:0 "The Segusiavi established themselves on both banks of the Liger, granting themselves a position of considerable commercial importance in southern Gaul. They seem to have been open to outsiders, including the Aedui to their north with whom they had close relations - but this may have also made them susceptible to being supplanted by others. They were skilled horsemen, beginning a tradition of horsemanship in the Forez plains that would continue for millennia."
+ ###Ambarria
+ ambarria_heritage:0 "Heritage of the Friendly Gauls"
+ ambarria_heritage_desc:0 "The Ambarri were a smaller people that existed in the cultural sphere of the Aedui, and seem to have been regarded by those who encountered them as an affable sort. They struggled to defend themselves against outside powers, and found their lands raided and their sovereignty impinged upon."
+ ###Salassia
+ salassia_heritage:0 "Heritage of the Stone Hurlers"
+ salassia_heritage_desc:0 "The Salassi exist on the periphery of the Taurisci sphere of influence and share much with their bull-headed neighbors. They were well suited for their mountainous home, and deeply resistant to any outsiders trespassing into it - commonly throwing stones down onto trespassers from their lofty perches. The narrow mountain passes that allowed passage through Salassia were heavily controlled, their residents demanding tariffs for those who wished to pass by."
+ ###Pictonia
+ pictonia_heritage:0 "Heritage of the Cunning Gauls"
+ pictonia_heritage_desc:0 "The Pictones, named literally `the cunning` were a skilled naval power amongst the Gauls, extending their influence up northwards into the oceans around the Armorican Peninsula and maintaining trade with the British Isles. Outsiders noted their civilized nature, and their eagerness to exploit new opportunities for prosperity. Their royalty depended upon the authority and skill of their generals to sustain their legitimacy."
+ ###Turonia
+ turonia_heritage:0 "Heritage of the Turoni"
+ turonia_heritage_desc:0 "The Turoni straddled the central Loire, existing on the periphery of the more powerful and visible tribal group of the Biturigies. They were a group that bristled at outsiders intruding on their domain, perhaps a legacy of their life in the shadow of greater Gallic powers."
+ ###Venellia
+ venellia_heritage:0 "Heritage of the Commanding Aremoricans"
+ venellia_heritage_desc:0 "Existing on the very periphery of the Aremorican cultural sphere, the Venelli seem regardless to have been something of leaders of men, able to rally not only other tribes to their banner and also those who fought for their advancement, the tribeless and the bandit. This must surely have informed their military strategy."
+ ###Namnetia
+ namnetia_heritage:0 "Heritage of the Riverine Aremoricans"
+ namnetia_heritage_desc:0 "The Namnetes lived along the Liger, and framed its northern banks up to the mouth of the river. Their name may even hold a riverine etymology. Some say that the Namnetes maintained a feminine priesthood, localised to an island just outside of the mouth of the river who dwelt in isolation and engaged in rituals dedicated to the gods for their people. They were major players in the tin trade with Brittania, surely enriching them and meaning they had access to as much bronze as they could have feasibly wanted."
+ ###Redonia
+ redonia_heritage:0 "Heritage of the Mounted Aremoricans"
+ redonia_heritage_desc:0 "The least seafaring of the Aremoricans, the Redones controlled only a narrow strip of coastline and thus engaged in the bustling coastal trade less than their kin. They were named for their skill in using chariots and horses, and this reputation surely made them a force to be reckoned with in battle."
+ ###Venetia
+ venetia_heritage:0 "Heritage of the Seafaring Aremoricans"
+ venetia_heritage_desc:0 "All the Aremorican tribes were skilled seafarers, but the Veneti (not to be confused with the Veneti of Italy) were perhaps foremost even amongst this group in plying the waters. Even their name may have been related to the term for merchants or to their friendly outlook towards other groups. The strongholds and key settlements of the Veneti clustered on easily defended spits of land jutting out into the ocean, from which they could engage in trade and travel more easily and securely - particularly to Britannia, whose tribes they maintained close ties with."
+ ###Osismia
+ osismia_heritage:0 "Heritage of the Wealthy Aremoricans"
+ osismia_heritage_desc:0 "The Osismii were the farthest flung of the Aremorican peoples, occupying the very terminus of the peninsula, and were even named for this fact, their name roughly meaning `the remote.` Their land was perhaps the most expansive of the Aremorican tribes, though their domain was doubtless divided by the peninsula`s many mountains. Osismia minted its own coins, and grew fat from a measure of control of the trade flowing throughout the channel."
+ ###Curiosolita
+ curiosolita_heritage:0 "Heritage of the Mercenary Aremoricans"
+ curiosolita_heritage_desc:0 "The Corisolites were, as evidenced by their name which includes the word `army` within it, a skilled martial people. They may have been frequent mercenaries, as the rest of their name could complete it into `those who sell mercenaries.` Regardless, they were active participants in the coastal trade, exporting particularly their metallurgical products."
+ ###Esuvia
+ esuvia_heritage:0 "Heritage of Esus' Faithful"
+ esuvia_heritage_desc:0 "The Esuvii were a small tribe with little external influence, outside of a small network of subordinate vassal tribes. Their position on major trade routes between the Aremoricans and the broad valleys around ancient Paris gave them a significant interest in not only profiting from the Gallic trade, but also protecting it by ensuring their lands were peaceful and secure. Their name likely stemmed from ties to the deity Esus, worshiped across much of Europe."
+ ###Lexovia
+ lexovia_heritage:0 "Heritage of the Kingslayers"
+ lexovia_heritage_desc:0 "A fiercely stubborn people, the Lexovii had a reputation for taking no insult or denial lying down, even if it was from their own tribal leaders - visiting violence upon them if needed, should their decisions go against the whims of the people. The Lexovii had good relations with the Aremoricans, enough to maintain solid diplomatic contact. Their name, meaning `the leaning` may have roots in the position of the capital on a hillside."
+ ###Eburovicia
+ eburovicia_heritage:0 "Heritage of the Yew Bows"
+ eburovicia_heritage_desc:0 "Those who vanquished with the yew, the Eburovices were the religious leaders of the Aulercian cultural sphere from their home on the plateaus of inland Normandy. Their name likely suggests a strong tradition of archery, due to the exceptional flexibility and strength of yew wood."
+ ###Diablintia
+ diablintia_heritage:0 "Heritage of the Aulercian City Builders"
+ diablintia_heritage_desc:0 "The Diablintes were a small sub-group of the Aulercians, and like many of their kin had close ties with the nearby Aremoricans. They seem to have particularly favoured urbanisation by the standards of the Gauls, with the settlement at Moulay being one of the largest in Gaul."
+ ###Aulercia
+ aulercia_heritage:0 "Heritage of the Mighty Aulercians"
+ aulercia_heritage_desc:0 "More specifically known as the Aulerci Cenomani, these were the foremost amongst the Aulercians in power and prestige, and were capable of marshalling large, formidable armies if provoked. Though the Cenomani could not be said to be rulers of their fellow Aulercians, their cultural hegemony was likely considerable, though the religious heart of Aulercia likely resided instead in Eburovicia."
+ allobrogia_heritage:0 "Heritage of the Allobroges"
+ allobrogia_heritage_desc:0 "The Allobroges were a highly mobile group, whose very name translated to `the foreigners` in reference to their migratory traditions. They were an innately divided people, particularly between those of them who lived in the mountains and those who lived in the plains, and the two often stood in opposition to each other. Despite this, the Allobroges seem to have enjoyed a certain prosperity, particularly in their agricultural efforts."
