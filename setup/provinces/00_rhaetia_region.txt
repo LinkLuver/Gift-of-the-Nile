@@ -39,7 +39,7 @@
 3539={ #Labisco
 	terrain="hills"
 	culture="allobrogian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="base_metals"
 	civilization_value=16
 	barbarian_power=0
@@ -294,7 +294,7 @@
 3621={ #Venetonimagus
 	terrain="hills"
 	culture="allobrogian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="stone"
 	civilization_value=16
 	barbarian_power=0
@@ -331,7 +331,7 @@
 3623={ #Boutae
 	terrain="hills"
 	culture="allobrogian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="stone"
 	civilization_value=15
 	barbarian_power=0
@@ -348,7 +348,7 @@
 3624={ #Genava
 	terrain="mountain"
 	culture="allobrogian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="iron"
 	civilization_value=15
 	barbarian_power=0

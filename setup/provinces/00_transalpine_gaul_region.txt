@@ -70,7 +70,7 @@
 2255={ #Carcasso
 	terrain="plains"
 	culture="volcae"
-	religion="gallo_hellenic"
+	religion="druidism"
 	trade_goods="precious_metals"
 	civilization_value=11
 	barbarian_power=0
@@ -215,7 +215,7 @@
 2261={ #Luteva
 	terrain="forest"
 	culture="volcae"
-	religion="gallo_hellenic"
+	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=9
 	barbarian_power=0
@@ -234,7 +234,7 @@
 2262={ #Segodunum
 	terrain="forest"
 	culture="volcae"
-	religion="gallo_hellenic"
+	religion="druidism"
 	trade_goods="stone"
 	civilization_value=9
 	barbarian_power=0
@@ -253,7 +253,7 @@
 2263={ #Albiga
 	terrain="forest"
 	culture="volcae"
-	religion="gallo_hellenic"
+	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=9
 	barbarian_power=0
@@ -269,7 +269,7 @@
 2265={ #Tolosa
 	terrain="plains"
 	culture="volcae"
-	religion="gallo_hellenic"
+	religion="druidism"
 	trade_goods="earthware"
 	civilization_value=11
 	barbarian_power=0
@@ -307,7 +307,7 @@
 2267={ #Elusio
 	terrain="hills"
 	culture="volcae"
-	religion="gallo_hellenic"
+	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=9
 	barbarian_power=0
@@ -387,7 +387,7 @@
 2285={ #Gabalum
 	terrain="forest"
 	culture="arverni"
-	religion="gallo_hellenic"
+	religion="druidism"
 	trade_goods="marble"
 	civilization_value=9
 	barbarian_power=0
@@ -426,7 +426,7 @@
 2295={ #Ad Silanum
 	terrain="forest"
 	culture="arverni"
-	religion="gallo_hellenic"
+	religion="druidism"
 	trade_goods="stone"
 	civilization_value=9
 	barbarian_power=0
@@ -462,7 +462,7 @@
 2297={ #Cebennia
 	terrain="forest"
 	culture="volcae"
-	religion="gallo_hellenic"
+	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=9
 	barbarian_power=0
@@ -500,28 +500,16 @@
 	culture="allobrogian"
 	religion="gallo_hellenic"
 	trade_goods="cloth"
-	civilization_value=22
+	civilization_value=16
 	barbarian_power=0
-	province_rank="city"
-	nobles={
-		culture="arverni"
-		amount=1
-	}
-	citizen={
-		culture="arverni"
-		amount=1
-	}
+	province_rank="settlement"
 	freemen={
-		culture="arverni"
-		amount=3
+		amount=2
 	}
 	freemen={
 		culture="massalian"
 		religion="roman_pantheon"
 		amount=1
-	}
-	freemen={
-		amount=2
 	}
 	slaves={
 		amount=1
@@ -536,28 +524,40 @@
 	culture="allobrogian"
 	religion="druidism"
 	trade_goods="leather"
-	civilization_value=16
+	civilization_value=20
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	slaves={
-		amount=4
-	}
-	slaves={
+	citizen={
 		culture="arverni"
 		amount=1
 	}
-	tribesmen={
+	freemen={
+		religion="gallo_hellenic"
 		amount=3
+	}
+	freemen={
+		culture="massalian"
+		religion="gallo_hellenic"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
 	}
 }
 
 2303={ #Octavus
 	terrain="plains"
 	culture="allobrogian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="stone"
 	civilization_value=16
 	barbarian_power=0
@@ -593,7 +593,7 @@
 2305={ #Allobrogia
 	terrain="plains"
 	culture="allobrogian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="cattle"
 	civilization_value=11
 	barbarian_power=0
@@ -609,7 +609,7 @@
 2306={ #Figlinae
 	terrain="plains"
 	culture="allobrogian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="base_metals"
 	civilization_value=11
 	barbarian_power=0
@@ -635,7 +635,7 @@
 2307={ #Morginnum
 	terrain="plains"
 	culture="allobrogian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="stone"
 	civilization_value=11
 	barbarian_power=0
@@ -1085,7 +1085,7 @@
 2356={ #Ludna
 	terrain="plains"
 	culture="allobrogian"
-	religion="druidism"
+	religion="gallo_hellenic"
 	trade_goods="base_metals"
 	civilization_value=16
 	barbarian_power=0
@@ -1118,7 +1118,7 @@
 3309={ #Canniaco
 	terrain="forest"
 	culture="arverni"
-	religion="gallo_hellenic"
+	religion="druidism"
 	trade_goods="wine"
 	civilization_value=9
 	barbarian_power=0

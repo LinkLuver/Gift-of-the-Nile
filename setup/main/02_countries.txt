@@ -7412,14 +7412,14 @@ country = {
 
 		RUT = {
 			government = tribal_kingdom
-			primary_culture = volcae
+			primary_culture = arverni
 			religion = druidism
 			centralization=10
 
 			capital = 2297
 
 			own_control_core = 	{
-				2297 2285 2295 2296 3309
+				2297 2285 2295 2296 3309 2286
 			}
 		}
 
@@ -7431,7 +7431,7 @@ country = {
 			capital = 2304
 
 			own_control_core = 	{
-				2304 2306 2307 2305 2303 3621 3539
+				2304 2306 2307 2305 2303 3624 3623 3621 3539
 			}
 		}
 
@@ -7448,17 +7448,12 @@ country = {
 				religious_tech= { level=1 progress=0  }
 			}
 
-			#is_antagonist = yes
+			is_antagonist = yes
 			capital = 2373
 
 			own_control_core = 	{
-				2284 2298 2299 2371 2373 2375 2300 1719 2342 2376 2374 2372 2370
-				2301 2302 2364 2356 2357 3622 3626 2282 2287 2327 2329 2328 2338 2339
-				2344 2340 2404 2330 2341 2331 2283 2378 2343 2332 3307 1721 2337
-				3627 3628 2355 2361 2359 2358
-				2367 2366 2365 2286 2291 2333 2380 2369 2360 2348 2362
-				2234 2292 2326 2335
-
+				2284 2298 2299 2371 2373 2375 2300 1719 2342 2376 2374 2372 2370 2344 2340 2404 2330 2341 2331 2283 2378 2343 2332 3307 1721 2337 2346 2383 2379 2382
+				2380 2381
 			}
 		}
 
@@ -7470,7 +7465,7 @@ country = {
 			capital = 2270
 
 			own_control_core = 	{
-				2270 2269 2268 2280 2293 2294
+				2270 2269 2268 2280 2294 2293 2326 2335 2292
 			}
 		}
 
@@ -7620,7 +7615,7 @@ country = {
 			capital = 2229
 
 			own_control_core = 	{
-				2229 2232 2231 2290 3000 2230 2334
+				2229 2232 2231 2290 3000 2291 2230 2333 2334 2234
  			}
 		}
 
@@ -7717,7 +7712,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				3625 3624 3623 3629 3630
+				3629 3630 3625 3627 3628
  			}
 		}
 
@@ -7843,7 +7838,7 @@ country = {
 			capital = 2347
 
 			own_control_core = 	{
-				2347 2368 2412 2414 2416 2408 2407 2411 2406 2410 2409 2377 2381 2379 2382 2383 2405 2346
+				2347 2368 2367 2412 2414 2416 2408 2407 2411 2406 2410 2409 2377 2405
 			}
 		}
 
@@ -8070,7 +8065,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				2427 2363 2355
+				2427 2363 2355 2361 2359 2358
 			}
 		}
 
@@ -8099,7 +8094,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				2435 2437 2434 2413 2439 2438 2440 2430 2432 2415 2436 2429 2354 2428 3004 3014 3013 3015 3016 3003 3007
+				2348 2366 2369 2365 2360 2435 2437 2438 2434 2413 2439 2362
 			}
 		}
 
@@ -8112,7 +8107,7 @@ country = {
 			capital = 2433
 
 			own_control_core = 	{
-				2431 2433 3005
+				2354 2429 2436 2433 3004 3003 3015 3014 3013 3016 2428
 			}
 		}
 
@@ -8138,7 +8133,7 @@ country = {
 			capital = 2449
 
 			own_control_core = 	{
-				2449 3008 3006 2496
+				2449 3008 3006 2496 3005 3007
 			}
 		}
 
@@ -8146,7 +8141,7 @@ country = {
 			government = tribal_kingdom
 			primary_culture = sennonian
 			religion = druidism
-			centralization=10
+			centralization=40
 
 			capital = 2475
 
@@ -17153,6 +17148,58 @@ country = {
                 808 807 10103 10109 10110 805 10177
             }
         }
+
+		PTC = {
+			government = tribal_kingdom
+			primary_culture = santonian
+			religion = druidism
+			centralization=35
+
+			capital = 2282
+
+			own_control_core = 	{
+				2282 2287 2327 2329 2328 2338 2339
+ 			}
+		}
+
+		SGL = {
+			government = tribal_kingdom
+			primary_culture = allobrogian
+			religion = druidism
+			centralization=35
+
+			capital = 2302
+
+			own_control_core = 	{
+				2301 2302 2364 2356 2357
+			}
+		}
+
+		AMB = {
+			government = tribal_kingdom
+			primary_culture = allobrogian
+			religion = druidism
+			centralization=10
+
+			capital = 3622
+
+			own_control_core = 	{
+				3622 3626
+			}
+		}
+
+		MDB = {
+			government = tribal_kingdom
+			primary_culture = haedui
+			religion = druidism
+			centralization=10
+
+			capital = 2440
+
+			own_control_core = 	{
+				2440 2431 2430 2432 2415
+			}
+		}
 
 		OUE = { #Ouenasa temple state
             government = theocratic_monarchy

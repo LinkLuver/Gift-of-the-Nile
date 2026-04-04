@@ -748,10 +748,6 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 
-	2301 = { #Lugdunum
-		fortress_building = 1
-	}
-
     #Isthmus of Corinth
 	418 = { #Corinth
 		 modifier = { modifier = lesser_pass_modifier always = yes }

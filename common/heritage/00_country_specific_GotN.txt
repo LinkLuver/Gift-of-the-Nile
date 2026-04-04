@@ -10095,3 +10095,51 @@ ambarria_heritage = {
         tag = AMB
     }
 }
+
+pictonia_heritage = {
+    modifier = {
+        #good
+        naval_morale_modifier = 0.1
+        price_state_investment_oratory_cost_modifier = -0.05
+       
+        #bad
+       general_loyalty = -4
+        
+    }
+   
+    trigger = {
+        tag = PCS
+    }
+}
+
+parisia_gaul_heritage = {
+    modifier = {
+        #good
+        global_export_commerce_modifier = 0.10
+        global_citizen_desired_pop_ratio = 0.05
+       
+       #bad
+       global_import_commerce_modifier = -0.05
+        
+    }
+   
+    trigger = {
+        tag = PRS
+    }
+}
+
+senones_gaul_heritage = {
+    modifier = {
+        #good
+        global_monthly_food_modifier = 0.10
+        monthly_political_influence_modifier = 0.05
+       
+        #bad
+        enslavement_efficiency = -0.10
+        
+    }
+   
+    trigger = {
+        tag = SNN
+    }
+}

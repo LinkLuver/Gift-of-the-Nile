@@ -88,15 +88,24 @@ diplomacy = {
 
 
 	#Arvernian Sphere
-	dependency = { first = AVN second = ADC subject_type = feudatory }
-	dependency = { first = AVN second = ALL subject_type = tributary }
-	dependency = { first = AVN second = SQI subject_type = feudatory }
-	dependency = { first = AVN second = VRB subject_type = tributary }
-	dependency = { first = AVN second = SNT subject_type = tributary }
+	dependency = { first = AVN second = SGL subject_type = feudatory }
+	dependency = { first = AVN second = AMB subject_type = feudatory }
+	dependency = { first = AVN second = ADC subject_type = tributary }
+	dependency = { first = AVN second = PTC subject_type = tributary }
 
-	#Aedui Subject + Biturgia Alliance
-	dependency = { first = AED second = LNG subject_type = tributary }
+	#Aeduia - Biturgia Alliance
 	alliance = { first = AED second = BGT }
+
+	#Allobrogia - Verbigenia Alliance
+	alliance = { first = ALL second = VRB }
+
+	#Haedui League
+	defensive_league = {
+		member = AED
+		member = SQI 
+		member = MDB
+		member = LNG
+	}
 
 	#Tylisian Subjects
 	dependency = { first = TYL second = MES subject_type = tributary }

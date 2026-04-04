@@ -6,7 +6,6 @@
 		potential = {
 			num_of_cities >= 1
 			primary_culture = helvetian
-			is_tribal = yes
 			NOT = {
 				tag = HVL
 			}
