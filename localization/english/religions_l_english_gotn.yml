@@ -168,6 +168,13 @@
  convert_to_gallo_hellenic:0 "Adopt Gallo-Hellenic Beliefs"
  convert_to_gallo_hellenic_desc:0 "The syncretic practices of the Gallo-Hellenes have become prolific in our society. Who are we to stand against the winds of change?"
 
+ convert_from_druidic_to_gallo_hellenic:0 "Adopt Gallo-Hellenic Beliefs"
+ convert_from_druidic_to_gallo_hellenic_desc:0 "The syncretic practices of the Gallo-Hellenes have become prolific in our society. Who are we to stand against the winds of change?"
+ celtic_to_gallo_hellenic_coversion_tt:0 "Have #Y 2#! deities from the [GetReligion('gallo_hellenic').GetName|Y] pantheon."
+ 
+ convert_from_italic_to_hellenic:0 "Convert From Italic to Hellenic"
+ convert_from_italic_to_hellenic_desc:0 "We, as a people, have decided that it is in our best interests to convert en masse to the Hellenic Faith."
+
 
  # Egyptian Religious Flavor
  rel_flavor_kemetic.1.d:0 "We will hold a celebration of the laws of the Aten."

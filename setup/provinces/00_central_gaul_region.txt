@@ -151,15 +151,28 @@
 	culture="haedui"
 	religion="druidism"
 	trade_goods="wine"
-	civilization_value=16
+	civilization_value=20
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=2
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="massalian"
 		religion="gallo_hellenic"
 		amount=2
 	}
+	slaves={
+		amount=2
+	}
 	tribesmen={
-		amount=5
+		amount=4
 	}
 }
 
@@ -225,7 +238,7 @@
 	culture="haedui"
 	religion="druidism"
 	trade_goods="wine"
-	civilization_value=9
+	civilization_value=16
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -857,28 +870,17 @@
 	culture="haedui"
 	religion="gallo_hellenic"
 	trade_goods="horses"
-	civilization_value=20
+	civilization_value=16
 	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=1
-	}
-	citizen={
-		amount=2
-	}
+	province_rank="settlement"
 	freemen={
-		amount=2
-	}
-	freemen={
-		culture="massalian"
-		religion="gallo_hellenic"
 		amount=2
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=3
 	}
 }
 

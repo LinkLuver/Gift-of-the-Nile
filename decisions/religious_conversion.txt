@@ -139,40 +139,40 @@ country_decisions = {
 		}
 	}
 	
-	convert_to_hellenic = {
-		
-		potential = {
-			num_of_cities >= 1
-			NOT = {
-				religion = italic_pantheon
-			}
-			potential_change_religion_trigger = {
-				RELIGION = roman_pantheon
-			}
-		}
-
-		allow = {
-			could_change_religion_trigger = {
-				RELIGION = roman_pantheon
-			}
-		}
-		
-		effect = {
-			change_religion_effect = {
-				RELIGION = roman_pantheon
-			}
-		}
-		
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				add = 1
-				capital_scope = {
-					dominant_province_religion = roman_pantheon
-				}
-			}
-		}
-	}
+	#convert_to_hellenic = {
+	#	
+	#	potential = {
+	#		num_of_cities >= 1
+	#		NOT = {
+	#			religion = italic_pantheon
+	#		}
+	#		potential_change_religion_trigger = {
+	#			RELIGION = roman_pantheon
+	#		}
+	#	}
+	#
+	#	allow = {
+	#		could_change_religion_trigger = {
+	#			RELIGION = roman_pantheon
+	#		}
+	#	}
+	#	
+	#	effect = {
+	#
+	#			RELIGION = roman_pantheon
+	#		}
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 0
+	#		modifier = {
+	#			add = 1
+	#			capital_scope = {
+	#				dominant_province_religion = roman_pantheon
+	#			}
+	#		}
+	#	}
+	#}
 	
 	convert_to_canaanite = {
 		

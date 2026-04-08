@@ -10143,3 +10143,19 @@ senones_gaul_heritage = {
         tag = SNN
     }
 }
+
+sequani_heritage = {
+    modifier = {
+       #good
+       global_population_capacity_modifier = 0.10
+       global_tax_modifier = 0.05
+       
+       #bad
+       monthly_governor_wage = 0.10
+        
+    }
+   
+    trigger = {
+        tag = SQI
+    }
+}

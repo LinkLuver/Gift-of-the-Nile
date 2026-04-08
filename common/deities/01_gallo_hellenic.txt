@@ -3,7 +3,7 @@ deity_apollo_grannus = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			rare_deity_trigger = {
+			common_deity_trigger = {
 				RELIGION = gallo_hellenic
 			}
 			deity:omen_apollo_grannus = {
@@ -30,7 +30,7 @@ deity_epona = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			rare_deity_trigger = {
+			common_deity_trigger = {
 				RELIGION = gallo_hellenic
 			}
 			deity:omen_epona = {
@@ -136,7 +136,7 @@ deity_dirona = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			common_deity_trigger = {
+			rare_deity_trigger = {
 				RELIGION = gallo_hellenic
 			}
 			deity:omen_dirona = {
@@ -190,7 +190,7 @@ deity_apollo_belinus = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			common_deity_trigger = {
+			rare_deity_trigger = {
 				RELIGION = gallo_hellenic
 			}
 			deity:omen_apollo_belinus = {
@@ -316,6 +316,33 @@ deity_hermes_arvenorix = {
 
 	on_activate = {
 		economy_income_effect = yes
+	}
+}
+
+deity_sequana = { # Sequana
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = gallo_hellenic
+			}
+			deity:omen_sequana = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_greek_love
+	passive_modifier = { global_supply_limit_modifier = deity_global_supply_limit_modifier_svalue }
+	omen = { global_freemen_output = omen_global_freemen_output_svalue } #Bonus from Omen
+	religion = gallo_hellenic
+	deity_category = fertility #This Deity uses a Fertility Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+
+	on_activate = {
+		military_apotheosis_capital_freemen_effect = yes
 	}
 }
 
