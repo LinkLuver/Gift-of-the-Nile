@@ -455,3 +455,8 @@
  ugarit_excavation:0 "Clear the Ruins of Ugarit"
  ugarit_excavation_desc:0 "A large portion of [GetProvince('(int32)786').GetName] still lies in ruins, a scar from an invasion from long ago. We would be wise to clear these.\n\nThis will trigger an #G event chain#!."
  
+ sequana_shrine:0 "Establish a temple to Sequana"
+ sequana_shrine_desc:0 "Sequana, the goddess of the river Sequana, has historically been worshipped at the springs near the origin of the river. Constructing a proper temple complex to this deity would attract pilgrims from all over Gaul."
+ sequana_shrine_mod:0 "Springs of Sequana"
+ desc_sequana_shrine_mod:0 "Worshippers of Sequana hold these springs to have healing and restorative properties. It is because of this belief that a temple complex dedicated to the goddess has been built. The various buildings and courtyards of this complex are home to priests, and pilgrims from many different parts of Gaul can be found paying their respects to the holy Sequana."
+ 
