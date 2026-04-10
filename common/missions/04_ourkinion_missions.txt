@@ -9,7 +9,8 @@
 
     potential = {
         NOT = { has_variable = our_missions_cooldown_var }
-        tag = OUR
+        always = no 
+        #tag = OUR
     }
 
     abort = {

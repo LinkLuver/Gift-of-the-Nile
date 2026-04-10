@@ -1,0 +1,87 @@
+﻿namespace = gotn_random_events
+
+# Greek Trader events - for Iberians, Gauls, and Britons
+gotn_random_events.1 = {
+    
+	trigger = {
+		OR = {
+			is_in_gaul_trigger = yes
+			is_in_iberia_trigger = yes
+			is_in_britannia_trigger = yes
+		}
+		AND = {
+			any_province = {
+				num_of_ports <= 1 
+			}
+		}
+		NOT = { 
+			primary_culture = massalian
+			primary_culture = atlosian
+			primary_culture = carthaginian
+			primary_culture = ibero_punic
+			has_variable = gotn_random_events_1_cooldown 
+		}
+	}
+    type = country_event
+    title = "gotn_random_events_1_title"
+    desc = "gotn_random_events_1_desc"
+    picture = trade_port
+    
+    option = {
+        name = "gotn_random_events_1.a"
+		add_country_modifier = {
+			name = greek_traders
+			duration = 1825
+		}
+		#trigger_event = {
+		#	id = gotn_random_events.2
+		#	days = 1825
+		#}
+		set_variable = {
+			name = gotn_random_events_1_cooldown
+			days = 3650
+		}
+	}
+	option = {
+        name = "gotn_random_events_1.b"
+        add_treasury = 100
+		current_ruler = {
+			add_trait = cruel
+		}
+	}
+}
+
+#gotn_random_events.2 = {
+#    
+#	trigger = {
+#		OR = {
+#			is_in_gaul_trigger = yes
+#			is_in_iberia_trigger = yes
+#			is_in_britannia_trigger = yes
+#		}
+#		AND = {
+#			any_province = {
+#				num_of_port_building >= 1
+#			}
+#		}
+#		NOT = { 
+#			primary_culture = massalian
+#			primary_culture = atlosian
+#			primary_culture = carthaginian
+#			primary_culture = ibero_punic
+#			has_variable = gotn_random_events_2_cooldown 
+#		}
+#	}
+ #   type = country_event
+#    title = "gotn_random_events_2_title"
+ #   desc = "gotn_random_events_2_desc"
+ #   picture = greek_city_market
+ #   
+#    option = {
+#        name = "gotn_random_events_2.a"
+#	}
+#	option = {
+#        name = "gotn_random_events_2.b"
+#        
+#	}
+#}

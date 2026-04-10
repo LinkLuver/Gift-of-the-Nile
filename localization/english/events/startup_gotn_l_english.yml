@@ -292,9 +292,6 @@
  SICEL_EMPIRE_NAME:0 "Sicel Empire"
  SICEL_EMPIRE_ADJECTIVE:0 "Siculian"
 
-
-
-
  #Levant Events
  levant_events_1_title:0 "A Curious Discovery"
  levant_events_1_desc:0 "There has been ongoing construction in some of the older parts of [GetProvince('(int32)786').GetName] for some time now. A foreman of one of the construction crews involved in the project has come forward, claiming to have found several cuneiform tablets, seemingly written in an archaic form of Ugaritic. Is it possible that he has found treasures from the old times?\n\nRegardless, something must be done about these ruins. A proper dig of the site could be conducted, however it would require funding. Or as we have done in the past, the old bricks could be repurposed."

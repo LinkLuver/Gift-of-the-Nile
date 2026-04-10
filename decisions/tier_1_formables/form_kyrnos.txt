@@ -5,7 +5,10 @@
 		
 		potential = {
 			num_of_cities >= 1
-			tag = OUR
+			primary_culture = massalian
+			capital_scope = {
+				is_in_area = corsica_area
+			}
 			NOR = {
 				is_tier_1_formable_trigger = yes
 				is_tier_2_formable_trigger = yes
