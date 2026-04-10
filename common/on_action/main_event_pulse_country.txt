@@ -658,5 +658,9 @@
 		10 = inv_pop_events.10
 
 		50 = egyptian_revolt.1 # Upper Egypt revolt event
+
+		## GOTN New Events ##
+		100 = mysteries_events.1 #Orphic event
+		100 = mysteries_events.2 #Platonic event
 	}
 }

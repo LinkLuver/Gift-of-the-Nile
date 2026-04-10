@@ -1,0 +1,14 @@
+﻿l_english:
+
+ mysteries_events_1_t:0 "Pythagorean Thought"
+ mysteries_events_1_desc:0 "A well known Orphic philosopher has traveled through our [randomized_country_province.Custom('get_city_type_loc')] of [SCOPE.sP('randomized_country_province').GetName] in [SCOPE.sP('randomized_country_province').GetState.GetShortName] and the area around the province. A significant portion of the population there has begun to take up the teachings of the famed Pythagoras.\n\nWhile we were initially worried about their intent, they seem to a peaceful type, and do not seem to trouble anyone, although we find their abstaining from fava beans puzzling." 
+ mysteries_events_1.a:1 "If they are peaceful, they are free to believe his lectures."
+ mysteries_events_1.b:1 "They will not be allowed to follow the babblings of a fool."
+ orphism_medium.tt:0 "Up to #Y 20%#! of the population in #Y [THIS.GetProvince.GetName]#! will convert to #Y Orphism#!."
+ orphism_minor.tt:0 "Up to #Y 10%#! of the population in #Y [THIS.GetProvince.GetName]#! will convert to #Y Orphism#!."
+ mysteries_events_2_t:0 "The Teachings of Plato"
+ mysteries_events_2_desc:0 "A well known Platonic philosopher has traveled through our [randomized_country_province.Custom('get_city_type_loc')] of [SCOPE.sP('randomized_country_province').GetName] in [SCOPE.sP('randomized_country_province').GetState.GetShortName] and the area around the province. It is now common to find groups of people in the area engaged in debates, going over the meanings of Plato's famous dialogues.\n\nThese Platonics appear to mostly keep to themselves, and so far they have not caused any trouble. Perhaps there is some wisdom we can glean from their debates." 
+ mysteries_events_2.a:1 "The teachings of Plato will be accepted."
+ mysteries_events_2.b:1 "Bah! Sounds like a bunch of nonsense to me."
+ platonism_medium.tt:0 "Up to #Y 20%#! of the population in #Y [THIS.GetProvince.GetName]#! will convert to #Y Platonism#!."
+ platonism_minor.tt:0 "Up to #Y 10%#! of the population in #Y [THIS.GetProvince.GetName]#! will convert to #Y Platonism#!."

@@ -1,0 +1,559 @@
+﻿namespace = mysteries_events
+
+# Recurring Orphism event
+mysteries_events.1 = {
+	type = country_event
+	title = "mysteries_events_1_t"
+	desc = "mysteries_events_1_desc"
+	picture = greek_philosophers
+	
+	left_portrait = current_ruler
+
+	goto_location = scope:randomized_country_province
+	
+	trigger = {
+        religion = roman_pantheon
+		NOT = { has_variable = mysteries_events_1_cooldown }
+		NOT = { religion = isis_religion }
+		any_owned_province = {
+			any_pops_in_province = {
+				count > 5
+				NOT = { pop_religion = isis_religion }
+			}
+		}
+	}
+
+	immediate = {
+		random_owned_province = {
+			limit = {
+				any_pops_in_province = {
+					count > 5
+					NOT = { pop_religion = isis_religion }
+				}
+			}
+			save_scope_as = randomized_country_province
+		}
+		if = {
+			limit = {
+				any_owned_province = {
+					any_pops_in_province = {
+						NOT = { pop_religion = isis_religion }
+					}
+					any_neighbor_province = {
+						this = scope:randomized_country_province
+					}
+				}
+			}
+			random_owned_province = {
+				limit = {
+					any_pops_in_province = {
+						NOT = { pop_religion = isis_religion }
+					}
+					any_neighbor_province = {
+						this = scope:randomized_country_province
+					}
+				}
+				save_scope_as = randomized_country_province_2
+			}
+			if = {
+				limit = {
+					any_owned_province = {
+						NOT = { this = scope:randomized_country_province_2 }
+						any_pops_in_province = {
+							NOT = { pop_religion = isis_religion }
+						}
+						any_neighbor_province = {
+							this = scope:randomized_country_province
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						NOT = { this = scope:randomized_country_province_2 }
+						any_pops_in_province = {
+							NOT = { pop_religion = isis_religion }
+						}
+						any_neighbor_province = {
+							this = scope:randomized_country_province
+						}
+					}
+					save_scope_as = randomized_country_province_3
+				}
+				if = {
+					limit = {
+						any_owned_province = {
+							NOR = { 
+								this = scope:randomized_country_province_2 
+								this = scope:randomized_country_province_3
+							}
+							any_pops_in_province = {
+								NOT = { pop_religion = isis_religion }
+							}
+							any_neighbor_province = {
+								this = scope:randomized_country_province
+							}
+						}
+					}
+					random_owned_province = {
+						limit = {
+							NOR = { 
+								this = scope:randomized_country_province_2 
+								this = scope:randomized_country_province_3
+							}
+							any_pops_in_province = {
+								NOT = { pop_religion = isis_religion }
+							}
+							any_neighbor_province = {
+								this = scope:randomized_country_province
+							}
+						}
+						save_scope_as = randomized_country_province_4
+					}
+					if = {
+						limit = {
+							any_owned_province = {
+								NOR = { 
+									this = scope:randomized_country_province_2 
+									this = scope:randomized_country_province_3
+									this = scope:randomized_country_province_4
+								}
+								any_pops_in_province = {
+									NOT = { pop_religion = isis_religion }
+								}
+								any_neighbor_province = {
+									this = scope:randomized_country_province
+								}
+							}
+						}
+						random_owned_province = {
+							limit = {
+								NOR = { 
+									this = scope:randomized_country_province_2 
+									this = scope:randomized_country_province_3
+									this = scope:randomized_country_province_4
+								}
+								any_pops_in_province = {
+									NOT = { pop_religion = isis_religion }
+								}
+								any_neighbor_province = {
+									this = scope:randomized_country_province
+								}
+							}
+							save_scope_as = randomized_country_province_5
+						}
+					}
+				}
+			}
+		}
+		set_variable = {
+			name = mysteries_events_1_cooldown
+			days = 3650
+		}
+	}
+
+	option = {
+		name = "mysteries_events_1.a"
+		scope:randomized_country_province = {
+			custom_tooltip = "orphism_medium.tt"
+			hidden_effect = {
+				ordered_pops_in_province = {
+					limit = {
+						NOT = {
+							pop_religion = isis_religion
+						}
+					}
+					order_by = pop_hapiness
+					max = {
+						value = total_population
+						divide = 5
+					}
+					check_range_bounds = no
+					set_pop_religion = isis_religion
+				}
+			}
+		}
+		if = {
+			limit = {
+				exists = scope:randomized_country_province_2
+			}
+			scope:randomized_country_province_2 = {
+				custom_tooltip = "orphism_minor.tt"
+				hidden_effect = {
+					ordered_pops_in_province = {
+						limit = {
+							NOT = {
+								pop_religion = isis_religion
+							}
+						}
+						order_by = pop_hapiness
+						max = {
+							value = total_population
+							divide = 9
+						}
+						check_range_bounds = no
+						set_pop_religion = isis_religion
+					}
+				}
+			}
+			if = {
+				limit = {
+					exists = scope:randomized_country_province_3
+				}
+				scope:randomized_country_province_3 = {
+					custom_tooltip = "orphism_minor.tt"
+					hidden_effect = {
+						ordered_pops_in_province = {
+							limit = {
+								NOT = {
+									pop_religion = isis_religion
+								}
+							}
+							order_by = pop_hapiness
+							max = {
+								value = total_population
+								divide = 9
+							}
+							check_range_bounds = no
+							set_pop_religion = isis_religion
+						}
+					}
+				}
+				if = {
+					limit = {
+						exists = scope:randomized_country_province_4
+					}
+					scope:randomized_country_province_4 = {
+						custom_tooltip = "orphism_minor.tt"
+						hidden_effect = {
+							ordered_pops_in_province = {
+								limit = {
+									NOT = {
+										pop_religion = isis_religion
+									}
+								}
+								order_by = pop_hapiness
+								max = {
+									value = total_population
+									divide = 9
+								}
+								check_range_bounds = no
+								set_pop_religion = isis_religion
+							}
+						}
+					}
+					if = {
+						limit = {
+							exists = scope:randomized_country_province_5
+						}
+						scope:randomized_country_province_5 = {
+							custom_tooltip = "orphism_minor.tt"
+							hidden_effect = {
+								ordered_pops_in_province = {
+									limit = {
+										NOT = {
+											pop_religion = isis_religion
+										}
+									}
+									order_by = pop_hapiness
+									max = {
+										value = total_population
+										divide = 9
+									}
+									check_range_bounds = no
+									set_pop_religion = isis_religion
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "mysteries_events_1.b"
+		trigger = {
+			is_ai = no
+		}
+		add_tyranny = tyranny_large
+	}
+}
+
+# Recurring Platonism event
+mysteries_events.2 = {
+	type = country_event
+	title = "mysteries_events_2_t"
+	desc = "mysteries_events_2_desc"
+	picture = greek_political_discussion
+	
+	left_portrait = current_ruler
+
+	goto_location = scope:randomized_country_province
+	
+	trigger = {
+        religion = roman_pantheon
+		NOT = { has_variable = mysteries_events_2_cooldown }
+		NOT = { religion = platonism }
+		any_owned_province = {
+			any_pops_in_province = {
+				count > 5
+				NOT = { pop_religion = platonism }
+			}
+		}
+	}
+
+	immediate = {
+		random_owned_province = {
+			limit = {
+				any_pops_in_province = {
+					count > 5
+					NOT = { pop_religion = platonism }
+				}
+			}
+			save_scope_as = randomized_country_province
+		}
+		if = {
+			limit = {
+				any_owned_province = {
+					any_pops_in_province = {
+						NOT = { pop_religion = platonism }
+					}
+					any_neighbor_province = {
+						this = scope:randomized_country_province
+					}
+				}
+			}
+			random_owned_province = {
+				limit = {
+					any_pops_in_province = {
+						NOT = { pop_religion = platonism }
+					}
+					any_neighbor_province = {
+						this = scope:randomized_country_province
+					}
+				}
+				save_scope_as = randomized_country_province_2
+			}
+			if = {
+				limit = {
+					any_owned_province = {
+						NOT = { this = scope:randomized_country_province_2 }
+						any_pops_in_province = {
+							NOT = { pop_religion = platonism }
+						}
+						any_neighbor_province = {
+							this = scope:randomized_country_province
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						NOT = { this = scope:randomized_country_province_2 }
+						any_pops_in_province = {
+							NOT = { pop_religion = platonism }
+						}
+						any_neighbor_province = {
+							this = scope:randomized_country_province
+						}
+					}
+					save_scope_as = randomized_country_province_3
+				}
+				if = {
+					limit = {
+						any_owned_province = {
+							NOR = { 
+								this = scope:randomized_country_province_2 
+								this = scope:randomized_country_province_3
+							}
+							any_pops_in_province = {
+								NOT = { pop_religion = platonism }
+							}
+							any_neighbor_province = {
+								this = scope:randomized_country_province
+							}
+						}
+					}
+					random_owned_province = {
+						limit = {
+							NOR = { 
+								this = scope:randomized_country_province_2 
+								this = scope:randomized_country_province_3
+							}
+							any_pops_in_province = {
+								NOT = { pop_religion = platonism }
+							}
+							any_neighbor_province = {
+								this = scope:randomized_country_province
+							}
+						}
+						save_scope_as = randomized_country_province_4
+					}
+					if = {
+						limit = {
+							any_owned_province = {
+								NOR = { 
+									this = scope:randomized_country_province_2 
+									this = scope:randomized_country_province_3
+									this = scope:randomized_country_province_4
+								}
+								any_pops_in_province = {
+									NOT = { pop_religion = platonism }
+								}
+								any_neighbor_province = {
+									this = scope:randomized_country_province
+								}
+							}
+						}
+						random_owned_province = {
+							limit = {
+								NOR = { 
+									this = scope:randomized_country_province_2 
+									this = scope:randomized_country_province_3
+									this = scope:randomized_country_province_4
+								}
+								any_pops_in_province = {
+									NOT = { pop_religion = platonism }
+								}
+								any_neighbor_province = {
+									this = scope:randomized_country_province
+								}
+							}
+							save_scope_as = randomized_country_province_5
+						}
+					}
+				}
+			}
+		}
+		set_variable = {
+			name = mysteries_events_2_cooldown
+			days = 3650
+		}
+	}
+
+	option = {
+		name = "mysteries_events_2.a"
+		scope:randomized_country_province = {
+			custom_tooltip = "platonism_medium.tt"
+			hidden_effect = {
+				ordered_pops_in_province = {
+					limit = {
+						NOT = {
+							pop_religion = platonism
+						}
+					}
+					order_by = pop_hapiness
+					max = {
+						value = total_population
+						divide = 5
+					}
+					check_range_bounds = no
+					set_pop_religion = platonism
+				}
+			}
+		}
+		if = {
+			limit = {
+				exists = scope:randomized_country_province_2
+			}
+			scope:randomized_country_province_2 = {
+				custom_tooltip = "platonism_minor.tt"
+				hidden_effect = {
+					ordered_pops_in_province = {
+						limit = {
+							NOT = {
+								pop_religion = platonism
+							}
+						}
+						order_by = pop_hapiness
+						max = {
+							value = total_population
+							divide = 9
+						}
+						check_range_bounds = no
+						set_pop_religion = platonism
+					}
+				}
+			}
+			if = {
+				limit = {
+					exists = scope:randomized_country_province_3
+				}
+				scope:randomized_country_province_3 = {
+					custom_tooltip = "platonism_minor.tt"
+					hidden_effect = {
+						ordered_pops_in_province = {
+							limit = {
+								NOT = {
+									pop_religion = platonism
+								}
+							}
+							order_by = pop_hapiness
+							max = {
+								value = total_population
+								divide = 9
+							}
+							check_range_bounds = no
+							set_pop_religion = platonism
+						}
+					}
+				}
+				if = {
+					limit = {
+						exists = scope:randomized_country_province_4
+					}
+					scope:randomized_country_province_4 = {
+						custom_tooltip = "platonism_minor.tt"
+						hidden_effect = {
+							ordered_pops_in_province = {
+								limit = {
+									NOT = {
+										pop_religion = platonism
+									}
+								}
+								order_by = pop_hapiness
+								max = {
+									value = total_population
+									divide = 9
+								}
+								check_range_bounds = no
+								set_pop_religion = platonism
+							}
+						}
+					}
+					if = {
+						limit = {
+							exists = scope:randomized_country_province_5
+						}
+						scope:randomized_country_province_5 = {
+							custom_tooltip = "platonism_minor.tt"
+							hidden_effect = {
+								ordered_pops_in_province = {
+									limit = {
+										NOT = {
+											pop_religion = platonism
+										}
+									}
+									order_by = pop_hapiness
+									max = {
+										value = total_population
+										divide = 9
+									}
+									check_range_bounds = no
+									set_pop_religion = platonism
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "mysteries_events_2.b"
+		trigger = {
+			is_ai = no
+		}
+		add_tyranny = tyranny_large
+	}
+}
