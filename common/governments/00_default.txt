@@ -74,9 +74,10 @@ democratic_republic = { #populist/stepping stone party
 	
 	bonus = {
 		global_freemen_happyness = happiness_large_svalue
+		monthly_political_influence_modifier = 0.05
 	}
 	base = {
-		country_civilization_value = 15
+		country_civilization_value = 20
 	}
 	
 	minimum_electable_age = 25

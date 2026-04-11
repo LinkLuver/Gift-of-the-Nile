@@ -1678,7 +1678,7 @@ country = {
 				302 312 313 314 315 317 318 319 #phrygia_epiktetos
 				184 185 187 309 311 339 1943 1944 #phrygia_region
 				# Prokonnesos + New Anatolia
-				1945 1948 1946 1947 295 
+				1945 1946 1947 295 
 				275 10239 10238 10240 10247 10248 
 				10226 10228 10227 10229 10230 10249 10269 10271 10206 10200 10267 10257 10258 
 				10268 10265 10189 10250 10194 10260 10259 10263 10264 10262 10193 10195 10261 
@@ -7436,10 +7436,11 @@ country = {
 		}
 
 		AVN = {
-			government = despotic_monarchy
+			government = gaul_tribal_kingdom
 			primary_culture = arverni
 			diplomatic_stance = vassaling_stance
 			religion = druidism
+			centralization = 50
 			
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -7458,9 +7459,10 @@ country = {
 		}
 
 		NTB = {
-			government = gaul_princely_state
+			government = gaul_tribal_kingdom
 			primary_culture = santonian
 			religion = gallo_hellenic
+			centralization = 20
 
 			capital = 2270
 
@@ -7824,9 +7826,10 @@ country = {
 			}
 		}
 		BGT = {
-			government = gaul_princely_state
+			government = gaul_tribal_kingdom
 			primary_culture = biturigan
 			religion = druidism
+			centralization = 50
 			
 			technology={
 				military_tech={ level=1 progress=0 }
@@ -14412,7 +14415,7 @@ country = {
 			capital = 1967
 
 			own_control_core = 	{
-				1967 1969 10222 1977 1984 7939 1963 1962 7941 10183 1952 7938 1956 1957 7940 1953 1980 1968 1966
+				1967 1969 10222 1977 1984 7939 1963 1962 7941 10183 1952 7938 1980 1968 1966 1948
 			} 
 		}
 
@@ -16710,7 +16713,7 @@ country = {
 			capital = 1958
 
 			own_control_core = {
-				1958 1997 7971 10214 7954
+				1958 1997 7971 10214 7954 7940 1957 1956 1953 
 			} 
 		}
 
@@ -17198,6 +17201,26 @@ country = {
 
 			own_control_core = 	{
 				2440 2431 2430 2432 2415
+			}
+		}
+
+		SMA	= { #Samarian Subject State, at the start loyal to the Antigonids. Would later be a Ptolemaic subject.
+			family = 58
+			government = theocratic_monarchy
+			primary_culture = hebrew
+			religion = judaism
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+			capital = 680
+			
+			own_control_core = 	{
+				684 679 680 668 685 686 683
 			}
 		}
 
