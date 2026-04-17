@@ -1,0 +1,64 @@
+﻿country_decisions = {
+	
+	#form the Walnut League
+	form_walnut_league = {
+		
+		potential = {
+			num_of_cities >= 1
+			OR = {
+				tag = NUC
+			}
+			NOT = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+				has_variable = has_formed_walnut_league
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1713
+					province_id = 7
+					province_id = 6
+					province_id = 9
+					province_id = 10
+				}
+			}
+		}
+		
+		allow = {
+			can_form_nation_trigger = yes
+			owns = 1713
+			owns = 9
+			owns_or_subject_owns = 7
+			owns_or_subject_owns = 6
+			owns_or_subject_owns = 10
+		}
+		
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			change_country_name = "WALNUT_LEAGUE_NAME"
+			change_government = league_republic
+			add_political_influence = 60
+			hidden_effect = {
+				change_country_adjective = "WALNUT_LEAGUE_ADJECTIVE"
+				change_country_flag = WALNUT_LEAGUE_FLAG
+				change_country_color = roman_gold
+			}
+			capital_scope = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+			set_variable = has_formed_walnut_league
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+}

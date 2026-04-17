@@ -190,6 +190,8 @@
  KELTIKA_NAME:0 "Keltike"
  KELTIKA_ADJECTIVE:0 "Keltikoi"
  keltika_mod:0 "Victorious Greeks"
+
+ ##Italy Formables##
  # Magna Kymaia
  form_kymai_magna:0 "Proclaim a Greater Kymai"
  form_kymai_magna_desc:0 "We have long been the preminent power in Campania, defeating the Samnites and Latins in battle more than once. But our recent decline in power, and the ambitions of the Samnites have begun to threaten our position. Not to mention the so called 'Walnut League' of the Nucerians, who surely have ambitions of their own. We cannot even trust our daughter city- Neapolis may soon overtake us. It is imperative to the survival of our city, that we establish a 'Greater Kymai,' no matter the cost."
@@ -205,6 +207,16 @@
  kymaia_option_b:0 "We will retain our ancient ways of republicanism"
  ITALIOTE_KINGDOM_NAME:0 "Italiote Kingdom"
  ITALIOTE_KINGDOM_ADJECTIVE:0 "Italiote"
+ form_sabellia:0 "Unite the Sabellians"
+ form_sabellia_desc:0 "At times the Sabellians have united against a common threat, as was done in the past against the Latins. But now times have changed, and the various Sabellian nations find themselves adrift, threatened by the Greek south, and Etruscan north. To secure our independence against these domineering powers, we must secure our shared homelands."
+ sabellia_claims:0 ""
+ SABELLIA_NAME:0 "Sabellia"
+ SABELLIA_ADJECTIVE:0 "Sabellian"
+ SABELLIA_ALT_NAME:0 "Sabellian Confederacy"
+ form_walnut_league:0 "Centralize the Walnut League"
+ form_walnut_league_desc:0 "An informal league between the cities of Nuceria, Kymaia, Sorrento and Herculaneum, the Walnut League has mostly disintegrated, with only the cities of Nuceria and Sorrento remaining members. The wayward members of our league should be brought back into the fold."
+ WALNUT_LEAGUE_NAME:0 "Walnut League"
+ WALNUT_LEAGUE_ADJECTIVE:0 "Nucerian"
 
  ILLYRIA_GREEK_NAME:0 "Illyrian League"
  ILLYRIA_GREEK_ADJECTIVE:0 "Illyrian"

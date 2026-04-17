@@ -99,5 +99,104 @@ country = {
 		#	start_date=314.1.1
 		#	government=tyranny
 		#
+		LYD = {
+			ruler_term={ # Kukas (Gyges)
+				character=607
+				start_date=74.1.1
+				government=plutocratic_monarchy
+			}
+			ruler_term={ # Ardys
+				character=656
+				start_date=110.1.1
+				government=plutocratic_monarchy
+			}
+			ruler_term={ # Sadyattes
+				character=657
+				start_date=117.1.1
+				government=plutocratic_monarchy
+			}
+			ruler_term={ # Walwetes (Alyattes)
+				character=659
+				start_date=119.1.1
+				government=plutocratic_monarchy
+			}
+			ruler_term={ # Croesus
+				character=661
+				start_date=169.1.1
+				government=plutocratic_monarchy
+			}
+			ruler_term={ # Pythius
+				character=664
+				start_date=200.1.1
+				government=plutocratic_monarchy
+			}
+			ruler_term={ # Batos
+				character=665
+				start_date=240.1.1
+				government=plutocratic_monarchy
+			}
+			ruler_term={ # Xiphares
+				character=670
+				start_date=266.1.1
+				government=plutocratic_monarchy
+			}
+			ruler_term={ # Walwetes II
+				character=671
+				start_date=266.1.1
+				government=plutocratic_monarchy
+			}
+			ruler_term={ # Sandanis
+				character=672
+				start_date=318.1.1
+				government=plutocratic_monarchy
+			}
+			ruler_term={ # Hyassadolmus
+				character=673
+				start_date=328.1.1
+				government=plutocratic_monarchy
+			}
+			ruler_term={ # Ardys II
+				character=674
+				start_date=343.1.1
+				government=plutocratic_monarchy
+			}
+			ruler_term={ # Sifra
+				character=675
+				start_date=354.1.1
+				government=plutocratic_monarchy
+			}
+			ruler_term={ # Atys
+				character=676
+				start_date=400.1.1
+				government=plutocratic_monarchy
+			}
+			ruler_term={ # Atys
+				character=676
+				start_date=400.1.1
+				government=plutocratic_monarchy
+			}
+			ruler_term={ # Bartaras
+				character=677
+				start_date=403.1.1
+				government=plutocratic_monarchy
+			}
+			ruler_term={ # Sadyattes II
+				character=678
+				start_date=417.1.1
+				government=plutocratic_monarchy
+			}
+			ruler_term={ # Sandanis II
+				character=679
+				start_date=420.1.1
+				government=plutocratic_monarchy
+			}
+		}
+		UGR = {
+			ruler_term={ #Niqmaddu
+				character=626
+				start_date=412.1.1
+				government=theocratic_monarchy
+			}
+		}
 	}
 }

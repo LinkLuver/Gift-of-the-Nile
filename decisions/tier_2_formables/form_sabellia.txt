@@ -1,0 +1,89 @@
+﻿country_decisions = {
+	
+	# Form Sabellia
+	form_sabellia = {
+		
+		potential = {
+			num_of_cities >= 1
+			primary_culture = samnite
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+				has_variable = formed_sabellia
+				tag = SBI
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1713
+					province_id = 1718
+					province_id = 32
+					province_id = 35
+					province_id = 106
+					province_id = 28
+					province_id = 111
+					province_id = 107
+					province_id = 45
+					province_id = 8
+					province_id = 40
+				}
+			}
+		}
+		allow = {
+			war = no
+			owns_or_subject_owns = 1713
+			owns_or_subject_owns = 1718
+			owns_or_subject_owns = 32
+			owns_or_subject_owns = 35
+			owns_or_subject_owns = 106
+			owns_or_subject_owns = 28
+			owns_or_subject_owns = 111
+			owns_or_subject_owns = 107
+			owns_or_subject_owns = 45
+			owns_or_subject_owns = 40
+			owns_or_subject_owns = 8
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			#change_government = league_republic
+			add_political_influence = 100
+			add_3_free_province_investments = yes
+			change_country_name = "SABELLIA_NAME"
+			hidden_effect = {
+			change_country_adjective = "SABELLIA_ADJECTIVE"
+			change_country_flag = SABELLIAN_LEAGUE_FLAG
+			change_country_tag = SBI
+			change_country_color = "sabellian_league_yellow"
+			}
+			custom_tooltip = "sabellia_claims"
+			capital_scope = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			hidden_effect = {
+				trigger_event = {
+				id = gotn_formable_event.11
+				days = { 1 30 }
+			}
+			every_province = {
+				limit = {
+					OR = {
+						is_in_area = aternum_area
+						is_in_area = asculum_area
+						is_in_area = neapolis_area
+					}
+
+				}
+				add_claim = root
+				}
+				set_variable = formed_sabellia
+			}
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+}

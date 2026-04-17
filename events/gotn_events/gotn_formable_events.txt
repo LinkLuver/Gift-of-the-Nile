@@ -318,7 +318,7 @@ gotn_formable_event.5 = { # Return of the Cimmerians
             tag = MAP
             tag = SEL
             tag = ADI
-            tag = CM1
+            #tag = CM1
             #tag = CM1
 			#tag = CM5
 			tag = CM3
@@ -631,5 +631,28 @@ gotn_formable_event.10 = { #Generic Empire Coronation Event
 			name = vengeful_ruler_mod
 			duration = 1825
 		}
+	}
+}
+
+gotn_formable_event.11 = { # Sabellia gov and name options
+    type = country_event
+    title = "gotn_formable_event_11_title"
+    desc = "gotn_formable_event_11_desc"
+    picture = interesting_histories_italic_hilltop
+    fire_only_once = yes
+
+    option = {
+        name = "gotn_formable_event_11.a"
+        add_stability_effect_small = yes
+	}
+    option = {
+        name = "gotn_formable_event_11.b"
+        trigger={
+            NOT = {
+                government = league_republic
+            }
+        }
+        change_government = league_republic
+        change_country_name = SABELLIA_ALT_NAME
 	}
 }
